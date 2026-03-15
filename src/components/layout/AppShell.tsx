@@ -29,18 +29,37 @@ export default function AppShell() {
               <ArrowBackIcon />
             </IconButton>
           )}
-          <Typography
-            variant="h6"
-            component="div"
+          <Box
             sx={{
+              display: 'flex',
+              alignItems: 'center',
               flexGrow: 1,
               cursor: 'pointer',
-              fontSize: { xs: '1rem', sm: '1.25rem' },
+              gap: 1.5,
             }}
             onClick={() => navigate('/')}
           >
-            Fakten-Stammtisch
-          </Typography>
+            <Box
+              component="img"
+              src="/logo.png"
+              alt="Fakten-Stammtisch Logo"
+              sx={{
+                height: { xs: 28, sm: 32 },
+                width: 'auto',
+                borderRadius: '4px',
+              }}
+            />
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{
+                fontSize: { xs: '1rem', sm: '1.25rem' },
+                fontWeight: 600,
+              }}
+            >
+              Fakten-Stammtisch
+            </Typography>
+          </Box>
           <SearchBar />
         </Toolbar>
       </AppBar>
