@@ -1,5 +1,5 @@
-import { useState, useCallback } from 'react'
-import { useParams } from 'react-router-dom'
+import { useCallback, useEffect, useMemo } from 'react'
+import { useParams, useSearchParams, useLocation, useNavigate } from 'react-router-dom'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Tabs from '@mui/material/Tabs'
@@ -16,16 +16,31 @@ import { useTopic } from '../hooks/useTopics'
 export default function TopicPage() {
   const { topicId } = useParams<{ topicId: string }>()
   const { topic, loading, error } = useTopic(topicId)
-  const [tab, setTab] = useState(0)
-  const [expandedSection, setExpandedSection] = useState<string | null>(null)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const location = useLocation()
+  const navigate = useNavigate()
+  const tab = Number(searchParams.get('tab') ?? 0)
+  const hash = location.hash.slice(1)
+
+  const expandedSection = useMemo(() => {
+    if (hash.startsWith('section-')) return hash.replace('section-', '')
+    return null
+  }, [hash])
+
+  const setTab = useCallback((value: number) => {
+    setSearchParams({ tab: String(value) }, { replace: true })
+  }, [setSearchParams])
 
   const handleNavigateToSection = useCallback((sectionId: string) => {
-    setTab(1)
-    setExpandedSection(sectionId)
+    navigate(`?tab=1#section-${sectionId}`)
+  }, [navigate])
+
+  useEffect(() => {
+    if (!hash) return
     setTimeout(() => {
-      document.getElementById(`section-${sectionId}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }, 100)
-  }, [])
+      document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 150)
+  }, [hash, location.key])
 
   if (loading) {
     return (
@@ -57,7 +72,7 @@ export default function TopicPage() {
 
       <Tabs
         value={tab}
-        onChange={(_, v) => setTab(v)}
+        onChange={(_, v: number) => setTab(v)}
         variant="fullWidth"
         sx={{ mb: 2, borderBottom: 1, borderColor: 'divider' }}
       >
@@ -89,7 +104,7 @@ export default function TopicPage() {
         <Box>
           {topic.sections.map((section) => (
             <FactSection
-              key={section.id}
+              key={section.id === expandedSection ? `${section.id}-target` : section.id}
               section={section}
               defaultExpanded={section.id === expandedSection}
             />
