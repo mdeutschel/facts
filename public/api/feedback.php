@@ -89,7 +89,7 @@ if ($senderEmail !== '' && !filter_var($senderEmail, FILTER_VALIDATE_EMAIL)) {
 $senderEmail = str_replace(["\r", "\n"], '', $senderEmail);
 $senderName = str_replace(["\r", "\n"], ' ', $senderName);
 
-$recipient = implode('', ['fac', 'ts']) . '@' . implode('', ['hael', 'je', '.de']);
+$recipient = implode('', ['feed', 'back']) . '@' . implode('', ['fakten-', 'stammtisch', '.de']);
 $siteName = 'Fakten-Stammtisch';
 
 $topicLine = $submissionType === 'existing_topic'

@@ -9,10 +9,11 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy'
 import CheckIcon from '@mui/icons-material/Check'
 import { Link as RouterLink } from 'react-router-dom'
 import Link from '@mui/material/Link'
+import PageMeta from '../components/seo/PageMeta'
 
 export default function Impressum() {
   const email = useMemo(
-    () => String.fromCharCode(102, 97, 99, 116, 115, 64, 104, 97, 101, 108, 106, 101, 46, 100, 101),
+    () => String.fromCharCode(102, 101, 101, 100, 98, 97, 99, 107, 64, 102, 97, 107, 116, 101, 110, 45, 115, 116, 97, 109, 109, 116, 105, 115, 99, 104, 46, 100, 101),
     []
   )
   const [copied, setCopied] = useState(false)
@@ -26,6 +27,11 @@ export default function Impressum() {
 
   return (
     <Stack spacing={2.5}>
+      <PageMeta
+        title="Impressum und Datenschutz"
+        description="Impressum, Datenschutz und Kontaktinformationen von Fakten-Stammtisch."
+        path="/impressum"
+      />
       <Typography variant="h5" component="h1">
         Impressum & Datenschutz
       </Typography>
