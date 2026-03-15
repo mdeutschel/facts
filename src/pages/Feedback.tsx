@@ -110,7 +110,7 @@ export default function Feedback() {
     <Box>
       <PageMeta
         title="Feedback"
-        description="Feedback, neue Themen und Argumentvorschlaege direkt an Fakten-Stammtisch senden."
+        description="Feedback, neue Themen und Argumentvorschläge direkt an Fakten-Stammtisch senden."
         path="/feedback"
       />
       <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
