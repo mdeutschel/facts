@@ -21,6 +21,10 @@ AddDefaultCharset UTF-8
   </FilesMatch>
 </IfModule>
 
+# Social media and AI crawler handling for homepage
+RewriteCond %{HTTP_USER_AGENT} facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|TelegramBot|Discordbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|PerplexityBot|Applebot [NC]
+RewriteRule ^$ /og.php [L]
+
 # Social media and AI crawler handling for topic pages
 RewriteCond %{HTTP_USER_AGENT} facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|TelegramBot|Discordbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|PerplexityBot|Applebot [NC]
 RewriteRule ^thema/(.+)$ /og.php?topic=$1 [L,QSA]
