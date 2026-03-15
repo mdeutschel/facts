@@ -41,8 +41,10 @@ export default function AppShell() {
           >
             <Box
               component="img"
-              src="/logo.png"
+              src="/logo-sm.webp"
               alt="Fakten-Stammtisch Logo"
+              width={32}
+              height={32}
               sx={{
                 height: { xs: 28, sm: 32 },
                 width: 'auto',
@@ -65,7 +67,12 @@ export default function AppShell() {
       </AppBar>
       <Container
         maxWidth="md"
-        sx={{ flex: 1, py: { xs: 2, sm: 3 }, px: { xs: 1.5, sm: 3 } }}
+        sx={{
+          flex: 1,
+          py: { xs: 2, sm: 3 },
+          px: { xs: 1.5, sm: 3 },
+          minHeight: { xs: 'calc(100vh - 56px - 120px)', sm: 'calc(100vh - 64px - 120px)' },
+        }}
       >
         <Outlet />
       </Container>
