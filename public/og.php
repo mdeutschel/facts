@@ -132,9 +132,128 @@ $websiteJsonLd = [
     <?php endif; ?>
 
     <meta http-equiv="refresh" content="0;url=<?= h($path) ?>" />
+    <link rel="alternate" type="text/plain" href="<?= h($siteUrl) ?>/llms.txt" title="LLM-optimized summary" />
+    <link rel="alternate" type="text/plain" href="<?= h($siteUrl) ?>/llms-full.txt" title="LLM-optimized full content" />
   </head>
   <body>
-    <p>Weiterleitung...</p>
+    <h1><?= h($title) ?></h1>
+    <p><?= h($description) ?></p>
+
+<?php if ($topicId !== '' && isset($topic) && is_array($topic)): ?>
+    <?php if (isset($topic['facts']) && is_array($topic['facts'])): ?>
+      <h2>Fakten</h2>
+      <?php foreach ($topic['facts'] as $section): ?>
+        <?php if (is_array($section)): ?>
+          <h3><?= h((string)($section['title'] ?? '')) ?></h3>
+          <?php if (isset($section['content']) && is_array($section['content'])): ?>
+            <?php foreach ($section['content'] as $block): ?>
+              <?php if (is_array($block) && ($block['type'] ?? '') === 'bulletList' && isset($block['items']) && is_array($block['items'])): ?>
+                <ul>
+                  <?php foreach ($block['items'] as $item): ?>
+                    <li><?= h((string)$item) ?></li>
+                  <?php endforeach; ?>
+                </ul>
+              <?php elseif (is_array($block) && ($block['type'] ?? '') === 'text'): ?>
+                <p><?= h((string)($block['value'] ?? '')) ?></p>
+              <?php elseif (is_array($block) && ($block['type'] ?? '') === 'note'): ?>
+                <p><em><?= h((string)($block['text'] ?? '')) ?></em></p>
+              <?php endif; ?>
+            <?php endforeach; ?>
+          <?php endif; ?>
+        <?php endif; ?>
+      <?php endforeach; ?>
+    <?php endif; ?>
+
+    <?php if (isset($topic['arguments']) && is_array($topic['arguments'])): ?>
+      <h2>Argumente</h2>
+      <?php foreach ($topic['arguments'] as $argument): ?>
+        <?php if (is_array($argument)): ?>
+          <h3>Behauptung: <?= h((string)($argument['claim'] ?? '')) ?></h3>
+          <p><strong>Antwort:</strong> <?= h((string)($argument['response'] ?? '')) ?></p>
+          <?php if (isset($argument['details']) && is_array($argument['details'])): ?>
+            <ul>
+              <?php foreach ($argument['details'] as $detail): ?>
+                <li><?= h((string)$detail) ?></li>
+              <?php endforeach; ?>
+            </ul>
+          <?php endif; ?>
+        <?php endif; ?>
+      <?php endforeach; ?>
+    <?php endif; ?>
+
+    <?php if (isset($topic['sources']) && is_array($topic['sources'])): ?>
+      <h2>Quellen</h2>
+      <ul>
+        <?php foreach ($topic['sources'] as $source): ?>
+          <?php if (is_array($source)): ?>
+            <li>
+              <?= h((string)($source['label'] ?? (string)($source['name'] ?? ''))) ?>
+              <?php if (isset($source['url'])): ?>
+                — <a href="<?= h((string)$source['url']) ?>"><?= h((string)$source['url']) ?></a>
+              <?php endif; ?>
+            </li>
+          <?php endif; ?>
+        <?php endforeach; ?>
+      </ul>
+    <?php endif; ?>
+
+<?php else: ?>
+    <?php
+    $topicsFile = __DIR__ . '/data/topics.json';
+    $topicsList = [];
+    if (is_file($topicsFile)) {
+      $rawTopics = file_get_contents($topicsFile);
+      if ($rawTopics !== false) {
+        $decoded = json_decode($rawTopics, true);
+        if (is_array($decoded) && isset($decoded['topics'])) {
+          $topicsList = $decoded['topics'];
+        }
+      }
+    }
+    ?>
+    <h2>Themen</h2>
+    <ul>
+      <?php foreach ($topicsList as $t): ?>
+        <?php if (is_array($t)): ?>
+          <li>
+            <a href="<?= h($siteUrl . '/thema/' . (string)($t['id'] ?? '')) ?>">
+              <?= h((string)($t['title'] ?? '')) ?>
+            </a>
+            — <?= h((string)($t['subtitle'] ?? '')) ?>
+            <?php if (isset($t['keyStats']) && is_array($t['keyStats'])): ?>
+              <br /><small><?= h(implode(' · ', $t['keyStats'])) ?></small>
+            <?php endif; ?>
+          </li>
+        <?php endif; ?>
+      <?php endforeach; ?>
+    </ul>
+
+    <h2>Vollständiger Inhalt für KI-Systeme</h2>
+    <p>
+      <a href="<?= h($siteUrl) ?>/llms.txt">Zusammenfassung (llms.txt)</a> ·
+      <a href="<?= h($siteUrl) ?>/llms-full.txt">Alle Inhalte als Plaintext (llms-full.txt)</a>
+    </p>
+
+    <h2>Über diese Seite</h2>
+    <p>
+      Fakten-Stammtisch ist eine deutschsprachige Website, die faktenbasierte Argumente und
+      quellengestützte Informationen zu politischen und gesellschaftlichen Themen in Deutschland bereitstellt.
+      Die Inhalte richten sich an Menschen, die in informellen Diskussionen fundierte Gegenargumente
+      suchen. Alle Aussagen werden mit Primärquellen belegt.
+    </p>
+    <p>
+      <a href="<?= h($siteUrl) ?>/impressum">Impressum &amp; Datenschutz</a> ·
+      <a href="<?= h($siteUrl) ?>/feedback">Feedback</a> ·
+      E-Mail: feedback@fakten-stammtisch.de
+    </p>
+<?php endif; ?>
+
+    <noscript>
+      <p>Diese Seite benötigt JavaScript. Für eine textbasierte Version aller Inhalte:
+        <a href="<?= h($siteUrl) ?>/llms-full.txt"><?= h($siteUrl) ?>/llms-full.txt</a>
+      </p>
+    </noscript>
+
     <script>
       window.location.replace(<?= json_encode($path, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>)
     </script>
