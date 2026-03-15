@@ -20,7 +20,7 @@ export default function TopicPage() {
   const [expandedSection, setExpandedSection] = useState<string | null>(null)
 
   const handleNavigateToSection = useCallback((sectionId: string) => {
-    setTab(0)
+    setTab(1)
     setExpandedSection(sectionId)
     setTimeout(() => {
       document.getElementById(`section-${sectionId}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -61,21 +61,37 @@ export default function TopicPage() {
         variant="fullWidth"
         sx={{ mb: 2, borderBottom: 1, borderColor: 'divider' }}
       >
-        <Tab icon={<FactCheckIcon />} iconPosition="start" label="Fakten" />
         <Tab
           icon={<ForumIcon />}
           iconPosition="start"
-          label={`Konter (${topic.arguments.length})`}
+          label={`Argumente (${topic.arguments.length})`}
         />
+        <Tab icon={<FactCheckIcon />} iconPosition="start" label="Fakten" />
       </Tabs>
 
       {tab === 0 && (
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
+          <Typography variant="body2" color="text.secondary" sx={{ mb: 0.5 }}>
+            Aussagen und faktenbasierte Antworten:
+          </Typography>
+          {topic.arguments.map((arg) => (
+            <ArgumentCard
+              key={arg.id}
+              argument={arg}
+              sections={topic.sections}
+              onNavigateToSection={handleNavigateToSection}
+            />
+          ))}
+        </Box>
+      )}
+
+      {tab === 1 && (
         <Box>
-          {topic.sections.map((section, i) => (
+          {topic.sections.map((section) => (
             <FactSection
               key={section.id}
               section={section}
-              defaultExpanded={i === 0 || section.id === expandedSection}
+              defaultExpanded={section.id === expandedSection}
             />
           ))}
           {topic.sources.length > 0 && (
@@ -103,22 +119,6 @@ export default function TopicPage() {
               </Box>
             </Box>
           )}
-        </Box>
-      )}
-
-      {tab === 1 && (
-        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1.5 }}>
-          <Typography variant="body2" color="text.secondary" sx={{ mb: 0.5 }}>
-            Typische Behauptungen und wie du faktenbasiert antwortest:
-          </Typography>
-          {topic.arguments.map((arg) => (
-            <ArgumentCard
-              key={arg.id}
-              argument={arg}
-              sections={topic.sections}
-              onNavigateToSection={handleNavigateToSection}
-            />
-          ))}
         </Box>
       )}
     </Box>
