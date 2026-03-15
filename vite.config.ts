@@ -7,5 +7,18 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
+    target: 'es2022',
+    cssMinify: 'lightningcss',
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules/@mui/')) return 'mui'
+          if (id.includes('node_modules/react') || id.includes('node_modules/react-router-dom')) {
+            return 'vendor'
+          }
+          return undefined
+        },
+      },
+    },
   },
 })

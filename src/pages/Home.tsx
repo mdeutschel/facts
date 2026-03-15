@@ -29,7 +29,7 @@ export default function Home() {
         path="/"
       />
       <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
-        Themen
+        Themen fuer den Stammtisch
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
         Kennst du das? Am Stammtisch, beim Grillen oder im Familiengruppenchat
@@ -50,6 +50,35 @@ export default function Home() {
         {topics.map((topic) => (
           <TopicCard key={topic.id} topic={topic} />
         ))}
+      </Box>
+      <Box sx={{ mt: 4 }}>
+        <Typography variant="h6" component="h2" sx={{ mb: 1 }}>
+          So nutzt du die Fakten am effektivsten
+        </Typography>
+        <Typography variant="body2" color="text.secondary" sx={{ mb: 1.5 }}>
+          Jede Themenseite folgt einem einfachen Prinzip: erst der typische
+          Spruch, dann die kurze, quellenbasierte Antwort. Dadurch kannst du in
+          Gespraechen schnell reagieren, ohne lange suchen zu muessen. Wenn du
+          tiefer einsteigen willst, findest du darunter die Faktenstruktur mit
+          Zahlen, Einordnungen und Quellen. So entscheidest du selbst, ob du
+          nur eine kurze Replik brauchst oder ein Thema detailliert erklaeren
+          moechtest.
+        </Typography>
+        <Typography variant="body2" color="text.secondary" sx={{ mb: 1.5 }}>
+          Die Inhalte sind bewusst auf Deutschland ausgerichtet und in klarer
+          Alltagssprache formuliert. Es geht nicht um parteipolitische
+          Parolen, sondern um belastbare Informationen, die du in Diskussionen
+          sauber verwenden kannst. Zu jedem Thema werden Quellen angegeben, damit
+          die Aussagen nachvollziehbar bleiben und du bei Rueckfragen direkt
+          belegen kannst, woher eine Zahl oder ein Befund stammt.
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Fuer die Praxis bedeutet das: Du musst dir nicht hunderte Seiten
+          Studienmaterial merken. Nutze die Suchfunktion, oeffne ein Thema,
+          starte mit den kompakten Antworten und springe bei Bedarf in den
+          Fakten-Tab. So bleibst du sachlich, kannst Behauptungen einordnen und
+          auf wiederkehrende Stammtischfragen vorbereitet reagieren.
+        </Typography>
       </Box>
     </Box>
   )
