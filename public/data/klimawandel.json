@@ -1,0 +1,433 @@
+{
+  "id": "klimawandel",
+  "title": "Klimawandel",
+  "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
+  "icon": "thermostat",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "2024: Erstmals +1,6 °C über vorindustriellem Niveau",
+    "CO₂-Konzentration: ~427 ppm (vs. 280 ppm vorindustriell)",
+    "Nichtstun kostet bis 2100 ein Drittel des globalen BIP",
+    "9 Argumente"
+  ],
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Quellen (Stand März 2026). Siehe Quellenverzeichnis am Ende.",
+  "sections": [
+    {
+      "id": "globale-temperatur",
+      "title": "Globale Temperaturentwicklung",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "+1,60 °C", "label": "über vorindustriellem Niveau", "sublabel": "2024 (Copernicus)", "color": "#b71c1c"},
+            {"value": "15,10 °C", "label": "globale Mitteltemperatur", "sublabel": "2024 — neuer Rekord"},
+            {"value": "11 von 12", "label": "Monate 2024", "sublabel": "über 1,5-°C-Schwelle"},
+            {"value": "10 Jahre", "label": "wärmstes Jahrzehnt", "sublabel": "jemals gemessen"}
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Globale Erwärmung über vorindustriellem Niveau (°C)",
+          "unit": "°C",
+          "color": "#b71c1c",
+          "items": [
+            {"label": "1900", "value": 0.0},
+            {"label": "1950", "value": 0.2},
+            {"label": "1980", "value": 0.4},
+            {"label": "1990", "value": 0.5},
+            {"label": "2000", "value": 0.6},
+            {"label": "2010", "value": 0.8},
+            {"label": "2015", "value": 1.0},
+            {"label": "2020", "value": 1.3},
+            {"label": "2023", "value": 1.48},
+            {"label": "2024", "value": 1.60}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "2024 war das wärmste Jahr seit Beginn der Aufzeichnungen — und das erste Kalenderjahr, das die 1,5-°C-Schwelle des Pariser Abkommens überschritten hat.",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Das Pariser Abkommen bezieht sich auf Durchschnittswerte über Jahrzehnte, nicht auf Einzeljahre. Dennoch zeigt 2024 klar die Richtung: Die Erwärmung beschleunigt sich — von ~0,2 °C/Jahrzehnt in den 1970ern auf ~0,35–0,40 °C/Jahrzehnt seit 2015."
+        }
+      ]
+    },
+    {
+      "id": "co2-konzentration",
+      "title": "CO₂-Konzentration in der Atmosphäre",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "~427 ppm", "label": "CO₂-Konzentration", "sublabel": "2025 (Mauna Loa)", "color": "#b71c1c"},
+            {"value": "280 ppm", "label": "vorindustrielles Niveau", "sublabel": "vor 1750"},
+            {"value": "+53 %", "label": "Anstieg", "sublabel": "seit vorindustriellem Niveau"},
+            {"value": "100×", "label": "schneller als Natur", "sublabel": "CO₂-Anstieg vs. Eiszeiten"}
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "CO₂-Konzentration (ppm, Keeling-Kurve)",
+          "unit": "ppm",
+          "color": "#546e7a",
+          "items": [
+            {"label": "1960", "value": 317},
+            {"label": "1970", "value": 326},
+            {"label": "1980", "value": 339},
+            {"label": "1990", "value": 354},
+            {"label": "2000", "value": 370},
+            {"label": "2010", "value": 390},
+            {"label": "2015", "value": 401},
+            {"label": "2020", "value": 414},
+            {"label": "2024", "value": 424},
+            {"label": "2025", "value": 427}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die CO₂-Konzentration ist heute höher als jemals in den letzten 800.000 Jahren. Der Anstieg der letzten 100 Jahre entspricht dem natürlicher Zyklen über 10.000 Jahre — das ist 100-mal schneller.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "extremwetter",
+      "title": "Extremwetter: Häufiger, teurer, tödlicher",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "320 Mrd. $", "label": "Globale Schäden 2024", "sublabel": "Munich Re", "color": "#b71c1c"},
+            {"value": "224 Mrd. $", "label": "Globale Schäden 2025", "sublabel": "Munich Re"},
+            {"value": "5,7 Mrd. €", "label": "Deutschland 2024", "sublabel": "Naturgefahren gesamt"},
+            {"value": ">40 Mrd. €", "label": "Ahrtal 2021", "sublabel": "Gesamtschaden"}
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Globale versicherte Katastrophenschäden (Mrd. USD)",
+          "unit": "Mrd. $",
+          "items": [
+            {"label": "2020", "value": 82},
+            {"label": "2021", "value": 120},
+            {"label": "2022", "value": 125},
+            {"label": "2023", "value": 108},
+            {"label": "2024", "value": 140, "highlight": true},
+            {"label": "2025", "value": 108}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Sechs Jahre in Folge über 100 Mrd. USD versicherte Schäden weltweit. Wetterkatastrophen verursachen 93–97 % aller Naturkatastrophenschäden.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "caption": "Extremwetter-Schäden in Deutschland",
+          "headers": ["Ereignis / Jahr", "Versicherte Schäden", "Gesamtschaden"],
+          "rows": [
+            ["Ahrtal-Flut 2021", "8,75 Mrd. €", ">40 Mrd. €"],
+            ["Hochwasser/Starkregen 2024", "2,6 Mrd. €", "–"],
+            ["Alle Naturgefahren 2024", "5,7 Mrd. €", "–"],
+            ["Alle Naturgefahren 2025", "2,6 Mrd. €", "–"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die Ahrtal-Flut 2021 war die teuerste Naturkatastrophe der deutschen Geschichte: über 40 Mrd. € Gesamtschaden, 134 Todesopfer allein in Rheinland-Pfalz. Von den 30 Mrd. € Wiederaufbaufonds waren bis Ende 2023 erst 3,3 Mrd. € (11 %) abgeflossen."
+        }
+      ]
+    },
+    {
+      "id": "deutschland-emissionen",
+      "title": "Deutschlands Emissionen: Sektoren und Ziele",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "~650 Mio. t", "label": "CO₂-Äquivalente 2024", "sublabel": "UBA"},
+            {"value": "-48,2 %", "label": "seit 1990", "sublabel": "Gesamtreduktion", "color": "#00897b"},
+            {"value": "-65 %", "label": "Ziel 2030", "sublabel": "vs. 1990"},
+            {"value": "2045", "label": "Klimaneutralität", "sublabel": "gesetzliches Ziel"}
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Emissionen nach Sektoren 2024 (Mio. t CO₂-Äq.)",
+          "unit": "Mio. t",
+          "items": [
+            {"label": "Energie", "value": 188},
+            {"label": "Industrie", "value": 149},
+            {"label": "Verkehr", "value": 144, "highlight": true},
+            {"label": "Gebäude", "value": 100},
+            {"label": "Landwirtschaft", "value": 61}
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Emissionsentwicklung nach Sektoren (2023 → 2024)",
+          "headers": ["Sektor", "2024 (Mio. t)", "Veränderung", "Anmerkung"],
+          "rows": [
+            ["Energiewirtschaft", "188", "-7,4 %", "Kohlerückgang, EE-Ausbau"],
+            ["Industrie", "149", "+0,1 %", "Nahezu stagnierend"],
+            ["Verkehr", "144", "-0,2 %", "Sorgenkind: fast keine Reduktion"],
+            ["Gebäude", "100", "-2,3 %", "Wärmepumpen-Zuwachs +10 %"],
+            ["Landwirtschaft", "61", "-3,2 %", "Weniger Dünger, geringerer Viehbestand"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Der Verkehrssektor ist das Sorgenkind: -0,2 % Reduktion 2024. Ohne drastische Maßnahmen wird das Sektorziel klar verfehlt.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Die Energiewirtschaft trägt am stärksten zur Reduktion bei (-7,4 %), vor allem durch den Kohlerückgang und 62 % Erneuerbare im Strommix."
+        }
+      ]
+    },
+    {
+      "id": "kippelemente",
+      "title": "Kippelemente: Wenn das Klima den Point of no Return überschreitet",
+      "content": [
+        {
+          "type": "text",
+          "text": "Kippelemente sind Teile des Erdsystems, die ab einer bestimmten Temperaturschwelle irreversibel kippen — wie Dominosteine, die nicht mehr aufzustellen sind."
+        },
+        {
+          "type": "table",
+          "caption": "Wichtige Kippelemente und ihre Schwellen",
+          "headers": ["Kippelement", "Schwelle (°C)", "Folgen"],
+          "rows": [
+            ["Korallenriffe (warm)", "~1,2 °C", "Massenbleiche, Ökosystem-Kollaps — bereits überschritten"],
+            ["Grönland-Eisschild", "~1,5–2,0 °C", "Irreversibler Eisverlust, bis zu 7 m Meeresspiegelanstieg"],
+            ["Westantarktischer Eisschild", "~1,5–2,0 °C", "Instabiler Kollaps, bis zu 3 m Meeresspiegelanstieg"],
+            ["Permafrost (abrupt)", "~1,5–2,0 °C", "Massive Methan-/CO₂-Freisetzung, Selbstverstärkung"],
+            ["Amazonas-Regenwald", "~2,0 °C", "Dieback: Waldsterben durch Trockenheit, riesige CO₂-Quelle"],
+            ["AMOC (Atlantikzirkulation)", "~1,5–4,0 °C", "Zusammenbruch der Meeresströmung, extreme Folgen für Europa"],
+            ["Arktisches Sommereis", "~2,0 °C", "Eisfreie Sommer, Albedo-Verlust beschleunigt Erwärmung"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Bei 1,5 °C Erwärmung drohen bereits mehrere Kippelemente auszulösen. Warmwasser-Korallenriffe haben ihren Kipppunkt bei ~1,2 °C bereits überschritten.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "AMOC-Warnsignale: Aktuelle Forschung (2025) zeigt, dass die Atlantikzirkulation schneller an Stabilität verliert als Modelle vorhergesagt haben."
+        },
+        {
+          "type": "text",
+          "text": "Das Gefährliche: Kippelemente können sich gegenseitig auslösen (Kaskadeneffekte). Die AMOC ist an 45 % aller bekannten Kippunkt-Wechselwirkungen beteiligt — die meisten davon destabilisierend."
+        }
+      ]
+    },
+    {
+      "id": "kosten-handeln-vs-nichtstun",
+      "title": "Was kostet Handeln — was kostet Nichtstun?",
+      "content": [
+        {
+          "type": "comparison",
+          "caption": "Klimaschutz vs. Nichtstun",
+          "items": [
+            {
+              "title": "Kosten des Nichtstuns",
+              "color": "#b71c1c",
+              "rows": [
+                {"label": "Jährlicher Schaden bis 2050", "value": "38 Bio. USD/Jahr"},
+                {"label": "Anteil am globalen BIP bis 2050", "value": "~17 %"},
+                {"label": "Kumulativer BIP-Verlust bis 2100 (bei 3 °C)", "value": "15–34 %"},
+                {"label": "USA: Produktivitätsverluste 2000–2023", "value": "4 Bio. USD"}
+              ]
+            },
+            {
+              "title": "Kosten des Handelns",
+              "color": "#00897b",
+              "rows": [
+                {"label": "Investition für <2 °C bis 2100", "value": "1–2 % des BIP/Jahr"},
+                {"label": "Geschätzte Kosten dafür", "value": "6 Bio. USD"},
+                {"label": "Schadensreduktion dadurch", "value": "bis 90 %"},
+                {"label": "Return on Investment bis 2100", "value": "~10-fach"}
+              ]
+            }
+          ],
+          "savings": "Klimaschutz-Investitionen bringen bis 2100 das 10-Fache zurück"
+        },
+        {
+          "type": "fact",
+          "text": "Nichtstun kostet bis 2050 jährlich 38 Billionen USD — rund 17 % des globalen BIP. Klimaschutz kostet 1–2 % des BIP, spart aber 90 % der Schäden.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Die 6 Billionen USD für Klimaschutz sind weniger als ein Sechstel der Kosten, die bei einer Erwärmung über 2 °C entstehen."
+        }
+      ]
+    },
+    {
+      "id": "wissenschaftlicher-konsens",
+      "title": "Was sagt die Wissenschaft?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": ">99 %", "label": "der Fachpublikationen", "sublabel": "bestätigen menschengemachten Klimawandel", "color": "#00897b"},
+            {"value": "0", "label": "nationale Wissenschaftsakademien", "sublabel": "widersprechen dem Konsens"},
+            {"value": "6 Berichte", "label": "IPCC seit 1990", "sublabel": "wachsende Sicherheit"},
+            {"value": "\"unequivocal\"", "label": "IPCC AR6 (2023)", "sublabel": "= eindeutig menschengemacht"}
+          ]
+        },
+        {
+          "type": "timeline",
+          "caption": "Entwicklung des wissenschaftlichen Konsenses",
+          "steps": [
+            {"label": "2004", "value": "Oreskes-Studie", "sublabel": "928 Studien: 0 widersprachen dem Konsens"},
+            {"label": "2013", "value": "Cook et al.", "sublabel": "97 % Konsens unter 11.944 Studien"},
+            {"label": "2019", "value": "Powell-Studie", "sublabel": "100 % Konsens unter 11.602 Studien"},
+            {"label": "2021", "value": "Lynas et al.", "sublabel": ">99,9 % Konsens unter 88.125 Studien", "highlight": true},
+            {"label": "2023", "value": "IPCC AR6", "sublabel": "\"Unequivocally\" — eindeutig menschengemacht", "highlight": true}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Der IPCC AR6 (2023) stellt unmissverständlich fest: Menschliche Aktivitäten haben die globale Erwärmung 'eindeutig' (unequivocally) verursacht. Keine einzige nationale oder internationale Wissenschaftsakademie widerspricht.",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "klima-schon-immer",
+      "claim": "Das Klima hat sich schon immer verändert!",
+      "response": "Stimmt — aber der aktuelle CO₂-Anstieg ist 100-mal schneller als bei natürlichen Zyklen. Nach der letzten Eiszeit stieg CO₂ über 10.000 Jahre um ~80 ppm. Wir haben in nur 150 Jahren +147 ppm draufgelegt. Die Geschwindigkeit ist das Problem: Ökosysteme können sich nicht schnell genug anpassen. (Quelle: NASA, MIT Climate Portal)",
+      "keywords": ["klima", "schon immer", "verändert", "natürlich", "eiszeitzyklen", "zyklen"],
+      "relatedSections": ["co2-konzentration", "globale-temperatur"]
+    },
+    {
+      "id": "deutschland-allein",
+      "claim": "Deutschland allein kann das Klima nicht retten!",
+      "response": "Deutschland ist historisch der viertgrößte CO₂-Emittent der Welt (93 Mrd. Tonnen kumulativ). Pro Kopf emittieren wir ~7 t CO₂/Jahr — deutlich über dem globalen Durchschnitt von 4,9 t. Wenn jedes Land so argumentierte, passiert gar nichts. Zudem: Deutsche Klimaschutztechnologie (Erneuerbare, Wärmepumpen, E-Autos) ist ein Exportschlager — Handeln schafft Märkte und Arbeitsplätze. (Quellen: Our World in Data 2023, IEA 2023)",
+      "keywords": ["deutschland", "allein", "klimawandel", "retten", "zu klein", "anteil"],
+      "relatedSections": ["deutschland-emissionen", "kosten-handeln-vs-nichtstun"]
+    },
+    {
+      "id": "klimaschutz-arbeitsplaetze",
+      "claim": "Klimaschutz kostet Arbeitsplätze!",
+      "response": "Das Gegenteil ist der Fall: Weltweit arbeiten bereits 16,6 Mio. Menschen in der Erneuerbaren-Branche (IRENA 2024). In Deutschland hat sich die Zahl der Stellenausschreibungen in der Energiewende von 173.000 (2019) auf 372.500 (2024) mehr als verdoppelt. Die Branche sucht ~300.000 Fachkräfte. Im Gegensatz dazu: Die Kohleindustrie beschäftigte zuletzt nur noch ~20.000 Menschen. (Quellen: IRENA 2025, BEE 2025, BMWK 2024)",
+      "keywords": ["arbeitsplätze", "jobs", "kosten", "wirtschaft", "deindustrialisierung"],
+      "relatedSections": ["kosten-handeln-vs-nichtstun"]
+    },
+    {
+      "id": "wissenschaftler-uneinig",
+      "claim": "Die Wissenschaftler sind sich doch gar nicht einig!",
+      "response": "Doch — zu über 99 %. Eine Metastudie von 2021 (Lynas et al.) wertete 88.125 Fachpublikationen aus: über 99,9 % bestätigen den menschengemachten Klimawandel. Der IPCC AR6 (2023) stuft den menschlichen Einfluss als 'eindeutig' (unequivocal) ein. Keine einzige nationale Wissenschaftsakademie weltweit widerspricht. Zum Vergleich: 97 % Konsens ist höher als der ärztliche Konsens, dass Rauchen Lungenkrebs verursacht. (Quellen: Lynas et al. 2021, IPCC AR6 2023)",
+      "keywords": ["einig", "konsens", "wissenschaftler", "meinungen", "umstritten", "debatte"],
+      "relatedSections": ["wissenschaftlicher-konsens"]
+    },
+    {
+      "id": "gar-nicht-waermer",
+      "claim": "Es ist doch gar nicht wärmer geworden — letzter Winter war kalt!",
+      "response": "Wetter ≠ Klima. Ein kalter Winter in Deutschland ändert nichts am globalen Trend: 2024 war das wärmste Jahr seit Beginn der Aufzeichnungen (+1,6 °C über vorindustriellem Niveau). Die letzten zehn Jahre waren das wärmste Jahrzehnt ever. 11 von 12 Monaten in 2024 lagen über der 1,5-°C-Schwelle. Einzelne Kälteereignisse entstehen oft gerade durch Klimawandel — z. B. durch gestörte Jetstreams. (Quelle: Copernicus C3S 2025)",
+      "keywords": ["nicht wärmer", "kalt", "winter", "wetter", "schnee", "kälte"],
+      "relatedSections": ["globale-temperatur"]
+    },
+    {
+      "id": "co2-gut-fuer-pflanzen",
+      "claim": "CO₂ ist doch gut für Pflanzen!",
+      "response": "Im Gewächshaus unter Idealbedingungen stimmt das — aber die Erde ist kein Gewächshaus. In der realen Welt überwiegen die negativen Effekte: Hitzestress, Dürren, Starkregen und Nährstoffmangel reduzieren Ernteerträge. Freilandexperimente (FACE-Studien) zeigen 50 % geringere Erträge als Laborversuche. Eine Stanford-Studie zeigt: Ab 2050 überwiegt der Schaden durch Hitze den CO₂-Düngeeffekt komplett. Außerdem: Mehr CO₂ fördert vor allem Unkräuter, nicht Nutzpflanzen. (Quellen: Yale Climate Connections 2020, Skeptical Science)",
+      "keywords": ["co2", "pflanzen", "pflanzenwachstum", "dünger", "gut", "grüner"],
+      "relatedSections": ["co2-konzentration"]
+    },
+    {
+      "id": "china-indien-schlimmer",
+      "claim": "China und Indien sind doch viel schlimmer!",
+      "response": "China emittiert absolut am meisten — aber pro Kopf liegt China bei ~8 t, Deutschland bei ~7 t und Indien bei nur ~2 t (globaler Schnitt: 4,9 t). Historisch kumuliert hat der Westen das Problem verursacht: USA 24 %, Europa ~22 %, China 14 % der historischen Emissionen. Außerdem produziert China viele Waren für westliche Konsumenten — diese Emissionen müsste man eigentlich uns zurechnen. Und: China installiert mehr Erneuerbare als alle anderen Länder zusammen. (Quellen: Our World in Data 2023, IEA 2023)",
+      "keywords": ["china", "indien", "asien", "andere länder", "schlimmer", "emissionen", "pro kopf"],
+      "relatedSections": ["deutschland-emissionen", "co2-konzentration"]
+    },
+    {
+      "id": "vulkane-mehr-co2",
+      "claim": "Vulkane stoßen mehr CO₂ aus als Menschen!",
+      "response": "Falsch — und zwar deutlich. Alle Vulkane weltweit emittieren 150–450 Mio. Tonnen CO₂ pro Jahr. Menschen emittieren 37–59 Milliarden Tonnen — das ist 60- bis 270-mal mehr. Menschen produzieren in weniger als einer Woche so viel CO₂ wie alle Vulkane in einem ganzen Jahr. Sogar einzelne US-Bundesstaaten emittieren mehr als alle Vulkane der Erde zusammen. (Quellen: NOAA, USGS)",
+      "keywords": ["vulkane", "vulkan", "natürliche quellen", "co2-ausstoß", "natur"],
+      "relatedSections": ["co2-konzentration"]
+    },
+    {
+      "id": "zu-teuer",
+      "claim": "Klimaschutz können wir uns nicht leisten!",
+      "response": "Nichtstun ist um ein Vielfaches teurer: Laut Potsdam-Institut kostet der Klimawandel bis 2050 jährlich 38 Bio. USD (~17 % des globalen BIP). Klimaschutz erfordert dagegen 1–2 % des BIP pro Jahr — und bringt laut BCG (2025) das 10-Fache zurück. Allein das Ahrtal-Hochwasser 2021 verursachte >40 Mrd. € Schaden. Jeder investierte Euro in Prävention spart ein Vielfaches an Katastrophenkosten. (Quellen: PIK 2024, BCG 2025, GDV 2024)",
+      "keywords": ["zu teuer", "leisten", "kosten", "wirtschaft", "unbezahlbar", "wohlstand"],
+      "relatedSections": ["kosten-handeln-vs-nichtstun", "extremwetter"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Copernicus Climate Change Service (C3S): Global Climate Highlights 2024",
+      "url": "https://climate.copernicus.eu/global-climate-highlights-2024"
+    },
+    {
+      "label": "NOAA/Scripps: Keeling-Kurve — CO₂-Messungen Mauna Loa",
+      "url": "https://keelingcurve.ucsd.edu/"
+    },
+    {
+      "label": "IPCC AR6 Synthesis Report: Climate Change 2023",
+      "url": "https://www.ipcc.ch/assessment-report/ar6"
+    },
+    {
+      "label": "Munich Re: Natural Disaster Figures 2024 & 2025",
+      "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-2025.html"
+    },
+    {
+      "label": "Umweltbundesamt (UBA): Finale Emissionsdaten 2024",
+      "url": "https://www.umweltbundesamt.de/themen/finale-daten-fuer-2024-emissionen-um-drei-prozent"
+    },
+    {
+      "label": "Lynas et al. (2021): Greater than 99% consensus on human caused climate change",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/ac2966"
+    },
+    {
+      "label": "BCG (2025): Why Investing in Climate Action Makes Economic Sense",
+      "url": "https://www.bcg.com/publications/2025/investing-in-climate-action"
+    },
+    {
+      "label": "Potsdam-Institut für Klimafolgenforschung (PIK, 2024): 38 Bio. USD Klimaschäden/Jahr bis 2050",
+      "url": "https://www.reuters.com/business/environment/climate-change-damage-could-cost-38-trillion-per-year-by-2050-study-finds-2024-04-17/"
+    },
+    {
+      "label": "IRENA & ILO: Renewable Energy and Jobs – Annual Review 2025",
+      "url": "https://www.irena.org/Publications/2026/Jan/Renewable-energy-and-jobs-Annual-review-2025"
+    },
+    {
+      "label": "GDV: Naturgefahrenstatistik 2024 — Hochwasserschäden Deutschland",
+      "url": "https://www.gdv.de/gdv/medien/medieninformationen/gdv-naturgefahrenstatistik-2024-hochwasserschaeden-mehr-als-verdoppelt-188734"
+    },
+    {
+      "label": "Our World in Data: Cumulative & Per-Capita CO₂ Emissions",
+      "url": "https://ourworldindata.org/co2-emissions-metrics"
+    },
+    {
+      "label": "Armstrong McKay et al. (2022): Exceeding 1.5°C could trigger multiple climate tipping points (Science)",
+      "url": "https://www.science.org/doi/full/10.1126/science.abn7950"
+    },
+    {
+      "label": "NOAA Climate.gov: Vulkan- vs. menschliche CO₂-Emissionen",
+      "url": "https://www.climate.gov/news-features/climate-qa/which-emits-more-carbon-dioxide-volcanoes-or-human-activities"
+    },
+    {
+      "label": "NASA Climate: Evidence for Climate Change",
+      "url": "https://climate.nasa.gov/evidence/"
+    },
+    {
+      "label": "BEE / BMWK (2025): Erneuerbaren-Branche als Jobmotor — 372.500 Stellenausschreibungen",
+      "url": "https://www.bee-ev.de/service/pressemitteilungen/beitrag/erneuerbaren-branche-bleibt-jobmotor"
+    },
+    {
+      "label": "Global Tipping Points Report 2023 (University of Exeter)",
+      "url": "https://report-2023.global-tipping-points.org/"
+    }
+  ]
+}
