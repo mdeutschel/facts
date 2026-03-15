@@ -19,7 +19,17 @@ AddDefaultCharset UTF-8
   <FilesMatch "\.(html|json)$">
     Header set Cache-Control "no-cache"
   </FilesMatch>
+
+  # HTTP Link header pointing AI tools to llms.txt
+  Header set Link "</llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLM-optimized content\"" "expr=%{REQUEST_URI} =~ m#^/$|^/thema/#"
 </IfModule>
+
+# .well-known/llms.txt redirect
+RewriteRule ^\.well-known/llms\.txt$ /llms.txt [L,R=301]
+
+# Social media and AI crawler handling for homepage
+RewriteCond %{HTTP_USER_AGENT} facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|TelegramBot|Discordbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|PerplexityBot|Applebot [NC]
+RewriteRule ^$ /og.php [L]
 
 # Social media and AI crawler handling for topic pages
 RewriteCond %{HTTP_USER_AGENT} facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|TelegramBot|Discordbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|PerplexityBot|Applebot [NC]

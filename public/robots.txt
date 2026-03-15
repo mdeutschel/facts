@@ -23,3 +23,8 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://fakten-stammtisch.de/sitemap.xml
+
+# LLM-optimized content
+# https://llmstxt.org/
+# Summary: https://fakten-stammtisch.de/llms.txt
+# Full content: https://fakten-stammtisch.de/llms-full.txt
