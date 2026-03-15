@@ -26,7 +26,13 @@ export default function Home() {
         Themen
       </Typography>
       <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-        Faktenbasierte Argumente für die nächste Diskussion
+        Kennst du das? Am Stammtisch, beim Grillen oder im Familiengruppenchat
+        fällt ein steiler Spruch&nbsp;— und du weißt, dass es so nicht stimmt,
+        aber dir fehlen im Moment die Zahlen. Genau dafür ist diese Seite:
+        kompakte, quellenbasierte Fakten und fertige Argumente zu den Themen,
+        die in Deutschland immer wieder hochkochen. Kein Belehren, kein
+        Besserwissen&nbsp;— einfach vorbereitet sein, wenn&apos;s drauf
+        ankommt.
       </Typography>
       <Box
         sx={{
