@@ -217,6 +217,76 @@ function buildLlmsFull(topics, topicDataById) {
   ].join('\n')
 }
 
+function htmlEscape(value) {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+}
+
+function buildNoscriptHtml(topics, topicDataById) {
+  const lines = []
+  lines.push('    <noscript>')
+  lines.push('      <h1>Fakten-Stammtisch</h1>')
+  lines.push('      <p>Faktenbasierte Argumente und Quellen zu politischen und gesellschaftlichen Themen in Deutschland.</p>')
+  lines.push('      <p>Alle Inhalte als Textdatei: <a href="https://fakten-stammtisch.de/llms-full.txt">fakten-stammtisch.de/llms-full.txt</a></p>')
+  lines.push('      <h2>Themen</h2>')
+
+  for (const topic of topics) {
+    const data = topicDataById.get(topic.id)
+    if (!data) continue
+
+    const url = absoluteUrl(`/thema/${topic.id}`)
+    lines.push(`      <h3><a href="${htmlEscape(url)}">${htmlEscape(data.title)}</a></h3>`)
+    lines.push(`      <p>${htmlEscape(data.subtitle)}</p>`)
+
+    if (topic.keyStats && topic.keyStats.length > 0) {
+      lines.push('      <ul>')
+      for (const stat of topic.keyStats) {
+        lines.push(`        <li>${htmlEscape(stat)}</li>`)
+      }
+      lines.push('      </ul>')
+    }
+
+    if (data.arguments && data.arguments.length > 0) {
+      lines.push('      <details>')
+      lines.push(`        <summary>Argumente (${data.arguments.length})</summary>`)
+      lines.push('        <dl>')
+      for (const arg of data.arguments) {
+        lines.push(`          <dt>${htmlEscape(arg.claim)}</dt>`)
+        lines.push(`          <dd>${htmlEscape(arg.response)}</dd>`)
+      }
+      lines.push('        </dl>')
+      lines.push('      </details>')
+    }
+  }
+
+  lines.push('      <h2>Quellen &amp; Transparenz</h2>')
+  lines.push('      <p>Alle Aussagen auf dieser Seite werden mit Primärquellen belegt (Studien, amtliche Statistiken, Fachinstitute). Die vollständige Quellenliste ist auf jeder Themenseite einsehbar.</p>')
+  lines.push('      <p><a href="https://fakten-stammtisch.de/impressum">Impressum &amp; Datenschutz</a> · <a href="https://fakten-stammtisch.de/feedback">Feedback</a> · E-Mail: feedback@fakten-stammtisch.de</p>')
+  lines.push('    </noscript>')
+
+  return lines.join('\n')
+}
+
+async function injectNoscript(topics, topicDataById) {
+  const indexPath = path.join(ROOT_DIR, 'index.html')
+  const html = await readFile(indexPath, 'utf8')
+  const noscript = buildNoscriptHtml(topics, topicDataById)
+
+  const placeholder = '    <!-- NOSCRIPT_PLACEHOLDER -->'
+  if (html.includes(placeholder)) {
+    await writeFile(indexPath, html.replace(placeholder, noscript), 'utf8')
+    return
+  }
+
+  const noscriptRegex = / {4}<noscript>[\s\S]*?<\/noscript>/
+  if (noscriptRegex.test(html)) {
+    await writeFile(indexPath, html.replace(noscriptRegex, noscript), 'utf8')
+  }
+}
+
 async function main() {
   const indexRaw = await readFile(path.join(DATA_DIR, 'topics.json'), 'utf8')
   const topicIndex = JSON.parse(indexRaw)
@@ -231,6 +301,7 @@ async function main() {
   await writeFile(path.join(PUBLIC_DIR, 'sitemap.xml'), buildSitemap(topics), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms.txt'), buildLlmsTxt(topics), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms-full.txt'), buildLlmsFull(topics, topicDataById), 'utf8')
+  await injectNoscript(topics, topicDataById)
 }
 
 main().catch((error) => {
