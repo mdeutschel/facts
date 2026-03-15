@@ -1,0 +1,657 @@
+{
+  "id": "energiewende",
+  "title": "Energiewende & Atomkraft",
+  "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
+  "icon": "bolt",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "62 % Erneuerbare im Strommix",
+    "AKW-Neubau 3–5× teurer als Wind/Solar",
+    "400 GW beantragte Speicherleistung"
+  ],
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Quellen (Stand März 2026). Siehe Quellenverzeichnis am Ende.",
+  "sections": [
+    {
+      "id": "atomausstieg",
+      "title": "Der Atomausstieg – Wer hat entschieden?",
+      "content": [
+        {
+          "type": "table",
+          "caption": "Chronologie des Atomausstiegs",
+          "headers": ["Jahr", "Ereignis", "Verantwortlich"],
+          "rows": [
+            ["2010", "Laufzeitverlängerung beschlossen („Ausstieg vom Ausstieg“)", "CDU/CSU + FDP (Kabinett Merkel II)"],
+            ["2011", "Endgültiger Ausstiegsbeschluss nach Fukushima", "CDU/CSU + FDP (Kabinett Merkel II)"],
+            ["2023", "Letzte 3 AKW vom Netz (Streckbetrieb bis 15.04.2023)", "Ampel-Koalition (SPD/Grüne/FDP)"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Der Atomausstieg war ein CDU-geführter, parteiübergreifender Konsens – kein grünes Alleingangsprojekt.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "energiebedarf",
+      "title": "Energiebedarf: Was hätten AKW geändert?",
+      "content": [
+        {
+          "type": "fact",
+          "text": "Primärenergieverbrauch 2025: ca. 2.931 TWh (10.553 PJ)",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "caption": "Primärenergieverbrauch nach Energieträger",
+          "headers": ["Energieträger", "Anteil"],
+          "rows": [
+            ["Mineralöl", "35,7%"],
+            ["Erdgas", "26,9%"],
+            ["Erneuerbare Energien", "20,6%"],
+            ["Braunkohle", "~7%"],
+            ["Steinkohle", "~7%"],
+            ["Sonstige", "~2,8%"]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "AKW-Anteil am Primärenergieverbrauch",
+          "headers": ["Szenario", "Erzeugung", "Anteil am PEV"],
+          "rows": [
+            ["Letzte 3 AKW (2022/23)", "~33 TWh/a", "1,1%"],
+            ["Alle 6 AKW (Stand 2021)", "~69 TWh/a", "2,4%"],
+            ["Alle 17 hist. AKW (theoretisch)", "~150 TWh/a", "~5%"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Selbst alle 17 historischen AKW hätten nur ~5 % des Primärenergieverbrauchs gedeckt.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "gaskrise-2022",
+      "title": "Die Gaskrise 2022 – Warum AKW nicht geholfen hätten",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "~80 %", "label": "Wärme + Industrie", "sublabel": "Erdgasverbrauch"},
+            {"value": "~20 %", "label": "Stromerzeugung", "sublabel": "Erdgasverbrauch"}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "AKW erzeugen ausschließlich Strom. Sie ersetzen kein Gas in Gebäudeheizungen und Industrieöfen. Die Energiekrise 2022 war eine Gaskrise, keine Stromkrise.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "uranabhaengigkeit",
+      "title": "Uranabhängigkeit: Souveränität?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "20 %", "label": "Natururan", "sublabel": "aus Russland", "color": "#b71c1c"},
+            {"value": "26 %", "label": "Angereichertes Uran", "sublabel": "aus Russland", "color": "#c62828"},
+            {"value": "20 %", "label": "Natururan", "sublabel": "aus Kasachstan", "color": "#d32f2f"}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Kernkraft substituiert eine fossile Abhängigkeit durch eine nukleare.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "strommix-2025",
+      "title": "Strommix 2025: Wo stehen wir heute?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "62 %", "label": "Erneuerbare", "sublabel": "am Strommix 2025"},
+            {"value": "94 TWh", "label": "Kohle", "sublabel": "historischer Tiefstand"},
+            {"value": "-58 %", "label": "CO₂ vs. 1990", "sublabel": "Stromsektor"},
+            {"value": "31,2 Ct", "label": "Strompreis", "sublabel": "März 2026 (-12 %)"}
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Kennzahl", "Wert"],
+          "rows": [
+            ["Erneuerbaren-Anteil am Strommix", "62%"],
+            ["Kohleverstromung", "94 TWh (historischer Tiefstand)"],
+            ["CO₂-Emissionen Strom ggü. 1990", "-58%"],
+            ["Strompreis Bestandskunden (März 2026)", "31,2 Ct/kWh (-12% ggü. Vorjahr)"],
+            ["Spezifischer CO₂-Emissionsfaktor 2024", "363 g CO₂/kWh"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "62 % Erneuerbare im Strommix 2025 – bei gleichzeitig historisch niedrigster Kohleverstromung.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "stromgestehungskosten",
+      "title": "Stromgestehungskosten (LCOE) – Der Preisvergleich",
+      "content": [
+        {
+          "type": "text",
+          "text": "Quelle: Lazard LCOE+ v18.0 (Juni 2025), unsubventioniert, US-Marktdaten"
+        },
+        {
+          "type": "range_bar",
+          "caption": "LCOE nach Technologie (Ct/kWh, unsubventioniert)",
+          "maxScale": 25,
+          "unit": "Ct/kWh",
+          "items": [
+            {"label": "Solar", "min": 3.8, "max": 21.2, "color": "#fdd835"},
+            {"label": "Wind Onshore", "min": 4.8, "max": 10.7, "color": "#26a69a"},
+            {"label": "Gas CC", "min": 4.8, "max": 10.9, "color": "#78909c"},
+            {"label": "Wind Offshore", "min": 7.2, "max": 13.3, "color": "#4db6ac"},
+            {"label": "Kohle", "min": 7.1, "max": 17.3, "color": "#546e7a"},
+            {"label": "Kernkraft Neubau", "min": 14.1, "max": 22.0, "color": "#b71c1c"}
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "LCOE nach Technologie (unsubventioniert)",
+          "headers": ["Technologie", "LCOE (Ct/kWh)", "Anmerkung"],
+          "rows": [
+            ["Solar (Utility-Scale)", "3,8 – 21,2", "Günstigste Neubauten"],
+            ["Wind Onshore", "4,8 – 10,7", "Seit 10 Jahren unter Kernkraft"],
+            ["Gas Combined Cycle", "4,8 – 10,9", "Stark gaspreisabhängig"],
+            ["Wind Offshore", "7,2 – 13,3", "Fallend, aber noch teurer als Onshore"],
+            ["Kohle", "7,1 – 17,3", "Exkl. Transport/Speicherung"],
+            ["Kernkraft Neubau", "14,1 – 22,0", "Basierend auf Vogtle 3&4 (USA)"]
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Ergänzende LCOE-Werte",
+          "headers": ["Kategorie", "LCOE", "Quelle"],
+          "rows": [
+            ["Bestands-AKW (abbezahlt, Langzeitbetrieb)", "< 4,0 Ct/kWh", "OECD/IEA-NEA 2020"],
+            ["OECD-Modell „Nth-of-a-kind“ (3% Diskont)", "5,5 – 9,5 Ct/kWh", "OECD/IEA-NEA 2020"],
+            ["Hinkley Point C (Strike Price)", "15 Ct/kWh (inflationsindexiert)", "EDF, Stand 01/2026"],
+            ["Barakah (VAE, südkoreanischer Bau)", "~4–6 Ct/kWh (geschätzt)", "Ohne Verifikation"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Neubau-Kernkraft ist 3–5x teurer als Solar/Wind. Günstig ist nur Atomstrom aus bereits abbezahlten Anlagen – die gibt es in Deutschland nicht mehr.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "akw-neubau",
+      "title": "AKW-Neubau im Westen: Kein Projekt im Budget",
+      "content": [
+        {
+          "type": "table",
+          "caption": "Westliche AKW-Neubauprojekte",
+          "headers": ["Projekt", "Land", "Kosten", "Bauzeit", "Original-Budget", "Verspätung"],
+          "rows": [
+            ["Hinkley Point C", "GB", "55 Mrd. EUR", "2017 – 2030+", "18 Mrd. GBP", "5+ Jahre"],
+            ["Flamanville 3", "FR", "23,7 Mrd. EUR", "2007 – 2024", "3,3 Mrd. EUR", "10+ Jahre"],
+            ["Olkiluoto 3", "FI", "11 Mrd. EUR", "2005 – 2023", "3 Mrd. EUR", "14 Jahre"],
+            ["Vogtle 3&4", "USA", "~32,3 Mrd. USD", "2013 – 2023/24", "14 Mrd. USD", "7+ Jahre"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gegenbeispiel: Barakah (VAE) – 4 Blöcke in je ~8 Jahren, ~20,4 Mrd. USD für 5,6 GW. Allerdings: südkoreanische Serienfertigung, autokratische Genehmigung, einfacheres Containment, niedrige Arbeitskosten – nicht auf westliche Demokratien übertragbar."
+        },
+        {
+          "type": "fact",
+          "text": "Durchschnittliche Bauzeit westlicher Neubauten: 14,3 Jahre",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Bei Baubeschluss heute: Erster Strom frühestens ~2040"
+        },
+        {
+          "type": "fact",
+          "text": "In Deutschland: Kein Fachpersonal, keine Lieferketten, keine Genehmigungsstrukturen"
+        }
+      ]
+    },
+    {
+      "id": "frankreich-2022",
+      "title": "Frankreich 2022: Warnung vor dem „Versorgungssicher“-Mythos",
+      "content": [
+        {
+          "type": "fact",
+          "text": "2022 fielen bis zu 32 von 56 französischen Reaktoren gleichzeitig aus.",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Ursache 1: Spannungsrisskorrosion an Rohrleitungen (Sicherheitsüberprüfungen). Ursache 2: Kühlwassermangel durch Hitzewellen und niedrige Flusspegel. Folge: Frankreich wurde zum Nettostromimporteur, u.a. aus Deutschland."
+        },
+        {
+          "type": "fact",
+          "text": "AKW-Flotten sind nicht immun gegen Alterung, Klimawandel und gleichzeitige Wartungszyklen. „Kernkraft = Versorgungssicherheit“ ist eine Vereinfachung.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "dunkelflauten",
+      "title": "Dunkelflauten: Reales Problem, kein Showstopper",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "~3×/Jahr", "label": "Dunkelflauten >48h", "sublabel": "Schnitt 10 Jahre"},
+            {"value": "0", "label": "Versorgungsengpässe", "sublabel": "laut BNetzA", "color": "#00897b"},
+            {"value": "573 Std.", "label": "Negativpreisstunden", "sublabel": "2025 (6× ggü. 2016)"}
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Kennzahl", "Wert", "Quelle"],
+          "rows": [
+            ["Durchschnittliche Häufigkeit (>48h)", "~3x pro Jahr", "1KOMMA5°/Fraunhofer ISE (2016–2025)"],
+            ["Häufung über 10 Jahre", "Nicht zugenommen trotz EE-Ausbau", "1KOMMA5°/Fraunhofer ISE"],
+            ["Versorgungsengpässe", "0 (keine einzige)", "Bundesnetzagentur"],
+            ["Negativpreisstunden 2025", "573 (6x mehr als 2016)", "Bundesnetzagentur"],
+            ["Längste Dunkelflaute 2025", "89 Stunden", "1KOMMA5°"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Null Versorgungsengpässe trotz wachsendem Erneuerbaren-Anteil.",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Überbrückung heute: Gaskraftwerke, europäische Stromimporte, wachsend: Batteriespeicher. Kern des Problems: Nicht die Häufigkeit der Dunkelflauten, sondern fehlende Speicher und Netzkapazitäten."
+        }
+      ]
+    },
+    {
+      "id": "strombedarf-2045",
+      "title": "Strombedarf 2045: Verdopplung durch Elektrifizierung",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "~520 TWh", "label": "Heute (2025)", "sublabel": "17 % Stromanteil"},
+            {"value": "1.037–1.423", "label": "TWh bis 2045", "sublabel": "47–59 % Stromanteil", "color": "#00897b"}
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Bruttostromverbrauch – Entwicklung",
+          "headers": ["Zeitpunkt", "Bruttostromverbrauch", "Stromanteil am Energiemix"],
+          "rows": [
+            ["Heute (2025)", "~520 TWh", "17%"],
+            ["2030 (Ariadne)", "681 – 807 TWh", "~25–30%"],
+            ["2045 (Ariadne)", "1.037 – 1.423 TWh", "47 – 59%"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Treiber des Mehrbedarfs: Direkte Elektrifizierung (Wärmepumpen + E-Autos ersetzen Gasheizungen und Verbrenner), grüner Wasserstoff (400–620 TWh Strom allein für Elektrolyseure in Stahl, Chemie, Luftfahrt) und ein Gegeneffekt: Gesamtenergiebedarf sinkt dank Effizienz um 32–38%."
+        },
+        {
+          "type": "fact",
+          "text": "Selbst alle 17 historischen deutschen AKW hätten bei verdoppeltem Strombedarf nur ~10% gedeckt. Der EE-Ausbau bleibt in jedem Szenario unvermeidlich.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "speicherausbau",
+      "title": "Speicherausbau: Der Markt drängt, die Bürokratie bremst",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "400 GW", "label": "beantragt", "sublabel": "Leistung 2024"},
+            {"value": "661 GWh", "label": "beantragt", "sublabel": "Kapazität 2024"},
+            {"value": "25,5 GWh", "label": "installiert", "sublabel": "Ende 2025"},
+            {"value": "500–600", "label": "GWh Bedarf", "sublabel": "bis 2045", "color": "#b71c1c"}
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Kennzahl", "Wert", "Quelle"],
+          "rows": [
+            ["Beantragte Leistung (2024, ab Mittelspannung)", "~400 GW", "BNetzA (11/2025)"],
+            ["Beantragte Kapazität (2024)", "661 GWh", "BNetzA (11/2025)"],
+            ["Erteilte Anschlusszusagen (2024)", "25 GW / 46 GWh", "BNetzA (11/2025)"],
+            ["Installiert gesamt (Ende 2025)", "25,5 GWh", "MaStR/pv magazine"],
+            ["Davon Großspeicher (>1 MW)", "2,4 GW / 3,5 GWh", "Modo Energy (02/2026)"],
+            ["Pipeline 2026", "3,4 GW geplant", "Modo Energy"],
+            ["Bedarf 2030", "~125 GWh", "CAV Partners (02/2026)"],
+            ["Bedarf 2045", "500–600 GWh", "CAV Partners (02/2026)"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "400 GW beantragte Speicherleistung – der Markt will, aber Netzanschlüsse und Genehmigungsverfahren bremsen.",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Engpass: Nicht Investoreninteresse oder Technologie, sondern Netzanschlüsse, Genehmigungsverfahren und regulatorische Unsicherheit."
+        }
+      ]
+    },
+    {
+      "id": "smr",
+      "title": "Small Modular Reactors: Viel Hype, wenig Realität",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "0", "label": "kommerz. SMR", "sublabel": "im Westen in Betrieb", "color": "#b71c1c"},
+            {"value": "14,9 Ct", "label": "Strompreis/kWh", "sublabel": "Darlington (Kanada)"},
+            {"value": "~2030", "label": "früheste", "sublabel": "Inbetriebnahme"}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Einziges westliches SMR-Bauprojekt: BWRX-300 in Darlington (Kanada) – Kosten: CAD 7,7 Mrd. für 300 MW, Strompreis 14,9 Ct/kWh.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "NuScale CFPP (USA, erstes US-Projekt): November 2023 eingestellt. Kosten explodierten von $5,3 auf $9,3 Mrd. (+75 %)."
+        },
+        {
+          "type": "fact",
+          "text": "Zum Vergleich: Solar/Wind in Deutschland bei 4–7 Ct/kWh – weniger als die Hälfte des SMR-Preises."
+        },
+        {
+          "type": "text",
+          "text": "Selbst wenn Deutschland heute einen SMR bestellte, käme der erste Strom frühestens ~2035. In derselben Zeit baut Deutschland ~200 GW Erneuerbare zu."
+        }
+      ]
+    },
+    {
+      "id": "atommuell",
+      "title": "Atommüll: Das vergessene Milliardenproblem",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "~1.700", "label": "Castor-Behälter", "sublabel": "in Zwischenlagern", "color": "#b71c1c"},
+            {"value": "47,5 Mrd.", "label": "EUR geschätzt", "sublabel": "Gesamtkosten"},
+            {"value": "2050+", "label": "Endlager", "sublabel": "früheste Entscheidung"},
+            {"value": "52 %", "label": "BMU-Budget", "sublabel": "für Atommüll"}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "AKW-Betreiber zahlten 24 Mrd. EUR in den KENFO-Entsorgungsfonds ein. Bereits 4,47 Mrd. EUR ausgezahlt (Stand 2024). Allein 2024: 805 Mio. EUR.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Endlager-Standort frühestens 2050 (optimistisch), eher 2074 (aktueller Rechtsrahmen)."
+        },
+        {
+          "type": "fact",
+          "text": "Über die Hälfte des Budgets des Bundesumweltministeriums (1,4 von 2,69 Mrd. EUR in 2025) fließt in Atommüll-Verwaltung.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Falls der KENFO-Fonds nicht reicht: der Steuerzahler haftet."
+        }
+      ]
+    },
+    {
+      "id": "ee-ausbau",
+      "title": "EE-Ausbau: 21 GW in einem Jahr – Rekordtempo",
+      "content": [
+        {
+          "type": "bar_chart",
+          "caption": "Jährlicher EE-Zubau (GW)",
+          "items": [
+            {"label": "2023", "value": 17},
+            {"label": "2024", "value": 19},
+            {"label": "2025", "value": 21, "highlight": true}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "2025: 16,4 GW Solar + 4,6 GW Wind onshore + 0,3 GW Wind offshore = 21,3 GW Zubau.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "EE-Gesamtkapazität Deutschland: ~210 GW (Stand Ende 2025)."
+        },
+        {
+          "type": "fact",
+          "text": "Wind-Genehmigungen 2025: 20,8 GW genehmigt – die Pipeline für Folgejahre wächst."
+        },
+        {
+          "type": "fact",
+          "text": "Zum Vergleich: Ein großes AKW = ~1,4 GW. Deutschland baut pro Jahr das Äquivalent von ~15 AKW-Blöcken an EE-Kapazität zu."
+        },
+        {
+          "type": "text",
+          "text": "Die Ziele für 2030 erfordern noch mehr: 19,6 GW/Jahr Solar und 9,4 GW/Jahr Wind onshore. Der Fokus muss auf EE-Beschleunigung liegen, nicht auf AKW-Debatten."
+        }
+      ]
+    },
+    {
+      "id": "eu-vergleich",
+      "title": "EU-Vergleich: Erneuerbare überholen Atom europaweit",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "47,5 %", "label": "EE-Anteil EU", "sublabel": "am Strommix 2024", "color": "#00897b"},
+            {"value": "23,3 %", "label": "Atom-Anteil EU", "sublabel": "am Strommix 2024"},
+            {"value": "12/27", "label": "EU-Staaten", "sublabel": "betreiben AKW"},
+            {"value": "58,6 %", "label": "FR allein", "sublabel": "des EU-Atomstroms"}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "EE-Anteil in der EU verdreifacht seit 2004: von 15,9 % auf 47,5 %.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Spitzenreiter EE: Österreich (90,1 %), Schweden (88,1 %), Dänemark (79,7 %)."
+        },
+        {
+          "type": "fact",
+          "text": "Länder wie Dänemark und Österreich zeigen: Hohe Versorgungssicherheit auch ohne ein einziges AKW."
+        },
+        {
+          "type": "text",
+          "text": "Atomkraft ist ein europäisches Nischenprodukt – nur 12 Länder nutzen es, und der Trend geht klar Richtung Erneuerbare."
+        }
+      ]
+    },
+    {
+      "id": "stromverbund",
+      "title": "Europäischer Stromverbund: Deutschland ist keine Insel",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "76,2 TWh", "label": "Import 2025", "sublabel": "~50 % erneuerbar"},
+            {"value": "54,3 TWh", "label": "Export 2025", "sublabel": "67 % erneuerbar"},
+            {"value": "67,5 %", "label": "EE-Rekord", "sublabel": "Q2 2025"}
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Nettoimport 2025: 21,9 TWh – 22,6 % weniger als 2024. Tendenz: Importbedarf sinkt.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Skandinavische Wasserkraft kompensiert deutsche Dunkelflauten. Deutscher Solarüberschuss fließt mittags in Nachbarländer."
+        },
+        {
+          "type": "fact",
+          "text": "EU-Regel: Mindestens 70 % der physischen Übertragungskapazität muss für grenzüberschreitenden Handel verfügbar sein."
+        },
+        {
+          "type": "text",
+          "text": "Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System-Design. Es ist billiger als jedes Land für sich allein."
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "zeig-mir-das-akw",
+      "claim": "Zeig mir das AKW, das du bauen willst.",
+      "response": "55 Mrd. EUR für Hinkley Point C, 15–20 Jahre Bauzeit. In Deutschland: kein Fachpersonal, keine Lieferketten, keine Genehmigungsstrukturen. Neue AKW sind das Gegenteil von „realistisch“. Bei Baubeschluss heute: erster Strom frühestens ~2040.",
+      "keywords": ["akw", "neubau", "bauzeit", "kosten", "hinkley point", "kernkraftwerk", "atomkraftwerk"],
+      "relatedSections": ["akw-neubau", "stromgestehungskosten"]
+    },
+    {
+      "id": "akw-ersetzen-keinen-schritt",
+      "claim": "AKW ersetzen keinen einzigen Schritt der Energiewende.",
+      "response": "Selbst alle 17 alten AKW deckten bei verdoppeltem Strombedarf nur ~10%. Netze, Speicher, Windräder braucht man so oder so. Kernkraft ist bestenfalls Ergänzung, kein Alternativpfad.",
+      "keywords": ["energiewende", "erneuerbare", "ausbau", "strombedarf", "alternativpfad", "kernkraft"],
+      "relatedSections": ["energiebedarf", "strombedarf-2045"]
+    },
+    {
+      "id": "krise-war-gas-nicht-strom",
+      "claim": "Die Krise war Gas, nicht Strom.",
+      "response": "80% des Erdgases ging in Wärme und Industrie, nicht in Strom. AKW hätten die Gaskrise 2022 strukturell nicht gelöst. Und Uran kommt zu 46% aus Russland und Kasachstan.",
+      "keywords": ["gaskrise", "energiekrise", "erdgas", "wärme", "uran", "russland", "kasachstan"],
+      "relatedSections": ["gaskrise-2022", "uranabhaengigkeit"]
+    },
+    {
+      "id": "problem-heisst-buerokratie",
+      "claim": "Das Problem heißt Bürokratie, nicht Technologie.",
+      "response": "400 GW beantragte Speicherleistung zeigen: Der Markt will. Der Engpass sind Netzanschlüsse, Genehmigungsverfahren und Abstandsregeln. Das ist politisches Versagen aller Parteien – kein Versagen der Erneuerbaren.",
+      "keywords": ["bürokratie", "genehmigung", "speicher", "netzanschluss", "abstandsregeln", "batteriespeicher"],
+      "relatedSections": ["speicherausbau", "dunkelflauten"]
+    },
+    {
+      "id": "smr-loest-alles",
+      "claim": "Aber SMRs lösen doch das Problem!",
+      "response": "Es gibt keinen einzigen kommerziellen SMR im Westen. Das am weitesten fortgeschrittene Projekt (Darlington, Kanada) produziert Strom für ~15 Ct/kWh – doppelt so teuer wie Wind/Solar. Das einzige US-Projekt (NuScale) wurde 2023 eingestellt. Frühestmögliche Inbetriebnahme: ~2030.",
+      "keywords": ["smr", "small modular", "mini-akw", "neue reaktoren", "generation iv"],
+      "relatedSections": ["smr", "stromgestehungskosten"]
+    },
+    {
+      "id": "atommuell-erledigt",
+      "claim": "Atomkraft ist doch abgeschaltet und erledigt!",
+      "response": "~1.700 Castor-Behälter stehen noch in Zwischenlagern. Die Endlagersuche dauert bis mindestens 2050. Geschätzte Gesamtkosten: 47,5 Mrd. EUR. Über die Hälfte des Umweltministeriums-Budgets fließt in Atommüll. Neue AKWs würden das Problem nur vergrößern.",
+      "keywords": ["atommüll", "endlager", "castor", "entsorgung", "kosten"],
+      "relatedSections": ["atommuell"]
+    },
+    {
+      "id": "deutschland-muss-sich-selbst-versorgen",
+      "claim": "Deutschland muss sich doch selbst versorgen können!",
+      "response": "Der europäische Stromverbund existiert genau dafür. 2025 importierte DE 76 TWh und exportierte 54 TWh. Skandinavische Wasserkraft kompensiert Dunkelflauten, deutscher Solarüberschuss fließt in Nachbarländer. Das ist kein Versagen, sondern intelligentes Design – und billiger als Autarkie.",
+      "keywords": ["autarkie", "selbstversorgung", "import", "abhängigkeit", "stromverbund"],
+      "relatedSections": ["stromverbund", "dunkelflauten"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Lazard LCOE+ v18.0 (Juni 2025) – Stromgestehungskosten nach Technologie",
+      "url": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus-lcoeplus/"
+    },
+    {
+      "label": "Ariadne: Szenarien zur Klimaneutralität 2045 (Nov. 2025) – Strombedarf 2030/2045, Elektrifizierungspfade",
+      "url": "https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/"
+    },
+    {
+      "label": "AG Energiebilanzen (AGEB): Jahresbericht 2025 – Primärenergieverbrauch, Energieträgermix",
+      "url": "https://ag-energiebilanzen.de/"
+    },
+    {
+      "label": "BNetzA: Stromspeicher / Netzanschlussanfragen (Nov. 2025) – Speicherkapazitäten, Antrags- und Zusagedaten",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Speicher/start.html"
+    },
+    {
+      "label": "Agora Energiewende: Stand der Dinge 2025 – Strommix, CO₂-Emissionen, EE-Ausbaustand",
+      "url": "https://www.agora-energiewende.de/"
+    },
+    {
+      "label": "UBA: Spezifische CO₂-Emissionen Strommix – CO₂-Emissionsfaktoren 1990–2024",
+      "url": "https://www.umweltbundesamt.de/themen/co2-emissionen-pro-kilowattstunde-strom-2024"
+    },
+    {
+      "label": "IAEA / Statista: Kernenergie-Anteil Deutschland – Historische Anteile 2003–2023",
+      "url": "https://de.statista.com/statistik/daten/studie/29295/"
+    },
+    {
+      "label": "EDF: Hinkley Point C Projektmitteilungen (Feb. 2026) – Baukosten, Zeitplan, Strike Price",
+      "url": "https://www.edf.fr/"
+    },
+    {
+      "label": "IWR: Hinkley Point C / Flamanville Analysen – Baukosten- und Bauzeitvergleiche",
+      "url": "https://www.iwr.de/"
+    },
+    {
+      "label": "BEE: Strombedarfsanalyse (2025) – Sektorenkopplung und H₂-Erzeugung",
+      "url": "https://www.bee-ev.de/"
+    },
+    {
+      "label": "CAV Partners: Batteriespeicher-Analyse (Feb. 2026) – Speicherbedarf 500–600 GWh bis 2045",
+      "url": "https://www.pv-magazine.de/2026/02/23/cav-partners-deutschland-benoetigt-bis-zu-600-gigawattstunden-batteriespeicher-bis-2045/"
+    },
+    {
+      "label": "1KOMMA5° / Fraunhofer ISE: Dunkelflauten (Dez. 2025) – Häufigkeit/Dauer 2016–2025",
+      "url": "https://www.solarserver.de/2025/12/19/analyse-dunkelflauten-bleiben-selten-trotz-ausbau-erneuerbarer-energien/"
+    },
+    {
+      "label": "BNetzA Insight Blog: Dunkelflaute (Jan. 2025) – Versorgungssicherheit, Preisspitzen",
+      "url": "https://www.bundesnetzagentur.de/DE/Allgemeines/DieBundesnetzagentur/Insight/Texte/Energiewende/Dunkelflaute.html"
+    },
+    {
+      "label": "Wikipedia: Kernkraftwerk Barakah – Südkoreanische Bauzeiten/Kosten",
+      "url": "https://de.wikipedia.org/wiki/Kernkraftwerk_Barakah"
+    },
+    {
+      "label": "Schweizer Energiestiftung / Profundos – Budgetüberschreitungen 6 westlicher AKW",
+      "url": "https://energiestiftung.ch/fokus-atomkraftwerke-zu-teuer-und-zu-spaet"
+    },
+    {
+      "label": "Ontario Power Generation / WNN – BWRX-300 Darlington (2025)",
+      "url": "https://www.world-nuclear-news.org/"
+    },
+    {
+      "label": "NuScale Power / NYT – CFPP-Projekteinstellung (Nov. 2023)"
+    },
+    {
+      "label": "BGE – Bundesgesellschaft für Endlagerung, Sachstand (2025)",
+      "url": "https://www.bge.de/"
+    },
+    {
+      "label": "KENFO – Fonds zur Finanzierung der kerntechnischen Entsorgung (2024)",
+      "url": "https://www.kenfo.de/"
+    },
+    {
+      "label": "Bundesnetzagentur – EE-Ausbauzahlen 2025 (Jan. 2026)",
+      "url": "https://www.bundesnetzagentur.de/"
+    },
+    {
+      "label": "Eurostat – EU Strommix 2024 (Jan. 2026)",
+      "url": "https://ec.europa.eu/eurostat/"
+    },
+    {
+      "label": "SMARD – Strommarktdaten Import/Export 2025",
+      "url": "https://www.smard.de/"
+    }
+  ]
+}
