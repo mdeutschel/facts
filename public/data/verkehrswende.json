@@ -1,0 +1,166 @@
+{
+  "id": "verkehrswende",
+  "title": "Verkehrswende",
+  "subtitle": "Fakten zu E-Mobilität, ÖPNV und Emissionszielen",
+  "icon": "directions_car",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "2,03 Mio. E-Autos (BEV) in Deutschland (2026)",
+    "14,6 Mio. Deutschlandticket-Nutzer (Ende 2025)",
+    "146 Mio. t CO₂-Ausstoß im Verkehrssektor (2023)"
+  ],
+  "sourceNote": "Daten basieren auf offiziellen Statistiken des Kraftfahrt-Bundesamtes (KBA), des Umweltbundesamtes (UBA) sowie des Verbands Deutscher Verkehrsunternehmen (VDV) für die Jahre 2025/2026.",
+  "sections": [
+    {
+      "id": "emobilitaet",
+      "title": "E-Mobilität vs. Verbrenner",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "2,03 Mio.",
+              "label": "E-Autos (BEV)",
+              "sublabel": "Bestand 1. Jan 2026"
+            },
+            {
+              "value": "42,7 Mio.",
+              "label": "Verbrenner",
+              "sublabel": "Bestand 1. Jan 2026"
+            },
+            {
+              "value": "19,1%",
+              "label": "BEV-Anteil",
+              "sublabel": "an Neuzulassungen 2025"
+            }
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Gesamtwirkungsgrad (Well-to-Wheel) im Vergleich",
+          "items": [
+            {
+              "title": "Elektroauto (BEV)",
+              "color": "#00897b",
+              "rows": [
+                { "label": "Energie am Rad", "value": "70-80%" },
+                { "label": "Verluste (Laden/Motor)", "value": "20-30%" }
+              ]
+            },
+            {
+              "title": "Verbrenner mit E-Fuels",
+              "color": "#e53935",
+              "rows": [
+                { "label": "Energie am Rad", "value": "10-15%" },
+                { "label": "Verluste (Herstellung/Motor)", "value": "85-90%" }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten. Gleichzeitig zeigt der Wirkungsgradvergleich, dass E-Autos die eingesetzte Energie wesentlich effizienter auf die Straße bringen als Verbrenner, die mit synthetischen Kraftstoffen (E-Fuels) betrieben werden."
+        }
+      ]
+    },
+    {
+      "id": "oepnv",
+      "title": "ÖPNV & Deutschlandticket",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "14,6 Mio.",
+              "label": "D-Ticket Nutzer",
+              "sublabel": "Stand Ende 2025"
+            },
+            {
+              "value": "9,86 Mrd.",
+              "label": "Fahrgäste ÖPNV",
+              "sublabel": "Gesamtjahr 2025"
+            },
+            {
+              "value": "< 6%",
+              "label": "Kündigungsquote",
+              "sublabel": "nach Preiserhöhung"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Trotz der Preiserhöhungen auf 58 Euro (2025) und 63 Euro (2026) bleibt die Nachfrage nach dem Deutschlandticket stabil. Die Kündigungsquote lag bei den Erhöhungen jeweils unter 6 Prozent, was auf eine hohe Akzeptanz des vereinfachten Tarifsystems hindeutet."
+        }
+      ]
+    },
+    {
+      "id": "emissionen",
+      "title": "Klimaziele im Verkehrssektor",
+      "content": [
+        {
+          "type": "fact",
+          "text": "Der Verkehrssektor verfehlt seine Klimaziele deutlich. Für den Zeitraum 2021-2030 droht eine Zielverfehlung von bis zu 224 Millionen Tonnen CO₂-Äquivalenten.",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Während andere Sektoren wie die Energiewirtschaft ihre Emissionen reduzieren können, stagniert der Verkehrssektor. 2025 stiegen die Emissionen laut Agora Energiewende sogar leicht an, bedingt durch einen höheren Kraftstoffverbrauch."
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "arg-strommix",
+      "claim": "E-Autos sind doch gar nicht umweltfreundlicher, wenn der Strom aus Kohle kommt!",
+      "response": "Selbst beim aktuellen deutschen Strommix (mit hohem Erneuerbaren-Anteil) ist ein E-Auto über seinen Lebenszyklus deutlich klimafreundlicher als ein Verbrenner. Der hohe Wirkungsgrad des E-Motors (70-80%) schlägt die ineffiziente Verbrennung (ca. 20-30%) bei weitem.",
+      "keywords": ["Strommix", "Kohle", "Umweltfreundlich", "Lebenszyklus"],
+      "relatedSections": ["emobilitaet"]
+    },
+    {
+      "id": "arg-efuels",
+      "claim": "Wir sollten einfach E-Fuels tanken, dann können wir unsere Verbrenner behalten.",
+      "response": "E-Fuels sind extrem ineffizient in der Herstellung und Nutzung. Für die gleiche Strecke braucht ein mit E-Fuels betriebener Verbrenner 5- bis 7-mal so viel erneuerbaren Strom wie ein E-Auto. E-Fuels werden dringend für Flugzeuge und Schiffe gebraucht, wo Batterien zu schwer sind.",
+      "keywords": ["E-Fuels", "Verbrenner", "Technologieoffenheit", "Wasserstoff"],
+      "relatedSections": ["emobilitaet"]
+    },
+    {
+      "id": "arg-dticket",
+      "claim": "Das Deutschlandticket ist ein Milliardengrab und bringt niemanden dazu, das Auto stehen zu lassen.",
+      "response": "Mit rund 14,6 Millionen Nutzern (Ende 2025) ist das Ticket ein enormer Erfolg. Auch nach Preiserhöhungen auf 63 Euro (2026) blieb die Kündigungsquote unter 6 Prozent. Es vereinfacht den Tarifdschungel massiv und entlastet Pendler spürbar.",
+      "keywords": ["Deutschlandticket", "ÖPNV", "Kosten", "Subventionen"],
+      "relatedSections": ["oepnv"]
+    },
+    {
+      "id": "arg-reichweite",
+      "claim": "Die Reichweite von E-Autos ist viel zu gering für den Alltag.",
+      "response": "Die durchschnittliche tägliche Fahrstrecke in Deutschland liegt bei unter 40 Kilometern. Moderne E-Autos bieten reale Reichweiten von 300 bis 500 Kilometern, was für über 95% aller Alltagsfahrten völlig ausreicht. Zudem wächst das Schnellladenetz kontinuierlich.",
+      "keywords": ["Reichweite", "Alltag", "Laden", "Infrastruktur"],
+      "relatedSections": ["emobilitaet"]
+    },
+    {
+      "id": "arg-stromnetz",
+      "claim": "Das Stromnetz bricht zusammen, wenn alle elektrisch fahren.",
+      "response": "Studien zeigen, dass selbst bei 15 Millionen E-Autos der Strombedarf nur um etwa 8% steigen würde. Das deutsche Stromnetz kann das bewältigen, besonders durch intelligentes Laden (z.B. nachts, wenn viel Windstrom im Netz ist).",
+      "keywords": ["Stromnetz", "Blackout", "Laden", "Kapazität"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Kraftfahrt-Bundesamt (KBA): Fahrzeugzulassungen und Bestand 2025/2026",
+      "url": "https://www.kba.de"
+    },
+    {
+      "label": "Umweltbundesamt (UBA): Projektionsdaten Verkehr 2025",
+      "url": "https://www.umweltbundesamt.de"
+    },
+    {
+      "label": "Verband Deutscher Verkehrsunternehmen (VDV): ÖPNV-Bilanz 2025",
+      "url": "https://www.vdv.de"
+    },
+    {
+      "label": "ADAC / VDE: Wirkungsgradvergleich E-Mobilität vs. E-Fuels",
+      "url": "https://www.adac.de"
+    }
+  ]
+}

@@ -23,6 +23,30 @@
       "icon": "bolt",
       "lastUpdated": "2026-03",
       "keyStats": ["62 % Erneuerbare im Strommix", "AKW-Neubau 3–5× teurer als Wind/Solar", "7 Argumente"]
+    },
+    {
+      "id": "verkehrswende",
+      "title": "Verkehrswende",
+      "subtitle": "Fakten zu E-Mobilität, ÖPNV und Emissionszielen",
+      "icon": "directions_car",
+      "lastUpdated": "2026-03",
+      "keyStats": ["2,03 Mio. E-Autos (BEV) in Deutschland (2026)", "14,6 Mio. Deutschlandticket-Nutzer (Ende 2025)", "146 Mio. t CO₂-Ausstoß im Verkehrssektor (2023)"]
+    },
+    {
+      "id": "buergergeld",
+      "title": "Bürgergeld 2026",
+      "subtitle": "Fakten zu Regelsätzen, Sanktionen & Lohnabstand",
+      "icon": "account_balance_wallet",
+      "lastUpdated": "2026-03",
+      "keyStats": ["563 € Regelsatz (Nullrunde 2025/2026)", "98 % der Sanktionen wegen Meldeversäumnissen", "Mindestlohn bringt deutlich mehr Einkommen"]
+    },
+    {
+      "id": "migration",
+      "title": "Migration & Asyl",
+      "subtitle": "Fakten zu Asylzahlen, Arbeitsmarkt & Integration",
+      "icon": "public",
+      "lastUpdated": "2026-03",
+      "keyStats": ["Rückgang der Asylanträge um 27 % (2025)", "68 % der 2015-Geflüchteten in Arbeit (2022)", "Rund 3 Mio. Erwerbstätige ohne deutschen Pass"]
     }
   ]
 }
