@@ -1,0 +1,243 @@
+{
+  "id": "gleichberechtigung",
+  "title": "Gleichberechtigung",
+  "subtitle": "Fakten zu Bezahlung, Care-Arbeit und Repräsentation",
+  "icon": "balance",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "16 % Gender Pay Gap (2025)",
+    "43,4 % Gender Care Gap",
+    "32,4 % Frauen im Bundestag"
+  ],
+  "sourceNote": "Die Daten stammen primär vom Statistischen Bundesamt (Destatis) und Erhebungen des BMFSFJ (Stand 2025/2026).",
+  "sections": [
+    {
+      "id": "pay-gap",
+      "title": "Gender Pay Gap",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten und dem bereinigten Wert."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Unbereinigter Pay Gap",
+              "value": "16 %",
+              "sublabel": "Durchschnittlicher Verdienstunterschied (2025)"
+            },
+            {
+              "label": "Bereinigter Pay Gap",
+              "value": "6 %",
+              "sublabel": "Bei gleicher Qualifikation und Tätigkeit"
+            }
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Durchschnittlicher Bruttostundenverdienst (2025)",
+          "items": [
+            {
+              "title": "Männer",
+              "color": "#37474f",
+              "rows": [
+                {
+                  "label": "Stundenlohn",
+                  "value": "27,05 €"
+                }
+              ]
+            },
+            {
+              "title": "Frauen",
+              "color": "#00897b",
+              "rows": [
+                {
+                  "label": "Stundenlohn",
+                  "value": "22,81 €"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "In Ostdeutschland ist der unbereinigte Gender Pay Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "care-gap",
+      "title": "Unbezahlte Care-Arbeit",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt)."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Gender Care Gap",
+              "value": "43,4 %",
+              "sublabel": "Frauen leisten deutlich mehr unbezahlte Arbeit"
+            },
+            {
+              "label": "Tägliche Differenz",
+              "value": "+76 Min.",
+              "sublabel": "Mehrarbeit von Frauen pro Tag"
+            }
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Unbezahlte Arbeit pro Woche (in Stunden)",
+          "unit": "h",
+          "items": [
+            {
+              "label": "Frauen",
+              "value": 29,
+              "highlight": true
+            },
+            {
+              "label": "Männer",
+              "value": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "representation",
+      "title": "Repräsentation & Führung",
+      "content": [
+        {
+          "type": "text",
+          "text": "Trotz Fortschritten in der Bildung sind Frauen in politischen und wirtschaftlichen Führungspositionen in Deutschland weiterhin unterrepräsentiert."
+        },
+        {
+          "type": "range_bar",
+          "caption": "Frauenanteil in Führungspositionen (2024)",
+          "maxScale": 100,
+          "unit": "%",
+          "items": [
+            {
+              "label": "Deutschland",
+              "min": 0,
+              "max": 29.1,
+              "color": "#00897b"
+            },
+            {
+              "label": "EU-Durchschnitt",
+              "min": 0,
+              "max": 35.2,
+              "color": "#37474f"
+            }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Im 21. Deutschen Bundestag (gewählt 2025) liegt der Frauenanteil bei 32,4 %. Das ist ein Rückgang gegenüber der vorherigen Legislaturperiode (34,8 %).",
+          "highlight": true
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "berufswahl",
+      "claim": "Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.",
+      "response": "Die Berufswahl erklärt nur etwa 18 % der Verdienstlücke. Selbst wenn man Faktoren wie Branche, Beruf, Qualifikation und Teilzeitarbeit herausrechnet, bleibt ein 'bereinigter' Gender Pay Gap von 6 % (Stand 2025). Zudem muss gesellschaftlich hinterfragt werden, warum systemrelevante Care-Berufe strukturell schlechter bezahlt werden als technische Berufe.",
+      "keywords": [
+        "Berufswahl",
+        "soziale Berufe",
+        "freiwillig",
+        "bereinigt",
+        "Pay Gap"
+      ],
+      "relatedSections": [
+        "pay-gap"
+      ]
+    },
+    {
+      "id": "fuehrung",
+      "claim": "Frauen wollen gar keine Führungspositionen übernehmen, weil ihnen die Familie wichtiger ist.",
+      "response": "Die Unterrepräsentation liegt primär an strukturellen Hürden, nicht am mangelnden Willen. In Deutschland sind nur 29,1 % der Führungskräfte weiblich, was deutlich unter dem EU-Schnitt (35,2 %) liegt. Eine Unternehmenskultur, die ständige Verfügbarkeit belohnt, sowie die ungleiche Verteilung von Care-Arbeit benachteiligen Frauen beim Aufstieg systematisch.",
+      "keywords": [
+        "Führungsposition",
+        "Karriere",
+        "Familie",
+        "wollen nicht",
+        "Quote"
+      ],
+      "relatedSections": [
+        "representation",
+        "care-gap"
+      ]
+    },
+    {
+      "id": "gleichberechtigung-erreicht",
+      "claim": "Die Gleichberechtigung ist doch längst erreicht, Frauen haben heute genau die gleichen Möglichkeiten wie Männer.",
+      "response": "Gesetzlich sind Frauen gleichgestellt, faktisch gibt es weiterhin große Lücken. Frauen leisten täglich 76 Minuten mehr unbezahlte Care-Arbeit (Gender Care Gap von 43,4 %). Auch in der politischen Repräsentation gibt es Rückschritte: Im aktuellen Bundestag (2025) ist der Frauenanteil auf 32,4 % gesunken. Echte Gleichberechtigung erfordert auch wirtschaftliche Unabhängigkeit und gleiche Repräsentation.",
+      "keywords": [
+        "längst erreicht",
+        "gleiche Möglichkeiten",
+        "Gesetz",
+        "fertig"
+      ],
+      "relatedSections": [
+        "care-gap",
+        "representation"
+      ]
+    },
+    {
+      "id": "teilzeit",
+      "claim": "Männer arbeiten dafür mehr in Vollzeit und machen die harten Überstunden.",
+      "response": "Männer leisten zwar mehr bezahlte Erwerbsarbeit, aber wenn man bezahlte und unbezahlte Arbeit (Haushalt, Kinder, Pflege) zusammenrechnet, arbeiten Frauen insgesamt mehr Stunden pro Woche. Das Problem: Die unbezahlte Arbeit der Frauen wird finanziell nicht entlohnt und ist nicht rentenwirksam, was im Alter zu einer massiven Rentenlücke (Gender Pension Gap) führt.",
+      "keywords": [
+        "Vollzeit",
+        "Überstunden",
+        "hart arbeiten",
+        "Teilzeit"
+      ],
+      "relatedSections": [
+        "care-gap",
+        "pay-gap"
+      ]
+    },
+    {
+      "id": "quote",
+      "claim": "Eine Frauenquote führt nur dazu, dass unqualifizierte Frauen bevorzugt werden und fähige Männer das Nachsehen haben.",
+      "response": "Quotenregelungen greifen juristisch nur bei gleicher Qualifikation der Bewerberinnen. Aktuell werden Führungspositionen oft über informelle, männlich dominierte Netzwerke besetzt ('Thomas-Kreislauf'), nicht zwingend nach objektiver Bestenauslese. Studien zeigen zudem, dass diverse Führungsteams innovativer und wirtschaftlich erfolgreicher agieren.",
+      "keywords": [
+        "Quote",
+        "Frauenquote",
+        "unqualifiziert",
+        "bevorzugt",
+        "Leistung"
+      ],
+      "relatedSections": [
+        "representation"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Destatis: Gender Pay Gap 2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_453_621.html"
+    },
+    {
+      "label": "Destatis: Frauen in Führungspositionen (2024/2025)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/11/PD25_393_13.html"
+    },
+    {
+      "label": "BMFSFJ / Destatis: Gender Care Gap",
+      "url": "https://www.bmfsfj.de/bmfsfj/aktuelles/alle-meldungen/statistisches-bundesamt-veroeffentlicht-neue-zahlen-zum-gender-care-gap-236794"
+    },
+    {
+      "label": "Bundestag: Abgeordneten-Statistik 21. Bundestag",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw09-wahlergebnis-statistik-1055550"
+    }
+  ]
+}
