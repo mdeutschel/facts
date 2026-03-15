@@ -1,5 +1,10 @@
 RewriteEngine On
 RewriteBase /
+
+# Social media and AI crawler handling for topic pages
+RewriteCond %{HTTP_USER_AGENT} facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|TelegramBot|Discordbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|PerplexityBot|Applebot [NC]
+RewriteRule ^thema/(.+)$ /og.php?topic=$1 [L,QSA]
+
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

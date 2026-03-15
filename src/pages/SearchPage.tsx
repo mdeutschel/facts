@@ -3,15 +3,23 @@ import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import CircularProgress from '@mui/material/CircularProgress'
 import SearchResults from '../components/search/SearchResults'
+import PageMeta from '../components/seo/PageMeta'
 import { useSearch } from '../hooks/useSearch'
 
 export default function SearchPage() {
   const [searchParams] = useSearchParams()
   const query = searchParams.get('q') ?? ''
   const { results, loading } = useSearch(query)
+  const encodedQuery = encodeURIComponent(query)
+  const searchPath = query ? `/suche?q=${encodedQuery}` : '/suche'
+  const searchTitle = query ? `Suche: ${query}` : 'Suche'
+  const searchDescription = query
+    ? `Suchergebnisse fuer "${query}" bei Fakten-Stammtisch.`
+    : 'Suche in Fakten, Argumenten und Quellen bei Fakten-Stammtisch.'
 
   return (
     <Box>
+      <PageMeta title={searchTitle} description={searchDescription} path={searchPath} />
       <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
         Suche
       </Typography>

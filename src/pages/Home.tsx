@@ -3,6 +3,7 @@ import Box from '@mui/material/Box'
 import CircularProgress from '@mui/material/CircularProgress'
 import Alert from '@mui/material/Alert'
 import TopicCard from '../components/home/TopicCard'
+import PageMeta from '../components/seo/PageMeta'
 import { useTopicIndex } from '../hooks/useTopics'
 
 export default function Home() {
@@ -22,6 +23,11 @@ export default function Home() {
 
   return (
     <Box>
+      <PageMeta
+        title="Themenuebersicht"
+        description="Faktenbasierte Argumente und Quellen zu aktuellen gesellschaftlichen Themen in Deutschland."
+        path="/"
+      />
       <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
         Themen
       </Typography>

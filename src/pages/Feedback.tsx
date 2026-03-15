@@ -13,6 +13,7 @@ import RadioGroup from '@mui/material/RadioGroup'
 import Stack from '@mui/material/Stack'
 import TextField from '@mui/material/TextField'
 import Typography from '@mui/material/Typography'
+import PageMeta from '../components/seo/PageMeta'
 import { useTopicIndex } from '../hooks/useTopics'
 
 type SubmissionType = 'existing_topic' | 'new_topic'
@@ -107,6 +108,11 @@ export default function Feedback() {
 
   return (
     <Box>
+      <PageMeta
+        title="Feedback"
+        description="Feedback, neue Themen und Argumentvorschlaege direkt an Fakten-Stammtisch senden."
+        path="/feedback"
+      />
       <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
         Feedback
       </Typography>

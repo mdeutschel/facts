@@ -1,0 +1,34 @@
+# Fakten-Stammtisch
+
+> Fakten-Stammtisch ist eine deutschsprachige Website mit faktenbasierten
+> Argumenten und Quellen zu politischen und gesellschaftlichen Themen in Deutschland.
+
+## Themen
+
+- [Heizungswechsel 2026](https://fakten-stammtisch.de/thema/heizung): Wärmepumpe vs. Öl- & Gasheizung
+- [E-Mobilität](https://fakten-stammtisch.de/thema/emobilitaet): Fakten zu Reichweite, Akkus, Kosten & Klimabilanz
+- [Energiewende & Atomkraft](https://fakten-stammtisch.de/thema/energiewende): Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit
+- [Klimawandel](https://fakten-stammtisch.de/thema/klimawandel): Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente
+- [Verkehrswende](https://fakten-stammtisch.de/thema/verkehrswende): Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen
+- [Bürgergeld 2026](https://fakten-stammtisch.de/thema/buergergeld): Fakten zu Regelsätzen, Sanktionen & Lohnabstand
+- [Migration & Asyl](https://fakten-stammtisch.de/thema/migration): Fakten zu Asylzahlen, Arbeitsmarkt & Integration
+- [Teilzeit & Arbeitsmoral](https://fakten-stammtisch.de/thema/teilzeit): Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.
+- [Vegane Ernährung & Fleischkonsum](https://fakten-stammtisch.de/thema/vegane-ernaehrung): Auswirkungen auf Klima, Umwelt und Gesundheit
+- [Vermögens- und Erbschaftssteuer](https://fakten-stammtisch.de/thema/vermoegenssteuer): Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland
+- [Gleichberechtigung](https://fakten-stammtisch.de/thema/gleichberechtigung): Fakten zu Pay Gap, Care-Arbeit und Repräsentation
+- [Deutsches Bildungssystem](https://fakten-stammtisch.de/thema/bildung): Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung
+- [Deutsches Gesundheitssystem](https://fakten-stammtisch.de/thema/gesundheit): Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention
+
+## Vollstaendiger Inhalt
+
+- [Alle Inhalte als Plaintext](https://fakten-stammtisch.de/llms-full.txt): Vollstaendiger Text aller Themen, Fakten und Argumente
+
+## Contact
+
+- E-Mail: feedback@fakten-stammtisch.de
+- [Feedback-Formular](https://fakten-stammtisch.de/feedback)
+
+## Optional
+
+- [Impressum & Datenschutz](https://fakten-stammtisch.de/impressum)
+- [Sitemap](https://fakten-stammtisch.de/sitemap.xml)
