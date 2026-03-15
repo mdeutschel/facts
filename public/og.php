@@ -25,6 +25,154 @@ function toJsonLd(array $payload): string
   return $json;
 }
 
+function renderContentBlock(array $block): string
+{
+  $type = (string)($block['type'] ?? '');
+  $out = '';
+
+  switch ($type) {
+    case 'fact':
+      $out .= '<li>' . h((string)($block['text'] ?? '')) . '</li>';
+      break;
+
+    case 'text':
+      $out .= '<p>' . h((string)($block['text'] ?? '')) . '</p>';
+      break;
+
+    case 'table':
+      if (isset($block['caption'])) {
+        $out .= '<p><em>' . h((string)$block['caption']) . '</em></p>';
+      }
+      $out .= '<table>';
+      if (isset($block['headers']) && is_array($block['headers'])) {
+        $out .= '<tr>';
+        foreach ($block['headers'] as $header) {
+          $out .= '<th>' . h((string)$header) . '</th>';
+        }
+        $out .= '</tr>';
+      }
+      if (isset($block['rows']) && is_array($block['rows'])) {
+        foreach ($block['rows'] as $row) {
+          if (!is_array($row)) continue;
+          $out .= '<tr>';
+          foreach ($row as $cell) {
+            $out .= '<td>' . h((string)$cell) . '</td>';
+          }
+          $out .= '</tr>';
+        }
+      }
+      $out .= '</table>';
+      break;
+
+    case 'stat_grid':
+      if (isset($block['items']) && is_array($block['items'])) {
+        $out .= '<ul>';
+        foreach ($block['items'] as $item) {
+          if (!is_array($item)) continue;
+          $label = h((string)($item['label'] ?? ''));
+          $value = h((string)($item['value'] ?? ''));
+          $sublabel = isset($item['sublabel']) ? ' (' . h((string)$item['sublabel']) . ')' : '';
+          $out .= '<li>' . $label . ': ' . $value . $sublabel . '</li>';
+        }
+        $out .= '</ul>';
+      }
+      break;
+
+    case 'comparison':
+      if (isset($block['caption'])) {
+        $out .= '<p><em>' . h((string)$block['caption']) . '</em></p>';
+      }
+      if (isset($block['items']) && is_array($block['items'])) {
+        foreach ($block['items'] as $item) {
+          if (!is_array($item)) continue;
+          $out .= '<h4>' . h((string)($item['title'] ?? '')) . '</h4><ul>';
+          if (isset($item['rows']) && is_array($item['rows'])) {
+            foreach ($item['rows'] as $row) {
+              if (!is_array($row)) continue;
+              $out .= '<li>' . h((string)($row['label'] ?? '')) . ': ' . h((string)($row['value'] ?? '')) . '</li>';
+            }
+          }
+          if (isset($item['total']) && is_array($item['total'])) {
+            $out .= '<li><strong>' . h((string)($item['total']['label'] ?? '')) . ': ' . h((string)($item['total']['value'] ?? '')) . '</strong></li>';
+          }
+          $out .= '</ul>';
+        }
+      }
+      if (isset($block['savings'])) {
+        $out .= '<p><strong>Ersparnis: ' . h((string)$block['savings']) . '</strong></p>';
+      }
+      break;
+
+    case 'range_bar':
+      if (isset($block['caption'])) {
+        $out .= '<p><em>' . h((string)$block['caption']) . '</em></p>';
+      }
+      $unit = (string)($block['unit'] ?? '');
+      if (isset($block['items']) && is_array($block['items'])) {
+        $out .= '<ul>';
+        foreach ($block['items'] as $item) {
+          if (!is_array($item)) continue;
+          $suffix = $unit !== '' ? ' ' . h($unit) : '';
+          $out .= '<li>' . h((string)($item['label'] ?? '')) . ': ' . h((string)($item['min'] ?? '')) . ' bis ' . h((string)($item['max'] ?? '')) . $suffix . '</li>';
+        }
+        $out .= '</ul>';
+      }
+      break;
+
+    case 'bar_chart':
+    case 'line_chart':
+      if (isset($block['caption'])) {
+        $out .= '<p><em>' . h((string)$block['caption']) . '</em></p>';
+      }
+      $unit = (string)($block['unit'] ?? '');
+      if (isset($block['items']) && is_array($block['items'])) {
+        $out .= '<ul>';
+        foreach ($block['items'] as $item) {
+          if (!is_array($item)) continue;
+          $suffix = $unit !== '' ? ' ' . h($unit) : '';
+          $out .= '<li>' . h((string)($item['label'] ?? '')) . ': ' . h((string)($item['value'] ?? '')) . $suffix . '</li>';
+        }
+        $out .= '</ul>';
+      }
+      break;
+
+    case 'timeline':
+      if (isset($block['caption'])) {
+        $out .= '<p><em>' . h((string)$block['caption']) . '</em></p>';
+      }
+      if (isset($block['steps']) && is_array($block['steps'])) {
+        $out .= '<ul>';
+        foreach ($block['steps'] as $step) {
+          if (!is_array($step)) continue;
+          $sublabel = isset($step['sublabel']) ? ' (' . h((string)$step['sublabel']) . ')' : '';
+          $out .= '<li>' . h((string)($step['label'] ?? '')) . ': ' . h((string)($step['value'] ?? '')) . $sublabel . '</li>';
+        }
+        $out .= '</ul>';
+      }
+      break;
+
+    case 'progress_stack':
+      if (isset($block['caption'])) {
+        $out .= '<p><em>' . h((string)$block['caption']) . '</em></p>';
+      }
+      if (isset($block['segments']) && is_array($block['segments'])) {
+        $out .= '<ul>';
+        foreach ($block['segments'] as $segment) {
+          if (!is_array($segment)) continue;
+          $sublabel = isset($segment['sublabel']) ? ' (' . h((string)$segment['sublabel']) . ')' : '';
+          $out .= '<li>' . h((string)($segment['label'] ?? '')) . ': ' . h((string)($segment['value'] ?? '')) . '%' . $sublabel . '</li>';
+        }
+        $out .= '</ul>';
+        if (isset($block['total'])) {
+          $out .= '<p>Gesamt: ' . h((string)$block['total']) . '</p>';
+        }
+      }
+      break;
+  }
+
+  return $out;
+}
+
 $topicId = trim((string)($_GET['topic'] ?? ''));
 $topicId = preg_replace('/[^a-z0-9-]/', '', strtolower($topicId));
 
@@ -32,6 +180,7 @@ $title = $defaultTitle;
 $description = $defaultDescription;
 $path = $defaultPath;
 $faqJsonLd = null;
+$claimReviews = [];
 
 if ($topicId !== '') {
   $topicFile = __DIR__ . '/data/' . $topicId . '.json';
@@ -67,6 +216,31 @@ if ($topicId !== '') {
               'acceptedAnswer' => [
                 '@type' => 'Answer',
                 'text' => $response,
+              ],
+            ];
+
+            $claimReviews[] = [
+              '@context' => 'https://schema.org',
+              '@type' => 'ClaimReview',
+              'url' => $siteUrl . $path,
+              'claimReviewed' => $claim,
+              'author' => [
+                '@type' => 'Organization',
+                'name' => $siteName,
+                'url' => $siteUrl,
+              ],
+              'reviewRating' => [
+                '@type' => 'Rating',
+                'ratingExplanation' => $response,
+                'bestRating' => 5,
+                'worstRating' => 1,
+              ],
+              'itemReviewed' => [
+                '@type' => 'Claim',
+                'appearance' => [
+                  '@type' => 'CreativeWork',
+                  'name' => 'Stammtisch-Behauptung',
+                ],
               ],
             ];
           }
@@ -130,6 +304,9 @@ $websiteJsonLd = [
     <?php if (is_array($faqJsonLd)): ?>
       <script type="application/ld+json"><?= toJsonLd($faqJsonLd) ?></script>
     <?php endif; ?>
+    <?php foreach ($claimReviews as $cr): ?>
+      <script type="application/ld+json"><?= toJsonLd($cr) ?></script>
+    <?php endforeach; ?>
 
     <meta http-equiv="refresh" content="0;url=<?= h($path) ?>" />
     <link rel="alternate" type="text/plain" href="<?= h($siteUrl) ?>/llms.txt" title="LLM-optimized summary" />
@@ -140,26 +317,29 @@ $websiteJsonLd = [
     <p><?= h($description) ?></p>
 
 <?php if ($topicId !== '' && isset($topic) && is_array($topic)): ?>
-    <?php if (isset($topic['facts']) && is_array($topic['facts'])): ?>
+
+    <?php if (isset($topic['sections']) && is_array($topic['sections'])): ?>
       <h2>Fakten</h2>
-      <?php foreach ($topic['facts'] as $section): ?>
-        <?php if (is_array($section)): ?>
-          <h3><?= h((string)($section['title'] ?? '')) ?></h3>
-          <?php if (isset($section['content']) && is_array($section['content'])): ?>
-            <?php foreach ($section['content'] as $block): ?>
-              <?php if (is_array($block) && ($block['type'] ?? '') === 'bulletList' && isset($block['items']) && is_array($block['items'])): ?>
-                <ul>
-                  <?php foreach ($block['items'] as $item): ?>
-                    <li><?= h((string)$item) ?></li>
-                  <?php endforeach; ?>
-                </ul>
-              <?php elseif (is_array($block) && ($block['type'] ?? '') === 'text'): ?>
-                <p><?= h((string)($block['value'] ?? '')) ?></p>
-              <?php elseif (is_array($block) && ($block['type'] ?? '') === 'note'): ?>
-                <p><em><?= h((string)($block['text'] ?? '')) ?></em></p>
-              <?php endif; ?>
-            <?php endforeach; ?>
-          <?php endif; ?>
+      <?php foreach ($topic['sections'] as $section): ?>
+        <?php if (!is_array($section)) continue; ?>
+        <h3><?= h((string)($section['title'] ?? '')) ?></h3>
+        <?php if (isset($section['content']) && is_array($section['content'])): ?>
+          <?php
+          $inFactList = false;
+          foreach ($section['content'] as $block):
+            if (!is_array($block)) continue;
+            $isFact = ($block['type'] ?? '') === 'fact';
+            if ($isFact && !$inFactList) {
+              echo '<ul>';
+              $inFactList = true;
+            } elseif (!$isFact && $inFactList) {
+              echo '</ul>';
+              $inFactList = false;
+            }
+            echo renderContentBlock($block);
+          endforeach;
+          if ($inFactList) echo '</ul>';
+          ?>
         <?php endif; ?>
       <?php endforeach; ?>
     <?php endif; ?>
@@ -167,17 +347,9 @@ $websiteJsonLd = [
     <?php if (isset($topic['arguments']) && is_array($topic['arguments'])): ?>
       <h2>Argumente</h2>
       <?php foreach ($topic['arguments'] as $argument): ?>
-        <?php if (is_array($argument)): ?>
-          <h3>Behauptung: <?= h((string)($argument['claim'] ?? '')) ?></h3>
-          <p><strong>Antwort:</strong> <?= h((string)($argument['response'] ?? '')) ?></p>
-          <?php if (isset($argument['details']) && is_array($argument['details'])): ?>
-            <ul>
-              <?php foreach ($argument['details'] as $detail): ?>
-                <li><?= h((string)$detail) ?></li>
-              <?php endforeach; ?>
-            </ul>
-          <?php endif; ?>
-        <?php endif; ?>
+        <?php if (!is_array($argument)) continue; ?>
+        <h3>Behauptung: <?= h((string)($argument['claim'] ?? '')) ?></h3>
+        <p><strong>Antwort:</strong> <?= h((string)($argument['response'] ?? '')) ?></p>
       <?php endforeach; ?>
     <?php endif; ?>
 
@@ -185,19 +357,19 @@ $websiteJsonLd = [
       <h2>Quellen</h2>
       <ul>
         <?php foreach ($topic['sources'] as $source): ?>
-          <?php if (is_array($source)): ?>
-            <li>
-              <?= h((string)($source['label'] ?? (string)($source['name'] ?? ''))) ?>
-              <?php if (isset($source['url'])): ?>
-                — <a href="<?= h((string)$source['url']) ?>"><?= h((string)$source['url']) ?></a>
-              <?php endif; ?>
-            </li>
-          <?php endif; ?>
+          <?php if (!is_array($source)) continue; ?>
+          <li>
+            <?= h((string)($source['label'] ?? '')) ?>
+            <?php if (isset($source['url'])): ?>
+              — <a href="<?= h((string)$source['url']) ?>"><?= h((string)$source['url']) ?></a>
+            <?php endif; ?>
+          </li>
         <?php endforeach; ?>
       </ul>
     <?php endif; ?>
 
 <?php else: ?>
+
     <?php
     $topicsFile = __DIR__ . '/data/topics.json';
     $topicsList = [];
@@ -214,17 +386,16 @@ $websiteJsonLd = [
     <h2>Themen</h2>
     <ul>
       <?php foreach ($topicsList as $t): ?>
-        <?php if (is_array($t)): ?>
-          <li>
-            <a href="<?= h($siteUrl . '/thema/' . (string)($t['id'] ?? '')) ?>">
-              <?= h((string)($t['title'] ?? '')) ?>
-            </a>
-            — <?= h((string)($t['subtitle'] ?? '')) ?>
-            <?php if (isset($t['keyStats']) && is_array($t['keyStats'])): ?>
-              <br /><small><?= h(implode(' · ', $t['keyStats'])) ?></small>
-            <?php endif; ?>
-          </li>
-        <?php endif; ?>
+        <?php if (!is_array($t)) continue; ?>
+        <li>
+          <a href="<?= h($siteUrl . '/thema/' . (string)($t['id'] ?? '')) ?>">
+            <?= h((string)($t['title'] ?? '')) ?>
+          </a>
+          — <?= h((string)($t['subtitle'] ?? '')) ?>
+          <?php if (isset($t['keyStats']) && is_array($t['keyStats'])): ?>
+            <br /><small><?= h(implode(' · ', $t['keyStats'])) ?></small>
+          <?php endif; ?>
+        </li>
       <?php endforeach; ?>
     </ul>
 
@@ -246,13 +417,8 @@ $websiteJsonLd = [
       <a href="<?= h($siteUrl) ?>/feedback">Feedback</a> ·
       E-Mail: feedback@fakten-stammtisch.de
     </p>
-<?php endif; ?>
 
-    <noscript>
-      <p>Diese Seite benötigt JavaScript. Für eine textbasierte Version aller Inhalte:
-        <a href="<?= h($siteUrl) ?>/llms-full.txt"><?= h($siteUrl) ?>/llms-full.txt</a>
-      </p>
-    </noscript>
+<?php endif; ?>
 
     <script>
       window.location.replace(<?= json_encode($path, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>)
