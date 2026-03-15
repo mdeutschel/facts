@@ -1,0 +1,312 @@
+{
+  "id": "bildung",
+  "title": "Deutsches Bildungssystem",
+  "subtitle": "Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung",
+  "icon": "school",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "198 Mrd. € Bildungsausgaben (2024)",
+    "35.000 fehlende Lehrkräfte (2025/26)",
+    "PISA 2022: Historischer Tiefstand",
+    "8 Argumente"
+  ],
+  "sourceNote": "Basierend auf Daten von OECD, Destatis, KMK, Bertelsmann Stiftung und aktuellen Studien (Stand Anfang 2026).",
+  "sections": [
+    {
+      "id": "bildungsausgaben",
+      "title": "Bildungsausgaben im OECD-Vergleich",
+      "content": [
+        {
+          "type": "text",
+          "text": "Deutschland gab 2024 insgesamt 198 Milliarden Euro für Bildung aus – ein nominaler Rekordwert. Gemessen am BIP liegt Deutschland mit 4,6 % aber weiterhin deutlich unter dem OECD-Schnitt und weit hinter skandinavischen Ländern."
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Öffentliche Bildungsausgaben als BIP-Anteil (2023, OECD-Daten)",
+          "items": [
+            { "label": "Schweden", "value": 7.1 },
+            { "label": "Island", "value": 6.7 },
+            { "label": "Finnland", "value": 6.5 },
+            { "label": "Belgien", "value": 6.4 },
+            { "label": "OECD-Schnitt", "value": 5.1 },
+            { "label": "Deutschland", "value": 4.5, "highlight": true },
+            { "label": "Polen", "value": 4.6 }
+          ],
+          "unit": "%"
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "label": "Gesamt 2024", "value": "198 Mrd. €", "sublabel": "+7 % nominal, +4 % real" },
+            { "label": "Pro Einwohner", "value": "2.400 €", "sublabel": "bzw. 8.000 € pro unter 30-Jährigem" },
+            { "label": "Schulen", "value": "97 Mrd. €", "sublabel": "49 % der Ausgaben" },
+            { "label": "Kita-Betreuung", "value": "49 Mrd. €", "sublabel": "25 % der Ausgaben" }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Schweden investiert mit 7,1 % des BIP über 50 % mehr als Deutschland (4,5 %) in Bildung. Um auf skandinavisches Niveau zu kommen, müsste Deutschland jährlich rund 100 Milliarden Euro zusätzlich investieren.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "lehrkraeftemangel",
+      "title": "Lehrkräftemangel: Die Personalkatastrophe",
+      "content": [
+        {
+          "type": "text",
+          "text": "Deutschland steckt mitten in einer Lehrkräftekrise. Je nach Berechnungsmethode fehlen bereits jetzt zwischen 26.000 und 35.000 Lehrkräfte – Tendenz stark steigend."
+        },
+        {
+          "type": "timeline",
+          "caption": "Prognose fehlende Lehrkräfte (IW-Berechnung)",
+          "steps": [
+            { "label": "2025/26", "value": "35.000", "highlight": true },
+            { "label": "2030/31", "value": "68.000" },
+            { "label": "2035/36", "value": "76.000" }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Besonders betroffen: Grundschulen (verschärft durch den Ganztags-Rechtsanspruch ab 2026), Sonderpädagogik und MINT-Fächer (Mathematik, Informatik, Naturwissenschaften, Technik).",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Hauptursachen sind steigende Schülerzahlen durch Zuwanderung, eine Pensionierungswelle der Babyboomer-Generation und strukturelle Hürden im Lehramtsstudium. Viele Stellen werden mit Quereinsteigern ohne volle pädagogische Ausbildung besetzt."
+        }
+      ]
+    },
+    {
+      "id": "pisa-chancengleichheit",
+      "title": "PISA 2022 & Chancengleichheit",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die PISA-Studie 2022 offenbart einen historischen Tiefstand für Deutschland. In allen drei Bereichen sind die Leistungen so schlecht wie nie seit Beginn der PISA-Erhebungen im Jahr 2000."
+        },
+        {
+          "type": "table",
+          "caption": "PISA 2022 – Punktzahlen im Vergleich (15-Jährige)",
+          "headers": ["Land", "Mathematik", "Lesen", "Naturwiss."],
+          "rows": [
+            ["Finnland", "484", "490", "511"],
+            ["Schweden", "482", "487", "494"],
+            ["Deutschland", "475", "480", "492"],
+            ["OECD-Schnitt", "472", "476", "485"],
+            ["Norwegen", "468", "477", "478"]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Rund ein Drittel der 15-Jährigen in Deutschland hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik verlor Deutschland 25 Punkte gegenüber 2018 – einer der stärksten Rückgänge aller OECD-Länder.",
+          "highlight": true
+        },
+        {
+          "type": "line_chart",
+          "caption": "PISA Mathematik – Deutschland im Zeitverlauf",
+          "unit": "Punkte",
+          "color": "#37474f",
+          "items": [
+            { "label": "2000", "value": 490 },
+            { "label": "2003", "value": 503 },
+            { "label": "2006", "value": 504 },
+            { "label": "2009", "value": 513 },
+            { "label": "2012", "value": 514 },
+            { "label": "2015", "value": 506 },
+            { "label": "2018", "value": 500 },
+            { "label": "2022", "value": 475 }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Besonders alarmierend: In kaum einem anderen Industrieland hängt der Bildungserfolg so stark vom Elternhaus ab wie in Deutschland. Schon PISA 2000 bescheinigte einen 'beschämend engen Zusammenhang zwischen sozialer Herkunft und Bildungschancen' – daran hat sich bis heute wenig geändert."
+        }
+      ]
+    },
+    {
+      "id": "digitalisierung",
+      "title": "Digitalisierung an Schulen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der DigitalPakt Schule (2019–2024) sollte die digitale Infrastruktur an Schulen revolutionieren. Mit 6,5 Milliarden Euro wurden Laptops, Tablets, interaktive Whiteboards und WLAN-Netzwerke finanziert."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "label": "Bewilligte Mittel", "value": "5,3 Mrd. €", "sublabel": "97,4 % der verfügbaren Mittel" },
+            { "label": "Abgeflossene Mittel", "value": "4,1 Mrd. €", "sublabel": "Stand Juni 2025" },
+            { "label": "Evaluation", "value": "erst 2027", "sublabel": "Wissenschaftliche Bewertung ausstehend" },
+            { "label": "DigitalPakt 2.0", "value": "ab 2025", "sublabel": "Anschlussfinanzierung bis 2030 vereinbart" }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Kritiker bemängeln, dass Hardware allein nicht reicht: Lehrkräfte müssen für den Umgang mit digitalen Medien fortgebildet werden, und es fehlt flächendeckend an IT-Support. Lehrkräfte übernehmen häufig selbst die Rolle des IT-Administrators."
+        }
+      ]
+    },
+    {
+      "id": "kita-fruehkindlich",
+      "title": "Kita & Frühkindliche Bildung",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die frühkindliche Bildung gilt als entscheidend für spätere Bildungschancen. Doch in deutschen Kitas herrscht akuter Fachkräftemangel, der die Betreuungsqualität massiv gefährdet."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "label": "Fehlende Erzieher:innen", "value": "~100.000", "sublabel": "Prognose 2026, bis 2030: 200.000" },
+            { "label": "Ausreichend Personal", "value": "13,7 %", "sublabel": "der Kitas erreichen empfohlene Personalausstattung" },
+            { "label": "Stark unterbesetzt", "value": "21,2 %", "sublabel": "der Kitas mit max. 60 % des Solls" },
+            { "label": "Fachkraftquote Ost", "value": "86,9 %", "sublabel": "vs. 68,6 % im Westen" }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "In Bayern haben nur 54,5 % des Kita-Personals eine vollständige Fachausbildung – der bundesweit niedrigste Wert. Thüringen liegt mit 94,3 % an der Spitze.",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Die Unterbesetzung führt zu Gruppenzusammenlegungen, gekürzten Öffnungszeiten und gestrichenen pädagogischen Angeboten. Erzieher:innen berichten von erhöhtem Stress, häufigeren Krankmeldungen und wachsender Berufsabwanderung."
+        }
+      ]
+    },
+    {
+      "id": "ganztag",
+      "title": "Ganztags-Rechtsanspruch ab 2026",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ab dem 1. August 2026 gilt ein stufenweiser Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder. Der Anspruch umfasst 8 Stunden täglich an fünf Werktagen, inklusive Unterrichtszeit und grundsätzlich auch in den Schulferien."
+        },
+        {
+          "type": "timeline",
+          "caption": "Stufenweise Einführung des Rechtsanspruchs",
+          "steps": [
+            { "label": "2026/27", "value": "1. Klasse", "highlight": true },
+            { "label": "2027/28", "value": "1. + 2. Klasse" },
+            { "label": "2028/29", "value": "1.–3. Klasse" },
+            { "label": "2029/30", "value": "1.–4. Klasse" }
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "label": "Aktuelle Ganztagsquote", "value": "57 %", "sublabel": "bundesweit (West: 51 %, Ost: 84 %)" },
+            { "label": "Zusätzlich benötigte Plätze", "value": "264.000", "sublabel": "bis Vollausbau 2029/30" },
+            { "label": "Investitionsmittel Bund", "value": "3,5 Mrd. €", "sublabel": "für Infrastrukturausbau" },
+            { "label": "Laufende Betriebskosten", "value": "1,3 Mrd. €/Jahr", "sublabel": "Bundesbeteiligung ab 2030" }
+          ]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "arg_weltspitze",
+      "claim": "Unser Bildungssystem war mal Weltspitze",
+      "response": "Deutschland hatte tatsächlich ein international angesehenes Bildungssystem – vor allem in der beruflichen Bildung (duales System). Aber bei PISA 2022 erreichten deutsche 15-Jährige in Mathematik nur noch 475 Punkte – ein historischer Tiefstand und ein Rückgang von 25 Punkten gegenüber 2018. Rund ein Drittel hat in mindestens einem Bereich nur minimale Kompetenzen. Statt sich auf vergangenen Ruhm zu berufen, braucht es massive Investitionen: Deutschland liegt mit 4,5 % des BIP für Bildung deutlich unter dem OECD-Schnitt von 5,1 % und weit hinter Skandinavien (6,5–7,1 %).",
+      "keywords": ["weltspitze", "früher besser", "bildungsnation", "pisa", "vergleich"],
+      "relatedSections": ["pisa-chancengleichheit", "bildungsausgaben"]
+    },
+    {
+      "id": "arg_halbtags",
+      "claim": "Die Lehrer arbeiten doch nur halbtags und haben ständig Ferien",
+      "response": "Eine repräsentative Studie des Prognos-Instituts (2024/25, Sachsen, 3.772 Lehrkräfte) zeigt: Vollzeit-Lehrkräfte leisten während der Schulzeit durchschnittlich 2,5 Überstunden pro Woche. Die Unterrichtszeit macht nur etwa ein Drittel der Arbeitszeit aus – der Rest geht für Vor- und Nachbereitung, Korrekturen, Elterngespräche, Verwaltung und Konferenzen drauf. Teilzeitkräfte arbeiten sogar 5,8 % über ihrem Soll. Die Ferien werden großteils für den Überstundenausgleich und Unterrichtsvorbereitung genutzt. Gleichzeitig zeigen Studien erhebliche Risiken für die psychische Gesundheit von Lehrkräften.",
+      "keywords": ["halbtags", "ferien", "lehrer faul", "arbeitszeit", "teilzeit"],
+      "relatedSections": ["lehrkraeftemangel"]
+    },
+    {
+      "id": "arg_verbloedung",
+      "claim": "Schüler können heute nichts mehr, die sind alle verblödet",
+      "response": "Die PISA-Ergebnisse zeigen tatsächlich einen deutlichen Leistungsrückgang, der aber strukturelle Ursachen hat – und keine individuelle 'Verblödung'. Zu den Ursachen gehören chronische Unterfinanzierung (Deutschland liegt unter dem OECD-Schnitt), akuter Lehrkräftemangel (35.000 fehlend), pandemiebedingte Lernrückstände und der stärkste Zusammenhang zwischen sozialer Herkunft und Bildungserfolg in der OECD. Die Lösung liegt nicht bei den Schüler:innen, sondern beim System: bessere Ausstattung, mehr Personal, gezielte Förderung Benachteiligter.",
+      "keywords": ["verblödet", "dumm", "nichts können", "niveau sinkt", "leistung"],
+      "relatedSections": ["pisa-chancengleichheit", "bildungsausgaben"]
+    },
+    {
+      "id": "arg_laendersache",
+      "claim": "Bildung ist Ländersache, da kann man nichts machen",
+      "response": "Das stimmt verfassungsrechtlich – aber es ist kein Naturgesetz. Das Kooperationsverbot von 2006 verhindert, dass der Bund direkt in Schulen investiert. Das Ergebnis: 16 verschiedene Lehrpläne, massive Qualitätsunterschiede zwischen den Bundesländern und ein 'Bildungsflickenteppich'. Mehrere Bundesländer fordern inzwischen selbst die Aufhebung dieses Verbots. Auch der DigitalPakt Schule zeigt, dass Bund-Länder-Kooperation in der Bildung möglich ist – er wurde trotz Kooperationsverbot realisiert. 'Ländersache' heißt nicht 'unveränderbar'.",
+      "keywords": ["ländersache", "föderalismus", "zuständigkeit", "bund", "bundesländer"],
+      "relatedSections": ["bildungsausgaben", "digitalisierung"]
+    },
+    {
+      "id": "arg_genug_geld",
+      "claim": "Wir geben genug Geld für Bildung aus",
+      "response": "Nominal klingt die Zahl von 198 Milliarden Euro nach viel. Aber gemessen am BIP liegt Deutschland mit 4,5 % deutlich unter dem OECD-Durchschnitt von 5,1 % – und weit hinter Finnland (6,5 %) oder Schweden (7,1 %). Die Konsequenzen sind sichtbar: marode Schulgebäude, fehlende Lehrkräfte, mangelnde digitale Ausstattung. Um auf skandinavisches Niveau zu kommen, müsste Deutschland jährlich rund 100 Milliarden Euro zusätzlich investieren. Gleichzeitig arbeiten nur 13,7 % der Kitas mit ausreichend Personal.",
+      "keywords": ["genug geld", "ausgaben", "teuer", "finanzierung", "investition"],
+      "relatedSections": ["bildungsausgaben", "kita-fruehkindlich"]
+    },
+    {
+      "id": "arg_hauptschule",
+      "claim": "Hauptschüler sind halt einfach nicht so schlau",
+      "response": "Das ist ein klassischer Zirkelschluss. PISA zeigt seit 2000 konsistent: In kaum einem Industrieland hängt der Bildungserfolg so stark vom Elternhaus ab wie in Deutschland. Kinder aus bildungsfernen Familien werden überproportional auf Hauptschulen verteilt – unabhängig von ihrem tatsächlichen Potenzial. Das ist kein Intelligenz-Problem, sondern ein Systemversagen: Zu frühe Selektion (meist schon nach Klasse 4), mangelnde individuelle Förderung und zu wenig Unterstützung für benachteiligte Kinder. Länder wie Finnland, die später selektieren und mehr individuell fördern, erreichen gleichzeitig höhere Leistungen und mehr Chancengleichheit.",
+      "keywords": ["hauptschule", "nicht schlau", "intelligenz", "begabung", "selektion"],
+      "relatedSections": ["pisa-chancengleichheit"]
+    },
+    {
+      "id": "arg_inklusion",
+      "claim": "Inklusion schadet normalen Schülern",
+      "response": "Die umfassendste deutsche Studie zur Inklusion (INSIDE, 2016–2025, über 4.000 Schüler:innen an 246 Schulen) zeigt: Inklusion 'gelingt weder durchweg noch scheitert grundsätzlich'. Entscheidend sind die Rahmenbedingungen – insbesondere gute Kooperation zwischen Regel- und Sonderpädagogen sowie ausreichend Personal. Die Studie zeigt keine generellen Nachteile für Mitschüler:innen ohne Förderbedarf. Problematisch wird es erst, wenn Inklusion ohne zusätzliche Ressourcen umgesetzt wird. Das Problem ist also nicht die Inklusion an sich, sondern ihre unzureichende Ausstattung.",
+      "keywords": ["inklusion", "behinderte", "normal", "förderschule", "leistung"],
+      "relatedSections": ["lehrkraeftemangel"]
+    },
+    {
+      "id": "arg_digitalisierung",
+      "claim": "Digitalisierung an Schulen bringt nichts, Kinder sollen lesen lernen",
+      "response": "Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat 6,5 Milliarden Euro in Infrastruktur investiert. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Aktuell müssen Lehrkräfte oft selbst die IT-Administration übernehmen. Eine wissenschaftliche Evaluation des DigitalPakts wird erst 2027 erwartet. Der DigitalPakt 2.0 (bis 2030) soll stärker auf Qualität statt nur auf Hardware setzen.",
+      "keywords": ["digital", "tablet", "computer", "lesen", "handschrift", "smartphone"],
+      "relatedSections": ["digitalisierung"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "OECD – Bildung auf einen Blick 2025",
+      "url": "https://www.oecd.org/de/topics/education.html"
+    },
+    {
+      "label": "Statistisches Bundesamt – Bildungsausgaben 2024",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_445_21711.html"
+    },
+    {
+      "label": "Institut der deutschen Wirtschaft (IW) – Lehrkräftemangel-Prognose",
+      "url": "https://www.iwd.de/artikel/der-lehrermangel-in-deutschland-verschaerft-sich-546423/"
+    },
+    {
+      "label": "KMK – Lehrereinstellungsbedarf und -angebot 2024",
+      "url": "https://www.kmk.org/"
+    },
+    {
+      "label": "PISA 2022 – Nationaler Bericht (TU München / ZIB)",
+      "url": "https://www.pisa.tum.de/"
+    },
+    {
+      "label": "Bundeszentrale für politische Bildung – PISA 2022 und Chancengleichheit",
+      "url": "https://www.bpb.de/themen/bildung/dossier-bildung/543509/"
+    },
+    {
+      "label": "BMBF – DigitalPakt Schule Fortschrittsbericht",
+      "url": "https://www.digitalpaktschule.de/"
+    },
+    {
+      "label": "Bertelsmann Stiftung – Fachkräfte-Barometer Kita 2025",
+      "url": "https://www.bertelsmann-stiftung.de/"
+    },
+    {
+      "label": "Prognos-Institut – Lehrkräfte-Arbeitszeitstudie Sachsen 2024/25"
+    },
+    {
+      "label": "INSIDE-Studie zur Inklusion (Leibniz-Institut für Bildungsverläufe)",
+      "url": "https://www.inside-studie.de/"
+    },
+    {
+      "label": "Bundesregierung – Ganztag-Fortschrittsbericht 2025",
+      "url": "https://www.bundes-sgk.de/artikel/rechtsanspruch-ganztagsbetreuung"
+    }
+  ]
+}
