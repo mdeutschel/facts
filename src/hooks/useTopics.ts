@@ -23,22 +23,16 @@ export function useTopicIndex() {
 }
 
 export function useTopic(id: string | undefined) {
-  const [topic, setTopic] = useState<Topic | null>(null)
-  const [loading, setLoading] = useState(true)
+  const [topic, setTopic] = useState<Topic | null>(id && cache[id] ? cache[id] : null)
+  const [loading, setLoading] = useState<boolean>(!!id && !cache[id])
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    if (!id) {
-      setLoading(false)
+    if (!id || cache[id]) {
       return
     }
 
-    if (cache[id]) {
-      setTopic(cache[id])
-      setLoading(false)
-      return
-    }
-
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true)
     fetch(`${import.meta.env.BASE_URL}data/${id}.json`)
       .then((res) => {

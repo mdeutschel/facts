@@ -1,0 +1,278 @@
+{
+  "id": "emobilitaet",
+  "title": "E-Mobilität",
+  "subtitle": "Fakten zu Reichweite, Akkus, Kosten & Klimabilanz",
+  "icon": "electric_car",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "CO₂-Vorteil nach ~45.000 km",
+    "Akkus halten >500.000 km",
+    "E-Fuels brauchen 5× mehr Strom"
+  ],
+  "sourceNote": "Quellen: ADAC, VDI, Fraunhofer ISI, BDEW, KBA, ICCT, Transport & Environment (Stand März 2026).",
+  "sections": [
+    {
+      "id": "status-quo",
+      "title": "Status Quo: E-Autos in Deutschland",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "~2,2 Mio.", "label": "E-Autos (BEV)", "sublabel": "Bestand Anfang 2026" },
+            { "value": ">150.000", "label": "Öffentl. Ladepunkte", "sublabel": "davon >35.000 Schnelllader" },
+            { "value": "18,5 %", "label": "BEV-Marktanteil", "sublabel": "Neuzulassungen 2025" }
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Marktanteil reiner E-Autos (BEV) an Neuzulassungen in Deutschland",
+          "unit": "%",
+          "items": [
+            { "label": "2020", "value": 6.7 },
+            { "label": "2021", "value": 13.6 },
+            { "label": "2022", "value": 17.7 },
+            { "label": "2023", "value": 18.4 },
+            { "label": "2024", "value": 13.1 },
+            { "label": "2025", "value": 18.5 }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Nach dem Förderstopp-Knick 2024 hat sich der Markt 2025 stabilisiert. Getrieben durch günstigere Modelle (unter 25.000 €) und neue CO₂-Flottengrenzwerte der EU ab 2025.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "klimabilanz",
+      "title": "Klimabilanz: Der CO₂-Rucksack",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ ins Leben. Dieser wird im Fahrbetrieb abgebaut, da der E-Motor deutlich effizienter ist und der Strommix immer grüner wird."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "~45.000 km", "label": "Break-Even", "sublabel": "mit dt. Strommix 2025", "color": "#00897b" },
+            { "value": "~25.000 km", "label": "Break-Even", "sublabel": "mit 100% Ökostrom" },
+            { "value": "-68 %", "label": "CO₂-Emissionen", "sublabel": "über Lebenszyklus (VDI)" }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Laut VDI-Ökobilanzstudie (2024/2025) ist das E-Auto über seine Lebensdauer (200.000 km) das mit Abstand klimafreundlichste Antriebskonzept – selbst beim aktuellen Strommix.",
+          "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Die Batterieproduktion wird zunehmend dekarbonisiert (z.B. Northvolt, CATL mit 100 % Erneuerbaren), was den Rucksack in Zukunft weiter massiv verkleinert."
+        }
+      ]
+    },
+    {
+      "id": "kosten-tco",
+      "title": "Kosten (TCO): Was ist unterm Strich günstiger?",
+      "content": [
+        {
+          "type": "text",
+          "text": "TCO (Total Cost of Ownership) beinhaltet Anschaffung, Wertverlust, Steuern, Versicherung, Wartung und Energiekosten (ADAC Autokostenrechner)."
+        },
+        {
+          "type": "comparison",
+          "caption": "Kostenvergleich Mittelklasse (5 Jahre, 15.000 km/Jahr)",
+          "items": [
+            {
+              "title": "Verbrenner (Benzin)",
+              "color": "#546e7a",
+              "rows": [
+                { "label": "Kaufpreis", "value": "~35.000 €" },
+                { "label": "Energiekosten/Monat", "value": "~115 € (bei 1,75 €/l)" },
+                { "label": "Kfz-Steuer/Jahr", "value": "~120 €" },
+                { "label": "Wartung/Verschleiß", "value": "Hoch (Öl, Riemen, Zündkerzen)" }
+              ],
+              "total": { "label": "Gesamtkosten/Monat", "value": "~680 €" }
+            },
+            {
+              "title": "E-Auto (BEV)",
+              "color": "#00897b",
+              "rows": [
+                { "label": "Kaufpreis", "value": "~38.000 €" },
+                { "label": "Energiekosten/Monat", "value": "~75 € (Laden zuhause)" },
+                { "label": "Kfz-Steuer/Jahr", "value": "0 € (bis 2030 befreit)" },
+                { "label": "Wartung/Verschleiß", "value": "Gering (-30 bis -40 %)" }
+              ],
+              "total": { "label": "Gesamtkosten/Monat", "value": "~590 €" }
+            }
+          ],
+          "savings": "E-Auto spart ca. 90 € im Monat (1.080 € im Jahr)"
+        },
+        {
+          "type": "fact",
+          "text": "Trotz oft höherem Listenpreis sind E-Autos in der Gesamtkostenrechnung (TCO) meist nach 3–5 Jahren günstiger als vergleichbare Verbrenner.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "akkus-rohstoffe",
+      "title": "Akkus: Lebensdauer, Rohstoffe & Recycling",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": ">1.500", "label": "Ladezyklen", "sublabel": "moderne NMC-Akkus" },
+            { "value": ">3.000", "label": "Ladezyklen", "sublabel": "LFP-Akkus (Standard Range)" },
+            { "value": ">90 %", "label": "Recyclingquote", "sublabel": "für Lithium, Kobalt, Nickel" }
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["Fakt", "Erklärung"],
+          "rows": [
+            ["Lebensdauer", "Ein Akku hält heute meist länger als das Auto selbst (500.000 bis >1 Mio. km bei LFP)."],
+            ["LFP-Technologie", "Lithium-Eisenphosphat-Akkus (in >50% der neuen E-Autos) kommen komplett OHNE Kobalt und Nickel aus."],
+            ["Recycling", "EU-Batterieverordnung schreibt ab 2027 Rückgewinnungsquoten von 90% für Kobalt/Kupfer/Nickel und 50% (später 80%) für Lithium vor."],
+            ["Second Life", "Ausgemusterte Auto-Akkus (mit <80% Kapazität) werden jahrelang als stationäre Stromspeicher weitergenutzt."]
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Kobalt ist kein reines E-Auto-Problem: Es wird auch zur Entschwefelung von Benzin und Diesel in Raffinerien genutzt – dort wird es verbraucht, im Akku wird es recycelt.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "stromnetz",
+      "title": "Stromnetz: Droht der Blackout?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "~45 TWh", "label": "Strombedarf", "sublabel": "für 15 Mio. E-Autos" },
+            { "value": "~8 %", "label": "Anteil", "sublabel": "am dt. Stromverbrauch" },
+            { "value": "§ 14a EnWG", "label": "Regelung", "sublabel": "verhindert Überlastung" }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "15 Millionen E-Autos (Ziel der Bundesregierung) benötigen ca. 45 TWh Strom pro Jahr. Das sind weniger als 10 % des aktuellen deutschen Stromverbrauchs. Das Netz kann diese Energiemenge problemlos bereitstellen.",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "Lokale Überlastungen (z.B. wenn abends alle gleichzeitig laden) werden durch intelligentes Laden (§ 14a EnWG) verhindert. Netzbetreiber dürfen Ladeboxen kurzzeitig dimmen (auf 4,2 kW), aber niemals komplett abschalten. 4,2 kW reichen immer noch, um über Nacht ~200 km Reichweite nachzuladen."
+        }
+      ]
+    },
+    {
+      "id": "efuels-wasserstoff",
+      "title": "E-Fuels & Wasserstoff im PKW: Ein Effizienzproblem",
+      "content": [
+        {
+          "type": "bar_chart",
+          "caption": "Gesamtwirkungsgrad (Well-to-Wheel)",
+          "items": [
+            { "label": "E-Auto (BEV)", "value": 73, "highlight": true },
+            { "label": "Wasserstoff (Brennstoffzelle)", "value": 22 },
+            { "label": "E-Fuels (Verbrenner)", "value": 13 }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Um mit E-Fuels 100 km zu fahren, braucht man ca. 5 bis 6 Mal so viel erneuerbaren Strom wie für ein Batterie-E-Auto (BEV).",
+          "highlight": true
+        },
+        {
+          "type": "text",
+          "text": "E-Fuels und Wasserstoff sind extrem wertvoll und werden dringend in Sektoren gebraucht, die sich nicht mit Batterien elektrifizieren lassen: Flugverkehr, Schifffahrt und Schwerindustrie (Stahl, Chemie). Sie im PKW zu verbrennen, ist energetische und ökonomische Verschwendung."
+        }
+      ]
+    },
+    {
+      "id": "brandgefahr",
+      "title": "Brandgefahr: Brennen E-Autos häufiger?",
+      "content": [
+        {
+          "type": "fact",
+          "text": "Statistisch gesehen brennen E-Autos deutlich seltener als Verbrenner.",
+          "highlight": true
+        },
+        {
+          "type": "table",
+          "headers": ["Fahrzeugtyp", "Brände pro 100.000 Fahrzeuge (US-Daten AutoinsuranceEZ)"],
+          "rows": [
+            ["Hybride (PHEV/HEV)", "3.474"],
+            ["Verbrenner (Benzin/Diesel)", "1.529"],
+            ["E-Autos (BEV)", "25"]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Wenn ein E-Auto brennt, ist es schwerer zu löschen (die Feuerwehr muss den Akku kühlen, z.B. im Wasserbad). Aber das Risiko eines Brandes ist bei einem Tank voller hochentzündlichem Benzin und einem heißen Auspuff/Motorblock viel höher als bei einem gut geschützten Akkupack im Unterboden."
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "akku-kaputt",
+      "claim": "Nach 3 bis 5 Jahren ist der Akku kaputt und ein neuer kostet 15.000 Euro.",
+      "response": "Ein Mythos aus der Zeit alter Handys. Moderne E-Auto-Akkus (besonders LFP) halten 1.500 bis 3.000 Ladezyklen. Das entspricht 500.000 bis über 1 Million Kilometern. Der Akku überlebt in der Regel die Karosserie des Autos. Zudem geben Hersteller meist 8 Jahre oder 160.000 km Garantie auf den Akku.",
+      "keywords": ["akku", "kaputt", "lebensdauer", "austausch", "garantie", "kosten"],
+      "relatedSections": ["akkus-rohstoffe"]
+    },
+    {
+      "id": "stromnetz-kollaps",
+      "claim": "Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.",
+      "response": "Nein. 15 Mio. E-Autos brauchen nur ca. 8% unseres Stroms. Lokale Überlastungen werden durch § 14a EnWG verhindert: Netzbetreiber können Wallboxen bei Engpässen kurzzeitig auf 4,2 kW dimmen. Das reicht immer noch, um über Nacht ~200 km nachzuladen. Niemand bleibt morgens mit leerem Akku stehen.",
+      "keywords": ["stromnetz", "blackout", "zusammenbruch", "laden", "netz", "überlastung"],
+      "relatedSections": ["stromnetz"]
+    },
+    {
+      "id": "co2-rucksack",
+      "claim": "Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.",
+      "response": "Falsch. Der „CO₂-Rucksack“ der Produktion ist beim aktuellen deutschen Strommix nach ca. 45.000 km abgefahren. Über den gesamten Lebenszyklus spart ein E-Auto rund 68 % CO₂ gegenüber einem Verbrenner ein (VDI-Studie). Mit Ökostrom geladen, ist der Break-Even schon nach ~25.000 km erreicht.",
+      "keywords": ["klimaschädlich", "co2", "rucksack", "produktion", "diesel", "umwelt"],
+      "relatedSections": ["klimabilanz"]
+    },
+    {
+      "id": "kobalt-kinderarbeit",
+      "claim": "Für E-Autos schuften Kinder im Kongo für Kobalt.",
+      "response": "Die Industrie steuert massiv um: Über 50 % der neuen E-Autos (z.B. Tesla Model 3/Y Standard, VW ID-Einstiegsmodelle) nutzen LFP-Akkus. Diese enthalten exakt 0 % Kobalt und 0 % Nickel. Zudem wird Kobalt auch für die Entschwefelung von Benzin und Diesel genutzt – dort regt sich niemand auf, und es wird verbrannt statt recycelt.",
+      "keywords": ["kobalt", "kinderarbeit", "kongo", "rohstoffe", "ausbeutung"],
+      "relatedSections": ["akkus-rohstoffe"]
+    },
+    {
+      "id": "wasserstoff-zukunft",
+      "claim": "Batterien sind nur eine Brückentechnologie, Wasserstoff und E-Fuels sind die Zukunft.",
+      "response": "Die Physik spricht dagegen: Ein Wasserstoff-Auto braucht 3x so viel Strom für die gleiche Strecke wie ein Batterie-Auto. Mit E-Fuels sind es sogar 5-6x so viel. Dieser Strom müsste erst teuer erzeugt werden. E-Fuels und H₂ werden dringend für Flugzeuge, Schiffe und die Industrie gebraucht – im PKW sind sie ineffizient und viel zu teuer.",
+      "keywords": ["wasserstoff", "e-fuels", "brennstoffzelle", "zukunft", "brückentechnologie", "effizienz"],
+      "relatedSections": ["efuels-wasserstoff"]
+    },
+    {
+      "id": "brennende-autos",
+      "claim": "E-Autos brennen ständig und können nicht gelöscht werden.",
+      "response": "Statistiken zeigen das Gegenteil: Verbrenner brennen rund 60-mal häufiger als E-Autos (pro 100.000 Fahrzeuge). Ein Tank voller Benzin neben einem heißen Motor ist gefährlicher als ein gekapselter Akku im Unterboden. Wenn ein E-Auto brennt, ist das Löschen zwar aufwendiger (Kühlung nötig), aber die Feuerwehren sind darauf längst eingestellt.",
+      "keywords": ["brennen", "feuer", "brandgefahr", "löschen", "feuerwehr", "explosion"],
+      "relatedSections": ["brandgefahr"]
+    },
+    {
+      "id": "reichweite",
+      "claim": "Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.",
+      "response": "Moderne E-Autos haben reale Autobahn-Reichweiten von 300 bis 500 km. Das europäische Schnellladenetz wächst rasant. An einem HPC-Lader (High Power Charger) lädt man in 20 Minuten Strom für weitere 250 km nach – genau die Zeit, die man ohnehin für eine Toiletten- oder Kaffeepause nach 3 Stunden Fahrt einplanen sollte.",
+      "keywords": ["urlaub", "reichweite", "italien", "langstrecke", "laden", "pause"],
+      "relatedSections": ["status-quo"]
+    }
+  ],
+  "sources": [
+    { "label": "VDI (Verein Deutscher Ingenieure) – Ökobilanz von PKW-Antrieben (2024)" },
+    { "label": "ADAC – Autokostenrechner / TCO-Vergleich (2025)" },
+    { "label": "BDEW – Zahlen zum Ladeinfrastrukturausbau und Stromnetz (2025/2026)" },
+    { "label": "Transport & Environment (T&E) – Effizienzvergleich E-Fuels vs. BEV" },
+    { "label": "Fraunhofer ISI – Batterielebensdauer und Recyclingquoten" },
+    { "label": "AutoinsuranceEZ – Studie zur Brandgefahr nach Antriebsarten" },
+    { "label": "Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand und Neuzulassungen" }
+  ]
+}
