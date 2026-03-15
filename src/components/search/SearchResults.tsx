@@ -39,9 +39,9 @@ export default function SearchResults({ results, query }: SearchResultsProps) {
 
   const handleClick = (result: SearchResult) => {
     if (result.type === 'argument') {
-      navigate(`/thema/${result.topicId}?tab=1#arg-${result.id}`)
+      navigate(`/thema/${result.topicId}#arg-${result.id}`)
     } else {
-      navigate(`/thema/${result.topicId}#section-${result.id}`)
+      navigate(`/thema/${result.topicId}?tab=1#section-${result.id}`)
     }
   }
 
@@ -70,7 +70,7 @@ export default function SearchResults({ results, query }: SearchResultsProps) {
                 secondaryTypographyProps={{ variant: 'caption', noWrap: false }}
               />
               <Chip
-                label={result.type === 'argument' ? 'Konter' : 'Fakt'}
+                label={result.type === 'argument' ? 'Argument' : 'Fakt'}
                 size="small"
                 variant="outlined"
                 sx={{ ml: 1, flexShrink: 0, fontSize: '0.65rem' }}
