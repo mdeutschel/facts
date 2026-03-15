@@ -47,6 +47,38 @@
       "icon": "public",
       "lastUpdated": "2026-03",
       "keyStats": ["Rückgang der Asylanträge um 27 % (2025)", "68 % der 2015-Geflüchteten in Arbeit (2022)", "Rund 3 Mio. Erwerbstätige ohne deutschen Pass"]
+    },
+    {
+      "id": "teilzeit",
+      "title": "Teilzeit & Arbeitsmoral",
+      "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.",
+      "icon": "schedule",
+      "lastUpdated": "2026-03",
+      "keyStats": ["61,26 Mrd. Stunden Gesamtarbeitsvolumen (2025)", "39,9 % Teilzeitquote (Rekordhoch)", "76 % Erwerbsbeteiligung bei 20- bis 24-Jährigen"]
+    },
+    {
+      "id": "vegane-ernaehrung",
+      "title": "Vegane Ernährung & Fleischkonsum",
+      "subtitle": "Auswirkungen auf Klima, Umwelt und Gesundheit",
+      "icon": "eco",
+      "lastUpdated": "2026-03",
+      "keyStats": ["~50% weniger CO₂-Emissionen durch vegane Ernährung", "75% der globalen Agrarfläche könnten eingespart werden", "Mindestens 75% pflanzlich empfiehlt die DGE"]
+    },
+    {
+      "id": "vermoegenssteuer",
+      "title": "Vermögens- und Erbschaftssteuer",
+      "subtitle": "Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland",
+      "icon": "account_balance",
+      "lastUpdated": "2026-03",
+      "keyStats": ["Das reichste 1 % besitzt ca. 26 % des Vermögens", "Die untere Hälfte besitzt nur 2,5 %", "13,3 Mrd. € Erbschaftsteuer-Aufkommen (2024)", "Bis zu 100 % Steuerbefreiung für Betriebsvermögen"]
+    },
+    {
+      "id": "gleichberechtigung",
+      "title": "Gleichberechtigung",
+      "subtitle": "Fakten zu Pay Gap, Care-Arbeit und Repräsentation",
+      "icon": "balance",
+      "lastUpdated": "2026-03",
+      "keyStats": ["16 % unbereinigter Gender Pay Gap (2025)", "Frauen leisten 43,4 % mehr unbezahlte Care-Arbeit", "32,4 % Frauenanteil im Bundestag"]
     }
   ]
 }

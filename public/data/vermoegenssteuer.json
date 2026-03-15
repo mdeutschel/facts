@@ -1,0 +1,117 @@
+{
+  "id": "vermoegenssteuer",
+  "title": "Vermögens- und Erbschaftssteuer",
+  "subtitle": "Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland",
+  "icon": "account_balance",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "Das reichste 1 % besitzt ca. 26 % des Vermögens",
+    "Die untere Hälfte besitzt nur 2,5 %",
+    "13,3 Mrd. € Erbschaftsteuer-Aufkommen (2024)",
+    "Bis zu 100 % Steuerbefreiung für Betriebsvermögen"
+  ],
+  "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin, der Deutschen Bundesbank (Distributional Wealth Accounts 2024/2025) und des Statistischen Bundesamtes (Destatis).",
+  "sections": [
+    {
+      "id": "verteilung",
+      "title": "Die Vermögensverteilung in Deutschland",
+      "content": [
+        {
+          "type": "text",
+          "text": "Deutschland weist im europäischen Vergleich eine sehr hohe Vermögensungleichheit auf. Während Einkommen relativ gleichmäßig verteilt sind, konzentriert sich das Vermögen (Immobilien, Aktien, Betriebsvermögen) stark an der Spitze der Gesellschaft."
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Anteil am Gesamtvermögen in Deutschland (in %)",
+          "unit": "%",
+          "items": [
+            { "label": "Top 1 %", "value": 26, "highlight": true },
+            { "label": "Nächste 9 %", "value": 34 },
+            { "label": "Mittlere 40 %", "value": 37.5 },
+            { "label": "Untere 50 %", "value": 2.5 }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die untere Hälfte der Bevölkerung besitzt fast ausschließlich risikoarme Anlagen wie Einlagen und Versicherungsansprüche, während wohlhabende Haushalte stark in Immobilien und Betriebsvermögen investiert sind."
+        }
+      ]
+    },
+    {
+      "id": "erbschaftssteuer",
+      "title": "Erbschaftssteuer und Betriebsvermögen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Jedes Jahr werden in Deutschland schätzungsweise bis zu 400 Milliarden Euro vererbt oder verschenkt. Tatsächlich besteuert wird davon aufgrund von Freibeträgen und Ausnahmeregelungen nur ein kleiner Teil."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "label": "Erbschaftsteuer-Aufkommen", "value": "13,3 Mrd. €", "sublabel": "Rekordwert im Jahr 2024" },
+            { "label": "Steuerbefreiung Betriebsvermögen", "value": "85 - 100 %", "sublabel": "bei Weiterführung des Betriebs" }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Besonders bei sehr großen Erbschaften (sogenannte Großerwerbe über 26 Millionen Euro) sinkt die tatsächliche Steuerlast prozentual oft stark ab, da diese meist aus steuerbegünstigtem Betriebsvermögen bestehen."
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "hochsteuerland",
+      "claim": "Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!",
+      "response": "Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) gehört Deutschland tatsächlich zur Weltspitze. Bei den vermögensbezogenen Steuern (Grundsteuer, Erbschaftsteuer, Vermögenssteuer) liegt Deutschland jedoch deutlich unter dem OECD-Durchschnitt. Die Vermögenssteuer wird seit 1997 nicht mehr erhoben.",
+      "keywords": ["Hochsteuerland", "Steuerlast", "OECD", "Abgaben"],
+      "relatedSections": ["verteilung"]
+    },
+    {
+      "id": "familienunternehmen",
+      "claim": "Eine Vermögenssteuer zerstört unsere Familienunternehmen und den Mittelstand!",
+      "response": "Fast alle aktuellen Konzepte für eine Vermögenssteuer sehen hohe Freibeträge vor (z.B. 2 bis 5 Millionen Euro oder spezielle Verschonungsregeln für Betriebsvermögen). Echte mittelständische Betriebe wären davon kaum betroffen. Die Steuer würde primär Multimillionäre und Milliardäre treffen und könnte oft aus der Rendite gezahlt werden.",
+      "keywords": ["Mittelstand", "Familienunternehmen", "Betriebsvermögen", "Wirtschaft", "Arbeitsplätze"],
+      "relatedSections": ["erbschaftssteuer"]
+    },
+    {
+      "id": "abwanderung",
+      "claim": "Die Reichen wandern dann einfach ins Ausland ab!",
+      "response": "Empirische Studien aus Ländern mit Vermögenssteuern (wie der Schweiz) zeigen, dass massenhafte Abwanderungen ein Mythos sind. Die meisten Vermögenden sind lokal verwurzelt, haben hier ihre Netzwerke, Immobilien und Unternehmen. Eine sogenannte 'Wegzugsbesteuerung' kann zudem verhindern, dass Vermögen einfach steuerfrei außer Landes geschafft wird.",
+      "keywords": ["Abwanderung", "Ausland", "Flucht", "Schweiz", "Wegzugsbesteuerung"]
+    },
+    {
+      "id": "doppelbesteuerung",
+      "claim": "Es wird doch schon alles bei der Einkommensteuer versteuert (Doppelbesteuerung)!",
+      "response": "Vermögen wächst oft ohne Einkommensteuerzahlung, etwa durch Wertsteigerungen von Immobilien, Aktien oder Unternehmensanteilen. Diese Gewinne werden oft erst bei Verkauf besteuert – oder im Fall von Erbschaften teilweise gar nicht. Eine Vermögenssteuer setzt an diesem leistungslosen Zuwachs an.",
+      "keywords": ["Doppelbesteuerung", "Einkommensteuer", "bereits versteuert", "Wertsteigerung"]
+    },
+    {
+      "id": "elternhaus",
+      "claim": "Die Erbschaftsteuer zwingt Erben dazu, ihr Elternhaus zu verkaufen!",
+      "response": "Für das Familienheim gibt es weitreichende Ausnahmen: Wer das geerbte Haus oder die Wohnung selbst für mindestens 10 Jahre bewohnt, zahlt darauf gar keine Erbschaftsteuer (bis 200qm Wohnfläche). Zudem gibt es hohe persönliche Freibeträge (400.000 Euro pro Kind, 500.000 Euro für Ehepartner).",
+      "keywords": ["Elternhaus", "Immobilie", "Hausverkauf", "Freibetrag", "Familienheim"],
+      "relatedSections": ["erbschaftssteuer"]
+    },
+    {
+      "id": "verwaltungskosten",
+      "claim": "Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!",
+      "response": "Das ist ein veraltetes Argument aus den 1990er Jahren. Durch Digitalisierung, automatisierten Informationsaustausch zwischen Finanzämtern und moderne Bewertungsverfahren (wie bei der neuen Grundsteuer) wäre der Verwaltungsaufwand heute deutlich geringer. Experten schätzen die Erhebungskosten auf unter 5 % der Einnahmen.",
+      "keywords": ["Verwaltungskosten", "Bürokratie", "Aufwand", "Erhebung", "Finanzamt"]
+    }
+  ],
+  "sources": [
+    {
+      "label": "DIW Berlin: Private Vermögen - Höhe, Entwicklung und Verteilung (2024)",
+      "url": "https://www.diw.de/de/diw_01.c.925733.de/publikationen/sonstige_aufsaetze/2024_0000/private_vermoegen__hoehe__entwicklung_und_verteilung.html"
+    },
+    {
+      "label": "Deutsche Bundesbank: Distributional Wealth Accounts (2024/2025)",
+      "url": "https://www.bundesbank.de/de/statistiken/gesamtwirtschaftliche-rechenwerke/vermoegensbilanzen"
+    },
+    {
+      "label": "Statistisches Bundesamt: Erbschaft- und Schenkungsteuer 2024",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_320_736.html"
+    }
+  ]
+}
