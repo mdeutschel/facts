@@ -122,6 +122,19 @@
           ]
         },
         {
+          "type": "line_chart",
+          "caption": "Entwicklung des Erneuerbaren-Anteils am Strommix",
+          "unit": "%",
+          "items": [
+            {"label": "2010", "value": 17},
+            {"label": "2015", "value": 31.5},
+            {"label": "2020", "value": 45.3},
+            {"label": "2023", "value": 51.8},
+            {"label": "2024", "value": 56.0},
+            {"label": "2025", "value": 62.0}
+          ]
+        },
+        {
           "type": "table",
           "headers": ["Kennzahl", "Wert"],
           "rows": [
