@@ -109,7 +109,8 @@ function flattenContentBlock(block) {
 function buildSitemap(topics) {
   const staticPaths = ['/', '/impressum', '/feedback', '/suche']
   const topicPaths = topics.map((topic) => `/thema/${topic.id}`)
-  const allPaths = [...staticPaths, ...topicPaths]
+  const textFiles = ['/llms.txt', '/llms-full.txt']
+  const allPaths = [...staticPaths, ...topicPaths, ...textFiles]
 
   const urlEntries = allPaths
     .map((routePath) => {
