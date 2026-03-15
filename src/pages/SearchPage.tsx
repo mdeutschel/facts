@@ -14,7 +14,7 @@ export default function SearchPage() {
   const searchPath = query ? `/suche?q=${encodedQuery}` : '/suche'
   const searchTitle = query ? `Suche: ${query}` : 'Suche'
   const searchDescription = query
-    ? `Suchergebnisse fuer "${query}" bei Fakten-Stammtisch.`
+    ? `Suchergebnisse für "${query}" bei Fakten-Stammtisch.`
     : 'Suche in Fakten, Argumenten und Quellen bei Fakten-Stammtisch.'
 
   return (

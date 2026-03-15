@@ -7,7 +7,7 @@ header('Content-Type: text/html; charset=utf-8');
 $siteName = 'Fakten-Stammtisch';
 $siteUrl = 'https://fakten-stammtisch.de';
 $defaultTitle = $siteName;
-$defaultDescription = 'Faktenbasierte Argumente fuer Stammtischdiskussionen';
+$defaultDescription = 'Faktenbasierte Argumente für Stammtischdiskussionen';
 $defaultPath = '/';
 $defaultImage = $siteUrl . '/og-image.png';
 
