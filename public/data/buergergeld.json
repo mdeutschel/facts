@@ -1,0 +1,171 @@
+{
+  "id": "buergergeld",
+  "title": "Bürgergeld",
+  "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
+  "icon": "account_balance_wallet",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "563 € Basis-Regelsatz (2025/2026)",
+    "557 € Einkommensvorteil bei Mindestlohn (Single)",
+    "5,5 Mio. Beziehende insgesamt"
+  ],
+  "sourceNote": "Basierend auf Daten der Bundesagentur für Arbeit, des BMAS und aktuellen Studien des WSI (Stand Anfang 2026).",
+  "sections": [
+    {
+      "id": "regelsatz",
+      "title": "Wie hoch ist das Bürgergeld wirklich?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Regelsatz für alleinstehende Erwachsene beträgt seit 2024 unverändert 563 Euro im Monat. Für die Jahre 2025 und 2026 gab es sogenannte 'Nullrunden', da die Inflation gesunken ist."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "label": "Alleinstehende", "value": "563 €", "sublabel": "Regelbedarfsstufe 1" },
+            { "label": "Partner in Bedarfsgemeinschaft", "value": "506 €", "sublabel": "pro Person" },
+            { "label": "Jugendliche (14-17 J.)", "value": "471 €" },
+            { "label": "Kinder (6-13 J.)", "value": "390 €" }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernommen. Der Regelsatz selbst muss alle Ausgaben für Ernährung, Kleidung, Strom, Internet und Freizeit abdecken."
+        }
+      ]
+    },
+    {
+      "id": "lohnabstand",
+      "title": "Lohnt sich Arbeit noch?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Eine Studie des Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) zeigt klar: Wer zum Mindestlohn arbeitet, hat am Ende des Monats spürbar mehr Geld zur Verfügung als mit Bürgergeld."
+        },
+        {
+          "type": "comparison",
+          "caption": "Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn (12,82 €) gegenüber Bürgergeld",
+          "items": [
+            {
+              "title": "Alleinstehende",
+              "rows": [
+                { "label": "Bürgergeld inkl. Miete", "value": "ca. 1.000 €" },
+                { "label": "Mindestlohn (Netto)", "value": "ca. 1.557 €" }
+              ],
+              "total": { "label": "Einkommensvorteil", "value": "+ 557 €" }
+            },
+            {
+              "title": "Alleinerziehend (1 Kind)",
+              "rows": [
+                { "label": "Bürgergeld inkl. Miete", "value": "ca. 1.600 €" },
+                { "label": "Mindestlohn + Kindergeld/Zuschlag", "value": "ca. 2.349 €" }
+              ],
+              "total": { "label": "Einkommensvorteil", "value": "+ 749 €" }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der Abstand variiert je nach Wohnort und Mietkosten, ist aber überall in Deutschland deutlich positiv."
+        }
+      ]
+    },
+    {
+      "id": "sanktionen",
+      "title": "Sanktionen und 'Totalverweigerer'",
+      "content": [
+        {
+          "type": "text",
+          "text": "Das Bürgergeld ist kein bedingungsloses Grundeinkommen. Wer Termine versäumt oder zumutbare Arbeit ablehnt, wird sanktioniert."
+        },
+        {
+          "type": "progress_stack",
+          "caption": "Sanktionsstufen bei Pflichtverletzungen",
+          "segments": [
+            { "label": "1. Verstoß", "value": 10, "sublabel": "10% Kürzung für 1 Monat" },
+            { "label": "2. Verstoß", "value": 20, "sublabel": "20% Kürzung für 2 Monate" },
+            { "label": "3. Verstoß", "value": 30, "sublabel": "30% Kürzung für 3 Monate" }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Seit März 2024 können Jobcenter bei sogenannten 'Totalverweigerern' den Regelsatz für bis zu zwei Monate zu 100 % streichen. Dies betrifft in der Praxis jedoch nur einen winzigen Bruchteil (ca. 0,01 %) der Beziehenden.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "missbrauch",
+      "title": "Wie viel Betrug gibt es?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Immer wieder wird über massenhaften Leistungsmissbrauch berichtet. Die offiziellen Zahlen der Bundesagentur für Arbeit zeigen jedoch ein anderes Bild."
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Bandenmäßiger Betrug im Verhältnis zu allen Beziehenden (2024)",
+          "items": [
+            { "label": "Bürgergeld-Beziehende Gesamt", "value": 5500000 },
+            { "label": "Aufgedeckte Betrugsfälle (bandenmäßig)", "value": 421, "highlight": true }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Auch wenn jeder Betrugsfall einer zu viel ist und konsequent verfolgt wird, handelt es sich statistisch um kein Massenphänomen."
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "arg_lohnabstand",
+      "claim": "Wer arbeitet, ist doch der Dumme. Mit Bürgergeld hat man am Ende mehr in der Tasche!",
+      "response": "Das stimmt nicht. Das Lohnabstandsgebot ist gewahrt. Eine WSI-Studie zeigt, dass ein Single, der Vollzeit zum Mindestlohn arbeitet, im Schnitt 557 Euro mehr im Monat zur Verfügung hat als jemand, der Bürgergeld bezieht. Bei Familien ist der Abstand oft noch größer, da Erwerbstätige zusätzlich Anspruch auf Kinderzuschlag und Wohngeld haben.",
+      "keywords": ["arbeiten lohnt nicht", "mindestlohn", "lohnabstand", "mehr geld", "dumme"],
+      "relatedSections": ["lohnabstand"]
+    },
+    {
+      "id": "arg_haengematte",
+      "claim": "Das Bürgergeld ist eine soziale Hängematte. Man muss gar nichts mehr machen und bekommt trotzdem Geld.",
+      "response": "Das Bürgergeld ist an strikte Pflichten geknüpft. Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, dem werden die Leistungen gekürzt (Sanktionen). Für sogenannte 'Totalverweigerer' kann der Regelsatz seit 2024 sogar für zwei Monate komplett (zu 100 %) gestrichen werden.",
+      "keywords": ["hängematte", "faul", "nichts tun", "sanktionen", "strafen"],
+      "relatedSections": ["sanktionen"]
+    },
+    {
+      "id": "arg_erhoehung",
+      "claim": "Die Bürgergeld-Empfänger bekommen jedes Jahr massiv mehr Geld, während die Löhne stagnieren!",
+      "response": "Die Regelsätze werden streng nach einem gesetzlichen Mechanismus an die Inflation und die Lohnentwicklung angepasst. Weil die Inflation zuletzt gesunken ist, gab es für 2025 eine 'Nullrunde' – das Bürgergeld wurde nicht erhöht. Auch für 2026 ist eine Nullrunde beschlossen. Der Regelsatz für Singles bleibt bei 563 Euro.",
+      "keywords": ["erhöhung", "immer mehr", "inflation", "nullrunde", "löhne"],
+      "relatedSections": ["regelsatz"]
+    },
+    {
+      "id": "arg_betrug",
+      "claim": "Das System wird doch nur ausgenutzt. Fast alle betrügen beim Bürgergeld!",
+      "response": "Leistungsmissbrauch existiert, ist aber statistisch gesehen die absolute Ausnahme. Bei rund 5,5 Millionen Beziehenden registrierte die Bundesagentur für Arbeit im Jahr 2024 beispielsweise 421 Fälle von bandenmäßigem Betrug. Die Jobcenter prüfen Anträge sehr genau und gleichen Daten automatisch ab, um Missbrauch zu verhindern.",
+      "keywords": ["betrug", "ausnutzen", "kriminell", "missbrauch", "schwarzarbeit"],
+      "relatedSections": ["missbrauch"]
+    },
+    {
+      "id": "arg_auslaender",
+      "claim": "Das Bürgergeld lockt nur Ausländer an, die sich hier auf unsere Kosten ein schönes Leben machen.",
+      "response": "Bürgergeld ist die Grundsicherung für Arbeitsuchende, kein bedingungsloses Einkommen. EU-Ausländer haben in den ersten Monaten der Arbeitssuche in der Regel gar keinen Anspruch. Asylbewerber bekommen Leistungen nach dem Asylbewerberleistungsgesetz, die deutlich niedriger sind als das Bürgergeld. Wer Bürgergeld bezieht, muss dem Arbeitsmarkt zur Verfügung stehen und Integrationsmaßnahmen (wie Sprachkurse) besuchen.",
+      "keywords": ["ausländer", "flüchtlinge", "einwanderung", "sozialtourismus", "asyl"],
+      "relatedSections": []
+    }
+  ],
+  "sources": [
+    {
+      "label": "Bundesministerium für Arbeit und Soziales (BMAS) - Regelbedarfe",
+      "url": "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Regelbedarfe/regelbedarfe.html"
+    },
+    {
+      "label": "WSI-Studie zum Lohnabstandsgebot (2024/2025)",
+      "url": "https://www.wsi.de/de/pressemitteilungen-15991-einkommen-bei-mindestlohnbeschaeftigung-deutlich-hoeher-als-buergergeld-70666.htm"
+    },
+    {
+      "label": "Bundesagentur für Arbeit - Statistiken zu Sanktionen und Leistungsmissbrauch",
+      "url": "https://statistik.arbeitsagentur.de/"
+    }
+  ]
+}

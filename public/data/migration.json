@@ -1,0 +1,219 @@
+{
+  "id": "migration",
+  "title": "Migration & Asyl",
+  "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",
+  "icon": "public",
+  "lastUpdated": "2026-03",
+  "keyStats": [
+    "113.236 Asylerstanträge in 2025 (-50,7% zu 2024)",
+    "64% Beschäftigungsquote bei Geflüchteten von 2015",
+    "57% Beschäftigungsquote bei Ausländern gesamt (2025)"
+  ],
+  "sourceNote": "Die Daten basieren auf offiziellen Statistiken des Bundesamts für Migration und Flüchtlinge (BAMF), des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) und des Statistischen Bundesamtes (Destatis) mit Stand Anfang 2026.",
+  "sections": [
+    {
+      "id": "asylzahlen",
+      "title": "Entwicklung der Asylzahlen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort."
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Asylerstanträge in Deutschland",
+          "items": [
+            {
+              "label": "2023",
+              "value": 329120
+            },
+            {
+              "label": "2024",
+              "value": 229751
+            },
+            {
+              "label": "2025",
+              "value": 113236,
+              "highlight": true
+            }
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Asylerstanträge 2025",
+              "value": "113.236",
+              "sublabel": "-50,7 % zu 2024"
+            },
+            {
+              "label": "Asylerstanträge Jan 2026",
+              "value": "7.649",
+              "sublabel": "-48,7 % zum Vorjahresmonat"
+            },
+            {
+              "label": "Gesamtschutzquote 2025",
+              "value": "28,1 %",
+              "sublabel": "Anteil positiver Entscheidungen"
+            }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die zugangsstärksten Herkunftsländer 2025 waren Afghanistan (23.972 Erstanträge), Syrien (23.256) und die Türkei (11.919).",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "id": "arbeitsmarkt",
+      "title": "Arbeitsmarktintegration",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb, Qualifizierung), zeigt aber langfristig deutliche Erfolge. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) nähert sich die Beschäftigungsquote der 2015 nach Deutschland gekommenen Geflüchteten nach neun Jahren dem Bevölkerungsdurchschnitt an."
+        },
+        {
+          "type": "progress_stack",
+          "caption": "Beschäftigungsquote der 2015 zugezogenen Geflüchteten",
+          "segments": [
+            {
+              "label": "Im 1. Jahr",
+              "value": 10
+            },
+            {
+              "label": "Nach 9 Jahren",
+              "value": 64,
+              "sublabel": "Männer: 76%, Frauen: 35%"
+            }
+          ],
+          "total": "Bevölkerungsdurchschnitt: 70%"
+        },
+        {
+          "type": "fact",
+          "text": "Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus."
+        },
+        {
+          "type": "text",
+          "text": "Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in Engpassberufen und systemrelevanten Bereichen, wie Gesundheitsberufen, Fertigung, Verkehr und Logistik."
+        }
+      ]
+    },
+    {
+      "id": "demografie",
+      "title": "Demografischer Wandel und Fachkräfte",
+      "content": [
+        {
+          "type": "text",
+          "text": "Aufgrund der Alterung der Gesellschaft (Renteneintritt der sogenannten Boomer-Generation) schrumpft das inländische Erwerbspersonenpotenzial in Deutschland drastisch. Um den Wohlstand und die Sozialsysteme stabil zu halten, ist Deutschland laut Experten auf Nettozuwanderung und die erfolgreiche Integration von Zugewanderten in den Arbeitsmarkt angewiesen."
+        },
+        {
+          "type": "comparison",
+          "caption": "Beschäftigungsquote (Stand August 2025)",
+          "items": [
+            {
+              "title": "Ausländische Staatsangehörige",
+              "rows": [
+                {
+                  "label": "Gesamtquote",
+                  "value": "57,2 %"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "zahlen-explodieren",
+      "claim": "Die Asylzahlen explodieren immer weiter, wir werden überrannt!",
+      "response": "Tatsächlich sind die Asylerstanträge 2025 massiv gesunken. Mit 113.236 Erstanträgen gab es einen Rückgang von über 50 % im Vergleich zum Vorjahr (2024: 229.751). Im Januar 2026 setzte sich dieser Trend mit einem weiteren Rückgang von fast 49 % zum Vorjahresmonat fort.",
+      "keywords": [
+        "Asylzahlen",
+        "überrannt",
+        "explodieren",
+        "Zahlen",
+        "Flüchtlinge"
+      ],
+      "relatedSections": [
+        "asylzahlen"
+      ]
+    },
+    {
+      "id": "leben-vom-buergergeld",
+      "claim": "Die Flüchtlinge von 2015 leben alle nur vom Bürgergeld und arbeiten nicht.",
+      "response": "Nach 10 Jahren (Stand 2025) liegt die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 % und nähert sich damit dem Bevölkerungsdurchschnitt (70 %) an. Rund die Hälfte der beschäftigten Geflüchteten übt inzwischen eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.",
+      "keywords": [
+        "Bürgergeld",
+        "arbeiten nicht",
+        "faul",
+        "Sozialstaat",
+        "2015"
+      ],
+      "relatedSections": [
+        "arbeitsmarkt"
+      ]
+    },
+    {
+      "id": "nehmen-jobs-weg",
+      "claim": "Ausländer nehmen uns die guten Jobs weg.",
+      "response": "Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in sogenannten Engpassberufen, in denen ohnehin Personal fehlt (z.B. Pflege, Logistik, Handwerk). Ohne sie wäre der Personalmangel in vielen systemrelevanten Bereichen noch deutlich größer.",
+      "keywords": [
+        "Jobs",
+        "Arbeitsplätze",
+        "wegnehmen",
+        "Konkurrenz"
+      ],
+      "relatedSections": [
+        "arbeitsmarkt",
+        "demografie"
+      ]
+    },
+    {
+      "id": "bringen-nichts",
+      "claim": "Die Zuwanderung bringt uns wirtschaftlich nichts, sie kostet nur.",
+      "response": "Angesichts des demografischen Wandels (Renteneintritt der Boomer-Generation) schrumpft das inländische Erwerbspersonenpotenzial. Die Bundesagentur für Arbeit und das IAB betonen regelmäßig, dass Deutschland auf Zuwanderung angewiesen ist, um den Arbeitskräftemangel abzufedern und die Sozialsysteme (wie die Rente) stabil zu halten.",
+      "keywords": [
+        "Wirtschaft",
+        "Kosten",
+        "Nutzen",
+        "Rente",
+        "Sozialsysteme"
+      ],
+      "relatedSections": [
+        "demografie"
+      ]
+    },
+    {
+      "id": "ungebildet",
+      "claim": "Die meisten Geflüchteten sind ungebildet und können hier gar nicht arbeiten.",
+      "response": "Zwar dauern Spracherwerb und Nachqualifizierung ihre Zeit, aber Daten des IAB zeigen: 7-8 Jahre nach dem Zuzug arbeiten rund 50 % der beschäftigten Geflüchteten als Fachkräfte oder Spezialisten. Die Integration in den Arbeitsmarkt verläuft stetig, braucht aber anfangs Investitionen in Bildung und Sprache.",
+      "keywords": [
+        "Bildung",
+        "ungebildet",
+        "Qualifikation",
+        "Sprache",
+        "Fachkräfte"
+      ],
+      "relatedSections": [
+        "arbeitsmarkt"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "BAMF: Asylzahlen Dezember und Gesamtjahr 2025",
+      "url": "https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260112-asylzahlen-dezember-und-gesamtjahr-2025.html"
+    },
+    {
+      "label": "BAMF: Asylzahlen Januar 2026",
+      "url": "https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260206-asylzahlen-januar-2026.html"
+    },
+    {
+      "label": "IAB: 10 Jahre Fluchtmigration (2025)",
+      "url": "https://iab.de/daten/10-jahre-fluchtmigration-beschaeftigungsmerkmale-der-gefluechteten-die-2015-in-deutschland-schutz-gesucht-haben/"
+    }
+  ]
+}
