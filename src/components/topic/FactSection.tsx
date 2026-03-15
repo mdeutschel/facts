@@ -20,6 +20,7 @@ import ProgressStack from '../visualizations/ProgressStack'
 import type { Section, ContentBlock } from '../../types'
 
 const SimpleBarChart = lazy(() => import('../visualizations/SimpleBarChart'))
+const SimpleLineChart = lazy(() => import('../visualizations/SimpleLineChart'))
 
 function ContentBlockView({ block }: { block: ContentBlock }) {
   if (block.type === 'fact') {
@@ -98,6 +99,14 @@ function ContentBlockView({ block }: { block: ContentBlock }) {
     return (
       <Suspense fallback={null}>
         <SimpleBarChart items={block.items} unit={block.unit} caption={block.caption} />
+      </Suspense>
+    )
+  }
+
+  if (block.type === 'line_chart') {
+    return (
+      <Suspense fallback={null}>
+        <SimpleLineChart items={block.items} unit={block.unit} caption={block.caption} color={block.color} />
       </Suspense>
     )
   }

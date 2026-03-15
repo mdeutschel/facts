@@ -46,6 +46,11 @@ export interface TimelineStep {
   highlight?: boolean
 }
 
+export interface LineChartItem {
+  label: string
+  value: number
+}
+
 export type ContentBlock =
   | { type: 'fact'; text: string; highlight?: boolean }
   | { type: 'table'; caption?: string; headers: string[]; rows: string[][] }
@@ -54,6 +59,7 @@ export type ContentBlock =
   | { type: 'comparison'; caption?: string; items: ComparisonItem[]; savings?: string }
   | { type: 'range_bar'; caption?: string; items: RangeBarItem[]; maxScale?: number; unit?: string }
   | { type: 'bar_chart'; caption?: string; items: BarChartItem[]; unit?: string }
+  | { type: 'line_chart'; caption?: string; items: LineChartItem[]; unit?: string; color?: string }
   | { type: 'timeline'; caption?: string; steps: TimelineStep[] }
   | { type: 'progress_stack'; caption?: string; segments: { label: string; value: number; sublabel?: string }[]; total?: string }
 

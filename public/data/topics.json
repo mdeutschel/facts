@@ -9,6 +9,14 @@
       "keyStats": ["21,6 Mio. Heizungen", "75 % fossil", "WP spart 12.000–22.500 €", "9 Argumente"]
     },
     {
+      "id": "emobilitaet",
+      "title": "E-Mobilität",
+      "subtitle": "Fakten zu Reichweite, Akkus, Kosten & Klimabilanz",
+      "icon": "electric_car",
+      "lastUpdated": "2026-03",
+      "keyStats": ["CO₂-Vorteil nach ~45.000 km", "Akkus halten >500.000 km", "7 Argumente"]
+    },
+    {
       "id": "energiewende",
       "title": "Energiewende & Atomkraft",
       "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
