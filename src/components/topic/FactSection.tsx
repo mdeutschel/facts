@@ -26,18 +26,32 @@ function ContentBlockView({ block }: { block: ContentBlock }) {
   if (block.type === 'fact') {
     if (block.highlight) {
       return (
-        <Chip
-          label={block.text}
-          color="secondary"
-          variant="outlined"
-          sx={{ height: 'auto', py: 0.5, '& .MuiChip-label': { whiteSpace: 'normal' } }}
-        />
+        <Box>
+          <Chip
+            label={block.text}
+            color="secondary"
+            variant="outlined"
+            sx={{ height: 'auto', py: 0.5, '& .MuiChip-label': { whiteSpace: 'normal' } }}
+          />
+          {block.description && (
+            <Typography variant="body2" color="text.secondary" sx={{ mt: 0.5, pl: 1.5, fontSize: '0.8rem' }}>
+              {block.description}
+            </Typography>
+          )}
+        </Box>
       )
     }
     return (
-      <Typography variant="body2" sx={{ py: 0.25 }}>
-        • {block.text}
-      </Typography>
+      <Box>
+        <Typography variant="body2" sx={{ py: 0.25 }}>
+          • {block.text}
+        </Typography>
+        {block.description && (
+          <Typography variant="body2" color="text.secondary" sx={{ pl: 2, fontSize: '0.8rem' }}>
+            {block.description}
+          </Typography>
+        )}
+      </Box>
     )
   }
 

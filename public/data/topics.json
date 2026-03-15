@@ -35,10 +35,10 @@
     {
       "id": "verkehrswende",
       "title": "Verkehrswende",
-      "subtitle": "Fakten zu E-Mobilität, ÖPNV und Emissionszielen",
+      "subtitle": "Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen",
       "icon": "directions_car",
       "lastUpdated": "2026-03",
-      "keyStats": ["2,03 Mio. E-Autos (BEV) in Deutschland (2026)", "14,6 Mio. Deutschlandticket-Nutzer (Ende 2025)", "6 Argumente"]
+      "keyStats": ["23 Std./Tag steht ein Auto ungenutzt", "58 % der Berliner Verkehrsfläche für MIV", "11,2 % Radverkehrsanteil (MiD 2023)", "12 Argumente"]
     },
     {
       "id": "buergergeld",
