@@ -1,0 +1,20 @@
+{
+  "topics": [
+    {
+      "id": "heizung",
+      "title": "Heizungswechsel 2026",
+      "subtitle": "Wärmepumpe vs. Öl- & Gasheizung",
+      "icon": "heat_pump",
+      "lastUpdated": "2026-03",
+      "keyStats": ["21,6 Mio. Heizungen", "75 % fossil", "WP spart 12.000–22.500 €", "9 Konter-Argumente"]
+    },
+    {
+      "id": "energiewende",
+      "title": "Energiewende & Atomkraft",
+      "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
+      "icon": "bolt",
+      "lastUpdated": "2026-03",
+      "keyStats": ["62 % Erneuerbare im Strommix", "AKW-Neubau 3–5× teurer als Wind/Solar", "7 Konter-Argumente"]
+    }
+  ]
+}
