@@ -52,7 +52,7 @@ export interface LineChartItem {
 }
 
 export type ContentBlock =
-  | { type: 'fact'; text: string; highlight?: boolean }
+  | { type: 'fact'; text: string; description?: string; highlight?: boolean }
   | { type: 'table'; caption?: string; headers: string[]; rows: string[][] }
   | { type: 'text'; text: string }
   | { type: 'stat_grid'; items: StatItem[] }
