@@ -31,7 +31,13 @@ function buildIndex(topics: Topic[]): SearchEntry[] {
     for (const section of topic.sections) {
       const texts = section.content.map((block) => {
         if (block.type === 'fact' || block.type === 'text') return block.text
-        if (block.type === 'table') return block.rows.flat().join(' ')
+        if (block.type === 'table') return [block.caption ?? '', ...block.rows.flat()].join(' ')
+        if (block.type === 'stat_grid') return block.items.map((i) => `${i.value} ${i.label} ${i.sublabel ?? ''}`).join(' ')
+        if (block.type === 'comparison') return [block.caption ?? '', block.savings ?? '', ...block.items.flatMap((i) => [i.title, ...i.rows.map((r) => `${r.label} ${r.value}`), i.total ? `${i.total.label} ${i.total.value}` : ''])].join(' ')
+        if (block.type === 'range_bar') return [block.caption ?? '', ...block.items.map((i) => `${i.label} ${i.min}-${i.max}`)].join(' ')
+        if (block.type === 'bar_chart') return [block.caption ?? '', ...block.items.map((i) => `${i.label} ${i.value}`)].join(' ')
+        if (block.type === 'timeline') return [block.caption ?? '', ...block.steps.map((s) => `${s.label} ${s.value} ${s.sublabel ?? ''}`)].join(' ')
+        if (block.type === 'progress_stack') return [block.caption ?? '', block.total ?? '', ...block.segments.map((s) => `${s.label} ${s.value} ${s.sublabel ?? ''}`)].join(' ')
         return ''
       })
 
