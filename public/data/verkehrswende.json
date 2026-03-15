@@ -7,7 +7,8 @@
   "keyStats": [
     "2,03 Mio. E-Autos (BEV) in Deutschland (2026)",
     "14,6 Mio. Deutschlandticket-Nutzer (Ende 2025)",
-    "146 Mio. t CO₂-Ausstoß im Verkehrssektor (2023)"
+    "146 Mio. t CO₂-Ausstoß im Verkehrssektor (2023)",
+    "6 Argumente"
   ],
   "sourceNote": "Daten basieren auf offiziellen Statistiken des Kraftfahrt-Bundesamtes (KBA), des Umweltbundesamtes (UBA) sowie des Verbands Deutscher Verkehrsunternehmen (VDV) für die Jahre 2025/2026.",
   "sections": [
@@ -99,7 +100,7 @@
       "content": [
         {
           "type": "fact",
-          "text": "Der Verkehrssektor verfehlt seine Klimaziele deutlich. Für den Zeitraum 2021-2030 droht eine Zielverfehlung von bis zu 224 Millionen Tonnen CO₂-Äquivalenten.",
+          "text": "Der Verkehrssektor verfehlt seine Klimaziele deutlich. Für den Zeitraum 2021-2030 droht eine Zielverfehlung von 169–224 Millionen Tonnen CO₂-Äquivalenten (Expertenrat für Klimafragen / Agora Energiewende).",
           "highlight": true
         },
         {
@@ -141,8 +142,15 @@
     {
       "id": "arg-stromnetz",
       "claim": "Das Stromnetz bricht zusammen, wenn alle elektrisch fahren.",
-      "response": "Studien zeigen, dass selbst bei 15 Millionen E-Autos der Strombedarf nur um etwa 8% steigen würde. Das deutsche Stromnetz kann das bewältigen, besonders durch intelligentes Laden (z.B. nachts, wenn viel Windstrom im Netz ist).",
+      "response": "Studien zeigen, dass selbst bei 15 Millionen E-Autos der Strombedarf nur um etwa 9–10 % des heutigen Verbrauchs steigen würde. Das deutsche Stromnetz kann das bewältigen, besonders durch intelligentes Laden (z.B. nachts, wenn viel Windstrom im Netz ist).",
       "keywords": ["Stromnetz", "Blackout", "Laden", "Kapazität"]
+    },
+    {
+      "id": "arg-ladeinfrastruktur",
+      "claim": "Auf dem Land gibt es keine Ladesäulen, E-Autos funktionieren nur in der Stadt!",
+      "response": "Deutschland hatte Ende 2025 über 150.000 öffentliche Ladepunkte, davon über 30.000 Schnellladepunkte. Die Abdeckung verbessert sich kontinuierlich, gerade entlang von Autobahnen. Außerdem: 80% der Ladevorgänge finden zu Hause oder am Arbeitsplatz statt — die öffentliche Ladesäule ist eher die Ausnahme als die Regel. Mit einer Wallbox (ab ca. 500 €) lädt man über Nacht bequem zu Hause.",
+      "keywords": ["Ladesäulen", "Ladeinfrastruktur", "Land", "ländlich", "laden"],
+      "relatedSections": ["emobilitaet"]
     }
   ],
   "sources": [

@@ -5,9 +5,10 @@
   "icon": "eco",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "~50% weniger CO₂-Emissionen durch vegane Ernährung",
-    "75% der globalen Agrarfläche könnten eingespart werden",
-    "Mindestens 75% pflanzlich empfiehlt die DGE"
+    "~50 % weniger CO₂-Emissionen durch vegane Ernährung",
+    "75 % der globalen Agrarfläche könnten eingespart werden",
+    "Mindestens 75 % pflanzlich empfiehlt die DGE",
+    "6 Argumente"
   ],
   "sourceNote": "Basierend auf Daten von Umweltbundesamt (UBA), DGE (Stand 2024/2025) und der Oxford University.",
   "sections": [
@@ -134,7 +135,7 @@
     {
       "id": "natuerlich-fleisch",
       "claim": "Der Mensch ist ein Allesfresser, wir haben schon immer Fleisch gegessen.",
-      "response": "Dass wir Fleisch verdauen können, bedeutet nicht, dass wir es in den heutigen Mengen essen müssen. Historisch gesehen war Fleisch für die meiste Zeit der Menschheitsgeschichte eher eine seltene Beilage. Unser Verdauungssystem ist hervorragend an eine stark pflanzliche Kost angepasst. Der heutige extreme Fleischkonsum (in Deutschland ca. 52 kg pro Kopf im Jahr) ist ein modernes Phänomen und wird mit Zivilisationskrankheiten wie Herz-Kreislauf-Erkrankungen, Gicht und bestimmten Krebsarten in Verbindung gebracht.",
+      "response": "Dass wir Fleisch verdauen können, bedeutet nicht, dass wir es in den heutigen Mengen essen müssen. Historisch gesehen war Fleisch für die meiste Zeit der Menschheitsgeschichte eher eine seltene Beilage. Unser Verdauungssystem ist hervorragend an eine stark pflanzliche Kost angepasst. Der heutige extreme Fleischkonsum (in Deutschland ca. 53 kg pro Kopf im Jahr, BLE 2024) ist ein modernes Phänomen und wird mit Zivilisationskrankheiten wie Herz-Kreislauf-Erkrankungen, Gicht und bestimmten Krebsarten in Verbindung gebracht.",
       "keywords": ["Evolution", "Allesfresser", "Natur", "Krankheiten", "Menge"],
       "relatedSections": ["gesundheit"]
     },
