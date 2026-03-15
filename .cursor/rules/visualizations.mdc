@@ -1,0 +1,29 @@
+---
+description: Visualization component patterns for data display
+globs: src/components/visualizations/**
+alwaysApply: false
+---
+
+# Visualization Components
+
+Components in this directory render ContentBlock variants from JSON data.
+
+## Conventions
+
+- Each component handles one ContentBlock type
+- Props match the ContentBlock's data fields directly
+- No internal state or data fetching — pure presentational
+- Optional `caption` prop rendered as `Typography variant="caption"`
+- Heavy chart libraries (Recharts): use `React.lazy()` and `<Suspense fallback={null}>`
+- Colors: use theme-consistent values or accept via props, no hardcoded hex outside theme.ts
+
+## Existing Components
+
+| Component | ContentBlock type | Library |
+|-----------|-------------------|---------|
+| StatGrid | stat_grid | MUI only |
+| ComparisonView | comparison | MUI only |
+| RangeBarChart | range_bar | MUI only |
+| SimpleBarChart | bar_chart | Recharts (lazy) |
+| TimelineView | timeline | MUI only |
+| ProgressStack | progress_stack | MUI only |

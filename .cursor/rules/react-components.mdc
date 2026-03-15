@@ -1,0 +1,40 @@
+---
+description: React + MUI component patterns for this project
+globs: src/components/**/*.tsx, src/pages/**/*.tsx
+alwaysApply: false
+---
+
+# React + MUI Component Patterns
+
+## Component Structure
+
+```tsx
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+import type { SomeType } from '../../types'
+
+interface MyComponentProps {
+  data: SomeType
+  optional?: boolean
+}
+
+export default function MyComponent({ data, optional = false }: MyComponentProps) {
+  return (
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
+      <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
+        {data.title}
+      </Typography>
+    </Box>
+  )
+}
+```
+
+## Key Patterns
+
+- Default export, PascalCase filename matching component name
+- MUI imports: one per line from specific paths (`@mui/material/Box`, not `@mui/material`)
+- Props interface inline, named `{ComponentName}Props`
+- Styling exclusively via `sx` prop
+- Heavy components (Recharts): wrap in `React.lazy()` + `<Suspense>`
+- ContentBlock rendering: use if-chain on `block.type` (discriminated union), see `FactSection.tsx`
+- Mobile-first: touch targets ≥ 48px, responsive via MUI breakpoints

@@ -1,0 +1,15 @@
+---
+description: TypeScript conventions for this project
+globs: src/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+# TypeScript Conventions
+
+- Strict mode, no `any` — use `unknown` with narrowing
+- No semicolons, single quotes
+- All shared interfaces centralized in `src/types/index.ts`
+- Discriminated unions via `type` field for variant data (see `ContentBlock`)
+- Custom hooks: named export, return `{ data, loading, error }` pattern
+- Type assertions: prefer `as Promise<Type>` on `.json()` calls over generic parameters
+- Module-level caching (plain objects) over React state for cross-component data sharing
