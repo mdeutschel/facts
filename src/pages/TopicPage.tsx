@@ -11,6 +11,7 @@ import FactCheckIcon from '@mui/icons-material/FactCheck'
 import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
 import ArgumentCard from '../components/topic/ArgumentCard'
+import PageMeta from '../components/seo/PageMeta'
 import { useTopic } from '../hooks/useTopics'
 
 export default function TopicPage() {
@@ -54,8 +55,28 @@ export default function TopicPage() {
     return <Alert severity="error">{error ?? 'Thema nicht gefunden'}</Alert>
   }
 
+  const topicPath = `/thema/${topic.id}`
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: topic.arguments.map((argument) => ({
+      '@type': 'Question',
+      name: argument.claim,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: argument.response,
+      },
+    })),
+  }
+
   return (
     <Box>
+      <PageMeta
+        title={topic.title}
+        description={topic.subtitle}
+        path={topicPath}
+        jsonLd={faqJsonLd}
+      />
       <Box sx={{ mb: 2 }}>
         <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
           {topic.title}
