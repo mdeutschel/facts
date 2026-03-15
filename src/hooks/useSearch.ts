@@ -30,7 +30,8 @@ function buildIndex(topics: Topic[]): SearchEntry[] {
 
     for (const section of topic.sections) {
       const texts = section.content.map((block) => {
-        if (block.type === 'fact' || block.type === 'text') return block.text
+        if (block.type === 'fact') return [block.text, block.description ?? ''].join(' ')
+        if (block.type === 'text') return block.text
         if (block.type === 'table') return [block.caption ?? '', ...block.rows.flat()].join(' ')
         if (block.type === 'stat_grid') return block.items.map((i) => `${i.value} ${i.label} ${i.sublabel ?? ''}`).join(' ')
         if (block.type === 'comparison') return [block.caption ?? '', block.savings ?? '', ...block.items.flatMap((i) => [i.title, ...i.rows.map((r) => `${r.label} ${r.value}`), i.total ? `${i.total.label} ${i.total.value}` : ''])].join(' ')
