@@ -5,9 +5,10 @@
   "icon": "account_balance_wallet",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "563 € Basis-Regelsatz (2025/2026)",
+    "563 € Regelsatz (Nullrunde 2025/2026)",
     "557 € Einkommensvorteil bei Mindestlohn (Single)",
-    "5,5 Mio. Beziehende insgesamt"
+    "5,5 Mio. Beziehende insgesamt",
+    "6 Argumente"
   ],
   "sourceNote": "Basierend auf Daten der Bundesagentur für Arbeit, des BMAS und aktuellen Studien des WSI (Stand Anfang 2026).",
   "sections": [
@@ -44,7 +45,7 @@
         },
         {
           "type": "comparison",
-          "caption": "Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn (12,82 €) gegenüber Bürgergeld",
+          "caption": "Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bürgergeld (WSI-Studie, Basis 12,82 €; seit 2026: 13,90 €, Vorteil noch größer)",
           "items": [
             {
               "title": "Alleinstehende",
@@ -152,6 +153,13 @@
       "response": "Bürgergeld ist die Grundsicherung für Arbeitsuchende, kein bedingungsloses Einkommen. EU-Ausländer haben in den ersten Monaten der Arbeitssuche in der Regel gar keinen Anspruch. Asylbewerber bekommen Leistungen nach dem Asylbewerberleistungsgesetz, die deutlich niedriger sind als das Bürgergeld. Wer Bürgergeld bezieht, muss dem Arbeitsmarkt zur Verfügung stehen und Integrationsmaßnahmen (wie Sprachkurse) besuchen.",
       "keywords": ["ausländer", "flüchtlinge", "einwanderung", "sozialtourismus", "asyl"],
       "relatedSections": []
+    },
+    {
+      "id": "arg_ukraine",
+      "claim": "Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!",
+      "response": "Ukrainische Geflüchtete erhalten seit Juni 2022 tatsächlich Bürgergeld statt Asylbewerberleistungen — das war eine bewusste politische Entscheidung, um ihre schnellere Integration in den Arbeitsmarkt zu fördern. Sie unterliegen den gleichen Pflichten wie alle Beziehenden: Termine wahrnehmen, an Integrationskursen teilnehmen, dem Arbeitsmarkt zur Verfügung stehen. Rund 266.000 erwerbsfähige Ukrainer waren Ende 2025 in Beschäftigung. Das Bürgergeld ist zudem keine Versicherungsleistung — es wird aus Steuermitteln finanziert, nicht aus eingezahlten Beiträgen.",
+      "keywords": ["ukraine", "flüchtlinge", "sofort", "eingezahlt", "bürgergeld"],
+      "relatedSections": ["regelsatz"]
     }
   ],
   "sources": [

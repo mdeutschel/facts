@@ -5,9 +5,10 @@
   "icon": "balance",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "16 % Gender Pay Gap (2025)",
+    "16 % unbereinigter Gender Pay Gap (2025)",
     "43,4 % Gender Care Gap",
-    "32,4 % Frauen im Bundestag"
+    "32,4 % Frauen im Bundestag",
+    "7 Argumente"
   ],
   "sourceNote": "Die Daten stammen primär vom Statistischen Bundesamt (Destatis) und Erhebungen des BMFSFJ (Stand 2025/2026).",
   "sections": [
@@ -58,6 +59,25 @@
                 }
               ]
             }
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Unbereinigter Gender Pay Gap in Deutschland",
+          "unit": "%",
+          "color": "#e53935",
+          "items": [
+            { "label": "2006", "value": 23 },
+            { "label": "2008", "value": 23 },
+            { "label": "2010", "value": 22 },
+            { "label": "2012", "value": 23 },
+            { "label": "2014", "value": 22 },
+            { "label": "2016", "value": 21 },
+            { "label": "2018", "value": 20 },
+            { "label": "2020", "value": 18 },
+            { "label": "2022", "value": 18 },
+            { "label": "2024", "value": 16 },
+            { "label": "2025", "value": 16 }
           ]
         },
         {
@@ -219,6 +239,38 @@
       ],
       "relatedSections": [
         "representation"
+      ]
+    },
+    {
+      "id": "pension-gap",
+      "claim": "Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.",
+      "response": "Der Gender Pension Gap liegt bei rund 30 %: Frauen erhalten im Schnitt deutlich weniger Rente als Männer. Das ist die direkte Folge jahrzehntelanger struktureller Benachteiligung: niedrigere Löhne (16 % Pay Gap), erzwungene Teilzeit durch Care-Arbeit (43,4 % Care Gap) und Karriereeinbußen nach der Geburt von Kindern. All das akkumuliert sich über ein Arbeitsleben zu massiver Altersarmut. Frauen sind doppelt so häufig von Altersarmut betroffen wie Männer.",
+      "keywords": [
+        "Rente",
+        "Pension",
+        "Altersarmut",
+        "selbst schuld",
+        "weniger gearbeitet"
+      ],
+      "relatedSections": [
+        "pay-gap",
+        "care-gap"
+      ]
+    },
+    {
+      "id": "child-penalty",
+      "claim": "Kinder sind eine freiwillige Entscheidung, dann muss man halt mit den Konsequenzen leben.",
+      "response": "Kinder sind eine gesamtgesellschaftliche Notwendigkeit — ohne sie gibt es keine Renten, keine Pflege, keine Wirtschaft. Studien zeigen: Frauen verlieren nach dem ersten Kind durchschnittlich ~60 % ihres Einkommens (langfristig ~40 %), Männer: 0 %. Diese sogenannte 'Child Penalty' trifft fast ausschließlich Mütter und ist eine der Hauptursachen für den Gender Pay Gap. Die Lösung liegt in besserer Infrastruktur (Kitas, Ganztag), partnerschaftlicher Aufteilung der Care-Arbeit und Arbeitszeitmodellen, die Vereinbarkeit ermöglichen.",
+      "keywords": [
+        "Kinder",
+        "Mutter",
+        "freiwillig",
+        "Konsequenzen",
+        "Karriere"
+      ],
+      "relatedSections": [
+        "care-gap",
+        "pay-gap"
       ]
     }
   ],

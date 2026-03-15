@@ -7,7 +7,8 @@
   "keyStats": [
     "62 % Erneuerbare im Strommix",
     "AKW-Neubau 3–5× teurer als Wind/Solar",
-    "400 GW beantragte Speicherleistung"
+    "400 GW beantragte Speicherleistung",
+    "7 Argumente"
   ],
   "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Quellen (Stand März 2026). Siehe Quellenverzeichnis am Ende.",
   "sections": [
@@ -117,8 +118,8 @@
           "items": [
             {"value": "62 %", "label": "Erneuerbare", "sublabel": "am Strommix 2025"},
             {"value": "94 TWh", "label": "Kohle", "sublabel": "historischer Tiefstand"},
-            {"value": "-58 %", "label": "CO₂ vs. 1990", "sublabel": "Stromsektor"},
-            {"value": "31,2 Ct", "label": "Strompreis", "sublabel": "März 2026 (-12 %)"}
+            {"value": "-53 %", "label": "CO₂/kWh vs. 1990", "sublabel": "Stromsektor (UBA)"},
+            {"value": "31,2 Ct", "label": "Strompreis", "sublabel": "März 2026, Verivox (-12 %)"}
           ]
         },
         {
@@ -140,7 +141,7 @@
           "rows": [
             ["Erneuerbaren-Anteil am Strommix", "62%"],
             ["Kohleverstromung", "94 TWh (historischer Tiefstand)"],
-            ["CO₂-Emissionen Strom ggü. 1990", "-58%"],
+            ["CO₂-Emissionen Strom ggü. 1990", "ca. -53 % (spez. Faktor)"],
             ["Strompreis Bestandskunden (März 2026)", "31,2 Ct/kWh (-12% ggü. Vorjahr)"],
             ["Spezifischer CO₂-Emissionsfaktor 2024", "363 g CO₂/kWh"]
           ]
@@ -377,7 +378,7 @@
         },
         {
           "type": "fact",
-          "text": "Einziges westliches SMR-Bauprojekt: BWRX-300 in Darlington (Kanada) – Kosten: CAD 7,7 Mrd. für 300 MW, Strompreis 14,9 Ct/kWh.",
+          "text": "Einziges westliches SMR-Bauprojekt: BWRX-300 in Darlington (Kanada) – Kosten 1. Block: CAD 7,7 Mrd. für 300 MW. Geplant: 4 Blöcke für CAD 20,9 Mrd. (1.200 MW), Ø-Strompreis 14,9 Ct/kWh.",
           "highlight": true
         },
         {
@@ -401,7 +402,7 @@
         {
           "type": "stat_grid",
           "items": [
-            {"value": "~1.700", "label": "Castor-Behälter", "sublabel": "in Zwischenlagern", "color": "#b71c1c"},
+            {"value": "~1.200", "label": "Castor-Behälter", "sublabel": "aktuell in Zwischenlagern", "color": "#b71c1c"},
             {"value": "47,5 Mrd.", "label": "EUR geschätzt", "sublabel": "Gesamtkosten"},
             {"value": "2050+", "label": "Endlager", "sublabel": "früheste Entscheidung"},
             {"value": "52 %", "label": "BMU-Budget", "sublabel": "für Atommüll"}
@@ -566,7 +567,7 @@
     {
       "id": "atommuell-erledigt",
       "claim": "Atomkraft ist doch abgeschaltet und erledigt!",
-      "response": "~1.700 Castor-Behälter stehen noch in Zwischenlagern. Die Endlagersuche dauert bis mindestens 2050. Geschätzte Gesamtkosten: 47,5 Mrd. EUR. Über die Hälfte des Umweltministeriums-Budgets fließt in Atommüll. Neue AKWs würden das Problem nur vergrößern.",
+      "response": "Über 1.200 Castor-Behälter stehen aktuell in Zwischenlagern, bis zu 1.800 werden es am Ende. Die Endlagersuche dauert bis mindestens 2050. Geschätzte Gesamtkosten: 47,5 Mrd. EUR. Über die Hälfte des Umweltministeriums-Budgets fließt in Atommüll. Neue AKWs würden das Problem nur vergrößern.",
       "keywords": ["atommüll", "endlager", "castor", "entsorgung", "kosten"],
       "relatedSections": ["atommuell"]
     },

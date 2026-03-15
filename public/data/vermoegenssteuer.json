@@ -5,10 +5,10 @@
   "icon": "account_balance",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "Das reichste 1 % besitzt ca. 26 % des Vermögens",
+    "Das reichste 1 % besitzt mindestens 26 % des Vermögens",
     "Die untere Hälfte besitzt nur 2,5 %",
     "13,3 Mrd. € Erbschaftsteuer-Aufkommen (2024)",
-    "Bis zu 100 % Steuerbefreiung für Betriebsvermögen"
+    "7 Argumente"
   ],
   "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin, der Deutschen Bundesbank (Distributional Wealth Accounts 2024/2025) und des Statistischen Bundesamtes (Destatis).",
   "sections": [
@@ -18,14 +18,14 @@
       "content": [
         {
           "type": "text",
-          "text": "Deutschland weist im europäischen Vergleich eine sehr hohe Vermögensungleichheit auf. Während Einkommen relativ gleichmäßig verteilt sind, konzentriert sich das Vermögen (Immobilien, Aktien, Betriebsvermögen) stark an der Spitze der Gesellschaft."
+          "text": "Deutschland weist im europäischen Vergleich eine sehr hohe Vermögensungleichheit auf. Während Einkommen relativ gleichmäßig verteilt sind, konzentriert sich das Vermögen (Immobilien, Aktien, Betriebsvermögen) stark an der Spitze der Gesellschaft. Neuere DIW-Schätzungen unter Einbeziehung von Milliardärslisten deuten darauf hin, dass das Top 1 % sogar über 30 % besitzen könnte, da Superreiche in Umfragen systematisch untererfasst sind."
         },
         {
           "type": "bar_chart",
           "caption": "Anteil am Gesamtvermögen in Deutschland (in %)",
           "unit": "%",
           "items": [
-            { "label": "Top 1 %", "value": 26, "highlight": true },
+            { "label": "Top 1 % (mind.)", "value": 26, "highlight": true },
             { "label": "Nächste 9 %", "value": 34 },
             { "label": "Mittlere 40 %", "value": 37.5 },
             { "label": "Untere 50 %", "value": 2.5 }
@@ -48,8 +48,24 @@
         {
           "type": "stat_grid",
           "items": [
-            { "label": "Erbschaftsteuer-Aufkommen", "value": "13,3 Mrd. €", "sublabel": "Rekordwert im Jahr 2024" },
-            { "label": "Steuerbefreiung Betriebsvermögen", "value": "85 - 100 %", "sublabel": "bei Weiterführung des Betriebs" }
+            { "label": "Erbschaftsteuer-Aufkommen", "value": "13,3 Mrd. €", "sublabel": "festgesetzt im Jahr 2024 (Destatis)" },
+            { "label": "Steuerbefreiung Betriebsvermögen", "value": "85 – 100 %", "sublabel": "bei Weiterführung des Betriebs" }
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Kassenmäßiges Erbschaft- und Schenkungsteuer-Aufkommen",
+          "unit": "Mrd. €",
+          "color": "#37474f",
+          "items": [
+            { "label": "2010", "value": 4.4 },
+            { "label": "2012", "value": 4.3 },
+            { "label": "2014", "value": 5.4 },
+            { "label": "2016", "value": 7.0 },
+            { "label": "2018", "value": 6.8 },
+            { "label": "2020", "value": 8.6 },
+            { "label": "2022", "value": 9.2 },
+            { "label": "2024", "value": 11.0 }
           ]
         },
         {
@@ -98,6 +114,13 @@
       "claim": "Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!",
       "response": "Das ist ein veraltetes Argument aus den 1990er Jahren. Durch Digitalisierung, automatisierten Informationsaustausch zwischen Finanzämtern und moderne Bewertungsverfahren (wie bei der neuen Grundsteuer) wäre der Verwaltungsaufwand heute deutlich geringer. Experten schätzen die Erhebungskosten auf unter 5 % der Einnahmen.",
       "keywords": ["Verwaltungskosten", "Bürokratie", "Aufwand", "Erhebung", "Finanzamt"]
+    },
+    {
+      "id": "leistung-erbe",
+      "claim": "Erbschaftsteuer bestraft Leistung und zerstört Lebenswerke!",
+      "response": "Erben ist keine eigene Leistung — die Leistung hat der Erblasser erbracht. Von den geschätzt 400 Milliarden Euro, die jährlich vererbt werden, werden nur rund 113 Milliarden steuerlich überhaupt erfasst. Die effektive Besteuerung liegt bei etwa 3 %. Zudem schützen großzügige Freibeträge (400.000 € pro Kind, 500.000 € für Ehepartner) normale Erbschaften. 96 % aller Erbfälle fallen komplett unter die Freibeträge. Das Problem liegt bei den Superreichen: Durch die Betriebsvermögensverschonung (85–100 %) zahlen Milliardenerben prozentual oft weniger als Mittelstandserben.",
+      "keywords": ["Leistung", "Lebenswerk", "hart gearbeitet", "bestraft", "unfair"],
+      "relatedSections": ["erbschaftssteuer"]
     }
   ],
   "sources": [

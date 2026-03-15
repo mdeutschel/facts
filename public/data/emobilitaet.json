@@ -5,11 +5,12 @@
   "icon": "electric_car",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "CO₂-Vorteil nach ~45.000 km",
+    "CO₂-Vorteil nach ~25.000 km",
     "Akkus halten >500.000 km",
-    "E-Fuels brauchen 5× mehr Strom"
+    "E-Fuels brauchen 5× mehr Strom",
+    "7 Argumente"
   ],
-  "sourceNote": "Quellen: ADAC, VDI, Fraunhofer ISI, BDEW, KBA, ICCT, Transport & Environment (Stand März 2026).",
+  "sourceNote": "Quellen: ICCT, ADAC, VDI/Fraunhofer ISI, BMUV, BDEW, BNetzA, KBA, Transport & Environment (Stand März 2026).",
   "sections": [
     {
       "id": "status-quo",
@@ -18,9 +19,9 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "~2,2 Mio.", "label": "E-Autos (BEV)", "sublabel": "Bestand Anfang 2026" },
-            { "value": ">150.000", "label": "Öffentl. Ladepunkte", "sublabel": "davon >35.000 Schnelllader" },
-            { "value": "18,5 %", "label": "BEV-Marktanteil", "sublabel": "Neuzulassungen 2025" }
+            { "value": "2,03 Mio.", "label": "E-Autos (BEV)", "sublabel": "Bestand 1. Jan 2026 (KBA)" },
+            { "value": ">190.000", "label": "Öffentl. Ladepunkte", "sublabel": "davon >48.000 Schnelllader (BNetzA)" },
+            { "value": "19,1 %", "label": "BEV-Marktanteil", "sublabel": "Neuzulassungen 2025" }
           ]
         },
         {
@@ -32,8 +33,8 @@
             { "label": "2021", "value": 13.6 },
             { "label": "2022", "value": 17.7 },
             { "label": "2023", "value": 18.4 },
-            { "label": "2024", "value": 13.1 },
-            { "label": "2025", "value": 18.5 }
+            { "label": "2024", "value": 13.5 },
+            { "label": "2025", "value": 19.1 }
           ]
         },
         {
@@ -54,14 +55,14 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "~45.000 km", "label": "Break-Even", "sublabel": "mit dt. Strommix 2025", "color": "#00897b" },
-            { "value": "~25.000 km", "label": "Break-Even", "sublabel": "mit 100% Ökostrom" },
-            { "value": "-68 %", "label": "CO₂-Emissionen", "sublabel": "über Lebenszyklus (VDI)" }
+            { "value": "~25.000 km", "label": "Break-Even", "sublabel": "mit dt. Strommix 2025 (ICCT)", "color": "#00897b" },
+            { "value": "~15.000 km", "label": "Break-Even", "sublabel": "mit 100 % Ökostrom" },
+            { "value": "-73 %", "label": "CO₂-Emissionen", "sublabel": "über Lebenszyklus (ICCT 2025)" }
           ]
         },
         {
           "type": "fact",
-          "text": "Laut VDI-Ökobilanzstudie (2024/2025) ist das E-Auto über seine Lebensdauer (200.000 km) das mit Abstand klimafreundlichste Antriebskonzept – selbst beim aktuellen Strommix.",
+          "text": "Laut ICCT-Studie (Juli 2025) spart ein E-Auto über seinen Lebenszyklus rund 73 % CO₂ gegenüber einem vergleichbaren Benziner ein. Auch die konservativere VDI/Fraunhofer-ISI-Meta-Studie kommt auf 40–50 % Einsparung.",
           "highlight": true
         },
         {
@@ -123,7 +124,7 @@
           "items": [
             { "value": ">1.500", "label": "Ladezyklen", "sublabel": "moderne NMC-Akkus" },
             { "value": ">3.000", "label": "Ladezyklen", "sublabel": "LFP-Akkus (Standard Range)" },
-            { "value": ">90 %", "label": "Recyclingquote", "sublabel": "für Lithium, Kobalt, Nickel" }
+            { "value": ">90 %", "label": "Recyclingquote", "sublabel": "für Kobalt, Kupfer, Nickel (EU-VO)" }
           ]
         },
         {
@@ -151,13 +152,13 @@
           "type": "stat_grid",
           "items": [
             { "value": "~45 TWh", "label": "Strombedarf", "sublabel": "für 15 Mio. E-Autos" },
-            { "value": "~8 %", "label": "Anteil", "sublabel": "am dt. Stromverbrauch" },
+            { "value": "~9 %", "label": "Anteil", "sublabel": "am dt. Stromverbrauch (~520 TWh)" },
             { "value": "§ 14a EnWG", "label": "Regelung", "sublabel": "verhindert Überlastung" }
           ]
         },
         {
           "type": "fact",
-          "text": "15 Millionen E-Autos (Ziel der Bundesregierung) benötigen ca. 45 TWh Strom pro Jahr. Das sind weniger als 10 % des aktuellen deutschen Stromverbrauchs. Das Netz kann diese Energiemenge problemlos bereitstellen.",
+          "text": "15 Millionen E-Autos (Ziel der Bundesregierung) benötigen ca. 45 TWh Strom pro Jahr. Das sind rund 9 % des aktuellen deutschen Stromverbrauchs (~520 TWh). Das Netz kann diese Energiemenge problemlos bereitstellen.",
           "highlight": true
         },
         {
@@ -174,14 +175,14 @@
           "type": "bar_chart",
           "caption": "Gesamtwirkungsgrad (Well-to-Wheel)",
           "items": [
-            { "label": "E-Auto (BEV)", "value": 73, "highlight": true },
-            { "label": "Wasserstoff (Brennstoffzelle)", "value": 22 },
+            { "label": "E-Auto (BEV)", "value": 64, "highlight": true },
+            { "label": "Wasserstoff (Brennstoffzelle)", "value": 27 },
             { "label": "E-Fuels (Verbrenner)", "value": 13 }
           ]
         },
         {
           "type": "fact",
-          "text": "Um mit E-Fuels 100 km zu fahren, braucht man ca. 5 bis 6 Mal so viel erneuerbaren Strom wie für ein Batterie-E-Auto (BEV).",
+          "text": "Um mit E-Fuels 100 km zu fahren, braucht man ca. 5-mal so viel erneuerbaren Strom wie für ein Batterie-E-Auto (BEV). Auch Wasserstoff im PKW braucht über das Doppelte.",
           "highlight": true
         },
         {
@@ -226,14 +227,14 @@
     {
       "id": "stromnetz-kollaps",
       "claim": "Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.",
-      "response": "Nein. 15 Mio. E-Autos brauchen nur ca. 8% unseres Stroms. Lokale Überlastungen werden durch § 14a EnWG verhindert: Netzbetreiber können Wallboxen bei Engpässen kurzzeitig auf 4,2 kW dimmen. Das reicht immer noch, um über Nacht ~200 km nachzuladen. Niemand bleibt morgens mit leerem Akku stehen.",
+      "response": "Nein. 15 Mio. E-Autos brauchen nur ca. 9–10 % unseres heutigen Stroms. Lokale Überlastungen werden durch § 14a EnWG verhindert: Netzbetreiber können Wallboxen bei Engpässen kurzzeitig auf 4,2 kW dimmen. Das reicht immer noch, um über Nacht ~200 km nachzuladen. Niemand bleibt morgens mit leerem Akku stehen.",
       "keywords": ["stromnetz", "blackout", "zusammenbruch", "laden", "netz", "überlastung"],
       "relatedSections": ["stromnetz"]
     },
     {
       "id": "co2-rucksack",
       "claim": "Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.",
-      "response": "Falsch. Der „CO₂-Rucksack“ der Produktion ist beim aktuellen deutschen Strommix nach ca. 45.000 km abgefahren. Über den gesamten Lebenszyklus spart ein E-Auto rund 68 % CO₂ gegenüber einem Verbrenner ein (VDI-Studie). Mit Ökostrom geladen, ist der Break-Even schon nach ~25.000 km erreicht.",
+      "response": "Falsch. Der CO₂-Rucksack der Produktion ist beim aktuellen deutschen Strommix (62 % Erneuerbare) nach ca. 25.000 km abgefahren. Über den gesamten Lebenszyklus spart ein E-Auto laut ICCT (2025) rund 73 % CO₂ gegenüber einem Benziner ein. Mit Ökostrom ist der Break-Even schon nach ~15.000 km erreicht.",
       "keywords": ["klimaschädlich", "co2", "rucksack", "produktion", "diesel", "umwelt"],
       "relatedSections": ["klimabilanz"]
     },
@@ -247,7 +248,7 @@
     {
       "id": "wasserstoff-zukunft",
       "claim": "Batterien sind nur eine Brückentechnologie, Wasserstoff und E-Fuels sind die Zukunft.",
-      "response": "Die Physik spricht dagegen: Ein Wasserstoff-Auto braucht 3x so viel Strom für die gleiche Strecke wie ein Batterie-Auto. Mit E-Fuels sind es sogar 5-6x so viel. Dieser Strom müsste erst teuer erzeugt werden. E-Fuels und H₂ werden dringend für Flugzeuge, Schiffe und die Industrie gebraucht – im PKW sind sie ineffizient und viel zu teuer.",
+      "response": "Die Physik spricht dagegen: Ein Wasserstoff-Auto braucht über 2x so viel Strom für die gleiche Strecke wie ein Batterie-Auto. Mit E-Fuels sind es sogar 5–6x so viel. Dieser Strom müsste erst teuer erzeugt werden. E-Fuels und H₂ werden dringend für Flugzeuge, Schiffe und die Industrie gebraucht – im PKW sind sie ineffizient und viel zu teuer.",
       "keywords": ["wasserstoff", "e-fuels", "brennstoffzelle", "zukunft", "brückentechnologie", "effizienz"],
       "relatedSections": ["efuels-wasserstoff"]
     },
@@ -267,12 +268,16 @@
     }
   ],
   "sources": [
-    { "label": "VDI (Verein Deutscher Ingenieure) – Ökobilanz von PKW-Antrieben (2024)" },
+    { "label": "ICCT – Life-cycle GHG emissions of passenger cars (Juli 2025)" },
+    { "label": "VDI / Fraunhofer ISI – Meta-Studie Ökobilanz von PKW-Antrieben (2025)" },
     { "label": "ADAC – Autokostenrechner / TCO-Vergleich (2025)" },
     { "label": "BDEW – Zahlen zum Ladeinfrastrukturausbau und Stromnetz (2025/2026)" },
+    { "label": "Bundesnetzagentur – Ladeinfrastruktur-Statistik (Jan 2026)" },
+    { "label": "BMUV – Wirkungsgradvergleich Antriebskonzepte" },
     { "label": "Transport & Environment (T&E) – Effizienzvergleich E-Fuels vs. BEV" },
     { "label": "Fraunhofer ISI – Batterielebensdauer und Recyclingquoten" },
     { "label": "AutoinsuranceEZ – Studie zur Brandgefahr nach Antriebsarten" },
-    { "label": "Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand und Neuzulassungen" }
+    { "label": "Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand und Neuzulassungen (2026)" },
+    { "label": "EU-Batterieverordnung 2023/1542 – Recyclingquoten" }
   ]
 }

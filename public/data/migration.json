@@ -5,9 +5,10 @@
   "icon": "public",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "113.236 Asylerstanträge in 2025 (-50,7% zu 2024)",
-    "64% Beschäftigungsquote bei Geflüchteten von 2015",
-    "57% Beschäftigungsquote bei Ausländern gesamt (2025)"
+    "113.236 Asylerstanträge in 2025 (-50,7 % zu 2024)",
+    "64 % Beschäftigungsquote bei Geflüchteten von 2015",
+    "57 % Beschäftigungsquote bei Ausländern gesamt (2025)",
+    "7 Argumente"
   ],
   "sourceNote": "Die Daten basieren auf offiziellen Statistiken des Bundesamts für Migration und Flüchtlinge (BAMF), des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) und des Statistischen Bundesamtes (Destatis) mit Stand Anfang 2026.",
   "sections": [
@@ -20,22 +21,24 @@
           "text": "Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort."
         },
         {
-          "type": "bar_chart",
+          "type": "line_chart",
           "caption": "Asylerstanträge in Deutschland",
+          "unit": "Tsd.",
           "items": [
-            {
-              "label": "2023",
-              "value": 329120
-            },
-            {
-              "label": "2024",
-              "value": 229751
-            },
-            {
-              "label": "2025",
-              "value": 113236,
-              "highlight": true
-            }
+            { "label": "2010", "value": 41 },
+            { "label": "2012", "value": 65 },
+            { "label": "2014", "value": 173 },
+            { "label": "2015", "value": 442 },
+            { "label": "2016", "value": 722 },
+            { "label": "2017", "value": 198 },
+            { "label": "2018", "value": 162 },
+            { "label": "2019", "value": 143 },
+            { "label": "2020", "value": 103 },
+            { "label": "2021", "value": 148 },
+            { "label": "2022", "value": 218 },
+            { "label": "2023", "value": 329 },
+            { "label": "2024", "value": 230 },
+            { "label": "2025", "value": 113 }
           ]
         },
         {
@@ -199,6 +202,38 @@
       ],
       "relatedSections": [
         "arbeitsmarkt"
+      ]
+    },
+    {
+      "id": "kriminalitaet",
+      "claim": "Ausländer sind krimineller als Deutsche, das zeigt doch die Kriminalstatistik!",
+      "response": "In der Polizeilichen Kriminalstatistik (PKS) sind Ausländer tatsächlich überrepräsentiert. Aber: Die PKS vergleicht Äpfel mit Birnen. Kriminalität korreliert stark mit Alter (junge Männer = höchste Kriminalität), sozioökonomischem Status und Wohnsituation — Faktoren, bei denen sich die Gruppe der Zugewanderten strukturell von der Gesamtbevölkerung unterscheidet. Bereinigt man um Alter, Geschlecht und soziale Lage, schrumpft der Unterschied massiv. Zudem enthält die PKS ausländerrechtliche Verstöße (z. B. illegaler Aufenthalt), die Deutsche gar nicht begehen können.",
+      "keywords": [
+        "Kriminalität",
+        "kriminell",
+        "Statistik",
+        "PKS",
+        "Gewalt",
+        "Messer"
+      ],
+      "relatedSections": [
+        "asylzahlen"
+      ]
+    },
+    {
+      "id": "kosten-migration",
+      "claim": "Migration kostet uns nur Milliarden und bringt wirtschaftlich nichts!",
+      "response": "Integration kostet anfangs tatsächlich Geld — für Sprachkurse, Unterbringung und Qualifizierung. Langfristig zahlt sich das aber aus: Nach 10 Jahren liegt die Beschäftigungsquote der 2015-Geflüchteten bei 64 % (Männer: 76 %). Zugewanderte zahlen Steuern und Sozialabgaben und tragen dazu bei, den demografischen Fachkräftemangel abzufedern. Laut dem Institut der deutschen Wirtschaft (IW) leisten die rund 3 Mio. erwerbstätigen Ausländer einen unverzichtbaren Beitrag zur Finanzierung der Sozialsysteme.",
+      "keywords": [
+        "Kosten",
+        "Milliarden",
+        "teuer",
+        "Wirtschaft",
+        "Steuern"
+      ],
+      "relatedSections": [
+        "arbeitsmarkt",
+        "demografie"
       ]
     }
   ],
