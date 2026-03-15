@@ -32,11 +32,18 @@ jobs:
         run: npm run build
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          security: loose
-          local-dir: ./dist/
+        run: |
+          lftp -u "$FTP_USERNAME","$FTP_PASSWORD" "$FTP_SERVER" <<SCRIPT
+            set ftp:ssl-allow yes
+            set ftp:ssl-force no
+            set ftp:ssl-protect-data yes
+            set ssl:verify-certificate no
+            set ftp:passive-mode yes
+            set net:reconnect-interval-base 5
+            set net:max-retries 3
+            mirror --reverse --delete --verbose ./dist/ ./
+          SCRIPT
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
