@@ -1,0 +1,30 @@
+---
+description: JSON data schema and content conventions for topic factsheets
+globs: public/data/**/*.json, input/**
+alwaysApply: false
+---
+
+# Data Schema
+
+Topic JSON files in `public/data/` follow the schema in `src/types/index.ts`.
+
+## Adding a New Topic
+
+1. Create `public/data/{topicId}.json` following the `Topic` interface
+2. Add entry to `public/data/topics.json` (TopicMeta fields)
+3. No code changes required — the app auto-discovers via topics.json
+
+## ContentBlock Types
+
+Each Section contains `content: ContentBlock[]`. Valid types:
+`fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `timeline`, `progress_stack`
+
+Each type has its own required fields — check the discriminated union in `src/types/index.ts`.
+
+## Conventions
+
+- `id` fields: kebab-case (`status-quo`, `foerderung-2026`)
+- `icon` field in TopicMeta: MUI icon name as string
+- `lastUpdated`: format `YYYY-MM`
+- Sources: always include `label`, `url` is optional
+- Arguments: `keywords` array enables search matching, `relatedSections` links to section IDs
