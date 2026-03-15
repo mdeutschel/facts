@@ -7,6 +7,7 @@ import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import SearchBar from './SearchBar'
+import Footer from './Footer'
 
 export default function AppShell() {
   const navigate = useNavigate()
@@ -49,6 +50,7 @@ export default function AppShell() {
       >
         <Outlet />
       </Container>
+      <Footer />
     </Box>
   )
 }
