@@ -1,25 +1,34 @@
-import Alert from '@mui/material/Alert'
+import { useCallback, useMemo, useState } from 'react'
 import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
 import Divider from '@mui/material/Divider'
 import Paper from '@mui/material/Paper'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
+import ContentCopyIcon from '@mui/icons-material/ContentCopy'
+import CheckIcon from '@mui/icons-material/Check'
+import { Link as RouterLink } from 'react-router-dom'
+import Link from '@mui/material/Link'
 
 export default function Impressum() {
+  const email = useMemo(
+    () => String.fromCharCode(102, 97, 99, 116, 115, 64, 104, 97, 101, 108, 106, 101, 46, 100, 101),
+    []
+  )
+  const [copied, setCopied] = useState(false)
+
+  const handleCopy = useCallback(() => {
+    navigator.clipboard.writeText(email).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    })
+  }, [email])
+
   return (
     <Stack spacing={2.5}>
-      <Box>
-        <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
-          Impressum & Datenschutz
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Bitte ersetze die Platzhalter vor der Veröffentlichung mit deinen echten Angaben.
-        </Typography>
-      </Box>
-
-      <Alert severity="warning">
-        Dieses Muster ist eine praktische Orientierung, aber keine Rechtsberatung.
-      </Alert>
+      <Typography variant="h5" component="h1">
+        Impressum & Datenschutz
+      </Typography>
 
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1}>
@@ -27,21 +36,34 @@ export default function Impressum() {
             Impressum (Angaben gemäß DDG)
           </Typography>
           <Typography variant="body2">
-            TODO Vor- und Nachname
+            Repository-Version
             <br />
-            TODO Straße und Hausnummer
+            Anschrift wird nicht im Repository gespeichert
             <br />
-            TODO PLZ Ort
+            Live-Deployment ergänzt diese Angabe getrennt
           </Typography>
           <Typography variant="body2">
             Kontakt:
-            <br />
-            E-Mail: TODO email@example.de
-            <br />
-            Telefon: TODO +49 ...
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Falls vorhanden ergänzen: Umsatzsteuer-ID, Registereintrag, zuständige Aufsichtsbehörde.
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, flexWrap: 'wrap' }}>
+            <Typography variant="body2">
+              E-Mail: {email}
+            </Typography>
+            <Button
+              size="small"
+              variant="outlined"
+              startIcon={copied ? <CheckIcon /> : <ContentCopyIcon />}
+              onClick={handleCopy}
+              sx={{ minWidth: 0, py: 0.25, px: 1, fontSize: '0.75rem' }}
+            >
+              {copied ? 'Kopiert' : 'Kopieren'}
+            </Button>
+          </Box>
+          <Typography variant="body2">
+            Weitere Kontaktmöglichkeit:{' '}
+            <Link component={RouterLink} to="/feedback" underline="hover">
+              Feedback-Formular
+            </Link>
           </Typography>
         </Stack>
       </Paper>
@@ -49,12 +71,12 @@ export default function Impressum() {
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1.5}>
           <Typography variant="h6" component="h2">
-            Datenschutzhinweise (Kurzfassung)
+            Datenschutzhinweise
           </Typography>
           <Typography variant="body2">
             Verantwortlich für diese Website ist:
             <br />
-            TODO Vor- und Nachname, Anschrift, E-Mail (wie im Impressum).
+            Repository-Version, Anschrift wird nicht im Repository gespeichert, Live-Deployment ergänzt diese Angabe getrennt, E-Mail wie im Impressum.
           </Typography>
           <Divider />
           <Typography variant="subtitle2">1. Hosting und Server-Logs</Typography>
