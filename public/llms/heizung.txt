@@ -1,0 +1,268 @@
+# Heizungswechsel 2026
+
+Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente | Stand: 2026-03
+
+### Fakten
+
+### Status Quo
+
+- 21,7 Mio. Heizungen in Deutschland
+
+- Drei Viertel der Wohnungen werden mit Gas oder Öl beheizt (Gas 56 %, Öl 19 %; Zensus 2022).
+
+- Über die Hälfte der Heizungen gilt als veraltet; mehr als 4 Mio. sind älter als 30 Jahre.
+
+- Wärmepumpen-Anteil im Bestand: nur 4,4 %
+
+- 2024 nutzten 69,4 % der fertiggestellten Wohngebäude primär Wärmepumpen.
+
+- Bei den Baugenehmigungen für Wohngebäude lagen Wärmepumpen 2024 sogar bei 81,0 %.
+
+### Kostenvergleich: Was man seriös vergleichen kann
+
+Seriöse Gesamtkostenvergleiche hängen stark vom Gebäude, vom bisherigen Heizsystem, vom Wärmebedarf, von Strom- und Gaspreisen sowie von Förderbedingungen ab. Aussagen mit festen 20-Jahres-Summen sind ohne offengelegte Rechenmethodik wenig belastbar.
+
+Hinweis: Beispielrechnung: Einfamilienhaus, 20.000 kWh Wärmebedarf/Jahr
+- Gasheizung (Brennwert)
+  - Energieverbrauch: 20.000 kWh Gas
+  - Gaspreis (2026): ~10 Ct/kWh
+  - Energiekosten: ~2.000 €/Jahr
+  - CO₂-Kosten (55 €/t): +220 €/Jahr
+  - Wartung: ~250 €/Jahr
+  - Jährliche Betriebskosten: ~2.470 €
+- Wärmepumpe (Luft-Wasser, JAZ 3,5)
+  - Energieverbrauch: ~5.700 kWh Strom
+  - WP-Strompreis (2026): ~24 Ct/kWh
+  - Energiekosten: ~1.370 €/Jahr
+  - CO₂-Kosten: 0 € (kein fossiler Brennstoff)
+  - Wartung: ~150 €/Jahr
+  - Jährliche Betriebskosten: ~1.520 €
+- Ersparnis: Ersparnis Wärmepumpe: rund 950 €/Jahr im Betrieb. Prämissen: Gaspreis 10 Ct/kWh, WP-Strom 24 Ct/kWh, JAZ 3,5, CO₂-Preis 55 €/t.
+
+Die konkreten Gesamtkosten hängen stark vom Gebäude, den Energiepreisen und der Förderhöhe ab. Die Beispielrechnung zeigt aber die Größenordnung: Bei steigendem CO₂-Preis (ab 2027 marktbasiert, ETS 2) wird der Betriebsvorteil der Wärmepumpe weiter wachsen.
+
+### CO₂-Preis-Fahrplan
+
+Hinweis: CO₂-Preis-Fahrplan – der größte einzelne Kostentreiber
+- 2025: 55 EUR/t (Festpreis)
+- 2026: 55–65 EUR/t (nationaler Korridor)
+- ab 2027: Marktbasiert (ETS 2)
+- 2030er: szenarioabhängig (stark von Markt und Politik abhängig)
+- 2045: klimaneutral (Zielpfad für den Gebäudesektor)
+
+Spalten: Jahr | CO₂-Preis | Mechanismus
+- 2025 | 55 EUR/t | Festpreis
+- 2026 | 55–65 EUR/t | nationaler Korridor
+- ab 2027 | marktbasiert | ETS 2
+- 2030er | szenarioabhängig | Markt- und Politikpfad
+- 2045 | klimaneutral | Zielrichtung im Gebäudesektor
+
+- 55 EUR/t CO₂ entsprechen einem Aufschlag von ca. 1,1 Ct/kWh auf den Gaspreis (→ +220 EUR/Jahr bei 20.000 kWh). Bei 160 EUR/t wären es ca. 3,2 Ct/kWh (→ +650 EUR/Jahr). Jeder CO₂-Preisanstieg trifft nur fossile Heizungen, nicht die Wärmepumpe.
+
+### Lock-in-Falle: Warum jede neue Gasheizung ein Risiko ist
+
+Eine 2026 eingebaute Gasheizung läuft oft zwei Jahrzehnte oder länger. In dieser Zeit steigen Preis- und Regulierungsrisiken: CO₂-Kosten werden marktabhängiger, Gasnetze stehen unter Transformationsdruck, und neue fossile Investitionen können wirtschaftlich schneller unattraktiv werden als geplant.
+
+### Gasnetz-Rückbau: Das Strukturrisiko
+
+- Stadtwerke: 48 % (setzen auf Mix aus Fernwärme und Wärmepumpen)
+- hauptsächlich: 38 % (Strom/Wärmepumpen)
+- grüne Gase: 5 % (als Hauptlösung)
+- noch offen: 10 % (laut VKU-Umfrage)
+
+Spalten: Kennzahl | Bedeutung
+- 48 % | setzen auf einen Mix aus Fernwärme und Wärmepumpen
+- 38 % | sehen hauptsächlich Strom und Wärmepumpen als Zielbild
+- 5 % | sehen grüne Gase als Hauptlösung
+- 10 % | haben ihr Zielbild noch nicht festgelegt
+
+- MVV strebt an, das Gasnetz in Mannheim bis 2035 stillzulegen.
+
+- Die EU-Gasbinnenmarktrichtlinie verlangt eine vorausschauende Transformationsplanung für Gas- und Wasserstoffnetze.
+
+- MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähige Alternativen.
+
+- DIW warnt: Wenn Netze zu spät geordnet zurückgebaut werden, können die verbleibenden Kosten für Kundinnen und Kunden deutlich steigen.
+
+### Fraunhofer ISE (2025): Wärmepumpe funktioniert im Altbau
+
+Forschungsprojekt „WP-QS im Bestand“: 77 Wärmepumpen in Bestandsgebäuden (Baujahre 1826–2001), vier Jahre vermessen.
+
+- Luft-Wasser-WP: JAZ 3,4 (Schnitt (2,6–4,9))
+- Erdwärme-WP: JAZ 4,3 (Schnitt (3,6–5,4))
+- CO₂-Einsparung: -64 % (vs. Gasheizung)
+- Zusammenhang: 0 (Baujahr↔Effizienz)
+
+Spalten: Ergebnis | Detail
+- JAZ 3,4 | Luft-Wasser-WP im Schnitt (Bandbreite 2,6–4,9)
+- JAZ 4,3 | Erdwärme-WP im Schnitt (Bandbreite 3,6–5,4)
+- -64 % CO₂ | vs. Gasheizung (2024), erstmals dynamisch bilanziert (viertelstündl. dt. Strommix)
+- Kein Zusammenhang | zwischen Baujahr und Effizienz
+
+- Ausreichend dimensionierte Heizkörper können im Mittel mit ähnlich niedrigen Temperaturen betrieben werden wie Fußbodenheizungen. Entscheidend sind Heizkörpergröße und Hydraulik, nicht das Gebäudealter.
+
+- Mythos widerlegt: „Wärmepumpe braucht Fußbodenheizung und Vollsanierung“ – Fraunhofer ISE, November 2025
+
+### Marktentwicklung: Wärmepumpe wird Standard
+
+Hinweis: Absatz Heizungs-Wärmepumpen in Deutschland
+- 2020: 120000
+- 2021: 154000
+- 2022: 236000
+- 2023: 356000
+- 2024: 193000
+- 2025: 299000
+
+Spalten: Jahr | Absatz Heizungs-WP | Veränderung
+- 2020 | 120.000 | –
+- 2022 | 236.000 | +97 % vs. 2020
+- 2023 | 356.000 | Rekord
+- 2024 | 193.000 | -46 % (politische Verunsicherung)
+- 2025 | 299.000 | +55 % vs. 2024
+
+- 2025 stellten Wärmepumpen erstmals knapp die Hälfte aller verkauften Wärmeerzeuger in Deutschland.
+
+- 2024 lagen Wärmepumpen bei den Baugenehmigungen für Wohngebäude bei 81,0 %.
+
+- 80 % der neuen WP gehen in Bestandsgebäude
+
+- Einbruch 2024 = politische Verunsicherung, nicht Technologieproblem
+
+### Gesetzeslage: Reform und Preisrisiken
+
+- Über die Reform der Gebäudeheizungsregeln wird 2026 politisch verhandelt.
+
+- Belastbar ist vor allem: Der nationale CO₂-Preis endet 2026 im Korridor, ab 2027 greift ETS 2.
+
+- Wer heute neu fossil investiert, trägt deshalb Preis- und Infrastruktur-Risiken über viele Jahre.
+
+Auch ohne starres Ordnungsrecht bleiben CO₂-Kosten und Gasnetz-Transformation wichtige wirtschaftliche Risiken für neue fossile Heizungen.
+
+### Wasserstoff als Heizung: Realitätscheck
+
+- Nur 5 % der von VKU befragten Unternehmen sehen grüne Gase als Hauptlösung für die Wärmewende.
+
+- MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähig.
+
+- Das Wasserstoff-Kernnetz dient dem Ferntransport, nicht der flächendeckenden Versorgung kommunaler Hausnetze.
+
+### Lautstärke: Aufstellung und Abstand sind entscheidend
+
+- typisch: 40–50 dB (laut Effizienzlabel vieler Geräte)
+- entscheidend: Abstand (Aufstellort beeinflusst die Immission)
+- TA-Lärm nachts: 35 dB (reines Wohngebiet)
+
+- Moderne Luftwärmepumpen müssen sorgfältig geplant und aufgestellt werden, damit die Immissionsrichtwerte eingehalten werden.
+
+- Jede Verdopplung der Entfernung senkt den Schallpegel um ca. 6 dB.
+
+- Nachts laufen WP oft im reduzierten Modus und sind noch leiser.
+
+### Stromnetz: WP bringen das Netz nicht zum Kollaps
+
+- Netzfragen: lokal (treten vor allem im Verteilnetz auf)
+- Lasten: steuerbar (können zeitlich verschoben werden)
+- Betrieb: flexibel (Tarife und Steuerung helfen dem Netz)
+
+- Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und stark von Steuerung, Tarifstruktur und Ausbauplanung abhängig.
+
+- Für Haushalte wird entscheidend, ob Wärmepumpen flexibel betrieben und sinnvoll in bestehende Verteilnetze integriert werden.
+
+### Wärmepumpen funktionieren auch in kalten Klimazonen
+
+- Bestandsgebäude: 77 (im Fraunhofer-ISE-Projekt vermessen)
+- WP/1.000 HH: 632 (in Norwegen)
+- entscheidet: Praxis (nicht das Klischee über Altbau oder Frost)
+
+- Praxisdaten und der breite Einsatz in Norwegen zeigen: Wärmepumpen funktionieren auch in kalten Klimazonen.
+
+- Für die reale Effizienz sind Auslegung, Hydraulik und Heizflächen wichtiger als pauschale Frost-Mythen.
+
+### Internationaler Vergleich: Deutschland hinkt hinterher
+
+Hinweis: WP-Verbreitung im EU-Vergleich
+Spalten: Land | WP pro 1.000 HH | Marktanteil Neuanlagen
+- Norwegen | 632 | 97 %
+- Finnland | 524 | >90 %
+- Schweden | k.A. | >90 %
+- Schweiz | k.A. | 76 %
+- Deutschland | k.A. | knapp 50 % (2025)
+
+- EHPA: 2025 stiegen die Wärmepumpen-Verkäufe in 16 europäischen Ländern um 10 % auf rund 2,62 Mio. Geräte.
+
+- Skandinavien nutzt WP seit 30 Jahren – auch bei deutlich kälterem Klima als in Deutschland.
+
+- Erfolgsfaktoren Skandinavien: Niedriges Strom-zu-Gas-Preisverhältnis, kein flächendeckendes Gasnetz, langjährige politische Unterstützung.
+
+### Förderung auf einen Blick (BEG, Stand März 2026)
+
+Hinweis: Förderung stapelt sich – bis zu 70 %
+- Grundförderung: 30% (jede neue WP)
+- Geschwindigkeitsbonus: 20% (bis Ende 2028)
+- Einkommensbonus: 30% (< 40.000 €/a)
+- Gesamt: Gedeckelt auf 21.000 EUR Zuschuss
+
+Spalten: Baustein | Satz | Bedingung
+- Grundförderung | 30 % | für jede neue Wärmepumpe
+- Geschwindigkeitsbonus | +20 % | Tausch alter Gas/Öl/Kohle/Nachtspeicher (bis Ende 2028, danach sinkend)
+- Einkommensbonus | +30 % | bei Haushaltseinkommen < 40.000 EUR/Jahr
+- Gesamtförderung | max 70 % | gedeckelt auf 21.000 EUR Zuschuss
+
+Hinweis: Rechenbeispiel: Was bleibt nach Förderung? (EFH, Tausch Gasheizung)
+Spalten: Position | Betrag
+- Luft-Wasser-WP inkl. Installation | ~30.000 €
+- Förderfähige Kosten (max. 30.000 €) | 30.000 €
+- Grundförderung (30 %) | −9.000 €
+- Geschwindigkeitsbonus (20 %, bis Ende 2028) | −6.000 €
+- Eigenanteil bei 50 % Förderung | ~15.000 €
+- Mit Einkommensbonus (< 40.000 €/a, 70 %) | ~9.000 € Eigenanteil
+- Betriebskosten-Ersparnis/Jahr vs. Gas | ~950 €
+- Amortisation (bei 50 % Förderung) | ~16 Jahre
+
+- KfW-Ergänzungskredit 358/359 verfügbar: bis zu 120.000 € zinsgünstiges Darlehen für die restlichen Kosten.
+
+- Antrag VOR Einbau bei KfW stellen — sonst verfällt der Förderanspruch.
+
+### Argumente
+
+- Aussage: Wärmepumpe lohnt sich nur im Neubau!
+  Antwort: Falsch. Fraunhofer ISE hat 77 Bestandsgebäude vermessen, darunter sehr alte Gebäude, und keinen Zusammenhang zwischen Baujahr und Effizienz gefunden. Entscheidend sind Heizkörpergröße, Hydraulik und saubere Auslegung. Fußbodenheizung ist nicht zwingend nötig. Außerdem gehen rund 80 % der neuen Wärmepumpen in Bestandsgebäude.
+- Aussage: Gas ist doch viel billiger!
+  Antwort: In der Anschaffung ist Gas oft günstiger. Im Betrieb spart eine Wärmepumpe bei einem typischen EFH (20.000 kWh, JAZ 3,5) aber rund 950 €/Jahr gegenüber Gas — und das schon bei heutigen Preisen. Jeder CO₂-Preisanstieg vergrößert den Vorteil weiter: 55 €/t CO₂ kosten den Gashaushalt ca. 220 €/Jahr, bei 160 €/t schon 650 €/Jahr extra.
+- Aussage: Das Gasnetz bleibt doch!
+  Antwort: MVV strebt in Mannheim die Stilllegung des Gasnetzes bis 2035 an. DIW warnt, dass Netzentgelte mit sinkender Kundenzahl stark steigen können. Die aktuelle VKU-Umfrage zeigt außerdem, dass viele Stadtwerke vor allem mit Wärmepumpen und Fernwärme planen.
+- Aussage: Wasserstoff wird alles lösen!
+  Antwort: Die aktuelle VKU-Umfrage sieht grüne Gase nur bei 5 % der befragten Unternehmen als Hauptlösung. MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähig.
+- Aussage: Heizungsgesetz ist doch abgeschafft!
+  Antwort: Über die Reform der Heizungsregeln wird 2026 politisch verhandelt. Belastbar ist vor allem: Der nationale CO₂-Preis endet 2026 im Korridor, ab 2027 startet ETS 2, und neue fossile Investitionen bleiben preis- und infrastrukturnah riskant.
+- Aussage: Meine Heizung funktioniert doch noch!
+  Antwort: Viele Heizungen im Bestand sind alt: Laut BDH und ZVSHK ist über die Hälfte der 21,7 Mio. Heizungen veraltet, mehr als 4 Mio. sind über 30 Jahre alt. Wer früh tauscht, kann aktuelle Förderboni eher noch nutzen.
+- Aussage: Die Wärmepumpe ist doch viel zu laut!
+  Antwort: Luftwärmepumpen müssen sorgfältig geplant werden. Typische Geräuschangaben liegen oft bei etwa 40–50 dB; Aufstellort, Abstand und Nachtmodus sind entscheidend. In reinen Wohngebieten gilt nachts regelmäßig ein Immissionsrichtwert von 35 dB(A) nach TA Lärm.
+- Aussage: Das Stromnetz bricht doch zusammen!
+  Antwort: Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und hängen stark von Steuerung und Ausbauplanung ab. Entscheidend ist, dass Wärmepumpen sinnvoll ins Verteilnetz integriert und möglichst flexibel betrieben werden.
+- Aussage: Bei richtigem Frost funktioniert die WP nicht!
+  Antwort: Praxisdaten zeigen, dass Wärmepumpen auch in Bestandsgebäuden effizient laufen. Zudem kommen in Norwegen 632 installierte Wärmepumpen auf 1.000 Haushalte. Entscheidend sind gute Auslegung und passende Heizflächen, nicht pauschale Frost-Mythen.
+
+### Quellen
+
+- Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025) (https://www.ise.fraunhofer.de/en/press-media/press-releases/2025/fraunhofer-ise-research-project-completed-heat-pumps-provide-climate-friendly-heating-in-existing-buildings.html)
+- BWP – Absatzstatistik Wärmepumpen (https://www.waermepumpe.de/presse/zahlen-daten/absatzzahlen/)
+- BDH – Markt für Wärmepumpen 2024 (https://www.bdh-industrie.de/presse/pressemeldungen/artikel/heizungsindustrie-markt-fuer-waermepumpen-bleibt-hinter-erwartungen-zurueck)
+- BDEW – Heizungsmarkt und Gebäudebestand (https://www.bdew.de/media/documents/BDEW_Heizungsmarkt_2023_Zensus2022_BROSCH%C3%9CRE_Druckdatei_Final_1_8zcnCHX.pdf)
+- Destatis – Heizungsart in neuen Wohngebäuden 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_N031_31_51.html)
+- Verbraucherzentrale – Einbau und Aufstellung einer Wärmepumpe (https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/betrieb-und-aufstellung-was-ist-beim-einbau-einer-waermepumpe-wichtig-113970)
+- DIW Berlin – Stilllegung der Erdgasnetze (https://www.diw.de/de/diw_01.c.898168.de/publikationen/wochenberichte/2024_13_1/waermewende__bundesregierung_sollte_kommunen_bei_der_stilllegung_der_erdgasnetze_unterstuetzen.html)
+- EWI Köln – Auswirkungen und Preispfade des EU ETS2 (https://www.ewi.uni-koeln.de/de/publikationen/auswirkungen-und-preispfade-des-eu-ets2/)
+- Öko-Institut – Bewertung der GMG-Eckpunkte (https://www.oeko.de/publikation/weniger-klimaschutz-hoehere-kosten-groessere-unsicherheit-bewertung-der-eckpunkte-zum-neuen-gebaeudemodernisierungsgesetz/)
+- VKU – Umfrage zur Wärmewende (https://www.vku.de/presse/pressemitteilungen/umfrage-zur-waermewende-hohe-kosten-unzureichende-finanzierung-und-unklare-rechtslage-erfordern-winter-der-entscheidungen/)
+- MVV Mannheim – Wärmewende und Gasnetz (https://www.mvv.de/journalisten/pressemitteilungen/detail/gemeinsam-die-waermewende-in-mannheim-umsetzen)
+- KfW – Heizungsförderung für Privatpersonen (https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Heizungsf%C3%B6rderung-f%C3%BCr-Privatpersonen-Wohngeb%C3%A4ude-(458)/)
+- KfW – Ergänzungskredit 358/359 (https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Einzelma%C3%9Fnahmen-Erg%C3%A4nzungskredit-Wohngeb%C3%A4ude-(358-359)/)
+- EU-Gasbinnenmarktrichtlinie 2024 (https://eur-lex.europa.eu/eli/dir/2024/1788/oj/eng)
+- BWP – Schallrechner (https://www.waermepumpe.de/schallrechner/)
+- ZVSHK – Heizungsbranche schlägt Alarm (https://www.zvshk.de/presse/medien-center/pressemitteilungen/heizungsbranche-schlaegt-alarm)
+- EHPA – Market data (https://ehpa.org/market-data/)
+- TA Lärm – Technische Anleitung zum Schutz gegen Lärm (https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26081998_IG19980826.htm)
+- BMWE – FAQ zum Wasserstoff-Kernnetz (https://www.bundeswirtschaftsministerium.de/Redaktion/DE/FAQ/Wassertstoff-Kernnetz/faq-wasserstoff-kernnetz.html)
+- BWP – Wärmepumpen-Absatz 2025: 80 % im Bestandsgebäude (https://www.waermepumpe.de/presse/pressemitteilungen/details/ueber-50-prozent-im-plus-waermepumpen-absatz-steigt-2025-deutlich/)

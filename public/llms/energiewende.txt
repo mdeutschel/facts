@@ -1,0 +1,300 @@
+# Energiewende & Atomkraft
+
+Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit | Stand: 2026-03
+
+### Fakten
+
+### Der Atomausstieg – Wer hat entschieden?
+
+Hinweis: Chronologie des Atomausstiegs
+Spalten: Jahr | Ereignis | Verantwortlich
+- 2010 | Laufzeitverlängerung beschlossen („Ausstieg vom Ausstieg“) | CDU/CSU + FDP (Kabinett Merkel II)
+- 2011 | Endgültiger Ausstiegsbeschluss nach Fukushima | CDU/CSU + FDP (Kabinett Merkel II)
+- 2023 | Letzte 3 AKW vom Netz (Streckbetrieb bis 15.04.2023) | Ampel-Koalition (SPD/Grüne/FDP)
+
+- Der Atomausstieg war ein CDU-geführter, parteiübergreifender Konsens – kein grünes Alleingangsprojekt.
+
+### Energiebedarf: Was hätten AKW geändert?
+
+- Primärenergieverbrauch 2025: ca. 2.931 TWh (10.553 PJ)
+
+Hinweis: Primärenergieverbrauch nach Energieträger
+Spalten: Energieträger | Anteil
+- Mineralöl | 35,7%
+- Erdgas | 26,9%
+- Erneuerbare Energien | 20,6%
+- Braunkohle | ~7%
+- Steinkohle | ~7%
+- Sonstige | ~2,8%
+
+Hinweis: AKW-Anteil am Primärenergieverbrauch
+Spalten: Szenario | Erzeugung | Anteil am PEV
+- Letzte 3 AKW (2022/23) | ~33 TWh/a | 1,1%
+- Alle 6 AKW (Stand 2021) | ~69 TWh/a | 2,4%
+- Historischer AKW-Park (theoretisch) | ~150 TWh/a | nur wenige Prozent
+
+- Selbst der historische deutsche AKW-Park hätte nur wenige Prozent des Primärenergieverbrauchs gedeckt.
+
+### Die Gaskrise 2022 – Warum AKW nicht geholfen hätten
+
+- Wärme + Industrie: ~80 % (Erdgasverbrauch)
+- Stromerzeugung: ~20 % (Erdgasverbrauch)
+
+- AKW erzeugen ausschließlich Strom. Sie ersetzen kein Gas in Gebäudeheizungen und Industrieöfen. Die Energiekrise 2022 war eine Gaskrise, keine Stromkrise.
+
+### Uranabhängigkeit: Souveränität?
+
+- Kernenergie bleibt: importabhängig (bei Uran und Vorstufen)
+- Konversion/Anreicherung: kritisch (teils über russisch geprägte Lieferketten)
+- Abhängigkeiten: geopolitisch (werden nicht durch Atomkraft aufgehoben)
+
+- Kernkraft ersetzt eine fossile Abhängigkeit nicht durch Souveränität, sondern bleibt auf internationale nukleare Lieferketten angewiesen.
+
+### Strommix 2025: Wo stehen wir heute?
+
+- Erneuerbare: 55,3 % (am Stromverbrauch 2025)
+- Kohle: Tiefstand (historisch niedrig)
+- CO₂/kWh vs. 1990: -53 % (Stromsektor (UBA))
+
+Hinweis: Entwicklung des Erneuerbaren-Anteils am Strommix
+- 2010: 17 %
+- 2015: 31.5 %
+- 2020: 45.3 %
+- 2023: 51.8 %
+- 2024: 56 %
+- 2025: 55.3 %
+
+Spalten: Kennzahl | Wert
+- Erneuerbaren-Anteil am Stromverbrauch | 55,3 %
+- Kohleverstromung | historischer Tiefstand
+- CO₂-Emissionen Strom ggü. 1990 | ca. -53 % (spez. Faktor)
+- Spezifischer CO₂-Emissionsfaktor 2024 | 363 g CO₂/kWh
+
+- 2025 stammten 55,3 % des Stromverbrauchs aus Erneuerbaren – bei gleichzeitig historisch niedriger Kohleverstromung.
+
+### Stromgestehungskosten (LCOE) – Der Preisvergleich
+
+Quelle: Lazard LCOE+ v18.0 (Juni 2025), unsubventioniert, US-Marktdaten in USD/MWh.
+
+Hinweis: LCOE nach Technologie (USD/MWh, unsubventioniert)
+- Solar (Utility-Scale): 38 bis 78 $/MWh
+- Wind Onshore: 37 bis 86 $/MWh
+- Gas Combined Cycle: 48 bis 109 $/MWh
+- Wind Offshore: 74 bis 139 $/MWh
+- Kohle: 69 bis 168 $/MWh
+- Kernkraft Neubau: 141 bis 220 $/MWh
+
+Hinweis: LCOE nach Technologie (USD/MWh, unsubventioniert)
+Spalten: Technologie | LCOE (USD/MWh) | Anmerkung
+- Solar (Utility-Scale) | 38 - 78 | günstigste Neubauten im Lazard-Vergleich
+- Wind Onshore | 37 - 86 | klar unter Neubau-Kernkraft
+- Gas Combined Cycle | 48 - 109 | stark gaspreisabhängig
+- Wind Offshore | 74 - 139 | teurer als Onshore, aber unter Kernkraft möglich
+- Kohle | 69 - 168 | ohne externe Folgekosten
+- Kernkraft Neubau | 141 - 220 | teuerster großer Neubautyp im Vergleich
+
+Hinweis: Ergänzende LCOE-Werte
+Spalten: Kategorie | LCOE | Quelle
+- Bestands-AKW (abbezahlt, Langzeitbetrieb) | < 40 USD/MWh | OECD/IEA-NEA 2020
+- OECD-Modell „Nth-of-a-kind“ (3% Diskont) | 55 - 95 USD/MWh | OECD/IEA-NEA 2020
+- Hinkley Point C (Strike Price Jan 2026) | ~127 GBP/MWh ≈ 15 Ct/kWh | inflationsindexiert, steigt weiter
+
+- Neubau-Kernkraft ist in aktuellen Kostenvergleichen deutlich teurer als Solar- und Windkraft.
+
+### AKW-Neubau im Westen: Kein Projekt im Budget
+
+Hinweis: Westliche AKW-Neubauprojekte
+Spalten: Projekt | Land | Bauzeit | Startbudget | Heute
+- Hinkley Point C | GB | 2017 - 2030+ | 18 Mrd. GBP | 35 Mrd. GBP (~48 Mrd. GBP nominal)
+- Flamanville 3 | FR | 2007 - 2024 | 3,3 Mrd. EUR | 23,7 Mrd. EUR (Rechnungshof)
+- Olkiluoto 3 | FI | 2005 - 2023 | 3 Mrd. EUR | ~11 Mrd. EUR
+- Vogtle 3&4 | USA | 2013 - 2023/24 | 14 Mrd. USD | ~35 Mrd. USD
+
+Barakah in den Vereinigten Arabischen Emiraten wird oft als Gegenbeispiel genannt. Das Projekt entstand aber unter sehr anderen Bedingungen: standardisierte südkoreanische Reaktortechnik, andere Genehmigungslogik und andere Kostenstrukturen. Es ist deshalb keine belastbare Blaupause für Deutschland oder andere westliche Demokratien.
+
+- Kein westliches Neubauprojekt blieb im Budget: Flamanville 3 kostete statt 3,3 Mrd. am Ende 23,7 Mrd. €; Hinkley Point C stieg von 18 auf 35 Mrd. GBP. Die Bauzeiten lagen bei 13–18 Jahren statt der geplanten 5–6.
+
+- Wer heute einen Neubau beschließt, erhält in westlichen Demokratien mit hoher Wahrscheinlichkeit erst in den 2040er Jahren nennenswerten Strom aus dem Projekt.
+
+- In Deutschland: Kein Fachpersonal, keine Lieferketten, keine Genehmigungsstrukturen
+
+### Frankreich 2022: Warnung vor dem „Versorgungssicher“-Mythos
+
+- Reaktoren offline: 32 von 56 (auf dem Höhepunkt (Aug/Sept 2022))
+- verfügbare Leistung: < 30 GW (von 61,4 GW installiert — historisches Tief)
+- Frankreich 2022: Nettoimporteur (u. a. aus Deutschland)
+
+- Auf dem Höhepunkt der Krise 2022 waren 32 von 56 französischen Reaktoren gleichzeitig abgeschaltet. Die verfügbare Leistung fiel unter 30 GW — ein historisches Tief seit 1999.
+
+Ursachen: Spannungsrisskorrosion an Kühlrohrleitungen (Sicherheitsinspektionen) und Kühlwassermangel durch Hitzewellen. Frankreich — das zu 70 % auf Atomstrom setzt — wurde zum Nettostromimporteur, u. a. aus Deutschland.
+
+- AKW-Flotten sind nicht immun gegen Alterung, Klimawandel und gleichzeitige Wartungszyklen. „Kernkraft = Versorgungssicherheit“ ist eine Vereinfachung.
+
+### Dunkelflauten: Reales Problem, kein Showstopper
+
+- Dunkelflauten: beherrschbar (fordern Flexibilität statt Panik)
+- Versorgungsengpass: kein annähernder (laut BNetzA Anfang 2025)
+- Negativpreisstunden: 573 Std. (2025)
+
+Spalten: Kennzahl | Wert | Quelle
+- Dunkelflautenlagen | reales Systemthema | BNetzA
+- Versorgungsengpässe Anfang 2025 | kein annähernder Engpass | BNetzA
+- Negativpreisstunden 2025 | 573 | BNetzA / SMARD
+- Schlüsselaufgabe | mehr Speicher, Netze und flexible Lasten | Systemische Einordnung
+
+- Selbst in der Dunkelflautenlage Anfang 2025 kam es laut Bundesnetzagentur nicht annähernd zu Versorgungsengpässen.
+
+Überbrückung heute: Gaskraftwerke, europäische Stromimporte, wachsend: Batteriespeicher. Kern des Problems: Nicht die Häufigkeit der Dunkelflauten, sondern fehlende Speicher und Netzkapazitäten.
+
+### Strombedarf 2045: Verdopplung durch Elektrifizierung
+
+- Heute (2025): ~520 TWh (17 % Stromanteil)
+- TWh bis 2045: 1.037–1.423 (47–59 % Stromanteil)
+
+Hinweis: Bruttostromverbrauch – Entwicklung
+Spalten: Zeitpunkt | Bruttostromverbrauch | Stromanteil am Energiemix
+- Heute (2025) | ~520 TWh | 17%
+- 2030 (Ariadne) | 681 – 807 TWh | ~25–30%
+- 2045 (Ariadne) | 1.037 – 1.423 TWh | 47 – 59%
+
+Treiber des Mehrbedarfs: Direkte Elektrifizierung (Wärmepumpen + E-Autos ersetzen Gasheizungen und Verbrenner), grüner Wasserstoff (400–620 TWh Strom allein für Elektrolyseure in Stahl, Chemie, Luftfahrt) und ein Gegeneffekt: Gesamtenergiebedarf sinkt dank Effizienz um 32–38%.
+
+- Selbst alle 17 historischen deutschen AKW hätten bei verdoppeltem Strombedarf nur ~10% gedeckt. Der EE-Ausbau bleibt in jedem Szenario unvermeidlich.
+
+### Speicherausbau: Der Markt drängt, die Bürokratie bremst
+
+- beantragt: 400 GW (Leistung 2024)
+- beantragt: 661 GWh (Kapazität 2024)
+- Anschlusszusagen: 25 GW (Leistung 2024)
+- Anschlusszusagen: 46 GWh (Kapazität 2024)
+
+Spalten: Kennzahl | Wert | Quelle
+- Beantragte Leistung (2024, ab Mittelspannung) | ~400 GW | BNetzA 11/2025
+- Beantragte Kapazität (2024) | 661 GWh | BNetzA 11/2025
+- Erteilte Anschlusszusagen (2024) | 25 GW / 46 GWh | BNetzA 11/2025
+- Kernaussage | Interesse sehr hoch, Umsetzung deutlich langsamer | BNetzA
+
+- 400 GW beantragte Speicherleistung – der Markt will, aber Netzanschlüsse und Genehmigungsverfahren bremsen.
+
+Engpass: Nicht Investoreninteresse oder Technologie, sondern Netzanschlüsse, Genehmigungsverfahren und regulatorische Unsicherheit.
+
+### Small Modular Reactors: Viel Hype, wenig Realität
+
+- kommerzielle SMR: 0 (im Westen in Betrieb)
+- weitestes westliches Projekt: Darlington (BWRX-300, Kanada)
+- NuScale CFPP: 2023 (eingestellt)
+
+- Das Darlington-Projekt in Kanada ist derzeit das weiteste westliche SMR-Neubauvorhaben. Es ist aber noch kein Beleg für einen kommerziell etablierten SMR-Markt.
+
+- Das US-Projekt NuScale CFPP wurde 2023 gestoppt. Das zeigt, wie unsicher Kosten, Abnahme und Zeitpläne bei SMR-Vorhaben bisher sind.
+
+- SMR sind derzeit eher ein Technologieversprechen als eine kurzfristig belastbare Antwort auf die deutsche Stromversorgung.
+
+Selbst wenn Deutschland heute ein SMR-Projekt startete, würde es den Ausbau von Netzen, Speichern und Erneuerbaren in diesem Jahrzehnt nicht ersetzen.
+
+### Atommüll: Das vergessene Milliardenproblem
+
+- Einzahlung in KENFO: 24,1 Mrd. € (durch AKW-Betreiber)
+- früheste Standortentscheidung: 2050 (laut BGE)
+- möglich nach Rechtsrahmen: 2074 (bei langem Verfahren)
+- Zwischenlagerung: Jahrzehnte (bleibt in jedem Fall nötig)
+
+- Die Betreiber zahlten rund 24,1 Mrd. Euro in den KENFO-Fonds ein. Damit ist das Problem aber nicht erledigt: Suche, Genehmigung und Bau eines Endlagers bleiben langfristige Staatsaufgaben.
+
+- Eine Standortentscheidung ist laut BGE frühestens um 2050 denkbar; nach aktuellem Rechtsrahmen kann sich das Verfahren auch deutlich länger hinziehen.
+
+- Atommüll bleibt ein Langfristproblem über Generationen. Neue AKW würden diese Aufgabe nicht lösen, sondern vergrößern.
+
+- Langfristige Risiken und Folgekosten bleiben trotz Fondsmodell in erheblichem Maß beim Staat.
+
+### EE-Ausbau: 21 GW in einem Jahr – Rekordtempo
+
+Hinweis: Jährlicher EE-Zubau (GW)
+- 2023: 17
+- 2024: 19
+- 2025: 21
+
+- 2025: 16,4 GW Solar + 4,6 GW Wind onshore + 0,3 GW Wind offshore = 21,3 GW Zubau.
+
+- EE-Gesamtkapazität Deutschland: ~210 GW (Stand Ende 2025).
+
+- Wind-Genehmigungen 2025: 20,8 GW genehmigt – die Pipeline für Folgejahre wächst.
+
+- Zum Vergleich: Ein großes AKW = ~1,4 GW. Deutschland baut pro Jahr das Äquivalent von ~15 AKW-Blöcken an EE-Kapazität zu.
+
+Die Ziele für 2030 erfordern noch mehr: 19,6 GW/Jahr Solar und 9,4 GW/Jahr Wind onshore. Der Fokus muss auf EE-Beschleunigung liegen, nicht auf AKW-Debatten.
+
+### EU-Vergleich: Erneuerbare überholen Atom europaweit
+
+- Erneuerbare: 46,9 % (an der EU-Nettoerzeugung 2024)
+- Atom-Anteil: 23,3 % (an der EU-Nettoerzeugung 2024)
+- EU-Staaten: 12/27 (betreiben AKW)
+- FR allein: 58,6 % (des EU-Atomstroms)
+
+- Erneuerbare haben die Atomkraft im EU-Strommix klar überholt.
+
+- Bei den Erneuerbaren lagen 2024 laut Eurostat Dänemark, Portugal und Kroatien besonders weit vorn.
+
+- Länder wie Dänemark und Österreich zeigen: Hohe Versorgungssicherheit auch ohne ein einziges AKW.
+
+Atomkraft bleibt in der EU wichtig, ist aber ein Minderheitenpfad. Der europäische Trend bei Neubau und Strommix geht klar stärker in Richtung Erneuerbare.
+
+### Europäischer Stromverbund: Deutschland ist keine Insel
+
+- Import 2025: 76,2 TWh (Stromverbund mit Nachbarländern)
+- Export 2025: 54,3 TWh (Stromverbund mit Nachbarländern)
+- EE-Rekord: 67,5 % (Q2 2025)
+
+- Nettoimport 2025: 21,9 TWh – 22,6 % weniger als 2024. Tendenz: Importbedarf sinkt.
+
+- Der europäische Verbund gleicht regionale Wetter-, Last- und Preisunterschiede durch Importe und Exporte aus.
+
+- EU-Regel: Mindestens 70 % der physischen Übertragungskapazität muss für grenzüberschreitenden Handel verfügbar sein.
+
+Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System-Design. Es ist billiger als jedes Land für sich allein.
+
+### Argumente
+
+- Aussage: Zeig mir das AKW, das du bauen willst.
+  Antwort: Große westliche AKW-Neubauten sind teuer, dauern lange und bleiben regelmäßig nicht im Startbudget. In Deutschland kämen zusätzlich fehlende Lieferketten, Fachkräfte und Genehmigungsroutinen hinzu. Wer heute neu beschließt, bekommt realistisch erst in den 2040er Jahren relevanten Strom.
+- Aussage: AKW ersetzen keinen einzigen Schritt der Energiewende.
+  Antwort: Auch ein großer AKW-Neubau würde Netze, Speicher, flexible Lasten und Erneuerbare nicht ersetzen. Bei wachsendem Strombedarf bleibt der Ausbau dieser Infrastruktur in jedem realistischen Szenario unvermeidlich.
+- Aussage: Die Krise war Gas, nicht Strom.
+  Antwort: Die Energiekrise 2022 war vor allem eine Gaskrise. Kernkraft erzeugt Strom, ersetzt aber kein Gas in Heizungen oder Industrieöfen. Zudem bleibt auch Atomkraft auf internationale Lieferketten angewiesen.
+- Aussage: Das Problem heißt Bürokratie, nicht Technologie.
+  Antwort: Der Speichermarkt zeigt viel Interesse, aber Netzanschlüsse, Genehmigungen und Regulierung bremsen die Umsetzung. Das Problem ist deshalb heute oft weniger die Technik als die Geschwindigkeit von Verfahren und Netzausbau.
+- Aussage: Aber SMRs lösen doch das Problem!
+  Antwort: SMR sind bislang eher ein Technologieversprechen als ein erprobter Massenmarkt. Im Westen gibt es noch keinen kommerziell etablierten SMR-Betrieb; selbst das fortgeschrittene Darlington-Projekt liefert keine kurzfristige Antwort für Deutschland. Parallel braucht es trotzdem Netze, Speicher und Erneuerbare.
+- Aussage: Atomkraft ist doch abgeschaltet und erledigt!
+  Antwort: Abgeschaltet heißt nicht erledigt. Endlagersuche, Zwischenlagerung und Finanzierung bleiben über Jahrzehnte bis Generationen ein Thema. Neue AKW würden diese Aufgabe nicht kleiner machen.
+- Aussage: Deutschland muss sich doch selbst versorgen können!
+  Antwort: Der europäische Stromverbund ist Teil der Versorgungssicherheit. Import und Export gleichen regionale Unterschiede aus und sind kein Versagenssignal. Vollständige Autarkie wäre teurer und systemisch unflexibler als ein gut vernetztes europäisches Stromsystem.
+
+### Quellen
+
+- Lazard LCOE+ v18.0 (Juni 2025) (https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf)
+- Ariadne: Szenarien zur Klimaneutralität 2045 (Nov. 2025) – Strombedarf 2030/2045, Elektrifizierungspfade (https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/)
+- AGEB: Energieverbrauch wird 2025 stagnieren (https://ag-energiebilanzen.de/energieverbrauch-wird-2025-stagnieren/)
+- BNetzA: Hohe Nachfrage nach Netzanschlüssen für Batteriespeicher (12.11.2025) (https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251112_Batteriespeicher.html)
+- Agora Energiewende: Stand der Dinge 2025 – Strommix, CO₂-Emissionen, EE-Ausbaustand (https://www.agora-energiewende.de/)
+- UBA: Spezifische CO₂-Emissionen Strommix – CO₂-Emissionsfaktoren 1990–2024 (https://www.umweltbundesamt.de/themen/co2-emissionen-pro-kilowattstunde-strom-2024)
+- IAEA / Statista: Kernenergie-Anteil Deutschland – Historische Anteile 2003–2023 (https://de.statista.com/statistik/daten/studie/29295/)
+- BEE: Strombedarfsanalyse (2025) – Sektorenkopplung und H₂-Erzeugung (https://www.bee-ev.de/)
+- BNetzA Insight: Dunkelflaute? Kein Grund zur Panik (https://www.bundesnetzagentur.de/DE/Allgemeines/DieBundesnetzagentur/Insight/Texte/Energiewende/Dunkelflaute.html)
+- KENFO: Über den KENFO (https://www.kenfo.de/der-fonds/ueber-den-kenfo)
+- BMUV/BMUKN: Deutschland beendet das Zeitalter der Atomkraft (https://www.bmuv.de/PM10553)
+- EDF: Stress corrosion phenomenon and adjustment of 2022 French nuclear output estimate (https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/update-on-the-stress-corrosion-phenomenon-and-adjustment-of-2022-french-nuclear-output-estimate)
+- Euratom Supply Agency Annual Report 2024 (https://op.europa.eu/s/z9yD)
+- Eurostat: Nuclear energy statistics 2024 (https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Nuclear_energy_statistics)
+- EDF 2024 financial statements: Hinkley Point C update (https://www.edf.fr/sites/groupe/files/2025-03/annual-results-2024-consolidated-financial-statements-2025-03-05.pdf)
+- Southern Company Annual Report 2024: Vogtle update (https://investor.southerncompany.com/files/doc_financials/2024/annual/2024-annual-report.pdf)
+- TVO: Olkiluoto 3 project history and settlement (https://www.tvo.fi/en/index/news/pressreleasesstockexchangereleases/2018/hD4GZkgAO.html)
+- World Nuclear Association: France nuclear power profile (Flamanville 3) (https://world-nuclear.org/information-library/country-profiles/countries-a-f/france)
+- ENEC and KEPCO announce financial close for Barakah Nuclear Energy Plant (https://www.enec.gov.ae/news/latest-news/enec-and-kepco-announce-financial-close-for-barakah-nuclear-energy-plant/)
+- World Nuclear News: Barakah 4 enters commercial operation (https://www.world-nuclear-news.org/articles/barakah-4-landmark-announced-as-world-nuclear-symp)
+- SMARD/BNetzA: Jahresrückblick 2025 (https://www.smard.de/page/home/topic-article/216804/218954/hoechste-pv-einspeisung-in-jedem-quartal)
+- Ontario Power Generation: Darlington SMR project (https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/)
+- UAMPS and NuScale terminate the Carbon Free Power Project (2023) (https://business.smdailypress.com/smdailypress/article/bizwire-2023-11-8-utah-associated-municipal-power-systems-uamps-and-nuscale-power-agree-to-terminate-the-carbon-free-power-project-cfpp)
+- BGE: Vorschläge zur Beschleunigung der Endlagersuche (21.03.2025) (https://www.bge.de/de/bge/presse/pressemitteilungen/pressemitteilung/news/2025/3/bge-macht-vorschlaege-zur-beschleunigung-der-endlagersuche/)
+- Eurostat: Electricity from renewable sources reached 46.9% in 2024 (https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250319-1)
+- ACER: Monitoring the 70% cross-zonal capacity rule (https://www.acer.europa.eu/news-and-events/news/acers-monitoring-finds-much-stake-grid-operators-are-still-far-making-70-transmission-capacity-available-cross-zonal-electricity-trade)

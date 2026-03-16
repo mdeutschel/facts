@@ -135,7 +135,7 @@ function buildSitemap(topics) {
 
 function buildLlmsTxt(topics) {
   const topicLinks = topics
-    .map((topic) => `- [${topic.title}](${absoluteUrl(`/thema/${topic.id}`)}): ${topic.subtitle}`)
+    .map((topic) => `- [${topic.title}](${absoluteUrl(`/llms/${topic.id}.txt`)}): ${topic.subtitle}`)
     .join('\n')
 
   return [
@@ -165,46 +165,57 @@ function buildLlmsTxt(topics) {
   ].join('\n')
 }
 
+function buildTopicSection(topicData) {
+  const sectionTexts = topicData.sections
+    .map((section) => {
+      const blocks = section.content
+        .map((block) => flattenContentBlock(block))
+        .filter(Boolean)
+        .join('\n\n')
+      return [`### ${section.title}`, '', blocks].join('\n')
+    })
+    .join('\n\n')
+
+  const argumentTexts = topicData.arguments
+    .map((argument) => [`- Aussage: ${argument.claim}`, `  Antwort: ${argument.response}`].join('\n'))
+    .join('\n')
+
+  const sourceTexts = topicData.sources
+    .map((source) => (source.url ? `- ${source.label} (${source.url})` : `- ${source.label}`))
+    .join('\n')
+
+  return [
+    `${topicData.subtitle} | Stand: ${topicData.lastUpdated}`,
+    '',
+    '### Fakten',
+    '',
+    sectionTexts,
+    '',
+    '### Argumente',
+    '',
+    argumentTexts,
+    '',
+    '### Quellen',
+    '',
+    sourceTexts,
+  ].join('\n')
+}
+
+function buildTopicTxt(topicData) {
+  return [
+    `# ${topicData.title}`,
+    '',
+    buildTopicSection(topicData),
+    '',
+  ].join('\n')
+}
+
 function buildLlmsFull(topics, topicDataById) {
   const sections = topics.map((topic) => {
     const topicData = topicDataById.get(topic.id)
     if (!topicData) return ''
 
-    const sectionTexts = topicData.sections
-      .map((section) => {
-        const blocks = section.content
-          .map((block) => flattenContentBlock(block))
-          .filter(Boolean)
-          .join('\n\n')
-        return [`### ${section.title}`, '', blocks].join('\n')
-      })
-      .join('\n\n')
-
-    const argumentTexts = topicData.arguments
-      .map((argument) => [`- Aussage: ${argument.claim}`, `  Antwort: ${argument.response}`].join('\n'))
-      .join('\n')
-
-    const sourceTexts = topicData.sources
-      .map((source) => (source.url ? `- ${source.label} (${source.url})` : `- ${source.label}`))
-      .join('\n')
-
-    return [
-      `## ${topicData.title}`,
-      '',
-      `${topicData.subtitle} | Stand: ${topicData.lastUpdated}`,
-      '',
-      '### Fakten',
-      '',
-      sectionTexts,
-      '',
-      '### Argumente',
-      '',
-      argumentTexts,
-      '',
-      '### Quellen',
-      '',
-      sourceTexts,
-    ].join('\n')
+    return [`## ${topicData.title}`, '', buildTopicSection(topicData)].join('\n')
   })
 
   return [
@@ -300,6 +311,15 @@ async function main() {
   await writeFile(path.join(PUBLIC_DIR, 'sitemap.xml'), buildSitemap(topics), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms.txt'), buildLlmsTxt(topics), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms-full.txt'), buildLlmsFull(topics, topicDataById), 'utf8')
+
+  const llmsDir = path.join(PUBLIC_DIR, 'llms')
+  await import('node:fs').then((fs) => fs.mkdirSync(llmsDir, { recursive: true }))
+  for (const topic of topics) {
+    const topicData = topicDataById.get(topic.id)
+    if (!topicData) continue
+    await writeFile(path.join(llmsDir, `${topic.id}.txt`), buildTopicTxt(topicData), 'utf8')
+  }
+
   await injectFallback(topics, topicDataById)
 }
 

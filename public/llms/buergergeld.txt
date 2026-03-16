@@ -1,0 +1,98 @@
+# Bürgergeld
+
+Fakten zu Regelsätzen, Sanktionen und Lohnabstand | Stand: 2026-03
+
+### Fakten
+
+### Wie hoch ist das Bürgergeld wirklich?
+
+Der Regelbedarf für alleinstehende Erwachsene beträgt seit 2024 unverändert 563 Euro im Monat. Für 2025 und 2026 blieben die Regelbedarfe unverändert, weil die gesetzliche Fortschreibung rechnerisch niedrigere Werte ergeben hätte und die Besitzschutzregelung griff.
+
+- Alleinstehende: 563 € (Regelbedarfsstufe 1)
+- Partner in Bedarfsgemeinschaft: 506 € (pro Person)
+- Jugendliche (14-17 J.): 471 €
+- Kinder (6-13 J.): 390 €
+
+Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernommen. Der Regelbedarf deckt insbesondere Ausgaben für Ernährung, Kleidung, Körperpflege, Hausrat, Haushaltsenergie ohne Heizkostenanteile sowie die soziale und kulturelle Teilhabe ab.
+
+- Im Jahresdurchschnitt 2024 gab es rund 5,55 Millionen Regelleistungsberechtigte in der Grundsicherung für Arbeitsuchende.
+
+- Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten Leistungen nach dem AsylbLG — nicht das Bürgergeld.
+
+Hinweis: Bürgergeld vs. AsylbLG-Grundleistungen (Alleinstehende, 2026)
+- Bürgergeld (SGB II)
+  - Regelbedarf: 563 €/Monat
+  - Unterkunft + Heizung: zusätzlich (angemessen)
+- AsylbLG-Grundleistungen
+  - Grundleistungen gesamt: ~460 €/Monat
+  - davon pers. Bedarf: ~202 €
+- Ersparnis: Asylbewerber erhalten rund 100 € weniger als Bürgergeld-Empfänger — und erst nach 36 Monaten erweiterten Leistungsumfang.
+
+Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind dafür die Jobcenter.
+
+### Lohnt sich Arbeit noch?
+
+Eine Studie des Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) zeigt klar: Wer zum Mindestlohn arbeitet, hat am Ende des Monats spürbar mehr Geld zur Verfügung als mit Bürgergeld.
+
+Hinweis: Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bürgergeld (WSI-Modellrechnung auf Basis von 12,82 € Mindestlohn, Stand 2025)
+- Alleinstehende
+  - Bürgergeld inkl. Unterkunft: ca. 1.015 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 1.572 €
+  - Einkommensvorteil: + 557 €
+- Alleinerziehend (1 Kind)
+  - Bürgergeld inkl. Unterkunft: ca. 1.783 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 2.532 €
+  - Einkommensvorteil: + 749 €
+
+Hinweis: Aufschlüsselung Single-Haushalt (WSI-Modellrechnung, Bundesdurchschnitt)
+Spalten: Position | Bürgergeld | Mindestlohn-Vollzeit
+- Regelbedarf / Nettolohn | 563 € | ~1.572 € netto
+- Unterkunft + Heizung | ~452 € | vom Netto zu zahlen
+- Verfügbar nach Miete | 563 € | ~1.120 €
+- Einkommensvorteil |  | +557 €/Monat
+
+Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv. Ein alleinstehender Mindestlohn-Beschäftigter hat über das Jahr gerechnet rund 6.700 € mehr zur Verfügung als im Bürgergeldbezug.
+
+### Sanktionen und 'Totalverweigerer'
+
+Das Bürgergeld ist kein bedingungsloses Grundeinkommen. Wer Termine versäumt oder zumutbare Arbeit ablehnt, wird sanktioniert.
+
+Hinweis: Sanktionsstufen bei Pflichtverletzungen
+- 1. Verstoß: 10% (10 % = −56 €/Monat für 1 Monat)
+- 2. Verstoß: 20% (20 % = −113 €/Monat für 2 Monate)
+- 3. Verstoß: 30% (30 % = −169 €/Monat für 3 Monate)
+
+- Seit Ende März 2024 kann bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit der Regelbedarf für bis zu zwei Monate vollständig entfallen. Die Kosten der Unterkunft und Heizung werden dadurch nicht gestrichen.
+
+### Wie viel Betrug gibt es?
+
+Einzelfälle und organisierter Leistungsmissbrauch sind dokumentiert. Für die Behauptung massenhaften Missbrauchs liefern die hier hinterlegten amtlichen Quellen aber keinen belastbaren Beleg.
+
+Für seriöse Debatten braucht es belastbare amtliche Zahlen statt Einzelfälle oder pauschale Behauptungen. Die aktuelle Quellenlage dieser Datei belegt keinen flächendeckenden Betrug.
+
+### Argumente
+
+- Aussage: Wer arbeitet, ist doch der Dumme. Mit Bürgergeld hat man am Ende mehr in der Tasche!
+  Antwort: Das stimmt nicht. Das Lohnabstandsgebot ist in der WSI-Modellrechnung gewahrt. Im Bundesdurchschnitt hat ein Single, der Vollzeit zum Mindestlohn arbeitet, 557 Euro mehr im Monat zur Verfügung als im Bürgergeldbezug. Bei Alleinerziehenden mit einem Kind sind es 749 Euro.
+- Aussage: Das Bürgergeld ist eine soziale Hängematte. Man muss gar nichts mehr machen und bekommt trotzdem Geld.
+  Antwort: Das Bürgergeld ist an Pflichten geknüpft. Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, muss mit Leistungsminderungen rechnen. Bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit kann der Regelbedarf unter engen gesetzlichen Voraussetzungen für bis zu zwei Monate entfallen.
+- Aussage: Die Bürgergeld-Empfänger bekommen jedes Jahr massiv mehr Geld, während die Löhne stagnieren!
+  Antwort: Die Regelsätze werden nach einem gesetzlichen Mechanismus an Preis- und Lohnentwicklung angepasst. Für 2025 und 2026 blieben die Regelbedarfe unverändert. Der Regelbedarf für Alleinstehende liegt deshalb weiter bei 563 Euro.
+- Aussage: Das System wird doch nur ausgenutzt. Fast alle betrügen beim Bürgergeld!
+  Antwort: Leistungsmissbrauch existiert und muss verfolgt werden. Für pauschale Aussagen wie "fast alle betrügen" gibt es mit den hier hinterlegten Quellen aber keinen belastbaren Beleg. Dokumentiert sind Einzelfälle und organisierter Missbrauch, nicht ein Nachweis für flächendeckenden Betrug.
+- Aussage: Das Bürgergeld lockt nur Ausländer an, die sich hier auf unsere Kosten ein schönes Leben machen.
+  Antwort: Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. Asylbewerber erhalten Leistungen nach dem AsylbLG — das sind ca. 460 € statt 563 € (rund 100 € weniger als Bürgergeld). Erst nach 36 Monaten erweitert sich der Leistungsumfang. EU-Bürger sind in den ersten drei Monaten sowie bei Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen.
+- Aussage: Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!
+  Antwort: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind die Jobcenter; damit verbunden sind Zugang zu Integrations- und Sprachkursen sowie zur Arbeitsvermittlung. Die Grundsicherung ist steuerfinanziert und keine Versicherungsleistung.
+
+### Quellen
+
+- Bundesministerium für Arbeit und Soziales (BMAS) – Leistungen und Bedarfe im Bürgergeld (https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html)
+- WSI-Studie zum Lohnabstandsgebot (2024/2025) (https://www.wsi.de/de/pressemitteilungen-15991-einkommen-bei-mindestlohnbeschaeftigung-deutlich-hoeher-als-buergergeld-70666.htm)
+- Bundesregierung - Warum es 2025 eine Nullrunde beim Bürgergeld gibt (https://www.bundesregierung.de/breg-de/aktuelles/buergergeld-2025-2248000)
+- Regelbedarfsstufen-Fortschreibungsverordnung 2026 (https://www.gesetze-im-internet.de/rbsfv_2026/BJNR0F30B0025.html)
+- SGB II § 31a - Rechtsfolgen bei Pflichtverletzungen (https://www.gesetze-im-internet.de/sgb_2/__31a.html)
+- SGB II § 7 - Leistungsberechtigte (https://www.gesetze-im-internet.de/sgb_2/__7.html)
+- Bundesregierung - Grundsicherung für Geflüchtete aus der Ukraine (https://www.bundesregierung.de/breg-de/aktuelles/grundsicherung-fuer-ukrainer-2028694)
+- BMAS - Leistungssätze nach dem Asylbewerberleistungsgesetz (https://www.bmas.de/DE/Soziales/Sozialhilfe/LeistungenAsylbewerberleistungsgesetz/leistungssaetze-asylbewerberleistungsgesetz.html)
+- Bundesagentur für Arbeit - Überblick Grundsicherung für Arbeitsuchende (https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Ueberblick/Ueberblick-Nav.html)

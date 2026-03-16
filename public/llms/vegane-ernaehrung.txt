@@ -1,0 +1,81 @@
+# Vegane Ernährung & Fleischkonsum
+
+Auswirkungen auf Klima, Umwelt und Gesundheit | Stand: 2026-03
+
+### Fakten
+
+### Klimabilanz & Treibhausgase
+
+Die Produktion tierischer Lebensmittel verursacht deutlich mehr Treibhausgase als der Anbau pflanzlicher Nahrung. Das UBA betont klar, dass weniger tierische und mehr pflanzliche Lebensmittel die ernährungsbedingten Emissionen deutlich senken.
+
+Hinweis: Ressourcenverbrauch pro 100 g Protein (Poore & Nemecek 2018)
+- Rindfleisch
+  - CO₂-Äquivalente: ~50 kg
+  - Wasserverbrauch: 728 Liter
+  - Flächenbedarf: 164 m²
+- Tofu
+  - CO₂-Äquivalente: ~3,5 kg
+  - Wasserverbrauch: 92 Liter
+  - Flächenbedarf: 2,2 m²
+- Ersparnis: Tofu verbraucht pro 100 g Protein rund 74-mal weniger Fläche und 8-mal weniger Wasser als Rindfleisch.
+
+Hinweis: CO₂-Fußabdruck pro kg Lebensmittel (Poore & Nemecek 2018, globale Mittelwerte)
+Spalten: Lebensmittel | kg CO₂-Äq. pro kg
+- Rindfleisch | ~21 kg
+- Käse | ~11 kg
+- Geflügel | ~6 kg
+- Tofu | ~2 kg
+- Hülsenfrüchte | ~1 kg
+
+### Flächen- und Wasserverbrauch
+
+Tierhaltung ist ressourcenintensiv und im Vergleich ineffizient: Tiere verbrauchen ein Vielfaches an Kalorien in Form von Futter, als sie später als Fleisch oder Milch liefern. Das führt zu einem hohen Flächen- und Wasserbedarf.
+
+- Wasser für 1kg Rindfleisch: 15.400 L (Globaler Durchschnitt)
+- Sojaernte global: 77 % (gehen ins Tierfutter)
+- Globale Agrarfläche: >75 % (Einsparpotenzial bei weltweiter veganer Ernährung)
+
+- Tierprodukte liefern global nur rund 18 % der Kalorien, beanspruchen aber etwa 83 % der Agrarfläche.
+
+### Gesundheit und DGE-Empfehlungen
+
+Die Deutsche Gesellschaft für Ernährung (DGE) hat ihre Richtlinien 2024 grundlegend überarbeitet und empfiehlt nun eine stark pflanzenbetonte Ernährung aus Gesundheits- und Umweltgründen.
+
+Hinweis: DGE-Orientierung zur Zusammensetzung der Ernährung
+- Pflanzliche Lebensmittel: 75% (mehr als 3/4)
+- Tierische Lebensmittel: 25% (knapp 1/4)
+- Gesamt: 100%
+
+- Die DGE stuft eine gut geplante vegane Ernährung für gesunde Erwachsene unter Bedingungen als gesundheitsfördernd und 'äußerst umweltfreundlich' ein.
+
+Hinweis: Fleischkonsum: Realität vs. DGE-Empfehlung
+- Tatsächlicher Konsum (2024)
+  - Pro Kopf/Jahr: 53,2 kg
+  - Pro Woche: ~1.020 g
+- DGE-Empfehlung (Maximum)
+  - Pro Kopf/Jahr: 15–31 kg
+  - Pro Woche: 300–600 g
+- Ersparnis: Wir essen das 2- bis 3,5-Fache des von der DGE empfohlenen Maximums.
+
+### Argumente
+
+- Aussage: Für das Soja im Tofu der Veganer wird der Regenwald abgeholzt!
+  Antwort: Das ist ein Mythos. Rund 77 % der weltweiten Sojaernte gehen ins Tierfutter. Nur ein kleiner Teil wird direkt für Lebensmittel wie Tofu oder Sojamilch genutzt. Viele Hersteller für den deutschen Markt beziehen ihr Soja aus der EU, teils auch aus Nordamerika und China. Wer den Regenwald schützen will, sollte deshalb vor allem weniger Tierfutter-Soja nachfragen.
+- Aussage: Veganer haben doch alle Nährstoffmangel, besonders bei Protein und Vitamin B12.
+  Antwort: Bei ausreichender Energiezufuhr und geeigneter Kombination pflanzlicher Proteinquellen kann der Proteinbedarf gedeckt werden. Vitamin B12 muss bei veganer Ernährung tatsächlich supplementiert werden. Genau deshalb ist eine gut geplante vegane Ernährung wichtig.
+- Aussage: Der Mensch ist ein Allesfresser, wir haben schon immer Fleisch gegessen.
+  Antwort: Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf — die DGE empfiehlt maximal 300–600 g pro Woche, also 15–31 kg pro Jahr. Wir essen das 2- bis 3,5-Fache des empfohlenen Maximums. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.
+- Aussage: Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!
+  Antwort: Es stimmt, dass Mandeln relativ viel Wasser benötigen. Das macht Pflanzenmilch insgesamt aber nicht automatisch so ressourcenintensiv wie tierische Produkte. Wer Wasser- und Klimabilanz verbessern will, kann auf besonders günstige pflanzliche Alternativen wie Hafer setzen.
+- Aussage: Veganismus ist nur ein teurer Lifestyle für privilegierte Großstädter.
+  Antwort: Vegane Grundnahrungsmittel wie Reis, Kartoffeln, Nudeln, Linsen, Bohnen, Haferflocken und saisonales Gemüse gehören zu den günstigsten Lebensmitteln überhaupt. Teuer sind vor allem hochverarbeitete Ersatzprodukte, die für eine ausgewogene pflanzliche Ernährung nicht zwingend nötig sind.
+- Aussage: Wenn alle vegan werden, verlieren unsere Landwirte ihre Existenz!
+  Antwort: Ein Wandel der Ernährungsgewohnheiten passiert nicht über Nacht, sondern über Jahre und Jahrzehnte. Das gibt der Landwirtschaft Zeit, sich anzupassen. Der Anbau pflanzlicher Proteine für den direkten menschlichen Verzehr kann neue Marktchancen schaffen.
+
+### Quellen
+
+- Umweltbundesamt (UBA): Klimafreundliche Ernährung (https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/essen-trinken/klima-umweltfreundliche-ernaehrung)
+- DGE – Neubewertung der Position zu veganer Ernährung (https://www.dge.de/wissenschaft/stellungnahmen-und-fachinformationen/positionen/neubewertung-der-position-zu-veganer-ernaehrung/)
+- DGE – DGE-Ernährungskreis (https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/)
+- Oxford University (Poore & Nemecek, 2018): Reducing food’s environmental impacts (https://science.sciencemag.org/content/360/6392/987)
+- Albert Schweitzer Stiftung: Ökologische Folgen des Fleischkonsums (https://albert-schweitzer-stiftung.de/themen/umwelt)
