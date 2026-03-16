@@ -1,0 +1,51 @@
+---
+description: Verify sources and data in topic factsheet JSON files against online sources
+globs: public/data/**/*.json
+alwaysApply: false
+---
+
+# Quellenverifizierung für Topic-Factsheets
+
+Wenn der User bittet, Quellen zu verifizieren (`verify sources`, `Quellen prüfen`, `sourceRefs verifizieren`), folge diesem Verfahren:
+
+## Ablauf
+
+### 1. Analyse
+- Lies die Topic-JSON-Datei
+- Extrahiere `sources`-Array und alle `sourceRefs` aus Content-Blöcken
+- Identifiziere Quellen mit/ohne URLs und alle konkreten Zahlen/Behauptungen
+
+### 2. URL-Beschaffung
+Für jede Quelle OHNE URL:
+- Suche den Quellentitel im Web
+- Finde die korrekte URL
+- Extrahiere Key Data Points
+
+### 3. Quellenverifizierung
+Für jede Quelle MIT URL:
+- Rufe die URL ab
+- Extrahiere alle konkreten Zahlen und Datenpunkte
+- Dokumentiere was die Quelle tatsächlich sagt
+
+### 4. Abgleich
+Für jeden Content-Block mit sourceRefs, prüfe:
+- **VERIFIZIERT**: Zahl stimmt mit Quelle überein
+- **ABWEICHUNG**: Zahl weicht ab (dokumentiere Soll vs. Ist)
+- **NICHT VERIFIZIERBAR**: Quelle enthält die Info nicht (von Webseite aus)
+- **FALSCH**: Quelle widerspricht der Behauptung
+
+### 5. Bericht erstellen
+Erstelle strukturierten Bericht mit allen Ergebnissen und frage den User ob Korrekturen vorgenommen werden sollen.
+
+### 6. Korrekturen (nach Bestätigung)
+- Fehlende URLs ergänzen
+- Falsche Zahlen korrigieren (nur wenn durch Quelle eindeutig belegt)
+- Falsche sourceRefs entfernen
+- Fließtexte an korrigierte Zahlen anpassen
+- `npm run lint && npm run build` ausführen
+
+## Regeln
+- **KEINE Halluzinationen**: Nur Zahlen verwenden die tatsächlich aus Online-Quelle extrahiert wurden
+- **Konservativ**: Im Zweifel sourceRef entfernen statt falsche Daten stehen lassen
+- **Transparenz**: Jede Änderung dokumentieren
+- **Quellenintegrität**: Nie Quelle erfinden oder URL raten
