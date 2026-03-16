@@ -72,16 +72,17 @@
 
 ## klimawandel.json
 
-- Stark belastbar bleiben die Copernicus-Rekorddaten für `2024`, die UBA-Emissionsdaten, GDV-/Munich-Re-Schadensdaten, NOAA/NASA-Kernaussagen sowie die wirtschaftlichen Hauptbefunde aus PIK und BCG.
-- Korrigiert wurden vor allem überpräzise oder schwach belegte Stellen: `422,1 ppm` statt `~427 ppm`, Entfernung der `62 %`-Strommixaussage, Abschwächung bei Korallenriffen, AMOC-Kaskaden und ökonomischen ROI-Behauptungen.
-- Entfernt wurden nicht sauber abgesicherte Aussagen zu Wissenschaftsakademien, exakten historischen Emissionsrängen Deutschlands und der breiten `60- bis 270-mal`-Vulkan-Spanne.
-- Die Datei wurde insgesamt auf stärker direkt belegte Klimafakten zurückgeführt; auch hier fehlen aber weiterhin `sourceRefs`.
+- Deutlich nachgeschärft wurden die Primärquellen für die Kernblöcke: `Copernicus` jetzt mit Press-Deep-Link plus Jahresdatensatz `1850–2024`, `WMO` für den globalen CO₂-Mittelwert `2024`, `NOAA` für die Mauna-Loa-Reihe, `Munich Re` getrennt für `2024` und `2025`, `GDV` für Deutschland-/Ahrtal-Schäden, `UBA` inkl. `Data Cube` für Emissionssektoren, `IPCC WGIII` und `IEA` für den Kostenblock sowie `Oreskes`/`Cook`/`Lynas` für den Konsensblock.
+- Inhaltlich gehärtet wurden vor allem die angreifbaren Stellen: CO₂ jetzt sauber getrennt in globalen Mittelwert (`423,9 ppm`) und Keeling-Kurve am `Mauna Loa`, Extremwetter ohne schwach belegte Ahrtal-Gesamtschäden/Wiederaufbauzahlen, Kippelemente mit konservativeren Schwellen und ohne das zuvor missverständlich als Kipppunkt geführte arktische Sommereis, sowie ein neu gebauter Kostenblock ohne die problematischen `PIK`-/`BCG`-Exaktbehauptungen.
+- Zusätzliche `sourceRefs` wurden für bisher schwächer abgesicherte Blöcke ergänzt, insbesondere bei deutschen Emissionssektoren sowie im Block zum wissenschaftlichen Konsens.
+- Die Argumentantworten wurden ebenfalls nachgehärtet: weniger zugespitzte Aussagen zu Jobs, Jetstream/Kälte, China/Indien, Vulkanen und Kosten; stärkerer Fokus auf robuste Kernaussagen statt auf angreifbare Detailbehauptungen.
+- Die Datei ist damit deutlich robuster gegen typische Fehlinfo-Angriffe, weil jetzt stärker zwischen belastbaren Messwerten, offiziellen Zielgrößen, Modellpfaden und unsicheren Kipprisiken getrennt wird.
 
 ## energiewende.json
 
-- Verifiziert und korrigiert wurden vor allem die Agora-/Fraunhofer-/BNetzA-Kernzahlen: `55,3 %` erneuerbarer Stromanteil 2025 statt `62 %`, französische AKW-Verfügbarkeitsprobleme `2022`, `573` Negativpreisstunden 2025 sowie Import-/Exportmengen im Stromverbund.
-- Entschärft wurden mehrere überpräzise oder nur mittelbar belegte Stellen: Dunkelflauten jetzt qualitativ statt mit harter Jahresfrequenz, Speicherstand Ende 2025 konservativ als `>20 GWh`, Stromverbund ohne ungesicherte prozentuale EE-Anteile, Argumente zu Gas-/Uranabhängigkeit und Atommüll weniger zugespitzt.
-- Die Datei bleibt inhaltlich pro-erneuerbar, stützt sich aber jetzt stärker auf unmittelbar belastbare Systemdaten statt auf zugespitzte Exaktbehauptungen.
+- Nachgeschärft wurden die Quellen vor allem bei `AGEB`, `Lazard`, `BNetzA/SMARD`, `Eurostat`, `EDF`, `KENFO`, `BGE`, `ACER` sowie mehreren Projektquellen zu westlichen AKW-Neubauten und `SMR`.
+- Inhaltlich gehärtet wurden besonders die angreifbaren Abschnitte: Uranabhängigkeit jetzt ohne schwache Exaktanteile, LCOE in Originaleinheit `USD/MWh` statt unsauber umgerechneter Cent-Werte, westliche AKW-Neubauten mit Fokus auf Budgetüberschreitungen und lange Bauzeiten statt auf scheinpräzise Kostenstände, Dunkelflauten/Speicher/Atommüll deutlich konservativer und stärker an Primärquellen gebunden.
+- Zusätzlich wurden mehrere Argumentantworten nüchterner formuliert, damit sie weniger auf Schlagworte und stärker auf systemische Kernaussagen zu Kosten, Zeit, Abhängigkeiten, Verbundsystem und Endlagerung setzen.
 
 ## vermoegenssteuer.json
 
@@ -94,6 +95,34 @@
 - In den Topic-Dateien ohne bisherige `sourceRefs` wurden in einem Nachgang konservativ claimnahe Referenzen ergänzt, wo die Zuordnung aus den vorhandenen Quellen sauber möglich war; breit formulierte oder gemischte Blöcke blieben bewusst ohne `sourceRefs` oder wurden sprachlich entschärft.
 - Besonders stark nachgezogen wurden `buergergeld.json`, `teilzeit.json`, `migration.json`, `gleichberechtigung.json`, `vegane-ernaehrung.json`, `gesundheit.json`, `bildung.json`, `verkehrswende.json`, `klimawandel.json`, `energiewende.json`, `emobilitaet.json` und `heizung.json`.
 - `vermoegenssteuer.json` erhielt zusätzlich strengere Quellenpflege: schwächere Sekundär-/Kommentarquellen wurden zurückgedrängt, ein offizieller BVerfG-Link und `Gesetze im Internet` für das `VStG` ergänzt sowie mehrere angreifbare Exaktbehauptungen zu Milliardärs- und Erbschaftsteuerfällen entfernt oder vorsichtiger formuliert.
+
+## verkehrswende.json
+
+- Die Datei wurde erneut auf Deep Links und claimnähere Quellen umgestellt, unter anderem `KBA`, `VDV`, `UBA`-Tabellen/PDFs, `Destatis`, `BNetzA`, `BBSR`, `BMV/MiD`, `ADAC`, `FÖS`, `Fraunhofer ISI` und `Stadt Oldenburg`.
+- Gehärtet wurden vor allem die typischen Angriffsflächen: Deutschlandticket nun stärker an `VDV` gebunden und bei Preis-/Kündigungsfragen konservativer, Verkehrs-Ziellücke direkt an `UBA`-Projektionen rückgebunden, Flächenverbrauch ohne schwache Raum- und Kostenexaktheit neu aufgebaut, Gesundheitsblock ohne veraltete `~4.000 Herzinfarkte`-Zahl, soziale Teilhabe ohne überpräzise Autokosten-/Subventionsbehauptungen.
+- Auch die Argumentantworten wurden entschärft und stärker auf belastbare Kernaussagen zurückgeführt, etwa bei Reichweite, Stromnetz, Radwegen, Tempo 30, ländlicher Mobilität und Deutschlandticket.
+
+## Follow-up 3: Quellenbereinigung und weitere Härtung
+
+- Die bereits nachgeschärften Dateien `klimawandel.json`, `energiewende.json` und `verkehrswende.json` wurden zusätzlich auf tatsächlich genutzte Quellen bereinigt, damit die `sources`-Listen nur noch claimrelevante Einträge enthalten und keine Karteileichen aus früheren Bearbeitungen mitlaufen.
+
+## migration.json
+
+- Nachgeschärft wurden vor allem die Stellen, an denen die bisherige Quellenlage über die belegbaren Aussagen hinausging: Die Arbeitsmarktintegration bleibt klar mit `IAB` unterlegt, aber pauschale Aussagen zu Verdrängung, generellen Engpassberufen oder wirtschaftlichem Gesamtnutzen wurden zurückgenommen.
+- Ergänzt wurde eine belastbarere Demografie-Einordnung über `Destatis`: Selbst bei hoher Nettozuwanderung sinkt die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er Jahre deutlich, sodass der Fokus stärker auf Arbeitsmarktintegration statt auf pauschale Nutzenbehauptungen gelegt wird.
+- Zusätzlich wurden die Argumentantworten konservativer formuliert, insbesondere zu Bürgergeldbezug, Jobs, Bildung und Kosten, und enger an die tatsächlich abgedeckten `IAB`-/`Destatis`-Befunde rückgebunden.
+
+## gesundheit.json
+
+- Ersetzt wurden die schwächsten Quellen und Zuspitzungen vor allem bei Wartezeiten und psychischer Versorgung: Statt der schwer prüfbaren `Doctolib`-/`Spiegel`-Passage stützt sich die Datei jetzt auf `GKV-Spitzenverband`, `KBV` und `Zi`-Primärquellen.
+- Gehärtet wurden außerdem die Strukturblöcke zu Beitragssätzen, Pflege und Prävention: Der Beitrags-Chart startet nun erst dort, wo die Systematik vergleichbar ist; Pflege trennt sauber zwischen aktueller Zahl der Pflegebedürftigen und Pflegekräftevorausberechnung; Präventions- und Arzneimittelausgaben wurden an `Destatis`/`RKI` rückgebunden.
+- Auch mehrere Argumentantworten wurden nüchterner gefasst, etwa zu Zwei-Klassen-Medizin, Geflüchtetenversorgung, Homöopathie und Pharma, damit sie weniger auf zugespitzten Beispielen und stärker auf belegbaren Systemaussagen beruhen.
+
+## buergergeld.json
+
+- Die Datei wurde enger an Primärquellen aus `BMAS`, `Bundesregierung`, `BA` und `Gesetze im Internet` gebunden. Nullrunde, Regelsätze und Sanktionen sind jetzt zusätzlich mit den einschlägigen Regierungs- und Gesetzesquellen abgesichert.
+- Nachgeschärft wurden besonders die typischen Angriffsflächen: Lohnabstand bleibt an `WSI` gebunden und wird als Bundesdurchschnitt gekennzeichnet; Missbrauch wird ausdrücklich nicht pauschal quantifiziert; Zugangsfragen für EU-Bürger, Asylbewerber und ukrainische Geflüchtete sind nun als Rechtslage statt als zugespitzte Debattenbehauptung formuliert.
+- Ergänzend wurde die Quellenliste bereinigt, damit nur noch tatsächlich im Inhalt referenzierte Einträge verbleiben.
 
 ## Follow-up 1: Restlücken in vier Dateien
 
