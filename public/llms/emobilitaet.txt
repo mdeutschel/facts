@@ -1,0 +1,134 @@
+# E-Mobilität
+
+Fakten zu Reichweite, Akkus, Kosten & Klimabilanz | Stand: 2026-03
+
+### Fakten
+
+### Status Quo: E-Autos in Deutschland
+
+- E-Autos (BEV): 2,03 Mio. (Bestand 1. Jan 2026 (KBA))
+- Öffentl. Ladepunkte: >190.000 (davon >48.000 Schnelllader (BNetzA))
+- BEV-Marktanteil: 19,1 % (Neuzulassungen 2025)
+
+Hinweis: Marktanteil reiner E-Autos (BEV) an Neuzulassungen in Deutschland
+- 2020: 6.7 %
+- 2021: 13.6 %
+- 2022: 17.7 %
+- 2023: 18.4 %
+- 2024: 13.5 %
+- 2025: 19.1 %
+
+- Nach dem Einbruch 2024 stieg der BEV-Anteil an den Neuzulassungen 2025 wieder auf 19,1 %. Gegenüber 2024 legte der BEV-Anteil damit wieder zu.
+
+### Klimabilanz: Der CO₂-Rucksack
+
+Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ ins Leben. Dieser wird im Fahrbetrieb abgebaut, da der E-Motor deutlich effizienter ist und der Strommix immer grüner wird.
+
+- Break-Even: ~17.000 km (in Europa (ICCT 2025))
+- CO₂-Emissionen: -73 % (über Lebenszyklus (ICCT 2025))
+
+- Laut ICCT (Juli 2025) verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner.
+
+- Der CO₂-Rucksack aus der Produktion wird im Betrieb schrittweise ausgeglichen, weil E-Motoren effizienter sind und der Strommix weiter dekarbonisiert.
+
+### Kosten (TCO): Was ist unterm Strich günstiger?
+
+TCO (Total Cost of Ownership) beinhaltet Anschaffung, Wertverlust, Steuern, Versicherung, Wartung und Energiekosten (ADAC Autokostenrechner).
+
+Hinweis: ADAC-Kostenvergleich: VW ID.3 vs. VW Golf (bei 15.000 km/Jahr)
+- VW Golf 1.5 eTSI (Benzin)
+  - Listenpreis: ab ~33.400 €
+  - Gesamtkosten: ~57 Ct/km
+  - Kfz-Steuer: regelmäßig fällig
+  - Wartung/Verschleiß: höher (Ölwechsel, Bremsen, Kupplung)
+  - Monatliche Kosten: ~710 €
+- VW ID.3 Pure (Elektro)
+  - Listenpreis: ab ~33.300 €
+  - Gesamtkosten: ~47 Ct/km
+  - Kfz-Steuer: bis Ende 2030 befreit
+  - Wartung/Verschleiß: niedriger (kein Ölwechsel, weniger Bremsverschleiß)
+  - Monatliche Kosten: ~590 €
+- Ersparnis: Der ID.3 ist laut ADAC über 4 Jahre Nutzung rund 3.000–4.000 € günstiger als der Golf.
+
+- Laut ADAC ist der VW ID.3 bei ähnlichem Listenpreis in den Gesamtkosten rund 10 Cent/km günstiger als der vergleichbare VW Golf – vor allem durch niedrigere Energie-, Steuer- und Wartungskosten.
+
+### Akkus: Lebensdauer, Rohstoffe & Recycling
+
+- Akku-Garantie: 8 Jahre (oder 160.000 km, Marktstandard)
+- Mindestkapazität: 70 % (nach Garantielaufzeit)
+- BYD Blade: 250.000 km (erweiterte Garantie)
+
+Hinweis: Akku-Garantien ausgewählter Hersteller
+Spalten: Hersteller | Garantiedauer | Kapazitätsgarantie
+- VW (ID.-Familie) | 8 Jahre / 160.000 km | min. 70 %
+- Hyundai (IONIQ 5/6) | 8 Jahre / 160.000 km | min. 70 %
+- Tesla (Model 3/Y) | 8 Jahre / 192.000 km | min. 70 %
+- BYD (Blade-Batterie) | 8 Jahre / 250.000 km | min. 70 %
+
+- Rückgewinnung: 90 % (ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel)
+- Lithium: 50 % (Rückgewinnungsziel bis Ende 2027, später 80 %)
+- Nachnutzung: Second Life (Ausgemusterte Akkus werden als stationäre Speicher weitergenutzt)
+
+- Die Rohstofffrage ist real, aber Batterien sind reguliert: Hersteller reduzieren kritische Materialien, und die EU verschärft die Recyclingvorgaben deutlich.
+
+### Stromnetz: Droht der Blackout?
+
+- Mindestleistung: 4,2 kW (bei Dimmung nach § 14a EnWG)
+- Regelung: § 14a EnWG (verhindert lokale Überlastung)
+- Praxis: smart laden (Engpässe werden lokal statt pauschal gemanagt)
+
+- Neue steuerbare Ladeeinrichtungen dürfen nicht pauschal wegen lokaler Engpässe abgelehnt werden. Im Engpassfall darf der Strombezug zeitweise reduziert werden, die Bundesnetzagentur schreibt dabei aber eine Mindestleistung von 4,2 kW vor.
+
+Lokale Überlastungen werden durch intelligentes Laden gemanagt. Netzbetreiber dürfen Wallboxen im Engpassfall zeitweise dimmen, aber nicht vollständig abschalten.
+
+### E-Fuels & Wasserstoff im PKW: Ein Effizienzproblem
+
+Hinweis: Wirkungsgrad-Vergleich: Wie viel Strom kommt auf der Straße an?
+Spalten: Antrieb | Wirkungsgrad (Strom → Rad) | Strombedarf für 100 km
+- E-Auto (BEV) | ~70–80 % | ~15–20 kWh
+- Wasserstoff (FCEV) | ~25–30 % | ~40–55 kWh
+- E-Fuels (Verbrenner) | ~10–15 % | ~100–130 kWh
+
+- Für dieselbe Strecke braucht ein E-Fuel-Verbrenner etwa 5- bis 6-mal so viel Strom wie ein Batterieauto. Für Pkw ist die direkte Stromnutzung daher mit Abstand am effizientesten.
+
+E-Fuels und Wasserstoff sind wertvoll und werden vor allem in Sektoren gebraucht, die sich nur schwer direkt elektrifizieren lassen, etwa im Flugverkehr, in der Schifffahrt und in Teilen der Industrie. Im Pkw sind sie energetisch deutlich ineffizienter und meist nicht der sinnvolle Einsatz.
+
+### Brandgefahr: Brennen E-Autos häufiger?
+
+- Elektroautos brennen laut BMUKN nicht häufiger als andere Fahrzeuge.
+
+Ein brennendes Elektroauto ist laut BMUKN in thermischer Hinsicht nicht gefährlicher als ein brennendes Fahrzeug mit konventionellem Antrieb.
+
+Wenn ein E-Auto brennt, ist es oft aufwendiger zu löschen, weil der Akku gekühlt werden muss. Für Feuerwehren ist das ein bekanntes Einsatzszenario.
+
+### Argumente
+
+- Aussage: Nach 3 bis 5 Jahren ist der Akku kaputt und ein neuer kostet 15.000 Euro.
+  Antwort: Pauschal falsch. Marktstandard ist 8 Jahre oder 160.000 km Garantie auf mindestens 70 % Kapazität. BYD garantiert sogar 250.000 km. Ein Austausch nach 3–5 Jahren ist die Ausnahme, nicht die Regel. Und selbst ausgemusterte Akkus unter 80 % Kapazität werden als stationäre Speicher weitergenutzt.
+- Aussage: Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.
+  Antwort: Nein. Netzbetreiber dürfen neue steuerbare Ladeeinrichtungen nicht pauschal wegen lokaler Engpässe ablehnen. Im Engpassfall darf der Strombezug nach § 14a EnWG vorübergehend auf 4,2 kW reduziert werden; diese Mindestleistung muss laut Bundesnetzagentur immer verfügbar bleiben.
+- Aussage: Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.
+  Antwort: Falsch. Laut ICCT verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner. Der höhere CO₂-Fußabdruck der Produktion wird im Fahrbetrieb wieder ausgeglichen.
+- Aussage: Für E-Autos schuften Kinder im Kongo für Kobalt.
+  Antwort: Die Probleme im Rohstoffabbau sind real und müssen ernst genommen werden. Gleichzeitig sinkt der Einsatz kritischer Materialien bei manchen Batterietypen, LFP-Akkus kommen ohne Kobalt und Nickel aus, und die EU verschärft die Recyclingvorgaben für Batterierohstoffe deutlich.
+- Aussage: Batterien sind nur eine Brückentechnologie, Wasserstoff und E-Fuels sind die Zukunft.
+  Antwort: Die Physik spricht eher für direkte Elektrifizierung. Im Pkw ist das Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels. Diese Energieträger werden vor allem dort gebraucht, wo Batterien an Grenzen stoßen, etwa in Luftfahrt, Schifffahrt oder Teilen der Industrie.
+- Aussage: E-Autos brennen ständig und können nicht gelöscht werden.
+  Antwort: Die pauschale Behauptung stimmt nicht. Laut BMUKN brennen Elektroautos nicht häufiger als andere Fahrzeuge. Wenn ein Akku-Brand entsteht, ist das Löschen zwar aufwendiger, aber für Feuerwehren ist das ein bekanntes und beherrschbares Szenario.
+- Aussage: Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.
+  Antwort: Aktuelle E-Autos der Kompaktklasse erreichen 350–500 km WLTP-Reichweite. Eine Schnellladung von 10 auf 80 % dauert bei modernen Fahrzeugen rund 25–30 Minuten und lädt Strom für circa 200–300 km nach. Auf einer Fahrt München–Gardasee (ca. 480 km) wäre also ein Ladestopp nötig — ähnlich einer normalen Rast- oder Tankpause.
+
+### Quellen
+
+- ICCT – Life-cycle GHG emissions of passenger cars (Juli 2025) (https://theicct.org/publication/electric-cars-life-cycle-analysis-emissions-europe-jul25/)
+- ADAC – Autokostenrechner / TCO-Vergleich (https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/uebersicht/)
+- BDEW – Marke von 200.000 Ladepunkten überschritten (https://www.bdew.de/presse/marke-von-200000-ladepunkten-ueberschritten-fokus-auf-elektrofahrzeugabsatz-kommt-zum-richtigen-zeitpunkt/)
+- Bundesnetzagentur – E-Mobilität und § 14a EnWG (https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/E-Mobilitaet/start.html)
+- BMUKN – Klima und Energie bei Elektromobilität (https://www.bmuv.de/themen/verkehr/elektromobilitaet/klima-und-energie)
+- Transport & Environment (T&E) – E-Fuels (https://www.transportenvironment.org/topics/cars/efuels)
+- Fraunhofer ISI – Batterie-Recycling in Europa (https://www.isi.fraunhofer.de/de/blog/themen/batterie-update/batterie-recycling_europa_kapazitaeten_bedarf_update_2025.html)
+- Kraftfahrt-Bundesamt (KBA) – Bestand batterieelektrischer Pkw am 1. Januar 2026 (https://www.kba.de/DE/Presse/Pressemitteilungen/Allgemein/2026/pm08_2026_elektro_pkw.html)
+- Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand am 1. Januar 2026 (https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html)
+- BMUKN – Brandgefahr von Elektroautos (https://www.bmuv.de/faq/wie-gefaehrlich-sind-elektroautos-besonders-im-fall-eines-brands)
+- EU-Batterieverordnung 2023/1542 – Recyclingquoten (https://eur-lex.europa.eu/eli/reg/2023/1542/oj)
+- Zoll – Verlängerung der Steuerbefreiung für reine Elektrofahrzeuge (https://www.zoll.de/SharedDocs/Fachmeldungen/Aktuelle-Einzelmeldungen/2026/kfz_verlaengerung_steuerbefreiung_elektrofahrzeuge.html)

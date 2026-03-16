@@ -1,0 +1,204 @@
+# Klimawandel
+
+Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente | Stand: 2026-03
+
+### Fakten
+
+### Globale Temperaturentwicklung
+
+- über vorindustriellem Niveau: +1,60 °C (2024 (Copernicus))
+- globale Mitteltemperatur: 15,10 °C (2024 — neuer Rekord)
+- Monate 2024: 11 von 12 (über 1,5-°C-Schwelle)
+- wärmstes Jahrzehnt: 10 Jahre (jemals gemessen)
+
+Hinweis: Globale Erwärmung seit 2015 (°C über 1850-1900)
+- 2015: 1.136 °C
+- 2016: 1.318 °C
+- 2017: 1.223 °C
+- 2018: 1.144 °C
+- 2019: 1.28 °C
+- 2020: 1.31 °C
+- 2021: 1.155 °C
+- 2022: 1.181 °C
+- 2023: 1.482 °C
+- 2024: 1.599 °C
+
+- 2024 war das wärmste Jahr seit Beginn der Aufzeichnungen und das erste Kalenderjahr mit mehr als 1,5 °C über dem vorindustriellen Niveau (1850-1900).
+
+Das Pariser Abkommen bezieht sich auf Mittelwerte über zwei bis drei Jahrzehnte, nicht auf ein einzelnes Jahr. Dennoch zeigt 2024 klar die Richtung: Die globale Erwärmung setzt sich weiter fort und erreichte erneut einen historischen Rekordwert.
+
+### CO₂-Konzentration in der Atmosphäre
+
+- CO₂-Konzentration: 423,9 ppm (globaler Durchschnitt 2024)
+- vorindustrielles Niveau: 280 ppm (vor 1750)
+- Anstieg: gut 50 % (seit vorindustriellem Niveau)
+- schneller als Natur: 250× (laut NASA vs. Ende der letzten Eiszeit)
+
+Hinweis: CO₂-Konzentration am Mauna Loa (Keeling-Kurve)
+- 1960: 316.91 ppm
+- 1970: 325.68 ppm
+- 1980: 338.76 ppm
+- 1990: 354.45 ppm
+- 2000: 369.71 ppm
+- 2010: 390.1 ppm
+- 2015: 401.01 ppm
+- 2020: 414.21 ppm
+- 2023: 421.08 ppm
+- 2024: 424.61 ppm
+
+- Die CO₂-Konzentration ist heute höher als jemals in den letzten 800.000 Jahren. Der heutige CO₂-Anstieg verläuft laut NASA etwa 250-mal schneller als natürliche Zunahmen nach der letzten Eiszeit.
+
+### Extremwetter: Häufiger, teurer, tödlicher
+
+- Globale Schäden 2024: 320 Mrd. $ (Munich Re)
+- Globale Schäden 2025: 224 Mrd. $ (Munich Re)
+- Deutschland 2024: 5,7 Mrd. € (Naturgefahren gesamt (GDV))
+- Ahrtal 2021: 8,75 Mrd. € (versicherter Gesamtschaden (GDV))
+
+Hinweis: Versicherte Katastrophenschäden weltweit (Mrd. USD)
+- 2024: 140 Mrd. $
+- 2025: 108 Mrd. $
+
+- 2024 und 2025 lagen die versicherten Naturschäden weltweit jeweils über 100 Mrd. USD. Gleichzeitig entfielen 2024/2025 rund 92-93 % der Gesamtschäden und 97 % der versicherten Schäden auf Wetterkatastrophen.
+
+Hinweis: Extremwetter-Schäden in Deutschland
+Spalten: Ereignis / Jahr | Versicherte Schäden | Einordnung
+- Ahrtal-Flut 2021 | 8,75 Mrd. € | Folgenschwerste Naturkatastrophe in Deutschland für die Versicherungswirtschaft
+- Hochwasser/Starkregen 2024 | 2,6 Mrd. € | Deutschlandweit versicherte Schäden
+- Alle Naturgefahren 2024 | 5,7 Mrd. € | Sturm, Hagel, Starkregen und Überschwemmungen
+- Alle Naturgefahren 2025 | 2,6 Mrd. € | deutlich unter 2024, aber weiter relevante Schäden
+
+Das Ahrtal-Hochwasser 2021 war für die Versicherungswirtschaft mit 206.000 Schäden und 8,75 Mrd. Euro versichertem Gesamtschaden die folgenschwerste Naturkatastrophe in Deutschland.
+
+### Deutschlands Emissionen: Sektoren und Ziele
+
+- CO₂-Äquivalente 2024: 649 Mio. t (UBA)
+- seit 1990: -48,2 % (Gesamtreduktion)
+- Ziel 2030: -65 % (vs. 1990)
+- Klimaneutralität: 2045 (gesetzliches Ziel)
+
+Hinweis: Emissionen nach Sektoren 2024 (Mio. t CO₂-Äq.)
+- Energie: 188 Mio. t
+- Industrie: 149 Mio. t
+- Verkehr: 144 Mio. t
+- Gebäude: 100 Mio. t
+- Landwirtschaft: 61 Mio. t
+
+Hinweis: Emissionsentwicklung nach Sektoren (2023 → 2024)
+Spalten: Sektor | 2024 (Mio. t) | Veränderung | Anmerkung
+- Energiewirtschaft | 188 | -7,4 % | Kohlerückgang, EE-Ausbau
+- Industrie | 149 | +0,1 % | Nahezu stagnierend
+- Verkehr | 144 | -0,2 % | Sorgenkind: fast keine Reduktion
+- Gebäude | 100 | -2,3 % | mildere Witterung, Wärmepumpenbestand +10 %
+- Landwirtschaft | 61 | Rückgang ggü. 2023 | weniger Dünger, geringere Emissionen aus Böden
+
+- Der Verkehrssektor ist das Sorgenkind: -0,2 % Reduktion 2024. Ohne drastische Maßnahmen wird das Sektorziel klar verfehlt.
+
+- Die Energiewirtschaft trägt am stärksten zur Reduktion bei (-7,4 %), vor allem durch den Kohlerückgang.
+
+Hinweis: CO₂-Emissionen pro Kopf im internationalen Vergleich (2024, in Tonnen)
+- USA: 14.2 t/Kopf
+- China: 8.9 t/Kopf
+- Deutschland: 6.8 t/Kopf
+- Welt-Ø: 4.7 t/Kopf
+- Indien: 2 t/Kopf
+
+- Deutschland liegt mit 6,8 Tonnen CO₂ pro Kopf immer noch 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Das relativiert das Argument 'Deutschland allein kann nichts bewirken'.
+
+### Kippelemente: Wenn das Klima den Point of no Return überschreitet
+
+Kippelemente sind Teile des Erdsystems, die ab bestimmten Schwellenwerten in selbstverstärkende Veränderungen übergehen können, oft mit langfristig nur schwer umkehrbaren Folgen.
+
+Hinweis: Wichtige Kippelemente und ihre Schwellen
+Spalten: Kippelement | Schwelle (°C) | Folgen
+- Warmwasser-Korallenriffe | ~1,5 °C (1,0-2,0) | Sehr frühes Kipprisiko; schon heute stark unter Druck
+- Grönland-Eisschild | ~1,5 °C (0,8-3,0) | Langfristig meterweiser Meeresspiegelanstieg
+- Westantarktischer Eisschild | ~1,5 °C (1,0-3,0) | Langfristig meterweiser Meeresspiegelanstieg
+- Abruptes Permafrostauftauen | ~1,5 °C (1,0-2,3) | Zusätzliche CO₂- und Methanemissionen
+- AMOC | ~4,0 °C (1,4-8,0) | Hohe Unsicherheit; große Risiken für Zirkulation und Niederschläge
+- Amazonas-Regenwald | ~3,5 °C (2,0-6,0) | Niedriger bei fortgesetzter Entwaldung
+
+- Bei 1,5 °C werden mehrere Kipprisiken wahrscheinlich oder zumindest nicht mehr vernachlässigbar. Warmwasser-Korallenriffe gehören zu den frühesten und am besten belegten Kipprisiken.
+
+- Für die AMOC gibt es beobachtungsbasierte Frühwarnsignale eines Resilienzverlusts. Ob und wann ein Kipppunkt erreicht wird, bleibt aber hoch unsicher.
+
+Das Gefährliche: Kippelemente können sich gegenseitig destabilisieren und Kaskadeneffekte auslösen.
+
+### Was kostet Handeln — was kostet Nichtstun?
+
+Hinweis: Frühes Handeln vs. spätes Aufschieben
+- Frühes Handeln
+  - IPCC: <2-°C-Pfad: ~1,7 Bio. USD/Jahr
+  - IPCC: 1,5 °C im Energiesektor: ~2,4 Bio. USD/Jahr
+  - IEA: Clean-Energy-Investitionen: 4,5 Bio. USD/Jahr bis Anfang der 2030er
+  - Robuster Befund: Investieren ist teuer, Aufschieben verteuert es weiter
+- Spätes Aufschieben
+  - Extremwetterschäden 2024: 320 Mrd. USD global (Munich Re)
+  - Deutschland 2024: 5,7 Mrd. € Naturgefahrenschäden (GDV)
+  - Ahrtal 2021 allein: 8,75 Mrd. € versichert
+  - IPCC-Warnung: Verzögerung erhöht Lock-ins und Folgekosten
+- Ersparnis: Der robuste ökonomische Kernbefund lautet: Verzögertes Handeln erhöht Risiken und Zusatzkosten.
+
+- Der IPCC hält fest: Globale Mitigationsinvestitionen müssen bis 2030 je nach Sektor und Region um ein Mehrfaches wachsen; für viele Bereiche liegt der Bedarf beim 3- bis 6-Fachen heutiger Größenordnungen.
+
+- Die IEA veranschlagt im aktualisierten Net-Zero-Roadmap-Pfad weltweite Clean-Energy-Investitionen von 4,5 Bio. USD pro Jahr bis Anfang der 2030er.
+
+### Was sagt die Wissenschaft?
+
+- der Fachpublikationen: >99 % (bestätigen menschengemachten Klimawandel)
+- Publikationen: 88.125 (in der Lynas-Metaanalyse 2021)
+- Abstracts mit Position: 97 % (in Cook et al. 2013)
+- IPCC AR6: unequivocal (= eindeutig menschengemacht)
+
+Hinweis: Entwicklung des wissenschaftlichen Konsenses
+- 2004: Oreskes-Studie (928 Abstracts: kein Widerspruch zum Konsens)
+- 2013: Cook et al. (97 % der Abstracts mit Position stützen den Konsens)
+- 2021: Lynas et al. (>99 % Konsens unter 88.125 Publikationen)
+- 2023: IPCC AR6 ("Unequivocally" — eindeutig menschengemacht)
+
+- Der IPCC AR6 (2023) stellt unmissverständlich fest: Menschliche Aktivitäten haben die globale Erwärmung 'eindeutig' (unequivocally) verursacht.
+
+### Argumente
+
+- Aussage: Das Klima hat sich schon immer verändert!
+  Antwort: Stimmt, das Klima hat sich schon immer verändert. Entscheidend ist aber: Der heutige CO₂-Anstieg und die aktuelle Erwärmung verlaufen viel schneller als die natürlichen Veränderungen nach der letzten Eiszeit. Das erschwert die Anpassung von Ökosystemen und Gesellschaft.
+- Aussage: Deutschland allein kann das Klima nicht retten!
+  Antwort: Deutschland allein entscheidet das Klima nicht. Aber mit 6,8 Tonnen CO₂ pro Kopf liegt Deutschland 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Historisch gehört Deutschland zu den größten Emittenten. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.
+- Aussage: Klimaschutz kostet Arbeitsplätze!
+  Antwort: Klimaschutz verschiebt Beschäftigung stärker, als dass er pauschal Jobs vernichtet. Weltweit arbeiten laut IRENA bereits 16,6 Mio. Menschen in den Erneuerbaren. In Deutschland sind Energiewende-Berufe in den letzten Jahren stark gewachsen. Entscheidend ist, den Strukturwandel mit Qualifizierung und regionaler Unterstützung zu begleiten.
+- Aussage: Die Wissenschaftler sind sich doch gar nicht einig!
+  Antwort: Doch. Metaanalysen kommen auf einen wissenschaftlichen Konsens von über 99 %, und der IPCC hält den menschlichen Einfluss auf die Erwärmung für eindeutig.
+- Aussage: Es ist doch gar nicht wärmer geworden — letzter Winter war kalt!
+  Antwort: Wetter ist nicht Klima. Ein kalter Winter in Deutschland widerlegt den globalen Trend nicht: 2024 war weltweit das wärmste Jahr seit Beginn der Aufzeichnungen. In Europa werden Kälteperioden insgesamt seltener, auch wenn einzelne kalte Winter weiter vorkommen können.
+- Aussage: CO₂ ist doch gut für Pflanzen!
+  Antwort: Mehr CO₂ kann Pflanzen unter kontrollierten Bedingungen beim Wachstum helfen. Im Freiland begrenzen aber Wasser, Nährstoffe, Hitze und Extremwetter diesen Effekt. Für Landwirtschaft und Ökosysteme ist das deshalb kein Entwarnungssignal.
+- Aussage: China und Indien sind doch viel schlimmer!
+  Antwort: China stößt heute absolut sehr viel CO₂ aus, Indien pro Kopf aber deutlich weniger als Deutschland. Für faire Vergleiche zählen neben aktuellen Emissionen auch Pro-Kopf-Werte, historische Beiträge und der Handel. Daraus folgt nicht, dass Deutschland nichts tun müsste.
+- Aussage: Vulkane stoßen mehr CO₂ aus als Menschen!
+  Antwort: Nein. Menschliche Aktivitäten emittieren laut NOAA mindestens etwa 60-mal mehr CO₂ pro Jahr als alle Vulkane zusammen.
+- Aussage: Klimaschutz können wir uns nicht leisten!
+  Antwort: Belastbar ist vor allem: Klimaschutz erfordert hohe Investitionen, aber verzögertes Handeln erhöht Risiken und Zusatzkosten. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad bis Anfang der 2030er weltweit rund 4,5 Billionen US-Dollar pro Jahr für Clean Energy.
+
+### Quellen
+
+- Copernicus Climate Change Service (C3S): 2024 first year above 1.5°C above pre-industrial level (https://climate.copernicus.eu/copernicus-2024-first-year-exceed-15degc-above-pre-industrial-level)
+- NOAA GML / Scripps: Annual mean CO₂ at Mauna Loa (Keeling Curve data) (https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt)
+- IPCC AR6 Synthesis Report: Summary for Policymakers Headline Statements (https://www.ipcc.ch/report/ar6/syr/resources/spm-headline-statements)
+- Munich Re: Natural disaster figures 2024 (https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2025/natural-disaster-figures-2024.html)
+- Umweltbundesamt (UBA): Finale Emissionsdaten 2024 (https://www.umweltbundesamt.de/themen/finale-daten-fuer-2024-emissionen-um-drei-prozent)
+- Lynas et al. (2021): Greater than 99% consensus on human caused climate change (https://iopscience.iop.org/article/10.1088/1748-9326/ac2966)
+- GDV: Naturgefahrenstatistik 2024 — Hochwasserschäden Deutschland (https://www.gdv.de/gdv/medien/medieninformationen/gdv-naturgefahrenstatistik-2024-hochwasserschaeden-mehr-als-verdoppelt-188734)
+- Armstrong McKay et al. (2022): Exceeding 1.5°C could trigger multiple climate tipping points (Science) (https://www.science.org/doi/full/10.1126/science.abn7950)
+- NASA Climate: Evidence for Climate Change (https://climate.nasa.gov/evidence/)
+- Global Tipping Points Report 2023 (University of Exeter) (https://report-2023.global-tipping-points.org/)
+- Copernicus C3S: Annual global temperature data 1850-2024 (CSV/ZIP) (https://climate.copernicus.eu/sites/default/files/2025-01/GCH2024_PR_Fig1_timeseries_annual_global_temperature_anomalies_ref1850-1900_data.zip)
+- WMO: Carbon dioxide levels increase by record amount to new highs in 2024 (https://wmo.int/news/media-centre/carbon-dioxide-levels-increase-record-amount-new-highs-2024)
+- Munich Re: Natural disaster figures 2025 (https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-2025.html)
+- GDV: Flutkatastrophe von 2021 - 7,5 Milliarden Euro an über 200.000 Versicherte ausbezahlt (https://www.gdv.de/gdv/medien/medieninformationen/flutkatastrophe-ahrtal-schadenregulierung-180752)
+- GDV: Naturgefahrenbilanz 2025 - deutlich weniger Schäden durch Wetterextreme (https://www.gdv.de/gdv/medien/medieninformationen/gdv-naturgefahrenbilanz-2025-deutlich-weniger-schaeden-durch-wetterextreme--195410)
+- UBA: Treibhausgasminderungsziele Deutschlands (https://www.umweltbundesamt.de/daten/klima/treibhausgasminderungsziele-deutschlands)
+- UBA Data Cube: Entwicklung der Treibhausgasemissionen in Deutschland (https://datacube.uba.de/vis?df%5Bds%5D=ds-dc-release&df%5Bid%5D=DF_CLIMATE_EMISSIONS_GHG_TRENDS&df%5Bag%5D=UBA&df%5Bvs%5D=2026.0)
+- IPCC AR6 WGIII Chapter 15: Investment and Finance (https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-15/)
+- IEA: Net Zero Roadmap 2023 update (https://www.iea.org/news/the-path-to-limiting-global-warming-to-1-5-c-has-narrowed-but-clean-energy-growth-is-keeping-it-open)
+- Oreskes (2004): Beyond the Ivory Tower - The Scientific Consensus on Climate Change (https://www.science.org/doi/10.1126/science.1103618)
+- Cook et al. (2013): Quantifying the consensus on anthropogenic global warming (https://iopscience.iop.org/article/10.1088/1748-9326/8/2/024024)

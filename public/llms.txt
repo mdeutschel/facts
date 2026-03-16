@@ -5,19 +5,19 @@
 
 ## Themen
 
-- [Heizungswechsel 2026](https://fakten-stammtisch.de/thema/heizung): Wärmepumpe vs. Öl- & Gasheizung
-- [E-Mobilität](https://fakten-stammtisch.de/thema/emobilitaet): Fakten zu Reichweite, Akkus, Kosten & Klimabilanz
-- [Energiewende & Atomkraft](https://fakten-stammtisch.de/thema/energiewende): Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit
-- [Klimawandel](https://fakten-stammtisch.de/thema/klimawandel): Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente
-- [Verkehrswende](https://fakten-stammtisch.de/thema/verkehrswende): Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen
-- [Bürgergeld 2026](https://fakten-stammtisch.de/thema/buergergeld): Fakten zu Regelsätzen, Sanktionen & Lohnabstand
-- [Migration & Asyl](https://fakten-stammtisch.de/thema/migration): Fakten zu Asylzahlen, Arbeitsmarkt & Integration
-- [Teilzeit & Arbeitsmoral](https://fakten-stammtisch.de/thema/teilzeit): Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.
-- [Vegane Ernährung & Fleischkonsum](https://fakten-stammtisch.de/thema/vegane-ernaehrung): Auswirkungen auf Klima, Umwelt und Gesundheit
-- [Vermögens- und Erbschaftssteuer](https://fakten-stammtisch.de/thema/vermoegenssteuer): Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland
-- [Gleichberechtigung](https://fakten-stammtisch.de/thema/gleichberechtigung): Fakten zu Pay Gap, Care-Arbeit und Repräsentation
-- [Deutsches Bildungssystem](https://fakten-stammtisch.de/thema/bildung): Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung
-- [Deutsches Gesundheitssystem](https://fakten-stammtisch.de/thema/gesundheit): Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention
+- [Heizungswechsel 2026](https://fakten-stammtisch.de/llms/heizung.txt): Wärmepumpe vs. Öl- & Gasheizung
+- [E-Mobilität](https://fakten-stammtisch.de/llms/emobilitaet.txt): Fakten zu Reichweite, Akkus, Kosten & Klimabilanz
+- [Energiewende & Atomkraft](https://fakten-stammtisch.de/llms/energiewende.txt): Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit
+- [Klimawandel](https://fakten-stammtisch.de/llms/klimawandel.txt): Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente
+- [Verkehrswende](https://fakten-stammtisch.de/llms/verkehrswende.txt): Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen
+- [Bürgergeld 2026](https://fakten-stammtisch.de/llms/buergergeld.txt): Fakten zu Regelsätzen, Sanktionen & Lohnabstand
+- [Migration & Asyl](https://fakten-stammtisch.de/llms/migration.txt): Fakten zu Asylzahlen, Arbeitsmarkt & Integration
+- [Teilzeit & Arbeitsmoral](https://fakten-stammtisch.de/llms/teilzeit.txt): Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.
+- [Vegane Ernährung & Fleischkonsum](https://fakten-stammtisch.de/llms/vegane-ernaehrung.txt): Auswirkungen auf Klima, Umwelt und Gesundheit
+- [Vermögens- und Erbschaftssteuer](https://fakten-stammtisch.de/llms/vermoegenssteuer.txt): Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland
+- [Gleichberechtigung](https://fakten-stammtisch.de/llms/gleichberechtigung.txt): Fakten zu Pay Gap, Care-Arbeit und Repräsentation
+- [Deutsches Bildungssystem](https://fakten-stammtisch.de/llms/bildung.txt): Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung
+- [Deutsches Gesundheitssystem](https://fakten-stammtisch.de/llms/gesundheit.txt): Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention
 
 ## Vollstaendiger Inhalt
 

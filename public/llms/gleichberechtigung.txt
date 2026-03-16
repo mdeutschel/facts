@@ -1,0 +1,84 @@
+# Gleichberechtigung
+
+Fakten zu Bezahlung, Care-Arbeit und Repräsentation | Stand: 2026-03
+
+### Fakten
+
+### Gender Pay Gap
+
+Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten und dem bereinigten Wert.
+
+- Unbereinigter Pay Gap: 16 % (Durchschnittlicher Verdienstunterschied (2025))
+- Bereinigter Pay Gap: 6 % (Bei gleicher Qualifikation und Tätigkeit)
+
+Hinweis: Durchschnittlicher Bruttostundenverdienst (2025)
+- Männer
+  - Stundenlohn: 27,05 €
+- Frauen
+  - Stundenlohn: 22,81 €
+
+Hinweis: Unbereinigter Gender Pay Gap in Deutschland
+- 2006: 23 %
+- 2008: 23 %
+- 2010: 22 %
+- 2012: 23 %
+- 2014: 22 %
+- 2016: 21 %
+- 2018: 20 %
+- 2020: 18 %
+- 2022: 18 %
+- 2024: 16 %
+- 2025: 16 %
+
+- Bei einer Vollzeitstelle mit 38 Wochenstunden ergibt der unbereinigte Pay Gap von 4,24 €/Stunde einen Gehaltsunterschied von rund 8.400 € brutto pro Jahr. In Ostdeutschland ist der Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).
+
+### Unbezahlte Care-Arbeit & Child Penalty
+
+Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt).
+
+- Gender Care Gap: 43,4 % (Frauen leisten deutlich mehr unbezahlte Arbeit)
+- Tägliche Differenz: +76 Min. (Mehrarbeit von Frauen pro Tag)
+- Child Penalty (ZEW): −30.000 € (Einkommensverlust Mütter im 4. Jahr nach 1. Geburt)
+
+Hinweis: Unbezahlte Arbeit pro Woche (in Stunden)
+- Frauen: 29 h
+- Männer: 20 h
+
+- Laut ZEW verdienen Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger als vergleichbare Frauen ohne Kinder. Dieser 'Child Penalty' wirkt langfristig auf Karriere, Vermögen und Rente.
+
+### Repräsentation & Führung
+
+Frauen sind in politischen und wirtschaftlichen Führungspositionen in Deutschland weiterhin unterrepräsentiert.
+
+Hinweis: Frauenanteil in Führungspositionen (2024)
+- Deutschland: 0 bis 29.1 %
+- EU-Durchschnitt: 0 bis 35.2 %
+
+- Im 21. Deutschen Bundestag (gewählt 2025) liegt der Frauenanteil bei 32,4 %. Das ist ein Rückgang gegenüber der vorherigen Legislaturperiode (34,8 %).
+
+### Argumente
+
+- Aussage: Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.
+  Antwort: Branche und Beruf erklären rund 18 % der Verdienstlücke. Selbst wenn weitere Faktoren wie Qualifikation, Tätigkeit, Erwerbsbiografie und Teilzeit berücksichtigt werden, bleibt 2025 ein bereinigter Gender Pay Gap von 6 %.
+- Aussage: Frauen wollen gar keine Führungspositionen übernehmen, weil ihnen die Familie wichtiger ist.
+  Antwort: Die Unterrepräsentation liegt nicht einfach am mangelnden Willen. In Deutschland sind nur 29,1 % der Führungskräfte weiblich, deutlich weniger als im EU-Durchschnitt (35,2 %). Gleichzeitig erschwert die ungleiche Verteilung von Care-Arbeit vielen Frauen den beruflichen Aufstieg.
+- Aussage: Die Gleichberechtigung ist doch längst erreicht, Frauen haben heute genau die gleichen Möglichkeiten wie Männer.
+  Antwort: Gesetzlich sind Frauen gleichgestellt, faktisch gibt es weiterhin große Lücken. Frauen leisten täglich 76 Minuten mehr unbezahlte Care-Arbeit (Gender Care Gap von 43,4 %). Auch in der politischen Repräsentation gibt es Rückschritte: Im aktuellen Bundestag (2025) ist der Frauenanteil auf 32,4 % gesunken. Echte Gleichberechtigung erfordert auch wirtschaftliche Unabhängigkeit und gleiche Repräsentation.
+- Aussage: Männer arbeiten dafür mehr in Vollzeit und machen die harten Überstunden.
+  Antwort: Männer leisten zwar mehr bezahlte Erwerbsarbeit, aber wenn man bezahlte und unbezahlte Arbeit zusammenrechnet, ist die Gesamtarbeitszeit ähnlich hoch. Personen ab 18 leisten laut Destatis 2022 insgesamt ähnlich viel Arbeit, Frauen aber etwas mehr (45:33 Std./Woche) als Männer (44:23 Std./Woche), weil unbezahlte Arbeit die geringere Erwerbsarbeit übersteigt.
+- Aussage: Eine Frauenquote führt nur dazu, dass unqualifizierte Frauen bevorzugt werden und fähige Männer das Nachsehen haben.
+  Antwort: Quoten sind ein Instrument gegen dauerhafte Unterrepräsentation. Dass Frauen in Führungspositionen in Deutschland deutlich unterrepräsentiert sind, ist belegt. Die eigentliche Debatte ist deshalb nicht, ob es ein Problem gibt, sondern welche Instrumente es wirksam und fair verringern.
+- Aussage: Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.
+  Antwort: In konkreten Euro: Männer bekommen im Schnitt ~1.346 € Altersrente pro Monat, Frauen nur ~903 € — das sind 443 € weniger, jeden Monat. Auf ein Jahr gerechnet fehlen Frauen über 5.300 € Rente. Dahinter stehen niedrigere Löhne, häufigere Teilzeit und Erwerbsunterbrechungen durch Care-Arbeit. Frauen ab 65 sind zudem häufiger armutsgefährdet (2023: 20,8 % vs. 15,9 % bei Männern).
+- Aussage: Kinder sind eine freiwillige Entscheidung, dann muss man halt mit den Konsequenzen leben.
+  Antwort: Kindererziehung ist keine rein private Randfrage, sondern hat große Folgen für Erwerbsbiografien. Eine aktuelle ZEW-Studie zeigt, dass Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger verdienen als gleichaltrige Frauen ohne Kinder. Solche Einbußen wirken langfristig auf Karriere und Rente.
+
+### Quellen
+
+- Destatis: Gender Pay Gap 2025 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_453_621.html)
+- Destatis: Frauen in Führungspositionen (2024/2025) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/11/PD25_393_13.html)
+- BMFSFJ / Destatis: Gender Care Gap (https://www.bmfsfj.de/bmfsfj/aktuelles/alle-meldungen/statistisches-bundesamt-veroeffentlicht-neue-zahlen-zum-gender-care-gap-236794)
+- Bundestag: Abgeordneten-Statistik 21. Bundestag (https://www.bundestag.de/dokumente/textarchiv/2025/kw09-wahlergebnis-statistik-1055550)
+- Destatis – Erwerbsarbeit und unbezahlte Arbeit nach Geschlecht (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Tabellen/erwerbsarbeit-unbezahlte-arbeit-geschlecht-zve.html)
+- Destatis – Gender Pension Gap (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-gender-pension-gap.html)
+- ZEW – Einkommensverlust nach Geburt (https://www.zew.de/presse/pressearchiv/einkommensverlust-nach-geburt-weit-hoeher-als-bisher-gedacht)

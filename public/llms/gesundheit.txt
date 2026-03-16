@@ -1,0 +1,140 @@
+# Deutsches Gesundheitssystem
+
+Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention | Stand: 2026-03
+
+### Fakten
+
+### Was kostet unser Gesundheitssystem?
+
+Deutschland gehört weltweit zu den Ländern mit den höchsten Gesundheitsausgaben.
+
+Hinweis: Gesundheitsausgaben pro Kopf 2024 (kaufkraftbereinigt, USD)
+- USA: 14880 USD
+- Schweiz: 10200 USD
+- Deutschland: 9600 USD
+- Norwegen: 9400 USD
+- OECD-Schnitt: 6000 USD
+
+- GKV-Gesamtbeitrag: 17,5 % (14,6 % + 2,9 % Zusatzbeitrag (2026))
+- GKV-Ausgaben 2025: 346,6 Mrd. € (Prognose GKV-Schätzerkreis)
+- BIP-Anteil Gesundheit: ~12 % (OECD-Schnitt: 9,3 %)
+
+Hinweis: GKV-Gesamtbeitragssatz seit 2015 (allgemeiner Beitrag + durchschnittlicher Zusatzbeitrag)
+- 2015: 15.5 %
+- 2018: 15.6 %
+- 2020: 15.7 %
+- 2022: 15.9 %
+- 2024: 16.3 %
+- 2025: 17.1 %
+- 2026: 17.5 %
+
+Hinweis: GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag)
+Spalten: Position | Mindestlohn (~2.220 € brutto) | Median (~3.000 € brutto)
+- AN-Anteil GKV (8,75 %) | 194 € | 263 €
+- AG-Anteil GKV (8,75 %) | 194 € | 263 €
+- GKV gesamt | 388 € | 525 €
+- + Pflegeversicherung AN | ~40 € | ~53 €
+- Abzug vom Brutto (AN gesamt) | ~234 € | ~316 €
+- verbleibend netto (ca.) | ~1.570 € | ~2.050 €
+
+### Zwei-Klassen-Medizin: GKV vs. PKV
+
+Ungleichheiten zeigen sich besonders bei Facharztterminen. Für viele gesetzlich Versicherte bleiben Wartezeiten und Terminvergabe ein spürbares Problem.
+
+- Zu lange Facharzt-Wartezeit: 30 % (so bewerten GKV-Versicherte ihre Wartezeit)
+- Mehr als 30 Tage: 25 % (so lange warten GKV-Versicherte auf einen Facharzttermin)
+- Versichertenstruktur: 89 % / 11 % (GKV- bzw. PKV-Anteil an der Bevölkerung)
+
+- Viele gesetzlich Versicherte berichten von spürbaren Nachteilen bei Facharztterminen. Das stützt die Diagnose, dass der Zugang zur Versorgung nicht für alle gleich leicht ist.
+
+Rund 89 % der Bevölkerung sind gesetzlich und etwa 11 % privat versichert. Unterschiede bei Terminvergabe und Zugangswegen prägen deshalb die Debatte über Zwei-Klassen-Medizin stark.
+
+### Pflegenotstand: Die stille Katastrophe
+
+Ende 2023 lebten 5,7 Millionen Pflegebedürftige in Deutschland – Tendenz stark steigend. Die Zahl der Pflegekräfte hält mit dem wachsenden Bedarf nicht Schritt.
+
+Hinweis: Prognose fehlende Pflegekräfte (Destatis, günstige Variante)
+- 2023: 5,7 Mio. (Pflegebedürftige)
+- 2034: 90.000 fehlend
+- 2049: 280.000 fehlend
+
+- Im ungünstigsten Szenario (Status quo) fehlen bis 2049 sogar bis zu 690.000 Pflegekräfte. Der Bedarf steigt gegenüber 2019 um rund ein Drittel (+33 %) auf 2,15 Millionen Erwerbstätige in der Pflege.
+
+Kernproblem ist nicht nur die absolute Zahl, sondern das Missverhältnis: Steigende Nachfrage durch die alternde Babyboomer-Generation trifft auf sinkende Nachwuchszahlen. Viele Pflegekräfte arbeiten in Teilzeit oder verlassen den Beruf wegen Überlastung.
+
+### Krankenhausreform: Zu viele Betten, zu wenig Personal
+
+Deutschland hatte 2024 rund 1.841 Krankenhäuser und 7,6 Krankenhausbetten pro 1.000 Einwohner bei einer Bettenauslastung von 72 %.
+
+Hinweis: Krankenhausbetten pro 1.000 Einwohner (2023)
+- Bulgarien: 8.2
+- Deutschland: 7.6
+- Österreich: 6.7
+- Polen: 6
+- Frankreich: 5.5
+- Niederlande: 2.4
+- Dänemark: 2.4
+
+Die Krankenhausreform wurde 2026 angepasst: Für ländliche Kliniken gelten mehr Ausnahmen und Kooperationsmöglichkeiten, die Vorhaltevergütung wurde um ein Jahr verschoben und die volle Finanzwirksamkeit ist erst ab 2030 vorgesehen. Der ursprünglich vorgesehene GKV-Anteil von 25 Milliarden Euro am Transformationsfonds wird nun aus Sondervermögen getragen.
+
+### Psychische Gesundheit: Versorgungsnotstand
+
+Die Versorgungslage in Psychotherapie und Psychiatrie bleibt angespannt. Das Zi meldet für das 1. Halbjahr 2025 erneut steigende Fallzahlen in diesem Bereich.
+
+- Fallzahl-Zuwachs: +3,4 % (Psychotherapie und Psychiatrie, 1. Halbjahr 2025 vs. Vorjahr)
+- Versorgungsdruck: hoch (die psychische Versorgung hinkt dem Bedarf weiter hinterher)
+
+- Auch Terminservicestellen lösen das Problem nur teilweise: 2024 wurde weniger als die Hälfte der eingegangenen Suchanfragen fristgerecht vermittelt.
+
+Besonders in psychischen und psychiatrischen Versorgungsbereichen bleibt der Bedarf hoch. Das Zi berichtet für das 1. Halbjahr 2025 erneut steigende Fallzahlen.
+
+### Prävention: Das Stiefkind des Systems
+
+Das deutsche Gesundheitssystem konzentriert große Teile seiner Ausgaben auf Behandlung. Die Ausgaben für Prävention sind im Vergleich zu den Gesamtausgaben gering.
+
+Hinweis: Gesundheitsausgaben nach Leistungsart 2023
+- Pflege & Therapie: 155.1% (155,1 Mrd. EUR)
+- Ärztliche Leistungen: 118.3% (118,3 Mrd. EUR)
+- Arzneimittel: 77.9% (77,9 Mrd. EUR)
+- Prävention: 24.8% (24,8 Mrd. EUR)
+- Gesamt: Gesamtausgaben: 500,8 Mrd. EUR
+
+- Nur 4,9 % der Gesundheitsausgaben (24,8 Mrd. von 500,8 Mrd. €) flossen 2023 in Prävention — 298 € je Einwohner. Der GKV-Anteil für Präventionsaktivitäten lag 2024 bei nur 686 Mio. €, also weniger als 0,2 % der GKV-Ausgaben.
+
+Dabei zeigt die Forschung: Jeder in Prävention investierte Euro spart ein Vielfaches an Behandlungskosten. Insbesondere bei Volkskrankheiten wie Diabetes, Herz-Kreislauf-Erkrankungen und psychischen Leiden wäre frühe Prävention wirtschaftlich und menschlich sinnvoller.
+
+### Argumente
+
+- Aussage: Wir haben das beste Gesundheitssystem der Welt
+  Antwort: Deutschland hat hohe Gesundheitsausgaben und gute Kapazitäten, aber auch belegte Zugangs-, Pflege- und Strukturprobleme. Deshalb spricht wenig dafür, pauschal vom besten Gesundheitssystem der Welt zu sprechen.
+- Aussage: Die Krankenkassenbeiträge sind viel zu hoch
+  Antwort: Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts und wird paritätisch geteilt. Das eigentliche Problem ist weniger die Existenz des Beitrags als die Effizienz des Systems: Deutschland gibt sehr viel aus, hat strukturelle Überkapazitäten im Krankenhausbereich und investiert vergleichsweise wenig in Prävention.
+- Aussage: Jeder bekommt in Deutschland die medizinische Versorgung, die er braucht
+  Antwort: Formal ist der Zugang breit, aber in der Praxis gibt es spürbare Versorgungslücken. Viele gesetzlich Versicherte berichten über lange Wartezeiten auf Facharzttermine, hinzu kommen Engpässe in Pflege und psychischer Versorgung sowie regionale Unterschiede.
+- Aussage: Ausländer belasten unser Gesundheitssystem
+  Antwort: Die Finanzierungsprobleme des Systems sind vor allem strukturell: hohe Ausgaben, alternde Bevölkerung und Versorgungsengpässe. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang bei akuten Erkrankungen, Schmerzen, Schwangerschaft, Impfungen und medizinisch gebotenen Vorsorgen; erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert.
+- Aussage: Psychische Krankheiten sind nur Einbildung / Modeerscheinung
+  Antwort: Psychische Erkrankungen sind medizinisch genauso real wie körperliche. Im ersten Halbjahr 2025 stiegen die Fallzahlen in Psychotherapie und Psychiatrie weiter um 3,4 %, in der Kinder- und Jugendpsychiatrie sogar um 5,7 %. Die Versorgung hinkt dem Bedarf seit Jahren hinterher.
+- Aussage: Homöopathie/Alternativmedizin sollte von der Kasse bezahlt werden
+  Antwort: Für Homöopathie gibt es keine robuste, reproduzierbare Evidenz eines Nutzens über Placebo hinaus. Öffentliche Mittel sollten deshalb evidenzbasiert eingesetzt werden, gerade in einem System mit klaren Engpässen etwa bei Pflege, Psychotherapie und Prävention.
+- Aussage: Es gibt zu viele Krankenhäuser
+  Antwort: Da ist tatsächlich etwas dran: Deutschland hat viele Krankenhausbetten und eine vergleichsweise niedrige Bettenauslastung. Aber 'weniger' heißt nicht automatisch 'besser'. Es braucht Spezialisierung, Vernetzung und gleichzeitig Erreichbarkeit – besonders in ländlichen Regionen. Genau diesen Spagat versucht die Krankenhausreform.
+- Aussage: Die Pharmaindustrie macht uns absichtlich krank
+  Antwort: Arzneimittel unterliegen in der EU einem regulierten Zulassungs- und Bewertungsverfahren. Berechtigte Kritik betrifft eher Preise, Transparenz und Fehlanreize als eine belegte Absicht, Menschen krank zu machen.
+
+### Quellen
+
+- OECD – Health at a Glance 2025 (https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/health-expenditure-per-capita_affe6b0a.html)
+- GKV-Schätzerkreis – Prognose 2025/2026 (https://www.bundesamtsozialesicherung.de/de/service/newsroom/detail/gkv-schaetzerkreis-schaetzt-die-finanziellen-rahmenbedingungen-der-gesetzlichen-krankenversicherung-fuer-die-jahre-2025-und-2026/)
+- Bundesgesundheitsministerium – Krankenhausreform (https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-krankenhausreformanpassungsgesetz-pm-06-03-2026)
+- Statistisches Bundesamt – Pflegekräfte-Prognose bis 2049 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html)
+- Statistisches Bundesamt – Krankenhausstatistik 2024 (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/Tabellen/eckzahlen-krankenhaeuser.html)
+- Zi-Trendreport Psychotherapie 2025 (https://www.monitor-versorgungsforschung.de/news/zi-trendreport-fuer-das-1-halbjahr-2025-weiter-steigende-fallzahlen-in-psychotherapie-und-psychiatrie/)
+- RKI – Gesundheitsberichterstattung Präventionsausgaben (https://www.gbe.rki.de/DE/Themen/Rahmenbedingungen/PolitischeRahmenbedingungen/GesetzlicheGrundlagen/Praeventionsausgaben/praeventionsausgaben_node.html)
+- GKV-Spitzenverband – Präventionsbericht 2025 (https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp)
+- BMG - Beitragssätze der gesetzlichen Krankenversicherung (https://www.bundesgesundheitsministerium.de/beitraege)
+- GKV-Spitzenverband - Versichertenbefragung 2025 zu Wartezeiten (https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2181888.jsp)
+- KBV - Versichertenstruktur in Deutschland (https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/versichertenstruktur)
+- Destatis - 5,7 Millionen Pflegebedürftige Ende 2023 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html)
+- KBV - Statistik Terminservicestellen 2024 (https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/statistik-terminservicestellen)
+- Destatis - Gesundheitsausgaben nach Leistungsarten 2023 (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Gesundheitsausgaben/Tabellen/leistungsarten.html)

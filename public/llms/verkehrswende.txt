@@ -1,0 +1,192 @@
+# Verkehrswende
+
+Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen | Stand: 2026-03
+
+### Fakten
+
+### E-Mobilität vs. Verbrenner
+
+- E-Autos (BEV): 2,03 Mio. (Bestand 1. Jan 2026)
+- Verbrenner: 42,7 Mio. (Benzin + Diesel, 1. Jan 2026)
+- BEV-Anteil: 19,1% (an Neuzulassungen 2025)
+
+Hinweis: Gesamtwirkungsgrad strombasierter Pkw-Antriebe
+- Elektroauto (BEV)
+  - Gesamtwirkungsgrad: rund 62 %
+  - Strombedarf je km: deutlich geringer
+- Wasserstoffauto (FCEV)
+  - Gesamtwirkungsgrad: rund 28 %
+  - Strombedarf je km: 2- bis 3-mal höher
+
+- Für Pkw sind E-Fuels und Wasserstoff deutlich ineffizienter als direkte Stromnutzung im E-Auto. Das UBA sieht ihre Stärken vor allem dort, wo Batterien an Grenzen stoßen, etwa im Luft- und Seeverkehr.
+
+Auch beim heutigen Strommix sind E-Autos laut UBA über den Lebenszyklus etwa 40 % klimafreundlicher als Benziner; mit weiter wachsendem Ökostrom steigt der Vorteil.
+
+Zum 1. Januar 2026 waren in Deutschland 2.034.260 batterieelektrische Pkw zugelassen.
+
+### ÖPNV & Deutschlandticket
+
+- D-Ticket Nutzer: 14,6 Mio. (Stand Ende 2025)
+- Fahrgäste ÖPNV: 9,86 Mrd. (Gesamtjahr 2025)
+- Kündigungsquote: < 6 % (nach Preiserhöhung)
+
+Hinweis: Preisentwicklung Deutschlandticket
+- Jan 2025: 58 € (bundeseinheitlicher Preis)
+- Jan 2026: 63 € (erneute Erhöhung)
+
+- Nach der Preiserhöhung 2026 blieb die Kündigungsquote laut VDV bei 5,75 %. Auch nach der Erhöhung 2025 gab es laut VDV keine Kündigungswelle.
+
+Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland.
+
+### Klimaziele im Verkehrssektor
+
+- Der Verkehrssektor verfehlt seine Klimaziele deutlich. Laut UBA-Projektionen 2024 droht bis 2030 eine kumulierte Minderungslücke von 180 Millionen Tonnen CO2-Äquivalenten.
+
+Hinweis: CO2-Emissionen nach Verkehrsmittel (g pro Personenkilometer)
+- Fahrrad: 0 g CO2/Pkm
+- E-Bike: 3 g CO2/Pkm
+- Fernbus: 31 g CO2/Pkm
+- Bahn (Fern): 31 g CO2/Pkm
+- ÖPNV (Nah): 75 g CO2/Pkm
+- PKW: 166 g CO2/Pkm
+- Flugzeug: 238 g CO2/Pkm
+
+- Ein Pkw verursacht pro Personenkilometer deutlich höhere Emissionen als Fernbus, Bahn, Fahrrad oder E-Bike.
+
+Die UBA-Quartalsindikatoren für 2025 deuteten zeitweise auf höheren Kraftstoffverbrauch hin. Der Verkehrssektor bleibt damit der Bereich mit dem größten Nachholbedarf beim Klimaschutz.
+
+### Flächenverbrauch & Stadtplanung
+
+- 1 Pkw-Stellplatz: 12 m² (am Straßenrand)
+- steht ein Auto: ~23 Std. (durchschnittlich pro Tag ungenutzt)
+- Fahrräder: 8–10 (passen auf einen Pkw-Stellplatz)
+
+- Ein einziger Pkw-Stellplatz (ca. 12 m²) bindet Fläche für 8–10 Fahrradabstellplätze oder einen kleinen Straßenbaum mit Grünfläche. Autos stehen im Schnitt rund 23 Stunden am Tag ungenutzt.
+
+- Laut einer MDPI-Studie (2024) liegen die externen Kosten eines durchschnittlichen Pkw bei rund 5.000 € pro Jahr — u. a. für Unfälle, Infrastruktur, Lärm und Luftverschmutzung. Diese Kosten trägt die Allgemeinheit, nicht der Autofahrer.
+
+Verkehrswende bedeutet nicht Autofeindschaft, sondern eine gerechtere Verteilung des öffentlichen Raums zwischen Gehen, Radfahren, ÖPNV, Lieferverkehr und Autos — und ehrliche Kostentransparenz.
+
+### Radverkehr & aktive Mobilität
+
+- Radanteil (Wege): 11,2 % (MiD 2023, deutschlandweit)
+- Fahrräder in DE: ~80 Mio. (MiD 2023)
+- davon elektrisch: 1/4 (MiD 2023)
+
+Hinweis: Radverkehrsanteil am Modal Split (Alltagswege) in Deutschland
+- 2002: 9.3 %
+- 2008: 9.9 %
+- 2017: 10.9 %
+- 2023: 11.2 %
+
+- Ein Drittel aller Fahrrad-Personenkilometer werden mittlerweile mit E-Bikes gefahren.
+
+- Oldenburg zeigt, was mit guter Radinfrastruktur möglich ist: Im Binnenverkehr werden dort bereits 47 % der Wege mit dem Fahrrad zurückgelegt.
+
+Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen.
+
+### Gesundheit & Verkehrssicherheit
+
+- Verkehrstote (2025): 2.814 (vorläufig, Destatis)
+- Verletzte (2025): 366.000 (vorläufig, Destatis)
+- Menschen: 21,9 Mio. (>55 dB(A) ganztägig)
+
+- Straßenverkehr ist die wichtigste Lärmquelle. Nach der UBA-Lärmkartierung 2022 waren ganztägig rund 21,9 Millionen Menschen Verkehrslärm über 55 dB(A) ausgesetzt.
+
+- 2024 war überhöhte oder nicht angepasste Geschwindigkeit die häufigste Ursache tödlicher Verkehrsunfälle. 30 % der Verkehrstoten starben bei solchen Unfällen.
+
+- Bei den 6- bis 14-Jährigen verunglückten 2024 die meisten Kinder mit dem Fahrrad (38 %), aber auch häufig im Auto (29 %) und zu Fuß (20 %).
+
+Die WHO empfiehlt für Straßenverkehr maximal 53 dB(A) ganztags. Das UBA empfiehlt Tempo 30 als innerörtliche Regelgeschwindigkeit, weil damit Lärm und Unfallfolgen sinken können.
+
+### Soziale Teilhabe & Gerechtigkeit
+
+- Verkehrswende heißt nicht Autoverbot, sondern echte Wahlfreiheit zwischen verschiedenen Verkehrsmitteln.
+
+- Haushalte ohne Auto: 20 % (bundesweit (MiD 2023))
+- MIV-Anteil im ländlichen Raum: > 60 % (an den Wegen laut MiD)
+- Bevölkerung mit gut erreichbarer Haltestelle: 90 % (aber große regionale Unterschiede)
+
+Hinweis: Pendlerkosten-Vergleich: 17 km einfach, 220 Arbeitstage/Jahr
+Spalten: Verkehrsmittel | Kosten/Monat | Kosten/Jahr
+- PKW (Kleinwagen, ADAC-Vollkosten) | ~290 € | ~3.500 €
+- Deutschlandticket (ÖPNV) | 63 € | 756 €
+- E-Bike (Anschaffung + Strom + Wartung) | ~40 € | ~480 €
+- Fahrrad (Wartung/Abschreibung) | ~20 € | ~240 €
+
+- Bei einer typischen Pendelstrecke von 17 km kostet das Auto rund 3.500 €/Jahr (ADAC-Vollkosten). Wer auf Deutschlandticket + Fahrrad umsteigt, spart über 2.500 € im Jahr.
+
+Hinweis: Mobilitätskosten im Vergleich (monatlich)
+- Eigener Kleinstwagen
+  - ADAC-Gesamtkosten: ab ~350 €/Monat
+  - davon Wertverlust: ~100–150 €
+  - davon Kraftstoff: ~80–120 €
+  - davon Versicherung + Steuer: ~60–80 €
+  - Jährlich: ab ~4.200 €
+- D-Ticket + Fahrrad + Carsharing
+  - Deutschlandticket: 63 €/Monat
+  - Fahrrad (Abschreibung/Wartung): ~20 €/Monat
+  - Carsharing (gelegentlich): ~50 €/Monat
+  - Jährlich: ~1.600 €
+- Ersparnis: Ersparnis ohne eigenes Auto: rund 2.600 €/Jahr bei diesem Beispiel.
+
+- Schon der günstigste Kleinstwagen kostet laut ADAC ab rund 350 € im Monat — weit mehr, als die meisten Menschen für Sprit allein rechnen. Wer Alternativen hat, kann erheblich sparen.
+
+- Laut FÖS begünstigt das Dienstwagenprivileg vor allem höhere Einkommen und setzt im Verkehrssystem klimapolitisch problematische Anreize.
+
+Rund zwei Drittel aller Neuwagen werden gewerblich zugelassen. Wie Dienstwagen besteuert werden, beeinflusst deshalb direkt das Tempo der Antriebswende.
+
+In vielen ländlichen Regionen ist ein alltagstauglicher ÖPNV schwerer erreichbar als in Städten. Genau dort braucht die Verkehrswende bessere Takte, Rufbusse und sichere Anschlüsse statt bloß Appelle.
+
+### Argumente
+
+- Aussage: E-Autos sind doch gar nicht umweltfreundlicher, wenn der Strom aus Kohle kommt!
+  Antwort: Auch mit dem heutigen deutschen Strommix sind E-Autos laut UBA über den Lebenszyklus klar klimafreundlicher als Benziner. 2025 deckten Erneuerbare bereits 55,3 % des Stromverbrauchs. Mit jedem weiteren Ausbau von Wind und Solar wächst der Klimavorteil batterieelektrischer Fahrzeuge, während Verbrenner auf fossile Kraftstoffe angewiesen bleiben.
+- Aussage: Wir sollten einfach E-Fuels tanken, dann können wir unsere Verbrenner behalten.
+  Antwort: E-Fuels sind für Pkw der ineffiziente Umweg. Das UBA hält direkte Stromnutzung im E-Auto für deutlich effizienter und sieht strombasierte Kraftstoffe vor allem dort, wo Batterien an Grenzen stoßen - etwa im Luft- und Seeverkehr. Für den Massen-Pkw-Verkehr wären E-Fuels deshalb teuer und verschwenderisch.
+- Aussage: Das Deutschlandticket ist ein Milliardengrab und bringt niemanden dazu, das Auto stehen zu lassen.
+  Antwort: Mit rund 14,6 Millionen Nutzenden Ende 2025 ist das Deutschlandticket stark verbreitet. Laut VDV blieb selbst nach der Preiserhöhung 2026 die Kündigungsquote bei 5,75 %. Das Ticket vereinfacht den Tarifdschungel massiv und erleichtert vielen Menschen den Zugang zum ÖPNV.
+- Aussage: Die Reichweite von E-Autos ist viel zu gering für den Alltag.
+  Antwort: Die durchschnittliche Alltagsmobilität liegt deutlich unter typischen E-Auto-Reichweiten. Für den Alltag reichen moderne E-Autos deshalb oft aus. Zudem wächst die öffentliche Ladeinfrastruktur weiter, und viele Ladevorgänge finden zu Hause oder am Arbeitsplatz statt.
+- Aussage: Das Stromnetz bricht zusammen, wenn alle elektrisch fahren.
+  Antwort: Das Stromnetz muss für mehr E-Mobilität ausgebaut und lokal intelligent gesteuert werden. Genau dafür gibt es inzwischen Regeln wie § 14a EnWG. Die Herausforderung heißt Lastmanagement und Netzausbau, nicht flächendeckender Blackout.
+- Aussage: Auf dem Land gibt es keine Ladesäulen, E-Autos funktionieren nur in der Stadt!
+  Antwort: Von fehlender Ladeinfrastruktur kann bundesweit keine Rede mehr sein: Anfang Februar 2026 waren bei der Bundesnetzagentur 196.353 öffentliche Ladepunkte gemeldet. Regionale Lücken gibt es weiter, aber das Netz wächst stark. Außerdem finden viele Ladevorgänge zu Hause oder am Arbeitsplatz statt.
+- Aussage: Autofreie Innenstädte töten den Einzelhandel!
+  Antwort: Ein genereller Umsatzeinbruch durch autoarme Innenstädte ist empirisch nicht gut belegt. Eine RIFS-Auswertung zeigt für zwei untersuchte Einkaufsstraßen: Nur 6,6 % der Kundschaft kam mit dem Auto, aber 91 % des Umsatzes stammten von Menschen, die zu Fuß, mit dem Rad oder dem ÖPNV unterwegs waren. Attraktive, gut erreichbare Zentren helfen dem lokalen Handel eher, als dass sie ihm schaden.
+- Aussage: Radwege sind Geldverschwendung — die nutzt doch kaum jemand!
+  Antwort: Radwege sind keine Geldverschwendung, wenn sie sicher geplant und an Alltagspfade angeschlossen werden. Gute Infrastruktur erhöht nachweislich die Nutzung und macht Mobilität günstiger, gesünder und platzsparender. Besonders E-Bikes erweitern das Potenzial weit über die Innenstadt hinaus.
+- Aussage: Tempo 30 in der Stadt ist völlig übertrieben und bringt nichts.
+  Antwort: Tempo 30 senkt die Unfallschwere und reduziert Straßenlärm. Das UBA empfiehlt deshalb Tempo 30 als innerörtliche Regelgeschwindigkeit. Es geht nicht um Schikane, sondern um Sicherheit und Lebensqualität.
+- Aussage: Deutschland ist ein Autoland — ohne Auto kommst du nicht zur Arbeit!
+  Antwort: Deutschland ist stark aufs Auto ausgerichtet, aber nicht überall gleich. In vielen Städten leben viele Haushalte längst ohne eigenes Auto. Das Kernproblem ist oft nicht fehlende Bereitschaft zur Veränderung, sondern das Fehlen guter Alternativen.
+- Aussage: SUVs sind sicherer für meine Familie, deshalb brauche ich einen.
+  Antwort: SUVs mögen für die Insassen subjektiv sicher wirken, erhöhen für Fußgänger aber oft das Risiko schwerer Verletzungen. IIHS-Analysen zeigen, dass Fahrzeuge mit hohen und steilen Fronten deutlich häufiger tödliche Fußgängerunfälle verursachen als niedrigere, schrägere Fahrzeuge. Mehr Sicherheit entsteht vor allem durch niedrigere Geschwindigkeiten und sichere Infrastruktur - nicht durch immer massivere Fahrzeuge.
+- Aussage: Verkehrswende ist doch nur ein Großstadtthema — auf dem Land braucht man das Auto!
+  Antwort: Gerade auf dem Land ist die Abhängigkeit vom Auto oft am größten. Deshalb braucht es dort bessere Bus- und Bahnangebote, Rufbusse, sichere Radwege und bezahlbare Alternativen. Verkehrswende heißt nicht Auto verbieten, sondern Wahlfreiheit schaffen.
+
+### Quellen
+
+- Umweltbundesamt (UBA): Klimavorteil für E-Autos bestätigt (https://www.umweltbundesamt.de/presse/pressemitteilungen/klimavorteil-fuer-e-autos-bestaetigt)
+- Umweltbundesamt (UBA): Wasserstoff im Verkehr - Häufig gestellte Fragen (https://www.umweltbundesamt.de/themen/verkehr/kraftstoffe-antriebe/wasserstoff-im-verkehr-haeufig-gestellte-fragen)
+- Stadt Oldenburg: Fahrrad baut Vorsprung als Verkehrsmittel Nummer 1 aus (https://www.oldenburg.de/metanavigation/presse/pressemitteilung/news/fahrrad-baut-vorsprung-als-verkehrsmittel-nummer-1-aus.html)
+- Fraunhofer ISI: Potenziale des Radverkehrs für den Klimaschutz (https://www.isi.fraunhofer.de/de/blog/2024/adfc-radverkehrsanteil-potenzialabschaetzungen.html)
+- Statistisches Bundesamt (Destatis): Unfallbilanz 2025 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_062_46241.html)
+- Statistisches Bundesamt (Destatis): 27.260 Kinder im Jahr 2024 bei Verkehrsunfällen verunglückt (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_N043_46241.html)
+- ADAC: Autokosten-Check - Das sind die günstigsten Kleinstwagen (https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/guenstigste-kleinstwagen-autokosten/)
+- Umweltbundesamt (UBA): Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen (https://www.umweltbundesamt.de/publikationen/analyse-der-umweltbilanz-von-kraftfahrzeugen)
+- KBA: Fahrzeugbestand am 1. Januar 2026 (https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html)
+- KBA: Alternative Antriebe 2025 (https://www.kba.de/DE/Presse/Pressemitteilungen/AlternativeAntriebe/2026/pm03_2026_Antriebe_12_25_komplett.html)
+- VDV: Deutschlandticket bleibt stabil nach Preisanpassung (27.01.2026) (https://www.vdv.de/presse.aspx?id=05b80d88-b010-4841-986a-fef4ae9c1873&mode=detail)
+- UBA: Treibhausgas-Projektionen 2024 - Ergebnisse kompakt (https://www.umweltbundesamt.de/publikationen/treibhausgas-projektionen-2024-ergebnisse-kompakt)
+- UBA: Klimaemissionen sinken 2023 um 10,1 Prozent (https://www.umweltbundesamt.de/presse/pressemitteilungen/klimaemissionen-sinken-2023-um-101-prozent)
+- UBA: Emissionen des Personenverkehrs 2024 (Tabelle/PDF) (https://www.umweltbundesamt.de/system/files/medien/366/bilder/dateien/vtv_2024_pv_tab_pdf.pdf)
+- UBA: Quartalsbezogene Indikatoren Q1-Q3 2025 (https://www.umweltbundesamt.de/system/files/document/Q1-Q3%202025%20quartalsbezogene%20Indikatoren%20UBA_0.pdf)
+- UBA: Parkraummanagement für eine nachhaltige urbane Mobilität (https://www.umweltbundesamt.de/publikationen/parkraummanagement-fuer-eine-nachhaltige-urbane)
+- BMV: Mobilität in Deutschland 2023 - Überblick (https://www.bmv.de/SharedDocs/DE/Artikel/G/mobilitaet-in-deutschland.html)
+- MiD 2023: Veröffentlichungen (https://www.mobilitaet-in-deutschland.de/publikationen2023.html)
+- UBA: Belastung der Bevölkerung durch Verkehrslärm (https://www.umweltbundesamt.de/daten/umweltindikatoren/indikator-belastung-der-bevoelkerung-durch)
+- Destatis: Unfallursachen 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_248_46241.html)
+- UBA empfiehlt Tempo 30 als innerörtliche Regelgeschwindigkeit (https://www.umweltbundesamt.de/themen/uba-empfiehlt-tempo-30-als-inneroertliche)
+- BBSR: ÖV-Erreichbarkeit in Deutschland (https://www.bbsr.bund.de/BBSR/DE/presse/presseinformationen/2023/oev-erreichbarkeit.html)
+- FÖS: Dienstwagenprivileg (https://foes.de/de-de/publikationen/publikation?tx_foespublications_listpublications%5Bpublication%5D=340&tx_foespublications_listpublications%5Baction%5D=show&tx_foespublications_listpublications%5Bcontroller%5D=Publication&cHash=9f763bdd4ac1008645f0f4e8df2f1c40)
