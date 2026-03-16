@@ -10,7 +10,7 @@
     "5,7 Mio. Pflegebedürftige Ende 2023",
     "8 Argumente"
   ],
-  "sourceNote": "Basierend auf Daten von OECD, BAS, Destatis, GKV-Spitzenverband, BMG, Zi und weiteren Studien/Analysen (Stand Anfang 2026).",
+  "sourceNote": "Basierend auf Daten von OECD, Destatis, BAS, BMG, GKV-Spitzenverband, KBV, Zi und weiteren Primärquellen (Stand Anfang 2026).",
   "sections": [
     {
       "id": "gesundheitsausgaben",
@@ -24,45 +24,103 @@
           "type": "bar_chart",
           "caption": "Gesundheitsausgaben pro Kopf 2024 (kaufkraftbereinigt, USD)",
           "items": [
-            { "label": "USA", "value": 14880 },
-            { "label": "Schweiz", "value": 10200 },
-            { "label": "Deutschland", "value": 9600, "highlight": true },
-            { "label": "Norwegen", "value": 9400 },
-            { "label": "OECD-Schnitt", "value": 6000 }
+            {
+              "label": "USA",
+              "value": 14880
+            },
+            {
+              "label": "Schweiz",
+              "value": 10200
+            },
+            {
+              "label": "Deutschland",
+              "value": 9600,
+              "highlight": true
+            },
+            {
+              "label": "Norwegen",
+              "value": 9400
+            },
+            {
+              "label": "OECD-Schnitt",
+              "value": 6000
+            }
           ],
           "unit": "USD",
-          "sourceRefs": ["oecd-health-at-a-glance-2025"]
+          "sourceRefs": [
+            "oecd-health-at-a-glance-2025"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "label": "GKV-Gesamtbeitrag", "value": "17,5 %", "sublabel": "14,6 % + 2,9 % Zusatzbeitrag (2026)" },
-            { "label": "GKV-Ausgaben 2025", "value": "346,6 Mrd. €", "sublabel": "Prognose GKV-Schätzerkreis" },
-            { "label": "BIP-Anteil Gesundheit", "value": "~12 %", "sublabel": "OECD-Schnitt: 9,3 %" }
+            {
+              "label": "GKV-Gesamtbeitrag",
+              "value": "17,5 %",
+              "sublabel": "14,6 % + 2,9 % Zusatzbeitrag (2026)"
+            },
+            {
+              "label": "GKV-Ausgaben 2025",
+              "value": "346,6 Mrd. €",
+              "sublabel": "Prognose GKV-Schätzerkreis"
+            },
+            {
+              "label": "BIP-Anteil Gesundheit",
+              "value": "~12 %",
+              "sublabel": "OECD-Schnitt: 9,3 %"
+            }
           ],
-          "sourceRefs": ["oecd-health-at-a-glance-2025", "gkv-schaetzerkreis-prognose-2025-2026"]
+          "sourceRefs": [
+            "oecd-health-at-a-glance-2025",
+            "gkv-schaetzerkreis-prognose-2025-2026"
+          ]
         },
         {
           "type": "line_chart",
-          "caption": "GKV-Gesamtbeitragssatz (allgemeiner Beitrag + Zusatzbeitrag)",
+          "caption": "GKV-Gesamtbeitragssatz seit 2015 (allgemeiner Beitrag + durchschnittlicher Zusatzbeitrag)",
           "unit": "%",
           "color": "#e53935",
           "items": [
-            { "label": "2010", "value": 14.9 },
-            { "label": "2012", "value": 15.5 },
-            { "label": "2015", "value": 15.5 },
-            { "label": "2018", "value": 15.6 },
-            { "label": "2020", "value": 15.7 },
-            { "label": "2022", "value": 15.9 },
-            { "label": "2024", "value": 16.3 },
-            { "label": "2025", "value": 17.1 },
-            { "label": "2026", "value": 17.5 }
+            {
+              "label": "2015",
+              "value": 15.5
+            },
+            {
+              "label": "2018",
+              "value": 15.6
+            },
+            {
+              "label": "2020",
+              "value": 15.7
+            },
+            {
+              "label": "2022",
+              "value": 15.9
+            },
+            {
+              "label": "2024",
+              "value": 16.3
+            },
+            {
+              "label": "2025",
+              "value": 17.1
+            },
+            {
+              "label": "2026",
+              "value": 17.5
+            }
+          ],
+          "sourceRefs": [
+            "bmg-beitraege",
+            "gkv-schaetzerkreis-prognose-2025-2026"
           ]
         },
         {
           "type": "text",
           "text": "Arbeitnehmer und Arbeitgeber teilen sich den Beitrag paritätisch. Bei 3.000 Euro Brutto entspräche das zusammen rechnerisch rund 525 Euro monatlich für die Krankenversicherung.",
-          "sourceRefs": ["gkv-schaetzerkreis-prognose-2025-2026"]
+          "sourceRefs": [
+            "gkv-schaetzerkreis-prognose-2025-2026"
+          ]
         }
       ]
     },
@@ -72,39 +130,49 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Unterschiede zwischen gesetzlich und privat Versicherten sind bei Wartezeiten auf Facharzttermine besonders deutlich messbar.",
-          "sourceRefs": ["spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv"]
+          "text": "Ungleichheiten zeigen sich besonders bei Facharztterminen. Für viele gesetzlich Versicherte bleiben Wartezeiten und Terminvergabe ein spürbares Problem.",
+          "sourceRefs": [
+            "gkv-versichertenbefragung-2025"
+          ]
         },
         {
-          "type": "comparison",
-          "caption": "Durchschnittliche Wartezeiten auf Facharzttermine (Doctolib-Daten, 2025)",
+          "type": "stat_grid",
           "items": [
             {
-              "title": "Gesetzlich versichert (GKV)",
-              "color": "#e53935",
-              "rows": [
-                { "label": "Lungenfacharzt", "value": "129 Tage" }
-              ]
+              "label": "Zu lange Facharzt-Wartezeit",
+              "value": "30 %",
+              "sublabel": "so bewerten GKV-Versicherte ihre Wartezeit"
             },
             {
-              "title": "Privat versichert (PKV)",
-              "color": "#43a047",
-              "rows": [
-                { "label": "Lungenfacharzt", "value": "35 Tage" }
-              ]
+              "label": "Mehr als 30 Tage",
+              "value": "25 %",
+              "sublabel": "so lange warten GKV-Versicherte auf einen Facharzttermin"
+            },
+            {
+              "label": "Versichertenstruktur",
+              "value": "89 % / 11 %",
+              "sublabel": "GKV- bzw. PKV-Anteil an der Bevölkerung"
             }
           ],
-          "sourceRefs": ["spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv"]
+          "sourceRefs": [
+            "gkv-versichertenbefragung-2025",
+            "kbv-versichertenstruktur"
+          ]
         },
         {
           "type": "fact",
-          "text": "Kassenpatienten warten bei Lungenfachärzten bis zu viermal länger als Privatpatienten.",
+          "text": "Viele gesetzlich Versicherte berichten von spürbaren Nachteilen bei Facharztterminen. Das stützt die Diagnose, dass der Zugang zur Versorgung nicht für alle gleich leicht ist.",
           "highlight": true,
-          "sourceRefs": ["spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv"]
+          "sourceRefs": [
+            "gkv-versichertenbefragung-2025"
+          ]
         },
         {
           "type": "text",
-          "text": "Der GKV-Spitzenverband spricht von systematischer 'Diskriminierung' gesetzlich Versicherter. Etwa 90 % der Bevölkerung sind gesetzlich versichert, nur 10 % privat."
+          "text": "Rund 89 % der Bevölkerung sind gesetzlich und etwa 11 % privat versichert. Unterschiede bei Terminvergabe und Zugangswegen prägen deshalb die Debatte über Zwei-Klassen-Medizin stark.",
+          "sourceRefs": [
+            "kbv-versichertenstruktur"
+          ]
         }
       ]
     },
@@ -115,23 +183,42 @@
         {
           "type": "text",
           "text": "Ende 2023 lebten 5,7 Millionen Pflegebedürftige in Deutschland – Tendenz stark steigend. Die Zahl der Pflegekräfte hält mit dem wachsenden Bedarf nicht Schritt.",
-          "sourceRefs": ["statistisches-bundesamt-pflegekraefte-prognose"]
+          "sourceRefs": [
+            "destatis-pflegebeduerftige-2023",
+            "statistisches-bundesamt-pflegekraefte-prognose"
+          ]
         },
         {
           "type": "timeline",
           "caption": "Prognose fehlende Pflegekräfte (Destatis, günstige Variante)",
           "steps": [
-            { "label": "2023", "value": "5,7 Mio.", "sublabel": "Pflegebedürftige" },
-            { "label": "2034", "value": "90.000 fehlend", "highlight": true },
-            { "label": "2049", "value": "280.000 fehlend" }
+            {
+              "label": "2023",
+              "value": "5,7 Mio.",
+              "sublabel": "Pflegebedürftige"
+            },
+            {
+              "label": "2034",
+              "value": "90.000 fehlend",
+              "highlight": true
+            },
+            {
+              "label": "2049",
+              "value": "280.000 fehlend"
+            }
           ],
-          "sourceRefs": ["statistisches-bundesamt-pflegekraefte-prognose"]
+          "sourceRefs": [
+            "destatis-pflegebeduerftige-2023",
+            "statistisches-bundesamt-pflegekraefte-prognose"
+          ]
         },
         {
           "type": "fact",
           "text": "Im ungünstigsten Szenario (Status quo) fehlen bis 2049 sogar bis zu 690.000 Pflegekräfte. Der Bedarf steigt gegenüber 2019 um rund ein Drittel (+33 %) auf 2,15 Millionen Erwerbstätige in der Pflege.",
           "highlight": true,
-          "sourceRefs": ["statistisches-bundesamt-pflegekraefte-prognose"]
+          "sourceRefs": [
+            "statistisches-bundesamt-pflegekraefte-prognose"
+          ]
         },
         {
           "type": "text",
@@ -146,26 +233,54 @@
         {
           "type": "text",
           "text": "Deutschland hatte 2024 rund 1.841 Krankenhäuser und 7,6 Krankenhausbetten pro 1.000 Einwohner bei einer Bettenauslastung von 72 %.",
-          "sourceRefs": ["statistisches-bundesamt-krankenhausstatistik"]
+          "sourceRefs": [
+            "statistisches-bundesamt-krankenhausstatistik"
+          ]
         },
         {
           "type": "bar_chart",
           "caption": "Krankenhausbetten pro 1.000 Einwohner (2023)",
           "items": [
-            { "label": "Bulgarien", "value": 8.2 },
-            { "label": "Deutschland", "value": 7.6, "highlight": true },
-            { "label": "Österreich", "value": 6.7 },
-            { "label": "Polen", "value": 6.0 },
-            { "label": "Frankreich", "value": 5.5 },
-            { "label": "Niederlande", "value": 2.4 },
-            { "label": "Dänemark", "value": 2.4 }
+            {
+              "label": "Bulgarien",
+              "value": 8.2
+            },
+            {
+              "label": "Deutschland",
+              "value": 7.6,
+              "highlight": true
+            },
+            {
+              "label": "Österreich",
+              "value": 6.7
+            },
+            {
+              "label": "Polen",
+              "value": 6.0
+            },
+            {
+              "label": "Frankreich",
+              "value": 5.5
+            },
+            {
+              "label": "Niederlande",
+              "value": 2.4
+            },
+            {
+              "label": "Dänemark",
+              "value": 2.4
+            }
           ],
-          "sourceRefs": ["oecd-health-at-a-glance-2025"]
+          "sourceRefs": [
+            "oecd-health-at-a-glance-2025"
+          ]
         },
         {
           "type": "text",
           "text": "Die Krankenhausreform wurde 2026 angepasst: Für ländliche Kliniken gelten mehr Ausnahmen und Kooperationsmöglichkeiten, die Vorhaltevergütung wurde um ein Jahr verschoben und die volle Finanzwirksamkeit ist erst ab 2030 vorgesehen. Der ursprünglich vorgesehene GKV-Anteil von 25 Milliarden Euro am Transformationsfonds wird nun aus Sondervermögen getragen.",
-          "sourceRefs": ["bundesgesundheitsministerium-krankenhausreform"]
+          "sourceRefs": [
+            "bundesgesundheitsministerium-krankenhausreform"
+          ]
         }
       ]
     },
@@ -175,25 +290,43 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Fallzahlen in Psychotherapie und Psychiatrie stiegen im 1. Halbjahr 2025 weiter. Die Versorgungslage bleibt angespannt."
+          "text": "Die Versorgungslage in Psychotherapie und Psychiatrie bleibt angespannt. Das Zi meldet für das 1. Halbjahr 2025 erneut steigende Fallzahlen in diesem Bereich.",
+          "sourceRefs": [
+            "zi-trendreport-psychotherapie-2025"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "label": "Versorgungsdruck", "value": "hoch", "sublabel": "psychische Versorgung hinkt dem Bedarf hinterher" },
-            { "label": "Fallzahl-Zuwachs", "value": "+3,4 %", "sublabel": "1. Halbjahr 2025 vs. Vorjahr" }
+            {
+              "label": "Fallzahl-Zuwachs",
+              "value": "+3,4 %",
+              "sublabel": "Psychotherapie und Psychiatrie, 1. Halbjahr 2025 vs. Vorjahr"
+            },
+            {
+              "label": "Versorgungsdruck",
+              "value": "hoch",
+              "sublabel": "die psychische Versorgung hinkt dem Bedarf weiter hinterher"
+            }
           ],
-          "sourceRefs": ["zi-trendreport-psychotherapie-2025"]
+          "sourceRefs": [
+            "zi-trendreport-psychotherapie-2025"
+          ]
         },
         {
           "type": "fact",
-          "text": "Die Terminservicestellen stoßen an Grenzen: 2023 wurden 54 % der Anfragen gar nicht oder nicht fristgerecht vermittelt.",
-          "highlight": true
+          "text": "Auch Terminservicestellen lösen das Problem nur teilweise: 2024 wurde weniger als die Hälfte der eingegangenen Suchanfragen fristgerecht vermittelt.",
+          "highlight": true,
+          "sourceRefs": [
+            "kbv-terminservicestellen-2024"
+          ]
         },
         {
           "type": "text",
-          "text": "Besonders in der Kinder- und Jugendpsychiatrie steigen die Fallzahlen stark (+5,7 % im 1. Halbjahr 2025).",
-          "sourceRefs": ["zi-trendreport-psychotherapie-2025"]
+          "text": "Besonders in psychischen und psychiatrischen Versorgungsbereichen bleibt der Bedarf hoch. Das Zi berichtet für das 1. Halbjahr 2025 erneut steigende Fallzahlen.",
+          "sourceRefs": [
+            "zi-trendreport-psychotherapie-2025"
+          ]
         }
       ]
     },
@@ -209,19 +342,40 @@
           "type": "progress_stack",
           "caption": "Gesundheitsausgaben nach Leistungsart 2023",
           "segments": [
-            { "label": "Pflege & Therapie", "value": 155, "sublabel": "155,1 Mrd. €" },
-            { "label": "Ärztliche Leistungen", "value": 118, "sublabel": "118,3 Mrd. €" },
-            { "label": "Arzneimittel", "value": 65, "sublabel": "~65 Mrd. €" },
-            { "label": "Prävention", "value": 25, "sublabel": "~25 Mrd. € (5,0 %)" }
+            {
+              "label": "Pflege & Therapie",
+              "value": 155.1,
+              "sublabel": "155,1 Mrd. EUR"
+            },
+            {
+              "label": "Ärztliche Leistungen",
+              "value": 118.3,
+              "sublabel": "118,3 Mrd. EUR"
+            },
+            {
+              "label": "Arzneimittel",
+              "value": 77.9,
+              "sublabel": "77,9 Mrd. EUR"
+            },
+            {
+              "label": "Prävention",
+              "value": 24.8,
+              "sublabel": "24,8 Mrd. EUR"
+            }
           ],
-          "total": "Gesamtausgaben: 500,8 Mrd. €",
-          "sourceRefs": ["rki-gesundheitsberichterstattung"]
+          "total": "Gesamtausgaben: 500,8 Mrd. EUR",
+          "sourceRefs": [
+            "destatis-gesundheitsausgaben-leistungsarten-2023"
+          ]
         },
         {
           "type": "fact",
-          "text": "Nur 5 % der Gesundheitsausgaben fließen in Prävention (298 Euro pro Person und Jahr). Die GKV investierte 2024 mit 686 Millionen Euro zwar einen Rekordwert – das sind aber weniger als 0,2 % der Gesamtausgaben.",
+          "text": "2023 entfielen 24,8 Milliarden Euro beziehungsweise 298 Euro je Einwohner auf Prävention und Gesundheitsschutz. 2024 gaben die gesetzlichen Krankenkassen zusätzlich 686 Millionen Euro für Präventionsaktivitäten aus.",
           "highlight": true,
-          "sourceRefs": ["rki-gesundheitsberichterstattung", "gkv-spitzenverband-praeventionsbericht-2025"]
+          "sourceRefs": [
+            "rki-gesundheitsberichterstattung",
+            "gkv-spitzenverband-praeventionsbericht-2025"
+          ]
         },
         {
           "type": "text",
@@ -234,58 +388,128 @@
     {
       "id": "arg_bestes_system",
       "claim": "Wir haben das beste Gesundheitssystem der Welt",
-      "response": "Deutschland hat ein gutes Gesundheitssystem, aber 'das beste der Welt' ist es nicht automatisch. Deutschland gehört bei den Ausgaben zur OECD-Spitzengruppe, zugleich gibt es lange Wartezeiten für Kassenpatienten, bis 2034 drohen mindestens 90.000 fehlende Pflegekräfte und die Krankenhausstruktur gilt seit Jahren als ineffizient.",
-      "keywords": ["bestes", "weltspitze", "gut versorgt", "qualität", "vergleich"],
-      "relatedSections": ["gesundheitsausgaben", "zwei-klassen-medizin"]
+      "response": "Deutschland hat hohe Gesundheitsausgaben und gute Kapazitäten, aber auch belegte Zugangs-, Pflege- und Strukturprobleme. Deshalb spricht wenig dafür, pauschal vom besten Gesundheitssystem der Welt zu sprechen.",
+      "keywords": [
+        "bestes",
+        "weltspitze",
+        "gut versorgt",
+        "qualität",
+        "vergleich"
+      ],
+      "relatedSections": [
+        "gesundheitsausgaben",
+        "zwei-klassen-medizin"
+      ]
     },
     {
       "id": "arg_beitraege_hoch",
       "claim": "Die Krankenkassenbeiträge sind viel zu hoch",
       "response": "Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts und wird paritätisch geteilt. Das eigentliche Problem ist weniger die Existenz des Beitrags als die Effizienz des Systems: Deutschland gibt sehr viel aus, hat strukturelle Überkapazitäten im Krankenhausbereich und investiert vergleichsweise wenig in Prävention.",
-      "keywords": ["beiträge", "zu hoch", "teuer", "krankenkasse", "kosten"],
-      "relatedSections": ["gesundheitsausgaben", "praevention"]
+      "keywords": [
+        "beiträge",
+        "zu hoch",
+        "teuer",
+        "krankenkasse",
+        "kosten"
+      ],
+      "relatedSections": [
+        "gesundheitsausgaben",
+        "praevention"
+      ]
     },
     {
       "id": "arg_jeder_versorgt",
       "claim": "Jeder bekommt in Deutschland die medizinische Versorgung, die er braucht",
-      "response": "Formal hat jeder Zugang zum Gesundheitssystem, aber in der Praxis gibt es gravierende Versorgungslücken. Kassenpatienten warten beim Lungenfacharzt im Schnitt 129 Tage, Privatpatienten nur 35. Dazu kommen Engpässe in Pflege und Psychotherapie sowie regionale Unterschiede bei der Versorgung. Die Versorgung hängt in Deutschland also weiterhin stark davon ab, wo man lebt, wie man versichert ist und welche Krankheit man hat.",
-      "keywords": ["versorgung", "zugang", "jeder", "gleichbehandlung", "arzt"],
-      "relatedSections": ["zwei-klassen-medizin", "psychische-gesundheit"]
+      "response": "Formal ist der Zugang breit, aber in der Praxis gibt es spürbare Versorgungslücken. Viele gesetzlich Versicherte berichten über lange Wartezeiten auf Facharzttermine, hinzu kommen Engpässe in Pflege und psychischer Versorgung sowie regionale Unterschiede.",
+      "keywords": [
+        "versorgung",
+        "zugang",
+        "jeder",
+        "gleichbehandlung",
+        "arzt"
+      ],
+      "relatedSections": [
+        "zwei-klassen-medizin",
+        "psychische-gesundheit"
+      ]
     },
     {
       "id": "arg_auslaender_gesundheit",
       "claim": "Ausländer belasten unser Gesundheitssystem",
-      "response": "Asylbewerber erhalten in den ersten 36 Monaten nur eine stark eingeschränkte medizinische Versorgung, vor allem für akute Erkrankungen, chronische Krankheiten, Schwangerschaft, empfohlene Vorsorgen und Impfungen. Das eigentliche GKV-Finanzierungsproblem hat strukturelle Ursachen wie alternde Bevölkerung, hohe Ausgaben und ineffiziente Strukturen – nicht die medizinische Versorgung von Geflüchteten.",
-      "keywords": ["ausländer", "flüchtlinge", "kosten", "belastung", "asyl"],
-      "relatedSections": ["gesundheitsausgaben"]
+      "response": "Die Finanzierungsprobleme des Systems sind vor allem strukturell: hohe Ausgaben, alternde Bevölkerung und Versorgungsengpässe. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang bei akuten Erkrankungen, Schmerzen, Schwangerschaft, Impfungen und medizinisch gebotenen Vorsorgen; erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert.",
+      "keywords": [
+        "ausländer",
+        "flüchtlinge",
+        "kosten",
+        "belastung",
+        "asyl"
+      ],
+      "relatedSections": [
+        "gesundheitsausgaben"
+      ]
     },
     {
       "id": "arg_psychisch_einbildung",
       "claim": "Psychische Krankheiten sind nur Einbildung / Modeerscheinung",
       "response": "Psychische Erkrankungen sind medizinisch genauso real wie körperliche. Im ersten Halbjahr 2025 stiegen die Fallzahlen in Psychotherapie und Psychiatrie weiter um 3,4 %, in der Kinder- und Jugendpsychiatrie sogar um 5,7 %. Die Versorgung hinkt dem Bedarf seit Jahren hinterher.",
-      "keywords": ["einbildung", "mode", "psychisch", "depression", "burnout", "weich"],
-      "relatedSections": ["psychische-gesundheit"]
+      "keywords": [
+        "einbildung",
+        "mode",
+        "psychisch",
+        "depression",
+        "burnout",
+        "weich"
+      ],
+      "relatedSections": [
+        "psychische-gesundheit"
+      ]
     },
     {
       "id": "arg_homoeopathie",
       "claim": "Homöopathie/Alternativmedizin sollte von der Kasse bezahlt werden",
-      "response": "Für homöopathische Mittel gibt es nach aktuellem wissenschaftlichem Konsens keine belastbaren Belege für eine Wirkung über den Placeboeffekt hinaus. Kassengelder sollten deshalb evidenzbasiert eingesetzt werden, gerade in einem System mit klaren Versorgungsengpässen etwa bei Psychotherapie und Pflege.",
-      "keywords": ["homöopathie", "alternativmedizin", "naturheilkunde", "globuli", "kasse"],
-      "relatedSections": ["praevention", "psychische-gesundheit"]
+      "response": "Für Homöopathie gibt es keine robuste, reproduzierbare Evidenz eines Nutzens über Placebo hinaus. Öffentliche Mittel sollten deshalb evidenzbasiert eingesetzt werden, gerade in einem System mit klaren Engpässen etwa bei Pflege, Psychotherapie und Prävention.",
+      "keywords": [
+        "homöopathie",
+        "alternativmedizin",
+        "naturheilkunde",
+        "globuli",
+        "kasse"
+      ],
+      "relatedSections": [
+        "praevention",
+        "psychische-gesundheit"
+      ]
     },
     {
       "id": "arg_zu_viele_krankenhaeuser",
       "claim": "Es gibt zu viele Krankenhäuser",
       "response": "Da ist tatsächlich etwas dran: Deutschland hat viele Krankenhausbetten und eine vergleichsweise niedrige Bettenauslastung. Aber 'weniger' heißt nicht automatisch 'besser'. Es braucht Spezialisierung, Vernetzung und gleichzeitig Erreichbarkeit – besonders in ländlichen Regionen. Genau diesen Spagat versucht die Krankenhausreform.",
-      "keywords": ["krankenhäuser", "zu viele", "schließen", "betten", "überversorgung"],
-      "relatedSections": ["krankenhausreform"]
+      "keywords": [
+        "krankenhäuser",
+        "zu viele",
+        "schließen",
+        "betten",
+        "überversorgung"
+      ],
+      "relatedSections": [
+        "krankenhausreform"
+      ]
     },
     {
       "id": "arg_pharma",
       "claim": "Die Pharmaindustrie macht uns absichtlich krank",
-      "response": "Diese Verschwörungstheorie hält keiner Prüfung stand. Medikamente durchlaufen strenge Zulassungsverfahren (EMA, BfArM) mit klinischen Studien in mehreren Phasen. Die Pharmabranche verdient an Behandlungen – aber das liegt am Geschäftsmodell, nicht an absichtlicher Schadenszufügung. Berechtigte Kritik gibt es an hohen Medikamentenpreisen, aggressivem Marketing und mangelnder Transparenz bei Studien. Die Lösung ist aber mehr Regulierung und unabhängige Forschung, nicht das Ablehnen evidenzbasierter Medizin. Tatsächlich zeigt Deutschlands System ein anderes Problem: Zu wenig Investition in Prävention (nur 5 % der Ausgaben) und zu viel Fokus auf Behandlung.",
-      "keywords": ["pharma", "industrie", "krank machen", "verschwörung", "profit", "impfung"],
-      "relatedSections": ["praevention"]
+      "response": "Arzneimittel unterliegen in der EU einem regulierten Zulassungs- und Bewertungsverfahren. Berechtigte Kritik betrifft eher Preise, Transparenz und Fehlanreize als eine belegte Absicht, Menschen krank zu machen.",
+      "keywords": [
+        "pharma",
+        "industrie",
+        "krank machen",
+        "verschwörung",
+        "profit",
+        "impfung"
+      ],
+      "relatedSections": [
+        "praevention"
+      ]
     }
   ],
   "sources": [
@@ -303,11 +527,6 @@
       "id": "bundesgesundheitsministerium-krankenhausreform",
       "label": "Bundesgesundheitsministerium – Krankenhausreform",
       "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-krankenhausreformanpassungsgesetz-pm-06-03-2026"
-    },
-    {
-      "id": "spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv",
-      "label": "Spiegel / Doctolib – Wartezeiten-Analyse GKV vs. PKV (2025)",
-      "url": "https://cdn.prod.www.spiegel.de/stories/207901/index.amp.html"
     },
     {
       "id": "statistisches-bundesamt-pflegekraefte-prognose",
@@ -335,9 +554,34 @@
       "url": "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp"
     },
     {
-      "id": "mediendienst-integration-gesundheitsversorgung",
-      "label": "Mediendienst Integration – Gesundheitsversorgung Geflüchteter",
-      "url": "https://mediendienst-integration.de/bevoelkerung/gesundheit-von-migranten/gesundheitsversorgung-von-fluechtlingen/"
+      "id": "bmg-beitraege",
+      "label": "BMG - Beitragssätze der gesetzlichen Krankenversicherung",
+      "url": "https://www.bundesgesundheitsministerium.de/beitraege"
+    },
+    {
+      "id": "gkv-versichertenbefragung-2025",
+      "label": "GKV-Spitzenverband - Versichertenbefragung 2025 zu Wartezeiten",
+      "url": "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2181888.jsp"
+    },
+    {
+      "id": "kbv-versichertenstruktur",
+      "label": "KBV - Versichertenstruktur in Deutschland",
+      "url": "https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/versichertenstruktur"
+    },
+    {
+      "id": "destatis-pflegebeduerftige-2023",
+      "label": "Destatis - 5,7 Millionen Pflegebedürftige Ende 2023",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html"
+    },
+    {
+      "id": "kbv-terminservicestellen-2024",
+      "label": "KBV - Statistik Terminservicestellen 2024",
+      "url": "https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/statistik-terminservicestellen"
+    },
+    {
+      "id": "destatis-gesundheitsausgaben-leistungsarten-2023",
+      "label": "Destatis - Gesundheitsausgaben nach Leistungsarten 2023",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Gesundheitsausgaben/Tabellen/leistungsarten.html"
     }
   ]
 }

@@ -426,9 +426,9 @@ Hinweis: AKW-Anteil am Primärenergieverbrauch
 Spalten: Szenario | Erzeugung | Anteil am PEV
 - Letzte 3 AKW (2022/23) | ~33 TWh/a | 1,1%
 - Alle 6 AKW (Stand 2021) | ~69 TWh/a | 2,4%
-- Alle 17 hist. AKW (theoretisch) | ~150 TWh/a | ~5%
+- Historischer AKW-Park (theoretisch) | ~150 TWh/a | nur wenige Prozent
 
-- Selbst alle 17 historischen AKW hätten nur ~5 % des Primärenergieverbrauchs gedeckt.
+- Selbst der historische deutsche AKW-Park hätte nur wenige Prozent des Primärenergieverbrauchs gedeckt.
 
 ### Die Gaskrise 2022 – Warum AKW nicht geholfen hätten
 
@@ -439,11 +439,11 @@ Spalten: Szenario | Erzeugung | Anteil am PEV
 
 ### Uranabhängigkeit: Souveränität?
 
-- Natururan: 20 % (aus Russland)
-- Angereichertes Uran: 26 % (aus Russland)
-- Natururan: 20 % (aus Kasachstan)
+- Kernenergie bleibt: importabhängig (bei Uran und Vorstufen)
+- Konversion/Anreicherung: kritisch (teils über russisch geprägte Lieferketten)
+- Abhängigkeiten: geopolitisch (werden nicht durch Atomkraft aufgehoben)
 
-- Kernkraft substituiert eine fossile Abhängigkeit durch eine nukleare.
+- Kernkraft ersetzt eine fossile Abhängigkeit nicht durch Souveränität, sondern bleibt auf internationale nukleare Lieferketten angewiesen.
 
 ### Strommix 2025: Wo stehen wir heute?
 
@@ -469,48 +469,47 @@ Spalten: Kennzahl | Wert
 
 ### Stromgestehungskosten (LCOE) – Der Preisvergleich
 
-Quelle: Lazard LCOE+ v18.0 (Juni 2025), unsubventioniert, US-Marktdaten
+Quelle: Lazard LCOE+ v18.0 (Juni 2025), unsubventioniert, US-Marktdaten in USD/MWh.
 
-Hinweis: LCOE nach Technologie (Ct/kWh, unsubventioniert)
-- Solar: 3.8 bis 21.2 Ct/kWh
-- Wind Onshore: 4.8 bis 10.7 Ct/kWh
-- Gas CC: 4.8 bis 10.9 Ct/kWh
-- Wind Offshore: 7.2 bis 13.3 Ct/kWh
-- Kohle: 7.1 bis 17.3 Ct/kWh
-- Kernkraft Neubau: 14.1 bis 22 Ct/kWh
+Hinweis: LCOE nach Technologie (USD/MWh, unsubventioniert)
+- Solar (Utility-Scale): 38 bis 78 $/MWh
+- Wind Onshore: 37 bis 86 $/MWh
+- Gas Combined Cycle: 48 bis 109 $/MWh
+- Wind Offshore: 74 bis 139 $/MWh
+- Kohle: 69 bis 168 $/MWh
+- Kernkraft Neubau: 141 bis 220 $/MWh
 
-Hinweis: LCOE nach Technologie (unsubventioniert)
-Spalten: Technologie | LCOE (Ct/kWh) | Anmerkung
-- Solar (Utility-Scale) | 3,8 – 21,2 | Günstigste Neubauten
-- Wind Onshore | 4,8 – 10,7 | Seit 10 Jahren unter Kernkraft
-- Gas Combined Cycle | 4,8 – 10,9 | Stark gaspreisabhängig
-- Wind Offshore | 7,2 – 13,3 | Fallend, aber noch teurer als Onshore
-- Kohle | 7,1 – 17,3 | Exkl. Transport/Speicherung
-- Kernkraft Neubau | 14,1 – 22,0 | Basierend auf Vogtle 3&4 (USA)
+Hinweis: LCOE nach Technologie (USD/MWh, unsubventioniert)
+Spalten: Technologie | LCOE (USD/MWh) | Anmerkung
+- Solar (Utility-Scale) | 38 - 78 | günstigste Neubauten im Lazard-Vergleich
+- Wind Onshore | 37 - 86 | klar unter Neubau-Kernkraft
+- Gas Combined Cycle | 48 - 109 | stark gaspreisabhängig
+- Wind Offshore | 74 - 139 | teurer als Onshore, aber unter Kernkraft möglich
+- Kohle | 69 - 168 | ohne externe Folgekosten
+- Kernkraft Neubau | 141 - 220 | teuerster großer Neubautyp im Vergleich
 
 Hinweis: Ergänzende LCOE-Werte
 Spalten: Kategorie | LCOE | Quelle
-- Bestands-AKW (abbezahlt, Langzeitbetrieb) | < 4,0 Ct/kWh | OECD/IEA-NEA 2020
-- OECD-Modell „Nth-of-a-kind“ (3% Diskont) | 5,5 – 9,5 Ct/kWh | OECD/IEA-NEA 2020
-- Hinkley Point C (Strike Price) | 15 Ct/kWh (inflationsindexiert) | EDF, Stand 01/2026
-- Barakah (VAE, südkoreanischer Bau) | ~4–6 Ct/kWh (geschätzt) | Ohne Verifikation
+- Bestands-AKW (abbezahlt, Langzeitbetrieb) | < 40 USD/MWh | OECD/IEA-NEA 2020
+- OECD-Modell „Nth-of-a-kind“ (3% Diskont) | 55 - 95 USD/MWh | OECD/IEA-NEA 2020
+- Hinkley Point C (Strike Price) | inflationsindexierter CfD | Projektpreis nicht direkt mit LCOE identisch
 
-- Neubau-Kernkraft ist deutlich teurer als Solar- und Windkraft.
+- Neubau-Kernkraft ist in aktuellen Kostenvergleichen deutlich teurer als Solar- und Windkraft.
 
 ### AKW-Neubau im Westen: Kein Projekt im Budget
 
 Hinweis: Westliche AKW-Neubauprojekte
-Spalten: Projekt | Land | Kosten | Bauzeit | Original-Budget | Verspätung
-- Hinkley Point C | GB | 55 Mrd. EUR | 2017 – 2030+ | 18 Mrd. GBP | 5+ Jahre
-- Flamanville 3 | FR | 23,7 Mrd. EUR | 2007 – 2024 | 3,3 Mrd. EUR | 10+ Jahre
-- Olkiluoto 3 | FI | 11 Mrd. EUR | 2005 – 2023 | 3 Mrd. EUR | 14 Jahre
-- Vogtle 3&4 | USA | ~32,3 Mrd. USD | 2013 – 2023/24 | 14 Mrd. USD | 7+ Jahre
+Spalten: Projekt | Land | Bauzeit | Startbudget | Heute
+- Hinkley Point C | GB | 2017 - 2030+ | 18 Mrd. GBP | deutlich über Startbudget
+- Flamanville 3 | FR | 2007 - 2024 | 3,3 Mrd. EUR | deutlich über Startbudget
+- Olkiluoto 3 | FI | 2005 - 2023 | 3 Mrd. EUR | deutlich über Startbudget
+- Vogtle 3&4 | USA | 2013 - 2023/24 | 14 Mrd. USD | deutlich über Startbudget
 
-Gegenbeispiel: Barakah (VAE) – 4 Blöcke in je ~8 Jahren, ~20,4 Mrd. USD für 5,6 GW. Allerdings: südkoreanische Serienfertigung, autokratische Genehmigung, einfacheres Containment, niedrige Arbeitskosten – nicht auf westliche Demokratien übertragbar.
+Barakah in den Vereinigten Arabischen Emiraten wird oft als Gegenbeispiel genannt. Das Projekt entstand aber unter sehr anderen Bedingungen: standardisierte südkoreanische Reaktortechnik, andere Genehmigungslogik und andere Kostenstrukturen. Es ist deshalb keine belastbare Blaupause für Deutschland oder andere westliche Demokratien.
 
-- Durchschnittliche Bauzeit westlicher Neubauten: 14,3 Jahre
+- Keines der großen westlichen Neubauprojekte blieb im ursprünglichen Budget. Die Realisierung dauert eher in der Größenordnung von grob 11 bis 19 Jahren als in wenigen Jahren.
 
-- Bei Baubeschluss heute: Erster Strom frühestens ~2040
+- Wer heute einen Neubau beschließt, erhält in westlichen Demokratien mit hoher Wahrscheinlichkeit erst in den 2040er Jahren nennenswerten Strom aus dem Projekt.
 
 - In Deutschland: Kein Fachpersonal, keine Lieferketten, keine Genehmigungsstrukturen
 
@@ -524,18 +523,17 @@ Ursache 1: Spannungsrisskorrosion an Rohrleitungen (Sicherheitsüberprüfungen).
 
 ### Dunkelflauten: Reales Problem, kein Showstopper
 
-- Dunkelflauten >48h: selten (kein dauerhafter Showstopper)
-- Versorgungsengpässe: 0 (laut BNetzA)
-- Negativpreisstunden: 573 Std. (2025 (6× ggü. 2016))
+- Dunkelflauten: beherrschbar (fordern Flexibilität statt Panik)
+- Versorgungsengpass: kein annähernder (laut BNetzA Anfang 2025)
+- Negativpreisstunden: 573 Std. (2025)
 
 Spalten: Kennzahl | Wert | Quelle
-- Durchschnittliche Häufigkeit (>48h) | selten | 1KOMMA5°/Fraunhofer ISE (2016–2025)
-- Häufung über 10 Jahre | Nicht zugenommen trotz EE-Ausbau | 1KOMMA5°/Fraunhofer ISE
-- Versorgungsengpässe | 0 (keine einzige) | Bundesnetzagentur
-- Negativpreisstunden 2025 | 573 (6x mehr als 2016) | Bundesnetzagentur
-- Längste Dunkelflaute 2025 | mehrtägig | 1KOMMA5°
+- Dunkelflautenlagen | reales Systemthema | BNetzA
+- Versorgungsengpässe Anfang 2025 | kein annähernder Engpass | BNetzA
+- Negativpreisstunden 2025 | 573 | BNetzA / SMARD
+- Schlüsselaufgabe | mehr Speicher, Netze und flexible Lasten | Systemische Einordnung
 
-- Null Versorgungsengpässe trotz wachsendem Erneuerbaren-Anteil.
+- Selbst in der Dunkelflautenlage Anfang 2025 kam es laut Bundesnetzagentur nicht annähernd zu Versorgungsengpässen.
 
 Überbrückung heute: Gaskraftwerke, europäische Stromimporte, wachsend: Batteriespeicher. Kern des Problems: Nicht die Häufigkeit der Dunkelflauten, sondern fehlende Speicher und Netzkapazitäten.
 
@@ -558,18 +556,14 @@ Treiber des Mehrbedarfs: Direkte Elektrifizierung (Wärmepumpen + E-Autos ersetz
 
 - beantragt: 400 GW (Leistung 2024)
 - beantragt: 661 GWh (Kapazität 2024)
-- installiert: >20 GWh (Ende 2025)
-- GWh Bedarf: 500–600 (bis 2045)
+- Anschlusszusagen: 25 GW (Leistung 2024)
+- Anschlusszusagen: 46 GWh (Kapazität 2024)
 
 Spalten: Kennzahl | Wert | Quelle
-- Beantragte Leistung (2024, ab Mittelspannung) | ~400 GW | BNetzA (11/2025)
-- Beantragte Kapazität (2024) | 661 GWh | BNetzA (11/2025)
-- Erteilte Anschlusszusagen (2024) | 25 GW / 46 GWh | BNetzA (11/2025)
-- Installiert gesamt (Ende 2025) | >20 GWh | MaStR/pv magazine
-- Davon Großspeicher (>1 MW) | 2,4 GW / 3,5 GWh | Modo Energy (02/2026)
-- Pipeline 2026 | 3,4 GW geplant | Modo Energy
-- Bedarf 2030 | ~125 GWh | CAV Partners (02/2026)
-- Bedarf 2045 | 500–600 GWh | CAV Partners (02/2026)
+- Beantragte Leistung (2024, ab Mittelspannung) | ~400 GW | BNetzA 11/2025
+- Beantragte Kapazität (2024) | 661 GWh | BNetzA 11/2025
+- Erteilte Anschlusszusagen (2024) | 25 GW / 46 GWh | BNetzA 11/2025
+- Kernaussage | Interesse sehr hoch, Umsetzung deutlich langsamer | BNetzA
 
 - 400 GW beantragte Speicherleistung – der Markt will, aber Netzanschlüsse und Genehmigungsverfahren bremsen.
 
@@ -577,32 +571,32 @@ Engpass: Nicht Investoreninteresse oder Technologie, sondern Netzanschlüsse, Ge
 
 ### Small Modular Reactors: Viel Hype, wenig Realität
 
-- kommerz. SMR: 0 (im Westen in Betrieb)
-- Strompreis/kWh: 14,9 Ct (Darlington (Kanada))
-- früheste: ~2030 (Inbetriebnahme)
+- kommerzielle SMR: 0 (im Westen in Betrieb)
+- weitestes westliches Projekt: Darlington (BWRX-300, Kanada)
+- NuScale CFPP: 2023 (eingestellt)
 
-- Einziges westliches SMR-Bauprojekt: BWRX-300 in Darlington (Kanada) – Kosten 1. Block: CAD 7,7 Mrd. für 300 MW. Geplant: 4 Blöcke für CAD 20,9 Mrd. (1.200 MW), Ø-Strompreis 14,9 Ct/kWh.
+- Das Darlington-Projekt in Kanada ist derzeit das weiteste westliche SMR-Neubauvorhaben. Es ist aber noch kein Beleg für einen kommerziell etablierten SMR-Markt.
 
-- NuScale CFPP (USA, erstes US-Projekt): November 2023 eingestellt. Kosten explodierten von $5,3 auf $9,3 Mrd. (+75 %).
+- Das US-Projekt NuScale CFPP wurde 2023 gestoppt. Das zeigt, wie unsicher Kosten, Abnahme und Zeitpläne bei SMR-Vorhaben bisher sind.
 
-- Zum Vergleich: Solar/Wind in Deutschland bei 4–7 Ct/kWh – weniger als die Hälfte des SMR-Preises.
+- SMR sind derzeit eher ein Technologieversprechen als eine kurzfristig belastbare Antwort auf die deutsche Stromversorgung.
 
-Selbst wenn Deutschland heute einen SMR bestellte, käme der erste Strom frühestens ~2035. In derselben Zeit baut Deutschland ~200 GW Erneuerbare zu.
+Selbst wenn Deutschland heute ein SMR-Projekt startete, würde es den Ausbau von Netzen, Speichern und Erneuerbaren in diesem Jahrzehnt nicht ersetzen.
 
 ### Atommüll: Das vergessene Milliardenproblem
 
-- Castor-Behälter: ~1.200 (aktuell in Zwischenlagern)
-- EUR geschätzt: 47,5 Mrd. (Gesamtkosten)
-- Endlager: 2050+ (früheste Entscheidung)
-- BMU-Budget: 52 % (für Atommüll)
+- Einzahlung in KENFO: 24,1 Mrd. € (durch AKW-Betreiber)
+- früheste Standortentscheidung: 2050 (laut BGE)
+- möglich nach Rechtsrahmen: 2074 (bei langem Verfahren)
+- Zwischenlagerung: Jahrzehnte (bleibt in jedem Fall nötig)
 
-- AKW-Betreiber zahlten 24 Mrd. EUR in den KENFO-Entsorgungsfonds ein. Bereits 4,47 Mrd. EUR ausgezahlt (Stand 2024). Allein 2024: 805 Mio. EUR.
+- Die Betreiber zahlten rund 24,1 Mrd. Euro in den KENFO-Fonds ein. Damit ist das Problem aber nicht erledigt: Suche, Genehmigung und Bau eines Endlagers bleiben langfristige Staatsaufgaben.
 
-- Endlager-Standort frühestens 2050 (optimistisch), eher 2074 (aktueller Rechtsrahmen).
+- Eine Standortentscheidung ist laut BGE frühestens um 2050 denkbar; nach aktuellem Rechtsrahmen kann sich das Verfahren auch deutlich länger hinziehen.
 
-- Über die Hälfte des Budgets des Bundesumweltministeriums (1,4 von 2,69 Mrd. EUR in 2025) fließt in Atommüll-Verwaltung.
+- Atommüll bleibt ein Langfristproblem über Generationen. Neue AKW würden diese Aufgabe nicht lösen, sondern vergrößern.
 
-- Falls der KENFO-Fonds nicht reicht: der Steuerzahler haftet.
+- Langfristige Risiken und Folgekosten bleiben trotz Fondsmodell in erheblichem Maß beim Staat.
 
 ### EE-Ausbau: 21 GW in einem Jahr – Rekordtempo
 
@@ -623,18 +617,18 @@ Die Ziele für 2030 erfordern noch mehr: 19,6 GW/Jahr Solar und 9,4 GW/Jahr Wind
 
 ### EU-Vergleich: Erneuerbare überholen Atom europaweit
 
-- EE-Anteil EU: 47,5 % (am Strommix 2024)
-- Atom-Anteil EU: 23,3 % (am Strommix 2024)
+- Erneuerbare: 46,9 % (an der EU-Nettoerzeugung 2024)
+- Atom-Anteil: 23,3 % (an der EU-Nettoerzeugung 2024)
 - EU-Staaten: 12/27 (betreiben AKW)
 - FR allein: 58,6 % (des EU-Atomstroms)
 
-- EE-Anteil in der EU verdreifacht seit 2004: von 15,9 % auf 47,5 %.
+- Erneuerbare haben die Atomkraft im EU-Strommix klar überholt.
 
-- Spitzenreiter EE: Österreich (90,1 %), Schweden (88,1 %), Dänemark (79,7 %).
+- Bei den Erneuerbaren lagen 2024 laut Eurostat Dänemark, Portugal und Kroatien besonders weit vorn.
 
 - Länder wie Dänemark und Österreich zeigen: Hohe Versorgungssicherheit auch ohne ein einziges AKW.
 
-Atomkraft ist ein europäisches Nischenprodukt – nur 12 Länder nutzen es, und der Trend geht klar Richtung Erneuerbare.
+Atomkraft bleibt in der EU wichtig, ist aber ein Minderheitenpfad. Der europäische Trend bei Neubau und Strommix geht klar stärker in Richtung Erneuerbare.
 
 ### Europäischer Stromverbund: Deutschland ist keine Insel
 
@@ -644,7 +638,7 @@ Atomkraft ist ein europäisches Nischenprodukt – nur 12 Länder nutzen es, und
 
 - Nettoimport 2025: 21,9 TWh – 22,6 % weniger als 2024. Tendenz: Importbedarf sinkt.
 
-- Skandinavische Wasserkraft kompensiert deutsche Dunkelflauten. Deutscher Solarüberschuss fließt mittags in Nachbarländer.
+- Der europäische Verbund gleicht regionale Wetter-, Last- und Preisunterschiede durch Importe und Exporte aus.
 
 - EU-Regel: Mindestens 70 % der physischen Übertragungskapazität muss für grenzüberschreitenden Handel verfügbar sein.
 
@@ -653,46 +647,48 @@ Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System
 ### Argumente
 
 - Aussage: Zeig mir das AKW, das du bauen willst.
-  Antwort: 55 Mrd. EUR für Hinkley Point C, 15–20 Jahre Bauzeit. In Deutschland: kein Fachpersonal, keine Lieferketten, keine Genehmigungsstrukturen. Neue AKW sind das Gegenteil von „realistisch“. Bei Baubeschluss heute: erster Strom frühestens ~2040.
+  Antwort: Große westliche AKW-Neubauten sind teuer, dauern lange und bleiben regelmäßig nicht im Startbudget. In Deutschland kämen zusätzlich fehlende Lieferketten, Fachkräfte und Genehmigungsroutinen hinzu. Wer heute neu beschließt, bekommt realistisch erst in den 2040er Jahren relevanten Strom.
 - Aussage: AKW ersetzen keinen einzigen Schritt der Energiewende.
-  Antwort: Selbst alle 17 alten AKW deckten bei verdoppeltem Strombedarf nur ~10%. Netze, Speicher, Windräder braucht man so oder so. Kernkraft ist bestenfalls Ergänzung, kein Alternativpfad.
+  Antwort: Auch ein großer AKW-Neubau würde Netze, Speicher, flexible Lasten und Erneuerbare nicht ersetzen. Bei wachsendem Strombedarf bleibt der Ausbau dieser Infrastruktur in jedem realistischen Szenario unvermeidlich.
 - Aussage: Die Krise war Gas, nicht Strom.
-  Antwort: Der Großteil des Erdgases ging 2022 in Wärme und Industrie, nicht in Strom. AKW hätten die Gaskrise deshalb strukturell nicht gelöst. Auch bei Uran ist Kernenergie zudem auf internationale Lieferketten angewiesen.
+  Antwort: Die Energiekrise 2022 war vor allem eine Gaskrise. Kernkraft erzeugt Strom, ersetzt aber kein Gas in Heizungen oder Industrieöfen. Zudem bleibt auch Atomkraft auf internationale Lieferketten angewiesen.
 - Aussage: Das Problem heißt Bürokratie, nicht Technologie.
-  Antwort: 400 GW beantragte Speicherleistung zeigen: Der Markt will. Der Engpass sind Netzanschlüsse, Genehmigungsverfahren und Abstandsregeln. Das ist politisches Versagen aller Parteien – kein Versagen der Erneuerbaren.
+  Antwort: Der Speichermarkt zeigt viel Interesse, aber Netzanschlüsse, Genehmigungen und Regulierung bremsen die Umsetzung. Das Problem ist deshalb heute oft weniger die Technik als die Geschwindigkeit von Verfahren und Netzausbau.
 - Aussage: Aber SMRs lösen doch das Problem!
-  Antwort: Es gibt keinen einzigen kommerziellen SMR im Westen. Das am weitesten fortgeschrittene Projekt (Darlington, Kanada) produziert Strom für ~15 Ct/kWh – doppelt so teuer wie Wind/Solar. Das einzige US-Projekt (NuScale) wurde 2023 eingestellt. Frühestmögliche Inbetriebnahme: ~2030.
+  Antwort: SMR sind bislang eher ein Technologieversprechen als ein erprobter Massenmarkt. Im Westen gibt es noch keinen kommerziell etablierten SMR-Betrieb; selbst das fortgeschrittene Darlington-Projekt liefert keine kurzfristige Antwort für Deutschland. Parallel braucht es trotzdem Netze, Speicher und Erneuerbare.
 - Aussage: Atomkraft ist doch abgeschaltet und erledigt!
-  Antwort: Über 1.200 Castor-Behälter stehen aktuell in Zwischenlagern. Die Endlagersuche dauert mindestens bis 2050, die Entsorgungskosten liegen bereits in zweistelliger Milliardenhöhe. Neue AKWs würden das Problem weiter vergrößern, nicht verkleinern.
+  Antwort: Abgeschaltet heißt nicht erledigt. Endlagersuche, Zwischenlagerung und Finanzierung bleiben über Jahrzehnte bis Generationen ein Thema. Neue AKW würden diese Aufgabe nicht kleiner machen.
 - Aussage: Deutschland muss sich doch selbst versorgen können!
-  Antwort: Der europäische Stromverbund existiert genau dafür. 2025 importierte DE 76 TWh und exportierte 54 TWh. Skandinavische Wasserkraft kompensiert Dunkelflauten, deutscher Solarüberschuss fließt in Nachbarländer. Das ist kein Versagen, sondern intelligentes Design – und billiger als Autarkie.
+  Antwort: Der europäische Stromverbund ist Teil der Versorgungssicherheit. Import und Export gleichen regionale Unterschiede aus und sind kein Versagenssignal. Vollständige Autarkie wäre teurer und systemisch unflexibler als ein gut vernetztes europäisches Stromsystem.
 
 ### Quellen
 
-- Lazard LCOE+ v18.0 (Juni 2025) – Stromgestehungskosten nach Technologie (https://www.lazard.com/research-insights/levelized-cost-of-energyplus-lcoeplus/)
+- Lazard LCOE+ v18.0 (Juni 2025) (https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf)
 - Ariadne: Szenarien zur Klimaneutralität 2045 (Nov. 2025) – Strombedarf 2030/2045, Elektrifizierungspfade (https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/)
-- AG Energiebilanzen (AGEB): Jahresbericht 2025 – Primärenergieverbrauch, Energieträgermix (https://ag-energiebilanzen.de/)
-- BNetzA: Stromspeicher / Netzanschlussanfragen (Nov. 2025) – Speicherkapazitäten, Antrags- und Zusagedaten (https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Speicher/start.html)
+- AGEB: Energieverbrauch wird 2025 stagnieren (https://ag-energiebilanzen.de/energieverbrauch-wird-2025-stagnieren/)
+- BNetzA: Hohe Nachfrage nach Netzanschlüssen für Batteriespeicher (12.11.2025) (https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251112_Batteriespeicher.html)
 - Agora Energiewende: Stand der Dinge 2025 – Strommix, CO₂-Emissionen, EE-Ausbaustand (https://www.agora-energiewende.de/)
 - UBA: Spezifische CO₂-Emissionen Strommix – CO₂-Emissionsfaktoren 1990–2024 (https://www.umweltbundesamt.de/themen/co2-emissionen-pro-kilowattstunde-strom-2024)
 - IAEA / Statista: Kernenergie-Anteil Deutschland – Historische Anteile 2003–2023 (https://de.statista.com/statistik/daten/studie/29295/)
-- EDF: Hinkley Point C Projektmitteilungen (Feb. 2026) – Baukosten, Zeitplan, Strike Price (https://www.edf.fr/)
-- IWR: Hinkley Point C / Flamanville Analysen – Baukosten- und Bauzeitvergleiche (https://www.iwr.de/)
 - BEE: Strombedarfsanalyse (2025) – Sektorenkopplung und H₂-Erzeugung (https://www.bee-ev.de/)
-- CAV Partners: Batteriespeicher-Analyse (Feb. 2026) – Speicherbedarf 500–600 GWh bis 2045 (https://www.pv-magazine.de/2026/02/23/cav-partners-deutschland-benoetigt-bis-zu-600-gigawattstunden-batteriespeicher-bis-2045/)
-- 1KOMMA5° / Fraunhofer ISE: Dunkelflauten (Dez. 2025) – Häufigkeit/Dauer 2016–2025 (https://www.solarserver.de/2025/12/19/analyse-dunkelflauten-bleiben-selten-trotz-ausbau-erneuerbarer-energien/)
-- BNetzA Insight Blog: Dunkelflaute (Jan. 2025) – Versorgungssicherheit, Preisspitzen (https://www.bundesnetzagentur.de/DE/Allgemeines/DieBundesnetzagentur/Insight/Texte/Energiewende/Dunkelflaute.html)
-- Wikipedia: Kernkraftwerk Barakah – Südkoreanische Bauzeiten/Kosten (https://de.wikipedia.org/wiki/Kernkraftwerk_Barakah)
-- Schweizer Energiestiftung / Profundos – Budgetüberschreitungen 6 westlicher AKW (https://energiestiftung.ch/fokus-atomkraftwerke-zu-teuer-und-zu-spaet)
-- Ontario Power Generation / WNN – BWRX-300 Darlington (2025) (https://www.world-nuclear-news.org/)
-- NuScale Power / NYT – CFPP-Projekteinstellung (Nov. 2023)
-- BGE – Bundesgesellschaft für Endlagerung, Sachstand (2025) (https://www.bge.de/)
-- KENFO – Fonds zur Finanzierung der kerntechnischen Entsorgung (2024) (https://www.kenfo.de/)
-- Bundesnetzagentur – EE-Ausbauzahlen 2025 (Jan. 2026) (https://www.bundesnetzagentur.de/)
-- Eurostat – EU Strommix 2024 (Jan. 2026) (https://ec.europa.eu/eurostat/)
-- SMARD – Strommarktdaten Import/Export 2025 (https://www.smard.de/)
-- BMUKN – Deutschland beendet das Zeitalter der Atomkraft (https://www.bmuv.de/PM10553)
-- EDF – Stress corrosion phenomenon and 2022 French nuclear output estimate (https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/update-on-the-stress-corrosion-phenomenon-and-adjustment-of-2022-french-nuclear-output-estimate)
+- BNetzA Insight: Dunkelflaute? Kein Grund zur Panik (https://www.bundesnetzagentur.de/DE/Allgemeines/DieBundesnetzagentur/Insight/Texte/Energiewende/Dunkelflaute.html)
+- KENFO: Über den KENFO (https://www.kenfo.de/der-fonds/ueber-den-kenfo)
+- BMUV/BMUKN: Deutschland beendet das Zeitalter der Atomkraft (https://www.bmuv.de/PM10553)
+- EDF: Stress corrosion phenomenon and adjustment of 2022 French nuclear output estimate (https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/update-on-the-stress-corrosion-phenomenon-and-adjustment-of-2022-french-nuclear-output-estimate)
+- Euratom Supply Agency Annual Report 2024 (https://op.europa.eu/s/z9yD)
+- Eurostat: Nuclear energy statistics 2024 (https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Nuclear_energy_statistics)
+- EDF 2024 financial statements: Hinkley Point C update (https://www.edf.fr/sites/groupe/files/2025-03/annual-results-2024-consolidated-financial-statements-2025-03-05.pdf)
+- Southern Company Annual Report 2024: Vogtle update (https://investor.southerncompany.com/files/doc_financials/2024/annual/2024-annual-report.pdf)
+- TVO: Olkiluoto 3 project history and settlement (https://www.tvo.fi/en/index/news/pressreleasesstockexchangereleases/2018/hD4GZkgAO.html)
+- World Nuclear Association: France nuclear power profile (Flamanville 3) (https://world-nuclear.org/information-library/country-profiles/countries-a-f/france)
+- ENEC and KEPCO announce financial close for Barakah Nuclear Energy Plant (https://www.enec.gov.ae/news/latest-news/enec-and-kepco-announce-financial-close-for-barakah-nuclear-energy-plant/)
+- World Nuclear News: Barakah 4 enters commercial operation (https://www.world-nuclear-news.org/articles/barakah-4-landmark-announced-as-world-nuclear-symp)
+- SMARD/BNetzA: Jahresrückblick 2025 (https://www.smard.de/page/home/topic-article/216804/218954/hoechste-pv-einspeisung-in-jedem-quartal)
+- Ontario Power Generation: Darlington SMR project (https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/)
+- UAMPS and NuScale terminate the Carbon Free Power Project (2023) (https://business.smdailypress.com/smdailypress/article/bizwire-2023-11-8-utah-associated-municipal-power-systems-uamps-and-nuscale-power-agree-to-terminate-the-carbon-free-power-project-cfpp)
+- BGE: Vorschläge zur Beschleunigung der Endlagersuche (21.03.2025) (https://www.bge.de/de/bge/presse/pressemitteilungen/pressemitteilung/news/2025/3/bge-macht-vorschlaege-zur-beschleunigung-der-endlagersuche/)
+- Eurostat: Electricity from renewable sources reached 46.9% in 2024 (https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250319-1)
+- ACER: Monitoring the 70% cross-zonal capacity rule (https://www.acer.europa.eu/news-and-events/news/acers-monitoring-finds-much-stake-grid-operators-are-still-far-making-70-transmission-capacity-available-cross-zonal-electricity-trade)
 
 ---
 
@@ -709,72 +705,68 @@ Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente | Stand: 2026-03
 - Monate 2024: 11 von 12 (über 1,5-°C-Schwelle)
 - wärmstes Jahrzehnt: 10 Jahre (jemals gemessen)
 
-Hinweis: Globale Erwärmung über vorindustriellem Niveau (°C)
-- 1900: 0 °C
-- 1950: 0.2 °C
-- 1980: 0.4 °C
-- 1990: 0.5 °C
-- 2000: 0.6 °C
-- 2010: 0.8 °C
-- 2015: 1 °C
-- 2020: 1.3 °C
-- 2023: 1.48 °C
-- 2024: 1.6 °C
+Hinweis: Globale Erwärmung seit 2015 (°C über 1850-1900)
+- 2015: 1.136 °C
+- 2016: 1.318 °C
+- 2017: 1.223 °C
+- 2018: 1.144 °C
+- 2019: 1.28 °C
+- 2020: 1.31 °C
+- 2021: 1.155 °C
+- 2022: 1.181 °C
+- 2023: 1.482 °C
+- 2024: 1.599 °C
 
-- 2024 war das wärmste Jahr seit Beginn der Aufzeichnungen — und das erste Kalenderjahr, das die 1,5-°C-Schwelle des Pariser Abkommens überschritten hat.
+- 2024 war das wärmste Jahr seit Beginn der Aufzeichnungen und das erste Kalenderjahr mit mehr als 1,5 °C über dem vorindustriellen Niveau (1850-1900).
 
-Das Pariser Abkommen bezieht sich auf Durchschnittswerte über Jahrzehnte, nicht auf Einzeljahre. Dennoch zeigt 2024 klar die Richtung: Die globale Erwärmung setzt sich weiter fort und erreichte erneut einen historischen Rekordwert.
+Das Pariser Abkommen bezieht sich auf Mittelwerte über zwei bis drei Jahrzehnte, nicht auf ein einzelnes Jahr. Dennoch zeigt 2024 klar die Richtung: Die globale Erwärmung setzt sich weiter fort und erreichte erneut einen historischen Rekordwert.
 
 ### CO₂-Konzentration in der Atmosphäre
 
-- CO₂-Konzentration: 422,1 ppm (globaler Durchschnitt 2024)
+- CO₂-Konzentration: 423,9 ppm (globaler Durchschnitt 2024)
 - vorindustrielles Niveau: 280 ppm (vor 1750)
-- Anstieg: +53 % (seit vorindustriellem Niveau)
-- schneller als Natur: 100× (CO₂-Anstieg vs. Eiszeiten)
+- Anstieg: gut 50 % (seit vorindustriellem Niveau)
+- schneller als Natur: 250× (laut NASA vs. Ende der letzten Eiszeit)
 
-Hinweis: CO₂-Konzentration (ppm, Keeling-Kurve)
-- 1960: 317 ppm
-- 1970: 326 ppm
-- 1980: 339 ppm
-- 1990: 354 ppm
-- 2000: 370 ppm
-- 2010: 390 ppm
-- 2015: 401 ppm
-- 2020: 414 ppm
-- 2023: 419 ppm
-- 2024: 422.1 ppm
+Hinweis: CO₂-Konzentration am Mauna Loa (Keeling-Kurve)
+- 1960: 316.91 ppm
+- 1970: 325.68 ppm
+- 1980: 338.76 ppm
+- 1990: 354.45 ppm
+- 2000: 369.71 ppm
+- 2010: 390.1 ppm
+- 2015: 401.01 ppm
+- 2020: 414.21 ppm
+- 2023: 421.08 ppm
+- 2024: 424.61 ppm
 
-- Die CO₂-Konzentration ist heute höher als jemals in den letzten 800.000 Jahren. Der Anstieg der letzten 100 Jahre entspricht dem natürlicher Zyklen über 10.000 Jahre — das ist 100-mal schneller.
+- Die CO₂-Konzentration ist heute höher als jemals in den letzten 800.000 Jahren. Der heutige CO₂-Anstieg verläuft laut NASA etwa 250-mal schneller als natürliche Zunahmen nach der letzten Eiszeit.
 
 ### Extremwetter: Häufiger, teurer, tödlicher
 
 - Globale Schäden 2024: 320 Mrd. $ (Munich Re)
 - Globale Schäden 2025: 224 Mrd. $ (Munich Re)
-- Deutschland 2024: 5,7 Mrd. € (Naturgefahren gesamt)
-- Ahrtal 2021: >40 Mrd. € (Gesamtschaden)
+- Deutschland 2024: 5,7 Mrd. € (Naturgefahren gesamt (GDV))
+- Ahrtal 2021: 8,75 Mrd. € (versicherter Gesamtschaden (GDV))
 
-Hinweis: Globale versicherte Katastrophenschäden (Mrd. USD)
-- 2020: 82 Mrd. $
-- 2021: 120 Mrd. $
-- 2022: 125 Mrd. $
-- 2023: 108 Mrd. $
+Hinweis: Versicherte Katastrophenschäden weltweit (Mrd. USD)
 - 2024: 140 Mrd. $
 - 2025: 108 Mrd. $
 
-- Sechs Jahre in Folge über 100 Mrd. USD versicherte Schäden weltweit. Wetterkatastrophen verursachen 93–97 % aller Naturkatastrophenschäden.
+- 2024 und 2025 lagen die versicherten Naturschäden weltweit jeweils über 100 Mrd. USD. Gleichzeitig entfielen 2024/2025 rund 92-93 % der Gesamtschäden und 97 % der versicherten Schäden auf Wetterkatastrophen.
 
 Hinweis: Extremwetter-Schäden in Deutschland
-Spalten: Ereignis / Jahr | Versicherte Schäden | Gesamtschaden
-- Ahrtal-Flut 2021 | 8,75 Mrd. € | >40 Mrd. €
-- Hochwasser/Starkregen 2024 | 2,6 Mrd. € | –
-- Alle Naturgefahren 2024 | 5,7 Mrd. € | –
-- Alle Naturgefahren 2025 | 2,6 Mrd. € | –
+Spalten: Ereignis / Jahr | Versicherte Schäden | Einordnung
+- Ahrtal-Flut 2021 | 8,75 Mrd. € | Folgenschwerste Naturkatastrophe in Deutschland für die Versicherungswirtschaft
+- Hochwasser/Starkregen 2024 | 2,6 Mrd. € | Deutschlandweit versicherte Schäden
+- Alle Naturgefahren 2024 | 5,7 Mrd. € | Sturm, Hagel, Starkregen und Überschwemmungen
+- Alle Naturgefahren 2025 | 2,6 Mrd. € | deutlich unter 2024, aber weiter relevante Schäden
 
-Die Ahrtal-Flut 2021 war die teuerste Naturkatastrophe der deutschen Geschichte: über 40 Mrd. € Gesamtschaden, 134 Todesopfer allein in Rheinland-Pfalz. Von den 30 Mrd. € Wiederaufbaufonds waren bis Ende 2023 erst 3,3 Mrd. € (11 %) abgeflossen.
+Das Ahrtal-Hochwasser 2021 war für die Versicherungswirtschaft mit 206.000 Schäden und 8,75 Mrd. Euro versichertem Gesamtschaden die folgenschwerste Naturkatastrophe in Deutschland.
 
 ### Deutschlands Emissionen: Sektoren und Ziele
 
-- CO₂-Äquivalente 2024: ~650 Mio. t (UBA)
+- CO₂-Äquivalente 2024: 649 Mio. t (UBA)
 - seit 1990: -48,2 % (Gesamtreduktion)
 - Ziel 2030: -65 % (vs. 1990)
 - Klimaneutralität: 2045 (gesetzliches Ziel)
@@ -791,8 +783,8 @@ Spalten: Sektor | 2024 (Mio. t) | Veränderung | Anmerkung
 - Energiewirtschaft | 188 | -7,4 % | Kohlerückgang, EE-Ausbau
 - Industrie | 149 | +0,1 % | Nahezu stagnierend
 - Verkehr | 144 | -0,2 % | Sorgenkind: fast keine Reduktion
-- Gebäude | 100 | -2,3 % | Wärmepumpen-Zuwachs +10 %
-- Landwirtschaft | 61 | -3,2 % | Weniger Dünger, geringerer Viehbestand
+- Gebäude | 100 | -2,3 % | mildere Witterung, Wärmepumpenbestand +10 %
+- Landwirtschaft | 61 | Rückgang ggü. 2023 | weniger Dünger, geringere Emissionen aus Böden
 
 - Der Verkehrssektor ist das Sorgenkind: -0,2 % Reduktion 2024. Ohne drastische Maßnahmen wird das Sektorziel klar verfehlt.
 
@@ -800,55 +792,53 @@ Spalten: Sektor | 2024 (Mio. t) | Veränderung | Anmerkung
 
 ### Kippelemente: Wenn das Klima den Point of no Return überschreitet
 
-Kippelemente sind Teile des Erdsystems, die ab einer bestimmten Temperaturschwelle irreversibel kippen — wie Dominosteine, die nicht mehr aufzustellen sind.
+Kippelemente sind Teile des Erdsystems, die ab bestimmten Schwellenwerten in selbstverstärkende Veränderungen übergehen können, oft mit langfristig nur schwer umkehrbaren Folgen.
 
 Hinweis: Wichtige Kippelemente und ihre Schwellen
 Spalten: Kippelement | Schwelle (°C) | Folgen
-- Korallenriffe (warm) | frühes Kipprisiko | Bereits bei heutiger Erwärmung stark gefährdet
-- Grönland-Eisschild | ~1,5–2,0 °C | Irreversibler Eisverlust, bis zu 7 m Meeresspiegelanstieg
-- Westantarktischer Eisschild | ~1,5–2,0 °C | Instabiler Kollaps, bis zu 3 m Meeresspiegelanstieg
-- Permafrost (abrupt) | ~1,5–2,0 °C | Massive Methan-/CO₂-Freisetzung, Selbstverstärkung
-- Amazonas-Regenwald | ~2,0 °C | Dieback: Waldsterben durch Trockenheit, riesige CO₂-Quelle
-- AMOC (Atlantikzirkulation) | ~1,5–4,0 °C | Zusammenbruch der Meeresströmung, extreme Folgen für Europa
-- Arktisches Sommereis | ~2,0 °C | Eisfreie Sommer, Albedo-Verlust beschleunigt Erwärmung
+- Warmwasser-Korallenriffe | ~1,5 °C (1,0-2,0) | Sehr frühes Kipprisiko; schon heute stark unter Druck
+- Grönland-Eisschild | ~1,5 °C (0,8-3,0) | Langfristig meterweiser Meeresspiegelanstieg
+- Westantarktischer Eisschild | ~1,5 °C (1,0-3,0) | Langfristig meterweiser Meeresspiegelanstieg
+- Abruptes Permafrostauftauen | ~1,5 °C (1,0-2,3) | Zusätzliche CO₂- und Methanemissionen
+- AMOC | ~4,0 °C (1,4-8,0) | Hohe Unsicherheit; große Risiken für Zirkulation und Niederschläge
+- Amazonas-Regenwald | ~3,5 °C (2,0-6,0) | Niedriger bei fortgesetzter Entwaldung
 
-- Bei 1,5 °C Erwärmung drohen bereits mehrere Kippelemente auszulösen. Warmwasser-Korallenriffe gehören zu den frühesten Kipprisiken und sind schon heute stark gefährdet.
+- Bei 1,5 °C werden mehrere Kipprisiken wahrscheinlich oder zumindest nicht mehr vernachlässigbar. Warmwasser-Korallenriffe gehören zu den frühesten und am besten belegten Kipprisiken.
 
-- AMOC-Warnsignale: Aktuelle Forschung (2025) zeigt, dass die Atlantikzirkulation schneller an Stabilität verliert als Modelle vorhergesagt haben.
+- Für die AMOC gibt es beobachtungsbasierte Frühwarnsignale eines Resilienzverlusts. Ob und wann ein Kipppunkt erreicht wird, bleibt aber hoch unsicher.
 
-Das Gefährliche: Kippelemente können sich gegenseitig auslösen (Kaskadeneffekte).
+Das Gefährliche: Kippelemente können sich gegenseitig destabilisieren und Kaskadeneffekte auslösen.
 
 ### Was kostet Handeln — was kostet Nichtstun?
 
-Hinweis: Klimaschutz vs. Nichtstun
-- Kosten des Nichtstuns
-  - Jährlicher Schaden bis 2050: 38 Bio. USD/Jahr
-  - Anteil am globalen BIP bis 2050: ~17 %
-  - Kumulativer BIP-Verlust bis 2100 (bei 3 °C): 15–34 %
-  - USA: Produktivitätsverluste 2000–2023: 4 Bio. USD
-- Kosten des Handelns
-  - Investition für <2 °C bis 2100: 1–2 % des BIP/Jahr
-  - Geschätzte Kosten dafür: 6 Bio. USD
-  - Schadensreduktion dadurch: bis 90 %
-  - Return on Investment bis 2100: ~10-fach
-- Ersparnis: Früher Klimaschutz ist deutlich günstiger als ungebremste Erwärmung
+Hinweis: Frühes Handeln vs. spätes Aufschieben
+- Frühes Handeln
+  - IPCC: <2-°C-Pfad: ~1,7 Bio. USD/Jahr
+  - IPCC: 1,5 °C im Energiesektor: ~2,4 Bio. USD/Jahr
+  - IEA: Clean-Energy-Investitionen: 4,5 Bio. USD/Jahr bis Anfang der 2030er
+  - Robuster Befund: Investieren ist teuer, Aufschieben verteuert es weiter
+- Spätes Aufschieben
+  - IPCC-Warnung: mehr Carbon Lock-ins
+  - Finanzrisiken: mehr stranded assets
+  - Folge: höhere Zusatzkosten
+  - Klimarisiko: mehr Verluste und Schäden mit jedem Erwärmungsschritt
+- Ersparnis: Der robuste ökonomische Kernbefund lautet: Verzögertes Handeln erhöht Risiken und Zusatzkosten.
 
-- Nichtstun kann bis 2050 laut aktueller Forschung jährliche Schäden in der Größenordnung von 38 Billionen USD verursachen. BCG veranschlagt für wirksamen Klimaschutz deutlich geringere wirtschaftliche Lasten als für eine ungebremste Erwärmung.
+- Der IPCC hält fest: Globale Mitigationsinvestitionen müssen bis 2030 je nach Sektor und Region um ein Mehrfaches wachsen; für viele Bereiche liegt der Bedarf beim 3- bis 6-Fachen heutiger Größenordnungen.
 
-- Die 6 Billionen USD für Klimaschutz sind weniger als ein Sechstel der Kosten, die bei einer Erwärmung über 2 °C entstehen.
+- Die IEA veranschlagt im aktualisierten Net-Zero-Roadmap-Pfad weltweite Clean-Energy-Investitionen von 4,5 Bio. USD pro Jahr bis Anfang der 2030er.
 
 ### Was sagt die Wissenschaft?
 
 - der Fachpublikationen: >99 % (bestätigen menschengemachten Klimawandel)
-- nationale Wissenschaftsakademien: 0 (widersprechen dem Konsens)
-- IPCC seit 1990: 6 Berichte (wachsende Sicherheit)
-- IPCC AR6 (2023): "unequivocal" (= eindeutig menschengemacht)
+- Publikationen: 88.125 (in der Lynas-Metaanalyse 2021)
+- Abstracts mit Position: 97 % (in Cook et al. 2013)
+- IPCC AR6: unequivocal (= eindeutig menschengemacht)
 
 Hinweis: Entwicklung des wissenschaftlichen Konsenses
-- 2004: Oreskes-Studie (928 Studien: 0 widersprachen dem Konsens)
-- 2013: Cook et al. (97 % Konsens unter 11.944 Studien)
-- 2019: Powell-Studie (100 % Konsens unter 11.602 Studien)
-- 2021: Lynas et al. (>99,9 % Konsens unter 88.125 Studien)
+- 2004: Oreskes-Studie (928 Abstracts: kein Widerspruch zum Konsens)
+- 2013: Cook et al. (97 % der Abstracts mit Position stützen den Konsens)
+- 2021: Lynas et al. (>99 % Konsens unter 88.125 Publikationen)
 - 2023: IPCC AR6 ("Unequivocally" — eindeutig menschengemacht)
 
 - Der IPCC AR6 (2023) stellt unmissverständlich fest: Menschliche Aktivitäten haben die globale Erwärmung 'eindeutig' (unequivocally) verursacht.
@@ -856,42 +846,47 @@ Hinweis: Entwicklung des wissenschaftlichen Konsenses
 ### Argumente
 
 - Aussage: Das Klima hat sich schon immer verändert!
-  Antwort: Stimmt — aber der aktuelle CO₂-Anstieg ist 100-mal schneller als bei natürlichen Zyklen. Nach der letzten Eiszeit stieg CO₂ über 10.000 Jahre um ~80 ppm. Wir haben in nur 150 Jahren +147 ppm draufgelegt. Die Geschwindigkeit ist das Problem: Ökosysteme können sich nicht schnell genug anpassen. (Quelle: NASA, MIT Climate Portal)
+  Antwort: Stimmt, das Klima hat sich schon immer verändert. Entscheidend ist aber: Der heutige CO₂-Anstieg und die aktuelle Erwärmung verlaufen viel schneller als die natürlichen Veränderungen nach der letzten Eiszeit. Das erschwert die Anpassung von Ökosystemen und Gesellschaft.
 - Aussage: Deutschland allein kann das Klima nicht retten!
-  Antwort: Deutschland gehört historisch zu den großen Emittenten und liegt pro Kopf weiter über dem Weltmittel. Wenn jedes Land auf andere zeigt, passiert gar nichts. Zudem schafft Klimaschutz Märkte und Arbeitsplätze etwa bei Erneuerbaren, Wärmepumpen oder E-Mobilität.
+  Antwort: Deutschland allein entscheidet das Klima nicht. Aber Deutschland liegt pro Kopf weiter über dem Weltmittel und gehört historisch zu den Mitverursachern. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.
 - Aussage: Klimaschutz kostet Arbeitsplätze!
-  Antwort: Das Gegenteil ist der Fall: Weltweit arbeiten bereits 16,6 Mio. Menschen in der Erneuerbaren-Branche (IRENA 2024). In Deutschland hat sich die Zahl der Stellenausschreibungen in der Energiewende von 173.000 (2019) auf 372.500 (2024) mehr als verdoppelt. Die Branche sucht ~300.000 Fachkräfte. Im Gegensatz dazu: Die Kohleindustrie beschäftigte zuletzt nur noch ~20.000 Menschen. (Quellen: IRENA 2025, BEE 2025, BMWK 2024)
+  Antwort: Klimaschutz verschiebt Beschäftigung stärker, als dass er pauschal Jobs vernichtet. Weltweit arbeiten laut IRENA bereits 16,6 Mio. Menschen in den Erneuerbaren. In Deutschland sind Energiewende-Berufe in den letzten Jahren stark gewachsen. Entscheidend ist, den Strukturwandel mit Qualifizierung und regionaler Unterstützung zu begleiten.
 - Aussage: Die Wissenschaftler sind sich doch gar nicht einig!
-  Antwort: Doch — zu über 99 %. Eine Metastudie von 2021 wertete 88.125 Fachpublikationen aus; praktisch alle bestätigen den menschengemachten Klimawandel. Der IPCC AR6 (2023) stuft den menschlichen Einfluss als 'eindeutig' ein.
+  Antwort: Doch. Metaanalysen kommen auf einen wissenschaftlichen Konsens von über 99 %, und der IPCC hält den menschlichen Einfluss auf die Erwärmung für eindeutig.
 - Aussage: Es ist doch gar nicht wärmer geworden — letzter Winter war kalt!
-  Antwort: Wetter ≠ Klima. Ein kalter Winter in Deutschland ändert nichts am globalen Trend: 2024 war das wärmste Jahr seit Beginn der Aufzeichnungen (+1,6 °C über vorindustriellem Niveau). Die letzten zehn Jahre waren das wärmste Jahrzehnt ever. 11 von 12 Monaten in 2024 lagen über der 1,5-°C-Schwelle. Einzelne Kälteereignisse entstehen oft gerade durch Klimawandel — z. B. durch gestörte Jetstreams. (Quelle: Copernicus C3S 2025)
+  Antwort: Wetter ist nicht Klima. Ein kalter Winter in Deutschland widerlegt den globalen Trend nicht: 2024 war weltweit das wärmste Jahr seit Beginn der Aufzeichnungen. In Europa werden Kälteperioden insgesamt seltener, auch wenn einzelne kalte Winter weiter vorkommen können.
 - Aussage: CO₂ ist doch gut für Pflanzen!
-  Antwort: Im Gewächshaus unter Idealbedingungen stimmt das — aber die Erde ist kein Gewächshaus. In der realen Welt überwiegen die negativen Effekte: Hitzestress, Dürren, Starkregen und Nährstoffmangel reduzieren Ernteerträge. Freilandexperimente (FACE-Studien) zeigen 50 % geringere Erträge als Laborversuche. Eine Stanford-Studie zeigt: Ab 2050 überwiegt der Schaden durch Hitze den CO₂-Düngeeffekt komplett. Außerdem: Mehr CO₂ fördert vor allem Unkräuter, nicht Nutzpflanzen. (Quellen: Yale Climate Connections 2020, Skeptical Science)
+  Antwort: Mehr CO₂ kann Pflanzen unter kontrollierten Bedingungen beim Wachstum helfen. Im Freiland begrenzen aber Wasser, Nährstoffe, Hitze und Extremwetter diesen Effekt. Für Landwirtschaft und Ökosysteme ist das deshalb kein Entwarnungssignal.
 - Aussage: China und Indien sind doch viel schlimmer!
-  Antwort: China emittiert absolut am meisten — aber pro Kopf liegt China bei ~8 t, Deutschland bei ~7 t und Indien bei nur ~2 t (globaler Schnitt: 4,9 t). Historisch kumuliert hat der Westen das Problem verursacht: USA 24 %, Europa ~22 %, China 14 % der historischen Emissionen. Außerdem produziert China viele Waren für westliche Konsumenten — diese Emissionen müsste man eigentlich uns zurechnen. Und: China installiert mehr Erneuerbare als alle anderen Länder zusammen. (Quellen: Our World in Data 2023, IEA 2023)
+  Antwort: China stößt heute absolut sehr viel CO₂ aus, Indien pro Kopf aber deutlich weniger als Deutschland. Für faire Vergleiche zählen neben aktuellen Emissionen auch Pro-Kopf-Werte, historische Beiträge und der Handel. Daraus folgt nicht, dass Deutschland nichts tun müsste.
 - Aussage: Vulkane stoßen mehr CO₂ aus als Menschen!
-  Antwort: Falsch — und zwar deutlich. Laut NOAA emittieren Menschen mindestens rund 60-mal mehr CO₂ als alle Vulkane zusammen. Der Vulkanvergleich ist deshalb kein ernsthaftes Gegenargument zur menschengemachten Erwärmung.
+  Antwort: Nein. Menschliche Aktivitäten emittieren laut NOAA mindestens etwa 60-mal mehr CO₂ pro Jahr als alle Vulkane zusammen.
 - Aussage: Klimaschutz können wir uns nicht leisten!
-  Antwort: Nichtstun ist wirtschaftlich deutlich teurer: Laut PIK drohen bis 2050 jährliche Klimaschäden in der Größenordnung von 38 Billionen USD. BCG veranschlagt die Kosten wirksamen Klimaschutzes deutlich niedriger als die Verluste bei ungebremster Erwärmung. Prävention ist daher ökonomisch sinnvoller als spätes Reagieren.
+  Antwort: Belastbar ist vor allem: Klimaschutz erfordert hohe Investitionen, aber verzögertes Handeln erhöht Risiken und Zusatzkosten. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad bis Anfang der 2030er weltweit rund 4,5 Billionen US-Dollar pro Jahr für Clean Energy.
 
 ### Quellen
 
-- Copernicus Climate Change Service (C3S): Global Climate Highlights 2024 (https://climate.copernicus.eu/global-climate-highlights-2024)
-- NOAA/Scripps: Keeling-Kurve — CO₂-Messungen Mauna Loa (https://keelingcurve.ucsd.edu/)
-- IPCC AR6 Synthesis Report: Climate Change 2023 (https://www.ipcc.ch/assessment-report/ar6)
-- Munich Re: Natural Disaster Figures 2024 & 2025 (https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-2025.html)
+- Copernicus Climate Change Service (C3S): 2024 first year above 1.5°C above pre-industrial level (https://climate.copernicus.eu/copernicus-2024-first-year-exceed-15degc-above-pre-industrial-level)
+- NOAA GML / Scripps: Annual mean CO₂ at Mauna Loa (Keeling Curve data) (https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt)
+- IPCC AR6 Synthesis Report: Summary for Policymakers Headline Statements (https://www.ipcc.ch/report/ar6/syr/resources/spm-headline-statements)
+- Munich Re: Natural disaster figures 2024 (https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2025/natural-disaster-figures-2024.html)
 - Umweltbundesamt (UBA): Finale Emissionsdaten 2024 (https://www.umweltbundesamt.de/themen/finale-daten-fuer-2024-emissionen-um-drei-prozent)
 - Lynas et al. (2021): Greater than 99% consensus on human caused climate change (https://iopscience.iop.org/article/10.1088/1748-9326/ac2966)
-- BCG (2025): Why Investing in Climate Action Makes Economic Sense (https://www.bcg.com/publications/2025/investing-in-climate-action)
-- Potsdam-Institut für Klimafolgenforschung (PIK, 2024): 38 Bio. USD Klimaschäden/Jahr bis 2050 (https://www.reuters.com/business/environment/climate-change-damage-could-cost-38-trillion-per-year-by-2050-study-finds-2024-04-17/)
-- IRENA & ILO: Renewable Energy and Jobs – Annual Review 2025 (https://www.irena.org/Publications/2026/Jan/Renewable-energy-and-jobs-Annual-review-2025)
 - GDV: Naturgefahrenstatistik 2024 — Hochwasserschäden Deutschland (https://www.gdv.de/gdv/medien/medieninformationen/gdv-naturgefahrenstatistik-2024-hochwasserschaeden-mehr-als-verdoppelt-188734)
-- Our World in Data: Cumulative & Per-Capita CO₂ Emissions (https://ourworldindata.org/co2-emissions-metrics)
 - Armstrong McKay et al. (2022): Exceeding 1.5°C could trigger multiple climate tipping points (Science) (https://www.science.org/doi/full/10.1126/science.abn7950)
-- NOAA Climate.gov: Vulkan- vs. menschliche CO₂-Emissionen (https://www.climate.gov/news-features/climate-qa/which-emits-more-carbon-dioxide-volcanoes-or-human-activities)
 - NASA Climate: Evidence for Climate Change (https://climate.nasa.gov/evidence/)
-- BEE / BMWK (2025): Erneuerbaren-Branche als Jobmotor — 372.500 Stellenausschreibungen (https://www.bee-ev.de/service/pressemitteilungen/beitrag/erneuerbaren-branche-bleibt-jobmotor)
 - Global Tipping Points Report 2023 (University of Exeter) (https://report-2023.global-tipping-points.org/)
+- Copernicus C3S: Annual global temperature data 1850-2024 (CSV/ZIP) (https://climate.copernicus.eu/sites/default/files/2025-01/GCH2024_PR_Fig1_timeseries_annual_global_temperature_anomalies_ref1850-1900_data.zip)
+- WMO: Carbon dioxide levels increase by record amount to new highs in 2024 (https://wmo.int/news/media-centre/carbon-dioxide-levels-increase-record-amount-new-highs-2024)
+- Munich Re: Natural disaster figures 2025 (https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-2025.html)
+- GDV: Flutkatastrophe von 2021 - 7,5 Milliarden Euro an über 200.000 Versicherte ausbezahlt (https://www.gdv.de/gdv/medien/medieninformationen/flutkatastrophe-ahrtal-schadenregulierung-180752)
+- GDV: Naturgefahrenbilanz 2025 - deutlich weniger Schäden durch Wetterextreme (https://www.gdv.de/gdv/medien/medieninformationen/gdv-naturgefahrenbilanz-2025-deutlich-weniger-schaeden-durch-wetterextreme--195410)
+- UBA: Treibhausgasminderungsziele Deutschlands (https://www.umweltbundesamt.de/daten/klima/treibhausgasminderungsziele-deutschlands)
+- UBA Data Cube: Entwicklung der Treibhausgasemissionen in Deutschland (https://datacube.uba.de/vis?df%5Bds%5D=ds-dc-release&df%5Bid%5D=DF_CLIMATE_EMISSIONS_GHG_TRENDS&df%5Bag%5D=UBA&df%5Bvs%5D=2026.0)
+- IPCC AR6 WGIII Chapter 15: Investment and Finance (https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-15/)
+- IEA: Net Zero Roadmap 2023 update (https://www.iea.org/news/the-path-to-limiting-global-warming-to-1-5-c-has-narrowed-but-clean-energy-growth-is-keeping-it-open)
+- Oreskes (2004): Beyond the Ivory Tower - The Scientific Consensus on Climate Change (https://www.science.org/doi/10.1126/science.1103618)
+- Cook et al. (2013): Quantifying the consensus on anthropogenic global warming (https://iopscience.iop.org/article/10.1088/1748-9326/8/2/024024)
 
 ---
 
@@ -904,20 +899,22 @@ Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen | Stand:
 ### E-Mobilität vs. Verbrenner
 
 - E-Autos (BEV): 2,03 Mio. (Bestand 1. Jan 2026)
-- Verbrenner: 42,7 Mio. (Bestand 1. Jan 2026)
+- Verbrenner: 42,7 Mio. (Benzin + Diesel, 1. Jan 2026)
 - BEV-Anteil: 19,1% (an Neuzulassungen 2025)
 
-Hinweis: Gesamtwirkungsgrad (Well-to-Wheel) im Vergleich
+Hinweis: Gesamtwirkungsgrad strombasierter Pkw-Antriebe
 - Elektroauto (BEV)
-  - Energie am Rad: 70–80 %
-  - Verluste (Laden/Motor): 20–30 %
-- Verbrenner mit E-Fuels
-  - Energie am Rad: 10–15 %
-  - Verluste (Herstellung/Motor): 85–90 %
+  - Gesamtwirkungsgrad: rund 62 %
+  - Strombedarf je km: deutlich geringer
+- Wasserstoffauto (FCEV)
+  - Gesamtwirkungsgrad: rund 28 %
+  - Strombedarf je km: 2- bis 3-mal höher
 
-- Für die gleiche Strecke braucht ein Verbrenner mit E-Fuels 5- bis 7-mal so viel erneuerbaren Strom wie ein Batterie-Elektroauto.
+- Für Pkw sind E-Fuels und Wasserstoff deutlich ineffizienter als direkte Stromnutzung im E-Auto. Das UBA sieht ihre Stärken vor allem dort, wo Batterien an Grenzen stoßen, etwa im Luft- und Seeverkehr.
 
-Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten.
+Auch beim heutigen Strommix sind E-Autos laut UBA über den Lebenszyklus etwa 40 % klimafreundlicher als Benziner; mit weiter wachsendem Ökostrom steigt der Vorteil.
+
+Zum 1. Januar 2026 waren in Deutschland 2.034.260 batterieelektrische Pkw zugelassen.
 
 ### ÖPNV & Deutschlandticket
 
@@ -926,57 +923,45 @@ Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke übersch
 - Kündigungsquote: < 6 % (nach Preiserhöhung)
 
 Hinweis: Preisentwicklung Deutschlandticket
-- Mai 2023: 49 € (Start)
-- Jan 2025: 58 € (+18 %)
-- Jan 2026: 63 € (+9 %)
+- Jan 2025: 58 € (bundeseinheitlicher Preis)
+- Jan 2026: 63 € (erneute Erhöhung)
 
-- Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %. Nach der Preiserhöhung 2025 lag sie laut VDV bei rund 8 %.
+- Nach der Preiserhöhung 2026 blieb die Kündigungsquote laut VDV bei 5,75 %. Auch nach der Erhöhung 2025 gab es laut VDV keine Kündigungswelle.
 
 Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland.
 
 ### Klimaziele im Verkehrssektor
 
-- Der Verkehrssektor verfehlt seine Klimaziele deutlich. Für den Zeitraum 2021–2030 droht eine Zielverfehlung von 169–224 Millionen Tonnen CO₂-Äquivalenten.
+- Der Verkehrssektor verfehlt seine Klimaziele deutlich. Laut UBA-Projektionen 2024 droht bis 2030 eine kumulierte Minderungslücke von 180 Millionen Tonnen CO2-Äquivalenten.
 
-Hinweis: CO₂-Emissionen nach Verkehrsmittel (g pro Personenkilometer)
-- Fahrrad: 0 g CO₂/Pkm
-- E-Bike: 3 g CO₂/Pkm
-- Fernbus: 31 g CO₂/Pkm
-- Bahn (Fern): 31 g CO₂/Pkm
-- ÖPNV (Nah): 75 g CO₂/Pkm
-- PKW: 166 g CO₂/Pkm
-- Flugzeug: 238 g CO₂/Pkm
+Hinweis: CO2-Emissionen nach Verkehrsmittel (g pro Personenkilometer)
+- Fahrrad: 0 g CO2/Pkm
+- E-Bike: 3 g CO2/Pkm
+- Fernbus: 31 g CO2/Pkm
+- Bahn (Fern): 31 g CO2/Pkm
+- ÖPNV (Nah): 75 g CO2/Pkm
+- PKW: 166 g CO2/Pkm
+- Flugzeug: 238 g CO2/Pkm
 
-- Ein PKW stößt pro Personenkilometer mehr als das Fünffache eines Fernbusses und mehr als das Fünffache der Bahn aus.
+- Ein Pkw verursacht pro Personenkilometer deutlich höhere Emissionen als Fernbus, Bahn, Fahrrad oder E-Bike.
 
-2025 stiegen die Emissionen im Verkehr laut Agora Energiewende sogar leicht an, bedingt durch höheren Kraftstoffverbrauch. Der Verkehrssektor bleibt der einzige Sektor, der seine Emissionen gegenüber 1990 nicht substanziell reduziert hat.
+Die UBA-Quartalsindikatoren für 2025 deuteten zeitweise auf höheren Kraftstoffverbrauch hin. Der Verkehrssektor bleibt damit der Bereich mit dem größten Nachholbedarf beim Klimaschutz.
 
 ### Flächenverbrauch & Stadtplanung
 
 - Autos beanspruchen viel öffentlichen Raum, obwohl sie einen Großteil der Zeit nicht bewegt werden.
 
-Hinweis: Flächenverbrauch pro beförderter Person in der Stadt
-- Fußgänger: 2 m²
-- Straßenbahn: 8 m²
-- Fahrrad: 10 m²
-- Bus: 20 m²
-- PKW: 100 m²
-
-- Stellplätze in DE: viele Mio. (über 3 pro PKW)
-- Verkehrsfläche für MIV: 58 % (in Berlin (fahrend + parkend))
-- Parkplatz vs. Spielplatz: 10× (Flächenverhältnis in Berlin)
+Parken ist kein Nulltarif-Thema: Es beansprucht wertvolle Stadtfläche, verursacht Bewirtschaftungsaufwand und konkurriert mit Grünflächen, Radwegen, Lieferzonen oder Aufenthaltsräumen.
 
 - In vielen Städten beansprucht der motorisierte Individualverkehr deutlich mehr Fläche, als seinem Anteil an den tatsächlich zurückgelegten Wegen entspricht.
 
-- Selbst in verkehrsreichen Zeiten wird nur ein Teil des Fahrzeugbestands gleichzeitig bewegt.
-
-Die Gesellschaft trägt enorme Kosten für die Parkplatzsuche: rund 40 Milliarden Euro pro Jahr laut einer Studie — durch verlorene Zeit, Spritverbrauch und Stau. Gleichzeitig kostet ein Bewohnerparkausweis in vielen Städten weniger als ein Streaming-Abo.
+Verkehrswende bedeutet hier nicht Autofeindschaft, sondern eine gerechtere Verteilung des öffentlichen Raums zwischen Gehen, Radfahren, ÖPNV, Lieferverkehr und Autos.
 
 ### Radverkehr & aktive Mobilität
 
 - Radanteil (Wege): 11,2 % (MiD 2023, deutschlandweit)
-- Fahrräder in DE: 90,6 Mio. (davon >17 Mio. E-Bikes)
-- Ø tägliche Fahrstrecke: < 40 km (PKW-Nutzer in Deutschland)
+- Fahrräder in DE: ~80 Mio. (MiD 2023)
+- davon elektrisch: 1/4 (MiD 2023)
 
 Hinweis: Radverkehrsanteil am Modal Split (Alltagswege) in Deutschland
 - 2002: 9.3 %
@@ -986,13 +971,7 @@ Hinweis: Radverkehrsanteil am Modal Split (Alltagswege) in Deutschland
 
 - Ein Drittel aller Fahrrad-Personenkilometer werden mittlerweile mit E-Bikes gefahren.
 
-Hinweis: Radverkehrsanteil in Metropolen vs. ländlicher Raum
-- Metropolen (DE): 15 %
-- Mittelstädte: 11 %
-- Ländlich: 6 %
-- Niederlande: 27 %
-
-- Die Zufriedenheit mit der Radinfrastruktur ist von 50 % (2017) auf 40 % (2023) gesunken — trotz steigendem Radanteil.
+- Oldenburg zeigt, was mit guter Radinfrastruktur möglich ist: Im Binnenverkehr werden dort bereits 47 % der Wege mit dem Fahrrad zurückgelegt.
 
 Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen.
 
@@ -1000,99 +979,86 @@ Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfang
 
 - Verkehrstote (2025): 2.814 (vorläufig, Destatis)
 - Verletzte (2025): 366.000 (vorläufig, Destatis)
-- Herzinfarkte/Jahr: ~4.000 (durch Verkehrslärm (UBA))
+- Menschen: 21,9 Mio. (>55 dB(A) ganztägig)
 
-- Etwa drei Viertel der Bevölkerung fühlen sich in ihrem Wohnumfeld durch Straßenverkehrslärm gestört oder belästigt.
+- Straßenverkehr ist die wichtigste Lärmquelle. Nach der UBA-Lärmkartierung 2022 waren ganztägig rund 21,9 Millionen Menschen Verkehrslärm über 55 dB(A) ausgesetzt.
 
-Hinweis: Verkehrstote in Deutschland nach Jahr
-- 2021: 2562 Personen
-- 2022: 2788 Personen
-- 2023: 2839 Personen
-- 2024: 2770 Personen
-- 2025: 2814 Personen
+- 2024 war überhöhte oder nicht angepasste Geschwindigkeit die häufigste Ursache tödlicher Verkehrsunfälle. 30 % der Verkehrstoten starben bei solchen Unfällen.
 
-- 30 Prozent aller Verkehrstoten kamen 2024 durch überhöhte Geschwindigkeit ums Leben — das ist Unfallursache Nr. 1.
+- Bei den 6- bis 14-Jährigen verunglückten 2024 die meisten Kinder mit dem Fahrrad (38 %), aber auch häufig im Auto (29 %) und zu Fuß (20 %).
 
-- Im Schulalter (6–9 Jahre) verunglückten 40,4 Prozent der betroffenen Kinder als PKW-Insassen — nicht auf dem Schulweg zu Fuß oder per Rad.
-
-Millionen Menschen sind in Deutschland Straßenlärm über 55 dB(A) ausgesetzt. Die WHO empfiehlt maximal 53 dB(A) tagsüber. Das UBA empfiehlt Tempo 30 als Regelgeschwindigkeit in Innenstädten — sowohl für weniger Lärm als auch für weniger Unfälle.
+Die WHO empfiehlt für Straßenverkehr maximal 53 dB(A) ganztags. Das UBA empfiehlt Tempo 30 als innerörtliche Regelgeschwindigkeit, weil damit Lärm und Unfallfolgen sinken können.
 
 ### Soziale Teilhabe & Gerechtigkeit
 
 - Verkehrswende heißt nicht Autoverbot, sondern echte Wahlfreiheit zwischen verschiedenen Verkehrsmitteln.
 
 - Haushalte ohne Auto: 20 % (bundesweit (MiD 2023))
-- Autolosigkeit: deutlich höher (bei niedrigem Einkommen häufiger als bei hohem)
-- autolose Haushalte: ~40 % (in Großstädten/Metropolen)
+- MIV-Anteil im ländlichen Raum: > 60 % (an den Wegen laut MiD)
+- Bevölkerung mit gut erreichbarer Haltestelle: 90 % (aber große regionale Unterschiede)
 
-Hinweis: Monatliche Vollkosten: Auto vs. ÖPNV + Rad
-- PKW (Kleinwagen)
-  - Wertverlust: ~150 €
-  - Versicherung + Steuer: ~90 €
-  - Kraftstoff (15.000 km/a): ~120 €
-  - Wartung + Reifen: ~50 €
-  - Vollkosten/Monat: ab 400 €
-- D-Ticket + Fahrrad
-  - Deutschlandticket: 63 €
-  - Fahrrad (Abschreibung): ~15 €
-  - Wartung Rad: ~10 €
-  - Carsharing (gelegentlich): ~30 €
-  - Vollkosten/Monat: ~118 €
-- Ersparnis: Ersparnis: über 280 € pro Monat — über 3.300 € im Jahr
+- Ein eigener Pkw verursacht laut ADAC auch bei günstigen Modellen erhebliche Gesamtkosten aus Wertverlust, Versicherung, Wartung und Betrieb.
 
-- Allein das Dienstwagenprivileg kostet laut FOES mehrere Milliarden Euro pro Jahr. Hinzu kommen weitere klimaschädliche Anreize im Verkehrssystem.
+- Deutschlandticket, Fahrrad und gelegentliches Carsharing können je nach Nutzungsprofil deutlich günstiger sein als ein eigenes Auto.
 
-Hinweis: Wer profitiert vom Dienstwagenprivileg?
-- Oberstes Fünftel (Einkommen): 50% (50 % der Subvention)
-- Obere Mitte: 25% (25 %)
-- Untere 60 %: 25% (25 %)
-- Gesamt: 3,5–6 Mrd. €/Jahr Steuermindereinnahmen (FÖS)
+- Laut FÖS begünstigt das Dienstwagenprivileg vor allem höhere Einkommen und setzt im Verkehrssystem klimapolitisch problematische Anreize.
 
-- Im durchschnittlichen deutschen PKW sitzen meist nur wenige Personen. Das unterstreicht, wie flächenintensiv das bestehende System ist.
+Rund zwei Drittel aller Neuwagen werden gewerblich zugelassen. Wie Dienstwagen besteuert werden, beeinflusst deshalb direkt das Tempo der Antriebswende.
 
-Echte Wahlfreiheit in der Mobilität bedeutet: Gute Alternativen müssen existieren. In vielen ländlichen Regionen fährt der Bus nur alle zwei Stunden — dort ist das Auto kein Luxus, sondern Zwang. Die Verkehrswende muss auch dort ankommen, mit besseren Taktungen, Rufbussen und sicheren Radwegen.
+In vielen ländlichen Regionen ist ein alltagstauglicher ÖPNV schwerer erreichbar als in Städten. Genau dort braucht die Verkehrswende bessere Takte, Rufbusse und sichere Anschlüsse statt bloß Appelle.
 
 ### Argumente
 
 - Aussage: E-Autos sind doch gar nicht umweltfreundlicher, wenn der Strom aus Kohle kommt!
-  Antwort: Selbst beim aktuellen deutschen Strommix ist ein E-Auto über seinen Lebenszyklus deutlich klimafreundlicher als ein Verbrenner. Der Erneuerbare-Anteil lag 2025 bei über 55 %. Der hohe Wirkungsgrad des E-Motors (70–80 %) schlägt die ineffiziente Verbrennung (ca. 20–30 %) bei weitem. Und mit jedem Windrad und Solarpanel wird das E-Auto sauberer — ein Verbrenner nie.
+  Antwort: Auch mit dem heutigen deutschen Strommix sind E-Autos laut UBA über den Lebenszyklus klar klimafreundlicher als Benziner. 2025 deckten Erneuerbare bereits 55,3 % des Stromverbrauchs. Mit jedem weiteren Ausbau von Wind und Solar wächst der Klimavorteil batterieelektrischer Fahrzeuge, während Verbrenner auf fossile Kraftstoffe angewiesen bleiben.
 - Aussage: Wir sollten einfach E-Fuels tanken, dann können wir unsere Verbrenner behalten.
-  Antwort: E-Fuels sind extrem ineffizient: Für die gleiche Strecke braucht ein damit betriebener Verbrenner 5- bis 7-mal so viel erneuerbaren Strom wie ein E-Auto. E-Fuels werden dringend für Flugzeuge und Schiffe gebraucht, wo Batterien zu schwer sind. Sie für PKW einzusetzen wäre massive Energieverschwendung.
+  Antwort: E-Fuels sind für Pkw der ineffiziente Umweg. Das UBA hält direkte Stromnutzung im E-Auto für deutlich effizienter und sieht strombasierte Kraftstoffe vor allem dort, wo Batterien an Grenzen stoßen - etwa im Luft- und Seeverkehr. Für den Massen-Pkw-Verkehr wären E-Fuels deshalb teuer und verschwenderisch.
 - Aussage: Das Deutschlandticket ist ein Milliardengrab und bringt niemanden dazu, das Auto stehen zu lassen.
-  Antwort: Mit rund 14,6 Millionen Nutzern Ende 2025 ist das Ticket ein großer Erfolg. Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %, nach der Preiserhöhung 2025 laut VDV aber bei rund 8 %. Das Ticket vereinfacht den Tarifdschungel massiv und entlastet viele Pendler trotzdem deutlich.
+  Antwort: Mit rund 14,6 Millionen Nutzenden Ende 2025 ist das Deutschlandticket stark verbreitet. Laut VDV blieb selbst nach der Preiserhöhung 2026 die Kündigungsquote bei 5,75 %. Das Ticket vereinfacht den Tarifdschungel massiv und erleichtert vielen Menschen den Zugang zum ÖPNV.
 - Aussage: Die Reichweite von E-Autos ist viel zu gering für den Alltag.
-  Antwort: Die durchschnittliche tägliche Fahrstrecke in Deutschland liegt bei unter 40 Kilometern. Moderne E-Autos bieten reale Reichweiten von 300 bis 500 Kilometern, was für über 95 % aller Alltagsfahrten völlig ausreicht. Zudem wächst das Schnellladenetz kontinuierlich — über 150.000 öffentliche Ladepunkte gab es Ende 2025.
+  Antwort: Die durchschnittliche Alltagsmobilität liegt deutlich unter typischen E-Auto-Reichweiten. Für den Alltag reichen moderne E-Autos deshalb oft aus. Zudem wächst die öffentliche Ladeinfrastruktur weiter, und viele Ladevorgänge finden zu Hause oder am Arbeitsplatz statt.
 - Aussage: Das Stromnetz bricht zusammen, wenn alle elektrisch fahren.
-  Antwort: Studien zeigen, dass selbst bei 15 Millionen E-Autos der Strombedarf nur um etwa 9–10 % des heutigen Verbrauchs steigen würde. Das deutsche Stromnetz kann das bewältigen, besonders durch intelligentes Laden (z. B. nachts, wenn viel Windstrom im Netz ist). Nie mehr als 10 % aller PKW sind gleichzeitig unterwegs — sie laden also auch nicht alle gleichzeitig.
+  Antwort: Das Stromnetz muss für mehr E-Mobilität ausgebaut und lokal intelligent gesteuert werden. Genau dafür gibt es inzwischen Regeln wie § 14a EnWG. Die Herausforderung heißt Lastmanagement und Netzausbau, nicht flächendeckender Blackout.
 - Aussage: Auf dem Land gibt es keine Ladesäulen, E-Autos funktionieren nur in der Stadt!
-  Antwort: Deutschland hatte Ende 2025 deutlich über 150.000 öffentliche Ladepunkte. Die Abdeckung verbessert sich kontinuierlich, gerade entlang von Autobahnen. Außerdem finden viele Ladevorgänge zu Hause oder am Arbeitsplatz statt — die öffentliche Ladesäule ist nicht der einzige Standardfall.
+  Antwort: Von fehlender Ladeinfrastruktur kann bundesweit keine Rede mehr sein: Anfang Februar 2026 waren bei der Bundesnetzagentur 196.353 öffentliche Ladepunkte gemeldet. Regionale Lücken gibt es weiter, aber das Netz wächst stark. Außerdem finden viele Ladevorgänge zu Hause oder am Arbeitsplatz statt.
 - Aussage: Autofreie Innenstädte töten den Einzelhandel!
-  Antwort: Studien aus ganz Europa zeigen das Gegenteil: Fußgänger und Radfahrer geben in Innenstädten mehr Geld pro Besuch aus als Autofahrer. Autofreie Zonen steigern die Aufenthaltsqualität, erhöhen die Besucherzahlen und stärken den lokalen Handel. Beispiele wie die Superblocks in Barcelona oder autoarme Zonen in Utrecht belegen: Weniger Autos bedeuten mehr Leben und mehr Umsatz.
+  Antwort: Ein genereller Umsatzeinbruch durch autoarme Innenstädte ist empirisch nicht gut belegt. Eine RIFS-Auswertung zeigt für zwei untersuchte Einkaufsstraßen: Nur 6,6 % der Kundschaft kam mit dem Auto, aber 91 % des Umsatzes stammten von Menschen, die zu Fuß, mit dem Rad oder dem ÖPNV unterwegs waren. Attraktive, gut erreichbare Zentren helfen dem lokalen Handel eher, als dass sie ihm schaden.
 - Aussage: Radwege sind Geldverschwendung — die nutzt doch kaum jemand!
-  Antwort: Der Radverkehrsanteil steigt dort, wo gute Infrastruktur gebaut wird — die Nachfrage folgt dem Angebot. In Oldenburg liegt der Radanteil bei 47 %, in den Niederlanden bei 27 %. Deutschland investiert pro Kopf und Jahr nur einen Bruchteil dessen, was die Niederlande ausgeben. Ein Kilometer Radweg kostet etwa 1–2 Millionen Euro, ein Kilometer Autobahn 10–30 Millionen.
+  Antwort: Radwege sind keine Geldverschwendung, wenn sie sicher geplant und an Alltagspfade angeschlossen werden. Gute Infrastruktur erhöht nachweislich die Nutzung und macht Mobilität günstiger, gesünder und platzsparender. Besonders E-Bikes erweitern das Potenzial weit über die Innenstadt hinaus.
 - Aussage: Tempo 30 in der Stadt ist völlig übertrieben und bringt nichts.
-  Antwort: Tempo 30 senkt die Unfallschwere drastisch: Bei 30 km/h liegt das Todesfallrisiko für Fußgänger bei ca. 10 %, bei 50 km/h bei ca. 40 %. Zudem reduziert Tempo 30 den Straßenlärm deutlich — laut UBA die Hauptquelle von Lärmbelästigung in Deutschland. 30 Prozent aller Verkehrstoten sterben wegen überhöhter Geschwindigkeit. Tempo 30 macht Städte sicherer, leiser und lebenswerter.
+  Antwort: Tempo 30 senkt die Unfallschwere und reduziert Straßenlärm. Das UBA empfiehlt deshalb Tempo 30 als innerörtliche Regelgeschwindigkeit. Es geht nicht um Schikane, sondern um Sicherheit und Lebensqualität.
 - Aussage: Deutschland ist ein Autoland — ohne Auto kommst du nicht zur Arbeit!
-  Antwort: In Großstädten besitzen rund 40 % der Haushalte kein Auto und kommen trotzdem zur Arbeit. Das Problem ist nicht, dass Menschen das Auto lieben, sondern dass Alternativen oft fehlen — besonders auf dem Land. Mit besserem ÖPNV-Takt, Rufbussen und sicheren Radwegen wird echte Wahlfreiheit möglich.
+  Antwort: Deutschland ist stark aufs Auto ausgerichtet, aber nicht überall gleich. In vielen Städten leben viele Haushalte längst ohne eigenes Auto. Das Kernproblem ist oft nicht fehlende Bereitschaft zur Veränderung, sondern das Fehlen guter Alternativen.
 - Aussage: SUVs sind sicherer für meine Familie, deshalb brauche ich einen.
-  Antwort: SUVs mögen für die Insassen etwas sicherer sein, aber sie erhöhen das Risiko für alle anderen Verkehrsteilnehmer massiv — besonders für Kinder und Fußgänger. Die höhere Motorhaube trifft bei einem Aufprall den Oberkörper statt der Beine. Gleichzeitig brauchen SUVs mehr Parkfläche und verursachen durch ihr höheres Gewicht mehr Reifenabrieb und Feinstaub. Echte Sicherheit entsteht durch Tempo 30, gute Radwege und Vision Zero — nicht durch Aufrüstung.
+  Antwort: SUVs mögen für die Insassen subjektiv sicher wirken, erhöhen für Fußgänger aber oft das Risiko schwerer Verletzungen. IIHS-Analysen zeigen, dass Fahrzeuge mit hohen und steilen Fronten deutlich häufiger tödliche Fußgängerunfälle verursachen als niedrigere, schrägere Fahrzeuge. Mehr Sicherheit entsteht vor allem durch niedrigere Geschwindigkeiten und sichere Infrastruktur - nicht durch immer massivere Fahrzeuge.
 - Aussage: Verkehrswende ist doch nur ein Großstadtthema — auf dem Land braucht man das Auto!
-  Antwort: Gerade auf dem Land braucht es die Verkehrswende am dringendsten: Die Abhängigkeit vom Auto ist dort am größten und trifft besonders jene, die sich kein Auto leisten können — Jugendliche, Ältere, Menschen mit niedrigem Einkommen. Lösungen wie Rufbusse, bessere Bahntaktung, sichere Radwege und E-Bike-Förderung können echte Wahlfreiheit schaffen. In vielen ländlichen Regionen fährt der Bus nur alle 2 Stunden — das ist kein Argument gegen die Verkehrswende, sondern dafür.
+  Antwort: Gerade auf dem Land ist die Abhängigkeit vom Auto oft am größten. Deshalb braucht es dort bessere Bus- und Bahnangebote, Rufbusse, sichere Radwege und bezahlbare Alternativen. Verkehrswende heißt nicht Auto verbieten, sondern Wahlfreiheit schaffen.
 
 ### Quellen
 
-- Kraftfahrt-Bundesamt (KBA): Fahrzeugzulassungen und Bestand 2025/2026 (https://www.kba.de)
-- Umweltbundesamt (UBA): Emissionsdaten Verkehr und Lärmwirkungen (https://www.umweltbundesamt.de)
-- Verband Deutscher Verkehrsunternehmen (VDV): ÖPNV-Bilanz 2025 (https://www.vdv.de)
-- Statistisches Bundesamt (Destatis): Verkehrsunfälle 2024/2025 (https://www.destatis.de)
-- Mobilität in Deutschland (MiD 2023): Ergebnisbericht (https://www.mobilitaet-in-deutschland.de)
-- ADAC: Autokostenübersicht und Unfallstatistik 2025 (https://www.adac.de)
-- Forum Ökologisch-Soziale Marktwirtschaft (FÖS): Subventionssteckbrief Dienstwagenprivileg (https://foes.de)
-- Katja Diehl: Autokorrektur — Mobilität für eine lebenswerte Welt (S. Fischer, 2022) (https://katja-diehl.de)
-- Fraunhofer ISI: Potenziale des Radverkehrs für den Klimaschutz (2024) (https://www.isi.fraunhofer.de)
-- Agora Energiewende: Klimaneutrales Deutschland — Verkehrssektor (https://www.agora-energiewende.de)
-- UBA – Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen (https://www.umweltbundesamt.de/publikationen/analyse-der-umweltbilanz-von-kraftfahrzeugen)
-- ZIV – Marktdaten 2025 für den Fahrradbestand in Deutschland (https://www.ziv-zweirad.de/2026/03/11/markdaten-2025/)
+- Umweltbundesamt (UBA): Klimavorteil für E-Autos bestätigt (https://www.umweltbundesamt.de/presse/pressemitteilungen/klimavorteil-fuer-e-autos-bestaetigt)
+- Umweltbundesamt (UBA): Wasserstoff im Verkehr - Häufig gestellte Fragen (https://www.umweltbundesamt.de/themen/verkehr/kraftstoffe-antriebe/wasserstoff-im-verkehr-haeufig-gestellte-fragen)
+- Stadt Oldenburg: Fahrrad baut Vorsprung als Verkehrsmittel Nummer 1 aus (https://www.oldenburg.de/metanavigation/presse/pressemitteilung/news/fahrrad-baut-vorsprung-als-verkehrsmittel-nummer-1-aus.html)
+- Fraunhofer ISI: Potenziale des Radverkehrs für den Klimaschutz (https://www.isi.fraunhofer.de/de/blog/2024/adfc-radverkehrsanteil-potenzialabschaetzungen.html)
+- Statistisches Bundesamt (Destatis): Unfallbilanz 2025 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_062_46241.html)
+- Statistisches Bundesamt (Destatis): 27.260 Kinder im Jahr 2024 bei Verkehrsunfällen verunglückt (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_N043_46241.html)
+- ADAC: Autokosten-Check - Das sind die günstigsten Kleinstwagen (https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/guenstigste-kleinstwagen-autokosten/)
+- Umweltbundesamt (UBA): Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen (https://www.umweltbundesamt.de/publikationen/analyse-der-umweltbilanz-von-kraftfahrzeugen)
+- KBA: Fahrzeugbestand am 1. Januar 2026 (https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html)
+- KBA: Alternative Antriebe 2025 (https://www.kba.de/DE/Presse/Pressemitteilungen/AlternativeAntriebe/2026/pm03_2026_Antriebe_12_25_komplett.html)
+- VDV: Deutschlandticket bleibt stabil nach Preisanpassung (27.01.2026) (https://www.vdv.de/presse.aspx?id=05b80d88-b010-4841-986a-fef4ae9c1873&mode=detail)
+- UBA: Treibhausgas-Projektionen 2024 - Ergebnisse kompakt (https://www.umweltbundesamt.de/publikationen/treibhausgas-projektionen-2024-ergebnisse-kompakt)
+- UBA: Klimaemissionen sinken 2023 um 10,1 Prozent (https://www.umweltbundesamt.de/presse/pressemitteilungen/klimaemissionen-sinken-2023-um-101-prozent)
+- UBA: Emissionen des Personenverkehrs 2024 (Tabelle/PDF) (https://www.umweltbundesamt.de/system/files/medien/366/bilder/dateien/vtv_2024_pv_tab_pdf.pdf)
+- UBA: Quartalsbezogene Indikatoren Q1-Q3 2025 (https://www.umweltbundesamt.de/system/files/document/Q1-Q3%202025%20quartalsbezogene%20Indikatoren%20UBA_0.pdf)
+- UBA: Parkraummanagement für eine nachhaltige urbane Mobilität (https://www.umweltbundesamt.de/publikationen/parkraummanagement-fuer-eine-nachhaltige-urbane)
+- BMV: Mobilität in Deutschland 2023 - Überblick (https://www.bmv.de/SharedDocs/DE/Artikel/G/mobilitaet-in-deutschland.html)
+- MiD 2023: Veröffentlichungen (https://www.mobilitaet-in-deutschland.de/publikationen2023.html)
+- UBA: Belastung der Bevölkerung durch Verkehrslärm (https://www.umweltbundesamt.de/daten/umweltindikatoren/indikator-belastung-der-bevoelkerung-durch)
+- Destatis: Unfallursachen 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_248_46241.html)
+- UBA empfiehlt Tempo 30 als innerörtliche Regelgeschwindigkeit (https://www.umweltbundesamt.de/themen/uba-empfiehlt-tempo-30-als-inneroertliche)
+- BBSR: ÖV-Erreichbarkeit in Deutschland (https://www.bbsr.bund.de/BBSR/DE/presse/presseinformationen/2023/oev-erreichbarkeit.html)
+- FÖS: Dienstwagenprivileg (https://foes.de/de-de/publikationen/publikation?tx_foespublications_listpublications%5Bpublication%5D=340&tx_foespublications_listpublications%5Baction%5D=show&tx_foespublications_listpublications%5Bcontroller%5D=Publication&cHash=9f763bdd4ac1008645f0f4e8df2f1c40)
 
 ---
 
@@ -1113,6 +1079,12 @@ Der Regelbedarf für alleinstehende Erwachsene beträgt seit 2024 unverändert 5
 
 Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernommen. Der Regelbedarf deckt insbesondere Ausgaben für Ernährung, Kleidung, Körperpflege, Hausrat, Haushaltsenergie ohne Heizkostenanteile sowie die soziale und kulturelle Teilhabe ab.
 
+- Im Jahresdurchschnitt 2024 gab es rund 5,55 Millionen Regelleistungsberechtigte in der Grundsicherung für Arbeitsuchende.
+
+- Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten grundsätzlich Leistungen nach dem Asylbewerberleistungsgesetz.
+
+Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind dafür die Jobcenter.
+
 ### Lohnt sich Arbeit noch?
 
 Eine Studie des Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) zeigt klar: Wer zum Mindestlohn arbeitet, hat am Ende des Monats spürbar mehr Geld zur Verfügung als mit Bürgergeld.
@@ -1127,7 +1099,7 @@ Hinweis: Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bü
   - Verfügbares Einkommen mit Mindestlohn: ca. 2.532 €
   - Einkommensvorteil: + 749 €
 
-Der Abstand variiert je nach Wohnort und Mietkosten, ist aber überall in Deutschland deutlich positiv.
+Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv.
 
 ### Sanktionen und 'Totalverweigerer'
 
@@ -1142,31 +1114,36 @@ Hinweis: Sanktionsstufen bei Pflichtverletzungen
 
 ### Wie viel Betrug gibt es?
 
-Immer wieder wird über massenhaften Leistungsmissbrauch berichtet. Für die Behauptung massenhaften Missbrauchs liefern die hier verlinkten amtlichen Daten aber keinen klaren Beleg.
+Einzelfälle und organisierter Leistungsmissbrauch sind dokumentiert. Für die Behauptung massenhaften Missbrauchs liefern die hier hinterlegten amtlichen Quellen aber keinen belastbaren Beleg.
 
-Leistungsmissbrauch existiert und wird verfolgt. Für seriöse Debatten braucht es dabei belastbare amtliche Zahlen statt Einzelfälle oder pauschale Behauptungen.
+Für seriöse Debatten braucht es belastbare amtliche Zahlen statt Einzelfälle oder pauschale Behauptungen. Die aktuelle Quellenlage dieser Datei belegt keinen flächendeckenden Betrug.
 
 ### Argumente
 
 - Aussage: Wer arbeitet, ist doch der Dumme. Mit Bürgergeld hat man am Ende mehr in der Tasche!
-  Antwort: Das stimmt nicht. Das Lohnabstandsgebot ist gewahrt. Eine WSI-Studie zeigt, dass ein Single, der Vollzeit zum Mindestlohn arbeitet, im Schnitt 557 Euro mehr im Monat zur Verfügung hat als jemand, der Bürgergeld bezieht. Bei Familien ist der Abstand oft noch größer, da Erwerbstätige zusätzlich Anspruch auf Kinderzuschlag und Wohngeld haben.
+  Antwort: Das stimmt nicht. Das Lohnabstandsgebot ist in der WSI-Modellrechnung gewahrt. Im Bundesdurchschnitt hat ein Single, der Vollzeit zum Mindestlohn arbeitet, 557 Euro mehr im Monat zur Verfügung als im Bürgergeldbezug. Bei Alleinerziehenden mit einem Kind sind es 749 Euro.
 - Aussage: Das Bürgergeld ist eine soziale Hängematte. Man muss gar nichts mehr machen und bekommt trotzdem Geld.
-  Antwort: Das Bürgergeld ist an Pflichten geknüpft. Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, muss mit Leistungsminderungen rechnen. Bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit kann seit Ende März 2024 unter engen gesetzlichen Voraussetzungen sogar der Regelbedarf für bis zu zwei Monate vollständig entfallen.
+  Antwort: Das Bürgergeld ist an Pflichten geknüpft. Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, muss mit Leistungsminderungen rechnen. Bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit kann der Regelbedarf unter engen gesetzlichen Voraussetzungen für bis zu zwei Monate entfallen.
 - Aussage: Die Bürgergeld-Empfänger bekommen jedes Jahr massiv mehr Geld, während die Löhne stagnieren!
-  Antwort: Die Regelsätze werden nach einem gesetzlichen Mechanismus an Preis- und Lohnentwicklung angepasst. Für 2025 und 2026 blieben die Regelbedarfe unverändert, weil die Fortschreibung rechnerisch niedrigere Werte ergeben hätte und die Besitzschutzregelung griff. Der Regelbedarf für Singles bleibt deshalb bei 563 Euro.
+  Antwort: Die Regelsätze werden nach einem gesetzlichen Mechanismus an Preis- und Lohnentwicklung angepasst. Für 2025 und 2026 blieben die Regelbedarfe unverändert. Der Regelbedarf für Alleinstehende liegt deshalb weiter bei 563 Euro.
 - Aussage: Das System wird doch nur ausgenutzt. Fast alle betrügen beim Bürgergeld!
-  Antwort: Leistungsmissbrauch existiert und muss konsequent verfolgt werden. Für pauschale Behauptungen über massenhaften Betrug liefern öffentlich zugängliche amtliche Daten aber keinen belastbaren Beleg. Jobcenter prüfen Anträge, gleichen Daten ab und können bei Verdacht Leistungen zurückfordern oder Strafverfahren anstoßen.
+  Antwort: Leistungsmissbrauch existiert und muss verfolgt werden. Für pauschale Aussagen wie "fast alle betrügen" gibt es mit den hier hinterlegten Quellen aber keinen belastbaren Beleg. Dokumentiert sind Einzelfälle und organisierter Missbrauch, nicht ein Nachweis für flächendeckenden Betrug.
 - Aussage: Das Bürgergeld lockt nur Ausländer an, die sich hier auf unsere Kosten ein schönes Leben machen.
-  Antwort: Bürgergeld ist die Grundsicherung für Arbeitsuchende, kein bedingungsloses Einkommen. EU-Ausländer sind in den ersten Monaten ihres Aufenthalts oder bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel vom Bürgergeld ausgeschlossen; es gibt aber Ausnahmen, etwa für Arbeitnehmer oder Personen mit fortwirkendem Arbeitnehmerstatus. Asylbewerber erhalten Leistungen nach dem Asylbewerberleistungsgesetz, deren Bedarfssätze unter dem Bürgergeld liegen. Wer Bürgergeld bezieht, muss dem Arbeitsmarkt grundsätzlich zur Verfügung stehen und an vereinbarten Mitwirkungs- oder Qualifizierungsmaßnahmen teilnehmen.
+  Antwort: Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen. Asylbewerber erhalten grundsätzlich Leistungen nach dem Asylbewerberleistungsgesetz, deren Bedarfssätze unter dem Bürgergeld liegen.
 - Aussage: Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!
-  Antwort: Ukrainische Geflüchtete können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Leistungen der Grundsicherung nach dem SGB II beziehungsweise der Sozialhilfe erhalten statt Leistungen nach dem Asylbewerberleistungsgesetz. Dadurch sind für sie Jobcenter beziehungsweise Sozialämter zuständig, einschließlich des Zugangs zu Integrations- und Sprachkursen sowie zur Arbeitsvermittlung. Die Grundsicherung ist steuerfinanziert und keine beitragsfinanzierte Versicherungsleistung.
+  Antwort: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind die Jobcenter; damit verbunden sind Zugang zu Integrations- und Sprachkursen sowie zur Arbeitsvermittlung. Die Grundsicherung ist steuerfinanziert und keine Versicherungsleistung.
 
 ### Quellen
 
 - Bundesministerium für Arbeit und Soziales (BMAS) – Leistungen und Bedarfe im Bürgergeld (https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html)
 - WSI-Studie zum Lohnabstandsgebot (2024/2025) (https://www.wsi.de/de/pressemitteilungen-15991-einkommen-bei-mindestlohnbeschaeftigung-deutlich-hoeher-als-buergergeld-70666.htm)
-- Bundesagentur für Arbeit – Statistikportal und Themen im Fokus Ukraine-Krieg (https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Themen-im-Fokus/Ukraine-Krieg/Ukraine-Krieg-Nav.html)
-- Bundesregierung – Ukrainische Geflüchtete auf dem Arbeitsmarkt (https://www.bundesregierung.de/breg-de/aktuelles/ukraine-gefluechtete-arbeit-2166832)
+- Bundesregierung - Warum es 2025 eine Nullrunde beim Bürgergeld gibt (https://www.bundesregierung.de/breg-de/aktuelles/buergergeld-2025-2248000)
+- Regelbedarfsstufen-Fortschreibungsverordnung 2026 (https://www.gesetze-im-internet.de/rbsfv_2026/BJNR0F30B0025.html)
+- SGB II § 31a - Rechtsfolgen bei Pflichtverletzungen (https://www.gesetze-im-internet.de/sgb_2/__31a.html)
+- SGB II § 7 - Leistungsberechtigte (https://www.gesetze-im-internet.de/sgb_2/__7.html)
+- Bundesregierung - Grundsicherung für Geflüchtete aus der Ukraine (https://www.bundesregierung.de/breg-de/aktuelles/grundsicherung-fuer-ukrainer-2028694)
+- BMAS - Leistungssätze nach dem Asylbewerberleistungsgesetz (https://www.bmas.de/DE/Soziales/Sozialhilfe/LeistungenAsylbewerberleistungsgesetz/leistungssaetze-asylbewerberleistungsgesetz.html)
+- Bundesagentur für Arbeit - Überblick Grundsicherung für Arbeitsuchende (https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Ueberblick/Ueberblick-Nav.html)
 
 ---
 
@@ -1197,17 +1174,19 @@ Spalten: Zeitraum | Asylerstanträge | Einordnung
 Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb, Qualifizierung), zeigt aber langfristig deutliche Erfolge. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) nähert sich die Beschäftigungsquote der 2015 nach Deutschland gekommenen Geflüchteten nach neun Jahren dem Bevölkerungsdurchschnitt an.
 
 Hinweis: Beschäftigungsquote der 2015 zugezogenen Geflüchteten
-- Im 1. Jahr: 10%
+- Im 1. Jahr: 9% (unter 10 %)
 - Nach 9 Jahren: 64% (Männer: 76%, Frauen: 35%)
 - Gesamt: Bevölkerungsdurchschnitt: 70%
 
 - Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
 
-Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in Engpassberufen und relevanten Dienstleistungsbereichen, etwa im Gesundheitswesen, in der Fertigung sowie in Verkehr und Logistik.
+Für die 2015 zugezogene Geflüchtetenkohorte zeigen IAB-Daten eine besondere Bedeutung von Gesundheits-, Fertigungs- sowie Verkehrs- und Logistikberufen. Pauschale Aussagen über eine generelle Verdrängung am Arbeitsmarkt tragen diese Daten aber nicht.
+
+- 2023 lebten noch 34 % der 2015 zugezogenen Geflüchteten im erwerbsfähigen Alter in SGB-II-Haushalten. Unter den abhängig Beschäftigten konnten 84 % ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten.
 
 ### Demografischer Wandel und Fachkräfte
 
-Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial. Deshalb wird die erfolgreiche Arbeitsmarktintegration von Zugewanderten wirtschaftlich wichtiger.
+Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial. Destatis erwartet, dass die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er Jahre selbst bei hoher Nettozuwanderung um rund 3,2 Millionen sinkt. Dadurch gewinnt die Frage an Bedeutung, wie Zuwanderung und Arbeitsmarktintegration zum Arbeitskräfteangebot beitragen.
 
 - Die hier hinterlegten BAMF- und IAB-Quellen belegen vor allem die Entwicklung der Asylzahlen und die langfristige Arbeitsmarktintegration der 2015 zugezogenen Geflüchteten.
 
@@ -1216,23 +1195,24 @@ Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial.
 - Aussage: Die Asylzahlen explodieren immer weiter, wir werden überrannt!
   Antwort: Tatsächlich sind die Asylerstanträge 2025 massiv gesunken. Mit 113.236 Erstanträgen gab es einen Rückgang von über 50 % im Vergleich zum Vorjahr (2024: 229.751). Im Januar 2026 setzte sich dieser Trend mit einem weiteren Rückgang von fast 49 % zum Vorjahresmonat fort.
 - Aussage: Die Flüchtlinge von 2015 leben alle nur vom Bürgergeld und arbeiten nicht.
-  Antwort: Ende 2024, also neun Jahre nach dem Zuzug, lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten laut IAB bei 64 % und näherte sich damit dem Bevölkerungsdurchschnitt an. Rund die Hälfte der beschäftigten Geflüchteten übt inzwischen eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
+  Antwort: Die IAB-Daten zeigen etwas anderes: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 %. 2023 lebten zwar noch 34 % dieser Kohorte im erwerbsfähigen Alter in SGB-II-Haushalten, zugleich konnten 84 % der abhängig Beschäftigten ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten. "Alle leben vom Bürgergeld" ist damit klar falsch.
 - Aussage: Ausländer nehmen uns die guten Jobs weg.
-  Antwort: Die hier hinterlegte IAB-Quelle zeigt vor allem: Geflüchtete arbeiten häufig in Engpass- und systemrelevanten Berufen. Pauschale Aussagen über 'weggenommene gute Jobs' werden dadurch nicht gestützt.
+  Antwort: Die hier hinterlegten Quellen belegen keine pauschale Verdrängung anderer Beschäftigter. Belegt ist nur, dass viele 2015 zugezogene Geflüchtete in Gesundheits-, Verkehrs-/Logistik- und Fertigungsberufen arbeiten. Ob daraus Konkurrenz oder Entlastung entsteht, hängt vom konkreten Arbeitsmarkt ab.
 - Aussage: Die Zuwanderung bringt uns wirtschaftlich nichts, sie kostet nur.
-  Antwort: Zuwanderung verursacht anfangs Integrationskosten, kann wirtschaftlich aber relevant werden, wenn Menschen dauerhaft in Arbeit kommen. Die hier hinterlegte IAB-Quelle zeigt genau das für die 2015 zugezogenen Geflüchteten: Die Beschäftigungsquote steigt über die Jahre deutlich an.
+  Antwort: Mit den hier hinterlegten Quellen lässt sich kein gesamtwirtschaftlicher Nettoeffekt von Zuwanderung belegen. Belegt ist aber: Die Beschäftigungsquote der 2015 zugezogenen Geflüchteten stieg bis Ende 2024 auf 64 % und näherte sich damit dem Bevölkerungsdurchschnitt an.
 - Aussage: Die meisten Geflüchteten sind ungebildet und können hier gar nicht arbeiten.
-  Antwort: Zwar dauern Spracherwerb und Nachqualifizierung ihre Zeit, aber Daten des IAB zeigen: 7-8 Jahre nach dem Zuzug arbeiten rund 50 % der beschäftigten Geflüchteten als Fachkräfte oder Spezialisten. Die Integration in den Arbeitsmarkt verläuft stetig, braucht aber anfangs Investitionen in Bildung und Sprache.
+  Antwort: Mit den vorliegenden Quellen lässt sich die Bildungsstruktur nicht seriös pauschal bewerten. Belegt ist aber, dass rund die Hälfte der beschäftigten Geflüchteten sieben bis acht Jahre nach dem Zuzug als Fachkraft oder Spezialist arbeitet und die Beschäftigungsquote bis Ende 2024 auf 64 % gestiegen ist.
 - Aussage: Ausländer sind krimineller als Deutsche, das zeigt doch die Kriminalstatistik!
   Antwort: Mit den in dieser Datei hinterlegten Quellen lässt sich diese pauschale Behauptung nicht seriös belegen. Für Aussagen über Kriminalität bräuchte es eine eigene, sauber hinterlegte Quellenbasis mit differenzierten PKS- und Dunkelfelddaten.
 - Aussage: Migration kostet uns nur Milliarden und bringt wirtschaftlich nichts!
-  Antwort: Integration kostet anfangs tatsächlich Geld, etwa für Sprache, Unterbringung und Qualifizierung. Langfristig kann sie sich auszahlen: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten laut IAB bei 64 % (Männer: 76 %, Frauen: 35 %). Für weitergehende Aussagen zur gesamtwirtschaftlichen Wirkung braucht es aber zusätzliche, sauber hinterlegte Quellen.
+  Antwort: Integration verursacht anfangs tatsächlich Kosten, etwa für Sprache, Unterbringung und Qualifizierung. Mit den hier hinterlegten Quellen ist aber vor allem belegt, dass die Beschäftigungsquote der 2015 zugezogenen Geflüchteten Ende 2024 bei 64 % lag. Für Aussagen über einen gesamtwirtschaftlichen Netto-Nutzen oder eine fiskalische Rendite braucht es zusätzliche Quellen.
 
 ### Quellen
 
 - BAMF: Asylzahlen Dezember und Gesamtjahr 2025 (https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260112-asylzahlen-dezember-und-gesamtjahr-2025.html)
 - BAMF: Asylzahlen Januar 2026 (https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260206-asylzahlen-januar-2026.html)
 - IAB: 10 Jahre Fluchtmigration (2025) (https://iab.de/daten/10-jahre-fluchtmigration-beschaeftigungsmerkmale-der-gefluechteten-die-2015-in-deutschland-schutz-gesucht-haben/)
+- Destatis - Demografischer Wandel und Fachkräfte (https://www.destatis.de/DE/Im-Fokus/Fachkraefte/Demografie/_inhalt.html)
 
 ---
 
@@ -1783,9 +1763,7 @@ Hinweis: Gesundheitsausgaben pro Kopf 2024 (kaufkraftbereinigt, USD)
 - GKV-Ausgaben 2025: 346,6 Mrd. € (Prognose GKV-Schätzerkreis)
 - BIP-Anteil Gesundheit: ~12 % (OECD-Schnitt: 9,3 %)
 
-Hinweis: GKV-Gesamtbeitragssatz (allgemeiner Beitrag + Zusatzbeitrag)
-- 2010: 14.9 %
-- 2012: 15.5 %
+Hinweis: GKV-Gesamtbeitragssatz seit 2015 (allgemeiner Beitrag + durchschnittlicher Zusatzbeitrag)
 - 2015: 15.5 %
 - 2018: 15.6 %
 - 2020: 15.7 %
@@ -1798,17 +1776,15 @@ Arbeitnehmer und Arbeitgeber teilen sich den Beitrag paritätisch. Bei 3.000 Eur
 
 ### Zwei-Klassen-Medizin: GKV vs. PKV
 
-Die Unterschiede zwischen gesetzlich und privat Versicherten sind bei Wartezeiten auf Facharzttermine besonders deutlich messbar.
+Ungleichheiten zeigen sich besonders bei Facharztterminen. Für viele gesetzlich Versicherte bleiben Wartezeiten und Terminvergabe ein spürbares Problem.
 
-Hinweis: Durchschnittliche Wartezeiten auf Facharzttermine (Doctolib-Daten, 2025)
-- Gesetzlich versichert (GKV)
-  - Lungenfacharzt: 129 Tage
-- Privat versichert (PKV)
-  - Lungenfacharzt: 35 Tage
+- Zu lange Facharzt-Wartezeit: 30 % (so bewerten GKV-Versicherte ihre Wartezeit)
+- Mehr als 30 Tage: 25 % (so lange warten GKV-Versicherte auf einen Facharzttermin)
+- Versichertenstruktur: 89 % / 11 % (GKV- bzw. PKV-Anteil an der Bevölkerung)
 
-- Kassenpatienten warten bei Lungenfachärzten bis zu viermal länger als Privatpatienten.
+- Viele gesetzlich Versicherte berichten von spürbaren Nachteilen bei Facharztterminen. Das stützt die Diagnose, dass der Zugang zur Versorgung nicht für alle gleich leicht ist.
 
-Der GKV-Spitzenverband spricht von systematischer 'Diskriminierung' gesetzlich Versicherter. Etwa 90 % der Bevölkerung sind gesetzlich versichert, nur 10 % privat.
+Rund 89 % der Bevölkerung sind gesetzlich und etwa 11 % privat versichert. Unterschiede bei Terminvergabe und Zugangswegen prägen deshalb die Debatte über Zwei-Klassen-Medizin stark.
 
 ### Pflegenotstand: Die stille Katastrophe
 
@@ -1840,58 +1816,62 @@ Die Krankenhausreform wurde 2026 angepasst: Für ländliche Kliniken gelten mehr
 
 ### Psychische Gesundheit: Versorgungsnotstand
 
-Die Fallzahlen in Psychotherapie und Psychiatrie stiegen im 1. Halbjahr 2025 weiter. Die Versorgungslage bleibt angespannt.
+Die Versorgungslage in Psychotherapie und Psychiatrie bleibt angespannt. Das Zi meldet für das 1. Halbjahr 2025 erneut steigende Fallzahlen in diesem Bereich.
 
-- Versorgungsdruck: hoch (psychische Versorgung hinkt dem Bedarf hinterher)
-- Fallzahl-Zuwachs: +3,4 % (1. Halbjahr 2025 vs. Vorjahr)
+- Fallzahl-Zuwachs: +3,4 % (Psychotherapie und Psychiatrie, 1. Halbjahr 2025 vs. Vorjahr)
+- Versorgungsdruck: hoch (die psychische Versorgung hinkt dem Bedarf weiter hinterher)
 
-- Die Terminservicestellen stoßen an Grenzen: 2023 wurden 54 % der Anfragen gar nicht oder nicht fristgerecht vermittelt.
+- Auch Terminservicestellen lösen das Problem nur teilweise: 2024 wurde weniger als die Hälfte der eingegangenen Suchanfragen fristgerecht vermittelt.
 
-Besonders in der Kinder- und Jugendpsychiatrie steigen die Fallzahlen stark (+5,7 % im 1. Halbjahr 2025).
+Besonders in psychischen und psychiatrischen Versorgungsbereichen bleibt der Bedarf hoch. Das Zi berichtet für das 1. Halbjahr 2025 erneut steigende Fallzahlen.
 
 ### Prävention: Das Stiefkind des Systems
 
 Das deutsche Gesundheitssystem konzentriert große Teile seiner Ausgaben auf Behandlung. Die Ausgaben für Prävention sind im Vergleich zu den Gesamtausgaben gering.
 
 Hinweis: Gesundheitsausgaben nach Leistungsart 2023
-- Pflege & Therapie: 155% (155,1 Mrd. €)
-- Ärztliche Leistungen: 118% (118,3 Mrd. €)
-- Arzneimittel: 65% (~65 Mrd. €)
-- Prävention: 25% (~25 Mrd. € (5,0 %))
-- Gesamt: Gesamtausgaben: 500,8 Mrd. €
+- Pflege & Therapie: 155.1% (155,1 Mrd. EUR)
+- Ärztliche Leistungen: 118.3% (118,3 Mrd. EUR)
+- Arzneimittel: 77.9% (77,9 Mrd. EUR)
+- Prävention: 24.8% (24,8 Mrd. EUR)
+- Gesamt: Gesamtausgaben: 500,8 Mrd. EUR
 
-- Nur 5 % der Gesundheitsausgaben fließen in Prävention (298 Euro pro Person und Jahr). Die GKV investierte 2024 mit 686 Millionen Euro zwar einen Rekordwert – das sind aber weniger als 0,2 % der Gesamtausgaben.
+- 2023 entfielen 24,8 Milliarden Euro beziehungsweise 298 Euro je Einwohner auf Prävention und Gesundheitsschutz. 2024 gaben die gesetzlichen Krankenkassen zusätzlich 686 Millionen Euro für Präventionsaktivitäten aus.
 
 Dabei zeigt die Forschung: Jeder in Prävention investierte Euro spart ein Vielfaches an Behandlungskosten. Insbesondere bei Volkskrankheiten wie Diabetes, Herz-Kreislauf-Erkrankungen und psychischen Leiden wäre frühe Prävention wirtschaftlich und menschlich sinnvoller.
 
 ### Argumente
 
 - Aussage: Wir haben das beste Gesundheitssystem der Welt
-  Antwort: Deutschland hat ein gutes Gesundheitssystem, aber 'das beste der Welt' ist es nicht automatisch. Deutschland gehört bei den Ausgaben zur OECD-Spitzengruppe, zugleich gibt es lange Wartezeiten für Kassenpatienten, bis 2034 drohen mindestens 90.000 fehlende Pflegekräfte und die Krankenhausstruktur gilt seit Jahren als ineffizient.
+  Antwort: Deutschland hat hohe Gesundheitsausgaben und gute Kapazitäten, aber auch belegte Zugangs-, Pflege- und Strukturprobleme. Deshalb spricht wenig dafür, pauschal vom besten Gesundheitssystem der Welt zu sprechen.
 - Aussage: Die Krankenkassenbeiträge sind viel zu hoch
   Antwort: Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts und wird paritätisch geteilt. Das eigentliche Problem ist weniger die Existenz des Beitrags als die Effizienz des Systems: Deutschland gibt sehr viel aus, hat strukturelle Überkapazitäten im Krankenhausbereich und investiert vergleichsweise wenig in Prävention.
 - Aussage: Jeder bekommt in Deutschland die medizinische Versorgung, die er braucht
-  Antwort: Formal hat jeder Zugang zum Gesundheitssystem, aber in der Praxis gibt es gravierende Versorgungslücken. Kassenpatienten warten beim Lungenfacharzt im Schnitt 129 Tage, Privatpatienten nur 35. Dazu kommen Engpässe in Pflege und Psychotherapie sowie regionale Unterschiede bei der Versorgung. Die Versorgung hängt in Deutschland also weiterhin stark davon ab, wo man lebt, wie man versichert ist und welche Krankheit man hat.
+  Antwort: Formal ist der Zugang breit, aber in der Praxis gibt es spürbare Versorgungslücken. Viele gesetzlich Versicherte berichten über lange Wartezeiten auf Facharzttermine, hinzu kommen Engpässe in Pflege und psychischer Versorgung sowie regionale Unterschiede.
 - Aussage: Ausländer belasten unser Gesundheitssystem
-  Antwort: Asylbewerber erhalten in den ersten 36 Monaten nur eine stark eingeschränkte medizinische Versorgung, vor allem für akute Erkrankungen, chronische Krankheiten, Schwangerschaft, empfohlene Vorsorgen und Impfungen. Das eigentliche GKV-Finanzierungsproblem hat strukturelle Ursachen wie alternde Bevölkerung, hohe Ausgaben und ineffiziente Strukturen – nicht die medizinische Versorgung von Geflüchteten.
+  Antwort: Die Finanzierungsprobleme des Systems sind vor allem strukturell: hohe Ausgaben, alternde Bevölkerung und Versorgungsengpässe. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang bei akuten Erkrankungen, Schmerzen, Schwangerschaft, Impfungen und medizinisch gebotenen Vorsorgen; erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert.
 - Aussage: Psychische Krankheiten sind nur Einbildung / Modeerscheinung
   Antwort: Psychische Erkrankungen sind medizinisch genauso real wie körperliche. Im ersten Halbjahr 2025 stiegen die Fallzahlen in Psychotherapie und Psychiatrie weiter um 3,4 %, in der Kinder- und Jugendpsychiatrie sogar um 5,7 %. Die Versorgung hinkt dem Bedarf seit Jahren hinterher.
 - Aussage: Homöopathie/Alternativmedizin sollte von der Kasse bezahlt werden
-  Antwort: Für homöopathische Mittel gibt es nach aktuellem wissenschaftlichem Konsens keine belastbaren Belege für eine Wirkung über den Placeboeffekt hinaus. Kassengelder sollten deshalb evidenzbasiert eingesetzt werden, gerade in einem System mit klaren Versorgungsengpässen etwa bei Psychotherapie und Pflege.
+  Antwort: Für Homöopathie gibt es keine robuste, reproduzierbare Evidenz eines Nutzens über Placebo hinaus. Öffentliche Mittel sollten deshalb evidenzbasiert eingesetzt werden, gerade in einem System mit klaren Engpässen etwa bei Pflege, Psychotherapie und Prävention.
 - Aussage: Es gibt zu viele Krankenhäuser
   Antwort: Da ist tatsächlich etwas dran: Deutschland hat viele Krankenhausbetten und eine vergleichsweise niedrige Bettenauslastung. Aber 'weniger' heißt nicht automatisch 'besser'. Es braucht Spezialisierung, Vernetzung und gleichzeitig Erreichbarkeit – besonders in ländlichen Regionen. Genau diesen Spagat versucht die Krankenhausreform.
 - Aussage: Die Pharmaindustrie macht uns absichtlich krank
-  Antwort: Diese Verschwörungstheorie hält keiner Prüfung stand. Medikamente durchlaufen strenge Zulassungsverfahren (EMA, BfArM) mit klinischen Studien in mehreren Phasen. Die Pharmabranche verdient an Behandlungen – aber das liegt am Geschäftsmodell, nicht an absichtlicher Schadenszufügung. Berechtigte Kritik gibt es an hohen Medikamentenpreisen, aggressivem Marketing und mangelnder Transparenz bei Studien. Die Lösung ist aber mehr Regulierung und unabhängige Forschung, nicht das Ablehnen evidenzbasierter Medizin. Tatsächlich zeigt Deutschlands System ein anderes Problem: Zu wenig Investition in Prävention (nur 5 % der Ausgaben) und zu viel Fokus auf Behandlung.
+  Antwort: Arzneimittel unterliegen in der EU einem regulierten Zulassungs- und Bewertungsverfahren. Berechtigte Kritik betrifft eher Preise, Transparenz und Fehlanreize als eine belegte Absicht, Menschen krank zu machen.
 
 ### Quellen
 
 - OECD – Health at a Glance 2025 (https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/health-expenditure-per-capita_affe6b0a.html)
 - GKV-Schätzerkreis – Prognose 2025/2026 (https://www.bundesamtsozialesicherung.de/de/service/newsroom/detail/gkv-schaetzerkreis-schaetzt-die-finanziellen-rahmenbedingungen-der-gesetzlichen-krankenversicherung-fuer-die-jahre-2025-und-2026/)
 - Bundesgesundheitsministerium – Krankenhausreform (https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-krankenhausreformanpassungsgesetz-pm-06-03-2026)
-- Spiegel / Doctolib – Wartezeiten-Analyse GKV vs. PKV (2025) (https://cdn.prod.www.spiegel.de/stories/207901/index.amp.html)
 - Statistisches Bundesamt – Pflegekräfte-Prognose bis 2049 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html)
 - Statistisches Bundesamt – Krankenhausstatistik 2024 (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/Tabellen/eckzahlen-krankenhaeuser.html)
 - Zi-Trendreport Psychotherapie 2025 (https://www.monitor-versorgungsforschung.de/news/zi-trendreport-fuer-das-1-halbjahr-2025-weiter-steigende-fallzahlen-in-psychotherapie-und-psychiatrie/)
 - RKI – Gesundheitsberichterstattung Präventionsausgaben (https://www.gbe.rki.de/DE/Themen/Rahmenbedingungen/PolitischeRahmenbedingungen/GesetzlicheGrundlagen/Praeventionsausgaben/praeventionsausgaben_node.html)
 - GKV-Spitzenverband – Präventionsbericht 2025 (https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp)
-- Mediendienst Integration – Gesundheitsversorgung Geflüchteter (https://mediendienst-integration.de/bevoelkerung/gesundheit-von-migranten/gesundheitsversorgung-von-fluechtlingen/)
+- BMG - Beitragssätze der gesetzlichen Krankenversicherung (https://www.bundesgesundheitsministerium.de/beitraege)
+- GKV-Spitzenverband - Versichertenbefragung 2025 zu Wartezeiten (https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2181888.jsp)
+- KBV - Versichertenstruktur in Deutschland (https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/versichertenstruktur)
+- Destatis - 5,7 Millionen Pflegebedürftige Ende 2023 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html)
+- KBV - Statistik Terminservicestellen 2024 (https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/statistik-terminservicestellen)
+- Destatis - Gesundheitsausgaben nach Leistungsarten 2023 (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Gesundheitsausgaben/Tabellen/leistungsarten.html)

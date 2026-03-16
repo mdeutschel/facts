@@ -10,7 +10,7 @@
     "146 Mio. t CO₂-Ausstoß im Verkehrssektor (2023)",
     "12 Argumente"
   ],
-  "sourceNote": "Daten basieren auf offiziellen Statistiken des Kraftfahrt-Bundesamtes (KBA), des Umweltbundesamtes (UBA), des Verbands Deutscher Verkehrsunternehmen (VDV), des Statistischen Bundesamtes (Destatis), der Studie Mobilität in Deutschland (MiD 2023) sowie des ADAC und ADFC.",
+  "sourceNote": "Daten basieren auf offiziellen Statistiken und belastbaren Fachquellen, insbesondere KBA, UBA, VDV, Destatis, Bundesnetzagentur, BMV/MiD sowie ausgewählten Studien mit klarer Methodik. Wo Exaktwerte unsicher sind, werden Aussagen konservativ formuliert.",
   "sections": [
     {
       "id": "emobilitaet",
@@ -27,7 +27,7 @@
             {
               "value": "42,7 Mio.",
               "label": "Verbrenner",
-              "sublabel": "Bestand 1. Jan 2026"
+              "sublabel": "Benzin + Diesel, 1. Jan 2026"
             },
             {
               "value": "19,1%",
@@ -35,42 +35,70 @@
               "sublabel": "an Neuzulassungen 2025"
             }
           ],
-          "sourceRefs": ["kraftfahrt-bundesamt-kba-fahrzeugzulassungen-und"]
+          "sourceRefs": [
+            "kba-fahrzeugbestand-2026",
+            "kba-alternative-antriebe-2025"
+          ]
         },
         {
           "type": "comparison",
-          "caption": "Gesamtwirkungsgrad (Well-to-Wheel) im Vergleich",
+          "caption": "Gesamtwirkungsgrad strombasierter Pkw-Antriebe",
           "items": [
             {
               "title": "Elektroauto (BEV)",
               "color": "#00897b",
               "rows": [
-                { "label": "Energie am Rad", "value": "70–80 %" },
-                { "label": "Verluste (Laden/Motor)", "value": "20–30 %" }
+                {
+                  "label": "Gesamtwirkungsgrad",
+                  "value": "rund 62 %"
+                },
+                {
+                  "label": "Strombedarf je km",
+                  "value": "deutlich geringer"
+                }
               ]
             },
             {
-              "title": "Verbrenner mit E-Fuels",
+              "title": "Wasserstoffauto (FCEV)",
               "color": "#e53935",
               "rows": [
-                { "label": "Energie am Rad", "value": "10–15 %" },
-                { "label": "Verluste (Herstellung/Motor)", "value": "85–90 %" }
+                {
+                  "label": "Gesamtwirkungsgrad",
+                  "value": "rund 28 %"
+                },
+                {
+                  "label": "Strombedarf je km",
+                  "value": "2- bis 3-mal höher"
+                }
               ]
             }
           ],
-          "sourceRefs": ["uba-analyse-der-umweltbilanz-von-kraftfahrzeugen"]
+          "sourceRefs": [
+            "umweltbundesamt-uba-wasserstoff-im-verkehr-faq"
+          ]
         },
         {
           "type": "fact",
-          "text": "Für die gleiche Strecke braucht ein Verbrenner mit E-Fuels 5- bis 7-mal so viel erneuerbaren Strom wie ein Batterie-Elektroauto.",
-          "description": "E-Fuels haben ihren Platz — aber in der Luftfahrt und Schifffahrt, wo Batterien zu schwer sind. Für PKW sind sie eine teure Energieverschwendung."
-          ,
-          "sourceRefs": ["uba-analyse-der-umweltbilanz-von-kraftfahrzeugen"]
+          "text": "Für Pkw sind E-Fuels und Wasserstoff deutlich ineffizienter als direkte Stromnutzung im E-Auto. Das UBA sieht ihre Stärken vor allem dort, wo Batterien an Grenzen stoßen, etwa im Luft- und Seeverkehr.",
+          "description": "Technologieoffenheit heißt nicht, jede Option in jedem Einsatz gleich sinnvoll zu finden. Bei Pkw zählt Effizienz besonders stark.",
+          "sourceRefs": [
+            "umweltbundesamt-uba-wasserstoff-im-verkehr-faq",
+            "uba-analyse-der-umweltbilanz-von-kraftfahrzeugen"
+          ]
         },
         {
           "type": "text",
-          "text": "Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten.",
-          "sourceRefs": ["kraftfahrt-bundesamt-kba-fahrzeugzulassungen-und"]
+          "text": "Auch beim heutigen Strommix sind E-Autos laut UBA über den Lebenszyklus etwa 40 % klimafreundlicher als Benziner; mit weiter wachsendem Ökostrom steigt der Vorteil.",
+          "sourceRefs": [
+            "umweltbundesamt-uba-klimavorteil-e-autos"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Zum 1. Januar 2026 waren in Deutschland 2.034.260 batterieelektrische Pkw zugelassen.",
+          "sourceRefs": [
+            "kba-fahrzeugbestand-2026"
+          ]
         }
       ]
     },
@@ -97,29 +125,44 @@
               "sublabel": "nach Preiserhöhung"
             }
           ],
-          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
+          "sourceRefs": [
+            "vdv-pressemitteilung-deutschlandticket-jan-2026"
+          ]
         },
         {
           "type": "timeline",
           "caption": "Preisentwicklung Deutschlandticket",
           "steps": [
-            { "label": "Mai 2023", "value": "49 €", "sublabel": "Start" },
-            { "label": "Jan 2025", "value": "58 €", "sublabel": "+18 %" },
-            { "label": "Jan 2026", "value": "63 €", "sublabel": "+9 %" }
+            {
+              "label": "Jan 2025",
+              "value": "58 €",
+              "sublabel": "bundeseinheitlicher Preis"
+            },
+            {
+              "label": "Jan 2026",
+              "value": "63 €",
+              "sublabel": "erneute Erhöhung"
+            }
           ],
-          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
+          "sourceRefs": [
+            "vdv-pressemitteilung-deutschlandticket-jan-2026"
+          ]
         },
         {
           "type": "fact",
-          "text": "Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %. Nach der Preiserhöhung 2025 lag sie laut VDV bei rund 8 %.",
+          "text": "Nach der Preiserhöhung 2026 blieb die Kündigungsquote laut VDV bei 5,75 %. Auch nach der Erhöhung 2025 gab es laut VDV keine Kündigungswelle.",
           "description": "Zum Vergleich: Vor dem D-Ticket musste man in manchen Städten bis zu 5 verschiedene Tarife verstehen, um von A nach B zu kommen. Das Ticket hat den Tarifdschungel entwirrt.",
           "highlight": true,
-          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
+          "sourceRefs": [
+            "vdv-pressemitteilung-deutschlandticket-jan-2026"
+          ]
         },
         {
           "type": "text",
           "text": "Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland.",
-          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
+          "sourceRefs": [
+            "vdv-pressemitteilung-deutschlandticket-jan-2026"
+          ]
         }
       ]
     },
@@ -129,37 +172,69 @@
       "content": [
         {
           "type": "fact",
-          "text": "Der Verkehrssektor verfehlt seine Klimaziele deutlich. Für den Zeitraum 2021–2030 droht eine Zielverfehlung von 169–224 Millionen Tonnen CO₂-Äquivalenten.",
-          "description": "Während Energiewirtschaft und Industrie ihre Emissionen senken, stagniert der Verkehr seit 30 Jahren. Er ist das Sorgenkind der Klimapolitik.",
+          "text": "Der Verkehrssektor verfehlt seine Klimaziele deutlich. Laut UBA-Projektionen 2024 droht bis 2030 eine kumulierte Minderungslücke von 180 Millionen Tonnen CO2-Äquivalenten.",
+          "description": "Während andere Sektoren ihre Emissionen stärker senken, bleibt der Verkehr das Sorgenkind der Klimapolitik.",
           "highlight": true,
-          "sourceRefs": ["agora-energiewende-klimaneutrales-deutschland"]
+          "sourceRefs": [
+            "uba-treibhausgas-projektionen-2024-kompakt",
+            "uba-emissionsdaten-2023-verkehr"
+          ]
         },
         {
           "type": "bar_chart",
-          "caption": "CO₂-Emissionen nach Verkehrsmittel (g pro Personenkilometer)",
-          "unit": "g CO₂/Pkm",
+          "caption": "CO2-Emissionen nach Verkehrsmittel (g pro Personenkilometer)",
+          "unit": "g CO2/Pkm",
           "items": [
-            { "label": "Fahrrad", "value": 0 },
-            { "label": "E-Bike", "value": 3 },
-            { "label": "Fernbus", "value": 31 },
-            { "label": "Bahn (Fern)", "value": 31 },
-            { "label": "ÖPNV (Nah)", "value": 75 },
-            { "label": "PKW", "value": 166, "highlight": true },
-            { "label": "Flugzeug", "value": 238, "highlight": true }
+            {
+              "label": "Fahrrad",
+              "value": 0
+            },
+            {
+              "label": "E-Bike",
+              "value": 3
+            },
+            {
+              "label": "Fernbus",
+              "value": 31
+            },
+            {
+              "label": "Bahn (Fern)",
+              "value": 31
+            },
+            {
+              "label": "ÖPNV (Nah)",
+              "value": 75
+            },
+            {
+              "label": "PKW",
+              "value": 166,
+              "highlight": true
+            },
+            {
+              "label": "Flugzeug",
+              "value": 238,
+              "highlight": true
+            }
           ],
-          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
+          "sourceRefs": [
+            "uba-verkehr-emissionen-personenkilometer-2024-pdf"
+          ]
         },
         {
           "type": "fact",
-          "text": "Ein PKW stößt pro Personenkilometer mehr als das Fünffache eines Fernbusses und mehr als das Fünffache der Bahn aus.",
-          "description": "Wer einmal Berlin–München mit dem ICE statt dem Auto fährt, spart rund 80 kg CO₂ — so viel wie 3 Wochen Kühlschrankbetrieb."
-          ,
-          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
+          "text": "Ein Pkw verursacht pro Personenkilometer deutlich höhere Emissionen als Fernbus, Bahn, Fahrrad oder E-Bike.",
+          "description": "Wer eine längere Strecke mit Bahn oder Fernbus statt mit dem Auto zurücklegt, spart schnell erhebliche Mengen CO2.",
+          "sourceRefs": [
+            "uba-verkehr-emissionen-personenkilometer-2024-pdf"
+          ]
         },
         {
           "type": "text",
-          "text": "2025 stiegen die Emissionen im Verkehr laut Agora Energiewende sogar leicht an, bedingt durch höheren Kraftstoffverbrauch. Der Verkehrssektor bleibt der einzige Sektor, der seine Emissionen gegenüber 1990 nicht substanziell reduziert hat.",
-          "sourceRefs": ["agora-energiewende-klimaneutrales-deutschland"]
+          "text": "Die UBA-Quartalsindikatoren für 2025 deuteten zeitweise auf höheren Kraftstoffverbrauch hin. Der Verkehrssektor bleibt damit der Bereich mit dem größten Nachholbedarf beim Klimaschutz.",
+          "sourceRefs": [
+            "uba-quartalsindikatoren-verkehr-2025",
+            "uba-emissionsdaten-2023-verkehr"
+          ]
         }
       ]
     },
@@ -171,54 +246,32 @@
           "type": "fact",
           "text": "Autos beanspruchen viel öffentlichen Raum, obwohl sie einen Großteil der Zeit nicht bewegt werden.",
           "description": "Öffentlicher Raum ist knapp. Gerade parkende Fahrzeuge binden Fläche, die auch anders genutzt werden könnte.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [
+            "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
+          ]
         },
         {
-          "type": "bar_chart",
-          "caption": "Flächenverbrauch pro beförderter Person in der Stadt",
-          "unit": "m²",
-          "items": [
-            { "label": "Fußgänger", "value": 2 },
-            { "label": "Straßenbahn", "value": 8 },
-            { "label": "Fahrrad", "value": 10 },
-            { "label": "Bus", "value": 20 },
-            { "label": "PKW", "value": 100, "highlight": true }
-          ],
-          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
-        },
-        {
-          "type": "stat_grid",
-          "items": [
-            {
-              "value": "viele Mio.",
-              "label": "Stellplätze in DE",
-              "sublabel": "über 3 pro PKW"
-            },
-            {
-              "value": "58 %",
-              "label": "Verkehrsfläche für MIV",
-              "sublabel": "in Berlin (fahrend + parkend)"
-            },
-            {
-              "value": "10×",
-              "label": "Parkplatz vs. Spielplatz",
-              "sublabel": "Flächenverhältnis in Berlin"
-            }
+          "type": "text",
+          "text": "Parken ist kein Nulltarif-Thema: Es beansprucht wertvolle Stadtfläche, verursacht Bewirtschaftungsaufwand und konkurriert mit Grünflächen, Radwegen, Lieferzonen oder Aufenthaltsräumen.",
+          "sourceRefs": [
+            "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
           ]
         },
         {
           "type": "fact",
           "text": "In vielen Städten beansprucht der motorisierte Individualverkehr deutlich mehr Fläche, als seinem Anteil an den tatsächlich zurückgelegten Wegen entspricht.",
-          "description": "Die Stadt ist für Autos gebaut, nicht für Menschen. Katja Diehl nennt das die ‚autogerechte Stadt' — ein Planungsideal der 1950er, das uns bis heute prägt."
-        },
-        {
-          "type": "fact",
-          "text": "Selbst in verkehrsreichen Zeiten wird nur ein Teil des Fahrzeugbestands gleichzeitig bewegt.",
-          "description": "Wir halten riesige Flächen für Fahrzeuge frei, die fast nie genutzt werden. Carsharing, besserer ÖPNV und Radwege könnten diesen Platz für Parks, Spielplätze und Außengastronomie freimachen."
+          "description": "Flächenkonflikte in Städten sind deshalb auch eine Frage von Parkraumpolitik und Straßenraumverteilung.",
+          "sourceRefs": [
+            "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
+          ]
         },
         {
           "type": "text",
-          "text": "Die Gesellschaft trägt enorme Kosten für die Parkplatzsuche: rund 40 Milliarden Euro pro Jahr laut einer Studie — durch verlorene Zeit, Spritverbrauch und Stau. Gleichzeitig kostet ein Bewohnerparkausweis in vielen Städten weniger als ein Streaming-Abo."
+          "text": "Verkehrswende bedeutet hier nicht Autofeindschaft, sondern eine gerechtere Verteilung des öffentlichen Raums zwischen Gehen, Radfahren, ÖPNV, Lieferverkehr und Autos.",
+          "sourceRefs": [
+            "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
+          ]
         }
       ]
     },
@@ -235,17 +288,19 @@
               "sublabel": "MiD 2023, deutschlandweit"
             },
             {
-              "value": "90,6 Mio.",
+              "value": "~80 Mio.",
               "label": "Fahrräder in DE",
-              "sublabel": "davon >17 Mio. E-Bikes"
+              "sublabel": "MiD 2023"
             },
             {
-              "value": "< 40 km",
-              "label": "Ø tägliche Fahrstrecke",
-              "sublabel": "PKW-Nutzer in Deutschland"
+              "value": "1/4",
+              "label": "davon elektrisch",
+              "sublabel": "MiD 2023"
             }
           ],
-          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023", "ziv-marktdaten-2025-fuer-den-fahrradbestand-in"]
+          "sourceRefs": [
+            "bmv-mid-2023-ueberblick"
+          ]
         },
         {
           "type": "line_chart",
@@ -253,40 +308,49 @@
           "unit": "%",
           "color": "#00897b",
           "items": [
-            { "label": "2002", "value": 9.3 },
-            { "label": "2008", "value": 9.9 },
-            { "label": "2017", "value": 10.9 },
-            { "label": "2023", "value": 11.2 }
+            {
+              "label": "2002",
+              "value": 9.3
+            },
+            {
+              "label": "2008",
+              "value": 9.9
+            },
+            {
+              "label": "2017",
+              "value": 10.9
+            },
+            {
+              "label": "2023",
+              "value": 11.2
+            }
           ],
-          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
-        },
-        {
-          "type": "fact",
-          "text": "Ein Drittel aller Fahrrad-Personenkilometer werden mittlerweile mit E-Bikes gefahren.",
-          "description": "E-Bikes machen Radfahren für Ältere, Pendler mit längeren Strecken und hügelige Regionen alltagstauglich. Sie sind der Gamechanger für den Radverkehr auf dem Land."
-          ,
-          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
-        },
-        {
-          "type": "bar_chart",
-          "caption": "Radverkehrsanteil in Metropolen vs. ländlicher Raum",
-          "unit": "%",
-          "items": [
-            { "label": "Metropolen (DE)", "value": 15, "highlight": true },
-            { "label": "Mittelstädte", "value": 11 },
-            { "label": "Ländlich", "value": 6 },
-            { "label": "Niederlande", "value": 27, "highlight": true }
+          "sourceRefs": [
+            "mid-2023-publikationen"
           ]
         },
         {
           "type": "fact",
-          "text": "Die Zufriedenheit mit der Radinfrastruktur ist von 50 % (2017) auf 40 % (2023) gesunken — trotz steigendem Radanteil.",
-          "description": "Mehr Menschen fahren Rad, aber die Infrastruktur hält nicht Schritt. Schmale Radstreifen neben LKW-Verkehr fühlen sich nicht sicher an — besonders nicht für Kinder und Ältere."
+          "text": "Ein Drittel aller Fahrrad-Personenkilometer werden mittlerweile mit E-Bikes gefahren.",
+          "description": "E-Bikes machen Radfahren für längere Alltagswege und ländliche Räume deutlich attraktiver.",
+          "sourceRefs": [
+            "bmv-mid-2023-ueberblick"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Oldenburg zeigt, was mit guter Radinfrastruktur möglich ist: Im Binnenverkehr werden dort bereits 47 % der Wege mit dem Fahrrad zurückgelegt.",
+          "description": "Das ist kein Nischeneffekt, sondern ein Praxisbeispiel dafür, dass Infrastruktur das Mobilitätsverhalten spürbar verändern kann.",
+          "sourceRefs": [
+            "oldenburg-srv-2023-radverkehr"
+          ]
         },
         {
           "type": "text",
           "text": "Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen.",
-          "sourceRefs": ["fraunhofer-isi-potenziale-des-radverkehrs-fuer"]
+          "sourceRefs": [
+            "fraunhofer-isi-potenziale-des-radverkehrs-fuer"
+          ]
         }
       ]
     },
@@ -310,49 +374,50 @@
               "color": "#e53935"
             },
             {
-              "value": "~4.000",
-              "label": "Herzinfarkte/Jahr",
-              "sublabel": "durch Verkehrslärm (UBA)",
+              "value": "21,9 Mio.",
+              "label": "Menschen",
+              "sublabel": ">55 dB(A) ganztägig",
               "color": "#e53935"
             }
+          ],
+          "sourceRefs": [
+            "destatis-unfallbilanz-2025",
+            "uba-verkehrslaerm-indikator"
           ]
         },
         {
           "type": "fact",
-          "text": "Etwa drei Viertel der Bevölkerung fühlen sich in ihrem Wohnumfeld durch Straßenverkehrslärm gestört oder belästigt.",
-          "description": "Verkehrslärm ist kein Komfortproblem. Er belastet Gesundheit und Lebensqualität; Tempo 30 kann den Lärmpegel in Innenstädten spürbar senken.",
+          "text": "Straßenverkehr ist die wichtigste Lärmquelle. Nach der UBA-Lärmkartierung 2022 waren ganztägig rund 21,9 Millionen Menschen Verkehrslärm über 55 dB(A) ausgesetzt.",
+          "description": "Verkehrslärm ist kein Komfortproblem. Er belastet Gesundheit und Lebensqualität in großem Maßstab.",
           "highlight": true,
-          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
-        },
-        {
-          "type": "bar_chart",
-          "caption": "Verkehrstote in Deutschland nach Jahr",
-          "unit": "Personen",
-          "items": [
-            { "label": "2021", "value": 2562 },
-            { "label": "2022", "value": 2788 },
-            { "label": "2023", "value": 2839 },
-            { "label": "2024", "value": 2770 },
-            { "label": "2025", "value": 2814 }
-          ],
-          "sourceRefs": ["statistisches-bundesamt-destatis"]
+          "sourceRefs": [
+            "uba-verkehrslaerm-indikator"
+          ]
         },
         {
           "type": "fact",
-          "text": "30 Prozent aller Verkehrstoten kamen 2024 durch überhöhte Geschwindigkeit ums Leben — das ist Unfallursache Nr. 1.",
-          "description": "Tempo 30 in Innenstädten ist keine Schikane: Bei 30 km/h beträgt das Risiko, als Fußgänger bei einem Unfall zu sterben, ca. 10 %. Bei 50 km/h steigt es auf ca. 40 %."
+          "text": "2024 war überhöhte oder nicht angepasste Geschwindigkeit die häufigste Ursache tödlicher Verkehrsunfälle. 30 % der Verkehrstoten starben bei solchen Unfällen.",
+          "description": "Tempo ist keine Nebensache: Es beeinflusst sowohl die Unfallwahrscheinlichkeit als auch die Unfallschwere.",
+          "sourceRefs": [
+            "destatis-unfallursachen-2024",
+            "uba-tempo-30-empfehlung"
+          ]
         },
         {
           "type": "fact",
-          "text": "Im Schulalter (6–9 Jahre) verunglückten 40,4 Prozent der betroffenen Kinder als PKW-Insassen — nicht auf dem Schulweg zu Fuß oder per Rad.",
-          "description": "Das sogenannte ‚Elterntaxi' ist nicht automatisch sicherer. Es sorgt für Chaos vor Schulen und nimmt Kindern die Chance, Verkehrskompetenz aufzubauen."
-          ,
-          "sourceRefs": ["statistisches-bundesamt-destatis"]
+          "text": "Bei den 6- bis 14-Jährigen verunglückten 2024 die meisten Kinder mit dem Fahrrad (38 %), aber auch häufig im Auto (29 %) und zu Fuß (20 %).",
+          "description": "Kindersicherheit im Verkehr ist eine Frage sicherer Infrastruktur und niedriger Geschwindigkeiten - nicht nur eine Frage des Verkehrsmittels.",
+          "sourceRefs": [
+            "destatis-kinderunfaelle-2024"
+          ]
         },
         {
           "type": "text",
-          "text": "Millionen Menschen sind in Deutschland Straßenlärm über 55 dB(A) ausgesetzt. Die WHO empfiehlt maximal 53 dB(A) tagsüber. Das UBA empfiehlt Tempo 30 als Regelgeschwindigkeit in Innenstädten — sowohl für weniger Lärm als auch für weniger Unfälle.",
-          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
+          "text": "Die WHO empfiehlt für Straßenverkehr maximal 53 dB(A) ganztags. Das UBA empfiehlt Tempo 30 als innerörtliche Regelgeschwindigkeit, weil damit Lärm und Unfallfolgen sinken können.",
+          "sourceRefs": [
+            "uba-verkehrslaerm-indikator",
+            "uba-tempo-30-empfehlung"
+          ]
         }
       ]
     },
@@ -375,73 +440,60 @@
               "sublabel": "bundesweit (MiD 2023)"
             },
             {
-              "value": "deutlich höher",
-              "label": "Autolosigkeit",
-              "sublabel": "bei niedrigem Einkommen häufiger als bei hohem"
+              "value": "> 60 %",
+              "label": "MIV-Anteil im ländlichen Raum",
+              "sublabel": "an den Wegen laut MiD"
             },
             {
-              "value": "~40 %",
-              "label": "autolose Haushalte",
-              "sublabel": "in Großstädten/Metropolen"
+              "value": "90 %",
+              "label": "Bevölkerung mit gut erreichbarer Haltestelle",
+              "sublabel": "aber große regionale Unterschiede"
             }
           ],
-          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
-        },
-        {
-          "type": "comparison",
-          "caption": "Monatliche Vollkosten: Auto vs. ÖPNV + Rad",
-          "items": [
-            {
-              "title": "PKW (Kleinwagen)",
-              "color": "#e53935",
-              "rows": [
-                { "label": "Wertverlust", "value": "~150 €" },
-                { "label": "Versicherung + Steuer", "value": "~90 €" },
-                { "label": "Kraftstoff (15.000 km/a)", "value": "~120 €" },
-                { "label": "Wartung + Reifen", "value": "~50 €" }
-              ],
-              "total": { "label": "Vollkosten/Monat", "value": "ab 400 €" }
-            },
-            {
-              "title": "D-Ticket + Fahrrad",
-              "color": "#00897b",
-              "rows": [
-                { "label": "Deutschlandticket", "value": "63 €" },
-                { "label": "Fahrrad (Abschreibung)", "value": "~15 €" },
-                { "label": "Wartung Rad", "value": "~10 €" },
-                { "label": "Carsharing (gelegentlich)", "value": "~30 €" }
-              ],
-              "total": { "label": "Vollkosten/Monat", "value": "~118 €" }
-            }
-          ],
-          "savings": "Ersparnis: über 280 € pro Monat — über 3.300 € im Jahr"
+          "sourceRefs": [
+            "bmv-mid-2023-ueberblick",
+            "bbsr-oev-erreichbarkeit-2023"
+          ]
         },
         {
           "type": "fact",
-          "text": "Allein das Dienstwagenprivileg kostet laut FOES mehrere Milliarden Euro pro Jahr. Hinzu kommen weitere klimaschädliche Anreize im Verkehrssystem.",
-          "description": "Das Dienstwagenprivileg allein kostet 3,5–6 Milliarden Euro jährlich und kommt überwiegend den reichsten 10 % zugute. Dieses Geld fehlt für Radwege, Busse und Bahnen."
-          ,
-          "sourceRefs": ["forum-oekologisch-soziale-marktwirtschaft-foes"]
-        },
-        {
-          "type": "progress_stack",
-          "caption": "Wer profitiert vom Dienstwagenprivileg?",
-          "segments": [
-            { "label": "Oberstes Fünftel (Einkommen)", "value": 50, "sublabel": "50 % der Subvention" },
-            { "label": "Obere Mitte", "value": 25, "sublabel": "25 %" },
-            { "label": "Untere 60 %", "value": 25, "sublabel": "25 %" }
-          ],
-          "total": "3,5–6 Mrd. €/Jahr Steuermindereinnahmen (FÖS)",
-          "sourceRefs": ["forum-oekologisch-soziale-marktwirtschaft-foes"]
+          "text": "Ein eigener Pkw verursacht laut ADAC auch bei günstigen Modellen erhebliche Gesamtkosten aus Wertverlust, Versicherung, Wartung und Betrieb.",
+          "description": "Entscheidend sind nicht nur Sprit und Kaufpreis, sondern vor allem auch Wertverlust, Versicherung, Wartung und Reifen.",
+          "sourceRefs": [
+            "adac-kleinstwagen-autokosten"
+          ]
         },
         {
           "type": "fact",
-          "text": "Im durchschnittlichen deutschen PKW sitzen meist nur wenige Personen. Das unterstreicht, wie flächenintensiv das bestehende System ist.",
-          "description": "Viele Fahrzeuge bewegen nur sehr wenige Menschen und beanspruchen trotzdem viel Fläche und Infrastruktur."
+          "text": "Deutschlandticket, Fahrrad und gelegentliches Carsharing können je nach Nutzungsprofil deutlich günstiger sein als ein eigenes Auto.",
+          "description": "Mobilitätskosten sind Verteilungsfragen. Wer Alternativen hat, kann viel Geld sparen.",
+          "sourceRefs": [
+            "adac-kleinstwagen-autokosten",
+            "vdv-pressemitteilung-deutschlandticket-jan-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Laut FÖS begünstigt das Dienstwagenprivileg vor allem höhere Einkommen und setzt im Verkehrssystem klimapolitisch problematische Anreize.",
+          "description": "Die Subvention kommt laut FÖS vor allem den einkommensstärksten 1 bis 10 % zugute.",
+          "sourceRefs": [
+            "foes-dienstwagenprivileg-2024"
+          ]
         },
         {
           "type": "text",
-          "text": "Echte Wahlfreiheit in der Mobilität bedeutet: Gute Alternativen müssen existieren. In vielen ländlichen Regionen fährt der Bus nur alle zwei Stunden — dort ist das Auto kein Luxus, sondern Zwang. Die Verkehrswende muss auch dort ankommen, mit besseren Taktungen, Rufbussen und sicheren Radwegen."
+          "text": "Rund zwei Drittel aller Neuwagen werden gewerblich zugelassen. Wie Dienstwagen besteuert werden, beeinflusst deshalb direkt das Tempo der Antriebswende.",
+          "sourceRefs": [
+            "foes-dienstwagenprivileg-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "In vielen ländlichen Regionen ist ein alltagstauglicher ÖPNV schwerer erreichbar als in Städten. Genau dort braucht die Verkehrswende bessere Takte, Rufbusse und sichere Anschlüsse statt bloß Appelle.",
+          "sourceRefs": [
+            "bmv-mid-2023-ueberblick",
+            "bbsr-oev-erreichbarkeit-2023"
+          ]
         }
       ]
     }
@@ -450,147 +502,293 @@
     {
       "id": "arg-strommix",
       "claim": "E-Autos sind doch gar nicht umweltfreundlicher, wenn der Strom aus Kohle kommt!",
-      "response": "Selbst beim aktuellen deutschen Strommix ist ein E-Auto über seinen Lebenszyklus deutlich klimafreundlicher als ein Verbrenner. Der Erneuerbare-Anteil lag 2025 bei über 55 %. Der hohe Wirkungsgrad des E-Motors (70–80 %) schlägt die ineffiziente Verbrennung (ca. 20–30 %) bei weitem. Und mit jedem Windrad und Solarpanel wird das E-Auto sauberer — ein Verbrenner nie.",
-      "keywords": ["Strommix", "Kohle", "Umweltfreundlich", "Lebenszyklus"],
-      "relatedSections": ["emobilitaet"]
+      "response": "Auch mit dem heutigen deutschen Strommix sind E-Autos laut UBA über den Lebenszyklus klar klimafreundlicher als Benziner. 2025 deckten Erneuerbare bereits 55,3 % des Stromverbrauchs. Mit jedem weiteren Ausbau von Wind und Solar wächst der Klimavorteil batterieelektrischer Fahrzeuge, während Verbrenner auf fossile Kraftstoffe angewiesen bleiben.",
+      "keywords": [
+        "Strommix",
+        "Kohle",
+        "Umweltfreundlich",
+        "Lebenszyklus"
+      ],
+      "relatedSections": [
+        "emobilitaet"
+      ]
     },
     {
       "id": "arg-efuels",
       "claim": "Wir sollten einfach E-Fuels tanken, dann können wir unsere Verbrenner behalten.",
-      "response": "E-Fuels sind extrem ineffizient: Für die gleiche Strecke braucht ein damit betriebener Verbrenner 5- bis 7-mal so viel erneuerbaren Strom wie ein E-Auto. E-Fuels werden dringend für Flugzeuge und Schiffe gebraucht, wo Batterien zu schwer sind. Sie für PKW einzusetzen wäre massive Energieverschwendung.",
-      "keywords": ["E-Fuels", "Verbrenner", "Technologieoffenheit", "Wasserstoff"],
-      "relatedSections": ["emobilitaet"]
+      "response": "E-Fuels sind für Pkw der ineffiziente Umweg. Das UBA hält direkte Stromnutzung im E-Auto für deutlich effizienter und sieht strombasierte Kraftstoffe vor allem dort, wo Batterien an Grenzen stoßen - etwa im Luft- und Seeverkehr. Für den Massen-Pkw-Verkehr wären E-Fuels deshalb teuer und verschwenderisch.",
+      "keywords": [
+        "E-Fuels",
+        "Verbrenner",
+        "Technologieoffenheit",
+        "Wasserstoff"
+      ],
+      "relatedSections": [
+        "emobilitaet"
+      ]
     },
     {
       "id": "arg-dticket",
       "claim": "Das Deutschlandticket ist ein Milliardengrab und bringt niemanden dazu, das Auto stehen zu lassen.",
-      "response": "Mit rund 14,6 Millionen Nutzern Ende 2025 ist das Ticket ein großer Erfolg. Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %, nach der Preiserhöhung 2025 laut VDV aber bei rund 8 %. Das Ticket vereinfacht den Tarifdschungel massiv und entlastet viele Pendler trotzdem deutlich.",
-      "keywords": ["Deutschlandticket", "ÖPNV", "Kosten", "Subventionen"],
-      "relatedSections": ["oepnv"]
+      "response": "Mit rund 14,6 Millionen Nutzenden Ende 2025 ist das Deutschlandticket stark verbreitet. Laut VDV blieb selbst nach der Preiserhöhung 2026 die Kündigungsquote bei 5,75 %. Das Ticket vereinfacht den Tarifdschungel massiv und erleichtert vielen Menschen den Zugang zum ÖPNV.",
+      "keywords": [
+        "Deutschlandticket",
+        "ÖPNV",
+        "Kosten",
+        "Subventionen"
+      ],
+      "relatedSections": [
+        "oepnv"
+      ]
     },
     {
       "id": "arg-reichweite",
       "claim": "Die Reichweite von E-Autos ist viel zu gering für den Alltag.",
-      "response": "Die durchschnittliche tägliche Fahrstrecke in Deutschland liegt bei unter 40 Kilometern. Moderne E-Autos bieten reale Reichweiten von 300 bis 500 Kilometern, was für über 95 % aller Alltagsfahrten völlig ausreicht. Zudem wächst das Schnellladenetz kontinuierlich — über 150.000 öffentliche Ladepunkte gab es Ende 2025.",
-      "keywords": ["Reichweite", "Alltag", "Laden", "Infrastruktur"],
-      "relatedSections": ["emobilitaet"]
+      "response": "Die durchschnittliche Alltagsmobilität liegt deutlich unter typischen E-Auto-Reichweiten. Für den Alltag reichen moderne E-Autos deshalb oft aus. Zudem wächst die öffentliche Ladeinfrastruktur weiter, und viele Ladevorgänge finden zu Hause oder am Arbeitsplatz statt.",
+      "keywords": [
+        "Reichweite",
+        "Alltag",
+        "Laden",
+        "Infrastruktur"
+      ],
+      "relatedSections": [
+        "emobilitaet"
+      ]
     },
     {
       "id": "arg-stromnetz",
       "claim": "Das Stromnetz bricht zusammen, wenn alle elektrisch fahren.",
-      "response": "Studien zeigen, dass selbst bei 15 Millionen E-Autos der Strombedarf nur um etwa 9–10 % des heutigen Verbrauchs steigen würde. Das deutsche Stromnetz kann das bewältigen, besonders durch intelligentes Laden (z. B. nachts, wenn viel Windstrom im Netz ist). Nie mehr als 10 % aller PKW sind gleichzeitig unterwegs — sie laden also auch nicht alle gleichzeitig.",
-      "keywords": ["Stromnetz", "Blackout", "Laden", "Kapazität"]
+      "response": "Das Stromnetz muss für mehr E-Mobilität ausgebaut und lokal intelligent gesteuert werden. Genau dafür gibt es inzwischen Regeln wie § 14a EnWG. Die Herausforderung heißt Lastmanagement und Netzausbau, nicht flächendeckender Blackout.",
+      "keywords": [
+        "Stromnetz",
+        "Blackout",
+        "Laden",
+        "Kapazität"
+      ]
     },
     {
       "id": "arg-ladeinfrastruktur",
       "claim": "Auf dem Land gibt es keine Ladesäulen, E-Autos funktionieren nur in der Stadt!",
-      "response": "Deutschland hatte Ende 2025 deutlich über 150.000 öffentliche Ladepunkte. Die Abdeckung verbessert sich kontinuierlich, gerade entlang von Autobahnen. Außerdem finden viele Ladevorgänge zu Hause oder am Arbeitsplatz statt — die öffentliche Ladesäule ist nicht der einzige Standardfall.",
-      "keywords": ["Ladesäulen", "Ladeinfrastruktur", "Land", "ländlich", "laden"],
-      "relatedSections": ["emobilitaet"]
+      "response": "Von fehlender Ladeinfrastruktur kann bundesweit keine Rede mehr sein: Anfang Februar 2026 waren bei der Bundesnetzagentur 196.353 öffentliche Ladepunkte gemeldet. Regionale Lücken gibt es weiter, aber das Netz wächst stark. Außerdem finden viele Ladevorgänge zu Hause oder am Arbeitsplatz statt.",
+      "keywords": [
+        "Ladesäulen",
+        "Ladeinfrastruktur",
+        "Land",
+        "ländlich",
+        "laden"
+      ],
+      "relatedSections": [
+        "emobilitaet"
+      ]
     },
     {
       "id": "arg-innenstadt",
       "claim": "Autofreie Innenstädte töten den Einzelhandel!",
-      "response": "Studien aus ganz Europa zeigen das Gegenteil: Fußgänger und Radfahrer geben in Innenstädten mehr Geld pro Besuch aus als Autofahrer. Autofreie Zonen steigern die Aufenthaltsqualität, erhöhen die Besucherzahlen und stärken den lokalen Handel. Beispiele wie die Superblocks in Barcelona oder autoarme Zonen in Utrecht belegen: Weniger Autos bedeuten mehr Leben und mehr Umsatz.",
-      "keywords": ["Innenstadt", "Einzelhandel", "autofrei", "Fußgängerzone", "Geschäfte"],
-      "relatedSections": ["flaechenverbrauch"]
+      "response": "Ein genereller Umsatzeinbruch durch autoarme Innenstädte ist empirisch nicht gut belegt. Eine RIFS-Auswertung zeigt für zwei untersuchte Einkaufsstraßen: Nur 6,6 % der Kundschaft kam mit dem Auto, aber 91 % des Umsatzes stammten von Menschen, die zu Fuß, mit dem Rad oder dem ÖPNV unterwegs waren. Attraktive, gut erreichbare Zentren helfen dem lokalen Handel eher, als dass sie ihm schaden.",
+      "keywords": [
+        "Innenstadt",
+        "Einzelhandel",
+        "autofrei",
+        "Fußgängerzone",
+        "Geschäfte"
+      ],
+      "relatedSections": [
+        "flaechenverbrauch"
+      ]
     },
     {
       "id": "arg-radwege",
       "claim": "Radwege sind Geldverschwendung — die nutzt doch kaum jemand!",
-      "response": "Der Radverkehrsanteil steigt dort, wo gute Infrastruktur gebaut wird — die Nachfrage folgt dem Angebot. In Oldenburg liegt der Radanteil bei 47 %, in den Niederlanden bei 27 %. Deutschland investiert pro Kopf und Jahr nur einen Bruchteil dessen, was die Niederlande ausgeben. Ein Kilometer Radweg kostet etwa 1–2 Millionen Euro, ein Kilometer Autobahn 10–30 Millionen.",
-      "keywords": ["Radwege", "Fahrrad", "Infrastruktur", "Kosten", "Investition"],
-      "relatedSections": ["radverkehr"]
+      "response": "Radwege sind keine Geldverschwendung, wenn sie sicher geplant und an Alltagspfade angeschlossen werden. Gute Infrastruktur erhöht nachweislich die Nutzung und macht Mobilität günstiger, gesünder und platzsparender. Besonders E-Bikes erweitern das Potenzial weit über die Innenstadt hinaus.",
+      "keywords": [
+        "Radwege",
+        "Fahrrad",
+        "Infrastruktur",
+        "Kosten",
+        "Investition"
+      ],
+      "relatedSections": [
+        "radverkehr"
+      ]
     },
     {
       "id": "arg-tempo30",
       "claim": "Tempo 30 in der Stadt ist völlig übertrieben und bringt nichts.",
-      "response": "Tempo 30 senkt die Unfallschwere drastisch: Bei 30 km/h liegt das Todesfallrisiko für Fußgänger bei ca. 10 %, bei 50 km/h bei ca. 40 %. Zudem reduziert Tempo 30 den Straßenlärm deutlich — laut UBA die Hauptquelle von Lärmbelästigung in Deutschland. 30 Prozent aller Verkehrstoten sterben wegen überhöhter Geschwindigkeit. Tempo 30 macht Städte sicherer, leiser und lebenswerter.",
-      "keywords": ["Tempo 30", "Geschwindigkeit", "Sicherheit", "Lärm", "Innerorts"],
-      "relatedSections": ["gesundheit"]
+      "response": "Tempo 30 senkt die Unfallschwere und reduziert Straßenlärm. Das UBA empfiehlt deshalb Tempo 30 als innerörtliche Regelgeschwindigkeit. Es geht nicht um Schikane, sondern um Sicherheit und Lebensqualität.",
+      "keywords": [
+        "Tempo 30",
+        "Geschwindigkeit",
+        "Sicherheit",
+        "Lärm",
+        "Innerorts"
+      ],
+      "relatedSections": [
+        "gesundheit"
+      ]
     },
     {
       "id": "arg-autoland",
       "claim": "Deutschland ist ein Autoland — ohne Auto kommst du nicht zur Arbeit!",
-      "response": "In Großstädten besitzen rund 40 % der Haushalte kein Auto und kommen trotzdem zur Arbeit. Das Problem ist nicht, dass Menschen das Auto lieben, sondern dass Alternativen oft fehlen — besonders auf dem Land. Mit besserem ÖPNV-Takt, Rufbussen und sicheren Radwegen wird echte Wahlfreiheit möglich.",
-      "keywords": ["Autoland", "Pendler", "Arbeit", "Land", "Alternative"],
-      "relatedSections": ["soziale_teilhabe", "radverkehr"]
+      "response": "Deutschland ist stark aufs Auto ausgerichtet, aber nicht überall gleich. In vielen Städten leben viele Haushalte längst ohne eigenes Auto. Das Kernproblem ist oft nicht fehlende Bereitschaft zur Veränderung, sondern das Fehlen guter Alternativen.",
+      "keywords": [
+        "Autoland",
+        "Pendler",
+        "Arbeit",
+        "Land",
+        "Alternative"
+      ],
+      "relatedSections": [
+        "soziale_teilhabe",
+        "radverkehr"
+      ]
     },
     {
       "id": "arg-suv-sicher",
       "claim": "SUVs sind sicherer für meine Familie, deshalb brauche ich einen.",
-      "response": "SUVs mögen für die Insassen etwas sicherer sein, aber sie erhöhen das Risiko für alle anderen Verkehrsteilnehmer massiv — besonders für Kinder und Fußgänger. Die höhere Motorhaube trifft bei einem Aufprall den Oberkörper statt der Beine. Gleichzeitig brauchen SUVs mehr Parkfläche und verursachen durch ihr höheres Gewicht mehr Reifenabrieb und Feinstaub. Echte Sicherheit entsteht durch Tempo 30, gute Radwege und Vision Zero — nicht durch Aufrüstung.",
-      "keywords": ["SUV", "Sicherheit", "Familie", "Fußgänger", "Gewicht"],
-      "relatedSections": ["gesundheit", "flaechenverbrauch"]
+      "response": "SUVs mögen für die Insassen subjektiv sicher wirken, erhöhen für Fußgänger aber oft das Risiko schwerer Verletzungen. IIHS-Analysen zeigen, dass Fahrzeuge mit hohen und steilen Fronten deutlich häufiger tödliche Fußgängerunfälle verursachen als niedrigere, schrägere Fahrzeuge. Mehr Sicherheit entsteht vor allem durch niedrigere Geschwindigkeiten und sichere Infrastruktur - nicht durch immer massivere Fahrzeuge.",
+      "keywords": [
+        "SUV",
+        "Sicherheit",
+        "Familie",
+        "Fußgänger",
+        "Gewicht"
+      ],
+      "relatedSections": [
+        "gesundheit",
+        "flaechenverbrauch"
+      ]
     },
     {
       "id": "arg-grossstadtthema",
       "claim": "Verkehrswende ist doch nur ein Großstadtthema — auf dem Land braucht man das Auto!",
-      "response": "Gerade auf dem Land braucht es die Verkehrswende am dringendsten: Die Abhängigkeit vom Auto ist dort am größten und trifft besonders jene, die sich kein Auto leisten können — Jugendliche, Ältere, Menschen mit niedrigem Einkommen. Lösungen wie Rufbusse, bessere Bahntaktung, sichere Radwege und E-Bike-Förderung können echte Wahlfreiheit schaffen. In vielen ländlichen Regionen fährt der Bus nur alle 2 Stunden — das ist kein Argument gegen die Verkehrswende, sondern dafür.",
-      "keywords": ["Land", "ländlich", "Großstadt", "Rufbus", "Bus"],
-      "relatedSections": ["soziale_teilhabe"]
+      "response": "Gerade auf dem Land ist die Abhängigkeit vom Auto oft am größten. Deshalb braucht es dort bessere Bus- und Bahnangebote, Rufbusse, sichere Radwege und bezahlbare Alternativen. Verkehrswende heißt nicht Auto verbieten, sondern Wahlfreiheit schaffen.",
+      "keywords": [
+        "Land",
+        "ländlich",
+        "Großstadt",
+        "Rufbus",
+        "Bus"
+      ],
+      "relatedSections": [
+        "soziale_teilhabe"
+      ]
     }
   ],
   "sources": [
     {
-      "id": "kraftfahrt-bundesamt-kba-fahrzeugzulassungen-und",
-      "label": "Kraftfahrt-Bundesamt (KBA): Fahrzeugzulassungen und Bestand 2025/2026",
-      "url": "https://www.kba.de"
+      "id": "umweltbundesamt-uba-klimavorteil-e-autos",
+      "label": "Umweltbundesamt (UBA): Klimavorteil für E-Autos bestätigt",
+      "url": "https://www.umweltbundesamt.de/presse/pressemitteilungen/klimavorteil-fuer-e-autos-bestaetigt"
     },
     {
-      "id": "umweltbundesamt-uba-emissionsdaten-verkehr-und",
-      "label": "Umweltbundesamt (UBA): Emissionsdaten Verkehr und Lärmwirkungen",
-      "url": "https://www.umweltbundesamt.de"
+      "id": "umweltbundesamt-uba-wasserstoff-im-verkehr-faq",
+      "label": "Umweltbundesamt (UBA): Wasserstoff im Verkehr - Häufig gestellte Fragen",
+      "url": "https://www.umweltbundesamt.de/themen/verkehr/kraftstoffe-antriebe/wasserstoff-im-verkehr-haeufig-gestellte-fragen"
     },
     {
-      "id": "verband-deutscher-verkehrsunternehmen-vdv-oepnv",
-      "label": "Verband Deutscher Verkehrsunternehmen (VDV): ÖPNV-Bilanz 2025",
-      "url": "https://www.vdv.de"
-    },
-    {
-      "id": "statistisches-bundesamt-destatis",
-      "label": "Statistisches Bundesamt (Destatis): Verkehrsunfälle 2024/2025",
-      "url": "https://www.destatis.de"
-    },
-    {
-      "id": "mobilitaet-in-deutschland-mid-2023",
-      "label": "Mobilität in Deutschland (MiD 2023): Ergebnisbericht",
-      "url": "https://www.mobilitaet-in-deutschland.de"
-    },
-    {
-      "id": "adac-autokostenuebersicht-und-unfallstatistik",
-      "label": "ADAC: Autokostenübersicht und Unfallstatistik 2025",
-      "url": "https://www.adac.de"
-    },
-    {
-      "id": "forum-oekologisch-soziale-marktwirtschaft-foes",
-      "label": "Forum Ökologisch-Soziale Marktwirtschaft (FÖS): Subventionssteckbrief Dienstwagenprivileg",
-      "url": "https://foes.de"
-    },
-    {
-      "id": "katja-diehl-autokorrektur-mobilitaet-fuer-eine",
-      "label": "Katja Diehl: Autokorrektur — Mobilität für eine lebenswerte Welt (S. Fischer, 2022)",
-      "url": "https://katja-diehl.de"
+      "id": "oldenburg-srv-2023-radverkehr",
+      "label": "Stadt Oldenburg: Fahrrad baut Vorsprung als Verkehrsmittel Nummer 1 aus",
+      "url": "https://www.oldenburg.de/metanavigation/presse/pressemitteilung/news/fahrrad-baut-vorsprung-als-verkehrsmittel-nummer-1-aus.html"
     },
     {
       "id": "fraunhofer-isi-potenziale-des-radverkehrs-fuer",
-      "label": "Fraunhofer ISI: Potenziale des Radverkehrs für den Klimaschutz (2024)",
-      "url": "https://www.isi.fraunhofer.de"
+      "label": "Fraunhofer ISI: Potenziale des Radverkehrs für den Klimaschutz",
+      "url": "https://www.isi.fraunhofer.de/de/blog/2024/adfc-radverkehrsanteil-potenzialabschaetzungen.html"
     },
     {
-      "id": "agora-energiewende-klimaneutrales-deutschland",
-      "label": "Agora Energiewende: Klimaneutrales Deutschland — Verkehrssektor",
-      "url": "https://www.agora-energiewende.de"
+      "id": "destatis-unfallbilanz-2025",
+      "label": "Statistisches Bundesamt (Destatis): Unfallbilanz 2025",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_062_46241.html"
+    },
+    {
+      "id": "destatis-kinderunfaelle-2024",
+      "label": "Statistisches Bundesamt (Destatis): 27.260 Kinder im Jahr 2024 bei Verkehrsunfällen verunglückt",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_N043_46241.html"
+    },
+    {
+      "id": "adac-kleinstwagen-autokosten",
+      "label": "ADAC: Autokosten-Check - Das sind die günstigsten Kleinstwagen",
+      "url": "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/guenstigste-kleinstwagen-autokosten/"
     },
     {
       "id": "uba-analyse-der-umweltbilanz-von-kraftfahrzeugen",
-      "label": "UBA – Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen",
+      "label": "Umweltbundesamt (UBA): Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen",
       "url": "https://www.umweltbundesamt.de/publikationen/analyse-der-umweltbilanz-von-kraftfahrzeugen"
     },
     {
-      "id": "ziv-marktdaten-2025-fuer-den-fahrradbestand-in",
-      "label": "ZIV – Marktdaten 2025 für den Fahrradbestand in Deutschland",
-      "url": "https://www.ziv-zweirad.de/2026/03/11/markdaten-2025/"
+      "id": "kba-fahrzeugbestand-2026",
+      "label": "KBA: Fahrzeugbestand am 1. Januar 2026",
+      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html"
+    },
+    {
+      "id": "kba-alternative-antriebe-2025",
+      "label": "KBA: Alternative Antriebe 2025",
+      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/AlternativeAntriebe/2026/pm03_2026_Antriebe_12_25_komplett.html"
+    },
+    {
+      "id": "vdv-pressemitteilung-deutschlandticket-jan-2026",
+      "label": "VDV: Deutschlandticket bleibt stabil nach Preisanpassung (27.01.2026)",
+      "url": "https://www.vdv.de/presse.aspx?id=05b80d88-b010-4841-986a-fef4ae9c1873&mode=detail"
+    },
+    {
+      "id": "uba-treibhausgas-projektionen-2024-kompakt",
+      "label": "UBA: Treibhausgas-Projektionen 2024 - Ergebnisse kompakt",
+      "url": "https://www.umweltbundesamt.de/publikationen/treibhausgas-projektionen-2024-ergebnisse-kompakt"
+    },
+    {
+      "id": "uba-emissionsdaten-2023-verkehr",
+      "label": "UBA: Klimaemissionen sinken 2023 um 10,1 Prozent",
+      "url": "https://www.umweltbundesamt.de/presse/pressemitteilungen/klimaemissionen-sinken-2023-um-101-prozent"
+    },
+    {
+      "id": "uba-verkehr-emissionen-personenkilometer-2024-pdf",
+      "label": "UBA: Emissionen des Personenverkehrs 2024 (Tabelle/PDF)",
+      "url": "https://www.umweltbundesamt.de/system/files/medien/366/bilder/dateien/vtv_2024_pv_tab_pdf.pdf"
+    },
+    {
+      "id": "uba-quartalsindikatoren-verkehr-2025",
+      "label": "UBA: Quartalsbezogene Indikatoren Q1-Q3 2025",
+      "url": "https://www.umweltbundesamt.de/system/files/document/Q1-Q3%202025%20quartalsbezogene%20Indikatoren%20UBA_0.pdf"
+    },
+    {
+      "id": "uba-parkraummanagement-nachhaltige-urbane-mobilitaet",
+      "label": "UBA: Parkraummanagement für eine nachhaltige urbane Mobilität",
+      "url": "https://www.umweltbundesamt.de/publikationen/parkraummanagement-fuer-eine-nachhaltige-urbane"
+    },
+    {
+      "id": "bmv-mid-2023-ueberblick",
+      "label": "BMV: Mobilität in Deutschland 2023 - Überblick",
+      "url": "https://www.bmv.de/SharedDocs/DE/Artikel/G/mobilitaet-in-deutschland.html"
+    },
+    {
+      "id": "mid-2023-publikationen",
+      "label": "MiD 2023: Veröffentlichungen",
+      "url": "https://www.mobilitaet-in-deutschland.de/publikationen2023.html"
+    },
+    {
+      "id": "uba-verkehrslaerm-indikator",
+      "label": "UBA: Belastung der Bevölkerung durch Verkehrslärm",
+      "url": "https://www.umweltbundesamt.de/daten/umweltindikatoren/indikator-belastung-der-bevoelkerung-durch"
+    },
+    {
+      "id": "destatis-unfallursachen-2024",
+      "label": "Destatis: Unfallursachen 2024",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_248_46241.html"
+    },
+    {
+      "id": "uba-tempo-30-empfehlung",
+      "label": "UBA empfiehlt Tempo 30 als innerörtliche Regelgeschwindigkeit",
+      "url": "https://www.umweltbundesamt.de/themen/uba-empfiehlt-tempo-30-als-inneroertliche"
+    },
+    {
+      "id": "bbsr-oev-erreichbarkeit-2023",
+      "label": "BBSR: ÖV-Erreichbarkeit in Deutschland",
+      "url": "https://www.bbsr.bund.de/BBSR/DE/presse/presseinformationen/2023/oev-erreichbarkeit.html"
+    },
+    {
+      "id": "foes-dienstwagenprivileg-2024",
+      "label": "FÖS: Dienstwagenprivileg",
+      "url": "https://foes.de/de-de/publikationen/publikation?tx_foespublications_listpublications%5Bpublication%5D=340&tx_foespublications_listpublications%5Baction%5D=show&tx_foespublications_listpublications%5Bcontroller%5D=Publication&cHash=9f763bdd4ac1008645f0f4e8df2f1c40"
     }
   ]
 }
