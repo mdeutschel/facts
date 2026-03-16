@@ -5,12 +5,12 @@
   "icon": "eco",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "~50 % weniger CO₂-Emissionen durch vegane Ernährung",
-    "75 % der globalen Agrarfläche könnten eingespart werden",
-    "Mindestens 75 % pflanzlich empfiehlt die DGE",
+    "Weniger tierische Produkte senken Emissionen deutlich",
+    "Mehr als 75 % der globalen Agrarfläche könnten frei werden",
+    "Mehr als 3/4 pflanzlich empfiehlt die DGE",
     "6 Argumente"
   ],
-  "sourceNote": "Basierend auf Daten von Umweltbundesamt (UBA), DGE (Stand 2024/2025) und der Oxford University.",
+  "sourceNote": "Basierend auf Daten von UBA, DGE, Oxford/Poore & Nemecek und der Albert Schweitzer Stiftung (Stand 2024/2025).",
   "sections": [
     {
       "id": "klima-co2",
@@ -18,40 +18,43 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Produktion tierischer Lebensmittel verursacht deutlich mehr Treibhausgase als der Anbau pflanzlicher Nahrung. Laut Umweltbundesamt (UBA) und internationalen Studien lässt sich der persönliche ernährungsbedingte CO₂-Fußabdruck durch eine vegane Ernährung in etwa halbieren."
+          "text": "Die Produktion tierischer Lebensmittel verursacht deutlich mehr Treibhausgase als der Anbau pflanzlicher Nahrung. Das UBA betont klar, dass weniger tierische und mehr pflanzliche Lebensmittel die ernährungsbedingten Emissionen deutlich senken.",
+          "sourceRefs": [1, 4]
         },
         {
           "type": "comparison",
-          "caption": "Tägliche CO₂-Emissionen nach Ernährungsweise",
-          "savings": "Eine vegane Ernährung spart im Schnitt über 60% der ernährungsbedingten Emissionen ein.",
+          "caption": "Kernaussage aus Vergleichsstudien",
+          "savings": "Pflanzenbetonte Ernährungsweisen verursachen deutlich geringere Emissionen als stark fleischbetonte Muster.",
           "items": [
             {
               "title": "Fleischbetonte Ernährung",
               "color": "#ef5350",
               "rows": [
-                { "label": "Emissionen pro Tag", "value": "3,62 kg CO₂-Äq." }
+                { "label": "Emissionen", "value": "deutlich höher" }
               ]
             },
             {
               "title": "Vegane Ernährung",
               "color": "#66bb6a",
               "rows": [
-                { "label": "Emissionen pro Tag", "value": "1,38 kg CO₂-Äq." }
+                { "label": "Emissionen", "value": "deutlich niedriger" }
               ]
             }
-          ]
+          ],
+          "sourceRefs": [1, 4]
         },
         {
-          "type": "bar_chart",
-          "caption": "CO₂-Fußabdruck ausgewählter Lebensmittel (pro kg)",
-          "unit": "kg CO₂",
-          "items": [
-            { "label": "Rindfleisch", "value": 13.3, "highlight": true },
-            { "label": "Käse", "value": 5.7 },
-            { "label": "Geflügel", "value": 3.5 },
-            { "label": "Tofu", "value": 1.0 },
-            { "label": "Hülsenfrüchte", "value": 0.8 }
-          ]
+          "type": "table",
+          "caption": "CO₂-Bilanz ausgewählter Lebensmittel",
+          "headers": ["Lebensmittel", "Einordnung"],
+          "rows": [
+            ["Rindfleisch", "sehr hoher CO₂-Fußabdruck"],
+            ["Käse", "deutlich höher als viele pflanzliche Alternativen"],
+            ["Geflügel", "niedriger als Rind, aber deutlich über pflanzlichen Proteinquellen"],
+            ["Tofu", "vergleichsweise niedrig"],
+            ["Hülsenfrüchte", "vergleichsweise niedrig"]
+          ],
+          "sourceRefs": [4]
         }
       ]
     },
@@ -61,35 +64,38 @@
       "content": [
         {
           "type": "text",
-          "text": "Tierhaltung ist extrem ineffizient: Tiere verbrauchen ein Vielfaches an Kalorien in Form von Futter, als sie später als Fleisch oder Milch liefern. Das führt zu einem enormen Flächen- und Wasserbedarf."
+          "text": "Tierhaltung ist ressourcenintensiv und im Vergleich ineffizient: Tiere verbrauchen ein Vielfaches an Kalorien in Form von Futter, als sie später als Fleisch oder Milch liefern. Das führt zu einem hohen Flächen- und Wasserbedarf.",
+          "sourceRefs": [4, 5]
         },
         {
           "type": "stat_grid",
           "items": [
             {
               "label": "Wasser für 1kg Rindfleisch",
-              "value": "15.000 L",
+              "value": "15.400 L",
               "sublabel": "Globaler Durchschnitt",
               "color": "#ef5350"
             },
             {
-              "label": "Wasser für 1kg Soja",
-              "value": "2.100 L",
-              "sublabel": "Globaler Durchschnitt",
+              "label": "Sojaernte global",
+              "value": "77 %",
+              "sublabel": "gehen ins Tierfutter",
               "color": "#66bb6a"
             },
             {
               "label": "Globale Agrarfläche",
-              "value": "-75%",
+              "value": ">75 %",
               "sublabel": "Einsparpotenzial bei weltweiter veganer Ernährung",
               "color": "#42a5f5"
             }
-          ]
+          ],
+          "sourceRefs": [4, 5]
         },
         {
           "type": "fact",
-          "text": "Rund 80% der weltweiten landwirtschaftlichen Nutzfläche werden für die Tierhaltung (Weideland und Futtermittelanbau) verwendet, obwohl diese nur 18% der weltweiten Kalorien liefert.",
-          "highlight": true
+          "text": "Tierprodukte liefern global nur rund 18 % der Kalorien, beanspruchen aber etwa 83 % der Agrarfläche.",
+          "highlight": true,
+          "sourceRefs": [4]
         }
       ]
     },
@@ -99,20 +105,23 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Deutsche Gesellschaft für Ernährung (DGE) hat ihre Richtlinien 2024 grundlegend überarbeitet und empfiehlt nun eine stark pflanzenbetonte Ernährung aus Gesundheits- und Umweltgründen."
+          "text": "Die Deutsche Gesellschaft für Ernährung (DGE) hat ihre Richtlinien 2024 grundlegend überarbeitet und empfiehlt nun eine stark pflanzenbetonte Ernährung aus Gesundheits- und Umweltgründen.",
+          "sourceRefs": [2, 3]
         },
         {
           "type": "progress_stack",
-          "caption": "DGE-Empfehlung zur Zusammensetzung der Ernährung",
+          "caption": "DGE-Orientierung zur Zusammensetzung der Ernährung",
           "total": "100%",
           "segments": [
-            { "label": "Pflanzliche Lebensmittel", "value": 80, "sublabel": "Gemüse, Obst, Getreide, Hülsenfrüchte" },
-            { "label": "Tierische Lebensmittel", "value": 20, "sublabel": "Maximalwert" }
-          ]
+            { "label": "Pflanzliche Lebensmittel", "value": 75, "sublabel": "mehr als 3/4" },
+            { "label": "Tierische Lebensmittel", "value": 25, "sublabel": "knapp 1/4" }
+          ],
+          "sourceRefs": [3]
         },
         {
           "type": "fact",
-          "text": "Die DGE stuft eine gut geplante vegane Ernährung (mit B12-Supplementierung) für gesunde Erwachsene als bedarfsdeckend und 'äußerst umweltfreundlich' ein."
+          "text": "Die DGE stuft eine gut geplante vegane Ernährung für gesunde Erwachsene unter Bedingungen als gesundheitsfördernd und 'äußerst umweltfreundlich' ein.",
+          "sourceRefs": [2]
         }
       ]
     }
@@ -121,41 +130,41 @@
     {
       "id": "regenwald-soja",
       "claim": "Für das Soja im Tofu der Veganer wird der Regenwald abgeholzt!",
-      "response": "Das ist ein Mythos. Etwa 75-80% der weltweiten Sojaernte werden als Tierfutter (für Schweine, Rinder, Geflügel) verwendet. Nur etwa 20% werden direkt von Menschen konsumiert oder zu Öl verarbeitet. Zudem stammt das Soja für Tofu und Sojamilch in europäischen Supermärkten fast ausschließlich aus europäischem oder kanadischem Anbau und ist meist gentechnikfrei. Wer den Regenwald schützen will, sollte also primär weniger Fleisch essen.",
+      "response": "Das ist ein Mythos. Rund 77 % der weltweiten Sojaernte gehen ins Tierfutter. Nur ein kleiner Teil wird direkt für Lebensmittel wie Tofu oder Sojamilch genutzt. Viele Hersteller für den deutschen Markt beziehen ihr Soja aus der EU, teils auch aus Nordamerika und China. Wer den Regenwald schützen will, sollte deshalb vor allem weniger Tierfutter-Soja nachfragen.",
       "keywords": ["Regenwald", "Soja", "Tofu", "Abholzung", "Tierfutter"],
       "relatedSections": ["ressourcen"]
     },
     {
       "id": "naehrstoffmangel",
       "claim": "Veganer haben doch alle Nährstoffmangel, besonders bei Protein und Vitamin B12.",
-      "response": "Proteinmangel ist bei ausreichender Kalorienzufuhr und einer Kombination aus Hülsenfrüchten, Getreide und Nüssen in westlichen Ländern praktisch nicht existent. Vitamin B12 muss bei veganer Ernährung tatsächlich supplementiert werden. Was viele nicht wissen: Auch Nutztieren wird B12 oft künstlich ins Futter gemischt, da sie es aufgrund steriler Haltungsbedingungen nicht mehr ausreichend selbst aufnehmen. Veganer nehmen das Supplement also nur direkt, statt den Umweg über das Tier zu gehen.",
+      "response": "Bei ausreichender Energiezufuhr und geeigneter Kombination pflanzlicher Proteinquellen kann der Proteinbedarf gedeckt werden. Vitamin B12 muss bei veganer Ernährung tatsächlich supplementiert werden. Genau deshalb ist eine gut geplante vegane Ernährung wichtig.",
       "keywords": ["Protein", "B12", "Nährstoffmangel", "Vitamine", "Mangelernährung", "Supplemente"],
       "relatedSections": ["gesundheit"]
     },
     {
       "id": "natuerlich-fleisch",
       "claim": "Der Mensch ist ein Allesfresser, wir haben schon immer Fleisch gegessen.",
-      "response": "Dass wir Fleisch verdauen können, bedeutet nicht, dass wir es in den heutigen Mengen essen müssen. Historisch gesehen war Fleisch für die meiste Zeit der Menschheitsgeschichte eher eine seltene Beilage. Unser Verdauungssystem ist hervorragend an eine stark pflanzliche Kost angepasst. Der heutige extreme Fleischkonsum (in Deutschland ca. 53 kg pro Kopf im Jahr, BLE 2024) ist ein modernes Phänomen und wird mit Zivilisationskrankheiten wie Herz-Kreislauf-Erkrankungen, Gicht und bestimmten Krebsarten in Verbindung gebracht.",
+      "response": "Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.",
       "keywords": ["Evolution", "Allesfresser", "Natur", "Krankheiten", "Menge"],
       "relatedSections": ["gesundheit"]
     },
     {
       "id": "mandelmilch-wasser",
       "claim": "Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!",
-      "response": "Es stimmt, dass Mandeln relativ viel Wasser benötigen (ca. 371 Liter pro Liter Mandelmilch). Das ist aber immer noch deutlich weniger als für Kuhmilch (ca. 628 Liter). Zudem gibt es extrem ressourcenschonende Alternativen: Hafermilch benötigt nur etwa 48 Liter Wasser pro Liter und verursacht rund 70% weniger Treibhausgase als Kuhmilch. Hafer wächst zudem regional in Europa.",
+      "response": "Es stimmt, dass Mandeln relativ viel Wasser benötigen. Das macht Pflanzenmilch insgesamt aber nicht automatisch so ressourcenintensiv wie tierische Produkte. Wer Wasser- und Klimabilanz verbessern will, kann auf besonders günstige pflanzliche Alternativen wie Hafer setzen.",
       "keywords": ["Mandelmilch", "Hafermilch", "Kuhmilch", "Wasserverbrauch", "Pflanzenmilch"],
       "relatedSections": ["ressourcen"]
     },
     {
       "id": "teurer-lifestyle",
       "claim": "Veganismus ist nur ein teurer Lifestyle für privilegierte Großstädter.",
-      "response": "Vegane Grundnahrungsmittel wie Reis, Kartoffeln, Nudeln, Linsen, Bohnen, Haferflocken und saisonales Gemüse gehören zu den günstigsten Lebensmitteln überhaupt. Eine Studie der Oxford University zeigte, dass eine vollwertige vegane Ernährung in westlichen Ländern die Lebensmittelkosten um bis zu ein Drittel senken kann. Teuer sind lediglich hochverarbeitete Ersatzprodukte, die aber für eine gesunde Ernährung nicht zwingend notwendig sind.",
+      "response": "Vegane Grundnahrungsmittel wie Reis, Kartoffeln, Nudeln, Linsen, Bohnen, Haferflocken und saisonales Gemüse gehören zu den günstigsten Lebensmitteln überhaupt. Teuer sind vor allem hochverarbeitete Ersatzprodukte, die für eine ausgewogene pflanzliche Ernährung nicht zwingend nötig sind.",
       "keywords": ["Teuer", "Kosten", "Geld", "Lifestyle", "Ersatzprodukte", "Privilegiert"]
     },
     {
       "id": "bauern-existenz",
       "claim": "Wenn alle vegan werden, verlieren unsere Landwirte ihre Existenz!",
-      "response": "Ein Wandel der Ernährungsgewohnheiten passiert nicht über Nacht, sondern über Jahrzehnte. Das gibt der Landwirtschaft Zeit, sich anzupassen. Der Anbau von pflanzlichen Proteinen für den direkten menschlichen Verzehr (wie Hafer, Erbsen, Lupinen) bietet riesige neue Marktchancen. Subventionen, die aktuell stark die Tierhaltung fördern, könnten umgeleitet werden, um Landwirte bei dieser Transformation finanziell zu unterstützen.",
+      "response": "Ein Wandel der Ernährungsgewohnheiten passiert nicht über Nacht, sondern über Jahre und Jahrzehnte. Das gibt der Landwirtschaft Zeit, sich anzupassen. Der Anbau pflanzlicher Proteine für den direkten menschlichen Verzehr kann neue Marktchancen schaffen.",
       "keywords": ["Bauern", "Landwirte", "Arbeitsplätze", "Wirtschaft", "Subventionen"]
     }
   ],
@@ -165,8 +174,12 @@
       "url": "https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/essen-trinken/klima-umweltfreundliche-ernaehrung"
     },
     {
-      "label": "DGE: Neue lebensmittelbezogene Ernährungsempfehlungen (2024)",
-      "url": "https://www.dge.de/gesunde-ernaehrung/faq/pflanzenbasierte-ernaehrung/"
+      "label": "DGE – Neubewertung der Position zu veganer Ernährung",
+      "url": "https://www.dge.de/wissenschaft/stellungnahmen-und-fachinformationen/positionen/neubewertung-der-position-zu-veganer-ernaehrung/"
+    },
+    {
+      "label": "DGE – DGE-Ernährungskreis",
+      "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/"
     },
     {
       "label": "Oxford University (Poore & Nemecek, 2018): Reducing food’s environmental impacts",

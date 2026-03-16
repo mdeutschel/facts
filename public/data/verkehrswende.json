@@ -34,7 +34,8 @@
               "label": "BEV-Anteil",
               "sublabel": "an Neuzulassungen 2025"
             }
-          ]
+          ],
+          "sourceRefs": [1]
         },
         {
           "type": "comparison",
@@ -56,16 +57,20 @@
                 { "label": "Verluste (Herstellung/Motor)", "value": "85–90 %" }
               ]
             }
-          ]
+          ],
+          "sourceRefs": [11]
         },
         {
           "type": "fact",
           "text": "Für die gleiche Strecke braucht ein Verbrenner mit E-Fuels 5- bis 7-mal so viel erneuerbaren Strom wie ein Batterie-Elektroauto.",
           "description": "E-Fuels haben ihren Platz — aber in der Luftfahrt und Schifffahrt, wo Batterien zu schwer sind. Für PKW sind sie eine teure Energieverschwendung."
+          ,
+          "sourceRefs": [11]
         },
         {
           "type": "text",
-          "text": "Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten. Gleichzeitig zeigt der Wirkungsgradvergleich, dass E-Autos die eingesetzte Energie wesentlich effizienter auf die Straße bringen als Verbrenner, die mit synthetischen Kraftstoffen (E-Fuels) betrieben werden."
+          "text": "Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten.",
+          "sourceRefs": [1]
         }
       ]
     },
@@ -91,7 +96,8 @@
               "label": "Kündigungsquote",
               "sublabel": "nach Preiserhöhung"
             }
-          ]
+          ],
+          "sourceRefs": [3]
         },
         {
           "type": "timeline",
@@ -100,17 +106,20 @@
             { "label": "Mai 2023", "value": "49 €", "sublabel": "Start" },
             { "label": "Jan 2025", "value": "58 €", "sublabel": "+18 %" },
             { "label": "Jan 2026", "value": "63 €", "sublabel": "+9 %" }
-          ]
+          ],
+          "sourceRefs": [3]
         },
         {
           "type": "fact",
-          "text": "Trotz zweier Preiserhöhungen blieb die Kündigungsquote jeweils unter 6 Prozent — ein starkes Signal für die Akzeptanz eines vereinfachten Tarifsystems.",
+          "text": "Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %. Nach der Preiserhöhung 2025 lag sie laut VDV bei rund 8 %.",
           "description": "Zum Vergleich: Vor dem D-Ticket musste man in manchen Städten bis zu 5 verschiedene Tarife verstehen, um von A nach B zu kommen. Das Ticket hat den Tarifdschungel entwirrt.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [3]
         },
         {
           "type": "text",
-          "text": "Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland. Die hohe Nachfrage zeigt, dass nicht das Interesse am ÖPNV fehlt, sondern bisher ein einfacher Zugang."
+          "text": "Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland.",
+          "sourceRefs": [3]
         }
       ]
     },
@@ -122,7 +131,8 @@
           "type": "fact",
           "text": "Der Verkehrssektor verfehlt seine Klimaziele deutlich. Für den Zeitraum 2021–2030 droht eine Zielverfehlung von 169–224 Millionen Tonnen CO₂-Äquivalenten.",
           "description": "Während Energiewirtschaft und Industrie ihre Emissionen senken, stagniert der Verkehr seit 30 Jahren. Er ist das Sorgenkind der Klimapolitik.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [10]
         },
         {
           "type": "bar_chart",
@@ -136,16 +146,20 @@
             { "label": "ÖPNV (Nah)", "value": 75 },
             { "label": "PKW", "value": 166, "highlight": true },
             { "label": "Flugzeug", "value": 238, "highlight": true }
-          ]
+          ],
+          "sourceRefs": [2]
         },
         {
           "type": "fact",
           "text": "Ein PKW stößt pro Personenkilometer mehr als das Fünffache eines Fernbusses und mehr als das Fünffache der Bahn aus.",
           "description": "Wer einmal Berlin–München mit dem ICE statt dem Auto fährt, spart rund 80 kg CO₂ — so viel wie 3 Wochen Kühlschrankbetrieb."
+          ,
+          "sourceRefs": [2]
         },
         {
           "type": "text",
-          "text": "2025 stiegen die Emissionen im Verkehr laut Agora Energiewende sogar leicht an, bedingt durch höheren Kraftstoffverbrauch. Der Verkehrssektor bleibt der einzige Sektor, der seine Emissionen gegenüber 1990 nicht substanziell reduziert hat."
+          "text": "2025 stiegen die Emissionen im Verkehr laut Agora Energiewende sogar leicht an, bedingt durch höheren Kraftstoffverbrauch. Der Verkehrssektor bleibt der einzige Sektor, der seine Emissionen gegenüber 1990 nicht substanziell reduziert hat.",
+          "sourceRefs": [10]
         }
       ]
     },
@@ -155,8 +169,8 @@
       "content": [
         {
           "type": "fact",
-          "text": "Ein durchschnittliches Auto steht 23 Stunden am Tag still — und belegt dabei 12,5 m² öffentlichen Raum.",
-          "description": "Stell dir vor, du würdest deinen Kühlschrank auf den Gehweg stellen und 23 Stunden am Tag nicht benutzen. Beim Auto finden wir das normal.",
+          "text": "Autos beanspruchen viel öffentlichen Raum, obwohl sie einen Großteil der Zeit nicht bewegt werden.",
+          "description": "Öffentlicher Raum ist knapp. Gerade parkende Fahrzeuge binden Fläche, die auch anders genutzt werden könnte.",
           "highlight": true
         },
         {
@@ -169,13 +183,14 @@
             { "label": "Fahrrad", "value": 10 },
             { "label": "Bus", "value": 20 },
             { "label": "PKW", "value": 100, "highlight": true }
-          ]
+          ],
+          "sourceRefs": [5]
         },
         {
           "type": "stat_grid",
           "items": [
             {
-              "value": "160 Mio.",
+              "value": "viele Mio.",
               "label": "Stellplätze in DE",
               "sublabel": "über 3 pro PKW"
             },
@@ -193,12 +208,12 @@
         },
         {
           "type": "fact",
-          "text": "In Berlin entfallen 58 Prozent der Verkehrsflächen auf den motorisierten Individualverkehr — obwohl nur jeder dritte Weg mit dem Auto zurückgelegt wird.",
+          "text": "In vielen Städten beansprucht der motorisierte Individualverkehr deutlich mehr Fläche, als seinem Anteil an den tatsächlich zurückgelegten Wegen entspricht.",
           "description": "Die Stadt ist für Autos gebaut, nicht für Menschen. Katja Diehl nennt das die ‚autogerechte Stadt' — ein Planungsideal der 1950er, das uns bis heute prägt."
         },
         {
           "type": "fact",
-          "text": "Maximal 10 Prozent aller PKW in Deutschland sind gleichzeitig unterwegs — selbst in der Hauptverkehrszeit.",
+          "text": "Selbst in verkehrsreichen Zeiten wird nur ein Teil des Fahrzeugbestands gleichzeitig bewegt.",
           "description": "Wir halten riesige Flächen für Fahrzeuge frei, die fast nie genutzt werden. Carsharing, besserer ÖPNV und Radwege könnten diesen Platz für Parks, Spielplätze und Außengastronomie freimachen."
         },
         {
@@ -220,16 +235,17 @@
               "sublabel": "MiD 2023, deutschlandweit"
             },
             {
-              "value": "81 Mio.",
+              "value": "90,6 Mio.",
               "label": "Fahrräder in DE",
-              "sublabel": "davon 12 Mio. E-Bikes"
+              "sublabel": "davon >17 Mio. E-Bikes"
             },
             {
               "value": "< 40 km",
               "label": "Ø tägliche Fahrstrecke",
               "sublabel": "PKW-Nutzer in Deutschland"
             }
-          ]
+          ],
+          "sourceRefs": [5, 12]
         },
         {
           "type": "line_chart",
@@ -241,12 +257,15 @@
             { "label": "2008", "value": 9.9 },
             { "label": "2017", "value": 10.9 },
             { "label": "2023", "value": 11.2 }
-          ]
+          ],
+          "sourceRefs": [5]
         },
         {
           "type": "fact",
           "text": "Ein Drittel aller Fahrrad-Personenkilometer werden mittlerweile mit E-Bikes gefahren.",
           "description": "E-Bikes machen Radfahren für Ältere, Pendler mit längeren Strecken und hügelige Regionen alltagstauglich. Sie sind der Gamechanger für den Radverkehr auf dem Land."
+          ,
+          "sourceRefs": [5]
         },
         {
           "type": "bar_chart",
@@ -266,7 +285,8 @@
         },
         {
           "type": "text",
-          "text": "Laut Fraunhofer-Institut wäre eine Verdreifachung des Radverkehrsanteils möglich — wenn die Infrastruktur stimmt. In Städten wie Oldenburg (47 % Radanteil) oder Kopenhagen zeigt sich, was machbar ist, wenn man konsequent plant."
+          "text": "Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen.",
+          "sourceRefs": [9]
         }
       ]
     },
@@ -284,7 +304,7 @@
               "color": "#b71c1c"
             },
             {
-              "value": "370.000",
+              "value": "366.000",
               "label": "Verletzte (2025)",
               "sublabel": "vorläufig, Destatis",
               "color": "#e53935"
@@ -299,9 +319,10 @@
         },
         {
           "type": "fact",
-          "text": "67 Prozent der Bevölkerung fühlen sich in ihrem Wohnumfeld durch Straßenverkehrslärm gestört oder belästigt.",
-          "description": "Verkehrslärm ist kein Komfortproblem — er macht krank. Das UBA schätzt rund 4.000 Herzinfarkte pro Jahr allein durch Straßenlärm. Tempo 30 in Innenstädten könnte den Lärmpegel spürbar senken.",
-          "highlight": true
+          "text": "Etwa drei Viertel der Bevölkerung fühlen sich in ihrem Wohnumfeld durch Straßenverkehrslärm gestört oder belästigt.",
+          "description": "Verkehrslärm ist kein Komfortproblem. Er belastet Gesundheit und Lebensqualität; Tempo 30 kann den Lärmpegel in Innenstädten spürbar senken.",
+          "highlight": true,
+          "sourceRefs": [2]
         },
         {
           "type": "bar_chart",
@@ -313,7 +334,8 @@
             { "label": "2023", "value": 2839 },
             { "label": "2024", "value": 2770 },
             { "label": "2025", "value": 2814 }
-          ]
+          ],
+          "sourceRefs": [4]
         },
         {
           "type": "fact",
@@ -324,10 +346,13 @@
           "type": "fact",
           "text": "Im Schulalter (6–9 Jahre) verunglückten 40,4 Prozent der betroffenen Kinder als PKW-Insassen — nicht auf dem Schulweg zu Fuß oder per Rad.",
           "description": "Das sogenannte ‚Elterntaxi' ist nicht automatisch sicherer. Es sorgt für Chaos vor Schulen und nimmt Kindern die Chance, Verkehrskompetenz aufzubauen."
+          ,
+          "sourceRefs": [4]
         },
         {
           "type": "text",
-          "text": "17,3 Millionen Menschen sind in Deutschland Straßenlärm über 55 dB(A) ausgesetzt. Die WHO empfiehlt maximal 53 dB(A) tagsüber. Das UBA empfiehlt Tempo 30 als Regelgeschwindigkeit in Innenstädten — sowohl für weniger Lärm als auch für weniger Unfälle."
+          "text": "Millionen Menschen sind in Deutschland Straßenlärm über 55 dB(A) ausgesetzt. Die WHO empfiehlt maximal 53 dB(A) tagsüber. Das UBA empfiehlt Tempo 30 als Regelgeschwindigkeit in Innenstädten — sowohl für weniger Lärm als auch für weniger Unfälle.",
+          "sourceRefs": [2]
         }
       ]
     },
@@ -337,8 +362,8 @@
       "content": [
         {
           "type": "fact",
-          "text": "‚Jede:r sollte das Recht haben, ein Leben ohne eigenes Auto führen zu können.' — Katja Diehl",
-          "description": "Es geht nicht darum, Autos zu verbieten. Es geht darum, dass niemand gezwungen sein sollte, eines zu besitzen. Heute haben viele Menschen keine echte Wahl.",
+          "text": "Verkehrswende heißt nicht Autoverbot, sondern echte Wahlfreiheit zwischen verschiedenen Verkehrsmitteln.",
+          "description": "Viele Menschen sind heute mangels Alternativen auf das Auto angewiesen. Gute Alternativen zu schaffen ist der eigentliche Kern der Verkehrswende.",
           "highlight": true
         },
         {
@@ -350,16 +375,17 @@
               "sublabel": "bundesweit (MiD 2023)"
             },
             {
-              "value": "53 %",
-              "label": "autolos bei niedrigem Einkommen",
-              "sublabel": "vs. 8 % bei hohem Einkommen"
+              "value": "deutlich höher",
+              "label": "Autolosigkeit",
+              "sublabel": "bei niedrigem Einkommen häufiger als bei hohem"
             },
             {
               "value": "~40 %",
               "label": "autolose Haushalte",
               "sublabel": "in Großstädten/Metropolen"
             }
-          ]
+          ],
+          "sourceRefs": [5]
         },
         {
           "type": "comparison",
@@ -392,8 +418,10 @@
         },
         {
           "type": "fact",
-          "text": "Klimaschädliche Subventionen im Verkehr kosten den Staat 35,8 Milliarden Euro pro Jahr — darunter Dienstwagenprivileg, Dieselprivileg und Pendlerpauschale.",
+          "text": "Allein das Dienstwagenprivileg kostet laut FOES mehrere Milliarden Euro pro Jahr. Hinzu kommen weitere klimaschädliche Anreize im Verkehrssystem.",
           "description": "Das Dienstwagenprivileg allein kostet 3,5–6 Milliarden Euro jährlich und kommt überwiegend den reichsten 10 % zugute. Dieses Geld fehlt für Radwege, Busse und Bahnen."
+          ,
+          "sourceRefs": [7]
         },
         {
           "type": "progress_stack",
@@ -403,12 +431,13 @@
             { "label": "Obere Mitte", "value": 25, "sublabel": "25 %" },
             { "label": "Untere 60 %", "value": 25, "sublabel": "25 %" }
           ],
-          "total": "3,5–6 Mrd. €/Jahr Steuermindereinnahmen (FÖS)"
+          "total": "3,5–6 Mrd. €/Jahr Steuermindereinnahmen (FÖS)",
+          "sourceRefs": [7]
         },
         {
           "type": "fact",
-          "text": "In statistisch durchschnittlichen deutschen PKW sitzen nur 1,2 Personen. Nie mehr als 10 % aller PKW sind gleichzeitig in Bewegung.",
-          "description": "Wir subventionieren ein System, in dem fast leere 1,5-Tonnen-Fahrzeuge den Großteil des Tages Fläche blockieren. Effizienz sieht anders aus."
+          "text": "Im durchschnittlichen deutschen PKW sitzen meist nur wenige Personen. Das unterstreicht, wie flächenintensiv das bestehende System ist.",
+          "description": "Viele Fahrzeuge bewegen nur sehr wenige Menschen und beanspruchen trotzdem viel Fläche und Infrastruktur."
         },
         {
           "type": "text",
@@ -435,7 +464,7 @@
     {
       "id": "arg-dticket",
       "claim": "Das Deutschlandticket ist ein Milliardengrab und bringt niemanden dazu, das Auto stehen zu lassen.",
-      "response": "Mit rund 14,6 Millionen Nutzern (Ende 2025) ist das Ticket ein enormer Erfolg. Auch nach Preiserhöhungen auf 63 Euro (2026) blieb die Kündigungsquote unter 6 Prozent. Es vereinfacht den Tarifdschungel massiv und entlastet Pendler spürbar. Zum Vergleich: Ein Kleinwagen kostet laut ADAC ab 400 Euro im Monat — das D-Ticket kostet 63 Euro.",
+      "response": "Mit rund 14,6 Millionen Nutzern Ende 2025 ist das Ticket ein großer Erfolg. Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %, nach der Preiserhöhung 2025 laut VDV aber bei rund 8 %. Das Ticket vereinfacht den Tarifdschungel massiv und entlastet viele Pendler trotzdem deutlich.",
       "keywords": ["Deutschlandticket", "ÖPNV", "Kosten", "Subventionen"],
       "relatedSections": ["oepnv"]
     },
@@ -455,7 +484,7 @@
     {
       "id": "arg-ladeinfrastruktur",
       "claim": "Auf dem Land gibt es keine Ladesäulen, E-Autos funktionieren nur in der Stadt!",
-      "response": "Deutschland hatte Ende 2025 über 150.000 öffentliche Ladepunkte, davon über 30.000 Schnellladepunkte. Die Abdeckung verbessert sich kontinuierlich, gerade entlang von Autobahnen. Außerdem: 80 % der Ladevorgänge finden zu Hause oder am Arbeitsplatz statt — die öffentliche Ladesäule ist die Ausnahme. Mit einer Wallbox (ab ca. 500 €) lädt man über Nacht bequem zu Hause.",
+      "response": "Deutschland hatte Ende 2025 deutlich über 150.000 öffentliche Ladepunkte. Die Abdeckung verbessert sich kontinuierlich, gerade entlang von Autobahnen. Außerdem finden viele Ladevorgänge zu Hause oder am Arbeitsplatz statt — die öffentliche Ladesäule ist nicht der einzige Standardfall.",
       "keywords": ["Ladesäulen", "Ladeinfrastruktur", "Land", "ländlich", "laden"],
       "relatedSections": ["emobilitaet"]
     },
@@ -483,7 +512,7 @@
     {
       "id": "arg-autoland",
       "claim": "Deutschland ist ein Autoland — ohne Auto kommst du nicht zur Arbeit!",
-      "response": "In Großstädten besitzen rund 40 % der Haushalte kein Auto und kommen trotzdem zur Arbeit. Das Problem ist nicht, dass Menschen das Auto lieben, sondern dass Alternativen oft fehlen — besonders auf dem Land. Mit besserem ÖPNV-Takt, Rufbussen und sicheren Radwegen wird echte Wahlfreiheit möglich. Die durchschnittliche Pendelstrecke beträgt unter 20 km — das ist auch mit E-Bike oder Bus machbar.",
+      "response": "In Großstädten besitzen rund 40 % der Haushalte kein Auto und kommen trotzdem zur Arbeit. Das Problem ist nicht, dass Menschen das Auto lieben, sondern dass Alternativen oft fehlen — besonders auf dem Land. Mit besserem ÖPNV-Takt, Rufbussen und sicheren Radwegen wird echte Wahlfreiheit möglich.",
       "keywords": ["Autoland", "Pendler", "Arbeit", "Land", "Alternative"],
       "relatedSections": ["soziale_teilhabe", "radverkehr"]
     },
@@ -542,6 +571,14 @@
     {
       "label": "Agora Energiewende: Klimaneutrales Deutschland — Verkehrssektor",
       "url": "https://www.agora-energiewende.de"
+    },
+    {
+      "label": "UBA – Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen",
+      "url": "https://www.umweltbundesamt.de/publikationen/analyse-der-umweltbilanz-von-kraftfahrzeugen"
+    },
+    {
+      "label": "ZIV – Marktdaten 2025 für den Fahrradbestand in Deutschland",
+      "url": "https://www.ziv-zweirad.de/2026/03/11/markdaten-2025/"
     }
   ]
 }
