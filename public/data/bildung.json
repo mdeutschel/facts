@@ -10,7 +10,7 @@
     "PISA 2022: Historischer Tiefstand",
     "8 Argumente"
   ],
-  "sourceNote": "Basierend auf Daten von OECD, Destatis, KMK, Bertelsmann Stiftung und aktuellen Studien (Stand Anfang 2026).",
+  "sourceNote": "Basierend auf Daten von OECD, Destatis, KMK, ZIB/PISA, Bertelsmann Stiftung, Prognos und BMBFSFJ/Bundes-SGK (Stand Anfang 2026).",
   "sections": [
     {
       "id": "bildungsausgaben",
@@ -18,7 +18,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Deutschland gab 2024 insgesamt 198 Milliarden Euro für Bildung aus – ein nominaler Rekordwert. Gemessen am BIP liegt Deutschland mit 4,6 % aber weiterhin deutlich unter dem OECD-Schnitt und weit hinter skandinavischen Ländern."
+          "text": "Deutschland gab 2024 insgesamt 198 Milliarden Euro für Bildung aus – ein nominaler Rekordwert. Gemessen am BIP liegt Deutschland mit 4,6 % aber weiterhin deutlich unter dem OECD-Schnitt und weit hinter skandinavischen Ländern.",
+          "sourceRefs": [1, 2]
         },
         {
           "type": "bar_chart",
@@ -32,7 +33,8 @@
             { "label": "Deutschland", "value": 4.5, "highlight": true },
             { "label": "Polen", "value": 4.6 }
           ],
-          "unit": "%"
+          "unit": "%",
+          "sourceRefs": [1]
         },
         {
           "type": "stat_grid",
@@ -41,12 +43,14 @@
             { "label": "Pro Einwohner", "value": "2.400 €", "sublabel": "bzw. 8.000 € pro unter 30-Jährigem" },
             { "label": "Schulen", "value": "97 Mrd. €", "sublabel": "49 % der Ausgaben" },
             { "label": "Kita-Betreuung", "value": "49 Mrd. €", "sublabel": "25 % der Ausgaben" }
-          ]
+          ],
+          "sourceRefs": [2]
         },
         {
           "type": "fact",
-          "text": "Schweden investiert mit 7,1 % des BIP über 50 % mehr als Deutschland (4,5 %) in Bildung. Um auf skandinavisches Niveau zu kommen, müsste Deutschland jährlich rund 100 Milliarden Euro zusätzlich investieren.",
-          "highlight": true
+          "text": "Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland. Deutschland liegt damit im OECD-Vergleich weiter unter dem Schnitt und hinter skandinavischen Ländern.",
+          "highlight": true,
+          "sourceRefs": [1]
         }
       ]
     },
@@ -56,7 +60,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Deutschland steckt mitten in einer Lehrkräftekrise. Je nach Berechnungsmethode fehlen bereits jetzt zwischen 26.000 und 35.000 Lehrkräfte – Tendenz stark steigend."
+          "text": "Deutschland steckt mitten in einer Lehrkräftekrise. Je nach Berechnungsmethode fehlen bereits jetzt zwischen 26.000 und 35.000 Lehrkräfte – Tendenz stark steigend.",
+          "sourceRefs": [3, 4]
         },
         {
           "type": "timeline",
@@ -65,11 +70,12 @@
             { "label": "2025/26", "value": "35.000", "highlight": true },
             { "label": "2030/31", "value": "68.000" },
             { "label": "2035/36", "value": "76.000" }
-          ]
+          ],
+          "sourceRefs": [3]
         },
         {
           "type": "fact",
-          "text": "Besonders betroffen: Grundschulen (verschärft durch den Ganztags-Rechtsanspruch ab 2026), Sonderpädagogik und MINT-Fächer (Mathematik, Informatik, Naturwissenschaften, Technik).",
+          "text": "Besonders betroffen sind vor allem Grundschulen; je nach Bereich verschärft sich der Mangel zusätzlich.",
           "highlight": true
         },
         {
@@ -84,7 +90,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Die PISA-Studie 2022 offenbart einen historischen Tiefstand für Deutschland. In allen drei Bereichen sind die Leistungen so schlecht wie nie seit Beginn der PISA-Erhebungen im Jahr 2000."
+          "text": "Die PISA-Studie 2022 offenbart einen historischen Tiefstand für Deutschland. In allen drei Bereichen sind die Leistungen so schlecht wie nie seit Beginn der PISA-Erhebungen im Jahr 2000.",
+          "sourceRefs": [5]
         },
         {
           "type": "table",
@@ -96,12 +103,14 @@
             ["Deutschland", "475", "480", "492"],
             ["OECD-Schnitt", "472", "476", "485"],
             ["Norwegen", "468", "477", "478"]
-          ]
+          ],
+          "sourceRefs": [5]
         },
         {
           "type": "fact",
           "text": "Rund ein Drittel der 15-Jährigen in Deutschland hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik verlor Deutschland 25 Punkte gegenüber 2018 – einer der stärksten Rückgänge aller OECD-Länder.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [5]
         },
         {
           "type": "line_chart",
@@ -117,11 +126,12 @@
             { "label": "2015", "value": 506 },
             { "label": "2018", "value": 500 },
             { "label": "2022", "value": 475 }
-          ]
+          ],
+          "sourceRefs": [5]
         },
         {
           "type": "text",
-          "text": "Besonders alarmierend: In kaum einem anderen Industrieland hängt der Bildungserfolg so stark vom Elternhaus ab wie in Deutschland. Schon PISA 2000 bescheinigte einen 'beschämend engen Zusammenhang zwischen sozialer Herkunft und Bildungschancen' – daran hat sich bis heute wenig geändert."
+          "text": "Auch PISA 2022 zeigt weiterhin ausgeprägte soziale Bildungsungleichheiten in Deutschland."
         }
       ]
     },
@@ -131,16 +141,18 @@
       "content": [
         {
           "type": "text",
-          "text": "Der DigitalPakt Schule (2019–2024) sollte die digitale Infrastruktur an Schulen revolutionieren. Mit 6,5 Milliarden Euro wurden Laptops, Tablets, interaktive Whiteboards und WLAN-Netzwerke finanziert."
+          "text": "Der DigitalPakt Schule (2019–2024) sollte die digitale Infrastruktur an Schulen revolutionieren. Mit 6,5 Milliarden Euro wurden Laptops, Tablets, interaktive Whiteboards und WLAN-Netzwerke finanziert.",
+          "sourceRefs": [7]
         },
         {
           "type": "stat_grid",
           "items": [
             { "label": "Bewilligte Mittel", "value": "5,3 Mrd. €", "sublabel": "97,4 % der verfügbaren Mittel" },
             { "label": "Abgeflossene Mittel", "value": "4,1 Mrd. €", "sublabel": "Stand Juni 2025" },
-            { "label": "Evaluation", "value": "erst 2027", "sublabel": "Wissenschaftliche Bewertung ausstehend" },
+            { "label": "Evaluation", "value": "seit 2025", "sublabel": "Zwischenbericht veröffentlicht" },
             { "label": "DigitalPakt 2.0", "value": "ab 2025", "sublabel": "Anschlussfinanzierung bis 2030 vereinbart" }
-          ]
+          ],
+          "sourceRefs": [7]
         },
         {
           "type": "text",
@@ -154,25 +166,28 @@
       "content": [
         {
           "type": "text",
-          "text": "Die frühkindliche Bildung gilt als entscheidend für spätere Bildungschancen. Doch in deutschen Kitas herrscht akuter Fachkräftemangel, der die Betreuungsqualität massiv gefährdet."
+          "text": "Die frühkindliche Bildung gilt als entscheidend für spätere Bildungschancen. Doch in deutschen Kitas herrscht akuter Fachkräftemangel, der die Betreuungsqualität massiv gefährdet.",
+          "sourceRefs": [8]
         },
         {
           "type": "stat_grid",
           "items": [
             { "label": "Fehlende Erzieher:innen", "value": "~100.000", "sublabel": "Prognose 2026, bis 2030: 200.000" },
-            { "label": "Ausreichend Personal", "value": "13,7 %", "sublabel": "der Kitas erreichen empfohlene Personalausstattung" },
-            { "label": "Stark unterbesetzt", "value": "21,2 %", "sublabel": "der Kitas mit max. 60 % des Solls" },
+            { "label": "Fachkraftquote Bayern", "value": "54,5 %", "sublabel": "voll qualifiziertes Personal" },
+            { "label": "Spitzenwert Sömmerda", "value": "94,3 %", "sublabel": "Landkreis in Thüringen" },
             { "label": "Fachkraftquote Ost", "value": "86,9 %", "sublabel": "vs. 68,6 % im Westen" }
-          ]
+          ],
+          "sourceRefs": [8]
         },
         {
           "type": "fact",
-          "text": "In Bayern haben nur 54,5 % des Kita-Personals eine vollständige Fachausbildung – der bundesweit niedrigste Wert. Thüringen liegt mit 94,3 % an der Spitze.",
-          "highlight": true
+          "text": "In Bayern haben nur 54,5 % des Kita-Personals eine vollständige Fachausbildung – der bundesweit niedrigste Wert. Der Landkreis Sömmerda in Thüringen liegt mit 94,3 % an der Spitze.",
+          "highlight": true,
+          "sourceRefs": [8]
         },
         {
           "type": "text",
-          "text": "Die Unterbesetzung führt zu Gruppenzusammenlegungen, gekürzten Öffnungszeiten und gestrichenen pädagogischen Angeboten. Erzieher:innen berichten von erhöhtem Stress, häufigeren Krankmeldungen und wachsender Berufsabwanderung."
+          "text": "Unterbesetzung belastet Betreuungsqualität und Arbeitsbedingungen in vielen Kitas."
         }
       ]
     },
@@ -182,7 +197,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Ab dem 1. August 2026 gilt ein stufenweiser Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder. Der Anspruch umfasst 8 Stunden täglich an fünf Werktagen, inklusive Unterrichtszeit und grundsätzlich auch in den Schulferien."
+          "text": "Ab dem 1. August 2026 gilt ein stufenweiser Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder. Der Anspruch umfasst 8 Stunden täglich an fünf Werktagen, inklusive Unterrichtszeit und grundsätzlich auch in den Schulferien.",
+          "sourceRefs": [11]
         },
         {
           "type": "timeline",
@@ -192,7 +208,8 @@
             { "label": "2027/28", "value": "1. + 2. Klasse" },
             { "label": "2028/29", "value": "1.–3. Klasse" },
             { "label": "2029/30", "value": "1.–4. Klasse" }
-          ]
+          ],
+          "sourceRefs": [11]
         },
         {
           "type": "stat_grid",
@@ -201,7 +218,8 @@
             { "label": "Zusätzlich benötigte Plätze", "value": "264.000", "sublabel": "bis Vollausbau 2029/30" },
             { "label": "Investitionsmittel Bund", "value": "3,5 Mrd. €", "sublabel": "für Infrastrukturausbau" },
             { "label": "Laufende Betriebskosten", "value": "1,3 Mrd. €/Jahr", "sublabel": "Bundesbeteiligung ab 2030" }
-          ]
+          ],
+          "sourceRefs": [11]
         }
       ]
     }
@@ -217,7 +235,7 @@
     {
       "id": "arg_halbtags",
       "claim": "Die Lehrer arbeiten doch nur halbtags und haben ständig Ferien",
-      "response": "Eine repräsentative Studie des Prognos-Instituts (2024/25, Sachsen, 3.772 Lehrkräfte) zeigt: Vollzeit-Lehrkräfte leisten während der Schulzeit durchschnittlich 2,5 Überstunden pro Woche. Die Unterrichtszeit macht nur etwa ein Drittel der Arbeitszeit aus – der Rest geht für Vor- und Nachbereitung, Korrekturen, Elterngespräche, Verwaltung und Konferenzen drauf. Teilzeitkräfte arbeiten sogar 5,8 % über ihrem Soll. Die Ferien werden großteils für den Überstundenausgleich und Unterrichtsvorbereitung genutzt. Gleichzeitig zeigen Studien erhebliche Risiken für die psychische Gesundheit von Lehrkräften.",
+      "response": "Eine repräsentative Studie des Prognos-Instituts in Sachsen zeigt: In Schulwochen fallen Mehrstunden an. Im Jahresmittel lagen Vollzeit-Lehrkräfte etwa auf ihrem individuellen Soll, Teilzeitkräfte aber 5,8 % darüber. Unterricht ist dabei nur ein Teil der Arbeitszeit – hinzu kommen Vor- und Nachbereitung, Korrekturen, Elterngespräche, Verwaltung und Konferenzen.",
       "keywords": ["halbtags", "ferien", "lehrer faul", "arbeitszeit", "teilzeit"],
       "relatedSections": ["lehrkraeftemangel"]
     },
@@ -238,14 +256,14 @@
     {
       "id": "arg_genug_geld",
       "claim": "Wir geben genug Geld für Bildung aus",
-      "response": "Nominal klingt die Zahl von 198 Milliarden Euro nach viel. Aber gemessen am BIP liegt Deutschland mit 4,5 % deutlich unter dem OECD-Durchschnitt von 5,1 % – und weit hinter Finnland (6,5 %) oder Schweden (7,1 %). Die Konsequenzen sind sichtbar: marode Schulgebäude, fehlende Lehrkräfte, mangelnde digitale Ausstattung. Um auf skandinavisches Niveau zu kommen, müsste Deutschland jährlich rund 100 Milliarden Euro zusätzlich investieren. Gleichzeitig arbeiten nur 13,7 % der Kitas mit ausreichend Personal.",
+      "response": "Nominal klingt die Zahl von 198 Milliarden Euro nach viel. Aber gemessen am BIP liegt Deutschland weiterhin unter dem OECD-Durchschnitt und hinter skandinavischen Ländern. Die Konsequenzen sind sichtbar: marode Schulgebäude, fehlende Lehrkräfte, mangelhafte digitale Infrastruktur und starke Qualitätsunterschiede in der frühen Bildung.",
       "keywords": ["genug geld", "ausgaben", "teuer", "finanzierung", "investition"],
       "relatedSections": ["bildungsausgaben", "kita-fruehkindlich"]
     },
     {
       "id": "arg_hauptschule",
       "claim": "Hauptschüler sind halt einfach nicht so schlau",
-      "response": "Das ist ein klassischer Zirkelschluss. PISA zeigt seit 2000 konsistent: In kaum einem Industrieland hängt der Bildungserfolg so stark vom Elternhaus ab wie in Deutschland. Kinder aus bildungsfernen Familien werden überproportional auf Hauptschulen verteilt – unabhängig von ihrem tatsächlichen Potenzial. Das ist kein Intelligenz-Problem, sondern ein Systemversagen: Zu frühe Selektion (meist schon nach Klasse 4), mangelnde individuelle Förderung und zu wenig Unterstützung für benachteiligte Kinder. Länder wie Finnland, die später selektieren und mehr individuell fördern, erreichen gleichzeitig höhere Leistungen und mehr Chancengleichheit.",
+      "response": "Das ist ein klassischer Zirkelschluss. PISA zeigt seit Jahren, dass Deutschland zu den OECD-Ländern mit stark ausgeprägten sozialen Bildungsungleichheiten gehört. Kinder aus bildungsfernen Familien werden überproportional auf niedrigere Schulformen verteilt. Das spricht nicht für mangelnde Intelligenz, sondern für strukturelle Probleme wie frühe Selektion, ungleiche Förderung und zu wenig Unterstützung benachteiligter Kinder.",
       "keywords": ["hauptschule", "nicht schlau", "intelligenz", "begabung", "selektion"],
       "relatedSections": ["pisa-chancengleichheit"]
     },
@@ -259,7 +277,7 @@
     {
       "id": "arg_digitalisierung",
       "claim": "Digitalisierung an Schulen bringt nichts, Kinder sollen lesen lernen",
-      "response": "Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat 6,5 Milliarden Euro in Infrastruktur investiert. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Aktuell müssen Lehrkräfte oft selbst die IT-Administration übernehmen. Eine wissenschaftliche Evaluation des DigitalPakts wird erst 2027 erwartet. Der DigitalPakt 2.0 (bis 2030) soll stärker auf Qualität statt nur auf Hardware setzen.",
+      "response": "Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat Milliarden in Infrastruktur gebunden. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Seit 2025 liegt bereits ein Zwischenbericht zur Evaluation vor; der DigitalPakt 2.0 soll stärker auf Qualität statt nur auf Hardware setzen.",
       "keywords": ["digital", "tablet", "computer", "lesen", "handschrift", "smartphone"],
       "relatedSections": ["digitalisierung"]
     }
@@ -279,15 +297,15 @@
     },
     {
       "label": "KMK – Lehrereinstellungsbedarf und -angebot 2024",
-      "url": "https://www.kmk.org/"
+      "url": "https://www.kmk.org/fileadmin/Dateien/pdf/Statistik/Dokumentationen/Dok_2_Bericht_LEB_LEA_2024.pdf"
     },
     {
       "label": "PISA 2022 – Nationaler Bericht (TU München / ZIB)",
-      "url": "https://www.pisa.tum.de/"
+      "url": "https://www.zib.education/pisa-2022-analyse-der-bildungsergebnisse-in-deutschland/"
     },
     {
       "label": "Bundeszentrale für politische Bildung – PISA 2022 und Chancengleichheit",
-      "url": "https://www.bpb.de/themen/bildung/dossier-bildung/543509/"
+      "url": "https://www.bpb.de/themen/bildung/dossier-bildung/543509/pisa-2022-wie-leistungsniveau-und-chancengleichheit-in-schulsystemen-zusammenhaengen/"
     },
     {
       "label": "BMBF – DigitalPakt Schule Fortschrittsbericht",
@@ -298,14 +316,15 @@
       "url": "https://www.bertelsmann-stiftung.de/"
     },
     {
-      "label": "Prognos-Institut – Lehrkräfte-Arbeitszeitstudie Sachsen 2024/25"
+      "label": "Prognos-Institut – Lehrkräfte-Arbeitszeitstudie Sachsen 2024/25",
+      "url": "https://www.prognos.com/de/projekt/arbeitszeituntersuchung-saechsische-lehrkraefte"
     },
     {
       "label": "INSIDE-Studie zur Inklusion (Leibniz-Institut für Bildungsverläufe)",
       "url": "https://www.inside-studie.de/"
     },
     {
-      "label": "Bundesregierung – Ganztag-Fortschrittsbericht 2025",
+      "label": "Bundes-SGK / BMBFSFJ – Ganztagsfortschritt",
       "url": "https://www.bundes-sgk.de/artikel/rechtsanspruch-ganztagsbetreuung"
     }
   ]

@@ -10,84 +10,81 @@ Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente | Stand: 2026-
 
 ### Status Quo
 
-- 21,6 Mio. Heizungen in Deutschland
+- 21,7 Mio. Heizungen in Deutschland
 
-- 75 % fossil (Gas 56 %, Öl 17 %)
+- Drei Viertel der Wohnungen werden mit Gas oder Öl beheizt (Gas 56 %, Öl 19 %; Zensus 2022).
 
-- 10 Mio. technisch veraltet
+- Über die Hälfte der Heizungen gilt als veraltet; mehr als 4 Mio. sind älter als 30 Jahre.
 
 - Wärmepumpen-Anteil im Bestand: nur 4,4 %
 
-- 75 % der Ölheizungen und 65 % der Gasheizungen sind älter als 20 Jahre (Schornsteinfeger-Erhebung)
+- 2024 nutzten 69,4 % der fertiggestellten Wohngebäude primär Wärmepumpen.
 
-- Im Neubau 2024: bereits 69 % Wärmepumpe
+- Bei den Baugenehmigungen für Wohngebäude lagen Wärmepumpen 2024 sogar bei 81,0 %.
 
-### Kostenvergleich: 120 m² Bestandshaus, 20 Jahre
+### Kostenvergleich: Was man seriös vergleichen kann
 
-Annahmen: 15.000 kWh/a Heizwärme | LW-WP JAZ 3,4 / Gas 95 % | WP-Strom 28 ct/kWh / Gas 12 ct/kWh | CO₂ ab 2028 ETS 2 marktbasiert | Förderung WP 50 % (Basis + Speed) | Netzentgelt Gas +3 %/a | Bio-Treppe ab 2029 (GMG) | Ölheizung auf ähnlichem Niveau wie Gas, mit stärkerem CO₂-Effekt
+Seriöse Gesamtkostenvergleiche hängen stark vom Gebäude, vom bisherigen Heizsystem, vom Wärmebedarf, von Strom- und Gaspreisen sowie von Förderbedingungen ab. Aussagen mit festen 20-Jahres-Summen sind ohne offengelegte Rechenmethodik wenig belastbar.
 
-Hinweis: 20-Jahres-Vergleich: 120 m² Bestandshaus
+Hinweis: Typische Kostentreiber im Vergleich
 - Gasheizung (Brennwert)
-  - Eigenanteil: 11.000 €
-  - Heizkosten Jahr 1: ~1.890 €/a
-  - CO₂-Abgabe Jahr 1: ~110 €
-  - Kostenrisiken 20 J.: +5.100–13.500 €
-  - GESAMT 20 JAHRE: 54.000–67.000 €
+  - Anschaffung: oft zunächst günstiger
+  - Brennstoffkosten: abhängig vom Gaspreis
+  - CO₂-Kosten: steigen mit dem CO₂-Preis
+  - Infrastruktur-Risiko: abhängig von Netz- und Regulierungspfaden
+  - Gesamtkosten: stark szenarioabhängig
 - Wärmepumpe (Luft-Wasser)
-  - Eigenanteil (nach Förderung): 12.500 €
-  - Heizkosten Jahr 1: ~1.430 €/a
-  - CO₂-Abgabe: 0 €
-  - Preisrisiken 20 J.: +800–2.000 €
-  - GESAMT 20 JAHRE: 42.000–44.500 €
-- Ersparnis: Ersparnis Wärmepumpe: 12.000–22.500 € über 20 Jahre
+  - Anschaffung: oft höher, aber förderfähig
+  - Betriebskosten: abhängig von Strompreis und Effizienz
+  - CO₂-Kosten: keine direkte fossile CO₂-Abgabe
+  - Systemvorteil: kombinierbar mit PV und variablen Tarifen
+  - Gesamtkosten: ebenfalls objektabhängig
+- Ersparnis: Belastbar ist nur der Vergleich konkreter Gebäude und konkreter Angebote.
 
-Bandbreite: konservatives bis moderates Szenario. Quellen: EWI Köln (CO₂), DIW (Netzentgelte), GMG-Eckpunkte (Bio-Treppe). Mit PV: weitere 25–40 % Stromkosten-Senkung.
+Für belastbare Einzelfallrechnungen sollten Förderhöhe, Vorlauftemperaturen, Gebäudestand und realistische Energiepreise transparent offengelegt werden.
 
 ### CO₂-Preis-Fahrplan
 
 Hinweis: CO₂-Preis-Fahrplan – der größte einzelne Kostentreiber
 - 2025: 55 EUR/t (Festpreis)
-- 2026–2027: 55–65 EUR/t (Preiskorridor)
-- 2028: Marktbasiert (ETS 2 Start)
-- ~2030: 100–250 EUR/t (EWI-Szenario)
-- ~2035: ~160 EUR/t (EWI-Mittelwert)
-- 2045: Fossil = 0 (Verbot fossiler Brennstoffe)
+- 2026: 55–65 EUR/t (nationaler Korridor)
+- ab 2027: Marktbasiert (ETS 2)
+- 2030er: szenarioabhängig (stark von Markt und Politik abhängig)
+- 2045: klimaneutral (Zielpfad für den Gebäudesektor)
 
 Spalten: Jahr | CO₂-Preis | Mechanismus
 - 2025 | 55 EUR/t | Festpreis
-- 2026 | 55–65 EUR/t | Korridor
-- 2027 | 55–65 EUR/t | Korridor bleibt (Koalitionsbeschluss)
-- 2028 | marktbasiert | ETS 2 Start
-- ~2030 | 100–250 EUR/t | EWI-Szenario
-- ~2035 | ~160 EUR/t | EWI-Mittelwert
-- 2045 | Fossil = 0 | Verbot fossiler Brennstoffe
+- 2026 | 55–65 EUR/t | nationaler Korridor
+- ab 2027 | marktbasiert | ETS 2
+- 2030er | szenarioabhängig | Markt- und Politikpfad
+- 2045 | klimaneutral | Zielrichtung im Gebäudesektor
 
-- Bei 160 EUR/t (EWI-Mittel 2035) zahlt ein Gas-Haushalt (20.000 kWh) ca. 640 EUR/Jahr nur für CO₂ – heute sind es 110 EUR.
+- Bei 160 EUR/t CO₂ lägen die CO₂-Kosten für einen Gas-Haushalt mit 20.000 kWh bei rund 650 EUR pro Jahr; bei 55 EUR/t sind es rund 220 EUR.
 
 ### Lock-in-Falle: Warum jede neue Gasheizung ein Risiko ist
 
-Eine 2026 eingebaute Gasheizung läuft typischerweise 20 Jahre – also bis 2046. Ab 2045 ist fossiles Heizen aber verboten. Dazwischen: CO₂-Preis steigt (ETS 2 ab 2028), Bio-Treppe verteuert Gas ab 2029 (10 %, steigend auf 60 %), Gasnetz-Entgelte steigen bei schrumpfender Nutzerzahl. Unwirtschaftlich wird es mittendrin.
+Eine 2026 eingebaute Gasheizung läuft oft zwei Jahrzehnte oder länger. In dieser Zeit steigen Preis- und Regulierungsrisiken: CO₂-Kosten werden marktabhängiger, Gasnetze stehen unter Transformationsdruck, und neue fossile Investitionen können wirtschaftlich schneller unattraktiv werden als geplant.
 
 ### Gasnetz-Rückbau: Das Strukturrisiko
 
-- Stadtwerke: 19 % (planen Stilllegung)
-- noch ohne: 46 % (Entscheidung)
-- wollen auf: 4 % (H₂ umrüsten)
-- Netzentgelte: bis 10× (Anstieg möglich)
+- Stadtwerke: 48 % (setzen auf Mix aus Fernwärme und Wärmepumpen)
+- hauptsächlich: 38 % (Strom/Wärmepumpen)
+- grüne Gase: 5 % (als Hauptlösung)
+- noch offen: 10 % (laut VKU-Umfrage)
 
 Spalten: Kennzahl | Bedeutung
-- 19 % | der Stadtwerke planen Gasnetz-Stilllegung bis 2045
-- 46 % | haben noch keine Entscheidung getroffen
-- 4 % | wollen auf Wasserstoff umrüsten
-- bis 10× | möglicher Anstieg der Netzentgelte (DIW/Ofgem UK)
+- 48 % | setzen auf einen Mix aus Fernwärme und Wärmepumpen
+- 38 % | sehen hauptsächlich Strom und Wärmepumpen als Zielbild
+- 5 % | sehen grüne Gase als Hauptlösung
+- 10 % | haben ihr Zielbild noch nicht festgelegt
 
-- Mannheim legt Gasnetz bis 2035 still (25.000 Haushalte). Augsburg, Hannover, Würzburg: 2040. München: 2045.
+- MVV strebt an, das Gasnetz in Mannheim bis 2035 stillzulegen.
 
-- EU-Gasbinnenmarktrichtlinie: Netzbetreiber müssen bis 2026 Transformationspläne vorlegen.
+- Die EU-Gasbinnenmarktrichtlinie verlangt eine vorausschauende Transformationsplanung für Gas- und Wasserstoffnetze.
 
-- MVV Mannheim: H₂ im Hausnetz „nicht realisierbar“.
+- MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähige Alternativen.
 
-- DIW: Je später der Rückbau beginnt, desto teurer. Ofgem (UK): Netzentgelte können sich verzehnfachen.
+- DIW warnt: Wenn Netze zu spät geordnet zurückgebaut werden, können die verbleibenden Kosten für Kundinnen und Kunden deutlich steigen.
 
 ### Fraunhofer ISE (2025): Wärmepumpe funktioniert im Altbau
 
@@ -125,45 +122,39 @@ Spalten: Jahr | Absatz Heizungs-WP | Veränderung
 - 2024 | 193.000 | -46 % (politische Verunsicherung)
 - 2025 | 299.000 | +55 % vs. 2024
 
-- H1/2025: Wärmepumpe erstmals Marktführer (47 % Marktanteil) vor Gas
+- 2025 stellten Wärmepumpen erstmals knapp die Hälfte aller verkauften Wärmeerzeuger in Deutschland.
 
-- Neubau: 84 % WP-Anteil bei Baugenehmigungen
+- 2024 lagen Wärmepumpen bei den Baugenehmigungen für Wohngebäude bei 81,0 %.
 
 - 80 % der neuen WP gehen in Bestandsgebäude
 
-- Industriekapazität: 500.000 Geräte/Jahr
-
 - Einbruch 2024 = politische Verunsicherung, nicht Technologieproblem
 
-### Gesetzeslage: GMG statt GEG (Eckpunkte 24.02.2026)
+### Gesetzeslage: Reform und Preisrisiken
 
-- 65 %-Regel fällt: Neue Gas-/Ölheizungen wieder uneingeschränkt erlaubt.
+- Über die Reform der Gebäudeheizungsregeln wird 2026 politisch verhandelt.
 
-- Bio-Treppe ab 2029: 10 % Bio-Anteil, steigend auf 30 % (2035), 60 % (2040). Biomethan: 3–5× teurer als Erdgas.
+- Belastbar ist vor allem: Der nationale CO₂-Preis endet 2026 im Korridor, ab 2027 greift ETS 2.
 
-- Grüngasquote 2028: Gasversorger müssen steigende Anteile Biomethan/H₂ beimischen. Genaue Quote offen.
+- Wer heute neu fossil investiert, trägt deshalb Preis- und Infrastruktur-Risiken über viele Jahre.
 
-- Klimawirkung: Öko-Institut: CO₂-Lücke wächst um 5–8 Mio. t/Jahr. Evaluation 2030 mit Nachsteuerungspflicht.
-
-Auch ohne Ordnungsrecht: CO₂-Preis + Gasnetz-Rückbau + Bio-Treppe machen Gas wirtschaftlich zum Auslaufmodell.
+Auch ohne starres Ordnungsrecht bleiben CO₂-Kosten und Gasnetz-Transformation wichtige wirtschaftliche Risiken für neue fossile Heizungen.
 
 ### Wasserstoff als Heizung: Realitätscheck
 
-- Nur 4 % der Stadtwerke planen H₂ für Haushalte. 96 % sehen das Hausnetz NICHT als H₂-Netz.
+- Nur 5 % der von VKU befragten Unternehmen sehen grüne Gase als Hauptlösung für die Wärmewende.
 
-- MVV Mannheim: Umstellung auf H₂ im Niederdrucknetz „aus Kapazitäts- und Kostengründen nicht realisierbar“.
+- MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähig.
 
-- H₂ wird 2–4× teurer als Erdgas und steht für Haushalte nicht in ausreichender Menge zur Verfügung.
+- Das Wasserstoff-Kernnetz dient dem Ferntransport, nicht der flächendeckenden Versorgung kommunaler Hausnetze.
 
-- Das Wasserstoff-Kernnetz dient dem Ferntransport, nicht der kommunalen Ebene.
+### Lautstärke: Aufstellung und Abstand sind entscheidend
 
-### Lautstärke: Modernes Gerät = leiser Kühlschrank
-
-- in 3 m Abstand: 35–40 dB (≈ leiser Regen)
-- am Gerät: 50–60 dB (≈ Gespräch)
+- typisch: 40–50 dB (laut Effizienzlabel vieler Geräte)
+- entscheidend: Abstand (Aufstellort beeinflusst die Immission)
 - TA-Lärm nachts: 35 dB (reines Wohngebiet)
 
-- Ab 2026 verschärfte Förderanforderung: Geförderte WP müssen 10 dB unter EU-Grenzwerten liegen (vorher: 5 dB).
+- Moderne Luftwärmepumpen müssen sorgfältig geplant und aufgestellt werden, damit die Immissionsrichtwerte eingehalten werden.
 
 - Jede Verdopplung der Entfernung senkt den Schallpegel um ca. 6 dB.
 
@@ -171,37 +162,23 @@ Auch ohne Ordnungsrecht: CO₂-Preis + Gasnetz-Rückbau + Bio-Treppe machen Gas 
 
 ### Stromnetz: WP bringen das Netz nicht zum Kollaps
 
-- Stromverbrauch: 1,6 % (1,7 Mio. WP = 8 TWh/a)
-- pro WP: 2–6 kW (weniger als E-Herd)
-- Durchlauferhitzer: 18 kW (3–9× mehr als WP)
+- Netzfragen: lokal (treten vor allem im Verteilnetz auf)
+- Lasten: steuerbar (können zeitlich verschoben werden)
+- Betrieb: flexibel (Tarife und Steuerung helfen dem Netz)
 
-- Consentec/BWP-Studie (2025): Flexible WP können Netzausbauinvestitionen um fast ein Viertel reduzieren.
+- Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und stark von Steuerung, Tarifstruktur und Ausbauplanung abhängig.
 
-- Bis 2045: ca. 104 TWh WP-Stromverbrauch – nur ~9 % des dann erwarteten Gesamtverbrauchs.
+- Für Haushalte wird entscheidend, ob Wärmepumpen flexibel betrieben und sinnvoll in bestehende Verteilnetze integriert werden.
 
-- Variable Stromtarife können WP-Betreibern 300–400 €/Jahr einsparen (Consentec 2025).
+### Wärmepumpen funktionieren auch in kalten Klimazonen
 
-### Fachkräfte: Engpass ja, Showstopper nein
-
-- ZVSHK: Aktuell fehlen rund 60.000 Heizungsinstallateure in Deutschland.
-
-- Wartezeiten für WP-Installation: von 6–12 Monaten (2023) auf wenige Wochen bis Monate gesunken.
-
-- Industriekapazität: 500.000 Geräte/Jahr – die Fertigung ist nicht der Engpass.
-
-- Gas-/Ölheizungsbauer werden in 10 Jahren mangels Nachfrage Aufträge verlieren – Umschulung jetzt ist sinnvoll.
-
-### WP bei extremer Kälte: Funktioniert bis -15 °C und darunter
-
-- bei -15 °C: COP 2,5–3,0 (immer noch effizient)
-- Heizstab-Anteil: 1,3 % (am Jahresverbrauch)
+- Bestandsgebäude: 77 (im Fraunhofer-ISE-Projekt vermessen)
 - WP/1.000 HH: 632 (in Norwegen)
+- entscheidet: Praxis (nicht das Klischee über Altbau oder Frost)
 
-- Elektrische Zusatzheizung (Heizstab) wird erst ab ca. -25 °C dauerhaft nötig – in Deutschland praktisch nie.
+- Praxisdaten und der breite Einsatz in Norwegen zeigen: Wärmepumpen funktionieren auch in kalten Klimazonen.
 
-- Abtauzyklen bei -15 °C: 2–3 pro Tag, Mehrkosten nur ~5–8 €/Monat.
-
-- Norwegen (Oslo Ø Januar: -4 °C): 632 von 1.000 Haushalten heizen mit WP – bei deutlich kälterem Klima als Deutschland.
+- Für die reale Effizienz sind Auslegung, Hydraulik und Heizflächen wichtiger als pauschale Frost-Mythen.
 
 ### Internationaler Vergleich: Deutschland hinkt hinterher
 
@@ -209,17 +186,11 @@ Hinweis: WP-Verbreitung im EU-Vergleich
 Spalten: Land | WP pro 1.000 HH | Marktanteil Neuanlagen
 - Norwegen | 632 | 97 %
 - Finnland | 524 | >90 %
-- Schweden | 496 | >90 %
+- Schweden | k.A. | >90 %
 - Schweiz | k.A. | 76 %
-- Deutschland | ~85 | ~50 % (2025)
+- Deutschland | k.A. | knapp 50 % (2025)
 
-Hinweis: WP pro 1.000 Haushalte
-- Norwegen: 632
-- Finnland: 524
-- Schweden: 496
-- Deutschland: 85
-
-- EHPA (2025): Europaweit stiegen WP-Verkäufe um 11 % auf 2,63 Mio. Einheiten.
+- EHPA: 2025 stiegen die Wärmepumpen-Verkäufe in 16 europäischen Ländern um 10 % auf rund 2,62 Mio. Geräte.
 
 - Skandinavien nutzt WP seit 30 Jahren – auch bei deutlich kälterem Klima als in Deutschland.
 
@@ -239,55 +210,55 @@ Spalten: Baustein | Satz | Bedingung
 - Einkommensbonus | +30 % | bei Haushaltseinkommen < 40.000 EUR/Jahr
 - Gesamtförderung | max 70 % | gedeckelt auf 21.000 EUR Zuschuss
 
-- KfW-Ergänzungskredit 358/359 ab 0,01 % eff. Jahreszins
+- KfW-Ergänzungskredit 358/359 verfügbar
 
 - Antrag VOR Einbau bei KfW stellen
 
-- WP + PV senkt Stromkosten um 25–40 %. Eigenanteil PV (~8–12.000 EUR) amortisiert sich in 6–8 Jahren (Fraunhofer ISE). Ohne Speicher: 25–40 % Autarkiegrad, 22–37 % Eigenverbrauch.
+- Ohne Batteriespeicher erreichen PV-Wärmepumpen-Kombinationen laut Fraunhofer ISE etwa 25–40 % Autarkie und 22–37 % Eigenverbrauch.
 
 ### Argumente
 
 - Aussage: Wärmepumpe lohnt sich nur im Neubau!
-  Antwort: Falsch. Fraunhofer ISE (2025): 77 Altbauten (Bj. bis 1826!) vermessen, JAZ 3,4 im Schnitt. Kein Zusammenhang Baujahr/Effizienz. Entscheidend: Heizköpergröße + Hydraulik. Fußbodenheizung NICHT nötig. 80 % aller neuen WP gehen in Bestandsgebäude.
+  Antwort: Falsch. Fraunhofer ISE hat 77 Bestandsgebäude vermessen, darunter sehr alte Gebäude, und keinen Zusammenhang zwischen Baujahr und Effizienz gefunden. Entscheidend sind Heizkörpergröße, Hydraulik und saubere Auslegung. Fußbodenheizung ist nicht zwingend nötig. Außerdem gehen rund 80 % der neuen Wärmepumpen in Bestandsgebäude.
 - Aussage: Gas ist doch viel billiger!
-  Antwort: Nur bei der Anschaffung: 11.000 vs. 12.500 EUR (nach Förderung). Über 20 Jahre spart die WP 12.000–22.500 EUR. CO₂-Preis ab 2028 marktbasiert (100–250 EUR/t bis 2030), Gasnetz-Entgelte + Bio-Treppe ab 2029 verteuern Gas zusätzlich.
+  Antwort: In der Anschaffung kann Gas zunächst günstiger wirken. Bei Betriebskosten, CO₂-Kosten und Infrastruktur-Risiken spricht aber vieles für die Wärmepumpe. Konkrete 20-Jahres-Summen sollte man nur nennen, wenn Gebäude, Effizienz, Energiepreise und Förderung transparent offengelegt sind.
 - Aussage: Das Gasnetz bleibt doch!
-  Antwort: 19 % der Stadtwerke planen Stilllegung. Mannheim: 2035. EU zwingt Netzbetreiber bis 2026 zu Transformationsplänen. Wer als Letzter im Netz bleibt, zahlt bis 10× höhere Entgelte (DIW/Ofgem).
+  Antwort: MVV strebt in Mannheim die Stilllegung des Gasnetzes bis 2035 an. DIW warnt, dass Netzentgelte mit sinkender Kundenzahl stark steigen können. Die aktuelle VKU-Umfrage zeigt außerdem, dass viele Stadtwerke vor allem mit Wärmepumpen und Fernwärme planen.
 - Aussage: Wasserstoff wird alles lösen!
-  Antwort: 4 % der Stadtwerke planen H₂ – und für Industrie. MVV Mannheim: „nicht realisierbar“ im Hausnetz. Wer auf H₂-Heizung wartet, wartet auf etwas, das die Versorger selbst ausschließen.
+  Antwort: Die aktuelle VKU-Umfrage sieht grüne Gase nur bei 5 % der befragten Unternehmen als Hauptlösung. MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähig.
 - Aussage: Heizungsgesetz ist doch abgeschafft!
-  Antwort: Formal ja (65 %-Regel entfällt im GMG). Aber: CO₂-Preis steigt via EU-Recht (ETS 2), Bio-Treppe macht Gas ab 2029 teurer, Gasnetz schrumpft sowieso. Physik und Markt ignorieren Wahlkampf.
+  Antwort: Über die Reform der Heizungsregeln wird 2026 politisch verhandelt. Belastbar ist vor allem: Der nationale CO₂-Preis endet 2026 im Korridor, ab 2027 startet ETS 2, und neue fossile Investitionen bleiben preis- und infrastrukturnah riskant.
 - Aussage: Meine Heizung funktioniert doch noch!
-  Antwort: 75 % der Ölheizungen und 65 % der Gasheizungen sind > 20 Jahre alt. Wer wartet, verliert den Speed-Bonus (20 %, nur bis 2028) und zahlt länger steigende fossile Betriebskosten.
+  Antwort: Viele Heizungen im Bestand sind alt: Laut BDH und ZVSHK ist über die Hälfte der 21,7 Mio. Heizungen veraltet, mehr als 4 Mio. sind über 30 Jahre alt. Wer früh tauscht, kann aktuelle Förderboni eher noch nutzen.
 - Aussage: Die Wärmepumpe ist doch viel zu laut!
-  Antwort: In 3 m Entfernung liegt eine moderne WP bei 35–40 dB – leiser als ein normales Gespräch (60 dB). Ab 2026 müssen geförderte Geräte sogar 10 dB unter den EU-Grenzwerten liegen. Das ist Kühlschrank-Niveau.
+  Antwort: Luftwärmepumpen müssen sorgfältig geplant werden. Typische Geräuschangaben liegen oft bei etwa 40–50 dB; Aufstellort, Abstand und Nachtmodus sind entscheidend. In reinen Wohngebieten gilt nachts regelmäßig ein Immissionsrichtwert von 35 dB(A) nach TA Lärm.
 - Aussage: Das Stromnetz bricht doch zusammen!
-  Antwort: 1,7 Mio. WP verbrauchen nur 1,6 % des Stroms. Eine WP zieht 2–6 kW – ein Durchlauferhitzer das 3- bis 9-fache. Flexibel gesteuert können WP das Netz sogar stabilisieren und Ausbaukosten um ein Viertel senken (Consentec/BWP 2025).
+  Antwort: Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und hängen stark von Steuerung und Ausbauplanung ab. Entscheidend ist, dass Wärmepumpen sinnvoll ins Verteilnetz integriert und möglichst flexibel betrieben werden.
 - Aussage: Bei richtigem Frost funktioniert die WP nicht!
-  Antwort: Selbst bei -15 °C liefert eine moderne WP noch COP 2,5–3,0 – aus 1 kWh Strom werden 2,5–3 kWh Wärme. In Norwegen (Oslo: -4 °C im Januar) heizen 632 von 1.000 Haushalten mit WP. Wenn es dort funktioniert, funktioniert es in Deutschland erst recht.
+  Antwort: Praxisdaten zeigen, dass Wärmepumpen auch in Bestandsgebäuden effizient laufen. Zudem kommen in Norwegen 632 installierte Wärmepumpen auf 1.000 Haushalte. Entscheidend sind gute Auslegung und passende Heizflächen, nicht pauschale Frost-Mythen.
 
 ### Quellen
 
-- Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025)
-- BWP – Bundesverband Wärmepumpe, Absatzstatistik
-- BDH – Bundesverband der Deutschen Heizungsindustrie
-- BDEW – Bundesverband der Energie- und Wasserwirtschaft
-- Destatis – Statistisches Bundesamt, Baugenehmigungen
-- Verbraucherzentrale – Heizungsratgeber
-- DIW Berlin – Gasnetz-Rückbau und Netzentgelte
-- EWI Köln – CO₂-Preis-Szenarien
-- Öko-Institut – Bewertung GMG-Eckpunkte
-- VKU – Verband kommunaler Unternehmen, Stadtwerke-Umfrage
-- ADAC
-- MVV Mannheim – Gasnetz-Transformation
-- KfW – Bundesförderung für effiziente Gebäude (BEG)
-- Ofgem (UK) – Netzentgelt-Szenarien
-- EU-Gasbinnenmarktrichtlinie 2024
-- BWP – Schallrechner und Förderrichtlinien 2026
-- Consentec – Gutachten Flexibilität WP im Verteilnetz (2025)
-- ZVSHK – Fachkräftestatistik Heizungshandwerk
-- EHPA – European Heat Pump Association, Market Report 2025
-- TA Lärm – Technische Anleitung zum Schutz gegen Lärm
+- Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025) (https://www.ise.fraunhofer.de/en/press-media/press-releases/2025/fraunhofer-ise-research-project-completed-heat-pumps-provide-climate-friendly-heating-in-existing-buildings.html)
+- BWP – Absatzstatistik Wärmepumpen (https://www.waermepumpe.de/presse/zahlen-daten/absatzzahlen/)
+- BDH – Markt für Wärmepumpen 2024 (https://www.bdh-industrie.de/presse/pressemeldungen/artikel/heizungsindustrie-markt-fuer-waermepumpen-bleibt-hinter-erwartungen-zurueck)
+- BDEW – Heizungsmarkt und Gebäudebestand (https://www.bdew.de/media/documents/BDEW_Heizungsmarkt_2023_Zensus2022_BROSCH%C3%9CRE_Druckdatei_Final_1_8zcnCHX.pdf)
+- Destatis – Heizungsart in neuen Wohngebäuden 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_N031_31_51.html)
+- Verbraucherzentrale – Einbau und Aufstellung einer Wärmepumpe (https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/betrieb-und-aufstellung-was-ist-beim-einbau-einer-waermepumpe-wichtig-113970)
+- DIW Berlin – Stilllegung der Erdgasnetze (https://www.diw.de/de/diw_01.c.898168.de/publikationen/wochenberichte/2024_13_1/waermewende__bundesregierung_sollte_kommunen_bei_der_stilllegung_der_erdgasnetze_unterstuetzen.html)
+- EWI Köln – Auswirkungen und Preispfade des EU ETS2 (https://www.ewi.uni-koeln.de/de/publikationen/auswirkungen-und-preispfade-des-eu-ets2/)
+- Öko-Institut – Bewertung der GMG-Eckpunkte (https://www.oeko.de/publikation/weniger-klimaschutz-hoehere-kosten-groessere-unsicherheit-bewertung-der-eckpunkte-zum-neuen-gebaeudemodernisierungsgesetz/)
+- VKU – Umfrage zur Wärmewende (https://www.vku.de/presse/pressemitteilungen/umfrage-zur-waermewende-hohe-kosten-unzureichende-finanzierung-und-unklare-rechtslage-erfordern-winter-der-entscheidungen/)
+- MVV Mannheim – Wärmewende und Gasnetz (https://www.mvv.de/journalisten/pressemitteilungen/detail/gemeinsam-die-waermewende-in-mannheim-umsetzen)
+- KfW – Heizungsförderung für Privatpersonen (https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Heizungsf%C3%B6rderung-f%C3%BCr-Privatpersonen-Wohngeb%C3%A4ude-(458)/)
+- KfW – Ergänzungskredit 358/359 (https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Einzelma%C3%9Fnahmen-Erg%C3%A4nzungskredit-Wohngeb%C3%A4ude-(358-359)/)
+- EU-Gasbinnenmarktrichtlinie 2024 (https://eur-lex.europa.eu/eli/dir/2024/1788/oj/eng)
+- BWP – Schallrechner (https://www.waermepumpe.de/schallrechner/)
+- ZVSHK – Heizungsbranche schlägt Alarm (https://www.zvshk.de/presse/medien-center/pressemitteilungen/heizungsbranche-schlaegt-alarm)
+- EHPA – Market data (https://ehpa.org/market-data/)
+- TA Lärm – Technische Anleitung zum Schutz gegen Lärm (https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26081998_IG19980826.htm)
+- BMWE – FAQ zum Wasserstoff-Kernnetz (https://www.bundeswirtschaftsministerium.de/Redaktion/DE/FAQ/Wassertstoff-Kernnetz/faq-wasserstoff-kernnetz.html)
+- BWP – Wärmepumpen-Absatz 2025: 80 % im Bestandsgebäude (https://www.waermepumpe.de/presse/pressemitteilungen/details/ueber-50-prozent-im-plus-waermepumpen-absatz-steigt-2025-deutlich/)
 
 ---
 
@@ -311,117 +282,114 @@ Hinweis: Marktanteil reiner E-Autos (BEV) an Neuzulassungen in Deutschland
 - 2024: 13.5 %
 - 2025: 19.1 %
 
-- Nach dem Förderstopp-Knick 2024 hat sich der Markt 2025 stabilisiert. Getrieben durch günstigere Modelle (unter 25.000 €) und neue CO₂-Flottengrenzwerte der EU ab 2025.
+- Nach dem Einbruch 2024 stieg der BEV-Anteil an den Neuzulassungen 2025 wieder auf 19,1 %. Gegenüber 2024 legte der BEV-Anteil damit wieder zu.
 
 ### Klimabilanz: Der CO₂-Rucksack
 
 Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ ins Leben. Dieser wird im Fahrbetrieb abgebaut, da der E-Motor deutlich effizienter ist und der Strommix immer grüner wird.
 
-- Break-Even: ~25.000 km (mit dt. Strommix 2025 (ICCT))
-- Break-Even: ~15.000 km (mit 100 % Ökostrom)
+- Break-Even: ~17.000 km (in Europa (ICCT 2025))
 - CO₂-Emissionen: -73 % (über Lebenszyklus (ICCT 2025))
 
-- Laut ICCT-Studie (Juli 2025) spart ein E-Auto über seinen Lebenszyklus rund 73 % CO₂ gegenüber einem vergleichbaren Benziner ein. Auch die konservativere VDI/Fraunhofer-ISI-Meta-Studie kommt auf 40–50 % Einsparung.
+- Laut ICCT (Juli 2025) verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner.
 
-- Die Batterieproduktion wird zunehmend dekarbonisiert (z.B. Northvolt, CATL mit 100 % Erneuerbaren), was den Rucksack in Zukunft weiter massiv verkleinert.
+- Der CO₂-Rucksack aus der Produktion wird im Betrieb schrittweise ausgeglichen, weil E-Motoren effizienter sind und der Strommix weiter dekarbonisiert.
 
 ### Kosten (TCO): Was ist unterm Strich günstiger?
 
 TCO (Total Cost of Ownership) beinhaltet Anschaffung, Wertverlust, Steuern, Versicherung, Wartung und Energiekosten (ADAC Autokostenrechner).
 
-Hinweis: Kostenvergleich Mittelklasse (5 Jahre, 15.000 km/Jahr)
-- Verbrenner (Benzin)
-  - Kaufpreis: ~35.000 €
-  - Energiekosten/Monat: ~115 € (bei 1,75 €/l)
-  - Kfz-Steuer/Jahr: ~120 €
-  - Wartung/Verschleiß: Hoch (Öl, Riemen, Zündkerzen)
-  - Gesamtkosten/Monat: ~680 €
+Hinweis: ADAC-TCO: Worauf es bei den Gesamtkosten ankommt
+- Verbrenner
+  - Kaufpreis: oft etwas niedriger
+  - Energiekosten: abhängig von Kraftstoffpreisen
+  - Kfz-Steuer: regelmäßig fällig
+  - Wartung/Verschleiß: tendenziell höher
+  - Gesamtkosten: stark modellabhängig
 - E-Auto (BEV)
-  - Kaufpreis: ~38.000 €
-  - Energiekosten/Monat: ~75 € (Laden zuhause)
-  - Kfz-Steuer/Jahr: 0 € (bis 2030 befreit)
-  - Wartung/Verschleiß: Gering (-30 bis -40 %)
-  - Gesamtkosten/Monat: ~590 €
-- Ersparnis: E-Auto spart ca. 90 € im Monat (1.080 € im Jahr)
+  - Kaufpreis: oft etwas höher
+  - Energiekosten: abhängig vom Ladetarif
+  - Kfz-Steuer: bis Ende 2030 befreit
+  - Wartung/Verschleiß: tendenziell geringer
+  - Gesamtkosten: stark modellabhängig
+- Ersparnis: Entscheidend ist der Vergleich konkreter Modelle im ADAC-Autokostenrechner.
 
-- Trotz oft höherem Listenpreis sind E-Autos in der Gesamtkostenrechnung (TCO) meist nach 3–5 Jahren günstiger als vergleichbare Verbrenner.
+- Trotz oft höherem Listenpreis können E-Autos in der Gesamtkostenrechnung (TCO) je nach Modell, Nutzung und Ladekosten günstiger sein als vergleichbare Verbrenner.
 
 ### Akkus: Lebensdauer, Rohstoffe & Recycling
 
-- Ladezyklen: >1.500 (moderne NMC-Akkus)
-- Ladezyklen: >3.000 (LFP-Akkus (Standard Range))
-- Recyclingquote: >90 % (für Kobalt, Kupfer, Nickel (EU-VO))
+- Rückgewinnung: 90 % (ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel)
+- Lithium: 50 % (Rückgewinnungsziel bis Ende 2027, später 80 %)
+- Nachnutzung: Second Life (Fahrzeugbatterien können stationär weitergenutzt werden)
 
 Spalten: Fakt | Erklärung
-- Lebensdauer | Ein Akku hält heute meist länger als das Auto selbst (500.000 bis >1 Mio. km bei LFP).
-- LFP-Technologie | Lithium-Eisenphosphat-Akkus (in >50% der neuen E-Autos) kommen komplett OHNE Kobalt und Nickel aus.
-- Recycling | EU-Batterieverordnung schreibt ab 2027 Rückgewinnungsquoten von 90% für Kobalt/Kupfer/Nickel und 50% (später 80%) für Lithium vor.
+- LFP-Technologie | Lithium-Eisenphosphat-Akkus kommen ohne Kobalt und Nickel aus.
+- Recycling | Die EU-Batterieverordnung schreibt ab Ende 2027 hohe Rückgewinnungsziele für zentrale Batterierohstoffe vor.
 - Second Life | Ausgemusterte Auto-Akkus (mit <80% Kapazität) werden jahrelang als stationäre Stromspeicher weitergenutzt.
 
-- Kobalt ist kein reines E-Auto-Problem: Es wird auch zur Entschwefelung von Benzin und Diesel in Raffinerien genutzt – dort wird es verbraucht, im Akku wird es recycelt.
+- Die Rohstofffrage ist real, aber Batterien sind reguliert: Hersteller reduzieren kritische Materialien, und die EU verschärft die Recyclingvorgaben deutlich.
 
 ### Stromnetz: Droht der Blackout?
 
-- Strombedarf: ~45 TWh (für 15 Mio. E-Autos)
-- Anteil: ~9 % (am dt. Stromverbrauch (~520 TWh))
-- Regelung: § 14a EnWG (verhindert Überlastung)
+- Mindestleistung: 4,2 kW (bei Dimmung nach § 14a EnWG)
+- Regelung: § 14a EnWG (verhindert lokale Überlastung)
+- Praxis: smart laden (Engpässe werden lokal statt pauschal gemanagt)
 
-- 15 Millionen E-Autos (Ziel der Bundesregierung) benötigen ca. 45 TWh Strom pro Jahr. Das sind rund 9 % des aktuellen deutschen Stromverbrauchs (~520 TWh). Das Netz kann diese Energiemenge problemlos bereitstellen.
+- Neue steuerbare Ladeeinrichtungen dürfen nicht pauschal wegen lokaler Engpässe abgelehnt werden. Im Engpassfall darf der Strombezug zeitweise reduziert werden, die Bundesnetzagentur schreibt dabei aber eine Mindestleistung von 4,2 kW vor.
 
-Lokale Überlastungen (z.B. wenn abends alle gleichzeitig laden) werden durch intelligentes Laden (§ 14a EnWG) verhindert. Netzbetreiber dürfen Ladeboxen kurzzeitig dimmen (auf 4,2 kW), aber niemals komplett abschalten. 4,2 kW reichen immer noch, um über Nacht ~200 km Reichweite nachzuladen.
+Lokale Überlastungen werden durch intelligentes Laden gemanagt. Netzbetreiber dürfen Wallboxen im Engpassfall zeitweise dimmen, aber nicht vollständig abschalten.
 
 ### E-Fuels & Wasserstoff im PKW: Ein Effizienzproblem
 
-Hinweis: Gesamtwirkungsgrad (Well-to-Wheel)
-- E-Auto (BEV): 64
-- Wasserstoff (Brennstoffzelle): 27
-- E-Fuels (Verbrenner): 13
+Hinweis: Direkte Stromnutzung ist im Pkw am effizientesten
+Spalten: Antrieb | Kernaussage
+- E-Auto (BEV) | Direkte Nutzung von Strom im Fahrzeug ist am effizientesten.
+- Wasserstoff | Zusätzliche Umwandlungsschritte kosten im Pkw viel Energie.
+- E-Fuels | Sollten vor allem dort eingesetzt werden, wo Batterien kaum praktikabel sind.
 
-- Um mit E-Fuels 100 km zu fahren, braucht man ca. 5-mal so viel erneuerbaren Strom wie für ein Batterie-E-Auto (BEV). Auch Wasserstoff im PKW braucht über das Doppelte.
+- Für Pkw ist die direkte Nutzung von Strom im Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels.
 
-E-Fuels und Wasserstoff sind extrem wertvoll und werden dringend in Sektoren gebraucht, die sich nicht mit Batterien elektrifizieren lassen: Flugverkehr, Schifffahrt und Schwerindustrie (Stahl, Chemie). Sie im PKW zu verbrennen, ist energetische und ökonomische Verschwendung.
+E-Fuels und Wasserstoff sind wertvoll und werden vor allem in Sektoren gebraucht, die sich nur schwer direkt elektrifizieren lassen, etwa im Flugverkehr, in der Schifffahrt und in Teilen der Industrie. Im Pkw sind sie energetisch deutlich ineffizienter und meist nicht der sinnvolle Einsatz.
 
 ### Brandgefahr: Brennen E-Autos häufiger?
 
-- Statistisch gesehen brennen E-Autos deutlich seltener als Verbrenner.
+- Elektroautos brennen laut BMUKN nicht häufiger als andere Fahrzeuge.
 
-Spalten: Fahrzeugtyp | Brände pro 100.000 Fahrzeuge (US-Daten AutoinsuranceEZ)
-- Hybride (PHEV/HEV) | 3.474
-- Verbrenner (Benzin/Diesel) | 1.529
-- E-Autos (BEV) | 25
+Ein brennendes Elektroauto ist laut BMUKN in thermischer Hinsicht nicht gefährlicher als ein brennendes Fahrzeug mit konventionellem Antrieb.
 
-Wenn ein E-Auto brennt, ist es schwerer zu löschen (die Feuerwehr muss den Akku kühlen, z.B. im Wasserbad). Aber das Risiko eines Brandes ist bei einem Tank voller hochentzündlichem Benzin und einem heißen Auspuff/Motorblock viel höher als bei einem gut geschützten Akkupack im Unterboden.
+Wenn ein E-Auto brennt, ist es oft aufwendiger zu löschen, weil der Akku gekühlt werden muss. Für Feuerwehren ist das ein bekanntes Einsatzszenario.
 
 ### Argumente
 
 - Aussage: Nach 3 bis 5 Jahren ist der Akku kaputt und ein neuer kostet 15.000 Euro.
-  Antwort: Ein Mythos aus der Zeit alter Handys. Moderne E-Auto-Akkus (besonders LFP) halten 1.500 bis 3.000 Ladezyklen. Das entspricht 500.000 bis über 1 Million Kilometern. Der Akku überlebt in der Regel die Karosserie des Autos. Zudem geben Hersteller meist 8 Jahre oder 160.000 km Garantie auf den Akku.
+  Antwort: Das ist so pauschal falsch. Moderne Traktionsbatterien sind auf lange Nutzung ausgelegt, Hersteller geben mehrjährige Garantien, und die Batterie ist normalerweise nicht schon nach wenigen Jahren am Ende. Entscheidend sind Fahrzeugmodell, Nutzung und Batterietyp.
 - Aussage: Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.
-  Antwort: Nein. 15 Mio. E-Autos brauchen nur ca. 9–10 % unseres heutigen Stroms. Lokale Überlastungen werden durch § 14a EnWG verhindert: Netzbetreiber können Wallboxen bei Engpässen kurzzeitig auf 4,2 kW dimmen. Das reicht immer noch, um über Nacht ~200 km nachzuladen. Niemand bleibt morgens mit leerem Akku stehen.
+  Antwort: Nein. Netzbetreiber dürfen neue steuerbare Ladeeinrichtungen nicht pauschal wegen lokaler Engpässe ablehnen. Im Engpassfall darf der Strombezug nach § 14a EnWG vorübergehend auf 4,2 kW reduziert werden; diese Mindestleistung muss laut Bundesnetzagentur immer verfügbar bleiben.
 - Aussage: Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.
-  Antwort: Falsch. Der CO₂-Rucksack der Produktion ist beim aktuellen deutschen Strommix (62 % Erneuerbare) nach ca. 25.000 km abgefahren. Über den gesamten Lebenszyklus spart ein E-Auto laut ICCT (2025) rund 73 % CO₂ gegenüber einem Benziner ein. Mit Ökostrom ist der Break-Even schon nach ~15.000 km erreicht.
+  Antwort: Falsch. Laut ICCT verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner. Der höhere CO₂-Fußabdruck der Produktion wird im Fahrbetrieb wieder ausgeglichen.
 - Aussage: Für E-Autos schuften Kinder im Kongo für Kobalt.
-  Antwort: Die Industrie steuert massiv um: Über 50 % der neuen E-Autos (z.B. Tesla Model 3/Y Standard, VW ID-Einstiegsmodelle) nutzen LFP-Akkus. Diese enthalten exakt 0 % Kobalt und 0 % Nickel. Zudem wird Kobalt auch für die Entschwefelung von Benzin und Diesel genutzt – dort regt sich niemand auf, und es wird verbrannt statt recycelt.
+  Antwort: Die Probleme im Rohstoffabbau sind real und müssen ernst genommen werden. Gleichzeitig sinkt der Einsatz kritischer Materialien bei manchen Batterietypen, LFP-Akkus kommen ohne Kobalt und Nickel aus, und die EU verschärft die Recyclingvorgaben für Batterierohstoffe deutlich.
 - Aussage: Batterien sind nur eine Brückentechnologie, Wasserstoff und E-Fuels sind die Zukunft.
-  Antwort: Die Physik spricht dagegen: Ein Wasserstoff-Auto braucht über 2x so viel Strom für die gleiche Strecke wie ein Batterie-Auto. Mit E-Fuels sind es sogar 5–6x so viel. Dieser Strom müsste erst teuer erzeugt werden. E-Fuels und H₂ werden dringend für Flugzeuge, Schiffe und die Industrie gebraucht – im PKW sind sie ineffizient und viel zu teuer.
+  Antwort: Die Physik spricht eher für direkte Elektrifizierung. Im Pkw ist das Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels. Diese Energieträger werden vor allem dort gebraucht, wo Batterien an Grenzen stoßen, etwa in Luftfahrt, Schifffahrt oder Teilen der Industrie.
 - Aussage: E-Autos brennen ständig und können nicht gelöscht werden.
-  Antwort: Statistiken zeigen das Gegenteil: Verbrenner brennen rund 60-mal häufiger als E-Autos (pro 100.000 Fahrzeuge). Ein Tank voller Benzin neben einem heißen Motor ist gefährlicher als ein gekapselter Akku im Unterboden. Wenn ein E-Auto brennt, ist das Löschen zwar aufwendiger (Kühlung nötig), aber die Feuerwehren sind darauf längst eingestellt.
+  Antwort: Die pauschale Behauptung stimmt nicht. Laut BMUKN brennen Elektroautos nicht häufiger als andere Fahrzeuge. Wenn ein Akku-Brand entsteht, ist das Löschen zwar aufwendiger, aber für Feuerwehren ist das ein bekanntes und beherrschbares Szenario.
 - Aussage: Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.
-  Antwort: Moderne E-Autos haben reale Autobahn-Reichweiten von 300 bis 500 km. Das europäische Schnellladenetz wächst rasant. An einem HPC-Lader (High Power Charger) lädt man in 20 Minuten Strom für weitere 250 km nach – genau die Zeit, die man ohnehin für eine Toiletten- oder Kaffeepause nach 3 Stunden Fahrt einplanen sollte.
+  Antwort: Auch längere Urlaubsfahrten sind mit E-Autos heute praktikabel. Das Schnellladenetz wächst weiter, und auf Langstrecken gehören Ladepausen ähnlich wie Tank- oder Ruhepausen ohnehin zur Reiseplanung dazu.
 
 ### Quellen
 
-- ICCT – Life-cycle GHG emissions of passenger cars (Juli 2025)
-- VDI / Fraunhofer ISI – Meta-Studie Ökobilanz von PKW-Antrieben (2025)
-- ADAC – Autokostenrechner / TCO-Vergleich (2025)
-- BDEW – Zahlen zum Ladeinfrastrukturausbau und Stromnetz (2025/2026)
-- Bundesnetzagentur – Ladeinfrastruktur-Statistik (Jan 2026)
-- BMUV – Wirkungsgradvergleich Antriebskonzepte
-- Transport & Environment (T&E) – Effizienzvergleich E-Fuels vs. BEV
-- Fraunhofer ISI – Batterielebensdauer und Recyclingquoten
-- AutoinsuranceEZ – Studie zur Brandgefahr nach Antriebsarten
-- Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand und Neuzulassungen (2026)
-- EU-Batterieverordnung 2023/1542 – Recyclingquoten
+- ICCT – Life-cycle GHG emissions of passenger cars (Juli 2025) (https://theicct.org/publication/electric-cars-life-cycle-analysis-emissions-europe-jul25/)
+- ADAC – Autokostenrechner / TCO-Vergleich (https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/uebersicht/)
+- BDEW – Marke von 200.000 Ladepunkten überschritten (https://www.bdew.de/presse/marke-von-200000-ladepunkten-ueberschritten-fokus-auf-elektrofahrzeugabsatz-kommt-zum-richtigen-zeitpunkt/)
+- Bundesnetzagentur – E-Mobilität und § 14a EnWG (https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/E-Mobilitaet/start.html)
+- BMUKN – Klima und Energie bei Elektromobilität (https://www.bmuv.de/themen/verkehr/elektromobilitaet/klima-und-energie)
+- Transport & Environment (T&E) – E-Fuels (https://www.transportenvironment.org/topics/cars/efuels)
+- Fraunhofer ISI – Batterie-Recycling in Europa (https://www.isi.fraunhofer.de/de/blog/themen/batterie-update/batterie-recycling_europa_kapazitaeten_bedarf_update_2025.html)
+- Kraftfahrt-Bundesamt (KBA) – Bestand batterieelektrischer Pkw am 1. Januar 2026 (https://www.kba.de/DE/Presse/Pressemitteilungen/Allgemein/2026/pm08_2026_elektro_pkw.html)
+- Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand am 1. Januar 2026 (https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html)
+- BMUKN – Brandgefahr von Elektroautos (https://www.bmuv.de/faq/wie-gefaehrlich-sind-elektroautos-besonders-im-fall-eines-brands)
+- EU-Batterieverordnung 2023/1542 – Recyclingquoten (https://eur-lex.europa.eu/eli/reg/2023/1542/oj)
+- Zoll – Verlängerung der Steuerbefreiung für reine Elektrofahrzeuge (https://www.zoll.de/SharedDocs/Fachmeldungen/Aktuelle-Einzelmeldungen/2026/kfz_verlaengerung_steuerbefreiung_elektrofahrzeuge.html)
 
 ---
 
@@ -479,10 +447,9 @@ Spalten: Szenario | Erzeugung | Anteil am PEV
 
 ### Strommix 2025: Wo stehen wir heute?
 
-- Erneuerbare: 62 % (am Strommix 2025)
-- Kohle: 94 TWh (historischer Tiefstand)
+- Erneuerbare: 55,3 % (am Stromverbrauch 2025)
+- Kohle: Tiefstand (historisch niedrig)
 - CO₂/kWh vs. 1990: -53 % (Stromsektor (UBA))
-- Strompreis: 31,2 Ct (März 2026, Verivox (-12 %))
 
 Hinweis: Entwicklung des Erneuerbaren-Anteils am Strommix
 - 2010: 17 %
@@ -490,16 +457,15 @@ Hinweis: Entwicklung des Erneuerbaren-Anteils am Strommix
 - 2020: 45.3 %
 - 2023: 51.8 %
 - 2024: 56 %
-- 2025: 62 %
+- 2025: 55.3 %
 
 Spalten: Kennzahl | Wert
-- Erneuerbaren-Anteil am Strommix | 62%
-- Kohleverstromung | 94 TWh (historischer Tiefstand)
+- Erneuerbaren-Anteil am Stromverbrauch | 55,3 %
+- Kohleverstromung | historischer Tiefstand
 - CO₂-Emissionen Strom ggü. 1990 | ca. -53 % (spez. Faktor)
-- Strompreis Bestandskunden (März 2026) | 31,2 Ct/kWh (-12% ggü. Vorjahr)
 - Spezifischer CO₂-Emissionsfaktor 2024 | 363 g CO₂/kWh
 
-- 62 % Erneuerbare im Strommix 2025 – bei gleichzeitig historisch niedrigster Kohleverstromung.
+- 2025 stammten 55,3 % des Stromverbrauchs aus Erneuerbaren – bei gleichzeitig historisch niedriger Kohleverstromung.
 
 ### Stromgestehungskosten (LCOE) – Der Preisvergleich
 
@@ -529,7 +495,7 @@ Spalten: Kategorie | LCOE | Quelle
 - Hinkley Point C (Strike Price) | 15 Ct/kWh (inflationsindexiert) | EDF, Stand 01/2026
 - Barakah (VAE, südkoreanischer Bau) | ~4–6 Ct/kWh (geschätzt) | Ohne Verifikation
 
-- Neubau-Kernkraft ist 3–5x teurer als Solar/Wind. Günstig ist nur Atomstrom aus bereits abbezahlten Anlagen – die gibt es in Deutschland nicht mehr.
+- Neubau-Kernkraft ist deutlich teurer als Solar- und Windkraft.
 
 ### AKW-Neubau im Westen: Kein Projekt im Budget
 
@@ -550,7 +516,7 @@ Gegenbeispiel: Barakah (VAE) – 4 Blöcke in je ~8 Jahren, ~20,4 Mrd. USD für 
 
 ### Frankreich 2022: Warnung vor dem „Versorgungssicher“-Mythos
 
-- 2022 fielen bis zu 32 von 56 französischen Reaktoren gleichzeitig aus.
+- 2022 waren in Frankreich zeitweise zahlreiche Reaktoren gleichzeitig außer Betrieb.
 
 Ursache 1: Spannungsrisskorrosion an Rohrleitungen (Sicherheitsüberprüfungen). Ursache 2: Kühlwassermangel durch Hitzewellen und niedrige Flusspegel. Folge: Frankreich wurde zum Nettostromimporteur, u.a. aus Deutschland.
 
@@ -558,16 +524,16 @@ Ursache 1: Spannungsrisskorrosion an Rohrleitungen (Sicherheitsüberprüfungen).
 
 ### Dunkelflauten: Reales Problem, kein Showstopper
 
-- Dunkelflauten >48h: ~3×/Jahr (Schnitt 10 Jahre)
+- Dunkelflauten >48h: selten (kein dauerhafter Showstopper)
 - Versorgungsengpässe: 0 (laut BNetzA)
 - Negativpreisstunden: 573 Std. (2025 (6× ggü. 2016))
 
 Spalten: Kennzahl | Wert | Quelle
-- Durchschnittliche Häufigkeit (>48h) | ~3x pro Jahr | 1KOMMA5°/Fraunhofer ISE (2016–2025)
+- Durchschnittliche Häufigkeit (>48h) | selten | 1KOMMA5°/Fraunhofer ISE (2016–2025)
 - Häufung über 10 Jahre | Nicht zugenommen trotz EE-Ausbau | 1KOMMA5°/Fraunhofer ISE
 - Versorgungsengpässe | 0 (keine einzige) | Bundesnetzagentur
 - Negativpreisstunden 2025 | 573 (6x mehr als 2016) | Bundesnetzagentur
-- Längste Dunkelflaute 2025 | 89 Stunden | 1KOMMA5°
+- Längste Dunkelflaute 2025 | mehrtägig | 1KOMMA5°
 
 - Null Versorgungsengpässe trotz wachsendem Erneuerbaren-Anteil.
 
@@ -592,14 +558,14 @@ Treiber des Mehrbedarfs: Direkte Elektrifizierung (Wärmepumpen + E-Autos ersetz
 
 - beantragt: 400 GW (Leistung 2024)
 - beantragt: 661 GWh (Kapazität 2024)
-- installiert: 25,5 GWh (Ende 2025)
+- installiert: >20 GWh (Ende 2025)
 - GWh Bedarf: 500–600 (bis 2045)
 
 Spalten: Kennzahl | Wert | Quelle
 - Beantragte Leistung (2024, ab Mittelspannung) | ~400 GW | BNetzA (11/2025)
 - Beantragte Kapazität (2024) | 661 GWh | BNetzA (11/2025)
 - Erteilte Anschlusszusagen (2024) | 25 GW / 46 GWh | BNetzA (11/2025)
-- Installiert gesamt (Ende 2025) | 25,5 GWh | MaStR/pv magazine
+- Installiert gesamt (Ende 2025) | >20 GWh | MaStR/pv magazine
 - Davon Großspeicher (>1 MW) | 2,4 GW / 3,5 GWh | Modo Energy (02/2026)
 - Pipeline 2026 | 3,4 GW geplant | Modo Energy
 - Bedarf 2030 | ~125 GWh | CAV Partners (02/2026)
@@ -672,8 +638,8 @@ Atomkraft ist ein europäisches Nischenprodukt – nur 12 Länder nutzen es, und
 
 ### Europäischer Stromverbund: Deutschland ist keine Insel
 
-- Import 2025: 76,2 TWh (~50 % erneuerbar)
-- Export 2025: 54,3 TWh (67 % erneuerbar)
+- Import 2025: 76,2 TWh (Stromverbund mit Nachbarländern)
+- Export 2025: 54,3 TWh (Stromverbund mit Nachbarländern)
 - EE-Rekord: 67,5 % (Q2 2025)
 
 - Nettoimport 2025: 21,9 TWh – 22,6 % weniger als 2024. Tendenz: Importbedarf sinkt.
@@ -691,13 +657,13 @@ Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System
 - Aussage: AKW ersetzen keinen einzigen Schritt der Energiewende.
   Antwort: Selbst alle 17 alten AKW deckten bei verdoppeltem Strombedarf nur ~10%. Netze, Speicher, Windräder braucht man so oder so. Kernkraft ist bestenfalls Ergänzung, kein Alternativpfad.
 - Aussage: Die Krise war Gas, nicht Strom.
-  Antwort: 80% des Erdgases ging in Wärme und Industrie, nicht in Strom. AKW hätten die Gaskrise 2022 strukturell nicht gelöst. Und Uran kommt zu 46% aus Russland und Kasachstan.
+  Antwort: Der Großteil des Erdgases ging 2022 in Wärme und Industrie, nicht in Strom. AKW hätten die Gaskrise deshalb strukturell nicht gelöst. Auch bei Uran ist Kernenergie zudem auf internationale Lieferketten angewiesen.
 - Aussage: Das Problem heißt Bürokratie, nicht Technologie.
   Antwort: 400 GW beantragte Speicherleistung zeigen: Der Markt will. Der Engpass sind Netzanschlüsse, Genehmigungsverfahren und Abstandsregeln. Das ist politisches Versagen aller Parteien – kein Versagen der Erneuerbaren.
 - Aussage: Aber SMRs lösen doch das Problem!
   Antwort: Es gibt keinen einzigen kommerziellen SMR im Westen. Das am weitesten fortgeschrittene Projekt (Darlington, Kanada) produziert Strom für ~15 Ct/kWh – doppelt so teuer wie Wind/Solar. Das einzige US-Projekt (NuScale) wurde 2023 eingestellt. Frühestmögliche Inbetriebnahme: ~2030.
 - Aussage: Atomkraft ist doch abgeschaltet und erledigt!
-  Antwort: Über 1.200 Castor-Behälter stehen aktuell in Zwischenlagern, bis zu 1.800 werden es am Ende. Die Endlagersuche dauert bis mindestens 2050. Geschätzte Gesamtkosten: 47,5 Mrd. EUR. Über die Hälfte des Umweltministeriums-Budgets fließt in Atommüll. Neue AKWs würden das Problem nur vergrößern.
+  Antwort: Über 1.200 Castor-Behälter stehen aktuell in Zwischenlagern. Die Endlagersuche dauert mindestens bis 2050, die Entsorgungskosten liegen bereits in zweistelliger Milliardenhöhe. Neue AKWs würden das Problem weiter vergrößern, nicht verkleinern.
 - Aussage: Deutschland muss sich doch selbst versorgen können!
   Antwort: Der europäische Stromverbund existiert genau dafür. 2025 importierte DE 76 TWh und exportierte 54 TWh. Skandinavische Wasserkraft kompensiert Dunkelflauten, deutscher Solarüberschuss fließt in Nachbarländer. Das ist kein Versagen, sondern intelligentes Design – und billiger als Autarkie.
 
@@ -725,6 +691,8 @@ Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System
 - Bundesnetzagentur – EE-Ausbauzahlen 2025 (Jan. 2026) (https://www.bundesnetzagentur.de/)
 - Eurostat – EU Strommix 2024 (Jan. 2026) (https://ec.europa.eu/eurostat/)
 - SMARD – Strommarktdaten Import/Export 2025 (https://www.smard.de/)
+- BMUKN – Deutschland beendet das Zeitalter der Atomkraft (https://www.bmuv.de/PM10553)
+- EDF – Stress corrosion phenomenon and 2022 French nuclear output estimate (https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/update-on-the-stress-corrosion-phenomenon-and-adjustment-of-2022-french-nuclear-output-estimate)
 
 ---
 
@@ -755,11 +723,11 @@ Hinweis: Globale Erwärmung über vorindustriellem Niveau (°C)
 
 - 2024 war das wärmste Jahr seit Beginn der Aufzeichnungen — und das erste Kalenderjahr, das die 1,5-°C-Schwelle des Pariser Abkommens überschritten hat.
 
-Das Pariser Abkommen bezieht sich auf Durchschnittswerte über Jahrzehnte, nicht auf Einzeljahre. Dennoch zeigt 2024 klar die Richtung: Die Erwärmung beschleunigt sich — von ~0,2 °C/Jahrzehnt in den 1970ern auf ~0,35–0,40 °C/Jahrzehnt seit 2015.
+Das Pariser Abkommen bezieht sich auf Durchschnittswerte über Jahrzehnte, nicht auf Einzeljahre. Dennoch zeigt 2024 klar die Richtung: Die globale Erwärmung setzt sich weiter fort und erreichte erneut einen historischen Rekordwert.
 
 ### CO₂-Konzentration in der Atmosphäre
 
-- CO₂-Konzentration: ~427 ppm (2025 (Mauna Loa))
+- CO₂-Konzentration: 422,1 ppm (globaler Durchschnitt 2024)
 - vorindustrielles Niveau: 280 ppm (vor 1750)
 - Anstieg: +53 % (seit vorindustriellem Niveau)
 - schneller als Natur: 100× (CO₂-Anstieg vs. Eiszeiten)
@@ -773,8 +741,8 @@ Hinweis: CO₂-Konzentration (ppm, Keeling-Kurve)
 - 2010: 390 ppm
 - 2015: 401 ppm
 - 2020: 414 ppm
-- 2024: 424 ppm
-- 2025: 427 ppm
+- 2023: 419 ppm
+- 2024: 422.1 ppm
 
 - Die CO₂-Konzentration ist heute höher als jemals in den letzten 800.000 Jahren. Der Anstieg der letzten 100 Jahre entspricht dem natürlicher Zyklen über 10.000 Jahre — das ist 100-mal schneller.
 
@@ -828,7 +796,7 @@ Spalten: Sektor | 2024 (Mio. t) | Veränderung | Anmerkung
 
 - Der Verkehrssektor ist das Sorgenkind: -0,2 % Reduktion 2024. Ohne drastische Maßnahmen wird das Sektorziel klar verfehlt.
 
-- Die Energiewirtschaft trägt am stärksten zur Reduktion bei (-7,4 %), vor allem durch den Kohlerückgang und 62 % Erneuerbare im Strommix.
+- Die Energiewirtschaft trägt am stärksten zur Reduktion bei (-7,4 %), vor allem durch den Kohlerückgang.
 
 ### Kippelemente: Wenn das Klima den Point of no Return überschreitet
 
@@ -836,7 +804,7 @@ Kippelemente sind Teile des Erdsystems, die ab einer bestimmten Temperaturschwel
 
 Hinweis: Wichtige Kippelemente und ihre Schwellen
 Spalten: Kippelement | Schwelle (°C) | Folgen
-- Korallenriffe (warm) | ~1,2 °C | Massenbleiche, Ökosystem-Kollaps — bereits überschritten
+- Korallenriffe (warm) | frühes Kipprisiko | Bereits bei heutiger Erwärmung stark gefährdet
 - Grönland-Eisschild | ~1,5–2,0 °C | Irreversibler Eisverlust, bis zu 7 m Meeresspiegelanstieg
 - Westantarktischer Eisschild | ~1,5–2,0 °C | Instabiler Kollaps, bis zu 3 m Meeresspiegelanstieg
 - Permafrost (abrupt) | ~1,5–2,0 °C | Massive Methan-/CO₂-Freisetzung, Selbstverstärkung
@@ -844,11 +812,11 @@ Spalten: Kippelement | Schwelle (°C) | Folgen
 - AMOC (Atlantikzirkulation) | ~1,5–4,0 °C | Zusammenbruch der Meeresströmung, extreme Folgen für Europa
 - Arktisches Sommereis | ~2,0 °C | Eisfreie Sommer, Albedo-Verlust beschleunigt Erwärmung
 
-- Bei 1,5 °C Erwärmung drohen bereits mehrere Kippelemente auszulösen. Warmwasser-Korallenriffe haben ihren Kipppunkt bei ~1,2 °C bereits überschritten.
+- Bei 1,5 °C Erwärmung drohen bereits mehrere Kippelemente auszulösen. Warmwasser-Korallenriffe gehören zu den frühesten Kipprisiken und sind schon heute stark gefährdet.
 
 - AMOC-Warnsignale: Aktuelle Forschung (2025) zeigt, dass die Atlantikzirkulation schneller an Stabilität verliert als Modelle vorhergesagt haben.
 
-Das Gefährliche: Kippelemente können sich gegenseitig auslösen (Kaskadeneffekte). Die AMOC ist an 45 % aller bekannten Kippunkt-Wechselwirkungen beteiligt — die meisten davon destabilisierend.
+Das Gefährliche: Kippelemente können sich gegenseitig auslösen (Kaskadeneffekte).
 
 ### Was kostet Handeln — was kostet Nichtstun?
 
@@ -863,9 +831,9 @@ Hinweis: Klimaschutz vs. Nichtstun
   - Geschätzte Kosten dafür: 6 Bio. USD
   - Schadensreduktion dadurch: bis 90 %
   - Return on Investment bis 2100: ~10-fach
-- Ersparnis: Klimaschutz-Investitionen bringen bis 2100 das 10-Fache zurück
+- Ersparnis: Früher Klimaschutz ist deutlich günstiger als ungebremste Erwärmung
 
-- Nichtstun kostet bis 2050 jährlich 38 Billionen USD — rund 17 % des globalen BIP. Klimaschutz kostet 1–2 % des BIP, spart aber 90 % der Schäden.
+- Nichtstun kann bis 2050 laut aktueller Forschung jährliche Schäden in der Größenordnung von 38 Billionen USD verursachen. BCG veranschlagt für wirksamen Klimaschutz deutlich geringere wirtschaftliche Lasten als für eine ungebremste Erwärmung.
 
 - Die 6 Billionen USD für Klimaschutz sind weniger als ein Sechstel der Kosten, die bei einer Erwärmung über 2 °C entstehen.
 
@@ -883,18 +851,18 @@ Hinweis: Entwicklung des wissenschaftlichen Konsenses
 - 2021: Lynas et al. (>99,9 % Konsens unter 88.125 Studien)
 - 2023: IPCC AR6 ("Unequivocally" — eindeutig menschengemacht)
 
-- Der IPCC AR6 (2023) stellt unmissverständlich fest: Menschliche Aktivitäten haben die globale Erwärmung 'eindeutig' (unequivocally) verursacht. Keine einzige nationale oder internationale Wissenschaftsakademie widerspricht.
+- Der IPCC AR6 (2023) stellt unmissverständlich fest: Menschliche Aktivitäten haben die globale Erwärmung 'eindeutig' (unequivocally) verursacht.
 
 ### Argumente
 
 - Aussage: Das Klima hat sich schon immer verändert!
   Antwort: Stimmt — aber der aktuelle CO₂-Anstieg ist 100-mal schneller als bei natürlichen Zyklen. Nach der letzten Eiszeit stieg CO₂ über 10.000 Jahre um ~80 ppm. Wir haben in nur 150 Jahren +147 ppm draufgelegt. Die Geschwindigkeit ist das Problem: Ökosysteme können sich nicht schnell genug anpassen. (Quelle: NASA, MIT Climate Portal)
 - Aussage: Deutschland allein kann das Klima nicht retten!
-  Antwort: Deutschland ist historisch der viertgrößte CO₂-Emittent der Welt (93 Mrd. Tonnen kumulativ). Pro Kopf emittieren wir ~7 t CO₂/Jahr — deutlich über dem globalen Durchschnitt von 4,9 t. Wenn jedes Land so argumentierte, passiert gar nichts. Zudem: Deutsche Klimaschutztechnologie (Erneuerbare, Wärmepumpen, E-Autos) ist ein Exportschlager — Handeln schafft Märkte und Arbeitsplätze. (Quellen: Our World in Data 2023, IEA 2023)
+  Antwort: Deutschland gehört historisch zu den großen Emittenten und liegt pro Kopf weiter über dem Weltmittel. Wenn jedes Land auf andere zeigt, passiert gar nichts. Zudem schafft Klimaschutz Märkte und Arbeitsplätze etwa bei Erneuerbaren, Wärmepumpen oder E-Mobilität.
 - Aussage: Klimaschutz kostet Arbeitsplätze!
   Antwort: Das Gegenteil ist der Fall: Weltweit arbeiten bereits 16,6 Mio. Menschen in der Erneuerbaren-Branche (IRENA 2024). In Deutschland hat sich die Zahl der Stellenausschreibungen in der Energiewende von 173.000 (2019) auf 372.500 (2024) mehr als verdoppelt. Die Branche sucht ~300.000 Fachkräfte. Im Gegensatz dazu: Die Kohleindustrie beschäftigte zuletzt nur noch ~20.000 Menschen. (Quellen: IRENA 2025, BEE 2025, BMWK 2024)
 - Aussage: Die Wissenschaftler sind sich doch gar nicht einig!
-  Antwort: Doch — zu über 99 %. Eine Metastudie von 2021 (Lynas et al.) wertete 88.125 Fachpublikationen aus: über 99,9 % bestätigen den menschengemachten Klimawandel. Der IPCC AR6 (2023) stuft den menschlichen Einfluss als 'eindeutig' (unequivocal) ein. Keine einzige nationale Wissenschaftsakademie weltweit widerspricht. Zum Vergleich: 97 % Konsens ist höher als der ärztliche Konsens, dass Rauchen Lungenkrebs verursacht. (Quellen: Lynas et al. 2021, IPCC AR6 2023)
+  Antwort: Doch — zu über 99 %. Eine Metastudie von 2021 wertete 88.125 Fachpublikationen aus; praktisch alle bestätigen den menschengemachten Klimawandel. Der IPCC AR6 (2023) stuft den menschlichen Einfluss als 'eindeutig' ein.
 - Aussage: Es ist doch gar nicht wärmer geworden — letzter Winter war kalt!
   Antwort: Wetter ≠ Klima. Ein kalter Winter in Deutschland ändert nichts am globalen Trend: 2024 war das wärmste Jahr seit Beginn der Aufzeichnungen (+1,6 °C über vorindustriellem Niveau). Die letzten zehn Jahre waren das wärmste Jahrzehnt ever. 11 von 12 Monaten in 2024 lagen über der 1,5-°C-Schwelle. Einzelne Kälteereignisse entstehen oft gerade durch Klimawandel — z. B. durch gestörte Jetstreams. (Quelle: Copernicus C3S 2025)
 - Aussage: CO₂ ist doch gut für Pflanzen!
@@ -902,9 +870,9 @@ Hinweis: Entwicklung des wissenschaftlichen Konsenses
 - Aussage: China und Indien sind doch viel schlimmer!
   Antwort: China emittiert absolut am meisten — aber pro Kopf liegt China bei ~8 t, Deutschland bei ~7 t und Indien bei nur ~2 t (globaler Schnitt: 4,9 t). Historisch kumuliert hat der Westen das Problem verursacht: USA 24 %, Europa ~22 %, China 14 % der historischen Emissionen. Außerdem produziert China viele Waren für westliche Konsumenten — diese Emissionen müsste man eigentlich uns zurechnen. Und: China installiert mehr Erneuerbare als alle anderen Länder zusammen. (Quellen: Our World in Data 2023, IEA 2023)
 - Aussage: Vulkane stoßen mehr CO₂ aus als Menschen!
-  Antwort: Falsch — und zwar deutlich. Alle Vulkane weltweit emittieren 150–450 Mio. Tonnen CO₂ pro Jahr. Menschen emittieren 37–59 Milliarden Tonnen — das ist 60- bis 270-mal mehr. Menschen produzieren in weniger als einer Woche so viel CO₂ wie alle Vulkane in einem ganzen Jahr. Sogar einzelne US-Bundesstaaten emittieren mehr als alle Vulkane der Erde zusammen. (Quellen: NOAA, USGS)
+  Antwort: Falsch — und zwar deutlich. Laut NOAA emittieren Menschen mindestens rund 60-mal mehr CO₂ als alle Vulkane zusammen. Der Vulkanvergleich ist deshalb kein ernsthaftes Gegenargument zur menschengemachten Erwärmung.
 - Aussage: Klimaschutz können wir uns nicht leisten!
-  Antwort: Nichtstun ist um ein Vielfaches teurer: Laut Potsdam-Institut kostet der Klimawandel bis 2050 jährlich 38 Bio. USD (~17 % des globalen BIP). Klimaschutz erfordert dagegen 1–2 % des BIP pro Jahr — und bringt laut BCG (2025) das 10-Fache zurück. Allein das Ahrtal-Hochwasser 2021 verursachte >40 Mrd. € Schaden. Jeder investierte Euro in Prävention spart ein Vielfaches an Katastrophenkosten. (Quellen: PIK 2024, BCG 2025, GDV 2024)
+  Antwort: Nichtstun ist wirtschaftlich deutlich teurer: Laut PIK drohen bis 2050 jährliche Klimaschäden in der Größenordnung von 38 Billionen USD. BCG veranschlagt die Kosten wirksamen Klimaschutzes deutlich niedriger als die Verluste bei ungebremster Erwärmung. Prävention ist daher ökonomisch sinnvoller als spätes Reagieren.
 
 ### Quellen
 
@@ -949,7 +917,7 @@ Hinweis: Gesamtwirkungsgrad (Well-to-Wheel) im Vergleich
 
 - Für die gleiche Strecke braucht ein Verbrenner mit E-Fuels 5- bis 7-mal so viel erneuerbaren Strom wie ein Batterie-Elektroauto.
 
-Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten. Gleichzeitig zeigt der Wirkungsgradvergleich, dass E-Autos die eingesetzte Energie wesentlich effizienter auf die Straße bringen als Verbrenner, die mit synthetischen Kraftstoffen (E-Fuels) betrieben werden.
+Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten.
 
 ### ÖPNV & Deutschlandticket
 
@@ -962,9 +930,9 @@ Hinweis: Preisentwicklung Deutschlandticket
 - Jan 2025: 58 € (+18 %)
 - Jan 2026: 63 € (+9 %)
 
-- Trotz zweier Preiserhöhungen blieb die Kündigungsquote jeweils unter 6 Prozent — ein starkes Signal für die Akzeptanz eines vereinfachten Tarifsystems.
+- Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %. Nach der Preiserhöhung 2025 lag sie laut VDV bei rund 8 %.
 
-Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland. Die hohe Nachfrage zeigt, dass nicht das Interesse am ÖPNV fehlt, sondern bisher ein einfacher Zugang.
+Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland.
 
 ### Klimaziele im Verkehrssektor
 
@@ -985,7 +953,7 @@ Hinweis: CO₂-Emissionen nach Verkehrsmittel (g pro Personenkilometer)
 
 ### Flächenverbrauch & Stadtplanung
 
-- Ein durchschnittliches Auto steht 23 Stunden am Tag still — und belegt dabei 12,5 m² öffentlichen Raum.
+- Autos beanspruchen viel öffentlichen Raum, obwohl sie einen Großteil der Zeit nicht bewegt werden.
 
 Hinweis: Flächenverbrauch pro beförderter Person in der Stadt
 - Fußgänger: 2 m²
@@ -994,20 +962,20 @@ Hinweis: Flächenverbrauch pro beförderter Person in der Stadt
 - Bus: 20 m²
 - PKW: 100 m²
 
-- Stellplätze in DE: 160 Mio. (über 3 pro PKW)
+- Stellplätze in DE: viele Mio. (über 3 pro PKW)
 - Verkehrsfläche für MIV: 58 % (in Berlin (fahrend + parkend))
 - Parkplatz vs. Spielplatz: 10× (Flächenverhältnis in Berlin)
 
-- In Berlin entfallen 58 Prozent der Verkehrsflächen auf den motorisierten Individualverkehr — obwohl nur jeder dritte Weg mit dem Auto zurückgelegt wird.
+- In vielen Städten beansprucht der motorisierte Individualverkehr deutlich mehr Fläche, als seinem Anteil an den tatsächlich zurückgelegten Wegen entspricht.
 
-- Maximal 10 Prozent aller PKW in Deutschland sind gleichzeitig unterwegs — selbst in der Hauptverkehrszeit.
+- Selbst in verkehrsreichen Zeiten wird nur ein Teil des Fahrzeugbestands gleichzeitig bewegt.
 
 Die Gesellschaft trägt enorme Kosten für die Parkplatzsuche: rund 40 Milliarden Euro pro Jahr laut einer Studie — durch verlorene Zeit, Spritverbrauch und Stau. Gleichzeitig kostet ein Bewohnerparkausweis in vielen Städten weniger als ein Streaming-Abo.
 
 ### Radverkehr & aktive Mobilität
 
 - Radanteil (Wege): 11,2 % (MiD 2023, deutschlandweit)
-- Fahrräder in DE: 81 Mio. (davon 12 Mio. E-Bikes)
+- Fahrräder in DE: 90,6 Mio. (davon >17 Mio. E-Bikes)
 - Ø tägliche Fahrstrecke: < 40 km (PKW-Nutzer in Deutschland)
 
 Hinweis: Radverkehrsanteil am Modal Split (Alltagswege) in Deutschland
@@ -1026,15 +994,15 @@ Hinweis: Radverkehrsanteil in Metropolen vs. ländlicher Raum
 
 - Die Zufriedenheit mit der Radinfrastruktur ist von 50 % (2017) auf 40 % (2023) gesunken — trotz steigendem Radanteil.
 
-Laut Fraunhofer-Institut wäre eine Verdreifachung des Radverkehrsanteils möglich — wenn die Infrastruktur stimmt. In Städten wie Oldenburg (47 % Radanteil) oder Kopenhagen zeigt sich, was machbar ist, wenn man konsequent plant.
+Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen.
 
 ### Gesundheit & Verkehrssicherheit
 
 - Verkehrstote (2025): 2.814 (vorläufig, Destatis)
-- Verletzte (2025): 370.000 (vorläufig, Destatis)
+- Verletzte (2025): 366.000 (vorläufig, Destatis)
 - Herzinfarkte/Jahr: ~4.000 (durch Verkehrslärm (UBA))
 
-- 67 Prozent der Bevölkerung fühlen sich in ihrem Wohnumfeld durch Straßenverkehrslärm gestört oder belästigt.
+- Etwa drei Viertel der Bevölkerung fühlen sich in ihrem Wohnumfeld durch Straßenverkehrslärm gestört oder belästigt.
 
 Hinweis: Verkehrstote in Deutschland nach Jahr
 - 2021: 2562 Personen
@@ -1047,14 +1015,14 @@ Hinweis: Verkehrstote in Deutschland nach Jahr
 
 - Im Schulalter (6–9 Jahre) verunglückten 40,4 Prozent der betroffenen Kinder als PKW-Insassen — nicht auf dem Schulweg zu Fuß oder per Rad.
 
-17,3 Millionen Menschen sind in Deutschland Straßenlärm über 55 dB(A) ausgesetzt. Die WHO empfiehlt maximal 53 dB(A) tagsüber. Das UBA empfiehlt Tempo 30 als Regelgeschwindigkeit in Innenstädten — sowohl für weniger Lärm als auch für weniger Unfälle.
+Millionen Menschen sind in Deutschland Straßenlärm über 55 dB(A) ausgesetzt. Die WHO empfiehlt maximal 53 dB(A) tagsüber. Das UBA empfiehlt Tempo 30 als Regelgeschwindigkeit in Innenstädten — sowohl für weniger Lärm als auch für weniger Unfälle.
 
 ### Soziale Teilhabe & Gerechtigkeit
 
-- ‚Jede:r sollte das Recht haben, ein Leben ohne eigenes Auto führen zu können.' — Katja Diehl
+- Verkehrswende heißt nicht Autoverbot, sondern echte Wahlfreiheit zwischen verschiedenen Verkehrsmitteln.
 
 - Haushalte ohne Auto: 20 % (bundesweit (MiD 2023))
-- autolos bei niedrigem Einkommen: 53 % (vs. 8 % bei hohem Einkommen)
+- Autolosigkeit: deutlich höher (bei niedrigem Einkommen häufiger als bei hohem)
 - autolose Haushalte: ~40 % (in Großstädten/Metropolen)
 
 Hinweis: Monatliche Vollkosten: Auto vs. ÖPNV + Rad
@@ -1072,7 +1040,7 @@ Hinweis: Monatliche Vollkosten: Auto vs. ÖPNV + Rad
   - Vollkosten/Monat: ~118 €
 - Ersparnis: Ersparnis: über 280 € pro Monat — über 3.300 € im Jahr
 
-- Klimaschädliche Subventionen im Verkehr kosten den Staat 35,8 Milliarden Euro pro Jahr — darunter Dienstwagenprivileg, Dieselprivileg und Pendlerpauschale.
+- Allein das Dienstwagenprivileg kostet laut FOES mehrere Milliarden Euro pro Jahr. Hinzu kommen weitere klimaschädliche Anreize im Verkehrssystem.
 
 Hinweis: Wer profitiert vom Dienstwagenprivileg?
 - Oberstes Fünftel (Einkommen): 50% (50 % der Subvention)
@@ -1080,7 +1048,7 @@ Hinweis: Wer profitiert vom Dienstwagenprivileg?
 - Untere 60 %: 25% (25 %)
 - Gesamt: 3,5–6 Mrd. €/Jahr Steuermindereinnahmen (FÖS)
 
-- In statistisch durchschnittlichen deutschen PKW sitzen nur 1,2 Personen. Nie mehr als 10 % aller PKW sind gleichzeitig in Bewegung.
+- Im durchschnittlichen deutschen PKW sitzen meist nur wenige Personen. Das unterstreicht, wie flächenintensiv das bestehende System ist.
 
 Echte Wahlfreiheit in der Mobilität bedeutet: Gute Alternativen müssen existieren. In vielen ländlichen Regionen fährt der Bus nur alle zwei Stunden — dort ist das Auto kein Luxus, sondern Zwang. Die Verkehrswende muss auch dort ankommen, mit besseren Taktungen, Rufbussen und sicheren Radwegen.
 
@@ -1091,13 +1059,13 @@ Echte Wahlfreiheit in der Mobilität bedeutet: Gute Alternativen müssen existie
 - Aussage: Wir sollten einfach E-Fuels tanken, dann können wir unsere Verbrenner behalten.
   Antwort: E-Fuels sind extrem ineffizient: Für die gleiche Strecke braucht ein damit betriebener Verbrenner 5- bis 7-mal so viel erneuerbaren Strom wie ein E-Auto. E-Fuels werden dringend für Flugzeuge und Schiffe gebraucht, wo Batterien zu schwer sind. Sie für PKW einzusetzen wäre massive Energieverschwendung.
 - Aussage: Das Deutschlandticket ist ein Milliardengrab und bringt niemanden dazu, das Auto stehen zu lassen.
-  Antwort: Mit rund 14,6 Millionen Nutzern (Ende 2025) ist das Ticket ein enormer Erfolg. Auch nach Preiserhöhungen auf 63 Euro (2026) blieb die Kündigungsquote unter 6 Prozent. Es vereinfacht den Tarifdschungel massiv und entlastet Pendler spürbar. Zum Vergleich: Ein Kleinwagen kostet laut ADAC ab 400 Euro im Monat — das D-Ticket kostet 63 Euro.
+  Antwort: Mit rund 14,6 Millionen Nutzern Ende 2025 ist das Ticket ein großer Erfolg. Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %, nach der Preiserhöhung 2025 laut VDV aber bei rund 8 %. Das Ticket vereinfacht den Tarifdschungel massiv und entlastet viele Pendler trotzdem deutlich.
 - Aussage: Die Reichweite von E-Autos ist viel zu gering für den Alltag.
   Antwort: Die durchschnittliche tägliche Fahrstrecke in Deutschland liegt bei unter 40 Kilometern. Moderne E-Autos bieten reale Reichweiten von 300 bis 500 Kilometern, was für über 95 % aller Alltagsfahrten völlig ausreicht. Zudem wächst das Schnellladenetz kontinuierlich — über 150.000 öffentliche Ladepunkte gab es Ende 2025.
 - Aussage: Das Stromnetz bricht zusammen, wenn alle elektrisch fahren.
   Antwort: Studien zeigen, dass selbst bei 15 Millionen E-Autos der Strombedarf nur um etwa 9–10 % des heutigen Verbrauchs steigen würde. Das deutsche Stromnetz kann das bewältigen, besonders durch intelligentes Laden (z. B. nachts, wenn viel Windstrom im Netz ist). Nie mehr als 10 % aller PKW sind gleichzeitig unterwegs — sie laden also auch nicht alle gleichzeitig.
 - Aussage: Auf dem Land gibt es keine Ladesäulen, E-Autos funktionieren nur in der Stadt!
-  Antwort: Deutschland hatte Ende 2025 über 150.000 öffentliche Ladepunkte, davon über 30.000 Schnellladepunkte. Die Abdeckung verbessert sich kontinuierlich, gerade entlang von Autobahnen. Außerdem: 80 % der Ladevorgänge finden zu Hause oder am Arbeitsplatz statt — die öffentliche Ladesäule ist die Ausnahme. Mit einer Wallbox (ab ca. 500 €) lädt man über Nacht bequem zu Hause.
+  Antwort: Deutschland hatte Ende 2025 deutlich über 150.000 öffentliche Ladepunkte. Die Abdeckung verbessert sich kontinuierlich, gerade entlang von Autobahnen. Außerdem finden viele Ladevorgänge zu Hause oder am Arbeitsplatz statt — die öffentliche Ladesäule ist nicht der einzige Standardfall.
 - Aussage: Autofreie Innenstädte töten den Einzelhandel!
   Antwort: Studien aus ganz Europa zeigen das Gegenteil: Fußgänger und Radfahrer geben in Innenstädten mehr Geld pro Besuch aus als Autofahrer. Autofreie Zonen steigern die Aufenthaltsqualität, erhöhen die Besucherzahlen und stärken den lokalen Handel. Beispiele wie die Superblocks in Barcelona oder autoarme Zonen in Utrecht belegen: Weniger Autos bedeuten mehr Leben und mehr Umsatz.
 - Aussage: Radwege sind Geldverschwendung — die nutzt doch kaum jemand!
@@ -1105,7 +1073,7 @@ Echte Wahlfreiheit in der Mobilität bedeutet: Gute Alternativen müssen existie
 - Aussage: Tempo 30 in der Stadt ist völlig übertrieben und bringt nichts.
   Antwort: Tempo 30 senkt die Unfallschwere drastisch: Bei 30 km/h liegt das Todesfallrisiko für Fußgänger bei ca. 10 %, bei 50 km/h bei ca. 40 %. Zudem reduziert Tempo 30 den Straßenlärm deutlich — laut UBA die Hauptquelle von Lärmbelästigung in Deutschland. 30 Prozent aller Verkehrstoten sterben wegen überhöhter Geschwindigkeit. Tempo 30 macht Städte sicherer, leiser und lebenswerter.
 - Aussage: Deutschland ist ein Autoland — ohne Auto kommst du nicht zur Arbeit!
-  Antwort: In Großstädten besitzen rund 40 % der Haushalte kein Auto und kommen trotzdem zur Arbeit. Das Problem ist nicht, dass Menschen das Auto lieben, sondern dass Alternativen oft fehlen — besonders auf dem Land. Mit besserem ÖPNV-Takt, Rufbussen und sicheren Radwegen wird echte Wahlfreiheit möglich. Die durchschnittliche Pendelstrecke beträgt unter 20 km — das ist auch mit E-Bike oder Bus machbar.
+  Antwort: In Großstädten besitzen rund 40 % der Haushalte kein Auto und kommen trotzdem zur Arbeit. Das Problem ist nicht, dass Menschen das Auto lieben, sondern dass Alternativen oft fehlen — besonders auf dem Land. Mit besserem ÖPNV-Takt, Rufbussen und sicheren Radwegen wird echte Wahlfreiheit möglich.
 - Aussage: SUVs sind sicherer für meine Familie, deshalb brauche ich einen.
   Antwort: SUVs mögen für die Insassen etwas sicherer sein, aber sie erhöhen das Risiko für alle anderen Verkehrsteilnehmer massiv — besonders für Kinder und Fußgänger. Die höhere Motorhaube trifft bei einem Aufprall den Oberkörper statt der Beine. Gleichzeitig brauchen SUVs mehr Parkfläche und verursachen durch ihr höheres Gewicht mehr Reifenabrieb und Feinstaub. Echte Sicherheit entsteht durch Tempo 30, gute Radwege und Vision Zero — nicht durch Aufrüstung.
 - Aussage: Verkehrswende ist doch nur ein Großstadtthema — auf dem Land braucht man das Auto!
@@ -1123,6 +1091,8 @@ Echte Wahlfreiheit in der Mobilität bedeutet: Gute Alternativen müssen existie
 - Katja Diehl: Autokorrektur — Mobilität für eine lebenswerte Welt (S. Fischer, 2022) (https://katja-diehl.de)
 - Fraunhofer ISI: Potenziale des Radverkehrs für den Klimaschutz (2024) (https://www.isi.fraunhofer.de)
 - Agora Energiewende: Klimaneutrales Deutschland — Verkehrssektor (https://www.agora-energiewende.de)
+- UBA – Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen (https://www.umweltbundesamt.de/publikationen/analyse-der-umweltbilanz-von-kraftfahrzeugen)
+- ZIV – Marktdaten 2025 für den Fahrradbestand in Deutschland (https://www.ziv-zweirad.de/2026/03/11/markdaten-2025/)
 
 ---
 
@@ -1134,27 +1104,27 @@ Fakten zu Regelsätzen, Sanktionen und Lohnabstand | Stand: 2026-03
 
 ### Wie hoch ist das Bürgergeld wirklich?
 
-Der Regelsatz für alleinstehende Erwachsene beträgt seit 2024 unverändert 563 Euro im Monat. Für die Jahre 2025 und 2026 gab es sogenannte 'Nullrunden', da die Inflation gesunken ist.
+Der Regelbedarf für alleinstehende Erwachsene beträgt seit 2024 unverändert 563 Euro im Monat. Für 2025 und 2026 blieben die Regelbedarfe unverändert, weil die gesetzliche Fortschreibung rechnerisch niedrigere Werte ergeben hätte und die Besitzschutzregelung griff.
 
 - Alleinstehende: 563 € (Regelbedarfsstufe 1)
 - Partner in Bedarfsgemeinschaft: 506 € (pro Person)
 - Jugendliche (14-17 J.): 471 €
 - Kinder (6-13 J.): 390 €
 
-Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernommen. Der Regelsatz selbst muss alle Ausgaben für Ernährung, Kleidung, Strom, Internet und Freizeit abdecken.
+Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernommen. Der Regelbedarf deckt insbesondere Ausgaben für Ernährung, Kleidung, Körperpflege, Hausrat, Haushaltsenergie ohne Heizkostenanteile sowie die soziale und kulturelle Teilhabe ab.
 
 ### Lohnt sich Arbeit noch?
 
 Eine Studie des Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) zeigt klar: Wer zum Mindestlohn arbeitet, hat am Ende des Monats spürbar mehr Geld zur Verfügung als mit Bürgergeld.
 
-Hinweis: Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bürgergeld (WSI-Studie, Basis 12,82 €; seit 2026: 13,90 €, Vorteil noch größer)
+Hinweis: Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bürgergeld (WSI-Modellrechnung auf Basis von 12,82 € Mindestlohn, Stand 2025)
 - Alleinstehende
-  - Bürgergeld inkl. Miete: ca. 1.000 €
-  - Mindestlohn (Netto): ca. 1.557 €
+  - Bürgergeld inkl. Unterkunft: ca. 1.015 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 1.572 €
   - Einkommensvorteil: + 557 €
 - Alleinerziehend (1 Kind)
-  - Bürgergeld inkl. Miete: ca. 1.600 €
-  - Mindestlohn + Kindergeld/Zuschlag: ca. 2.349 €
+  - Bürgergeld inkl. Unterkunft: ca. 1.783 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 2.532 €
   - Einkommensvorteil: + 749 €
 
 Der Abstand variiert je nach Wohnort und Mietkosten, ist aber überall in Deutschland deutlich positiv.
@@ -1168,38 +1138,35 @@ Hinweis: Sanktionsstufen bei Pflichtverletzungen
 - 2. Verstoß: 20% (20% Kürzung für 2 Monate)
 - 3. Verstoß: 30% (30% Kürzung für 3 Monate)
 
-- Seit März 2024 können Jobcenter bei sogenannten 'Totalverweigerern' den Regelsatz für bis zu zwei Monate zu 100 % streichen. Dies betrifft in der Praxis jedoch nur einen winzigen Bruchteil (ca. 0,01 %) der Beziehenden.
+- Seit Ende März 2024 kann bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit der Regelbedarf für bis zu zwei Monate vollständig entfallen. Die Kosten der Unterkunft und Heizung werden dadurch nicht gestrichen.
 
 ### Wie viel Betrug gibt es?
 
-Immer wieder wird über massenhaften Leistungsmissbrauch berichtet. Die offiziellen Zahlen der Bundesagentur für Arbeit zeigen jedoch ein anderes Bild.
+Immer wieder wird über massenhaften Leistungsmissbrauch berichtet. Für die Behauptung massenhaften Missbrauchs liefern die hier verlinkten amtlichen Daten aber keinen klaren Beleg.
 
-Hinweis: Bandenmäßiger Betrug im Verhältnis zu allen Beziehenden (2024)
-- Bürgergeld-Beziehende Gesamt: 5500000
-- Aufgedeckte Betrugsfälle (bandenmäßig): 421
-
-Auch wenn jeder Betrugsfall einer zu viel ist und konsequent verfolgt wird, handelt es sich statistisch um kein Massenphänomen.
+Leistungsmissbrauch existiert und wird verfolgt. Für seriöse Debatten braucht es dabei belastbare amtliche Zahlen statt Einzelfälle oder pauschale Behauptungen.
 
 ### Argumente
 
 - Aussage: Wer arbeitet, ist doch der Dumme. Mit Bürgergeld hat man am Ende mehr in der Tasche!
   Antwort: Das stimmt nicht. Das Lohnabstandsgebot ist gewahrt. Eine WSI-Studie zeigt, dass ein Single, der Vollzeit zum Mindestlohn arbeitet, im Schnitt 557 Euro mehr im Monat zur Verfügung hat als jemand, der Bürgergeld bezieht. Bei Familien ist der Abstand oft noch größer, da Erwerbstätige zusätzlich Anspruch auf Kinderzuschlag und Wohngeld haben.
 - Aussage: Das Bürgergeld ist eine soziale Hängematte. Man muss gar nichts mehr machen und bekommt trotzdem Geld.
-  Antwort: Das Bürgergeld ist an strikte Pflichten geknüpft. Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, dem werden die Leistungen gekürzt (Sanktionen). Für sogenannte 'Totalverweigerer' kann der Regelsatz seit 2024 sogar für zwei Monate komplett (zu 100 %) gestrichen werden.
+  Antwort: Das Bürgergeld ist an Pflichten geknüpft. Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, muss mit Leistungsminderungen rechnen. Bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit kann seit Ende März 2024 unter engen gesetzlichen Voraussetzungen sogar der Regelbedarf für bis zu zwei Monate vollständig entfallen.
 - Aussage: Die Bürgergeld-Empfänger bekommen jedes Jahr massiv mehr Geld, während die Löhne stagnieren!
-  Antwort: Die Regelsätze werden streng nach einem gesetzlichen Mechanismus an die Inflation und die Lohnentwicklung angepasst. Weil die Inflation zuletzt gesunken ist, gab es für 2025 eine 'Nullrunde' – das Bürgergeld wurde nicht erhöht. Auch für 2026 ist eine Nullrunde beschlossen. Der Regelsatz für Singles bleibt bei 563 Euro.
+  Antwort: Die Regelsätze werden nach einem gesetzlichen Mechanismus an Preis- und Lohnentwicklung angepasst. Für 2025 und 2026 blieben die Regelbedarfe unverändert, weil die Fortschreibung rechnerisch niedrigere Werte ergeben hätte und die Besitzschutzregelung griff. Der Regelbedarf für Singles bleibt deshalb bei 563 Euro.
 - Aussage: Das System wird doch nur ausgenutzt. Fast alle betrügen beim Bürgergeld!
-  Antwort: Leistungsmissbrauch existiert, ist aber statistisch gesehen die absolute Ausnahme. Bei rund 5,5 Millionen Beziehenden registrierte die Bundesagentur für Arbeit im Jahr 2024 beispielsweise 421 Fälle von bandenmäßigem Betrug. Die Jobcenter prüfen Anträge sehr genau und gleichen Daten automatisch ab, um Missbrauch zu verhindern.
+  Antwort: Leistungsmissbrauch existiert und muss konsequent verfolgt werden. Für pauschale Behauptungen über massenhaften Betrug liefern öffentlich zugängliche amtliche Daten aber keinen belastbaren Beleg. Jobcenter prüfen Anträge, gleichen Daten ab und können bei Verdacht Leistungen zurückfordern oder Strafverfahren anstoßen.
 - Aussage: Das Bürgergeld lockt nur Ausländer an, die sich hier auf unsere Kosten ein schönes Leben machen.
-  Antwort: Bürgergeld ist die Grundsicherung für Arbeitsuchende, kein bedingungsloses Einkommen. EU-Ausländer haben in den ersten Monaten der Arbeitssuche in der Regel gar keinen Anspruch. Asylbewerber bekommen Leistungen nach dem Asylbewerberleistungsgesetz, die deutlich niedriger sind als das Bürgergeld. Wer Bürgergeld bezieht, muss dem Arbeitsmarkt zur Verfügung stehen und Integrationsmaßnahmen (wie Sprachkurse) besuchen.
+  Antwort: Bürgergeld ist die Grundsicherung für Arbeitsuchende, kein bedingungsloses Einkommen. EU-Ausländer sind in den ersten Monaten ihres Aufenthalts oder bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel vom Bürgergeld ausgeschlossen; es gibt aber Ausnahmen, etwa für Arbeitnehmer oder Personen mit fortwirkendem Arbeitnehmerstatus. Asylbewerber erhalten Leistungen nach dem Asylbewerberleistungsgesetz, deren Bedarfssätze unter dem Bürgergeld liegen. Wer Bürgergeld bezieht, muss dem Arbeitsmarkt grundsätzlich zur Verfügung stehen und an vereinbarten Mitwirkungs- oder Qualifizierungsmaßnahmen teilnehmen.
 - Aussage: Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!
-  Antwort: Ukrainische Geflüchtete erhalten seit Juni 2022 tatsächlich Bürgergeld statt Asylbewerberleistungen — das war eine bewusste politische Entscheidung, um ihre schnellere Integration in den Arbeitsmarkt zu fördern. Sie unterliegen den gleichen Pflichten wie alle Beziehenden: Termine wahrnehmen, an Integrationskursen teilnehmen, dem Arbeitsmarkt zur Verfügung stehen. Rund 266.000 erwerbsfähige Ukrainer waren Ende 2025 in Beschäftigung. Das Bürgergeld ist zudem keine Versicherungsleistung — es wird aus Steuermitteln finanziert, nicht aus eingezahlten Beiträgen.
+  Antwort: Ukrainische Geflüchtete können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Leistungen der Grundsicherung nach dem SGB II beziehungsweise der Sozialhilfe erhalten statt Leistungen nach dem Asylbewerberleistungsgesetz. Dadurch sind für sie Jobcenter beziehungsweise Sozialämter zuständig, einschließlich des Zugangs zu Integrations- und Sprachkursen sowie zur Arbeitsvermittlung. Die Grundsicherung ist steuerfinanziert und keine beitragsfinanzierte Versicherungsleistung.
 
 ### Quellen
 
-- Bundesministerium für Arbeit und Soziales (BMAS) - Regelbedarfe (https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Regelbedarfe/regelbedarfe.html)
+- Bundesministerium für Arbeit und Soziales (BMAS) – Leistungen und Bedarfe im Bürgergeld (https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html)
 - WSI-Studie zum Lohnabstandsgebot (2024/2025) (https://www.wsi.de/de/pressemitteilungen-15991-einkommen-bei-mindestlohnbeschaeftigung-deutlich-hoeher-als-buergergeld-70666.htm)
-- Bundesagentur für Arbeit - Statistiken zu Sanktionen und Leistungsmissbrauch (https://statistik.arbeitsagentur.de/)
+- Bundesagentur für Arbeit – Statistikportal und Themen im Fokus Ukraine-Krieg (https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Themen-im-Fokus/Ukraine-Krieg/Ukraine-Krieg-Nav.html)
+- Bundesregierung – Ukrainische Geflüchtete auf dem Arbeitsmarkt (https://www.bundesregierung.de/breg-de/aktuelles/ukraine-gefluechtete-arbeit-2166832)
 
 ---
 
@@ -1213,21 +1180,11 @@ Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland | Stand: 2026-03
 
 Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort.
 
-Hinweis: Asylerstanträge in Deutschland
-- 2010: 41 Tsd.
-- 2012: 65 Tsd.
-- 2014: 173 Tsd.
-- 2015: 442 Tsd.
-- 2016: 722 Tsd.
-- 2017: 198 Tsd.
-- 2018: 162 Tsd.
-- 2019: 143 Tsd.
-- 2020: 103 Tsd.
-- 2021: 148 Tsd.
-- 2022: 218 Tsd.
-- 2023: 329 Tsd.
-- 2024: 230 Tsd.
-- 2025: 113 Tsd.
+Hinweis: Aktuelle Asylzahlen
+Spalten: Zeitraum | Asylerstanträge | Einordnung
+- 2024 | 229.751 | Vergleichsbasis
+- 2025 | 113.236 | -50,7 % zu 2024
+- Januar 2026 | 7.649 | -48,7 % zum Vorjahresmonat
 
 - Asylerstanträge 2025: 113.236 (-50,7 % zu 2024)
 - Asylerstanträge Jan 2026: 7.649 (-48,7 % zum Vorjahresmonat)
@@ -1246,32 +1203,30 @@ Hinweis: Beschäftigungsquote der 2015 zugezogenen Geflüchteten
 
 - Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
 
-Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in Engpassberufen und systemrelevanten Bereichen, wie Gesundheitsberufen, Fertigung, Verkehr und Logistik.
+Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in Engpassberufen und relevanten Dienstleistungsbereichen, etwa im Gesundheitswesen, in der Fertigung sowie in Verkehr und Logistik.
 
 ### Demografischer Wandel und Fachkräfte
 
-Aufgrund der Alterung der Gesellschaft (Renteneintritt der sogenannten Boomer-Generation) schrumpft das inländische Erwerbspersonenpotenzial in Deutschland drastisch. Um den Wohlstand und die Sozialsysteme stabil zu halten, ist Deutschland laut Experten auf Nettozuwanderung und die erfolgreiche Integration von Zugewanderten in den Arbeitsmarkt angewiesen.
+Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial. Deshalb wird die erfolgreiche Arbeitsmarktintegration von Zugewanderten wirtschaftlich wichtiger.
 
-Hinweis: Beschäftigungsquote (Stand August 2025)
-- Ausländische Staatsangehörige
-  - Gesamtquote: 57,2 %
+- Die hier hinterlegten BAMF- und IAB-Quellen belegen vor allem die Entwicklung der Asylzahlen und die langfristige Arbeitsmarktintegration der 2015 zugezogenen Geflüchteten.
 
 ### Argumente
 
 - Aussage: Die Asylzahlen explodieren immer weiter, wir werden überrannt!
   Antwort: Tatsächlich sind die Asylerstanträge 2025 massiv gesunken. Mit 113.236 Erstanträgen gab es einen Rückgang von über 50 % im Vergleich zum Vorjahr (2024: 229.751). Im Januar 2026 setzte sich dieser Trend mit einem weiteren Rückgang von fast 49 % zum Vorjahresmonat fort.
 - Aussage: Die Flüchtlinge von 2015 leben alle nur vom Bürgergeld und arbeiten nicht.
-  Antwort: Nach 10 Jahren (Stand 2025) liegt die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 % und nähert sich damit dem Bevölkerungsdurchschnitt (70 %) an. Rund die Hälfte der beschäftigten Geflüchteten übt inzwischen eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
+  Antwort: Ende 2024, also neun Jahre nach dem Zuzug, lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten laut IAB bei 64 % und näherte sich damit dem Bevölkerungsdurchschnitt an. Rund die Hälfte der beschäftigten Geflüchteten übt inzwischen eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
 - Aussage: Ausländer nehmen uns die guten Jobs weg.
-  Antwort: Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in sogenannten Engpassberufen, in denen ohnehin Personal fehlt (z.B. Pflege, Logistik, Handwerk). Ohne sie wäre der Personalmangel in vielen systemrelevanten Bereichen noch deutlich größer.
+  Antwort: Die hier hinterlegte IAB-Quelle zeigt vor allem: Geflüchtete arbeiten häufig in Engpass- und systemrelevanten Berufen. Pauschale Aussagen über 'weggenommene gute Jobs' werden dadurch nicht gestützt.
 - Aussage: Die Zuwanderung bringt uns wirtschaftlich nichts, sie kostet nur.
-  Antwort: Angesichts des demografischen Wandels (Renteneintritt der Boomer-Generation) schrumpft das inländische Erwerbspersonenpotenzial. Die Bundesagentur für Arbeit und das IAB betonen regelmäßig, dass Deutschland auf Zuwanderung angewiesen ist, um den Arbeitskräftemangel abzufedern und die Sozialsysteme (wie die Rente) stabil zu halten.
+  Antwort: Zuwanderung verursacht anfangs Integrationskosten, kann wirtschaftlich aber relevant werden, wenn Menschen dauerhaft in Arbeit kommen. Die hier hinterlegte IAB-Quelle zeigt genau das für die 2015 zugezogenen Geflüchteten: Die Beschäftigungsquote steigt über die Jahre deutlich an.
 - Aussage: Die meisten Geflüchteten sind ungebildet und können hier gar nicht arbeiten.
   Antwort: Zwar dauern Spracherwerb und Nachqualifizierung ihre Zeit, aber Daten des IAB zeigen: 7-8 Jahre nach dem Zuzug arbeiten rund 50 % der beschäftigten Geflüchteten als Fachkräfte oder Spezialisten. Die Integration in den Arbeitsmarkt verläuft stetig, braucht aber anfangs Investitionen in Bildung und Sprache.
 - Aussage: Ausländer sind krimineller als Deutsche, das zeigt doch die Kriminalstatistik!
-  Antwort: In der Polizeilichen Kriminalstatistik (PKS) sind Ausländer tatsächlich überrepräsentiert. Aber: Die PKS vergleicht Äpfel mit Birnen. Kriminalität korreliert stark mit Alter (junge Männer = höchste Kriminalität), sozioökonomischem Status und Wohnsituation — Faktoren, bei denen sich die Gruppe der Zugewanderten strukturell von der Gesamtbevölkerung unterscheidet. Bereinigt man um Alter, Geschlecht und soziale Lage, schrumpft der Unterschied massiv. Zudem enthält die PKS ausländerrechtliche Verstöße (z. B. illegaler Aufenthalt), die Deutsche gar nicht begehen können.
+  Antwort: Mit den in dieser Datei hinterlegten Quellen lässt sich diese pauschale Behauptung nicht seriös belegen. Für Aussagen über Kriminalität bräuchte es eine eigene, sauber hinterlegte Quellenbasis mit differenzierten PKS- und Dunkelfelddaten.
 - Aussage: Migration kostet uns nur Milliarden und bringt wirtschaftlich nichts!
-  Antwort: Integration kostet anfangs tatsächlich Geld — für Sprachkurse, Unterbringung und Qualifizierung. Langfristig zahlt sich das aber aus: Nach 10 Jahren liegt die Beschäftigungsquote der 2015-Geflüchteten bei 64 % (Männer: 76 %). Zugewanderte zahlen Steuern und Sozialabgaben und tragen dazu bei, den demografischen Fachkräftemangel abzufedern. Laut dem Institut der deutschen Wirtschaft (IW) leisten die rund 3 Mio. erwerbstätigen Ausländer einen unverzichtbaren Beitrag zur Finanzierung der Sozialsysteme.
+  Antwort: Integration kostet anfangs tatsächlich Geld, etwa für Sprache, Unterbringung und Qualifizierung. Langfristig kann sie sich auszahlen: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten laut IAB bei 64 % (Männer: 76 %, Frauen: 35 %). Für weitergehende Aussagen zur gesamtwirtschaftlichen Wirkung braucht es aber zusätzliche, sauber hinterlegte Quellen.
 
 ### Quellen
 
@@ -1308,34 +1263,34 @@ Hinweis: Hauptgründe für Teilzeitarbeit (2024)
 
 ### Die Gen Z und die Arbeitsmoral
 
-Ein hartnäckiger Mythos besagt, die Generation Z sei arbeitsscheu. Aktuelle Daten des IAB zeigen das Gegenteil: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 Prozent gestiegen. Der starke Anstieg der Teilzeit in dieser Gruppe geht vor allem auf mehr Nebenjobs von Studierenden zurück.
+Ein hartnäckiger Mythos besagt, die Generation Z sei arbeitsscheu. IAB-Veröffentlichungen von 2025 auf Basis von Daten bis 2023 zeigen das Gegenteil: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 Prozent gestiegen. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit einer höheren Erwerbsbeteiligung von Studierenden zusammen.
 
 Hinweis: Erwerbsverhalten der 20- bis 24-Jährigen
 - Erwerbsbeteiligung
   - 2015: ca. 70 %
-  - Heute: 76 %
+  - 2023: 75,9 %
 - Erwerbsquote Studierende
   - 2015: 36,7 %
-  - Heute: 56,0 %
+  - 2023: 56,0 %
 
 ### Argumente
 
 - Aussage: Die Leute wollen heute alle nur noch in Teilzeit arbeiten und ihre Freizeit genießen.
-  Antwort: Der Wunsch nach mehr Freizeit ist zwar der häufigste Grund (27,9 %), aber fast genauso viele (23,5 %) arbeiten in Teilzeit, weil sie Care-Arbeit leisten (Kinderbetreuung oder Pflege von Angehörigen). Bei Frauen ist Care-Arbeit mit fast 29 % sogar der Hauptgrund.
+  Antwort: Der Wunsch nach mehr Freizeit ist zwar der häufigste Grund (27,9 %), aber fast genauso viele (23,5 %) arbeiten in Teilzeit, weil sie Care-Arbeit leisten (Kinderbetreuung oder Pflege von Angehörigen). Bei Frauen liegen eigener Wunsch (28,9 %) und Care-Arbeit (28,8 %) nahezu gleichauf.
 - Aussage: Wegen der ganzen Teilzeit geht in Deutschland die Arbeitsleistung zurück.
-  Antwort: Das Gesamtarbeitsvolumen in Deutschland ist historisch hoch. 2025 lag es bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die gestiegene Teilzeitquote wird durch eine insgesamt höhere Zahl an Erwerbstätigen (knapp 46 Millionen) weitgehend ausgeglichen.
+  Antwort: 2025 lag das Gesamtarbeitsvolumen in Deutschland bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit 45,98 Millionen nahezu konstant.
 - Aussage: Die Gen Z ist arbeitsscheu und will nicht mehr richtig arbeiten.
   Antwort: Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf 76 % gestiegen. Die junge Generation ist so stark in den Arbeitsmarkt integriert wie lange nicht mehr.
 - Aussage: Die jungen Leute machen alle nur noch Teilzeit, weil sie keine Lust auf 40 Stunden haben.
-  Antwort: Der starke Anstieg der Teilzeit bei jungen Menschen liegt vor allem daran, dass viel mehr Studierende nebenbei arbeiten. Die Erwerbsquote von Studierenden (20-24 Jahre) stieg von knapp 37 % auf 56 %. Sie arbeiten also zusätzlich zum Studium, nicht weniger.
+  Antwort: Der Anstieg der Teilzeit bei jungen Menschen hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen. Die Erwerbsquote von Studierenden im Alter von 20 bis 24 Jahren stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %.
 - Aussage: Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.
-  Antwort: Das ist ein Trugschluss. Viele Menschen in Teilzeit (z. B. wegen Care-Arbeit, Krankheit oder Studium) stünden dem Arbeitsmarkt ohne Teilzeitangebote gar nicht zur Verfügung. Teilzeit ermöglicht es vielen erst, überhaupt erwerbstätig zu sein.
+  Antwort: Das ist ein Trugschluss. Die verfügbaren Destatis-Daten zeigen vor allem, dass Teilzeit häufig mit Betreuungspflichten (23,5 %), Aus- und Weiterbildung (11,6 %) oder Krankheit beziehungsweise Behinderung (4,9 %) zusammenhängt. Ein pauschales 'Teilzeit abschaffen' beseitigt diese Gründe nicht.
 
 ### Quellen
 
 - IAB: Ergebnisse der Arbeitszeitrechnung 2025 (https://iab.de/presseinfo/ergebnisse-der-iab-arbeitszeitrechnung-fuer-das-jahr-2025-teilzeitbeschaeftigte-arbeiteten-132-millionen-stunden/)
 - Destatis: Gründe für Teilzeittätigkeit 2024 (https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/Interaktiv/3-9_tz_gruende-geschlecht.html)
-- IAB: Studie zur Generation Z und Arbeitsmoral (http://bilder1.n-tv.de/wirtschaft/Generation-Z-ist-nicht-so-arbeitsscheu-wie-oft-behauptet-article25568570.html)
+- IAB: Generation Z – Erwerbsbeteiligung der 20- bis 24-Jährigen (https://iab.de/presseinfo/generation-z-erwerbsbeteiligung-der-20-bis-24-jaehrigen-klettert-auf-den-hoechsten-stand-seit-jahrzehnten/)
 
 ---
 
@@ -1347,62 +1302,64 @@ Auswirkungen auf Klima, Umwelt und Gesundheit | Stand: 2026-03
 
 ### Klimabilanz & Treibhausgase
 
-Die Produktion tierischer Lebensmittel verursacht deutlich mehr Treibhausgase als der Anbau pflanzlicher Nahrung. Laut Umweltbundesamt (UBA) und internationalen Studien lässt sich der persönliche ernährungsbedingte CO₂-Fußabdruck durch eine vegane Ernährung in etwa halbieren.
+Die Produktion tierischer Lebensmittel verursacht deutlich mehr Treibhausgase als der Anbau pflanzlicher Nahrung. Das UBA betont klar, dass weniger tierische und mehr pflanzliche Lebensmittel die ernährungsbedingten Emissionen deutlich senken.
 
-Hinweis: Tägliche CO₂-Emissionen nach Ernährungsweise
+Hinweis: Kernaussage aus Vergleichsstudien
 - Fleischbetonte Ernährung
-  - Emissionen pro Tag: 3,62 kg CO₂-Äq.
+  - Emissionen: deutlich höher
 - Vegane Ernährung
-  - Emissionen pro Tag: 1,38 kg CO₂-Äq.
-- Ersparnis: Eine vegane Ernährung spart im Schnitt über 60% der ernährungsbedingten Emissionen ein.
+  - Emissionen: deutlich niedriger
+- Ersparnis: Pflanzenbetonte Ernährungsweisen verursachen deutlich geringere Emissionen als stark fleischbetonte Muster.
 
-Hinweis: CO₂-Fußabdruck ausgewählter Lebensmittel (pro kg)
-- Rindfleisch: 13.3 kg CO₂
-- Käse: 5.7 kg CO₂
-- Geflügel: 3.5 kg CO₂
-- Tofu: 1 kg CO₂
-- Hülsenfrüchte: 0.8 kg CO₂
+Hinweis: CO₂-Bilanz ausgewählter Lebensmittel
+Spalten: Lebensmittel | Einordnung
+- Rindfleisch | sehr hoher CO₂-Fußabdruck
+- Käse | deutlich höher als viele pflanzliche Alternativen
+- Geflügel | niedriger als Rind, aber deutlich über pflanzlichen Proteinquellen
+- Tofu | vergleichsweise niedrig
+- Hülsenfrüchte | vergleichsweise niedrig
 
 ### Flächen- und Wasserverbrauch
 
-Tierhaltung ist extrem ineffizient: Tiere verbrauchen ein Vielfaches an Kalorien in Form von Futter, als sie später als Fleisch oder Milch liefern. Das führt zu einem enormen Flächen- und Wasserbedarf.
+Tierhaltung ist ressourcenintensiv und im Vergleich ineffizient: Tiere verbrauchen ein Vielfaches an Kalorien in Form von Futter, als sie später als Fleisch oder Milch liefern. Das führt zu einem hohen Flächen- und Wasserbedarf.
 
-- Wasser für 1kg Rindfleisch: 15.000 L (Globaler Durchschnitt)
-- Wasser für 1kg Soja: 2.100 L (Globaler Durchschnitt)
-- Globale Agrarfläche: -75% (Einsparpotenzial bei weltweiter veganer Ernährung)
+- Wasser für 1kg Rindfleisch: 15.400 L (Globaler Durchschnitt)
+- Sojaernte global: 77 % (gehen ins Tierfutter)
+- Globale Agrarfläche: >75 % (Einsparpotenzial bei weltweiter veganer Ernährung)
 
-- Rund 80% der weltweiten landwirtschaftlichen Nutzfläche werden für die Tierhaltung (Weideland und Futtermittelanbau) verwendet, obwohl diese nur 18% der weltweiten Kalorien liefert.
+- Tierprodukte liefern global nur rund 18 % der Kalorien, beanspruchen aber etwa 83 % der Agrarfläche.
 
 ### Gesundheit und DGE-Empfehlungen
 
 Die Deutsche Gesellschaft für Ernährung (DGE) hat ihre Richtlinien 2024 grundlegend überarbeitet und empfiehlt nun eine stark pflanzenbetonte Ernährung aus Gesundheits- und Umweltgründen.
 
-Hinweis: DGE-Empfehlung zur Zusammensetzung der Ernährung
-- Pflanzliche Lebensmittel: 80% (Gemüse, Obst, Getreide, Hülsenfrüchte)
-- Tierische Lebensmittel: 20% (Maximalwert)
+Hinweis: DGE-Orientierung zur Zusammensetzung der Ernährung
+- Pflanzliche Lebensmittel: 75% (mehr als 3/4)
+- Tierische Lebensmittel: 25% (knapp 1/4)
 - Gesamt: 100%
 
-- Die DGE stuft eine gut geplante vegane Ernährung (mit B12-Supplementierung) für gesunde Erwachsene als bedarfsdeckend und 'äußerst umweltfreundlich' ein.
+- Die DGE stuft eine gut geplante vegane Ernährung für gesunde Erwachsene unter Bedingungen als gesundheitsfördernd und 'äußerst umweltfreundlich' ein.
 
 ### Argumente
 
 - Aussage: Für das Soja im Tofu der Veganer wird der Regenwald abgeholzt!
-  Antwort: Das ist ein Mythos. Etwa 75-80% der weltweiten Sojaernte werden als Tierfutter (für Schweine, Rinder, Geflügel) verwendet. Nur etwa 20% werden direkt von Menschen konsumiert oder zu Öl verarbeitet. Zudem stammt das Soja für Tofu und Sojamilch in europäischen Supermärkten fast ausschließlich aus europäischem oder kanadischem Anbau und ist meist gentechnikfrei. Wer den Regenwald schützen will, sollte also primär weniger Fleisch essen.
+  Antwort: Das ist ein Mythos. Rund 77 % der weltweiten Sojaernte gehen ins Tierfutter. Nur ein kleiner Teil wird direkt für Lebensmittel wie Tofu oder Sojamilch genutzt. Viele Hersteller für den deutschen Markt beziehen ihr Soja aus der EU, teils auch aus Nordamerika und China. Wer den Regenwald schützen will, sollte deshalb vor allem weniger Tierfutter-Soja nachfragen.
 - Aussage: Veganer haben doch alle Nährstoffmangel, besonders bei Protein und Vitamin B12.
-  Antwort: Proteinmangel ist bei ausreichender Kalorienzufuhr und einer Kombination aus Hülsenfrüchten, Getreide und Nüssen in westlichen Ländern praktisch nicht existent. Vitamin B12 muss bei veganer Ernährung tatsächlich supplementiert werden. Was viele nicht wissen: Auch Nutztieren wird B12 oft künstlich ins Futter gemischt, da sie es aufgrund steriler Haltungsbedingungen nicht mehr ausreichend selbst aufnehmen. Veganer nehmen das Supplement also nur direkt, statt den Umweg über das Tier zu gehen.
+  Antwort: Bei ausreichender Energiezufuhr und geeigneter Kombination pflanzlicher Proteinquellen kann der Proteinbedarf gedeckt werden. Vitamin B12 muss bei veganer Ernährung tatsächlich supplementiert werden. Genau deshalb ist eine gut geplante vegane Ernährung wichtig.
 - Aussage: Der Mensch ist ein Allesfresser, wir haben schon immer Fleisch gegessen.
-  Antwort: Dass wir Fleisch verdauen können, bedeutet nicht, dass wir es in den heutigen Mengen essen müssen. Historisch gesehen war Fleisch für die meiste Zeit der Menschheitsgeschichte eher eine seltene Beilage. Unser Verdauungssystem ist hervorragend an eine stark pflanzliche Kost angepasst. Der heutige extreme Fleischkonsum (in Deutschland ca. 53 kg pro Kopf im Jahr, BLE 2024) ist ein modernes Phänomen und wird mit Zivilisationskrankheiten wie Herz-Kreislauf-Erkrankungen, Gicht und bestimmten Krebsarten in Verbindung gebracht.
+  Antwort: Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.
 - Aussage: Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!
-  Antwort: Es stimmt, dass Mandeln relativ viel Wasser benötigen (ca. 371 Liter pro Liter Mandelmilch). Das ist aber immer noch deutlich weniger als für Kuhmilch (ca. 628 Liter). Zudem gibt es extrem ressourcenschonende Alternativen: Hafermilch benötigt nur etwa 48 Liter Wasser pro Liter und verursacht rund 70% weniger Treibhausgase als Kuhmilch. Hafer wächst zudem regional in Europa.
+  Antwort: Es stimmt, dass Mandeln relativ viel Wasser benötigen. Das macht Pflanzenmilch insgesamt aber nicht automatisch so ressourcenintensiv wie tierische Produkte. Wer Wasser- und Klimabilanz verbessern will, kann auf besonders günstige pflanzliche Alternativen wie Hafer setzen.
 - Aussage: Veganismus ist nur ein teurer Lifestyle für privilegierte Großstädter.
-  Antwort: Vegane Grundnahrungsmittel wie Reis, Kartoffeln, Nudeln, Linsen, Bohnen, Haferflocken und saisonales Gemüse gehören zu den günstigsten Lebensmitteln überhaupt. Eine Studie der Oxford University zeigte, dass eine vollwertige vegane Ernährung in westlichen Ländern die Lebensmittelkosten um bis zu ein Drittel senken kann. Teuer sind lediglich hochverarbeitete Ersatzprodukte, die aber für eine gesunde Ernährung nicht zwingend notwendig sind.
+  Antwort: Vegane Grundnahrungsmittel wie Reis, Kartoffeln, Nudeln, Linsen, Bohnen, Haferflocken und saisonales Gemüse gehören zu den günstigsten Lebensmitteln überhaupt. Teuer sind vor allem hochverarbeitete Ersatzprodukte, die für eine ausgewogene pflanzliche Ernährung nicht zwingend nötig sind.
 - Aussage: Wenn alle vegan werden, verlieren unsere Landwirte ihre Existenz!
-  Antwort: Ein Wandel der Ernährungsgewohnheiten passiert nicht über Nacht, sondern über Jahrzehnte. Das gibt der Landwirtschaft Zeit, sich anzupassen. Der Anbau von pflanzlichen Proteinen für den direkten menschlichen Verzehr (wie Hafer, Erbsen, Lupinen) bietet riesige neue Marktchancen. Subventionen, die aktuell stark die Tierhaltung fördern, könnten umgeleitet werden, um Landwirte bei dieser Transformation finanziell zu unterstützen.
+  Antwort: Ein Wandel der Ernährungsgewohnheiten passiert nicht über Nacht, sondern über Jahre und Jahrzehnte. Das gibt der Landwirtschaft Zeit, sich anzupassen. Der Anbau pflanzlicher Proteine für den direkten menschlichen Verzehr kann neue Marktchancen schaffen.
 
 ### Quellen
 
 - Umweltbundesamt (UBA): Klimafreundliche Ernährung (https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/essen-trinken/klima-umweltfreundliche-ernaehrung)
-- DGE: Neue lebensmittelbezogene Ernährungsempfehlungen (2024) (https://www.dge.de/gesunde-ernaehrung/faq/pflanzenbasierte-ernaehrung/)
+- DGE – Neubewertung der Position zu veganer Ernährung (https://www.dge.de/wissenschaft/stellungnahmen-und-fachinformationen/positionen/neubewertung-der-position-zu-veganer-ernaehrung/)
+- DGE – DGE-Ernährungskreis (https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/)
 - Oxford University (Poore & Nemecek, 2018): Reducing food’s environmental impacts (https://science.sciencemag.org/content/360/6392/987)
 - Albert Schweitzer Stiftung: Ökologische Folgen des Fleischkonsums (https://albert-schweitzer-stiftung.de/themen/umwelt)
 
@@ -1424,12 +1381,9 @@ Hinweis: Anteil am Gesamtvermögen in Deutschland
 - Mittlere 40 %: 37.5 %
 - Untere 50 %: 2.5 %
 
-- Gini-Koeffizient: 0,724 (Vermögen (Bundesbank PHF 2023))
-- Medianvermögen: 103.100 € (pro Haushalt (2023))
+- Gini-Koeffizient: 0,72 (Vermögen (Bundesbank PHF 2023))
+- Medianvermögen: 103.200 € (pro Haushalt (2023))
 - Durchschnitt: 324.800 € (3,15× so hoch wie Median)
-- Milliardäre: 256 (in Deutschland (Rekord, 2025))
-
-- In Deutschland ist der Anteil geerbter Milliardärsvermögen deutlich höher als im globalen Schnitt. Laut UBS-Report 2024 waren global 60 % der neuen Milliardäre Selfmade — in Europa dominieren dagegen Mehrgenerationen-Vermögen.
 
 ### Medianvermögen: Deutschland unter Spanien und Italien
 
@@ -1445,7 +1399,7 @@ Spalten: Land | Medianvermögen | Eigentumsquote
 - Median West: 143.200 € (pro Haushalt (2023))
 - Median Ost: 35.900 € (pro Haushalt (2023))
 
-- Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Die niedrige Eigentumsquote (42 %) macht den 'typischen' deutschen Haushalt ärmer als den spanischen — obwohl Deutschland ein deutlich höheres BIP pro Kopf hat.
+- Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Ein wichtiger Faktor dafür ist die niedrige Eigentumsquote (42 %), durch die der 'typische' deutsche Haushalt beim Medianvermögen hinter Ländern wie Spanien liegt.
 
 ### Vermögensbezogene Steuern: Deutschland im OECD-Vergleich
 
@@ -1458,21 +1412,14 @@ Hinweis: Vermögensbezogene Steuern als % des BIP
 - OECD-Ø: 1.7 bis 2.3 % BIP
 - Deutschland: 0.9 bis 1.1 % BIP
 
-Hinweis: OECD-Länder mit Netto-Vermögensteuer (Stand 2025)
-Spalten: Land | Freibetrag (ca.) | Steuersatz | Aufkommen
-- Schweiz | ~250.000 CHF | 0,13–1,01 % (kantonal) | ~7 Mrd. CHF/J. (~1 % BIP)
-- Norwegen | ~1,7 Mio. NOK | 0,95–1,1 % | ~12 Mrd. NOK/J.
-- Spanien | 700.000 € | 0,2–3,5 % (+ Solidaritätsabgabe) | ~1,2 Mrd. €/J.
-- Kolumbien | ~200 Mio. COP | 0,5–1,5 % | —
-
-- Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch abgeschafft — das Gesetz gilt aber formal bis heute weiter.
+- Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch ausgesetzt — das Vermögensteuergesetz gilt formal bis heute weiter.
 
 ### Erbschaftsteuer: Milliardäre zahlen weniger als Mittelstandserben
 
 - Aufkommen: 13,3 Mrd. € (festgesetzt 2024 (Rekord))
 - jährl. Erbvolumen: 300–400 Mrd. (davon nur 113 Mrd. steuerlich erfasst)
 - Mindereinnahmen/J.: ~7,8 Mrd. € (durch Betriebsvermögens-Verschonung)
-- Effektiver Ø-Satz: ~3 % (auf alle Erbschaften)
+- Effektiver Ø-Satz: niedrig (je nach Bezugsbasis unterschiedlich)
 
 Hinweis: Kassenmäßiges Erbschaft- und Schenkungsteuer-Aufkommen
 - 2010: 4.4 Mrd. €
@@ -1484,18 +1431,11 @@ Hinweis: Kassenmäßiges Erbschaft- und Schenkungsteuer-Aufkommen
 - 2022: 9.2 Mrd. €
 - 2024: 11 Mrd. €
 
-Hinweis: Effektiver Erbschaftsteuersatz nach Vermögensgröße
-Spalten: Vermögensklasse | Effektiver Steuersatz | Anmerkung
-- Erbschaften < 200.000 € | Ø 14 % | Freibeträge oft ausgeschöpft
-- Erbschaften < 20 Mio. € | > 6 % | Wenig Verschonungsmöglichkeiten
-- Multimillionen-/Milliardenvermögen (Ø 2021–2024) | Ø 1,8 % | Betriebsvermögensverschonung
-- Multimillionen-/Milliardenvermögen (2023) | 0,1 % | Fast vollständige Befreiung
-
 - 0,7 % der Steuerpflichtigen erhalten 32 % aller erfassten Übertragungen — und 68 % aller steuerbefreiten Unternehmensübertragungen. Kleine Erben zahlen prozentual mehr als Milliardenerben.
 
-- 2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,5 Mrd. € Erbschaftsteuer erlassen — bei ~26 Mrd. € übertragenem Vermögen. Das sind 94 % Steuererlass.
+- 2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,38 Mrd. € Erbschaftsteuer erlassen. Das zeigt, wie stark einzelne Großübertragungen privilegiert werden.
 
-Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung durch das BVerfG wird 2026 erwartet.
+Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung ist seit 2022 anhängig.
 
 ### Erbengesellschaft: Wachsende Ungleichheit durch Erbschaften
 
@@ -1514,9 +1454,9 @@ Spalten: Kennzahl | Wert
 - Effektiver Steuersatz (gesamt) | ~2–3 %
 - Zum Vergleich: Tabaksteuer | ~15 Mrd. €/J.
 
-- Die Erbschaftsteuer bringt weniger ein als die Tabaksteuer — obwohl jährlich bis zu 400 Milliarden Euro vererbt werden.
+- Die Erbschaftsteuer bringt trotz sehr hoher jährlicher Vermögensübertragungen nur einen vergleichsweise kleinen Teil des Steueraufkommens ein.
 
-In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut FES-Studie erhielten 220 Kinder unter 14 Jahren zusammen 43 Mrd. Euro steuerbefreites Betriebsvermögen (durchschnittlich ~200 Mio. € pro Kind).
+In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut einer FES-Auswertung profitieren auch sehr junge Erben von weitreichenden Steuerbefreiungen bei großen Unternehmensvermögen.
 
 ### Aufkommenspotenzial: Was brächte eine Vermögensteuer?
 
@@ -1537,7 +1477,7 @@ Spalten: Land | System | Freibetrag (Kind) | Spitzensatz
 - USA | Nachlassbasiert | ~13,1 Mio. € pro Person | 40 %
 - Japan | Erwerberbasiert | ~185.000 € + pro Erbe | 55 %
 
-- IWF und OECD empfehlen Deutschland die Einführung einer Vermögensteuer: Sie sei 'weniger verzerrend' als die bestehenden hohen Steuern auf Arbeitseinkommen.
+- OECD und andere internationale Institutionen empfehlen Deutschland seit Jahren, vermögensbezogene Steuern stärker zu nutzen und die hohe Belastung von Arbeit zu verringern.
 
 ### Verfassungsrecht: Vermögensteuer ist nicht verboten
 
@@ -1548,22 +1488,22 @@ Hinweis: Geschichte der Vermögensteuer in Deutschland
 - 2006: BVerfG gibt 'Halbteilungsgrundsatz' auf (Keine starre 50-%-Obergrenze für Gesamtbelastung)
 - 2014: BVerfG: Erbschaftsteuer-Privilegien verfassungswidrig (Reform 2016 ließ Kernprivilegien bestehen)
 - 2025: Grundsteuer-Reform in Kraft (Erstmals aktuelle Immobilienbewertungen — Grundlage für Vermögensteuer)
-- 2026: BVerfG prüft erneut Erbschaftsteuer-Privilegien (Az. 1 BvR 804/22 — Entscheidung erwartet)
+- seit 2022 anhängig: Erneute verfassungsrechtliche Prüfung der Erbschaftsteuer-Privilegien (Az. 1 BvR 804/22)
 
 - Das BVerfG hat die Vermögensteuer NICHT für verfassungswidrig erklärt — nur die damalige Bewertungsmethode. Das Vermögensteuergesetz ist formal noch in Kraft. Für eine Wiedereinführung genügt ein einfaches Bundesgesetz (+ Bundesratszustimmung).
 
-Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Durch die 2025 in Kraft getretene Grundsteuer-Reform existiert erstmals eine aktuelle Immobilienbewertung — das Haupthindernis von 1995 ist damit beseitigt.
+Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Die seit 2025 wirksame Grundsteuer-Reform schafft zudem eine deutlich aktuellere Immobilienbewertung als früher, was eine verfassungskonforme Ausgestaltung erleichtern kann.
 
 ### Argumente
 
 - Aussage: Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!
-  Antwort: Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) gehört Deutschland tatsächlich zur Weltspitze. Bei den vermögensbezogenen Steuern liegt Deutschland mit nur ~1 % des BIP aber bei etwa der Hälfte des OECD-Durchschnitts (1,9 %). UK erhebt knapp 4 %, die USA ~3 %. Gerade weil Arbeit so hoch belastet ist, wäre eine Verlagerung hin zu Vermögenssteuern ökonomisch sinnvoll — auch IWF und OECD empfehlen das.
+  Antwort: Bei Steuern und Abgaben auf Arbeit liegt Deutschland hoch. Bei den vermögensbezogenen Steuern liegt Deutschland mit rund 1 % des BIP dagegen klar unter dem OECD-Durchschnitt von 1,9 %. Viele internationale Vergleiche zeigen: Eine stärkere Besteuerung großer Vermögen kann helfen, Arbeitseinkommen im Gegenzug weniger stark zu belasten.
 - Aussage: Das ist doch reine Neidsteuer! Typisch deutsche Neidgesellschaft!
-  Antwort: Es geht nicht um Neid, sondern um Chancengerechtigkeit. In Europa dominieren Mehrgenerationen-Vermögen unter Milliardären — deutlich stärker als in den USA oder Asien. Über 50 % des Privatvermögens ist geerbt, nicht selbst erarbeitet. Wenn Geburt wichtiger wird als Leistung, ist das kein Neidproblem — sondern ein Gerechtigkeitsproblem. Auch die Schweiz, Norwegen und Spanien haben eine Vermögensteuer, ohne als 'Neidgesellschaften' zu gelten.
+  Antwort: Es geht nicht um Neid, sondern um Chancengerechtigkeit. Ein großer Teil sehr großer Vermögen wird geerbt, nicht neu aufgebaut. Wenn Vermögenskonzentration über Generationen hinweg zunimmt und große Erbschaften steuerlich stark privilegiert werden, ist das eine Frage der fairen Verteilung von Chancen. Vermögensteuern oder strengere Erbschaftsteuern sind deshalb kein exotischer Sonderweg.
 - Aussage: Eine Vermögenssteuer zerstört unsere Familienunternehmen und den Mittelstand!
-  Antwort: Alle aktuellen Modelle sehen hohe Freibeträge vor (mindestens 1–2 Mio. €, teils bis 100 Mio. €). Echte Mittelständler wären kaum betroffen. Die Realität: 64 % des begünstigten Erbvermögens landet bei wenigen hundert Überreichen (Durchschnitt: 70 Mio. € pro Person). Es geht nicht um die Bäckerei, sondern um die BMW-Erben. Zudem: Wer ein Unternehmen kauft, muss den vollen Preis aus eigener Tasche zahlen — nur Erben bekommen es geschenkt.
+  Antwort: Seriöse Modelle arbeiten mit hohen Freibeträgen und zielen auf sehr große Vermögen. Die besonders großzügigen Privilegien im Erbschaftsteuerrecht kommen heute vor allem bei sehr großen Unternehmensvermögen zum Tragen, nicht bei typischen kleinen Betrieben. Entscheidend ist daher die Ausgestaltung: Kleine und mittlere Betriebe lassen sich schützen, ohne milliardenschwere Übertragungen pauschal zu verschonen.
 - Aussage: Die Reichen wandern dann einfach ins Ausland ab!
-  Antwort: Massenhafte Abwanderung ist ein Mythos. Studien (u.a. NBER 2024) zeigen kaum Einfluss von Vermögenssteuern auf Wohnsitzentscheidungen. Die meisten Vermögenden sind lokal verwurzelt — Immobilien, Unternehmen, Netzwerke, Kinder in der Schule. In Deutschland belegenes Vermögen bleibt ohnehin steuerpflichtig. Die Schweiz hat eine Vermögensteuer und ist trotzdem das beliebteste Ziel für Reiche. Zudem gibt es eine Wegzugsbesteuerung, die den steuerfreien Vermögenstransfer verhindert.
+  Antwort: Abwanderungsrisiken gibt es, aber sie werden oft überschätzt. Wohnsitzentscheidungen hängen nicht nur von einer Steuer ab, sondern auch von Unternehmen, Familie, Infrastruktur und Rechtssicherheit. Zudem kann der Gesetzgeber Wegzugs- und Missbrauchsregeln so ausgestalten, dass reine Steuergestaltung erschwert wird.
 - Aussage: Es wird doch schon alles bei der Einkommensteuer versteuert (Doppelbesteuerung)!
   Antwort: Vermögen wächst oft ohne Einkommensteuerzahlung — durch Wertsteigerungen von Immobilien, Aktien oder Unternehmensanteilen. Diese unrealisierten Gewinne werden erst bei Verkauf besteuert, bei Erbschaften oft gar nicht. Zudem: Auch die Mehrwertsteuer ist eine 'Doppelbesteuerung' von bereits versteuertem Einkommen. Das Leistungsfähigkeitsprinzip erlaubt mehrere Steuern auf verschiedene Bemessungsgrundlagen.
 - Aussage: Eine Vermögensteuer geht an die Substanz — das zerstört Unternehmen!
@@ -1571,13 +1511,13 @@ Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 
 - Aussage: Die Erbschaftsteuer zwingt Erben dazu, ihr Elternhaus zu verkaufen!
   Antwort: Für das Familienheim gibt es weitreichende Ausnahmen: Wer das geerbte Haus selbst für mindestens 10 Jahre bewohnt, zahlt darauf null Euro Erbschaftsteuer (bis 200 m² Wohnfläche). Zudem gibt es hohe persönliche Freibeträge: 400.000 € pro Kind, 500.000 € für Ehepartner — alle 10 Jahre erneuerbar. 96 % aller Erbfälle fallen komplett unter die Freibeträge. Das 'Elternhaus'-Argument schützt in Wahrheit die Villen der Superreichen.
 - Aussage: Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!
-  Antwort: Ein Argument aus den 1990er Jahren. Durch Digitalisierung, automatisierten Informationsaustausch und die aktualisierte Immobilienbewertung der Grundsteuer-Reform 2025 wäre der Verwaltungsaufwand deutlich geringer als früher. Die Erhebungskosten liegen bei unter 2–5 % der Einnahmen — vergleichbar mit der Einkommensteuer. Die Schweiz erhebt die Vermögensteuer seit über 100 Jahren effizient auf Kantonsebene.
+  Antwort: Das Verwaltungsargument ist heute schwächer als in den 1990ern. Durch Digitalisierung, Informationsaustausch und die reformierte Immobilienbewertung sind die Voraussetzungen deutlich besser. Entscheidend ist aber auch hier das Design: hohe Freibeträge und klare Bewertungsregeln halten den Aufwand beherrschbar.
 - Aussage: Erbschaftsteuer bestraft Leistung und zerstört Lebenswerke!
-  Antwort: Erben ist keine eigene Leistung — die Leistung hat der Erblasser erbracht. Von den 300–400 Mrd. € die jährlich vererbt werden, werden nur 113 Mrd. steuerlich erfasst. Der effektive Steuersatz liegt bei 2–3 %. Schlimmer: Milliardenerben zahlen effektiv nur 0,1–1,8 %, während normale Erben bis zu 14 % zahlen. 220 Kinder unter 14 Jahren erhielten zusammen 43 Mrd. € steuerbefreites Betriebsvermögen. Das 'Lebenswerk'-Argument schützt in Wahrheit dynastische Privilegien.
+  Antwort: Erben ist keine eigene Leistung. Gleichzeitig werden große Unternehmensvermögen im geltenden Recht oft weit stärker geschont als normale Erbschaften. Dadurch wird Vermögenskonzentration über Generationen eher verstärkt als abgemildert. Wer kleine und mittlere Erbschaften schützen will, kann Freibeträge hoch halten und Privilegien an der Spitze gezielter abbauen.
 - Aussage: Investitionen fließen ab und Firmen gehen ins Ausland!
-  Antwort: Standortentscheidungen hängen von dutzenden Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte. Die Schweiz, Norwegen und Spanien haben eine Vermögensteuer — und blühen wirtschaftlich. In Deutschland belegenes Betriebsvermögen kann nicht einfach 'abfließen'. Studien zeigen: Kapitalsteuern beeinflussen Investitionsentscheidungen weit weniger als Lohnnebenkosten, Energiepreise oder Bürokratie.
+  Antwort: Standortentscheidungen hängen von vielen Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte und Energiekosten. Eine Vermögensteuer allein entscheidet selten über Investitionen. Wichtig ist daher, sehr große private Vermögen zu adressieren, ohne produktive Unternehmensinvestitionen unnötig zu belasten.
 - Aussage: Erben ist Privatsache — der Staat hat da nichts zu suchen!
-  Antwort: Art. 14 GG garantiert das Eigentumsrecht — enthält aber ausdrücklich die Sozialpflichtigkeit des Eigentums. Große Erbschaften entstehen nicht im Vakuum: Sie basieren auf Infrastruktur, Bildungssystem, Rechtsstaat und sozialer Stabilität, die von der Allgemeinheit finanziert werden. Wenn 0,7 % der Steuerpflichtigen 68 % aller steuerbefreiten Firmenvermögen erhalten, ist das keine Privatsache — es betrifft die Chancen aller.
+  Antwort: Art. 14 GG garantiert Eigentum, betont aber auch dessen Sozialpflichtigkeit. Große Erbschaften entstehen nicht losgelöst von staatlich finanzierter Infrastruktur, Bildung und Rechtssicherheit. Deshalb ist ihre Besteuerung keine unzulässige Einmischung, sondern Teil legitimer Verteilungspolitik in einem Sozialstaat.
 
 ### Quellen
 
@@ -1590,9 +1530,9 @@ Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 
 - OECD Revenue Statistics — Taxes on property (https://stats.oecd.org/Index.aspx?DataSetCode=REV)
 - OECD Economic Survey Germany 2023 — Empfehlung Vermögensteuer (https://www.oecd.org/en/publications/oecd-economic-surveys-germany-2023_9642a3f5-en.html)
 - 30. Subventionsbericht der Bundesregierung (Sept. 2025) (https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/30-subventionsbericht.html)
-- BVerfG: Beschluss vom 22.6.1995 (2 BvL 37/91, BVerfGE 93, 121) (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BVerfG&Datum=22.06.1995&Aktenzeichen=2+BvL+37/91)
-- Capgemini World Wealth Report 2025 — HNWI-Statistiken (https://www.capgemini.com/insights/research-library/world-wealth-report/)
-- UBS Billionaire Ambitions Report 2024 (https://www.ubs.com/global/en/media/display-page-ndp/en-20241205-billionaire-ambitions-report-2024.html)
+- BVerfG: Beschluss vom 22.6.1995 zur Vermögensteuer (https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1995/06/rs19950622_2bvr055291.html)
+- Gesetze im Internet – Vermögensteuergesetz (VStG) (https://www.gesetze-im-internet.de/vstg_1974/)
+- Eurostat – Housing in Europe 2024 (https://ec.europa.eu/eurostat/web/interactive-publications/housing-2024)
 - EZB: Household Finance and Consumption Survey (HFCS), Wave 2021 (https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html)
 - Tax Foundation: Wealth Taxes in Europe (2025) (https://taxfoundation.org/data/all/eu/wealth-taxes-in-europe/)
 - Netzwerk Steuergerechtigkeit (https://www.netzwerk-steuergerechtigkeit.de)
@@ -1646,7 +1586,7 @@ Hinweis: Unbezahlte Arbeit pro Woche (in Stunden)
 
 ### Repräsentation & Führung
 
-Trotz Fortschritten in der Bildung sind Frauen in politischen und wirtschaftlichen Führungspositionen in Deutschland weiterhin unterrepräsentiert.
+Frauen sind in politischen und wirtschaftlichen Führungspositionen in Deutschland weiterhin unterrepräsentiert.
 
 Hinweis: Frauenanteil in Führungspositionen (2024)
 - Deutschland: 0 bis 29.1 %
@@ -1657,19 +1597,19 @@ Hinweis: Frauenanteil in Führungspositionen (2024)
 ### Argumente
 
 - Aussage: Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.
-  Antwort: Die Berufswahl erklärt nur etwa 18 % der Verdienstlücke. Selbst wenn man Faktoren wie Branche, Beruf, Qualifikation und Teilzeitarbeit herausrechnet, bleibt ein 'bereinigter' Gender Pay Gap von 6 % (Stand 2025). Zudem muss gesellschaftlich hinterfragt werden, warum systemrelevante Care-Berufe strukturell schlechter bezahlt werden als technische Berufe.
+  Antwort: Branche und Beruf erklären rund 18 % der Verdienstlücke. Selbst wenn weitere Faktoren wie Qualifikation, Tätigkeit, Erwerbsbiografie und Teilzeit berücksichtigt werden, bleibt 2025 ein bereinigter Gender Pay Gap von 6 %.
 - Aussage: Frauen wollen gar keine Führungspositionen übernehmen, weil ihnen die Familie wichtiger ist.
-  Antwort: Die Unterrepräsentation liegt primär an strukturellen Hürden, nicht am mangelnden Willen. In Deutschland sind nur 29,1 % der Führungskräfte weiblich, was deutlich unter dem EU-Schnitt (35,2 %) liegt. Eine Unternehmenskultur, die ständige Verfügbarkeit belohnt, sowie die ungleiche Verteilung von Care-Arbeit benachteiligen Frauen beim Aufstieg systematisch.
+  Antwort: Die Unterrepräsentation liegt nicht einfach am mangelnden Willen. In Deutschland sind nur 29,1 % der Führungskräfte weiblich, deutlich weniger als im EU-Durchschnitt (35,2 %). Gleichzeitig erschwert die ungleiche Verteilung von Care-Arbeit vielen Frauen den beruflichen Aufstieg.
 - Aussage: Die Gleichberechtigung ist doch längst erreicht, Frauen haben heute genau die gleichen Möglichkeiten wie Männer.
   Antwort: Gesetzlich sind Frauen gleichgestellt, faktisch gibt es weiterhin große Lücken. Frauen leisten täglich 76 Minuten mehr unbezahlte Care-Arbeit (Gender Care Gap von 43,4 %). Auch in der politischen Repräsentation gibt es Rückschritte: Im aktuellen Bundestag (2025) ist der Frauenanteil auf 32,4 % gesunken. Echte Gleichberechtigung erfordert auch wirtschaftliche Unabhängigkeit und gleiche Repräsentation.
 - Aussage: Männer arbeiten dafür mehr in Vollzeit und machen die harten Überstunden.
-  Antwort: Männer leisten zwar mehr bezahlte Erwerbsarbeit, aber wenn man bezahlte und unbezahlte Arbeit (Haushalt, Kinder, Pflege) zusammenrechnet, arbeiten Frauen insgesamt mehr Stunden pro Woche. Das Problem: Die unbezahlte Arbeit der Frauen wird finanziell nicht entlohnt und ist nicht rentenwirksam, was im Alter zu einer massiven Rentenlücke (Gender Pension Gap) führt.
+  Antwort: Männer leisten zwar mehr bezahlte Erwerbsarbeit, aber wenn man bezahlte und unbezahlte Arbeit zusammenrechnet, ist die Gesamtarbeitszeit ähnlich hoch. Personen ab 18 leisten laut Destatis 2022 insgesamt ähnlich viel Arbeit, Frauen aber etwas mehr (45:33 Std./Woche) als Männer (44:23 Std./Woche), weil unbezahlte Arbeit die geringere Erwerbsarbeit übersteigt.
 - Aussage: Eine Frauenquote führt nur dazu, dass unqualifizierte Frauen bevorzugt werden und fähige Männer das Nachsehen haben.
-  Antwort: Quotenregelungen greifen juristisch nur bei gleicher Qualifikation der Bewerberinnen. Aktuell werden Führungspositionen oft über informelle, männlich dominierte Netzwerke besetzt ('Thomas-Kreislauf'), nicht zwingend nach objektiver Bestenauslese. Studien zeigen zudem, dass diverse Führungsteams innovativer und wirtschaftlich erfolgreicher agieren.
+  Antwort: Quoten sind ein Instrument gegen dauerhafte Unterrepräsentation. Dass Frauen in Führungspositionen in Deutschland deutlich unterrepräsentiert sind, ist belegt. Die eigentliche Debatte ist deshalb nicht, ob es ein Problem gibt, sondern welche Instrumente es wirksam und fair verringern.
 - Aussage: Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.
-  Antwort: Der Gender Pension Gap liegt bei rund 30 %: Frauen erhalten im Schnitt deutlich weniger Rente als Männer. Das ist die direkte Folge jahrzehntelanger struktureller Benachteiligung: niedrigere Löhne (16 % Pay Gap), erzwungene Teilzeit durch Care-Arbeit (43,4 % Care Gap) und Karriereeinbußen nach der Geburt von Kindern. All das akkumuliert sich über ein Arbeitsleben zu massiver Altersarmut. Frauen sind doppelt so häufig von Altersarmut betroffen wie Männer.
+  Antwort: Der Gender Pension Gap liegt 2025 je nach Abgrenzung bei 24,2 % inklusive Hinterbliebenenrenten und bei 36,2 % für eigene Alterseinkünfte. Dahinter stehen niedrigere Löhne, häufigere Teilzeit und Erwerbsunterbrechungen durch Care-Arbeit. Frauen ab 65 sind zudem häufiger armutsgefährdet als Männer (2023: 20,8 % vs. 15,9 %).
 - Aussage: Kinder sind eine freiwillige Entscheidung, dann muss man halt mit den Konsequenzen leben.
-  Antwort: Kinder sind eine gesamtgesellschaftliche Notwendigkeit — ohne sie gibt es keine Renten, keine Pflege, keine Wirtschaft. Studien zeigen: Frauen verlieren nach dem ersten Kind durchschnittlich ~60 % ihres Einkommens (langfristig ~40 %), Männer: 0 %. Diese sogenannte 'Child Penalty' trifft fast ausschließlich Mütter und ist eine der Hauptursachen für den Gender Pay Gap. Die Lösung liegt in besserer Infrastruktur (Kitas, Ganztag), partnerschaftlicher Aufteilung der Care-Arbeit und Arbeitszeitmodellen, die Vereinbarkeit ermöglichen.
+  Antwort: Kindererziehung ist keine rein private Randfrage, sondern hat große Folgen für Erwerbsbiografien. Eine aktuelle ZEW-Studie zeigt, dass Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger verdienen als gleichaltrige Frauen ohne Kinder. Solche Einbußen wirken langfristig auf Karriere und Rente.
 
 ### Quellen
 
@@ -1677,6 +1617,9 @@ Hinweis: Frauenanteil in Führungspositionen (2024)
 - Destatis: Frauen in Führungspositionen (2024/2025) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/11/PD25_393_13.html)
 - BMFSFJ / Destatis: Gender Care Gap (https://www.bmfsfj.de/bmfsfj/aktuelles/alle-meldungen/statistisches-bundesamt-veroeffentlicht-neue-zahlen-zum-gender-care-gap-236794)
 - Bundestag: Abgeordneten-Statistik 21. Bundestag (https://www.bundestag.de/dokumente/textarchiv/2025/kw09-wahlergebnis-statistik-1055550)
+- Destatis – Erwerbsarbeit und unbezahlte Arbeit nach Geschlecht (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Tabellen/erwerbsarbeit-unbezahlte-arbeit-geschlecht-zve.html)
+- Destatis – Gender Pension Gap (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-gender-pension-gap.html)
+- ZEW – Einkommensverlust nach Geburt (https://www.zew.de/presse/pressearchiv/einkommensverlust-nach-geburt-weit-hoeher-als-bisher-gedacht)
 
 ---
 
@@ -1704,7 +1647,7 @@ Hinweis: Öffentliche Bildungsausgaben als BIP-Anteil (2023, OECD-Daten)
 - Schulen: 97 Mrd. € (49 % der Ausgaben)
 - Kita-Betreuung: 49 Mrd. € (25 % der Ausgaben)
 
-- Schweden investiert mit 7,1 % des BIP über 50 % mehr als Deutschland (4,5 %) in Bildung. Um auf skandinavisches Niveau zu kommen, müsste Deutschland jährlich rund 100 Milliarden Euro zusätzlich investieren.
+- Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland. Deutschland liegt damit im OECD-Vergleich weiter unter dem Schnitt und hinter skandinavischen Ländern.
 
 ### Lehrkräftemangel: Die Personalkatastrophe
 
@@ -1715,7 +1658,7 @@ Hinweis: Prognose fehlende Lehrkräfte (IW-Berechnung)
 - 2030/31: 68.000
 - 2035/36: 76.000
 
-- Besonders betroffen: Grundschulen (verschärft durch den Ganztags-Rechtsanspruch ab 2026), Sonderpädagogik und MINT-Fächer (Mathematik, Informatik, Naturwissenschaften, Technik).
+- Besonders betroffen sind vor allem Grundschulen; je nach Bereich verschärft sich der Mangel zusätzlich.
 
 Hauptursachen sind steigende Schülerzahlen durch Zuwanderung, eine Pensionierungswelle der Babyboomer-Generation und strukturelle Hürden im Lehramtsstudium. Viele Stellen werden mit Quereinsteigern ohne volle pädagogische Ausbildung besetzt.
 
@@ -1743,7 +1686,7 @@ Hinweis: PISA Mathematik – Deutschland im Zeitverlauf
 - 2018: 500 Punkte
 - 2022: 475 Punkte
 
-Besonders alarmierend: In kaum einem anderen Industrieland hängt der Bildungserfolg so stark vom Elternhaus ab wie in Deutschland. Schon PISA 2000 bescheinigte einen 'beschämend engen Zusammenhang zwischen sozialer Herkunft und Bildungschancen' – daran hat sich bis heute wenig geändert.
+Auch PISA 2022 zeigt weiterhin ausgeprägte soziale Bildungsungleichheiten in Deutschland.
 
 ### Digitalisierung an Schulen
 
@@ -1751,7 +1694,7 @@ Der DigitalPakt Schule (2019–2024) sollte die digitale Infrastruktur an Schule
 
 - Bewilligte Mittel: 5,3 Mrd. € (97,4 % der verfügbaren Mittel)
 - Abgeflossene Mittel: 4,1 Mrd. € (Stand Juni 2025)
-- Evaluation: erst 2027 (Wissenschaftliche Bewertung ausstehend)
+- Evaluation: seit 2025 (Zwischenbericht veröffentlicht)
 - DigitalPakt 2.0: ab 2025 (Anschlussfinanzierung bis 2030 vereinbart)
 
 Kritiker bemängeln, dass Hardware allein nicht reicht: Lehrkräfte müssen für den Umgang mit digitalen Medien fortgebildet werden, und es fehlt flächendeckend an IT-Support. Lehrkräfte übernehmen häufig selbst die Rolle des IT-Administrators.
@@ -1761,13 +1704,13 @@ Kritiker bemängeln, dass Hardware allein nicht reicht: Lehrkräfte müssen für
 Die frühkindliche Bildung gilt als entscheidend für spätere Bildungschancen. Doch in deutschen Kitas herrscht akuter Fachkräftemangel, der die Betreuungsqualität massiv gefährdet.
 
 - Fehlende Erzieher:innen: ~100.000 (Prognose 2026, bis 2030: 200.000)
-- Ausreichend Personal: 13,7 % (der Kitas erreichen empfohlene Personalausstattung)
-- Stark unterbesetzt: 21,2 % (der Kitas mit max. 60 % des Solls)
+- Fachkraftquote Bayern: 54,5 % (voll qualifiziertes Personal)
+- Spitzenwert Sömmerda: 94,3 % (Landkreis in Thüringen)
 - Fachkraftquote Ost: 86,9 % (vs. 68,6 % im Westen)
 
-- In Bayern haben nur 54,5 % des Kita-Personals eine vollständige Fachausbildung – der bundesweit niedrigste Wert. Thüringen liegt mit 94,3 % an der Spitze.
+- In Bayern haben nur 54,5 % des Kita-Personals eine vollständige Fachausbildung – der bundesweit niedrigste Wert. Der Landkreis Sömmerda in Thüringen liegt mit 94,3 % an der Spitze.
 
-Die Unterbesetzung führt zu Gruppenzusammenlegungen, gekürzten Öffnungszeiten und gestrichenen pädagogischen Angeboten. Erzieher:innen berichten von erhöhtem Stress, häufigeren Krankmeldungen und wachsender Berufsabwanderung.
+Unterbesetzung belastet Betreuungsqualität und Arbeitsbedingungen in vielen Kitas.
 
 ### Ganztags-Rechtsanspruch ab 2026
 
@@ -1789,33 +1732,33 @@ Hinweis: Stufenweise Einführung des Rechtsanspruchs
 - Aussage: Unser Bildungssystem war mal Weltspitze
   Antwort: Deutschland hatte tatsächlich ein international angesehenes Bildungssystem – vor allem in der beruflichen Bildung (duales System). Aber bei PISA 2022 erreichten deutsche 15-Jährige in Mathematik nur noch 475 Punkte – ein historischer Tiefstand und ein Rückgang von 25 Punkten gegenüber 2018. Rund ein Drittel hat in mindestens einem Bereich nur minimale Kompetenzen. Statt sich auf vergangenen Ruhm zu berufen, braucht es massive Investitionen: Deutschland liegt mit 4,5 % des BIP für Bildung deutlich unter dem OECD-Schnitt von 5,1 % und weit hinter Skandinavien (6,5–7,1 %).
 - Aussage: Die Lehrer arbeiten doch nur halbtags und haben ständig Ferien
-  Antwort: Eine repräsentative Studie des Prognos-Instituts (2024/25, Sachsen, 3.772 Lehrkräfte) zeigt: Vollzeit-Lehrkräfte leisten während der Schulzeit durchschnittlich 2,5 Überstunden pro Woche. Die Unterrichtszeit macht nur etwa ein Drittel der Arbeitszeit aus – der Rest geht für Vor- und Nachbereitung, Korrekturen, Elterngespräche, Verwaltung und Konferenzen drauf. Teilzeitkräfte arbeiten sogar 5,8 % über ihrem Soll. Die Ferien werden großteils für den Überstundenausgleich und Unterrichtsvorbereitung genutzt. Gleichzeitig zeigen Studien erhebliche Risiken für die psychische Gesundheit von Lehrkräften.
+  Antwort: Eine repräsentative Studie des Prognos-Instituts in Sachsen zeigt: In Schulwochen fallen Mehrstunden an. Im Jahresmittel lagen Vollzeit-Lehrkräfte etwa auf ihrem individuellen Soll, Teilzeitkräfte aber 5,8 % darüber. Unterricht ist dabei nur ein Teil der Arbeitszeit – hinzu kommen Vor- und Nachbereitung, Korrekturen, Elterngespräche, Verwaltung und Konferenzen.
 - Aussage: Schüler können heute nichts mehr, die sind alle verblödet
   Antwort: Die PISA-Ergebnisse zeigen tatsächlich einen deutlichen Leistungsrückgang, der aber strukturelle Ursachen hat – und keine individuelle 'Verblödung'. Zu den Ursachen gehören chronische Unterfinanzierung (Deutschland liegt unter dem OECD-Schnitt), akuter Lehrkräftemangel (35.000 fehlend), pandemiebedingte Lernrückstände und der stärkste Zusammenhang zwischen sozialer Herkunft und Bildungserfolg in der OECD. Die Lösung liegt nicht bei den Schüler:innen, sondern beim System: bessere Ausstattung, mehr Personal, gezielte Förderung Benachteiligter.
 - Aussage: Bildung ist Ländersache, da kann man nichts machen
   Antwort: Das stimmt verfassungsrechtlich – aber es ist kein Naturgesetz. Das Kooperationsverbot von 2006 verhindert, dass der Bund direkt in Schulen investiert. Das Ergebnis: 16 verschiedene Lehrpläne, massive Qualitätsunterschiede zwischen den Bundesländern und ein 'Bildungsflickenteppich'. Mehrere Bundesländer fordern inzwischen selbst die Aufhebung dieses Verbots. Auch der DigitalPakt Schule zeigt, dass Bund-Länder-Kooperation in der Bildung möglich ist – er wurde trotz Kooperationsverbot realisiert. 'Ländersache' heißt nicht 'unveränderbar'.
 - Aussage: Wir geben genug Geld für Bildung aus
-  Antwort: Nominal klingt die Zahl von 198 Milliarden Euro nach viel. Aber gemessen am BIP liegt Deutschland mit 4,5 % deutlich unter dem OECD-Durchschnitt von 5,1 % – und weit hinter Finnland (6,5 %) oder Schweden (7,1 %). Die Konsequenzen sind sichtbar: marode Schulgebäude, fehlende Lehrkräfte, mangelnde digitale Ausstattung. Um auf skandinavisches Niveau zu kommen, müsste Deutschland jährlich rund 100 Milliarden Euro zusätzlich investieren. Gleichzeitig arbeiten nur 13,7 % der Kitas mit ausreichend Personal.
+  Antwort: Nominal klingt die Zahl von 198 Milliarden Euro nach viel. Aber gemessen am BIP liegt Deutschland weiterhin unter dem OECD-Durchschnitt und hinter skandinavischen Ländern. Die Konsequenzen sind sichtbar: marode Schulgebäude, fehlende Lehrkräfte, mangelhafte digitale Infrastruktur und starke Qualitätsunterschiede in der frühen Bildung.
 - Aussage: Hauptschüler sind halt einfach nicht so schlau
-  Antwort: Das ist ein klassischer Zirkelschluss. PISA zeigt seit 2000 konsistent: In kaum einem Industrieland hängt der Bildungserfolg so stark vom Elternhaus ab wie in Deutschland. Kinder aus bildungsfernen Familien werden überproportional auf Hauptschulen verteilt – unabhängig von ihrem tatsächlichen Potenzial. Das ist kein Intelligenz-Problem, sondern ein Systemversagen: Zu frühe Selektion (meist schon nach Klasse 4), mangelnde individuelle Förderung und zu wenig Unterstützung für benachteiligte Kinder. Länder wie Finnland, die später selektieren und mehr individuell fördern, erreichen gleichzeitig höhere Leistungen und mehr Chancengleichheit.
+  Antwort: Das ist ein klassischer Zirkelschluss. PISA zeigt seit Jahren, dass Deutschland zu den OECD-Ländern mit stark ausgeprägten sozialen Bildungsungleichheiten gehört. Kinder aus bildungsfernen Familien werden überproportional auf niedrigere Schulformen verteilt. Das spricht nicht für mangelnde Intelligenz, sondern für strukturelle Probleme wie frühe Selektion, ungleiche Förderung und zu wenig Unterstützung benachteiligter Kinder.
 - Aussage: Inklusion schadet normalen Schülern
   Antwort: Die umfassendste deutsche Studie zur Inklusion (INSIDE, 2016–2025, über 4.000 Schüler:innen an 246 Schulen) zeigt: Inklusion 'gelingt weder durchweg noch scheitert grundsätzlich'. Entscheidend sind die Rahmenbedingungen – insbesondere gute Kooperation zwischen Regel- und Sonderpädagogen sowie ausreichend Personal. Die Studie zeigt keine generellen Nachteile für Mitschüler:innen ohne Förderbedarf. Problematisch wird es erst, wenn Inklusion ohne zusätzliche Ressourcen umgesetzt wird. Das Problem ist also nicht die Inklusion an sich, sondern ihre unzureichende Ausstattung.
 - Aussage: Digitalisierung an Schulen bringt nichts, Kinder sollen lesen lernen
-  Antwort: Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat 6,5 Milliarden Euro in Infrastruktur investiert. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Aktuell müssen Lehrkräfte oft selbst die IT-Administration übernehmen. Eine wissenschaftliche Evaluation des DigitalPakts wird erst 2027 erwartet. Der DigitalPakt 2.0 (bis 2030) soll stärker auf Qualität statt nur auf Hardware setzen.
+  Antwort: Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat Milliarden in Infrastruktur gebunden. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Seit 2025 liegt bereits ein Zwischenbericht zur Evaluation vor; der DigitalPakt 2.0 soll stärker auf Qualität statt nur auf Hardware setzen.
 
 ### Quellen
 
 - OECD – Bildung auf einen Blick 2025 (https://www.oecd.org/de/topics/education.html)
 - Statistisches Bundesamt – Bildungsausgaben 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_445_21711.html)
 - Institut der deutschen Wirtschaft (IW) – Lehrkräftemangel-Prognose (https://www.iwd.de/artikel/der-lehrermangel-in-deutschland-verschaerft-sich-546423/)
-- KMK – Lehrereinstellungsbedarf und -angebot 2024 (https://www.kmk.org/)
-- PISA 2022 – Nationaler Bericht (TU München / ZIB) (https://www.pisa.tum.de/)
-- Bundeszentrale für politische Bildung – PISA 2022 und Chancengleichheit (https://www.bpb.de/themen/bildung/dossier-bildung/543509/)
+- KMK – Lehrereinstellungsbedarf und -angebot 2024 (https://www.kmk.org/fileadmin/Dateien/pdf/Statistik/Dokumentationen/Dok_2_Bericht_LEB_LEA_2024.pdf)
+- PISA 2022 – Nationaler Bericht (TU München / ZIB) (https://www.zib.education/pisa-2022-analyse-der-bildungsergebnisse-in-deutschland/)
+- Bundeszentrale für politische Bildung – PISA 2022 und Chancengleichheit (https://www.bpb.de/themen/bildung/dossier-bildung/543509/pisa-2022-wie-leistungsniveau-und-chancengleichheit-in-schulsystemen-zusammenhaengen/)
 - BMBF – DigitalPakt Schule Fortschrittsbericht (https://www.digitalpaktschule.de/)
 - Bertelsmann Stiftung – Fachkräfte-Barometer Kita 2025 (https://www.bertelsmann-stiftung.de/)
-- Prognos-Institut – Lehrkräfte-Arbeitszeitstudie Sachsen 2024/25
+- Prognos-Institut – Lehrkräfte-Arbeitszeitstudie Sachsen 2024/25 (https://www.prognos.com/de/projekt/arbeitszeituntersuchung-saechsische-lehrkraefte)
 - INSIDE-Studie zur Inklusion (Leibniz-Institut für Bildungsverläufe) (https://www.inside-studie.de/)
-- Bundesregierung – Ganztag-Fortschrittsbericht 2025 (https://www.bundes-sgk.de/artikel/rechtsanspruch-ganztagsbetreuung)
+- Bundes-SGK / BMBFSFJ – Ganztagsfortschritt (https://www.bundes-sgk.de/artikel/rechtsanspruch-ganztagsbetreuung)
 
 ---
 
@@ -1827,7 +1770,7 @@ Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention | Stand: 2026-03
 
 ### Was kostet unser Gesundheitssystem?
 
-Deutschland gehört weltweit zu den Ländern mit den höchsten Gesundheitsausgaben. Trotzdem schneidet das System bei wichtigen Qualitätsindikatoren nur mittelmäßig ab.
+Deutschland gehört weltweit zu den Ländern mit den höchsten Gesundheitsausgaben.
 
 Hinweis: Gesundheitsausgaben pro Kopf 2024 (kaufkraftbereinigt, USD)
 - USA: 14880 USD
@@ -1838,7 +1781,6 @@ Hinweis: Gesundheitsausgaben pro Kopf 2024 (kaufkraftbereinigt, USD)
 
 - GKV-Gesamtbeitrag: 17,5 % (14,6 % + 2,9 % Zusatzbeitrag (2026))
 - GKV-Ausgaben 2025: 346,6 Mrd. € (Prognose GKV-Schätzerkreis)
-- Finanzierungslücke: ~51 Mrd. € (2025, gedeckt durch Zusatzbeiträge und Rücklagen)
 - BIP-Anteil Gesundheit: ~12 % (OECD-Schnitt: 9,3 %)
 
 Hinweis: GKV-Gesamtbeitragssatz (allgemeiner Beitrag + Zusatzbeitrag)
@@ -1852,7 +1794,7 @@ Hinweis: GKV-Gesamtbeitragssatz (allgemeiner Beitrag + Zusatzbeitrag)
 - 2025: 17.1 %
 - 2026: 17.5 %
 
-Arbeitnehmer und Arbeitgeber teilen sich den Beitrag paritätisch. Bei 3.000 Euro Brutto zahlen beide zusammen rund 525 Euro monatlich für die Krankenversicherung.
+Arbeitnehmer und Arbeitgeber teilen sich den Beitrag paritätisch. Bei 3.000 Euro Brutto entspräche das zusammen rechnerisch rund 525 Euro monatlich für die Krankenversicherung.
 
 ### Zwei-Klassen-Medizin: GKV vs. PKV
 
@@ -1861,14 +1803,10 @@ Die Unterschiede zwischen gesetzlich und privat Versicherten sind bei Wartezeite
 Hinweis: Durchschnittliche Wartezeiten auf Facharzttermine (Doctolib-Daten, 2025)
 - Gesetzlich versichert (GKV)
   - Lungenfacharzt: 129 Tage
-  - Orthopäde: ~60 Tage
-  - Hautarzt: ~45 Tage
 - Privat versichert (PKV)
   - Lungenfacharzt: 35 Tage
-  - Orthopäde: ~15 Tage
-  - Hautarzt: ~12 Tage
 
-- Kassenpatienten warten bei Lungenfachärzten bis zu viermal länger als Privatpatienten. 43 % der gesetzlich Versicherten berichten von einer Verschlechterung der Wartezeiten in den letzten fünf Jahren.
+- Kassenpatienten warten bei Lungenfachärzten bis zu viermal länger als Privatpatienten.
 
 Der GKV-Spitzenverband spricht von systematischer 'Diskriminierung' gesetzlich Versicherter. Etwa 90 % der Bevölkerung sind gesetzlich versichert, nur 10 % privat.
 
@@ -1877,19 +1815,19 @@ Der GKV-Spitzenverband spricht von systematischer 'Diskriminierung' gesetzlich V
 Ende 2023 lebten 5,7 Millionen Pflegebedürftige in Deutschland – Tendenz stark steigend. Die Zahl der Pflegekräfte hält mit dem wachsenden Bedarf nicht Schritt.
 
 Hinweis: Prognose fehlende Pflegekräfte (Destatis, günstige Variante)
-- 2024: Engpassberuf (1,7 Mio. Beschäftigte)
+- 2023: 5,7 Mio. (Pflegebedürftige)
 - 2034: 90.000 fehlend
 - 2049: 280.000 fehlend
 
-- Im ungünstigsten Szenario (Status-quo) fehlen bis 2049 sogar bis zu 690.000 Pflegekräfte. Der Bedarf steigt um 27 % auf 2,15 Millionen Erwerbstätige in der Pflege.
+- Im ungünstigsten Szenario (Status quo) fehlen bis 2049 sogar bis zu 690.000 Pflegekräfte. Der Bedarf steigt gegenüber 2019 um rund ein Drittel (+33 %) auf 2,15 Millionen Erwerbstätige in der Pflege.
 
 Kernproblem ist nicht nur die absolute Zahl, sondern das Missverhältnis: Steigende Nachfrage durch die alternde Babyboomer-Generation trifft auf sinkende Nachwuchszahlen. Viele Pflegekräfte arbeiten in Teilzeit oder verlassen den Beruf wegen Überlastung.
 
 ### Krankenhausreform: Zu viele Betten, zu wenig Personal
 
-Deutschland hat mit rund 1.840 Krankenhäusern und 7,6 Betten pro 10.000 Einwohner die zweithöchste Krankenhausdichte in Europa – bei einer Bettenauslastung von nur 72 %.
+Deutschland hatte 2024 rund 1.841 Krankenhäuser und 7,6 Krankenhausbetten pro 1.000 Einwohner bei einer Bettenauslastung von 72 %.
 
-Hinweis: Krankenhausbetten pro 10.000 Einwohner (2023)
+Hinweis: Krankenhausbetten pro 1.000 Einwohner (2023)
 - Bulgarien: 8.2
 - Deutschland: 7.6
 - Österreich: 6.7
@@ -1898,31 +1836,29 @@ Hinweis: Krankenhausbetten pro 10.000 Einwohner (2023)
 - Niederlande: 2.4
 - Dänemark: 2.4
 
-Die 2024 unter Lauterbach beschlossene Krankenhausreform sollte Fallpauschalen (40 %) durch Vorhaltepauschalen (60 %) ersetzen und durch Spezialisierung die Qualität steigern. Die neue Gesundheitsministerin Warken (CDU) hat die Reform 2025/26 abgeschwächt: Start verschoben auf 2028, mehr Ausnahmen für ländliche Kliniken, Finanzierung über 29 Milliarden Euro aus dem Sondervermögen.
+Die Krankenhausreform wurde 2026 angepasst: Für ländliche Kliniken gelten mehr Ausnahmen und Kooperationsmöglichkeiten, die Vorhaltevergütung wurde um ein Jahr verschoben und die volle Finanzwirksamkeit ist erst ab 2030 vorgesehen. Der ursprünglich vorgesehene GKV-Anteil von 25 Milliarden Euro am Transformationsfonds wird nun aus Sondervermögen getragen.
 
 ### Psychische Gesundheit: Versorgungsnotstand
 
-Psychische Erkrankungen nehmen seit Jahren zu und sind inzwischen eine der häufigsten Ursachen für Arbeitsunfähigkeit. Die Versorgungslage hinkt dem Bedarf weit hinterher.
+Die Fallzahlen in Psychotherapie und Psychiatrie stiegen im 1. Halbjahr 2025 weiter. Die Versorgungslage bleibt angespannt.
 
-- Betroffene jährlich: 17,8 Mio. (etwa jeder vierte Erwachsene)
-- Wartezeit Therapie: 142 Tage (Ø, auf dem Land teils über 6 Monate)
-- Kassensitze: 32.500 (bei 48.000 approbierten Therapeuten)
+- Versorgungsdruck: hoch (psychische Versorgung hinkt dem Bedarf hinterher)
 - Fallzahl-Zuwachs: +3,4 % (1. Halbjahr 2025 vs. Vorjahr)
 
-- Von 48.000 approbierten Psychotherapeut:innen dürfen nur 32.500 mit der GKV abrechnen. Die Terminservicestellen scheitern: 2023 wurden 54 % der Anfragen gar nicht oder nicht fristgerecht vermittelt.
+- Die Terminservicestellen stoßen an Grenzen: 2023 wurden 54 % der Anfragen gar nicht oder nicht fristgerecht vermittelt.
 
-Besonders in der Kinder- und Jugendpsychiatrie steigen die Fallzahlen stark (+5,7 % im 1. Halbjahr 2025). Regional gibt es massive Unterschiede: Berlin hat über 60 Therapeuten pro 100.000 Einwohner, ländliche Regionen unter 20.
+Besonders in der Kinder- und Jugendpsychiatrie steigen die Fallzahlen stark (+5,7 % im 1. Halbjahr 2025).
 
 ### Prävention: Das Stiefkind des Systems
 
-Das deutsche Gesundheitssystem ist auf 'Reparaturmedizin' ausgerichtet: Krankheiten werden behandelt, statt sie zu verhindern. Die Ausgaben für Prävention sind im Vergleich zu den Gesamtausgaben verschwindend gering.
+Das deutsche Gesundheitssystem konzentriert große Teile seiner Ausgaben auf Behandlung. Die Ausgaben für Prävention sind im Vergleich zu den Gesamtausgaben gering.
 
 Hinweis: Gesundheitsausgaben nach Leistungsart 2023
 - Pflege & Therapie: 155% (155,1 Mrd. €)
 - Ärztliche Leistungen: 118% (118,3 Mrd. €)
 - Arzneimittel: 65% (~65 Mrd. €)
 - Prävention: 25% (~25 Mrd. € (5,0 %))
-- Gesamt: Gesamtausgaben: ~498 Mrd. €
+- Gesamt: Gesamtausgaben: 500,8 Mrd. €
 
 - Nur 5 % der Gesundheitsausgaben fließen in Prävention (298 Euro pro Person und Jahr). Die GKV investierte 2024 mit 686 Millionen Euro zwar einen Rekordwert – das sind aber weniger als 0,2 % der Gesamtausgaben.
 
@@ -1931,31 +1867,31 @@ Dabei zeigt die Forschung: Jeder in Prävention investierte Euro spart ein Vielf
 ### Argumente
 
 - Aussage: Wir haben das beste Gesundheitssystem der Welt
-  Antwort: Deutschland hat ein gutes Gesundheitssystem, aber 'das beste der Welt' ist es nachweislich nicht. Bei Pro-Kopf-Ausgaben liegt Deutschland mit ca. 9.600 USD in der OECD-Spitzengruppe – bekommt dafür aber nur mittelmäßige Ergebnisse: Kassenpatienten warten bei Fachärzten bis zu viermal länger als Privatpatienten, auf einen Therapieplatz wartet man im Schnitt 142 Tage, und bis 2034 fehlen mindestens 90.000 Pflegekräfte. Länder wie Dänemark oder die Niederlande erreichen mit deutlich weniger Krankenhausbetten und Ausgaben bessere Versorgungsqualität.
+  Antwort: Deutschland hat ein gutes Gesundheitssystem, aber 'das beste der Welt' ist es nicht automatisch. Deutschland gehört bei den Ausgaben zur OECD-Spitzengruppe, zugleich gibt es lange Wartezeiten für Kassenpatienten, bis 2034 drohen mindestens 90.000 fehlende Pflegekräfte und die Krankenhausstruktur gilt seit Jahren als ineffizient.
 - Aussage: Die Krankenkassenbeiträge sind viel zu hoch
-  Antwort: Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts (paritätisch geteilt). Das klingt viel, aber dafür werden auch umfangreiche Leistungen finanziert – von Arztbesuchen über Krankenhausaufenthalte bis zu Medikamenten. Das eigentliche Problem ist nicht die Höhe, sondern die Effizienz: Deutschland leistet sich die zweithöchste Krankenhausdichte Europas bei nur 72 % Bettenauslastung, gibt nur 5 % für Prävention aus und hat massive Verwaltungskosten durch das duale System aus GKV und PKV. Die Frage ist weniger 'zu viel', sondern 'wofür'.
+  Antwort: Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts und wird paritätisch geteilt. Das eigentliche Problem ist weniger die Existenz des Beitrags als die Effizienz des Systems: Deutschland gibt sehr viel aus, hat strukturelle Überkapazitäten im Krankenhausbereich und investiert vergleichsweise wenig in Prävention.
 - Aussage: Jeder bekommt in Deutschland die medizinische Versorgung, die er braucht
-  Antwort: Formal hat jeder Zugang zum Gesundheitssystem, aber in der Praxis gibt es gravierende Versorgungslücken. Kassenpatienten warten beim Lungenfacharzt im Schnitt 129 Tage – Privatpatienten nur 35. 17,8 Millionen Menschen leiden jährlich unter psychischen Erkrankungen, aber ein Therapieplatz lässt durchschnittlich 142 Tage auf sich warten. Auf dem Land fehlen Haus- und Fachärzte. Und die Qualität der Pflege ist durch chronischen Personalmangel bedroht. Die Versorgung hängt in Deutschland stark davon ab, wo man lebt, wie man versichert ist und welche Krankheit man hat.
+  Antwort: Formal hat jeder Zugang zum Gesundheitssystem, aber in der Praxis gibt es gravierende Versorgungslücken. Kassenpatienten warten beim Lungenfacharzt im Schnitt 129 Tage, Privatpatienten nur 35. Dazu kommen Engpässe in Pflege und Psychotherapie sowie regionale Unterschiede bei der Versorgung. Die Versorgung hängt in Deutschland also weiterhin stark davon ab, wo man lebt, wie man versichert ist und welche Krankheit man hat.
 - Aussage: Ausländer belasten unser Gesundheitssystem
-  Antwort: Asylbewerber erhalten in den ersten 36 Monaten nur eine stark eingeschränkte medizinische Versorgung – beschränkt auf akute Erkrankungen, chronische Krankheiten, Impfungen und Schwangerschaft. Die Pro-Kopf-Ausgaben für Geflüchtete liegen bei 180–200 Euro jährlich, der GKV-Durchschnitt bei rund 3.000 Euro pro Versichertem. Zudem nutzen Migranten Vorsorgeuntersuchungen und Spezialleistungen nachweislich seltener als Nicht-Migranten. Das GKV-Finanzierungsproblem (Lücke von ~51 Mrd. €) hat strukturelle Ursachen: alternde Gesellschaft, teure Medizintechnik und Überversorgung bei Krankenhäusern.
+  Antwort: Asylbewerber erhalten in den ersten 36 Monaten nur eine stark eingeschränkte medizinische Versorgung, vor allem für akute Erkrankungen, chronische Krankheiten, Schwangerschaft, empfohlene Vorsorgen und Impfungen. Das eigentliche GKV-Finanzierungsproblem hat strukturelle Ursachen wie alternde Bevölkerung, hohe Ausgaben und ineffiziente Strukturen – nicht die medizinische Versorgung von Geflüchteten.
 - Aussage: Psychische Krankheiten sind nur Einbildung / Modeerscheinung
-  Antwort: Psychische Erkrankungen sind medizinisch genauso real wie körperliche. Etwa 17,8 Millionen Erwachsene in Deutschland sind jährlich betroffen – jeder Vierte. Im ersten Halbjahr 2025 stiegen die Fallzahlen um weitere 3,4 %. Depressionen, Angststörungen und Burnout sind inzwischen eine der häufigsten Ursachen für Arbeitsunfähigkeit und Frühverrentung. Die scheinbare 'Zunahme' erklärt sich auch durch bessere Diagnostik und geringere Stigmatisierung – nicht dadurch, dass sich mehr Menschen etwas einbilden. Der eigentliche Skandal: Von 48.000 approbierten Therapeuten dürfen nur 32.500 mit Krankenkassen abrechnen.
+  Antwort: Psychische Erkrankungen sind medizinisch genauso real wie körperliche. Im ersten Halbjahr 2025 stiegen die Fallzahlen in Psychotherapie und Psychiatrie weiter um 3,4 %, in der Kinder- und Jugendpsychiatrie sogar um 5,7 %. Die Versorgung hinkt dem Bedarf seit Jahren hinterher.
 - Aussage: Homöopathie/Alternativmedizin sollte von der Kasse bezahlt werden
-  Antwort: Für homöopathische Mittel gibt es nach aktuellem wissenschaftlichem Konsens keine belastbaren Belege für eine Wirkung über den Placeboeffekt hinaus. Bei hochpotenzierten Mitteln ist oft kein einziges Molekül der Ausgangssubstanz mehr nachweisbar. Systematische Reviews (u.a. Shang et al.) zeigen: Die positiven Studien sind überwiegend klein, methodisch schwach und nicht reproduzierbar. Gleichzeitig fehlen 1.600 bis 7.000 Kassensitze für Psychotherapeuten und die Wartezeit auf einen Therapieplatz beträgt 142 Tage. Kassengelder sollten evidenzbasiert eingesetzt werden – dort, wo nachweislich Wirkung erzielt wird.
+  Antwort: Für homöopathische Mittel gibt es nach aktuellem wissenschaftlichem Konsens keine belastbaren Belege für eine Wirkung über den Placeboeffekt hinaus. Kassengelder sollten deshalb evidenzbasiert eingesetzt werden, gerade in einem System mit klaren Versorgungsengpässen etwa bei Psychotherapie und Pflege.
 - Aussage: Es gibt zu viele Krankenhäuser
-  Antwort: Da ist tatsächlich etwas dran: Mit 7,6 Betten pro 10.000 Einwohner hat Deutschland die zweithöchste Krankenhausdichte in Europa – bei nur 72 % Auslastung. Zum Vergleich: Dänemark und die Niederlande kommen mit je 2,4 Betten aus. Seit 2000 hat Deutschland seine Bettenzahl nur um 13 % reduziert, während Finnland und Dänemark um über 40 % reduzierten. Aber: 'Weniger' heißt nicht automatisch 'besser'. Es braucht Spezialisierung und Vernetzung, nicht blindes Schließen. Besonders in ländlichen Regionen muss die Erreichbarkeit gewährleistet bleiben. Die Krankenhausreform versucht genau diesen Spagat – wurde aber 2025/26 bereits abgeschwächt.
+  Antwort: Da ist tatsächlich etwas dran: Deutschland hat viele Krankenhausbetten und eine vergleichsweise niedrige Bettenauslastung. Aber 'weniger' heißt nicht automatisch 'besser'. Es braucht Spezialisierung, Vernetzung und gleichzeitig Erreichbarkeit – besonders in ländlichen Regionen. Genau diesen Spagat versucht die Krankenhausreform.
 - Aussage: Die Pharmaindustrie macht uns absichtlich krank
   Antwort: Diese Verschwörungstheorie hält keiner Prüfung stand. Medikamente durchlaufen strenge Zulassungsverfahren (EMA, BfArM) mit klinischen Studien in mehreren Phasen. Die Pharmabranche verdient an Behandlungen – aber das liegt am Geschäftsmodell, nicht an absichtlicher Schadenszufügung. Berechtigte Kritik gibt es an hohen Medikamentenpreisen, aggressivem Marketing und mangelnder Transparenz bei Studien. Die Lösung ist aber mehr Regulierung und unabhängige Forschung, nicht das Ablehnen evidenzbasierter Medizin. Tatsächlich zeigt Deutschlands System ein anderes Problem: Zu wenig Investition in Prävention (nur 5 % der Ausgaben) und zu viel Fokus auf Behandlung.
 
 ### Quellen
 
-- OECD – Health at a Glance 2025 (https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en.html)
-- GKV-Schätzerkreis – Prognose 2025/2026 (https://www.bundesamtsozialesicherung.de/)
-- Bundesgesundheitsministerium – Krankenhausreform (https://www.bundesgesundheitsministerium.de/)
-- Spiegel / Doctolib – Wartezeiten-Analyse GKV vs. PKV (2025)
+- OECD – Health at a Glance 2025 (https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/health-expenditure-per-capita_affe6b0a.html)
+- GKV-Schätzerkreis – Prognose 2025/2026 (https://www.bundesamtsozialesicherung.de/de/service/newsroom/detail/gkv-schaetzerkreis-schaetzt-die-finanziellen-rahmenbedingungen-der-gesetzlichen-krankenversicherung-fuer-die-jahre-2025-und-2026/)
+- Bundesgesundheitsministerium – Krankenhausreform (https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-krankenhausreformanpassungsgesetz-pm-06-03-2026)
+- Spiegel / Doctolib – Wartezeiten-Analyse GKV vs. PKV (2025) (https://cdn.prod.www.spiegel.de/stories/207901/index.amp.html)
 - Statistisches Bundesamt – Pflegekräfte-Prognose bis 2049 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html)
 - Statistisches Bundesamt – Krankenhausstatistik 2024 (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/Tabellen/eckzahlen-krankenhaeuser.html)
-- Zi-Trendreport Psychotherapie 2025 (https://www.monitor-versorgungsforschung.de/)
-- RKI – Gesundheitsberichterstattung Präventionsausgaben (https://www.gbe.rki.de/)
-- GKV-Spitzenverband – Präventionsbericht 2025 (https://www.gkv-spitzenverband.de/)
+- Zi-Trendreport Psychotherapie 2025 (https://www.monitor-versorgungsforschung.de/news/zi-trendreport-fuer-das-1-halbjahr-2025-weiter-steigende-fallzahlen-in-psychotherapie-und-psychiatrie/)
+- RKI – Gesundheitsberichterstattung Präventionsausgaben (https://www.gbe.rki.de/DE/Themen/Rahmenbedingungen/PolitischeRahmenbedingungen/GesetzlicheGrundlagen/Praeventionsausgaben/praeventionsausgaben_node.html)
+- GKV-Spitzenverband – Präventionsbericht 2025 (https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp)
 - Mediendienst Integration – Gesundheitsversorgung Geflüchteter (https://mediendienst-integration.de/bevoelkerung/gesundheit-von-migranten/gesundheitsversorgung-von-fluechtlingen/)

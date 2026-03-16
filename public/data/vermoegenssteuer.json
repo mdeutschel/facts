@@ -7,10 +7,10 @@
   "keyStats": [
     "Das reichste 1 % besitzt mindestens 26 % des Vermögens",
     "Nur ~1 % BIP vermögensbezogene Steuern (OECD: 1,9 %)",
-    "Milliardenerben zahlen effektiv 0,1–1,8 % Erbschaftsteuer",
+    "Große Unternehmensvermögen werden bei Erbschaften oft stark begünstigt",
     "11 Argumente"
   ],
-  "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin, der Deutschen Bundesbank (PHF 2023), des Statistischen Bundesamtes, der OECD Revenue Statistics und der FES-Studie 2022.",
+  "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin, der Deutschen Bundesbank (PHF 2023), des Statistischen Bundesamtes, der OECD Revenue Statistics, der OECD Germany Survey und der FES-Studie 2022.",
   "sections": [
     {
       "id": "verteilung",
@@ -36,18 +36,11 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "0,724", "label": "Gini-Koeffizient", "sublabel": "Vermögen (Bundesbank PHF 2023)" },
-            { "value": "103.100 €", "label": "Medianvermögen", "sublabel": "pro Haushalt (2023)" },
-            { "value": "324.800 €", "label": "Durchschnitt", "sublabel": "3,15× so hoch wie Median" },
-            { "value": "256", "label": "Milliardäre", "sublabel": "in Deutschland (Rekord, 2025)" }
+            { "value": "0,72", "label": "Gini-Koeffizient", "sublabel": "Vermögen (Bundesbank PHF 2023)" },
+            { "value": "103.200 €", "label": "Medianvermögen", "sublabel": "pro Haushalt (2023)" },
+            { "value": "324.800 €", "label": "Durchschnitt", "sublabel": "3,15× so hoch wie Median" }
           ],
-          "sourceRefs": [1, 2, 11]
-        },
-        {
-          "type": "fact",
-          "text": "In Deutschland ist der Anteil geerbter Milliardärsvermögen deutlich höher als im globalen Schnitt. Laut UBS-Report 2024 waren global 60 % der neuen Milliardäre Selfmade — in Europa dominieren dagegen Mehrgenerationen-Vermögen.",
-          "highlight": true,
-          "sourceRefs": [12]
+          "sourceRefs": [1, 2]
         }
       ]
     },
@@ -58,7 +51,7 @@
         {
           "type": "text",
           "text": "Bei der Vermögensverteilung zeigt sich ein paradoxes Bild: Deutschland ist eine der größten Volkswirtschaften der Welt, liegt beim Medianvermögen (dem Vermögen des 'typischen' Haushalts) aber deutlich hinter südeuropäischen Ländern. Der Hauptgrund: Die extrem niedrige Wohneigentumsquote in Deutschland.",
-          "sourceRefs": [2, 13]
+          "sourceRefs": [2, 12]
         },
         {
           "type": "table",
@@ -70,7 +63,7 @@
             ["Frankreich", "~134.000 €", "58 %"],
             ["Deutschland", "~103.000 €", "42 %"]
           ],
-          "sourceRefs": [2, 13]
+          "sourceRefs": [2, 12]
         },
         {
           "type": "stat_grid",
@@ -82,9 +75,9 @@
         },
         {
           "type": "fact",
-          "text": "Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Die niedrige Eigentumsquote (42 %) macht den 'typischen' deutschen Haushalt ärmer als den spanischen — obwohl Deutschland ein deutlich höheres BIP pro Kopf hat.",
+          "text": "Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Ein wichtiger Faktor dafür ist die niedrige Eigentumsquote (42 %), durch die der 'typische' deutsche Haushalt beim Medianvermögen hinter Ländern wie Spanien liegt.",
           "highlight": true,
-          "sourceRefs": [2, 13]
+          "sourceRefs": [2, 12]
         }
       ]
     },
@@ -112,22 +105,10 @@
           "sourceRefs": [7]
         },
         {
-          "type": "table",
-          "caption": "OECD-Länder mit Netto-Vermögensteuer (Stand 2025)",
-          "headers": ["Land", "Freibetrag (ca.)", "Steuersatz", "Aufkommen"],
-          "rows": [
-            ["Schweiz", "~250.000 CHF", "0,13–1,01 % (kantonal)", "~7 Mrd. CHF/J. (~1 % BIP)"],
-            ["Norwegen", "~1,7 Mio. NOK", "0,95–1,1 %", "~12 Mrd. NOK/J."],
-            ["Spanien", "700.000 €", "0,2–3,5 % (+ Solidaritätsabgabe)", "~1,2 Mrd. €/J."],
-            ["Kolumbien", "~200 Mio. COP", "0,5–1,5 %", "—"]
-          ],
-          "sourceRefs": [7, 14]
-        },
-        {
           "type": "fact",
-          "text": "Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch abgeschafft — das Gesetz gilt aber formal bis heute weiter.",
+          "text": "Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch ausgesetzt — das Vermögensteuergesetz gilt formal bis heute weiter.",
           "highlight": true,
-          "sourceRefs": [7, 14]
+          "sourceRefs": [7, 11]
         }
       ]
     },
@@ -141,7 +122,7 @@
             { "value": "13,3 Mrd. €", "label": "Aufkommen", "sublabel": "festgesetzt 2024 (Rekord)" },
             { "value": "300–400 Mrd.", "label": "jährl. Erbvolumen", "sublabel": "davon nur 113 Mrd. steuerlich erfasst" },
             { "value": "~7,8 Mrd. €", "label": "Mindereinnahmen/J.", "sublabel": "durch Betriebsvermögens-Verschonung" },
-            { "value": "~3 %", "label": "Effektiver Ø-Satz", "sublabel": "auf alle Erbschaften" }
+            { "value": "niedrig", "label": "Effektiver Ø-Satz", "sublabel": "je nach Bezugsbasis unterschiedlich" }
           ],
           "sourceRefs": [3, 5]
         },
@@ -163,18 +144,6 @@
           "sourceRefs": [3]
         },
         {
-          "type": "table",
-          "caption": "Effektiver Erbschaftsteuersatz nach Vermögensgröße",
-          "headers": ["Vermögensklasse", "Effektiver Steuersatz", "Anmerkung"],
-          "rows": [
-            ["Erbschaften < 200.000 €", "Ø 14 %", "Freibeträge oft ausgeschöpft"],
-            ["Erbschaften < 20 Mio. €", "> 6 %", "Wenig Verschonungsmöglichkeiten"],
-            ["Multimillionen-/Milliardenvermögen (Ø 2021–2024)", "Ø 1,8 %", "Betriebsvermögensverschonung"],
-            ["Multimillionen-/Milliardenvermögen (2023)", "0,1 %", "Fast vollständige Befreiung"]
-          ],
-          "sourceRefs": [5, 6]
-        },
-        {
           "type": "fact",
           "text": "0,7 % der Steuerpflichtigen erhalten 32 % aller erfassten Übertragungen — und 68 % aller steuerbefreiten Unternehmensübertragungen. Kleine Erben zahlen prozentual mehr als Milliardenerben.",
           "highlight": true,
@@ -182,12 +151,12 @@
         },
         {
           "type": "fact",
-          "text": "2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,5 Mrd. € Erbschaftsteuer erlassen — bei ~26 Mrd. € übertragenem Vermögen. Das sind 94 % Steuererlass.",
+          "text": "2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,38 Mrd. € Erbschaftsteuer erlassen. Das zeigt, wie stark einzelne Großübertragungen privilegiert werden.",
           "sourceRefs": [5]
         },
         {
           "type": "text",
-          "text": "Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung durch das BVerfG wird 2026 erwartet.",
+          "text": "Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung ist seit 2022 anhängig.",
           "sourceRefs": [9, 10]
         }
       ]
@@ -227,13 +196,13 @@
         },
         {
           "type": "fact",
-          "text": "Die Erbschaftsteuer bringt weniger ein als die Tabaksteuer — obwohl jährlich bis zu 400 Milliarden Euro vererbt werden.",
+          "text": "Die Erbschaftsteuer bringt trotz sehr hoher jährlicher Vermögensübertragungen nur einen vergleichsweise kleinen Teil des Steueraufkommens ein.",
           "highlight": true,
           "sourceRefs": [3]
         },
         {
           "type": "text",
-          "text": "In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut FES-Studie erhielten 220 Kinder unter 14 Jahren zusammen 43 Mrd. Euro steuerbefreites Betriebsvermögen (durchschnittlich ~200 Mio. € pro Kind).",
+          "text": "In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut einer FES-Auswertung profitieren auch sehr junge Erben von weitreichenden Steuerbefreiungen bei großen Unternehmensvermögen.",
           "sourceRefs": [5, 6]
         }
       ]
@@ -278,7 +247,7 @@
         },
         {
           "type": "fact",
-          "text": "IWF und OECD empfehlen Deutschland die Einführung einer Vermögensteuer: Sie sei 'weniger verzerrend' als die bestehenden hohen Steuern auf Arbeitseinkommen.",
+          "text": "OECD und andere internationale Institutionen empfehlen Deutschland seit Jahren, vermögensbezogene Steuern stärker zu nutzen und die hohe Belastung von Arbeit zu verringern.",
           "sourceRefs": [8]
         }
       ]
@@ -297,20 +266,20 @@
             { "label": "2006", "value": "BVerfG gibt 'Halbteilungsgrundsatz' auf", "sublabel": "Keine starre 50-%-Obergrenze für Gesamtbelastung" },
             { "label": "2014", "value": "BVerfG: Erbschaftsteuer-Privilegien verfassungswidrig", "sublabel": "Reform 2016 ließ Kernprivilegien bestehen" },
             { "label": "2025", "value": "Grundsteuer-Reform in Kraft", "sublabel": "Erstmals aktuelle Immobilienbewertungen — Grundlage für Vermögensteuer" },
-            { "label": "2026", "value": "BVerfG prüft erneut Erbschaftsteuer-Privilegien", "sublabel": "Az. 1 BvR 804/22 — Entscheidung erwartet" }
+            { "label": "seit 2022 anhängig", "value": "Erneute verfassungsrechtliche Prüfung der Erbschaftsteuer-Privilegien", "sublabel": "Az. 1 BvR 804/22" }
           ],
-          "sourceRefs": [10]
+          "sourceRefs": [10, 11]
         },
         {
           "type": "fact",
           "text": "Das BVerfG hat die Vermögensteuer NICHT für verfassungswidrig erklärt — nur die damalige Bewertungsmethode. Das Vermögensteuergesetz ist formal noch in Kraft. Für eine Wiedereinführung genügt ein einfaches Bundesgesetz (+ Bundesratszustimmung).",
           "highlight": true,
-          "sourceRefs": [10]
+          "sourceRefs": [10, 11]
         },
         {
           "type": "text",
-          "text": "Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Durch die 2025 in Kraft getretene Grundsteuer-Reform existiert erstmals eine aktuelle Immobilienbewertung — das Haupthindernis von 1995 ist damit beseitigt.",
-          "sourceRefs": [10]
+          "text": "Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Die seit 2025 wirksame Grundsteuer-Reform schafft zudem eine deutlich aktuellere Immobilienbewertung als früher, was eine verfassungskonforme Ausgestaltung erleichtern kann.",
+          "sourceRefs": [10, 11]
         }
       ]
     }
@@ -319,28 +288,28 @@
     {
       "id": "hochsteuerland",
       "claim": "Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!",
-      "response": "Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) gehört Deutschland tatsächlich zur Weltspitze. Bei den vermögensbezogenen Steuern liegt Deutschland mit nur ~1 % des BIP aber bei etwa der Hälfte des OECD-Durchschnitts (1,9 %). UK erhebt knapp 4 %, die USA ~3 %. Gerade weil Arbeit so hoch belastet ist, wäre eine Verlagerung hin zu Vermögenssteuern ökonomisch sinnvoll — auch IWF und OECD empfehlen das.",
+      "response": "Bei Steuern und Abgaben auf Arbeit liegt Deutschland hoch. Bei den vermögensbezogenen Steuern liegt Deutschland mit rund 1 % des BIP dagegen klar unter dem OECD-Durchschnitt von 1,9 %. Viele internationale Vergleiche zeigen: Eine stärkere Besteuerung großer Vermögen kann helfen, Arbeitseinkommen im Gegenzug weniger stark zu belasten.",
       "keywords": ["Hochsteuerland", "Steuerlast", "OECD", "Abgaben", "zu hoch"],
       "relatedSections": ["oecd-vergleich"]
     },
     {
       "id": "neidsteuer",
       "claim": "Das ist doch reine Neidsteuer! Typisch deutsche Neidgesellschaft!",
-      "response": "Es geht nicht um Neid, sondern um Chancengerechtigkeit. In Europa dominieren Mehrgenerationen-Vermögen unter Milliardären — deutlich stärker als in den USA oder Asien. Über 50 % des Privatvermögens ist geerbt, nicht selbst erarbeitet. Wenn Geburt wichtiger wird als Leistung, ist das kein Neidproblem — sondern ein Gerechtigkeitsproblem. Auch die Schweiz, Norwegen und Spanien haben eine Vermögensteuer, ohne als 'Neidgesellschaften' zu gelten.",
+      "response": "Es geht nicht um Neid, sondern um Chancengerechtigkeit. Ein großer Teil sehr großer Vermögen wird geerbt, nicht neu aufgebaut. Wenn Vermögenskonzentration über Generationen hinweg zunimmt und große Erbschaften steuerlich stark privilegiert werden, ist das eine Frage der fairen Verteilung von Chancen. Vermögensteuern oder strengere Erbschaftsteuern sind deshalb kein exotischer Sonderweg.",
       "keywords": ["Neid", "Neidsteuer", "Neidgesellschaft", "Missgunst", "gönnen"],
       "relatedSections": ["verteilung", "erbengesellschaft"]
     },
     {
       "id": "familienunternehmen",
       "claim": "Eine Vermögenssteuer zerstört unsere Familienunternehmen und den Mittelstand!",
-      "response": "Alle aktuellen Modelle sehen hohe Freibeträge vor (mindestens 1–2 Mio. €, teils bis 100 Mio. €). Echte Mittelständler wären kaum betroffen. Die Realität: 64 % des begünstigten Erbvermögens landet bei wenigen hundert Überreichen (Durchschnitt: 70 Mio. € pro Person). Es geht nicht um die Bäckerei, sondern um die BMW-Erben. Zudem: Wer ein Unternehmen kauft, muss den vollen Preis aus eigener Tasche zahlen — nur Erben bekommen es geschenkt.",
+      "response": "Seriöse Modelle arbeiten mit hohen Freibeträgen und zielen auf sehr große Vermögen. Die besonders großzügigen Privilegien im Erbschaftsteuerrecht kommen heute vor allem bei sehr großen Unternehmensvermögen zum Tragen, nicht bei typischen kleinen Betrieben. Entscheidend ist daher die Ausgestaltung: Kleine und mittlere Betriebe lassen sich schützen, ohne milliardenschwere Übertragungen pauschal zu verschonen.",
       "keywords": ["Mittelstand", "Familienunternehmen", "Betriebsvermögen", "Wirtschaft", "Arbeitsplätze", "Bäckerei"],
       "relatedSections": ["erbschaftssteuer", "aufkommen"]
     },
     {
       "id": "abwanderung",
       "claim": "Die Reichen wandern dann einfach ins Ausland ab!",
-      "response": "Massenhafte Abwanderung ist ein Mythos. Studien (u.a. NBER 2024) zeigen kaum Einfluss von Vermögenssteuern auf Wohnsitzentscheidungen. Die meisten Vermögenden sind lokal verwurzelt — Immobilien, Unternehmen, Netzwerke, Kinder in der Schule. In Deutschland belegenes Vermögen bleibt ohnehin steuerpflichtig. Die Schweiz hat eine Vermögensteuer und ist trotzdem das beliebteste Ziel für Reiche. Zudem gibt es eine Wegzugsbesteuerung, die den steuerfreien Vermögenstransfer verhindert.",
+      "response": "Abwanderungsrisiken gibt es, aber sie werden oft überschätzt. Wohnsitzentscheidungen hängen nicht nur von einer Steuer ab, sondern auch von Unternehmen, Familie, Infrastruktur und Rechtssicherheit. Zudem kann der Gesetzgeber Wegzugs- und Missbrauchsregeln so ausgestalten, dass reine Steuergestaltung erschwert wird.",
       "keywords": ["Abwanderung", "Ausland", "Flucht", "Schweiz", "Wegzugsbesteuerung", "Monaco"],
       "relatedSections": ["oecd-vergleich"]
     },
@@ -368,28 +337,28 @@
     {
       "id": "verwaltungskosten",
       "claim": "Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!",
-      "response": "Ein Argument aus den 1990er Jahren. Durch Digitalisierung, automatisierten Informationsaustausch und die aktualisierte Immobilienbewertung der Grundsteuer-Reform 2025 wäre der Verwaltungsaufwand deutlich geringer als früher. Die Erhebungskosten liegen bei unter 2–5 % der Einnahmen — vergleichbar mit der Einkommensteuer. Die Schweiz erhebt die Vermögensteuer seit über 100 Jahren effizient auf Kantonsebene.",
+      "response": "Das Verwaltungsargument ist heute schwächer als in den 1990ern. Durch Digitalisierung, Informationsaustausch und die reformierte Immobilienbewertung sind die Voraussetzungen deutlich besser. Entscheidend ist aber auch hier das Design: hohe Freibeträge und klare Bewertungsregeln halten den Aufwand beherrschbar.",
       "keywords": ["Verwaltungskosten", "Bürokratie", "Aufwand", "Erhebung", "Finanzamt", "lohnt sich nicht"],
       "relatedSections": ["oecd-vergleich", "verfassung"]
     },
     {
       "id": "leistung-erbe",
       "claim": "Erbschaftsteuer bestraft Leistung und zerstört Lebenswerke!",
-      "response": "Erben ist keine eigene Leistung — die Leistung hat der Erblasser erbracht. Von den 300–400 Mrd. € die jährlich vererbt werden, werden nur 113 Mrd. steuerlich erfasst. Der effektive Steuersatz liegt bei 2–3 %. Schlimmer: Milliardenerben zahlen effektiv nur 0,1–1,8 %, während normale Erben bis zu 14 % zahlen. 220 Kinder unter 14 Jahren erhielten zusammen 43 Mrd. € steuerbefreites Betriebsvermögen. Das 'Lebenswerk'-Argument schützt in Wahrheit dynastische Privilegien.",
+      "response": "Erben ist keine eigene Leistung. Gleichzeitig werden große Unternehmensvermögen im geltenden Recht oft weit stärker geschont als normale Erbschaften. Dadurch wird Vermögenskonzentration über Generationen eher verstärkt als abgemildert. Wer kleine und mittlere Erbschaften schützen will, kann Freibeträge hoch halten und Privilegien an der Spitze gezielter abbauen.",
       "keywords": ["Leistung", "Lebenswerk", "hart gearbeitet", "bestraft", "unfair", "verdient"],
       "relatedSections": ["erbschaftssteuer", "erbengesellschaft"]
     },
     {
       "id": "investitionen-flucht",
       "claim": "Investitionen fließen ab und Firmen gehen ins Ausland!",
-      "response": "Standortentscheidungen hängen von dutzenden Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte. Die Schweiz, Norwegen und Spanien haben eine Vermögensteuer — und blühen wirtschaftlich. In Deutschland belegenes Betriebsvermögen kann nicht einfach 'abfließen'. Studien zeigen: Kapitalsteuern beeinflussen Investitionsentscheidungen weit weniger als Lohnnebenkosten, Energiepreise oder Bürokratie.",
+      "response": "Standortentscheidungen hängen von vielen Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte und Energiekosten. Eine Vermögensteuer allein entscheidet selten über Investitionen. Wichtig ist daher, sehr große private Vermögen zu adressieren, ohne produktive Unternehmensinvestitionen unnötig zu belasten.",
       "keywords": ["Investitionen", "Kapitalflucht", "Standort", "Deindustrialisierung", "abwandern"],
       "relatedSections": ["oecd-vergleich"]
     },
     {
       "id": "privatsache",
       "claim": "Erben ist Privatsache — der Staat hat da nichts zu suchen!",
-      "response": "Art. 14 GG garantiert das Eigentumsrecht — enthält aber ausdrücklich die Sozialpflichtigkeit des Eigentums. Große Erbschaften entstehen nicht im Vakuum: Sie basieren auf Infrastruktur, Bildungssystem, Rechtsstaat und sozialer Stabilität, die von der Allgemeinheit finanziert werden. Wenn 0,7 % der Steuerpflichtigen 68 % aller steuerbefreiten Firmenvermögen erhalten, ist das keine Privatsache — es betrifft die Chancen aller.",
+      "response": "Art. 14 GG garantiert Eigentum, betont aber auch dessen Sozialpflichtigkeit. Große Erbschaften entstehen nicht losgelöst von staatlich finanzierter Infrastruktur, Bildung und Rechtssicherheit. Deshalb ist ihre Besteuerung keine unzulässige Einmischung, sondern Teil legitimer Verteilungspolitik in einem Sozialstaat.",
       "keywords": ["Privatsache", "geht den Staat nichts an", "Eigentumsrecht", "Freiheit", "mein Geld"],
       "relatedSections": ["erbengesellschaft", "verfassung"]
     }
@@ -432,16 +401,16 @@
       "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/30-subventionsbericht.html"
     },
     {
-      "label": "BVerfG: Beschluss vom 22.6.1995 (2 BvL 37/91, BVerfGE 93, 121)",
-      "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BVerfG&Datum=22.06.1995&Aktenzeichen=2+BvL+37/91"
+      "label": "BVerfG: Beschluss vom 22.6.1995 zur Vermögensteuer",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1995/06/rs19950622_2bvr055291.html"
     },
     {
-      "label": "Capgemini World Wealth Report 2025 — HNWI-Statistiken",
-      "url": "https://www.capgemini.com/insights/research-library/world-wealth-report/"
+      "label": "Gesetze im Internet – Vermögensteuergesetz (VStG)",
+      "url": "https://www.gesetze-im-internet.de/vstg_1974/"
     },
     {
-      "label": "UBS Billionaire Ambitions Report 2024",
-      "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20241205-billionaire-ambitions-report-2024.html"
+      "label": "Eurostat – Housing in Europe 2024",
+      "url": "https://ec.europa.eu/eurostat/web/interactive-publications/housing-2024"
     },
     {
       "label": "EZB: Household Finance and Consumption Survey (HFCS), Wave 2021",

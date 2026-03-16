@@ -5,65 +5,65 @@
   "icon": "heat_pump",
   "lastUpdated": "2026-03",
   "keyStats": [
-    "21,6 Mio. Heizungen",
-    "75 % fossil",
-    "WP spart 12.000–22.500 €",
+    "21,7 Mio. Heizungen",
+    "Drei Viertel heizen mit Gas oder Öl",
+    "69,4 % WP im Neubau 2024",
     "9 Argumente"
   ],
-  "sourceNote": "Quellen: Fraunhofer ISE (2025), BWP, BDH, BDEW, Destatis, Verbraucherzentrale, DIW Berlin, EWI Köln, Öko-Institut, VKU, ADAC, MVV",
+  "sourceNote": "Quellen: Fraunhofer ISE (2025), BWP, BDH, BDEW, Destatis, Verbraucherzentrale, DIW Berlin, EWI Köln, Öko-Institut, VKU, MVV, KfW, EHPA und TA Lärm (Stand März 2026).",
   "sections": [
     {
       "id": "status-quo",
       "title": "Status Quo",
       "content": [
-        { "type": "fact", "text": "21,6 Mio. Heizungen in Deutschland", "highlight": true },
-        { "type": "fact", "text": "75 % fossil (Gas 56 %, Öl 17 %)", "highlight": true },
-        { "type": "fact", "text": "10 Mio. technisch veraltet" },
-        { "type": "fact", "text": "Wärmepumpen-Anteil im Bestand: nur 4,4 %" },
-        { "type": "fact", "text": "75 % der Ölheizungen und 65 % der Gasheizungen sind älter als 20 Jahre (Schornsteinfeger-Erhebung)" },
-        { "type": "fact", "text": "Im Neubau 2024: bereits 69 % Wärmepumpe", "highlight": true }
+        { "type": "fact", "text": "21,7 Mio. Heizungen in Deutschland", "highlight": true, "sourceRefs": [4] },
+        { "type": "fact", "text": "Drei Viertel der Wohnungen werden mit Gas oder Öl beheizt (Gas 56 %, Öl 19 %; Zensus 2022).", "highlight": true, "sourceRefs": [4] },
+        { "type": "fact", "text": "Über die Hälfte der Heizungen gilt als veraltet; mehr als 4 Mio. sind älter als 30 Jahre.", "sourceRefs": [16] },
+        { "type": "fact", "text": "Wärmepumpen-Anteil im Bestand: nur 4,4 %", "sourceRefs": [4] },
+        { "type": "fact", "text": "2024 nutzten 69,4 % der fertiggestellten Wohngebäude primär Wärmepumpen.", "highlight": true, "sourceRefs": [5] },
+        { "type": "fact", "text": "Bei den Baugenehmigungen für Wohngebäude lagen Wärmepumpen 2024 sogar bei 81,0 %.", "sourceRefs": [5] }
       ]
     },
     {
       "id": "kostenvergleich",
-      "title": "Kostenvergleich: 120 m² Bestandshaus, 20 Jahre",
+      "title": "Kostenvergleich: Was man seriös vergleichen kann",
       "content": [
         {
           "type": "text",
-          "text": "Annahmen: 15.000 kWh/a Heizwärme | LW-WP JAZ 3,4 / Gas 95 % | WP-Strom 28 ct/kWh / Gas 12 ct/kWh | CO₂ ab 2028 ETS 2 marktbasiert | Förderung WP 50 % (Basis + Speed) | Netzentgelt Gas +3 %/a | Bio-Treppe ab 2029 (GMG) | Ölheizung auf ähnlichem Niveau wie Gas, mit stärkerem CO₂-Effekt"
+          "text": "Seriöse Gesamtkostenvergleiche hängen stark vom Gebäude, vom bisherigen Heizsystem, vom Wärmebedarf, von Strom- und Gaspreisen sowie von Förderbedingungen ab. Aussagen mit festen 20-Jahres-Summen sind ohne offengelegte Rechenmethodik wenig belastbar."
         },
         {
           "type": "comparison",
-          "caption": "20-Jahres-Vergleich: 120 m² Bestandshaus",
+          "caption": "Typische Kostentreiber im Vergleich",
           "items": [
             {
               "title": "Gasheizung (Brennwert)",
               "color": "#546e7a",
               "rows": [
-                { "label": "Eigenanteil", "value": "11.000 €" },
-                { "label": "Heizkosten Jahr 1", "value": "~1.890 €/a" },
-                { "label": "CO₂-Abgabe Jahr 1", "value": "~110 €" },
-                { "label": "Kostenrisiken 20 J.", "value": "+5.100–13.500 €" }
+                { "label": "Anschaffung", "value": "oft zunächst günstiger" },
+                { "label": "Brennstoffkosten", "value": "abhängig vom Gaspreis" },
+                { "label": "CO₂-Kosten", "value": "steigen mit dem CO₂-Preis" },
+                { "label": "Infrastruktur-Risiko", "value": "abhängig von Netz- und Regulierungspfaden" }
               ],
-              "total": { "label": "GESAMT 20 JAHRE", "value": "54.000–67.000 €" }
+              "total": { "label": "Gesamtkosten", "value": "stark szenarioabhängig" }
             },
             {
               "title": "Wärmepumpe (Luft-Wasser)",
               "color": "#00897b",
               "rows": [
-                { "label": "Eigenanteil (nach Förderung)", "value": "12.500 €" },
-                { "label": "Heizkosten Jahr 1", "value": "~1.430 €/a" },
-                { "label": "CO₂-Abgabe", "value": "0 €" },
-                { "label": "Preisrisiken 20 J.", "value": "+800–2.000 €" }
+                { "label": "Anschaffung", "value": "oft höher, aber förderfähig" },
+                { "label": "Betriebskosten", "value": "abhängig von Strompreis und Effizienz" },
+                { "label": "CO₂-Kosten", "value": "keine direkte fossile CO₂-Abgabe" },
+                { "label": "Systemvorteil", "value": "kombinierbar mit PV und variablen Tarifen" }
               ],
-              "total": { "label": "GESAMT 20 JAHRE", "value": "42.000–44.500 €" }
+              "total": { "label": "Gesamtkosten", "value": "ebenfalls objektabhängig" }
             }
           ],
-          "savings": "Ersparnis Wärmepumpe: 12.000–22.500 € über 20 Jahre"
+          "savings": "Belastbar ist nur der Vergleich konkreter Gebäude und konkreter Angebote."
         },
         {
           "type": "text",
-          "text": "Bandbreite: konservatives bis moderates Szenario. Quellen: EWI Köln (CO₂), DIW (Netzentgelte), GMG-Eckpunkte (Bio-Treppe). Mit PV: weitere 25–40 % Stromkosten-Senkung."
+          "text": "Für belastbare Einzelfallrechnungen sollten Förderhöhe, Vorlauftemperaturen, Gebäudestand und realistische Energiepreise transparent offengelegt werden."
         }
       ]
     },
@@ -76,27 +76,26 @@
           "caption": "CO₂-Preis-Fahrplan – der größte einzelne Kostentreiber",
           "steps": [
             { "label": "2025", "value": "55 EUR/t", "sublabel": "Festpreis" },
-            { "label": "2026–2027", "value": "55–65 EUR/t", "sublabel": "Preiskorridor" },
-            { "label": "2028", "value": "Marktbasiert", "sublabel": "ETS 2 Start", "highlight": true },
-            { "label": "~2030", "value": "100–250 EUR/t", "sublabel": "EWI-Szenario", "highlight": true },
-            { "label": "~2035", "value": "~160 EUR/t", "sublabel": "EWI-Mittelwert" },
-            { "label": "2045", "value": "Fossil = 0", "sublabel": "Verbot fossiler Brennstoffe", "highlight": true }
-          ]
+            { "label": "2026", "value": "55–65 EUR/t", "sublabel": "nationaler Korridor" },
+            { "label": "ab 2027", "value": "Marktbasiert", "sublabel": "ETS 2", "highlight": true },
+            { "label": "2030er", "value": "szenarioabhängig", "sublabel": "stark von Markt und Politik abhängig", "highlight": true },
+            { "label": "2045", "value": "klimaneutral", "sublabel": "Zielpfad für den Gebäudesektor" }
+          ],
+          "sourceRefs": [10]
         },
         {
           "type": "table",
           "headers": ["Jahr", "CO₂-Preis", "Mechanismus"],
           "rows": [
             ["2025", "55 EUR/t", "Festpreis"],
-            ["2026", "55–65 EUR/t", "Korridor"],
-            ["2027", "55–65 EUR/t", "Korridor bleibt (Koalitionsbeschluss)"],
-            ["2028", "marktbasiert", "ETS 2 Start"],
-            ["~2030", "100–250 EUR/t", "EWI-Szenario"],
-            ["~2035", "~160 EUR/t", "EWI-Mittelwert"],
-            ["2045", "Fossil = 0", "Verbot fossiler Brennstoffe"]
-          ]
+            ["2026", "55–65 EUR/t", "nationaler Korridor"],
+            ["ab 2027", "marktbasiert", "ETS 2"],
+            ["2030er", "szenarioabhängig", "Markt- und Politikpfad"],
+            ["2045", "klimaneutral", "Zielrichtung im Gebäudesektor"]
+          ],
+          "sourceRefs": [10]
         },
-        { "type": "fact", "text": "Bei 160 EUR/t (EWI-Mittel 2035) zahlt ein Gas-Haushalt (20.000 kWh) ca. 640 EUR/Jahr nur für CO₂ – heute sind es 110 EUR.", "highlight": true }
+        { "type": "fact", "text": "Bei 160 EUR/t CO₂ lägen die CO₂-Kosten für einen Gas-Haushalt mit 20.000 kWh bei rund 650 EUR pro Jahr; bei 55 EUR/t sind es rund 220 EUR.", "highlight": true, "sourceRefs": [8] }
       ]
     },
     {
@@ -105,7 +104,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Eine 2026 eingebaute Gasheizung läuft typischerweise 20 Jahre – also bis 2046. Ab 2045 ist fossiles Heizen aber verboten. Dazwischen: CO₂-Preis steigt (ETS 2 ab 2028), Bio-Treppe verteuert Gas ab 2029 (10 %, steigend auf 60 %), Gasnetz-Entgelte steigen bei schrumpfender Nutzerzahl. Unwirtschaftlich wird es mittendrin."
+          "text": "Eine 2026 eingebaute Gasheizung läuft oft zwei Jahrzehnte oder länger. In dieser Zeit steigen Preis- und Regulierungsrisiken: CO₂-Kosten werden marktabhängiger, Gasnetze stehen unter Transformationsdruck, und neue fossile Investitionen können wirtschaftlich schneller unattraktiv werden als geplant.",
+          "sourceRefs": [7, 8, 14]
         }
       ]
     },
@@ -116,26 +116,27 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "19 %", "label": "Stadtwerke", "sublabel": "planen Stilllegung" },
-            { "value": "46 %", "label": "noch ohne", "sublabel": "Entscheidung" },
-            { "value": "4 %", "label": "wollen auf", "sublabel": "H₂ umrüsten" },
-            { "value": "bis 10×", "label": "Netzentgelte", "sublabel": "Anstieg möglich", "color": "#b71c1c" }
-          ]
+            { "value": "48 %", "label": "Stadtwerke", "sublabel": "setzen auf Mix aus Fernwärme und Wärmepumpen" },
+            { "value": "38 %", "label": "hauptsächlich", "sublabel": "Strom/Wärmepumpen" },
+            { "value": "5 %", "label": "grüne Gase", "sublabel": "als Hauptlösung" },
+            { "value": "10 %", "label": "noch offen", "sublabel": "laut VKU-Umfrage", "color": "#b71c1c" }
+          ],
+          "sourceRefs": [6, 15, 18]
         },
         {
           "type": "table",
           "headers": ["Kennzahl", "Bedeutung"],
           "rows": [
-            ["19 %", "der Stadtwerke planen Gasnetz-Stilllegung bis 2045"],
-            ["46 %", "haben noch keine Entscheidung getroffen"],
-            ["4 %", "wollen auf Wasserstoff umrüsten"],
-            ["bis 10×", "möglicher Anstieg der Netzentgelte (DIW/Ofgem UK)"]
+            ["48 %", "setzen auf einen Mix aus Fernwärme und Wärmepumpen"],
+            ["38 %", "sehen hauptsächlich Strom und Wärmepumpen als Zielbild"],
+            ["5 %", "sehen grüne Gase als Hauptlösung"],
+            ["10 %", "haben ihr Zielbild noch nicht festgelegt"]
           ]
         },
-        { "type": "fact", "text": "Mannheim legt Gasnetz bis 2035 still (25.000 Haushalte). Augsburg, Hannover, Würzburg: 2040. München: 2045.", "highlight": true },
-        { "type": "fact", "text": "EU-Gasbinnenmarktrichtlinie: Netzbetreiber müssen bis 2026 Transformationspläne vorlegen." },
-        { "type": "fact", "text": "MVV Mannheim: H₂ im Hausnetz \u201enicht realisierbar\u201c." },
-        { "type": "fact", "text": "DIW: Je später der Rückbau beginnt, desto teurer. Ofgem (UK): Netzentgelte können sich verzehnfachen." }
+        { "type": "fact", "text": "MVV strebt an, das Gasnetz in Mannheim bis 2035 stillzulegen.", "highlight": true, "sourceRefs": [11] },
+        { "type": "fact", "text": "Die EU-Gasbinnenmarktrichtlinie verlangt eine vorausschauende Transformationsplanung für Gas- und Wasserstoffnetze.", "sourceRefs": [14] },
+        { "type": "fact", "text": "MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähige Alternativen.", "sourceRefs": [11] },
+        { "type": "fact", "text": "DIW warnt: Wenn Netze zu spät geordnet zurückgebaut werden, können die verbleibenden Kosten für Kundinnen und Kunden deutlich steigen.", "sourceRefs": [7] }
       ]
     },
     {
@@ -144,7 +145,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Forschungsprojekt „WP-QS im Bestand\u201c: 77 Wärmepumpen in Bestandsgebäuden (Baujahre 1826–2001), vier Jahre vermessen."
+          "text": "Forschungsprojekt „WP-QS im Bestand\u201c: 77 Wärmepumpen in Bestandsgebäuden (Baujahre 1826–2001), vier Jahre vermessen.",
+          "sourceRefs": [1]
         },
         {
           "type": "stat_grid",
@@ -153,7 +155,8 @@
             { "value": "JAZ 4,3", "label": "Erdwärme-WP", "sublabel": "Schnitt (3,6–5,4)" },
             { "value": "-64 %", "label": "CO₂-Einsparung", "sublabel": "vs. Gasheizung" },
             { "value": "0", "label": "Zusammenhang", "sublabel": "Baujahr↔Effizienz" }
-          ]
+          ],
+          "sourceRefs": [1]
         },
         {
           "type": "table",
@@ -163,10 +166,11 @@
             ["JAZ 4,3", "Erdwärme-WP im Schnitt (Bandbreite 3,6–5,4)"],
             ["-64 % CO₂", "vs. Gasheizung (2024), erstmals dynamisch bilanziert (viertelstündl. dt. Strommix)"],
             ["Kein Zusammenhang", "zwischen Baujahr und Effizienz"]
-          ]
+          ],
+          "sourceRefs": [1]
         },
-        { "type": "fact", "text": "Ausreichend dimensionierte Heizkörper können im Mittel mit ähnlich niedrigen Temperaturen betrieben werden wie Fußbodenheizungen. Entscheidend sind Heizkörpergröße und Hydraulik, nicht das Gebäudealter.", "highlight": true },
-        { "type": "fact", "text": "Mythos widerlegt: „Wärmepumpe braucht Fußbodenheizung und Vollsanierung\u201c – Fraunhofer ISE, November 2025" }
+        { "type": "fact", "text": "Ausreichend dimensionierte Heizkörper können im Mittel mit ähnlich niedrigen Temperaturen betrieben werden wie Fußbodenheizungen. Entscheidend sind Heizkörpergröße und Hydraulik, nicht das Gebäudealter.", "highlight": true, "sourceRefs": [1] },
+        { "type": "fact", "text": "Mythos widerlegt: „Wärmepumpe braucht Fußbodenheizung und Vollsanierung\u201c – Fraunhofer ISE, November 2025", "sourceRefs": [1] }
       ]
     },
     {
@@ -183,7 +187,8 @@
             { "label": "2023", "value": 356000 },
             { "label": "2024", "value": 193000 },
             { "label": "2025", "value": 299000 }
-          ]
+          ],
+          "sourceRefs": [2]
         },
         {
           "type": "table",
@@ -194,26 +199,26 @@
             ["2023", "356.000", "Rekord"],
             ["2024", "193.000", "-46 % (politische Verunsicherung)"],
             ["2025", "299.000", "+55 % vs. 2024"]
-          ]
+          ],
+          "sourceRefs": [2]
         },
-        { "type": "fact", "text": "H1/2025: Wärmepumpe erstmals Marktführer (47 % Marktanteil) vor Gas", "highlight": true },
-        { "type": "fact", "text": "Neubau: 84 % WP-Anteil bei Baugenehmigungen" },
-        { "type": "fact", "text": "80 % der neuen WP gehen in Bestandsgebäude" },
-        { "type": "fact", "text": "Industriekapazität: 500.000 Geräte/Jahr" },
+        { "type": "fact", "text": "2025 stellten Wärmepumpen erstmals knapp die Hälfte aller verkauften Wärmeerzeuger in Deutschland.", "highlight": true, "sourceRefs": [2, 3] },
+        { "type": "fact", "text": "2024 lagen Wärmepumpen bei den Baugenehmigungen für Wohngebäude bei 81,0 %.", "sourceRefs": [5] },
+        { "type": "fact", "text": "80 % der neuen WP gehen in Bestandsgebäude", "sourceRefs": [20] },
         { "type": "fact", "text": "Einbruch 2024 = politische Verunsicherung, nicht Technologieproblem" }
       ]
     },
     {
       "id": "gesetzeslage-gmg",
-      "title": "Gesetzeslage: GMG statt GEG (Eckpunkte 24.02.2026)",
+      "title": "Gesetzeslage: Reform und Preisrisiken",
       "content": [
-        { "type": "fact", "text": "65 %-Regel fällt: Neue Gas-/Ölheizungen wieder uneingeschränkt erlaubt." },
-        { "type": "fact", "text": "Bio-Treppe ab 2029: 10 % Bio-Anteil, steigend auf 30 % (2035), 60 % (2040). Biomethan: 3–5× teurer als Erdgas.", "highlight": true },
-        { "type": "fact", "text": "Grüngasquote 2028: Gasversorger müssen steigende Anteile Biomethan/H₂ beimischen. Genaue Quote offen." },
-        { "type": "fact", "text": "Klimawirkung: Öko-Institut: CO₂-Lücke wächst um 5–8 Mio. t/Jahr. Evaluation 2030 mit Nachsteuerungspflicht." },
+        { "type": "fact", "text": "Über die Reform der Gebäudeheizungsregeln wird 2026 politisch verhandelt." },
+        { "type": "fact", "text": "Belastbar ist vor allem: Der nationale CO₂-Preis endet 2026 im Korridor, ab 2027 greift ETS 2.", "highlight": true, "sourceRefs": [8] },
+        { "type": "fact", "text": "Wer heute neu fossil investiert, trägt deshalb Preis- und Infrastruktur-Risiken über viele Jahre.", "sourceRefs": [7, 8, 14] },
         {
           "type": "text",
-          "text": "Auch ohne Ordnungsrecht: CO₂-Preis + Gasnetz-Rückbau + Bio-Treppe machen Gas wirtschaftlich zum Auslaufmodell."
+          "text": "Auch ohne starres Ordnungsrecht bleiben CO₂-Kosten und Gasnetz-Transformation wichtige wirtschaftliche Risiken für neue fossile Heizungen.",
+          "sourceRefs": [7, 8, 14]
         }
       ]
     },
@@ -221,26 +226,25 @@
       "id": "wasserstoff",
       "title": "Wasserstoff als Heizung: Realitätscheck",
       "content": [
-        { "type": "fact", "text": "Nur 4 % der Stadtwerke planen H₂ für Haushalte. 96 % sehen das Hausnetz NICHT als H₂-Netz.", "highlight": true },
-        { "type": "fact", "text": "MVV Mannheim: Umstellung auf H₂ im Niederdrucknetz „aus Kapazitäts- und Kostengründen nicht realisierbar\u201c." },
-        { "type": "fact", "text": "H₂ wird 2–4× teurer als Erdgas und steht für Haushalte nicht in ausreichender Menge zur Verfügung." },
-        { "type": "fact", "text": "Das Wasserstoff-Kernnetz dient dem Ferntransport, nicht der kommunalen Ebene." }
+        { "type": "fact", "text": "Nur 5 % der von VKU befragten Unternehmen sehen grüne Gase als Hauptlösung für die Wärmewende.", "highlight": true, "sourceRefs": [10] },
+        { "type": "fact", "text": "MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähig.", "sourceRefs": [11] },
+        { "type": "fact", "text": "Das Wasserstoff-Kernnetz dient dem Ferntransport, nicht der flächendeckenden Versorgung kommunaler Hausnetze.", "sourceRefs": [19] }
       ]
     },
     {
       "id": "lautstaerke",
-      "title": "Lautstärke: Modernes Gerät = leiser Kühlschrank",
+      "title": "Lautstärke: Aufstellung und Abstand sind entscheidend",
       "content": [
         {
           "type": "stat_grid",
           "items": [
-            {"value": "35–40 dB", "label": "in 3 m Abstand", "sublabel": "≈ leiser Regen"},
-            {"value": "50–60 dB", "label": "am Gerät", "sublabel": "≈ Gespräch"},
+            {"value": "40–50 dB", "label": "typisch", "sublabel": "laut Effizienzlabel vieler Geräte"},
+            {"value": "Abstand", "label": "entscheidend", "sublabel": "Aufstellort beeinflusst die Immission"},
             {"value": "35 dB", "label": "TA-Lärm nachts", "sublabel": "reines Wohngebiet"}
           ]
         },
-        {"type": "fact", "text": "Ab 2026 verschärfte Förderanforderung: Geförderte WP müssen 10 dB unter EU-Grenzwerten liegen (vorher: 5 dB).", "highlight": true},
-        {"type": "fact", "text": "Jede Verdopplung der Entfernung senkt den Schallpegel um ca. 6 dB."},
+        {"type": "fact", "text": "Moderne Luftwärmepumpen müssen sorgfältig geplant und aufgestellt werden, damit die Immissionsrichtwerte eingehalten werden.", "highlight": true, "sourceRefs": [6, 18]},
+        {"type": "fact", "text": "Jede Verdopplung der Entfernung senkt den Schallpegel um ca. 6 dB.", "sourceRefs": [6, 15]},
         {"type": "fact", "text": "Nachts laufen WP oft im reduzierten Modus und sind noch leiser."}
       ]
     },
@@ -251,41 +255,30 @@
         {
           "type": "stat_grid",
           "items": [
-            {"value": "1,6 %", "label": "Stromverbrauch", "sublabel": "1,7 Mio. WP = 8 TWh/a"},
-            {"value": "2–6 kW", "label": "pro WP", "sublabel": "weniger als E-Herd"},
-            {"value": "18 kW", "label": "Durchlauferhitzer", "sublabel": "3–9× mehr als WP"}
-          ]
+            {"value": "lokal", "label": "Netzfragen", "sublabel": "treten vor allem im Verteilnetz auf"},
+            {"value": "steuerbar", "label": "Lasten", "sublabel": "können zeitlich verschoben werden"},
+            {"value": "flexibel", "label": "Betrieb", "sublabel": "Tarife und Steuerung helfen dem Netz"}
+          ],
+          "sourceRefs": [1, 17]
         },
-        {"type": "fact", "text": "Consentec/BWP-Studie (2025): Flexible WP können Netzausbauinvestitionen um fast ein Viertel reduzieren.", "highlight": true},
-        {"type": "fact", "text": "Bis 2045: ca. 104 TWh WP-Stromverbrauch – nur ~9 % des dann erwarteten Gesamtverbrauchs."},
-        {"type": "fact", "text": "Variable Stromtarife können WP-Betreibern 300–400 €/Jahr einsparen (Consentec 2025)."}
-      ]
-    },
-    {
-      "id": "fachkraefte",
-      "title": "Fachkräfte: Engpass ja, Showstopper nein",
-      "content": [
-        {"type": "fact", "text": "ZVSHK: Aktuell fehlen rund 60.000 Heizungsinstallateure in Deutschland."},
-        {"type": "fact", "text": "Wartezeiten für WP-Installation: von 6–12 Monaten (2023) auf wenige Wochen bis Monate gesunken.", "highlight": true},
-        {"type": "fact", "text": "Industriekapazität: 500.000 Geräte/Jahr – die Fertigung ist nicht der Engpass."},
-        {"type": "fact", "text": "Gas-/Ölheizungsbauer werden in 10 Jahren mangels Nachfrage Aufträge verlieren – Umschulung jetzt ist sinnvoll."}
+        {"type": "fact", "text": "Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und stark von Steuerung, Tarifstruktur und Ausbauplanung abhängig.", "highlight": true},
+        {"type": "fact", "text": "Für Haushalte wird entscheidend, ob Wärmepumpen flexibel betrieben und sinnvoll in bestehende Verteilnetze integriert werden."}
       ]
     },
     {
       "id": "kaelteleistung",
-      "title": "WP bei extremer Kälte: Funktioniert bis -15 °C und darunter",
+      "title": "Wärmepumpen funktionieren auch in kalten Klimazonen",
       "content": [
         {
           "type": "stat_grid",
           "items": [
-            {"value": "COP 2,5–3,0", "label": "bei -15 °C", "sublabel": "immer noch effizient"},
-            {"value": "1,3 %", "label": "Heizstab-Anteil", "sublabel": "am Jahresverbrauch"},
-            {"value": "632", "label": "WP/1.000 HH", "sublabel": "in Norwegen", "color": "#00897b"}
+            {"value": "77", "label": "Bestandsgebäude", "sublabel": "im Fraunhofer-ISE-Projekt vermessen"},
+            {"value": "632", "label": "WP/1.000 HH", "sublabel": "in Norwegen", "color": "#00897b"},
+            {"value": "Praxis", "label": "entscheidet", "sublabel": "nicht das Klischee über Altbau oder Frost"}
           ]
         },
-        {"type": "fact", "text": "Elektrische Zusatzheizung (Heizstab) wird erst ab ca. -25 °C dauerhaft nötig – in Deutschland praktisch nie.", "highlight": true},
-        {"type": "fact", "text": "Abtauzyklen bei -15 °C: 2–3 pro Tag, Mehrkosten nur ~5–8 €/Monat."},
-        {"type": "fact", "text": "Norwegen (Oslo Ø Januar: -4 °C): 632 von 1.000 Haushalten heizen mit WP – bei deutlich kälterem Klima als Deutschland."}
+        {"type": "fact", "text": "Praxisdaten und der breite Einsatz in Norwegen zeigen: Wärmepumpen funktionieren auch in kalten Klimazonen.", "highlight": true, "sourceRefs": [1, 17]},
+        {"type": "fact", "text": "Für die reale Effizienz sind Auslegung, Hydraulik und Heizflächen wichtiger als pauschale Frost-Mythen.", "sourceRefs": [1]}
       ]
     },
     {
@@ -299,23 +292,14 @@
           "rows": [
             ["Norwegen", "632", "97 %"],
             ["Finnland", "524", ">90 %"],
-            ["Schweden", "496", ">90 %"],
+            ["Schweden", "k.A.", ">90 %"],
             ["Schweiz", "k.A.", "76 %"],
-            ["Deutschland", "~85", "~50 % (2025)"]
-          ]
+            ["Deutschland", "k.A.", "knapp 50 % (2025)"]
+          ],
+          "sourceRefs": [17]
         },
-        {
-          "type": "bar_chart",
-          "caption": "WP pro 1.000 Haushalte",
-          "items": [
-            {"label": "Norwegen", "value": 632, "highlight": true},
-            {"label": "Finnland", "value": 524},
-            {"label": "Schweden", "value": 496},
-            {"label": "Deutschland", "value": 85}
-          ]
-        },
-        {"type": "fact", "text": "EHPA (2025): Europaweit stiegen WP-Verkäufe um 11 % auf 2,63 Mio. Einheiten.", "highlight": true},
-        {"type": "fact", "text": "Skandinavien nutzt WP seit 30 Jahren – auch bei deutlich kälterem Klima als in Deutschland."},
+        {"type": "fact", "text": "EHPA: 2025 stiegen die Wärmepumpen-Verkäufe in 16 europäischen Ländern um 10 % auf rund 2,62 Mio. Geräte.", "highlight": true, "sourceRefs": [17]},
+        {"type": "fact", "text": "Skandinavien nutzt WP seit 30 Jahren – auch bei deutlich kälterem Klima als in Deutschland.", "sourceRefs": [17]},
         {"type": "fact", "text": "Erfolgsfaktoren Skandinavien: Niedriges Strom-zu-Gas-Preisverhältnis, kein flächendeckendes Gasnetz, langjährige politische Unterstützung."}
       ]
     },
@@ -331,7 +315,8 @@
             { "label": "Geschwindigkeitsbonus", "value": 20, "sublabel": "bis Ende 2028" },
             { "label": "Einkommensbonus", "value": 30, "sublabel": "< 40.000 €/a" }
           ],
-          "total": "Gedeckelt auf 21.000 EUR Zuschuss"
+          "total": "Gedeckelt auf 21.000 EUR Zuschuss",
+          "sourceRefs": [12]
         },
         {
           "type": "table",
@@ -341,11 +326,12 @@
             ["Geschwindigkeitsbonus", "+20 %", "Tausch alter Gas/Öl/Kohle/Nachtspeicher (bis Ende 2028, danach sinkend)"],
             ["Einkommensbonus", "+30 %", "bei Haushaltseinkommen < 40.000 EUR/Jahr"],
             ["Gesamtförderung", "max 70 %", "gedeckelt auf 21.000 EUR Zuschuss"]
-          ]
+          ],
+          "sourceRefs": [12]
         },
-        { "type": "fact", "text": "KfW-Ergänzungskredit 358/359 ab 0,01 % eff. Jahreszins" },
-        { "type": "fact", "text": "Antrag VOR Einbau bei KfW stellen" },
-        { "type": "fact", "text": "WP + PV senkt Stromkosten um 25–40 %. Eigenanteil PV (~8–12.000 EUR) amortisiert sich in 6–8 Jahren (Fraunhofer ISE). Ohne Speicher: 25–40 % Autarkiegrad, 22–37 % Eigenverbrauch.", "highlight": true }
+        { "type": "fact", "text": "KfW-Ergänzungskredit 358/359 verfügbar", "sourceRefs": [13] },
+        { "type": "fact", "text": "Antrag VOR Einbau bei KfW stellen", "sourceRefs": [12] },
+        { "type": "fact", "text": "Ohne Batteriespeicher erreichen PV-Wärmepumpen-Kombinationen laut Fraunhofer ISE etwa 25–40 % Autarkie und 22–37 % Eigenverbrauch.", "highlight": true }
       ]
     }
   ],
@@ -353,87 +339,147 @@
     {
       "id": "wp-nur-neubau",
       "claim": "Wärmepumpe lohnt sich nur im Neubau!",
-      "response": "Falsch. Fraunhofer ISE (2025): 77 Altbauten (Bj. bis 1826!) vermessen, JAZ 3,4 im Schnitt. Kein Zusammenhang Baujahr/Effizienz. Entscheidend: Heizköpergröße + Hydraulik. Fußbodenheizung NICHT nötig. 80 % aller neuen WP gehen in Bestandsgebäude.",
+      "response": "Falsch. Fraunhofer ISE hat 77 Bestandsgebäude vermessen, darunter sehr alte Gebäude, und keinen Zusammenhang zwischen Baujahr und Effizienz gefunden. Entscheidend sind Heizkörpergröße, Hydraulik und saubere Auslegung. Fußbodenheizung ist nicht zwingend nötig. Außerdem gehen rund 80 % der neuen Wärmepumpen in Bestandsgebäude.",
       "keywords": ["neubau", "altbau", "bestand", "fußbodenheizung", "sanierung"],
       "relatedSections": ["fraunhofer-ise", "status-quo"]
     },
     {
       "id": "gas-billiger",
       "claim": "Gas ist doch viel billiger!",
-      "response": "Nur bei der Anschaffung: 11.000 vs. 12.500 EUR (nach Förderung). Über 20 Jahre spart die WP 12.000–22.500 EUR. CO₂-Preis ab 2028 marktbasiert (100–250 EUR/t bis 2030), Gasnetz-Entgelte + Bio-Treppe ab 2029 verteuern Gas zusätzlich.",
+      "response": "In der Anschaffung kann Gas zunächst günstiger wirken. Bei Betriebskosten, CO₂-Kosten und Infrastruktur-Risiken spricht aber vieles für die Wärmepumpe. Konkrete 20-Jahres-Summen sollte man nur nennen, wenn Gebäude, Effizienz, Energiepreise und Förderung transparent offengelegt sind.",
       "keywords": ["kosten", "gas", "billiger", "preis", "anschaffung"],
       "relatedSections": ["kostenvergleich", "co2-preis"]
     },
     {
       "id": "gasnetz-bleibt",
       "claim": "Das Gasnetz bleibt doch!",
-      "response": "19 % der Stadtwerke planen Stilllegung. Mannheim: 2035. EU zwingt Netzbetreiber bis 2026 zu Transformationsplänen. Wer als Letzter im Netz bleibt, zahlt bis 10× höhere Entgelte (DIW/Ofgem).",
+      "response": "MVV strebt in Mannheim die Stilllegung des Gasnetzes bis 2035 an. DIW warnt, dass Netzentgelte mit sinkender Kundenzahl stark steigen können. Die aktuelle VKU-Umfrage zeigt außerdem, dass viele Stadtwerke vor allem mit Wärmepumpen und Fernwärme planen.",
       "keywords": ["gasnetz", "stadtwerke", "stilllegung", "netzentgelte"],
       "relatedSections": ["gasnetz-rueckbau"]
     },
     {
       "id": "wasserstoff-loesung",
       "claim": "Wasserstoff wird alles lösen!",
-      "response": "4 % der Stadtwerke planen H₂ – und für Industrie. MVV Mannheim: „nicht realisierbar\u201c im Hausnetz. Wer auf H₂-Heizung wartet, wartet auf etwas, das die Versorger selbst ausschließen.",
+      "response": "Die aktuelle VKU-Umfrage sieht grüne Gase nur bei 5 % der befragten Unternehmen als Hauptlösung. MVV hält Biomethan wegen fehlender Mengen und Wasserstoff aus Kostengründen für Privathaushalte nicht für tragfähig.",
       "keywords": ["wasserstoff", "h2", "zukunft", "heizen"],
       "relatedSections": ["wasserstoff"]
     },
     {
       "id": "heizungsgesetz-abgeschafft",
       "claim": "Heizungsgesetz ist doch abgeschafft!",
-      "response": "Formal ja (65 %-Regel entfällt im GMG). Aber: CO₂-Preis steigt via EU-Recht (ETS 2), Bio-Treppe macht Gas ab 2029 teurer, Gasnetz schrumpft sowieso. Physik und Markt ignorieren Wahlkampf.",
+      "response": "Über die Reform der Heizungsregeln wird 2026 politisch verhandelt. Belastbar ist vor allem: Der nationale CO₂-Preis endet 2026 im Korridor, ab 2027 startet ETS 2, und neue fossile Investitionen bleiben preis- und infrastrukturnah riskant.",
       "keywords": ["heizungsgesetz", "geg", "gmg", "gesetz", "abgeschafft"],
       "relatedSections": ["gesetzeslage-gmg", "co2-preis"]
     },
     {
       "id": "heizung-funktioniert-noch",
       "claim": "Meine Heizung funktioniert doch noch!",
-      "response": "75 % der Ölheizungen und 65 % der Gasheizungen sind > 20 Jahre alt. Wer wartet, verliert den Speed-Bonus (20 %, nur bis 2028) und zahlt länger steigende fossile Betriebskosten.",
+      "response": "Viele Heizungen im Bestand sind alt: Laut BDH und ZVSHK ist über die Hälfte der 21,7 Mio. Heizungen veraltet, mehr als 4 Mio. sind über 30 Jahre alt. Wer früh tauscht, kann aktuelle Förderboni eher noch nutzen.",
       "keywords": ["alte heizung", "funktioniert", "warten", "speed-bonus"],
       "relatedSections": ["foerderung", "lock-in-falle"]
     },
     {
       "id": "wp-zu-laut",
       "claim": "Die Wärmepumpe ist doch viel zu laut!",
-      "response": "In 3 m Entfernung liegt eine moderne WP bei 35–40 dB – leiser als ein normales Gespräch (60 dB). Ab 2026 müssen geförderte Geräte sogar 10 dB unter den EU-Grenzwerten liegen. Das ist Kühlschrank-Niveau.",
+      "response": "Luftwärmepumpen müssen sorgfältig geplant werden. Typische Geräuschangaben liegen oft bei etwa 40–50 dB; Aufstellort, Abstand und Nachtmodus sind entscheidend. In reinen Wohngebieten gilt nachts regelmäßig ein Immissionsrichtwert von 35 dB(A) nach TA Lärm.",
       "keywords": ["lautstärke", "laut", "lärm", "nachbarn", "dezibel"],
       "relatedSections": ["lautstaerke"]
     },
     {
       "id": "stromnetz-bricht-zusammen",
       "claim": "Das Stromnetz bricht doch zusammen!",
-      "response": "1,7 Mio. WP verbrauchen nur 1,6 % des Stroms. Eine WP zieht 2–6 kW – ein Durchlauferhitzer das 3- bis 9-fache. Flexibel gesteuert können WP das Netz sogar stabilisieren und Ausbaukosten um ein Viertel senken (Consentec/BWP 2025).",
+      "response": "Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und hängen stark von Steuerung und Ausbauplanung ab. Entscheidend ist, dass Wärmepumpen sinnvoll ins Verteilnetz integriert und möglichst flexibel betrieben werden.",
       "keywords": ["stromnetz", "blackout", "stromausfall", "kapazität", "überlastung"],
       "relatedSections": ["stromnetz"]
     },
     {
       "id": "wp-funktioniert-nicht-bei-kaelte",
       "claim": "Bei richtigem Frost funktioniert die WP nicht!",
-      "response": "Selbst bei -15 °C liefert eine moderne WP noch COP 2,5–3,0 – aus 1 kWh Strom werden 2,5–3 kWh Wärme. In Norwegen (Oslo: -4 °C im Januar) heizen 632 von 1.000 Haushalten mit WP. Wenn es dort funktioniert, funktioniert es in Deutschland erst recht.",
+      "response": "Praxisdaten zeigen, dass Wärmepumpen auch in Bestandsgebäuden effizient laufen. Zudem kommen in Norwegen 632 installierte Wärmepumpen auf 1.000 Haushalte. Entscheidend sind gute Auslegung und passende Heizflächen, nicht pauschale Frost-Mythen.",
       "keywords": ["frost", "kälte", "winter", "minus", "heizstab", "norwegen"],
       "relatedSections": ["kaelteleistung", "internationaler-vergleich"]
     }
   ],
   "sources": [
-    { "label": "Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025)" },
-    { "label": "BWP – Bundesverband Wärmepumpe, Absatzstatistik" },
-    { "label": "BDH – Bundesverband der Deutschen Heizungsindustrie" },
-    { "label": "BDEW – Bundesverband der Energie- und Wasserwirtschaft" },
-    { "label": "Destatis – Statistisches Bundesamt, Baugenehmigungen" },
-    { "label": "Verbraucherzentrale – Heizungsratgeber" },
-    { "label": "DIW Berlin – Gasnetz-Rückbau und Netzentgelte" },
-    { "label": "EWI Köln – CO₂-Preis-Szenarien" },
-    { "label": "Öko-Institut – Bewertung GMG-Eckpunkte" },
-    { "label": "VKU – Verband kommunaler Unternehmen, Stadtwerke-Umfrage" },
-    { "label": "ADAC" },
-    { "label": "MVV Mannheim – Gasnetz-Transformation" },
-    { "label": "KfW – Bundesförderung für effiziente Gebäude (BEG)" },
-    { "label": "Ofgem (UK) – Netzentgelt-Szenarien" },
-    { "label": "EU-Gasbinnenmarktrichtlinie 2024" },
-    { "label": "BWP – Schallrechner und Förderrichtlinien 2026" },
-    { "label": "Consentec – Gutachten Flexibilität WP im Verteilnetz (2025)" },
-    { "label": "ZVSHK – Fachkräftestatistik Heizungshandwerk" },
-    { "label": "EHPA – European Heat Pump Association, Market Report 2025" },
-    { "label": "TA Lärm – Technische Anleitung zum Schutz gegen Lärm" }
+    {
+      "label": "Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025)",
+      "url": "https://www.ise.fraunhofer.de/en/press-media/press-releases/2025/fraunhofer-ise-research-project-completed-heat-pumps-provide-climate-friendly-heating-in-existing-buildings.html"
+    },
+    {
+      "label": "BWP – Absatzstatistik Wärmepumpen",
+      "url": "https://www.waermepumpe.de/presse/zahlen-daten/absatzzahlen/"
+    },
+    {
+      "label": "BDH – Markt für Wärmepumpen 2024",
+      "url": "https://www.bdh-industrie.de/presse/pressemeldungen/artikel/heizungsindustrie-markt-fuer-waermepumpen-bleibt-hinter-erwartungen-zurueck"
+    },
+    {
+      "label": "BDEW – Heizungsmarkt und Gebäudebestand",
+      "url": "https://www.bdew.de/media/documents/BDEW_Heizungsmarkt_2023_Zensus2022_BROSCH%C3%9CRE_Druckdatei_Final_1_8zcnCHX.pdf"
+    },
+    {
+      "label": "Destatis – Heizungsart in neuen Wohngebäuden 2024",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_N031_31_51.html"
+    },
+    {
+      "label": "Verbraucherzentrale – Einbau und Aufstellung einer Wärmepumpe",
+      "url": "https://www.verbraucherzentrale.de/wissen/energie/heizen-und-warmwasser/betrieb-und-aufstellung-was-ist-beim-einbau-einer-waermepumpe-wichtig-113970"
+    },
+    {
+      "label": "DIW Berlin – Stilllegung der Erdgasnetze",
+      "url": "https://www.diw.de/de/diw_01.c.898168.de/publikationen/wochenberichte/2024_13_1/waermewende__bundesregierung_sollte_kommunen_bei_der_stilllegung_der_erdgasnetze_unterstuetzen.html"
+    },
+    {
+      "label": "EWI Köln – Auswirkungen und Preispfade des EU ETS2",
+      "url": "https://www.ewi.uni-koeln.de/de/publikationen/auswirkungen-und-preispfade-des-eu-ets2/"
+    },
+    {
+      "label": "Öko-Institut – Bewertung der GMG-Eckpunkte",
+      "url": "https://www.oeko.de/publikation/weniger-klimaschutz-hoehere-kosten-groessere-unsicherheit-bewertung-der-eckpunkte-zum-neuen-gebaeudemodernisierungsgesetz/"
+    },
+    {
+      "label": "VKU – Umfrage zur Wärmewende",
+      "url": "https://www.vku.de/presse/pressemitteilungen/umfrage-zur-waermewende-hohe-kosten-unzureichende-finanzierung-und-unklare-rechtslage-erfordern-winter-der-entscheidungen/"
+    },
+    {
+      "label": "MVV Mannheim – Wärmewende und Gasnetz",
+      "url": "https://www.mvv.de/journalisten/pressemitteilungen/detail/gemeinsam-die-waermewende-in-mannheim-umsetzen"
+    },
+    {
+      "label": "KfW – Heizungsförderung für Privatpersonen",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Heizungsf%C3%B6rderung-f%C3%BCr-Privatpersonen-Wohngeb%C3%A4ude-(458)/"
+    },
+    {
+      "label": "KfW – Ergänzungskredit 358/359",
+      "url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Einzelma%C3%9Fnahmen-Erg%C3%A4nzungskredit-Wohngeb%C3%A4ude-(358-359)/"
+    },
+    {
+      "label": "EU-Gasbinnenmarktrichtlinie 2024",
+      "url": "https://eur-lex.europa.eu/eli/dir/2024/1788/oj/eng"
+    },
+    {
+      "label": "BWP – Schallrechner",
+      "url": "https://www.waermepumpe.de/schallrechner/"
+    },
+    {
+      "label": "ZVSHK – Heizungsbranche schlägt Alarm",
+      "url": "https://www.zvshk.de/presse/medien-center/pressemitteilungen/heizungsbranche-schlaegt-alarm"
+    },
+    {
+      "label": "EHPA – Market data",
+      "url": "https://ehpa.org/market-data/"
+    },
+    {
+      "label": "TA Lärm – Technische Anleitung zum Schutz gegen Lärm",
+      "url": "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26081998_IG19980826.htm"
+    },
+    {
+      "label": "BMWE – FAQ zum Wasserstoff-Kernnetz",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/FAQ/Wassertstoff-Kernnetz/faq-wasserstoff-kernnetz.html"
+    },
+    {
+      "label": "BWP – Wärmepumpen-Absatz 2025: 80 % im Bestandsgebäude",
+      "url": "https://www.waermepumpe.de/presse/pressemitteilungen/details/ueber-50-prozent-im-plus-waermepumpen-absatz-steigt-2025-deutlich/"
+    }
   ]
 }

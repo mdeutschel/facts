@@ -10,7 +10,7 @@
     "32,4 % Frauen im Bundestag",
     "7 Argumente"
   ],
-  "sourceNote": "Die Daten stammen primär vom Statistischen Bundesamt (Destatis) und Erhebungen des BMFSFJ (Stand 2025/2026).",
+  "sourceNote": "Die Daten stammen primär von Destatis, dem BMFSFJ, dem Bundestag und dem ZEW (Stand 2025/2026).",
   "sections": [
     {
       "id": "pay-gap",
@@ -18,7 +18,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten und dem bereinigten Wert."
+          "text": "Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten und dem bereinigten Wert.",
+          "sourceRefs": [1]
         },
         {
           "type": "stat_grid",
@@ -33,7 +34,8 @@
               "value": "6 %",
               "sublabel": "Bei gleicher Qualifikation und Tätigkeit"
             }
-          ]
+          ],
+          "sourceRefs": [1]
         },
         {
           "type": "comparison",
@@ -59,7 +61,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "sourceRefs": [1]
         },
         {
           "type": "line_chart",
@@ -78,12 +81,14 @@
             { "label": "2022", "value": 18 },
             { "label": "2024", "value": 16 },
             { "label": "2025", "value": 16 }
-          ]
+          ],
+          "sourceRefs": [1]
         },
         {
           "type": "fact",
           "text": "In Ostdeutschland ist der unbereinigte Gender Pay Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [1]
         }
       ]
     },
@@ -93,7 +98,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt)."
+          "text": "Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt).",
+          "sourceRefs": [3]
         },
         {
           "type": "stat_grid",
@@ -108,7 +114,8 @@
               "value": "+76 Min.",
               "sublabel": "Mehrarbeit von Frauen pro Tag"
             }
-          ]
+          ],
+          "sourceRefs": [3]
         },
         {
           "type": "bar_chart",
@@ -124,7 +131,8 @@
               "label": "Männer",
               "value": 20
             }
-          ]
+          ],
+          "sourceRefs": [5]
         }
       ]
     },
@@ -134,7 +142,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Trotz Fortschritten in der Bildung sind Frauen in politischen und wirtschaftlichen Führungspositionen in Deutschland weiterhin unterrepräsentiert."
+          "text": "Frauen sind in politischen und wirtschaftlichen Führungspositionen in Deutschland weiterhin unterrepräsentiert."
         },
         {
           "type": "range_bar",
@@ -154,12 +162,14 @@
               "max": 35.2,
               "color": "#37474f"
             }
-          ]
+          ],
+          "sourceRefs": [2]
         },
         {
           "type": "fact",
           "text": "Im 21. Deutschen Bundestag (gewählt 2025) liegt der Frauenanteil bei 32,4 %. Das ist ein Rückgang gegenüber der vorherigen Legislaturperiode (34,8 %).",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [4]
         }
       ]
     }
@@ -168,7 +178,7 @@
     {
       "id": "berufswahl",
       "claim": "Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.",
-      "response": "Die Berufswahl erklärt nur etwa 18 % der Verdienstlücke. Selbst wenn man Faktoren wie Branche, Beruf, Qualifikation und Teilzeitarbeit herausrechnet, bleibt ein 'bereinigter' Gender Pay Gap von 6 % (Stand 2025). Zudem muss gesellschaftlich hinterfragt werden, warum systemrelevante Care-Berufe strukturell schlechter bezahlt werden als technische Berufe.",
+      "response": "Branche und Beruf erklären rund 18 % der Verdienstlücke. Selbst wenn weitere Faktoren wie Qualifikation, Tätigkeit, Erwerbsbiografie und Teilzeit berücksichtigt werden, bleibt 2025 ein bereinigter Gender Pay Gap von 6 %.",
       "keywords": [
         "Berufswahl",
         "soziale Berufe",
@@ -183,7 +193,7 @@
     {
       "id": "fuehrung",
       "claim": "Frauen wollen gar keine Führungspositionen übernehmen, weil ihnen die Familie wichtiger ist.",
-      "response": "Die Unterrepräsentation liegt primär an strukturellen Hürden, nicht am mangelnden Willen. In Deutschland sind nur 29,1 % der Führungskräfte weiblich, was deutlich unter dem EU-Schnitt (35,2 %) liegt. Eine Unternehmenskultur, die ständige Verfügbarkeit belohnt, sowie die ungleiche Verteilung von Care-Arbeit benachteiligen Frauen beim Aufstieg systematisch.",
+      "response": "Die Unterrepräsentation liegt nicht einfach am mangelnden Willen. In Deutschland sind nur 29,1 % der Führungskräfte weiblich, deutlich weniger als im EU-Durchschnitt (35,2 %). Gleichzeitig erschwert die ungleiche Verteilung von Care-Arbeit vielen Frauen den beruflichen Aufstieg.",
       "keywords": [
         "Führungsposition",
         "Karriere",
@@ -214,7 +224,7 @@
     {
       "id": "teilzeit",
       "claim": "Männer arbeiten dafür mehr in Vollzeit und machen die harten Überstunden.",
-      "response": "Männer leisten zwar mehr bezahlte Erwerbsarbeit, aber wenn man bezahlte und unbezahlte Arbeit (Haushalt, Kinder, Pflege) zusammenrechnet, arbeiten Frauen insgesamt mehr Stunden pro Woche. Das Problem: Die unbezahlte Arbeit der Frauen wird finanziell nicht entlohnt und ist nicht rentenwirksam, was im Alter zu einer massiven Rentenlücke (Gender Pension Gap) führt.",
+      "response": "Männer leisten zwar mehr bezahlte Erwerbsarbeit, aber wenn man bezahlte und unbezahlte Arbeit zusammenrechnet, ist die Gesamtarbeitszeit ähnlich hoch. Personen ab 18 leisten laut Destatis 2022 insgesamt ähnlich viel Arbeit, Frauen aber etwas mehr (45:33 Std./Woche) als Männer (44:23 Std./Woche), weil unbezahlte Arbeit die geringere Erwerbsarbeit übersteigt.",
       "keywords": [
         "Vollzeit",
         "Überstunden",
@@ -229,7 +239,7 @@
     {
       "id": "quote",
       "claim": "Eine Frauenquote führt nur dazu, dass unqualifizierte Frauen bevorzugt werden und fähige Männer das Nachsehen haben.",
-      "response": "Quotenregelungen greifen juristisch nur bei gleicher Qualifikation der Bewerberinnen. Aktuell werden Führungspositionen oft über informelle, männlich dominierte Netzwerke besetzt ('Thomas-Kreislauf'), nicht zwingend nach objektiver Bestenauslese. Studien zeigen zudem, dass diverse Führungsteams innovativer und wirtschaftlich erfolgreicher agieren.",
+      "response": "Quoten sind ein Instrument gegen dauerhafte Unterrepräsentation. Dass Frauen in Führungspositionen in Deutschland deutlich unterrepräsentiert sind, ist belegt. Die eigentliche Debatte ist deshalb nicht, ob es ein Problem gibt, sondern welche Instrumente es wirksam und fair verringern.",
       "keywords": [
         "Quote",
         "Frauenquote",
@@ -244,7 +254,7 @@
     {
       "id": "pension-gap",
       "claim": "Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.",
-      "response": "Der Gender Pension Gap liegt bei rund 30 %: Frauen erhalten im Schnitt deutlich weniger Rente als Männer. Das ist die direkte Folge jahrzehntelanger struktureller Benachteiligung: niedrigere Löhne (16 % Pay Gap), erzwungene Teilzeit durch Care-Arbeit (43,4 % Care Gap) und Karriereeinbußen nach der Geburt von Kindern. All das akkumuliert sich über ein Arbeitsleben zu massiver Altersarmut. Frauen sind doppelt so häufig von Altersarmut betroffen wie Männer.",
+      "response": "Der Gender Pension Gap liegt 2025 je nach Abgrenzung bei 24,2 % inklusive Hinterbliebenenrenten und bei 36,2 % für eigene Alterseinkünfte. Dahinter stehen niedrigere Löhne, häufigere Teilzeit und Erwerbsunterbrechungen durch Care-Arbeit. Frauen ab 65 sind zudem häufiger armutsgefährdet als Männer (2023: 20,8 % vs. 15,9 %).",
       "keywords": [
         "Rente",
         "Pension",
@@ -260,7 +270,7 @@
     {
       "id": "child-penalty",
       "claim": "Kinder sind eine freiwillige Entscheidung, dann muss man halt mit den Konsequenzen leben.",
-      "response": "Kinder sind eine gesamtgesellschaftliche Notwendigkeit — ohne sie gibt es keine Renten, keine Pflege, keine Wirtschaft. Studien zeigen: Frauen verlieren nach dem ersten Kind durchschnittlich ~60 % ihres Einkommens (langfristig ~40 %), Männer: 0 %. Diese sogenannte 'Child Penalty' trifft fast ausschließlich Mütter und ist eine der Hauptursachen für den Gender Pay Gap. Die Lösung liegt in besserer Infrastruktur (Kitas, Ganztag), partnerschaftlicher Aufteilung der Care-Arbeit und Arbeitszeitmodellen, die Vereinbarkeit ermöglichen.",
+      "response": "Kindererziehung ist keine rein private Randfrage, sondern hat große Folgen für Erwerbsbiografien. Eine aktuelle ZEW-Studie zeigt, dass Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger verdienen als gleichaltrige Frauen ohne Kinder. Solche Einbußen wirken langfristig auf Karriere und Rente.",
       "keywords": [
         "Kinder",
         "Mutter",
@@ -290,6 +300,18 @@
     {
       "label": "Bundestag: Abgeordneten-Statistik 21. Bundestag",
       "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw09-wahlergebnis-statistik-1055550"
+    },
+    {
+      "label": "Destatis – Erwerbsarbeit und unbezahlte Arbeit nach Geschlecht",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Tabellen/erwerbsarbeit-unbezahlte-arbeit-geschlecht-zve.html"
+    },
+    {
+      "label": "Destatis – Gender Pension Gap",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-gender-pension-gap.html"
+    },
+    {
+      "label": "ZEW – Einkommensverlust nach Geburt",
+      "url": "https://www.zew.de/presse/pressearchiv/einkommensverlust-nach-geburt-weit-hoeher-als-bisher-gedacht"
     }
   ]
 }

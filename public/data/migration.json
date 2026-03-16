@@ -6,11 +6,11 @@
   "lastUpdated": "2026-03",
   "keyStats": [
     "113.236 Asylerstanträge in 2025 (-50,7 % zu 2024)",
-    "64 % Beschäftigungsquote bei Geflüchteten von 2015",
-    "57 % Beschäftigungsquote bei Ausländern gesamt (2025)",
+    "64 % Beschäftigungsquote bei 2015 zugezogenen Geflüchteten",
+    "7.649 Asylerstanträge im Januar 2026",
     "7 Argumente"
   ],
-  "sourceNote": "Die Daten basieren auf offiziellen Statistiken des Bundesamts für Migration und Flüchtlinge (BAMF), des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) und des Statistischen Bundesamtes (Destatis) mit Stand Anfang 2026.",
+  "sourceNote": "Die Daten basieren in dieser Datei vor allem auf offiziellen Statistiken des BAMF und des IAB (Stand Anfang 2026).",
   "sections": [
     {
       "id": "asylzahlen",
@@ -18,28 +18,19 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort."
+          "text": "Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort.",
+          "sourceRefs": [1, 2]
         },
         {
-          "type": "line_chart",
-          "caption": "Asylerstanträge in Deutschland",
-          "unit": "Tsd.",
-          "items": [
-            { "label": "2010", "value": 41 },
-            { "label": "2012", "value": 65 },
-            { "label": "2014", "value": 173 },
-            { "label": "2015", "value": 442 },
-            { "label": "2016", "value": 722 },
-            { "label": "2017", "value": 198 },
-            { "label": "2018", "value": 162 },
-            { "label": "2019", "value": 143 },
-            { "label": "2020", "value": 103 },
-            { "label": "2021", "value": 148 },
-            { "label": "2022", "value": 218 },
-            { "label": "2023", "value": 329 },
-            { "label": "2024", "value": 230 },
-            { "label": "2025", "value": 113 }
-          ]
+          "type": "table",
+          "caption": "Aktuelle Asylzahlen",
+          "headers": ["Zeitraum", "Asylerstanträge", "Einordnung"],
+          "rows": [
+            ["2024", "229.751", "Vergleichsbasis"],
+            ["2025", "113.236", "-50,7 % zu 2024"],
+            ["Januar 2026", "7.649", "-48,7 % zum Vorjahresmonat"]
+          ],
+          "sourceRefs": [1, 2]
         },
         {
           "type": "stat_grid",
@@ -59,12 +50,14 @@
               "value": "28,1 %",
               "sublabel": "Anteil positiver Entscheidungen"
             }
-          ]
+          ],
+          "sourceRefs": [1, 2]
         },
         {
           "type": "fact",
           "text": "Die zugangsstärksten Herkunftsländer 2025 waren Afghanistan (23.972 Erstanträge), Syrien (23.256) und die Türkei (11.919).",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [1]
         }
       ]
     },
@@ -74,7 +67,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb, Qualifizierung), zeigt aber langfristig deutliche Erfolge. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) nähert sich die Beschäftigungsquote der 2015 nach Deutschland gekommenen Geflüchteten nach neun Jahren dem Bevölkerungsdurchschnitt an."
+          "text": "Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb, Qualifizierung), zeigt aber langfristig deutliche Erfolge. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) nähert sich die Beschäftigungsquote der 2015 nach Deutschland gekommenen Geflüchteten nach neun Jahren dem Bevölkerungsdurchschnitt an.",
+          "sourceRefs": [3]
         },
         {
           "type": "progress_stack",
@@ -90,15 +84,18 @@
               "sublabel": "Männer: 76%, Frauen: 35%"
             }
           ],
-          "total": "Bevölkerungsdurchschnitt: 70%"
+          "total": "Bevölkerungsdurchschnitt: 70%",
+          "sourceRefs": [3]
         },
         {
           "type": "fact",
-          "text": "Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus."
+          "text": "Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.",
+          "sourceRefs": [3]
         },
         {
           "type": "text",
-          "text": "Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in Engpassberufen und systemrelevanten Bereichen, wie Gesundheitsberufen, Fertigung, Verkehr und Logistik."
+          "text": "Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in Engpassberufen und relevanten Dienstleistungsbereichen, etwa im Gesundheitswesen, in der Fertigung sowie in Verkehr und Logistik.",
+          "sourceRefs": [3]
         }
       ]
     },
@@ -108,22 +105,12 @@
       "content": [
         {
           "type": "text",
-          "text": "Aufgrund der Alterung der Gesellschaft (Renteneintritt der sogenannten Boomer-Generation) schrumpft das inländische Erwerbspersonenpotenzial in Deutschland drastisch. Um den Wohlstand und die Sozialsysteme stabil zu halten, ist Deutschland laut Experten auf Nettozuwanderung und die erfolgreiche Integration von Zugewanderten in den Arbeitsmarkt angewiesen."
+          "text": "Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial. Deshalb wird die erfolgreiche Arbeitsmarktintegration von Zugewanderten wirtschaftlich wichtiger."
         },
         {
-          "type": "comparison",
-          "caption": "Beschäftigungsquote (Stand August 2025)",
-          "items": [
-            {
-              "title": "Ausländische Staatsangehörige",
-              "rows": [
-                {
-                  "label": "Gesamtquote",
-                  "value": "57,2 %"
-                }
-              ]
-            }
-          ]
+          "type": "fact",
+          "text": "Die hier hinterlegten BAMF- und IAB-Quellen belegen vor allem die Entwicklung der Asylzahlen und die langfristige Arbeitsmarktintegration der 2015 zugezogenen Geflüchteten.",
+          "highlight": true
         }
       ]
     }
@@ -147,7 +134,7 @@
     {
       "id": "leben-vom-buergergeld",
       "claim": "Die Flüchtlinge von 2015 leben alle nur vom Bürgergeld und arbeiten nicht.",
-      "response": "Nach 10 Jahren (Stand 2025) liegt die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 % und nähert sich damit dem Bevölkerungsdurchschnitt (70 %) an. Rund die Hälfte der beschäftigten Geflüchteten übt inzwischen eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.",
+      "response": "Ende 2024, also neun Jahre nach dem Zuzug, lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten laut IAB bei 64 % und näherte sich damit dem Bevölkerungsdurchschnitt an. Rund die Hälfte der beschäftigten Geflüchteten übt inzwischen eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.",
       "keywords": [
         "Bürgergeld",
         "arbeiten nicht",
@@ -162,7 +149,7 @@
     {
       "id": "nehmen-jobs-weg",
       "claim": "Ausländer nehmen uns die guten Jobs weg.",
-      "response": "Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in sogenannten Engpassberufen, in denen ohnehin Personal fehlt (z.B. Pflege, Logistik, Handwerk). Ohne sie wäre der Personalmangel in vielen systemrelevanten Bereichen noch deutlich größer.",
+      "response": "Die hier hinterlegte IAB-Quelle zeigt vor allem: Geflüchtete arbeiten häufig in Engpass- und systemrelevanten Berufen. Pauschale Aussagen über 'weggenommene gute Jobs' werden dadurch nicht gestützt.",
       "keywords": [
         "Jobs",
         "Arbeitsplätze",
@@ -177,7 +164,7 @@
     {
       "id": "bringen-nichts",
       "claim": "Die Zuwanderung bringt uns wirtschaftlich nichts, sie kostet nur.",
-      "response": "Angesichts des demografischen Wandels (Renteneintritt der Boomer-Generation) schrumpft das inländische Erwerbspersonenpotenzial. Die Bundesagentur für Arbeit und das IAB betonen regelmäßig, dass Deutschland auf Zuwanderung angewiesen ist, um den Arbeitskräftemangel abzufedern und die Sozialsysteme (wie die Rente) stabil zu halten.",
+      "response": "Zuwanderung verursacht anfangs Integrationskosten, kann wirtschaftlich aber relevant werden, wenn Menschen dauerhaft in Arbeit kommen. Die hier hinterlegte IAB-Quelle zeigt genau das für die 2015 zugezogenen Geflüchteten: Die Beschäftigungsquote steigt über die Jahre deutlich an.",
       "keywords": [
         "Wirtschaft",
         "Kosten",
@@ -207,7 +194,7 @@
     {
       "id": "kriminalitaet",
       "claim": "Ausländer sind krimineller als Deutsche, das zeigt doch die Kriminalstatistik!",
-      "response": "In der Polizeilichen Kriminalstatistik (PKS) sind Ausländer tatsächlich überrepräsentiert. Aber: Die PKS vergleicht Äpfel mit Birnen. Kriminalität korreliert stark mit Alter (junge Männer = höchste Kriminalität), sozioökonomischem Status und Wohnsituation — Faktoren, bei denen sich die Gruppe der Zugewanderten strukturell von der Gesamtbevölkerung unterscheidet. Bereinigt man um Alter, Geschlecht und soziale Lage, schrumpft der Unterschied massiv. Zudem enthält die PKS ausländerrechtliche Verstöße (z. B. illegaler Aufenthalt), die Deutsche gar nicht begehen können.",
+      "response": "Mit den in dieser Datei hinterlegten Quellen lässt sich diese pauschale Behauptung nicht seriös belegen. Für Aussagen über Kriminalität bräuchte es eine eigene, sauber hinterlegte Quellenbasis mit differenzierten PKS- und Dunkelfelddaten.",
       "keywords": [
         "Kriminalität",
         "kriminell",
@@ -223,7 +210,7 @@
     {
       "id": "kosten-migration",
       "claim": "Migration kostet uns nur Milliarden und bringt wirtschaftlich nichts!",
-      "response": "Integration kostet anfangs tatsächlich Geld — für Sprachkurse, Unterbringung und Qualifizierung. Langfristig zahlt sich das aber aus: Nach 10 Jahren liegt die Beschäftigungsquote der 2015-Geflüchteten bei 64 % (Männer: 76 %). Zugewanderte zahlen Steuern und Sozialabgaben und tragen dazu bei, den demografischen Fachkräftemangel abzufedern. Laut dem Institut der deutschen Wirtschaft (IW) leisten die rund 3 Mio. erwerbstätigen Ausländer einen unverzichtbaren Beitrag zur Finanzierung der Sozialsysteme.",
+      "response": "Integration kostet anfangs tatsächlich Geld, etwa für Sprache, Unterbringung und Qualifizierung. Langfristig kann sie sich auszahlen: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten laut IAB bei 64 % (Männer: 76 %, Frauen: 35 %). Für weitergehende Aussagen zur gesamtwirtschaftlichen Wirkung braucht es aber zusätzliche, sauber hinterlegte Quellen.",
       "keywords": [
         "Kosten",
         "Milliarden",
