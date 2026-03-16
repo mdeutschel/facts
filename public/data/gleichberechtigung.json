@@ -19,7 +19,7 @@
         {
           "type": "text",
           "text": "Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten und dem bereinigten Wert.",
-          "sourceRefs": [1]
+          "sourceRefs": ["destatis-gender-pay-gap-2025"]
         },
         {
           "type": "stat_grid",
@@ -35,7 +35,7 @@
               "sublabel": "Bei gleicher Qualifikation und Tätigkeit"
             }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["destatis-gender-pay-gap-2025"]
         },
         {
           "type": "comparison",
@@ -62,7 +62,7 @@
               ]
             }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["destatis-gender-pay-gap-2025"]
         },
         {
           "type": "line_chart",
@@ -82,13 +82,13 @@
             { "label": "2024", "value": 16 },
             { "label": "2025", "value": 16 }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["destatis-gender-pay-gap-2025"]
         },
         {
           "type": "fact",
           "text": "In Ostdeutschland ist der unbereinigte Gender Pay Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).",
           "highlight": true,
-          "sourceRefs": [1]
+          "sourceRefs": ["destatis-gender-pay-gap-2025"]
         }
       ]
     },
@@ -99,7 +99,7 @@
         {
           "type": "text",
           "text": "Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt).",
-          "sourceRefs": [3]
+          "sourceRefs": ["bmfsfj-destatis-gender-care-gap"]
         },
         {
           "type": "stat_grid",
@@ -115,7 +115,7 @@
               "sublabel": "Mehrarbeit von Frauen pro Tag"
             }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["bmfsfj-destatis-gender-care-gap"]
         },
         {
           "type": "bar_chart",
@@ -132,7 +132,7 @@
               "value": 20
             }
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["destatis-erwerbsarbeit-und-unbezahlte-arbeit"]
         }
       ]
     },
@@ -163,13 +163,13 @@
               "color": "#37474f"
             }
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["destatis-frauen-in-fuehrungspositionen-2024-2025"]
         },
         {
           "type": "fact",
           "text": "Im 21. Deutschen Bundestag (gewählt 2025) liegt der Frauenanteil bei 32,4 %. Das ist ein Rückgang gegenüber der vorherigen Legislaturperiode (34,8 %).",
           "highlight": true,
-          "sourceRefs": [4]
+          "sourceRefs": ["bundestag-abgeordneten-statistik-21-bundestag"]
         }
       ]
     }
@@ -286,30 +286,37 @@
   ],
   "sources": [
     {
+      "id": "destatis-gender-pay-gap-2025",
       "label": "Destatis: Gender Pay Gap 2025",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_453_621.html"
     },
     {
+      "id": "destatis-frauen-in-fuehrungspositionen-2024-2025",
       "label": "Destatis: Frauen in Führungspositionen (2024/2025)",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/11/PD25_393_13.html"
     },
     {
+      "id": "bmfsfj-destatis-gender-care-gap",
       "label": "BMFSFJ / Destatis: Gender Care Gap",
       "url": "https://www.bmfsfj.de/bmfsfj/aktuelles/alle-meldungen/statistisches-bundesamt-veroeffentlicht-neue-zahlen-zum-gender-care-gap-236794"
     },
     {
+      "id": "bundestag-abgeordneten-statistik-21-bundestag",
       "label": "Bundestag: Abgeordneten-Statistik 21. Bundestag",
       "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw09-wahlergebnis-statistik-1055550"
     },
     {
+      "id": "destatis-erwerbsarbeit-und-unbezahlte-arbeit",
       "label": "Destatis – Erwerbsarbeit und unbezahlte Arbeit nach Geschlecht",
       "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Tabellen/erwerbsarbeit-unbezahlte-arbeit-geschlecht-zve.html"
     },
     {
+      "id": "destatis-gender-pension-gap",
       "label": "Destatis – Gender Pension Gap",
       "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-gender-pension-gap.html"
     },
     {
+      "id": "zew-einkommensverlust-nach-geburt",
       "label": "ZEW – Einkommensverlust nach Geburt",
       "url": "https://www.zew.de/presse/pressearchiv/einkommensverlust-nach-geburt-weit-hoeher-als-bisher-gedacht"
     }

@@ -31,7 +31,7 @@
             { "label": "OECD-Schnitt", "value": 6000 }
           ],
           "unit": "USD",
-          "sourceRefs": [1]
+          "sourceRefs": ["oecd-health-at-a-glance-2025"]
         },
         {
           "type": "stat_grid",
@@ -40,7 +40,7 @@
             { "label": "GKV-Ausgaben 2025", "value": "346,6 Mrd. €", "sublabel": "Prognose GKV-Schätzerkreis" },
             { "label": "BIP-Anteil Gesundheit", "value": "~12 %", "sublabel": "OECD-Schnitt: 9,3 %" }
           ],
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["oecd-health-at-a-glance-2025", "gkv-schaetzerkreis-prognose-2025-2026"]
         },
         {
           "type": "line_chart",
@@ -62,7 +62,7 @@
         {
           "type": "text",
           "text": "Arbeitnehmer und Arbeitgeber teilen sich den Beitrag paritätisch. Bei 3.000 Euro Brutto entspräche das zusammen rechnerisch rund 525 Euro monatlich für die Krankenversicherung.",
-          "sourceRefs": [2]
+          "sourceRefs": ["gkv-schaetzerkreis-prognose-2025-2026"]
         }
       ]
     },
@@ -73,7 +73,7 @@
         {
           "type": "text",
           "text": "Die Unterschiede zwischen gesetzlich und privat Versicherten sind bei Wartezeiten auf Facharzttermine besonders deutlich messbar.",
-          "sourceRefs": [4]
+          "sourceRefs": ["spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv"]
         },
         {
           "type": "comparison",
@@ -94,13 +94,13 @@
               ]
             }
           ],
-          "sourceRefs": [4]
+          "sourceRefs": ["spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv"]
         },
         {
           "type": "fact",
           "text": "Kassenpatienten warten bei Lungenfachärzten bis zu viermal länger als Privatpatienten.",
           "highlight": true,
-          "sourceRefs": [4]
+          "sourceRefs": ["spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv"]
         },
         {
           "type": "text",
@@ -115,7 +115,7 @@
         {
           "type": "text",
           "text": "Ende 2023 lebten 5,7 Millionen Pflegebedürftige in Deutschland – Tendenz stark steigend. Die Zahl der Pflegekräfte hält mit dem wachsenden Bedarf nicht Schritt.",
-          "sourceRefs": [5]
+          "sourceRefs": ["statistisches-bundesamt-pflegekraefte-prognose"]
         },
         {
           "type": "timeline",
@@ -125,13 +125,13 @@
             { "label": "2034", "value": "90.000 fehlend", "highlight": true },
             { "label": "2049", "value": "280.000 fehlend" }
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["statistisches-bundesamt-pflegekraefte-prognose"]
         },
         {
           "type": "fact",
           "text": "Im ungünstigsten Szenario (Status quo) fehlen bis 2049 sogar bis zu 690.000 Pflegekräfte. Der Bedarf steigt gegenüber 2019 um rund ein Drittel (+33 %) auf 2,15 Millionen Erwerbstätige in der Pflege.",
           "highlight": true,
-          "sourceRefs": [5]
+          "sourceRefs": ["statistisches-bundesamt-pflegekraefte-prognose"]
         },
         {
           "type": "text",
@@ -146,7 +146,7 @@
         {
           "type": "text",
           "text": "Deutschland hatte 2024 rund 1.841 Krankenhäuser und 7,6 Krankenhausbetten pro 1.000 Einwohner bei einer Bettenauslastung von 72 %.",
-          "sourceRefs": [6]
+          "sourceRefs": ["statistisches-bundesamt-krankenhausstatistik"]
         },
         {
           "type": "bar_chart",
@@ -160,12 +160,12 @@
             { "label": "Niederlande", "value": 2.4 },
             { "label": "Dänemark", "value": 2.4 }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["oecd-health-at-a-glance-2025"]
         },
         {
           "type": "text",
           "text": "Die Krankenhausreform wurde 2026 angepasst: Für ländliche Kliniken gelten mehr Ausnahmen und Kooperationsmöglichkeiten, die Vorhaltevergütung wurde um ein Jahr verschoben und die volle Finanzwirksamkeit ist erst ab 2030 vorgesehen. Der ursprünglich vorgesehene GKV-Anteil von 25 Milliarden Euro am Transformationsfonds wird nun aus Sondervermögen getragen.",
-          "sourceRefs": [3]
+          "sourceRefs": ["bundesgesundheitsministerium-krankenhausreform"]
         }
       ]
     },
@@ -183,7 +183,7 @@
             { "label": "Versorgungsdruck", "value": "hoch", "sublabel": "psychische Versorgung hinkt dem Bedarf hinterher" },
             { "label": "Fallzahl-Zuwachs", "value": "+3,4 %", "sublabel": "1. Halbjahr 2025 vs. Vorjahr" }
           ],
-          "sourceRefs": [7]
+          "sourceRefs": ["zi-trendreport-psychotherapie-2025"]
         },
         {
           "type": "fact",
@@ -193,7 +193,7 @@
         {
           "type": "text",
           "text": "Besonders in der Kinder- und Jugendpsychiatrie steigen die Fallzahlen stark (+5,7 % im 1. Halbjahr 2025).",
-          "sourceRefs": [7]
+          "sourceRefs": ["zi-trendreport-psychotherapie-2025"]
         }
       ]
     },
@@ -215,13 +215,13 @@
             { "label": "Prävention", "value": 25, "sublabel": "~25 Mrd. € (5,0 %)" }
           ],
           "total": "Gesamtausgaben: 500,8 Mrd. €",
-          "sourceRefs": [8]
+          "sourceRefs": ["rki-gesundheitsberichterstattung"]
         },
         {
           "type": "fact",
           "text": "Nur 5 % der Gesundheitsausgaben fließen in Prävention (298 Euro pro Person und Jahr). Die GKV investierte 2024 mit 686 Millionen Euro zwar einen Rekordwert – das sind aber weniger als 0,2 % der Gesamtausgaben.",
           "highlight": true,
-          "sourceRefs": [8, 9]
+          "sourceRefs": ["rki-gesundheitsberichterstattung", "gkv-spitzenverband-praeventionsbericht-2025"]
         },
         {
           "type": "text",
@@ -290,42 +290,52 @@
   ],
   "sources": [
     {
+      "id": "oecd-health-at-a-glance-2025",
       "label": "OECD – Health at a Glance 2025",
       "url": "https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/health-expenditure-per-capita_affe6b0a.html"
     },
     {
+      "id": "gkv-schaetzerkreis-prognose-2025-2026",
       "label": "GKV-Schätzerkreis – Prognose 2025/2026",
       "url": "https://www.bundesamtsozialesicherung.de/de/service/newsroom/detail/gkv-schaetzerkreis-schaetzt-die-finanziellen-rahmenbedingungen-der-gesetzlichen-krankenversicherung-fuer-die-jahre-2025-und-2026/"
     },
     {
+      "id": "bundesgesundheitsministerium-krankenhausreform",
       "label": "Bundesgesundheitsministerium – Krankenhausreform",
       "url": "https://www.bundesgesundheitsministerium.de/ministerium/meldungen/bundestag-beschliesst-krankenhausreformanpassungsgesetz-pm-06-03-2026"
     },
     {
+      "id": "spiegel-doctolib-wartezeiten-analyse-gkv-vs-pkv",
       "label": "Spiegel / Doctolib – Wartezeiten-Analyse GKV vs. PKV (2025)",
       "url": "https://cdn.prod.www.spiegel.de/stories/207901/index.amp.html"
     },
     {
+      "id": "statistisches-bundesamt-pflegekraefte-prognose",
       "label": "Statistisches Bundesamt – Pflegekräfte-Prognose bis 2049",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_033_23_12.html"
     },
     {
+      "id": "statistisches-bundesamt-krankenhausstatistik",
       "label": "Statistisches Bundesamt – Krankenhausstatistik 2024",
       "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/Tabellen/eckzahlen-krankenhaeuser.html"
     },
     {
+      "id": "zi-trendreport-psychotherapie-2025",
       "label": "Zi-Trendreport Psychotherapie 2025",
       "url": "https://www.monitor-versorgungsforschung.de/news/zi-trendreport-fuer-das-1-halbjahr-2025-weiter-steigende-fallzahlen-in-psychotherapie-und-psychiatrie/"
     },
     {
+      "id": "rki-gesundheitsberichterstattung",
       "label": "RKI – Gesundheitsberichterstattung Präventionsausgaben",
       "url": "https://www.gbe.rki.de/DE/Themen/Rahmenbedingungen/PolitischeRahmenbedingungen/GesetzlicheGrundlagen/Praeventionsausgaben/praeventionsausgaben_node.html"
     },
     {
+      "id": "gkv-spitzenverband-praeventionsbericht-2025",
       "label": "GKV-Spitzenverband – Präventionsbericht 2025",
       "url": "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp"
     },
     {
+      "id": "mediendienst-integration-gesundheitsversorgung",
       "label": "Mediendienst Integration – Gesundheitsversorgung Geflüchteter",
       "url": "https://mediendienst-integration.de/bevoelkerung/gesundheit-von-migranten/gesundheitsversorgung-von-fluechtlingen/"
     }

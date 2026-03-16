@@ -17,32 +17,45 @@ import ComparisonView from '../visualizations/ComparisonView'
 import RangeBarChart from '../visualizations/RangeBarChart'
 import TimelineView from '../visualizations/TimelineView'
 import ProgressStack from '../visualizations/ProgressStack'
-import type { Section, ContentBlock, Source } from '../../types'
+import type { Section, ContentBlock, Source, SourceRef } from '../../types'
 
 const SimpleBarChart = lazy(() => import('../visualizations/SimpleBarChart'))
 const SimpleLineChart = lazy(() => import('../visualizations/SimpleLineChart'))
 
-function SourceRefLinks({ refs, sources }: { refs?: number[]; sources?: Source[] }) {
+function SourceRefLinks({ refs, sources }: { refs?: SourceRef[]; sources?: Source[] }) {
   if (!refs?.length || !sources?.length) return null
+
+  const resolvedRefs = refs
+    .map((ref) => {
+      const sourceNumber = sources.findIndex((source) => source.id === ref) + 1
+
+      if (sourceNumber <= 0) return null
+
+      return { ref, sourceNumber }
+    })
+    .filter((entry): entry is { ref: SourceRef; sourceNumber: number } => entry !== null)
+
+  if (!resolvedRefs.length) return null
+
   return (
     <Typography
       component="span"
       variant="caption"
       sx={{ color: 'text.disabled', fontSize: '0.65rem', ml: 0.5 }}
     >
-      [{refs.map((ref, i) => (
+      [{resolvedRefs.map(({ ref, sourceNumber }, i) => (
         <span key={ref}>
           {i > 0 && ', '}
           <Box
             component="a"
-            href="#quellen"
+            href={`#quelle-${ref}`}
             sx={{ color: 'text.disabled', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}
             onClick={(e: React.MouseEvent) => {
               e.preventDefault()
-              document.getElementById('quellen')?.scrollIntoView({ behavior: 'smooth' })
+              document.getElementById(`quelle-${ref}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
             }}
           >
-            {ref}
+            {sourceNumber}
           </Box>
         </span>
       ))}]

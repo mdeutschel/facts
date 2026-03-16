@@ -138,7 +138,14 @@ export default function TopicPage() {
               </Typography>
               <Box component="ol" sx={{ pl: 2.5, mt: 0.5, mb: 0 }}>
                 {topic.sources.map((src, i) => (
-                  <Typography component="li" variant="caption" color="text.secondary" key={i} sx={{ fontSize: '0.65rem' }}>
+                  <Typography
+                    component="li"
+                    variant="caption"
+                    color="text.secondary"
+                    key={src.id}
+                    id={`quelle-${src.id}`}
+                    sx={{ fontSize: '0.65rem' }}
+                  >
                     {src.url ? (
                       <a
                         href={src.url}

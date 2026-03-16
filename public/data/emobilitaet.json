@@ -23,7 +23,7 @@
             { "value": ">190.000", "label": "Öffentl. Ladepunkte", "sublabel": "davon >48.000 Schnelllader (BNetzA)" },
             { "value": "19,1 %", "label": "BEV-Marktanteil", "sublabel": "Neuzulassungen 2025" }
           ],
-          "sourceRefs": [3, 8]
+          "sourceRefs": ["bdew-marke-von-200-000-ladepunkten", "kraftfahrt-bundesamt-kba-bestand"]
         },
         {
           "type": "line_chart",
@@ -37,13 +37,13 @@
             { "label": "2024", "value": 13.5 },
             { "label": "2025", "value": 19.1 }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["bdew-marke-von-200-000-ladepunkten"]
         },
         {
           "type": "fact",
           "text": "Nach dem Einbruch 2024 stieg der BEV-Anteil an den Neuzulassungen 2025 wieder auf 19,1 %. Gegenüber 2024 legte der BEV-Anteil damit wieder zu.",
           "highlight": true,
-          "sourceRefs": [3]
+          "sourceRefs": ["bdew-marke-von-200-000-ladepunkten"]
         }
       ]
     },
@@ -54,7 +54,7 @@
         {
           "type": "text",
           "text": "Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ ins Leben. Dieser wird im Fahrbetrieb abgebaut, da der E-Motor deutlich effizienter ist und der Strommix immer grüner wird.",
-          "sourceRefs": [1, 5]
+          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars", "bmukn-klima-und-energie-bei-elektromobilitaet"]
         },
         {
           "type": "stat_grid",
@@ -62,18 +62,18 @@
             { "value": "~17.000 km", "label": "Break-Even", "sublabel": "in Europa (ICCT 2025)", "color": "#00897b" },
             { "value": "-73 %", "label": "CO₂-Emissionen", "sublabel": "über Lebenszyklus (ICCT 2025)" }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars"]
         },
         {
           "type": "fact",
           "text": "Laut ICCT (Juli 2025) verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner.",
           "highlight": true,
-          "sourceRefs": [1]
+          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars"]
         },
         {
           "type": "fact",
           "text": "Der CO₂-Rucksack aus der Produktion wird im Betrieb schrittweise ausgeglichen, weil E-Motoren effizienter sind und der Strommix weiter dekarbonisiert.",
-          "sourceRefs": [1, 5]
+          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars", "bmukn-klima-und-energie-bei-elektromobilitaet"]
         }
       ]
     },
@@ -84,7 +84,7 @@
         {
           "type": "text",
           "text": "TCO (Total Cost of Ownership) beinhaltet Anschaffung, Wertverlust, Steuern, Versicherung, Wartung und Energiekosten (ADAC Autokostenrechner).",
-          "sourceRefs": [2]
+          "sourceRefs": ["adac-autokostenrechner-tco-vergleich"]
         },
         {
           "type": "comparison",
@@ -114,13 +114,13 @@
             }
           ],
           "savings": "Entscheidend ist der Vergleich konkreter Modelle im ADAC-Autokostenrechner.",
-          "sourceRefs": [2, 12]
+          "sourceRefs": ["adac-autokostenrechner-tco-vergleich", "zoll-verlaengerung-der-steuerbefreiung-fuer"]
         },
         {
           "type": "fact",
           "text": "Trotz oft höherem Listenpreis können E-Autos in der Gesamtkostenrechnung (TCO) je nach Modell, Nutzung und Ladekosten günstiger sein als vergleichbare Verbrenner.",
           "highlight": true,
-          "sourceRefs": [2]
+          "sourceRefs": ["adac-autokostenrechner-tco-vergleich"]
         }
       ]
     },
@@ -149,7 +149,7 @@
           "type": "fact",
           "text": "Die Rohstofffrage ist real, aber Batterien sind reguliert: Hersteller reduzieren kritische Materialien, und die EU verschärft die Recyclingvorgaben deutlich.",
           "highlight": true,
-          "sourceRefs": [7, 11]
+          "sourceRefs": ["fraunhofer-isi-batterie-recycling-in-europa", "eu-batterieverordnung-2023-1542-recyclingquoten"]
         }
       ]
     },
@@ -164,18 +164,18 @@
             { "value": "§ 14a EnWG", "label": "Regelung", "sublabel": "verhindert lokale Überlastung" },
             { "value": "smart laden", "label": "Praxis", "sublabel": "Engpässe werden lokal statt pauschal gemanagt" }
           ],
-          "sourceRefs": [4]
+          "sourceRefs": ["bundesnetzagentur-e-mobilitaet-und-14a-enwg"]
         },
         {
           "type": "fact",
           "text": "Neue steuerbare Ladeeinrichtungen dürfen nicht pauschal wegen lokaler Engpässe abgelehnt werden. Im Engpassfall darf der Strombezug zeitweise reduziert werden, die Bundesnetzagentur schreibt dabei aber eine Mindestleistung von 4,2 kW vor.",
           "highlight": true,
-          "sourceRefs": [4]
+          "sourceRefs": ["bundesnetzagentur-e-mobilitaet-und-14a-enwg"]
         },
         {
           "type": "text",
           "text": "Lokale Überlastungen werden durch intelligentes Laden gemanagt. Netzbetreiber dürfen Wallboxen im Engpassfall zeitweise dimmen, aber nicht vollständig abschalten.",
-          "sourceRefs": [4]
+          "sourceRefs": ["bundesnetzagentur-e-mobilitaet-und-14a-enwg"]
         }
       ]
     },
@@ -192,13 +192,13 @@
             ["Wasserstoff", "Zusätzliche Umwandlungsschritte kosten im Pkw viel Energie."],
             ["E-Fuels", "Sollten vor allem dort eingesetzt werden, wo Batterien kaum praktikabel sind."]
           ],
-          "sourceRefs": [6]
+          "sourceRefs": ["transport-environment-t-e-e-fuels"]
         },
         {
           "type": "fact",
           "text": "Für Pkw ist die direkte Nutzung von Strom im Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels.",
           "highlight": true,
-          "sourceRefs": [6]
+          "sourceRefs": ["transport-environment-t-e-e-fuels"]
         },
         {
           "type": "text",
@@ -214,12 +214,12 @@
           "type": "fact",
           "text": "Elektroautos brennen laut BMUKN nicht häufiger als andere Fahrzeuge.",
           "highlight": true,
-          "sourceRefs": [10]
+          "sourceRefs": ["bmukn-brandgefahr-von-elektroautos"]
         },
         {
           "type": "text",
           "text": "Ein brennendes Elektroauto ist laut BMUKN in thermischer Hinsicht nicht gefährlicher als ein brennendes Fahrzeug mit konventionellem Antrieb.",
-          "sourceRefs": [10]
+          "sourceRefs": ["bmukn-brandgefahr-von-elektroautos"]
         },
         {
           "type": "text",
@@ -281,50 +281,62 @@
   ],
   "sources": [
     {
+      "id": "icct-life-cycle-ghg-emissions-of-passenger-cars",
       "label": "ICCT – Life-cycle GHG emissions of passenger cars (Juli 2025)",
       "url": "https://theicct.org/publication/electric-cars-life-cycle-analysis-emissions-europe-jul25/"
     },
     {
+      "id": "adac-autokostenrechner-tco-vergleich",
       "label": "ADAC – Autokostenrechner / TCO-Vergleich",
       "url": "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/uebersicht/"
     },
     {
+      "id": "bdew-marke-von-200-000-ladepunkten",
       "label": "BDEW – Marke von 200.000 Ladepunkten überschritten",
       "url": "https://www.bdew.de/presse/marke-von-200000-ladepunkten-ueberschritten-fokus-auf-elektrofahrzeugabsatz-kommt-zum-richtigen-zeitpunkt/"
     },
     {
+      "id": "bundesnetzagentur-e-mobilitaet-und-14a-enwg",
       "label": "Bundesnetzagentur – E-Mobilität und § 14a EnWG",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/E-Mobilitaet/start.html"
     },
     {
+      "id": "bmukn-klima-und-energie-bei-elektromobilitaet",
       "label": "BMUKN – Klima und Energie bei Elektromobilität",
       "url": "https://www.bmuv.de/themen/verkehr/elektromobilitaet/klima-und-energie"
     },
     {
+      "id": "transport-environment-t-e-e-fuels",
       "label": "Transport & Environment (T&E) – E-Fuels",
       "url": "https://www.transportenvironment.org/topics/cars/efuels"
     },
     {
+      "id": "fraunhofer-isi-batterie-recycling-in-europa",
       "label": "Fraunhofer ISI – Batterie-Recycling in Europa",
       "url": "https://www.isi.fraunhofer.de/de/blog/themen/batterie-update/batterie-recycling_europa_kapazitaeten_bedarf_update_2025.html"
     },
     {
+      "id": "kraftfahrt-bundesamt-kba-bestand",
       "label": "Kraftfahrt-Bundesamt (KBA) – Bestand batterieelektrischer Pkw am 1. Januar 2026",
       "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Allgemein/2026/pm08_2026_elektro_pkw.html"
     },
     {
+      "id": "kraftfahrt-bundesamt-kba-fahrzeugbestand-am-1",
       "label": "Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand am 1. Januar 2026",
       "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html"
     },
     {
+      "id": "bmukn-brandgefahr-von-elektroautos",
       "label": "BMUKN – Brandgefahr von Elektroautos",
       "url": "https://www.bmuv.de/faq/wie-gefaehrlich-sind-elektroautos-besonders-im-fall-eines-brands"
     },
     {
+      "id": "eu-batterieverordnung-2023-1542-recyclingquoten",
       "label": "EU-Batterieverordnung 2023/1542 – Recyclingquoten",
       "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
     },
     {
+      "id": "zoll-verlaengerung-der-steuerbefreiung-fuer",
       "label": "Zoll – Verlängerung der Steuerbefreiung für reine Elektrofahrzeuge",
       "url": "https://www.zoll.de/SharedDocs/Fachmeldungen/Aktuelle-Einzelmeldungen/2026/kfz_verlaengerung_steuerbefreiung_elektrofahrzeuge.html"
     }
