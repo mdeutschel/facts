@@ -1,0 +1,55 @@
+# Teilzeit & Arbeitsmoral
+
+Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z. | Stand: 2026-03
+
+### Fakten
+
+### Das Gesamtarbeitsvolumen in Deutschland
+
+Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — das entspricht umgerechnet 1.332 Stunden pro Erwerbstätigem und Jahr, also etwa 33 Stunden pro Woche im Durchschnitt über alle Voll- und Teilzeitkräfte.
+
+- Gesamtarbeitsvolumen: 61,26 Mrd. (Stunden im Jahr 2025)
+- Erwerbstätige: 45,98 Mio. (Personen in Deutschland)
+- Teilzeitquote: 39,9 % (Neuer Höchststand)
+
+### Warum arbeiten Menschen in Teilzeit?
+
+Die Gründe für Teilzeitarbeit sind vielfältig. Während der allgemeine Wunsch nach reduzierter Arbeitszeit der häufigste Grund ist, spielt Care-Arbeit (Betreuung von Kindern oder Pflegebedürftigen) eine fast ebenso große Rolle – insbesondere bei Frauen.
+
+Hinweis: Hauptgründe für Teilzeitarbeit (2024)
+- Eigener Wunsch: 27.9 %
+- Care-Arbeit (Kinder/Pflege): 23.5 %
+- Aus- und Weiterbildung: 11.6 %
+- Krankheit/Behinderung: 4.9 %
+- Keine Vollzeitstelle gefunden: 4.8 %
+
+### Die Gen Z und die Arbeitsmoral
+
+Ein hartnäckiger Mythos besagt, die Generation Z sei arbeitsscheu. IAB-Veröffentlichungen von 2025 auf Basis von Daten bis 2023 zeigen das Gegenteil: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 Prozent gestiegen. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit einer höheren Erwerbsbeteiligung von Studierenden zusammen.
+
+Hinweis: Erwerbsverhalten der 20- bis 24-Jährigen
+- Erwerbsbeteiligung
+  - 2015: ca. 70 %
+  - 2023: 75,9 %
+- Erwerbsquote Studierende
+  - 2015: 36,7 %
+  - 2023: 56,0 %
+
+### Argumente
+
+- Aussage: Die Leute wollen heute alle nur noch in Teilzeit arbeiten und ihre Freizeit genießen.
+  Antwort: Der Wunsch nach mehr Freizeit ist zwar der häufigste Grund (27,9 %), aber fast genauso viele (23,5 %) arbeiten in Teilzeit, weil sie Care-Arbeit leisten (Kinderbetreuung oder Pflege von Angehörigen). Bei Frauen liegen eigener Wunsch (28,9 %) und Care-Arbeit (28,8 %) nahezu gleichauf.
+- Aussage: Wegen der ganzen Teilzeit geht in Deutschland die Arbeitsleistung zurück.
+  Antwort: 2025 lag das Gesamtarbeitsvolumen in Deutschland bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit 45,98 Millionen nahezu konstant.
+- Aussage: Die Gen Z ist arbeitsscheu und will nicht mehr richtig arbeiten.
+  Antwort: Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen stieg seit 2015 um über 6 Prozentpunkte auf 76 %. Der Teilzeitanstieg in dieser Gruppe erklärt sich vor allem durch mehr arbeitende Studierende: Deren Erwerbsquote stieg von 36,7 % (2015) auf 56,0 % (2023).
+- Aussage: Die jungen Leute machen alle nur noch Teilzeit, weil sie keine Lust auf 40 Stunden haben.
+  Antwort: Der Anstieg der Teilzeit bei jungen Menschen hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen. Die Erwerbsquote von Studierenden im Alter von 20 bis 24 Jahren stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %.
+- Aussage: Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.
+  Antwort: Das ist ein Trugschluss. Die verfügbaren Destatis-Daten zeigen vor allem, dass Teilzeit häufig mit Betreuungspflichten (23,5 %), Aus- und Weiterbildung (11,6 %) oder Krankheit beziehungsweise Behinderung (4,9 %) zusammenhängt. Ein pauschales 'Teilzeit abschaffen' beseitigt diese Gründe nicht.
+
+### Quellen
+
+- IAB: Ergebnisse der Arbeitszeitrechnung 2025 (https://iab.de/presseinfo/ergebnisse-der-iab-arbeitszeitrechnung-fuer-das-jahr-2025-teilzeitbeschaeftigte-arbeiteten-132-millionen-stunden/)
+- Destatis: Gründe für Teilzeittätigkeit 2024 (https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/Interaktiv/3-9_tz_gruende-geschlecht.html)
+- IAB: Generation Z – Erwerbsbeteiligung der 20- bis 24-Jährigen (https://iab.de/presseinfo/generation-z-erwerbsbeteiligung-der-20-bis-24-jaehrigen-klettert-auf-den-hoechsten-stand-seit-jahrzehnten/)

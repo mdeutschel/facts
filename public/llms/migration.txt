@@ -1,0 +1,70 @@
+# Migration & Asyl
+
+Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland | Stand: 2026-03
+
+### Fakten
+
+### Entwicklung der Asylzahlen
+
+Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort.
+
+Hinweis: Aktuelle Asylzahlen
+Spalten: Zeitraum | Asylerstanträge | Einordnung
+- 2024 | 229.751 | Vergleichsbasis
+- 2025 | 113.236 | -50,7 % zu 2024
+- Januar 2026 | 7.649 | -48,7 % zum Vorjahresmonat
+
+- Asylerstanträge 2025: 113.236 (-50,7 % zu 2024)
+- Asylerstanträge Jan 2026: 7.649 (-48,7 % zum Vorjahresmonat)
+- Gesamtschutzquote 2025: 28,1 % (Anteil positiver Entscheidungen)
+
+- Die zugangsstärksten Herkunftsländer 2025 waren Afghanistan (23.972 Erstanträge), Syrien (23.256) und die Türkei (11.919).
+
+### Arbeitsmarktintegration
+
+Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb, Qualifizierung), zeigt aber langfristig deutliche Erfolge. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) nähert sich die Beschäftigungsquote der 2015 nach Deutschland gekommenen Geflüchteten nach neun Jahren dem Bevölkerungsdurchschnitt an.
+
+Hinweis: Beschäftigungsquote der 2015 zugezogenen Geflüchteten
+- Im 1. Jahr: 9% (unter 10 %)
+- Nach 9 Jahren: 64% (Männer: 76%, Frauen: 35%)
+- Gesamt: Bevölkerungsdurchschnitt: 70%
+
+- Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
+
+Für die 2015 zugezogene Geflüchtetenkohorte zeigen IAB-Daten eine besondere Bedeutung von Gesundheits-, Fertigungs- sowie Verkehrs- und Logistikberufen. Pauschale Aussagen über eine generelle Verdrängung am Arbeitsmarkt tragen diese Daten aber nicht.
+
+- 2023 lebten noch 34 % der 2015 zugezogenen Geflüchteten im erwerbsfähigen Alter in SGB-II-Haushalten. Unter den abhängig Beschäftigten konnten 84 % ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten.
+
+### Demografischer Wandel und Fachkräfte
+
+Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial. Destatis erwartet, dass die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er Jahre selbst bei hoher Nettozuwanderung um rund 3,2 Millionen sinkt. Dadurch gewinnt die Frage an Bedeutung, wie Zuwanderung und Arbeitsmarktintegration zum Arbeitskräfteangebot beitragen.
+
+- Erwerbspersonen: −3,2 Mio. (20- bis 66-Jährige sinken bis Mitte 2030er)
+- Beschäftigungsquote: 64 % (der 2015 zugezogenen Geflüchteten (Ende 2024))
+- Fachkraft oder höher: 50 % (der beschäftigten Geflüchteten nach 7–8 Jahren)
+
+- Selbst bei hoher Nettozuwanderung sinkt laut Destatis die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er um rund 3,2 Millionen. Integration in den Arbeitsmarkt ist daher keine Kür, sondern volkswirtschaftliche Notwendigkeit.
+
+### Argumente
+
+- Aussage: Die Asylzahlen explodieren immer weiter, wir werden überrannt!
+  Antwort: Tatsächlich sind die Asylerstanträge 2025 massiv gesunken. Mit 113.236 Erstanträgen gab es einen Rückgang von über 50 % im Vergleich zum Vorjahr (2024: 229.751). Im Januar 2026 setzte sich dieser Trend mit einem weiteren Rückgang von fast 49 % zum Vorjahresmonat fort.
+- Aussage: Die Flüchtlinge von 2015 leben alle nur vom Bürgergeld und arbeiten nicht.
+  Antwort: Die IAB-Daten zeigen etwas anderes: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 %. 2023 lebten zwar noch 34 % dieser Kohorte im erwerbsfähigen Alter in SGB-II-Haushalten, zugleich konnten 84 % der abhängig Beschäftigten ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten. "Alle leben vom Bürgergeld" ist damit klar falsch.
+- Aussage: Ausländer nehmen uns die guten Jobs weg.
+  Antwort: Die hier hinterlegten Quellen belegen keine pauschale Verdrängung anderer Beschäftigter. Belegt ist nur, dass viele 2015 zugezogene Geflüchtete in Gesundheits-, Verkehrs-/Logistik- und Fertigungsberufen arbeiten. Ob daraus Konkurrenz oder Entlastung entsteht, hängt vom konkreten Arbeitsmarkt ab.
+- Aussage: Die Zuwanderung bringt uns wirtschaftlich nichts, sie kostet nur.
+  Antwort: Mit den hier hinterlegten Quellen lässt sich kein gesamtwirtschaftlicher Nettoeffekt von Zuwanderung belegen. Belegt ist aber: Die Beschäftigungsquote der 2015 zugezogenen Geflüchteten stieg bis Ende 2024 auf 64 % und näherte sich damit dem Bevölkerungsdurchschnitt an.
+- Aussage: Die meisten Geflüchteten sind ungebildet und können hier gar nicht arbeiten.
+  Antwort: Mit den vorliegenden Quellen lässt sich die Bildungsstruktur nicht seriös pauschal bewerten. Belegt ist aber, dass rund die Hälfte der beschäftigten Geflüchteten sieben bis acht Jahre nach dem Zuzug als Fachkraft oder Spezialist arbeitet und die Beschäftigungsquote bis Ende 2024 auf 64 % gestiegen ist.
+- Aussage: Ausländer sind krimineller als Deutsche, das zeigt doch die Kriminalstatistik!
+  Antwort: Mit den in dieser Datei hinterlegten Quellen lässt sich diese pauschale Behauptung nicht seriös belegen. Für Aussagen über Kriminalität bräuchte es eine eigene, sauber hinterlegte Quellenbasis mit differenzierten PKS- und Dunkelfelddaten.
+- Aussage: Migration kostet uns nur Milliarden und bringt wirtschaftlich nichts!
+  Antwort: Integration verursacht anfangs tatsächlich Kosten, etwa für Sprache, Unterbringung und Qualifizierung. Mit den hier hinterlegten Quellen ist aber vor allem belegt, dass die Beschäftigungsquote der 2015 zugezogenen Geflüchteten Ende 2024 bei 64 % lag. Für Aussagen über einen gesamtwirtschaftlichen Netto-Nutzen oder eine fiskalische Rendite braucht es zusätzliche Quellen.
+
+### Quellen
+
+- BAMF: Asylzahlen Dezember und Gesamtjahr 2025 (https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260112-asylzahlen-dezember-und-gesamtjahr-2025.html)
+- BAMF: Asylzahlen Januar 2026 (https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260206-asylzahlen-januar-2026.html)
+- IAB: 10 Jahre Fluchtmigration (2025) (https://iab.de/daten/10-jahre-fluchtmigration-beschaeftigungsmerkmale-der-gefluechteten-die-2015-in-deutschland-schutz-gesucht-haben/)
+- Destatis - Demografischer Wandel und Fachkräfte (https://www.destatis.de/DE/Im-Fokus/Fachkraefte/Demografie/_inhalt.html)
