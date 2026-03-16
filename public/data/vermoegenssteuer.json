@@ -196,9 +196,9 @@
         },
         {
           "type": "fact",
-          "text": "Die Erbschaftsteuer bringt trotz sehr hoher jährlicher Vermögensübertragungen nur einen vergleichsweise kleinen Teil des Steueraufkommens ein.",
+          "text": "Die Erbschaftsteuer bringt nur ~1,1 % des Gesamtsteueraufkommens ein — weniger als die Tabaksteuer (~15 Mrd. €). Bei einem geschätzten jährlichen Erbvolumen von 300–400 Mrd. € liegt der effektive Steuersatz bei nur 2–3 %.",
           "highlight": true,
-          "sourceRefs": ["statistisches-bundesamt-erbschaft-und"]
+          "sourceRefs": ["statistisches-bundesamt-erbschaft-und", "diw-wochenbericht-4-2026-erbschaftsteuerreform"]
         },
         {
           "type": "text",
@@ -230,6 +230,19 @@
           "type": "fact",
           "text": "Schon die konservativste Variante (1 % ab 1 Mio. € Freibetrag) brächte laut DIW rund 42 Mrd. Euro pro Jahr — mehr als dreimal so viel wie die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.",
           "highlight": true,
+          "sourceRefs": ["diw-politikberatung-kompakt-211-vermoegensteuer"]
+        },
+        {
+          "type": "table",
+          "caption": "Was 1 % Vermögensteuer (Freibetrag 1 Mio. €) konkret bedeuten würde",
+          "headers": ["Nettovermögen", "Steuerbetrag/Jahr", "Einordnung"],
+          "rows": [
+            ["500.000 €", "0 €", "unter Freibetrag — nicht betroffen"],
+            ["1,5 Mio. €", "5.000 €", "nur auf 500.000 € über Freibetrag"],
+            ["5 Mio. €", "40.000 €", "bei 5–10 % Rendite aus laufenden Erträgen zahlbar"],
+            ["50 Mio. €", "490.000 €", "entspricht ~1 % des Vermögens"],
+            ["1 Mrd. €", "9,99 Mio. €", "weniger als eine typische Quartalsdividende"]
+          ],
           "sourceRefs": ["diw-politikberatung-kompakt-211-vermoegensteuer"]
         },
         {

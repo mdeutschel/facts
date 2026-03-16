@@ -26,22 +26,24 @@ Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente | Stand: 2026-
 
 Seriöse Gesamtkostenvergleiche hängen stark vom Gebäude, vom bisherigen Heizsystem, vom Wärmebedarf, von Strom- und Gaspreisen sowie von Förderbedingungen ab. Aussagen mit festen 20-Jahres-Summen sind ohne offengelegte Rechenmethodik wenig belastbar.
 
-Hinweis: Typische Kostentreiber im Vergleich
+Hinweis: Beispielrechnung: Einfamilienhaus, 20.000 kWh Wärmebedarf/Jahr
 - Gasheizung (Brennwert)
-  - Anschaffung: oft zunächst günstiger
-  - Brennstoffkosten: abhängig vom Gaspreis
-  - CO₂-Kosten: steigen mit dem CO₂-Preis
-  - Infrastruktur-Risiko: abhängig von Netz- und Regulierungspfaden
-  - Gesamtkosten: stark szenarioabhängig
-- Wärmepumpe (Luft-Wasser)
-  - Anschaffung: oft höher, aber förderfähig
-  - Betriebskosten: abhängig von Strompreis und Effizienz
-  - CO₂-Kosten: keine direkte fossile CO₂-Abgabe
-  - Systemvorteil: kombinierbar mit PV und variablen Tarifen
-  - Gesamtkosten: ebenfalls objektabhängig
-- Ersparnis: Belastbar ist nur der Vergleich konkreter Gebäude und konkreter Angebote.
+  - Energieverbrauch: 20.000 kWh Gas
+  - Gaspreis (2026): ~10 Ct/kWh
+  - Energiekosten: ~2.000 €/Jahr
+  - CO₂-Kosten (55 €/t): +220 €/Jahr
+  - Wartung: ~250 €/Jahr
+  - Jährliche Betriebskosten: ~2.470 €
+- Wärmepumpe (Luft-Wasser, JAZ 3,5)
+  - Energieverbrauch: ~5.700 kWh Strom
+  - WP-Strompreis (2026): ~24 Ct/kWh
+  - Energiekosten: ~1.370 €/Jahr
+  - CO₂-Kosten: 0 € (kein fossiler Brennstoff)
+  - Wartung: ~150 €/Jahr
+  - Jährliche Betriebskosten: ~1.520 €
+- Ersparnis: Ersparnis Wärmepumpe: rund 950 €/Jahr im Betrieb. Prämissen: Gaspreis 10 Ct/kWh, WP-Strom 24 Ct/kWh, JAZ 3,5, CO₂-Preis 55 €/t.
 
-Für belastbare Einzelfallrechnungen sollten Förderhöhe, Vorlauftemperaturen, Gebäudestand und realistische Energiepreise transparent offengelegt werden.
+Die konkreten Gesamtkosten hängen stark vom Gebäude, den Energiepreisen und der Förderhöhe ab. Die Beispielrechnung zeigt aber die Größenordnung: Bei steigendem CO₂-Preis (ab 2027 marktbasiert, ETS 2) wird der Betriebsvorteil der Wärmepumpe weiter wachsen.
 
 ### CO₂-Preis-Fahrplan
 
@@ -59,7 +61,7 @@ Spalten: Jahr | CO₂-Preis | Mechanismus
 - 2030er | szenarioabhängig | Markt- und Politikpfad
 - 2045 | klimaneutral | Zielrichtung im Gebäudesektor
 
-- Bei 160 EUR/t CO₂ lägen die CO₂-Kosten für einen Gas-Haushalt mit 20.000 kWh bei rund 650 EUR pro Jahr; bei 55 EUR/t sind es rund 220 EUR.
+- 55 EUR/t CO₂ entsprechen einem Aufschlag von ca. 1,1 Ct/kWh auf den Gaspreis (→ +220 EUR/Jahr bei 20.000 kWh). Bei 160 EUR/t wären es ca. 3,2 Ct/kWh (→ +650 EUR/Jahr). Jeder CO₂-Preisanstieg trifft nur fossile Heizungen, nicht die Wärmepumpe.
 
 ### Lock-in-Falle: Warum jede neue Gasheizung ein Risiko ist
 
@@ -210,18 +212,27 @@ Spalten: Baustein | Satz | Bedingung
 - Einkommensbonus | +30 % | bei Haushaltseinkommen < 40.000 EUR/Jahr
 - Gesamtförderung | max 70 % | gedeckelt auf 21.000 EUR Zuschuss
 
-- KfW-Ergänzungskredit 358/359 verfügbar
+Hinweis: Rechenbeispiel: Was bleibt nach Förderung? (EFH, Tausch Gasheizung)
+Spalten: Position | Betrag
+- Luft-Wasser-WP inkl. Installation | ~30.000 €
+- Förderfähige Kosten (max. 30.000 €) | 30.000 €
+- Grundförderung (30 %) | −9.000 €
+- Geschwindigkeitsbonus (20 %, bis Ende 2028) | −6.000 €
+- Eigenanteil bei 50 % Förderung | ~15.000 €
+- Mit Einkommensbonus (< 40.000 €/a, 70 %) | ~9.000 € Eigenanteil
+- Betriebskosten-Ersparnis/Jahr vs. Gas | ~950 €
+- Amortisation (bei 50 % Förderung) | ~16 Jahre
 
-- Antrag VOR Einbau bei KfW stellen
+- KfW-Ergänzungskredit 358/359 verfügbar: bis zu 120.000 € zinsgünstiges Darlehen für die restlichen Kosten.
 
-- Ohne Batteriespeicher erreichen PV-Wärmepumpen-Kombinationen laut Fraunhofer ISE etwa 25–40 % Autarkie und 22–37 % Eigenverbrauch.
+- Antrag VOR Einbau bei KfW stellen — sonst verfällt der Förderanspruch.
 
 ### Argumente
 
 - Aussage: Wärmepumpe lohnt sich nur im Neubau!
   Antwort: Falsch. Fraunhofer ISE hat 77 Bestandsgebäude vermessen, darunter sehr alte Gebäude, und keinen Zusammenhang zwischen Baujahr und Effizienz gefunden. Entscheidend sind Heizkörpergröße, Hydraulik und saubere Auslegung. Fußbodenheizung ist nicht zwingend nötig. Außerdem gehen rund 80 % der neuen Wärmepumpen in Bestandsgebäude.
 - Aussage: Gas ist doch viel billiger!
-  Antwort: In der Anschaffung kann Gas zunächst günstiger wirken. Bei Betriebskosten, CO₂-Kosten und Infrastruktur-Risiken spricht aber vieles für die Wärmepumpe. Konkrete 20-Jahres-Summen sollte man nur nennen, wenn Gebäude, Effizienz, Energiepreise und Förderung transparent offengelegt sind.
+  Antwort: In der Anschaffung ist Gas oft günstiger. Im Betrieb spart eine Wärmepumpe bei einem typischen EFH (20.000 kWh, JAZ 3,5) aber rund 950 €/Jahr gegenüber Gas — und das schon bei heutigen Preisen. Jeder CO₂-Preisanstieg vergrößert den Vorteil weiter: 55 €/t CO₂ kosten den Gashaushalt ca. 220 €/Jahr, bei 160 €/t schon 650 €/Jahr extra.
 - Aussage: Das Gasnetz bleibt doch!
   Antwort: MVV strebt in Mannheim die Stilllegung des Gasnetzes bis 2035 an. DIW warnt, dass Netzentgelte mit sinkender Kundenzahl stark steigen können. Die aktuelle VKU-Umfrage zeigt außerdem, dass viele Stadtwerke vor allem mit Wärmepumpen und Fernwärme planen.
 - Aussage: Wasserstoff wird alles lösen!
@@ -299,33 +310,39 @@ Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ i
 
 TCO (Total Cost of Ownership) beinhaltet Anschaffung, Wertverlust, Steuern, Versicherung, Wartung und Energiekosten (ADAC Autokostenrechner).
 
-Hinweis: ADAC-TCO: Worauf es bei den Gesamtkosten ankommt
-- Verbrenner
-  - Kaufpreis: oft etwas niedriger
-  - Energiekosten: abhängig von Kraftstoffpreisen
+Hinweis: ADAC-Kostenvergleich: VW ID.3 vs. VW Golf (bei 15.000 km/Jahr)
+- VW Golf 1.5 eTSI (Benzin)
+  - Listenpreis: ab ~33.400 €
+  - Gesamtkosten: ~57 Ct/km
   - Kfz-Steuer: regelmäßig fällig
-  - Wartung/Verschleiß: tendenziell höher
-  - Gesamtkosten: stark modellabhängig
-- E-Auto (BEV)
-  - Kaufpreis: oft etwas höher
-  - Energiekosten: abhängig vom Ladetarif
+  - Wartung/Verschleiß: höher (Ölwechsel, Bremsen, Kupplung)
+  - Monatliche Kosten: ~710 €
+- VW ID.3 Pure (Elektro)
+  - Listenpreis: ab ~33.300 €
+  - Gesamtkosten: ~47 Ct/km
   - Kfz-Steuer: bis Ende 2030 befreit
-  - Wartung/Verschleiß: tendenziell geringer
-  - Gesamtkosten: stark modellabhängig
-- Ersparnis: Entscheidend ist der Vergleich konkreter Modelle im ADAC-Autokostenrechner.
+  - Wartung/Verschleiß: niedriger (kein Ölwechsel, weniger Bremsverschleiß)
+  - Monatliche Kosten: ~590 €
+- Ersparnis: Der ID.3 ist laut ADAC über 4 Jahre Nutzung rund 3.000–4.000 € günstiger als der Golf.
 
-- Trotz oft höherem Listenpreis können E-Autos in der Gesamtkostenrechnung (TCO) je nach Modell, Nutzung und Ladekosten günstiger sein als vergleichbare Verbrenner.
+- Laut ADAC ist der VW ID.3 bei ähnlichem Listenpreis in den Gesamtkosten rund 10 Cent/km günstiger als der vergleichbare VW Golf – vor allem durch niedrigere Energie-, Steuer- und Wartungskosten.
 
 ### Akkus: Lebensdauer, Rohstoffe & Recycling
 
+- Akku-Garantie: 8 Jahre (oder 160.000 km, Marktstandard)
+- Mindestkapazität: 70 % (nach Garantielaufzeit)
+- BYD Blade: 250.000 km (erweiterte Garantie)
+
+Hinweis: Akku-Garantien ausgewählter Hersteller
+Spalten: Hersteller | Garantiedauer | Kapazitätsgarantie
+- VW (ID.-Familie) | 8 Jahre / 160.000 km | min. 70 %
+- Hyundai (IONIQ 5/6) | 8 Jahre / 160.000 km | min. 70 %
+- Tesla (Model 3/Y) | 8 Jahre / 192.000 km | min. 70 %
+- BYD (Blade-Batterie) | 8 Jahre / 250.000 km | min. 70 %
+
 - Rückgewinnung: 90 % (ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel)
 - Lithium: 50 % (Rückgewinnungsziel bis Ende 2027, später 80 %)
-- Nachnutzung: Second Life (Fahrzeugbatterien können stationär weitergenutzt werden)
-
-Spalten: Fakt | Erklärung
-- LFP-Technologie | Lithium-Eisenphosphat-Akkus kommen ohne Kobalt und Nickel aus.
-- Recycling | Die EU-Batterieverordnung schreibt ab Ende 2027 hohe Rückgewinnungsziele für zentrale Batterierohstoffe vor.
-- Second Life | Ausgemusterte Auto-Akkus (mit <80% Kapazität) werden jahrelang als stationäre Stromspeicher weitergenutzt.
+- Nachnutzung: Second Life (Ausgemusterte Akkus werden als stationäre Speicher weitergenutzt)
 
 - Die Rohstofffrage ist real, aber Batterien sind reguliert: Hersteller reduzieren kritische Materialien, und die EU verschärft die Recyclingvorgaben deutlich.
 
@@ -341,13 +358,13 @@ Lokale Überlastungen werden durch intelligentes Laden gemanagt. Netzbetreiber d
 
 ### E-Fuels & Wasserstoff im PKW: Ein Effizienzproblem
 
-Hinweis: Direkte Stromnutzung ist im Pkw am effizientesten
-Spalten: Antrieb | Kernaussage
-- E-Auto (BEV) | Direkte Nutzung von Strom im Fahrzeug ist am effizientesten.
-- Wasserstoff | Zusätzliche Umwandlungsschritte kosten im Pkw viel Energie.
-- E-Fuels | Sollten vor allem dort eingesetzt werden, wo Batterien kaum praktikabel sind.
+Hinweis: Wirkungsgrad-Vergleich: Wie viel Strom kommt auf der Straße an?
+Spalten: Antrieb | Wirkungsgrad (Strom → Rad) | Strombedarf für 100 km
+- E-Auto (BEV) | ~70–80 % | ~15–20 kWh
+- Wasserstoff (FCEV) | ~25–30 % | ~40–55 kWh
+- E-Fuels (Verbrenner) | ~10–15 % | ~100–130 kWh
 
-- Für Pkw ist die direkte Nutzung von Strom im Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels.
+- Für dieselbe Strecke braucht ein E-Fuel-Verbrenner etwa 5- bis 6-mal so viel Strom wie ein Batterieauto. Für Pkw ist die direkte Stromnutzung daher mit Abstand am effizientesten.
 
 E-Fuels und Wasserstoff sind wertvoll und werden vor allem in Sektoren gebraucht, die sich nur schwer direkt elektrifizieren lassen, etwa im Flugverkehr, in der Schifffahrt und in Teilen der Industrie. Im Pkw sind sie energetisch deutlich ineffizienter und meist nicht der sinnvolle Einsatz.
 
@@ -362,7 +379,7 @@ Wenn ein E-Auto brennt, ist es oft aufwendiger zu löschen, weil der Akku geküh
 ### Argumente
 
 - Aussage: Nach 3 bis 5 Jahren ist der Akku kaputt und ein neuer kostet 15.000 Euro.
-  Antwort: Das ist so pauschal falsch. Moderne Traktionsbatterien sind auf lange Nutzung ausgelegt, Hersteller geben mehrjährige Garantien, und die Batterie ist normalerweise nicht schon nach wenigen Jahren am Ende. Entscheidend sind Fahrzeugmodell, Nutzung und Batterietyp.
+  Antwort: Pauschal falsch. Marktstandard ist 8 Jahre oder 160.000 km Garantie auf mindestens 70 % Kapazität. BYD garantiert sogar 250.000 km. Ein Austausch nach 3–5 Jahren ist die Ausnahme, nicht die Regel. Und selbst ausgemusterte Akkus unter 80 % Kapazität werden als stationäre Speicher weitergenutzt.
 - Aussage: Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.
   Antwort: Nein. Netzbetreiber dürfen neue steuerbare Ladeeinrichtungen nicht pauschal wegen lokaler Engpässe ablehnen. Im Engpassfall darf der Strombezug nach § 14a EnWG vorübergehend auf 4,2 kW reduziert werden; diese Mindestleistung muss laut Bundesnetzagentur immer verfügbar bleiben.
 - Aussage: Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.
@@ -374,7 +391,7 @@ Wenn ein E-Auto brennt, ist es oft aufwendiger zu löschen, weil der Akku geküh
 - Aussage: E-Autos brennen ständig und können nicht gelöscht werden.
   Antwort: Die pauschale Behauptung stimmt nicht. Laut BMUKN brennen Elektroautos nicht häufiger als andere Fahrzeuge. Wenn ein Akku-Brand entsteht, ist das Löschen zwar aufwendiger, aber für Feuerwehren ist das ein bekanntes und beherrschbares Szenario.
 - Aussage: Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.
-  Antwort: Auch längere Urlaubsfahrten sind mit E-Autos heute praktikabel. Das Schnellladenetz wächst weiter, und auf Langstrecken gehören Ladepausen ähnlich wie Tank- oder Ruhepausen ohnehin zur Reiseplanung dazu.
+  Antwort: Aktuelle E-Autos der Kompaktklasse erreichen 350–500 km WLTP-Reichweite. Eine Schnellladung von 10 auf 80 % dauert bei modernen Fahrzeugen rund 25–30 Minuten und lädt Strom für circa 200–300 km nach. Auf einer Fahrt München–Gardasee (ca. 480 km) wäre also ein Ladestopp nötig — ähnlich einer normalen Rast- oder Tankpause.
 
 ### Quellen
 
@@ -492,7 +509,7 @@ Hinweis: Ergänzende LCOE-Werte
 Spalten: Kategorie | LCOE | Quelle
 - Bestands-AKW (abbezahlt, Langzeitbetrieb) | < 40 USD/MWh | OECD/IEA-NEA 2020
 - OECD-Modell „Nth-of-a-kind“ (3% Diskont) | 55 - 95 USD/MWh | OECD/IEA-NEA 2020
-- Hinkley Point C (Strike Price) | inflationsindexierter CfD | Projektpreis nicht direkt mit LCOE identisch
+- Hinkley Point C (Strike Price Jan 2026) | ~127 GBP/MWh ≈ 15 Ct/kWh | inflationsindexiert, steigt weiter
 
 - Neubau-Kernkraft ist in aktuellen Kostenvergleichen deutlich teurer als Solar- und Windkraft.
 
@@ -500,14 +517,14 @@ Spalten: Kategorie | LCOE | Quelle
 
 Hinweis: Westliche AKW-Neubauprojekte
 Spalten: Projekt | Land | Bauzeit | Startbudget | Heute
-- Hinkley Point C | GB | 2017 - 2030+ | 18 Mrd. GBP | deutlich über Startbudget
-- Flamanville 3 | FR | 2007 - 2024 | 3,3 Mrd. EUR | deutlich über Startbudget
-- Olkiluoto 3 | FI | 2005 - 2023 | 3 Mrd. EUR | deutlich über Startbudget
-- Vogtle 3&4 | USA | 2013 - 2023/24 | 14 Mrd. USD | deutlich über Startbudget
+- Hinkley Point C | GB | 2017 - 2030+ | 18 Mrd. GBP | 35 Mrd. GBP (~48 Mrd. GBP nominal)
+- Flamanville 3 | FR | 2007 - 2024 | 3,3 Mrd. EUR | 23,7 Mrd. EUR (Rechnungshof)
+- Olkiluoto 3 | FI | 2005 - 2023 | 3 Mrd. EUR | ~11 Mrd. EUR
+- Vogtle 3&4 | USA | 2013 - 2023/24 | 14 Mrd. USD | ~35 Mrd. USD
 
 Barakah in den Vereinigten Arabischen Emiraten wird oft als Gegenbeispiel genannt. Das Projekt entstand aber unter sehr anderen Bedingungen: standardisierte südkoreanische Reaktortechnik, andere Genehmigungslogik und andere Kostenstrukturen. Es ist deshalb keine belastbare Blaupause für Deutschland oder andere westliche Demokratien.
 
-- Keines der großen westlichen Neubauprojekte blieb im ursprünglichen Budget. Die Realisierung dauert eher in der Größenordnung von grob 11 bis 19 Jahren als in wenigen Jahren.
+- Kein westliches Neubauprojekt blieb im Budget: Flamanville 3 kostete statt 3,3 Mrd. am Ende 23,7 Mrd. €; Hinkley Point C stieg von 18 auf 35 Mrd. GBP. Die Bauzeiten lagen bei 13–18 Jahren statt der geplanten 5–6.
 
 - Wer heute einen Neubau beschließt, erhält in westlichen Demokratien mit hoher Wahrscheinlichkeit erst in den 2040er Jahren nennenswerten Strom aus dem Projekt.
 
@@ -515,9 +532,13 @@ Barakah in den Vereinigten Arabischen Emiraten wird oft als Gegenbeispiel genann
 
 ### Frankreich 2022: Warnung vor dem „Versorgungssicher“-Mythos
 
-- 2022 waren in Frankreich zeitweise zahlreiche Reaktoren gleichzeitig außer Betrieb.
+- Reaktoren offline: 32 von 56 (auf dem Höhepunkt (Aug/Sept 2022))
+- verfügbare Leistung: < 30 GW (von 61,4 GW installiert — historisches Tief)
+- Frankreich 2022: Nettoimporteur (u. a. aus Deutschland)
 
-Ursache 1: Spannungsrisskorrosion an Rohrleitungen (Sicherheitsüberprüfungen). Ursache 2: Kühlwassermangel durch Hitzewellen und niedrige Flusspegel. Folge: Frankreich wurde zum Nettostromimporteur, u.a. aus Deutschland.
+- Auf dem Höhepunkt der Krise 2022 waren 32 von 56 französischen Reaktoren gleichzeitig abgeschaltet. Die verfügbare Leistung fiel unter 30 GW — ein historisches Tief seit 1999.
+
+Ursachen: Spannungsrisskorrosion an Kühlrohrleitungen (Sicherheitsinspektionen) und Kühlwassermangel durch Hitzewellen. Frankreich — das zu 70 % auf Atomstrom setzt — wurde zum Nettostromimporteur, u. a. aus Deutschland.
 
 - AKW-Flotten sind nicht immun gegen Alterung, Klimawandel und gleichzeitige Wartungszyklen. „Kernkraft = Versorgungssicherheit“ ist eine Vereinfachung.
 
@@ -790,6 +811,15 @@ Spalten: Sektor | 2024 (Mio. t) | Veränderung | Anmerkung
 
 - Die Energiewirtschaft trägt am stärksten zur Reduktion bei (-7,4 %), vor allem durch den Kohlerückgang.
 
+Hinweis: CO₂-Emissionen pro Kopf im internationalen Vergleich (2024, in Tonnen)
+- USA: 14.2 t/Kopf
+- China: 8.9 t/Kopf
+- Deutschland: 6.8 t/Kopf
+- Welt-Ø: 4.7 t/Kopf
+- Indien: 2 t/Kopf
+
+- Deutschland liegt mit 6,8 Tonnen CO₂ pro Kopf immer noch 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Das relativiert das Argument 'Deutschland allein kann nichts bewirken'.
+
 ### Kippelemente: Wenn das Klima den Point of no Return überschreitet
 
 Kippelemente sind Teile des Erdsystems, die ab bestimmten Schwellenwerten in selbstverstärkende Veränderungen übergehen können, oft mit langfristig nur schwer umkehrbaren Folgen.
@@ -818,10 +848,10 @@ Hinweis: Frühes Handeln vs. spätes Aufschieben
   - IEA: Clean-Energy-Investitionen: 4,5 Bio. USD/Jahr bis Anfang der 2030er
   - Robuster Befund: Investieren ist teuer, Aufschieben verteuert es weiter
 - Spätes Aufschieben
-  - IPCC-Warnung: mehr Carbon Lock-ins
-  - Finanzrisiken: mehr stranded assets
-  - Folge: höhere Zusatzkosten
-  - Klimarisiko: mehr Verluste und Schäden mit jedem Erwärmungsschritt
+  - Extremwetterschäden 2024: 320 Mrd. USD global (Munich Re)
+  - Deutschland 2024: 5,7 Mrd. € Naturgefahrenschäden (GDV)
+  - Ahrtal 2021 allein: 8,75 Mrd. € versichert
+  - IPCC-Warnung: Verzögerung erhöht Lock-ins und Folgekosten
 - Ersparnis: Der robuste ökonomische Kernbefund lautet: Verzögertes Handeln erhöht Risiken und Zusatzkosten.
 
 - Der IPCC hält fest: Globale Mitigationsinvestitionen müssen bis 2030 je nach Sektor und Region um ein Mehrfaches wachsen; für viele Bereiche liegt der Bedarf beim 3- bis 6-Fachen heutiger Größenordnungen.
@@ -848,7 +878,7 @@ Hinweis: Entwicklung des wissenschaftlichen Konsenses
 - Aussage: Das Klima hat sich schon immer verändert!
   Antwort: Stimmt, das Klima hat sich schon immer verändert. Entscheidend ist aber: Der heutige CO₂-Anstieg und die aktuelle Erwärmung verlaufen viel schneller als die natürlichen Veränderungen nach der letzten Eiszeit. Das erschwert die Anpassung von Ökosystemen und Gesellschaft.
 - Aussage: Deutschland allein kann das Klima nicht retten!
-  Antwort: Deutschland allein entscheidet das Klima nicht. Aber Deutschland liegt pro Kopf weiter über dem Weltmittel und gehört historisch zu den Mitverursachern. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.
+  Antwort: Deutschland allein entscheidet das Klima nicht. Aber mit 6,8 Tonnen CO₂ pro Kopf liegt Deutschland 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Historisch gehört Deutschland zu den größten Emittenten. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.
 - Aussage: Klimaschutz kostet Arbeitsplätze!
   Antwort: Klimaschutz verschiebt Beschäftigung stärker, als dass er pauschal Jobs vernichtet. Weltweit arbeiten laut IRENA bereits 16,6 Mio. Menschen in den Erneuerbaren. In Deutschland sind Energiewende-Berufe in den letzten Jahren stark gewachsen. Entscheidend ist, den Strukturwandel mit Qualifizierung und regionaler Unterstützung zu begleiten.
 - Aussage: Die Wissenschaftler sind sich doch gar nicht einig!
@@ -949,13 +979,15 @@ Die UBA-Quartalsindikatoren für 2025 deuteten zeitweise auf höheren Kraftstoff
 
 ### Flächenverbrauch & Stadtplanung
 
-- Autos beanspruchen viel öffentlichen Raum, obwohl sie einen Großteil der Zeit nicht bewegt werden.
+- 1 Pkw-Stellplatz: 12 m² (am Straßenrand)
+- steht ein Auto: ~23 Std. (durchschnittlich pro Tag ungenutzt)
+- Fahrräder: 8–10 (passen auf einen Pkw-Stellplatz)
 
-Parken ist kein Nulltarif-Thema: Es beansprucht wertvolle Stadtfläche, verursacht Bewirtschaftungsaufwand und konkurriert mit Grünflächen, Radwegen, Lieferzonen oder Aufenthaltsräumen.
+- Ein einziger Pkw-Stellplatz (ca. 12 m²) bindet Fläche für 8–10 Fahrradabstellplätze oder einen kleinen Straßenbaum mit Grünfläche. Autos stehen im Schnitt rund 23 Stunden am Tag ungenutzt.
 
-- In vielen Städten beansprucht der motorisierte Individualverkehr deutlich mehr Fläche, als seinem Anteil an den tatsächlich zurückgelegten Wegen entspricht.
+- Laut einer MDPI-Studie (2024) liegen die externen Kosten eines durchschnittlichen Pkw bei rund 5.000 € pro Jahr — u. a. für Unfälle, Infrastruktur, Lärm und Luftverschmutzung. Diese Kosten trägt die Allgemeinheit, nicht der Autofahrer.
 
-Verkehrswende bedeutet hier nicht Autofeindschaft, sondern eine gerechtere Verteilung des öffentlichen Raums zwischen Gehen, Radfahren, ÖPNV, Lieferverkehr und Autos.
+Verkehrswende bedeutet nicht Autofeindschaft, sondern eine gerechtere Verteilung des öffentlichen Raums zwischen Gehen, Radfahren, ÖPNV, Lieferverkehr und Autos — und ehrliche Kostentransparenz.
 
 ### Radverkehr & aktive Mobilität
 
@@ -997,9 +1029,30 @@ Die WHO empfiehlt für Straßenverkehr maximal 53 dB(A) ganztags. Das UBA empfie
 - MIV-Anteil im ländlichen Raum: > 60 % (an den Wegen laut MiD)
 - Bevölkerung mit gut erreichbarer Haltestelle: 90 % (aber große regionale Unterschiede)
 
-- Ein eigener Pkw verursacht laut ADAC auch bei günstigen Modellen erhebliche Gesamtkosten aus Wertverlust, Versicherung, Wartung und Betrieb.
+Hinweis: Pendlerkosten-Vergleich: 17 km einfach, 220 Arbeitstage/Jahr
+Spalten: Verkehrsmittel | Kosten/Monat | Kosten/Jahr
+- PKW (Kleinwagen, ADAC-Vollkosten) | ~290 € | ~3.500 €
+- Deutschlandticket (ÖPNV) | 63 € | 756 €
+- E-Bike (Anschaffung + Strom + Wartung) | ~40 € | ~480 €
+- Fahrrad (Wartung/Abschreibung) | ~20 € | ~240 €
 
-- Deutschlandticket, Fahrrad und gelegentliches Carsharing können je nach Nutzungsprofil deutlich günstiger sein als ein eigenes Auto.
+- Bei einer typischen Pendelstrecke von 17 km kostet das Auto rund 3.500 €/Jahr (ADAC-Vollkosten). Wer auf Deutschlandticket + Fahrrad umsteigt, spart über 2.500 € im Jahr.
+
+Hinweis: Mobilitätskosten im Vergleich (monatlich)
+- Eigener Kleinstwagen
+  - ADAC-Gesamtkosten: ab ~350 €/Monat
+  - davon Wertverlust: ~100–150 €
+  - davon Kraftstoff: ~80–120 €
+  - davon Versicherung + Steuer: ~60–80 €
+  - Jährlich: ab ~4.200 €
+- D-Ticket + Fahrrad + Carsharing
+  - Deutschlandticket: 63 €/Monat
+  - Fahrrad (Abschreibung/Wartung): ~20 €/Monat
+  - Carsharing (gelegentlich): ~50 €/Monat
+  - Jährlich: ~1.600 €
+- Ersparnis: Ersparnis ohne eigenes Auto: rund 2.600 €/Jahr bei diesem Beispiel.
+
+- Schon der günstigste Kleinstwagen kostet laut ADAC ab rund 350 € im Monat — weit mehr, als die meisten Menschen für Sprit allein rechnen. Wer Alternativen hat, kann erheblich sparen.
 
 - Laut FÖS begünstigt das Dienstwagenprivileg vor allem höhere Einkommen und setzt im Verkehrssystem klimapolitisch problematische Anreize.
 
@@ -1081,7 +1134,16 @@ Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernomm
 
 - Im Jahresdurchschnitt 2024 gab es rund 5,55 Millionen Regelleistungsberechtigte in der Grundsicherung für Arbeitsuchende.
 
-- Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten grundsätzlich Leistungen nach dem Asylbewerberleistungsgesetz.
+- Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten Leistungen nach dem AsylbLG — nicht das Bürgergeld.
+
+Hinweis: Bürgergeld vs. AsylbLG-Grundleistungen (Alleinstehende, 2026)
+- Bürgergeld (SGB II)
+  - Regelbedarf: 563 €/Monat
+  - Unterkunft + Heizung: zusätzlich (angemessen)
+- AsylbLG-Grundleistungen
+  - Grundleistungen gesamt: ~460 €/Monat
+  - davon pers. Bedarf: ~202 €
+- Ersparnis: Asylbewerber erhalten rund 100 € weniger als Bürgergeld-Empfänger — und erst nach 36 Monaten erweiterten Leistungsumfang.
 
 Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind dafür die Jobcenter.
 
@@ -1099,16 +1161,23 @@ Hinweis: Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bü
   - Verfügbares Einkommen mit Mindestlohn: ca. 2.532 €
   - Einkommensvorteil: + 749 €
 
-Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv.
+Hinweis: Aufschlüsselung Single-Haushalt (WSI-Modellrechnung, Bundesdurchschnitt)
+Spalten: Position | Bürgergeld | Mindestlohn-Vollzeit
+- Regelbedarf / Nettolohn | 563 € | ~1.572 € netto
+- Unterkunft + Heizung | ~452 € | vom Netto zu zahlen
+- Verfügbar nach Miete | 563 € | ~1.120 €
+- Einkommensvorteil |  | +557 €/Monat
+
+Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv. Ein alleinstehender Mindestlohn-Beschäftigter hat über das Jahr gerechnet rund 6.700 € mehr zur Verfügung als im Bürgergeldbezug.
 
 ### Sanktionen und 'Totalverweigerer'
 
 Das Bürgergeld ist kein bedingungsloses Grundeinkommen. Wer Termine versäumt oder zumutbare Arbeit ablehnt, wird sanktioniert.
 
 Hinweis: Sanktionsstufen bei Pflichtverletzungen
-- 1. Verstoß: 10% (10% Kürzung für 1 Monat)
-- 2. Verstoß: 20% (20% Kürzung für 2 Monate)
-- 3. Verstoß: 30% (30% Kürzung für 3 Monate)
+- 1. Verstoß: 10% (10 % = −56 €/Monat für 1 Monat)
+- 2. Verstoß: 20% (20 % = −113 €/Monat für 2 Monate)
+- 3. Verstoß: 30% (30 % = −169 €/Monat für 3 Monate)
 
 - Seit Ende März 2024 kann bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit der Regelbedarf für bis zu zwei Monate vollständig entfallen. Die Kosten der Unterkunft und Heizung werden dadurch nicht gestrichen.
 
@@ -1129,7 +1198,7 @@ Für seriöse Debatten braucht es belastbare amtliche Zahlen statt Einzelfälle 
 - Aussage: Das System wird doch nur ausgenutzt. Fast alle betrügen beim Bürgergeld!
   Antwort: Leistungsmissbrauch existiert und muss verfolgt werden. Für pauschale Aussagen wie "fast alle betrügen" gibt es mit den hier hinterlegten Quellen aber keinen belastbaren Beleg. Dokumentiert sind Einzelfälle und organisierter Missbrauch, nicht ein Nachweis für flächendeckenden Betrug.
 - Aussage: Das Bürgergeld lockt nur Ausländer an, die sich hier auf unsere Kosten ein schönes Leben machen.
-  Antwort: Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen. Asylbewerber erhalten grundsätzlich Leistungen nach dem Asylbewerberleistungsgesetz, deren Bedarfssätze unter dem Bürgergeld liegen.
+  Antwort: Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. Asylbewerber erhalten Leistungen nach dem AsylbLG — das sind ca. 460 € statt 563 € (rund 100 € weniger als Bürgergeld). Erst nach 36 Monaten erweitert sich der Leistungsumfang. EU-Bürger sind in den ersten drei Monaten sowie bei Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen.
 - Aussage: Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!
   Antwort: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind die Jobcenter; damit verbunden sind Zugang zu Integrations- und Sprachkursen sowie zur Arbeitsvermittlung. Die Grundsicherung ist steuerfinanziert und keine Versicherungsleistung.
 
@@ -1188,7 +1257,11 @@ Für die 2015 zugezogene Geflüchtetenkohorte zeigen IAB-Daten eine besondere Be
 
 Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial. Destatis erwartet, dass die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er Jahre selbst bei hoher Nettozuwanderung um rund 3,2 Millionen sinkt. Dadurch gewinnt die Frage an Bedeutung, wie Zuwanderung und Arbeitsmarktintegration zum Arbeitskräfteangebot beitragen.
 
-- Die hier hinterlegten BAMF- und IAB-Quellen belegen vor allem die Entwicklung der Asylzahlen und die langfristige Arbeitsmarktintegration der 2015 zugezogenen Geflüchteten.
+- Erwerbspersonen: −3,2 Mio. (20- bis 66-Jährige sinken bis Mitte 2030er)
+- Beschäftigungsquote: 64 % (der 2015 zugezogenen Geflüchteten (Ende 2024))
+- Fachkraft oder höher: 50 % (der beschäftigten Geflüchteten nach 7–8 Jahren)
+
+- Selbst bei hoher Nettozuwanderung sinkt laut Destatis die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er um rund 3,2 Millionen. Integration in den Arbeitsmarkt ist daher keine Kür, sondern volkswirtschaftliche Notwendigkeit.
 
 ### Argumente
 
@@ -1224,7 +1297,7 @@ Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.
 
 ### Das Gesamtarbeitsvolumen in Deutschland
 
-Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit knapp 46 Millionen nahezu konstant.
+Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — das entspricht umgerechnet 1.332 Stunden pro Erwerbstätigem und Jahr, also etwa 33 Stunden pro Woche im Durchschnitt über alle Voll- und Teilzeitkräfte.
 
 - Gesamtarbeitsvolumen: 61,26 Mrd. (Stunden im Jahr 2025)
 - Erwerbstätige: 45,98 Mio. (Personen in Deutschland)
@@ -1260,7 +1333,7 @@ Hinweis: Erwerbsverhalten der 20- bis 24-Jährigen
 - Aussage: Wegen der ganzen Teilzeit geht in Deutschland die Arbeitsleistung zurück.
   Antwort: 2025 lag das Gesamtarbeitsvolumen in Deutschland bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit 45,98 Millionen nahezu konstant.
 - Aussage: Die Gen Z ist arbeitsscheu und will nicht mehr richtig arbeiten.
-  Antwort: Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf 76 % gestiegen. Die junge Generation ist so stark in den Arbeitsmarkt integriert wie lange nicht mehr.
+  Antwort: Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen stieg seit 2015 um über 6 Prozentpunkte auf 76 %. Der Teilzeitanstieg in dieser Gruppe erklärt sich vor allem durch mehr arbeitende Studierende: Deren Erwerbsquote stieg von 36,7 % (2015) auf 56,0 % (2023).
 - Aussage: Die jungen Leute machen alle nur noch Teilzeit, weil sie keine Lust auf 40 Stunden haben.
   Antwort: Der Anstieg der Teilzeit bei jungen Menschen hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen. Die Erwerbsquote von Studierenden im Alter von 20 bis 24 Jahren stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %.
 - Aussage: Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.
@@ -1284,20 +1357,24 @@ Auswirkungen auf Klima, Umwelt und Gesundheit | Stand: 2026-03
 
 Die Produktion tierischer Lebensmittel verursacht deutlich mehr Treibhausgase als der Anbau pflanzlicher Nahrung. Das UBA betont klar, dass weniger tierische und mehr pflanzliche Lebensmittel die ernährungsbedingten Emissionen deutlich senken.
 
-Hinweis: Kernaussage aus Vergleichsstudien
-- Fleischbetonte Ernährung
-  - Emissionen: deutlich höher
-- Vegane Ernährung
-  - Emissionen: deutlich niedriger
-- Ersparnis: Pflanzenbetonte Ernährungsweisen verursachen deutlich geringere Emissionen als stark fleischbetonte Muster.
+Hinweis: Ressourcenverbrauch pro 100 g Protein (Poore & Nemecek 2018)
+- Rindfleisch
+  - CO₂-Äquivalente: ~50 kg
+  - Wasserverbrauch: 728 Liter
+  - Flächenbedarf: 164 m²
+- Tofu
+  - CO₂-Äquivalente: ~3,5 kg
+  - Wasserverbrauch: 92 Liter
+  - Flächenbedarf: 2,2 m²
+- Ersparnis: Tofu verbraucht pro 100 g Protein rund 74-mal weniger Fläche und 8-mal weniger Wasser als Rindfleisch.
 
-Hinweis: CO₂-Bilanz ausgewählter Lebensmittel
-Spalten: Lebensmittel | Einordnung
-- Rindfleisch | sehr hoher CO₂-Fußabdruck
-- Käse | deutlich höher als viele pflanzliche Alternativen
-- Geflügel | niedriger als Rind, aber deutlich über pflanzlichen Proteinquellen
-- Tofu | vergleichsweise niedrig
-- Hülsenfrüchte | vergleichsweise niedrig
+Hinweis: CO₂-Fußabdruck pro kg Lebensmittel (Poore & Nemecek 2018, globale Mittelwerte)
+Spalten: Lebensmittel | kg CO₂-Äq. pro kg
+- Rindfleisch | ~21 kg
+- Käse | ~11 kg
+- Geflügel | ~6 kg
+- Tofu | ~2 kg
+- Hülsenfrüchte | ~1 kg
 
 ### Flächen- und Wasserverbrauch
 
@@ -1320,6 +1397,15 @@ Hinweis: DGE-Orientierung zur Zusammensetzung der Ernährung
 
 - Die DGE stuft eine gut geplante vegane Ernährung für gesunde Erwachsene unter Bedingungen als gesundheitsfördernd und 'äußerst umweltfreundlich' ein.
 
+Hinweis: Fleischkonsum: Realität vs. DGE-Empfehlung
+- Tatsächlicher Konsum (2024)
+  - Pro Kopf/Jahr: 53,2 kg
+  - Pro Woche: ~1.020 g
+- DGE-Empfehlung (Maximum)
+  - Pro Kopf/Jahr: 15–31 kg
+  - Pro Woche: 300–600 g
+- Ersparnis: Wir essen das 2- bis 3,5-Fache des von der DGE empfohlenen Maximums.
+
 ### Argumente
 
 - Aussage: Für das Soja im Tofu der Veganer wird der Regenwald abgeholzt!
@@ -1327,7 +1413,7 @@ Hinweis: DGE-Orientierung zur Zusammensetzung der Ernährung
 - Aussage: Veganer haben doch alle Nährstoffmangel, besonders bei Protein und Vitamin B12.
   Antwort: Bei ausreichender Energiezufuhr und geeigneter Kombination pflanzlicher Proteinquellen kann der Proteinbedarf gedeckt werden. Vitamin B12 muss bei veganer Ernährung tatsächlich supplementiert werden. Genau deshalb ist eine gut geplante vegane Ernährung wichtig.
 - Aussage: Der Mensch ist ein Allesfresser, wir haben schon immer Fleisch gegessen.
-  Antwort: Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.
+  Antwort: Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf — die DGE empfiehlt maximal 300–600 g pro Woche, also 15–31 kg pro Jahr. Wir essen das 2- bis 3,5-Fache des empfohlenen Maximums. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.
 - Aussage: Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!
   Antwort: Es stimmt, dass Mandeln relativ viel Wasser benötigen. Das macht Pflanzenmilch insgesamt aber nicht automatisch so ressourcenintensiv wie tierische Produkte. Wer Wasser- und Klimabilanz verbessern will, kann auf besonders günstige pflanzliche Alternativen wie Hafer setzen.
 - Aussage: Veganismus ist nur ein teurer Lifestyle für privilegierte Großstädter.
@@ -1434,7 +1520,7 @@ Spalten: Kennzahl | Wert
 - Effektiver Steuersatz (gesamt) | ~2–3 %
 - Zum Vergleich: Tabaksteuer | ~15 Mrd. €/J.
 
-- Die Erbschaftsteuer bringt trotz sehr hoher jährlicher Vermögensübertragungen nur einen vergleichsweise kleinen Teil des Steueraufkommens ein.
+- Die Erbschaftsteuer bringt nur ~1,1 % des Gesamtsteueraufkommens ein — weniger als die Tabaksteuer (~15 Mrd. €). Bei einem geschätzten jährlichen Erbvolumen von 300–400 Mrd. € liegt der effektive Steuersatz bei nur 2–3 %.
 
 In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut einer FES-Auswertung profitieren auch sehr junge Erben von weitreichenden Steuerbefreiungen bei großen Unternehmensvermögen.
 
@@ -1448,6 +1534,14 @@ Spalten: Modell | Freibetrag | Steuersatz | Aufkommen (brutto)
 - Die Linke: progressiv (DIW 2026) | 1 Mio. € | 1–12 % (progressiv) | ~147 Mrd. €/J.
 
 - Schon die konservativste Variante (1 % ab 1 Mio. € Freibetrag) brächte laut DIW rund 42 Mrd. Euro pro Jahr — mehr als dreimal so viel wie die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.
+
+Hinweis: Was 1 % Vermögensteuer (Freibetrag 1 Mio. €) konkret bedeuten würde
+Spalten: Nettovermögen | Steuerbetrag/Jahr | Einordnung
+- 500.000 € | 0 € | unter Freibetrag — nicht betroffen
+- 1,5 Mio. € | 5.000 € | nur auf 500.000 € über Freibetrag
+- 5 Mio. € | 40.000 € | bei 5–10 % Rendite aus laufenden Erträgen zahlbar
+- 50 Mio. € | 490.000 € | entspricht ~1 % des Vermögens
+- 1 Mrd. € | 9,99 Mio. € | weniger als eine typische Quartalsdividende
 
 Hinweis: Freibeträge Erbschaftsteuer: Deutschland vs. international
 Spalten: Land | System | Freibetrag (Kind) | Spitzensatz
@@ -1551,18 +1645,21 @@ Hinweis: Unbereinigter Gender Pay Gap in Deutschland
 - 2024: 16 %
 - 2025: 16 %
 
-- In Ostdeutschland ist der unbereinigte Gender Pay Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).
+- Bei einer Vollzeitstelle mit 38 Wochenstunden ergibt der unbereinigte Pay Gap von 4,24 €/Stunde einen Gehaltsunterschied von rund 8.400 € brutto pro Jahr. In Ostdeutschland ist der Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).
 
-### Unbezahlte Care-Arbeit
+### Unbezahlte Care-Arbeit & Child Penalty
 
 Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt).
 
 - Gender Care Gap: 43,4 % (Frauen leisten deutlich mehr unbezahlte Arbeit)
 - Tägliche Differenz: +76 Min. (Mehrarbeit von Frauen pro Tag)
+- Child Penalty (ZEW): −30.000 € (Einkommensverlust Mütter im 4. Jahr nach 1. Geburt)
 
 Hinweis: Unbezahlte Arbeit pro Woche (in Stunden)
 - Frauen: 29 h
 - Männer: 20 h
+
+- Laut ZEW verdienen Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger als vergleichbare Frauen ohne Kinder. Dieser 'Child Penalty' wirkt langfristig auf Karriere, Vermögen und Rente.
 
 ### Repräsentation & Führung
 
@@ -1587,7 +1684,7 @@ Hinweis: Frauenanteil in Führungspositionen (2024)
 - Aussage: Eine Frauenquote führt nur dazu, dass unqualifizierte Frauen bevorzugt werden und fähige Männer das Nachsehen haben.
   Antwort: Quoten sind ein Instrument gegen dauerhafte Unterrepräsentation. Dass Frauen in Führungspositionen in Deutschland deutlich unterrepräsentiert sind, ist belegt. Die eigentliche Debatte ist deshalb nicht, ob es ein Problem gibt, sondern welche Instrumente es wirksam und fair verringern.
 - Aussage: Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.
-  Antwort: Der Gender Pension Gap liegt 2025 je nach Abgrenzung bei 24,2 % inklusive Hinterbliebenenrenten und bei 36,2 % für eigene Alterseinkünfte. Dahinter stehen niedrigere Löhne, häufigere Teilzeit und Erwerbsunterbrechungen durch Care-Arbeit. Frauen ab 65 sind zudem häufiger armutsgefährdet als Männer (2023: 20,8 % vs. 15,9 %).
+  Antwort: In konkreten Euro: Männer bekommen im Schnitt ~1.346 € Altersrente pro Monat, Frauen nur ~903 € — das sind 443 € weniger, jeden Monat. Auf ein Jahr gerechnet fehlen Frauen über 5.300 € Rente. Dahinter stehen niedrigere Löhne, häufigere Teilzeit und Erwerbsunterbrechungen durch Care-Arbeit. Frauen ab 65 sind zudem häufiger armutsgefährdet (2023: 20,8 % vs. 15,9 % bei Männern).
 - Aussage: Kinder sind eine freiwillige Entscheidung, dann muss man halt mit den Konsequenzen leben.
   Antwort: Kindererziehung ist keine rein private Randfrage, sondern hat große Folgen für Erwerbsbiografien. Eine aktuelle ZEW-Studie zeigt, dass Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger verdienen als gleichaltrige Frauen ohne Kinder. Solche Einbußen wirken langfristig auf Karriere und Rente.
 
@@ -1627,7 +1724,7 @@ Hinweis: Öffentliche Bildungsausgaben als BIP-Anteil (2023, OECD-Daten)
 - Schulen: 97 Mrd. € (49 % der Ausgaben)
 - Kita-Betreuung: 49 Mrd. € (25 % der Ausgaben)
 
-- Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland. Deutschland liegt damit im OECD-Vergleich weiter unter dem Schnitt und hinter skandinavischen Ländern.
+- Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland (4,5 %). Würde Deutschland nur den OECD-Schnitt (5,1 %) erreichen, stünden jährlich rund 25 Mrd. € mehr für Bildung bereit — das entspricht etwa 1.600 € zusätzlich pro Schüler und Kitakind.
 
 ### Lehrkräftemangel: Die Personalkatastrophe
 
@@ -1654,7 +1751,7 @@ Spalten: Land | Mathematik | Lesen | Naturwiss.
 - OECD-Schnitt | 472 | 476 | 485
 - Norwegen | 468 | 477 | 478
 
-- Rund ein Drittel der 15-Jährigen in Deutschland hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik verlor Deutschland 25 Punkte gegenüber 2018 – einer der stärksten Rückgänge aller OECD-Länder.
+- Rund ein Drittel der 15-Jährigen (ca. 250.000 Jugendliche pro Jahrgang) hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik fiel Deutschland von 514 (2012) auf 475 Punkte (2022) — ein Verlust von 39 Punkten in 10 Jahren, vergleichbar mit dem Lernstand eines ganzen Schuljahres.
 
 Hinweis: PISA Mathematik – Deutschland im Zeitverlauf
 - 2000: 490 Punkte
@@ -1718,7 +1815,7 @@ Hinweis: Stufenweise Einführung des Rechtsanspruchs
 - Aussage: Bildung ist Ländersache, da kann man nichts machen
   Antwort: Das stimmt verfassungsrechtlich – aber es ist kein Naturgesetz. Das Kooperationsverbot von 2006 verhindert, dass der Bund direkt in Schulen investiert. Das Ergebnis: 16 verschiedene Lehrpläne, massive Qualitätsunterschiede zwischen den Bundesländern und ein 'Bildungsflickenteppich'. Mehrere Bundesländer fordern inzwischen selbst die Aufhebung dieses Verbots. Auch der DigitalPakt Schule zeigt, dass Bund-Länder-Kooperation in der Bildung möglich ist – er wurde trotz Kooperationsverbot realisiert. 'Ländersache' heißt nicht 'unveränderbar'.
 - Aussage: Wir geben genug Geld für Bildung aus
-  Antwort: Nominal klingt die Zahl von 198 Milliarden Euro nach viel. Aber gemessen am BIP liegt Deutschland weiterhin unter dem OECD-Durchschnitt und hinter skandinavischen Ländern. Die Konsequenzen sind sichtbar: marode Schulgebäude, fehlende Lehrkräfte, mangelhafte digitale Infrastruktur und starke Qualitätsunterschiede in der frühen Bildung.
+  Antwort: 198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Die Konsequenzen sieht man: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher.
 - Aussage: Hauptschüler sind halt einfach nicht so schlau
   Antwort: Das ist ein klassischer Zirkelschluss. PISA zeigt seit Jahren, dass Deutschland zu den OECD-Ländern mit stark ausgeprägten sozialen Bildungsungleichheiten gehört. Kinder aus bildungsfernen Familien werden überproportional auf niedrigere Schulformen verteilt. Das spricht nicht für mangelnde Intelligenz, sondern für strukturelle Probleme wie frühe Selektion, ungleiche Förderung und zu wenig Unterstützung benachteiligter Kinder.
 - Aussage: Inklusion schadet normalen Schülern
@@ -1772,7 +1869,14 @@ Hinweis: GKV-Gesamtbeitragssatz seit 2015 (allgemeiner Beitrag + durchschnittlic
 - 2025: 17.1 %
 - 2026: 17.5 %
 
-Arbeitnehmer und Arbeitgeber teilen sich den Beitrag paritätisch. Bei 3.000 Euro Brutto entspräche das zusammen rechnerisch rund 525 Euro monatlich für die Krankenversicherung.
+Hinweis: GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag)
+Spalten: Position | Mindestlohn (~2.220 € brutto) | Median (~3.000 € brutto)
+- AN-Anteil GKV (8,75 %) | 194 € | 263 €
+- AG-Anteil GKV (8,75 %) | 194 € | 263 €
+- GKV gesamt | 388 € | 525 €
+- + Pflegeversicherung AN | ~40 € | ~53 €
+- Abzug vom Brutto (AN gesamt) | ~234 € | ~316 €
+- verbleibend netto (ca.) | ~1.570 € | ~2.050 €
 
 ### Zwei-Klassen-Medizin: GKV vs. PKV
 
@@ -1836,7 +1940,7 @@ Hinweis: Gesundheitsausgaben nach Leistungsart 2023
 - Prävention: 24.8% (24,8 Mrd. EUR)
 - Gesamt: Gesamtausgaben: 500,8 Mrd. EUR
 
-- 2023 entfielen 24,8 Milliarden Euro beziehungsweise 298 Euro je Einwohner auf Prävention und Gesundheitsschutz. 2024 gaben die gesetzlichen Krankenkassen zusätzlich 686 Millionen Euro für Präventionsaktivitäten aus.
+- Nur 4,9 % der Gesundheitsausgaben (24,8 Mrd. von 500,8 Mrd. €) flossen 2023 in Prävention — 298 € je Einwohner. Der GKV-Anteil für Präventionsaktivitäten lag 2024 bei nur 686 Mio. €, also weniger als 0,2 % der GKV-Ausgaben.
 
 Dabei zeigt die Forschung: Jeder in Prävention investierte Euro spart ein Vielfaches an Behandlungskosten. Insbesondere bei Volkskrankheiten wie Diabetes, Herz-Kreislauf-Erkrankungen und psychischen Leiden wäre frühe Prävention wirtschaftlich und menschlich sinnvoller.
 

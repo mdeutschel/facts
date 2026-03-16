@@ -23,36 +23,40 @@
         },
         {
           "type": "comparison",
-          "caption": "Kernaussage aus Vergleichsstudien",
-          "savings": "Pflanzenbetonte Ernährungsweisen verursachen deutlich geringere Emissionen als stark fleischbetonte Muster.",
+          "caption": "Ressourcenverbrauch pro 100 g Protein (Poore & Nemecek 2018)",
           "items": [
             {
-              "title": "Fleischbetonte Ernährung",
+              "title": "Rindfleisch",
               "color": "#ef5350",
               "rows": [
-                { "label": "Emissionen", "value": "deutlich höher" }
+                { "label": "CO₂-Äquivalente", "value": "~50 kg" },
+                { "label": "Wasserverbrauch", "value": "728 Liter" },
+                { "label": "Flächenbedarf", "value": "164 m²" }
               ]
             },
             {
-              "title": "Vegane Ernährung",
+              "title": "Tofu",
               "color": "#66bb6a",
               "rows": [
-                { "label": "Emissionen", "value": "deutlich niedriger" }
+                { "label": "CO₂-Äquivalente", "value": "~3,5 kg" },
+                { "label": "Wasserverbrauch", "value": "92 Liter" },
+                { "label": "Flächenbedarf", "value": "2,2 m²" }
               ]
             }
           ],
-          "sourceRefs": ["umweltbundesamt-uba-klimafreundliche-ernaehrung", "oxford-university-poore-nemecek-2018-reducing"]
+          "savings": "Tofu verbraucht pro 100 g Protein rund 74-mal weniger Fläche und 8-mal weniger Wasser als Rindfleisch.",
+          "sourceRefs": ["oxford-university-poore-nemecek-2018-reducing"]
         },
         {
           "type": "table",
-          "caption": "CO₂-Bilanz ausgewählter Lebensmittel",
-          "headers": ["Lebensmittel", "Einordnung"],
+          "caption": "CO₂-Fußabdruck pro kg Lebensmittel (Poore & Nemecek 2018, globale Mittelwerte)",
+          "headers": ["Lebensmittel", "kg CO₂-Äq. pro kg"],
           "rows": [
-            ["Rindfleisch", "sehr hoher CO₂-Fußabdruck"],
-            ["Käse", "deutlich höher als viele pflanzliche Alternativen"],
-            ["Geflügel", "niedriger als Rind, aber deutlich über pflanzlichen Proteinquellen"],
-            ["Tofu", "vergleichsweise niedrig"],
-            ["Hülsenfrüchte", "vergleichsweise niedrig"]
+            ["Rindfleisch", "~21 kg"],
+            ["Käse", "~11 kg"],
+            ["Geflügel", "~6 kg"],
+            ["Tofu", "~2 kg"],
+            ["Hülsenfrüchte", "~1 kg"]
           ],
           "sourceRefs": ["oxford-university-poore-nemecek-2018-reducing"]
         }
@@ -122,6 +126,30 @@
           "type": "fact",
           "text": "Die DGE stuft eine gut geplante vegane Ernährung für gesunde Erwachsene unter Bedingungen als gesundheitsfördernd und 'äußerst umweltfreundlich' ein.",
           "sourceRefs": ["dge-neubewertung-der-position-zu-veganer"]
+        },
+        {
+          "type": "comparison",
+          "caption": "Fleischkonsum: Realität vs. DGE-Empfehlung",
+          "items": [
+            {
+              "title": "Tatsächlicher Konsum (2024)",
+              "color": "#ef5350",
+              "rows": [
+                { "label": "Pro Kopf/Jahr", "value": "53,2 kg" },
+                { "label": "Pro Woche", "value": "~1.020 g" }
+              ]
+            },
+            {
+              "title": "DGE-Empfehlung (Maximum)",
+              "color": "#66bb6a",
+              "rows": [
+                { "label": "Pro Kopf/Jahr", "value": "15–31 kg" },
+                { "label": "Pro Woche", "value": "300–600 g" }
+              ]
+            }
+          ],
+          "savings": "Wir essen das 2- bis 3,5-Fache des von der DGE empfohlenen Maximums.",
+          "sourceRefs": ["dge-dge-ernaehrungskreis"]
         }
       ]
     }
@@ -144,7 +172,7 @@
     {
       "id": "natuerlich-fleisch",
       "claim": "Der Mensch ist ein Allesfresser, wir haben schon immer Fleisch gegessen.",
-      "response": "Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.",
+      "response": "Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf — die DGE empfiehlt maximal 300–600 g pro Woche, also 15–31 kg pro Jahr. Wir essen das 2- bis 3,5-Fache des empfohlenen Maximums. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.",
       "keywords": ["Evolution", "Allesfresser", "Natur", "Krankheiten", "Menge"],
       "relatedSections": ["gesundheit"]
     },

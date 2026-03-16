@@ -88,37 +88,37 @@
         },
         {
           "type": "comparison",
-          "caption": "ADAC-TCO: Worauf es bei den Gesamtkosten ankommt",
+          "caption": "ADAC-Kostenvergleich: VW ID.3 vs. VW Golf (bei 15.000 km/Jahr)",
           "items": [
             {
-              "title": "Verbrenner",
+              "title": "VW Golf 1.5 eTSI (Benzin)",
               "color": "#546e7a",
               "rows": [
-                { "label": "Kaufpreis", "value": "oft etwas niedriger" },
-                { "label": "Energiekosten", "value": "abhängig von Kraftstoffpreisen" },
+                { "label": "Listenpreis", "value": "ab ~33.400 €" },
+                { "label": "Gesamtkosten", "value": "~57 Ct/km" },
                 { "label": "Kfz-Steuer", "value": "regelmäßig fällig" },
-                { "label": "Wartung/Verschleiß", "value": "tendenziell höher" }
+                { "label": "Wartung/Verschleiß", "value": "höher (Ölwechsel, Bremsen, Kupplung)" }
               ],
-              "total": { "label": "Gesamtkosten", "value": "stark modellabhängig" }
+              "total": { "label": "Monatliche Kosten", "value": "~710 €" }
             },
             {
-              "title": "E-Auto (BEV)",
+              "title": "VW ID.3 Pure (Elektro)",
               "color": "#00897b",
               "rows": [
-                { "label": "Kaufpreis", "value": "oft etwas höher" },
-                { "label": "Energiekosten", "value": "abhängig vom Ladetarif" },
+                { "label": "Listenpreis", "value": "ab ~33.300 €" },
+                { "label": "Gesamtkosten", "value": "~47 Ct/km" },
                 { "label": "Kfz-Steuer", "value": "bis Ende 2030 befreit" },
-                { "label": "Wartung/Verschleiß", "value": "tendenziell geringer" }
+                { "label": "Wartung/Verschleiß", "value": "niedriger (kein Ölwechsel, weniger Bremsverschleiß)" }
               ],
-              "total": { "label": "Gesamtkosten", "value": "stark modellabhängig" }
+              "total": { "label": "Monatliche Kosten", "value": "~590 €" }
             }
           ],
-          "savings": "Entscheidend ist der Vergleich konkreter Modelle im ADAC-Autokostenrechner.",
+          "savings": "Der ID.3 ist laut ADAC über 4 Jahre Nutzung rund 3.000–4.000 € günstiger als der Golf.",
           "sourceRefs": ["adac-autokostenrechner-tco-vergleich", "zoll-verlaengerung-der-steuerbefreiung-fuer"]
         },
         {
           "type": "fact",
-          "text": "Trotz oft höherem Listenpreis können E-Autos in der Gesamtkostenrechnung (TCO) je nach Modell, Nutzung und Ladekosten günstiger sein als vergleichbare Verbrenner.",
+          "text": "Laut ADAC ist der VW ID.3 bei ähnlichem Listenpreis in den Gesamtkosten rund 10 Cent/km günstiger als der vergleichbare VW Golf – vor allem durch niedrigere Energie-, Steuer- und Wartungskosten.",
           "highlight": true,
           "sourceRefs": ["adac-autokostenrechner-tco-vergleich"]
         }
@@ -131,18 +131,28 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "90 %", "label": "Rückgewinnung", "sublabel": "ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel" },
-            { "value": "50 %", "label": "Lithium", "sublabel": "Rückgewinnungsziel bis Ende 2027, später 80 %" },
-            { "value": "Second Life", "label": "Nachnutzung", "sublabel": "Fahrzeugbatterien können stationär weitergenutzt werden" }
+            { "value": "8 Jahre", "label": "Akku-Garantie", "sublabel": "oder 160.000 km, Marktstandard", "color": "#00897b" },
+            { "value": "70 %", "label": "Mindestkapazität", "sublabel": "nach Garantielaufzeit" },
+            { "value": "250.000 km", "label": "BYD Blade", "sublabel": "erweiterte Garantie" }
           ]
         },
         {
           "type": "table",
-          "headers": ["Fakt", "Erklärung"],
+          "caption": "Akku-Garantien ausgewählter Hersteller",
+          "headers": ["Hersteller", "Garantiedauer", "Kapazitätsgarantie"],
           "rows": [
-            ["LFP-Technologie", "Lithium-Eisenphosphat-Akkus kommen ohne Kobalt und Nickel aus."],
-            ["Recycling", "Die EU-Batterieverordnung schreibt ab Ende 2027 hohe Rückgewinnungsziele für zentrale Batterierohstoffe vor."],
-            ["Second Life", "Ausgemusterte Auto-Akkus (mit <80% Kapazität) werden jahrelang als stationäre Stromspeicher weitergenutzt."]
+            ["VW (ID.-Familie)", "8 Jahre / 160.000 km", "min. 70 %"],
+            ["Hyundai (IONIQ 5/6)", "8 Jahre / 160.000 km", "min. 70 %"],
+            ["Tesla (Model 3/Y)", "8 Jahre / 192.000 km", "min. 70 %"],
+            ["BYD (Blade-Batterie)", "8 Jahre / 250.000 km", "min. 70 %"]
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "90 %", "label": "Rückgewinnung", "sublabel": "ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel" },
+            { "value": "50 %", "label": "Lithium", "sublabel": "Rückgewinnungsziel bis Ende 2027, später 80 %" },
+            { "value": "Second Life", "label": "Nachnutzung", "sublabel": "Ausgemusterte Akkus werden als stationäre Speicher weitergenutzt" }
           ]
         },
         {
@@ -185,18 +195,18 @@
       "content": [
         {
           "type": "table",
-          "caption": "Direkte Stromnutzung ist im Pkw am effizientesten",
-          "headers": ["Antrieb", "Kernaussage"],
+          "caption": "Wirkungsgrad-Vergleich: Wie viel Strom kommt auf der Straße an?",
+          "headers": ["Antrieb", "Wirkungsgrad (Strom → Rad)", "Strombedarf für 100 km"],
           "rows": [
-            ["E-Auto (BEV)", "Direkte Nutzung von Strom im Fahrzeug ist am effizientesten."],
-            ["Wasserstoff", "Zusätzliche Umwandlungsschritte kosten im Pkw viel Energie."],
-            ["E-Fuels", "Sollten vor allem dort eingesetzt werden, wo Batterien kaum praktikabel sind."]
+            ["E-Auto (BEV)", "~70–80 %", "~15–20 kWh"],
+            ["Wasserstoff (FCEV)", "~25–30 %", "~40–55 kWh"],
+            ["E-Fuels (Verbrenner)", "~10–15 %", "~100–130 kWh"]
           ],
           "sourceRefs": ["transport-environment-t-e-e-fuels"]
         },
         {
           "type": "fact",
-          "text": "Für Pkw ist die direkte Nutzung von Strom im Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels.",
+          "text": "Für dieselbe Strecke braucht ein E-Fuel-Verbrenner etwa 5- bis 6-mal so viel Strom wie ein Batterieauto. Für Pkw ist die direkte Stromnutzung daher mit Abstand am effizientesten.",
           "highlight": true,
           "sourceRefs": ["transport-environment-t-e-e-fuels"]
         },
@@ -232,7 +242,7 @@
     {
       "id": "akku-kaputt",
       "claim": "Nach 3 bis 5 Jahren ist der Akku kaputt und ein neuer kostet 15.000 Euro.",
-      "response": "Das ist so pauschal falsch. Moderne Traktionsbatterien sind auf lange Nutzung ausgelegt, Hersteller geben mehrjährige Garantien, und die Batterie ist normalerweise nicht schon nach wenigen Jahren am Ende. Entscheidend sind Fahrzeugmodell, Nutzung und Batterietyp.",
+      "response": "Pauschal falsch. Marktstandard ist 8 Jahre oder 160.000 km Garantie auf mindestens 70 % Kapazität. BYD garantiert sogar 250.000 km. Ein Austausch nach 3–5 Jahren ist die Ausnahme, nicht die Regel. Und selbst ausgemusterte Akkus unter 80 % Kapazität werden als stationäre Speicher weitergenutzt.",
       "keywords": ["akku", "kaputt", "lebensdauer", "austausch", "garantie", "kosten"],
       "relatedSections": ["akkus-rohstoffe"]
     },
@@ -274,7 +284,7 @@
     {
       "id": "reichweite",
       "claim": "Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.",
-      "response": "Auch längere Urlaubsfahrten sind mit E-Autos heute praktikabel. Das Schnellladenetz wächst weiter, und auf Langstrecken gehören Ladepausen ähnlich wie Tank- oder Ruhepausen ohnehin zur Reiseplanung dazu.",
+      "response": "Aktuelle E-Autos der Kompaktklasse erreichen 350–500 km WLTP-Reichweite. Eine Schnellladung von 10 auf 80 % dauert bei modernen Fahrzeugen rund 25–30 Minuten und lädt Strom für circa 200–300 km nach. Auf einer Fahrt München–Gardasee (ca. 480 km) wäre also ein Ladestopp nötig — ähnlich einer normalen Rast- oder Tankpause.",
       "keywords": ["urlaub", "reichweite", "italien", "langstrecke", "laden", "pause"],
       "relatedSections": ["status-quo"]
     }

@@ -48,9 +48,9 @@
         },
         {
           "type": "fact",
-          "text": "Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland. Deutschland liegt damit im OECD-Vergleich weiter unter dem Schnitt und hinter skandinavischen Ländern.",
+          "text": "Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland (4,5 %). Würde Deutschland nur den OECD-Schnitt (5,1 %) erreichen, stünden jährlich rund 25 Mrd. € mehr für Bildung bereit — das entspricht etwa 1.600 € zusätzlich pro Schüler und Kitakind.",
           "highlight": true,
-          "sourceRefs": ["oecd-bildung-auf-einen-blick-2025"]
+          "sourceRefs": ["oecd-bildung-auf-einen-blick-2025", "statistisches-bundesamt-bildungsausgaben-2024"]
         }
       ]
     },
@@ -108,7 +108,7 @@
         },
         {
           "type": "fact",
-          "text": "Rund ein Drittel der 15-Jährigen in Deutschland hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik verlor Deutschland 25 Punkte gegenüber 2018 – einer der stärksten Rückgänge aller OECD-Länder.",
+          "text": "Rund ein Drittel der 15-Jährigen (ca. 250.000 Jugendliche pro Jahrgang) hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik fiel Deutschland von 514 (2012) auf 475 Punkte (2022) — ein Verlust von 39 Punkten in 10 Jahren, vergleichbar mit dem Lernstand eines ganzen Schuljahres.",
           "highlight": true,
           "sourceRefs": ["pisa-2022-nationaler-bericht-tu-muenchen-zib"]
         },
@@ -256,7 +256,7 @@
     {
       "id": "arg_genug_geld",
       "claim": "Wir geben genug Geld für Bildung aus",
-      "response": "Nominal klingt die Zahl von 198 Milliarden Euro nach viel. Aber gemessen am BIP liegt Deutschland weiterhin unter dem OECD-Durchschnitt und hinter skandinavischen Ländern. Die Konsequenzen sind sichtbar: marode Schulgebäude, fehlende Lehrkräfte, mangelhafte digitale Infrastruktur und starke Qualitätsunterschiede in der frühen Bildung.",
+      "response": "198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Die Konsequenzen sieht man: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher.",
       "keywords": ["genug geld", "ausgaben", "teuer", "finanzierung", "investition"],
       "relatedSections": ["bildungsausgaben", "kita-fruehkindlich"]
     },

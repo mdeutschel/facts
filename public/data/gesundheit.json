@@ -116,10 +116,20 @@
           ]
         },
         {
-          "type": "text",
-          "text": "Arbeitnehmer und Arbeitgeber teilen sich den Beitrag paritätisch. Bei 3.000 Euro Brutto entspräche das zusammen rechnerisch rund 525 Euro monatlich für die Krankenversicherung.",
+          "type": "table",
+          "caption": "GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag)",
+          "headers": ["Position", "Mindestlohn (~2.220 € brutto)", "Median (~3.000 € brutto)"],
+          "rows": [
+            ["AN-Anteil GKV (8,75 %)", "194 €", "263 €"],
+            ["AG-Anteil GKV (8,75 %)", "194 €", "263 €"],
+            ["GKV gesamt", "388 €", "525 €"],
+            ["+ Pflegeversicherung AN", "~40 €", "~53 €"],
+            ["Abzug vom Brutto (AN gesamt)", "~234 €", "~316 €"],
+            ["verbleibend netto (ca.)", "~1.570 €", "~2.050 €"]
+          ],
           "sourceRefs": [
-            "gkv-schaetzerkreis-prognose-2025-2026"
+            "gkv-schaetzerkreis-prognose-2025-2026",
+            "bmg-beitraege"
           ]
         }
       ]
@@ -370,11 +380,12 @@
         },
         {
           "type": "fact",
-          "text": "2023 entfielen 24,8 Milliarden Euro beziehungsweise 298 Euro je Einwohner auf Prävention und Gesundheitsschutz. 2024 gaben die gesetzlichen Krankenkassen zusätzlich 686 Millionen Euro für Präventionsaktivitäten aus.",
+          "text": "Nur 4,9 % der Gesundheitsausgaben (24,8 Mrd. von 500,8 Mrd. €) flossen 2023 in Prävention — 298 € je Einwohner. Der GKV-Anteil für Präventionsaktivitäten lag 2024 bei nur 686 Mio. €, also weniger als 0,2 % der GKV-Ausgaben.",
           "highlight": true,
           "sourceRefs": [
             "rki-gesundheitsberichterstattung",
-            "gkv-spitzenverband-praeventionsbericht-2025"
+            "gkv-spitzenverband-praeventionsbericht-2025",
+            "destatis-gesundheitsausgaben-leistungsarten-2023"
           ]
         },
         {

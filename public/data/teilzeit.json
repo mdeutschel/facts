@@ -18,7 +18,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit knapp 46 Millionen nahezu konstant.",
+          "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — das entspricht umgerechnet 1.332 Stunden pro Erwerbstätigem und Jahr, also etwa 33 Stunden pro Woche im Durchschnitt über alle Voll- und Teilzeitkräfte.",
           "sourceRefs": ["iab-ergebnisse-der-arbeitszeitrechnung-2025"]
         },
         {
@@ -135,7 +135,7 @@
     {
       "id": "arg-3",
       "claim": "Die Gen Z ist arbeitsscheu und will nicht mehr richtig arbeiten.",
-      "response": "Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf 76 % gestiegen. Die junge Generation ist so stark in den Arbeitsmarkt integriert wie lange nicht mehr.",
+      "response": "Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen stieg seit 2015 um über 6 Prozentpunkte auf 76 %. Der Teilzeitanstieg in dieser Gruppe erklärt sich vor allem durch mehr arbeitende Studierende: Deren Erwerbsquote stieg von 36,7 % (2015) auf 56,0 % (2023).",
       "keywords": ["Gen Z", "Jugend", "Faul", "Arbeitsmoral"],
       "relatedSections": ["gen-z"]
     },
