@@ -1,0 +1,179 @@
+# Vermögens- und Erbschaftssteuer
+
+Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland | Stand: 2026-03
+
+### Fakten
+
+### Die Vermögensverteilung in Deutschland
+
+Deutschland weist im europäischen Vergleich eine sehr hohe Vermögensungleichheit auf. Während Einkommen relativ gleichmäßig verteilt sind, konzentriert sich das Vermögen (Immobilien, Aktien, Betriebsvermögen) stark an der Spitze. Neuere DIW-Schätzungen unter Einbeziehung von Milliardärslisten deuten darauf hin, dass das Top 1 % sogar über 30–35 % besitzen könnte, da Superreiche in Umfragen systematisch untererfasst sind.
+
+Hinweis: Anteil am Gesamtvermögen in Deutschland
+- Top 1 %: 26 %
+- Nächste 9 %: 34 %
+- Mittlere 40 %: 37.5 %
+- Untere 50 %: 2.5 %
+
+- Gini-Koeffizient: 0,72 (Vermögen (Bundesbank PHF 2023))
+- Medianvermögen: 103.200 € (pro Haushalt (2023))
+- Durchschnitt: 324.800 € (3,15× so hoch wie Median)
+
+### Medianvermögen: Deutschland unter Spanien und Italien
+
+Bei der Vermögensverteilung zeigt sich ein paradoxes Bild: Deutschland ist eine der größten Volkswirtschaften der Welt, liegt beim Medianvermögen (dem Vermögen des 'typischen' Haushalts) aber deutlich hinter südeuropäischen Ländern. Der Hauptgrund: Die extrem niedrige Wohneigentumsquote in Deutschland.
+
+Hinweis: Medianvermögen und Wohneigentumsquote im EU-Vergleich
+Spalten: Land | Medianvermögen | Eigentumsquote
+- Spanien | ~178.000 € | 83 %
+- Italien | ~164.000 € | 68 %
+- Frankreich | ~134.000 € | 58 %
+- Deutschland | ~103.000 € | 42 %
+
+- Median West: 143.200 € (pro Haushalt (2023))
+- Median Ost: 35.900 € (pro Haushalt (2023))
+
+- Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Ein wichtiger Faktor dafür ist die niedrige Eigentumsquote (42 %), durch die der 'typische' deutsche Haushalt beim Medianvermögen hinter Ländern wie Spanien liegt.
+
+### Vermögensbezogene Steuern: Deutschland im OECD-Vergleich
+
+Deutschland besteuert Vermögen weit unterdurchschnittlich. Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) liegt Deutschland an der Weltspitze — bei den vermögensbezogenen Steuern (Grundsteuer, Erbschaftsteuer, Vermögensteuer) deutlich unter dem OECD-Schnitt.
+
+Hinweis: Vermögensbezogene Steuern als % des BIP
+- UK: 4 bis 4.2 % BIP
+- Frankreich: 3.5 bis 3.9 % BIP
+- USA: 2.9 bis 3.1 % BIP
+- OECD-Ø: 1.7 bis 2.3 % BIP
+- Deutschland: 0.9 bis 1.1 % BIP
+
+- Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch ausgesetzt — das Vermögensteuergesetz gilt formal bis heute weiter.
+
+### Erbschaftsteuer: Milliardäre zahlen weniger als Mittelstandserben
+
+- Aufkommen: 13,3 Mrd. € (festgesetzt 2024 (Rekord))
+- jährl. Erbvolumen: 300–400 Mrd. (davon nur 113 Mrd. steuerlich erfasst)
+- Mindereinnahmen/J.: ~7,8 Mrd. € (durch Betriebsvermögens-Verschonung)
+- Effektiver Ø-Satz: niedrig (je nach Bezugsbasis unterschiedlich)
+
+Hinweis: Kassenmäßiges Erbschaft- und Schenkungsteuer-Aufkommen
+- 2010: 4.4 Mrd. €
+- 2012: 4.3 Mrd. €
+- 2014: 5.4 Mrd. €
+- 2016: 7 Mrd. €
+- 2018: 6.8 Mrd. €
+- 2020: 8.6 Mrd. €
+- 2022: 9.2 Mrd. €
+- 2024: 11 Mrd. €
+
+- 0,7 % der Steuerpflichtigen erhalten 32 % aller erfassten Übertragungen — und 68 % aller steuerbefreiten Unternehmensübertragungen. Kleine Erben zahlen prozentual mehr als Milliardenerben.
+
+- 2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,38 Mrd. € Erbschaftsteuer erlassen. Das zeigt, wie stark einzelne Großübertragungen privilegiert werden.
+
+Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung ist seit 2022 anhängig.
+
+### Erbengesellschaft: Wachsende Ungleichheit durch Erbschaften
+
+- Privatvermögen: > 50 % (ist geerbt, nicht selbst erarbeitet)
+- Erbschaften: 54 % (beinhalten inzwischen Immobilien)
+- Erbvolumen/BIP: 7–10 % (~300–400 Mrd. €/Jahr)
+- ErbSt-Aufkommen: ~1,1 % (am Gesamtsteueraufkommen)
+
+- Die reichsten 10 % erhalten die Hälfte aller Erbschaften — die ärmere Hälfte der Bevölkerung geht praktisch leer aus. Erbschaften verstärken die Ungleichheit, statt sie auszugleichen.
+
+Hinweis: Erbschaften vs. Steuereinnahmen
+Spalten: Kennzahl | Wert
+- Geschätztes jährl. Erbvolumen | 300–400 Mrd. €
+- Steuerlich erfasst | 113 Mrd. € (2024)
+- Festgesetzte Steuer | 13,3 Mrd. € (2024)
+- Effektiver Steuersatz (gesamt) | ~2–3 %
+- Zum Vergleich: Tabaksteuer | ~15 Mrd. €/J.
+
+- Die Erbschaftsteuer bringt nur ~1,1 % des Gesamtsteueraufkommens ein — weniger als die Tabaksteuer (~15 Mrd. €). Bei einem geschätzten jährlichen Erbvolumen von 300–400 Mrd. € liegt der effektive Steuersatz bei nur 2–3 %.
+
+In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut einer FES-Auswertung profitieren auch sehr junge Erben von weitreichenden Steuerbefreiungen bei großen Unternehmensvermögen.
+
+### Aufkommenspotenzial: Was brächte eine Vermögensteuer?
+
+Das DIW Berlin hat verschiedene Modelle einer Vermögensteuer durchgerechnet. Betroffen wäre im Wesentlichen nur das reichste 1 % der Bevölkerung; den Großteil des Aufkommens trüge das reichste 0,1 %.
+
+Hinweis: Modelle einer Vermögensteuer und geschätztes Aufkommen
+Spalten: Modell | Freibetrag | Steuersatz | Aufkommen (brutto)
+- Die Linke: konservativ (DIW 2026) | 1 Mio. € | 1 % proportional | ~42 Mrd. €/J.
+- Die Linke: progressiv (DIW 2026) | 1 Mio. € | 1–12 % (progressiv) | ~147 Mrd. €/J.
+
+- Schon die konservativste Variante (1 % ab 1 Mio. € Freibetrag) brächte laut DIW rund 42 Mrd. Euro pro Jahr — mehr als dreimal so viel wie die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.
+
+Hinweis: Was 1 % Vermögensteuer (Freibetrag 1 Mio. €) konkret bedeuten würde
+Spalten: Nettovermögen | Steuerbetrag/Jahr | Einordnung
+- 500.000 € | 0 € | unter Freibetrag — nicht betroffen
+- 1,5 Mio. € | 5.000 € | nur auf 500.000 € über Freibetrag
+- 5 Mio. € | 40.000 € | bei 5–10 % Rendite aus laufenden Erträgen zahlbar
+- 50 Mio. € | 490.000 € | entspricht ~1 % des Vermögens
+- 1 Mrd. € | 9,99 Mio. € | weniger als eine typische Quartalsdividende
+
+Hinweis: Freibeträge Erbschaftsteuer: Deutschland vs. international
+Spalten: Land | System | Freibetrag (Kind) | Spitzensatz
+- Deutschland | Erwerberbasiert | 400.000 € (alle 10 J.) | 30 %
+- Frankreich | Erwerberbasiert | 100.000 € (alle 15 J.) | 45 %
+- UK | Nachlassbasiert | ~380.000 € (+ 205.000 Wohneigentum) | 40 %
+- USA | Nachlassbasiert | ~13,1 Mio. € pro Person | 40 %
+- Japan | Erwerberbasiert | ~185.000 € + pro Erbe | 55 %
+
+- OECD und andere internationale Institutionen empfehlen Deutschland seit Jahren, vermögensbezogene Steuern stärker zu nutzen und die hohe Belastung von Arbeit zu verringern.
+
+### Verfassungsrecht: Vermögensteuer ist nicht verboten
+
+Hinweis: Geschichte der Vermögensteuer in Deutschland
+- 1893: Einführung der Vermögensteuer (Preußen, später Deutsches Reich)
+- 1995: BVerfG-Beschluss: Einheitswerte verfassungswidrig (Ungleiche Bewertung von Immobilien vs. Geldvermögen)
+- 1997: Erhebung eingestellt (nicht abgeschafft) (Kabinett Kohl — politische Entscheidung, kein Zwang)
+- 2006: BVerfG gibt 'Halbteilungsgrundsatz' auf (Keine starre 50-%-Obergrenze für Gesamtbelastung)
+- 2014: BVerfG: Erbschaftsteuer-Privilegien verfassungswidrig (Reform 2016 ließ Kernprivilegien bestehen)
+- 2025: Grundsteuer-Reform in Kraft (Erstmals aktuelle Immobilienbewertungen — Grundlage für Vermögensteuer)
+- seit 2022 anhängig: Erneute verfassungsrechtliche Prüfung der Erbschaftsteuer-Privilegien (Az. 1 BvR 804/22)
+
+- Das BVerfG hat die Vermögensteuer NICHT für verfassungswidrig erklärt — nur die damalige Bewertungsmethode. Das Vermögensteuergesetz ist formal noch in Kraft. Für eine Wiedereinführung genügt ein einfaches Bundesgesetz (+ Bundesratszustimmung).
+
+Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Die seit 2025 wirksame Grundsteuer-Reform schafft zudem eine deutlich aktuellere Immobilienbewertung als früher, was eine verfassungskonforme Ausgestaltung erleichtern kann.
+
+### Argumente
+
+- Aussage: Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!
+  Antwort: Bei Steuern und Abgaben auf Arbeit liegt Deutschland hoch. Bei den vermögensbezogenen Steuern liegt Deutschland mit rund 1 % des BIP dagegen klar unter dem OECD-Durchschnitt von 1,9 %. Viele internationale Vergleiche zeigen: Eine stärkere Besteuerung großer Vermögen kann helfen, Arbeitseinkommen im Gegenzug weniger stark zu belasten.
+- Aussage: Das ist doch reine Neidsteuer! Typisch deutsche Neidgesellschaft!
+  Antwort: Es geht nicht um Neid, sondern um Chancengerechtigkeit. Ein großer Teil sehr großer Vermögen wird geerbt, nicht neu aufgebaut. Wenn Vermögenskonzentration über Generationen hinweg zunimmt und große Erbschaften steuerlich stark privilegiert werden, ist das eine Frage der fairen Verteilung von Chancen. Vermögensteuern oder strengere Erbschaftsteuern sind deshalb kein exotischer Sonderweg.
+- Aussage: Eine Vermögenssteuer zerstört unsere Familienunternehmen und den Mittelstand!
+  Antwort: Seriöse Modelle arbeiten mit hohen Freibeträgen und zielen auf sehr große Vermögen. Die besonders großzügigen Privilegien im Erbschaftsteuerrecht kommen heute vor allem bei sehr großen Unternehmensvermögen zum Tragen, nicht bei typischen kleinen Betrieben. Entscheidend ist daher die Ausgestaltung: Kleine und mittlere Betriebe lassen sich schützen, ohne milliardenschwere Übertragungen pauschal zu verschonen.
+- Aussage: Die Reichen wandern dann einfach ins Ausland ab!
+  Antwort: Abwanderungsrisiken gibt es, aber sie werden oft überschätzt. Wohnsitzentscheidungen hängen nicht nur von einer Steuer ab, sondern auch von Unternehmen, Familie, Infrastruktur und Rechtssicherheit. Zudem kann der Gesetzgeber Wegzugs- und Missbrauchsregeln so ausgestalten, dass reine Steuergestaltung erschwert wird.
+- Aussage: Es wird doch schon alles bei der Einkommensteuer versteuert (Doppelbesteuerung)!
+  Antwort: Vermögen wächst oft ohne Einkommensteuerzahlung — durch Wertsteigerungen von Immobilien, Aktien oder Unternehmensanteilen. Diese unrealisierten Gewinne werden erst bei Verkauf besteuert, bei Erbschaften oft gar nicht. Zudem: Auch die Mehrwertsteuer ist eine 'Doppelbesteuerung' von bereits versteuertem Einkommen. Das Leistungsfähigkeitsprinzip erlaubt mehrere Steuern auf verschiedene Bemessungsgrundlagen.
+- Aussage: Eine Vermögensteuer geht an die Substanz — das zerstört Unternehmen!
+  Antwort: Nicht das Unternehmen zahlt, sondern der Eigentümer. Bei einem Steuersatz von 1 % und typischen Kapitalrenditen von 5–10 % lässt sich die Steuer bequem aus den laufenden Erträgen bezahlen. Bei der Erbschaftsteuer ist zudem eine Stundung über 15 Jahre möglich — das entspricht etwa 1–2 % des jährlichen Unternehmensgewinns. Wer ein Unternehmen kauft, muss den vollen Preis sofort aufbringen — nur Erben bekommen Sonderkonditionen.
+- Aussage: Die Erbschaftsteuer zwingt Erben dazu, ihr Elternhaus zu verkaufen!
+  Antwort: Für das Familienheim gibt es weitreichende Ausnahmen: Wer das geerbte Haus selbst für mindestens 10 Jahre bewohnt, zahlt darauf null Euro Erbschaftsteuer (bis 200 m² Wohnfläche). Zudem gibt es hohe persönliche Freibeträge: 400.000 € pro Kind, 500.000 € für Ehepartner — alle 10 Jahre erneuerbar. 96 % aller Erbfälle fallen komplett unter die Freibeträge. Das 'Elternhaus'-Argument schützt in Wahrheit die Villen der Superreichen.
+- Aussage: Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!
+  Antwort: Das Verwaltungsargument ist heute schwächer als in den 1990ern. Durch Digitalisierung, Informationsaustausch und die reformierte Immobilienbewertung sind die Voraussetzungen deutlich besser. Entscheidend ist aber auch hier das Design: hohe Freibeträge und klare Bewertungsregeln halten den Aufwand beherrschbar.
+- Aussage: Erbschaftsteuer bestraft Leistung und zerstört Lebenswerke!
+  Antwort: Erben ist keine eigene Leistung. Gleichzeitig werden große Unternehmensvermögen im geltenden Recht oft weit stärker geschont als normale Erbschaften. Dadurch wird Vermögenskonzentration über Generationen eher verstärkt als abgemildert. Wer kleine und mittlere Erbschaften schützen will, kann Freibeträge hoch halten und Privilegien an der Spitze gezielter abbauen.
+- Aussage: Investitionen fließen ab und Firmen gehen ins Ausland!
+  Antwort: Standortentscheidungen hängen von vielen Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte und Energiekosten. Eine Vermögensteuer allein entscheidet selten über Investitionen. Wichtig ist daher, sehr große private Vermögen zu adressieren, ohne produktive Unternehmensinvestitionen unnötig zu belasten.
+- Aussage: Erben ist Privatsache — der Staat hat da nichts zu suchen!
+  Antwort: Art. 14 GG garantiert Eigentum, betont aber auch dessen Sozialpflichtigkeit. Große Erbschaften entstehen nicht losgelöst von staatlich finanzierter Infrastruktur, Bildung und Rechtssicherheit. Deshalb ist ihre Besteuerung keine unzulässige Einmischung, sondern Teil legitimer Verteilungspolitik in einem Sozialstaat.
+
+### Quellen
+
+- DIW Berlin: Private Vermögen — Höhe, Entwicklung und Verteilung (2024) (https://www.diw.de/de/diw_01.c.925733.de/publikationen/sonstige_aufsaetze/2024_0000/private_vermoegen__hoehe__entwicklung_und_verteilung.html)
+- Deutsche Bundesbank: Panel on Household Finances (PHF), 5. Welle 2023 (https://www.bundesbank.de/de/bundesbank/forschung/studie-zur-wirtschaftlichen-lage-privater-haushalte-phf/ergebnisse-604886)
+- Statistisches Bundesamt: Erbschaft- und Schenkungsteuer 2024 (PD25_320) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_320_736.html)
+- DIW Politikberatung kompakt 211: Vermögensteuer Die Linke (Bach/Wichers/Mudrack 2026) (https://www.diw.de/de/diw_01.c.998456.de/publikationen/politikberatung_kompakt/2026_0211/vermoegensteuer_die_linke_____aufkommens-_und_verteilungswir___n_die_linke_in_den_landtagen_und_der_rosa-luxemburg-stiftung.html)
+- DIW Wochenbericht 4/2026: Erbschaftsteuerreform (Bach/Sinclair) (https://www.diw.de/de/diw_01.c.996032.de/publikationen/wochenberichte/2026_04_1/erbschaftsteuerreform__verguenstigungen_abbauen__freibetraege_erhoehen__steuertarifstulen_reduzieren.html)
+- FES-Studie: Milliardenvermögen steuerfrei erben (2022) (https://library.fes.de/pdf-files/a-p-b/19775.pdf)
+- OECD Revenue Statistics — Taxes on property (https://stats.oecd.org/Index.aspx?DataSetCode=REV)
+- OECD Economic Survey Germany 2023 — Empfehlung Vermögensteuer (https://www.oecd.org/en/publications/oecd-economic-surveys-germany-2023_9642a3f5-en.html)
+- 30. Subventionsbericht der Bundesregierung (Sept. 2025) (https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/30-subventionsbericht.html)
+- BVerfG: Beschluss vom 22.6.1995 zur Vermögensteuer (https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1995/06/rs19950622_2bvr055291.html)
+- Gesetze im Internet – Vermögensteuergesetz (VStG) (https://www.gesetze-im-internet.de/vstg_1974/)
+- Eurostat – Housing in Europe 2024 (https://ec.europa.eu/eurostat/web/interactive-publications/housing-2024)
+- EZB: Household Finance and Consumption Survey (HFCS), Wave 2021 (https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html)
+- Tax Foundation: Wealth Taxes in Europe (2025) (https://taxfoundation.org/data/all/eu/wealth-taxes-in-europe/)
+- Netzwerk Steuergerechtigkeit (https://www.netzwerk-steuergerechtigkeit.de)

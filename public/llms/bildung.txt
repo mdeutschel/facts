@@ -1,0 +1,136 @@
+# Deutsches Bildungssystem
+
+Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung | Stand: 2026-03
+
+### Fakten
+
+### Bildungsausgaben im OECD-Vergleich
+
+Deutschland gab 2024 insgesamt 198 Milliarden Euro für Bildung aus – ein nominaler Rekordwert. Gemessen am BIP liegt Deutschland mit 4,6 % aber weiterhin deutlich unter dem OECD-Schnitt und weit hinter skandinavischen Ländern.
+
+Hinweis: Öffentliche Bildungsausgaben als BIP-Anteil (2023, OECD-Daten)
+- Schweden: 7.1 %
+- Island: 6.7 %
+- Finnland: 6.5 %
+- Belgien: 6.4 %
+- OECD-Schnitt: 5.1 %
+- Deutschland: 4.5 %
+- Polen: 4.6 %
+
+- Gesamt 2024: 198 Mrd. € (+7 % nominal, +4 % real)
+- Pro Einwohner: 2.400 € (bzw. 8.000 € pro unter 30-Jährigem)
+- Schulen: 97 Mrd. € (49 % der Ausgaben)
+- Kita-Betreuung: 49 Mrd. € (25 % der Ausgaben)
+
+- Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland (4,5 %). Würde Deutschland nur den OECD-Schnitt (5,1 %) erreichen, stünden jährlich rund 25 Mrd. € mehr für Bildung bereit — das entspricht etwa 1.600 € zusätzlich pro Schüler und Kitakind.
+
+### Lehrkräftemangel: Die Personalkatastrophe
+
+Deutschland steckt mitten in einer Lehrkräftekrise. Je nach Berechnungsmethode fehlen bereits jetzt zwischen 26.000 und 35.000 Lehrkräfte – Tendenz stark steigend.
+
+Hinweis: Prognose fehlende Lehrkräfte (IW-Berechnung)
+- 2025/26: 35.000
+- 2030/31: 68.000
+- 2035/36: 76.000
+
+- Besonders betroffen sind vor allem Grundschulen; je nach Bereich verschärft sich der Mangel zusätzlich.
+
+Hauptursachen sind steigende Schülerzahlen durch Zuwanderung, eine Pensionierungswelle der Babyboomer-Generation und strukturelle Hürden im Lehramtsstudium. Viele Stellen werden mit Quereinsteigern ohne volle pädagogische Ausbildung besetzt.
+
+### PISA 2022 & Chancengleichheit
+
+Die PISA-Studie 2022 offenbart einen historischen Tiefstand für Deutschland. In allen drei Bereichen sind die Leistungen so schlecht wie nie seit Beginn der PISA-Erhebungen im Jahr 2000.
+
+Hinweis: PISA 2022 – Punktzahlen im Vergleich (15-Jährige)
+Spalten: Land | Mathematik | Lesen | Naturwiss.
+- Finnland | 484 | 490 | 511
+- Schweden | 482 | 487 | 494
+- Deutschland | 475 | 480 | 492
+- OECD-Schnitt | 472 | 476 | 485
+- Norwegen | 468 | 477 | 478
+
+- Rund ein Drittel der 15-Jährigen (ca. 250.000 Jugendliche pro Jahrgang) hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik fiel Deutschland von 514 (2012) auf 475 Punkte (2022) — ein Verlust von 39 Punkten in 10 Jahren, vergleichbar mit dem Lernstand eines ganzen Schuljahres.
+
+Hinweis: PISA Mathematik – Deutschland im Zeitverlauf
+- 2000: 490 Punkte
+- 2003: 503 Punkte
+- 2006: 504 Punkte
+- 2009: 513 Punkte
+- 2012: 514 Punkte
+- 2015: 506 Punkte
+- 2018: 500 Punkte
+- 2022: 475 Punkte
+
+Auch PISA 2022 zeigt weiterhin ausgeprägte soziale Bildungsungleichheiten in Deutschland.
+
+### Digitalisierung an Schulen
+
+Der DigitalPakt Schule (2019–2024) sollte die digitale Infrastruktur an Schulen revolutionieren. Mit 6,5 Milliarden Euro wurden Laptops, Tablets, interaktive Whiteboards und WLAN-Netzwerke finanziert.
+
+- Bewilligte Mittel: 5,3 Mrd. € (97,4 % der verfügbaren Mittel)
+- Abgeflossene Mittel: 4,1 Mrd. € (Stand Juni 2025)
+- Evaluation: seit 2025 (Zwischenbericht veröffentlicht)
+- DigitalPakt 2.0: ab 2025 (Anschlussfinanzierung bis 2030 vereinbart)
+
+Kritiker bemängeln, dass Hardware allein nicht reicht: Lehrkräfte müssen für den Umgang mit digitalen Medien fortgebildet werden, und es fehlt flächendeckend an IT-Support. Lehrkräfte übernehmen häufig selbst die Rolle des IT-Administrators.
+
+### Kita & Frühkindliche Bildung
+
+Die frühkindliche Bildung gilt als entscheidend für spätere Bildungschancen. Doch in deutschen Kitas herrscht akuter Fachkräftemangel, der die Betreuungsqualität massiv gefährdet.
+
+- Fehlende Erzieher:innen: ~100.000 (Prognose 2026, bis 2030: 200.000)
+- Fachkraftquote Bayern: 54,5 % (voll qualifiziertes Personal)
+- Spitzenwert Sömmerda: 94,3 % (Landkreis in Thüringen)
+- Fachkraftquote Ost: 86,9 % (vs. 68,6 % im Westen)
+
+- In Bayern haben nur 54,5 % des Kita-Personals eine vollständige Fachausbildung – der bundesweit niedrigste Wert. Der Landkreis Sömmerda in Thüringen liegt mit 94,3 % an der Spitze.
+
+Unterbesetzung belastet Betreuungsqualität und Arbeitsbedingungen in vielen Kitas.
+
+### Ganztags-Rechtsanspruch ab 2026
+
+Ab dem 1. August 2026 gilt ein stufenweiser Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder. Der Anspruch umfasst 8 Stunden täglich an fünf Werktagen, inklusive Unterrichtszeit und grundsätzlich auch in den Schulferien.
+
+Hinweis: Stufenweise Einführung des Rechtsanspruchs
+- 2026/27: 1. Klasse
+- 2027/28: 1. + 2. Klasse
+- 2028/29: 1.–3. Klasse
+- 2029/30: 1.–4. Klasse
+
+- Aktuelle Ganztagsquote: 57 % (bundesweit (West: 51 %, Ost: 84 %))
+- Zusätzlich benötigte Plätze: 264.000 (bis Vollausbau 2029/30)
+- Investitionsmittel Bund: 3,5 Mrd. € (für Infrastrukturausbau)
+- Laufende Betriebskosten: 1,3 Mrd. €/Jahr (Bundesbeteiligung ab 2030)
+
+### Argumente
+
+- Aussage: Unser Bildungssystem war mal Weltspitze
+  Antwort: Deutschland hatte tatsächlich ein international angesehenes Bildungssystem – vor allem in der beruflichen Bildung (duales System). Aber bei PISA 2022 erreichten deutsche 15-Jährige in Mathematik nur noch 475 Punkte – ein historischer Tiefstand und ein Rückgang von 25 Punkten gegenüber 2018. Rund ein Drittel hat in mindestens einem Bereich nur minimale Kompetenzen. Statt sich auf vergangenen Ruhm zu berufen, braucht es massive Investitionen: Deutschland liegt mit 4,5 % des BIP für Bildung deutlich unter dem OECD-Schnitt von 5,1 % und weit hinter Skandinavien (6,5–7,1 %).
+- Aussage: Die Lehrer arbeiten doch nur halbtags und haben ständig Ferien
+  Antwort: Eine repräsentative Studie des Prognos-Instituts in Sachsen zeigt: In Schulwochen fallen Mehrstunden an. Im Jahresmittel lagen Vollzeit-Lehrkräfte etwa auf ihrem individuellen Soll, Teilzeitkräfte aber 5,8 % darüber. Unterricht ist dabei nur ein Teil der Arbeitszeit – hinzu kommen Vor- und Nachbereitung, Korrekturen, Elterngespräche, Verwaltung und Konferenzen.
+- Aussage: Schüler können heute nichts mehr, die sind alle verblödet
+  Antwort: Die PISA-Ergebnisse zeigen tatsächlich einen deutlichen Leistungsrückgang, der aber strukturelle Ursachen hat – und keine individuelle 'Verblödung'. Zu den Ursachen gehören chronische Unterfinanzierung (Deutschland liegt unter dem OECD-Schnitt), akuter Lehrkräftemangel (35.000 fehlend), pandemiebedingte Lernrückstände und der stärkste Zusammenhang zwischen sozialer Herkunft und Bildungserfolg in der OECD. Die Lösung liegt nicht bei den Schüler:innen, sondern beim System: bessere Ausstattung, mehr Personal, gezielte Förderung Benachteiligter.
+- Aussage: Bildung ist Ländersache, da kann man nichts machen
+  Antwort: Das stimmt verfassungsrechtlich – aber es ist kein Naturgesetz. Das Kooperationsverbot von 2006 verhindert, dass der Bund direkt in Schulen investiert. Das Ergebnis: 16 verschiedene Lehrpläne, massive Qualitätsunterschiede zwischen den Bundesländern und ein 'Bildungsflickenteppich'. Mehrere Bundesländer fordern inzwischen selbst die Aufhebung dieses Verbots. Auch der DigitalPakt Schule zeigt, dass Bund-Länder-Kooperation in der Bildung möglich ist – er wurde trotz Kooperationsverbot realisiert. 'Ländersache' heißt nicht 'unveränderbar'.
+- Aussage: Wir geben genug Geld für Bildung aus
+  Antwort: 198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Die Konsequenzen sieht man: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher.
+- Aussage: Hauptschüler sind halt einfach nicht so schlau
+  Antwort: Das ist ein klassischer Zirkelschluss. PISA zeigt seit Jahren, dass Deutschland zu den OECD-Ländern mit stark ausgeprägten sozialen Bildungsungleichheiten gehört. Kinder aus bildungsfernen Familien werden überproportional auf niedrigere Schulformen verteilt. Das spricht nicht für mangelnde Intelligenz, sondern für strukturelle Probleme wie frühe Selektion, ungleiche Förderung und zu wenig Unterstützung benachteiligter Kinder.
+- Aussage: Inklusion schadet normalen Schülern
+  Antwort: Die umfassendste deutsche Studie zur Inklusion (INSIDE, 2016–2025, über 4.000 Schüler:innen an 246 Schulen) zeigt: Inklusion 'gelingt weder durchweg noch scheitert grundsätzlich'. Entscheidend sind die Rahmenbedingungen – insbesondere gute Kooperation zwischen Regel- und Sonderpädagogen sowie ausreichend Personal. Die Studie zeigt keine generellen Nachteile für Mitschüler:innen ohne Förderbedarf. Problematisch wird es erst, wenn Inklusion ohne zusätzliche Ressourcen umgesetzt wird. Das Problem ist also nicht die Inklusion an sich, sondern ihre unzureichende Ausstattung.
+- Aussage: Digitalisierung an Schulen bringt nichts, Kinder sollen lesen lernen
+  Antwort: Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat Milliarden in Infrastruktur gebunden. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Seit 2025 liegt bereits ein Zwischenbericht zur Evaluation vor; der DigitalPakt 2.0 soll stärker auf Qualität statt nur auf Hardware setzen.
+
+### Quellen
+
+- OECD – Bildung auf einen Blick 2025 (https://www.oecd.org/de/topics/education.html)
+- Statistisches Bundesamt – Bildungsausgaben 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_445_21711.html)
+- Institut der deutschen Wirtschaft (IW) – Lehrkräftemangel-Prognose (https://www.iwd.de/artikel/der-lehrermangel-in-deutschland-verschaerft-sich-546423/)
+- KMK – Lehrereinstellungsbedarf und -angebot 2024 (https://www.kmk.org/fileadmin/Dateien/pdf/Statistik/Dokumentationen/Dok_2_Bericht_LEB_LEA_2024.pdf)
+- PISA 2022 – Nationaler Bericht (TU München / ZIB) (https://www.zib.education/pisa-2022-analyse-der-bildungsergebnisse-in-deutschland/)
+- Bundeszentrale für politische Bildung – PISA 2022 und Chancengleichheit (https://www.bpb.de/themen/bildung/dossier-bildung/543509/pisa-2022-wie-leistungsniveau-und-chancengleichheit-in-schulsystemen-zusammenhaengen/)
+- BMBF – DigitalPakt Schule Fortschrittsbericht (https://www.digitalpaktschule.de/)
+- Bertelsmann Stiftung – Fachkräfte-Barometer Kita 2025 (https://www.bertelsmann-stiftung.de/)
+- Prognos-Institut – Lehrkräfte-Arbeitszeitstudie Sachsen 2024/25 (https://www.prognos.com/de/projekt/arbeitszeituntersuchung-saechsische-lehrkraefte)
+- INSIDE-Studie zur Inklusion (Leibniz-Institut für Bildungsverläufe) (https://www.inside-studie.de/)
+- Bundes-SGK / BMBFSFJ – Ganztagsfortschritt (https://www.bundes-sgk.de/artikel/rechtsanspruch-ganztagsbetreuung)
