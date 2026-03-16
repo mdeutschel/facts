@@ -1,51 +1,19 @@
 ---
-description: Verify sources and data in topic factsheet JSON files against online sources
+description: Verify sources and data in topic factsheet JSON files against online sources. Trigger on "verify sources", "Quellen prüfen", "sourceRefs verifizieren".
 globs: public/data/**/*.json
 alwaysApply: false
 ---
 
-# Quellenverifizierung für Topic-Factsheets
+# Quellenverifizierung
 
-Wenn der User bittet, Quellen zu verifizieren (`verify sources`, `Quellen prüfen`, `sourceRefs verifizieren`), folge diesem Verfahren:
+Kanonische Skill-Definition: `.claude/skills/verify-sources/SKILL.md`
 
-## Ablauf
+Befolge das dort beschriebene 6-Phasen-Verfahren:
+1. **Analyse** — JSON lesen, sources/sourceRefs extrahieren
+2. **URL-Beschaffung** — Fehlende URLs parallel suchen
+3. **Quellenverifizierung** — Alle URLs parallel abrufen und Datenpunkte extrahieren
+4. **Abgleich** — Jede Behauptung klassifizieren (✓ verifiziert / ⚠ Abweichung / ❓ nicht verifizierbar / ✗ falsch)
+5. **Bericht** — Strukturierten Bericht erstellen, User fragen
+6. **Korrekturen** — Nach Bestätigung URLs ergänzen, Zahlen korrigieren, lint+build
 
-### 1. Analyse
-- Lies die Topic-JSON-Datei
-- Extrahiere `sources`-Array und alle `sourceRefs` aus Content-Blöcken
-- Identifiziere Quellen mit/ohne URLs und alle konkreten Zahlen/Behauptungen
-
-### 2. URL-Beschaffung
-Für jede Quelle OHNE URL:
-- Suche den Quellentitel im Web
-- Finde die korrekte URL
-- Extrahiere Key Data Points
-
-### 3. Quellenverifizierung
-Für jede Quelle MIT URL:
-- Rufe die URL ab
-- Extrahiere alle konkreten Zahlen und Datenpunkte
-- Dokumentiere was die Quelle tatsächlich sagt
-
-### 4. Abgleich
-Für jeden Content-Block mit sourceRefs, prüfe:
-- **VERIFIZIERT**: Zahl stimmt mit Quelle überein
-- **ABWEICHUNG**: Zahl weicht ab (dokumentiere Soll vs. Ist)
-- **NICHT VERIFIZIERBAR**: Quelle enthält die Info nicht (von Webseite aus)
-- **FALSCH**: Quelle widerspricht der Behauptung
-
-### 5. Bericht erstellen
-Erstelle strukturierten Bericht mit allen Ergebnissen und frage den User ob Korrekturen vorgenommen werden sollen.
-
-### 6. Korrekturen (nach Bestätigung)
-- Fehlende URLs ergänzen
-- Falsche Zahlen korrigieren (nur wenn durch Quelle eindeutig belegt)
-- Falsche sourceRefs entfernen
-- Fließtexte an korrigierte Zahlen anpassen
-- `npm run lint && npm run build` ausführen
-
-## Regeln
-- **KEINE Halluzinationen**: Nur Zahlen verwenden die tatsächlich aus Online-Quelle extrahiert wurden
-- **Konservativ**: Im Zweifel sourceRef entfernen statt falsche Daten stehen lassen
-- **Transparenz**: Jede Änderung dokumentieren
-- **Quellenintegrität**: Nie Quelle erfinden oder URL raten
+Kernregeln: Keine Halluzinationen, konservativ korrigieren, Quellenintegrität wahren.
