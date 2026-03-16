@@ -6,14 +6,4 @@ alwaysApply: false
 
 # Quellenverifizierung
 
-Kanonische Skill-Definition: `.claude/skills/verify-sources/SKILL.md`
-
-Befolge das dort beschriebene 6-Phasen-Verfahren:
-1. **Analyse** — JSON lesen, sources/sourceRefs extrahieren
-2. **URL-Beschaffung** — Fehlende URLs parallel suchen
-3. **Quellenverifizierung** — Alle URLs parallel abrufen und Datenpunkte extrahieren
-4. **Abgleich** — Jede Behauptung klassifizieren (✓ verifiziert / ⚠ Abweichung / ❓ nicht verifizierbar / ✗ falsch)
-5. **Bericht** — Strukturierten Bericht erstellen, User fragen
-6. **Korrekturen** — Nach Bestätigung URLs ergänzen, Zahlen korrigieren, lint+build
-
-Kernregeln: Keine Halluzinationen, konservativ korrigieren, Quellenintegrität wahren.
+Befolge das **Source Verification Procedure** aus `AGENTS.md` für die angegebene Topic-JSON-Datei.
