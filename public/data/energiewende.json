@@ -25,13 +25,13 @@
             ["2011", "Endgültiger Ausstiegsbeschluss nach Fukushima", "CDU/CSU + FDP (Kabinett Merkel II)"],
             ["2023", "Letzte 3 AKW vom Netz (Streckbetrieb bis 15.04.2023)", "Ampel-Koalition (SPD/Grüne/FDP)"]
           ],
-          "sourceRefs": [23]
+          "sourceRefs": ["bmukn-deutschland-beendet-das-zeitalter-der"]
         },
         {
           "type": "fact",
           "text": "Der Atomausstieg war ein CDU-geführter, parteiübergreifender Konsens – kein grünes Alleingangsprojekt.",
           "highlight": true,
-          "sourceRefs": [23]
+          "sourceRefs": ["bmukn-deutschland-beendet-das-zeitalter-der"]
         }
       ]
     },
@@ -43,7 +43,7 @@
           "type": "fact",
           "text": "Primärenergieverbrauch 2025: ca. 2.931 TWh (10.553 PJ)",
           "highlight": true,
-          "sourceRefs": [3]
+          "sourceRefs": ["ag-energiebilanzen-ageb-jahresbericht-2025"]
         },
         {
           "type": "table",
@@ -57,7 +57,7 @@
             ["Steinkohle", "~7%"],
             ["Sonstige", "~2,8%"]
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["ag-energiebilanzen-ageb-jahresbericht-2025"]
         },
         {
           "type": "table",
@@ -68,13 +68,13 @@
             ["Alle 6 AKW (Stand 2021)", "~69 TWh/a", "2,4%"],
             ["Alle 17 hist. AKW (theoretisch)", "~150 TWh/a", "~5%"]
           ],
-          "sourceRefs": [3, 7]
+          "sourceRefs": ["ag-energiebilanzen-ageb-jahresbericht-2025", "iaea-statista-kernenergie-anteil-deutschland"]
         },
         {
           "type": "fact",
           "text": "Selbst alle 17 historischen AKW hätten nur ~5 % des Primärenergieverbrauchs gedeckt.",
           "highlight": true,
-          "sourceRefs": [3, 7]
+          "sourceRefs": ["ag-energiebilanzen-ageb-jahresbericht-2025", "iaea-statista-kernenergie-anteil-deutschland"]
         }
       ]
     },
@@ -88,13 +88,13 @@
             {"value": "~80 %", "label": "Wärme + Industrie", "sublabel": "Erdgasverbrauch"},
             {"value": "~20 %", "label": "Stromerzeugung", "sublabel": "Erdgasverbrauch"}
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["ag-energiebilanzen-ageb-jahresbericht-2025"]
         },
         {
           "type": "fact",
           "text": "AKW erzeugen ausschließlich Strom. Sie ersetzen kein Gas in Gebäudeheizungen und Industrieöfen. Die Energiekrise 2022 war eine Gaskrise, keine Stromkrise.",
           "highlight": true,
-          "sourceRefs": [3]
+          "sourceRefs": ["ag-energiebilanzen-ageb-jahresbericht-2025"]
         }
       ]
     },
@@ -128,7 +128,7 @@
             {"value": "Tiefstand", "label": "Kohle", "sublabel": "historisch niedrig"},
             {"value": "-53 %", "label": "CO₂/kWh vs. 1990", "sublabel": "Stromsektor (UBA)"}
           ],
-          "sourceRefs": [5, 6]
+          "sourceRefs": ["agora-energiewende-stand-der-dinge-2025-strommix", "uba-spezifische-co2-emissionen-strommix-co2"]
         },
         {
           "type": "line_chart",
@@ -142,7 +142,7 @@
             {"label": "2024", "value": 56.0},
             {"label": "2025", "value": 55.3}
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["agora-energiewende-stand-der-dinge-2025-strommix"]
         },
         {
           "type": "table",
@@ -153,13 +153,13 @@
             ["CO₂-Emissionen Strom ggü. 1990", "ca. -53 % (spez. Faktor)"],
             ["Spezifischer CO₂-Emissionsfaktor 2024", "363 g CO₂/kWh"]
           ],
-          "sourceRefs": [5, 6]
+          "sourceRefs": ["agora-energiewende-stand-der-dinge-2025-strommix", "uba-spezifische-co2-emissionen-strommix-co2"]
         },
         {
           "type": "fact",
           "text": "2025 stammten 55,3 % des Stromverbrauchs aus Erneuerbaren – bei gleichzeitig historisch niedriger Kohleverstromung.",
           "highlight": true,
-          "sourceRefs": [5]
+          "sourceRefs": ["agora-energiewende-stand-der-dinge-2025-strommix"]
         }
       ]
     },
@@ -170,7 +170,7 @@
         {
           "type": "text",
           "text": "Quelle: Lazard LCOE+ v18.0 (Juni 2025), unsubventioniert, US-Marktdaten",
-          "sourceRefs": [1]
+          "sourceRefs": ["lazard-lcoe-v18-0-juni-2025"]
         },
         {
           "type": "range_bar",
@@ -185,7 +185,7 @@
             {"label": "Kohle", "min": 7.1, "max": 17.3, "color": "#546e7a"},
             {"label": "Kernkraft Neubau", "min": 14.1, "max": 22.0, "color": "#b71c1c"}
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["lazard-lcoe-v18-0-juni-2025"]
         },
         {
           "type": "table",
@@ -199,7 +199,7 @@
             ["Kohle", "7,1 – 17,3", "Exkl. Transport/Speicherung"],
             ["Kernkraft Neubau", "14,1 – 22,0", "Basierend auf Vogtle 3&4 (USA)"]
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["lazard-lcoe-v18-0-juni-2025"]
         },
         {
           "type": "table",
@@ -216,7 +216,7 @@
           "type": "fact",
           "text": "Neubau-Kernkraft ist deutlich teurer als Solar- und Windkraft.",
           "highlight": true,
-          "sourceRefs": [1]
+          "sourceRefs": ["lazard-lcoe-v18-0-juni-2025"]
         }
       ]
     },
@@ -234,23 +234,23 @@
             ["Olkiluoto 3", "FI", "11 Mrd. EUR", "2005 – 2023", "3 Mrd. EUR", "14 Jahre"],
             ["Vogtle 3&4", "USA", "~32,3 Mrd. USD", "2013 – 2023/24", "14 Mrd. USD", "7+ Jahre"]
           ],
-          "sourceRefs": [8, 9, 15]
+          "sourceRefs": ["edf-hinkley-point-c-projektmitteilungen-feb-2026", "iwr-hinkley-point-c-flamanville-analysen", "schweizer-energiestiftung-profundos"]
         },
         {
           "type": "text",
           "text": "Gegenbeispiel: Barakah (VAE) – 4 Blöcke in je ~8 Jahren, ~20,4 Mrd. USD für 5,6 GW. Allerdings: südkoreanische Serienfertigung, autokratische Genehmigung, einfacheres Containment, niedrige Arbeitskosten – nicht auf westliche Demokratien übertragbar.",
-          "sourceRefs": [14]
+          "sourceRefs": ["wikipedia-kernkraftwerk-barakah-suedkoreanische"]
         },
         {
           "type": "fact",
           "text": "Durchschnittliche Bauzeit westlicher Neubauten: 14,3 Jahre",
           "highlight": true,
-          "sourceRefs": [8, 9, 15]
+          "sourceRefs": ["edf-hinkley-point-c-projektmitteilungen-feb-2026", "iwr-hinkley-point-c-flamanville-analysen", "schweizer-energiestiftung-profundos"]
         },
         {
           "type": "fact",
           "text": "Bei Baubeschluss heute: Erster Strom frühestens ~2040",
-          "sourceRefs": [8, 9, 15]
+          "sourceRefs": ["edf-hinkley-point-c-projektmitteilungen-feb-2026", "iwr-hinkley-point-c-flamanville-analysen", "schweizer-energiestiftung-profundos"]
         },
         {
           "type": "fact",
@@ -266,18 +266,18 @@
           "type": "fact",
           "text": "2022 waren in Frankreich zeitweise zahlreiche Reaktoren gleichzeitig außer Betrieb.",
           "highlight": true,
-          "sourceRefs": [24]
+          "sourceRefs": ["edf-stress-corrosion-phenomenon-and-2022-french"]
         },
         {
           "type": "text",
           "text": "Ursache 1: Spannungsrisskorrosion an Rohrleitungen (Sicherheitsüberprüfungen). Ursache 2: Kühlwassermangel durch Hitzewellen und niedrige Flusspegel. Folge: Frankreich wurde zum Nettostromimporteur, u.a. aus Deutschland.",
-          "sourceRefs": [24]
+          "sourceRefs": ["edf-stress-corrosion-phenomenon-and-2022-french"]
         },
         {
           "type": "fact",
           "text": "AKW-Flotten sind nicht immun gegen Alterung, Klimawandel und gleichzeitige Wartungszyklen. „Kernkraft = Versorgungssicherheit“ ist eine Vereinfachung.",
           "highlight": true,
-          "sourceRefs": [24]
+          "sourceRefs": ["edf-stress-corrosion-phenomenon-and-2022-french"]
         }
       ]
     },
@@ -292,7 +292,7 @@
             {"value": "0", "label": "Versorgungsengpässe", "sublabel": "laut BNetzA", "color": "#00897b"},
             {"value": "573 Std.", "label": "Negativpreisstunden", "sublabel": "2025 (6× ggü. 2016)"}
           ],
-          "sourceRefs": [12, 13]
+          "sourceRefs": ["1komma5-fraunhofer-ise-dunkelflauten-dez-2025", "bnetza-insight-blog-dunkelflaute-jan-2025"]
         },
         {
           "type": "table",
@@ -304,13 +304,13 @@
             ["Negativpreisstunden 2025", "573 (6x mehr als 2016)", "Bundesnetzagentur"],
             ["Längste Dunkelflaute 2025", "mehrtägig", "1KOMMA5°"]
           ],
-          "sourceRefs": [12, 13]
+          "sourceRefs": ["1komma5-fraunhofer-ise-dunkelflauten-dez-2025", "bnetza-insight-blog-dunkelflaute-jan-2025"]
         },
         {
           "type": "fact",
           "text": "Null Versorgungsengpässe trotz wachsendem Erneuerbaren-Anteil.",
           "highlight": true,
-          "sourceRefs": [13]
+          "sourceRefs": ["bnetza-insight-blog-dunkelflaute-jan-2025"]
         },
         {
           "type": "text",
@@ -328,7 +328,7 @@
             {"value": "~520 TWh", "label": "Heute (2025)", "sublabel": "17 % Stromanteil"},
             {"value": "1.037–1.423", "label": "TWh bis 2045", "sublabel": "47–59 % Stromanteil", "color": "#00897b"}
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["ariadne-szenarien-zur-klimaneutralitaet-2045-nov"]
         },
         {
           "type": "table",
@@ -339,18 +339,18 @@
             ["2030 (Ariadne)", "681 – 807 TWh", "~25–30%"],
             ["2045 (Ariadne)", "1.037 – 1.423 TWh", "47 – 59%"]
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["ariadne-szenarien-zur-klimaneutralitaet-2045-nov"]
         },
         {
           "type": "text",
           "text": "Treiber des Mehrbedarfs: Direkte Elektrifizierung (Wärmepumpen + E-Autos ersetzen Gasheizungen und Verbrenner), grüner Wasserstoff (400–620 TWh Strom allein für Elektrolyseure in Stahl, Chemie, Luftfahrt) und ein Gegeneffekt: Gesamtenergiebedarf sinkt dank Effizienz um 32–38%.",
-          "sourceRefs": [2, 10]
+          "sourceRefs": ["ariadne-szenarien-zur-klimaneutralitaet-2045-nov", "bee-strombedarfsanalyse-2025-sektorenkopplung"]
         },
         {
           "type": "fact",
           "text": "Selbst alle 17 historischen deutschen AKW hätten bei verdoppeltem Strombedarf nur ~10% gedeckt. Der EE-Ausbau bleibt in jedem Szenario unvermeidlich.",
           "highlight": true,
-          "sourceRefs": [2, 3, 7]
+          "sourceRefs": ["ariadne-szenarien-zur-klimaneutralitaet-2045-nov", "ag-energiebilanzen-ageb-jahresbericht-2025", "iaea-statista-kernenergie-anteil-deutschland"]
         }
       ]
     },
@@ -385,12 +385,12 @@
           "type": "fact",
           "text": "400 GW beantragte Speicherleistung – der Markt will, aber Netzanschlüsse und Genehmigungsverfahren bremsen.",
           "highlight": true,
-          "sourceRefs": [4]
+          "sourceRefs": ["bnetza-stromspeicher-netzanschlussanfragen-nov"]
         },
         {
           "type": "text",
           "text": "Engpass: Nicht Investoreninteresse oder Technologie, sondern Netzanschlüsse, Genehmigungsverfahren und regulatorische Unsicherheit.",
-          "sourceRefs": [4]
+          "sourceRefs": ["bnetza-stromspeicher-netzanschlussanfragen-nov"]
         }
       ]
     },
@@ -410,17 +410,17 @@
           "type": "fact",
           "text": "Einziges westliches SMR-Bauprojekt: BWRX-300 in Darlington (Kanada) – Kosten 1. Block: CAD 7,7 Mrd. für 300 MW. Geplant: 4 Blöcke für CAD 20,9 Mrd. (1.200 MW), Ø-Strompreis 14,9 Ct/kWh.",
           "highlight": true,
-          "sourceRefs": [16]
+          "sourceRefs": ["ontario-power-generation-wnn-bwrx-300-darlington"]
         },
         {
           "type": "fact",
           "text": "NuScale CFPP (USA, erstes US-Projekt): November 2023 eingestellt. Kosten explodierten von $5,3 auf $9,3 Mrd. (+75 %).",
-          "sourceRefs": [17]
+          "sourceRefs": ["nuscale-power-nyt-cfpp-projekteinstellung-nov"]
         },
         {
           "type": "fact",
           "text": "Zum Vergleich: Solar/Wind in Deutschland bei 4–7 Ct/kWh – weniger als die Hälfte des SMR-Preises.",
-          "sourceRefs": [1, 16]
+          "sourceRefs": ["lazard-lcoe-v18-0-juni-2025", "ontario-power-generation-wnn-bwrx-300-darlington"]
         },
         {
           "type": "text",
@@ -445,12 +445,12 @@
           "type": "fact",
           "text": "AKW-Betreiber zahlten 24 Mrd. EUR in den KENFO-Entsorgungsfonds ein. Bereits 4,47 Mrd. EUR ausgezahlt (Stand 2024). Allein 2024: 805 Mio. EUR.",
           "highlight": true,
-          "sourceRefs": [19]
+          "sourceRefs": ["kenfo-fonds-zur-finanzierung-der-kerntechnischen"]
         },
         {
           "type": "fact",
           "text": "Endlager-Standort frühestens 2050 (optimistisch), eher 2074 (aktueller Rechtsrahmen).",
-          "sourceRefs": [18]
+          "sourceRefs": ["bge-bundesgesellschaft-fuer-endlagerung"]
         },
         {
           "type": "fact",
@@ -616,97 +616,121 @@
   ],
   "sources": [
     {
+      "id": "lazard-lcoe-v18-0-juni-2025",
       "label": "Lazard LCOE+ v18.0 (Juni 2025) – Stromgestehungskosten nach Technologie",
       "url": "https://www.lazard.com/research-insights/levelized-cost-of-energyplus-lcoeplus/"
     },
     {
+      "id": "ariadne-szenarien-zur-klimaneutralitaet-2045-nov",
       "label": "Ariadne: Szenarien zur Klimaneutralität 2045 (Nov. 2025) – Strombedarf 2030/2045, Elektrifizierungspfade",
       "url": "https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/"
     },
     {
+      "id": "ag-energiebilanzen-ageb-jahresbericht-2025",
       "label": "AG Energiebilanzen (AGEB): Jahresbericht 2025 – Primärenergieverbrauch, Energieträgermix",
       "url": "https://ag-energiebilanzen.de/"
     },
     {
+      "id": "bnetza-stromspeicher-netzanschlussanfragen-nov",
       "label": "BNetzA: Stromspeicher / Netzanschlussanfragen (Nov. 2025) – Speicherkapazitäten, Antrags- und Zusagedaten",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Speicher/start.html"
     },
     {
+      "id": "agora-energiewende-stand-der-dinge-2025-strommix",
       "label": "Agora Energiewende: Stand der Dinge 2025 – Strommix, CO₂-Emissionen, EE-Ausbaustand",
       "url": "https://www.agora-energiewende.de/"
     },
     {
+      "id": "uba-spezifische-co2-emissionen-strommix-co2",
       "label": "UBA: Spezifische CO₂-Emissionen Strommix – CO₂-Emissionsfaktoren 1990–2024",
       "url": "https://www.umweltbundesamt.de/themen/co2-emissionen-pro-kilowattstunde-strom-2024"
     },
     {
+      "id": "iaea-statista-kernenergie-anteil-deutschland",
       "label": "IAEA / Statista: Kernenergie-Anteil Deutschland – Historische Anteile 2003–2023",
       "url": "https://de.statista.com/statistik/daten/studie/29295/"
     },
     {
+      "id": "edf-hinkley-point-c-projektmitteilungen-feb-2026",
       "label": "EDF: Hinkley Point C Projektmitteilungen (Feb. 2026) – Baukosten, Zeitplan, Strike Price",
       "url": "https://www.edf.fr/"
     },
     {
+      "id": "iwr-hinkley-point-c-flamanville-analysen",
       "label": "IWR: Hinkley Point C / Flamanville Analysen – Baukosten- und Bauzeitvergleiche",
       "url": "https://www.iwr.de/"
     },
     {
+      "id": "bee-strombedarfsanalyse-2025-sektorenkopplung",
       "label": "BEE: Strombedarfsanalyse (2025) – Sektorenkopplung und H₂-Erzeugung",
       "url": "https://www.bee-ev.de/"
     },
     {
+      "id": "cav-partners-batteriespeicher-analyse-feb-2026",
       "label": "CAV Partners: Batteriespeicher-Analyse (Feb. 2026) – Speicherbedarf 500–600 GWh bis 2045",
       "url": "https://www.pv-magazine.de/2026/02/23/cav-partners-deutschland-benoetigt-bis-zu-600-gigawattstunden-batteriespeicher-bis-2045/"
     },
     {
+      "id": "1komma5-fraunhofer-ise-dunkelflauten-dez-2025",
       "label": "1KOMMA5° / Fraunhofer ISE: Dunkelflauten (Dez. 2025) – Häufigkeit/Dauer 2016–2025",
       "url": "https://www.solarserver.de/2025/12/19/analyse-dunkelflauten-bleiben-selten-trotz-ausbau-erneuerbarer-energien/"
     },
     {
+      "id": "bnetza-insight-blog-dunkelflaute-jan-2025",
       "label": "BNetzA Insight Blog: Dunkelflaute (Jan. 2025) – Versorgungssicherheit, Preisspitzen",
       "url": "https://www.bundesnetzagentur.de/DE/Allgemeines/DieBundesnetzagentur/Insight/Texte/Energiewende/Dunkelflaute.html"
     },
     {
+      "id": "wikipedia-kernkraftwerk-barakah-suedkoreanische",
       "label": "Wikipedia: Kernkraftwerk Barakah – Südkoreanische Bauzeiten/Kosten",
       "url": "https://de.wikipedia.org/wiki/Kernkraftwerk_Barakah"
     },
     {
+      "id": "schweizer-energiestiftung-profundos",
       "label": "Schweizer Energiestiftung / Profundos – Budgetüberschreitungen 6 westlicher AKW",
       "url": "https://energiestiftung.ch/fokus-atomkraftwerke-zu-teuer-und-zu-spaet"
     },
     {
+      "id": "ontario-power-generation-wnn-bwrx-300-darlington",
       "label": "Ontario Power Generation / WNN – BWRX-300 Darlington (2025)",
       "url": "https://www.world-nuclear-news.org/"
     },
     {
+      "id": "nuscale-power-nyt-cfpp-projekteinstellung-nov",
       "label": "NuScale Power / NYT – CFPP-Projekteinstellung (Nov. 2023)"
     },
     {
+      "id": "bge-bundesgesellschaft-fuer-endlagerung",
       "label": "BGE – Bundesgesellschaft für Endlagerung, Sachstand (2025)",
       "url": "https://www.bge.de/"
     },
     {
+      "id": "kenfo-fonds-zur-finanzierung-der-kerntechnischen",
       "label": "KENFO – Fonds zur Finanzierung der kerntechnischen Entsorgung (2024)",
       "url": "https://www.kenfo.de/"
     },
     {
+      "id": "bundesnetzagentur-ee-ausbauzahlen-2025-jan-2026",
       "label": "Bundesnetzagentur – EE-Ausbauzahlen 2025 (Jan. 2026)",
       "url": "https://www.bundesnetzagentur.de/"
     },
     {
+      "id": "eurostat-eu-strommix-2024-jan-2026",
       "label": "Eurostat – EU Strommix 2024 (Jan. 2026)",
       "url": "https://ec.europa.eu/eurostat/"
     },
     {
+      "id": "smard-strommarktdaten-import-export-2025",
       "label": "SMARD – Strommarktdaten Import/Export 2025",
       "url": "https://www.smard.de/"
     },
     {
+      "id": "bmukn-deutschland-beendet-das-zeitalter-der",
       "label": "BMUKN – Deutschland beendet das Zeitalter der Atomkraft",
       "url": "https://www.bmuv.de/PM10553"
     },
     {
+      "id": "edf-stress-corrosion-phenomenon-and-2022-french",
       "label": "EDF – Stress corrosion phenomenon and 2022 French nuclear output estimate",
       "url": "https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/update-on-the-stress-corrosion-phenomenon-and-adjustment-of-2022-french-nuclear-output-estimate"
     }

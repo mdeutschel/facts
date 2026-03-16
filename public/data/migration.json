@@ -19,7 +19,7 @@
         {
           "type": "text",
           "text": "Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort.",
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["bamf-asylzahlen-dezember-und-gesamtjahr-2025", "bamf-asylzahlen-januar-2026"]
         },
         {
           "type": "table",
@@ -30,7 +30,7 @@
             ["2025", "113.236", "-50,7 % zu 2024"],
             ["Januar 2026", "7.649", "-48,7 % zum Vorjahresmonat"]
           ],
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["bamf-asylzahlen-dezember-und-gesamtjahr-2025", "bamf-asylzahlen-januar-2026"]
         },
         {
           "type": "stat_grid",
@@ -51,13 +51,13 @@
               "sublabel": "Anteil positiver Entscheidungen"
             }
           ],
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["bamf-asylzahlen-dezember-und-gesamtjahr-2025", "bamf-asylzahlen-januar-2026"]
         },
         {
           "type": "fact",
           "text": "Die zugangsstärksten Herkunftsländer 2025 waren Afghanistan (23.972 Erstanträge), Syrien (23.256) und die Türkei (11.919).",
           "highlight": true,
-          "sourceRefs": [1]
+          "sourceRefs": ["bamf-asylzahlen-dezember-und-gesamtjahr-2025"]
         }
       ]
     },
@@ -68,7 +68,7 @@
         {
           "type": "text",
           "text": "Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb, Qualifizierung), zeigt aber langfristig deutliche Erfolge. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) nähert sich die Beschäftigungsquote der 2015 nach Deutschland gekommenen Geflüchteten nach neun Jahren dem Bevölkerungsdurchschnitt an.",
-          "sourceRefs": [3]
+          "sourceRefs": ["iab-10-jahre-fluchtmigration-2025"]
         },
         {
           "type": "progress_stack",
@@ -85,17 +85,17 @@
             }
           ],
           "total": "Bevölkerungsdurchschnitt: 70%",
-          "sourceRefs": [3]
+          "sourceRefs": ["iab-10-jahre-fluchtmigration-2025"]
         },
         {
           "type": "fact",
           "text": "Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.",
-          "sourceRefs": [3]
+          "sourceRefs": ["iab-10-jahre-fluchtmigration-2025"]
         },
         {
           "type": "text",
           "text": "Geflüchtete und Zugewanderte arbeiten überdurchschnittlich oft in Engpassberufen und relevanten Dienstleistungsbereichen, etwa im Gesundheitswesen, in der Fertigung sowie in Verkehr und Logistik.",
-          "sourceRefs": [3]
+          "sourceRefs": ["iab-10-jahre-fluchtmigration-2025"]
         }
       ]
     },
@@ -226,14 +226,17 @@
   ],
   "sources": [
     {
+      "id": "bamf-asylzahlen-dezember-und-gesamtjahr-2025",
       "label": "BAMF: Asylzahlen Dezember und Gesamtjahr 2025",
       "url": "https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260112-asylzahlen-dezember-und-gesamtjahr-2025.html"
     },
     {
+      "id": "bamf-asylzahlen-januar-2026",
       "label": "BAMF: Asylzahlen Januar 2026",
       "url": "https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260206-asylzahlen-januar-2026.html"
     },
     {
+      "id": "iab-10-jahre-fluchtmigration-2025",
       "label": "IAB: 10 Jahre Fluchtmigration (2025)",
       "url": "https://iab.de/daten/10-jahre-fluchtmigration-beschaeftigungsmerkmale-der-gefluechteten-die-2015-in-deutschland-schutz-gesucht-haben/"
     }

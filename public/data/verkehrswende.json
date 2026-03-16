@@ -35,7 +35,7 @@
               "sublabel": "an Neuzulassungen 2025"
             }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["kraftfahrt-bundesamt-kba-fahrzeugzulassungen-und"]
         },
         {
           "type": "comparison",
@@ -58,19 +58,19 @@
               ]
             }
           ],
-          "sourceRefs": [11]
+          "sourceRefs": ["uba-analyse-der-umweltbilanz-von-kraftfahrzeugen"]
         },
         {
           "type": "fact",
           "text": "Für die gleiche Strecke braucht ein Verbrenner mit E-Fuels 5- bis 7-mal so viel erneuerbaren Strom wie ein Batterie-Elektroauto.",
           "description": "E-Fuels haben ihren Platz — aber in der Luftfahrt und Schifffahrt, wo Batterien zu schwer sind. Für PKW sind sie eine teure Energieverschwendung."
           ,
-          "sourceRefs": [11]
+          "sourceRefs": ["uba-analyse-der-umweltbilanz-von-kraftfahrzeugen"]
         },
         {
           "type": "text",
           "text": "Der Bestand reiner Elektroautos hat 2026 erstmals die 2-Millionen-Marke überschritten.",
-          "sourceRefs": [1]
+          "sourceRefs": ["kraftfahrt-bundesamt-kba-fahrzeugzulassungen-und"]
         }
       ]
     },
@@ -97,7 +97,7 @@
               "sublabel": "nach Preiserhöhung"
             }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
         },
         {
           "type": "timeline",
@@ -107,19 +107,19 @@
             { "label": "Jan 2025", "value": "58 €", "sublabel": "+18 %" },
             { "label": "Jan 2026", "value": "63 €", "sublabel": "+9 %" }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
         },
         {
           "type": "fact",
           "text": "Nach der Preiserhöhung 2026 lag die Kündigungsquote bei 5,75 %. Nach der Preiserhöhung 2025 lag sie laut VDV bei rund 8 %.",
           "description": "Zum Vergleich: Vor dem D-Ticket musste man in manchen Städten bis zu 5 verschiedene Tarife verstehen, um von A nach B zu kommen. Das Ticket hat den Tarifdschungel entwirrt.",
           "highlight": true,
-          "sourceRefs": [3]
+          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
         },
         {
           "type": "text",
           "text": "Das Deutschlandticket hat den ÖPNV grundlegend vereinfacht: ein Ticket, ein Preis, ganz Deutschland.",
-          "sourceRefs": [3]
+          "sourceRefs": ["verband-deutscher-verkehrsunternehmen-vdv-oepnv"]
         }
       ]
     },
@@ -132,7 +132,7 @@
           "text": "Der Verkehrssektor verfehlt seine Klimaziele deutlich. Für den Zeitraum 2021–2030 droht eine Zielverfehlung von 169–224 Millionen Tonnen CO₂-Äquivalenten.",
           "description": "Während Energiewirtschaft und Industrie ihre Emissionen senken, stagniert der Verkehr seit 30 Jahren. Er ist das Sorgenkind der Klimapolitik.",
           "highlight": true,
-          "sourceRefs": [10]
+          "sourceRefs": ["agora-energiewende-klimaneutrales-deutschland"]
         },
         {
           "type": "bar_chart",
@@ -147,19 +147,19 @@
             { "label": "PKW", "value": 166, "highlight": true },
             { "label": "Flugzeug", "value": 238, "highlight": true }
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
         },
         {
           "type": "fact",
           "text": "Ein PKW stößt pro Personenkilometer mehr als das Fünffache eines Fernbusses und mehr als das Fünffache der Bahn aus.",
           "description": "Wer einmal Berlin–München mit dem ICE statt dem Auto fährt, spart rund 80 kg CO₂ — so viel wie 3 Wochen Kühlschrankbetrieb."
           ,
-          "sourceRefs": [2]
+          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
         },
         {
           "type": "text",
           "text": "2025 stiegen die Emissionen im Verkehr laut Agora Energiewende sogar leicht an, bedingt durch höheren Kraftstoffverbrauch. Der Verkehrssektor bleibt der einzige Sektor, der seine Emissionen gegenüber 1990 nicht substanziell reduziert hat.",
-          "sourceRefs": [10]
+          "sourceRefs": ["agora-energiewende-klimaneutrales-deutschland"]
         }
       ]
     },
@@ -184,7 +184,7 @@
             { "label": "Bus", "value": 20 },
             { "label": "PKW", "value": 100, "highlight": true }
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
         },
         {
           "type": "stat_grid",
@@ -245,7 +245,7 @@
               "sublabel": "PKW-Nutzer in Deutschland"
             }
           ],
-          "sourceRefs": [5, 12]
+          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023", "ziv-marktdaten-2025-fuer-den-fahrradbestand-in"]
         },
         {
           "type": "line_chart",
@@ -258,14 +258,14 @@
             { "label": "2017", "value": 10.9 },
             { "label": "2023", "value": 11.2 }
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
         },
         {
           "type": "fact",
           "text": "Ein Drittel aller Fahrrad-Personenkilometer werden mittlerweile mit E-Bikes gefahren.",
           "description": "E-Bikes machen Radfahren für Ältere, Pendler mit längeren Strecken und hügelige Regionen alltagstauglich. Sie sind der Gamechanger für den Radverkehr auf dem Land."
           ,
-          "sourceRefs": [5]
+          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
         },
         {
           "type": "bar_chart",
@@ -286,7 +286,7 @@
         {
           "type": "text",
           "text": "Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen.",
-          "sourceRefs": [9]
+          "sourceRefs": ["fraunhofer-isi-potenziale-des-radverkehrs-fuer"]
         }
       ]
     },
@@ -322,7 +322,7 @@
           "text": "Etwa drei Viertel der Bevölkerung fühlen sich in ihrem Wohnumfeld durch Straßenverkehrslärm gestört oder belästigt.",
           "description": "Verkehrslärm ist kein Komfortproblem. Er belastet Gesundheit und Lebensqualität; Tempo 30 kann den Lärmpegel in Innenstädten spürbar senken.",
           "highlight": true,
-          "sourceRefs": [2]
+          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
         },
         {
           "type": "bar_chart",
@@ -335,7 +335,7 @@
             { "label": "2024", "value": 2770 },
             { "label": "2025", "value": 2814 }
           ],
-          "sourceRefs": [4]
+          "sourceRefs": ["statistisches-bundesamt-destatis"]
         },
         {
           "type": "fact",
@@ -347,12 +347,12 @@
           "text": "Im Schulalter (6–9 Jahre) verunglückten 40,4 Prozent der betroffenen Kinder als PKW-Insassen — nicht auf dem Schulweg zu Fuß oder per Rad.",
           "description": "Das sogenannte ‚Elterntaxi' ist nicht automatisch sicherer. Es sorgt für Chaos vor Schulen und nimmt Kindern die Chance, Verkehrskompetenz aufzubauen."
           ,
-          "sourceRefs": [4]
+          "sourceRefs": ["statistisches-bundesamt-destatis"]
         },
         {
           "type": "text",
           "text": "Millionen Menschen sind in Deutschland Straßenlärm über 55 dB(A) ausgesetzt. Die WHO empfiehlt maximal 53 dB(A) tagsüber. Das UBA empfiehlt Tempo 30 als Regelgeschwindigkeit in Innenstädten — sowohl für weniger Lärm als auch für weniger Unfälle.",
-          "sourceRefs": [2]
+          "sourceRefs": ["umweltbundesamt-uba-emissionsdaten-verkehr-und"]
         }
       ]
     },
@@ -385,7 +385,7 @@
               "sublabel": "in Großstädten/Metropolen"
             }
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["mobilitaet-in-deutschland-mid-2023"]
         },
         {
           "type": "comparison",
@@ -421,7 +421,7 @@
           "text": "Allein das Dienstwagenprivileg kostet laut FOES mehrere Milliarden Euro pro Jahr. Hinzu kommen weitere klimaschädliche Anreize im Verkehrssystem.",
           "description": "Das Dienstwagenprivileg allein kostet 3,5–6 Milliarden Euro jährlich und kommt überwiegend den reichsten 10 % zugute. Dieses Geld fehlt für Radwege, Busse und Bahnen."
           ,
-          "sourceRefs": [7]
+          "sourceRefs": ["forum-oekologisch-soziale-marktwirtschaft-foes"]
         },
         {
           "type": "progress_stack",
@@ -432,7 +432,7 @@
             { "label": "Untere 60 %", "value": 25, "sublabel": "25 %" }
           ],
           "total": "3,5–6 Mrd. €/Jahr Steuermindereinnahmen (FÖS)",
-          "sourceRefs": [7]
+          "sourceRefs": ["forum-oekologisch-soziale-marktwirtschaft-foes"]
         },
         {
           "type": "fact",
@@ -533,50 +533,62 @@
   ],
   "sources": [
     {
+      "id": "kraftfahrt-bundesamt-kba-fahrzeugzulassungen-und",
       "label": "Kraftfahrt-Bundesamt (KBA): Fahrzeugzulassungen und Bestand 2025/2026",
       "url": "https://www.kba.de"
     },
     {
+      "id": "umweltbundesamt-uba-emissionsdaten-verkehr-und",
       "label": "Umweltbundesamt (UBA): Emissionsdaten Verkehr und Lärmwirkungen",
       "url": "https://www.umweltbundesamt.de"
     },
     {
+      "id": "verband-deutscher-verkehrsunternehmen-vdv-oepnv",
       "label": "Verband Deutscher Verkehrsunternehmen (VDV): ÖPNV-Bilanz 2025",
       "url": "https://www.vdv.de"
     },
     {
+      "id": "statistisches-bundesamt-destatis",
       "label": "Statistisches Bundesamt (Destatis): Verkehrsunfälle 2024/2025",
       "url": "https://www.destatis.de"
     },
     {
+      "id": "mobilitaet-in-deutschland-mid-2023",
       "label": "Mobilität in Deutschland (MiD 2023): Ergebnisbericht",
       "url": "https://www.mobilitaet-in-deutschland.de"
     },
     {
+      "id": "adac-autokostenuebersicht-und-unfallstatistik",
       "label": "ADAC: Autokostenübersicht und Unfallstatistik 2025",
       "url": "https://www.adac.de"
     },
     {
+      "id": "forum-oekologisch-soziale-marktwirtschaft-foes",
       "label": "Forum Ökologisch-Soziale Marktwirtschaft (FÖS): Subventionssteckbrief Dienstwagenprivileg",
       "url": "https://foes.de"
     },
     {
+      "id": "katja-diehl-autokorrektur-mobilitaet-fuer-eine",
       "label": "Katja Diehl: Autokorrektur — Mobilität für eine lebenswerte Welt (S. Fischer, 2022)",
       "url": "https://katja-diehl.de"
     },
     {
+      "id": "fraunhofer-isi-potenziale-des-radverkehrs-fuer",
       "label": "Fraunhofer ISI: Potenziale des Radverkehrs für den Klimaschutz (2024)",
       "url": "https://www.isi.fraunhofer.de"
     },
     {
+      "id": "agora-energiewende-klimaneutrales-deutschland",
       "label": "Agora Energiewende: Klimaneutrales Deutschland — Verkehrssektor",
       "url": "https://www.agora-energiewende.de"
     },
     {
+      "id": "uba-analyse-der-umweltbilanz-von-kraftfahrzeugen",
       "label": "UBA – Analyse der Umweltbilanz von Kraftfahrzeugen mit alternativen Antrieben oder Kraftstoffen",
       "url": "https://www.umweltbundesamt.de/publikationen/analyse-der-umweltbilanz-von-kraftfahrzeugen"
     },
     {
+      "id": "ziv-marktdaten-2025-fuer-den-fahrradbestand-in",
       "label": "ZIV – Marktdaten 2025 für den Fahrradbestand in Deutschland",
       "url": "https://www.ziv-zweirad.de/2026/03/11/markdaten-2025/"
     }

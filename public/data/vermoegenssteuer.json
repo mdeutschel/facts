@@ -19,7 +19,7 @@
         {
           "type": "text",
           "text": "Deutschland weist im europäischen Vergleich eine sehr hohe Vermögensungleichheit auf. Während Einkommen relativ gleichmäßig verteilt sind, konzentriert sich das Vermögen (Immobilien, Aktien, Betriebsvermögen) stark an der Spitze. Neuere DIW-Schätzungen unter Einbeziehung von Milliardärslisten deuten darauf hin, dass das Top 1 % sogar über 30–35 % besitzen könnte, da Superreiche in Umfragen systematisch untererfasst sind.",
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["diw-berlin-private-vermoegen-hoehe-entwicklung", "deutsche-bundesbank-panel-on-household-finances"]
         },
         {
           "type": "bar_chart",
@@ -31,7 +31,7 @@
             { "label": "Mittlere 40 %", "value": 37.5 },
             { "label": "Untere 50 %", "value": 2.5 }
           ],
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["diw-berlin-private-vermoegen-hoehe-entwicklung", "deutsche-bundesbank-panel-on-household-finances"]
         },
         {
           "type": "stat_grid",
@@ -40,7 +40,7 @@
             { "value": "103.200 €", "label": "Medianvermögen", "sublabel": "pro Haushalt (2023)" },
             { "value": "324.800 €", "label": "Durchschnitt", "sublabel": "3,15× so hoch wie Median" }
           ],
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["diw-berlin-private-vermoegen-hoehe-entwicklung", "deutsche-bundesbank-panel-on-household-finances"]
         }
       ]
     },
@@ -51,7 +51,7 @@
         {
           "type": "text",
           "text": "Bei der Vermögensverteilung zeigt sich ein paradoxes Bild: Deutschland ist eine der größten Volkswirtschaften der Welt, liegt beim Medianvermögen (dem Vermögen des 'typischen' Haushalts) aber deutlich hinter südeuropäischen Ländern. Der Hauptgrund: Die extrem niedrige Wohneigentumsquote in Deutschland.",
-          "sourceRefs": [2, 12]
+          "sourceRefs": ["deutsche-bundesbank-panel-on-household-finances", "eurostat-housing-in-europe-2024"]
         },
         {
           "type": "table",
@@ -63,7 +63,7 @@
             ["Frankreich", "~134.000 €", "58 %"],
             ["Deutschland", "~103.000 €", "42 %"]
           ],
-          "sourceRefs": [2, 12]
+          "sourceRefs": ["deutsche-bundesbank-panel-on-household-finances", "eurostat-housing-in-europe-2024"]
         },
         {
           "type": "stat_grid",
@@ -71,13 +71,13 @@
             { "value": "143.200 €", "label": "Median West", "sublabel": "pro Haushalt (2023)" },
             { "value": "35.900 €", "label": "Median Ost", "sublabel": "pro Haushalt (2023)", "color": "#b71c1c" }
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["deutsche-bundesbank-panel-on-household-finances"]
         },
         {
           "type": "fact",
           "text": "Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Ein wichtiger Faktor dafür ist die niedrige Eigentumsquote (42 %), durch die der 'typische' deutsche Haushalt beim Medianvermögen hinter Ländern wie Spanien liegt.",
           "highlight": true,
-          "sourceRefs": [2, 12]
+          "sourceRefs": ["deutsche-bundesbank-panel-on-household-finances", "eurostat-housing-in-europe-2024"]
         }
       ]
     },
@@ -88,7 +88,7 @@
         {
           "type": "text",
           "text": "Deutschland besteuert Vermögen weit unterdurchschnittlich. Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) liegt Deutschland an der Weltspitze — bei den vermögensbezogenen Steuern (Grundsteuer, Erbschaftsteuer, Vermögensteuer) deutlich unter dem OECD-Schnitt.",
-          "sourceRefs": [7]
+          "sourceRefs": ["oecd-revenue-statistics-taxes-on-property"]
         },
         {
           "type": "range_bar",
@@ -102,13 +102,13 @@
             { "label": "OECD-Ø", "min": 1.7, "max": 2.3, "color": "#546e7a" },
             { "label": "Deutschland", "min": 0.9, "max": 1.1, "color": "#b71c1c" }
           ],
-          "sourceRefs": [7]
+          "sourceRefs": ["oecd-revenue-statistics-taxes-on-property"]
         },
         {
           "type": "fact",
           "text": "Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch ausgesetzt — das Vermögensteuergesetz gilt formal bis heute weiter.",
           "highlight": true,
-          "sourceRefs": [7, 11]
+          "sourceRefs": ["oecd-revenue-statistics-taxes-on-property", "gesetze-im-internet-vermoegensteuergesetz-vstg"]
         }
       ]
     },
@@ -124,7 +124,7 @@
             { "value": "~7,8 Mrd. €", "label": "Mindereinnahmen/J.", "sublabel": "durch Betriebsvermögens-Verschonung" },
             { "value": "niedrig", "label": "Effektiver Ø-Satz", "sublabel": "je nach Bezugsbasis unterschiedlich" }
           ],
-          "sourceRefs": [3, 5]
+          "sourceRefs": ["statistisches-bundesamt-erbschaft-und", "diw-wochenbericht-4-2026-erbschaftsteuerreform"]
         },
         {
           "type": "line_chart",
@@ -141,23 +141,23 @@
             { "label": "2022", "value": 9.2 },
             { "label": "2024", "value": 11.0 }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["statistisches-bundesamt-erbschaft-und"]
         },
         {
           "type": "fact",
           "text": "0,7 % der Steuerpflichtigen erhalten 32 % aller erfassten Übertragungen — und 68 % aller steuerbefreiten Unternehmensübertragungen. Kleine Erben zahlen prozentual mehr als Milliardenerben.",
           "highlight": true,
-          "sourceRefs": [5, 6]
+          "sourceRefs": ["diw-wochenbericht-4-2026-erbschaftsteuerreform", "fes-studie-milliardenvermoegen-steuerfrei-erben"]
         },
         {
           "type": "fact",
           "text": "2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,38 Mrd. € Erbschaftsteuer erlassen. Das zeigt, wie stark einzelne Großübertragungen privilegiert werden.",
-          "sourceRefs": [5]
+          "sourceRefs": ["diw-wochenbericht-4-2026-erbschaftsteuerreform"]
         },
         {
           "type": "text",
           "text": "Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung ist seit 2022 anhängig.",
-          "sourceRefs": [9, 10]
+          "sourceRefs": ["30-subventionsbericht-der-bundesregierung-sept", "bverfg-beschluss-vom-22-6-1995-zur"]
         }
       ]
     },
@@ -173,13 +173,13 @@
             { "value": "7–10 %", "label": "Erbvolumen/BIP", "sublabel": "~300–400 Mrd. €/Jahr" },
             { "value": "~1,1 %", "label": "ErbSt-Aufkommen", "sublabel": "am Gesamtsteueraufkommen" }
           ],
-          "sourceRefs": [3, 5]
+          "sourceRefs": ["statistisches-bundesamt-erbschaft-und", "diw-wochenbericht-4-2026-erbschaftsteuerreform"]
         },
         {
           "type": "fact",
           "text": "Die reichsten 10 % erhalten die Hälfte aller Erbschaften — die ärmere Hälfte der Bevölkerung geht praktisch leer aus. Erbschaften verstärken die Ungleichheit, statt sie auszugleichen.",
           "highlight": true,
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["diw-berlin-private-vermoegen-hoehe-entwicklung", "deutsche-bundesbank-panel-on-household-finances"]
         },
         {
           "type": "table",
@@ -192,18 +192,18 @@
             ["Effektiver Steuersatz (gesamt)", "~2–3 %"],
             ["Zum Vergleich: Tabaksteuer", "~15 Mrd. €/J."]
           ],
-          "sourceRefs": [3, 5]
+          "sourceRefs": ["statistisches-bundesamt-erbschaft-und", "diw-wochenbericht-4-2026-erbschaftsteuerreform"]
         },
         {
           "type": "fact",
           "text": "Die Erbschaftsteuer bringt trotz sehr hoher jährlicher Vermögensübertragungen nur einen vergleichsweise kleinen Teil des Steueraufkommens ein.",
           "highlight": true,
-          "sourceRefs": [3]
+          "sourceRefs": ["statistisches-bundesamt-erbschaft-und"]
         },
         {
           "type": "text",
           "text": "In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut einer FES-Auswertung profitieren auch sehr junge Erben von weitreichenden Steuerbefreiungen bei großen Unternehmensvermögen.",
-          "sourceRefs": [5, 6]
+          "sourceRefs": ["diw-wochenbericht-4-2026-erbschaftsteuerreform", "fes-studie-milliardenvermoegen-steuerfrei-erben"]
         }
       ]
     },
@@ -214,7 +214,7 @@
         {
           "type": "text",
           "text": "Das DIW Berlin hat verschiedene Modelle einer Vermögensteuer durchgerechnet. Betroffen wäre im Wesentlichen nur das reichste 1 % der Bevölkerung; den Großteil des Aufkommens trüge das reichste 0,1 %.",
-          "sourceRefs": [4]
+          "sourceRefs": ["diw-politikberatung-kompakt-211-vermoegensteuer"]
         },
         {
           "type": "table",
@@ -224,13 +224,13 @@
             ["Die Linke: konservativ (DIW 2026)", "1 Mio. €", "1 % proportional", "~42 Mrd. €/J."],
             ["Die Linke: progressiv (DIW 2026)", "1 Mio. €", "1–12 % (progressiv)", "~147 Mrd. €/J."]
           ],
-          "sourceRefs": [4]
+          "sourceRefs": ["diw-politikberatung-kompakt-211-vermoegensteuer"]
         },
         {
           "type": "fact",
           "text": "Schon die konservativste Variante (1 % ab 1 Mio. € Freibetrag) brächte laut DIW rund 42 Mrd. Euro pro Jahr — mehr als dreimal so viel wie die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.",
           "highlight": true,
-          "sourceRefs": [4]
+          "sourceRefs": ["diw-politikberatung-kompakt-211-vermoegensteuer"]
         },
         {
           "type": "table",
@@ -243,12 +243,12 @@
             ["USA", "Nachlassbasiert", "~13,1 Mio. € pro Person", "40 %"],
             ["Japan", "Erwerberbasiert", "~185.000 € + pro Erbe", "55 %"]
           ],
-          "sourceRefs": [3, 7]
+          "sourceRefs": ["statistisches-bundesamt-erbschaft-und", "oecd-revenue-statistics-taxes-on-property"]
         },
         {
           "type": "fact",
           "text": "OECD und andere internationale Institutionen empfehlen Deutschland seit Jahren, vermögensbezogene Steuern stärker zu nutzen und die hohe Belastung von Arbeit zu verringern.",
-          "sourceRefs": [8]
+          "sourceRefs": ["oecd-economic-survey-germany-2023-empfehlung"]
         }
       ]
     },
@@ -268,18 +268,18 @@
             { "label": "2025", "value": "Grundsteuer-Reform in Kraft", "sublabel": "Erstmals aktuelle Immobilienbewertungen — Grundlage für Vermögensteuer" },
             { "label": "seit 2022 anhängig", "value": "Erneute verfassungsrechtliche Prüfung der Erbschaftsteuer-Privilegien", "sublabel": "Az. 1 BvR 804/22" }
           ],
-          "sourceRefs": [10, 11]
+          "sourceRefs": ["bverfg-beschluss-vom-22-6-1995-zur", "gesetze-im-internet-vermoegensteuergesetz-vstg"]
         },
         {
           "type": "fact",
           "text": "Das BVerfG hat die Vermögensteuer NICHT für verfassungswidrig erklärt — nur die damalige Bewertungsmethode. Das Vermögensteuergesetz ist formal noch in Kraft. Für eine Wiedereinführung genügt ein einfaches Bundesgesetz (+ Bundesratszustimmung).",
           "highlight": true,
-          "sourceRefs": [10, 11]
+          "sourceRefs": ["bverfg-beschluss-vom-22-6-1995-zur", "gesetze-im-internet-vermoegensteuergesetz-vstg"]
         },
         {
           "type": "text",
           "text": "Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Die seit 2025 wirksame Grundsteuer-Reform schafft zudem eine deutlich aktuellere Immobilienbewertung als früher, was eine verfassungskonforme Ausgestaltung erleichtern kann.",
-          "sourceRefs": [10, 11]
+          "sourceRefs": ["bverfg-beschluss-vom-22-6-1995-zur", "gesetze-im-internet-vermoegensteuergesetz-vstg"]
         }
       ]
     }
@@ -365,62 +365,77 @@
   ],
   "sources": [
     {
+      "id": "diw-berlin-private-vermoegen-hoehe-entwicklung",
       "label": "DIW Berlin: Private Vermögen — Höhe, Entwicklung und Verteilung (2024)",
       "url": "https://www.diw.de/de/diw_01.c.925733.de/publikationen/sonstige_aufsaetze/2024_0000/private_vermoegen__hoehe__entwicklung_und_verteilung.html"
     },
     {
+      "id": "deutsche-bundesbank-panel-on-household-finances",
       "label": "Deutsche Bundesbank: Panel on Household Finances (PHF), 5. Welle 2023",
       "url": "https://www.bundesbank.de/de/bundesbank/forschung/studie-zur-wirtschaftlichen-lage-privater-haushalte-phf/ergebnisse-604886"
     },
     {
+      "id": "statistisches-bundesamt-erbschaft-und",
       "label": "Statistisches Bundesamt: Erbschaft- und Schenkungsteuer 2024 (PD25_320)",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_320_736.html"
     },
     {
+      "id": "diw-politikberatung-kompakt-211-vermoegensteuer",
       "label": "DIW Politikberatung kompakt 211: Vermögensteuer Die Linke (Bach/Wichers/Mudrack 2026)",
       "url": "https://www.diw.de/de/diw_01.c.998456.de/publikationen/politikberatung_kompakt/2026_0211/vermoegensteuer_die_linke_____aufkommens-_und_verteilungswir___n_die_linke_in_den_landtagen_und_der_rosa-luxemburg-stiftung.html"
     },
     {
+      "id": "diw-wochenbericht-4-2026-erbschaftsteuerreform",
       "label": "DIW Wochenbericht 4/2026: Erbschaftsteuerreform (Bach/Sinclair)",
       "url": "https://www.diw.de/de/diw_01.c.996032.de/publikationen/wochenberichte/2026_04_1/erbschaftsteuerreform__verguenstigungen_abbauen__freibetraege_erhoehen__steuertarifstulen_reduzieren.html"
     },
     {
+      "id": "fes-studie-milliardenvermoegen-steuerfrei-erben",
       "label": "FES-Studie: Milliardenvermögen steuerfrei erben (2022)",
       "url": "https://library.fes.de/pdf-files/a-p-b/19775.pdf"
     },
     {
+      "id": "oecd-revenue-statistics-taxes-on-property",
       "label": "OECD Revenue Statistics — Taxes on property",
       "url": "https://stats.oecd.org/Index.aspx?DataSetCode=REV"
     },
     {
+      "id": "oecd-economic-survey-germany-2023-empfehlung",
       "label": "OECD Economic Survey Germany 2023 — Empfehlung Vermögensteuer",
       "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-germany-2023_9642a3f5-en.html"
     },
     {
+      "id": "30-subventionsbericht-der-bundesregierung-sept",
       "label": "30. Subventionsbericht der Bundesregierung (Sept. 2025)",
       "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/30-subventionsbericht.html"
     },
     {
+      "id": "bverfg-beschluss-vom-22-6-1995-zur",
       "label": "BVerfG: Beschluss vom 22.6.1995 zur Vermögensteuer",
       "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1995/06/rs19950622_2bvr055291.html"
     },
     {
+      "id": "gesetze-im-internet-vermoegensteuergesetz-vstg",
       "label": "Gesetze im Internet – Vermögensteuergesetz (VStG)",
       "url": "https://www.gesetze-im-internet.de/vstg_1974/"
     },
     {
+      "id": "eurostat-housing-in-europe-2024",
       "label": "Eurostat – Housing in Europe 2024",
       "url": "https://ec.europa.eu/eurostat/web/interactive-publications/housing-2024"
     },
     {
+      "id": "ezb-household-finance-and-consumption-survey",
       "label": "EZB: Household Finance and Consumption Survey (HFCS), Wave 2021",
       "url": "https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html"
     },
     {
+      "id": "tax-foundation-wealth-taxes-in-europe-2025",
       "label": "Tax Foundation: Wealth Taxes in Europe (2025)",
       "url": "https://taxfoundation.org/data/all/eu/wealth-taxes-in-europe/"
     },
     {
+      "id": "netzwerk-steuergerechtigkeit",
       "label": "Netzwerk Steuergerechtigkeit",
       "url": "https://www.netzwerk-steuergerechtigkeit.de"
     }

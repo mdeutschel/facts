@@ -19,7 +19,7 @@
         {
           "type": "text",
           "text": "Deutschland gab 2024 insgesamt 198 Milliarden Euro für Bildung aus – ein nominaler Rekordwert. Gemessen am BIP liegt Deutschland mit 4,6 % aber weiterhin deutlich unter dem OECD-Schnitt und weit hinter skandinavischen Ländern.",
-          "sourceRefs": [1, 2]
+          "sourceRefs": ["oecd-bildung-auf-einen-blick-2025", "statistisches-bundesamt-bildungsausgaben-2024"]
         },
         {
           "type": "bar_chart",
@@ -34,7 +34,7 @@
             { "label": "Polen", "value": 4.6 }
           ],
           "unit": "%",
-          "sourceRefs": [1]
+          "sourceRefs": ["oecd-bildung-auf-einen-blick-2025"]
         },
         {
           "type": "stat_grid",
@@ -44,13 +44,13 @@
             { "label": "Schulen", "value": "97 Mrd. €", "sublabel": "49 % der Ausgaben" },
             { "label": "Kita-Betreuung", "value": "49 Mrd. €", "sublabel": "25 % der Ausgaben" }
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["statistisches-bundesamt-bildungsausgaben-2024"]
         },
         {
           "type": "fact",
           "text": "Schweden investiert mit 7,1 % des BIP deutlich mehr als Deutschland. Deutschland liegt damit im OECD-Vergleich weiter unter dem Schnitt und hinter skandinavischen Ländern.",
           "highlight": true,
-          "sourceRefs": [1]
+          "sourceRefs": ["oecd-bildung-auf-einen-blick-2025"]
         }
       ]
     },
@@ -61,7 +61,7 @@
         {
           "type": "text",
           "text": "Deutschland steckt mitten in einer Lehrkräftekrise. Je nach Berechnungsmethode fehlen bereits jetzt zwischen 26.000 und 35.000 Lehrkräfte – Tendenz stark steigend.",
-          "sourceRefs": [3, 4]
+          "sourceRefs": ["institut-der-deutschen-wirtschaft-iw", "kmk-lehrereinstellungsbedarf-und-angebot-2024"]
         },
         {
           "type": "timeline",
@@ -71,7 +71,7 @@
             { "label": "2030/31", "value": "68.000" },
             { "label": "2035/36", "value": "76.000" }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["institut-der-deutschen-wirtschaft-iw"]
         },
         {
           "type": "fact",
@@ -91,7 +91,7 @@
         {
           "type": "text",
           "text": "Die PISA-Studie 2022 offenbart einen historischen Tiefstand für Deutschland. In allen drei Bereichen sind die Leistungen so schlecht wie nie seit Beginn der PISA-Erhebungen im Jahr 2000.",
-          "sourceRefs": [5]
+          "sourceRefs": ["pisa-2022-nationaler-bericht-tu-muenchen-zib"]
         },
         {
           "type": "table",
@@ -104,13 +104,13 @@
             ["OECD-Schnitt", "472", "476", "485"],
             ["Norwegen", "468", "477", "478"]
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["pisa-2022-nationaler-bericht-tu-muenchen-zib"]
         },
         {
           "type": "fact",
           "text": "Rund ein Drittel der 15-Jährigen in Deutschland hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik verlor Deutschland 25 Punkte gegenüber 2018 – einer der stärksten Rückgänge aller OECD-Länder.",
           "highlight": true,
-          "sourceRefs": [5]
+          "sourceRefs": ["pisa-2022-nationaler-bericht-tu-muenchen-zib"]
         },
         {
           "type": "line_chart",
@@ -127,7 +127,7 @@
             { "label": "2018", "value": 500 },
             { "label": "2022", "value": 475 }
           ],
-          "sourceRefs": [5]
+          "sourceRefs": ["pisa-2022-nationaler-bericht-tu-muenchen-zib"]
         },
         {
           "type": "text",
@@ -142,7 +142,7 @@
         {
           "type": "text",
           "text": "Der DigitalPakt Schule (2019–2024) sollte die digitale Infrastruktur an Schulen revolutionieren. Mit 6,5 Milliarden Euro wurden Laptops, Tablets, interaktive Whiteboards und WLAN-Netzwerke finanziert.",
-          "sourceRefs": [7]
+          "sourceRefs": ["bmbf-digitalpakt-schule-fortschrittsbericht"]
         },
         {
           "type": "stat_grid",
@@ -152,7 +152,7 @@
             { "label": "Evaluation", "value": "seit 2025", "sublabel": "Zwischenbericht veröffentlicht" },
             { "label": "DigitalPakt 2.0", "value": "ab 2025", "sublabel": "Anschlussfinanzierung bis 2030 vereinbart" }
           ],
-          "sourceRefs": [7]
+          "sourceRefs": ["bmbf-digitalpakt-schule-fortschrittsbericht"]
         },
         {
           "type": "text",
@@ -167,7 +167,7 @@
         {
           "type": "text",
           "text": "Die frühkindliche Bildung gilt als entscheidend für spätere Bildungschancen. Doch in deutschen Kitas herrscht akuter Fachkräftemangel, der die Betreuungsqualität massiv gefährdet.",
-          "sourceRefs": [8]
+          "sourceRefs": ["bertelsmann-stiftung-fachkraefte-barometer-kita"]
         },
         {
           "type": "stat_grid",
@@ -177,13 +177,13 @@
             { "label": "Spitzenwert Sömmerda", "value": "94,3 %", "sublabel": "Landkreis in Thüringen" },
             { "label": "Fachkraftquote Ost", "value": "86,9 %", "sublabel": "vs. 68,6 % im Westen" }
           ],
-          "sourceRefs": [8]
+          "sourceRefs": ["bertelsmann-stiftung-fachkraefte-barometer-kita"]
         },
         {
           "type": "fact",
           "text": "In Bayern haben nur 54,5 % des Kita-Personals eine vollständige Fachausbildung – der bundesweit niedrigste Wert. Der Landkreis Sömmerda in Thüringen liegt mit 94,3 % an der Spitze.",
           "highlight": true,
-          "sourceRefs": [8]
+          "sourceRefs": ["bertelsmann-stiftung-fachkraefte-barometer-kita"]
         },
         {
           "type": "text",
@@ -198,7 +198,7 @@
         {
           "type": "text",
           "text": "Ab dem 1. August 2026 gilt ein stufenweiser Rechtsanspruch auf Ganztagsbetreuung für Grundschulkinder. Der Anspruch umfasst 8 Stunden täglich an fünf Werktagen, inklusive Unterrichtszeit und grundsätzlich auch in den Schulferien.",
-          "sourceRefs": [11]
+          "sourceRefs": ["bundes-sgk-bmbfsfj-ganztagsfortschritt"]
         },
         {
           "type": "timeline",
@@ -209,7 +209,7 @@
             { "label": "2028/29", "value": "1.–3. Klasse" },
             { "label": "2029/30", "value": "1.–4. Klasse" }
           ],
-          "sourceRefs": [11]
+          "sourceRefs": ["bundes-sgk-bmbfsfj-ganztagsfortschritt"]
         },
         {
           "type": "stat_grid",
@@ -219,7 +219,7 @@
             { "label": "Investitionsmittel Bund", "value": "3,5 Mrd. €", "sublabel": "für Infrastrukturausbau" },
             { "label": "Laufende Betriebskosten", "value": "1,3 Mrd. €/Jahr", "sublabel": "Bundesbeteiligung ab 2030" }
           ],
-          "sourceRefs": [11]
+          "sourceRefs": ["bundes-sgk-bmbfsfj-ganztagsfortschritt"]
         }
       ]
     }
@@ -284,46 +284,57 @@
   ],
   "sources": [
     {
+      "id": "oecd-bildung-auf-einen-blick-2025",
       "label": "OECD – Bildung auf einen Blick 2025",
       "url": "https://www.oecd.org/de/topics/education.html"
     },
     {
+      "id": "statistisches-bundesamt-bildungsausgaben-2024",
       "label": "Statistisches Bundesamt – Bildungsausgaben 2024",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_445_21711.html"
     },
     {
+      "id": "institut-der-deutschen-wirtschaft-iw",
       "label": "Institut der deutschen Wirtschaft (IW) – Lehrkräftemangel-Prognose",
       "url": "https://www.iwd.de/artikel/der-lehrermangel-in-deutschland-verschaerft-sich-546423/"
     },
     {
+      "id": "kmk-lehrereinstellungsbedarf-und-angebot-2024",
       "label": "KMK – Lehrereinstellungsbedarf und -angebot 2024",
       "url": "https://www.kmk.org/fileadmin/Dateien/pdf/Statistik/Dokumentationen/Dok_2_Bericht_LEB_LEA_2024.pdf"
     },
     {
+      "id": "pisa-2022-nationaler-bericht-tu-muenchen-zib",
       "label": "PISA 2022 – Nationaler Bericht (TU München / ZIB)",
       "url": "https://www.zib.education/pisa-2022-analyse-der-bildungsergebnisse-in-deutschland/"
     },
     {
+      "id": "bundeszentrale-fuer-politische-bildung-pisa-2022",
       "label": "Bundeszentrale für politische Bildung – PISA 2022 und Chancengleichheit",
       "url": "https://www.bpb.de/themen/bildung/dossier-bildung/543509/pisa-2022-wie-leistungsniveau-und-chancengleichheit-in-schulsystemen-zusammenhaengen/"
     },
     {
+      "id": "bmbf-digitalpakt-schule-fortschrittsbericht",
       "label": "BMBF – DigitalPakt Schule Fortschrittsbericht",
       "url": "https://www.digitalpaktschule.de/"
     },
     {
+      "id": "bertelsmann-stiftung-fachkraefte-barometer-kita",
       "label": "Bertelsmann Stiftung – Fachkräfte-Barometer Kita 2025",
       "url": "https://www.bertelsmann-stiftung.de/"
     },
     {
+      "id": "prognos-institut-lehrkraefte-arbeitszeitstudie",
       "label": "Prognos-Institut – Lehrkräfte-Arbeitszeitstudie Sachsen 2024/25",
       "url": "https://www.prognos.com/de/projekt/arbeitszeituntersuchung-saechsische-lehrkraefte"
     },
     {
+      "id": "inside-studie-zur-inklusion-leibniz-institut",
       "label": "INSIDE-Studie zur Inklusion (Leibniz-Institut für Bildungsverläufe)",
       "url": "https://www.inside-studie.de/"
     },
     {
+      "id": "bundes-sgk-bmbfsfj-ganztagsfortschritt",
       "label": "Bundes-SGK / BMBFSFJ – Ganztagsfortschritt",
       "url": "https://www.bundes-sgk.de/artikel/rechtsanspruch-ganztagsbetreuung"
     }

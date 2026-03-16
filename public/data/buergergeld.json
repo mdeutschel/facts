@@ -19,7 +19,7 @@
         {
           "type": "text",
           "text": "Der Regelbedarf für alleinstehende Erwachsene beträgt seit 2024 unverändert 563 Euro im Monat. Für 2025 und 2026 blieben die Regelbedarfe unverändert, weil die gesetzliche Fortschreibung rechnerisch niedrigere Werte ergeben hätte und die Besitzschutzregelung griff.",
-          "sourceRefs": [1]
+          "sourceRefs": ["bundesministerium-fuer-arbeit-und-soziales-bmas"]
         },
         {
           "type": "stat_grid",
@@ -29,12 +29,12 @@
             { "label": "Jugendliche (14-17 J.)", "value": "471 €" },
             { "label": "Kinder (6-13 J.)", "value": "390 €" }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["bundesministerium-fuer-arbeit-und-soziales-bmas"]
         },
         {
           "type": "text",
           "text": "Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernommen. Der Regelbedarf deckt insbesondere Ausgaben für Ernährung, Kleidung, Körperpflege, Hausrat, Haushaltsenergie ohne Heizkostenanteile sowie die soziale und kulturelle Teilhabe ab.",
-          "sourceRefs": [1]
+          "sourceRefs": ["bundesministerium-fuer-arbeit-und-soziales-bmas"]
         }
       ]
     },
@@ -45,7 +45,7 @@
         {
           "type": "text",
           "text": "Eine Studie des Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) zeigt klar: Wer zum Mindestlohn arbeitet, hat am Ende des Monats spürbar mehr Geld zur Verfügung als mit Bürgergeld.",
-          "sourceRefs": [2]
+          "sourceRefs": ["wsi-studie-zum-lohnabstandsgebot-2024-2025"]
         },
         {
           "type": "comparison",
@@ -68,12 +68,12 @@
               "total": { "label": "Einkommensvorteil", "value": "+ 749 €" }
             }
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["wsi-studie-zum-lohnabstandsgebot-2024-2025"]
         },
         {
           "type": "text",
           "text": "Der Abstand variiert je nach Wohnort und Mietkosten, ist aber überall in Deutschland deutlich positiv.",
-          "sourceRefs": [2]
+          "sourceRefs": ["wsi-studie-zum-lohnabstandsgebot-2024-2025"]
         }
       ]
     },
@@ -84,7 +84,7 @@
         {
           "type": "text",
           "text": "Das Bürgergeld ist kein bedingungsloses Grundeinkommen. Wer Termine versäumt oder zumutbare Arbeit ablehnt, wird sanktioniert.",
-          "sourceRefs": [1]
+          "sourceRefs": ["bundesministerium-fuer-arbeit-und-soziales-bmas"]
         },
         {
           "type": "progress_stack",
@@ -94,13 +94,13 @@
             { "label": "2. Verstoß", "value": 20, "sublabel": "20% Kürzung für 2 Monate" },
             { "label": "3. Verstoß", "value": 30, "sublabel": "30% Kürzung für 3 Monate" }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["bundesministerium-fuer-arbeit-und-soziales-bmas"]
         },
         {
           "type": "fact",
           "text": "Seit Ende März 2024 kann bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit der Regelbedarf für bis zu zwei Monate vollständig entfallen. Die Kosten der Unterkunft und Heizung werden dadurch nicht gestrichen.",
           "highlight": true,
-          "sourceRefs": [1]
+          "sourceRefs": ["bundesministerium-fuer-arbeit-und-soziales-bmas"]
         }
       ]
     },
@@ -165,18 +165,22 @@
   ],
   "sources": [
     {
+      "id": "bundesministerium-fuer-arbeit-und-soziales-bmas",
       "label": "Bundesministerium für Arbeit und Soziales (BMAS) – Leistungen und Bedarfe im Bürgergeld",
       "url": "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html"
     },
     {
+      "id": "wsi-studie-zum-lohnabstandsgebot-2024-2025",
       "label": "WSI-Studie zum Lohnabstandsgebot (2024/2025)",
       "url": "https://www.wsi.de/de/pressemitteilungen-15991-einkommen-bei-mindestlohnbeschaeftigung-deutlich-hoeher-als-buergergeld-70666.htm"
     },
     {
+      "id": "bundesagentur-fuer-arbeit-statistikportal-und",
       "label": "Bundesagentur für Arbeit – Statistikportal und Themen im Fokus Ukraine-Krieg",
       "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Themen-im-Fokus/Ukraine-Krieg/Ukraine-Krieg-Nav.html"
     },
     {
+      "id": "bundesregierung-ukrainische-gefluechtete-auf-dem",
       "label": "Bundesregierung – Ukrainische Geflüchtete auf dem Arbeitsmarkt",
       "url": "https://www.bundesregierung.de/breg-de/aktuelles/ukraine-gefluechtete-arbeit-2166832"
     }

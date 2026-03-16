@@ -100,3 +100,9 @@
 - Für `emobilitaet.json`, `heizung.json`, `verkehrswende.json` und `energiewende.json` wurden weitere belastbare Primärquellen ergänzt, darunter `Zoll` zur Kfz-Steuerbefreiung von E-Fahrzeugen, `BMWE/BNetzA` zum Wasserstoff-Kernnetz, `BMUKN` zum finalen Atomausstieg sowie `EDF` zu den französischen Reaktorproblemen 2022.
 - Damit konnten mehrere bislang unreferenzierte Mischblöcke nachträglich mit `sourceRefs` versehen oder auf besser belegbare Teilbehauptungen reduziert werden, etwa bei E-Auto-TCO, Wärmepumpen im Bestandsbau, E-Fuel-Effizienz, Radverkehrsbestandsdaten sowie Atomausstiegs- und Frankreich-2022-Passagen.
 - Zusätzlich wurden in `energiewende.json` verrutschte `sourceRefs` bereinigt und beim Strommix-Block ein nicht sauber belegter Preisvergleich aus den referenzierten Tabellen/Stats entfernt, damit die Zuordnung wieder konsistent ist.
+
+## Follow-up 2: Stabile Quellen-IDs statt Listenindizes
+
+- Alle Topic-Dateien mit `sources` wurden von positionsbasierten `sourceRefs` wie `[1, 5]` auf explizite Quellen-IDs umgestellt.
+- Jede Quelle besitzt nun ein festes `id`-Feld; die Blöcke referenzieren diese IDs direkt. Dadurch bleiben Referenzen stabil, auch wenn Quellen später ergänzt, umsortiert oder gelöscht werden.
+- Die UI zeigt weiterhin nummerierte Quellen an, löst diese Nummern nun aber dynamisch über die jeweilige Quellen-ID auf. Bei der Migration wurden offensichtliche, bereits verrutschte Referenzen in `heizung.json` zusätzlich sachlich korrigiert.

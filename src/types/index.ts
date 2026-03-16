@@ -51,17 +51,19 @@ export interface LineChartItem {
   value: number
 }
 
+export type SourceRef = string
+
 export type ContentBlock =
-  | { type: 'fact'; text: string; description?: string; highlight?: boolean; sourceRefs?: number[] }
-  | { type: 'table'; caption?: string; headers: string[]; rows: string[][]; sourceRefs?: number[] }
-  | { type: 'text'; text: string; sourceRefs?: number[] }
-  | { type: 'stat_grid'; items: StatItem[]; sourceRefs?: number[] }
-  | { type: 'comparison'; caption?: string; items: ComparisonItem[]; savings?: string; sourceRefs?: number[] }
-  | { type: 'range_bar'; caption?: string; items: RangeBarItem[]; maxScale?: number; unit?: string; sourceRefs?: number[] }
-  | { type: 'bar_chart'; caption?: string; items: BarChartItem[]; unit?: string; sourceRefs?: number[] }
-  | { type: 'line_chart'; caption?: string; items: LineChartItem[]; unit?: string; color?: string; sourceRefs?: number[] }
-  | { type: 'timeline'; caption?: string; steps: TimelineStep[]; sourceRefs?: number[] }
-  | { type: 'progress_stack'; caption?: string; segments: { label: string; value: number; sublabel?: string }[]; total?: string; sourceRefs?: number[] }
+  | { type: 'fact'; text: string; description?: string; highlight?: boolean; sourceRefs?: SourceRef[] }
+  | { type: 'table'; caption?: string; headers: string[]; rows: string[][]; sourceRefs?: SourceRef[] }
+  | { type: 'text'; text: string; sourceRefs?: SourceRef[] }
+  | { type: 'stat_grid'; items: StatItem[]; sourceRefs?: SourceRef[] }
+  | { type: 'comparison'; caption?: string; items: ComparisonItem[]; savings?: string; sourceRefs?: SourceRef[] }
+  | { type: 'range_bar'; caption?: string; items: RangeBarItem[]; maxScale?: number; unit?: string; sourceRefs?: SourceRef[] }
+  | { type: 'bar_chart'; caption?: string; items: BarChartItem[]; unit?: string; sourceRefs?: SourceRef[] }
+  | { type: 'line_chart'; caption?: string; items: LineChartItem[]; unit?: string; color?: string; sourceRefs?: SourceRef[] }
+  | { type: 'timeline'; caption?: string; steps: TimelineStep[]; sourceRefs?: SourceRef[] }
+  | { type: 'progress_stack'; caption?: string; segments: { label: string; value: number; sublabel?: string }[]; total?: string; sourceRefs?: SourceRef[] }
 
 export interface Section {
   id: string
@@ -78,6 +80,7 @@ export interface Argument {
 }
 
 export interface Source {
+  id: string
   label: string
   url?: string
 }

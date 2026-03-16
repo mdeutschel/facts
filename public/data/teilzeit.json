@@ -19,7 +19,7 @@
         {
           "type": "text",
           "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit knapp 46 Millionen nahezu konstant.",
-          "sourceRefs": [1]
+          "sourceRefs": ["iab-ergebnisse-der-arbeitszeitrechnung-2025"]
         },
         {
           "type": "stat_grid",
@@ -40,7 +40,7 @@
               "sublabel": "Neuer Höchststand"
             }
           ],
-          "sourceRefs": [1]
+          "sourceRefs": ["iab-ergebnisse-der-arbeitszeitrechnung-2025"]
         }
       ]
     },
@@ -51,7 +51,7 @@
         {
           "type": "text",
           "text": "Die Gründe für Teilzeitarbeit sind vielfältig. Während der allgemeine Wunsch nach reduzierter Arbeitszeit der häufigste Grund ist, spielt Care-Arbeit (Betreuung von Kindern oder Pflegebedürftigen) eine fast ebenso große Rolle – insbesondere bei Frauen.",
-          "sourceRefs": [2]
+          "sourceRefs": ["destatis-gruende-fuer-teilzeittaetigkeit-2024"]
         },
         {
           "type": "bar_chart",
@@ -80,7 +80,7 @@
               "value": 4.8
             }
           ],
-          "sourceRefs": [2]
+          "sourceRefs": ["destatis-gruende-fuer-teilzeittaetigkeit-2024"]
         }
       ]
     },
@@ -91,7 +91,7 @@
         {
           "type": "text",
           "text": "Ein hartnäckiger Mythos besagt, die Generation Z sei arbeitsscheu. IAB-Veröffentlichungen von 2025 auf Basis von Daten bis 2023 zeigen das Gegenteil: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 Prozent gestiegen. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit einer höheren Erwerbsbeteiligung von Studierenden zusammen.",
-          "sourceRefs": [3]
+          "sourceRefs": ["iab-generation-z-erwerbsbeteiligung-der-20-bis"]
         },
         {
           "type": "comparison",
@@ -112,7 +112,7 @@
               ]
             }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["iab-generation-z-erwerbsbeteiligung-der-20-bis"]
         }
       ]
     }
@@ -156,14 +156,17 @@
   ],
   "sources": [
     {
+      "id": "iab-ergebnisse-der-arbeitszeitrechnung-2025",
       "label": "IAB: Ergebnisse der Arbeitszeitrechnung 2025",
       "url": "https://iab.de/presseinfo/ergebnisse-der-iab-arbeitszeitrechnung-fuer-das-jahr-2025-teilzeitbeschaeftigte-arbeiteten-132-millionen-stunden/"
     },
     {
+      "id": "destatis-gruende-fuer-teilzeittaetigkeit-2024",
       "label": "Destatis: Gründe für Teilzeittätigkeit 2024",
       "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/Interaktiv/3-9_tz_gruende-geschlecht.html"
     },
     {
+      "id": "iab-generation-z-erwerbsbeteiligung-der-20-bis",
       "label": "IAB: Generation Z – Erwerbsbeteiligung der 20- bis 24-Jährigen",
       "url": "https://iab.de/presseinfo/generation-z-erwerbsbeteiligung-der-20-bis-24-jaehrigen-klettert-auf-den-hoechsten-stand-seit-jahrzehnten/"
     }

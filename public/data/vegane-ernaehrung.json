@@ -19,7 +19,7 @@
         {
           "type": "text",
           "text": "Die Produktion tierischer Lebensmittel verursacht deutlich mehr Treibhausgase als der Anbau pflanzlicher Nahrung. Das UBA betont klar, dass weniger tierische und mehr pflanzliche Lebensmittel die ernährungsbedingten Emissionen deutlich senken.",
-          "sourceRefs": [1, 4]
+          "sourceRefs": ["umweltbundesamt-uba-klimafreundliche-ernaehrung", "oxford-university-poore-nemecek-2018-reducing"]
         },
         {
           "type": "comparison",
@@ -41,7 +41,7 @@
               ]
             }
           ],
-          "sourceRefs": [1, 4]
+          "sourceRefs": ["umweltbundesamt-uba-klimafreundliche-ernaehrung", "oxford-university-poore-nemecek-2018-reducing"]
         },
         {
           "type": "table",
@@ -54,7 +54,7 @@
             ["Tofu", "vergleichsweise niedrig"],
             ["Hülsenfrüchte", "vergleichsweise niedrig"]
           ],
-          "sourceRefs": [4]
+          "sourceRefs": ["oxford-university-poore-nemecek-2018-reducing"]
         }
       ]
     },
@@ -65,7 +65,7 @@
         {
           "type": "text",
           "text": "Tierhaltung ist ressourcenintensiv und im Vergleich ineffizient: Tiere verbrauchen ein Vielfaches an Kalorien in Form von Futter, als sie später als Fleisch oder Milch liefern. Das führt zu einem hohen Flächen- und Wasserbedarf.",
-          "sourceRefs": [4, 5]
+          "sourceRefs": ["oxford-university-poore-nemecek-2018-reducing", "albert-schweitzer-stiftung-oekologische-folgen"]
         },
         {
           "type": "stat_grid",
@@ -89,13 +89,13 @@
               "color": "#42a5f5"
             }
           ],
-          "sourceRefs": [4, 5]
+          "sourceRefs": ["oxford-university-poore-nemecek-2018-reducing", "albert-schweitzer-stiftung-oekologische-folgen"]
         },
         {
           "type": "fact",
           "text": "Tierprodukte liefern global nur rund 18 % der Kalorien, beanspruchen aber etwa 83 % der Agrarfläche.",
           "highlight": true,
-          "sourceRefs": [4]
+          "sourceRefs": ["oxford-university-poore-nemecek-2018-reducing"]
         }
       ]
     },
@@ -106,7 +106,7 @@
         {
           "type": "text",
           "text": "Die Deutsche Gesellschaft für Ernährung (DGE) hat ihre Richtlinien 2024 grundlegend überarbeitet und empfiehlt nun eine stark pflanzenbetonte Ernährung aus Gesundheits- und Umweltgründen.",
-          "sourceRefs": [2, 3]
+          "sourceRefs": ["dge-neubewertung-der-position-zu-veganer", "dge-dge-ernaehrungskreis"]
         },
         {
           "type": "progress_stack",
@@ -116,12 +116,12 @@
             { "label": "Pflanzliche Lebensmittel", "value": 75, "sublabel": "mehr als 3/4" },
             { "label": "Tierische Lebensmittel", "value": 25, "sublabel": "knapp 1/4" }
           ],
-          "sourceRefs": [3]
+          "sourceRefs": ["dge-dge-ernaehrungskreis"]
         },
         {
           "type": "fact",
           "text": "Die DGE stuft eine gut geplante vegane Ernährung für gesunde Erwachsene unter Bedingungen als gesundheitsfördernd und 'äußerst umweltfreundlich' ein.",
-          "sourceRefs": [2]
+          "sourceRefs": ["dge-neubewertung-der-position-zu-veganer"]
         }
       ]
     }
@@ -170,22 +170,27 @@
   ],
   "sources": [
     {
+      "id": "umweltbundesamt-uba-klimafreundliche-ernaehrung",
       "label": "Umweltbundesamt (UBA): Klimafreundliche Ernährung",
       "url": "https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/essen-trinken/klima-umweltfreundliche-ernaehrung"
     },
     {
+      "id": "dge-neubewertung-der-position-zu-veganer",
       "label": "DGE – Neubewertung der Position zu veganer Ernährung",
       "url": "https://www.dge.de/wissenschaft/stellungnahmen-und-fachinformationen/positionen/neubewertung-der-position-zu-veganer-ernaehrung/"
     },
     {
+      "id": "dge-dge-ernaehrungskreis",
       "label": "DGE – DGE-Ernährungskreis",
       "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/"
     },
     {
+      "id": "oxford-university-poore-nemecek-2018-reducing",
       "label": "Oxford University (Poore & Nemecek, 2018): Reducing food’s environmental impacts",
       "url": "https://science.sciencemag.org/content/360/6392/987"
     },
     {
+      "id": "albert-schweitzer-stiftung-oekologische-folgen",
       "label": "Albert Schweitzer Stiftung: Ökologische Folgen des Fleischkonsums",
       "url": "https://albert-schweitzer-stiftung.de/themen/umwelt"
     }
