@@ -1424,12 +1424,12 @@ Hinweis: Anteil am Gesamtvermögen in Deutschland
 - Mittlere 40 %: 37.5 %
 - Untere 50 %: 2.5 %
 
-- Gini-Koeffizient: 0,724 (Vermögen (Bundesbank PHF 2025))
+- Gini-Koeffizient: 0,724 (Vermögen (Bundesbank PHF 2023))
 - Medianvermögen: 103.100 € (pro Haushalt (2023))
 - Durchschnitt: 324.800 € (3,15× so hoch wie Median)
 - Milliardäre: 256 (in Deutschland (Rekord, 2025))
 
-- Nur 28 % der deutschen Milliardäre sind Selfmade — 72 % haben ihr Vermögen geerbt oder durch Erbschaft aufgebaut.
+- In Deutschland ist der Anteil geerbter Milliardärsvermögen deutlich höher als im globalen Schnitt. Laut UBS-Report 2024 waren global 60 % der neuen Milliardäre Selfmade — in Europa dominieren dagegen Mehrgenerationen-Vermögen.
 
 ### Medianvermögen: Deutschland unter Spanien und Italien
 
@@ -1440,12 +1440,12 @@ Spalten: Land | Medianvermögen | Eigentumsquote
 - Spanien | ~178.000 € | 83 %
 - Italien | ~164.000 € | 68 %
 - Frankreich | ~134.000 € | 58 %
-- Deutschland | ~103.000 € | 44 %
+- Deutschland | ~103.000 € | 42 %
 
 - Median West: 143.200 € (pro Haushalt (2023))
 - Median Ost: 35.900 € (pro Haushalt (2023))
 
-- Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Die niedrige Eigentumsquote (44 %) macht den 'typischen' deutschen Haushalt ärmer als den spanischen — obwohl Deutschland ein deutlich höheres BIP pro Kopf hat.
+- Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Die niedrige Eigentumsquote (42 %) macht den 'typischen' deutschen Haushalt ärmer als den spanischen — obwohl Deutschland ein deutlich höheres BIP pro Kopf hat.
 
 ### Vermögensbezogene Steuern: Deutschland im OECD-Vergleich
 
@@ -1453,10 +1453,10 @@ Deutschland besteuert Vermögen weit unterdurchschnittlich. Bei den Steuern auf 
 
 Hinweis: Vermögensbezogene Steuern als % des BIP
 - UK: 4 bis 4.2 % BIP
-- Frankreich: 3.8 bis 4 % BIP
+- Frankreich: 3.5 bis 3.9 % BIP
 - USA: 2.9 bis 3.1 % BIP
 - OECD-Ø: 1.7 bis 2.3 % BIP
-- Deutschland: 0.8 bis 0.9 % BIP
+- Deutschland: 0.9 bis 1.1 % BIP
 
 Hinweis: OECD-Länder mit Netto-Vermögensteuer (Stand 2025)
 Spalten: Land | Freibetrag (ca.) | Steuersatz | Aufkommen
@@ -1471,7 +1471,7 @@ Spalten: Land | Freibetrag (ca.) | Steuersatz | Aufkommen
 
 - Aufkommen: 13,3 Mrd. € (festgesetzt 2024 (Rekord))
 - jährl. Erbvolumen: 300–400 Mrd. (davon nur 113 Mrd. steuerlich erfasst)
-- Mindereinnahmen/J.: ~9 Mrd. € (durch Betriebsvermögens-Verschonung)
+- Mindereinnahmen/J.: ~7,8 Mrd. € (durch Betriebsvermögens-Verschonung)
 - Effektiver Ø-Satz: ~3 % (auf alle Erbschaften)
 
 Hinweis: Kassenmäßiges Erbschaft- und Schenkungsteuer-Aufkommen
@@ -1516,7 +1516,7 @@ Spalten: Kennzahl | Wert
 
 - Die Erbschaftsteuer bringt weniger ein als die Tabaksteuer — obwohl jährlich bis zu 400 Milliarden Euro vererbt werden.
 
-In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Rund 40 Kinder unter 14 Jahren erhielten über die Verschonungsbedarfsprüfung zusammen 33 Mrd. Euro steuerbefreites Betriebsvermögen (durchschnittlich 825 Mio. € pro Kind).
+In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut FES-Studie erhielten 220 Kinder unter 14 Jahren zusammen 43 Mrd. Euro steuerbefreites Betriebsvermögen (durchschnittlich ~200 Mio. € pro Kind).
 
 ### Aufkommenspotenzial: Was brächte eine Vermögensteuer?
 
@@ -1524,12 +1524,10 @@ Das DIW Berlin hat verschiedene Modelle einer Vermögensteuer durchgerechnet. Be
 
 Hinweis: Modelle einer Vermögensteuer und geschätztes Aufkommen
 Spalten: Modell | Freibetrag | Steuersatz | Aufkommen (brutto)
-- DIW Basismodell | 1–2 Mio. € | 1 % proportional | 11–23 Mrd. €/J.
-- SPD-Modell | 100 Mio. € | 2 % | ~15 Mrd. €/J.
-- Grüne (nur Milliardäre) | nur Milliardäre | 2 % | ~3,5 Mrd. €/J.
-- Die Linke (DIW-Studie 2026) | 1 Mio. € (priv.) | 1–12 % (progressiv) | ~147 Mrd. €/J.
+- Die Linke: konservativ (DIW 2026) | 1 Mio. € | 1 % proportional | ~42 Mrd. €/J.
+- Die Linke: progressiv (DIW 2026) | 1 Mio. € | 1–12 % (progressiv) | ~147 Mrd. €/J.
 
-- Schon das moderate DIW-Basismodell (1 % ab 2 Mio. € Freibetrag) brächte 11–23 Mrd. Euro pro Jahr — mehr als die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.
+- Schon die konservativste Variante (1 % ab 1 Mio. € Freibetrag) brächte laut DIW rund 42 Mrd. Euro pro Jahr — mehr als dreimal so viel wie die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.
 
 Hinweis: Freibeträge Erbschaftsteuer: Deutschland vs. international
 Spalten: Land | System | Freibetrag (Kind) | Spitzensatz
@@ -1559,9 +1557,9 @@ Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 
 ### Argumente
 
 - Aussage: Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!
-  Antwort: Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) gehört Deutschland tatsächlich zur Weltspitze. Bei den vermögensbezogenen Steuern liegt Deutschland mit nur 0,9 % des BIP aber bei weniger als der Hälfte des OECD-Durchschnitts (1,9 %). UK erhebt über 4 %, die USA 3 %. Gerade weil Arbeit so hoch belastet ist, wäre eine Verlagerung hin zu Vermögenssteuern ökonomisch sinnvoll — auch IWF und OECD empfehlen das.
+  Antwort: Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) gehört Deutschland tatsächlich zur Weltspitze. Bei den vermögensbezogenen Steuern liegt Deutschland mit nur ~1 % des BIP aber bei etwa der Hälfte des OECD-Durchschnitts (1,9 %). UK erhebt knapp 4 %, die USA ~3 %. Gerade weil Arbeit so hoch belastet ist, wäre eine Verlagerung hin zu Vermögenssteuern ökonomisch sinnvoll — auch IWF und OECD empfehlen das.
 - Aussage: Das ist doch reine Neidsteuer! Typisch deutsche Neidgesellschaft!
-  Antwort: Es geht nicht um Neid, sondern um Chancengerechtigkeit. 72 % der deutschen Milliardäre sind Erben, nicht Selfmade. Über 50 % des Privatvermögens ist geerbt, nicht selbst erarbeitet. Wenn Geburt wichtiger wird als Leistung, ist das kein Neidproblem — sondern ein Gerechtigkeitsproblem. Auch die Schweiz, Norwegen und Spanien haben eine Vermögensteuer, ohne als 'Neidgesellschaften' zu gelten.
+  Antwort: Es geht nicht um Neid, sondern um Chancengerechtigkeit. In Europa dominieren Mehrgenerationen-Vermögen unter Milliardären — deutlich stärker als in den USA oder Asien. Über 50 % des Privatvermögens ist geerbt, nicht selbst erarbeitet. Wenn Geburt wichtiger wird als Leistung, ist das kein Neidproblem — sondern ein Gerechtigkeitsproblem. Auch die Schweiz, Norwegen und Spanien haben eine Vermögensteuer, ohne als 'Neidgesellschaften' zu gelten.
 - Aussage: Eine Vermögenssteuer zerstört unsere Familienunternehmen und den Mittelstand!
   Antwort: Alle aktuellen Modelle sehen hohe Freibeträge vor (mindestens 1–2 Mio. €, teils bis 100 Mio. €). Echte Mittelständler wären kaum betroffen. Die Realität: 64 % des begünstigten Erbvermögens landet bei wenigen hundert Überreichen (Durchschnitt: 70 Mio. € pro Person). Es geht nicht um die Bäckerei, sondern um die BMW-Erben. Zudem: Wer ein Unternehmen kauft, muss den vollen Preis aus eigener Tasche zahlen — nur Erben bekommen es geschenkt.
 - Aussage: Die Reichen wandern dann einfach ins Ausland ab!
@@ -1575,7 +1573,7 @@ Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 
 - Aussage: Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!
   Antwort: Ein Argument aus den 1990er Jahren. Durch Digitalisierung, automatisierten Informationsaustausch und die aktualisierte Immobilienbewertung der Grundsteuer-Reform 2025 wäre der Verwaltungsaufwand deutlich geringer als früher. Die Erhebungskosten liegen bei unter 2–5 % der Einnahmen — vergleichbar mit der Einkommensteuer. Die Schweiz erhebt die Vermögensteuer seit über 100 Jahren effizient auf Kantonsebene.
 - Aussage: Erbschaftsteuer bestraft Leistung und zerstört Lebenswerke!
-  Antwort: Erben ist keine eigene Leistung — die Leistung hat der Erblasser erbracht. Von den 300–400 Mrd. € die jährlich vererbt werden, werden nur 113 Mrd. steuerlich erfasst. Der effektive Steuersatz liegt bei 2–3 %. Schlimmer: Milliardenerben zahlen effektiv nur 0,1–1,8 %, während normale Erben bis zu 14 % zahlen. 40 Kinder unter 14 Jahren erhielten zusammen 33 Mrd. € steuerbefreites Betriebsvermögen. Das 'Lebenswerk'-Argument schützt in Wahrheit dynastische Privilegien.
+  Antwort: Erben ist keine eigene Leistung — die Leistung hat der Erblasser erbracht. Von den 300–400 Mrd. € die jährlich vererbt werden, werden nur 113 Mrd. steuerlich erfasst. Der effektive Steuersatz liegt bei 2–3 %. Schlimmer: Milliardenerben zahlen effektiv nur 0,1–1,8 %, während normale Erben bis zu 14 % zahlen. 220 Kinder unter 14 Jahren erhielten zusammen 43 Mrd. € steuerbefreites Betriebsvermögen. Das 'Lebenswerk'-Argument schützt in Wahrheit dynastische Privilegien.
 - Aussage: Investitionen fließen ab und Firmen gehen ins Ausland!
   Antwort: Standortentscheidungen hängen von dutzenden Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte. Die Schweiz, Norwegen und Spanien haben eine Vermögensteuer — und blühen wirtschaftlich. In Deutschland belegenes Betriebsvermögen kann nicht einfach 'abfließen'. Studien zeigen: Kapitalsteuern beeinflussen Investitionsentscheidungen weit weniger als Lohnnebenkosten, Energiepreise oder Bürokratie.
 - Aussage: Erben ist Privatsache — der Staat hat da nichts zu suchen!
@@ -1584,20 +1582,20 @@ Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 
 ### Quellen
 
 - DIW Berlin: Private Vermögen — Höhe, Entwicklung und Verteilung (2024) (https://www.diw.de/de/diw_01.c.925733.de/publikationen/sonstige_aufsaetze/2024_0000/private_vermoegen__hoehe__entwicklung_und_verteilung.html)
-- Deutsche Bundesbank: Panel on Household Finances (PHF), Welle 2025 (https://www.bundesbank.de/de/statistiken/gesamtwirtschaftliche-rechenwerke/vermoegensbilanzen)
+- Deutsche Bundesbank: Panel on Household Finances (PHF), 5. Welle 2023 (https://www.bundesbank.de/de/bundesbank/forschung/studie-zur-wirtschaftlichen-lage-privater-haushalte-phf/ergebnisse-604886)
 - Statistisches Bundesamt: Erbschaft- und Schenkungsteuer 2024 (PD25_320) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_320_736.html)
-- DIW Politikberatung kompakt 211: Vermögensabgabe-Modelle (Bach/Wichers/Mudrack 2026)
-- DIW Wochenbericht 4/2026: Erbschaftsteuer-Privilegien (Bach/Sinclair)
-- FES-Studie: Milliardenvermögen steuerfrei erben (2025) (https://library.fes.de/pdf-files/a-p-b/19775.pdf)
+- DIW Politikberatung kompakt 211: Vermögensteuer Die Linke (Bach/Wichers/Mudrack 2026) (https://www.diw.de/de/diw_01.c.998456.de/publikationen/politikberatung_kompakt/2026_0211/vermoegensteuer_die_linke_____aufkommens-_und_verteilungswir___n_die_linke_in_den_landtagen_und_der_rosa-luxemburg-stiftung.html)
+- DIW Wochenbericht 4/2026: Erbschaftsteuerreform (Bach/Sinclair) (https://www.diw.de/de/diw_01.c.996032.de/publikationen/wochenberichte/2026_04_1/erbschaftsteuerreform__verguenstigungen_abbauen__freibetraege_erhoehen__steuertarifstulen_reduzieren.html)
+- FES-Studie: Milliardenvermögen steuerfrei erben (2022) (https://library.fes.de/pdf-files/a-p-b/19775.pdf)
 - OECD Revenue Statistics — Taxes on property (https://stats.oecd.org/Index.aspx?DataSetCode=REV)
-- OECD Economic Survey Germany 2019 — Empfehlung Vermögensteuer
-- 30. Subventionsbericht der Bundesregierung (Sept. 2025)
-- BVerfG: Beschluss vom 22.6.1995 (2 BvL 37/91, BVerfGE 93, 121)
-- Capgemini World Wealth Report 2025 — HNWI-Statistiken
-- UBS Billionaire Ambitions Report 2024 — Selfmade vs. Erben
-- EZB: Household Finance and Consumption Survey (HFCS), Wave 2021
+- OECD Economic Survey Germany 2023 — Empfehlung Vermögensteuer (https://www.oecd.org/en/publications/oecd-economic-surveys-germany-2023_9642a3f5-en.html)
+- 30. Subventionsbericht der Bundesregierung (Sept. 2025) (https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/30-subventionsbericht.html)
+- BVerfG: Beschluss vom 22.6.1995 (2 BvL 37/91, BVerfGE 93, 121) (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BVerfG&Datum=22.06.1995&Aktenzeichen=2+BvL+37/91)
+- Capgemini World Wealth Report 2025 — HNWI-Statistiken (https://www.capgemini.com/insights/research-library/world-wealth-report/)
+- UBS Billionaire Ambitions Report 2024 (https://www.ubs.com/global/en/media/display-page-ndp/en-20241205-billionaire-ambitions-report-2024.html)
+- EZB: Household Finance and Consumption Survey (HFCS), Wave 2021 (https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html)
 - Tax Foundation: Wealth Taxes in Europe (2025) (https://taxfoundation.org/data/all/eu/wealth-taxes-in-europe/)
-- Netzwerk Steuergerechtigkeit: Mythencheck Erbschaftsteuer (2025)
+- Netzwerk Steuergerechtigkeit (https://www.netzwerk-steuergerechtigkeit.de)
 
 ---
 

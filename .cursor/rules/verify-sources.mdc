@@ -1,0 +1,9 @@
+---
+description: Verify sources and data in topic factsheet JSON files against online sources. Trigger on "verify sources", "Quellen prüfen", "sourceRefs verifizieren".
+globs: public/data/**/*.json
+alwaysApply: false
+---
+
+# Quellenverifizierung
+
+Befolge das **Source Verification Procedure** aus `AGENTS.md` für die angegebene Topic-JSON-Datei.

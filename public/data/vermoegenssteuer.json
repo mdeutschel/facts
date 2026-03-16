@@ -6,11 +6,11 @@
   "lastUpdated": "2026-03",
   "keyStats": [
     "Das reichste 1 % besitzt mindestens 26 % des Vermögens",
-    "Nur 0,9 % BIP vermögensbezogene Steuern (OECD: 1,9 %)",
+    "Nur ~1 % BIP vermögensbezogene Steuern (OECD: 1,9 %)",
     "Milliardenerben zahlen effektiv 0,1–1,8 % Erbschaftsteuer",
     "11 Argumente"
   ],
-  "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin, der Deutschen Bundesbank (PHF 2025), des Statistischen Bundesamtes, der OECD Revenue Statistics und der FES-Studie 2025.",
+  "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin, der Deutschen Bundesbank (PHF 2023), des Statistischen Bundesamtes, der OECD Revenue Statistics und der FES-Studie 2022.",
   "sections": [
     {
       "id": "verteilung",
@@ -18,7 +18,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Deutschland weist im europäischen Vergleich eine sehr hohe Vermögensungleichheit auf. Während Einkommen relativ gleichmäßig verteilt sind, konzentriert sich das Vermögen (Immobilien, Aktien, Betriebsvermögen) stark an der Spitze. Neuere DIW-Schätzungen unter Einbeziehung von Milliardärslisten deuten darauf hin, dass das Top 1 % sogar über 30–35 % besitzen könnte, da Superreiche in Umfragen systematisch untererfasst sind."
+          "text": "Deutschland weist im europäischen Vergleich eine sehr hohe Vermögensungleichheit auf. Während Einkommen relativ gleichmäßig verteilt sind, konzentriert sich das Vermögen (Immobilien, Aktien, Betriebsvermögen) stark an der Spitze. Neuere DIW-Schätzungen unter Einbeziehung von Milliardärslisten deuten darauf hin, dass das Top 1 % sogar über 30–35 % besitzen könnte, da Superreiche in Umfragen systematisch untererfasst sind.",
+          "sourceRefs": [1, 2]
         },
         {
           "type": "bar_chart",
@@ -29,21 +30,24 @@
             { "label": "Nächste 9 %", "value": 34 },
             { "label": "Mittlere 40 %", "value": 37.5 },
             { "label": "Untere 50 %", "value": 2.5 }
-          ]
+          ],
+          "sourceRefs": [1, 2]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "0,724", "label": "Gini-Koeffizient", "sublabel": "Vermögen (Bundesbank PHF 2025)" },
+            { "value": "0,724", "label": "Gini-Koeffizient", "sublabel": "Vermögen (Bundesbank PHF 2023)" },
             { "value": "103.100 €", "label": "Medianvermögen", "sublabel": "pro Haushalt (2023)" },
             { "value": "324.800 €", "label": "Durchschnitt", "sublabel": "3,15× so hoch wie Median" },
             { "value": "256", "label": "Milliardäre", "sublabel": "in Deutschland (Rekord, 2025)" }
-          ]
+          ],
+          "sourceRefs": [1, 2, 11]
         },
         {
           "type": "fact",
-          "text": "Nur 28 % der deutschen Milliardäre sind Selfmade — 72 % haben ihr Vermögen geerbt oder durch Erbschaft aufgebaut.",
-          "highlight": true
+          "text": "In Deutschland ist der Anteil geerbter Milliardärsvermögen deutlich höher als im globalen Schnitt. Laut UBS-Report 2024 waren global 60 % der neuen Milliardäre Selfmade — in Europa dominieren dagegen Mehrgenerationen-Vermögen.",
+          "highlight": true,
+          "sourceRefs": [12]
         }
       ]
     },
@@ -53,7 +57,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Bei der Vermögensverteilung zeigt sich ein paradoxes Bild: Deutschland ist eine der größten Volkswirtschaften der Welt, liegt beim Medianvermögen (dem Vermögen des 'typischen' Haushalts) aber deutlich hinter südeuropäischen Ländern. Der Hauptgrund: Die extrem niedrige Wohneigentumsquote in Deutschland."
+          "text": "Bei der Vermögensverteilung zeigt sich ein paradoxes Bild: Deutschland ist eine der größten Volkswirtschaften der Welt, liegt beim Medianvermögen (dem Vermögen des 'typischen' Haushalts) aber deutlich hinter südeuropäischen Ländern. Der Hauptgrund: Die extrem niedrige Wohneigentumsquote in Deutschland.",
+          "sourceRefs": [2, 13]
         },
         {
           "type": "table",
@@ -63,20 +68,23 @@
             ["Spanien", "~178.000 €", "83 %"],
             ["Italien", "~164.000 €", "68 %"],
             ["Frankreich", "~134.000 €", "58 %"],
-            ["Deutschland", "~103.000 €", "44 %"]
-          ]
+            ["Deutschland", "~103.000 €", "42 %"]
+          ],
+          "sourceRefs": [2, 13]
         },
         {
           "type": "stat_grid",
           "items": [
             { "value": "143.200 €", "label": "Median West", "sublabel": "pro Haushalt (2023)" },
             { "value": "35.900 €", "label": "Median Ost", "sublabel": "pro Haushalt (2023)", "color": "#b71c1c" }
-          ]
+          ],
+          "sourceRefs": [2]
         },
         {
           "type": "fact",
-          "text": "Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Die niedrige Eigentumsquote (44 %) macht den 'typischen' deutschen Haushalt ärmer als den spanischen — obwohl Deutschland ein deutlich höheres BIP pro Kopf hat.",
-          "highlight": true
+          "text": "Wer in Deutschland kein Wohneigentum besitzt, partizipiert nicht am Vermögensaufbau. Die niedrige Eigentumsquote (42 %) macht den 'typischen' deutschen Haushalt ärmer als den spanischen — obwohl Deutschland ein deutlich höheres BIP pro Kopf hat.",
+          "highlight": true,
+          "sourceRefs": [2, 13]
         }
       ]
     },
@@ -86,7 +94,8 @@
       "content": [
         {
           "type": "text",
-          "text": "Deutschland besteuert Vermögen weit unterdurchschnittlich. Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) liegt Deutschland an der Weltspitze — bei den vermögensbezogenen Steuern (Grundsteuer, Erbschaftsteuer, Vermögensteuer) deutlich unter dem OECD-Schnitt."
+          "text": "Deutschland besteuert Vermögen weit unterdurchschnittlich. Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) liegt Deutschland an der Weltspitze — bei den vermögensbezogenen Steuern (Grundsteuer, Erbschaftsteuer, Vermögensteuer) deutlich unter dem OECD-Schnitt.",
+          "sourceRefs": [7]
         },
         {
           "type": "range_bar",
@@ -95,11 +104,12 @@
           "unit": "% BIP",
           "items": [
             { "label": "UK", "min": 4.0, "max": 4.2, "color": "#1565c0" },
-            { "label": "Frankreich", "min": 3.8, "max": 4.0, "color": "#1976d2" },
+            { "label": "Frankreich", "min": 3.5, "max": 3.9, "color": "#1976d2" },
             { "label": "USA", "min": 2.9, "max": 3.1, "color": "#1e88e5" },
             { "label": "OECD-Ø", "min": 1.7, "max": 2.3, "color": "#546e7a" },
-            { "label": "Deutschland", "min": 0.8, "max": 0.9, "color": "#b71c1c" }
-          ]
+            { "label": "Deutschland", "min": 0.9, "max": 1.1, "color": "#b71c1c" }
+          ],
+          "sourceRefs": [7]
         },
         {
           "type": "table",
@@ -110,12 +120,14 @@
             ["Norwegen", "~1,7 Mio. NOK", "0,95–1,1 %", "~12 Mrd. NOK/J."],
             ["Spanien", "700.000 €", "0,2–3,5 % (+ Solidaritätsabgabe)", "~1,2 Mrd. €/J."],
             ["Kolumbien", "~200 Mio. COP", "0,5–1,5 %", "—"]
-          ]
+          ],
+          "sourceRefs": [7, 14]
         },
         {
           "type": "fact",
           "text": "Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch abgeschafft — das Gesetz gilt aber formal bis heute weiter.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [7, 14]
         }
       ]
     },
@@ -128,9 +140,10 @@
           "items": [
             { "value": "13,3 Mrd. €", "label": "Aufkommen", "sublabel": "festgesetzt 2024 (Rekord)" },
             { "value": "300–400 Mrd.", "label": "jährl. Erbvolumen", "sublabel": "davon nur 113 Mrd. steuerlich erfasst" },
-            { "value": "~9 Mrd. €", "label": "Mindereinnahmen/J.", "sublabel": "durch Betriebsvermögens-Verschonung" },
+            { "value": "~7,8 Mrd. €", "label": "Mindereinnahmen/J.", "sublabel": "durch Betriebsvermögens-Verschonung" },
             { "value": "~3 %", "label": "Effektiver Ø-Satz", "sublabel": "auf alle Erbschaften" }
-          ]
+          ],
+          "sourceRefs": [3, 5]
         },
         {
           "type": "line_chart",
@@ -146,7 +159,8 @@
             { "label": "2020", "value": 8.6 },
             { "label": "2022", "value": 9.2 },
             { "label": "2024", "value": 11.0 }
-          ]
+          ],
+          "sourceRefs": [3]
         },
         {
           "type": "table",
@@ -157,20 +171,24 @@
             ["Erbschaften < 20 Mio. €", "> 6 %", "Wenig Verschonungsmöglichkeiten"],
             ["Multimillionen-/Milliardenvermögen (Ø 2021–2024)", "Ø 1,8 %", "Betriebsvermögensverschonung"],
             ["Multimillionen-/Milliardenvermögen (2023)", "0,1 %", "Fast vollständige Befreiung"]
-          ]
+          ],
+          "sourceRefs": [5, 6]
         },
         {
           "type": "fact",
           "text": "0,7 % der Steuerpflichtigen erhalten 32 % aller erfassten Übertragungen — und 68 % aller steuerbefreiten Unternehmensübertragungen. Kleine Erben zahlen prozentual mehr als Milliardenerben.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [5, 6]
         },
         {
           "type": "fact",
-          "text": "2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,5 Mrd. € Erbschaftsteuer erlassen — bei ~26 Mrd. € übertragenem Vermögen. Das sind 94 % Steuererlass."
+          "text": "2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,5 Mrd. € Erbschaftsteuer erlassen — bei ~26 Mrd. € übertragenem Vermögen. Das sind 94 % Steuererlass.",
+          "sourceRefs": [5]
         },
         {
           "type": "text",
-          "text": "Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung durch das BVerfG wird 2026 erwartet."
+          "text": "Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung durch das BVerfG wird 2026 erwartet.",
+          "sourceRefs": [9, 10]
         }
       ]
     },
@@ -185,12 +203,14 @@
             { "value": "54 %", "label": "Erbschaften", "sublabel": "beinhalten inzwischen Immobilien" },
             { "value": "7–10 %", "label": "Erbvolumen/BIP", "sublabel": "~300–400 Mrd. €/Jahr" },
             { "value": "~1,1 %", "label": "ErbSt-Aufkommen", "sublabel": "am Gesamtsteueraufkommen" }
-          ]
+          ],
+          "sourceRefs": [3, 5]
         },
         {
           "type": "fact",
           "text": "Die reichsten 10 % erhalten die Hälfte aller Erbschaften — die ärmere Hälfte der Bevölkerung geht praktisch leer aus. Erbschaften verstärken die Ungleichheit, statt sie auszugleichen.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [1, 2]
         },
         {
           "type": "table",
@@ -202,16 +222,19 @@
             ["Festgesetzte Steuer", "13,3 Mrd. € (2024)"],
             ["Effektiver Steuersatz (gesamt)", "~2–3 %"],
             ["Zum Vergleich: Tabaksteuer", "~15 Mrd. €/J."]
-          ]
+          ],
+          "sourceRefs": [3, 5]
         },
         {
           "type": "fact",
           "text": "Die Erbschaftsteuer bringt weniger ein als die Tabaksteuer — obwohl jährlich bis zu 400 Milliarden Euro vererbt werden.",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [3]
         },
         {
           "type": "text",
-          "text": "In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Rund 40 Kinder unter 14 Jahren erhielten über die Verschonungsbedarfsprüfung zusammen 33 Mrd. Euro steuerbefreites Betriebsvermögen (durchschnittlich 825 Mio. € pro Kind)."
+          "text": "In den 1970ern bestand etwa 20 % des deutschen Privatvermögens aus Erbvermögen — heute ist es über die Hälfte. Laut FES-Studie erhielten 220 Kinder unter 14 Jahren zusammen 43 Mrd. Euro steuerbefreites Betriebsvermögen (durchschnittlich ~200 Mio. € pro Kind).",
+          "sourceRefs": [5, 6]
         }
       ]
     },
@@ -221,23 +244,24 @@
       "content": [
         {
           "type": "text",
-          "text": "Das DIW Berlin hat verschiedene Modelle einer Vermögensteuer durchgerechnet. Betroffen wäre im Wesentlichen nur das reichste 1 % der Bevölkerung; den Großteil des Aufkommens trüge das reichste 0,1 %."
+          "text": "Das DIW Berlin hat verschiedene Modelle einer Vermögensteuer durchgerechnet. Betroffen wäre im Wesentlichen nur das reichste 1 % der Bevölkerung; den Großteil des Aufkommens trüge das reichste 0,1 %.",
+          "sourceRefs": [4]
         },
         {
           "type": "table",
           "caption": "Modelle einer Vermögensteuer und geschätztes Aufkommen",
           "headers": ["Modell", "Freibetrag", "Steuersatz", "Aufkommen (brutto)"],
           "rows": [
-            ["DIW Basismodell", "1–2 Mio. €", "1 % proportional", "11–23 Mrd. €/J."],
-            ["SPD-Modell", "100 Mio. €", "2 %", "~15 Mrd. €/J."],
-            ["Grüne (nur Milliardäre)", "nur Milliardäre", "2 %", "~3,5 Mrd. €/J."],
-            ["Die Linke (DIW-Studie 2026)", "1 Mio. € (priv.)", "1–12 % (progressiv)", "~147 Mrd. €/J."]
-          ]
+            ["Die Linke: konservativ (DIW 2026)", "1 Mio. €", "1 % proportional", "~42 Mrd. €/J."],
+            ["Die Linke: progressiv (DIW 2026)", "1 Mio. €", "1–12 % (progressiv)", "~147 Mrd. €/J."]
+          ],
+          "sourceRefs": [4]
         },
         {
           "type": "fact",
-          "text": "Schon das moderate DIW-Basismodell (1 % ab 2 Mio. € Freibetrag) brächte 11–23 Mrd. Euro pro Jahr — mehr als die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.",
-          "highlight": true
+          "text": "Schon die konservativste Variante (1 % ab 1 Mio. € Freibetrag) brächte laut DIW rund 42 Mrd. Euro pro Jahr — mehr als dreimal so viel wie die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.",
+          "highlight": true,
+          "sourceRefs": [4]
         },
         {
           "type": "table",
@@ -249,11 +273,13 @@
             ["UK", "Nachlassbasiert", "~380.000 € (+ 205.000 Wohneigentum)", "40 %"],
             ["USA", "Nachlassbasiert", "~13,1 Mio. € pro Person", "40 %"],
             ["Japan", "Erwerberbasiert", "~185.000 € + pro Erbe", "55 %"]
-          ]
+          ],
+          "sourceRefs": [3, 7]
         },
         {
           "type": "fact",
-          "text": "IWF und OECD empfehlen Deutschland die Einführung einer Vermögensteuer: Sie sei 'weniger verzerrend' als die bestehenden hohen Steuern auf Arbeitseinkommen."
+          "text": "IWF und OECD empfehlen Deutschland die Einführung einer Vermögensteuer: Sie sei 'weniger verzerrend' als die bestehenden hohen Steuern auf Arbeitseinkommen.",
+          "sourceRefs": [8]
         }
       ]
     },
@@ -272,16 +298,19 @@
             { "label": "2014", "value": "BVerfG: Erbschaftsteuer-Privilegien verfassungswidrig", "sublabel": "Reform 2016 ließ Kernprivilegien bestehen" },
             { "label": "2025", "value": "Grundsteuer-Reform in Kraft", "sublabel": "Erstmals aktuelle Immobilienbewertungen — Grundlage für Vermögensteuer" },
             { "label": "2026", "value": "BVerfG prüft erneut Erbschaftsteuer-Privilegien", "sublabel": "Az. 1 BvR 804/22 — Entscheidung erwartet" }
-          ]
+          ],
+          "sourceRefs": [10]
         },
         {
           "type": "fact",
           "text": "Das BVerfG hat die Vermögensteuer NICHT für verfassungswidrig erklärt — nur die damalige Bewertungsmethode. Das Vermögensteuergesetz ist formal noch in Kraft. Für eine Wiedereinführung genügt ein einfaches Bundesgesetz (+ Bundesratszustimmung).",
-          "highlight": true
+          "highlight": true,
+          "sourceRefs": [10]
         },
         {
           "type": "text",
-          "text": "Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Durch die 2025 in Kraft getretene Grundsteuer-Reform existiert erstmals eine aktuelle Immobilienbewertung — das Haupthindernis von 1995 ist damit beseitigt."
+          "text": "Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Durch die 2025 in Kraft getretene Grundsteuer-Reform existiert erstmals eine aktuelle Immobilienbewertung — das Haupthindernis von 1995 ist damit beseitigt.",
+          "sourceRefs": [10]
         }
       ]
     }
@@ -290,14 +319,14 @@
     {
       "id": "hochsteuerland",
       "claim": "Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!",
-      "response": "Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) gehört Deutschland tatsächlich zur Weltspitze. Bei den vermögensbezogenen Steuern liegt Deutschland mit nur 0,9 % des BIP aber bei weniger als der Hälfte des OECD-Durchschnitts (1,9 %). UK erhebt über 4 %, die USA 3 %. Gerade weil Arbeit so hoch belastet ist, wäre eine Verlagerung hin zu Vermögenssteuern ökonomisch sinnvoll — auch IWF und OECD empfehlen das.",
+      "response": "Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) gehört Deutschland tatsächlich zur Weltspitze. Bei den vermögensbezogenen Steuern liegt Deutschland mit nur ~1 % des BIP aber bei etwa der Hälfte des OECD-Durchschnitts (1,9 %). UK erhebt knapp 4 %, die USA ~3 %. Gerade weil Arbeit so hoch belastet ist, wäre eine Verlagerung hin zu Vermögenssteuern ökonomisch sinnvoll — auch IWF und OECD empfehlen das.",
       "keywords": ["Hochsteuerland", "Steuerlast", "OECD", "Abgaben", "zu hoch"],
       "relatedSections": ["oecd-vergleich"]
     },
     {
       "id": "neidsteuer",
       "claim": "Das ist doch reine Neidsteuer! Typisch deutsche Neidgesellschaft!",
-      "response": "Es geht nicht um Neid, sondern um Chancengerechtigkeit. 72 % der deutschen Milliardäre sind Erben, nicht Selfmade. Über 50 % des Privatvermögens ist geerbt, nicht selbst erarbeitet. Wenn Geburt wichtiger wird als Leistung, ist das kein Neidproblem — sondern ein Gerechtigkeitsproblem. Auch die Schweiz, Norwegen und Spanien haben eine Vermögensteuer, ohne als 'Neidgesellschaften' zu gelten.",
+      "response": "Es geht nicht um Neid, sondern um Chancengerechtigkeit. In Europa dominieren Mehrgenerationen-Vermögen unter Milliardären — deutlich stärker als in den USA oder Asien. Über 50 % des Privatvermögens ist geerbt, nicht selbst erarbeitet. Wenn Geburt wichtiger wird als Leistung, ist das kein Neidproblem — sondern ein Gerechtigkeitsproblem. Auch die Schweiz, Norwegen und Spanien haben eine Vermögensteuer, ohne als 'Neidgesellschaften' zu gelten.",
       "keywords": ["Neid", "Neidsteuer", "Neidgesellschaft", "Missgunst", "gönnen"],
       "relatedSections": ["verteilung", "erbengesellschaft"]
     },
@@ -346,7 +375,7 @@
     {
       "id": "leistung-erbe",
       "claim": "Erbschaftsteuer bestraft Leistung und zerstört Lebenswerke!",
-      "response": "Erben ist keine eigene Leistung — die Leistung hat der Erblasser erbracht. Von den 300–400 Mrd. € die jährlich vererbt werden, werden nur 113 Mrd. steuerlich erfasst. Der effektive Steuersatz liegt bei 2–3 %. Schlimmer: Milliardenerben zahlen effektiv nur 0,1–1,8 %, während normale Erben bis zu 14 % zahlen. 40 Kinder unter 14 Jahren erhielten zusammen 33 Mrd. € steuerbefreites Betriebsvermögen. Das 'Lebenswerk'-Argument schützt in Wahrheit dynastische Privilegien.",
+      "response": "Erben ist keine eigene Leistung — die Leistung hat der Erblasser erbracht. Von den 300–400 Mrd. € die jährlich vererbt werden, werden nur 113 Mrd. steuerlich erfasst. Der effektive Steuersatz liegt bei 2–3 %. Schlimmer: Milliardenerben zahlen effektiv nur 0,1–1,8 %, während normale Erben bis zu 14 % zahlen. 220 Kinder unter 14 Jahren erhielten zusammen 43 Mrd. € steuerbefreites Betriebsvermögen. Das 'Lebenswerk'-Argument schützt in Wahrheit dynastische Privilegien.",
       "keywords": ["Leistung", "Lebenswerk", "hart gearbeitet", "bestraft", "unfair", "verdient"],
       "relatedSections": ["erbschaftssteuer", "erbengesellschaft"]
     },
@@ -371,21 +400,23 @@
       "url": "https://www.diw.de/de/diw_01.c.925733.de/publikationen/sonstige_aufsaetze/2024_0000/private_vermoegen__hoehe__entwicklung_und_verteilung.html"
     },
     {
-      "label": "Deutsche Bundesbank: Panel on Household Finances (PHF), Welle 2025",
-      "url": "https://www.bundesbank.de/de/statistiken/gesamtwirtschaftliche-rechenwerke/vermoegensbilanzen"
+      "label": "Deutsche Bundesbank: Panel on Household Finances (PHF), 5. Welle 2023",
+      "url": "https://www.bundesbank.de/de/bundesbank/forschung/studie-zur-wirtschaftlichen-lage-privater-haushalte-phf/ergebnisse-604886"
     },
     {
       "label": "Statistisches Bundesamt: Erbschaft- und Schenkungsteuer 2024 (PD25_320)",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_320_736.html"
     },
     {
-      "label": "DIW Politikberatung kompakt 211: Vermögensabgabe-Modelle (Bach/Wichers/Mudrack 2026)"
+      "label": "DIW Politikberatung kompakt 211: Vermögensteuer Die Linke (Bach/Wichers/Mudrack 2026)",
+      "url": "https://www.diw.de/de/diw_01.c.998456.de/publikationen/politikberatung_kompakt/2026_0211/vermoegensteuer_die_linke_____aufkommens-_und_verteilungswir___n_die_linke_in_den_landtagen_und_der_rosa-luxemburg-stiftung.html"
     },
     {
-      "label": "DIW Wochenbericht 4/2026: Erbschaftsteuer-Privilegien (Bach/Sinclair)"
+      "label": "DIW Wochenbericht 4/2026: Erbschaftsteuerreform (Bach/Sinclair)",
+      "url": "https://www.diw.de/de/diw_01.c.996032.de/publikationen/wochenberichte/2026_04_1/erbschaftsteuerreform__verguenstigungen_abbauen__freibetraege_erhoehen__steuertarifstulen_reduzieren.html"
     },
     {
-      "label": "FES-Studie: Milliardenvermögen steuerfrei erben (2025)",
+      "label": "FES-Studie: Milliardenvermögen steuerfrei erben (2022)",
       "url": "https://library.fes.de/pdf-files/a-p-b/19775.pdf"
     },
     {
@@ -393,29 +424,36 @@
       "url": "https://stats.oecd.org/Index.aspx?DataSetCode=REV"
     },
     {
-      "label": "OECD Economic Survey Germany 2019 — Empfehlung Vermögensteuer"
+      "label": "OECD Economic Survey Germany 2023 — Empfehlung Vermögensteuer",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-germany-2023_9642a3f5-en.html"
     },
     {
-      "label": "30. Subventionsbericht der Bundesregierung (Sept. 2025)"
+      "label": "30. Subventionsbericht der Bundesregierung (Sept. 2025)",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/30-subventionsbericht.html"
     },
     {
-      "label": "BVerfG: Beschluss vom 22.6.1995 (2 BvL 37/91, BVerfGE 93, 121)"
+      "label": "BVerfG: Beschluss vom 22.6.1995 (2 BvL 37/91, BVerfGE 93, 121)",
+      "url": "https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BVerfG&Datum=22.06.1995&Aktenzeichen=2+BvL+37/91"
     },
     {
-      "label": "Capgemini World Wealth Report 2025 — HNWI-Statistiken"
+      "label": "Capgemini World Wealth Report 2025 — HNWI-Statistiken",
+      "url": "https://www.capgemini.com/insights/research-library/world-wealth-report/"
     },
     {
-      "label": "UBS Billionaire Ambitions Report 2024 — Selfmade vs. Erben"
+      "label": "UBS Billionaire Ambitions Report 2024",
+      "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20241205-billionaire-ambitions-report-2024.html"
     },
     {
-      "label": "EZB: Household Finance and Consumption Survey (HFCS), Wave 2021"
+      "label": "EZB: Household Finance and Consumption Survey (HFCS), Wave 2021",
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html"
     },
     {
       "label": "Tax Foundation: Wealth Taxes in Europe (2025)",
       "url": "https://taxfoundation.org/data/all/eu/wealth-taxes-in-europe/"
     },
     {
-      "label": "Netzwerk Steuergerechtigkeit: Mythencheck Erbschaftsteuer (2025)"
+      "label": "Netzwerk Steuergerechtigkeit",
+      "url": "https://www.netzwerk-steuergerechtigkeit.de"
     }
   ]
 }
