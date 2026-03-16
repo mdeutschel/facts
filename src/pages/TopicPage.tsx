@@ -128,16 +128,17 @@ export default function TopicPage() {
               key={section.id === expandedSection ? `${section.id}-target` : section.id}
               section={section}
               defaultExpanded={section.id === expandedSection}
+              sources={topic.sources}
             />
           ))}
           {topic.sources.length > 0 && (
-            <Box sx={{ mt: 3, pt: 2, borderTop: 1, borderColor: 'divider' }}>
+            <Box id="quellen" sx={{ mt: 3, pt: 2, borderTop: 1, borderColor: 'divider' }}>
               <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 600 }}>
                 Quellen
               </Typography>
-              <Box component="ul" sx={{ pl: 2, mt: 0.5, mb: 0 }}>
+              <Box component="ol" sx={{ pl: 2.5, mt: 0.5, mb: 0 }}>
                 {topic.sources.map((src, i) => (
-                  <Typography component="li" variant="caption" color="text.secondary" key={i}>
+                  <Typography component="li" variant="caption" color="text.secondary" key={i} sx={{ fontSize: '0.65rem' }}>
                     {src.url ? (
                       <a
                         href={src.url}
@@ -145,10 +146,12 @@ export default function TopicPage() {
                         rel="noopener noreferrer"
                         style={{ color: 'inherit' }}
                       >
-                        {src.label}
+                        [{i + 1}] {src.label}
                       </a>
                     ) : (
-                      src.label
+                      <>
+                        [{i + 1}] {src.label}
+                      </>
                     )}
                   </Typography>
                 ))}

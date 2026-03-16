@@ -17,10 +17,38 @@ import ComparisonView from '../visualizations/ComparisonView'
 import RangeBarChart from '../visualizations/RangeBarChart'
 import TimelineView from '../visualizations/TimelineView'
 import ProgressStack from '../visualizations/ProgressStack'
-import type { Section, ContentBlock } from '../../types'
+import type { Section, ContentBlock, Source } from '../../types'
 
 const SimpleBarChart = lazy(() => import('../visualizations/SimpleBarChart'))
 const SimpleLineChart = lazy(() => import('../visualizations/SimpleLineChart'))
+
+function SourceRefLinks({ refs, sources }: { refs?: number[]; sources?: Source[] }) {
+  if (!refs?.length || !sources?.length) return null
+  return (
+    <Typography
+      component="span"
+      variant="caption"
+      sx={{ color: 'text.disabled', fontSize: '0.65rem', ml: 0.5 }}
+    >
+      [{refs.map((ref, i) => (
+        <span key={ref}>
+          {i > 0 && ', '}
+          <Box
+            component="a"
+            href="#quellen"
+            sx={{ color: 'text.disabled', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}
+            onClick={(e: React.MouseEvent) => {
+              e.preventDefault()
+              document.getElementById('quellen')?.scrollIntoView({ behavior: 'smooth' })
+            }}
+          >
+            {ref}
+          </Box>
+        </span>
+      ))}]
+    </Typography>
+  )
+}
 
 function ContentBlockView({ block }: { block: ContentBlock }) {
   if (block.type === 'fact') {
@@ -136,12 +164,26 @@ function ContentBlockView({ block }: { block: ContentBlock }) {
   return null
 }
 
+function ContentBlockWithSources({ block, sources }: { block: ContentBlock; sources?: Source[] }) {
+  return (
+    <Box>
+      <ContentBlockView block={block} />
+      {'sourceRefs' in block && block.sourceRefs && (
+        <Box sx={{ textAlign: 'right', mt: -0.25 }}>
+          <SourceRefLinks refs={block.sourceRefs} sources={sources} />
+        </Box>
+      )}
+    </Box>
+  )
+}
+
 interface FactSectionProps {
   section: Section
   defaultExpanded?: boolean
+  sources?: Source[]
 }
 
-export default function FactSection({ section, defaultExpanded = false }: FactSectionProps) {
+export default function FactSection({ section, defaultExpanded = false, sources }: FactSectionProps) {
   return (
     <Accordion defaultExpanded={defaultExpanded} id={`section-${section.id}`}>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
@@ -152,7 +194,7 @@ export default function FactSection({ section, defaultExpanded = false }: FactSe
       <AccordionDetails>
         <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
           {section.content.map((block, i) => (
-            <ContentBlockView key={i} block={block} />
+            <ContentBlockWithSources key={i} block={block} sources={sources} />
           ))}
         </Box>
       </AccordionDetails>
