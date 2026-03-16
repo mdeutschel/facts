@@ -68,9 +68,35 @@
         },
         {
           "type": "fact",
-          "text": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten grundsätzlich Leistungen nach dem Asylbewerberleistungsgesetz.",
+          "text": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten Leistungen nach dem AsylbLG — nicht das Bürgergeld.",
           "sourceRefs": [
             "sgb2-paragraf-7",
+            "asylbewerberleistungsgesetz-leistungssaetze"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Bürgergeld vs. AsylbLG-Grundleistungen (Alleinstehende, 2026)",
+          "items": [
+            {
+              "title": "Bürgergeld (SGB II)",
+              "color": "#37474f",
+              "rows": [
+                { "label": "Regelbedarf", "value": "563 €/Monat" },
+                { "label": "Unterkunft + Heizung", "value": "zusätzlich (angemessen)" }
+              ]
+            },
+            {
+              "title": "AsylbLG-Grundleistungen",
+              "color": "#00897b",
+              "rows": [
+                { "label": "Grundleistungen gesamt", "value": "~460 €/Monat" },
+                { "label": "davon pers. Bedarf", "value": "~202 €" }
+              ]
+            }
+          ],
+          "savings": "Asylbewerber erhalten rund 100 € weniger als Bürgergeld-Empfänger — und erst nach 36 Monaten erweiterten Leistungsumfang.",
+          "sourceRefs": [
             "asylbewerberleistungsgesetz-leistungssaetze"
           ]
         },
@@ -138,8 +164,22 @@
           ]
         },
         {
+          "type": "table",
+          "caption": "Aufschlüsselung Single-Haushalt (WSI-Modellrechnung, Bundesdurchschnitt)",
+          "headers": ["Position", "Bürgergeld", "Mindestlohn-Vollzeit"],
+          "rows": [
+            ["Regelbedarf / Nettolohn", "563 €", "~1.572 € netto"],
+            ["Unterkunft + Heizung", "~452 €", "vom Netto zu zahlen"],
+            ["Verfügbar nach Miete", "563 €", "~1.120 €"],
+            ["Einkommensvorteil", "", "+557 €/Monat"]
+          ],
+          "sourceRefs": [
+            "wsi-studie-zum-lohnabstandsgebot-2024-2025"
+          ]
+        },
+        {
           "type": "text",
-          "text": "Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv.",
+          "text": "Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv. Ein alleinstehender Mindestlohn-Beschäftigter hat über das Jahr gerechnet rund 6.700 € mehr zur Verfügung als im Bürgergeldbezug.",
           "sourceRefs": [
             "wsi-studie-zum-lohnabstandsgebot-2024-2025"
           ]
@@ -165,17 +205,17 @@
             {
               "label": "1. Verstoß",
               "value": 10,
-              "sublabel": "10% Kürzung für 1 Monat"
+              "sublabel": "10 % = −56 €/Monat für 1 Monat"
             },
             {
               "label": "2. Verstoß",
               "value": 20,
-              "sublabel": "20% Kürzung für 2 Monate"
+              "sublabel": "20 % = −113 €/Monat für 2 Monate"
             },
             {
               "label": "3. Verstoß",
               "value": 30,
-              "sublabel": "30% Kürzung für 3 Monate"
+              "sublabel": "30 % = −169 €/Monat für 3 Monate"
             }
           ],
           "sourceRefs": [
@@ -271,7 +311,7 @@
     {
       "id": "arg_auslaender",
       "claim": "Das Bürgergeld lockt nur Ausländer an, die sich hier auf unsere Kosten ein schönes Leben machen.",
-      "response": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen. Asylbewerber erhalten grundsätzlich Leistungen nach dem Asylbewerberleistungsgesetz, deren Bedarfssätze unter dem Bürgergeld liegen.",
+      "response": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. Asylbewerber erhalten Leistungen nach dem AsylbLG — das sind ca. 460 € statt 563 € (rund 100 € weniger als Bürgergeld). Erst nach 36 Monaten erweitert sich der Leistungsumfang. EU-Bürger sind in den ersten drei Monaten sowie bei Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen.",
       "keywords": [
         "ausländer",
         "flüchtlinge",

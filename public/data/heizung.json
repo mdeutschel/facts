@@ -34,36 +34,38 @@
         },
         {
           "type": "comparison",
-          "caption": "Typische Kostentreiber im Vergleich",
+          "caption": "Beispielrechnung: Einfamilienhaus, 20.000 kWh Wärmebedarf/Jahr",
           "items": [
             {
               "title": "Gasheizung (Brennwert)",
               "color": "#546e7a",
               "rows": [
-                { "label": "Anschaffung", "value": "oft zunächst günstiger" },
-                { "label": "Brennstoffkosten", "value": "abhängig vom Gaspreis" },
-                { "label": "CO₂-Kosten", "value": "steigen mit dem CO₂-Preis" },
-                { "label": "Infrastruktur-Risiko", "value": "abhängig von Netz- und Regulierungspfaden" }
+                { "label": "Energieverbrauch", "value": "20.000 kWh Gas" },
+                { "label": "Gaspreis (2026)", "value": "~10 Ct/kWh" },
+                { "label": "Energiekosten", "value": "~2.000 €/Jahr" },
+                { "label": "CO₂-Kosten (55 €/t)", "value": "+220 €/Jahr" },
+                { "label": "Wartung", "value": "~250 €/Jahr" }
               ],
-              "total": { "label": "Gesamtkosten", "value": "stark szenarioabhängig" }
+              "total": { "label": "Jährliche Betriebskosten", "value": "~2.470 €" }
             },
             {
-              "title": "Wärmepumpe (Luft-Wasser)",
+              "title": "Wärmepumpe (Luft-Wasser, JAZ 3,5)",
               "color": "#00897b",
               "rows": [
-                { "label": "Anschaffung", "value": "oft höher, aber förderfähig" },
-                { "label": "Betriebskosten", "value": "abhängig von Strompreis und Effizienz" },
-                { "label": "CO₂-Kosten", "value": "keine direkte fossile CO₂-Abgabe" },
-                { "label": "Systemvorteil", "value": "kombinierbar mit PV und variablen Tarifen" }
+                { "label": "Energieverbrauch", "value": "~5.700 kWh Strom" },
+                { "label": "WP-Strompreis (2026)", "value": "~24 Ct/kWh" },
+                { "label": "Energiekosten", "value": "~1.370 €/Jahr" },
+                { "label": "CO₂-Kosten", "value": "0 € (kein fossiler Brennstoff)" },
+                { "label": "Wartung", "value": "~150 €/Jahr" }
               ],
-              "total": { "label": "Gesamtkosten", "value": "ebenfalls objektabhängig" }
+              "total": { "label": "Jährliche Betriebskosten", "value": "~1.520 €" }
             }
           ],
-          "savings": "Belastbar ist nur der Vergleich konkreter Gebäude und konkreter Angebote."
+          "savings": "Ersparnis Wärmepumpe: rund 950 €/Jahr im Betrieb. Prämissen: Gaspreis 10 Ct/kWh, WP-Strom 24 Ct/kWh, JAZ 3,5, CO₂-Preis 55 €/t."
         },
         {
           "type": "text",
-          "text": "Für belastbare Einzelfallrechnungen sollten Förderhöhe, Vorlauftemperaturen, Gebäudestand und realistische Energiepreise transparent offengelegt werden."
+          "text": "Die konkreten Gesamtkosten hängen stark vom Gebäude, den Energiepreisen und der Förderhöhe ab. Die Beispielrechnung zeigt aber die Größenordnung: Bei steigendem CO₂-Preis (ab 2027 marktbasiert, ETS 2) wird der Betriebsvorteil der Wärmepumpe weiter wachsen."
         }
       ]
     },
@@ -95,7 +97,7 @@
           ],
           "sourceRefs": ["ewi-koeln-auswirkungen-und-preispfade-des-eu"]
         },
-        { "type": "fact", "text": "Bei 160 EUR/t CO₂ lägen die CO₂-Kosten für einen Gas-Haushalt mit 20.000 kWh bei rund 650 EUR pro Jahr; bei 55 EUR/t sind es rund 220 EUR.", "highlight": true, "sourceRefs": ["ewi-koeln-auswirkungen-und-preispfade-des-eu"] }
+        { "type": "fact", "text": "55 EUR/t CO₂ entsprechen einem Aufschlag von ca. 1,1 Ct/kWh auf den Gaspreis (→ +220 EUR/Jahr bei 20.000 kWh). Bei 160 EUR/t wären es ca. 3,2 Ct/kWh (→ +650 EUR/Jahr). Jeder CO₂-Preisanstieg trifft nur fossile Heizungen, nicht die Wärmepumpe.", "highlight": true, "sourceRefs": ["ewi-koeln-auswirkungen-und-preispfade-des-eu"] }
       ]
     },
     {
@@ -329,9 +331,24 @@
           ],
           "sourceRefs": ["kfw-heizungsfoerderung-fuer-privatpersonen"]
         },
-        { "type": "fact", "text": "KfW-Ergänzungskredit 358/359 verfügbar", "sourceRefs": ["kfw-ergaenzungskredit-358-359"] },
-        { "type": "fact", "text": "Antrag VOR Einbau bei KfW stellen", "sourceRefs": ["kfw-heizungsfoerderung-fuer-privatpersonen"] },
-        { "type": "fact", "text": "Ohne Batteriespeicher erreichen PV-Wärmepumpen-Kombinationen laut Fraunhofer ISE etwa 25–40 % Autarkie und 22–37 % Eigenverbrauch.", "highlight": true }
+        {
+          "type": "table",
+          "caption": "Rechenbeispiel: Was bleibt nach Förderung? (EFH, Tausch Gasheizung)",
+          "headers": ["Position", "Betrag"],
+          "rows": [
+            ["Luft-Wasser-WP inkl. Installation", "~30.000 €"],
+            ["Förderfähige Kosten (max. 30.000 €)", "30.000 €"],
+            ["Grundförderung (30 %)", "−9.000 €"],
+            ["Geschwindigkeitsbonus (20 %, bis Ende 2028)", "−6.000 €"],
+            ["Eigenanteil bei 50 % Förderung", "~15.000 €"],
+            ["Mit Einkommensbonus (< 40.000 €/a, 70 %)", "~9.000 € Eigenanteil"],
+            ["Betriebskosten-Ersparnis/Jahr vs. Gas", "~950 €"],
+            ["Amortisation (bei 50 % Förderung)", "~16 Jahre"]
+          ],
+          "sourceRefs": ["kfw-heizungsfoerderung-fuer-privatpersonen"]
+        },
+        { "type": "fact", "text": "KfW-Ergänzungskredit 358/359 verfügbar: bis zu 120.000 € zinsgünstiges Darlehen für die restlichen Kosten.", "sourceRefs": ["kfw-ergaenzungskredit-358-359"] },
+        { "type": "fact", "text": "Antrag VOR Einbau bei KfW stellen — sonst verfällt der Förderanspruch.", "highlight": true, "sourceRefs": ["kfw-heizungsfoerderung-fuer-privatpersonen"] }
       ]
     }
   ],
@@ -346,7 +363,7 @@
     {
       "id": "gas-billiger",
       "claim": "Gas ist doch viel billiger!",
-      "response": "In der Anschaffung kann Gas zunächst günstiger wirken. Bei Betriebskosten, CO₂-Kosten und Infrastruktur-Risiken spricht aber vieles für die Wärmepumpe. Konkrete 20-Jahres-Summen sollte man nur nennen, wenn Gebäude, Effizienz, Energiepreise und Förderung transparent offengelegt sind.",
+      "response": "In der Anschaffung ist Gas oft günstiger. Im Betrieb spart eine Wärmepumpe bei einem typischen EFH (20.000 kWh, JAZ 3,5) aber rund 950 €/Jahr gegenüber Gas — und das schon bei heutigen Preisen. Jeder CO₂-Preisanstieg vergrößert den Vorteil weiter: 55 €/t CO₂ kosten den Gashaushalt ca. 220 €/Jahr, bei 160 €/t schon 650 €/Jahr extra.",
       "keywords": ["kosten", "gas", "billiger", "preis", "anschaffung"],
       "relatedSections": ["kostenvergleich", "co2-preis"]
     },

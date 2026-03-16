@@ -154,9 +154,19 @@
           ]
         },
         {
+          "type": "stat_grid",
+          "items": [
+            { "value": "−3,2 Mio.", "label": "Erwerbspersonen", "sublabel": "20- bis 66-Jährige sinken bis Mitte 2030er", "color": "#b71c1c" },
+            { "value": "64 %", "label": "Beschäftigungsquote", "sublabel": "der 2015 zugezogenen Geflüchteten (Ende 2024)" },
+            { "value": "50 %", "label": "Fachkraft oder höher", "sublabel": "der beschäftigten Geflüchteten nach 7–8 Jahren" }
+          ],
+          "sourceRefs": ["destatis-demografischer-wandel-fachkraefte", "iab-10-jahre-fluchtmigration-2025"]
+        },
+        {
           "type": "fact",
-          "text": "Die hier hinterlegten BAMF- und IAB-Quellen belegen vor allem die Entwicklung der Asylzahlen und die langfristige Arbeitsmarktintegration der 2015 zugezogenen Geflüchteten.",
-          "highlight": true
+          "text": "Selbst bei hoher Nettozuwanderung sinkt laut Destatis die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er um rund 3,2 Millionen. Integration in den Arbeitsmarkt ist daher keine Kür, sondern volkswirtschaftliche Notwendigkeit.",
+          "highlight": true,
+          "sourceRefs": ["destatis-demografischer-wandel-fachkraefte"]
         }
       ]
     }

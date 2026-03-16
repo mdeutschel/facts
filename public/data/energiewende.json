@@ -441,9 +441,9 @@
               "OECD/IEA-NEA 2020"
             ],
             [
-              "Hinkley Point C (Strike Price)",
-              "inflationsindexierter CfD",
-              "Projektpreis nicht direkt mit LCOE identisch"
+              "Hinkley Point C (Strike Price Jan 2026)",
+              "~127 GBP/MWh ≈ 15 Ct/kWh",
+              "inflationsindexiert, steigt weiter"
             ]
           ]
         },
@@ -477,28 +477,28 @@
               "GB",
               "2017 - 2030+",
               "18 Mrd. GBP",
-              "deutlich über Startbudget"
+              "35 Mrd. GBP (~48 Mrd. GBP nominal)"
             ],
             [
               "Flamanville 3",
               "FR",
               "2007 - 2024",
               "3,3 Mrd. EUR",
-              "deutlich über Startbudget"
+              "23,7 Mrd. EUR (Rechnungshof)"
             ],
             [
               "Olkiluoto 3",
               "FI",
               "2005 - 2023",
               "3 Mrd. EUR",
-              "deutlich über Startbudget"
+              "~11 Mrd. EUR"
             ],
             [
               "Vogtle 3&4",
               "USA",
               "2013 - 2023/24",
               "14 Mrd. USD",
-              "deutlich über Startbudget"
+              "~35 Mrd. USD"
             ]
           ],
           "sourceRefs": [
@@ -518,7 +518,7 @@
         },
         {
           "type": "fact",
-          "text": "Keines der großen westlichen Neubauprojekte blieb im ursprünglichen Budget. Die Realisierung dauert eher in der Größenordnung von grob 11 bis 19 Jahren als in wenigen Jahren.",
+          "text": "Kein westliches Neubauprojekt blieb im Budget: Flamanville 3 kostete statt 3,3 Mrd. am Ende 23,7 Mrd. €; Hinkley Point C stieg von 18 auf 35 Mrd. GBP. Die Bauzeiten lagen bei 13–18 Jahren statt der geplanten 5–6.",
           "highlight": true,
           "sourceRefs": [
             "edf-hinkley-point-c-financial-update-2024",
@@ -548,8 +548,19 @@
       "title": "Frankreich 2022: Warnung vor dem „Versorgungssicher“-Mythos",
       "content": [
         {
+          "type": "stat_grid",
+          "items": [
+            { "value": "32 von 56", "label": "Reaktoren offline", "sublabel": "auf dem Höhepunkt (Aug/Sept 2022)", "color": "#b71c1c" },
+            { "value": "< 30 GW", "label": "verfügbare Leistung", "sublabel": "von 61,4 GW installiert — historisches Tief" },
+            { "value": "Nettoimporteur", "label": "Frankreich 2022", "sublabel": "u. a. aus Deutschland" }
+          ],
+          "sourceRefs": [
+            "edf-stress-corrosion-phenomenon-and-2022-french"
+          ]
+        },
+        {
           "type": "fact",
-          "text": "2022 waren in Frankreich zeitweise zahlreiche Reaktoren gleichzeitig außer Betrieb.",
+          "text": "Auf dem Höhepunkt der Krise 2022 waren 32 von 56 französischen Reaktoren gleichzeitig abgeschaltet. Die verfügbare Leistung fiel unter 30 GW — ein historisches Tief seit 1999.",
           "highlight": true,
           "sourceRefs": [
             "edf-stress-corrosion-phenomenon-and-2022-french"
@@ -557,7 +568,7 @@
         },
         {
           "type": "text",
-          "text": "Ursache 1: Spannungsrisskorrosion an Rohrleitungen (Sicherheitsüberprüfungen). Ursache 2: Kühlwassermangel durch Hitzewellen und niedrige Flusspegel. Folge: Frankreich wurde zum Nettostromimporteur, u.a. aus Deutschland.",
+          "text": "Ursachen: Spannungsrisskorrosion an Kühlrohrleitungen (Sicherheitsinspektionen) und Kühlwassermangel durch Hitzewellen. Frankreich — das zu 70 % auf Atomstrom setzt — wurde zum Nettostromimporteur, u. a. aus Deutschland.",
           "sourceRefs": [
             "edf-stress-corrosion-phenomenon-and-2022-french"
           ]

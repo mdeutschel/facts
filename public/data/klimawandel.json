@@ -445,6 +445,23 @@
           "sourceRefs": [
             "umweltbundesamt-uba-finale-emissionsdaten-2024"
           ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "CO₂-Emissionen pro Kopf im internationalen Vergleich (2024, in Tonnen)",
+          "unit": "t/Kopf",
+          "items": [
+            { "label": "USA", "value": 14.2, "highlight": true },
+            { "label": "China", "value": 8.9 },
+            { "label": "Deutschland", "value": 6.8, "highlight": true },
+            { "label": "Welt-Ø", "value": 4.7 },
+            { "label": "Indien", "value": 2.0 }
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Deutschland liegt mit 6,8 Tonnen CO₂ pro Kopf immer noch 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Das relativiert das Argument 'Deutschland allein kann nichts bewirken'.",
+          "highlight": true
         }
       ]
     },
@@ -566,20 +583,20 @@
               "color": "#b71c1c",
               "rows": [
                 {
+                  "label": "Extremwetterschäden 2024",
+                  "value": "320 Mrd. USD global (Munich Re)"
+                },
+                {
+                  "label": "Deutschland 2024",
+                  "value": "5,7 Mrd. € Naturgefahrenschäden (GDV)"
+                },
+                {
+                  "label": "Ahrtal 2021 allein",
+                  "value": "8,75 Mrd. € versichert"
+                },
+                {
                   "label": "IPCC-Warnung",
-                  "value": "mehr Carbon Lock-ins"
-                },
-                {
-                  "label": "Finanzrisiken",
-                  "value": "mehr stranded assets"
-                },
-                {
-                  "label": "Folge",
-                  "value": "höhere Zusatzkosten"
-                },
-                {
-                  "label": "Klimarisiko",
-                  "value": "mehr Verluste und Schäden mit jedem Erwärmungsschritt"
+                  "value": "Verzögerung erhöht Lock-ins und Folgekosten"
                 }
               ]
             }
@@ -708,7 +725,7 @@
     {
       "id": "deutschland-allein",
       "claim": "Deutschland allein kann das Klima nicht retten!",
-      "response": "Deutschland allein entscheidet das Klima nicht. Aber Deutschland liegt pro Kopf weiter über dem Weltmittel und gehört historisch zu den Mitverursachern. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.",
+      "response": "Deutschland allein entscheidet das Klima nicht. Aber mit 6,8 Tonnen CO₂ pro Kopf liegt Deutschland 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Historisch gehört Deutschland zu den größten Emittenten. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.",
       "keywords": [
         "deutschland",
         "allein",

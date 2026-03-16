@@ -86,7 +86,7 @@
         },
         {
           "type": "fact",
-          "text": "In Ostdeutschland ist der unbereinigte Gender Pay Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).",
+          "text": "Bei einer Vollzeitstelle mit 38 Wochenstunden ergibt der unbereinigte Pay Gap von 4,24 €/Stunde einen Gehaltsunterschied von rund 8.400 € brutto pro Jahr. In Ostdeutschland ist der Gap mit 5 % deutlich geringer als in Westdeutschland (17 %).",
           "highlight": true,
           "sourceRefs": ["destatis-gender-pay-gap-2025"]
         }
@@ -94,7 +94,7 @@
     },
     {
       "id": "care-gap",
-      "title": "Unbezahlte Care-Arbeit",
+      "title": "Unbezahlte Care-Arbeit & Child Penalty",
       "content": [
         {
           "type": "text",
@@ -113,9 +113,15 @@
               "label": "Tägliche Differenz",
               "value": "+76 Min.",
               "sublabel": "Mehrarbeit von Frauen pro Tag"
+            },
+            {
+              "label": "Child Penalty (ZEW)",
+              "value": "−30.000 €",
+              "sublabel": "Einkommensverlust Mütter im 4. Jahr nach 1. Geburt",
+              "color": "#b71c1c"
             }
           ],
-          "sourceRefs": ["bmfsfj-destatis-gender-care-gap"]
+          "sourceRefs": ["bmfsfj-destatis-gender-care-gap", "zew-einkommensverlust-nach-geburt"]
         },
         {
           "type": "bar_chart",
@@ -133,6 +139,12 @@
             }
           ],
           "sourceRefs": ["destatis-erwerbsarbeit-und-unbezahlte-arbeit"]
+        },
+        {
+          "type": "fact",
+          "text": "Laut ZEW verdienen Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger als vergleichbare Frauen ohne Kinder. Dieser 'Child Penalty' wirkt langfristig auf Karriere, Vermögen und Rente.",
+          "highlight": true,
+          "sourceRefs": ["zew-einkommensverlust-nach-geburt"]
         }
       ]
     },
@@ -254,7 +266,7 @@
     {
       "id": "pension-gap",
       "claim": "Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.",
-      "response": "Der Gender Pension Gap liegt 2025 je nach Abgrenzung bei 24,2 % inklusive Hinterbliebenenrenten und bei 36,2 % für eigene Alterseinkünfte. Dahinter stehen niedrigere Löhne, häufigere Teilzeit und Erwerbsunterbrechungen durch Care-Arbeit. Frauen ab 65 sind zudem häufiger armutsgefährdet als Männer (2023: 20,8 % vs. 15,9 %).",
+      "response": "In konkreten Euro: Männer bekommen im Schnitt ~1.346 € Altersrente pro Monat, Frauen nur ~903 € — das sind 443 € weniger, jeden Monat. Auf ein Jahr gerechnet fehlen Frauen über 5.300 € Rente. Dahinter stehen niedrigere Löhne, häufigere Teilzeit und Erwerbsunterbrechungen durch Care-Arbeit. Frauen ab 65 sind zudem häufiger armutsgefährdet (2023: 20,8 % vs. 15,9 % bei Männern).",
       "keywords": [
         "Rente",
         "Pension",

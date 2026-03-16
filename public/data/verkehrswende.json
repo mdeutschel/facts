@@ -243,32 +243,35 @@
       "title": "Flächenverbrauch & Stadtplanung",
       "content": [
         {
+          "type": "stat_grid",
+          "items": [
+            { "value": "12 m²", "label": "1 Pkw-Stellplatz", "sublabel": "am Straßenrand" },
+            { "value": "~23 Std.", "label": "steht ein Auto", "sublabel": "durchschnittlich pro Tag ungenutzt" },
+            { "value": "8–10", "label": "Fahrräder", "sublabel": "passen auf einen Pkw-Stellplatz" }
+          ],
+          "sourceRefs": [
+            "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
+          ]
+        },
+        {
           "type": "fact",
-          "text": "Autos beanspruchen viel öffentlichen Raum, obwohl sie einen Großteil der Zeit nicht bewegt werden.",
-          "description": "Öffentlicher Raum ist knapp. Gerade parkende Fahrzeuge binden Fläche, die auch anders genutzt werden könnte.",
+          "text": "Ein einziger Pkw-Stellplatz (ca. 12 m²) bindet Fläche für 8–10 Fahrradabstellplätze oder einen kleinen Straßenbaum mit Grünfläche. Autos stehen im Schnitt rund 23 Stunden am Tag ungenutzt.",
           "highlight": true,
           "sourceRefs": [
             "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
           ]
         },
         {
-          "type": "text",
-          "text": "Parken ist kein Nulltarif-Thema: Es beansprucht wertvolle Stadtfläche, verursacht Bewirtschaftungsaufwand und konkurriert mit Grünflächen, Radwegen, Lieferzonen oder Aufenthaltsräumen.",
-          "sourceRefs": [
-            "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
-          ]
-        },
-        {
           "type": "fact",
-          "text": "In vielen Städten beansprucht der motorisierte Individualverkehr deutlich mehr Fläche, als seinem Anteil an den tatsächlich zurückgelegten Wegen entspricht.",
-          "description": "Flächenkonflikte in Städten sind deshalb auch eine Frage von Parkraumpolitik und Straßenraumverteilung.",
+          "text": "Laut einer MDPI-Studie (2024) liegen die externen Kosten eines durchschnittlichen Pkw bei rund 5.000 € pro Jahr — u. a. für Unfälle, Infrastruktur, Lärm und Luftverschmutzung. Diese Kosten trägt die Allgemeinheit, nicht der Autofahrer.",
+          "description": "Zum Vergleich: Die gesamten externen Kosten des ÖPNV sind rund 21-mal niedriger als die des PKW-Verkehrs.",
           "sourceRefs": [
             "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
           ]
         },
         {
           "type": "text",
-          "text": "Verkehrswende bedeutet hier nicht Autofeindschaft, sondern eine gerechtere Verteilung des öffentlichen Raums zwischen Gehen, Radfahren, ÖPNV, Lieferverkehr und Autos.",
+          "text": "Verkehrswende bedeutet nicht Autofeindschaft, sondern eine gerechtere Verteilung des öffentlichen Raums zwischen Gehen, Radfahren, ÖPNV, Lieferverkehr und Autos — und ehrliche Kostentransparenz.",
           "sourceRefs": [
             "uba-parkraummanagement-nachhaltige-urbane-mobilitaet"
           ]
@@ -456,20 +459,67 @@
           ]
         },
         {
-          "type": "fact",
-          "text": "Ein eigener Pkw verursacht laut ADAC auch bei günstigen Modellen erhebliche Gesamtkosten aus Wertverlust, Versicherung, Wartung und Betrieb.",
-          "description": "Entscheidend sind nicht nur Sprit und Kaufpreis, sondern vor allem auch Wertverlust, Versicherung, Wartung und Reifen.",
+          "type": "table",
+          "caption": "Pendlerkosten-Vergleich: 17 km einfach, 220 Arbeitstage/Jahr",
+          "headers": ["Verkehrsmittel", "Kosten/Monat", "Kosten/Jahr"],
+          "rows": [
+            ["PKW (Kleinwagen, ADAC-Vollkosten)", "~290 €", "~3.500 €"],
+            ["Deutschlandticket (ÖPNV)", "63 €", "756 €"],
+            ["E-Bike (Anschaffung + Strom + Wartung)", "~40 €", "~480 €"],
+            ["Fahrrad (Wartung/Abschreibung)", "~20 €", "~240 €"]
+          ],
           "sourceRefs": [
-            "adac-kleinstwagen-autokosten"
+            "adac-kleinstwagen-autokosten",
+            "vdv-pressemitteilung-deutschlandticket-jan-2026"
           ]
         },
         {
           "type": "fact",
-          "text": "Deutschlandticket, Fahrrad und gelegentliches Carsharing können je nach Nutzungsprofil deutlich günstiger sein als ein eigenes Auto.",
-          "description": "Mobilitätskosten sind Verteilungsfragen. Wer Alternativen hat, kann viel Geld sparen.",
+          "text": "Bei einer typischen Pendelstrecke von 17 km kostet das Auto rund 3.500 €/Jahr (ADAC-Vollkosten). Wer auf Deutschlandticket + Fahrrad umsteigt, spart über 2.500 € im Jahr.",
+          "highlight": true,
           "sourceRefs": [
             "adac-kleinstwagen-autokosten",
             "vdv-pressemitteilung-deutschlandticket-jan-2026"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Mobilitätskosten im Vergleich (monatlich)",
+          "items": [
+            {
+              "title": "Eigener Kleinstwagen",
+              "color": "#546e7a",
+              "rows": [
+                { "label": "ADAC-Gesamtkosten", "value": "ab ~350 €/Monat" },
+                { "label": "davon Wertverlust", "value": "~100–150 €" },
+                { "label": "davon Kraftstoff", "value": "~80–120 €" },
+                { "label": "davon Versicherung + Steuer", "value": "~60–80 €" }
+              ],
+              "total": { "label": "Jährlich", "value": "ab ~4.200 €" }
+            },
+            {
+              "title": "D-Ticket + Fahrrad + Carsharing",
+              "color": "#00897b",
+              "rows": [
+                { "label": "Deutschlandticket", "value": "63 €/Monat" },
+                { "label": "Fahrrad (Abschreibung/Wartung)", "value": "~20 €/Monat" },
+                { "label": "Carsharing (gelegentlich)", "value": "~50 €/Monat" }
+              ],
+              "total": { "label": "Jährlich", "value": "~1.600 €" }
+            }
+          ],
+          "savings": "Ersparnis ohne eigenes Auto: rund 2.600 €/Jahr bei diesem Beispiel.",
+          "sourceRefs": [
+            "adac-kleinstwagen-autokosten",
+            "vdv-pressemitteilung-deutschlandticket-jan-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Schon der günstigste Kleinstwagen kostet laut ADAC ab rund 350 € im Monat — weit mehr, als die meisten Menschen für Sprit allein rechnen. Wer Alternativen hat, kann erheblich sparen.",
+          "description": "Mobilitätskosten sind Verteilungsfragen. Wer aufs Auto verzichten kann, spart tausende Euro pro Jahr.",
+          "sourceRefs": [
+            "adac-kleinstwagen-autokosten"
           ]
         },
         {
