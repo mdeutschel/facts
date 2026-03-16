@@ -225,9 +225,8 @@ function htmlEscape(value) {
     .replaceAll('"', '&quot;')
 }
 
-function buildNoscriptHtml(topics, topicDataById) {
+function buildFallbackHtml(topics, topicDataById) {
   const lines = []
-  lines.push('    <noscript>')
   lines.push('      <h1>Fakten-Stammtisch</h1>')
   lines.push('      <p>Faktenbasierte Argumente und Quellen zu politischen und gesellschaftlichen Themen in Deutschland.</p>')
   lines.push('      <p>Alle Inhalte als Textdatei: <a href="https://fakten-stammtisch.de/llms-full.txt">fakten-stammtisch.de/llms-full.txt</a></p>')
@@ -265,25 +264,25 @@ function buildNoscriptHtml(topics, topicDataById) {
   lines.push('      <h2>Quellen &amp; Transparenz</h2>')
   lines.push('      <p>Alle Aussagen auf dieser Seite werden mit Primärquellen belegt (Studien, amtliche Statistiken, Fachinstitute). Die vollständige Quellenliste ist auf jeder Themenseite einsehbar.</p>')
   lines.push('      <p><a href="https://fakten-stammtisch.de/impressum">Impressum &amp; Datenschutz</a> · <a href="https://fakten-stammtisch.de/feedback">Feedback</a> · E-Mail: feedback@fakten-stammtisch.de</p>')
-  lines.push('    </noscript>')
 
   return lines.join('\n')
 }
 
-async function injectNoscript(topics, topicDataById) {
+async function injectFallback(topics, topicDataById) {
   const indexPath = path.join(ROOT_DIR, 'index.html')
   const html = await readFile(indexPath, 'utf8')
-  const noscript = buildNoscriptHtml(topics, topicDataById)
+  const fallback = buildFallbackHtml(topics, topicDataById)
 
-  const placeholder = '    <!-- NOSCRIPT_PLACEHOLDER -->'
+  const placeholder = '<!-- FALLBACK_PLACEHOLDER -->'
   if (html.includes(placeholder)) {
-    await writeFile(indexPath, html.replace(placeholder, noscript), 'utf8')
+    await writeFile(indexPath, html.replace(placeholder, '\n' + fallback + '\n    '), 'utf8')
     return
   }
 
-  const noscriptRegex = / {4}<noscript>[\s\S]*?<\/noscript>/
-  if (noscriptRegex.test(html)) {
-    await writeFile(indexPath, html.replace(noscriptRegex, noscript), 'utf8')
+  // Replace existing fallback content inside <div id="root">
+  const rootRegex = /(<div id="root">)[\s\S]*?(<\/div>)/
+  if (rootRegex.test(html)) {
+    await writeFile(indexPath, html.replace(rootRegex, `$1\n${fallback}\n    $2`), 'utf8')
   }
 }
 
@@ -301,7 +300,7 @@ async function main() {
   await writeFile(path.join(PUBLIC_DIR, 'sitemap.xml'), buildSitemap(topics), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms.txt'), buildLlmsTxt(topics), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms-full.txt'), buildLlmsFull(topics, topicDataById), 'utf8')
-  await injectNoscript(topics, topicDataById)
+  await injectFallback(topics, topicDataById)
 }
 
 main().catch((error) => {
