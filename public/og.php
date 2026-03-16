@@ -307,8 +307,6 @@ $websiteJsonLd = [
     <?php foreach ($claimReviews as $cr): ?>
       <script type="application/ld+json"><?= toJsonLd($cr) ?></script>
     <?php endforeach; ?>
-
-    <meta http-equiv="refresh" content="5;url=<?= h($path) ?>" />
     <link rel="alternate" type="text/plain" href="<?= h($siteUrl) ?>/llms.txt" title="LLM-optimized summary" />
     <link rel="alternate" type="text/plain" href="<?= h($siteUrl) ?>/llms-full.txt" title="LLM-optimized full content" />
   </head>
@@ -420,8 +418,5 @@ $websiteJsonLd = [
 
 <?php endif; ?>
 
-    <script>
-      window.location.replace(<?= json_encode($path, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>)
-    </script>
   </body>
 </html>
