@@ -106,3 +106,4 @@
 - Alle Topic-Dateien mit `sources` wurden von positionsbasierten `sourceRefs` wie `[1, 5]` auf explizite Quellen-IDs umgestellt.
 - Jede Quelle besitzt nun ein festes `id`-Feld; die Blöcke referenzieren diese IDs direkt. Dadurch bleiben Referenzen stabil, auch wenn Quellen später ergänzt, umsortiert oder gelöscht werden.
 - Die UI zeigt weiterhin nummerierte Quellen an, löst diese Nummern nun aber dynamisch über die jeweilige Quellen-ID auf. Bei der Migration wurden offensichtliche, bereits verrutschte Referenzen in `heizung.json` zusätzlich sachlich korrigiert.
+- In einem anschließenden Audit der übrigen Topic-Dateien wurde noch eine klare Alt-Verschiebung in `klimawandel.json` behoben: Die Keeling-Kurve verweist nun wieder auf NOAA/Scripps, und die Extremwetter-Schadensblöcke referenzieren wieder `Munich Re` beziehungsweise `GDV` statt einer Emissionsquelle.

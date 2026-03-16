@@ -89,7 +89,7 @@
             {"label": "2023", "value": 419},
             {"label": "2024", "value": 422.1}
           ],
-          "sourceRefs": ["munich-re-natural-disaster-figures-2024-2025"]
+          "sourceRefs": ["noaa-scripps-keeling-kurve-co2-messungen-mauna"]
         },
         {
           "type": "fact",
@@ -111,7 +111,7 @@
             {"value": "5,7 Mrd. €", "label": "Deutschland 2024", "sublabel": "Naturgefahren gesamt"},
             {"value": ">40 Mrd. €", "label": "Ahrtal 2021", "sublabel": "Gesamtschaden"}
           ],
-          "sourceRefs": ["umweltbundesamt-uba-finale-emissionsdaten-2024"]
+          "sourceRefs": ["munich-re-natural-disaster-figures-2024-2025", "gdv-naturgefahrenstatistik-2024"]
         },
         {
           "type": "bar_chart",
@@ -125,7 +125,7 @@
             {"label": "2024", "value": 140, "highlight": true},
             {"label": "2025", "value": 108}
           ],
-          "sourceRefs": ["umweltbundesamt-uba-finale-emissionsdaten-2024"]
+          "sourceRefs": ["munich-re-natural-disaster-figures-2024-2025"]
         },
         {
           "type": "fact",
