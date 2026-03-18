@@ -251,13 +251,7 @@ function buildFallbackHtml(topics, topicDataById) {
     lines.push(`      <h3><a href="${htmlEscape(url)}">${htmlEscape(data.title)}</a></h3>`)
     lines.push(`      <p>${htmlEscape(data.subtitle)}</p>`)
 
-    if (topic.keyStats && topic.keyStats.length > 0) {
-      lines.push('      <ul>')
-      for (const stat of topic.keyStats) {
-        lines.push(`        <li>${htmlEscape(stat)}</li>`)
-      }
-      lines.push('      </ul>')
-    }
+    lines.push(`      <p>${topic.factCount} Fakten · ${topic.argumentCount} Argumente</p>`)
 
     if (data.arguments && data.arguments.length > 0) {
       lines.push('      <details>')

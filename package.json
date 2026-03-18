@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "node scripts/generate-seo.mjs && tsc -b && vite build && cp .htaccess dist/",
+    "dev": "node scripts/generate-topic-index.mjs && vite",
+    "build": "node scripts/generate-topic-index.mjs && node scripts/generate-seo.mjs && tsc -b && vite build && cp .htaccess dist/",
     "lint": "eslint .",
     "preview": "vite preview"
   },

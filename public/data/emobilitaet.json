@@ -3,7 +3,7 @@
   "title": "E-Mobilität",
   "subtitle": "Fakten zu Reichweite, Akkus, Kosten & Klimabilanz",
   "icon": "electric_car",
-  "lastUpdated": "2026-03",
+  "lastUpdated": "2026-03-18",
   "keyStats": [
     "2,03 Mio. BEV in Deutschland",
     ">190.000 öffentliche Ladepunkte",
@@ -19,31 +19,68 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "2,03 Mio.", "label": "E-Autos (BEV)", "sublabel": "Bestand 1. Jan 2026 (KBA)" },
-            { "value": ">190.000", "label": "Öffentl. Ladepunkte", "sublabel": "davon >48.000 Schnelllader (BNetzA)" },
-            { "value": "19,1 %", "label": "BEV-Marktanteil", "sublabel": "Neuzulassungen 2025" }
+            {
+              "value": "2,03 Mio.",
+              "label": "E-Autos (BEV)",
+              "sublabel": "Bestand 1. Jan 2026 (KBA)"
+            },
+            {
+              "value": ">190.000",
+              "label": "Öffentl. Ladepunkte",
+              "sublabel": "davon >48.000 Schnelllader (BNetzA)"
+            },
+            {
+              "value": "19,1 %",
+              "label": "BEV-Marktanteil",
+              "sublabel": "Neuzulassungen 2025"
+            }
           ],
-          "sourceRefs": ["bdew-marke-von-200-000-ladepunkten", "kraftfahrt-bundesamt-kba-bestand"]
+          "sourceRefs": [
+            "bdew-marke-von-200-000-ladepunkten",
+            "kraftfahrt-bundesamt-kba-bestand"
+          ]
         },
         {
           "type": "line_chart",
           "caption": "Marktanteil reiner E-Autos (BEV) an Neuzulassungen in Deutschland",
           "unit": "%",
           "items": [
-            { "label": "2020", "value": 6.7 },
-            { "label": "2021", "value": 13.6 },
-            { "label": "2022", "value": 17.7 },
-            { "label": "2023", "value": 18.4 },
-            { "label": "2024", "value": 13.5 },
-            { "label": "2025", "value": 19.1 }
+            {
+              "label": "2020",
+              "value": 6.7
+            },
+            {
+              "label": "2021",
+              "value": 13.6
+            },
+            {
+              "label": "2022",
+              "value": 17.7
+            },
+            {
+              "label": "2023",
+              "value": 18.4
+            },
+            {
+              "label": "2024",
+              "value": 13.5
+            },
+            {
+              "label": "2025",
+              "value": 19.1
+            }
           ],
-          "sourceRefs": ["bdew-marke-von-200-000-ladepunkten"]
+          "sourceRefs": [
+            "bdew-marke-von-200-000-ladepunkten"
+          ]
         },
         {
           "type": "fact",
           "text": "Nach dem Einbruch 2024 stieg der BEV-Anteil an den Neuzulassungen 2025 wieder auf 19,1 %. Gegenüber 2024 legte der BEV-Anteil damit wieder zu.",
           "highlight": true,
-          "sourceRefs": ["bdew-marke-von-200-000-ladepunkten"]
+          "sourceRefs": [
+            "bdew-marke-von-200-000-ladepunkten"
+          ]
         }
       ]
     },
@@ -54,26 +91,45 @@
         {
           "type": "text",
           "text": "Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ ins Leben. Dieser wird im Fahrbetrieb abgebaut, da der E-Motor deutlich effizienter ist und der Strommix immer grüner wird.",
-          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars", "bmukn-klima-und-energie-bei-elektromobilitaet"]
+          "sourceRefs": [
+            "icct-life-cycle-ghg-emissions-of-passenger-cars",
+            "bmukn-klima-und-energie-bei-elektromobilitaet"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "~17.000 km", "label": "Break-Even", "sublabel": "in Europa (ICCT 2025)", "color": "#00897b" },
-            { "value": "-73 %", "label": "CO₂-Emissionen", "sublabel": "über Lebenszyklus (ICCT 2025)" }
+            {
+              "value": "~17.000 km",
+              "label": "Break-Even",
+              "sublabel": "in Europa (ICCT 2025)",
+              "color": "#00897b"
+            },
+            {
+              "value": "-73 %",
+              "label": "CO₂-Emissionen",
+              "sublabel": "über Lebenszyklus (ICCT 2025)"
+            }
           ],
-          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars"]
+          "sourceRefs": [
+            "icct-life-cycle-ghg-emissions-of-passenger-cars"
+          ]
         },
         {
           "type": "fact",
           "text": "Laut ICCT (Juli 2025) verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner.",
           "highlight": true,
-          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars"]
+          "sourceRefs": [
+            "icct-life-cycle-ghg-emissions-of-passenger-cars"
+          ]
         },
         {
           "type": "fact",
           "text": "Der CO₂-Rucksack aus der Produktion wird im Betrieb schrittweise ausgeglichen, weil E-Motoren effizienter sind und der Strommix weiter dekarbonisiert.",
-          "sourceRefs": ["icct-life-cycle-ghg-emissions-of-passenger-cars", "bmukn-klima-und-energie-bei-elektromobilitaet"]
+          "sourceRefs": [
+            "icct-life-cycle-ghg-emissions-of-passenger-cars",
+            "bmukn-klima-und-energie-bei-elektromobilitaet"
+          ]
         }
       ]
     },
@@ -84,7 +140,9 @@
         {
           "type": "text",
           "text": "TCO (Total Cost of Ownership) beinhaltet Anschaffung, Wertverlust, Steuern, Versicherung, Wartung und Energiekosten (ADAC Autokostenrechner).",
-          "sourceRefs": ["adac-autokostenrechner-tco-vergleich"]
+          "sourceRefs": [
+            "adac-autokostenrechner-tco-vergleich"
+          ]
         },
         {
           "type": "comparison",
@@ -94,33 +152,68 @@
               "title": "VW Golf 1.5 eTSI (Benzin)",
               "color": "#546e7a",
               "rows": [
-                { "label": "Listenpreis", "value": "ab ~33.400 €" },
-                { "label": "Gesamtkosten", "value": "~57 Ct/km" },
-                { "label": "Kfz-Steuer", "value": "regelmäßig fällig" },
-                { "label": "Wartung/Verschleiß", "value": "höher (Ölwechsel, Bremsen, Kupplung)" }
+                {
+                  "label": "Listenpreis",
+                  "value": "ab ~33.400 €"
+                },
+                {
+                  "label": "Gesamtkosten",
+                  "value": "~57 Ct/km"
+                },
+                {
+                  "label": "Kfz-Steuer",
+                  "value": "regelmäßig fällig"
+                },
+                {
+                  "label": "Wartung/Verschleiß",
+                  "value": "höher (Ölwechsel, Bremsen, Kupplung)"
+                }
               ],
-              "total": { "label": "Monatliche Kosten", "value": "~710 €" }
+              "total": {
+                "label": "Monatliche Kosten",
+                "value": "~710 €"
+              }
             },
             {
               "title": "VW ID.3 Pure (Elektro)",
               "color": "#00897b",
               "rows": [
-                { "label": "Listenpreis", "value": "ab ~33.300 €" },
-                { "label": "Gesamtkosten", "value": "~47 Ct/km" },
-                { "label": "Kfz-Steuer", "value": "bis Ende 2030 befreit" },
-                { "label": "Wartung/Verschleiß", "value": "niedriger (kein Ölwechsel, weniger Bremsverschleiß)" }
+                {
+                  "label": "Listenpreis",
+                  "value": "ab ~33.300 €"
+                },
+                {
+                  "label": "Gesamtkosten",
+                  "value": "~47 Ct/km"
+                },
+                {
+                  "label": "Kfz-Steuer",
+                  "value": "bis Ende 2030 befreit"
+                },
+                {
+                  "label": "Wartung/Verschleiß",
+                  "value": "niedriger (kein Ölwechsel, weniger Bremsverschleiß)"
+                }
               ],
-              "total": { "label": "Monatliche Kosten", "value": "~590 €" }
+              "total": {
+                "label": "Monatliche Kosten",
+                "value": "~590 €"
+              }
             }
           ],
           "savings": "Der ID.3 ist laut ADAC über 4 Jahre Nutzung rund 3.000–4.000 € günstiger als der Golf.",
-          "sourceRefs": ["adac-autokostenrechner-tco-vergleich", "zoll-verlaengerung-der-steuerbefreiung-fuer"]
+          "sourceRefs": [
+            "adac-autokostenrechner-tco-vergleich",
+            "zoll-verlaengerung-der-steuerbefreiung-fuer"
+          ]
         },
         {
           "type": "fact",
           "text": "Laut ADAC ist der VW ID.3 bei ähnlichem Listenpreis in den Gesamtkosten rund 10 Cent/km günstiger als der vergleichbare VW Golf – vor allem durch niedrigere Energie-, Steuer- und Wartungskosten.",
           "highlight": true,
-          "sourceRefs": ["adac-autokostenrechner-tco-vergleich"]
+          "sourceRefs": [
+            "adac-autokostenrechner-tco-vergleich"
+          ]
         }
       ]
     },
@@ -131,35 +224,83 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "8 Jahre", "label": "Akku-Garantie", "sublabel": "oder 160.000 km, Marktstandard", "color": "#00897b" },
-            { "value": "70 %", "label": "Mindestkapazität", "sublabel": "nach Garantielaufzeit" },
-            { "value": "250.000 km", "label": "BYD Blade", "sublabel": "erweiterte Garantie" }
+            {
+              "value": "8 Jahre",
+              "label": "Akku-Garantie",
+              "sublabel": "oder 160.000 km, Marktstandard",
+              "color": "#00897b"
+            },
+            {
+              "value": "70 %",
+              "label": "Mindestkapazität",
+              "sublabel": "nach Garantielaufzeit"
+            },
+            {
+              "value": "250.000 km",
+              "label": "BYD Blade",
+              "sublabel": "erweiterte Garantie"
+            }
           ]
         },
         {
           "type": "table",
           "caption": "Akku-Garantien ausgewählter Hersteller",
-          "headers": ["Hersteller", "Garantiedauer", "Kapazitätsgarantie"],
+          "headers": [
+            "Hersteller",
+            "Garantiedauer",
+            "Kapazitätsgarantie"
+          ],
           "rows": [
-            ["VW (ID.-Familie)", "8 Jahre / 160.000 km", "min. 70 %"],
-            ["Hyundai (IONIQ 5/6)", "8 Jahre / 160.000 km", "min. 70 %"],
-            ["Tesla (Model 3/Y)", "8 Jahre / 192.000 km", "min. 70 %"],
-            ["BYD (Blade-Batterie)", "8 Jahre / 250.000 km", "min. 70 %"]
+            [
+              "VW (ID.-Familie)",
+              "8 Jahre / 160.000 km",
+              "min. 70 %"
+            ],
+            [
+              "Hyundai (IONIQ 5/6)",
+              "8 Jahre / 160.000 km",
+              "min. 70 %"
+            ],
+            [
+              "Tesla (Model 3/Y)",
+              "8 Jahre / 192.000 km",
+              "min. 70 %"
+            ],
+            [
+              "BYD (Blade-Batterie)",
+              "8 Jahre / 250.000 km",
+              "min. 70 %"
+            ]
           ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "90 %", "label": "Rückgewinnung", "sublabel": "ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel" },
-            { "value": "50 %", "label": "Lithium", "sublabel": "Rückgewinnungsziel bis Ende 2027, später 80 %" },
-            { "value": "Second Life", "label": "Nachnutzung", "sublabel": "Ausgemusterte Akkus werden als stationäre Speicher weitergenutzt" }
+            {
+              "value": "90 %",
+              "label": "Rückgewinnung",
+              "sublabel": "ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel"
+            },
+            {
+              "value": "50 %",
+              "label": "Lithium",
+              "sublabel": "Rückgewinnungsziel bis Ende 2027, später 80 %"
+            },
+            {
+              "value": "Second Life",
+              "label": "Nachnutzung",
+              "sublabel": "Ausgemusterte Akkus werden als stationäre Speicher weitergenutzt"
+            }
           ]
         },
         {
           "type": "fact",
           "text": "Die Rohstofffrage ist real, aber Batterien sind reguliert: Hersteller reduzieren kritische Materialien, und die EU verschärft die Recyclingvorgaben deutlich.",
           "highlight": true,
-          "sourceRefs": ["fraunhofer-isi-batterie-recycling-in-europa", "eu-batterieverordnung-2023-1542-recyclingquoten"]
+          "sourceRefs": [
+            "fraunhofer-isi-batterie-recycling-in-europa",
+            "eu-batterieverordnung-2023-1542-recyclingquoten"
+          ]
         }
       ]
     },
@@ -170,22 +311,40 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "4,2 kW", "label": "Mindestleistung", "sublabel": "bei Dimmung nach § 14a EnWG" },
-            { "value": "§ 14a EnWG", "label": "Regelung", "sublabel": "verhindert lokale Überlastung" },
-            { "value": "smart laden", "label": "Praxis", "sublabel": "Engpässe werden lokal statt pauschal gemanagt" }
+            {
+              "value": "4,2 kW",
+              "label": "Mindestleistung",
+              "sublabel": "bei Dimmung nach § 14a EnWG"
+            },
+            {
+              "value": "§ 14a EnWG",
+              "label": "Regelung",
+              "sublabel": "verhindert lokale Überlastung"
+            },
+            {
+              "value": "smart laden",
+              "label": "Praxis",
+              "sublabel": "Engpässe werden lokal statt pauschal gemanagt"
+            }
           ],
-          "sourceRefs": ["bundesnetzagentur-e-mobilitaet-und-14a-enwg"]
+          "sourceRefs": [
+            "bundesnetzagentur-e-mobilitaet-und-14a-enwg"
+          ]
         },
         {
           "type": "fact",
           "text": "Neue steuerbare Ladeeinrichtungen dürfen nicht pauschal wegen lokaler Engpässe abgelehnt werden. Im Engpassfall darf der Strombezug zeitweise reduziert werden, die Bundesnetzagentur schreibt dabei aber eine Mindestleistung von 4,2 kW vor.",
           "highlight": true,
-          "sourceRefs": ["bundesnetzagentur-e-mobilitaet-und-14a-enwg"]
+          "sourceRefs": [
+            "bundesnetzagentur-e-mobilitaet-und-14a-enwg"
+          ]
         },
         {
           "type": "text",
           "text": "Lokale Überlastungen werden durch intelligentes Laden gemanagt. Netzbetreiber dürfen Wallboxen im Engpassfall zeitweise dimmen, aber nicht vollständig abschalten.",
-          "sourceRefs": ["bundesnetzagentur-e-mobilitaet-und-14a-enwg"]
+          "sourceRefs": [
+            "bundesnetzagentur-e-mobilitaet-und-14a-enwg"
+          ]
         }
       ]
     },
@@ -196,19 +355,39 @@
         {
           "type": "table",
           "caption": "Wirkungsgrad-Vergleich: Wie viel Strom kommt auf der Straße an?",
-          "headers": ["Antrieb", "Wirkungsgrad (Strom → Rad)", "Strombedarf für 100 km"],
-          "rows": [
-            ["E-Auto (BEV)", "~70–80 %", "~15–20 kWh"],
-            ["Wasserstoff (FCEV)", "~25–30 %", "~40–55 kWh"],
-            ["E-Fuels (Verbrenner)", "~10–15 %", "~100–130 kWh"]
+          "headers": [
+            "Antrieb",
+            "Wirkungsgrad (Strom → Rad)",
+            "Strombedarf für 100 km"
           ],
-          "sourceRefs": ["transport-environment-t-e-e-fuels"]
+          "rows": [
+            [
+              "E-Auto (BEV)",
+              "~70–80 %",
+              "~15–20 kWh"
+            ],
+            [
+              "Wasserstoff (FCEV)",
+              "~25–30 %",
+              "~40–55 kWh"
+            ],
+            [
+              "E-Fuels (Verbrenner)",
+              "~10–15 %",
+              "~100–130 kWh"
+            ]
+          ],
+          "sourceRefs": [
+            "transport-environment-t-e-e-fuels"
+          ]
         },
         {
           "type": "fact",
           "text": "Für dieselbe Strecke braucht ein E-Fuel-Verbrenner etwa 5- bis 6-mal so viel Strom wie ein Batterieauto. Für Pkw ist die direkte Stromnutzung daher mit Abstand am effizientesten.",
           "highlight": true,
-          "sourceRefs": ["transport-environment-t-e-e-fuels"]
+          "sourceRefs": [
+            "transport-environment-t-e-e-fuels"
+          ]
         },
         {
           "type": "text",
@@ -224,12 +403,16 @@
           "type": "fact",
           "text": "Elektroautos brennen laut BMUKN nicht häufiger als andere Fahrzeuge.",
           "highlight": true,
-          "sourceRefs": ["bmukn-brandgefahr-von-elektroautos"]
+          "sourceRefs": [
+            "bmukn-brandgefahr-von-elektroautos"
+          ]
         },
         {
           "type": "text",
           "text": "Ein brennendes Elektroauto ist laut BMUKN in thermischer Hinsicht nicht gefährlicher als ein brennendes Fahrzeug mit konventionellem Antrieb.",
-          "sourceRefs": ["bmukn-brandgefahr-von-elektroautos"]
+          "sourceRefs": [
+            "bmukn-brandgefahr-von-elektroautos"
+          ]
         },
         {
           "type": "text",
@@ -243,50 +426,112 @@
       "id": "akku-kaputt",
       "claim": "Nach 3 bis 5 Jahren ist der Akku kaputt und ein neuer kostet 15.000 Euro.",
       "response": "Pauschal falsch. Marktstandard ist 8 Jahre oder 160.000 km Garantie auf mindestens 70 % Kapazität. BYD garantiert sogar 250.000 km. Ein Austausch nach 3–5 Jahren ist die Ausnahme, nicht die Regel. Und selbst ausgemusterte Akkus unter 80 % Kapazität werden als stationäre Speicher weitergenutzt.",
-      "keywords": ["akku", "kaputt", "lebensdauer", "austausch", "garantie", "kosten"],
-      "relatedSections": ["akkus-rohstoffe"]
+      "keywords": [
+        "akku",
+        "kaputt",
+        "lebensdauer",
+        "austausch",
+        "garantie",
+        "kosten"
+      ],
+      "relatedSections": [
+        "akkus-rohstoffe"
+      ]
     },
     {
       "id": "stromnetz-kollaps",
       "claim": "Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.",
       "response": "Nein. Netzbetreiber dürfen neue steuerbare Ladeeinrichtungen nicht pauschal wegen lokaler Engpässe ablehnen. Im Engpassfall darf der Strombezug nach § 14a EnWG vorübergehend auf 4,2 kW reduziert werden; diese Mindestleistung muss laut Bundesnetzagentur immer verfügbar bleiben.",
-      "keywords": ["stromnetz", "blackout", "zusammenbruch", "laden", "netz", "überlastung"],
-      "relatedSections": ["stromnetz"]
+      "keywords": [
+        "stromnetz",
+        "blackout",
+        "zusammenbruch",
+        "laden",
+        "netz",
+        "überlastung"
+      ],
+      "relatedSections": [
+        "stromnetz"
+      ]
     },
     {
       "id": "co2-rucksack",
       "claim": "Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.",
       "response": "Falsch. Laut ICCT verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner. Der höhere CO₂-Fußabdruck der Produktion wird im Fahrbetrieb wieder ausgeglichen.",
-      "keywords": ["klimaschädlich", "co2", "rucksack", "produktion", "diesel", "umwelt"],
-      "relatedSections": ["klimabilanz"]
+      "keywords": [
+        "klimaschädlich",
+        "co2",
+        "rucksack",
+        "produktion",
+        "diesel",
+        "umwelt"
+      ],
+      "relatedSections": [
+        "klimabilanz"
+      ]
     },
     {
       "id": "kobalt-kinderarbeit",
       "claim": "Für E-Autos schuften Kinder im Kongo für Kobalt.",
       "response": "Die Probleme im Rohstoffabbau sind real und müssen ernst genommen werden. Gleichzeitig sinkt der Einsatz kritischer Materialien bei manchen Batterietypen, LFP-Akkus kommen ohne Kobalt und Nickel aus, und die EU verschärft die Recyclingvorgaben für Batterierohstoffe deutlich.",
-      "keywords": ["kobalt", "kinderarbeit", "kongo", "rohstoffe", "ausbeutung"],
-      "relatedSections": ["akkus-rohstoffe"]
+      "keywords": [
+        "kobalt",
+        "kinderarbeit",
+        "kongo",
+        "rohstoffe",
+        "ausbeutung"
+      ],
+      "relatedSections": [
+        "akkus-rohstoffe"
+      ]
     },
     {
       "id": "wasserstoff-zukunft",
       "claim": "Batterien sind nur eine Brückentechnologie, Wasserstoff und E-Fuels sind die Zukunft.",
       "response": "Die Physik spricht eher für direkte Elektrifizierung. Im Pkw ist das Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels. Diese Energieträger werden vor allem dort gebraucht, wo Batterien an Grenzen stoßen, etwa in Luftfahrt, Schifffahrt oder Teilen der Industrie.",
-      "keywords": ["wasserstoff", "e-fuels", "brennstoffzelle", "zukunft", "brückentechnologie", "effizienz"],
-      "relatedSections": ["efuels-wasserstoff"]
+      "keywords": [
+        "wasserstoff",
+        "e-fuels",
+        "brennstoffzelle",
+        "zukunft",
+        "brückentechnologie",
+        "effizienz"
+      ],
+      "relatedSections": [
+        "efuels-wasserstoff"
+      ]
     },
     {
       "id": "brennende-autos",
       "claim": "E-Autos brennen ständig und können nicht gelöscht werden.",
       "response": "Die pauschale Behauptung stimmt nicht. Laut BMUKN brennen Elektroautos nicht häufiger als andere Fahrzeuge. Wenn ein Akku-Brand entsteht, ist das Löschen zwar aufwendiger, aber für Feuerwehren ist das ein bekanntes und beherrschbares Szenario.",
-      "keywords": ["brennen", "feuer", "brandgefahr", "löschen", "feuerwehr", "explosion"],
-      "relatedSections": ["brandgefahr"]
+      "keywords": [
+        "brennen",
+        "feuer",
+        "brandgefahr",
+        "löschen",
+        "feuerwehr",
+        "explosion"
+      ],
+      "relatedSections": [
+        "brandgefahr"
+      ]
     },
     {
       "id": "reichweite",
       "claim": "Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.",
       "response": "Aktuelle E-Autos der Kompaktklasse erreichen 350–500 km WLTP-Reichweite. Eine Schnellladung von 10 auf 80 % dauert bei modernen Fahrzeugen rund 25–30 Minuten und lädt Strom für circa 200–300 km nach. Auf einer Fahrt München–Gardasee (ca. 480 km) wäre also ein Ladestopp nötig — ähnlich einer normalen Rast- oder Tankpause.",
-      "keywords": ["urlaub", "reichweite", "italien", "langstrecke", "laden", "pause"],
-      "relatedSections": ["status-quo"]
+      "keywords": [
+        "urlaub",
+        "reichweite",
+        "italien",
+        "langstrecke",
+        "laden",
+        "pause"
+      ],
+      "relatedSections": [
+        "status-quo"
+      ]
     }
   ],
   "sources": [

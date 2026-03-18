@@ -3,7 +3,7 @@
   "title": "Teilzeit & Arbeitsmoral",
   "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.",
   "icon": "schedule",
-  "lastUpdated": "2026-03",
+  "lastUpdated": "2026-03-18",
   "keyStats": [
     "61,26 Mrd. Stunden Gesamtarbeitsvolumen (2025)",
     "39,9 % Teilzeitquote (Rekordhoch)",
@@ -19,7 +19,9 @@
         {
           "type": "text",
           "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — das entspricht umgerechnet 1.332 Stunden pro Erwerbstätigem und Jahr, also etwa 33 Stunden pro Woche im Durchschnitt über alle Voll- und Teilzeitkräfte.",
-          "sourceRefs": ["iab-ergebnisse-der-arbeitszeitrechnung-2025"]
+          "sourceRefs": [
+            "iab-ergebnisse-der-arbeitszeitrechnung-2025"
+          ]
         },
         {
           "type": "stat_grid",
@@ -40,7 +42,9 @@
               "sublabel": "Neuer Höchststand"
             }
           ],
-          "sourceRefs": ["iab-ergebnisse-der-arbeitszeitrechnung-2025"]
+          "sourceRefs": [
+            "iab-ergebnisse-der-arbeitszeitrechnung-2025"
+          ]
         }
       ]
     },
@@ -51,7 +55,9 @@
         {
           "type": "text",
           "text": "Die Gründe für Teilzeitarbeit sind vielfältig. Während der allgemeine Wunsch nach reduzierter Arbeitszeit der häufigste Grund ist, spielt Care-Arbeit (Betreuung von Kindern oder Pflegebedürftigen) eine fast ebenso große Rolle – insbesondere bei Frauen.",
-          "sourceRefs": ["destatis-gruende-fuer-teilzeittaetigkeit-2024"]
+          "sourceRefs": [
+            "destatis-gruende-fuer-teilzeittaetigkeit-2024"
+          ]
         },
         {
           "type": "bar_chart",
@@ -80,7 +86,9 @@
               "value": 4.8
             }
           ],
-          "sourceRefs": ["destatis-gruende-fuer-teilzeittaetigkeit-2024"]
+          "sourceRefs": [
+            "destatis-gruende-fuer-teilzeittaetigkeit-2024"
+          ]
         }
       ]
     },
@@ -91,7 +99,9 @@
         {
           "type": "text",
           "text": "Ein hartnäckiger Mythos besagt, die Generation Z sei arbeitsscheu. IAB-Veröffentlichungen von 2025 auf Basis von Daten bis 2023 zeigen das Gegenteil: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 Prozent gestiegen. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit einer höheren Erwerbsbeteiligung von Studierenden zusammen.",
-          "sourceRefs": ["iab-generation-z-erwerbsbeteiligung-der-20-bis"]
+          "sourceRefs": [
+            "iab-generation-z-erwerbsbeteiligung-der-20-bis"
+          ]
         },
         {
           "type": "comparison",
@@ -100,19 +110,33 @@
             {
               "title": "Erwerbsbeteiligung",
               "rows": [
-                { "label": "2015", "value": "ca. 70 %" },
-                { "label": "2023", "value": "75,9 %" }
+                {
+                  "label": "2015",
+                  "value": "ca. 70 %"
+                },
+                {
+                  "label": "2023",
+                  "value": "75,9 %"
+                }
               ]
             },
             {
               "title": "Erwerbsquote Studierende",
               "rows": [
-                { "label": "2015", "value": "36,7 %" },
-                { "label": "2023", "value": "56,0 %" }
+                {
+                  "label": "2015",
+                  "value": "36,7 %"
+                },
+                {
+                  "label": "2023",
+                  "value": "56,0 %"
+                }
               ]
             }
           ],
-          "sourceRefs": ["iab-generation-z-erwerbsbeteiligung-der-20-bis"]
+          "sourceRefs": [
+            "iab-generation-z-erwerbsbeteiligung-der-20-bis"
+          ]
         }
       ]
     }
@@ -122,36 +146,70 @@
       "id": "arg-1",
       "claim": "Die Leute wollen heute alle nur noch in Teilzeit arbeiten und ihre Freizeit genießen.",
       "response": "Der Wunsch nach mehr Freizeit ist zwar der häufigste Grund (27,9 %), aber fast genauso viele (23,5 %) arbeiten in Teilzeit, weil sie Care-Arbeit leisten (Kinderbetreuung oder Pflege von Angehörigen). Bei Frauen liegen eigener Wunsch (28,9 %) und Care-Arbeit (28,8 %) nahezu gleichauf.",
-      "keywords": ["Freizeit", "Faul", "Care-Arbeit", "Wunsch"],
-      "relatedSections": ["gruende"]
+      "keywords": [
+        "Freizeit",
+        "Faul",
+        "Care-Arbeit",
+        "Wunsch"
+      ],
+      "relatedSections": [
+        "gruende"
+      ]
     },
     {
       "id": "arg-2",
       "claim": "Wegen der ganzen Teilzeit geht in Deutschland die Arbeitsleistung zurück.",
       "response": "2025 lag das Gesamtarbeitsvolumen in Deutschland bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit 45,98 Millionen nahezu konstant.",
-      "keywords": ["Arbeitsleistung", "Wirtschaft", "Rückgang", "Volumen"],
-      "relatedSections": ["arbeitsvolumen"]
+      "keywords": [
+        "Arbeitsleistung",
+        "Wirtschaft",
+        "Rückgang",
+        "Volumen"
+      ],
+      "relatedSections": [
+        "arbeitsvolumen"
+      ]
     },
     {
       "id": "arg-3",
       "claim": "Die Gen Z ist arbeitsscheu und will nicht mehr richtig arbeiten.",
       "response": "Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen stieg seit 2015 um über 6 Prozentpunkte auf 76 %. Der Teilzeitanstieg in dieser Gruppe erklärt sich vor allem durch mehr arbeitende Studierende: Deren Erwerbsquote stieg von 36,7 % (2015) auf 56,0 % (2023).",
-      "keywords": ["Gen Z", "Jugend", "Faul", "Arbeitsmoral"],
-      "relatedSections": ["gen-z"]
+      "keywords": [
+        "Gen Z",
+        "Jugend",
+        "Faul",
+        "Arbeitsmoral"
+      ],
+      "relatedSections": [
+        "gen-z"
+      ]
     },
     {
       "id": "arg-4",
       "claim": "Die jungen Leute machen alle nur noch Teilzeit, weil sie keine Lust auf 40 Stunden haben.",
       "response": "Der Anstieg der Teilzeit bei jungen Menschen hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen. Die Erwerbsquote von Studierenden im Alter von 20 bis 24 Jahren stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %.",
-      "keywords": ["Studenten", "Teilzeit", "Jugend", "40 Stunden"],
-      "relatedSections": ["gen-z"]
+      "keywords": [
+        "Studenten",
+        "Teilzeit",
+        "Jugend",
+        "40 Stunden"
+      ],
+      "relatedSections": [
+        "gen-z"
+      ]
     },
     {
       "id": "arg-5",
       "claim": "Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.",
       "response": "Das ist ein Trugschluss. Die verfügbaren Destatis-Daten zeigen vor allem, dass Teilzeit häufig mit Betreuungspflichten (23,5 %), Aus- und Weiterbildung (11,6 %) oder Krankheit beziehungsweise Behinderung (4,9 %) zusammenhängt. Ein pauschales 'Teilzeit abschaffen' beseitigt diese Gründe nicht.",
-      "keywords": ["Fachkräftemangel", "Abschaffen", "Vollzeit"],
-      "relatedSections": ["gruende"]
+      "keywords": [
+        "Fachkräftemangel",
+        "Abschaffen",
+        "Vollzeit"
+      ],
+      "relatedSections": [
+        "gruende"
+      ]
     }
   ],
   "sources": [

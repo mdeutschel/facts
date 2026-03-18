@@ -3,106 +3,119 @@
     {
       "id": "heizung",
       "title": "Heizungswechsel 2026",
-      "subtitle": "Wärmepumpe vs. Öl- & Gasheizung",
+      "subtitle": "Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente",
       "icon": "heat_pump",
-      "lastUpdated": "2026-03",
-      "keyStats": ["21,7 Mio. Heizungen", "Drei Viertel heizen mit Gas oder Öl", "69,4 % WP im Neubau 2024", "9 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 14,
+      "argumentCount": 9
     },
     {
       "id": "emobilitaet",
       "title": "E-Mobilität",
       "subtitle": "Fakten zu Reichweite, Akkus, Kosten & Klimabilanz",
       "icon": "electric_car",
-      "lastUpdated": "2026-03",
-      "keyStats": ["2,03 Mio. BEV in Deutschland", "19,1 % BEV-Marktanteil (2025)", "7 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 7,
+      "argumentCount": 7
     },
     {
       "id": "energiewende",
       "title": "Energiewende & Atomkraft",
       "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
       "icon": "bolt",
-      "lastUpdated": "2026-03",
-      "keyStats": ["55,3 % Erneuerbare im Strommix (2025)", "AKW-Neubau deutlich teurer als Wind/Solar", "7 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 16,
+      "argumentCount": 7
     },
     {
       "id": "klimawandel",
       "title": "Klimawandel",
       "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
       "icon": "thermostat",
-      "lastUpdated": "2026-03",
-      "keyStats": ["2024: Erstmals +1,6 °C über vorindustriellem Niveau", "CO₂-Konzentration 2024: 422,1 ppm", "9 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 7,
+      "argumentCount": 9
     },
     {
       "id": "verkehrswende",
       "title": "Verkehrswende",
       "subtitle": "Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen",
       "icon": "directions_car",
-      "lastUpdated": "2026-03",
-      "keyStats": ["23 Std./Tag steht ein Auto ungenutzt", "58 % der Berliner Verkehrsfläche für MIV", "11,2 % Radverkehrsanteil (MiD 2023)", "12 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 7,
+      "argumentCount": 12
     },
     {
       "id": "buergergeld",
-      "title": "Bürgergeld 2026",
-      "subtitle": "Fakten zu Regelsätzen, Sanktionen & Lohnabstand",
+      "title": "Bürgergeld",
+      "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
       "icon": "account_balance_wallet",
-      "lastUpdated": "2026-03",
-      "keyStats": ["563 € Regelsatz (Nullrunde 2025/2026)", "557 € Einkommensvorteil bei Mindestlohn (Single)", "6 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 4,
+      "argumentCount": 6
     },
     {
       "id": "migration",
       "title": "Migration & Asyl",
-      "subtitle": "Fakten zu Asylzahlen, Arbeitsmarkt & Integration",
+      "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",
       "icon": "public",
-      "lastUpdated": "2026-03",
-      "keyStats": ["113.236 Asylerstanträge 2025 (-50,7 %)", "64 % Beschäftigungsquote bei 2015er Geflüchteten", "291.955 Einbürgerungen 2024 (Rekord)", "12 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 13,
+      "argumentCount": 12
     },
     {
       "id": "teilzeit",
       "title": "Teilzeit & Arbeitsmoral",
       "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.",
       "icon": "schedule",
-      "lastUpdated": "2026-03",
-      "keyStats": ["61,26 Mrd. Stunden Gesamtarbeitsvolumen (2025)", "39,9 % Teilzeitquote (Rekordhoch)", "5 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 3,
+      "argumentCount": 5
     },
     {
       "id": "vegane-ernaehrung",
       "title": "Vegane Ernährung & Fleischkonsum",
       "subtitle": "Auswirkungen auf Klima, Umwelt und Gesundheit",
       "icon": "eco",
-      "lastUpdated": "2026-03",
-      "keyStats": ["Weniger tierische Produkte senken Emissionen deutlich", "Mehr als 75 % der globalen Agrarfläche könnten frei werden", "6 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 3,
+      "argumentCount": 6
     },
     {
       "id": "vermoegenssteuer",
       "title": "Vermögens- und Erbschaftssteuer",
       "subtitle": "Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland",
       "icon": "account_balance",
-      "lastUpdated": "2026-03",
-      "keyStats": ["Das reichste 1 % besitzt mindestens 26 % des Vermögens", "Nur rund 1 % BIP vermögensbezogene Steuern (OECD: 1,9 %)", "11 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 7,
+      "argumentCount": 11
     },
     {
       "id": "gleichberechtigung",
       "title": "Gleichberechtigung",
-      "subtitle": "Fakten zu Pay Gap, Care-Arbeit und Repräsentation",
+      "subtitle": "Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation",
       "icon": "balance",
-      "lastUpdated": "2026-03",
-      "keyStats": ["16 % unbereinigter Gender Pay Gap (2025)", "Frauen leisten 43,4 % mehr unbezahlte Care-Arbeit", "7 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 9,
+      "argumentCount": 13
     },
     {
       "id": "bildung",
       "title": "Deutsches Bildungssystem",
       "subtitle": "Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung",
       "icon": "school",
-      "lastUpdated": "2026-03",
-      "keyStats": ["198 Mrd. € Bildungsausgaben (2024)", "35.000 fehlende Lehrkräfte (2025/26)", "8 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 6,
+      "argumentCount": 8
     },
     {
       "id": "gesundheit",
       "title": "Deutsches Gesundheitssystem",
       "subtitle": "Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention",
       "icon": "local_hospital",
-      "lastUpdated": "2026-03",
-      "keyStats": ["OECD-Spitzengruppe bei Gesundheitsausgaben", "17,5 % Gesamt-Beitragssatz GKV (2026)", "8 Argumente"]
+      "lastUpdated": "2026-03-18",
+      "factCount": 6,
+      "argumentCount": 8
     }
   ]
 }

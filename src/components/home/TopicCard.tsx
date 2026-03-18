@@ -63,15 +63,12 @@ export default function TopicCard({ topic }: TopicCardProps) {
               </Typography>
             </Box>
           </Box>
-          {topic.keyStats && (
-            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 1.5 }}>
-              {topic.keyStats.map((stat, i) => (
-                <Chip key={i} label={stat} size="small" variant="outlined" />
-              ))}
-            </Box>
-          )}
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 1.5 }}>
+            <Chip label={`${topic.factCount} Fakten`} size="small" variant="outlined" />
+            <Chip label={`${topic.argumentCount} Argumente`} size="small" variant="outlined" />
+          </Box>
           <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 1.5 }}>
-            Stand: {topic.lastUpdated}
+            Stand: {new Date(topic.lastUpdated).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
           </Typography>
         </CardContent>
       </CardActionArea>
