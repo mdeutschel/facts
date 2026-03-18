@@ -112,6 +112,12 @@ input/                  # Source markdown (reference material, not deployed)
 
 Topic JSON sources MUST be online-verifiable. Use `/verify-sources {topicId}` — full procedure is in the skill definition (`.claude/skills/verify-sources/SKILL.md`).
 
+## Content Quality Review
+
+Topic content must be argumentatively sound, balanced, and hard to attack. Use `/review-content {topicId}` to check framing, nuance, and intellectual honesty. When creating or extending topic content, apply the author-mode guardrails from `.claude/skills/review-content/SKILL.md`.
+
+Key quality dimensions: nuance & partial truths, claim-source fit, assumption transparency, fact vs. opinion separation, counter-argument inclusion, language precision, argument-claim alignment.
+
 ## Definition of Done
 
 A task is complete when:
