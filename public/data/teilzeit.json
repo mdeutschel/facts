@@ -1,16 +1,16 @@
 {
   "id": "teilzeit",
   "title": "Teilzeit & Arbeitsmoral",
-  "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.",
+  "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit, der Gen Z und den Folgen von Teilzeit.",
   "icon": "schedule",
   "lastUpdated": "2026-03-18",
   "keyStats": [
     "61,26 Mrd. Stunden Gesamtarbeitsvolumen (2025)",
-    "39,9 % Teilzeitquote (Rekordhoch)",
+    "49 % Teilzeitquote bei Frauen (2024)",
     "76 % Erwerbsbeteiligung bei 20- bis 24-Jährigen",
-    "5 Argumente"
+    "8 Argumente"
   ],
-  "sourceNote": "Daten basieren auf Veröffentlichungen von IAB und Destatis aus den Jahren 2025–2026; je nach Thema reichen die zugrunde liegenden Erhebungsjahre von 2015 bis 2025.",
+  "sourceNote": "Daten basieren auf Veröffentlichungen von IAB, Destatis und Eurostat aus den Jahren 2024–2026; je nach Thema reichen die zugrunde liegenden Erhebungsjahre von 2005 bis 2025.",
   "sections": [
     {
       "id": "arbeitsvolumen",
@@ -18,7 +18,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — das entspricht umgerechnet 1.332 Stunden pro Erwerbstätigem und Jahr, also etwa 33 Stunden pro Woche im Durchschnitt über alle Voll- und Teilzeitkräfte.",
+          "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — das entspricht umgerechnet 1.332 Stunden pro Erwerbstätigem und Jahr. Der Pro-Kopf-Wert sinkt zwar leicht, doch gleichzeitig ist die Zahl der Erwerbstätigen auf einem Rekordhoch. In der Summe arbeitet Deutschland also ähnlich viel wie in den Vorjahren.",
           "sourceRefs": [
             "iab-ergebnisse-der-arbeitszeitrechnung-2025"
           ]
@@ -39,7 +39,7 @@
             {
               "label": "Teilzeitquote",
               "value": "39,9 %",
-              "sublabel": "Neuer Höchststand"
+              "sublabel": "Neuer Höchststand (IAB)"
             }
           ],
           "sourceRefs": [
@@ -54,7 +54,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Gründe für Teilzeitarbeit sind vielfältig. Während der allgemeine Wunsch nach reduzierter Arbeitszeit der häufigste Grund ist, spielt Care-Arbeit (Betreuung von Kindern oder Pflegebedürftigen) eine fast ebenso große Rolle – insbesondere bei Frauen.",
+          "text": "Die Gründe für Teilzeitarbeit sind vielfältig. Während der allgemeine Wunsch nach reduzierter Arbeitszeit der häufigste Grund ist, spielt Care-Arbeit (Betreuung von Kindern oder Pflegebedürftigen) eine fast ebenso große Rolle — insbesondere bei Frauen. Nur 4,8 % der Teilzeitbeschäftigten geben an, keine Vollzeitstelle gefunden zu haben.",
           "sourceRefs": [
             "destatis-gruende-fuer-teilzeittaetigkeit-2024"
           ]
@@ -93,12 +93,163 @@
       ]
     },
     {
+      "id": "gender-gap",
+      "title": "Teilzeit ist weiblich — der Gender Gap",
+      "content": [
+        {
+          "type": "text",
+          "text": "Teilzeitarbeit ist in Deutschland stark geschlechtsspezifisch verteilt. Laut Statistischem Bundesamt (Destatis) arbeiteten 2024 fast jede zweite Frau (49 %) in Teilzeit, aber nur gut jeder neunte Mann (12 %). Besonders ausgeprägt ist der Unterschied bei Eltern: 68 % aller erwerbstätigen Mütter mit Kindern unter 18 Jahren arbeiten in Teilzeit, bei Vätern sind es nur 8 %.",
+          "sourceRefs": [
+            "destatis-teilzeitquote-geschlecht-2024"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Teilzeitquoten nach Geschlecht (2024)",
+          "items": [
+            {
+              "title": "Frauen",
+              "rows": [
+                {
+                  "label": "Alle Erwerbstätigen",
+                  "value": "49 %"
+                },
+                {
+                  "label": "Mütter (Kind < 18)",
+                  "value": "68 %"
+                },
+                {
+                  "label": "Mütter (Kind < 3)",
+                  "value": "73 %"
+                }
+              ]
+            },
+            {
+              "title": "Männer",
+              "rows": [
+                {
+                  "label": "Alle Erwerbstätigen",
+                  "value": "12 %"
+                },
+                {
+                  "label": "Väter (Kind < 18)",
+                  "value": "8 %"
+                },
+                {
+                  "label": "Väter (Kind < 3)",
+                  "value": "9 %"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "destatis-teilzeitquote-geschlecht-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Von 2005 bis 2024 stieg die Teilzeitquote bei Frauen von 43 % auf 49 % und bei Männern von 7 % auf 12 %. Beide Geschlechter arbeiten also häufiger in Teilzeit als früher — bei Männern ist der relative Anstieg sogar stärker.",
+          "sourceRefs": [
+            "destatis-teilzeitquote-geschlecht-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-vergleich",
+      "title": "Deutschland im europäischen Vergleich",
+      "content": [
+        {
+          "type": "text",
+          "text": "Deutschland gehört zu den Ländern mit den höchsten Teilzeitquoten in der EU. Mit 29 % aller Erwerbstätigen liegt Deutschland deutlich über dem EU-Durchschnitt von 18 %. Nur die Niederlande (43 %) und Österreich (31 %) haben höhere Quoten. Auffällig: In den Niederlanden geht die hohe Teilzeitquote mit der höchsten Erwerbstätigenquote von Frauen in der EU einher — ein Hinweis darauf, dass hohe Teilzeitquoten nicht gleichbedeutend mit geringer Arbeitsbereitschaft sind.",
+          "sourceRefs": [
+            "destatis-teilzeitquote-geschlecht-2024"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Teilzeitquoten im EU-Vergleich (2024)",
+          "unit": "%",
+          "items": [
+            {
+              "label": "Niederlande",
+              "value": 43
+            },
+            {
+              "label": "Österreich",
+              "value": 31
+            },
+            {
+              "label": "Deutschland",
+              "value": 29,
+              "highlight": true
+            },
+            {
+              "label": "EU-Durchschnitt",
+              "value": 18
+            },
+            {
+              "label": "Bulgarien",
+              "value": 2
+            }
+          ],
+          "sourceRefs": [
+            "destatis-teilzeitquote-geschlecht-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rentenfolgen",
+      "title": "Langzeitfolgen: Gender Pension Gap",
+      "content": [
+        {
+          "type": "text",
+          "text": "Langjährige Teilzeitarbeit hat erhebliche Auswirkungen auf die Altersvorsorge. Laut Statistischem Bundesamt (Destatis) lag der Gender Pension Gap 2023 bei 27,1 % — Frauen erhielten im Durchschnitt gut ein Viertel weniger eigene Alterssicherungsleistungen als Männer. Die hohe Teilzeitquote bei Frauen ist eine der Hauptursachen: Weniger Arbeitsstunden bedeuten geringere Rentenansprüche.",
+          "sourceRefs": [
+            "destatis-gender-pension-gap-2023"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Gender Pension Gap",
+              "value": "27,1 %",
+              "sublabel": "Eigene Alterseinkünfte (2023)"
+            },
+            {
+              "label": "Frauen-Teilzeitquote",
+              "value": "49 %",
+              "sublabel": "Haupttreiber der Rentenlücke"
+            },
+            {
+              "label": "Mütter in Teilzeit",
+              "value": "68 %",
+              "sublabel": "Mit Kind unter 18 Jahren"
+            }
+          ],
+          "sourceRefs": [
+            "destatis-gender-pension-gap-2023",
+            "destatis-teilzeitquote-geschlecht-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der Pension Gap ist allerdings rückläufig: Für jüngere Geburtsjahrgänge fällt er laut Untersuchungen des DIW Berlin um rund 15 Prozentpunkte geringer aus als bei älteren Kohorten. Dennoch bleibt Teilzeitarbeit ein wesentlicher Risikofaktor für Altersarmut, insbesondere im Fall von Scheidung oder Verwitwung.",
+          "sourceRefs": [
+            "destatis-gender-pension-gap-2023"
+          ]
+        }
+      ]
+    },
+    {
       "id": "gen-z",
       "title": "Die Gen Z und die Arbeitsmoral",
       "content": [
         {
           "type": "text",
-          "text": "Ein hartnäckiger Mythos besagt, die Generation Z sei arbeitsscheu. IAB-Veröffentlichungen von 2025 auf Basis von Daten bis 2023 zeigen das Gegenteil: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 Prozent gestiegen. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit einer höheren Erwerbsbeteiligung von Studierenden zusammen.",
+          "text": "Ein häufig geäußerter Vorwurf besagt, die Generation Z sei arbeitsscheu. Die Daten des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) von 2025, basierend auf Erhebungen bis 2023, zeichnen ein anderes Bild: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 % gestiegen. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit einer höheren Erwerbsbeteiligung von Studierenden zusammen — deren Erwerbsquote stieg von 36,7 % auf 56,0 %.",
           "sourceRefs": [
             "iab-generation-z-erwerbsbeteiligung-der-20-bis"
           ]
@@ -145,7 +296,7 @@
     {
       "id": "arg-1",
       "claim": "Die Leute wollen heute alle nur noch in Teilzeit arbeiten und ihre Freizeit genießen.",
-      "response": "Der Wunsch nach mehr Freizeit ist zwar der häufigste Grund (27,9 %), aber fast genauso viele (23,5 %) arbeiten in Teilzeit, weil sie Care-Arbeit leisten (Kinderbetreuung oder Pflege von Angehörigen). Bei Frauen liegen eigener Wunsch (28,9 %) und Care-Arbeit (28,8 %) nahezu gleichauf.",
+      "response": "Es stimmt, dass der Wunsch nach mehr Freizeit der häufigste Einzelgrund für Teilzeit ist (27,9 %). Allerdings arbeiten fast genauso viele (23,5 %) in Teilzeit, weil sie Care-Arbeit leisten — also Kinder betreuen oder Angehörige pflegen. Bei Frauen liegen beide Gründe nahezu gleichauf (28,9 % vs. 28,8 %). Und nur 4,8 % der Teilzeitbeschäftigten geben an, keine Vollzeitstelle gefunden zu haben. Wer Teilzeit pauschal als Faulheit abtut, übersieht die vielfältigen Gründe.",
       "keywords": [
         "Freizeit",
         "Faul",
@@ -159,7 +310,7 @@
     {
       "id": "arg-2",
       "claim": "Wegen der ganzen Teilzeit geht in Deutschland die Arbeitsleistung zurück.",
-      "response": "2025 lag das Gesamtarbeitsvolumen in Deutschland bei 61,26 Milliarden Stunden und damit nur minimal (-0,2 %) unter dem Vorjahr. Die Zahl der Erwerbstätigen blieb mit 45,98 Millionen nahezu konstant.",
+      "response": "Die durchschnittliche Arbeitszeit pro Kopf sinkt tatsächlich leicht — 2025 lag sie bei 1.332 Stunden pro Erwerbstätigem. Gleichzeitig hat die Zahl der Erwerbstätigen mit 45,98 Millionen fast ein Rekordhoch erreicht, sodass das Gesamtarbeitsvolumen bei 61,26 Milliarden Stunden lag — nur 0,2 % unter dem Vorjahr. In der Summe arbeitet Deutschland also nahezu gleich viel.",
       "keywords": [
         "Arbeitsleistung",
         "Wirtschaft",
@@ -173,7 +324,7 @@
     {
       "id": "arg-3",
       "claim": "Die Gen Z ist arbeitsscheu und will nicht mehr richtig arbeiten.",
-      "response": "Daten des IAB widerlegen das: Die Erwerbsbeteiligung der 20- bis 24-Jährigen stieg seit 2015 um über 6 Prozentpunkte auf 76 %. Der Teilzeitanstieg in dieser Gruppe erklärt sich vor allem durch mehr arbeitende Studierende: Deren Erwerbsquote stieg von 36,7 % (2015) auf 56,0 % (2023).",
+      "response": "Die Daten des IAB zeigen ein anderes Bild: Die Erwerbsbeteiligung der 20- bis 24-Jährigen stieg seit 2015 um über 6 Prozentpunkte auf 76 %. Der Teilzeitanstieg in dieser Gruppe erklärt sich vor allem durch mehr arbeitende Studierende: Deren Erwerbsquote stieg von 36,7 % (2015) auf 56,0 % (2023). Dass junge Menschen andere Vorstellungen von Arbeit haben — etwa flexible Arbeitszeiten oder Homeoffice — bedeutet nicht, dass sie weniger arbeiten wollen.",
       "keywords": [
         "Gen Z",
         "Jugend",
@@ -187,7 +338,7 @@
     {
       "id": "arg-4",
       "claim": "Die jungen Leute machen alle nur noch Teilzeit, weil sie keine Lust auf 40 Stunden haben.",
-      "response": "Der Anstieg der Teilzeit bei jungen Menschen hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen. Die Erwerbsquote von Studierenden im Alter von 20 bis 24 Jahren stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %.",
+      "response": "Der Anstieg der Teilzeit bei jungen Menschen hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen. Die Erwerbsquote von Studierenden im Alter von 20 bis 24 Jahren stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %. Studierende arbeiten zwangsläufig in Teilzeit — das sagt nichts über ihre Arbeitsmoral nach dem Studium aus.",
       "keywords": [
         "Studenten",
         "Teilzeit",
@@ -201,7 +352,7 @@
     {
       "id": "arg-5",
       "claim": "Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.",
-      "response": "Das ist ein Trugschluss. Die verfügbaren Destatis-Daten zeigen vor allem, dass Teilzeit häufig mit Betreuungspflichten (23,5 %), Aus- und Weiterbildung (11,6 %) oder Krankheit beziehungsweise Behinderung (4,9 %) zusammenhängt. Ein pauschales 'Teilzeit abschaffen' beseitigt diese Gründe nicht.",
+      "response": "Die Idee klingt einfach, geht aber an der Realität vorbei. Teilzeit hängt häufig mit Betreuungspflichten (23,5 %), Aus- und Weiterbildung (11,6 %) oder Krankheit bzw. Behinderung (4,9 %) zusammen. Ein pauschales Abschaffen beseitigt diese Gründe nicht — es würde eher dazu führen, dass Menschen ganz aus dem Arbeitsmarkt ausscheiden. Kritiker weisen zurecht darauf hin, dass bessere Kinderbetreuung und flexiblere Arbeitsmodelle wirksamer wären.",
       "keywords": [
         "Fachkräftemangel",
         "Abschaffen",
@@ -209,6 +360,49 @@
       ],
       "relatedSections": [
         "gruende"
+      ]
+    },
+    {
+      "id": "arg-6",
+      "claim": "Teilzeit ist doch ein reines Frauenproblem.",
+      "response": "Frauen arbeiten tatsächlich deutlich häufiger in Teilzeit als Männer (49 % vs. 12 % im Jahr 2024). Aber auch bei Männern hat sich die Quote seit 2005 von 7 % auf 12 % fast verdoppelt. Zudem betrifft Teilzeit die gesamte Gesellschaft: Die hohe Teilzeitquote von Müttern (68 %) hängt eng mit dem Mangel an Betreuungsplätzen zusammen — einem strukturellen Problem, das nicht nur Frauen betrifft.",
+      "keywords": [
+        "Frauen",
+        "Männer",
+        "Gleichberechtigung",
+        "Gender"
+      ],
+      "relatedSections": [
+        "gender-gap"
+      ]
+    },
+    {
+      "id": "arg-7",
+      "claim": "In anderen Ländern wird viel mehr gearbeitet als bei uns.",
+      "response": "Deutschlands Teilzeitquote von 29 % liegt zwar über dem EU-Durchschnitt von 18 %. Allerdings haben nur die Niederlande (43 %) und Österreich (31 %) höhere Quoten — und gerade die Niederlande haben gleichzeitig die höchste Frauenerwerbstätigenquote der EU. Hohe Teilzeitquoten gehen oft mit hoher Erwerbsbeteiligung einher: Mehr Menschen arbeiten, aber manche eben weniger Stunden. Länder mit niedrigen Teilzeitquoten haben häufig auch eine geringere Erwerbsbeteiligung.",
+      "keywords": [
+        "Europa",
+        "Vergleich",
+        "Niederlande",
+        "Ausland"
+      ],
+      "relatedSections": [
+        "eu-vergleich"
+      ]
+    },
+    {
+      "id": "arg-8",
+      "claim": "Wer Teilzeit arbeitet, ist selbst schuld, wenn die Rente nicht reicht.",
+      "response": "Der Gender Pension Gap von 27,1 % (2023) zeigt, dass Frauen im Schnitt gut ein Viertel weniger eigene Alterssicherungsleistungen erhalten als Männer — unter anderem weil 68 % der Mütter in Teilzeit arbeiten, oft aufgrund fehlender Betreuungsmöglichkeiten. Die Entscheidung für Teilzeit ist in vielen Fällen keine freie Wahl, sondern Ergebnis struktureller Rahmenbedingungen. Positiv: Der Pension Gap wird für jüngere Generationen kleiner, weil sich Erwerbsbiografien angleichen.",
+      "keywords": [
+        "Rente",
+        "Altersarmut",
+        "Eigenverantwortung",
+        "Pension Gap"
+      ],
+      "relatedSections": [
+        "rentenfolgen",
+        "gender-gap"
       ]
     }
   ],
@@ -227,6 +421,16 @@
       "id": "iab-generation-z-erwerbsbeteiligung-der-20-bis",
       "label": "IAB: Generation Z – Erwerbsbeteiligung der 20- bis 24-Jährigen",
       "url": "https://iab.de/presseinfo/generation-z-erwerbsbeteiligung-der-20-bis-24-jaehrigen-klettert-auf-den-hoechsten-stand-seit-jahrzehnten/"
+    },
+    {
+      "id": "destatis-teilzeitquote-geschlecht-2024",
+      "label": "Destatis: Fast jede zweite erwerbstätige Frau arbeitet in Teilzeit (2024)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_175_13.html"
+    },
+    {
+      "id": "destatis-gender-pension-gap-2023",
+      "label": "Destatis: Gender Pension Gap 2023",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/04/PD24_N016_12_63.html"
     }
   ]
 }
