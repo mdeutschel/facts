@@ -1486,6 +1486,8 @@ Hinweis: Hauptgründe für Teilzeitarbeit (2024)
 - Krankheit/Behinderung: 4.9 %
 - Keine Vollzeitstelle gefunden: 4.8 %
 
+Auffällig: Der Anteil der unfreiwillig Teilzeitbeschäftigten — also jener, die keine Vollzeitstelle finden konnten — ist mit 4,8 % auf einem historischen Tiefstand (2014: noch 13,6 %). Im EU-Vergleich liegt Deutschland damit weit unter dem Durchschnitt von 17,2 %. Die meisten arbeiten also nicht in Teilzeit, weil sie müssen, sondern weil sie es aufgrund persönlicher Umstände so gewählt haben.
+
 ### Teilzeit ist weiblich — der Gender Gap
 
 Teilzeitarbeit ist in Deutschland stark geschlechtsspezifisch verteilt. Laut Statistischem Bundesamt (Destatis) arbeiteten 2024 fast jede zweite Frau (49 %) in Teilzeit, aber nur gut jeder neunte Mann (12 %). Besonders ausgeprägt ist der Unterschied bei Eltern: 68 % aller erwerbstätigen Mütter mit Kindern unter 18 Jahren arbeiten in Teilzeit, bei Vätern sind es nur 8 %.
@@ -1560,6 +1562,7 @@ Hinweis: Erwerbsverhalten der 20- bis 24-Jährigen
 - Destatis: Gründe für Teilzeittätigkeit 2024 (https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/Interaktiv/3-9_tz_gruende-geschlecht.html)
 - IAB: Generation Z – Erwerbsbeteiligung der 20- bis 24-Jährigen (https://iab.de/presseinfo/generation-z-erwerbsbeteiligung-der-20-bis-24-jaehrigen-klettert-auf-den-hoechsten-stand-seit-jahrzehnten/)
 - Destatis: Fast jede zweite erwerbstätige Frau arbeitet in Teilzeit (2024) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_175_13.html)
+- Destatis: 28 % der Teilzeitbeschäftigten arbeiten auf eigenen Wunsch reduziert (Endergebnisse Mikrozensus 2024) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/01/PD26_N007_13.html)
 - Destatis: Gender Pension Gap 2023 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/04/PD24_N016_12_63.html)
 
 ---
