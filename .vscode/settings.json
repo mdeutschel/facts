@@ -1,3 +1,4 @@
 {
-  "gitflow.disableOnRepo": true
+  "gitflow.disableOnRepo": true,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
