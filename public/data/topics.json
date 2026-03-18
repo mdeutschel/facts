@@ -66,11 +66,11 @@
     {
       "id": "teilzeit",
       "title": "Teilzeit & Arbeitsmoral",
-      "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.",
+      "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit, der Gen Z und den Folgen von Teilzeit.",
       "icon": "schedule",
       "lastUpdated": "2026-03-18",
-      "factCount": 3,
-      "argumentCount": 5
+      "factCount": 6,
+      "argumentCount": 8
     },
     {
       "id": "vegane-ernaehrung",
