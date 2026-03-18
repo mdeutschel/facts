@@ -4,7 +4,7 @@
 
 ## Heizungswechsel 2026
 
-Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente | Stand: 2026-03
+Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente | Stand: 2026-03-18
 
 ### Fakten
 
@@ -275,7 +275,7 @@ Spalten: Position | Betrag
 
 ## E-Mobilität
 
-Fakten zu Reichweite, Akkus, Kosten & Klimabilanz | Stand: 2026-03
+Fakten zu Reichweite, Akkus, Kosten & Klimabilanz | Stand: 2026-03-18
 
 ### Fakten
 
@@ -412,7 +412,7 @@ Wenn ein E-Auto brennt, ist es oft aufwendiger zu löschen, weil der Akku geküh
 
 ## Energiewende & Atomkraft
 
-Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit | Stand: 2026-03
+Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit | Stand: 2026-03-18
 
 ### Fakten
 
@@ -715,7 +715,7 @@ Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System
 
 ## Klimawandel
 
-Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente | Stand: 2026-03
+Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente | Stand: 2026-03-18
 
 ### Fakten
 
@@ -922,7 +922,7 @@ Hinweis: Entwicklung des wissenschaftlichen Konsenses
 
 ## Verkehrswende
 
-Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen | Stand: 2026-03
+Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen | Stand: 2026-03-18
 
 ### Fakten
 
@@ -1117,7 +1117,7 @@ In vielen ländlichen Regionen ist ein alltagstauglicher ÖPNV schwerer erreichb
 
 ## Bürgergeld
 
-Fakten zu Regelsätzen, Sanktionen und Lohnabstand | Stand: 2026-03
+Fakten zu Regelsätzen, Sanktionen und Lohnabstand | Stand: 2026-03-18
 
 ### Fakten
 
@@ -1218,7 +1218,7 @@ Für seriöse Debatten braucht es belastbare amtliche Zahlen statt Einzelfälle 
 
 ## Migration & Asyl
 
-Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland | Stand: 2026-03
+Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland | Stand: 2026-03-18
 
 ### Fakten
 
@@ -1463,7 +1463,7 @@ Hinweis: Meilensteine der Migration nach Deutschland
 
 ## Teilzeit & Arbeitsmoral
 
-Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z. | Stand: 2026-03
+Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z. | Stand: 2026-03-18
 
 ### Fakten
 
@@ -1521,7 +1521,7 @@ Hinweis: Erwerbsverhalten der 20- bis 24-Jährigen
 
 ## Vegane Ernährung & Fleischkonsum
 
-Auswirkungen auf Klima, Umwelt und Gesundheit | Stand: 2026-03
+Auswirkungen auf Klima, Umwelt und Gesundheit | Stand: 2026-03-18
 
 ### Fakten
 
@@ -1605,7 +1605,7 @@ Hinweis: Fleischkonsum: Realität vs. DGE-Empfehlung
 
 ## Vermögens- und Erbschaftssteuer
 
-Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland | Stand: 2026-03
+Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland | Stand: 2026-03-18
 
 ### Fakten
 
@@ -1787,7 +1787,7 @@ Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 
 
 ## Gleichberechtigung
 
-Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation | Stand: 2026-03
+Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation | Stand: 2026-03-18
 
 ### Fakten
 
@@ -2071,7 +2071,7 @@ Hinweis: Meilensteine der Gleichberechtigung in Deutschland
 
 ## Deutsches Bildungssystem
 
-Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung | Stand: 2026-03
+Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung | Stand: 2026-03-18
 
 ### Fakten
 
@@ -2210,7 +2210,7 @@ Hinweis: Stufenweise Einführung des Rechtsanspruchs
 
 ## Deutsches Gesundheitssystem
 
-Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention | Stand: 2026-03
+Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention | Stand: 2026-03-18
 
 ### Fakten
 

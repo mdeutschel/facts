@@ -3,7 +3,7 @@
   "title": "Bürgergeld",
   "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
   "icon": "account_balance_wallet",
-  "lastUpdated": "2026-03",
+  "lastUpdated": "2026-03-18",
   "keyStats": [
     "563 € Regelsatz (Nullrunde 2025/2026)",
     "557 € Einkommensvorteil bei Mindestlohn (Single)",
@@ -82,16 +82,28 @@
               "title": "Bürgergeld (SGB II)",
               "color": "#37474f",
               "rows": [
-                { "label": "Regelbedarf", "value": "563 €/Monat" },
-                { "label": "Unterkunft + Heizung", "value": "zusätzlich (angemessen)" }
+                {
+                  "label": "Regelbedarf",
+                  "value": "563 €/Monat"
+                },
+                {
+                  "label": "Unterkunft + Heizung",
+                  "value": "zusätzlich (angemessen)"
+                }
               ]
             },
             {
               "title": "AsylbLG-Grundleistungen",
               "color": "#00897b",
               "rows": [
-                { "label": "Grundleistungen gesamt", "value": "~460 €/Monat" },
-                { "label": "davon pers. Bedarf", "value": "~202 €" }
+                {
+                  "label": "Grundleistungen gesamt",
+                  "value": "~460 €/Monat"
+                },
+                {
+                  "label": "davon pers. Bedarf",
+                  "value": "~202 €"
+                }
               ]
             }
           ],
@@ -166,12 +178,32 @@
         {
           "type": "table",
           "caption": "Aufschlüsselung Single-Haushalt (WSI-Modellrechnung, Bundesdurchschnitt)",
-          "headers": ["Position", "Bürgergeld", "Mindestlohn-Vollzeit"],
+          "headers": [
+            "Position",
+            "Bürgergeld",
+            "Mindestlohn-Vollzeit"
+          ],
           "rows": [
-            ["Regelbedarf / Nettolohn", "563 €", "~1.572 € netto"],
-            ["Unterkunft + Heizung", "~452 €", "vom Netto zu zahlen"],
-            ["Verfügbar nach Miete", "563 €", "~1.120 €"],
-            ["Einkommensvorteil", "", "+557 €/Monat"]
+            [
+              "Regelbedarf / Nettolohn",
+              "563 €",
+              "~1.572 € netto"
+            ],
+            [
+              "Unterkunft + Heizung",
+              "~452 €",
+              "vom Netto zu zahlen"
+            ],
+            [
+              "Verfügbar nach Miete",
+              "563 €",
+              "~1.120 €"
+            ],
+            [
+              "Einkommensvorteil",
+              "",
+              "+557 €/Monat"
+            ]
           ],
           "sourceRefs": [
             "wsi-studie-zum-lohnabstandsgebot-2024-2025"

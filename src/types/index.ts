@@ -4,7 +4,8 @@ export interface TopicMeta {
   subtitle: string
   icon: string
   lastUpdated: string
-  keyStats?: string[]
+  factCount: number
+  argumentCount: number
 }
 
 export interface TopicIndex {

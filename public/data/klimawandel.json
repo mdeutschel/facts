@@ -3,7 +3,7 @@
   "title": "Klimawandel",
   "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
   "icon": "thermostat",
-  "lastUpdated": "2026-03",
+  "lastUpdated": "2026-03-18",
   "keyStats": [
     "2024: Erstmals +1,6 °C über vorindustriellem Niveau",
     "CO₂-Konzentration 2024: 423,9 ppm",
@@ -451,11 +451,28 @@
           "caption": "CO₂-Emissionen pro Kopf im internationalen Vergleich (2024, in Tonnen)",
           "unit": "t/Kopf",
           "items": [
-            { "label": "USA", "value": 14.2, "highlight": true },
-            { "label": "China", "value": 8.9 },
-            { "label": "Deutschland", "value": 6.8, "highlight": true },
-            { "label": "Welt-Ø", "value": 4.7 },
-            { "label": "Indien", "value": 2.0 }
+            {
+              "label": "USA",
+              "value": 14.2,
+              "highlight": true
+            },
+            {
+              "label": "China",
+              "value": 8.9
+            },
+            {
+              "label": "Deutschland",
+              "value": 6.8,
+              "highlight": true
+            },
+            {
+              "label": "Welt-Ø",
+              "value": 4.7
+            },
+            {
+              "label": "Indien",
+              "value": 2
+            }
           ]
         },
         {

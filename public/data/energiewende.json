@@ -3,7 +3,7 @@
   "title": "Energiewende & Atomkraft",
   "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
   "icon": "bolt",
-  "lastUpdated": "2026-03",
+  "lastUpdated": "2026-03-18",
   "keyStats": [
     "55,3 % Erneuerbare am Stromverbrauch 2025",
     "AKW-Neubau deutlich teurer als Wind/Solar",
@@ -269,7 +269,7 @@
             },
             {
               "label": "2024",
-              "value": 56.0
+              "value": 56
             },
             {
               "label": "2025",
@@ -550,9 +550,22 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "32 von 56", "label": "Reaktoren offline", "sublabel": "auf dem Höhepunkt (Aug/Sept 2022)", "color": "#b71c1c" },
-            { "value": "< 30 GW", "label": "verfügbare Leistung", "sublabel": "von 61,4 GW installiert — historisches Tief" },
-            { "value": "Nettoimporteur", "label": "Frankreich 2022", "sublabel": "u. a. aus Deutschland" }
+            {
+              "value": "32 von 56",
+              "label": "Reaktoren offline",
+              "sublabel": "auf dem Höhepunkt (Aug/Sept 2022)",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "< 30 GW",
+              "label": "verfügbare Leistung",
+              "sublabel": "von 61,4 GW installiert — historisches Tief"
+            },
+            {
+              "value": "Nettoimporteur",
+              "label": "Frankreich 2022",
+              "sublabel": "u. a. aus Deutschland"
+            }
           ],
           "sourceRefs": [
             "edf-stress-corrosion-phenomenon-and-2022-french"

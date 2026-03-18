@@ -3,7 +3,7 @@
   "title": "Deutsches Gesundheitssystem",
   "subtitle": "Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention",
   "icon": "local_hospital",
-  "lastUpdated": "2026-03",
+  "lastUpdated": "2026-03-18",
   "keyStats": [
     "OECD-Spitzengruppe bei Pro-Kopf-Ausgaben",
     "17,5 % Gesamt-Beitragssatz GKV (2026)",
@@ -118,14 +118,42 @@
         {
           "type": "table",
           "caption": "GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag)",
-          "headers": ["Position", "Mindestlohn (~2.220 € brutto)", "Median (~3.000 € brutto)"],
+          "headers": [
+            "Position",
+            "Mindestlohn (~2.220 € brutto)",
+            "Median (~3.000 € brutto)"
+          ],
           "rows": [
-            ["AN-Anteil GKV (8,75 %)", "194 €", "263 €"],
-            ["AG-Anteil GKV (8,75 %)", "194 €", "263 €"],
-            ["GKV gesamt", "388 €", "525 €"],
-            ["+ Pflegeversicherung AN", "~40 €", "~53 €"],
-            ["Abzug vom Brutto (AN gesamt)", "~234 €", "~316 €"],
-            ["verbleibend netto (ca.)", "~1.570 €", "~2.050 €"]
+            [
+              "AN-Anteil GKV (8,75 %)",
+              "194 €",
+              "263 €"
+            ],
+            [
+              "AG-Anteil GKV (8,75 %)",
+              "194 €",
+              "263 €"
+            ],
+            [
+              "GKV gesamt",
+              "388 €",
+              "525 €"
+            ],
+            [
+              "+ Pflegeversicherung AN",
+              "~40 €",
+              "~53 €"
+            ],
+            [
+              "Abzug vom Brutto (AN gesamt)",
+              "~234 €",
+              "~316 €"
+            ],
+            [
+              "verbleibend netto (ca.)",
+              "~1.570 €",
+              "~2.050 €"
+            ]
           ],
           "sourceRefs": [
             "gkv-schaetzerkreis-prognose-2025-2026",
@@ -266,7 +294,7 @@
             },
             {
               "label": "Polen",
-              "value": 6.0
+              "value": 6
             },
             {
               "label": "Frankreich",

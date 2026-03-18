@@ -3,7 +3,7 @@
   "title": "Gleichberechtigung",
   "subtitle": "Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation",
   "icon": "balance",
-  "lastUpdated": "2026-03",
+  "lastUpdated": "2026-03-18",
   "keyStats": [
     "16 % unbereinigter Gender Pay Gap (2025)",
     "43,4 % Gender Care Gap",
@@ -19,7 +19,9 @@
         {
           "type": "text",
           "text": "Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten Wert (Durchschnitt aller Beschäftigten) und dem bereinigten Wert (bei gleicher Qualifikation, Tätigkeit und Arbeitszeit). Beide Kennzahlen sind aussagekräftig: Der unbereinigte Gap zeigt die tatsächliche Einkommenslücke, der bereinigte die verbleibende Diskriminierung nach Herausrechnung struktureller Faktoren.",
-          "sourceRefs": ["destatis-gender-pay-gap-2025"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-2025"
+          ]
         },
         {
           "type": "stat_grid",
@@ -45,7 +47,9 @@
               "sublabel": "Unbereinigt – historisch geringere Lücke"
             }
           ],
-          "sourceRefs": ["destatis-gender-pay-gap-2025"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-2025"
+          ]
         },
         {
           "type": "comparison",
@@ -55,20 +59,34 @@
               "title": "Männer",
               "color": "#37474f",
               "rows": [
-                { "label": "Stundenlohn", "value": "27,05 €" },
-                { "label": "Hochrechnung (38 h/Woche, 52 Wochen)", "value": "~53.450 € brutto/Jahr" }
+                {
+                  "label": "Stundenlohn",
+                  "value": "27,05 €"
+                },
+                {
+                  "label": "Hochrechnung (38 h/Woche, 52 Wochen)",
+                  "value": "~53.450 € brutto/Jahr"
+                }
               ]
             },
             {
               "title": "Frauen",
               "color": "#00897b",
               "rows": [
-                { "label": "Stundenlohn", "value": "22,81 €" },
-                { "label": "Hochrechnung (38 h/Woche, 52 Wochen)", "value": "~45.080 € brutto/Jahr" }
+                {
+                  "label": "Stundenlohn",
+                  "value": "22,81 €"
+                },
+                {
+                  "label": "Hochrechnung (38 h/Woche, 52 Wochen)",
+                  "value": "~45.080 € brutto/Jahr"
+                }
               ]
             }
           ],
-          "sourceRefs": ["destatis-gender-pay-gap-2025"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-2025"
+          ]
         },
         {
           "type": "line_chart",
@@ -76,38 +94,95 @@
           "unit": "%",
           "color": "#e53935",
           "items": [
-            { "label": "2006", "value": 23 },
-            { "label": "2008", "value": 23 },
-            { "label": "2010", "value": 22 },
-            { "label": "2012", "value": 23 },
-            { "label": "2014", "value": 22 },
-            { "label": "2016", "value": 21 },
-            { "label": "2018", "value": 20 },
-            { "label": "2020", "value": 18 },
-            { "label": "2022", "value": 18 },
-            { "label": "2024", "value": 16 },
-            { "label": "2025", "value": 16 }
+            {
+              "label": "2006",
+              "value": 23
+            },
+            {
+              "label": "2008",
+              "value": 23
+            },
+            {
+              "label": "2010",
+              "value": 22
+            },
+            {
+              "label": "2012",
+              "value": 23
+            },
+            {
+              "label": "2014",
+              "value": 22
+            },
+            {
+              "label": "2016",
+              "value": 21
+            },
+            {
+              "label": "2018",
+              "value": 20
+            },
+            {
+              "label": "2020",
+              "value": 18
+            },
+            {
+              "label": "2022",
+              "value": 18
+            },
+            {
+              "label": "2024",
+              "value": 16
+            },
+            {
+              "label": "2025",
+              "value": 16
+            }
           ],
-          "sourceRefs": ["destatis-gender-pay-gap-2025"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-2025"
+          ]
         },
         {
           "type": "table",
           "caption": "Branchen mit den größten Pay Gaps (unbereiningter GPG, 2024)",
-          "headers": ["Branche", "Pay Gap"],
-          "rows": [
-            ["Finanz- und Versicherungsdienstleistungen", "25 %"],
-            ["Freiberufliche, wissenschaftliche und technische Dienste", "25 %"],
-            ["Verarbeitendes Gewerbe", "22 %"],
-            ["Gesundheits- und Sozialwesen", "19 %"],
-            ["Öffentliche Verwaltung", "8 %"]
+          "headers": [
+            "Branche",
+            "Pay Gap"
           ],
-          "sourceRefs": ["destatis-gender-pay-gap-2025"]
+          "rows": [
+            [
+              "Finanz- und Versicherungsdienstleistungen",
+              "25 %"
+            ],
+            [
+              "Freiberufliche, wissenschaftliche und technische Dienste",
+              "25 %"
+            ],
+            [
+              "Verarbeitendes Gewerbe",
+              "22 %"
+            ],
+            [
+              "Gesundheits- und Sozialwesen",
+              "19 %"
+            ],
+            [
+              "Öffentliche Verwaltung",
+              "8 %"
+            ]
+          ],
+          "sourceRefs": [
+            "destatis-gender-pay-gap-2025"
+          ]
         },
         {
           "type": "fact",
           "text": "Bei einer Vollzeitstelle mit 38 Wochenstunden ergibt der unbereinigte Pay Gap von 4,24 €/Stunde einen Gehaltsunterschied von rund 8.400 € brutto pro Jahr. In Ostdeutschland ist der Gap mit 5 % deutlich geringer als in Westdeutschland (17 %) — ein Erbe der höheren weiblichen Erwerbsbeteiligung in der DDR.",
           "highlight": true,
-          "sourceRefs": ["destatis-gender-pay-gap-2025"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-2025"
+          ]
         }
       ]
     },
@@ -118,7 +193,9 @@
         {
           "type": "text",
           "text": "Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt). Frauen leisten in Deutschland deutlich mehr unbezahlte Arbeit als Männer — mit weitreichenden Folgen für Einkommen, Karriere und Rente.",
-          "sourceRefs": ["bmfsfj-destatis-gender-care-gap"]
+          "sourceRefs": [
+            "bmfsfj-destatis-gender-care-gap"
+          ]
         },
         {
           "type": "stat_grid",
@@ -144,7 +221,10 @@
               "sublabel": "der erwerbstätigen Männer (15–64) in Teilzeit"
             }
           ],
-          "sourceRefs": ["bmfsfj-destatis-gender-care-gap", "destatis-teilzeit-geschlecht"]
+          "sourceRefs": [
+            "bmfsfj-destatis-gender-care-gap",
+            "destatis-teilzeit-geschlecht"
+          ]
         },
         {
           "type": "bar_chart",
@@ -161,7 +241,9 @@
               "value": 20
             }
           ],
-          "sourceRefs": ["destatis-erwerbsarbeit-und-unbezahlte-arbeit"]
+          "sourceRefs": [
+            "destatis-erwerbsarbeit-und-unbezahlte-arbeit"
+          ]
         },
         {
           "type": "comparison",
@@ -171,22 +253,42 @@
               "title": "Frauen",
               "color": "#00897b",
               "rows": [
-                { "label": "Bezahlte Erwerbsarbeit", "value": "16:33 h" },
-                { "label": "Unbezahlte Arbeit", "value": "29:00 h" }
+                {
+                  "label": "Bezahlte Erwerbsarbeit",
+                  "value": "16:33 h"
+                },
+                {
+                  "label": "Unbezahlte Arbeit",
+                  "value": "29:00 h"
+                }
               ],
-              "total": { "label": "Gesamt", "value": "45:33 h" }
+              "total": {
+                "label": "Gesamt",
+                "value": "45:33 h"
+              }
             },
             {
               "title": "Männer",
               "color": "#37474f",
               "rows": [
-                { "label": "Bezahlte Erwerbsarbeit", "value": "24:23 h" },
-                { "label": "Unbezahlte Arbeit", "value": "20:00 h" }
+                {
+                  "label": "Bezahlte Erwerbsarbeit",
+                  "value": "24:23 h"
+                },
+                {
+                  "label": "Unbezahlte Arbeit",
+                  "value": "20:00 h"
+                }
               ],
-              "total": { "label": "Gesamt", "value": "44:23 h" }
+              "total": {
+                "label": "Gesamt",
+                "value": "44:23 h"
+              }
             }
           ],
-          "sourceRefs": ["destatis-erwerbsarbeit-und-unbezahlte-arbeit"]
+          "sourceRefs": [
+            "destatis-erwerbsarbeit-und-unbezahlte-arbeit"
+          ]
         },
         {
           "type": "comparison",
@@ -196,26 +298,43 @@
               "title": "Mütter",
               "color": "#00897b",
               "rows": [
-                { "label": "Teilzeitquote", "value": "66–67 %" },
-                { "label": "Vollzeitquote (Schulkinder)", "value": "37,1 %" }
+                {
+                  "label": "Teilzeitquote",
+                  "value": "66–67 %"
+                },
+                {
+                  "label": "Vollzeitquote (Schulkinder)",
+                  "value": "37,1 %"
+                }
               ]
             },
             {
               "title": "Väter",
               "color": "#37474f",
               "rows": [
-                { "label": "Teilzeitquote", "value": "9 %" },
-                { "label": "Vollzeitquote (Schulkinder)", "value": "93,0 %" }
+                {
+                  "label": "Teilzeitquote",
+                  "value": "9 %"
+                },
+                {
+                  "label": "Vollzeitquote (Schulkinder)",
+                  "value": "93,0 %"
+                }
               ]
             }
           ],
-          "sourceRefs": ["destatis-teilzeit-geschlecht"]
+          "sourceRefs": [
+            "destatis-teilzeit-geschlecht"
+          ]
         },
         {
           "type": "fact",
           "text": "Laut ZEW verdienen Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger als vergleichbare Frauen ohne Kinder. Dieser 'Child Penalty' wirkt langfristig auf Karriere, Vermögen und Rente. Bei Vätern gibt es keinen vergleichbaren Effekt. Zwei Drittel der erwerbstätigen Mütter arbeiten in Teilzeit — bei Vätern sind es nur 9 %.",
           "highlight": true,
-          "sourceRefs": ["zew-einkommensverlust-nach-geburt", "destatis-teilzeit-geschlecht"]
+          "sourceRefs": [
+            "zew-einkommensverlust-nach-geburt",
+            "destatis-teilzeit-geschlecht"
+          ]
         }
       ]
     },
@@ -226,7 +345,9 @@
         {
           "type": "text",
           "text": "Der Gender Pension Gap ist die Rentenlücke zwischen Männern und Frauen. Er spiegelt die kumulierten Auswirkungen von Pay Gap, Care Gap und Teilzeitarbeit über ein ganzes Erwerbsleben wider. Ohne Hinterbliebenenrenten beträgt die Lücke fast 40 %.",
-          "sourceRefs": ["destatis-gender-pension-gap"]
+          "sourceRefs": [
+            "destatis-gender-pension-gap"
+          ]
         },
         {
           "type": "stat_grid",
@@ -253,7 +374,9 @@
               "sublabel": "Ohne Hinterbliebenenrenten"
             }
           ],
-          "sourceRefs": ["destatis-gender-pension-gap"]
+          "sourceRefs": [
+            "destatis-gender-pension-gap"
+          ]
         },
         {
           "type": "comparison",
@@ -263,30 +386,61 @@
               "title": "Männer",
               "color": "#37474f",
               "rows": [
-                { "label": "Altersrente (Bestand)", "value": "1.405 €/Monat" },
-                { "label": "Jahreseinkommen", "value": "~16.860 €" }
+                {
+                  "label": "Altersrente (Bestand)",
+                  "value": "1.405 €/Monat"
+                },
+                {
+                  "label": "Jahreseinkommen",
+                  "value": "~16.860 €"
+                }
               ]
             },
             {
               "title": "Frauen",
               "color": "#00897b",
               "rows": [
-                { "label": "Altersrente (Bestand)", "value": "955 €/Monat" },
-                { "label": "Jahreseinkommen", "value": "~11.460 €" }
+                {
+                  "label": "Altersrente (Bestand)",
+                  "value": "955 €/Monat"
+                },
+                {
+                  "label": "Jahreseinkommen",
+                  "value": "~11.460 €"
+                }
               ]
             }
           ],
-          "sourceRefs": ["wsi-rentenzahlbetrag"]
+          "sourceRefs": [
+            "wsi-rentenzahlbetrag"
+          ]
         },
         {
           "type": "table",
           "caption": "Armutsgefährdungsquote nach Geschlecht (65+)",
-          "headers": ["Altersgruppe", "Frauen", "Männer", "Differenz"],
-          "rows": [
-            ["65+", "21,4 %", "17,0 %", "+4,4 Pp."],
-            ["75+", "21,8 %", "15,4 %", "+6,4 Pp."]
+          "headers": [
+            "Altersgruppe",
+            "Frauen",
+            "Männer",
+            "Differenz"
           ],
-          "sourceRefs": ["destatis-armutsgefaehrdung-aeltere"]
+          "rows": [
+            [
+              "65+",
+              "21,4 %",
+              "17,0 %",
+              "+4,4 Pp."
+            ],
+            [
+              "75+",
+              "21,8 %",
+              "15,4 %",
+              "+6,4 Pp."
+            ]
+          ],
+          "sourceRefs": [
+            "destatis-armutsgefaehrdung-aeltere"
+          ]
         },
         {
           "type": "comparison",
@@ -296,18 +450,26 @@
               "title": "Männer",
               "color": "#37474f",
               "rows": [
-                { "label": "Beitragsjahre", "value": "42 Jahre" }
+                {
+                  "label": "Beitragsjahre",
+                  "value": "42 Jahre"
+                }
               ]
             },
             {
               "title": "Frauen",
               "color": "#00897b",
               "rows": [
-                { "label": "Beitragsjahre", "value": "33 Jahre" }
+                {
+                  "label": "Beitragsjahre",
+                  "value": "33 Jahre"
+                }
               ]
             }
           ],
-          "sourceRefs": ["drv-rentenatlas-2024"]
+          "sourceRefs": [
+            "drv-rentenatlas-2024"
+          ]
         },
         {
           "type": "line_chart",
@@ -315,19 +477,40 @@
           "unit": "%",
           "color": "#e53935",
           "items": [
-            { "label": "2007", "value": 43 },
-            { "label": "2011", "value": 38 },
-            { "label": "2015", "value": 34 },
-            { "label": "2019", "value": 30 },
-            { "label": "2023", "value": 27.1 }
+            {
+              "label": "2007",
+              "value": 43
+            },
+            {
+              "label": "2011",
+              "value": 38
+            },
+            {
+              "label": "2015",
+              "value": 34
+            },
+            {
+              "label": "2019",
+              "value": 30
+            },
+            {
+              "label": "2023",
+              "value": 27.1
+            }
           ],
-          "sourceRefs": ["destatis-gender-pension-gap"]
+          "sourceRefs": [
+            "destatis-gender-pension-gap"
+          ]
         },
         {
           "type": "fact",
           "text": "Frauen erhalten im Schnitt 450 € weniger Altersrente pro Monat als Männer — über 20 Rentenjahre summiert sich das auf über 100.000 €. Ein Hauptgrund: Frauen haben durchschnittlich nur 33 Beitragsjahre (Männer: 42) — 9 Jahre fehlen durch Care-Arbeit. Immerhin sinkt der Gap langsam: von 43 % (2007) auf 27,1 % (2023). Ohne Hinterbliebenenrenten bleibt er bei 39,4 %.",
           "highlight": true,
-          "sourceRefs": ["destatis-gender-pension-gap", "wsi-rentenzahlbetrag", "drv-rentenatlas-2024"]
+          "sourceRefs": [
+            "destatis-gender-pension-gap",
+            "wsi-rentenzahlbetrag",
+            "drv-rentenatlas-2024"
+          ]
         }
       ]
     },
@@ -338,7 +521,10 @@
         {
           "type": "text",
           "text": "Pay Gap und Pension Gap schlagen sich auch im Vermögen nieder. Die Vermögenslücke zwischen Männern und Frauen wird durch Einkommensunterschiede, Erwerbsunterbrechungen und unterschiedliche Anlagestrategien verursacht — und perpetuiert die ökonomische Abhängigkeit von Frauen.",
-          "sourceRefs": ["bundesbank-household-wealth-2023", "diw-gender-wealth-gap"]
+          "sourceRefs": [
+            "bundesbank-household-wealth-2023",
+            "diw-gender-wealth-gap"
+          ]
         },
         {
           "type": "stat_grid",
@@ -364,13 +550,19 @@
               "sublabel": "Pro Haushalt (2023)"
             }
           ],
-          "sourceRefs": ["bundesbank-household-wealth-2023", "diw-gender-wealth-gap"]
+          "sourceRefs": [
+            "bundesbank-household-wealth-2023",
+            "diw-gender-wealth-gap"
+          ]
         },
         {
           "type": "fact",
           "text": "Die Vermögenslücke zwischen Männern und Frauen beträgt im Durchschnitt rund 30.000 € — bei Ehepaaren sogar bis zu 50.000 €. Hauptursache sind Einkommensunterschiede und Erwerbsunterbrechungen durch Care-Arbeit. Pay Gap, Care Gap und Pension Gap verstärken sich gegenseitig: Wer weniger verdient, spart weniger, investiert weniger und ist im Alter stärker von Armut bedroht.",
           "highlight": true,
-          "sourceRefs": ["bundesbank-household-wealth-2023", "diw-gender-wealth-gap"]
+          "sourceRefs": [
+            "bundesbank-household-wealth-2023",
+            "diw-gender-wealth-gap"
+          ]
         }
       ]
     },
@@ -381,7 +573,9 @@
         {
           "type": "text",
           "text": "Gewalt gegen Frauen ist in Deutschland ein gravierendes Problem — und kein Randphänomen. Laut BKA-Lagebild 2024 wurden mehr als 265.000 Opfer häuslicher Gewalt erfasst, über 70 % davon weiblich. Die Dunkelziffer liegt deutlich höher.",
-          "sourceRefs": ["bka-haeusliche-gewalt-2024"]
+          "sourceRefs": [
+            "bka-haeusliche-gewalt-2024"
+          ]
         },
         {
           "type": "stat_grid",
@@ -408,20 +602,51 @@
               "sublabel": "Häusliche Gewalt seit 2019"
             }
           ],
-          "sourceRefs": ["bka-haeusliche-gewalt-2024", "bka-straftaten-gegen-frauen-2024"]
+          "sourceRefs": [
+            "bka-haeusliche-gewalt-2024",
+            "bka-straftaten-gegen-frauen-2024"
+          ]
         },
         {
           "type": "table",
           "caption": "Gewalt gegen Frauen – Überblick 2024",
-          "headers": ["Kategorie", "Anzahl", "Veränderung"],
-          "rows": [
-            ["Häusliche Gewalt gesamt", "265.942 Opfer", "+3,8 % zu 2023"],
-            ["Partnerschaftsgewalt", "171.069 Opfer", "~80 % weiblich"],
-            ["Getötete Frauen (Partnerschaft)", "132", "~1 Frau alle 3 Tage"],
-            ["Sexualdelikte gegen Frauen", "53.451 Opfer", "—"],
-            ["Digitale Gewalt in Partnerschaften", "4.876 Fälle", "+10,9 %"]
+          "headers": [
+            "Kategorie",
+            "Anzahl",
+            "Veränderung"
           ],
-          "sourceRefs": ["bka-haeusliche-gewalt-2024", "bka-straftaten-gegen-frauen-2024", "bmi-straftaten-gegen-frauen-2024"]
+          "rows": [
+            [
+              "Häusliche Gewalt gesamt",
+              "265.942 Opfer",
+              "+3,8 % zu 2023"
+            ],
+            [
+              "Partnerschaftsgewalt",
+              "171.069 Opfer",
+              "~80 % weiblich"
+            ],
+            [
+              "Getötete Frauen (Partnerschaft)",
+              "132",
+              "~1 Frau alle 3 Tage"
+            ],
+            [
+              "Sexualdelikte gegen Frauen",
+              "53.451 Opfer",
+              "—"
+            ],
+            [
+              "Digitale Gewalt in Partnerschaften",
+              "4.876 Fälle",
+              "+10,9 %"
+            ]
+          ],
+          "sourceRefs": [
+            "bka-haeusliche-gewalt-2024",
+            "bka-straftaten-gegen-frauen-2024",
+            "bmi-straftaten-gegen-frauen-2024"
+          ]
         },
         {
           "type": "stat_grid",
@@ -448,13 +673,20 @@
               "sublabel": "Opfer von Sexualdelikten (2024)"
             }
           ],
-          "sourceRefs": ["lesubia-dunkelfeldstudie", "bmi-straftaten-gegen-frauen-2024"]
+          "sourceRefs": [
+            "lesubia-dunkelfeldstudie",
+            "bmi-straftaten-gegen-frauen-2024"
+          ]
         },
         {
           "type": "fact",
           "text": "Alle drei Tage wird in Deutschland eine Frau durch ihren Partner oder Ex-Partner getötet. 2024 waren es 132 Frauen. Die LeSuBiA-Dunkelfeldstudie zeigt: 19 von 20 Taten werden nie angezeigt — die Anzeigequote liegt unter 5 %. Das heißt: Die 265.942 polizeilich erfassten Fälle sind nur die Spitze des Eisbergs. Tatsächlich erleben 18 % aller Frauen in Deutschland häusliche Gewalt.",
           "highlight": true,
-          "sourceRefs": ["bka-haeusliche-gewalt-2024", "bka-straftaten-gegen-frauen-2024", "lesubia-dunkelfeldstudie"]
+          "sourceRefs": [
+            "bka-haeusliche-gewalt-2024",
+            "bka-straftaten-gegen-frauen-2024",
+            "lesubia-dunkelfeldstudie"
+          ]
         }
       ]
     },
@@ -465,7 +697,9 @@
         {
           "type": "text",
           "text": "Frauen sind in politischen und wirtschaftlichen Führungspositionen in Deutschland weiterhin unterrepräsentiert — trotz überdurchschnittlicher Bildungsabschlüsse. Der Frauenanteil im Bundestag ist 2025 sogar gesunken.",
-          "sourceRefs": ["destatis-frauen-in-fuehrungspositionen-2024-2025"]
+          "sourceRefs": [
+            "destatis-frauen-in-fuehrungspositionen-2024-2025"
+          ]
         },
         {
           "type": "stat_grid",
@@ -491,7 +725,10 @@
               "sublabel": "Frauenanteil in DAX-40-Vorständen (2025)"
             }
           ],
-          "sourceRefs": ["destatis-frauen-in-fuehrungspositionen-2024-2025", "bundestag-abgeordneten-statistik-21-bundestag"]
+          "sourceRefs": [
+            "destatis-frauen-in-fuehrungspositionen-2024-2025",
+            "bundestag-abgeordneten-statistik-21-bundestag"
+          ]
         },
         {
           "type": "range_bar",
@@ -512,27 +749,61 @@
               "color": "#37474f"
             }
           ],
-          "sourceRefs": ["destatis-frauen-in-fuehrungspositionen-2024-2025"]
+          "sourceRefs": [
+            "destatis-frauen-in-fuehrungspositionen-2024-2025"
+          ]
         },
         {
           "type": "table",
           "caption": "Frauenanteil im Bundestag – historisch",
-          "headers": ["Legislaturperiode", "Jahr", "Frauenanteil"],
-          "rows": [
-            ["1. Bundestag", "1949", "6,8 %"],
-            ["10. Bundestag", "1983", "9,8 %"],
-            ["14. Bundestag", "1998", "30,9 %"],
-            ["19. Bundestag", "2017", "30,7 %"],
-            ["20. Bundestag", "2021", "34,8 %"],
-            ["21. Bundestag", "2025", "32,4 %"]
+          "headers": [
+            "Legislaturperiode",
+            "Jahr",
+            "Frauenanteil"
           ],
-          "sourceRefs": ["bundestag-abgeordneten-statistik-21-bundestag"]
+          "rows": [
+            [
+              "1. Bundestag",
+              "1949",
+              "6,8 %"
+            ],
+            [
+              "10. Bundestag",
+              "1983",
+              "9,8 %"
+            ],
+            [
+              "14. Bundestag",
+              "1998",
+              "30,9 %"
+            ],
+            [
+              "19. Bundestag",
+              "2017",
+              "30,7 %"
+            ],
+            [
+              "20. Bundestag",
+              "2021",
+              "34,8 %"
+            ],
+            [
+              "21. Bundestag",
+              "2025",
+              "32,4 %"
+            ]
+          ],
+          "sourceRefs": [
+            "bundestag-abgeordneten-statistik-21-bundestag"
+          ]
         },
         {
           "type": "fact",
           "text": "Im 21. Deutschen Bundestag (gewählt 2025) liegt der Frauenanteil bei 32,4 % — ein Rückgang gegenüber der vorherigen Legislaturperiode (34,8 %). Deutschland liegt bei weiblicher politischer Repräsentation international im Mittelfeld, hinter skandinavischen Ländern (Schweden: ~46 %).",
           "highlight": true,
-          "sourceRefs": ["bundestag-abgeordneten-statistik-21-bundestag"]
+          "sourceRefs": [
+            "bundestag-abgeordneten-statistik-21-bundestag"
+          ]
         }
       ]
     },
@@ -543,7 +814,9 @@
         {
           "type": "text",
           "text": "Frauen sind in Deutschland im Bildungssystem mittlerweile überdurchschnittlich erfolgreich: Sie stellen die Mehrheit der Hochschulabsolventen. Dennoch zeigen sich bei Berufswahl und MINT-Fächern weiterhin deutliche Geschlechterunterschiede, die zu den Einkommenslücken beitragen.",
-          "sourceRefs": ["destatis-bildung-geschlecht"]
+          "sourceRefs": [
+            "destatis-bildung-geschlecht"
+          ]
         },
         {
           "type": "stat_grid",
@@ -569,26 +842,48 @@
               "sublabel": "Frauenanteil an Professuren"
             }
           ],
-          "sourceRefs": ["destatis-bildung-geschlecht"]
+          "sourceRefs": [
+            "destatis-bildung-geschlecht"
+          ]
         },
         {
           "type": "bar_chart",
           "caption": "Frauenanteil nach Qualifikationsstufe",
           "unit": "%",
           "items": [
-            { "label": "Abitur", "value": 54, "highlight": true },
-            { "label": "Bachelor", "value": 52 },
-            { "label": "Master", "value": 50 },
-            { "label": "Promotion", "value": 45 },
-            { "label": "Professur", "value": 28 }
+            {
+              "label": "Abitur",
+              "value": 54,
+              "highlight": true
+            },
+            {
+              "label": "Bachelor",
+              "value": 52
+            },
+            {
+              "label": "Master",
+              "value": 50
+            },
+            {
+              "label": "Promotion",
+              "value": 45
+            },
+            {
+              "label": "Professur",
+              "value": 28
+            }
           ],
-          "sourceRefs": ["destatis-bildung-geschlecht"]
+          "sourceRefs": [
+            "destatis-bildung-geschlecht"
+          ]
         },
         {
           "type": "fact",
           "text": "Frauen stellen 53 % der Hochschulabsolventen, aber nur 23 % der MINT-Absolventinnen und 28 % der Professuren. Diese 'Leaky Pipeline' — der abnehmende Frauenanteil auf jeder Karrierestufe — entsteht nicht durch mangelnde Qualifikation, sondern durch strukturelle Barrieren.",
           "highlight": true,
-          "sourceRefs": ["destatis-bildung-geschlecht"]
+          "sourceRefs": [
+            "destatis-bildung-geschlecht"
+          ]
         }
       ]
     },
@@ -599,21 +894,54 @@
         {
           "type": "text",
           "text": "Im EU-Vergleich steht Deutschland bei der Gleichstellung gemischt da: hoher Lebensstandard und gute Bildung, aber einer der größten Gender Pay Gaps in der EU. Der unbereinigte Pay Gap von 16 % liegt deutlich über dem EU-Durchschnitt von 12,7 %. Im WEF Global Gender Gap Report 2024 belegt Deutschland Platz 7 von 146 Ländern.",
-          "sourceRefs": ["destatis-gender-pay-gap-eu", "wef-global-gender-gap-2024"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-eu",
+            "wef-global-gender-gap-2024"
+          ]
         },
         {
           "type": "table",
           "caption": "Unbereinigter Gender Pay Gap im EU-Vergleich (2024)",
-          "headers": ["Land", "Pay Gap", "Einordnung"],
-          "rows": [
-            ["Luxemburg", "0,7 %", "Niedrigster in der EU"],
-            ["Italien", "4,3 %", "Unter EU-Durchschnitt"],
-            ["Frankreich", "13,9 %", "Knapp über Durchschnitt"],
-            ["EU-Durchschnitt", "12,7 %", "—"],
-            ["Deutschland", "16,0 %", "Deutlich über Durchschnitt"],
-            ["Estland", "21,3 %", "Höchster in der EU"]
+          "headers": [
+            "Land",
+            "Pay Gap",
+            "Einordnung"
           ],
-          "sourceRefs": ["destatis-gender-pay-gap-eu"]
+          "rows": [
+            [
+              "Luxemburg",
+              "0,7 %",
+              "Niedrigster in der EU"
+            ],
+            [
+              "Italien",
+              "4,3 %",
+              "Unter EU-Durchschnitt"
+            ],
+            [
+              "Frankreich",
+              "13,9 %",
+              "Knapp über Durchschnitt"
+            ],
+            [
+              "EU-Durchschnitt",
+              "12,7 %",
+              "—"
+            ],
+            [
+              "Deutschland",
+              "16,0 %",
+              "Deutlich über Durchschnitt"
+            ],
+            [
+              "Estland",
+              "21,3 %",
+              "Höchster in der EU"
+            ]
+          ],
+          "sourceRefs": [
+            "destatis-gender-pay-gap-eu"
+          ]
         },
         {
           "type": "range_bar",
@@ -634,13 +962,18 @@
               "color": "#e53935"
             }
           ],
-          "sourceRefs": ["destatis-gender-pay-gap-eu"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-eu"
+          ]
         },
         {
           "type": "fact",
           "text": "Deutschland hat einen der höchsten Gender Pay Gaps in der EU — nur Estland, Österreich und Tschechien schneiden schlechter ab. Im WEF Global Gender Gap Report 2024 belegt Deutschland dennoch Platz 7, weil Bildung und Gesundheitsversorgung gut abschneiden. Die wirtschaftliche Teilhabe bleibt der größte Schwachpunkt.",
           "highlight": true,
-          "sourceRefs": ["destatis-gender-pay-gap-eu", "wef-global-gender-gap-2024"]
+          "sourceRefs": [
+            "destatis-gender-pay-gap-eu",
+            "wef-global-gender-gap-2024"
+          ]
         }
       ]
     },
@@ -651,28 +984,69 @@
         {
           "type": "text",
           "text": "Gleichberechtigung in Deutschland ist keine Selbstverständlichkeit, sondern das Ergebnis eines langen politischen Kampfes. Viele Rechte, die heute selbstverständlich erscheinen, wurden erst in den letzten Jahrzehnten erkämpft — manche überraschend spät.",
-          "sourceRefs": ["bpb-gleichberechtigung-geschichte", "bundestag-gleichberechtigungsgesetz"]
+          "sourceRefs": [
+            "bpb-gleichberechtigung-geschichte",
+            "bundestag-gleichberechtigungsgesetz"
+          ]
         },
         {
           "type": "timeline",
           "caption": "Meilensteine der Gleichberechtigung in Deutschland",
           "steps": [
-            { "label": "1918", "value": "Frauenwahlrecht", "sublabel": "Frauen dürfen erstmals wählen und gewählt werden" },
-            { "label": "1949", "value": "Grundgesetz Art. 3 Abs. 2", "sublabel": "\"Männer und Frauen sind gleichberechtigt\"" },
-            { "label": "1958", "value": "Gleichberechtigungsgesetz", "sublabel": "Ehemänner verlieren Entscheidungsgewalt über Ehefrau" },
-            { "label": "1977", "value": "Reform des Eherechts", "sublabel": "Frauen dürfen ohne Zustimmung des Mannes arbeiten" },
-            { "label": "1997", "value": "Vergewaltigung in der Ehe strafbar", "sublabel": "138 Abgeordnete stimmten dagegen" },
-            { "label": "2016", "value": "Frauenquote in Aufsichtsräten", "sublabel": "Mindestens 30 % in börsennotierten Unternehmen" },
-            { "label": "2017", "value": "Entgelttransparenzgesetz", "sublabel": "Auskunftsrecht über Gehälter der Kollegen" },
-            { "label": "2021", "value": "Vorstandsquote", "sublabel": "Mindestbeteiligung von Frauen in Vorständen großer Unternehmen" }
+            {
+              "label": "1918",
+              "value": "Frauenwahlrecht",
+              "sublabel": "Frauen dürfen erstmals wählen und gewählt werden"
+            },
+            {
+              "label": "1949",
+              "value": "Grundgesetz Art. 3 Abs. 2",
+              "sublabel": "\"Männer und Frauen sind gleichberechtigt\""
+            },
+            {
+              "label": "1958",
+              "value": "Gleichberechtigungsgesetz",
+              "sublabel": "Ehemänner verlieren Entscheidungsgewalt über Ehefrau"
+            },
+            {
+              "label": "1977",
+              "value": "Reform des Eherechts",
+              "sublabel": "Frauen dürfen ohne Zustimmung des Mannes arbeiten"
+            },
+            {
+              "label": "1997",
+              "value": "Vergewaltigung in der Ehe strafbar",
+              "sublabel": "138 Abgeordnete stimmten dagegen"
+            },
+            {
+              "label": "2016",
+              "value": "Frauenquote in Aufsichtsräten",
+              "sublabel": "Mindestens 30 % in börsennotierten Unternehmen"
+            },
+            {
+              "label": "2017",
+              "value": "Entgelttransparenzgesetz",
+              "sublabel": "Auskunftsrecht über Gehälter der Kollegen"
+            },
+            {
+              "label": "2021",
+              "value": "Vorstandsquote",
+              "sublabel": "Mindestbeteiligung von Frauen in Vorständen großer Unternehmen"
+            }
           ],
-          "sourceRefs": ["bpb-gleichberechtigung-geschichte", "bundestag-gleichberechtigungsgesetz"]
+          "sourceRefs": [
+            "bpb-gleichberechtigung-geschichte",
+            "bundestag-gleichberechtigungsgesetz"
+          ]
         },
         {
           "type": "fact",
           "text": "Bis 1958 durfte ein Ehemann das Arbeitsverhältnis seiner Frau ohne deren Zustimmung kündigen. Erst 1977 wurde das Eherecht so reformiert, dass Frauen ohne Erlaubnis des Mannes erwerbstätig sein durften. Vergewaltigung in der Ehe wurde erst 1997 unter Strafe gestellt — vor nicht einmal 30 Jahren.",
           "highlight": true,
-          "sourceRefs": ["bpb-gleichberechtigung-geschichte", "bundestag-gleichberechtigungsgesetz"]
+          "sourceRefs": [
+            "bpb-gleichberechtigung-geschichte",
+            "bundestag-gleichberechtigungsgesetz"
+          ]
         }
       ]
     }
@@ -681,93 +1055,211 @@
     {
       "id": "berufswahl",
       "claim": "Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.",
-      "response": "Branche und Beruf erklären einen Teil der Verdienstlücke. Aber selbst wenn Qualifikation, Tätigkeit, Erwerbsbiografie und Teilzeit berücksichtigt werden, bleibt 2025 ein bereinigter Gender Pay Gap von 6 %. Außerdem ist die Frage, warum „weibliche\u201C Berufe wie Pflege oder Erziehung so schlecht bezahlt sind, selbst ein Teil des Problems — ihre gesellschaftliche Bedeutung steht in keinem Verhältnis zur Vergütung.",
-      "keywords": ["Berufswahl", "soziale Berufe", "freiwillig", "bereinigt", "Pay Gap"],
-      "relatedSections": ["pay-gap", "bildung"]
+      "response": "Branche und Beruf erklären einen Teil der Verdienstlücke. Aber selbst wenn Qualifikation, Tätigkeit, Erwerbsbiografie und Teilzeit berücksichtigt werden, bleibt 2025 ein bereinigter Gender Pay Gap von 6 %. Außerdem ist die Frage, warum „weibliche“ Berufe wie Pflege oder Erziehung so schlecht bezahlt sind, selbst ein Teil des Problems — ihre gesellschaftliche Bedeutung steht in keinem Verhältnis zur Vergütung.",
+      "keywords": [
+        "Berufswahl",
+        "soziale Berufe",
+        "freiwillig",
+        "bereinigt",
+        "Pay Gap"
+      ],
+      "relatedSections": [
+        "pay-gap",
+        "bildung"
+      ]
     },
     {
       "id": "fuehrung",
       "claim": "Frauen wollen gar keine Führungspositionen übernehmen, weil ihnen die Familie wichtiger ist.",
       "response": "In Deutschland sind nur 29,1 % der Führungskräfte weiblich — deutlich weniger als im EU-Durchschnitt (35,2 %). Die Unterrepräsentation liegt nicht am mangelnden Willen: 47,4 % der erwerbstätigen Frauen arbeiten in Teilzeit, überwiegend wegen Care-Arbeit. Wenn Frauen den Großteil der unbezahlten Arbeit leisten (Care Gap: 43,4 %), bleibt weniger Zeit für die Karriereleiter — das ist keine freie Wahl, sondern ein strukturelles Problem.",
-      "keywords": ["Führungsposition", "Karriere", "Familie", "wollen nicht", "Quote"],
-      "relatedSections": ["representation", "care-gap"]
+      "keywords": [
+        "Führungsposition",
+        "Karriere",
+        "Familie",
+        "wollen nicht",
+        "Quote"
+      ],
+      "relatedSections": [
+        "representation",
+        "care-gap"
+      ]
     },
     {
       "id": "gleichberechtigung-erreicht",
       "claim": "Die Gleichberechtigung ist doch längst erreicht, Frauen haben heute genau die gleichen Möglichkeiten wie Männer.",
       "response": "Gesetzlich sind Frauen gleichgestellt, faktisch gibt es weiterhin erhebliche Lücken: 16 % Pay Gap, 43,4 % Care Gap, 27,1 % Pension Gap. Frauen ab 65 sind häufiger armutsgefährdet (21,4 % vs. 17,0 % bei Männern). Im aktuellen Bundestag ist der Frauenanteil auf 32,4 % gesunken. Und 2024 wurden 132 Frauen durch ihre Partner oder Ex-Partner getötet. Gleichberechtigung auf dem Papier ist nicht Gleichberechtigung im Alltag.",
-      "keywords": ["längst erreicht", "gleiche Möglichkeiten", "Gesetz", "fertig"],
-      "relatedSections": ["care-gap", "representation", "pension-gap", "gewalt"]
+      "keywords": [
+        "längst erreicht",
+        "gleiche Möglichkeiten",
+        "Gesetz",
+        "fertig"
+      ],
+      "relatedSections": [
+        "care-gap",
+        "representation",
+        "pension-gap",
+        "gewalt"
+      ]
     },
     {
       "id": "teilzeit",
       "claim": "Männer arbeiten dafür mehr in Vollzeit und machen die harten Überstunden.",
       "response": "Wenn man bezahlte und unbezahlte Arbeit zusammenrechnet, arbeiten Frauen sogar etwas mehr: 45:33 Stunden pro Woche vs. 44:23 bei Männern (Destatis). Der Unterschied ist, dass Frauenarbeit zu einem großen Teil unsichtbar und unbezahlt bleibt — Kinderbetreuung, Pflege, Haushalt. Diese Arbeit hat keine Überstundenzuschläge, keinen Renteneintrag und keinen Aufstieg.",
-      "keywords": ["Vollzeit", "Überstunden", "hart arbeiten", "Teilzeit"],
-      "relatedSections": ["care-gap", "pay-gap"]
+      "keywords": [
+        "Vollzeit",
+        "Überstunden",
+        "hart arbeiten",
+        "Teilzeit"
+      ],
+      "relatedSections": [
+        "care-gap",
+        "pay-gap"
+      ]
     },
     {
       "id": "quote",
       "claim": "Eine Frauenquote führt nur dazu, dass unqualifizierte Frauen bevorzugt werden und fähige Männer das Nachsehen haben.",
       "response": "Frauen stellen 53 % der Hochschulabsolventen, aber nur 29,1 % der Führungskräfte — das Qualifikationsargument steht also auf wackligen Beinen. Die Quote setzt dort an, wo nachweislich qualifizierte Frauen bei der Besetzung übergangen werden. Die eigentliche Frage ist nicht, ob es ein Problem gibt (das belegen die Zahlen), sondern welche Instrumente es wirksam und fair verringern.",
-      "keywords": ["Quote", "Frauenquote", "unqualifiziert", "bevorzugt", "Leistung"],
-      "relatedSections": ["representation", "bildung"]
+      "keywords": [
+        "Quote",
+        "Frauenquote",
+        "unqualifiziert",
+        "bevorzugt",
+        "Leistung"
+      ],
+      "relatedSections": [
+        "representation",
+        "bildung"
+      ]
     },
     {
       "id": "pension-gap-arg",
       "claim": "Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.",
       "response": "Männer erhalten im Schnitt 1.405 € Altersrente pro Monat, Frauen nur 955 € — 450 € weniger, jeden Monat. Auf 20 Rentenjahre sind das über 100.000 € Differenz. Dahinter stehen nicht individuelle Entscheidungen, sondern strukturelle Ursachen: Der Care Gap von 43,4 % zeigt, dass Frauen den Großteil der gesellschaftlich notwendigen Sorgearbeit übernehmen. Ohne Kinderbetreuung, Pflege und Haushalt würde die Wirtschaft stillstehen — das Rentensystem bestraft diese Leistung trotzdem.",
-      "keywords": ["Rente", "Pension", "Altersarmut", "selbst schuld", "weniger gearbeitet"],
-      "relatedSections": ["pension-gap", "care-gap"]
+      "keywords": [
+        "Rente",
+        "Pension",
+        "Altersarmut",
+        "selbst schuld",
+        "weniger gearbeitet"
+      ],
+      "relatedSections": [
+        "pension-gap",
+        "care-gap"
+      ]
     },
     {
       "id": "child-penalty",
       "claim": "Kinder sind eine freiwillige Entscheidung, dann muss man halt mit den Konsequenzen leben.",
       "response": "Kinder sind eine gesellschaftliche Notwendigkeit — ohne Nachwuchs kein Rentensystem, keine Fachkräfte, keine Zukunft. Die ZEW-Studie zeigt, dass Mütter im vierten Jahr nach der ersten Geburt fast 30.000 Euro weniger verdienen als vergleichbare Frauen ohne Kinder. Bei Vätern gibt es keinen solchen Einschnitt. Es geht also nicht um die Entscheidung für Kinder, sondern darum, dass die Konsequenzen fast ausschließlich Mütter treffen.",
-      "keywords": ["Kinder", "Mutter", "freiwillig", "Konsequenzen", "Karriere"],
-      "relatedSections": ["care-gap", "pension-gap"]
+      "keywords": [
+        "Kinder",
+        "Mutter",
+        "freiwillig",
+        "Konsequenzen",
+        "Karriere"
+      ],
+      "relatedSections": [
+        "care-gap",
+        "pension-gap"
+      ]
     },
     {
       "id": "gewalt-privatsache",
       "claim": "Häusliche Gewalt ist Privatsache, da soll sich der Staat raushalten.",
       "response": "2024 wurden in Deutschland 265.942 Opfer häuslicher Gewalt polizeilich erfasst, über 70 % davon Frauen. 132 Frauen wurden durch ihren Partner oder Ex-Partner getötet — im Schnitt alle drei Tage eine. Das ist kein Privatproblem, sondern ein Straftatbestand und ein gravierendes gesellschaftliches Problem. Die Dunkelziffer liegt laut Studien deutlich höher als die erfassten Fälle.",
-      "keywords": ["häusliche Gewalt", "Privatsache", "Staat", "Familie", "Gewalt"],
-      "relatedSections": ["gewalt"]
+      "keywords": [
+        "häusliche Gewalt",
+        "Privatsache",
+        "Staat",
+        "Familie",
+        "Gewalt"
+      ],
+      "relatedSections": [
+        "gewalt"
+      ]
     },
     {
       "id": "dunkelziffer",
       "claim": "Die Zahlen zu häuslicher Gewalt sind doch aufgebauscht — so schlimm kann es nicht sein.",
       "response": "Im Gegenteil: Die polizeilichen Zahlen (265.942 Opfer, 2024) bilden nur die Spitze des Eisbergs. Die LeSuBiA-Dunkelfeldstudie des BKA zeigt, dass die Anzeigequote bei häuslicher Gewalt unter 5 % liegt — 19 von 20 Taten werden nie angezeigt. Tatsächlich erleben 18 % aller Frauen in Deutschland häusliche Gewalt. Die Gründe für Nicht-Anzeigen: Angst, Scham, emotionale und finanzielle Abhängigkeit. Die offiziellen Zahlen unterschätzen das Problem also massiv.",
-      "keywords": ["Dunkelziffer", "aufgebauscht", "übertrieben", "Statistik", "angezeigt"],
-      "relatedSections": ["gewalt"]
+      "keywords": [
+        "Dunkelziffer",
+        "aufgebauscht",
+        "übertrieben",
+        "Statistik",
+        "angezeigt"
+      ],
+      "relatedSections": [
+        "gewalt"
+      ]
     },
     {
       "id": "maenner-benachteiligt",
       "claim": "Heutzutage werden eher Männer benachteiligt — im Familienrecht, bei Sorgerecht, überall.",
       "response": "Männer haben tatsächlich Nachteile in bestimmten Bereichen — etwa bei der Lebenserwartung (4,7 Jahre weniger), psychischer Gesundheit (höhere Suizidrate) oder gesellschaftlichem Druck. Diese Probleme sind real und ernst zu nehmen. Aber sie heben die systematische Benachteiligung von Frauen bei Einkommen (16 % Pay Gap), Rente (39,4 % Pension Gap), Vermögen und körperlicher Sicherheit (132 Femizide 2024) nicht auf. Gleichberechtigung bedeutet, beide Seiten zu sehen.",
-      "keywords": ["Männer benachteiligt", "Sorgerecht", "Familienrecht", "umgekehrt"],
-      "relatedSections": ["pay-gap", "pension-gap", "gewalt"]
+      "keywords": [
+        "Männer benachteiligt",
+        "Sorgerecht",
+        "Familienrecht",
+        "umgekehrt"
+      ],
+      "relatedSections": [
+        "pay-gap",
+        "pension-gap",
+        "gewalt"
+      ]
     },
     {
       "id": "feminismus-uebertrieben",
       "claim": "Feminismus ist in Deutschland nicht mehr nötig, das ist doch übertrieben.",
-      "response": "Bis 1977 durften Frauen in Deutschland nicht ohne Erlaubnis des Ehemanns arbeiten. Vergewaltigung in der Ehe war bis 1997 legal. Heute, 2025, verdienen Frauen 16 % weniger, bekommen 39,4 % weniger eigene Rente und alle drei Tage wird eine Frau durch ihren Partner getötet. Im Bundestag liegt der Frauenanteil bei 32,4 % — und ist gerade gesunken. Ob man das „Feminismus\u201C nennt oder nicht: Der Handlungsbedarf ist durch Zahlen belegt.",
-      "keywords": ["Feminismus", "übertrieben", "nicht nötig", "Gleichstellungswahn", "Gender"],
-      "relatedSections": ["historischer-kontext", "pay-gap", "gewalt", "representation"]
+      "response": "Bis 1977 durften Frauen in Deutschland nicht ohne Erlaubnis des Ehemanns arbeiten. Vergewaltigung in der Ehe war bis 1997 legal. Heute, 2025, verdienen Frauen 16 % weniger, bekommen 39,4 % weniger eigene Rente und alle drei Tage wird eine Frau durch ihren Partner getötet. Im Bundestag liegt der Frauenanteil bei 32,4 % — und ist gerade gesunken. Ob man das „Feminismus“ nennt oder nicht: Der Handlungsbedarf ist durch Zahlen belegt.",
+      "keywords": [
+        "Feminismus",
+        "übertrieben",
+        "nicht nötig",
+        "Gleichstellungswahn",
+        "Gender"
+      ],
+      "relatedSections": [
+        "historischer-kontext",
+        "pay-gap",
+        "gewalt",
+        "representation"
+      ]
     },
     {
       "id": "gleiche-bildung",
       "claim": "Frauen sind doch mittlerweile besser gebildet als Männer, dann müssten sie ja auch mehr verdienen.",
       "response": "Stimmt: 53 % der Hochschulabschlüsse gehen an Frauen, 54 % der Abiturienten sind weiblich. Trotzdem sind nur 29,1 % der Führungskräfte und 28 % der Professoren Frauen. Diese 'Leaky Pipeline' zeigt, dass Bildungserfolg allein nicht reicht — strukturelle Barrieren, Care-Verantwortung und Teilzeitfallen sorgen dafür, dass die Qualifikation nicht in entsprechende Positionen und Gehälter mündet.",
-      "keywords": ["Bildung", "besser gebildet", "Studium", "Qualifikation", "mehr verdienen"],
-      "relatedSections": ["bildung", "representation", "care-gap"]
+      "keywords": [
+        "Bildung",
+        "besser gebildet",
+        "Studium",
+        "Qualifikation",
+        "mehr verdienen"
+      ],
+      "relatedSections": [
+        "bildung",
+        "representation",
+        "care-gap"
+      ]
     },
     {
       "id": "eu-vergleich-arg",
       "claim": "Deutschland steht bei der Gleichberechtigung doch gut da im Vergleich zu anderen Ländern.",
       "response": "Im WEF-Ranking liegt Deutschland auf Platz 7 — das klingt gut, verdeckt aber die Schwächen. Beim Gender Pay Gap gehört Deutschland mit 16 % zu den Schlusslichtern der EU (Durchschnitt: 12,7 %). Nur Estland, Österreich und Tschechien schneiden schlechter ab. Bei wirtschaftlicher Teilhabe und politischer Repräsentation liegt Deutschland deutlich hinter Skandinavien. Der 7. Platz kommt vor allem durch gute Werte bei Bildung und Gesundheit zustande.",
-      "keywords": ["EU", "Vergleich", "gut da", "international", "Skandinavien"],
-      "relatedSections": ["eu-vergleich", "pay-gap"]
+      "keywords": [
+        "EU",
+        "Vergleich",
+        "gut da",
+        "international",
+        "Skandinavien"
+      ],
+      "relatedSections": [
+        "eu-vergleich",
+        "pay-gap"
+      ]
     }
   ],
   "sources": [

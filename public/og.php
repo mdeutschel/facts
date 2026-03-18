@@ -390,9 +390,7 @@ $websiteJsonLd = [
             <?= h((string)($t['title'] ?? '')) ?>
           </a>
           — <?= h((string)($t['subtitle'] ?? '')) ?>
-          <?php if (isset($t['keyStats']) && is_array($t['keyStats'])): ?>
-            <br /><small><?= h(implode(' · ', $t['keyStats'])) ?></small>
-          <?php endif; ?>
+          <br /><small><?= (int)($t['factCount'] ?? 0) ?> Fakten · <?= (int)($t['argumentCount'] ?? 0) ?> Argumente</small>
         </li>
       <?php endforeach; ?>
     </ul>

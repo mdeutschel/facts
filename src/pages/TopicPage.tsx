@@ -85,7 +85,7 @@ export default function TopicPage() {
           {topic.subtitle}
         </Typography>
         <Chip
-          label={`Stand: ${topic.lastUpdated}`}
+          label={`Stand: ${new Date(topic.lastUpdated).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}`}
           size="small"
           sx={{ mt: 1, fontSize: '0.7rem' }}
         />
