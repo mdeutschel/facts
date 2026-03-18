@@ -7,7 +7,7 @@
   "keyStats": [
     "61,26 Mrd. Stunden Gesamtarbeitsvolumen (2025)",
     "49 % Teilzeitquote bei Frauen (2024)",
-    "76 % Erwerbsbeteiligung bei 20- bis 24-Jährigen",
+    "Nur 4,8 % unfreiwillig in Teilzeit (historischer Tiefstand)",
     "8 Argumente"
   ],
   "sourceNote": "Daten basieren auf Veröffentlichungen von IAB, Destatis und Eurostat aus den Jahren 2024–2026; je nach Thema reichen die zugrunde liegenden Erhebungsjahre von 2005 bis 2025.",
@@ -88,6 +88,13 @@
           ],
           "sourceRefs": [
             "destatis-gruende-fuer-teilzeittaetigkeit-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Auffällig: Der Anteil der unfreiwillig Teilzeitbeschäftigten — also jener, die keine Vollzeitstelle finden konnten — ist mit 4,8 % auf einem historischen Tiefstand (2014: noch 13,6 %). Im EU-Vergleich liegt Deutschland damit weit unter dem Durchschnitt von 17,2 %. Die meisten arbeiten also nicht in Teilzeit, weil sie müssen, sondern weil sie es aufgrund persönlicher Umstände so gewählt haben.",
+          "sourceRefs": [
+            "destatis-gruende-teilzeit-endergebnisse-2024"
           ]
         }
       ]
@@ -426,6 +433,11 @@
       "id": "destatis-teilzeitquote-geschlecht-2024",
       "label": "Destatis: Fast jede zweite erwerbstätige Frau arbeitet in Teilzeit (2024)",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_175_13.html"
+    },
+    {
+      "id": "destatis-gruende-teilzeit-endergebnisse-2024",
+      "label": "Destatis: 28 % der Teilzeitbeschäftigten arbeiten auf eigenen Wunsch reduziert (Endergebnisse Mikrozensus 2024)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/01/PD26_N007_13.html"
     },
     {
       "id": "destatis-gender-pension-gap-2023",
