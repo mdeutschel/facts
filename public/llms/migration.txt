@@ -8,17 +8,52 @@ Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland | Stand: 2026-03
 
 Die Zahl der Asylerstanträge in Deutschland ist im Jahr 2025 massiv gesunken. Insgesamt wurden 113.236 Erstanträge gestellt, was einem Rückgang von über 50 Prozent im Vergleich zum Vorjahr (229.751 Anträge) entspricht. Dieser Trend setzte sich auch Anfang 2026 fort.
 
-Hinweis: Aktuelle Asylzahlen
-Spalten: Zeitraum | Asylerstanträge | Einordnung
-- 2024 | 229.751 | Vergleichsbasis
+Hinweis: Asylerstanträge in Deutschland pro Jahr
+- 2015: 441899 Erstanträge
+- 2016: 722370 Erstanträge
+- 2017: 198317 Erstanträge
+- 2018: 161931 Erstanträge
+- 2019: 142509 Erstanträge
+- 2020: 102581 Erstanträge
+- 2021: 148233 Erstanträge
+- 2022: 217774 Erstanträge
+- 2023: 329120 Erstanträge
+- 2024: 229751 Erstanträge
+- 2025: 113236 Erstanträge
+
+Hinweis: Aktuelle Asylzahlen im Detail
+Spalten: Zeitraum | Asylerstanträge | Veränderung
+- 2023 | 329.120 | Vergleichsbasis Vorjahr
+- 2024 | 229.751 | -30,2 % zu 2023
 - 2025 | 113.236 | -50,7 % zu 2024
 - Januar 2026 | 7.649 | -48,7 % zum Vorjahresmonat
 
-- Asylerstanträge 2025: 113.236 (-50,7 % zu 2024)
-- Asylerstanträge Jan 2026: 7.649 (-48,7 % zum Vorjahresmonat)
-- Gesamtschutzquote 2025: 28,1 % (Anteil positiver Entscheidungen)
-
 - Die zugangsstärksten Herkunftsländer 2025 waren Afghanistan (23.972 Erstanträge), Syrien (23.256) und die Türkei (11.919).
+
+### Schutzquoten & Anerkennungsverfahren
+
+Nicht jeder Asylantrag führt zu Schutz. Das BAMF prüft jeden Fall individuell. Die Gesamtschutzquote – also der Anteil positiver Entscheidungen (Asyl, Flüchtlingsschutz, subsidiärer Schutz, Abschiebungsverbot) – lag 2025 bei 28,1 %. Dabei unterscheiden sich die Quoten je nach Herkunftsland erheblich.
+
+- Gesamtschutzquote 2025: 28,1 % (Anteil positiver Entscheidungen)
+- Erstanträge 2025: 113.236 (-50,7 % zum Vorjahr)
+- Erstanträge Jan 2026: 7.649 (-48,7 % zum Vorjahresmonat)
+
+- Die Schutzquote variiert stark nach Herkunftsland: Bei syrischen Antragstellern liegt sie deutlich über dem Durchschnitt, bei Anträgen aus sicheren Herkunftsstaaten nahe null. Die Differenzierung zeigt, dass das Asylverfahren nicht pauschal jeden akzeptiert.
+
+### EU-Vergleich der Asylzahlen
+
+Deutschland nimmt in absoluten Zahlen die meisten Asylanträge in der EU entgegen. 2024 entfielen rund 25 % aller EU-Erstanträge auf Deutschland (229.695 von 911.960). Pro Kopf liegt Deutschland jedoch nicht auf Platz 1: Zypern und Griechenland verzeichnen deutlich höhere Quoten. Anfang 2025 hat Frankreich Deutschland als Hauptzielland abgelöst, da die deutschen Antragszahlen massiv zurückgingen.
+
+Hinweis: EU-Asylerstanträge 2024 – ausgewählte Länder
+Spalten: Land | Erstanträge 2024 | Pro 1 Mio. Einwohner
+- Deutschland | 229.695 | 2.752
+- Frankreich | 132.800 | ~1.950
+- Spanien | 163.220 | ~3.430
+- Italien | 136.100 | ~2.310
+- Zypern | ~7.000 | ~7.000
+- EU gesamt | 911.960 | 2.032
+
+- Pro Kopf liegen Zypern und Griechenland in der EU deutlich vor Deutschland. Die pauschale Aussage, Deutschland nehme unverhältnismäßig viele Geflüchtete auf, ist im europäischen Vergleich differenzierter zu betrachten.
 
 ### Arbeitsmarktintegration
 
@@ -26,12 +61,12 @@ Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb
 
 Hinweis: Beschäftigungsquote der 2015 zugezogenen Geflüchteten
 - Im 1. Jahr: 9% (unter 10 %)
-- Nach 9 Jahren: 64% (Männer: 76%, Frauen: 35%)
-- Gesamt: Bevölkerungsdurchschnitt: 70%
+- Nach 9 Jahren: 64% (Männer: 76 %, Frauen: 35 %)
+- Gesamt: Bevölkerungsdurchschnitt: 70 %
 
 - Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
 
-Für die 2015 zugezogene Geflüchtetenkohorte zeigen IAB-Daten eine besondere Bedeutung von Gesundheits-, Fertigungs- sowie Verkehrs- und Logistikberufen. Pauschale Aussagen über eine generelle Verdrängung am Arbeitsmarkt tragen diese Daten aber nicht.
+Für die 2015 zugezogene Geflüchtetenkohorte zeigen IAB-Daten eine besondere Bedeutung von Gesundheits-, Fertigungs- sowie Verkehrs- und Logistikberufen. Pauschale Aussagen über eine generelle Verdrängung am Arbeitsmarkt tragen diese Daten nicht.
 
 - 2023 lebten noch 34 % der 2015 zugezogenen Geflüchteten im erwerbsfähigen Alter in SGB-II-Haushalten. Unter den abhängig Beschäftigten konnten 84 % ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten.
 
@@ -45,26 +80,163 @@ Der demografische Wandel verringert in Deutschland das Erwerbspersonenpotenzial.
 
 - Selbst bei hoher Nettozuwanderung sinkt laut Destatis die Zahl der 20- bis 66-Jährigen bis Mitte der 2030er um rund 3,2 Millionen. Integration in den Arbeitsmarkt ist daher keine Kür, sondern volkswirtschaftliche Notwendigkeit.
 
+### Kriminalität & Polizeiliche Kriminalstatistik
+
+Die Polizeiliche Kriminalstatistik (PKS) 2024 weist 41,8 % aller Tatverdächtigen als nichtdeutsch aus. Bereinigt um ausländerrechtliche Verstöße (die nur von Nichtdeutschen begangen werden können) sinkt der Anteil auf 35,4 % – bei einem Bevölkerungsanteil von ca. 15 %. Eine pauschale Gleichsetzung dieser Zahlen mit höherer Kriminalitätsneigung greift jedoch zu kurz.
+
+Hinweis: PKS 2024 – Tatverdächtige nach Staatsangehörigkeit
+Spalten: Kategorie | Anzahl | Anteil
+- Tatverdächtige gesamt | 2.185.064 | 100 %
+- Nichtdeutsche TV (alle Delikte) | 913.196 | 41,8 %
+- Nichtdeutsche TV (ohne ausl.-rechtl. Verstöße) | 696.873 | 35,4 %
+- Davon Zuwanderer | 383.844 | 17,6 %
+- Zuwanderer (ohne ausl.-rechtl. Verstöße) | ~192.000 | ~8,8 %
+
+Das BKA und das BMI nennen mehrere Faktoren, die die Überrepräsentation erklären, ohne sie zu rechtfertigen: die demografische Struktur der Zuwanderungsbevölkerung (überproportional junge Männer – die Gruppe mit der höchsten Kriminalitätsbelastung in jeder Bevölkerung), nachteilige ökonomische Lebenslagen, psychische Belastungen durch Flucht und eigene Gewalterfahrungen sowie das höhere Anzeigeverhalten gegenüber Fremden.
+
+- Die Tatverdächtigenbelastungszahl (TVBZ) für Deutsche lag 2024 bei 1.878 pro 100.000 Einwohner. Ein direkter Vergleich mit Nichtdeutschen ist methodisch schwierig, da Faktoren wie Altersstruktur, Geschlechterverteilung und soziale Lage berücksichtigt werden müssen.
+
+- Ausländerrechtliche Verstöße (illegaler Aufenthalt, Verstöße gegen Aufenthaltsrecht) können definitionsgemäß nur von Nichtdeutschen begangen werden. Sie treiben den Anteil nichtdeutscher Tatverdächtiger in der Gesamtstatistik nach oben, ohne etwas über die allgemeine Kriminalitätsbelastung auszusagen.
+
+### Kosten der Migration
+
+Migration verursacht erhebliche öffentliche Ausgaben – für Unterbringung, Sprachkurse, Sozialleistungen und Verwaltung. 2023 lagen die Gesamtausgaben des Bundes im Kontext Flucht und Migration bei rund 29,7 Mrd. Euro (Höchststand), 2024 bei ca. 28 Mrd. Euro. Für 2025 sind rund 24,3 Mrd. Euro veranschlagt, davon entfallen 19,8 Mrd. Euro auf die Unterstützung von Ländern und Kommunen.
+
+Hinweis: Bundesausgaben im Kontext Flucht/Migration (Mrd. €)
+- 2022: 24 Mrd. €
+- 2023: 30 Mrd. €
+- 2024: 28 Mrd. €
+- 2025 (Plan): 24 Mrd. €
+
+Die Kosten sind real und erheblich, aber sie müssen im Kontext betrachtet werden: Der Bundeshaushalt 2024 umfasste rund 477 Mrd. Euro. Zudem sind Integrationsausgaben Investitionen, deren Rendite erst zeitversetzt messbar wird – etwa wenn Geflüchtete in den Arbeitsmarkt eintreten und Steuern sowie Sozialabgaben zahlen.
+
+- Das Budget für Integrationskurse wurde 2025 von rund 1 Mrd. Euro auf 763 Mio. Euro gekürzt – trotz nachgewiesener Wirksamkeit der Kurse bei der Arbeitsmarktintegration.
+
+### Abschiebungen & Rückführungen
+
+2024 wurden 20.084 Abschiebungen durchgeführt – der höchste Stand seit 2019 und ein Anstieg von 22 % gegenüber dem Vorjahr. Gleichzeitig gab es 33.400 freiwillige Ausreisen und 45.337 Zurückweisungen an der Grenze. Dennoch bleiben viele Ausreisepflichtige in Deutschland: Ende 2024 waren rund 220.808 Personen vollziehbar ausreisepflichtig, davon etwa 178.500 mit Duldung.
+
+- Abschiebungen 2024: 20.084 (+22 % zum Vorjahr)
+- Freiwillige Ausreisen: 33.400 (mit Grenzübertrittsbescheinigung)
+- Ausreisepflichtige: 220.808 (davon 178.500 mit Duldung)
+
+- Von den rund 220.808 Ausreisepflichtigen waren nur etwa 42.300 (19 %) unmittelbar ausreisepflichtig – der Rest besitzt eine Duldung, meist weil eine Abschiebung aus rechtlichen oder tatsächlichen Gründen nicht möglich ist (z. B. fehlende Papiere, Krankheit, Situation im Herkunftsland).
+
+- 2024 scheiterten 33.717 Abschiebeversuche (Misserfolgsquote 61,6 %). Häufige Gründe: Die Person wurde nicht angetroffen, fehlende Reisedokumente oder medizinische Hindernisse.
+
+### Integration: Sprache & Bildung
+
+Die vom BAMF geförderten Integrationskurse sind das zentrale Instrument der sprachlichen Integration. 2024 nahmen rund 360.000 Personen neu an Integrationskursen teil. Die OECD bewertet das deutsche Integrationskurssystem im internationalen Vergleich als effektiv.
+
+Hinweis: Deutsch-Test für Zuwanderer – Ergebnisse 2024
+Spalten: Sprachniveau | Anteil | Bedeutung
+- B1 (Fortgeschritten) | 56 % | Selbstständige Sprachverwendung
+- A2 (Grundlagen) | 32 % | Elementare Sprachverwendung
+- Unter A2 | 12 % | Nicht bestanden
+
+- Über 88 % der Integrationskursteilnehmer erreichen mindestens das Niveau A2, mehr als die Hälfte sogar B1. Die Kurse ermöglichen damit den Einstieg in Arbeitsmarkt und Alltagsleben.
+
+Die Wartezeiten für Integrationskurse haben sich durch die Budgetkürzungen 2025 verlängert. Experten warnen, dass Kürzungen bei Sprachkursen die Arbeitsmarktintegration verzögern und langfristig höhere Kosten verursachen.
+
+### Einbürgerungen
+
+2024 wurden in Deutschland 291.955 Einbürgerungen vollzogen – ein absoluter Rekord seit Einführung der Statistik im Jahr 2000 und ein Anstieg von 46 % gegenüber dem Vorjahr. Hauptgrund war die Reform des Staatsangehörigkeitsrechts, die im Juni 2024 in Kraft trat: Der Mindestaufenthalt wurde von 8 auf 5 Jahre gesenkt, bei besonderer Integration auf 3 Jahre, und die doppelte Staatsbürgerschaft wurde generell erlaubt.
+
+Hinweis: Einbürgerungen in Deutschland pro Jahr
+- 2020: 109880 Einbürgerungen
+- 2021: 131600 Einbürgerungen
+- 2022: 168500 Einbürgerungen
+- 2023: 200095 Einbürgerungen
+- 2024: 291955 Einbürgerungen
+
+Hinweis: Häufigste Herkunftsländer bei Einbürgerungen 2024
+Spalten: Herkunftsland | Einbürgerungen | Anteil
+- Syrien | 83.150 | 28 %
+- Türkei | 22.525 | 8 %
+- Irak | 13.545 | 5 %
+- Russland | 12.980 | 4 %
+- Afghanistan | 10.085 | 3 %
+
+- Die durchschnittliche Aufenthaltsdauer bei Einbürgerung lag 2024 bei 11,8 Jahren. Einbürgerung ist also das Ergebnis eines langen Integrationsprozesses, nicht eines schnellen Durchlaufens.
+
+### Reguläre Arbeitsmigration & Fachkräfteeinwanderung
+
+Neben der Fluchtmigration gibt es die reguläre Arbeitsmigration: Menschen, die gezielt zur Erwerbstätigkeit nach Deutschland kommen. Das Fachkräfteeinwanderungsgesetz (FEG), zuletzt novelliert 2023, soll den Zugang für qualifizierte Arbeitskräfte aus Drittstaaten erleichtern. Die öffentliche Debatte vermischt häufig Fluchtmigration und Arbeitsmigration, obwohl es sich um völlig unterschiedliche Zuwanderungskanäle handelt.
+
+- Deutschland konkurriert international um Fachkräfte. Während die Asylzahlen 2025 um über 50 % gesunken sind, bleibt der Bedarf an qualifizierter Zuwanderung unverändert hoch: Bis Mitte der 2030er sinkt die Zahl der Erwerbsfähigen um 3,2 Millionen.
+
+Die Unterscheidung ist wichtig: Wer Asylmigration begrenzen will, muss gleichzeitig reguläre Arbeitsmigration attraktiver machen – sonst verschärft sich der Fachkräftemangel. Beides gegeneinander auszuspielen geht an der Realität vorbei.
+
+### Herkunftsländer & Fluchtursachen
+
+Die Herkunftsländer der Asylsuchenden spiegeln die globalen Krisenherde wider. 2025 kamen die meisten Erstantragsteller aus Afghanistan (23.972), Syrien (23.256) und der Türkei (11.919). Die Fluchtursachen reichen von Bürgerkrieg und politischer Verfolgung über Unterdrückung ethnischer und religiöser Minderheiten bis zu Naturkatastrophen und wirtschaftlicher Perspektivlosigkeit.
+
+Hinweis: Asylerstanträge 2025 nach Herkunftsland (Top 5)
+- Afghanistan: 23972 Erstanträge
+- Syrien: 23256 Erstanträge
+- Türkei: 11919 Erstanträge
+- Irak: 5800 Erstanträge
+- Iran: 4200 Erstanträge
+
+- Der starke Rückgang syrischer Anträge im Vergleich zu Vorjahren hängt u. a. mit veränderten Fluchtrouten und EU-Abkommen zusammen. Ob der Rückgang anhält, hängt von der Entwicklung in den Herkunftsregionen und der europäischen Migrationspolitik ab.
+
+### Historischer Kontext: Migration in Deutschland
+
+Migration ist in Deutschland kein neues Phänomen. Seit den 1950er Jahren hat das Land mehrere große Zuwanderungswellen erlebt, die jeweils von Debatten über Integration begleitet wurden – und deren Ergebnisse heute oft als selbstverständlich gelten.
+
+Hinweis: Meilensteine der Migration nach Deutschland
+- 1955–1973: Gastarbeiter-Anwerbung (Millionen Arbeitskräfte aus Italien, Türkei, Jugoslawien u. a.)
+- 1988–1995: Aussiedler & Spätaussiedler (Über 2,5 Mio. Deutschstämmige aus Osteuropa/GUS)
+- 1992: Asylkompromiss (Änderung Art. 16 GG nach 438.000 Asylanträgen)
+- 2015–2016: Fluchtbewegung (Über 1,1 Mio. Asylerstanträge in zwei Jahren)
+- 2022: Ukraine-Flucht (Über 1 Mio. Ukrainer:innen aufgenommen (kein Asylverfahren))
+- 2025: Deutlicher Rückgang (113.236 Erstanträge – niedrigster Stand seit 2020)
+
+- Die Nachkommen der Gastarbeiter der 1960er Jahre sind heute ein fester Bestandteil der deutschen Gesellschaft und Wirtschaft. Integration ist ein Generationenprojekt – das zeigt sich auch bei der aktuellen Fluchtmigration.
+
 ### Argumente
 
 - Aussage: Die Asylzahlen explodieren immer weiter, wir werden überrannt!
-  Antwort: Tatsächlich sind die Asylerstanträge 2025 massiv gesunken. Mit 113.236 Erstanträgen gab es einen Rückgang von über 50 % im Vergleich zum Vorjahr (2024: 229.751). Im Januar 2026 setzte sich dieser Trend mit einem weiteren Rückgang von fast 49 % zum Vorjahresmonat fort.
+  Antwort: Tatsächlich sind die Asylerstanträge 2025 massiv gesunken: 113.236 Erstanträge – ein Rückgang von über 50 % im Vergleich zum Vorjahr (2024: 229.751). Im Januar 2026 setzte sich der Trend mit fast 49 % Rückgang fort. Von einer Explosion kann keine Rede sein – die Zahlen bewegen sich auf dem Niveau von 2020.
 - Aussage: Die Flüchtlinge von 2015 leben alle nur vom Bürgergeld und arbeiten nicht.
-  Antwort: Die IAB-Daten zeigen etwas anderes: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 %. 2023 lebten zwar noch 34 % dieser Kohorte im erwerbsfähigen Alter in SGB-II-Haushalten, zugleich konnten 84 % der abhängig Beschäftigten ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten. "Alle leben vom Bürgergeld" ist damit klar falsch.
+  Antwort: Die IAB-Daten zeigen etwas anderes: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 % – nahe am Bevölkerungsdurchschnitt von 70 %. 84 % der abhängig Beschäftigten können ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten. ‚Alle leben vom Bürgergeld' ist damit klar falsch.
 - Aussage: Ausländer nehmen uns die guten Jobs weg.
-  Antwort: Die hier hinterlegten Quellen belegen keine pauschale Verdrängung anderer Beschäftigter. Belegt ist nur, dass viele 2015 zugezogene Geflüchtete in Gesundheits-, Verkehrs-/Logistik- und Fertigungsberufen arbeiten. Ob daraus Konkurrenz oder Entlastung entsteht, hängt vom konkreten Arbeitsmarkt ab.
-- Aussage: Die Zuwanderung bringt uns wirtschaftlich nichts, sie kostet nur.
-  Antwort: Mit den hier hinterlegten Quellen lässt sich kein gesamtwirtschaftlicher Nettoeffekt von Zuwanderung belegen. Belegt ist aber: Die Beschäftigungsquote der 2015 zugezogenen Geflüchteten stieg bis Ende 2024 auf 64 % und näherte sich damit dem Bevölkerungsdurchschnitt an.
-- Aussage: Die meisten Geflüchteten sind ungebildet und können hier gar nicht arbeiten.
-  Antwort: Mit den vorliegenden Quellen lässt sich die Bildungsstruktur nicht seriös pauschal bewerten. Belegt ist aber, dass rund die Hälfte der beschäftigten Geflüchteten sieben bis acht Jahre nach dem Zuzug als Fachkraft oder Spezialist arbeitet und die Beschäftigungsquote bis Ende 2024 auf 64 % gestiegen ist.
+  Antwort: Die IAB-Daten zeigen, dass Geflüchtete vor allem in Gesundheits-, Verkehrs-/Logistik- und Fertigungsberufen arbeiten – Bereichen mit hohem Fachkräftemangel. Gleichzeitig sinkt die Zahl der Erwerbsfähigen bis Mitte der 2030er um 3,2 Millionen. Migration füllt also eher Lücken, als dass sie verdrängt.
 - Aussage: Ausländer sind krimineller als Deutsche, das zeigt doch die Kriminalstatistik!
-  Antwort: Mit den in dieser Datei hinterlegten Quellen lässt sich diese pauschale Behauptung nicht seriös belegen. Für Aussagen über Kriminalität bräuchte es eine eigene, sauber hinterlegte Quellenbasis mit differenzierten PKS- und Dunkelfelddaten.
+  Antwort: Die PKS 2024 zeigt tatsächlich eine Überrepräsentation: 35,4 % der Tatverdächtigen sind nichtdeutsch (ohne ausländerrechtliche Verstöße) bei ca. 15 % Bevölkerungsanteil. Allerdings benennt das BKA selbst die Erklärungsfaktoren: Nichtdeutsche sind überproportional jung und männlich (die Hochrisikogruppe in jeder Bevölkerung), leben häufiger in prekären Verhältnissen, und das Anzeigeverhalten gegenüber Fremden ist höher. Ein fairer Vergleich müsste diese Faktoren berücksichtigen.
 - Aussage: Migration kostet uns nur Milliarden und bringt wirtschaftlich nichts!
-  Antwort: Integration verursacht anfangs tatsächlich Kosten, etwa für Sprache, Unterbringung und Qualifizierung. Mit den hier hinterlegten Quellen ist aber vor allem belegt, dass die Beschäftigungsquote der 2015 zugezogenen Geflüchteten Ende 2024 bei 64 % lag. Für Aussagen über einen gesamtwirtschaftlichen Netto-Nutzen oder eine fiskalische Rendite braucht es zusätzliche Quellen.
+  Antwort: Die Kosten sind real: 2024 gab der Bund rund 28 Mrd. Euro im Kontext Flucht/Migration aus. Aber erstens ist das ca. 6 % des Bundeshaushalts. Zweitens zeigen die IAB-Daten, dass 64 % der 2015 zugezogenen Geflüchteten nach 9 Jahren erwerbstätig sind und Steuern sowie Sozialabgaben zahlen. Integrationsausgaben sind Investitionen mit zeitversetzter Rendite.
+- Aussage: Die meisten Geflüchteten sind ungebildet und können hier gar nicht arbeiten.
+  Antwort: Rund die Hälfte der beschäftigten Geflüchteten arbeitet 7–8 Jahre nach Zuzug als Fachkraft oder Spezialist. 56 % der Integrationskursteilnehmer erreichen das Sprachniveau B1, über 88 % mindestens A2. Die Zahlen zeigen: Integration braucht Zeit, aber sie funktioniert – und zwar in qualifizierte Beschäftigung hinein.
+- Aussage: Man müsste einfach konsequent abschieben, dann wäre das Problem gelöst!
+  Antwort: 2024 gab es 20.084 Abschiebungen (+22 % zum Vorjahr), aber 33.717 gescheiterte Abschiebeversuche (61,6 % Misserfolgsquote). Von den 220.808 Ausreisepflichtigen haben 178.500 eine Duldung, weil Abschiebung rechtlich oder tatsächlich unmöglich ist. ‚Einfach abschieben' scheitert nicht am politischen Willen, sondern an der Realität: fehlende Papiere, keine Rücknahmeabkommen, medizinische Hindernisse.
+- Aussage: Alle Flüchtlinge kommen nach Deutschland, kein anderes Land nimmt welche auf!
+  Antwort: Deutschland lag 2024 mit 229.695 Erstanträgen absolut auf Platz 1 in der EU. Pro Kopf sieht es anders aus: 2.752 Anträge pro 1 Mio. Einwohner vs. ca. 7.000 in Zypern. Anfang 2025 hat Frankreich Deutschland als Hauptzielland sogar abgelöst. Die EU verzeichnete 2024 insgesamt 911.960 Erstanträge – Deutschland trug 25 % davon.
+- Aussage: Integration funktioniert in Deutschland einfach nicht!
+  Antwort: Die Daten widersprechen dem: 64 % der 2015 zugezogenen Geflüchteten sind erwerbstätig (Durchschnitt: 70 %), 50 % arbeiten als Fachkräfte, 88 % der Kursteilnehmer erreichen mindestens A2-Deutschniveau, und 2024 gab es 291.955 Einbürgerungen (Rekord). Die durchschnittliche Aufenthaltsdauer bei Einbürgerung beträgt 11,8 Jahre – Integration ist ein Generationenprojekt, kein Sprint.
+- Aussage: Früher ging es auch ohne Einwanderung, warum brauchen wir die jetzt?
+  Antwort: Früher gab es sie auch: Die Gastarbeiter ab 1955, über 2,5 Mio. Aussiedler ab 1988 – Deutschland war immer ein Einwanderungsland, auch wenn es sich lange nicht so nannte. Und der demografische Wandel macht Zuwanderung heute noch dringender: Bis Mitte der 2030er sinkt die Zahl der Erwerbsfähigen um 3,2 Millionen – selbst bei hoher Nettozuwanderung.
+- Aussage: Die Staatsbürgerschaft wird jetzt einfach verschenkt!
+  Antwort: 2024 gab es 291.955 Einbürgerungen – ein Rekord, aber kein Verschenken: Die durchschnittliche Aufenthaltsdauer bei Einbürgerung lag bei 11,8 Jahren. Die Reform senkte den Mindestaufenthalt von 8 auf 5 Jahre, verlangt aber weiterhin Sprachkenntnisse, eigenständige Lebensunterhaltssicherung und ein Bekenntnis zur freiheitlich-demokratischen Grundordnung.
+- Aussage: Wir brauchen keine ausländischen Fachkräfte, es gibt genug Deutsche!
+  Antwort: Destatis-Prognosen zeigen: Bis Mitte der 2030er sinkt die Zahl der 20- bis 66-Jährigen um 3,2 Millionen – selbst bei hoher Nettozuwanderung. Schon jetzt sind in vielen Branchen (Pflege, Handwerk, IT, Gastronomie) Stellen unbesetzt. Ohne Zuwanderung wird sich der Fachkräftemangel massiv verschärfen.
 
 ### Quellen
 
 - BAMF: Asylzahlen Dezember und Gesamtjahr 2025 (https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260112-asylzahlen-dezember-und-gesamtjahr-2025.html)
 - BAMF: Asylzahlen Januar 2026 (https://www.bamf.de/SharedDocs/Meldungen/DE/2026/260206-asylzahlen-januar-2026.html)
 - IAB: 10 Jahre Fluchtmigration (2025) (https://iab.de/daten/10-jahre-fluchtmigration-beschaeftigungsmerkmale-der-gefluechteten-die-2015-in-deutschland-schutz-gesucht-haben/)
-- Destatis - Demografischer Wandel und Fachkräfte (https://www.destatis.de/DE/Im-Fokus/Fachkraefte/Demografie/_inhalt.html)
+- Destatis: Demografischer Wandel und Fachkräfte (https://www.destatis.de/DE/Im-Fokus/Fachkraefte/Demografie/_inhalt.html)
+- BKA: Polizeiliche Kriminalstatistik 2024 (https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/Polizeiliche_Kriminalstatistik_2024/Polizeiliche_Kriminalstatistik_2024.html)
+- BMI: PKS 2024 Pressemitteilung (https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2025/04/pks-2024.html)
+- Mediendienst Integration: Ausländerkriminalität (https://mediendienst-integration.de/kriminalitaet/auslaenderkriminalitaet/begehen-auslaender-oefter-straftaten-als-deutsche/)
+- bpb: Asylbedingte Kosten und Ausgaben (https://www.bpb.de/themen/migration-integration/zahlen-zu-asyl/265776/asylbedingte-kosten-und-ausgaben/)
+- Eurostat: Asylum applications – annual statistics 2024 (https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Asylum_applications_-_annual_statistics)
+- Destatis: Asyl in der EU 2024 (https://www.destatis.de/Europa/DE/Thema/Bevoelkerung-Arbeit-Soziales/Bevoelkerung/EUAsylantraege.html)
+- Mediendienst Integration: Abschiebungen (https://mediendienst-integration.de/fluechtlinge/abschiebungen/wie-viele-abschiebungen-und-freiwillige-ausreisen-gibt-es/)
+- bpb: Abschiebungen in Deutschland (https://www.bpb.de/themen/migration-integration/zahlen-zu-asyl/265765/abschiebungen-in-deutschland/)
+- Mediendienst Integration: Ausreisepflichtige (https://mediendienst-integration.de/fluechtlinge/abschiebungen/wie-viele-personen-sind-ausreisepflichtig/)
+- BAMF: Integrationskurszahlen (https://www.bamf.de/DE/Themen/Statistik/Integrationskurszahlen/integrationskurszahlen-node.html)
+- Mediendienst Integration: Erfolgsquote Integrationskurse (https://mediendienst-integration.de/bildung/sprache/erfolgsquote-bei-integrationskursen/)
+- Destatis: 291.955 Einbürgerungen 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_204_125.html)
+- bpb: Geschichte der Migration nach Deutschland (https://www.bpb.de/themen/migration-integration/laenderprofile/deutschland/)
