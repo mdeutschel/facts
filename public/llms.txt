@@ -12,7 +12,7 @@
 - [Verkehrswende](https://fakten-stammtisch.de/llms/verkehrswende.txt): Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen
 - [Bürgergeld](https://fakten-stammtisch.de/llms/buergergeld.txt): Fakten zu Regelsätzen, Sanktionen und Lohnabstand
 - [Migration & Asyl](https://fakten-stammtisch.de/llms/migration.txt): Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland
-- [Teilzeit & Arbeitsmoral](https://fakten-stammtisch.de/llms/teilzeit.txt): Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit und der Gen Z.
+- [Teilzeit & Arbeitsmoral](https://fakten-stammtisch.de/llms/teilzeit.txt): Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit, der Gen Z und den Folgen von Teilzeit.
 - [Vegane Ernährung & Fleischkonsum](https://fakten-stammtisch.de/llms/vegane-ernaehrung.txt): Auswirkungen auf Klima, Umwelt und Gesundheit
 - [Vermögens- und Erbschaftssteuer](https://fakten-stammtisch.de/llms/vermoegenssteuer.txt): Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland
 - [Gleichberechtigung](https://fakten-stammtisch.de/llms/gleichberechtigung.txt): Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation
