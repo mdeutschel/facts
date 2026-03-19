@@ -3,14 +3,14 @@
   "title": "Vegane Ernährung & Fleischkonsum",
   "subtitle": "Auswirkungen auf Klima, Umwelt und Gesundheit",
   "icon": "eco",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-03-19",
   "keyStats": [
-    "Weniger tierische Produkte senken Emissionen deutlich",
-    "Mehr als 75 % der globalen Agrarfläche könnten frei werden",
-    "Mehr als 3/4 pflanzlich empfiehlt die DGE",
-    "6 Argumente"
+    "742,5 Mio. Tiere wurden 2024 in Deutschland geschlachtet",
+    "Hafermilch spart über 90 % CO₂ gegenüber Kuhmilch",
+    "562 Tonnen Antibiotika gingen 2024 in die Tierhaltung",
+    "8 Argumente"
   ],
-  "sourceNote": "Basierend auf Daten von UBA, DGE, Oxford/Poore & Nemecek und der Albert Schweitzer Stiftung (Stand 2024/2025).",
+  "sourceNote": "Basierend auf Daten von Destatis, UBA, BVL, DGE, EAT-Lancet, Oxford/Poore & Nemecek und der Albert Schweitzer Stiftung (Stand 2024/2025).",
   "sections": [
     {
       "id": "klima-co2",
@@ -232,6 +232,257 @@
           ]
         }
       ]
+    },
+    {
+      "id": "schlachtzahlen",
+      "title": "Schlachtzahlen in Deutschland",
+      "content": [
+        {
+          "type": "text",
+          "text": "In Deutschland wurden 2024 insgesamt 742,5 Millionen Tiere geschlachtet — über 2 Millionen pro Tag. Nach sieben Rückgängen in Folge stieg die Fleischproduktion erstmals seit 2016 wieder an (+1,4 % gegenüber dem Vorjahr).",
+          "sourceRefs": [
+            "destatis-fleischproduktion-2024"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Geschlachtete Tiere in Deutschland 2024 (in Millionen)",
+          "items": [
+            {
+              "label": "Masthühner",
+              "value": 626.7,
+              "highlight": true
+            },
+            {
+              "label": "Schweine",
+              "value": 44.6
+            },
+            {
+              "label": "Puten",
+              "value": 30.2
+            },
+            {
+              "label": "Suppenhühner",
+              "value": 27.1
+            },
+            {
+              "label": "Enten",
+              "value": 9.3
+            },
+            {
+              "label": "Rinder",
+              "value": 3.0
+            }
+          ],
+          "unit": "Mio.",
+          "sourceRefs": [
+            "destatis-fleischproduktion-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "84 % aller geschlachteten Tiere in Deutschland sind Masthühner. Seit 2010 wurde noch nie so wenig geschlachtet wie 2024 — und dennoch sind es über 742 Millionen Tiere.",
+          "highlight": true,
+          "sourceRefs": [
+            "destatis-fleischproduktion-2024",
+            "albert-schweitzer-stiftung-schlachtzahlen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pflanzenmilch",
+      "title": "Pflanzenmilch vs. Kuhmilch",
+      "content": [
+        {
+          "type": "text",
+          "text": "Pflanzenmilch schneidet in fast allen Umweltkategorien deutlich besser ab als Kuhmilch. Besonders Hafer- und Sojamilch sind ressourceneffizient und können in Europa angebaut werden.",
+          "sourceRefs": [
+            "oxford-university-poore-nemecek-2018-reducing"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Umweltbilanz pro Liter Milch (Poore & Nemecek 2018, globale Mittelwerte)",
+          "headers": [
+            "Milchsorte",
+            "CO₂-Äq. (kg)",
+            "Wasser (L)",
+            "Fläche (m²)"
+          ],
+          "rows": [
+            [
+              "Kuhmilch",
+              "~3,15",
+              "~628",
+              "~9,0"
+            ],
+            [
+              "Mandelmilch",
+              "~0,70",
+              "~371",
+              "<1,0"
+            ],
+            [
+              "Sojamilch",
+              "~0,98",
+              "~28",
+              "~0,7"
+            ],
+            [
+              "Hafermilch",
+              "~0,32",
+              "~48",
+              "~0,1"
+            ]
+          ],
+          "sourceRefs": [
+            "oxford-university-poore-nemecek-2018-reducing"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Hafermilch verursacht rund 90 % weniger CO₂, benötigt 92 % weniger Wasser und 99 % weniger Fläche als Kuhmilch.",
+          "highlight": true,
+          "sourceRefs": [
+            "oxford-university-poore-nemecek-2018-reducing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antibiotika",
+      "title": "Antibiotika in der Tierhaltung",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der großflächige Einsatz von Antibiotika in der Tierhaltung fördert die Entstehung resistenter Keime, die auch für Menschen gefährlich werden können. 2024 wurden in Deutschland 562 Tonnen Antibiotika an Tierärzte abgegeben.",
+          "sourceRefs": [
+            "bvl-antibiotika-2024",
+            "bmel-lagebild-antibiotika-2024"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Antibiotika in Tiermedizin 2024",
+              "value": "562 t",
+              "sublabel": "+6,4 % ggü. Vorjahr",
+              "color": "#ef5350"
+            },
+            {
+              "label": "Rückgang seit 2011",
+              "value": "−67 %",
+              "sublabel": "von ca. 1.706 t auf 562 t",
+              "color": "#66bb6a"
+            },
+            {
+              "label": "Penicilline (größter Anteil)",
+              "value": "222 t",
+              "sublabel": "39,5 % der Gesamtmenge",
+              "color": "#42a5f5"
+            }
+          ],
+          "sourceRefs": [
+            "bvl-antibiotika-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Obwohl die Abgabemenge seit 2011 um 67 % gesunken ist, gehen weiterhin über 500 Tonnen Antibiotika pro Jahr in die deutsche Tierhaltung — darunter auch für den Menschen wichtige Reserveantibiotika.",
+          "sourceRefs": [
+            "bvl-antibiotika-2024",
+            "bmel-lagebild-antibiotika-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gesellschaft-trend",
+      "title": "Gesellschaftlicher Trend & Planetary Health Diet",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Zahl der Vegetarier und Veganer in Deutschland wächst, auch wenn sie noch eine Minderheit darstellen. Gleichzeitig empfehlen internationale Kommissionen wie die EAT-Lancet-Kommission eine deutlich pflanzenbetontere Ernährung — aus Gesundheits- und Klimagründen.",
+          "sourceRefs": [
+            "eat-lancet-planetary-health-diet"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Vegetarier in Deutschland",
+              "value": "~8,4 Mio.",
+              "sublabel": "ca. 10 % der Bevölkerung (2024)",
+              "color": "#66bb6a"
+            },
+            {
+              "label": "Veganer in Deutschland",
+              "value": "~1,7 Mio.",
+              "sublabel": "ca. 2 % der Bevölkerung (2024)",
+              "color": "#43a047"
+            },
+            {
+              "label": "Kaufen vegane/vegetarische Alternativen",
+              "value": "39 %",
+              "sublabel": "+10 % seit 2020 (BMEL)",
+              "color": "#42a5f5"
+            }
+          ],
+          "sourceRefs": [
+            "allensbacher-marktanalyse-vegetarier",
+            "bmel-ernaehrungsreport-2024"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "EAT-Lancet Planetary Health Diet vs. deutscher Durchschnitt",
+          "items": [
+            {
+              "title": "EAT-Lancet-Empfehlung",
+              "color": "#66bb6a",
+              "rows": [
+                {
+                  "label": "Fleisch (rot)",
+                  "value": "max. 98 g/Woche"
+                },
+                {
+                  "label": "Gemüse & Obst",
+                  "value": "500 g/Tag"
+                },
+                {
+                  "label": "Hülsenfrüchte & Nüsse",
+                  "value": "125 g/Tag"
+                }
+              ]
+            },
+            {
+              "title": "Deutscher Durchschnitt",
+              "color": "#ef5350",
+              "rows": [
+                {
+                  "label": "Fleisch (gesamt)",
+                  "value": "~1.020 g/Woche"
+                },
+                {
+                  "label": "Gemüse & Obst",
+                  "value": "~270 g/Tag"
+                },
+                {
+                  "label": "Hülsenfrüchte & Nüsse",
+                  "value": "~25 g/Tag"
+                }
+              ]
+            }
+          ],
+          "savings": "Die EAT-Lancet-Kommission schätzt, dass ihre Ernährungsempfehlung weltweit 11,1 Millionen vorzeitige Todesfälle pro Jahr verhindern könnte.",
+          "sourceRefs": [
+            "eat-lancet-planetary-health-diet"
+          ]
+        }
+      ]
     }
   ],
   "arguments": [
@@ -284,16 +535,18 @@
     {
       "id": "mandelmilch-wasser",
       "claim": "Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!",
-      "response": "Es stimmt, dass Mandeln relativ viel Wasser benötigen. Das macht Pflanzenmilch insgesamt aber nicht automatisch so ressourcenintensiv wie tierische Produkte. Wer Wasser- und Klimabilanz verbessern will, kann auf besonders günstige pflanzliche Alternativen wie Hafer setzen.",
+      "response": "Mandelmilch benötigt tatsächlich rund 371 Liter Wasser pro Liter — das ist viel. Aber Kuhmilch liegt mit 628 Litern pro Liter noch deutlich darüber. Wer Wasser- und Klimabilanz optimieren will, greift zu Hafermilch (48 L) oder Sojamilch (28 L). Beide schneiden in allen Umweltkategorien drastisch besser ab als Kuhmilch.",
       "keywords": [
         "Mandelmilch",
         "Hafermilch",
         "Kuhmilch",
         "Wasserverbrauch",
-        "Pflanzenmilch"
+        "Pflanzenmilch",
+        "Sojamilch"
       ],
       "relatedSections": [
-        "ressourcen"
+        "ressourcen",
+        "pflanzenmilch"
       ]
     },
     {
@@ -319,6 +572,39 @@
         "Arbeitsplätze",
         "Wirtschaft",
         "Subventionen"
+      ]
+    },
+    {
+      "id": "antibiotika-resistenz",
+      "claim": "Was hat mein Fleischkonsum mit Antibiotikaresistenzen zu tun?",
+      "response": "2024 gingen 562 Tonnen Antibiotika in die deutsche Tierhaltung. Der massenhafte Einsatz fördert die Entstehung resistenter Keime, die über Lebensmittel, Gülle und Abwasser auch den Menschen erreichen. Die WHO warnt, dass Antibiotikaresistenzen eine der größten Gesundheitsbedrohungen des 21. Jahrhunderts sind. Weniger Massentierhaltung bedeutet weniger Antibiotikaeinsatz.",
+      "keywords": [
+        "Antibiotika",
+        "Resistenz",
+        "Keime",
+        "Massentierhaltung",
+        "Gesundheit",
+        "WHO"
+      ],
+      "relatedSections": [
+        "antibiotika"
+      ]
+    },
+    {
+      "id": "einzelner-beitrag",
+      "claim": "Was bringt es, wenn ich alleine auf Fleisch verzichte? Das ändert doch nichts!",
+      "response": "Die EAT-Lancet-Kommission zeigt: Wenn viele Menschen ihre Ernährung umstellen, könnten weltweit 11,1 Millionen vorzeitige Todesfälle pro Jahr verhindert werden. In Deutschland kaufen bereits 39 % der Verbraucher regelmäßig vegetarische oder vegane Alternativen — Tendenz steigend. Jede Kaufentscheidung sendet ein Marktsignal. Allein der Wechsel von Kuhmilch zu Hafermilch spart pro Liter über 90 % CO₂ ein.",
+      "keywords": [
+        "Einzelner",
+        "Beitrag",
+        "Änderung",
+        "Wirkung",
+        "Markt",
+        "Nachfrage"
+      ],
+      "relatedSections": [
+        "gesellschaft-trend",
+        "pflanzenmilch"
       ]
     }
   ],
@@ -347,6 +633,41 @@
       "id": "albert-schweitzer-stiftung-oekologische-folgen",
       "label": "Albert Schweitzer Stiftung: Ökologische Folgen des Fleischkonsums",
       "url": "https://albert-schweitzer-stiftung.de/themen/umwelt"
+    },
+    {
+      "id": "destatis-fleischproduktion-2024",
+      "label": "Statistisches Bundesamt: Fleischproduktion im Jahr 2024",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/02/PD25_050_413.html"
+    },
+    {
+      "id": "albert-schweitzer-stiftung-schlachtzahlen",
+      "label": "Albert Schweitzer Stiftung: Schlachtzahlen und Fleischverzehr 2024",
+      "url": "https://albert-schweitzer-stiftung.de/aktuell/schlachtzahlen-fleischverzehr"
+    },
+    {
+      "id": "bvl-antibiotika-2024",
+      "label": "BVL: Antibiotikaabgabe in der Tiermedizin 2024",
+      "url": "https://www.bvl.bund.de/SharedDocs/Pressemitteilungen/05_tierarzneimittel/2025/PM_Abgabemengen_Antibiotika_Tiermedizin_2024.html"
+    },
+    {
+      "id": "bmel-lagebild-antibiotika-2024",
+      "label": "BMEL: Lagebild Antibiotikaresistenz Tierhaltung 2024",
+      "url": "https://www.bmel.de/DE/themen/tiere/tierarzneimittel/lagebild-antibiotikaeinsatz-bei-tieren-2024.html"
+    },
+    {
+      "id": "eat-lancet-planetary-health-diet",
+      "label": "EAT-Lancet Commission: The Planetary Health Diet (2019)",
+      "url": "https://eatforum.org/eat-lancet/the-planetary-health-diet/"
+    },
+    {
+      "id": "allensbacher-marktanalyse-vegetarier",
+      "label": "Allensbacher Markt- und Werbeträger-Analyse: Vegetarier in Deutschland 2024",
+      "url": "https://de.statista.com/statistik/daten/studie/173636/umfrage/lebenseinstellung-anzahl-vegetarier/"
+    },
+    {
+      "id": "bmel-ernaehrungsreport-2024",
+      "label": "BMEL-Ernährungsreport 2024: Vegetarische und vegane Alternativprodukte",
+      "url": "https://www.bmel.de/DE/themen/ernaehrung/ernaehrungsreport2024.html"
     }
   ]
 }
