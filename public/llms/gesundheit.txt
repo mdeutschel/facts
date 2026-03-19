@@ -1,6 +1,6 @@
 # Deutsches Gesundheitssystem
 
-Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Ärztemangel & Prävention | Stand: 2026-03-19
+Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Arzneimittel, Digitalisierung & Prävention | Stand: 2026-03-19
 
 ### Fakten
 
@@ -128,6 +128,30 @@ Die gesetzliche Krankenversicherung schließt 2024 mit dem größten Defizit sei
 
 Strukturell wachsen die GKV-Ausgaben 6–8 Milliarden Euro pro Jahr schneller als die Einnahmen. Haupttreiber: steigende Arzneimittelkosten (+9 % auf 59,3 Mrd. € allein 2024), teurere Krankenhausbehandlungen und die alternde Bevölkerung. Ohne Strukturreform drohen ab 2027 zweistellige Milliarden-Lücken jährlich.
 
+### Arzneimittelpreise & AMNOG: Kosten trotz Regulierung
+
+Die GKV-Arzneimittelausgaben sind 2024 auf 59,3 Milliarden Euro gestiegen – ein Plus von 9 % gegenüber 2023 und mehr als doppelt so viel wie bei der AMNOG-Einführung 2011. Gleichzeitig entfallen 54 % der Kosten auf nur 7 % der Verordnungen (patentgeschützte Mittel).
+
+- GKV-Arzneimittelausgaben 2024: 59,3 Mrd. € (+9 % gegenüber 2023; stärkstes Wachstum seit Jahren)
+- Patentmittel: Anteil Kosten/Verordnungen: 54 % / 7 % (Patentgeschützte Medikamente verursachen mehr als die Hälfte der Kosten bei wenigen Verordnungen)
+- Ø Packungspreis Patentmarkt: 7.700 € (2024 – von 4.100 € (2015), Verdoppelung in 9 Jahren)
+
+- Seit Einführung des AMNOG 2011 stiegen die GKV-Arzneimittelausgaben um +125 %. Die verhandelten AMNOG-Rabatte 2025 werden auf rund 12,2 Milliarden Euro geschätzt – ohne sie wäre der Anstieg noch deutlich steiler.
+
+AMNOG verpflichtet Hersteller seit 2011 zu einer Nutzenbewertung beim G-BA. Das Ergebnis (6 Stufen von erheblichem bis keinem Zusatznutzen) bestimmt den verhandelten Preis. Kritiker monieren, dass bei 'kein Zusatznutzen'-Bescheid trotzdem teils höhere Preise als die zweckmäßige Vergleichstherapie erzielt werden. Die EU-weite HTA-Verordnung gilt ab Januar 2025 zusätzlich für neue onkologische Therapien.
+
+### Digitalisierung: ePA, DiGA und der lange Weg
+
+Seit Februar 2025 haben rund 73 Millionen GKV-Versicherte automatisch eine elektronische Patientenakte (ePA) – sofern sie nicht aktiv widersprochen haben. Deutschland setzt damit nach Jahren der Verzögerung auf ein Opt-out-Modell.
+
+- ePA-Versicherte (Opt-out): 73 Mio. (Rollout ab Februar 2025; Widerspruchsrate unter 10 %)
+- DiGA im BfArM-Verzeichnis: 59 (Stand Dezember 2024; davon 41 dauerhaft zugelassen (+20 % ggü. Vorjahr))
+- DiGA-Freischaltcodes bis Ende 2024: ~870.000 (Eingelöste Codes; DiGA-Kosten stiegen 2024 um +71 %)
+
+- Die DiGA-Kosten für die GKV stiegen 2024 um +71 %. Der GKV-Spitzenverband kritisiert das Kosten-Nutzen-Verhältnis: Viele Apps werden erstattet, bevor langfristige Wirksamkeitsnachweise vorliegen. Gleichzeitig belegen erste Studien bei einzelnen DiGA klinisch messbare Effekte.
+
+Die ePA soll Doppeluntersuchungen reduzieren, Medikationsfehler vermeiden und Forschungsdaten erschließen. Realistische Einschränkung: Ohne konsequente Befüllung durch Praxen und Kliniken bleibt die Akte leer. Die Interoperabilität mit internationalen Systemen ist noch nicht vollständig gelöst.
+
 ### Argumente
 
 - Aussage: Wir haben das beste Gesundheitssystem der Welt
@@ -148,6 +172,10 @@ Strukturell wachsen die GKV-Ausgaben 6–8 Milliarden Euro pro Jahr schneller al
   Antwort: Arzneimittel unterliegen in der EU einem regulierten Zulassungs- und Bewertungsverfahren. Berechtigte Kritik betrifft eher Preise, Transparenz und Fehlanreize als eine belegte Absicht, Menschen krank zu machen.
 - Aussage: Auf dem Land gibt es keine Ärzte mehr
   Antwort: Der Kern stimmt für bestimmte Regionen: 33 Planungsbereiche gelten offiziell als unterversorgt, weitere 152 sind gefährdet – überwiegend im ländlichen Raum und vor allem bei Hausärzten. Deutschlandweit ist die absolute Ärztezahl aber mit 189.551 niedergelassenen Ärztinnen und Ärzten 2024 ein Rekordhoch. Das Problem ist die ungleiche Verteilung: Zwischen dem am besten und am schlechtesten versorgten Landkreis liegt ein Faktor 4 bei der Ärztedichte.
+- Aussage: Medikamente in Deutschland sind viel zu teuer
+  Antwort: Das stimmt für patentgeschützte Neueinführungen – hier sind die Preise im ersten Jahr ohne Deckelung frei wählbar. AMNOG regelt danach einen Rabatt, hat aber den Ausgabenanstieg nicht gestoppt: 59,3 Mrd. € GKV-Arzneimittelausgaben 2024 (+9 %). 54 % der Kosten entfallen auf 7 % der Verordnungen. Günstige Generikapreise drücken den Durchschnitt; im Patentmarkt hat sich der Durchschnittspreis pro Packung von 4.100 € (2015) auf 7.700 € (2024) fast verdoppelt.
+- Aussage: Deutschland ist beim digitalen Gesundheitssystem hoffnungslos rückständig
+  Antwort: Der Rückstand war real: Die ePA startete mehrfach verzögert. Seit Februar 2025 haben 73 Millionen Versicherte automatisch eine ePA (Opt-out). Das ist ein echter Systemwechsel, wenn auch spät. Bei digitalen Gesundheitsanwendungen (DiGA) ist Deutschland mit 59 zugelassenen Apps und schnellen Erstattungswegen internationaler Vorreiter – allerdings bei unklarem Kosten-Nutzen-Verhältnis. Fortschritt und Rückstand existieren gleichzeitig.
 - Aussage: Die GKV ist bald pleite / Das System ist nicht mehr finanzierbar
   Antwort: Die Sorge ist nachvollziehbar: 2024 verzeichnete die GKV ein Defizit von 6,2 Mrd. Euro – das stärkste Ausgabenwachstum seit 30 Jahren. Die Finanzreserven fielen unter die gesetzlich vorgeschriebene Mindestschwelle. Ohne Reformen drohen ab 2027 zweistellige Milliarden-Lücken jährlich. 'Pleite' ist aber nicht das Szenario: Die GKV ist eine Pflichtversicherung mit Beitragsanpassungsmechanismus. Das strukturelle Problem liegt beim Ausgabenwachstum, das schneller steigt als die Einnahmen – vor allem durch steigende Arzneimittelpreise und die alternde Bevölkerung.
 
@@ -172,3 +200,6 @@ Strukturell wachsen die GKV-Ausgaben 6–8 Milliarden Euro pro Jahr schneller al
 - BMG – Vorläufige GKV-Finanzergebnisse 2024 (https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html)
 - WIdO – Arzneimittel-Kompass 2025 (https://www.wido.de/news-presse/pressemitteilungen/2025/arzneimittel-kompass-2025/)
 - vdek – Stabilisierung der GKV-Finanzen 2025 (https://www.vdek.com/magazin/ausgaben/2025-03/stabilisierung-gkv-finanzen.html)
+- Cencora / HTAQ – Wie AMNOG die Balance findet (2024) (https://www.cencora.com/de/ressourcen/pharma-(arzneimittel)/htaq-sommer-2024,-c-,-wie-amnog-die-balance-findet)
+- BMG – ePA für alle (elektronische Patientenakte) (https://www.bundesgesundheitsministerium.de/themen/digitalisierung/elektronische-patientenakte/epa-fuer-alle)
+- Deutsches Ärzteblatt – DiGA-Nutzung steigt deutlich an (2024) (https://www.aerzteblatt.de/archiv/digitale-gesundheitsanwendungen-nutzung-steigt-deutlich-an-d5a67022-6911-4ca8-a07d-4e28266a7b60)

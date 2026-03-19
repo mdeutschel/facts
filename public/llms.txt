@@ -17,7 +17,7 @@
 - [Vermögens- und Erbschaftssteuer](https://fakten-stammtisch.de/llms/vermoegenssteuer.txt): Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland
 - [Gleichberechtigung](https://fakten-stammtisch.de/llms/gleichberechtigung.txt): Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation
 - [Deutsches Bildungssystem](https://fakten-stammtisch.de/llms/bildung.txt): Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung
-- [Deutsches Gesundheitssystem](https://fakten-stammtisch.de/llms/gesundheit.txt): Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Ärztemangel & Prävention
+- [Deutsches Gesundheitssystem](https://fakten-stammtisch.de/llms/gesundheit.txt): Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Arzneimittel, Digitalisierung & Prävention
 
 ## Vollstaendiger Inhalt
 
