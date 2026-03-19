@@ -50,9 +50,9 @@
       "title": "Bürgergeld",
       "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
       "icon": "account_balance_wallet",
-      "lastUpdated": "2026-03-18",
-      "factCount": 4,
-      "argumentCount": 6
+      "lastUpdated": "2026-03-19",
+      "factCount": 6,
+      "argumentCount": 8
     },
     {
       "id": "migration",
