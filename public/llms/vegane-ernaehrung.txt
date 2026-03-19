@@ -1,6 +1,6 @@
 # Vegane Ernährung & Fleischkonsum
 
-Auswirkungen auf Klima, Umwelt und Gesundheit | Stand: 2026-03-18
+Auswirkungen auf Klima, Umwelt und Gesundheit | Stand: 2026-03-19
 
 ### Fakten
 
@@ -57,6 +57,62 @@ Hinweis: Fleischkonsum: Realität vs. DGE-Empfehlung
   - Pro Woche: 300–600 g
 - Ersparnis: Wir essen das 2- bis 3,5-Fache des von der DGE empfohlenen Maximums.
 
+### Schlachtzahlen in Deutschland
+
+In Deutschland wurden 2024 insgesamt 742,5 Millionen Tiere geschlachtet — über 2 Millionen pro Tag. Nach sieben Rückgängen in Folge stieg die Fleischproduktion erstmals seit 2016 wieder an (+1,4 % gegenüber dem Vorjahr).
+
+Hinweis: Geschlachtete Tiere in Deutschland 2024 (in Millionen)
+- Masthühner: 626.7 Mio.
+- Schweine: 44.6 Mio.
+- Puten: 30.2 Mio.
+- Suppenhühner: 27.1 Mio.
+- Enten: 9.3 Mio.
+- Rinder: 3 Mio.
+
+- 84 % aller geschlachteten Tiere in Deutschland sind Masthühner. Seit 2010 wurde noch nie so wenig geschlachtet wie 2024 — und dennoch sind es über 742 Millionen Tiere.
+
+### Pflanzenmilch vs. Kuhmilch
+
+Pflanzenmilch schneidet in fast allen Umweltkategorien deutlich besser ab als Kuhmilch. Besonders Hafer- und Sojamilch sind ressourceneffizient und können in Europa angebaut werden.
+
+Hinweis: Umweltbilanz pro Liter Milch (Poore & Nemecek 2018, globale Mittelwerte)
+Spalten: Milchsorte | CO₂-Äq. (kg) | Wasser (L) | Fläche (m²)
+- Kuhmilch | ~3,15 | ~628 | ~9,0
+- Mandelmilch | ~0,70 | ~371 | <1,0
+- Sojamilch | ~0,98 | ~28 | ~0,7
+- Hafermilch | ~0,32 | ~48 | ~0,1
+
+- Hafermilch verursacht rund 90 % weniger CO₂, benötigt 92 % weniger Wasser und 99 % weniger Fläche als Kuhmilch.
+
+### Antibiotika in der Tierhaltung
+
+Der großflächige Einsatz von Antibiotika in der Tierhaltung fördert die Entstehung resistenter Keime, die auch für Menschen gefährlich werden können. 2024 wurden in Deutschland 562 Tonnen Antibiotika an Tierärzte abgegeben.
+
+- Antibiotika in Tiermedizin 2024: 562 t (+6,4 % ggü. Vorjahr)
+- Rückgang seit 2011: −67 % (von ca. 1.706 t auf 562 t)
+- Penicilline (größter Anteil): 222 t (39,5 % der Gesamtmenge)
+
+- Obwohl die Abgabemenge seit 2011 um 67 % gesunken ist, gehen weiterhin über 500 Tonnen Antibiotika pro Jahr in die deutsche Tierhaltung — darunter auch für den Menschen wichtige Reserveantibiotika.
+
+### Gesellschaftlicher Trend & Planetary Health Diet
+
+Die Zahl der Vegetarier und Veganer in Deutschland wächst, auch wenn sie noch eine Minderheit darstellen. Gleichzeitig empfehlen internationale Kommissionen wie die EAT-Lancet-Kommission eine deutlich pflanzenbetontere Ernährung — aus Gesundheits- und Klimagründen.
+
+- Vegetarier in Deutschland: ~8,4 Mio. (ca. 10 % der Bevölkerung (2024))
+- Veganer in Deutschland: ~1,7 Mio. (ca. 2 % der Bevölkerung (2024))
+- Kaufen vegane/vegetarische Alternativen: 39 % (+10 % seit 2020 (BMEL))
+
+Hinweis: EAT-Lancet Planetary Health Diet vs. deutscher Durchschnitt
+- EAT-Lancet-Empfehlung
+  - Fleisch (rot): max. 98 g/Woche
+  - Gemüse & Obst: 500 g/Tag
+  - Hülsenfrüchte & Nüsse: 125 g/Tag
+- Deutscher Durchschnitt
+  - Fleisch (gesamt): ~1.020 g/Woche
+  - Gemüse & Obst: ~270 g/Tag
+  - Hülsenfrüchte & Nüsse: ~25 g/Tag
+- Ersparnis: Die EAT-Lancet-Kommission schätzt, dass ihre Ernährungsempfehlung weltweit 11,1 Millionen vorzeitige Todesfälle pro Jahr verhindern könnte.
+
 ### Argumente
 
 - Aussage: Für das Soja im Tofu der Veganer wird der Regenwald abgeholzt!
@@ -66,11 +122,15 @@ Hinweis: Fleischkonsum: Realität vs. DGE-Empfehlung
 - Aussage: Der Mensch ist ein Allesfresser, wir haben schon immer Fleisch gegessen.
   Antwort: Dass wir Fleisch essen können, bedeutet nicht, dass wir es in heutigen Mengen brauchen. Der Fleischverzehr in Deutschland lag 2024 bei 53,2 kg pro Kopf — die DGE empfiehlt maximal 300–600 g pro Woche, also 15–31 kg pro Jahr. Wir essen das 2- bis 3,5-Fache des empfohlenen Maximums. Ein hoher Konsum tierischer Produkte wird mit gesundheitlichen Risiken wie Herz-Kreislauf-Erkrankungen und bestimmten Krebsarten in Verbindung gebracht.
 - Aussage: Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!
-  Antwort: Es stimmt, dass Mandeln relativ viel Wasser benötigen. Das macht Pflanzenmilch insgesamt aber nicht automatisch so ressourcenintensiv wie tierische Produkte. Wer Wasser- und Klimabilanz verbessern will, kann auf besonders günstige pflanzliche Alternativen wie Hafer setzen.
+  Antwort: Mandelmilch benötigt tatsächlich rund 371 Liter Wasser pro Liter — das ist viel. Aber Kuhmilch liegt mit 628 Litern pro Liter noch deutlich darüber. Wer Wasser- und Klimabilanz optimieren will, greift zu Hafermilch (48 L) oder Sojamilch (28 L). Beide schneiden in allen Umweltkategorien drastisch besser ab als Kuhmilch.
 - Aussage: Veganismus ist nur ein teurer Lifestyle für privilegierte Großstädter.
   Antwort: Vegane Grundnahrungsmittel wie Reis, Kartoffeln, Nudeln, Linsen, Bohnen, Haferflocken und saisonales Gemüse gehören zu den günstigsten Lebensmitteln überhaupt. Teuer sind vor allem hochverarbeitete Ersatzprodukte, die für eine ausgewogene pflanzliche Ernährung nicht zwingend nötig sind.
 - Aussage: Wenn alle vegan werden, verlieren unsere Landwirte ihre Existenz!
   Antwort: Ein Wandel der Ernährungsgewohnheiten passiert nicht über Nacht, sondern über Jahre und Jahrzehnte. Das gibt der Landwirtschaft Zeit, sich anzupassen. Der Anbau pflanzlicher Proteine für den direkten menschlichen Verzehr kann neue Marktchancen schaffen.
+- Aussage: Was hat mein Fleischkonsum mit Antibiotikaresistenzen zu tun?
+  Antwort: 2024 gingen 562 Tonnen Antibiotika in die deutsche Tierhaltung. Der massenhafte Einsatz fördert die Entstehung resistenter Keime, die über Lebensmittel, Gülle und Abwasser auch den Menschen erreichen. Die WHO warnt, dass Antibiotikaresistenzen eine der größten Gesundheitsbedrohungen des 21. Jahrhunderts sind. Weniger Massentierhaltung bedeutet weniger Antibiotikaeinsatz.
+- Aussage: Was bringt es, wenn ich alleine auf Fleisch verzichte? Das ändert doch nichts!
+  Antwort: Die EAT-Lancet-Kommission zeigt: Wenn viele Menschen ihre Ernährung umstellen, könnten weltweit 11,1 Millionen vorzeitige Todesfälle pro Jahr verhindert werden. In Deutschland kaufen bereits 39 % der Verbraucher regelmäßig vegetarische oder vegane Alternativen — Tendenz steigend. Jede Kaufentscheidung sendet ein Marktsignal. Allein der Wechsel von Kuhmilch zu Hafermilch spart pro Liter über 90 % CO₂ ein.
 
 ### Quellen
 
@@ -79,3 +139,10 @@ Hinweis: Fleischkonsum: Realität vs. DGE-Empfehlung
 - DGE – DGE-Ernährungskreis (https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/)
 - Oxford University (Poore & Nemecek, 2018): Reducing food’s environmental impacts (https://science.sciencemag.org/content/360/6392/987)
 - Albert Schweitzer Stiftung: Ökologische Folgen des Fleischkonsums (https://albert-schweitzer-stiftung.de/themen/umwelt)
+- Statistisches Bundesamt: Fleischproduktion im Jahr 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/02/PD25_050_413.html)
+- Albert Schweitzer Stiftung: Schlachtzahlen und Fleischverzehr 2024 (https://albert-schweitzer-stiftung.de/aktuell/schlachtzahlen-fleischverzehr)
+- BVL: Antibiotikaabgabe in der Tiermedizin 2024 (https://www.bvl.bund.de/SharedDocs/Pressemitteilungen/05_tierarzneimittel/2025/PM_Abgabemengen_Antibiotika_Tiermedizin_2024.html)
+- BMEL: Lagebild Antibiotikaresistenz Tierhaltung 2024 (https://www.bmel.de/DE/themen/tiere/tierarzneimittel/lagebild-antibiotikaeinsatz-bei-tieren-2024.html)
+- EAT-Lancet Commission: The Planetary Health Diet (2019) (https://eatforum.org/eat-lancet/the-planetary-health-diet/)
+- Allensbacher Markt- und Werbeträger-Analyse: Vegetarier in Deutschland 2024 (https://de.statista.com/statistik/daten/studie/173636/umfrage/lebenseinstellung-anzahl-vegetarier/)
+- BMEL-Ernährungsreport 2024: Vegetarische und vegane Alternativprodukte (https://www.bmel.de/DE/themen/ernaehrung/ernaehrungsreport2024.html)
