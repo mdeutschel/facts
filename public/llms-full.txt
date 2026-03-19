@@ -2258,7 +2258,7 @@ Hinweis: Stufenweise Einführung des Rechtsanspruchs
 
 ## Deutsches Gesundheitssystem
 
-Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention | Stand: 2026-03-18
+Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Ärztemangel & Prävention | Stand: 2026-03-19
 
 ### Fakten
 
@@ -2266,11 +2266,11 @@ Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention | Stand: 2026-03-18
 
 Deutschland gehört weltweit zu den Ländern mit den höchsten Gesundheitsausgaben.
 
-Hinweis: Gesundheitsausgaben pro Kopf 2024 (kaufkraftbereinigt, USD)
-- USA: 14880 USD
-- Schweiz: 10200 USD
-- Deutschland: 9600 USD
-- Norwegen: 9400 USD
+Hinweis: Gesundheitsausgaben pro Kopf 2023 (kaufkraftbereinigt, USD)
+- USA: 14775 USD
+- Schweiz: 9900 USD
+- Deutschland: 9365 USD
+- Norwegen: 8200 USD
 - OECD-Schnitt: 6000 USD
 
 - GKV-Gesamtbeitrag: 17,5 % (14,6 % + 2,9 % Zusatzbeitrag (2026))
@@ -2286,7 +2286,7 @@ Hinweis: GKV-Gesamtbeitragssatz seit 2015 (allgemeiner Beitrag + durchschnittlic
 - 2025: 17.1 %
 - 2026: 17.5 %
 
-Hinweis: GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag)
+Hinweis: GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag; Schätzwerte für Steuerklasse I, kinderlos, ohne Kirchensteuer)
 Spalten: Position | Mindestlohn (~2.220 € brutto) | Median (~3.000 € brutto)
 - AN-Anteil GKV (8,75 %) | 194 € | 263 €
 - AG-Anteil GKV (8,75 %) | 194 € | 263 €
@@ -2299,15 +2299,15 @@ Spalten: Position | Mindestlohn (~2.220 € brutto) | Median (~3.000 € brutto)
 
 Ungleichheiten zeigen sich besonders bei Facharztterminen. Für viele gesetzlich Versicherte bleiben Wartezeiten und Terminvergabe ein spürbares Problem.
 
-- Zu lange Facharzt-Wartezeit: 30 % (so bewerten GKV-Versicherte ihre Wartezeit)
-- Mehr als 30 Tage: 25 % (so lange warten GKV-Versicherte auf einen Facharzttermin)
+- Zu lange Facharzt-Wartezeit: 30 % (GKV-Versicherte empfinden ihre Wartezeit als zu lang (Selbstauskunft))
+- Mehr als 30 Tage: 25 % (GKV-Versicherte warten nach eigener Angabe länger als 30 Tage auf einen Facharzttermin)
 - Versichertenstruktur: 89 % / 11 % (GKV- bzw. PKV-Anteil an der Bevölkerung)
 
 - Viele gesetzlich Versicherte berichten von spürbaren Nachteilen bei Facharztterminen. Das stützt die Diagnose, dass der Zugang zur Versorgung nicht für alle gleich leicht ist.
 
 Rund 89 % der Bevölkerung sind gesetzlich und etwa 11 % privat versichert. Unterschiede bei Terminvergabe und Zugangswegen prägen deshalb die Debatte über Zwei-Klassen-Medizin stark.
 
-### Pflegenotstand: Die stille Katastrophe
+### Pflegenotstand: Zahlen, Engpässe und Prognosen
 
 Ende 2023 lebten 5,7 Millionen Pflegebedürftige in Deutschland – Tendenz stark steigend. Die Zahl der Pflegekräfte hält mit dem wachsenden Bedarf nicht Schritt.
 
@@ -2325,7 +2325,7 @@ Kernproblem ist nicht nur die absolute Zahl, sondern das Missverhältnis: Steige
 Deutschland hatte 2024 rund 1.841 Krankenhäuser und 7,6 Krankenhausbetten pro 1.000 Einwohner bei einer Bettenauslastung von 72 %.
 
 Hinweis: Krankenhausbetten pro 1.000 Einwohner (2023)
-- Bulgarien: 8.2
+- Bulgarien: 8.6
 - Deutschland: 7.6
 - Österreich: 6.7
 - Polen: 6
@@ -2339,14 +2339,15 @@ Die Krankenhausreform wurde 2026 angepasst: Für ländliche Kliniken gelten mehr
 
 Die Versorgungslage in Psychotherapie und Psychiatrie bleibt angespannt. Das Zi meldet für das 1. Halbjahr 2025 erneut steigende Fallzahlen in diesem Bereich.
 
-- Fallzahl-Zuwachs: +3,4 % (Psychotherapie und Psychiatrie, 1. Halbjahr 2025 vs. Vorjahr)
-- Versorgungsdruck: hoch (die psychische Versorgung hinkt dem Bedarf weiter hinterher)
+- Fallzahl-Zuwachs gesamt: +3,4 % (Psychotherapie und Psychiatrie, 1. Halbjahr 2025 vs. Vorjahr)
+- Kinder- & Jugendpsychiatrie: +5,7 % (noch stärkerer Fallzahl-Anstieg im 1. Halbjahr 2025)
+- Terminvermittlung: < 50 % (Suchanfragen 2024 fristgerecht über Terminservicestellen vermittelt)
 
 - Auch Terminservicestellen lösen das Problem nur teilweise: 2024 wurde weniger als die Hälfte der eingegangenen Suchanfragen fristgerecht vermittelt.
 
-Besonders in psychischen und psychiatrischen Versorgungsbereichen bleibt der Bedarf hoch. Das Zi berichtet für das 1. Halbjahr 2025 erneut steigende Fallzahlen.
+Besonders Kinder und Jugendliche sind betroffen: Die Kinder- und Jugendpsychiatrie verzeichnet mit +5,7 % den stärksten Zuwachs aller Fachbereiche. Strukturelle Lösungen – mehr Studienplätze für Psychotherapie, kürzere Ausbildungswege – sind zwar beschlossen, greifen aber erst mittelfristig.
 
-### Prävention: Das Stiefkind des Systems
+### Prävention: Geringer Anteil an den Gesamtausgaben
 
 Das deutsche Gesundheitssystem konzentriert große Teile seiner Ausgaben auf Behandlung. Die Ausgaben für Prävention sind im Vergleich zu den Gesamtausgaben gering.
 
@@ -2359,26 +2360,54 @@ Hinweis: Gesundheitsausgaben nach Leistungsart 2023
 
 - Nur 4,9 % der Gesundheitsausgaben (24,8 Mrd. von 500,8 Mrd. €) flossen 2023 in Prävention — 298 € je Einwohner. Der GKV-Anteil für Präventionsaktivitäten lag 2024 bei nur 686 Mio. €, also weniger als 0,2 % der GKV-Ausgaben.
 
-Dabei zeigt die Forschung: Jeder in Prävention investierte Euro spart ein Vielfaches an Behandlungskosten. Insbesondere bei Volkskrankheiten wie Diabetes, Herz-Kreislauf-Erkrankungen und psychischen Leiden wäre frühe Prävention wirtschaftlich und menschlich sinnvoller.
+Für viele Präventionsmaßnahmen – insbesondere Impfungen und Früherkennungsuntersuchungen – belegt die Forschung einen deutlich positiven Kosten-Nutzen-Effekt. Nicht jede Maßnahme ist gleich wirksam; der Return on Investment variiert je nach Intervention erheblich. Konsens besteht jedoch darin, dass insbesondere bei Volkskrankheiten wie Diabetes und Herz-Kreislauf-Erkrankungen mehr Prävention mittel- bis langfristig Behandlungskosten senkt.
+
+### Ärztemangel: Rekordzahlen und trotzdem Engpässe
+
+Die absolute Zahl der niedergelassenen Ärztinnen und Ärzte ist so hoch wie nie – und trotzdem haben viele Regionen Versorgungsprobleme. Der Widerspruch erklärt sich durch Altersstruktur, Spezialisierung und regionale Verteilung.
+
+- Niedergelassene Ärzte 2024: 189.551 (Absolutes Rekordhoch, +1,1 % gegenüber 2023)
+- Durchschnittsalter: 54 Jahre (33,7 % der Vertragsärzte sind 60 Jahre oder älter)
+- Gebiete mit Unterversorgung: 33 (Planungsbereiche; plus 152 mit drohender Unterversorgung (Stand 2024))
+
+- Zwischen dem am besten und dem am schlechtesten versorgten Landkreis liegt ein Faktor 4 bei der Ärztedichte. Die KBV prognostiziert für 2024–2026 jährlich rund 5.000 offene Stellen ohne Nachbesetzung – vor allem bei Hausärzten.
+
+Ursache ist vor allem die Altersstruktur: Ein großer Teil der niedergelassenen Ärzte geht in den nächsten 10–15 Jahren in Rente, während der Nachwuchs zunehmend in Kliniken oder Teilzeit arbeitet statt eine eigene Praxis zu übernehmen. Besonders betroffen sind ländliche Regionen und der Hausarztbereich.
+
+### GKV-Finanzkrise: Strukturelles Defizit und steigende Beiträge
+
+Die gesetzliche Krankenversicherung schließt 2024 mit dem größten Defizit seit Jahren – und die Finanzreserven sind unter die gesetzliche Mindestschwelle gefallen. Die Ursachen sind struktureller Natur.
+
+- GKV-Defizit 2024: 6,2 Mrd. € (Einnahmen 320,6 Mrd. €, Ausgaben 326,9 Mrd. €)
+- Leistungsausgaben-Wachstum: +8,1 % (2024 – stärkstes Ausgabenwachstum seit 30 Jahren)
+- Finanzreserven Ende 2024: 2,1 Mrd. € (Unterhalb der gesetzlichen Mindestreserve (0,2 Monatsausgaben))
+
+- 82 Krankenkassen erhöhten ihren Zusatzbeitrag zum 1. Januar 2025. Der durchschnittliche Zusatzbeitrag stieg von 1,7 % (2024) auf 2,5 % (2025) – der stärkste Einzelsprung seit Jahren. Der Gesamtbeitragssatz liegt damit 2026 bei 17,5 %.
+
+Strukturell wachsen die GKV-Ausgaben 6–8 Milliarden Euro pro Jahr schneller als die Einnahmen. Haupttreiber: steigende Arzneimittelkosten (+9 % auf 59,3 Mrd. € allein 2024), teurere Krankenhausbehandlungen und die alternde Bevölkerung. Ohne Strukturreform drohen ab 2027 zweistellige Milliarden-Lücken jährlich.
 
 ### Argumente
 
 - Aussage: Wir haben das beste Gesundheitssystem der Welt
   Antwort: Deutschland hat hohe Gesundheitsausgaben und gute Kapazitäten, aber auch belegte Zugangs-, Pflege- und Strukturprobleme. Deshalb spricht wenig dafür, pauschal vom besten Gesundheitssystem der Welt zu sprechen.
 - Aussage: Die Krankenkassenbeiträge sind viel zu hoch
-  Antwort: Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts und wird paritätisch geteilt. Das eigentliche Problem ist weniger die Existenz des Beitrags als die Effizienz des Systems: Deutschland gibt sehr viel aus, hat strukturelle Überkapazitäten im Krankenhausbereich und investiert vergleichsweise wenig in Prävention.
+  Antwort: Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts und wird paritätisch geteilt, d. h. der Arbeitnehmer-Anteil beträgt ca. 8,75 %. Zum Vergleich: In Frankreich liegt der Arbeitnehmer-Anteil bei rund 7 %, in den Niederlanden bei ca. 5,5 % – der deutsche Wert ist also hoch, aber kein extremer Ausreißer im OECD-Vergleich. Das eigentliche Problem ist weniger die Höhe als die Effizienz: Deutschland gibt sehr viel aus, hat strukturelle Überkapazitäten im Krankenhausbereich und investiert vergleichsweise wenig in Prävention.
 - Aussage: Jeder bekommt in Deutschland die medizinische Versorgung, die er braucht
   Antwort: Formal ist der Zugang breit, aber in der Praxis gibt es spürbare Versorgungslücken. Viele gesetzlich Versicherte berichten über lange Wartezeiten auf Facharzttermine, hinzu kommen Engpässe in Pflege und psychischer Versorgung sowie regionale Unterschiede.
 - Aussage: Ausländer belasten unser Gesundheitssystem
-  Antwort: Die Finanzierungsprobleme des Systems sind vor allem strukturell: hohe Ausgaben, alternde Bevölkerung und Versorgungsengpässe. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang bei akuten Erkrankungen, Schmerzen, Schwangerschaft, Impfungen und medizinisch gebotenen Vorsorgen; erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert.
+  Antwort: Es kommt auf die Gruppe an: Erwerbsmigrant:innen sowie EU-Bürger:innen zahlen Beiträge wie alle anderen GKV-Mitglieder auch – und nehmen statistisch im Schnitt weniger Leistungen in Anspruch als die ältere inländische Bevölkerung, weil sie jünger und erwerbstätig sind. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang (AsylbLG: akute Erkrankungen, Schmerzen, Schwangerschaft, Impfungen); erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert. Die Haupttreiber der Finanzierungsprobleme sind strukturell: steigende Ausgaben durch die alternde Bevölkerung, Überkapazitäten im Krankenhausbereich und zu wenig Prävention.
 - Aussage: Psychische Krankheiten sind nur Einbildung / Modeerscheinung
   Antwort: Psychische Erkrankungen sind medizinisch genauso real wie körperliche. Im ersten Halbjahr 2025 stiegen die Fallzahlen in Psychotherapie und Psychiatrie weiter um 3,4 %, in der Kinder- und Jugendpsychiatrie sogar um 5,7 %. Die Versorgung hinkt dem Bedarf seit Jahren hinterher.
 - Aussage: Homöopathie/Alternativmedizin sollte von der Kasse bezahlt werden
-  Antwort: Für Homöopathie gibt es keine robuste, reproduzierbare Evidenz eines Nutzens über Placebo hinaus. Öffentliche Mittel sollten deshalb evidenzbasiert eingesetzt werden, gerade in einem System mit klaren Engpässen etwa bei Pflege, Psychotherapie und Prävention.
+  Antwort: Für Homöopathie gibt es keine robuste, reproduzierbare Evidenz eines Nutzens über Placebo hinaus. Der Gesetzgeber hat 2023 mit dem GKV-Finanzstabilisierungsgesetz die Möglichkeit der Krankenkassen gestrichen, Homöopathie als freiwillige Satzungsleistung zu erstatten – begründet mit dem fehlenden Nachweis des Nutzens. In einem System mit konkreten Engpässen bei Pflege, Psychotherapie und Prävention ist die Mittelverwendung nach Evidenz ein nachvollziehbares Prinzip.
 - Aussage: Es gibt zu viele Krankenhäuser
   Antwort: Da ist tatsächlich etwas dran: Deutschland hat viele Krankenhausbetten und eine vergleichsweise niedrige Bettenauslastung. Aber 'weniger' heißt nicht automatisch 'besser'. Es braucht Spezialisierung, Vernetzung und gleichzeitig Erreichbarkeit – besonders in ländlichen Regionen. Genau diesen Spagat versucht die Krankenhausreform.
 - Aussage: Die Pharmaindustrie macht uns absichtlich krank
   Antwort: Arzneimittel unterliegen in der EU einem regulierten Zulassungs- und Bewertungsverfahren. Berechtigte Kritik betrifft eher Preise, Transparenz und Fehlanreize als eine belegte Absicht, Menschen krank zu machen.
+- Aussage: Auf dem Land gibt es keine Ärzte mehr
+  Antwort: Der Kern stimmt für bestimmte Regionen: 33 Planungsbereiche gelten offiziell als unterversorgt, weitere 152 sind gefährdet – überwiegend im ländlichen Raum und vor allem bei Hausärzten. Deutschlandweit ist die absolute Ärztezahl aber mit 189.551 niedergelassenen Ärztinnen und Ärzten 2024 ein Rekordhoch. Das Problem ist die ungleiche Verteilung: Zwischen dem am besten und am schlechtesten versorgten Landkreis liegt ein Faktor 4 bei der Ärztedichte.
+- Aussage: Die GKV ist bald pleite / Das System ist nicht mehr finanzierbar
+  Antwort: Die Sorge ist nachvollziehbar: 2024 verzeichnete die GKV ein Defizit von 6,2 Mrd. Euro – das stärkste Ausgabenwachstum seit 30 Jahren. Die Finanzreserven fielen unter die gesetzlich vorgeschriebene Mindestschwelle. Ohne Reformen drohen ab 2027 zweistellige Milliarden-Lücken jährlich. 'Pleite' ist aber nicht das Szenario: Die GKV ist eine Pflichtversicherung mit Beitragsanpassungsmechanismus. Das strukturelle Problem liegt beim Ausgabenwachstum, das schneller steigt als die Einnahmen – vor allem durch steigende Arzneimittelpreise und die alternde Bevölkerung.
 
 ### Quellen
 
@@ -2396,3 +2425,8 @@ Dabei zeigt die Forschung: Jeder in Prävention investierte Euro spart ein Vielf
 - Destatis - 5,7 Millionen Pflegebedürftige Ende 2023 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html)
 - KBV - Statistik Terminservicestellen 2024 (https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/statistik-terminservicestellen)
 - Destatis - Gesundheitsausgaben nach Leistungsarten 2023 (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Gesundheitsausgaben/Tabellen/leistungsarten.html)
+- KBV – Arztzahlstatistik 2025 (https://www.kbv.de/presse/pressemitteilungen/2025/arztzahlstatistik-zeit-f%C3%BCr-patientenversorgung-bleibt-knapp)
+- KBV – Bedarfsplanung: Über- und Unterversorgung (https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/bedarfsplanung-landesbeschluesse-ueber-unterversorgung)
+- BMG – Vorläufige GKV-Finanzergebnisse 2024 (https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html)
+- WIdO – Arzneimittel-Kompass 2025 (https://www.wido.de/news-presse/pressemitteilungen/2025/arzneimittel-kompass-2025/)
+- vdek – Stabilisierung der GKV-Finanzen 2025 (https://www.vdek.com/magazin/ausgaben/2025-03/stabilisierung-gkv-finanzen.html)
