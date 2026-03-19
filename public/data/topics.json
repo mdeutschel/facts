@@ -111,11 +111,11 @@
     {
       "id": "gesundheit",
       "title": "Deutsches Gesundheitssystem",
-      "subtitle": "Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege & Prävention",
+      "subtitle": "Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Ärztemangel & Prävention",
       "icon": "local_hospital",
-      "lastUpdated": "2026-03-18",
-      "factCount": 6,
-      "argumentCount": 8
+      "lastUpdated": "2026-03-19",
+      "factCount": 8,
+      "argumentCount": 10
     }
   ]
 }
