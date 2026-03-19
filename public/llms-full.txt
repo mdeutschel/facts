@@ -2301,11 +2301,11 @@ Ungleichheiten zeigen sich besonders bei Facharztterminen. Für viele gesetzlich
 
 - Zu lange Facharzt-Wartezeit: 30 % (GKV-Versicherte empfinden ihre Wartezeit als zu lang (Selbstauskunft))
 - Mehr als 30 Tage: 25 % (GKV-Versicherte warten nach eigener Angabe länger als 30 Tage auf einen Facharzttermin)
-- Versichertenstruktur: 89 % / 11 % (GKV- bzw. PKV-Anteil an der Bevölkerung)
+- Versichertenstruktur: ~88 % / ~11 % (GKV- bzw. PKV-Anteil an der Bevölkerung)
 
 - Viele gesetzlich Versicherte berichten von spürbaren Nachteilen bei Facharztterminen. Das stützt die Diagnose, dass der Zugang zur Versorgung nicht für alle gleich leicht ist.
 
-Rund 89 % der Bevölkerung sind gesetzlich und etwa 11 % privat versichert. Unterschiede bei Terminvergabe und Zugangswegen prägen deshalb die Debatte über Zwei-Klassen-Medizin stark.
+Rund 88 % der Bevölkerung sind gesetzlich und etwa 11 % privat versichert. Unterschiede bei Terminvergabe und Zugangswegen prägen deshalb die Debatte über Zwei-Klassen-Medizin stark.
 
 ### Pflegenotstand: Zahlen, Engpässe und Prognosen
 
@@ -2322,7 +2322,7 @@ Kernproblem ist nicht nur die absolute Zahl, sondern das Missverhältnis: Steige
 
 ### Krankenhausreform: Zu viele Betten, zu wenig Personal
 
-Deutschland hatte 2024 rund 1.841 Krankenhäuser und 7,6 Krankenhausbetten pro 1.000 Einwohner bei einer Bettenauslastung von 72 %.
+Deutschland hatte 2024 rund 1.841 Krankenhäuser bei einer Bettenauslastung von 72 %. Im OECD-Vergleich liegt Deutschland mit 7,7 Betten pro 1.000 Einwohner deutlich über dem Schnitt.
 
 Hinweis: Krankenhausbetten pro 1.000 Einwohner (2023)
 - Bulgarien: 8.6
@@ -2379,12 +2379,12 @@ Ursache ist vor allem die Altersstruktur: Ein großer Teil der niedergelassenen 
 Die gesetzliche Krankenversicherung schließt 2024 mit dem größten Defizit seit Jahren – und die Finanzreserven sind unter die gesetzliche Mindestschwelle gefallen. Die Ursachen sind struktureller Natur.
 
 - GKV-Defizit 2024: 6,2 Mrd. € (Einnahmen 320,6 Mrd. €, Ausgaben 326,9 Mrd. €)
-- Leistungsausgaben-Wachstum: +8,1 % (2024 – stärkstes Ausgabenwachstum seit 30 Jahren)
+- Gesamtausgaben-Wachstum: +7,7 % (2024 – stärkstes Ausgabenwachstum seit 30 Jahren)
 - Finanzreserven Ende 2024: 2,1 Mrd. € (Unterhalb der gesetzlichen Mindestreserve (0,2 Monatsausgaben))
 
 - 82 Krankenkassen erhöhten ihren Zusatzbeitrag zum 1. Januar 2025. Der durchschnittliche Zusatzbeitrag stieg von 1,7 % (2024) auf 2,5 % (2025) – der stärkste Einzelsprung seit Jahren. Der Gesamtbeitragssatz liegt damit 2026 bei 17,5 %.
 
-Strukturell wachsen die GKV-Ausgaben 6–8 Milliarden Euro pro Jahr schneller als die Einnahmen. Haupttreiber: steigende Arzneimittelkosten (+9 % auf 59,3 Mrd. € allein 2024), teurere Krankenhausbehandlungen und die alternde Bevölkerung. Ohne Strukturreform drohen ab 2027 zweistellige Milliarden-Lücken jährlich.
+Strukturell wachsen die GKV-Ausgaben deutlich schneller als die Einnahmen. Haupttreiber: steigende Arzneimittelkosten (+9 % auf 59,3 Mrd. € allein 2024), teurere Krankenhausbehandlungen und die alternde Bevölkerung. Ohne Strukturreform drohen ab 2027 wachsende Finanzierungslücken.
 
 ### Arzneimittelpreise & AMNOG: Kosten trotz Regulierung
 
@@ -2394,7 +2394,7 @@ Die GKV-Arzneimittelausgaben sind 2024 auf 59,3 Milliarden Euro gestiegen – ei
 - Patentmittel: Anteil Kosten/Verordnungen: 54 % / 7 % (Patentgeschützte Medikamente verursachen mehr als die Hälfte der Kosten bei wenigen Verordnungen)
 - Ø Packungspreis Patentmarkt: 7.700 € (2024 – von 4.100 € (2015), Verdoppelung in 9 Jahren)
 
-- Seit Einführung des AMNOG 2011 stiegen die GKV-Arzneimittelausgaben um +125 %. Die verhandelten AMNOG-Rabatte 2025 werden auf rund 12,2 Milliarden Euro geschätzt – ohne sie wäre der Anstieg noch deutlich steiler.
+- Seit Einführung des AMNOG 2011 stiegen die GKV-Arzneimittelausgaben um +125 % (nominal). Die verhandelten AMNOG-Rabatte begrenzen das Ausgabenwachstum messbar – ohne sie wäre der Anstieg noch deutlich steiler.
 
 AMNOG verpflichtet Hersteller seit 2011 zu einer Nutzenbewertung beim G-BA. Das Ergebnis (6 Stufen von erheblichem bis keinem Zusatznutzen) bestimmt den verhandelten Preis. Kritiker monieren, dass bei 'kein Zusatznutzen'-Bescheid trotzdem teils höhere Preise als die zweckmäßige Vergleichstherapie erzielt werden. Die EU-weite HTA-Verordnung gilt ab Januar 2025 zusätzlich für neue onkologische Therapien.
 
@@ -2403,17 +2403,17 @@ AMNOG verpflichtet Hersteller seit 2011 zu einer Nutzenbewertung beim G-BA. Das 
 Seit Februar 2025 haben rund 73 Millionen GKV-Versicherte automatisch eine elektronische Patientenakte (ePA) – sofern sie nicht aktiv widersprochen haben. Deutschland setzt damit nach Jahren der Verzögerung auf ein Opt-out-Modell.
 
 - ePA-Versicherte (Opt-out): 73 Mio. (Rollout ab Februar 2025; Widerspruchsrate unter 10 %)
-- DiGA im BfArM-Verzeichnis: 59 (Stand Dezember 2024; davon 41 dauerhaft zugelassen (+20 % ggü. Vorjahr))
+- DiGA im BfArM-Verzeichnis: 59 (Stand Dezember 2024; davon rund 40 dauerhaft zugelassen (+20 % ggü. Vorjahr))
 - DiGA-Freischaltcodes bis Ende 2024: ~870.000 (Eingelöste Codes; DiGA-Kosten stiegen 2024 um +71 %)
 
-- Die DiGA-Kosten für die GKV stiegen 2024 um +71 %. Der GKV-Spitzenverband kritisiert das Kosten-Nutzen-Verhältnis: Viele Apps werden erstattet, bevor langfristige Wirksamkeitsnachweise vorliegen. Gleichzeitig belegen erste Studien bei einzelnen DiGA klinisch messbare Effekte.
+- Die DiGA-Kosten für die GKV stiegen 2024 um +71 %. Gleichzeitig belegen erste Studien bei einzelnen DiGA klinisch messbare Effekte.
 
-Die ePA soll Doppeluntersuchungen reduzieren, Medikationsfehler vermeiden und Forschungsdaten erschließen. Realistische Einschränkung: Ohne konsequente Befüllung durch Praxen und Kliniken bleibt die Akte leer. Die Interoperabilität mit internationalen Systemen ist noch nicht vollständig gelöst.
+Der GKV-Spitzenverband kritisiert das Kosten-Nutzen-Verhältnis vieler DiGA: Apps werden erstattet, bevor langfristige Wirksamkeitsnachweise vorliegen. Die ePA soll Doppeluntersuchungen reduzieren, Medikationsfehler vermeiden und Forschungsdaten erschließen. Ohne konsequente Befüllung durch Praxen und Kliniken bleibt die Akte jedoch leer.
 
 ### Argumente
 
 - Aussage: Wir haben das beste Gesundheitssystem der Welt
-  Antwort: Deutschland hat hohe Gesundheitsausgaben und gute Kapazitäten, aber auch belegte Zugangs-, Pflege- und Strukturprobleme. Deshalb spricht wenig dafür, pauschal vom besten Gesundheitssystem der Welt zu sprechen.
+  Antwort: Deutschland hat echte Stärken: universelle Absicherung, kurze Wartezeiten für Notfallversorgung und schnellen Zugang zu neuen Medikamenten. Gleichzeitig belegen Daten erhebliche Zugangsunterschiede zwischen GKV und PKV, einen akuten Pflegenotstand, strukturelle Überkapazitäten im Krankenhausbereich und einen der niedrigsten Präventionsanteile im OECD-Vergleich. 'Bestes System der Welt' ist daher eine pauschale Übertreibung.
 - Aussage: Die Krankenkassenbeiträge sind viel zu hoch
   Antwort: Der GKV-Gesamtbeitrag liegt 2026 bei 17,5 % des Bruttogehalts und wird paritätisch geteilt, d. h. der Arbeitnehmer-Anteil beträgt ca. 8,75 %. Zum Vergleich: In Frankreich liegt der Arbeitnehmer-Anteil bei rund 7 %, in den Niederlanden bei ca. 5,5 % – der deutsche Wert ist also hoch, aber kein extremer Ausreißer im OECD-Vergleich. Das eigentliche Problem ist weniger die Höhe als die Effizienz: Deutschland gibt sehr viel aus, hat strukturelle Überkapazitäten im Krankenhausbereich und investiert vergleichsweise wenig in Prävention.
 - Aussage: Jeder bekommt in Deutschland die medizinische Versorgung, die er braucht
@@ -2421,7 +2421,7 @@ Die ePA soll Doppeluntersuchungen reduzieren, Medikationsfehler vermeiden und Fo
 - Aussage: Ausländer belasten unser Gesundheitssystem
   Antwort: Es kommt auf die Gruppe an: Erwerbsmigrant:innen sowie EU-Bürger:innen zahlen Beiträge wie alle anderen GKV-Mitglieder auch – und nehmen statistisch im Schnitt weniger Leistungen in Anspruch als die ältere inländische Bevölkerung, weil sie jünger und erwerbstätig sind. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang (AsylbLG: akute Erkrankungen, Schmerzen, Schwangerschaft, Impfungen); erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert. Die Haupttreiber der Finanzierungsprobleme sind strukturell: steigende Ausgaben durch die alternde Bevölkerung, Überkapazitäten im Krankenhausbereich und zu wenig Prävention.
 - Aussage: Psychische Krankheiten sind nur Einbildung / Modeerscheinung
-  Antwort: Psychische Erkrankungen sind medizinisch genauso real wie körperliche. Im ersten Halbjahr 2025 stiegen die Fallzahlen in Psychotherapie und Psychiatrie weiter um 3,4 %, in der Kinder- und Jugendpsychiatrie sogar um 5,7 %. Die Versorgung hinkt dem Bedarf seit Jahren hinterher.
+  Antwort: Psychische Erkrankungen sind medizinisch genauso real wie körperliche – das ist wissenschaftlicher Konsens. Ein Teil des statistischen Anstiegs erklärt sich durch breiteres Bewusstsein und erweiterte Diagnosekriterien; die zugrundeliegenden Erkrankungen sind dadurch aber nicht weniger behandlungsbedürftig. Im ersten Halbjahr 2025 stiegen die Fallzahlen in Psychotherapie und Psychiatrie weiter um 3,4 %, in der Kinder- und Jugendpsychiatrie sogar um 5,7 %. Die Versorgung hinkt dem Bedarf seit Jahren hinterher.
 - Aussage: Homöopathie/Alternativmedizin sollte von der Kasse bezahlt werden
   Antwort: Für Homöopathie gibt es keine robuste, reproduzierbare Evidenz eines Nutzens über Placebo hinaus. Der Gesetzgeber hat 2023 mit dem GKV-Finanzstabilisierungsgesetz die Möglichkeit der Krankenkassen gestrichen, Homöopathie als freiwillige Satzungsleistung zu erstatten – begründet mit dem fehlenden Nachweis des Nutzens. In einem System mit konkreten Engpässen bei Pflege, Psychotherapie und Prävention ist die Mittelverwendung nach Evidenz ein nachvollziehbares Prinzip.
 - Aussage: Es gibt zu viele Krankenhäuser
@@ -2431,7 +2431,7 @@ Die ePA soll Doppeluntersuchungen reduzieren, Medikationsfehler vermeiden und Fo
 - Aussage: Auf dem Land gibt es keine Ärzte mehr
   Antwort: Der Kern stimmt für bestimmte Regionen: 33 Planungsbereiche gelten offiziell als unterversorgt, weitere 152 sind gefährdet – überwiegend im ländlichen Raum und vor allem bei Hausärzten. Deutschlandweit ist die absolute Ärztezahl aber mit 189.551 niedergelassenen Ärztinnen und Ärzten 2024 ein Rekordhoch. Das Problem ist die ungleiche Verteilung: Zwischen dem am besten und am schlechtesten versorgten Landkreis liegt ein Faktor 4 bei der Ärztedichte.
 - Aussage: Medikamente in Deutschland sind viel zu teuer
-  Antwort: Das stimmt für patentgeschützte Neueinführungen – hier sind die Preise im ersten Jahr ohne Deckelung frei wählbar. AMNOG regelt danach einen Rabatt, hat aber den Ausgabenanstieg nicht gestoppt: 59,3 Mrd. € GKV-Arzneimittelausgaben 2024 (+9 %). 54 % der Kosten entfallen auf 7 % der Verordnungen. Günstige Generikapreise drücken den Durchschnitt; im Patentmarkt hat sich der Durchschnittspreis pro Packung von 4.100 € (2015) auf 7.700 € (2024) fast verdoppelt.
+  Antwort: Das stimmt für patentgeschützte Neueinführungen – hier sind die Preise im ersten Jahr ohne Deckelung frei wählbar. AMNOG regelt danach einen Rabatt, hat aber den Ausgabenanstieg nicht gestoppt: 59,3 Mrd. € GKV-Arzneimittelausgaben 2024 (+9 %). 54 % der Kosten entfallen auf 7 % der Verordnungen. Im Patentmarkt hat sich der Durchschnittspreis pro Packung von 4.100 € (2015) auf 7.700 € (2024) fast verdoppelt. Das Gegenargument der Industrie – hohe Preise seien nötig, um Forschungs- und Entwicklungskosten zu finanzieren – ist nicht grundsätzlich falsch, erklärt aber nicht alle Preisunterschiede zwischen Ländern.
 - Aussage: Deutschland ist beim digitalen Gesundheitssystem hoffnungslos rückständig
   Antwort: Der Rückstand war real: Die ePA startete mehrfach verzögert. Seit Februar 2025 haben 73 Millionen Versicherte automatisch eine ePA (Opt-out). Das ist ein echter Systemwechsel, wenn auch spät. Bei digitalen Gesundheitsanwendungen (DiGA) ist Deutschland mit 59 zugelassenen Apps und schnellen Erstattungswegen internationaler Vorreiter – allerdings bei unklarem Kosten-Nutzen-Verhältnis. Fortschritt und Rückstand existieren gleichzeitig.
 - Aussage: Die GKV ist bald pleite / Das System ist nicht mehr finanzierbar
@@ -2458,6 +2458,5 @@ Die ePA soll Doppeluntersuchungen reduzieren, Medikationsfehler vermeiden und Fo
 - BMG – Vorläufige GKV-Finanzergebnisse 2024 (https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html)
 - WIdO – Arzneimittel-Kompass 2025 (https://www.wido.de/news-presse/pressemitteilungen/2025/arzneimittel-kompass-2025/)
 - vdek – Stabilisierung der GKV-Finanzen 2025 (https://www.vdek.com/magazin/ausgaben/2025-03/stabilisierung-gkv-finanzen.html)
-- Cencora / HTAQ – Wie AMNOG die Balance findet (2024) (https://www.cencora.com/de/ressourcen/pharma-(arzneimittel)/htaq-sommer-2024,-c-,-wie-amnog-die-balance-findet)
 - BMG – ePA für alle (elektronische Patientenakte) (https://www.bundesgesundheitsministerium.de/themen/digitalisierung/elektronische-patientenakte/epa-fuer-alle)
 - Deutsches Ärzteblatt – DiGA-Nutzung steigt deutlich an (2024) (https://www.aerzteblatt.de/archiv/digitale-gesundheitsanwendungen-nutzung-steigt-deutlich-an-d5a67022-6911-4ca8-a07d-4e28266a7b60)
