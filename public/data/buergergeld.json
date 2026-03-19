@@ -3,14 +3,14 @@
   "title": "Bürgergeld",
   "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
   "icon": "account_balance_wallet",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-03-19",
   "keyStats": [
     "563 € Regelsatz (Nullrunde 2025/2026)",
-    "557 € Einkommensvorteil bei Mindestlohn (Single)",
-    "ca. 5,55 Mio. Regelleistungsberechtigte (2024)",
-    "6 Argumente"
+    "557 € Einkommensvorteil bei Mindestlohn-Vollzeit (Stand 2025)",
+    "ca. 820.000 Aufstocker trotz Arbeit (2024)",
+    "8 Argumente"
   ],
-  "sourceNote": "Basierend auf Daten von BMAS, Bundesregierung, Bundesagentur für Arbeit, WSI und den einschlägigen Gesetzestexten (Stand Anfang 2026).",
+  "sourceNote": "Basierend auf Daten von BMAS, Bundesregierung, Bundesagentur für Arbeit, WSI, IW Köln und den einschlägigen Gesetzestexten (Stand März 2026).",
   "sections": [
     {
       "id": "regelsatz",
@@ -68,7 +68,7 @@
         },
         {
           "type": "fact",
-          "text": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten Leistungen nach dem AsylbLG — nicht das Bürgergeld.",
+          "text": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten Leistungen nach dem Asylbewerberleistungsgesetz (AsylbLG) — nicht das Bürgergeld.",
           "sourceRefs": [
             "sgb2-paragraf-7",
             "asylbewerberleistungsgesetz-leistungssaetze"
@@ -97,17 +97,17 @@
               "color": "#00897b",
               "rows": [
                 {
-                  "label": "Grundleistungen gesamt",
-                  "value": "~460 €/Monat"
+                  "label": "Grundleistungen gesamt (Näherung)",
+                  "value": "ca. 460–480 €/Monat"
                 },
                 {
                   "label": "davon pers. Bedarf",
-                  "value": "~202 €"
+                  "value": "202 €"
                 }
               ]
             }
           ],
-          "savings": "Asylbewerber erhalten rund 100 € weniger als Bürgergeld-Empfänger — und erst nach 36 Monaten erweiterten Leistungsumfang.",
+          "savings": "Asylbewerber erhalten mindestens rund 80–100 € weniger als Bürgergeld-Empfänger — und erst nach 36 Monaten erweiterten Leistungsumfang.",
           "sourceRefs": [
             "asylbewerberleistungsgesetz-leistungssaetze"
           ]
@@ -215,12 +215,101 @@
           "sourceRefs": [
             "wsi-studie-zum-lohnabstandsgebot-2024-2025"
           ]
+        },
+        {
+          "type": "fact",
+          "text": "Seit Januar 2026 beträgt der gesetzliche Mindestlohn 13,90 € pro Stunde (zuvor 12,82 €). Die WSI-Modellrechnung basiert auf dem 2025er Satz — der tatsächliche Einkommensvorteil gegenüber dem Bürgergeld ist seit Januar 2026 rechnerisch noch größer.",
+          "sourceRefs": [
+            "bmas-mindestlohn-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aufstocker",
+      "title": "Bürgergeld trotz Arbeit",
+      "content": [
+        {
+          "type": "text",
+          "text": "Bürgergeld ist nicht ausschließlich für Arbeitslose. Im Jahresdurchschnitt 2024 gingen rund 820.000 Leistungsberechtigte einer bezahlten Arbeit nach, verdienten aber zu wenig, um ohne ergänzendes Bürgergeld auszukommen. Diese sogenannten ‚Aufstocker' machen etwa ein Fünftel aller erwerbsfähigen Leistungsberechtigten aus.",
+          "sourceRefs": [
+            "iw-koeln-aufstocker-2025"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Aufstocker gesamt (2024)",
+              "value": "ca. 820.000",
+              "sublabel": "~20,7 % der erwerbsfähigen Berechtigten"
+            },
+            {
+              "label": "davon Teilzeit / geringfügig",
+              "value": "über 500.000"
+            },
+            {
+              "label": "davon Vollzeit-SVP",
+              "value": "ca. 80.000"
+            }
+          ],
+          "sourceRefs": [
+            "iw-koeln-aufstocker-2025"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der typische Aufstocker ist kein Vollzeitbeschäftigter mit unzureichendem Stundenlohn, sondern überwiegend teilzeit- oder geringfügig beschäftigt. Der leichte Anstieg 2024 gegenüber 2023 (+30.000) wird vom Institut der deutschen Wirtschaft (IW Köln) unter anderem auf die verbesserte Arbeitsmarktintegration von Zuwanderern zurückgeführt — die zunächst häufig in Ausbildung oder Teilzeit einmünden.",
+          "sourceRefs": [
+            "iw-koeln-aufstocker-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verweildauer",
+      "title": "Wie lange bleibt man im Bürgergeld?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ein erheblicher Teil der Bürgergeldbeziehenden ist nicht kurzzeitig auf Unterstützung angewiesen, sondern bezieht die Leistung über Jahre. Von den rund 4 Millionen erwerbsfähigen Leistungsberechtigten gelten nach Angaben der Bundesagentur für Arbeit rund 2,6 Millionen als Langzeitbeziehende (Stand: März 2025) — das entspricht 65 Prozent. Dabei ist Langzeitbezug nicht automatisch gleichbedeutend mit Arbeitslosigkeit: Auch Alleinerziehende, Menschen mit gesundheitlichen Einschränkungen und Aufstocker können über lange Zeiträume im Leistungsbezug verbleiben.",
+          "sourceRefs": [
+            "ba-verweildauer-sgbii"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Langzeitbezug (4+ Jahre)",
+              "value": "38,9 %",
+              "sublabel": "aller Leistungsberechtigten (Dez. 2024)"
+            },
+            {
+              "label": "Medianverweildauer 25–49 Jahre",
+              "value": "41 Monate"
+            },
+            {
+              "label": "Medianverweildauer 50–64 Jahre",
+              "value": "70 Monate"
+            }
+          ],
+          "sourceRefs": [
+            "ba-verweildauer-sgbii"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ostdeutschland weist mit 45,3 Prozent einen höheren Anteil an Langzeitbeziehenden auf als Westdeutschland (40,4 Prozent), was auf regionale Arbeitsmarktunterschiede hinweist. Ältere Leistungsberechtigte bleiben deutlich länger im Bezug: Die Medianverweildauer bei 50- bis 64-Jährigen liegt mehr als doppelt so hoch wie bei unter 25-Jährigen.",
+          "sourceRefs": [
+            "ba-verweildauer-sgbii"
+          ]
         }
       ]
     },
     {
       "id": "sanktionen",
-      "title": "Sanktionen und 'Totalverweigerer'",
+      "title": "Sanktionen und Mitwirkungspflichten",
       "content": [
         {
           "type": "text",
@@ -261,6 +350,13 @@
           "sourceRefs": [
             "sgb2-paragraf-31a"
           ]
+        },
+        {
+          "type": "fact",
+          "text": "Das Bundesverfassungsgericht hat 2019 (1 BvL 7/16) entschieden: Leistungsminderungen sind grundsätzlich verfassungskonform, solange sie 30 Prozent des Regelbedarfs nicht überschreiten, Härtefallregelungen vorgesehen sind und ein vollständiger Entzug des Existenzminimums ausgeschlossen bleibt. Die aktuellen Regelungen wurden unter Berücksichtigung dieser Grenzen gestaltet.",
+          "sourceRefs": [
+            "bverfg-sanktionen-2019"
+          ]
         }
       ]
     },
@@ -270,11 +366,40 @@
       "content": [
         {
           "type": "text",
-          "text": "Einzelfälle und organisierter Leistungsmissbrauch sind dokumentiert. Für die Behauptung massenhaften Missbrauchs liefern die hier hinterlegten amtlichen Quellen aber keinen belastbaren Beleg."
+          "text": "Die Bundesagentur für Arbeit (BA) veröffentlicht jährlich Daten zu Leistungsmissbrauch in der Grundsicherung. 2024 erfassten die 300 gemeinsamen Jobcenter rund 101.600 Verdachts- und Missbrauchsfälle — ein Rückgang um rund 3 Prozent gegenüber 2023 (104.870 Fälle). Gemessen an rund 5,55 Millionen Leistungsberechtigten entspricht das knapp 1,8 Prozent.",
+          "sourceRefs": [
+            "ba-jahresrueckblick-2024"
+          ]
         },
         {
-          "type": "text",
-          "text": "Für seriöse Debatten braucht es belastbare amtliche Zahlen statt Einzelfälle oder pauschale Behauptungen. Die aktuelle Quellenlage dieser Datei belegt keinen flächendeckenden Betrug."
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Verdachts-/Missbrauchsfälle 2024",
+              "value": "ca. 101.600",
+              "sublabel": "~1,8 % der rund 5,55 Mio. Berechtigten"
+            },
+            {
+              "label": "An Strafverfolgung abgegeben",
+              "value": "43.700",
+              "sublabel": "Fälle mit Straftatverdacht (2024)"
+            },
+            {
+              "label": "Erfasster Schaden 2024",
+              "value": "ca. 110 Mio. €",
+              "sublabel": "bei ~21 Mrd. € Gesamtausgaben Regelbedarf"
+            }
+          ],
+          "sourceRefs": [
+            "ba-jahresrueckblick-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die BA weist ausdrücklich darauf hin, dass die Gesamtstatistik unvollständig ist: Die 104 kommunal verwalteten Jobcenter sind nicht enthalten, und für eine einheitliche Zusammenführung mit Zoll-Ermittlungen fehlt die gesetzliche Grundlage. Eine belastbare Gesamtquote lässt sich daher amtlich nicht beziffern.",
+          "sourceRefs": [
+            "ba-jahresrueckblick-2024"
+          ]
         }
       ]
     }
@@ -283,7 +408,7 @@
     {
       "id": "arg_lohnabstand",
       "claim": "Wer arbeitet, ist doch der Dumme. Mit Bürgergeld hat man am Ende mehr in der Tasche!",
-      "response": "Das stimmt nicht. Das Lohnabstandsgebot ist in der WSI-Modellrechnung gewahrt. Im Bundesdurchschnitt hat ein Single, der Vollzeit zum Mindestlohn arbeitet, 557 Euro mehr im Monat zur Verfügung als im Bürgergeldbezug. Bei Alleinerziehenden mit einem Kind sind es 749 Euro.",
+      "response": "Das stimmt nicht. Das Lohnabstandsgebot ist in der WSI-Modellrechnung gewahrt. Im Bundesdurchschnitt hat ein Single, der Vollzeit zum Mindestlohn arbeitet, 557 Euro mehr im Monat zur Verfügung als im Bürgergeldbezug (Stand 2025, Basis 12,82 €). Bei Alleinerziehenden mit einem Kind sind es 749 Euro. Seit Januar 2026 liegt der Mindestlohn bei 13,90 € — der Abstand ist rechnerisch noch größer. In Städten mit sehr hohen Mieten kann der Abstand geringer ausfallen, bleibt aber im Bundesdurchschnitt deutlich positiv.",
       "keywords": [
         "arbeiten lohnt nicht",
         "mindestlohn",
@@ -298,7 +423,7 @@
     {
       "id": "arg_haengematte",
       "claim": "Das Bürgergeld ist eine soziale Hängematte. Man muss gar nichts mehr machen und bekommt trotzdem Geld.",
-      "response": "Das Bürgergeld ist an Pflichten geknüpft. Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, muss mit Leistungsminderungen rechnen. Bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit kann der Regelbedarf unter engen gesetzlichen Voraussetzungen für bis zu zwei Monate entfallen.",
+      "response": "Der Vergleich zu Hartz IV hat einen Kern: Mit der Bürgergeld-Reform 2023 wurden Sanktionen zunächst abgemildert — das war politisch umstritten und wurde 2024 teilweise korrigiert. Heute ist das Bürgergeld wieder an konkrete Mitwirkungspflichten geknüpft: Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, muss mit Leistungsminderungen rechnen. Bei wiederholter Verweigerung einer tatsächlich verfügbaren zumutbaren Arbeit kann der Regelbedarf seit März 2024 unter engen gesetzlichen Voraussetzungen für bis zu zwei Monate vollständig entfallen.",
       "keywords": [
         "hängematte",
         "faul",
@@ -328,7 +453,7 @@
     {
       "id": "arg_betrug",
       "claim": "Das System wird doch nur ausgenutzt. Fast alle betrügen beim Bürgergeld!",
-      "response": "Leistungsmissbrauch existiert und muss verfolgt werden. Für pauschale Aussagen wie \"fast alle betrügen\" gibt es mit den hier hinterlegten Quellen aber keinen belastbaren Beleg. Dokumentiert sind Einzelfälle und organisierter Missbrauch, nicht ein Nachweis für flächendeckenden Betrug.",
+      "response": "Leistungsmissbrauch existiert und wird von der Bundesagentur für Arbeit systematisch erfasst. 2024 wurden rund 101.600 Verdachts- und Missbrauchsfälle registriert — das sind knapp 1,8 Prozent der rund 5,55 Millionen Leistungsberechtigten. Für pauschale Aussagen wie ‚fast alle betrügen' gibt es keinen belastbaren Beleg. Die BA weist selbst darauf hin, dass ihre Statistik unvollständig ist und keine Gesamtquote bezifferbar macht.",
       "keywords": [
         "betrug",
         "ausnutzen",
@@ -343,7 +468,7 @@
     {
       "id": "arg_auslaender",
       "claim": "Das Bürgergeld lockt nur Ausländer an, die sich hier auf unsere Kosten ein schönes Leben machen.",
-      "response": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. Asylbewerber erhalten Leistungen nach dem AsylbLG — das sind ca. 460 € statt 563 € (rund 100 € weniger als Bürgergeld). Erst nach 36 Monaten erweitert sich der Leistungsumfang. EU-Bürger sind in den ersten drei Monaten sowie bei Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen.",
+      "response": "Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld. Asylbewerber erhalten Leistungen nach dem AsylbLG — das sind ca. 460–480 € statt 563 € (mindestens rund 80–100 € weniger als Bürgergeld). Erst nach 36 Monaten erweitert sich der Leistungsumfang. EU-Bürger sind in den ersten drei Monaten sowie bei Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen.",
       "keywords": [
         "ausländer",
         "flüchtlinge",
@@ -351,12 +476,14 @@
         "sozialtourismus",
         "asyl"
       ],
-      "relatedSections": []
+      "relatedSections": [
+        "regelsatz"
+      ]
     },
     {
       "id": "arg_ukraine",
       "claim": "Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!",
-      "response": "Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind die Jobcenter; damit verbunden sind Zugang zu Integrations- und Sprachkursen sowie zur Arbeitsvermittlung. Die Grundsicherung ist steuerfinanziert und keine Versicherungsleistung.",
+      "response": "Der Kern der Aussage stimmt: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Bürgergeld beantragen — früher als andere Schutzsuchende. Richtig ist auch: Sie haben nicht in das System eingezahlt. Das ist aber kein Konstruktionsfehler, sondern das Wesen dieser Leistung: Bürgergeld ist eine steuerfinanzierte Sozialleistung, keine beitragsfinanzierte Versicherung — genau wie Kindergeld oder Wohngeld. Der Zugang ist an Hilfebedürftigkeit und Aufenthaltsstatus geknüpft, verbunden mit Zugang zur Arbeitsvermittlung und Integrationskursen.",
       "keywords": [
         "ukraine",
         "flüchtlinge",
@@ -366,6 +493,37 @@
       ],
       "relatedSections": [
         "regelsatz"
+      ]
+    },
+    {
+      "id": "arg_langzeitbezug",
+      "claim": "Die bleiben doch alle jahrelang drin. Bürgergeld-Empfänger kommen da nie wieder raus!",
+      "response": "Der Anteil des Langzeitbezugs ist tatsächlich hoch: Rund 65 Prozent der erwerbsfähigen Leistungsberechtigten gelten als Langzeitbeziehende, fast 39 Prozent beziehen seit vier Jahren oder länger Bürgergeld. Das zeigt eine strukturelle Verfestigung, die ernst zu nehmen ist. Die Ursachen sind jedoch vielfältig: gesundheitliche Einschränkungen, fehlende Berufsqualifikationen, Betreuungspflichten oder regionale Arbeitslosigkeit. Ältere Beziehende (50–64 Jahre) haben mit 70 Monaten Medianverweildauer den schwersten Stand. Pauschale Unwilligkeit erklärt das nicht — aber die Zahlen zeigen auch, dass passive Leistungsgewährung allein keine Integration leistet.",
+      "keywords": [
+        "langzeit",
+        "jahrelang",
+        "nie wieder raus",
+        "dauerempfänger",
+        "verfestigung"
+      ],
+      "relatedSections": [
+        "verweildauer"
+      ]
+    },
+    {
+      "id": "arg_aufstocker",
+      "claim": "Bürgergeld-Empfänger sind doch allesamt faul und wollen einfach nicht arbeiten!",
+      "response": "Rund 820.000 Bürgergeldbeziehende — etwa ein Fünftel aller erwerbsfähigen Leistungsberechtigten — gehen einer bezahlten Arbeit nach, verdienen aber zu wenig, um davon zu leben. Diese sogenannten ‚Aufstocker' sind überwiegend in Teilzeit oder geringfügig beschäftigt; nur rund 80.000 sind sozialversicherungspflichtig vollzeitbeschäftigt. Bürgergeld ist also nicht nur ein Instrument für Arbeitslose, sondern auch ein ergänzender Lohnzuschuss für Niedriglohnbeschäftigte.",
+      "keywords": [
+        "faul",
+        "nicht arbeiten",
+        "schmarotzer",
+        "arbeitsunwillig",
+        "arbeitslos"
+      ],
+      "relatedSections": [
+        "aufstocker",
+        "lohnabstand"
       ]
     }
   ],
@@ -414,6 +572,31 @@
       "id": "ba-sgb2-ueberblick-2024",
       "label": "Bundesagentur für Arbeit - Überblick Grundsicherung für Arbeitsuchende",
       "url": "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Ueberblick/Ueberblick-Nav.html"
+    },
+    {
+      "id": "ba-jahresrueckblick-2024",
+      "label": "Bundesagentur für Arbeit - Jahresrückblick 2024 (inkl. Leistungsmissbrauch-Statistik)",
+      "url": "https://www.arbeitsagentur.de/presse/2025-02-jahresrueckblick-2024"
+    },
+    {
+      "id": "iw-koeln-aufstocker-2025",
+      "label": "IW Köln - Bürgergeld-Aufstocker: Ergebnis eines arbeitsmarktpolitischen Erfolges? (2025)",
+      "url": "https://www.iwkoeln.de/studien/holger-schaefer-ergebnis-eines-arbeitsmarktpolitischen-erfolges.html"
+    },
+    {
+      "id": "bmas-mindestlohn-2026",
+      "label": "BMAS - Mindestlohn steigt zum 1. Januar 2026 auf 13,90 Euro",
+      "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/mindestlohn-steigt-zum-ersten-januar-2026.html"
+    },
+    {
+      "id": "ba-verweildauer-sgbii",
+      "label": "Bundesagentur für Arbeit – Verweildauern in der Grundsicherung für Arbeitsuchende (SGB II)",
+      "url": "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Grundlagen/Methodik-Qualitaet/Methodenberichte/Grundsicherung-Arbeitsuchende-SGBII/Generische-Publikationen/MB-Verweildauern-Leistungsberechtigte-GruSi.pdf?__blob=publicationFile&v=8"
+    },
+    {
+      "id": "bverfg-sanktionen-2019",
+      "label": "Bundesverfassungsgericht – Urteil zu Sanktionen im SGB II (1 BvL 7/16, 5. November 2019)",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/11/ls20191105_1bvl000716.html"
     }
   ]
 }
