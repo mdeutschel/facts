@@ -1,6 +1,6 @@
 # Energiewende & Atomkraft
 
-Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit | Stand: 2026-03-18
+Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit | Stand: 2026-03-20
 
 ### Fakten
 
@@ -269,6 +269,8 @@ Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System
   Antwort: Abgeschaltet heißt nicht erledigt. Endlagersuche, Zwischenlagerung und Finanzierung bleiben über Jahrzehnte bis Generationen ein Thema. Neue AKW würden diese Aufgabe nicht kleiner machen.
 - Aussage: Deutschland muss sich doch selbst versorgen können!
   Antwort: Der europäische Stromverbund ist Teil der Versorgungssicherheit. Import und Export gleichen regionale Unterschiede aus und sind kein Versagenssignal. Vollständige Autarkie wäre teurer und systemisch unflexibler als ein gut vernetztes europäisches Stromsystem.
+- Aussage: Windkraftanlagen werden mit Dieselmotoren betrieben!
+  Antwort: Nein. Windräder wandeln Windenergie über einen Generator in Strom um — dafür brauchen sie keinen Diesel. Was stimmt: In seltenen Ausnahmefällen kommen Dieselaggregate zum Einsatz — etwa 2023 in Schottland, als 71 Turbinen nach einem Netzfehler bei Frost mit Diesel warmgehalten wurden. Das war eine Notfallmaßnahme, kein Regelbetrieb. Das Pitch-System, das die Rotorblätter bei Sturm aus dem Wind dreht, nutzt Batterien oder Ultrakondensatoren. Auch Schmieröl im Getriebe ist kein Treibstoff. Laut Umweltbundesamt hat eine Windkraftanlage die Energie für ihren Bau nach wenigen Monaten wieder eingespielt.
 
 ### Quellen
 
@@ -298,3 +300,5 @@ Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System
 - BGE: Vorschläge zur Beschleunigung der Endlagersuche (21.03.2025) (https://www.bge.de/de/bge/presse/pressemitteilungen/pressemitteilung/news/2025/3/bge-macht-vorschlaege-zur-beschleunigung-der-endlagersuche/)
 - Eurostat: Electricity from renewable sources reached 46.9% in 2024 (https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20250319-1)
 - ACER: Monitoring the 70% cross-zonal capacity rule (https://www.acer.europa.eu/news-and-events/news/acers-monitoring-finds-much-stake-grid-operators-are-still-far-making-70-transmission-capacity-available-cross-zonal-electricity-trade)
+- dpa-Faktencheck: Windräder werden nur in Ausnahmefällen mit Diesel betrieben (https://dpa-factchecking.com/austria/241218-99-366803/)
+- Science Feedback: Diesel generators did not power wind farms in Scotland, nor anywhere else (https://science.feedback.org/review/diesel-generators-do-not-power-wind-farms/)
