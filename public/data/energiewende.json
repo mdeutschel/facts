@@ -3,12 +3,12 @@
   "title": "Energiewende & Atomkraft",
   "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
   "icon": "bolt",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-03-20",
   "keyStats": [
     "55,3 % Erneuerbare am Stromverbrauch 2025",
     "AKW-Neubau deutlich teurer als Wind/Solar",
     "400 GW beantragte Speicherleistung",
-    "7 Argumente"
+    "8 Argumente"
   ],
   "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand März 2026). Wo Exaktwerte unsicher oder methodisch schwer vergleichbar sind, werden konservative Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
@@ -1248,6 +1248,25 @@
         "stromverbund",
         "dunkelflauten"
       ]
+    },
+    {
+      "id": "windraeder-diesel",
+      "claim": "Windkraftanlagen werden mit Dieselmotoren betrieben!",
+      "response": "Nein. Windräder wandeln Windenergie über einen Generator in Strom um — dafür brauchen sie keinen Diesel. Was stimmt: In seltenen Ausnahmefällen kommen Dieselaggregate zum Einsatz — etwa 2023 in Schottland, als 71 Turbinen nach einem Netzfehler bei Frost mit Diesel warmgehalten wurden. Das war eine Notfallmaßnahme, kein Regelbetrieb. Das Pitch-System, das die Rotorblätter bei Sturm aus dem Wind dreht, nutzt Batterien oder Ultrakondensatoren. Auch Schmieröl im Getriebe ist kein Treibstoff. Laut Umweltbundesamt hat eine Windkraftanlage die Energie für ihren Bau nach wenigen Monaten wieder eingespielt.",
+      "keywords": [
+        "diesel",
+        "dieselmotor",
+        "windrad",
+        "windkraftanlage",
+        "windturbine",
+        "schmieröl",
+        "notstrom",
+        "betrieben"
+      ],
+      "relatedSections": [
+        "strommix-2025",
+        "ee-ausbau"
+      ]
     }
   ],
   "sources": [
@@ -1380,6 +1399,16 @@
       "id": "acer-70-percent-cross-zonal-capacity-rule",
       "label": "ACER: Monitoring the 70% cross-zonal capacity rule",
       "url": "https://www.acer.europa.eu/news-and-events/news/acers-monitoring-finds-much-stake-grid-operators-are-still-far-making-70-transmission-capacity-available-cross-zonal-electricity-trade"
+    },
+    {
+      "id": "dpa-factcheck-windraeder-diesel-2024",
+      "label": "dpa-Faktencheck: Windräder werden nur in Ausnahmefällen mit Diesel betrieben",
+      "url": "https://dpa-factchecking.com/austria/241218-99-366803/"
+    },
+    {
+      "id": "science-feedback-diesel-wind-farms-2024",
+      "label": "Science Feedback: Diesel generators did not power wind farms in Scotland, nor anywhere else",
+      "url": "https://science.feedback.org/review/diesel-generators-do-not-power-wind-farms/"
     }
   ]
 }
