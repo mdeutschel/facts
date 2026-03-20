@@ -17,7 +17,7 @@ export default function AppShell() {
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <AppBar position="sticky" elevation={1}>
-        <Toolbar>
+        <Toolbar sx={{ position: 'relative' }}>
           {!isHome && (
             <IconButton
               edge="start"
