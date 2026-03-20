@@ -39,20 +39,29 @@ export default function SearchBar() {
       sx={{
         display: 'flex',
         alignItems: 'center',
-        flex: 1,
-        bgcolor: 'rgba(255,255,255,0.15)',
-        borderRadius: 1,
-        px: 1,
-        ml: 1,
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        top: 0,
+        bottom: 0,
+        bgcolor: 'primary.main',
+        px: 1.5,
+        zIndex: 1,
       }}
     >
-      <SearchIcon sx={{ color: 'inherit', mr: 0.5 }} />
+      <SearchIcon sx={{ color: 'inherit', mr: 1 }} />
       <InputBase
         autoFocus
         placeholder="Stichwort suchen…"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        sx={{ color: 'inherit', flex: 1, '& input::placeholder': { opacity: 0.7 } }}
+        sx={{
+          color: 'inherit',
+          flex: 1,
+          fontSize: '1rem',
+          '& input': { py: 1 },
+          '& input::placeholder': { opacity: 0.7 },
+        }}
         inputProps={{ 'aria-label': 'Suche' }}
       />
       <IconButton size="small" color="inherit" onClick={handleClose} aria-label="Suche schließen">
