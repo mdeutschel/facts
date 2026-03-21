@@ -1,5 +1,15 @@
 import { createTheme } from '@mui/material/styles'
 
+// Visualization color palettes — used by chart/graph components
+export const chartPalette = {
+  comparison: ['#546e7a', '#00897b'],
+  sequential: ['#00897b', '#26a69a', '#4db6ac', '#80cbc4', '#78909c', '#b71c1c'],
+}
+
+export function formatGermanDate(isoString: string): string {
+  return new Date(isoString).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })
+}
+
 const theme = createTheme({
   palette: {
     primary: {

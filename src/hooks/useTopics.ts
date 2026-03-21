@@ -1,7 +1,34 @@
 import { useState, useEffect } from 'react'
 import type { TopicIndex, TopicMeta, Topic } from '../types'
 
+const MAX_CACHE_SIZE = 50
+const cacheKeys: string[] = []
 const cache: Record<string, Topic> = {}
+
+function cacheSet(key: string, value: Topic) {
+  if (cache[key]) {
+    const idx = cacheKeys.indexOf(key)
+    if (idx > -1) cacheKeys.splice(idx, 1)
+  } else if (cacheKeys.length >= MAX_CACHE_SIZE) {
+    const evicted = cacheKeys.shift()
+    if (evicted) delete cache[evicted]
+  }
+  cacheKeys.push(key)
+  cache[key] = value
+}
+
+async function fetchWithRetry(url: string, retries = 2): Promise<Response> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url)
+      return res
+    } catch (err) {
+      if (attempt === retries) throw err
+      await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)))
+    }
+  }
+  throw new Error('Fetch failed')
+}
 
 export function useTopicIndex() {
   const [topics, setTopics] = useState<TopicMeta[]>([])
@@ -9,7 +36,7 @@ export function useTopicIndex() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/topics.json`)
+    fetchWithRetry(`${import.meta.env.BASE_URL}data/topics.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`)
         return res.json() as Promise<TopicIndex>
@@ -34,13 +61,13 @@ export function useTopic(id: string | undefined) {
 
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true)
-    fetch(`${import.meta.env.BASE_URL}data/${id}.json`)
+    fetchWithRetry(`${import.meta.env.BASE_URL}data/${id}.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`Thema "${id}" nicht gefunden`)
         return res.json() as Promise<Topic>
       })
       .then((data) => {
-        cache[id] = data
+        cacheSet(id, data)
         setTopic(data)
       })
       .catch((err) => setError(err.message))
@@ -55,15 +82,15 @@ export function getAllCachedTopics(): Topic[] {
 }
 
 export async function preloadAllTopics(): Promise<Topic[]> {
-  const indexRes = await fetch(`${import.meta.env.BASE_URL}data/topics.json`)
+  const indexRes = await fetchWithRetry(`${import.meta.env.BASE_URL}data/topics.json`)
   const index: TopicIndex = await indexRes.json()
 
   const topics = await Promise.all(
     index.topics.map(async (meta) => {
       if (cache[meta.id]) return cache[meta.id]
-      const res = await fetch(`${import.meta.env.BASE_URL}data/${meta.id}.json`)
+      const res = await fetchWithRetry(`${import.meta.env.BASE_URL}data/${meta.id}.json`)
       const topic: Topic = await res.json()
-      cache[meta.id] = topic
+      cacheSet(meta.id, topic)
       return topic
     })
   )

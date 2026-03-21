@@ -30,16 +30,18 @@ function buildIndex(topics: Topic[]): SearchEntry[] {
 
     for (const section of topic.sections) {
       const texts = section.content.map((block) => {
-        if (block.type === 'fact') return [block.text, block.description ?? ''].join(' ')
-        if (block.type === 'text') return block.text
-        if (block.type === 'table') return [block.caption ?? '', ...block.rows.flat()].join(' ')
-        if (block.type === 'stat_grid') return block.items.map((i) => `${i.value} ${i.label} ${i.sublabel ?? ''}`).join(' ')
-        if (block.type === 'comparison') return [block.caption ?? '', block.savings ?? '', ...block.items.flatMap((i) => [i.title, ...i.rows.map((r) => `${r.label} ${r.value}`), i.total ? `${i.total.label} ${i.total.value}` : ''])].join(' ')
-        if (block.type === 'range_bar') return [block.caption ?? '', ...block.items.map((i) => `${i.label} ${i.min}-${i.max}`)].join(' ')
-        if (block.type === 'bar_chart') return [block.caption ?? '', ...block.items.map((i) => `${i.label} ${i.value}`)].join(' ')
-        if (block.type === 'timeline') return [block.caption ?? '', ...block.steps.map((s) => `${s.label} ${s.value} ${s.sublabel ?? ''}`)].join(' ')
-        if (block.type === 'progress_stack') return [block.caption ?? '', block.total ?? '', ...block.segments.map((s) => `${s.label} ${s.value} ${s.sublabel ?? ''}`)].join(' ')
-        return ''
+        switch (block.type) {
+          case 'fact': return [block.text, block.description ?? ''].join(' ')
+          case 'text': return block.text
+          case 'table': return [block.caption ?? '', ...block.rows.flat()].join(' ')
+          case 'stat_grid': return block.items.map((i) => `${i.value} ${i.label} ${i.sublabel ?? ''}`).join(' ')
+          case 'comparison': return [block.caption ?? '', block.savings ?? '', ...block.items.flatMap((i) => [i.title, ...i.rows.map((r) => `${r.label} ${r.value}`), i.total ? `${i.total.label} ${i.total.value}` : ''])].join(' ')
+          case 'range_bar': return [block.caption ?? '', ...block.items.map((i) => `${i.label} ${i.min}-${i.max}`)].join(' ')
+          case 'bar_chart': return [block.caption ?? '', ...block.items.map((i) => `${i.label} ${i.value}`)].join(' ')
+          case 'line_chart': return [block.caption ?? '', ...block.items.map((i) => `${i.label} ${i.value}`)].join(' ')
+          case 'timeline': return [block.caption ?? '', ...block.steps.map((s) => `${s.label} ${s.value} ${s.sublabel ?? ''}`)].join(' ')
+          case 'progress_stack': return [block.caption ?? '', block.total ?? '', ...block.segments.map((s) => `${s.label} ${s.value} ${s.sublabel ?? ''}`)].join(' ')
+        }
       })
 
       entries.push({
@@ -97,13 +99,41 @@ function searchEntries(entries: SearchEntry[], query: string): SearchResult[] {
   return results.sort((a, b) => b.score - a.score)
 }
 
+// Shared index singleton — built once in background, reused across hook instances
+let sharedIndex: SearchEntry[] | null = null
+let indexPromise: Promise<SearchEntry[]> | null = null
+
+function getOrBuildIndex(): Promise<SearchEntry[]> {
+  if (sharedIndex) return Promise.resolve(sharedIndex)
+  if (!indexPromise) {
+    indexPromise = preloadAllTopics()
+      .then((topics) => {
+        sharedIndex = buildIndex(topics)
+        return sharedIndex
+      })
+      .catch((err) => {
+        indexPromise = null
+        throw err
+      })
+  }
+  return indexPromise
+}
+
+// Start building the index eagerly on module load (idle callback or microtask)
+if (typeof requestIdleCallback === 'function') {
+  requestIdleCallback(() => getOrBuildIndex())
+} else {
+  setTimeout(() => getOrBuildIndex(), 100)
+}
+
 export function useSearch(query: string) {
-  const [index, setIndex] = useState<SearchEntry[]>([])
-  const [loading, setLoading] = useState(true)
+  const [index, setIndex] = useState<SearchEntry[]>(sharedIndex ?? [])
+  const [loading, setLoading] = useState(!sharedIndex)
 
   useEffect(() => {
-    preloadAllTopics()
-      .then((topics) => setIndex(buildIndex(topics)))
+    if (sharedIndex) return
+    getOrBuildIndex()
+      .then((idx) => setIndex(idx))
       .catch(console.error)
       .finally(() => setLoading(false))
   }, [])
