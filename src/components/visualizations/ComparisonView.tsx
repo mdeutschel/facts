@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography'
 import Divider from '@mui/material/Divider'
 import Chip from '@mui/material/Chip'
 import type { ComparisonItem } from '../../types'
+import { chartPalette } from '../../theme'
 
 interface ComparisonViewProps {
   items: ComparisonItem[]
@@ -11,7 +12,7 @@ interface ComparisonViewProps {
   savings?: string
 }
 
-const defaultColors = ['#546e7a', '#00897b']
+const defaultColors = chartPalette.comparison
 
 export default function ComparisonView({ items, caption, savings }: ComparisonViewProps) {
   return (
