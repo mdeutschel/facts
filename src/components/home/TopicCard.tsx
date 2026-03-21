@@ -20,6 +20,7 @@ import SchoolIcon from '@mui/icons-material/School'
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital'
 import TopicIcon from '@mui/icons-material/Topic'
 import type { TopicMeta } from '../../types'
+import { formatGermanDate } from '../../theme'
 
 const iconMap: Record<string, React.ReactElement> = {
   heat_pump: <HeatPumpIcon sx={{ fontSize: 40 }} />,
@@ -68,7 +69,7 @@ export default function TopicCard({ topic }: TopicCardProps) {
             <Chip label={`${topic.argumentCount} Argumente`} size="small" variant="outlined" />
           </Box>
           <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 1.5 }}>
-            Stand: {new Date(topic.lastUpdated).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}
+            Stand: {formatGermanDate(topic.lastUpdated)}
           </Typography>
         </CardContent>
       </CardActionArea>

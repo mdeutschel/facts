@@ -2,13 +2,15 @@ import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Chip from '@mui/material/Chip'
 
+import { chartPalette } from '../../theme'
+
 interface ProgressStackProps {
   segments: { label: string; value: number; sublabel?: string }[]
   total?: string
   caption?: string
 }
 
-const colors = ['#00897b', '#26a69a', '#4db6ac']
+const colors = chartPalette.sequential.slice(0, 3)
 
 export default function ProgressStack({ segments, total, caption }: ProgressStackProps) {
   const sum = segments.reduce((s, seg) => s + seg.value, 0)

@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import type { RangeBarItem } from '../../types'
+import { chartPalette } from '../../theme'
 
 interface RangeBarChartProps {
   items: RangeBarItem[]
@@ -9,7 +10,7 @@ interface RangeBarChartProps {
   caption?: string
 }
 
-const palette = ['#00897b', '#26a69a', '#4db6ac', '#80cbc4', '#78909c', '#b71c1c']
+const palette = chartPalette.sequential
 
 export default function RangeBarChart({ items, maxScale, unit = '', caption }: RangeBarChartProps) {
   const effectiveMax = maxScale ?? Math.max(...items.map((i) => i.max)) * 1.1

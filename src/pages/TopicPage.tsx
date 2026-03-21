@@ -13,6 +13,7 @@ import FactSection from '../components/topic/FactSection'
 import ArgumentCard from '../components/topic/ArgumentCard'
 import PageMeta from '../components/seo/PageMeta'
 import { useTopic } from '../hooks/useTopics'
+import { formatGermanDate } from '../theme'
 
 export default function TopicPage() {
   const { topicId } = useParams<{ topicId: string }>()
@@ -38,9 +39,11 @@ export default function TopicPage() {
 
   useEffect(() => {
     if (!hash) return
+    // MUI Accordion expand animation is ~300ms — wait for it to finish before scrolling
+    const MUI_ACCORDION_DURATION = 300
     setTimeout(() => {
       document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    }, 150)
+    }, MUI_ACCORDION_DURATION)
   }, [hash, location.key])
 
   if (loading) {
@@ -85,7 +88,7 @@ export default function TopicPage() {
           {topic.subtitle}
         </Typography>
         <Chip
-          label={`Stand: ${new Date(topic.lastUpdated).toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' })}`}
+          label={`Stand: ${formatGermanDate(topic.lastUpdated)}`}
           size="small"
           sx={{ mt: 1, fontSize: '0.7rem' }}
         />
