@@ -6,6 +6,9 @@ const PUBLIC_DIR = path.join(ROOT_DIR, 'public')
 const DATA_DIR = path.join(PUBLIC_DIR, 'data')
 const SITE_URL = 'https://fakten-stammtisch.de'
 
+const HOME_TEXTS_PATH = path.join(ROOT_DIR, 'src/content/homeTexts.json')
+const homeTexts = JSON.parse(await readFile(HOME_TEXTS_PATH, 'utf8'))
+
 function absoluteUrl(routePath) {
   return `${SITE_URL}${routePath}`
 }
@@ -240,6 +243,8 @@ function buildFallbackHtml(topics, topicDataById) {
   const lines = []
   lines.push('      <h1>Fakten-Stammtisch</h1>')
   lines.push('      <p>Faktenbasierte Argumente und Quellen zu politischen und gesellschaftlichen Themen in Deutschland.</p>')
+  lines.push(`      <h2>${htmlEscape(homeTexts.heading)}</h2>`)
+  lines.push(`      <p>${htmlEscape(homeTexts.intro)}</p>`)
   lines.push('      <p>Alle Inhalte als Textdatei: <a href="https://fakten-stammtisch.de/llms-full.txt">fakten-stammtisch.de/llms-full.txt</a></p>')
   lines.push('      <h2>Themen</h2>')
 
@@ -266,6 +271,10 @@ function buildFallbackHtml(topics, topicDataById) {
     }
   }
 
+  lines.push(`      <h2>${htmlEscape(homeTexts.usageTitle)}</h2>`)
+  lines.push(`      <p>${htmlEscape(homeTexts.usageP1)}</p>`)
+  lines.push(`      <p>${htmlEscape(homeTexts.usageP2)}</p>`)
+  lines.push(`      <p>${htmlEscape(homeTexts.usageP3)}</p>`)
   lines.push('      <h2>Quellen &amp; Transparenz</h2>')
   lines.push('      <p>Alle Aussagen auf dieser Seite werden mit Primärquellen belegt (Studien, amtliche Statistiken, Fachinstitute). Die vollständige Quellenliste ist auf jeder Themenseite einsehbar.</p>')
   lines.push('      <p><a href="https://fakten-stammtisch.de/impressum">Impressum &amp; Datenschutz</a> · <a href="https://fakten-stammtisch.de/feedback">Feedback</a> · E-Mail: feedback@fakten-stammtisch.de</p>')
