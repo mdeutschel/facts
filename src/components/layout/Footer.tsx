@@ -5,6 +5,12 @@ import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 import { Link as RouterLink } from 'react-router-dom'
 
+const buildDate = new Date(__BUILD_DATE__).toLocaleDateString('de-DE', {
+  day: '2-digit',
+  month: '2-digit',
+  year: 'numeric',
+})
+
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -37,9 +43,14 @@ export default function Footer() {
               Feedback
             </Link>
           </Stack>
-          <Typography variant="body2" sx={{ opacity: 0.9 }}>
-            © {year} Fakten-Stammtisch
-          </Typography>
+          <Stack alignItems={{ xs: 'flex-start', sm: 'flex-end' }} spacing={0}>
+            <Typography variant="body2" sx={{ opacity: 0.9 }}>
+              © {year} Fakten-Stammtisch
+            </Typography>
+            <Typography variant="caption" sx={{ opacity: 0.5 }}>
+              Stand: {buildDate}
+            </Typography>
+          </Stack>
         </Stack>
       </Container>
     </Box>
