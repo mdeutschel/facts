@@ -39,7 +39,7 @@ export default function Impressum() {
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1}>
           <Typography variant="h6" component="h2">
-            Impressum (Angaben gemäß DDG)
+            Impressum (Angaben gemäß § 5 DDG)
           </Typography>
           <Typography variant="body2">
             Marcel Deutschel
@@ -77,46 +77,110 @@ export default function Impressum() {
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1.5}>
           <Typography variant="h6" component="h2">
-            Datenschutzhinweise
+            Datenschutzerklärung
           </Typography>
           <Typography variant="body2">
-            Verantwortlich für diese Website ist:
+            Verantwortlicher im Sinne der DSGVO:
             <br />
-            Marcel Deutschel, August-Bebel-Str. 41, 06108 Halle (Saale), E-Mail wie im Impressum.
+            Marcel Deutschel, August-Bebel-Str. 41, 06108 Halle (Saale)
+            <br />
+            E-Mail: {email}
           </Typography>
+
           <Divider />
-          <Typography variant="subtitle2">1. Hosting und Server-Logs</Typography>
+          <Typography variant="subtitle2">1. SSL-/TLS-Verschlüsselung</Typography>
           <Typography variant="body2">
-            Beim Aufruf der Website verarbeitet der Hosting-Anbieter technisch notwendige Daten
-            (z.B. IP-Adresse, Zeitpunkt, aufgerufene URL, Browser-Informationen), um den Betrieb
-            und die Sicherheit der Website sicherzustellen.
+            Diese Website nutzt aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung.
+            Eine verschlüsselte Verbindung erkennst du an dem Schloss-Symbol in der
+            Adresszeile deines Browsers.
           </Typography>
-          <Typography variant="subtitle2">2. Keine Cookies und kein Tracking</Typography>
+
+          <Typography variant="subtitle2">2. Hosting und Server-Log-Dateien</Typography>
           <Typography variant="body2">
-            Diese Website verwendet keine Tracking-Tools, keine Analyse-Dienste und keine
-            Marketing-Cookies.
+            Diese Website wird bei ALL-INKL.COM – Neue Medien Münnich, Inhaber
+            René Münnich, Hauptstraße 68, 02742 Friedersdorf (
+            <Link href="https://all-inkl.com" target="_blank" rel="noopener" underline="hover">
+              all-inkl.com
+            </Link>
+            ) gehostet. Beim Aufruf der Website werden automatisch Server-Log-Dateien
+            erstellt, die folgende Daten enthalten: anonymisierte IP-Adresse, Datum und
+            Uhrzeit des Zugriffs, aufgerufene URL, Referrer-URL, verwendeter Browser
+            und Betriebssystem. IP-Adressen werden dabei vollständig anonymisiert
+            (z. B. 0.0.0.0), sodass kein Personenbezug herstellbar ist.
           </Typography>
-          <Typography variant="subtitle2">3. Feedback-Formular</Typography>
           <Typography variant="body2">
-            Wenn du das Feedback-Formular nutzt, werden die von dir eingegebenen Daten zur
-            Bearbeitung deiner Anfrage per E-Mail an den Betreiber übermittelt (z.B. Vorschlag,
-            optional Name und E-Mail für Rückfragen).
+            Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an
+            einem sicheren und funktionsfähigen Betrieb). Die Server-Log-Dateien werden
+            nach 14 Tagen automatisch gelöscht. Eine Statistikauswertung der Zugriffsdaten
+            findet nicht statt.
           </Typography>
-          <Typography variant="subtitle2">4. Weitergabe und Speicherdauer</Typography>
+
+          <Typography variant="subtitle2">3. Keine Cookies und kein Tracking</Typography>
           <Typography variant="body2">
-            Eine Weitergabe deiner Angaben an Dritte erfolgt nicht, außer es besteht eine
-            gesetzliche Verpflichtung. Daten werden nur so lange gespeichert, wie es für die
-            Bearbeitung erforderlich ist.
+            Diese Website verwendet keine Cookies, keine Tracking-Tools und keine
+            Analyse-Dienste.
           </Typography>
-          <Typography variant="subtitle2">5. Deine Rechte</Typography>
+
+          <Typography variant="subtitle2">4. Feedback-Formular</Typography>
           <Typography variant="body2">
-            Du hast im Rahmen der gesetzlichen Vorgaben insbesondere das Recht auf Auskunft,
-            Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Widerspruch.
+            Wenn du das{' '}
+            <Link component={RouterLink} to="/feedback" underline="hover">
+              Feedback-Formular
+            </Link>
+            {' '}nutzt, werden die von dir eingegebenen Daten (Vorschlag, optional Name
+            und E-Mail-Adresse) serverseitig verarbeitet und per E-Mail an den Betreiber
+            übermittelt. Pflichtangabe ist nur der Vorschlagstext; Name und E-Mail sind
+            freiwillig und dienen ausschließlich einer möglichen Rückfrage.
           </Typography>
-          <Typography variant="subtitle2">6. Beschwerderecht</Typography>
           <Typography variant="body2">
-            Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren, wenn du der Ansicht
-            bist, dass die Verarbeitung deiner personenbezogenen Daten nicht rechtmäßig erfolgt.
+            Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an
+            der Bearbeitung von Nutzerfeedback). Die Daten werden nach Abschluss der
+            Bearbeitung gelöscht, sofern keine gesetzliche Aufbewahrungspflicht besteht.
+          </Typography>
+
+          <Typography variant="subtitle2">5. Weitergabe an Dritte</Typography>
+          <Typography variant="body2">
+            Eine Weitergabe personenbezogener Daten an Dritte erfolgt nicht, sofern
+            keine gesetzliche Verpflichtung dazu besteht. Der Hosting-Anbieter
+            ALL-INKL.COM hat als Auftragsverarbeiter gemäß Art. 28 DSGVO Zugriff auf
+            die Server-Log-Dateien.
+          </Typography>
+
+          <Typography variant="subtitle2">6. Deine Rechte</Typography>
+          <Typography variant="body2">
+            Du hast gegenüber dem Verantwortlichen folgende Rechte hinsichtlich deiner
+            personenbezogenen Daten:
+          </Typography>
+          <Box component="ul" sx={{ m: 0, pl: 2.5 }}>
+            <Typography component="li" variant="body2">Auskunft (Art. 15 DSGVO)</Typography>
+            <Typography component="li" variant="body2">Berichtigung (Art. 16 DSGVO)</Typography>
+            <Typography component="li" variant="body2">Löschung (Art. 17 DSGVO)</Typography>
+            <Typography component="li" variant="body2">Einschränkung der Verarbeitung (Art. 18 DSGVO)</Typography>
+            <Typography component="li" variant="body2">Datenübertragbarkeit (Art. 20 DSGVO)</Typography>
+            <Typography component="li" variant="body2">Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)</Typography>
+          </Box>
+          <Typography variant="body2">
+            Zur Ausübung deiner Rechte genügt eine E-Mail an die oben genannte Adresse.
+          </Typography>
+
+          <Typography variant="subtitle2">7. Beschwerderecht bei einer Aufsichtsbehörde</Typography>
+          <Typography variant="body2">
+            Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren,
+            wenn du der Ansicht bist, dass die Verarbeitung deiner personenbezogenen Daten
+            nicht rechtmäßig erfolgt. Die für den Betreiber zuständige Aufsichtsbehörde ist:
+          </Typography>
+          <Typography variant="body2">
+            Landesbeauftragter für den Datenschutz Sachsen-Anhalt
+            <br />
+            Leiterstraße 9, 39104 Magdeburg
+            <br />
+            Telefon: +49 391 81803-0
+            <br />
+            E-Mail: poststelle@lfd.sachsen-anhalt.de
+            <br />
+            <Link href="https://datenschutz.sachsen-anhalt.de" target="_blank" rel="noopener" underline="hover">
+              datenschutz.sachsen-anhalt.de
+            </Link>
           </Typography>
         </Stack>
       </Paper>
