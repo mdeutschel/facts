@@ -1,12 +1,12 @@
 ---
-description: React + MUI component patterns for this project
+description: React- und MUI-Komponentenmuster für dieses Projekt
 globs: src/components/**/*.tsx, src/pages/**/*.tsx
 alwaysApply: false
 ---
 
-# React + MUI Component Patterns
+# React- und MUI-Komponentenmuster
 
-## Component Structure
+## Komponentenstruktur
 
 ```tsx
 import Box from '@mui/material/Box'
@@ -29,12 +29,12 @@ export default function MyComponent({ data, optional = false }: MyComponentProps
 }
 ```
 
-## Key Patterns
+## Zentrale Muster
 
-- Default export, PascalCase filename matching component name
-- MUI imports: one per line from specific paths (`@mui/material/Box`, not `@mui/material`)
-- Props interface inline, named `{ComponentName}Props`
-- Styling exclusively via `sx` prop
-- Heavy components (Recharts): wrap in `React.lazy()` + `<Suspense>`
-- ContentBlock rendering: use if-chain on `block.type` (discriminated union), see `FactSection.tsx`
-- Mobile-first: touch targets ≥ 48px, responsive via MUI breakpoints
+- Default Export, PascalCase-Dateiname = Komponentenname
+- MUI-Imports: einzeln pro Zeile aus spezifischen Pfaden (`@mui/material/Box`, nicht `@mui/material`)
+- Props-Interface inline, benannt als `{KomponentenName}Props`
+- Styling ausschließlich über `sx`-Prop
+- Schwergewichtige Komponenten (Recharts): in `React.lazy()` + `<Suspense>` einwickeln
+- ContentBlock-Rendering: if-Chain auf `block.type` (Discriminated Union), siehe `FactSection.tsx`
+- Mobile-first: Touch-Targets ≥ 48px, responsiv über MUI-Breakpoints

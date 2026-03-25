@@ -1,29 +1,30 @@
 ---
-description: Visualization component patterns for data display
+description: Muster für Visualisierungskomponenten zur Datenanzeige
 globs: src/components/visualizations/**
 alwaysApply: false
 ---
 
-# Visualization Components
+# Visualisierungskomponenten
 
-Components in this directory render ContentBlock variants from JSON data.
+Komponenten in diesem Verzeichnis rendern ContentBlock-Varianten aus JSON-Daten.
 
-## Conventions
+## Konventionen
 
-- Each component handles one ContentBlock type
-- Props match the ContentBlock's data fields directly
-- No internal state or data fetching — pure presentational
-- Optional `caption` prop rendered as `Typography variant="caption"`
-- Heavy chart libraries (Recharts): use `React.lazy()` and `<Suspense fallback={null}>`
-- Colors: use theme-consistent values or accept via props, no hardcoded hex outside theme.ts
+- Jede Komponente behandelt einen ContentBlock-Typ
+- Props entsprechen direkt den Datenfeldern des ContentBlocks
+- Kein interner State oder Data Fetching — rein präsentational
+- Optionale `caption`-Prop wird als `Typography variant="caption"` gerendert
+- Schwergewichtige Diagramm-Bibliotheken (Recharts): `React.lazy()` und `<Suspense fallback={null}>` verwenden
+- Farben: Theme-konsistente Werte nutzen oder via Props akzeptieren, kein hartkodiertes Hex außerhalb von `theme.ts`
 
-## Existing Components
+## Vorhandene Komponenten
 
-| Component | ContentBlock type | Library |
-|-----------|-------------------|---------|
-| StatGrid | stat_grid | MUI only |
-| ComparisonView | comparison | MUI only |
-| RangeBarChart | range_bar | MUI only |
-| SimpleBarChart | bar_chart | Recharts (lazy) |
-| TimelineView | timeline | MUI only |
-| ProgressStack | progress_stack | MUI only |
+| Komponente | ContentBlock-Typ | Bibliothek |
+|------------|------------------|------------|
+| StatGrid | `stat_grid` | Nur MUI |
+| ComparisonView | `comparison` | Nur MUI |
+| RangeBarChart | `range_bar` | Nur MUI |
+| SimpleBarChart | `bar_chart` | Recharts (lazy) |
+| SimpleLineChart | `line_chart` | Recharts (lazy) |
+| TimelineView | `timeline` | Nur MUI |
+| ProgressStack | `progress_stack` | Nur MUI |

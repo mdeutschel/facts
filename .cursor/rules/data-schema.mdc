@@ -1,30 +1,24 @@
 ---
-description: JSON data schema and content conventions for topic factsheets
+description: JSON-Datenschema und Konventionen für Themen-Factsheets
 globs: public/data/**/*.json, input/**
 alwaysApply: false
 ---
 
-# Data Schema
+# Datenschema
 
-Topic JSON files in `public/data/` follow the schema in `src/types/index.ts`.
+Topic-JSON-Dateien in `public/data/` folgen dem Schema in `src/types/index.ts`.
 
-## Adding a New Topic
+## ContentBlock-Typen
 
-1. Create `public/data/{topicId}.json` following the `Topic` interface
-2. Add entry to `public/data/topics.json` (TopicMeta fields)
-3. No code changes required — the app auto-discovers via topics.json
+Jede Section enthält `content: ContentBlock[]`. Gültige Typen:
+`fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`
 
-## ContentBlock Types
+Jeder Typ hat eigene Pflichtfelder — siehe die Discriminated Union in `src/types/index.ts`.
 
-Each Section contains `content: ContentBlock[]`. Valid types:
-`fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `timeline`, `progress_stack`
+## Konventionen
 
-Each type has its own required fields — check the discriminated union in `src/types/index.ts`.
-
-## Conventions
-
-- `id` fields: kebab-case (`status-quo`, `foerderung-2026`)
-- `icon` field in TopicMeta: MUI icon name as string
-- `lastUpdated`: format `YYYY-MM`
-- Sources: always include `label`, `url` is optional
-- Arguments: `keywords` array enables search matching, `relatedSections` links to section IDs
+- `id`-Felder: kebab-case (`status-quo`, `foerderung-2026`)
+- `icon` in TopicMeta: MUI-Icon-Name als String
+- `lastUpdated`: Format `YYYY-MM-DD`
+- Quellen: immer `label` angeben, `url` ist optional
+- Argumente: `keywords`-Array ermöglicht Suchmatching, `relatedSections` verlinkt zu Section-IDs

@@ -1,15 +1,15 @@
 ---
-description: TypeScript conventions for this project
+description: TypeScript-Konventionen für dieses Projekt
 globs: src/**/*.{ts,tsx}
 alwaysApply: false
 ---
 
-# TypeScript Conventions
+# TypeScript-Konventionen
 
-- Strict mode, no `any` — use `unknown` with narrowing
-- No semicolons, single quotes
-- All shared interfaces centralized in `src/types/index.ts`
-- Discriminated unions via `type` field for variant data (see `ContentBlock`)
-- Custom hooks: named export, return `{ data, loading, error }` pattern
-- Type assertions: prefer `as Promise<Type>` on `.json()` calls over generic parameters
-- Module-level caching (plain objects) over React state for cross-component data sharing
+- Strict Mode, kein `any` — stattdessen `unknown` mit Type Narrowing
+- Keine Semikolons, einfache Anführungszeichen
+- Alle geteilten Interfaces zentral in `src/types/index.ts`
+- Discriminated Unions über `type`-Feld für Variantendaten (siehe `ContentBlock`)
+- Custom Hooks: Named Export, geben `{ data, loading, error }` zurück
+- Type Assertions: `as Promise<Type>` auf `.json()`-Aufrufen bevorzugen statt generischer Parameter
+- Modul-Level-Caching (einfache Objekte) statt React State für komponentenübergreifende Datennutzung

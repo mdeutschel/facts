@@ -1,127 +1,131 @@
-# Fakten-Stammtisch — Agent Instructions
+# Fakten-Stammtisch — Agent-Anweisungen
 
-## Project Overview
+## Projektübersicht
 
-German-language static React SPA providing fact-based arguments for informal discussions.
-Mobile-first, no backend, JSON data fetched at runtime.
+Deutschsprachige statische React-SPA mit faktenbasierten Argumenten für informelle Diskussionen.
+Mobile-first, kein Backend, JSON-Daten werden zur Laufzeit geladen.
 
-## Tech Stack
+## Tech-Stack
 
-| Package | Version | Purpose |
-|---------|---------|---------|
-| React + ReactDOM | 19.x | UI Framework |
-| MUI Material + Icons | 7.x | Component Library |
-| Emotion | 11.x | Styling (MUI dep) |
-| react-router-dom | 7.x | Client-side routing |
-| Recharts | 3.x | Charts (lazy-loaded) |
-| Vite | 8.x | Build tool |
-| TypeScript | 5.9 | Language (strict mode) |
-| ESLint | 9.x | Linting (flat config) |
+| Paket | Version | Zweck |
+|-------|---------|-------|
+| React + ReactDOM | 19.x | UI-Framework |
+| MUI Material + Icons | 7.x | Komponentenbibliothek |
+| Emotion | 11.x | Styling (MUI-Abhängigkeit) |
+| react-router-dom | 7.x | Client-seitiges Routing |
+| Recharts | 3.x | Diagramme (lazy-loaded) |
+| Vite | 8.x | Build-Tool |
+| TypeScript | 5.9 | Sprache (strict mode) |
+| ESLint | 9.x | Linting (Flat-Config) |
 
-## Commands
+## Befehle
 
-- Install: `npm ci`
-- Dev server: `npm run dev`
-- Build: `npm run build` (runs `tsc -b && vite build && cp .htaccess dist/`)
+- Installieren: `npm ci`
+- Dev-Server: `npm run dev`
+- Build: `npm run build` (führt `tsc -b && vite build && cp .htaccess dist/` aus)
 - Lint: `npm run lint`
-- Preview: `npm run preview`
+- Vorschau: `npm run preview`
 
-## Project Structure
+## Projektstruktur
 
 ```
 src/
-  main.tsx              # Entry point
-  App.tsx               # Router setup
-  theme.ts              # MUI theme (primary #37474f, secondary #00897b)
-  types/index.ts        # All TypeScript interfaces (centralized)
-  hooks/                # Custom hooks (useTopics, useSearch)
-  pages/                # Route-level components (Home, TopicPage, SearchPage)
+  main.tsx              # Einstiegspunkt
+  App.tsx               # Router-Setup
+  theme.ts              # MUI-Theme (primary #37474f, secondary #00897b)
+  types/index.ts        # Alle TypeScript-Interfaces (zentral)
+  hooks/                # Custom Hooks (useTopics, useSearch)
+  pages/                # Seitenkomponenten (Home, TopicPage, SearchPage)
   components/
     layout/             # AppShell, SearchBar
     home/               # TopicCard
     topic/              # FactSection, ArgumentCard
     search/             # SearchResults
     visualizations/     # StatGrid, ComparisonView, RangeBarChart, etc.
-public/data/            # JSON factsheets loaded at runtime
-input/                  # Source markdown (reference material, not deployed)
+public/data/            # JSON-Factsheets, zur Laufzeit geladen
+input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 ```
 
 ## Routing
 
-| Route | Component | Purpose |
-|-------|-----------|---------|
-| `/` | Home | Topic cards overview |
-| `/thema/:topicId` | TopicPage | Topic detail (Facts + Arguments tabs) |
-| `/suche?q=...` | SearchPage | Search results |
+| Route | Komponente | Zweck |
+|-------|------------|-------|
+| `/` | Home | Themenkarten-Übersicht |
+| `/thema/:topicId` | TopicPage | Themendetail (Fakten + Argumente Tabs) |
+| `/suche?q=...` | SearchPage | Suchergebnisse |
 
-## Data Architecture
+## Datenarchitektur
 
-- Topic index: `public/data/topics.json`
-- Per-topic data: `public/data/{topicId}.json`
-- Adding a topic = new JSON file + entry in `topics.json`, no code changes needed
-- Schema defined in `src/types/index.ts` — ContentBlock uses discriminated unions (`type` field)
-- Client-side search index built at runtime from all topic JSONs
+- Themen-Index: `public/data/topics.json`
+- Themen-Daten: `public/data/{topicId}.json`
+- Neues Thema hinzufügen = neue JSON-Datei + Eintrag in `topics.json`, keine Code-Änderungen nötig
+- Schema definiert in `src/types/index.ts` — ContentBlock nutzt Discriminated Unions (`type`-Feld)
+- Client-seitiger Suchindex wird zur Laufzeit aus allen Topic-JSONs aufgebaut
 
-## Code Conventions
+## Code-Konventionen
 
 ### TypeScript
-- Strict mode enabled, never use `any`
-- All shared interfaces in `src/types/index.ts`
-- Props interfaces defined inline in component files (`interface XProps {}`)
-- No semicolons, single quotes
-- Discriminated unions for variant types (see `ContentBlock`)
+- Strict Mode aktiviert, niemals `any` verwenden
+- Alle geteilten Interfaces in `src/types/index.ts`
+- Props-Interfaces inline in Komponentendateien (`interface XProps {}`)
+- Keine Semikolons, einfache Anführungszeichen
+- Discriminated Unions für Variantentypen (siehe `ContentBlock`)
 
 ### React + MUI
-- Functional components only
-- Default exports for components and pages
-- Named exports for hooks and utilities
-- MUI imports: individual imports (`import Box from '@mui/material/Box'`), not destructured
-- Styling via `sx` prop — no separate style files or styled-components
-- `React.lazy()` for heavy components (e.g., Recharts-based charts)
-- Custom hooks return `{ data, loading, error }` pattern
+- Nur funktionale Komponenten
+- Default-Exports für Komponenten und Seiten
+- Named Exports für Hooks und Hilfsfunktionen
+- MUI-Imports: Einzelimports (`import Box from '@mui/material/Box'`), nicht destrukturiert
+- Styling via `sx`-Prop — keine separaten Style-Dateien oder styled-components
+- `React.lazy()` für schwergewichtige Komponenten (z. B. Recharts-basierte Diagramme)
+- Custom Hooks geben `{ data, loading, error }` zurück
 
-### Naming
-- Components/Pages: `PascalCase.tsx`
-- Hooks: `use*.ts` with named export
-- Types: `PascalCase` (no `I` prefix)
-- Functions/variables: `camelCase`
+### Benennung
+- Komponenten/Seiten: `PascalCase.tsx`
+- Hooks: `use*.ts` mit Named Export
+- Types: `PascalCase` (kein `I`-Prefix)
+- Funktionen/Variablen: `camelCase`
 
 ## Deployment
 
-- CI: GitHub Actions on push to `main` → build → FTP deploy via lftp
-- Hosting: Apache with `.htaccess` SPA fallback
-- No source maps in production
+- CI: GitHub Actions bei Push auf `main` → Build → FTP-Deploy via lftp
+- Hosting: Apache mit `.htaccess` SPA-Fallback
+- Keine Source Maps in Produktion
 
-## Boundaries — Do NOT
+## Grenzen — NICHT tun
 
-- Do not add a backend or SSR — this is a static SPA
-- Do not add dependencies without discussing first
-- Do not modify `public/data/*.json` structure without updating `src/types/index.ts`
-- Do not use `any` — use `unknown` with type narrowing
-- Do not force push or rewrite git history
-- Do not commit `.env`, credentials, or secrets
-- Do not add tests unless explicitly asked (no test framework configured yet)
+- Kein Backend oder SSR hinzufügen — das ist eine statische SPA
+- Keine Abhängigkeiten hinzufügen ohne vorherige Absprache
+- `public/data/*.json`-Struktur nicht ändern ohne `src/types/index.ts` anzupassen
+- Kein `any` verwenden — stattdessen `unknown` mit Type Narrowing
+- Keinen Force-Push oder Git-History umschreiben
+- Keine `.env`, Zugangsdaten oder Secrets committen
+- Keine Tests hinzufügen, es sei denn explizit gewünscht (kein Test-Framework konfiguriert)
 
-## When Blocked
+## Bei Blockaden
 
-- If build fails after 2 attempts: stop and report the full error output
-- If a type error is unclear: check `src/types/index.ts` first
-- If MUI component behavior is unexpected: check MUI v7 docs (breaking changes from v6)
+- Wenn der Build nach 2 Versuchen fehlschlägt: stoppen und den vollständigen Fehler-Output melden
+- Bei unklaren Type-Fehlern: zuerst `src/types/index.ts` prüfen
+- Bei unerwartetem MUI-Komponentenverhalten: MUI-v7-Docs prüfen (Breaking Changes gegenüber v6)
 
-## Source Verification
+## Thema erstellen
 
-Topic JSON sources MUST be online-verifiable. Use `/verify-sources {topicId}` — full procedure is in the skill definition (`.claude/skills/verify-sources/SKILL.md`).
+Um ein komplett neues Thema von Grund auf zu erstellen, `/create-topic {topicId} {topicTitle}` verwenden. Der Skill orchestriert Recherche, JSON-Erstellung und beide Quality Gates (`review-content`, `verify-sources`) in einem 7-Phasen-Workflow. Vollständige Anleitung in `.claude/skills/create-topic/SKILL.md`.
 
-## Content Quality Review
+## Quellenverifizierung
 
-Topic content must be argumentatively sound, balanced, and hard to attack. Use `/review-content {topicId}` to check framing, nuance, and intellectual honesty. When creating or extending topic content, apply the author-mode guardrails from `.claude/skills/review-content/SKILL.md`.
+Topic-JSON-Quellen MÜSSEN online verifizierbar sein. `/verify-sources {topicId}` verwenden — vollständige Anleitung in `.claude/skills/verify-sources/SKILL.md`.
 
-Key quality dimensions: nuance & partial truths, claim-source fit, assumption transparency, fact vs. opinion separation, counter-argument inclusion, language precision, argument-claim alignment.
+## Inhaltliche Qualitätsprüfung
+
+Topic-Inhalte müssen argumentativ stichhaltig, ausgewogen und schwer angreifbar sein. `/review-content {topicId}` verwenden, um Framing, Nuancierung und intellektuelle Redlichkeit zu prüfen. Beim Erstellen oder Erweitern von Topic-Inhalten die Autor-Modus-Leitplanken aus `.claude/skills/review-content/SKILL.md` anwenden.
+
+Zentrale Qualitätsdimensionen: Nuance & Teilwahrheiten, Claim-Source-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung.
 
 ## Definition of Done
 
-A task is complete when:
-1. `npm run lint` exits 0
-2. `npm run build` exits 0
-3. No `any` types introduced
-4. Changes follow existing code patterns documented above
+Eine Aufgabe ist abgeschlossen, wenn:
+1. `npm run lint` mit Exit-Code 0 durchläuft
+2. `npm run build` mit Exit-Code 0 durchläuft
+3. Keine `any`-Types eingeführt wurden
+4. Änderungen den oben dokumentierten Code-Patterns folgen
