@@ -1,39 +1,41 @@
 ---
 name: verify-sources
-description: Verify all sources and data in a topic factsheet JSON against actual online sources. Use when sources need URL verification, data accuracy checks, or sourceRef validation.
+description: Alle Quellen und Daten in einem Topic-Factsheet-JSON gegen tatsächliche Online-Quellen prüfen. Verwenden, wenn URLs verifiziert, Datenrichtigkeit geprüft oder sourceRefs validiert werden sollen.
 argument-hint: "[topicId]"
 allowed-tools: Read, Glob, Grep, Bash, WebFetch, WebSearch, Agent, TodoWrite, AskUserQuestion, Edit
 ---
 
 # Quellenverifizierung für `public/data/$ARGUMENTS.json`
 
-Topic JSON files (`public/data/*.json`) contain a `sources` array and `sourceRefs` in content blocks. All sources MUST be online-verifiable to prevent hallucinated data.
+Topic-JSON-Dateien (`public/data/*.json`) enthalten ein `sources`-Array und `sourceRefs` in Content-Blöcken. Alle Quellen MÜSSEN online verifizierbar sein, um halluzinierte Daten zu vermeiden.
 
-## When to run
-- After creating or substantially editing a topic JSON
-- When adding `sourceRefs` to content blocks
-- On explicit request (`/verify-sources {topicId}`)
+## Wann ausführen
 
-## 6-Phase Process
+- Nach Erstellung oder wesentlicher Bearbeitung einer Topic-JSON
+- Beim Hinzufügen von `sourceRefs` zu Content-Blöcken
+- Auf ausdrückliche Anfrage (`/verify-sources {topicId}`)
 
-1. **Analyse** — Read `public/data/$ARGUMENTS.json`, extract `sources` array and all `sourceRefs` from content blocks. Map which claims reference which sources.
-2. **URL-Beschaffung** — For each source WITHOUT a `url` field: search the web for the correct URL. Run searches in parallel via Explore-Subagents.
-3. **Quellenverifizierung** — For each source WITH a URL: fetch the URL, extract all concrete numbers and data points. Run fetches in parallel via Explore-Subagents.
-4. **Abgleich** — For each content block with sourceRefs, classify every claim:
-   - ✓ **VERIFIZIERT**: matches source data
-   - ⚠ **ABWEICHUNG**: number differs (document expected vs. actual)
-   - ❓ **NICHT VERIFIZIERBAR**: source doesn't contain this info on its web page
-   - ✗ **FALSCH**: source contradicts the claim
-5. **Bericht** — Present structured report to user, ask whether to apply corrections.
-6. **Korrekturen** — After user confirmation: add missing URLs, fix wrong numbers, remove false sourceRefs, update prose/arguments to match corrected data. Run `npm run lint && npm run build`.
+## 6-Phasen-Ablauf
 
-## Rules
-- **No hallucinations**: Only use numbers actually extracted from online sources
-- **Conservative**: Remove sourceRef rather than keep unverified data
-- **Transparency**: Document every change
-- **Source integrity**: Never invent a source or guess a URL
-- **Parallelism**: Use parallel subagents for independent source lookups
+1. **Analyse** — `public/data/$ARGUMENTS.json` lesen, das `sources`-Array und alle `sourceRefs` aus Content-Blöcken extrahieren. Zuordnen, welche Behauptungen welche Quellen referenzieren.
+2. **URL-Beschaffung** — Für jede Quelle OHNE `url`-Feld: im Web nach der korrekten URL suchen. Suchen parallel über Explore-Subagents ausführen.
+3. **Quellenverifizierung** — Für jede Quelle MIT URL: URL abrufen, alle konkreten Zahlen und Datenpunkte extrahieren. Abrufe parallel über Explore-Subagents ausführen.
+4. **Abgleich** — Für jeden Content-Block mit `sourceRefs` jede Behauptung einordnen:
+   - ✓ **VERIFIZIERT**: stimmt mit Quellendaten überein
+   - ⚠ **ABWEICHUNG**: Zahl weicht ab (Erwartung vs. Ist dokumentieren)
+   - ❓ **NICHT VERIFIZIERBAR**: Quelle enthält diese Info auf ihrer Webseite nicht
+   - ✗ **FALSCH**: Quelle widerspricht der Behauptung
+5. **Bericht** — Strukturierten Bericht dem Nutzer präsentieren, fragen, ob Korrekturen angewendet werden sollen.
+6. **Korrekturen** — Nach Zustimmung des Nutzers: fehlende URLs ergänzen, falsche Zahlen korrigieren, unzutreffende `sourceRefs` entfernen, Fließtext/Argumente an korrigierte Daten anpassen. `npm run lint && npm run build` ausführen.
 
-## Reference
+## Regeln
 
-See `${CLAUDE_SKILL_DIR}/reference.md` for correctly structured examples of all content block types (stat_grid, comparison, table, timeline, fact) with proper sourceRefs.
+- **Keine Halluzinationen**: Nur Zahlen verwenden, die tatsächlich aus Online-Quellen extrahiert wurden
+- **Konservativ**: `sourceRef` eher entfernen als unverifizierte Daten beibehalten
+- **Transparenz**: Jede Änderung dokumentieren
+- **Quellenintegrität**: Niemals eine Quelle erfinden oder eine URL raten
+- **Parallelität**: Parallele Subagents für unabhängige Quellenrecherchen nutzen
+
+## Referenz
+
+Siehe `${CLAUDE_SKILL_DIR}/reference.md` für korrekt strukturierte Beispiele aller Content-Block-Typen (stat_grid, comparison, table, timeline, fact) mit passenden `sourceRefs`.

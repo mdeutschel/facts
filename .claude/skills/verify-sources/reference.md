@@ -1,10 +1,10 @@
-# Reference Examples for Source Verification
+# Referenzbeispiele zur Quellenverifizierung
 
-These are real examples from the codebase showing correctly structured sources and sourceRefs.
+Das sind reale Beispiele aus dem Code, die korrekt strukturierte `sources` und `sourceRefs` zeigen.
 
-## Source Entry (Template)
+## Quelleneintrag (Vorlage)
 
-Every source MUST have `id`, `label`, and `url`:
+Jede Quelle MUSS `id`, `label` und `url` haben:
 
 ```json
 {
@@ -14,9 +14,9 @@ Every source MUST have `id`, `label`, and `url`:
 }
 ```
 
-## Content Block Types with sourceRefs
+## Inhaltstypen mit sourceRefs
 
-### stat_grid — Financial breakdown (from bildung.json)
+### stat_grid — Finanzaufschlüsselung (aus bildung.json)
 
 ```json
 {
@@ -31,7 +31,7 @@ Every source MUST have `id`, `label`, and `url`:
 }
 ```
 
-### comparison — Side-by-side cost analysis (from heizung.json)
+### comparison — Kostenvergleich nebeneinander (aus heizung.json)
 
 ```json
 {
@@ -64,7 +64,7 @@ Every source MUST have `id`, `label`, and `url`:
 }
 ```
 
-### table — Multi-source data table (from klimawandel.json)
+### table — Datentabelle mit mehreren Quellen (aus klimawandel.json)
 
 ```json
 {
@@ -84,7 +84,7 @@ Every source MUST have `id`, `label`, and `url`:
 }
 ```
 
-### timeline — Regulatory schedule (from heizung.json)
+### timeline — Regulatorischer Fahrplan (aus heizung.json)
 
 ```json
 {
@@ -100,7 +100,7 @@ Every source MUST have `id`, `label`, and `url`:
 }
 ```
 
-### fact — Highlighted key finding (from klimawandel.json)
+### fact — Hervorgehobener Kernbefund (aus klimawandel.json)
 
 ```json
 {
@@ -111,14 +111,14 @@ Every source MUST have `id`, `label`, and `url`:
 }
 ```
 
-## Verification Checklist
+## Prüfliste
 
-When verifying, check each content block against this pattern:
+Bei der Verifizierung jeden Inhaltsblock an diesem Muster prüfen:
 
-| Check | Pass | Fail |
-|-------|------|------|
-| Every `sourceRefs` ID exists in `sources` array | ✓ | Orphaned ref |
-| Every source has `url` field | ✓ | Missing URL |
-| Numbers in content match source data | ✓ | Data mismatch |
-| Source URL is reachable | ✓ | Dead link |
-| No source without at least one referencing block | ✓ | Unused source |
+| Prüfpunkt | Bestanden | Fehler |
+|-----------|-----------|--------|
+| Jede `sourceRefs`-ID existiert im `sources`-Array | ✓ | Verwaiste Referenz |
+| Jede Quelle hat ein `url`-Feld | ✓ | URL fehlt |
+| Zahlen im Inhalt stimmen mit den Quelldaten überein | ✓ | Datenabweichung |
+| Quellen-URL ist erreichbar | ✓ | Toter Link |
+| Keine Quelle ohne mindestens einen verweisenden Block | ✓ | Ungenutzte Quelle |

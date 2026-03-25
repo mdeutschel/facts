@@ -1,22 +1,22 @@
-# Reference: Problematic Patterns and Fixes
+# Referenz: Problematische Muster und Korrekturen
 
-Concrete examples from real feedback, showing anti-patterns and improved versions.
+Konkrete Beispiele aus echtem Feedback mit Antipattern und verbesserten Versionen.
 
-## Table of Contents
+## Inhaltsverzeichnis
 
-1. [Dimension 1: Missing Nuance](#dim-1-missing-nuance)
-2. [Dimension 2: Over-Reading Sources](#dim-2-over-reading-sources)
-3. [Dimension 3: One-Sided Calculations](#dim-3-one-sided-calculations)
-4. [Dimension 5: Ignored Counter-Arguments](#dim-5-ignored-counter-arguments)
-5. [Dimension 6: Absolutist Language](#dim-6-absolutist-language)
-6. [Dimension 7: Response Misses the Claim](#dim-7-response-misses-the-claim)
-7. [Review Report Template](#review-report-template)
+1. [Dimension 1: Fehlende Nuance](#dim-1-fehlende-nuance)
+2. [Dimension 2: Quellen überinterpretiert](#dim-2-quellen-überinterpretiert)
+3. [Dimension 3: Einseitige Kalkulationen](#dim-3-einseitige-kalkulationen)
+4. [Dimension 5: Ignorierte Gegenargumente](#dim-5-ignorierte-gegenargumente)
+5. [Dimension 6: Absolutistische Sprache](#dim-6-absolutistische-sprache)
+6. [Dimension 7: Antwort verfehlt den Claim](#dim-7-antwort-verfehlt-den-claim)
+7. [Review-Report-Vorlage](#review-report-vorlage)
 
 ---
 
-## Dim 1: Missing Nuance
+## Dim 1: Fehlende Nuance
 
-### Anti-pattern: Pure debunking
+### Antipattern: Reines Widerlegen
 
 ```json
 {
@@ -25,9 +25,9 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Problem**: The 73% figure depends on the electricity mix. The claim has a kernel of truth for coal-heavy grids.
+**Problem**: Die 73-%-Zahl hängt vom Strommix ab. Der Claim hat einen wahren Kern bei kohlestromlastigen Netzen.
 
-### Fixed version
+### Korrigierte Version
 
 ```json
 {
@@ -36,13 +36,13 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Why better**: Acknowledges the condition (electricity mix), gives the realistic figure for the actual German grid, and names the edge case.
+**Warum besser**: Benennt die Bedingung (Strommix), nennt die realistische Zahl für den tatsächlichen deutschen Mix und den Grenzfall.
 
 ---
 
-## Dim 2: Over-Reading Sources
+## Dim 2: Quellen überinterpretiert
 
-### Anti-pattern: Source doesn't carry the claim
+### Antipattern: Die Quelle trägt den Claim nicht
 
 ```json
 {
@@ -52,9 +52,9 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Problem**: The Fraunhofer ISE study shows that heat pumps *work well* in existing buildings, but doesn't claim a universal 40% savings figure for *all* cases.
+**Problem**: Die Fraunhofer-ISE-Studie zeigt, dass Wärmepumpen in Bestandsgebäuden *gut funktionieren*, behauptet aber keine pauschale 40-%-Einsparung für *alle* Fälle.
 
-### Fixed version
+### Korrigierte Version
 
 ```json
 {
@@ -64,13 +64,13 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Why better**: States exactly what the source shows, not more.
+**Warum besser**: Formuliert genau das, was die Quelle zeigt — nicht mehr.
 
 ---
 
-## Dim 3: One-Sided Calculations
+## Dim 3: Einseitige Kalkulationen
 
-### Anti-pattern: Only best-case
+### Antipattern: Nur best-case
 
 ```json
 {
@@ -89,9 +89,9 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Problem**: Uses JAZ 3.5 (good conditions). In poorly insulated buildings, JAZ can be 2.5–3.0, changing the economics significantly.
+**Problem**: Nutzt JAZ 3,5 (günstige Bedingungen). Bei schlechter Dämmung kann die JAZ bei 2,5–3,0 liegen — die Wirtschaftlichkeit verschiebt sich deutlich.
 
-### Improved: Add context via text block
+### Verbessert: Kontext über Textblock ergänzen
 
 ```json
 {
@@ -100,13 +100,13 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Alternative**: Use `range_bar` to show the cost range under different conditions.
+**Alternative**: Mit `range_bar` die Kostenbandbreite unter verschiedenen Bedingungen darstellen.
 
 ---
 
-## Dim 5: Ignored Counter-Arguments
+## Dim 5: Ignorierte Gegenargumente
 
-### Anti-pattern: No opposing view
+### Antipattern: Keine Gegenposition
 
 ```json
 {
@@ -115,9 +115,9 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Problem**: Doesn't address the legitimate concern about base-load reliability during the EE transition. Ignores the counter-argument entirely.
+**Problem**: Geht nicht auf die berechtigte Sorge um Grundlastversorgung in der EE-Transition ein. Ignoriert das Gegenargument vollständig.
 
-### Fixed version
+### Korrigierte Version
 
 ```json
 {
@@ -126,15 +126,15 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Why better**: Acknowledges the strongest counter-argument, then shows how it's being addressed — without pretending the concern is invalid.
+**Warum besser**: Nimmt das stärkste Gegenargument auf und zeigt, wie es adressiert wird — ohne so zu tun, als sei die Sorge unbegründet.
 
 ---
 
-## Dim 6: Absolutist Language
+## Dim 6: Absolutistische Sprache
 
-### Words to avoid and their replacements
+### Zu vermeidende Wörter und sinnvolle Alternativen
 
-| Avoid | Prefer |
+| Vermeiden | Besser |
 |-------|--------|
 | beweist | belegt, zeigt, deutet darauf hin |
 | widerlegt endgültig | spricht stark dagegen, die Daten zeigen ein anderes Bild |
@@ -143,21 +143,21 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 | immer / nie | in der Regel / in den meisten Fällen / selten |
 | Fakt ist | die Datenlage zeigt |
 
-### Missing conditions
+### Fehlende Bedingungen
 
-**Anti-pattern**: "E-Autos verursachen 73 % weniger CO₂."
-**Fixed**: "E-Autos verursachen bei Nutzung des aktuellen deutschen Strommix rund 63 % weniger CO₂ über den Lebenszyklus (ICCT, 2024)."
+**Antipattern**: "E-Autos verursachen 73 % weniger CO₂."
+**Korrigiert**: "E-Autos verursachen bei Nutzung des aktuellen deutschen Strommix rund 63 % weniger CO₂ über den Lebenszyklus (ICCT, 2024)."
 
-### Abbreviation rule
+### Abkürzungsregel
 
-**Anti-pattern**: "Laut Destatis arbeiten 30 % in Teilzeit."
-**Fixed**: "Laut Statistischem Bundesamt (Destatis) arbeiten 30 % der Beschäftigten in Teilzeit."
+**Antipattern**: "Laut Destatis arbeiten 30 % in Teilzeit."
+**Korrigiert**: "Laut Statistischem Bundesamt (Destatis) arbeiten 30 % der Beschäftigten in Teilzeit."
 
 ---
 
-## Dim 7: Response Misses the Claim
+## Dim 7: Antwort verfehlt den Claim
 
-### Anti-pattern: Thematic but not causal
+### Antipattern: Thematisch, aber nicht kausal
 
 ```json
 {
@@ -166,9 +166,9 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Problem**: The claim is about *hours worked per person*, the response is about *number of employed people*. Thematically related, but doesn't answer the actual claim.
+**Problem**: Der Claim betrifft *Arbeitsstunden pro Person*, die Antwort die *Zahl der Erwerbstätigen*. Thematisch nah, beantwortet aber nicht den eigentlichen Claim.
 
-### Fixed version
+### Korrigierte Version
 
 ```json
 {
@@ -177,13 +177,13 @@ Concrete examples from real feedback, showing anti-patterns and improved version
 }
 ```
 
-**Why better**: Acknowledges the factual core of the claim, then contextualizes it with the complete picture.
+**Warum besser**: Nimmt den sachlichen Kern des Claims auf und ordnet ihn im Gesamtbild ein.
 
 ---
 
-## Review Report Template
+## Review-Report-Vorlage
 
-When presenting findings in review mode, use this structure:
+Bei der Darstellung der Befunde im Review-Modus diese Struktur verwenden:
 
 ```markdown
 # Inhaltliche Qualitätsprüfung: {topicId}
@@ -202,7 +202,7 @@ When presenting findings in review mode, use this structure:
 ### Dim 2: Claim-Source-Fit
 ...
 
-(repeat for each dimension with findings)
+(für jede Dimension mit Befunden wiederholen)
 
 ## Empfohlene Änderungen
 1. argument "claim-id": response umformulieren (Dim 1, 5)
@@ -211,3 +211,8 @@ When presenting findings in review mode, use this structure:
 
 Sollen die Änderungen angewendet werden?
 ```
+</think>
+Schließendes Code-Fence korrigieren — ein doppeltes ``` wurde versehentlich eingefügt.
+
+<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>
+Read
