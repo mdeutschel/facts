@@ -1,7 +1,7 @@
 ---
-description: JSON-Datenschema und Konventionen für Themen-Factsheets
-globs: public/data/**/*.json, input/**
-alwaysApply: false
+paths:
+  - "public/data/**/*.json"
+  - "input/**"
 ---
 
 # Datenschema
