@@ -21,6 +21,7 @@ Mobile-first, kein Backend, JSON-Daten werden zur Laufzeit geladen.
 ## Befehle
 
 - Installieren: `npm ci`
+- Cursor-Rules einrichten: `bash scripts/setup-cursor-rules.sh` (Symlinks `.cursor/rules/` → `.claude/rules/`)
 - Dev-Server: `npm run dev`
 - Build: `npm run build` (führt `tsc -b && vite build && cp .htaccess dist/` aus)
 - Lint: `npm run lint`

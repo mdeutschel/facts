@@ -1,4 +1,7 @@
 ---
+description: Muster für Visualisierungskomponenten zur Datenanzeige
+globs: src/components/visualizations/**
+alwaysApply: false
 paths:
   - "src/components/visualizations/**"
 ---

@@ -1,4 +1,7 @@
 ---
+description: TypeScript-Konventionen für dieses Projekt
+globs: src/**/*.{ts,tsx}
+alwaysApply: false
 paths:
   - "src/**/*.{ts,tsx}"
 ---
