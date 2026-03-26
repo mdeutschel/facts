@@ -60,16 +60,22 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 - Themen-Daten: `public/data/{topicId}.json`
 - Neues Thema hinzufügen = neue JSON-Datei + Eintrag in `topics.json`, keine Code-Änderungen nötig
 - Schema definiert in `src/types/index.ts` — ContentBlock nutzt Discriminated Unions (`type`-Feld)
+- ContentBlock-Typen: `fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`
 - Client-seitiger Suchindex wird zur Laufzeit aus allen Topic-JSONs aufgebaut
+- `id`-Felder: kebab-case, `icon`: MUI-Icon-Name, `lastUpdated`: `YYYY-MM-DD`
+- Quellen: `label` Pflicht, `url` optional
+- Argumente: `keywords` für Suchmatching, `relatedSections` verlinkt zu Section-IDs
 
 ## Code-Konventionen
 
 ### TypeScript
 - Strict Mode aktiviert, niemals `any` verwenden
 - Alle geteilten Interfaces in `src/types/index.ts`
-- Props-Interfaces inline in Komponentendateien (`interface XProps {}`)
+- Props-Interfaces inline in Komponentendateien, benannt als `{KomponentenName}Props`
 - Keine Semikolons, einfache Anführungszeichen
 - Discriminated Unions für Variantentypen (siehe `ContentBlock`)
+- Type Assertions: `as Promise<Type>` auf `.json()`-Aufrufen bevorzugen
+- Modul-Level-Caching (einfache Objekte) statt React State für komponentenübergreifende Daten
 
 ### React + MUI
 - Nur funktionale Komponenten
@@ -79,6 +85,9 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 - Styling via `sx`-Prop — keine separaten Style-Dateien oder styled-components
 - `React.lazy()` für schwergewichtige Komponenten (z. B. Recharts-basierte Diagramme)
 - Custom Hooks geben `{ data, loading, error }` zurück
+- ContentBlock-Rendering: if-Chain auf `block.type` (Discriminated Union), siehe `FactSection.tsx`
+- Mobile-first: Touch-Targets ≥ 48px, responsiv über MUI-Breakpoints
+- Visualisierungskomponenten: rein präsentational, kein interner State oder Data Fetching
 
 ### Benennung
 - Komponenten/Seiten: `PascalCase.tsx`
