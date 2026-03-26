@@ -1,4 +1,7 @@
 ---
+description: React- und MUI-Komponentenmuster für dieses Projekt
+globs: src/components/**/*.tsx, src/pages/**/*.tsx
+alwaysApply: false
 paths:
   - "src/components/**/*.tsx"
   - "src/pages/**/*.tsx"
