@@ -111,6 +111,19 @@ Jede Quelle MUSS `id`, `label` und `url` haben:
 }
 ```
 
+## Häufige Fehlertypen
+
+Aus der Verifizierung aller 13 bestehenden Themen abgeleitete wiederkehrende Muster:
+
+| Fehlertyp | Beschreibung | Beispiel |
+|-----------|-------------|----------|
+| Halluzinierte Exaktzahlen | Zahlen die plausibel klingen, aber in keiner Quelle stehen | TCO-Rechnungen, Wirkungsgrade, Brandstatistiken |
+| Sekundär- statt Primärquelle | Journalistische Wiedergabe statt Originalstudie referenziert | n-tv-Artikel statt IAB-Presseinfo |
+| Veraltete/defekte URLs | Behörden- und Ministeriums-URLs ändern sich bei Legislaturwechseln | BMAS-, KMK-, bpb-Links |
+| Überinterpretation | Quelle stützt einen Trend, nicht die konkrete Exaktzahl | „64 %" pauschal auf „2025" statt korrekt auf „Ende 2024, neun Jahre nach Zuzug" |
+| Verrutschte sourceRefs | Referenz zeigt auf falsche Quelle nach Umsortierung des sources-Arrays | Keeling-Kurve verweist auf Emissionsquelle statt NOAA |
+| Ungenutzte Quellen | Einträge im sources-Array ohne verweisenden Block | Karteileichen aus früheren Bearbeitungen |
+
 ## Prüfliste
 
 Bei der Verifizierung jeden Inhaltsblock an diesem Muster prüfen:

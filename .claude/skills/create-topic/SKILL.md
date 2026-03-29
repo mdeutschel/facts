@@ -123,7 +123,6 @@ Gesammelte Daten der Sektionsstruktur zuordnen:
 - `lastUpdated`: heutiges Datum im Format `YYYY-MM-DD`
 - Jeder `sourceRef` muss im `sources`-Array existieren
 - `highlight: true` auf max. 1–2 Fakten pro Sektion (die wichtigsten)
-- `factCount` und `argumentCount` in den Topic-Metadaten setzen
 
 ### Phase 5: Quality Gate
 
@@ -147,25 +146,12 @@ Die Inline-Verifizierung in Phase 2 sollte die meisten Fehler bereits abgefangen
 
 ### Phase 6: Integration & Validierung
 
-1. **In `topics.json` eintragen** — einen `TopicMeta`-Eintrag anhängen:
-   ```json
-   {
-     "id": "{topicId}",
-     "title": "{topicTitle}",
-     "subtitle": "{subtitle}",
-     "icon": "{mui-icon-name}",
-     "lastUpdated": "YYYY-MM-DD",
-     "factCount": N,
-     "argumentCount": M
-   }
-   ```
-
-2. **Validieren:**
+1. **Validieren** — `npm run build` generiert automatisch den `topics.json`-Index aus der neuen Topic-Datei:
    ```bash
    npm run lint && npm run build
    ```
 
-3. **Dem Nutzer berichten**, was erstellt wurde
+2. **Dem Nutzer berichten**, was erstellt wurde
 
 ## Regeln
 
