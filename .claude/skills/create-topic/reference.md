@@ -117,3 +117,4 @@ Starkes Beispiel: Sinnvoller Einsatz von `table` für Extremwetter-Schäden. Arg
 4. **Schwarz-weiß-Argumente** — Antworten nicht als reines „Widerlegen" rahmen. Siehe review-content, Dimension 1.
 5. **Quellen überinterpretieren** — Nicht mehr behaupten, als die Quelle hergibt. Siehe review-content, Dimension 2.
 6. **Doppelte Daten** — Dieselben Daten nicht gleichzeitig als `stat_grid` UND `table` UND `fact` zeigen. Bestes Format wählen, oder `table` nur als barrierefreie Alternative zu Diagrammen.
+7. **Ungeprüfte Quellen als Grundlage** — Zahlen aus der Web-Recherche niemals ungeprüft in Strukturierung oder JSON übernehmen. Jede URL muss abgerufen und jeder Datenpunkt gegen den tatsächlichen Seiteninhalt verifiziert sein, bevor er in ContentBlocks einfließt. Siehe Phase 2 in SKILL.md.

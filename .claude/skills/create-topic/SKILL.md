@@ -6,14 +6,14 @@ argument-hint: "[topicId] [topicTitle]"
 
 # Neues Thema erstellen: `public/data/$ARGUMENTS[0].json`
 
-End-to-End-Workflow für ein neues Fakten-Stammtisch-Thema. Orchestriert Recherche, Inhaltserstellung und die bestehenden Quality-Gate-Skills (`review-content`, `verify-sources`).
+End-to-End-Workflow für ein neues Fakten-Stammtisch-Thema. Orchestriert Recherche mit integrierter Quellenverifizierung, Inhaltserstellung und die bestehenden Quality-Gate-Skills (`review-content`, `verify-sources`).
 
 ## Voraussetzungen
 
 - `src/types/index.ts` lesen für das `Topic`-Schema
 - `${CLAUDE_SKILL_DIR}/reference.md` lesen für Strukturvorlagen und Qualitäts-Benchmarks
 
-## 7-Phasen-Prozess
+## 6-Phasen-Prozess
 
 ### Phase 1: Themenanalyse & Scoping
 
@@ -39,9 +39,9 @@ Stammtisch-Argumente:
 Soll ich mit der Recherche starten?
 ```
 
-### Phase 2: Quellenrecherche
+### Phase 2: Quellenrecherche mit Inline-Verifizierung
 
-Belastbare, verifizierbare Quellen für jede geplante Sektion recherchieren. Parallele Subagents verwenden.
+Belastbare, verifizierbare Quellen für jede geplante Sektion recherchieren **und sofort verifizieren**. Parallele Subagents verwenden.
 
 **Quellenhierarchie** (höhere bevorzugen):
 1. Amtliche Statistiken (Destatis, Eurostat, Bundesministerien)
@@ -50,10 +50,39 @@ Belastbare, verifizierbare Quellen für jede geplante Sektion recherchieren. Par
 4. Peer-reviewed Studien und Meta-Analysen
 5. Qualitätsjournalismus (nur wenn Originaldaten zitiert werden)
 
-**Pro Sektion sammeln:**
+**Pro Sektion sammeln und inline verifizieren:**
 - 2–4 konkrete Datenpunkte mit exakten Zahlen
 - Die Quell-URL für jeden Datenpunkt
 - Das Veröffentlichungsdatum (Daten der letzten 2 Jahre bevorzugen)
+
+**Inline-Verifizierung — jede URL sofort prüfen:**
+
+Für jeden recherchierten Datenpunkt direkt im Anschluss:
+
+1. **URL abrufen** — Quell-URL per WebFetch laden
+2. **Zahlen extrahieren** — die konkreten Datenpunkte aus dem Seiteninhalt herausziehen
+3. **Abgleich** — jeden notierten Wert gegen die extrahierten Daten prüfen und einordnen:
+   - ✓ **VERIFIZIERT**: Zahl stimmt mit Quelle überein → in Ergebnisliste aufnehmen
+   - ⚠ **ABWEICHUNG**: Zahl weicht ab → korrigierte Zahl aus Quelle übernehmen
+   - ✗ **NICHT VERIFIZIERBAR**: URL nicht erreichbar oder Zahl nicht auffindbar → als Lücke markieren, alternative Quelle suchen
+
+**Gate:** Nur Datenpunkte mit Status ✓ oder ⚠ (korrigiert) kommen in die Ergebnisliste. ✗-Datenpunkte brauchen eine Ersatzquelle oder werden gestrichen.
+
+**Nach Abschluss aller Sektionen — Quellenbericht dem Nutzer vorlegen:**
+
+```
+Recherche-Ergebnis für "{topicTitle}":
+
+Verifizierte Quellen:
+✓ {source-id} — {Kernaussage} (Quelle: {url})
+✓ {source-id} — ...
+⚠ {source-id} — korrigiert: {alt} → {neu} (Quelle: {url})
+
+Offene Lücken:
+✗ Sektion "{section}" — kein belastbarer Datenpunkt für {Aspekt} gefunden
+
+Soll ich mit der Strukturierung fortfahren oder zuerst Lücken schließen?
+```
 
 **Quellen-ID-Konvention:** `{herausgeber-kebab}-{themen-stichwort}` (z. B. `destatis-mietpreisindex-2025`)
 
@@ -96,9 +125,11 @@ Gesammelte Daten der Sektionsstruktur zuordnen:
 - `highlight: true` auf max. 1–2 Fakten pro Sektion (die wichtigsten)
 - `factCount` und `argumentCount` in den Topic-Metadaten setzen
 
-### Phase 5: Qualitätsprüfung
+### Phase 5: Quality Gate
 
-Den `review-content`-Skill auf das neue Thema anwenden:
+Beide Quality-Gate-Skills nacheinander auf das neue Thema anwenden.
+
+**Schritt 1 — Inhaltliche Qualitätsprüfung:**
 
 ```
 /review-content {topicId}
@@ -106,17 +137,15 @@ Den `review-content`-Skill auf das neue Thema anwenden:
 
 Alle ✗ PROBLEM-Befunde beheben. ⚠ VERBESSERBAR-Befunde soweit möglich adressieren.
 
-### Phase 6: Quellenverifizierung
-
-Den `verify-sources`-Skill auf das neue Thema anwenden:
+**Schritt 2 — Quellenverifizierung (Sicherheitsnetz):**
 
 ```
 /verify-sources {topicId}
 ```
 
-Alle Datenabweichungen korrigieren. Fehlende URLs ergänzen. Nicht verifizierbare sourceRefs entfernen.
+Die Inline-Verifizierung in Phase 2 sollte die meisten Fehler bereits abgefangen haben. Dieser Durchlauf stellt sicher, dass auch beim Schreiben der JSON in Phase 4 keine neuen Fehler eingeflossen sind (z. B. verrutschte sourceRefs, versehentlich geänderte Zahlen). Verbleibende Abweichungen korrigieren, nicht verifizierbare sourceRefs entfernen.
 
-### Phase 7: Integration & Validierung
+### Phase 6: Integration & Validierung
 
 1. **In `topics.json` eintragen** — einen `TopicMeta`-Eintrag anhängen:
    ```json
@@ -140,7 +169,7 @@ Alle Datenabweichungen korrigieren. Fehlende URLs ergänzen. Nicht verifizierbar
 
 ## Regeln
 
-- **Nutzerbestätigung** nach Phase 1 (Gliederung) und vor Phase 7 (Integration)
+- **Nutzerbestätigung** nach Phase 1 (Gliederung), nach Phase 2 (Quellenbericht) und vor Phase 6 (Integration)
 - **Keine halluzinierten Daten** — jede Zahl muss aus einer verifizierten Quelle stammen
 - **Ausgewogenes Framing** — die Seite argumentiert mit guten Quellen, muss aber fair bleiben
 - **Konservative Sprache** — bei Unsicherheit abschwächen, niemals übertreiben
