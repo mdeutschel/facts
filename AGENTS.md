@@ -120,7 +120,7 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 
 ## Thema erstellen
 
-Um ein komplett neues Thema von Grund auf zu erstellen, `/create-topic {topicId} {topicTitle}` verwenden. Der Skill orchestriert Recherche, JSON-Erstellung und beide Quality Gates (`review-content`, `verify-sources`) in einem 7-Phasen-Workflow. Vollständige Anleitung in `.claude/skills/create-topic/SKILL.md`.
+Um ein komplett neues Thema von Grund auf zu erstellen, `/create-topic {topicId} {topicTitle}` verwenden. Der Skill orchestriert Recherche mit integrierter Quellenverifizierung, JSON-Erstellung und beide Quality Gates (`review-content`, `verify-sources`) in einem 6-Phasen-Workflow. Vollständige Anleitung in `.claude/skills/create-topic/SKILL.md`.
 
 ## Quellenverifizierung
 
