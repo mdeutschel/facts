@@ -23,7 +23,7 @@ Mobile-first, kein Backend, JSON-Daten werden zur Laufzeit geladen.
 - Installieren: `npm ci`
 - Cursor-Rules einrichten: `bash scripts/setup-cursor-rules.sh` (Symlinks `.cursor/rules/` → `.claude/rules/`)
 - Dev-Server: `npm run dev`
-- Build: `npm run build` (führt `tsc -b && vite build && cp .htaccess dist/` aus)
+- Build: `npm run build` (führt `generate-topic-index.mjs && generate-seo.mjs && tsc -b && vite build && cp .htaccess dist/` aus)
 - Lint: `npm run lint`
 - Vorschau: `npm run preview`
 
@@ -57,9 +57,9 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 
 ## Datenarchitektur
 
-- Themen-Index: `public/data/topics.json`
+- Themen-Index: `public/data/topics.json` (auto-generiert beim Build aus allen Topic-JSONs)
 - Themen-Daten: `public/data/{topicId}.json`
-- Neues Thema hinzufügen = neue JSON-Datei + Eintrag in `topics.json`, keine Code-Änderungen nötig
+- Neues Thema hinzufügen = neue JSON-Datei anlegen, `npm run build` generiert den Index automatisch
 - Schema definiert in `src/types/index.ts` — ContentBlock nutzt Discriminated Unions (`type`-Feld)
 - ContentBlock-Typen: `fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`
 - Client-seitiger Suchindex wird zur Laufzeit aus allen Topic-JSONs aufgebaut
@@ -67,28 +67,23 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 - Quellen: `label` Pflicht, `url` optional
 - Argumente: `keywords` für Suchmatching, `relatedSections` verlinkt zu Section-IDs
 
+## Auto-generierte Dateien
+
+Folgende Dateien werden beim Build erzeugt und sollten nicht manuell gepflegt werden:
+
+- `public/data/topics.json` — Topic-Index, generiert von `scripts/generate-topic-index.mjs` aus allen `public/data/*.json`
+- SEO-Dateien — generiert von `scripts/generate-seo.mjs`
+
 ## Code-Konventionen
 
-### TypeScript
-- Strict Mode aktiviert, niemals `any` verwenden
-- Alle geteilten Interfaces in `src/types/index.ts`
-- Props-Interfaces inline in Komponentendateien, benannt als `{KomponentenName}Props`
-- Keine Semikolons, einfache Anführungszeichen
-- Discriminated Unions für Variantentypen (siehe `ContentBlock`)
-- Type Assertions: `as Promise<Type>` auf `.json()`-Aufrufen bevorzugen
-- Modul-Level-Caching (einfache Objekte) statt React State für komponentenübergreifende Daten
+Detaillierte Konventionen sind in den Rule-Dateien unter `.claude/rules/` definiert (Single Source of Truth):
 
-### React + MUI
-- Nur funktionale Komponenten
-- Default-Exports für Komponenten und Seiten
-- Named Exports für Hooks und Hilfsfunktionen
-- MUI-Imports: Einzelimports (`import Box from '@mui/material/Box'`), nicht destrukturiert
-- Styling via `sx`-Prop — keine separaten Style-Dateien oder styled-components
-- `React.lazy()` für schwergewichtige Komponenten (z. B. Recharts-basierte Diagramme)
-- Custom Hooks geben `{ data, loading, error }` zurück
-- ContentBlock-Rendering: if-Chain auf `block.type` (Discriminated Union), siehe `FactSection.tsx`
-- Mobile-first: Touch-Targets ≥ 48px, responsiv über MUI-Breakpoints
-- Visualisierungskomponenten: rein präsentational, kein interner State oder Data Fetching
+| Rule-Datei | Scope | Inhalt |
+|------------|-------|--------|
+| `typescript.md` | `src/**/*.{ts,tsx}` | Strict Mode, kein `any`, Interfaces, Assertions, Caching |
+| `react-components.md` | `src/components/**`, `src/pages/**` | Komponentenstruktur, MUI-Imports, `sx`-Styling, Mobile-first |
+| `visualizations.md` | `src/components/visualizations/**` | Präsentationale Muster, Recharts lazy-loading, Komponenten-Mapping |
+| `data-schema.md` | `public/data/**/*.json`, `input/**` | ContentBlock-Typen, ID-/Quellen-Konventionen |
 
 ### Benennung
 - Komponenten/Seiten: `PascalCase.tsx`
@@ -132,10 +127,26 @@ Topic-Inhalte müssen argumentativ stichhaltig, ausgewogen und schwer angreifbar
 
 Zentrale Qualitätsdimensionen: Nuance & Teilwahrheiten, Claim-Source-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung.
 
+## Thema bearbeiten
+
+Beim Aktualisieren oder Erweitern bestehender Topic-JSONs:
+
+1. JSON bearbeiten — dabei Autor-Modus-Leitplanken aus `review-content` anwenden
+2. `/review-content {topicId}` — Framing und Argumentation prüfen
+3. `/verify-sources {topicId}` — bei geänderten Daten oder Quellen
+4. `npm run build` — Validierung und Index-Neugenerierung
+
 ## Definition of Done
 
-Eine Aufgabe ist abgeschlossen, wenn:
+### Code-Änderungen
+
 1. `npm run lint` mit Exit-Code 0 durchläuft
 2. `npm run build` mit Exit-Code 0 durchläuft
 3. Keine `any`-Types eingeführt wurden
-4. Änderungen den oben dokumentierten Code-Patterns folgen
+4. Änderungen den dokumentierten Code-Patterns folgen (siehe `.claude/rules/`)
+
+### Inhaltsänderungen an Topic-JSONs
+
+1. `npm run build` mit Exit-Code 0 durchläuft
+2. `review-content` durchlaufen — keine ✗ PROBLEM-Befunde offen
+3. `verify-sources` durchlaufen — keine ✗ FALSCH-Befunde offen

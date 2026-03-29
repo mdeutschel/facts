@@ -9,14 +9,7 @@
 - Debug-Ausgaben sparsam: primär für Fehler, mehr nur auf Anweisung
 - Kein Commit ohne explizite Anweisung durch den Nutzer
 - Vor Library-Nutzung: aktuelle Docs prüfen (MUI v7, React 19, Vite 8)
-
-## Vor dem Melden als fertig prüfen
-
-```bash
-npm run lint && npm run build
-```
-
-Erst nach erfolgreichem Durchlauf als fertig melden.
+- Vor dem Melden als fertig: Definition of Done aus AGENTS.md einhalten
 
 ## Projektspezifischer Kontext
 
