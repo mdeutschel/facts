@@ -293,10 +293,16 @@ async function injectFallback(topics, topicDataById) {
     return
   }
 
-  // Replace existing fallback content inside <div id="root">
+  // Move fallback into <noscript> and keep <div id="root"> empty
+  let updated = html
   const rootRegex = /(<div id="root">)[\s\S]*?(<\/div>)/
-  if (rootRegex.test(html)) {
-    await writeFile(indexPath, html.replace(rootRegex, `$1\n${fallback}\n    $2`), 'utf8')
+  if (rootRegex.test(updated)) {
+    updated = updated.replace(rootRegex, '<div id="root"></div>')
+  }
+  const noscriptRegex = /(<noscript>)[\s\S]*?(<\/noscript>)/
+  if (noscriptRegex.test(updated)) {
+    updated = updated.replace(noscriptRegex, `$1\n${fallback}\n    $2`)
+    await writeFile(indexPath, updated, 'utf8')
   }
 }
 
