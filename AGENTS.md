@@ -18,6 +18,13 @@ Mobile-first, kein Backend, JSON-Daten werden zur Laufzeit geladen.
 | TypeScript | 5.9 | Sprache (strict mode) |
 | ESLint | 9.x | Linting (Flat-Config) |
 
+## Technische Hinweise
+
+- MUI v7 hat Breaking Changes gegenüber v6 (Pigment CSS, neue Slot-API)
+- React 19 Actions, `use()`, `useOptimistic()` sind verfügbar
+- Vite 8 nutzt natives ESM — keine CommonJS-Importe
+- Recharts wird lazy geladen (`React.lazy`)
+
 ## Befehle
 
 - Installieren: `npm ci`
