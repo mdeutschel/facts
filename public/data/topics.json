@@ -116,6 +116,15 @@
       "lastUpdated": "2026-03-19",
       "factCount": 10,
       "argumentCount": 12
+    },
+    {
+      "id": "gendern",
+      "title": "Gendern & Sprachpolitik",
+      "subtitle": "Fakten zu Gendersprache, Umfragen, Sprachforschung und Regulierung",
+      "icon": "forum",
+      "lastUpdated": "2026-03-30",
+      "factCount": 8,
+      "argumentCount": 10
     }
   ]
 }
