@@ -125,6 +125,15 @@
       "lastUpdated": "2026-03-30",
       "factCount": 8,
       "argumentCount": 10
+    },
+    {
+      "id": "ki-arbeitsmarkt",
+      "title": "KI und der Arbeitsmarkt",
+      "subtitle": "Fakten zu Automatisierung, Jobwandel und Qualifizierung in Deutschland",
+      "icon": "smart_toy",
+      "lastUpdated": "2026-03-30",
+      "factCount": 8,
+      "argumentCount": 9
     }
   ]
 }

@@ -1,0 +1,465 @@
+{
+  "id": "ki-arbeitsmarkt",
+  "title": "KI und der Arbeitsmarkt",
+  "subtitle": "Fakten zu Automatisierung, Jobwandel und Qualifizierung in Deutschland",
+  "icon": "smart_toy",
+  "lastUpdated": "2026-03-30",
+  "keyStats": [
+    "26 % der Unternehmen nutzen KI (Destatis 2025)",
+    "Bis zu 3 Mio. Jobwechsel in DE bis 2030",
+    "13 Mio. Beschäftigte in hochexponierten Berufen",
+    "9 Argumente"
+  ],
+  "sourceNote": "Basierend auf Daten von Destatis, IAB, Eurostat, IWF, McKinsey, ifo Institut, IW Köln, Bitkom und BMAS (Stand März 2026).",
+  "sections": [
+    {
+      "id": "status-quo",
+      "title": "Wie verbreitet ist KI in deutschen Unternehmen?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "26 %", "label": "der Unternehmen nutzen KI", "sublabel": "Destatis 2025"},
+            {"value": "57 %", "label": "bei Großunternehmen", "sublabel": "≥ 250 Beschäftigte"},
+            {"value": "23 %", "label": "bei kleinen Unternehmen", "sublabel": "10–49 Beschäftigte"},
+            {"value": "Platz 8", "label": "in der EU", "sublabel": "über dem Durchschnitt (20 %)"}
+          ],
+          "sourceRefs": ["destatis-ki-nutzung-2025", "eurostat-ki-unternehmen-2025"]
+        },
+        {
+          "type": "text",
+          "text": "Die KI-Nutzung hat sich in Deutschland seit 2023 mehr als verdoppelt: von 12 % (2023) über 20 % (2024) auf 26 % (2025, Destatis). Der sprunghafte Anstieg ab 2024 geht vor allem auf generative KI zurück — Text Mining, Bild- und Sprachgeneratoren sind die am häufigsten genutzten Technologien. Deutschland liegt damit über dem EU-Durchschnitt, aber deutlich hinter den nordischen Spitzenreitern Dänemark (42 %) und Finnland (38 %).",
+          "sourceRefs": ["destatis-ki-nutzung-2025", "eurostat-ki-unternehmen-2025"]
+        },
+        {
+          "type": "fact",
+          "text": "Der Anteil der Unternehmen, für die KI ‚kein Thema' ist, sank innerhalb eines Jahres von 41 % auf 17 %. Fast die Hälfte (47 %) plant oder diskutiert inzwischen den KI-Einsatz.",
+          "highlight": true,
+          "sourceRefs": ["bitkom-ki-studie-2025"]
+        }
+      ]
+    },
+    {
+      "id": "automatisierungspotenziale",
+      "title": "Welche Berufe sind besonders exponiert?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Das IAB misst für jeden Beruf, welcher Anteil seiner Kerntätigkeiten heute potenziell von Computern oder KI übernommen werden könnte — das sogenannte Substituierbarkeitspotenzial. Das bedeutet nicht, dass diese Jobs tatsächlich wegfallen, sondern zeigt, wo technisch eine Automatisierung möglich wäre.",
+          "sourceRefs": ["iab-substituierbarkeit-kb2024"]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Substituierbarkeitspotenzial nach Anforderungsniveau (2022)",
+          "items": [
+            {"label": "Fachkraftberufe", "value": 62, "highlight": true},
+            {"label": "Helferberufe", "value": 57},
+            {"label": "Spezialistenberufe", "value": 50},
+            {"label": "Expertenberufe", "value": 36}
+          ],
+          "unit": "%",
+          "sourceRefs": ["iab-substituierbarkeit-kb2024"]
+        },
+        {
+          "type": "fact",
+          "text": "13,03 Millionen sozialversicherungspflichtig Beschäftigte (38 %) arbeiten in Berufen mit einem Substituierbarkeitspotenzial von über 70 %. 2019 waren es noch 34 %.",
+          "highlight": true,
+          "sourceRefs": ["iab-substituierbarkeit-kb2024"]
+        },
+        {
+          "type": "text",
+          "text": "Die überraschende Erkenntnis: Durch generative KI steigt das Potenzial bei Expertenberufen am stärksten (+9,7 Prozentpunkte seit 2019), obwohl es dort absolut am niedrigsten bleibt. Hochqualifizierte bekommen die Digitalisierung verstärkt zu spüren — ein neues Phänomen, das vor allem auf Text-, Bild- und Codegeneratoren zurückgeht.",
+          "sourceRefs": ["iab-substituierbarkeit-kb2024"]
+        }
+      ]
+    },
+    {
+      "id": "jobeffekte-prognosen",
+      "title": "Vernichtet KI Jobs oder schafft sie neue?",
+      "content": [
+        {
+          "type": "progress_stack",
+          "caption": "KI-Exposition in Industrieländern (IWF-Schätzung)",
+          "segments": [
+            {"label": "Potenziell negativ betroffen", "value": 30, "sublabel": "Teilaufgaben könnten ersetzt werden"},
+            {"label": "Potenziell produktiver", "value": 30, "sublabel": "KI ergänzt bestehende Aufgaben"},
+            {"label": "Gering exponiert", "value": 40, "sublabel": "Kaum von KI betroffen"}
+          ],
+          "total": "100 % der Arbeitsplätze",
+          "sourceRefs": ["iwf-ai-jobs-2024"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "3 Mio.", "label": "Jobwechsel in DE bis 2030", "sublabel": "McKinsey (2024)"},
+            {"value": "1,6 Mio.", "label": "Strukturwandel über 15 Jahre", "sublabel": "IAB (2025)"},
+            {"value": "+78 Mio.", "label": "Netto neue Jobs weltweit", "sublabel": "WEF (2025)"},
+            {"value": "27 %", "label": "der Unternehmen erwarten Stellenabbau", "sublabel": "ifo (2025)"}
+          ],
+          "sourceRefs": ["mckinsey-future-of-work-2024", "iab-ki-szenario-2025", "wef-future-of-jobs-2025", "ifo-ki-umfrage-2025"]
+        },
+        {
+          "type": "fact",
+          "text": "Die IAB-Szenarioanalyse kommt zum Ergebnis, dass der Nettoeffekt von KI auf die Gesamtbeschäftigung in Deutschland nahezu neutral ausfällt — es werden etwa so viele Arbeitsplätze geschaffen wie abgebaut.",
+          "highlight": true,
+          "sourceRefs": ["iab-ki-szenario-2025"]
+        },
+        {
+          "type": "text",
+          "text": "Die Studien unterscheiden sich in Methodik und Zeithorizont, zeigen aber ein gemeinsames Muster: KI verändert Berufe stärker, als sie sie abschafft. McKinsey schätzt, dass in Deutschland bis zu 3 Millionen Menschen den Beruf wechseln müssen — vor allem aus Büro- und Verwaltungstätigkeiten (54 % der Jobwechsel). Gleichzeitig erwarten nur 5 % der Unternehmen, durch KI zusätzliche Stellen zu schaffen.",
+          "sourceRefs": ["mckinsey-future-of-work-2024", "ifo-ki-umfrage-2025"]
+        }
+      ]
+    },
+    {
+      "id": "betroffene-berufsgruppen",
+      "title": "Wer gewinnt, wer verliert?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Generative KI hat das Bild verschoben: Nicht mehr nur Fabrikarbeit ist exponiert, sondern zunehmend Wissensarbeit. Der stärkste Anstieg der Substituierbarkeit findet in IT- und naturwissenschaftlichen Dienstleistungsberufen statt, gefolgt von Handels- und Unternehmensführungsberufen. Kaum verändert haben sich soziale, pflegerische und handwerkliche Berufe.",
+          "sourceRefs": ["iab-substituierbarkeit-kb2024"]
+        },
+        {
+          "type": "table",
+          "caption": "Substituierbarkeitspotenzial ausgewählter Berufe (IAB 2024)",
+          "headers": ["Beruf", "2019", "2022", "Veränderung"],
+          "rows": [
+            ["Synchronsprecher:in", "< 100 %", "100 %", "vollständig"],
+            ["Modedesigner:in", "50 %", "88 %", "+38 PP"],
+            ["Softwareentwickler:in", "–", "–", "+~30 PP"],
+            ["Komponist:in", "0 %", "25 %", "+25 PP"],
+            ["Betriebswirt:in (Industrie)", "46 %", "69 %", "+23 PP"],
+            ["Journalist:in", "20 %", "40 %", "+20 PP"],
+            ["Gesundheitsberufe", "~27 %", "~27 %", "±0"],
+            ["Soziale Dienstleistungen", "~14 %", "~14 %", "±0"]
+          ],
+          "sourceRefs": ["iab-substituierbarkeit-kb2024"]
+        },
+        {
+          "type": "fact",
+          "text": "Frauen sind in Industrieländern fast dreimal stärker von KI-Automatisierung bedroht als Männer: 9,6 % der weiblichen Arbeitsplätze fallen in die höchste Expositionsstufe, bei Männern sind es 3,5 %. Grund ist die starke Konzentration von Frauen in Büro-, Verwaltungs- und Buchhaltungstätigkeiten.",
+          "sourceRefs": ["ilo-genai-gender-2024"]
+        }
+      ]
+    },
+    {
+      "id": "produktivitaet",
+      "title": "Welches wirtschaftliche Potenzial hat KI?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "0,9 %/a", "label": "Produktivitätswachstum 2025–2030", "sublabel": "IW Köln"},
+            {"value": "1,2 %/a", "label": "Produktivitätswachstum 2030–2040", "sublabel": "IW Köln"},
+            {"value": "+11 PP", "label": "BIP-Boost DE bis 2035", "sublabel": "PwC (optimistisch)"},
+            {"value": "8,2 Mrd. €", "label": "Deutscher KI-Markt 2024", "sublabel": "Bitkom/IDC (Prognose)"}
+          ],
+          "sourceRefs": ["iw-koeln-ki-produktivitaet", "pwc-value-in-motion", "bitkom-ki-markt-deutschland"]
+        },
+        {
+          "type": "fact",
+          "text": "Konkret messbare Produktivitätsgewinne: Im Kundenservice steigerte KI-Assistenz die Produktivität um 14 %, bei Berufseinsteigern sogar um 35 %. BCG-Berater mit GPT-4-Zugang lieferten 40 % bessere Qualität und waren 25 % schneller — bei Aufgaben außerhalb der KI-Kompetenz verschlechterten sich die Ergebnisse allerdings um 23 %.",
+          "highlight": true,
+          "sourceRefs": ["stanford-nber-kundenservice", "bcg-harvard-ki-berater"]
+        },
+        {
+          "type": "text",
+          "text": "Das IW Köln erwartet kein ‚Produktivitätswunder': In den bisherigen 2020er-Jahren lag das Produktivitätswachstum bei nur 0,4 % — KI könnte es auf 0,9 bis 1,2 % steigern, was eine deutliche Verbesserung wäre, aber keine Revolution. Entscheidend ist die Adoptionsgeschwindigkeit: McKinsey schätzt, dass ohne schnelle Umsetzung und Qualifizierung nur 0,2 % Wachstum erreichbar sind.",
+          "sourceRefs": ["iw-koeln-ki-produktivitaet", "mckinsey-future-of-work-2024"]
+        }
+      ]
+    },
+    {
+      "id": "qualifizierung-weiterbildung",
+      "title": "Was wird für den Wandel getan?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "20 %", "label": "erhalten KI-Schulung vom Arbeitgeber", "sublabel": "Bitkom (2025)"},
+            {"value": "49 %", "label": "besitzen digitale Basiskompetenzen", "sublabel": "Initiative D21"},
+            {"value": "1,1 %", "label": "WB-Quote Hilfsarbeitskräfte", "sublabel": "vs. 10,5 % Akademiker"},
+            {"value": "46,4 Mrd. €", "label": "WB-Investitionen der Wirtschaft", "sublabel": "IW Köln (2022)"}
+          ],
+          "sourceRefs": ["bitkom-ki-fortbildung", "d21-digital-skills-gap", "destatis-weiterbildungsquote", "iw-weiterbildungserhebung-2023"]
+        },
+        {
+          "type": "text",
+          "text": "Die Bundesregierung hat mit dem Qualifizierungschancengesetz, der Nationalen Weiterbildungsstrategie und dem KI-Aktionsplan (über 1,6 Mrd. €) Instrumente geschaffen. Das Ziel: eine Weiterbildungsquote von 65 % bis 2030. Seit Februar 2025 verpflichtet der EU AI Act alle Unternehmen zudem, Mitarbeitenden mit KI-Kontakt eine Grundschulung in KI-Kompetenz anzubieten.",
+          "sourceRefs": ["bmas-weiterbildungsstrategie", "bundesregierung-ki-aktionsplan-2024", "eu-ai-act-2024"]
+        },
+        {
+          "type": "fact",
+          "text": "Die Schere bei der Weiterbildung geht auf: Akademiker haben eine 9,5-mal höhere Weiterbildungsquote als Hilfsarbeitskräfte (10,5 % vs. 1,1 %). Nur 49 % der Bevölkerung besitzen digitale Basiskompetenzen — bei Einkommensschwachen sind es nur 32 %.",
+          "highlight": true,
+          "sourceRefs": ["destatis-weiterbildungsquote", "d21-digital-skills-gap"]
+        },
+        {
+          "type": "text",
+          "text": "Die Programme existieren, aber ihre Reichweite ist begrenzt: 70 % der Beschäftigten bekommen keine KI-Fortbildung angeboten. Geringqualifizierte und KMU sind systematisch unterrepräsentiert. Die Herausforderung liegt nicht im fehlenden Angebot, sondern darin, die Richtigen zu erreichen.",
+          "sourceRefs": ["bitkom-ki-fortbildung", "destatis-weiterbildungsquote"]
+        }
+      ]
+    },
+    {
+      "id": "internationaler-vergleich",
+      "title": "Wo steht Deutschland im globalen KI-Wettbewerb?",
+      "content": [
+        {
+          "type": "bar_chart",
+          "caption": "Private KI-Investitionen 2024 (Mrd. US-Dollar)",
+          "items": [
+            {"label": "USA", "value": 109.1, "highlight": true},
+            {"label": "China", "value": 9.3},
+            {"label": "UK", "value": 4.5},
+            {"label": "Schweden", "value": 4.3},
+            {"label": "Kanada", "value": 2.9},
+            {"label": "Frankreich", "value": 2.6},
+            {"label": "Deutschland", "value": 2.0, "highlight": true}
+          ],
+          "unit": "Mrd. $",
+          "sourceRefs": ["stanford-ai-index-2025"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {"value": "Platz 7", "label": "Tortoise Global AI Index", "sublabel": "von 83 Ländern (2024)"},
+            {"value": "Platz 5", "label": "KI-Patente weltweit", "sublabel": "Nr. 1 in Europa (WIPO)"},
+            {"value": "935", "label": "KI-Startups in Deutschland", "sublabel": "+36 % ggü. Vorjahr (2025)"},
+            {"value": "12×", "label": "weniger Pro-Kopf-VC als die USA"}
+          ],
+          "sourceRefs": ["tortoise-global-ai-2024", "wipo-ai-patents-2024", "appliedai-startup-landscape-2025", "stanford-ai-index-2025"]
+        },
+        {
+          "type": "text",
+          "text": "Deutschland zeigt ein zweigeteiltes Bild: Stark in Forschung (3,1 % des BIP für F&E), industrieller KI-Anwendung und Patenten — schwach bei Risikokapital, Skalierung von Startups und der Geschwindigkeit der KI-Adoption in traditionellen Industrien. 90 % der deutschen KI-Startups sind B2B-orientiert mit Fokus auf Manufacturing, Gesundheit und branchenübergreifende Lösungen. Die Schwäche liegt weniger in der Innovation als im Transfer in die breite wirtschaftliche Anwendung.",
+          "sourceRefs": ["appliedai-startup-landscape-2025", "stanford-ai-index-2025"]
+        }
+      ]
+    },
+    {
+      "id": "regulierung",
+      "title": "EU AI Act und nationale KI-Strategie",
+      "content": [
+        {
+          "type": "timeline",
+          "caption": "Regulatorische Meilensteine",
+          "steps": [
+            {"label": "Nov 2018", "value": "Nationale KI-Strategie (3 Mrd. €)", "sublabel": "Bundesregierung"},
+            {"label": "Dez 2020", "value": "Fortschreibung KI-Strategie (5 Mrd. €)", "sublabel": "Konjunkturpaket"},
+            {"label": "Apr 2021", "value": "EU-Kommission legt AI-Act-Entwurf vor"},
+            {"label": "Aug 2024", "value": "EU AI Act tritt in Kraft", "highlight": true},
+            {"label": "Feb 2025", "value": "Phase 1: Verbotene Praktiken und KI-Kompetenzpflicht", "highlight": true},
+            {"label": "Aug 2025", "value": "Phase 2: GPAI-Modell-Regeln und nationale Behörden"},
+            {"label": "Aug 2026", "value": "Phase 3: Hochrisiko-KI voll durchsetzbar"},
+            {"label": "Aug 2027", "value": "Phase 4: Eingebettete Hochrisiko-Systeme"}
+          ],
+          "sourceRefs": ["eu-ai-act-2024", "bundesregierung-ki-aktionsplan-2024"]
+        },
+        {
+          "type": "text",
+          "text": "Der EU AI Act — das weltweit erste umfassende KI-Gesetz — hat direkte Auswirkungen auf den Arbeitsmarkt: Emotionserkennung am Arbeitsplatz ist seit Februar 2025 verboten. KI-Systeme für Bewerbungsfilterung, Leistungsüberwachung und Beförderungsentscheidungen gelten als Hochrisiko und müssen ab August 2026 strenge Auflagen erfüllen, darunter Risikomanagement, menschliche Aufsicht und Transparenz. Bei Verstößen gegen verbotene Praktiken drohen bis zu 35 Mio. € oder 7 % des globalen Jahresumsatzes.",
+          "sourceRefs": ["eu-ai-act-2024"]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "ki-vernichtet-jobs",
+      "claim": "KI wird die Hälfte aller Jobs vernichten!",
+      "response": "Die Angst ist verständlich, aber die Forschung zeichnet ein anderes Bild. Laut IAB fällt der Nettoeffekt von KI auf die Gesamtbeschäftigung in Deutschland nahezu neutral aus — es werden etwa so viele Arbeitsplätze geschaffen wie abgebaut. Allerdings müssen bis zu 3 Millionen Menschen den Beruf wechseln. Das Problem ist weniger Massenarbeitslosigkeit als ein massiver Umschulungsbedarf.",
+      "keywords": ["arbeitsplätze", "jobverlust", "massenarbeitslosigkeit", "automatisierung", "stellenabbau"],
+      "relatedSections": ["jobeffekte-prognosen", "automatisierungspotenziale"]
+    },
+    {
+      "id": "bueroarbeit-ueberfluessig",
+      "claim": "In ein paar Jahren braucht man keine Bürojobs mehr!",
+      "response": "Büro- und Verwaltungstätigkeiten sind tatsächlich am stärksten betroffen — 54 % der geschätzten Jobwechsel entfallen auf diesen Bereich. Aber ‚betroffen' heißt nicht ‚überflüssig': BCG-Berater mit KI-Zugang lieferten 40 % bessere Qualität, was zeigt, dass KI eher ein Werkzeug als ein Ersatz ist. Die Aufgabenprofile werden sich verändern, die Funktionen bleiben.",
+      "keywords": ["bürojobs", "büroarbeit", "verwaltung", "sachbearbeitung", "schreibtisch", "überflüssig"],
+      "relatedSections": ["betroffene-berufsgruppen", "produktivitaet"]
+    },
+    {
+      "id": "deutschland-verschlaeft",
+      "claim": "Deutschland verschläft die KI-Revolution!",
+      "response": "Das Bild ist differenzierter: Deutschland liegt auf Platz 7 im globalen KI-Index, hält Platz 5 bei KI-Patenten und hat 935 aktive KI-Startups. Die echte Schwäche liegt im Risikokapital (12-mal weniger pro Kopf als die USA) und der langsamen KI-Adoption in traditionellen Industrien. Deutschland hat die Forschung, aber nicht die Skalierung.",
+      "keywords": ["verschlafen", "rückstand", "innovation", "wettbewerb", "standort"],
+      "relatedSections": ["internationaler-vergleich", "status-quo"]
+    },
+    {
+      "id": "nur-einfache-taetigkeiten",
+      "claim": "KI betrifft nur einfache Tätigkeiten!",
+      "response": "Das Gegenteil ist der Fall: Die stärkste Zunahme der Automatisierbarkeit zeigt sich bei Expertenberufen (+9,7 Prozentpunkte). Betriebswirte, Softwareentwickler und Journalisten erleben Sprünge von 20 bis 30 Prozentpunkten. Der absolute Wert bleibt bei Fachkraftberufen am höchsten (62 %), aber der Trend zeigt klar: Generative KI trifft zunehmend die Wissensarbeit.",
+      "keywords": ["einfache arbeit", "ungelernte", "niedrigqualifizierte", "akademiker", "hochqualifizierte"],
+      "relatedSections": ["automatisierungspotenziale", "betroffene-berufsgruppen"]
+    },
+    {
+      "id": "nur-produktiver",
+      "claim": "KI macht nur produktiver, niemand verliert seinen Job!",
+      "response": "Produktivitätsgewinne sind real — bis zu 14 % im Kundenservice, 40 % bessere Qualität in der Beratung. Aber 27 % der deutschen Unternehmen erwarten in den nächsten fünf Jahren Stellenabbau durch KI, und das IAB rechnet mit 1,6 Millionen umgeschichteten Arbeitsplätzen. Produktivität und Jobabbau schließen sich nicht gegenseitig aus — sie passieren gleichzeitig.",
+      "keywords": ["produktivität", "effizienz", "kein jobverlust", "ergänzung", "unterstützung"],
+      "relatedSections": ["produktivitaet", "jobeffekte-prognosen"]
+    },
+    {
+      "id": "politik-tut-nichts",
+      "claim": "Die Politik tut nichts für Weiterbildung!",
+      "response": "Es gibt durchaus Programme: das Qualifizierungschancengesetz, die Nationale Weiterbildungsstrategie, über 5 Milliarden Euro für die KI-Strategie. Das Problem ist die Reichweite: Nur 20 % der Beschäftigten erhalten KI-Schulungen, Hilfsarbeitskräfte haben eine 9,5-mal niedrigere Weiterbildungsquote als Akademiker. Die Instrumente existieren — sie erreichen aber systematisch die Falschen.",
+      "keywords": ["weiterbildung", "umschulung", "qualifizierung", "politik", "förderung", "schulung"],
+      "relatedSections": ["qualifizierung-weiterbildung", "regulierung"]
+    },
+    {
+      "id": "kreative-arbeit-weg",
+      "claim": "KI nimmt den Kreativen die Arbeit weg!",
+      "response": "Kreativberufe sind tatsächlich stark betroffen: Modedesigner (+38 PP), Journalisten (+20 PP), Komponisten erstmals automatisierbar (von 0 auf 25 %). Der Synchronsprecher ist der einzige Beruf mit 100 % Substituierbarkeit. Aber in der Breite zeigt sich eher eine Verschiebung hin zur Mensch-KI-Kollaboration als eine vollständige Ersetzung — kreative Gesamtkonzepte sind bisher kaum automatisierbar.",
+      "keywords": ["kreativität", "künstler", "designer", "journalist", "musik", "kreative berufe"],
+      "relatedSections": ["betroffene-berufsgruppen", "automatisierungspotenziale"]
+    },
+    {
+      "id": "china-usa-voraus",
+      "claim": "China und die USA sind uns bei KI meilenweit voraus!",
+      "response": "Bei Investitionen stimmt das: Die USA investieren mit 109 Milliarden Dollar 55-mal mehr als Deutschland. Bei Patenten dominiert China mit 25.177 gegenüber 436. Aber Deutschland ist Europas Nr. 1 bei KI-Patenten, hat eine wachsende Startup-Szene (+36 %) und weltweit anerkannte Forschung. Die Lücke liegt weniger in der Kompetenz als in der Skalierung und im Risikokapital.",
+      "keywords": ["china", "usa", "amerika", "vorsprung", "rückstand", "wettbewerb"],
+      "relatedSections": ["internationaler-vergleich"]
+    },
+    {
+      "id": "grundeinkommen-noetig",
+      "claim": "Wir brauchen wegen KI ein bedingungsloses Grundeinkommen!",
+      "response": "Die Debatte ist legitim, aber die aktuelle Forschungslage stützt sie nicht unmittelbar: Das IAB erwartet keinen Netto-Jobabbau, und historisch haben technologische Umbrüche Arbeit transformiert statt eliminiert. Der dringendere Bedarf liegt bei gezielter Qualifizierung und sozialer Absicherung während des Übergangs. Ob KI langfristig ein Grundeinkommen nötig macht, hängt von Geschwindigkeit und Tiefe des Wandels ab — das ist heute noch offen.",
+      "keywords": ["grundeinkommen", "bedingungslos", "existenzsicherung", "soziale absicherung"],
+      "relatedSections": ["jobeffekte-prognosen", "qualifizierung-weiterbildung"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "destatis-ki-nutzung-2025",
+      "label": "Destatis – Nutzung von KI in Unternehmen nach Größenklassen (2025)",
+      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html"
+    },
+    {
+      "id": "eurostat-ki-unternehmen-2025",
+      "label": "Eurostat – Use of Artificial Intelligence in Enterprises (2025)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_in_enterprises"
+    },
+    {
+      "id": "bitkom-ki-studie-2025",
+      "label": "Bitkom Research – Künstliche Intelligenz 2025",
+      "url": "https://bitkom-research.de/studien/kuenstliche-intelligenz-2025"
+    },
+    {
+      "id": "iab-substituierbarkeit-kb2024",
+      "label": "IAB – Kurzbericht 5/2024: Substituierbarkeitspotenziale von Berufen",
+      "url": "https://doku.iab.de/kurzber/2024/kb2024-05.pdf"
+    },
+    {
+      "id": "iab-ki-szenario-2025",
+      "label": "IAB – Forschungsbericht 23/2025: KI-Effekte auf den deutschen Arbeitsmarkt",
+      "url": "https://doku.iab.de/forschungsbericht/2025/fb2325.pdf"
+    },
+    {
+      "id": "iwf-ai-jobs-2024",
+      "label": "IWF – AI Will Transform the Global Economy (2024)",
+      "url": "https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity"
+    },
+    {
+      "id": "mckinsey-future-of-work-2024",
+      "label": "McKinsey Global Institute – A New Future of Work (2024)",
+      "url": "https://www.mckinsey.de/news/presse/2024-05-23-mgi-genai-future-of-work"
+    },
+    {
+      "id": "ifo-ki-umfrage-2025",
+      "label": "ifo Institut – Stellenabbau durch KI: Konjunkturumfrage (2025)",
+      "url": "https://www.ifo.de/fakten/2025-06-05/ein-viertel-der-unternehmen-rechnet-mit-stellenabbau-durch-kuenstliche"
+    },
+    {
+      "id": "wef-future-of-jobs-2025",
+      "label": "World Economic Forum – Future of Jobs Report 2025",
+      "url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+    },
+    {
+      "id": "iw-koeln-ki-produktivitaet",
+      "label": "IW Köln – Wie wird KI die Produktivität in Deutschland verändern? (2025)",
+      "url": "https://www.iwkoeln.de/studien/vera-demary-michael-groemling-christian-kestermann-marc-scheufen-stefanie-seele-oliver-stettes-marco-trenz-wie-wird-ki-die-produktivitaet-in-deutschland-veraendern.html"
+    },
+    {
+      "id": "pwc-value-in-motion",
+      "label": "PwC – Value in Motion: Chancen und Risiken von KI und Klimawandel (2025)",
+      "url": "https://www.pwc.de/de/pressemitteilungen/2025/globale-pwc-studie-value-in-motion-beziffert-chancen-risiken-und-wechselwirkungen-von-ki-und-klimawandel.html"
+    },
+    {
+      "id": "stanford-nber-kundenservice",
+      "label": "Brynjolfsson/Li/Raymond – Generative AI at Work (NBER 2023)",
+      "url": "https://www.nber.org/digest/20236/measuring-productivity-impact-generative-ai"
+    },
+    {
+      "id": "bcg-harvard-ki-berater",
+      "label": "BCG/Harvard – How People Create and Destroy Value with Gen AI (2023)",
+      "url": "https://www.bcg.com/publications/2023/how-people-create-and-destroy-value-with-gen-ai"
+    },
+    {
+      "id": "bitkom-ki-markt-deutschland",
+      "label": "Bitkom/IDC – Deutscher KI-Markt wächst um ein Drittel (2024)",
+      "url": "https://bitkom-research.de/news/deutscher-ki-markt-waechst-um-ein-drittel"
+    },
+    {
+      "id": "bmas-weiterbildungsstrategie",
+      "label": "BMAS – Nationale Weiterbildungsstrategie: Umsetzungsbericht (2025)",
+      "url": "https://www.bmas.de/DE/Service/Publikationen/Broschueren/a805-25-nationale-weiterbildungsstrategie.html"
+    },
+    {
+      "id": "destatis-weiterbildungsquote",
+      "label": "Destatis – Weiterbildungsquoten nach Berufsgruppen (2024)",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-6/weiterbildungsquoten.html"
+    },
+    {
+      "id": "bitkom-ki-fortbildung",
+      "label": "Bitkom – Mehrheit erhält keine KI-Fortbildung (2025)",
+      "url": "https://www.crn.de/news/2025/mehrheit-erhalt-keine-ki-fortbildung"
+    },
+    {
+      "id": "d21-digital-skills-gap",
+      "label": "Initiative D21 – Digital Skills Gap (2025)",
+      "url": "https://initiatived21.de/publikationen/digital-skills-gap"
+    },
+    {
+      "id": "iw-weiterbildungserhebung-2023",
+      "label": "IW Köln – Weiterbildungserhebung 2023: Investitionsvolumen auf Höchststand",
+      "url": "https://www.iwkoeln.de/studien/susanne-seyda-sabine-koehne-finster-thomas-schleiermacher-investitionsvolumen-auf-hoechststand.html"
+    },
+    {
+      "id": "stanford-ai-index-2025",
+      "label": "Stanford HAI – AI Index Report 2025",
+      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report"
+    },
+    {
+      "id": "tortoise-global-ai-2024",
+      "label": "Tortoise Media – Global AI Index 2024",
+      "url": "https://www.tortoisemedia.com/intelligence/global-ai/"
+    },
+    {
+      "id": "wipo-ai-patents-2024",
+      "label": "WIPO – KI-Patente nach Ländern (2024)",
+      "url": "https://www.visualcapitalist.com/ranked-countries-ai-patents/"
+    },
+    {
+      "id": "appliedai-startup-landscape-2025",
+      "label": "appliedAI Institute – German AI Startup Landscape 2025",
+      "url": "https://www.appliedai-institute.de/en/hub/2025-ai-german-startup-landscape"
+    },
+    {
+      "id": "ilo-genai-gender-2024",
+      "label": "ILO – Generative AI and Jobs: Gender Impact (2024)",
+      "url": "https://www.ilo.org/resource/news/new-ilo-data-confirm-women-face-higher-workplace-risks-generative-ai-men"
+    },
+    {
+      "id": "bundesregierung-ki-aktionsplan-2024",
+      "label": "Bundesregierung – KI-Aktionsplan (2024)",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/aktionsplan-kuenstliche-intelligenz-2215658"
+    },
+    {
+      "id": "eu-ai-act-2024",
+      "label": "EU – AI Act / Verordnung (EU) 2024/1689",
+      "url": "https://commission.europa.eu/news/ai-act-enters-force-2024-08-01_en"
+    }
+  ]
+}
