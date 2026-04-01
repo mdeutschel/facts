@@ -42,11 +42,10 @@ export default function Impressum() {
             Impressum (Angaben gemäß § 5 DDG)
           </Typography>
           <Typography variant="body2">
-            Repository-Version
+            Repository-Version ohne private Postanschrift
             <br />
-            Anschrift wird nicht im Repository gespeichert
-            <br />
-            Live-Deployment ergänzt diese Angabe getrennt
+            Für den Live-Betrieb werden gesetzlich erforderliche
+            Anbieterangaben getrennt gepflegt.
           </Typography>
           <Typography variant="body2">
             Kontakt:
@@ -82,7 +81,9 @@ export default function Impressum() {
           <Typography variant="body2">
             Verantwortlicher im Sinne der DSGVO:
             <br />
-            Repository-Version, Anschrift wird nicht im Repository gespeichert, Live-Deployment ergänzt diese Angabe getrennt
+            Öffentliche Repository-Version ohne private Anschrift
+            <br />
+            Kontakt ausschließlich über die veröffentlichte E-Mail-Adresse.
             <br />
             E-Mail: {email}
           </Typography>
