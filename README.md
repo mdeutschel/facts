@@ -5,6 +5,8 @@ Deutschsprachige, mobile-first React-SPA mit faktenbasierten Argumenten und Quel
 > Dieses Repository ist kein generisches Demo-Projekt, sondern ein Experiment für die Idee hinter `fakten-stammtisch.de`.
 > Es dient zugleich als Arbeits- und Referenzprojekt dafür, wie einzelne KI-Komponenten zusammenarbeiten können:
 > Themen recherchieren, Inhalte strukturieren, Argumente schärfen, Quellen verifizieren und daraus eine veröffentlichbare Seite bauen.
+>
+> Ebenso wichtig: Das ist ein privates Projekt. Code und vorhandene Inhalte in diesem Repository sind bewusst zu 100 % KI-generiert. Genau das ist Teil des Experiments: nicht nur das Produkt zu testen, sondern auch zu untersuchen, wie weit sich eine solche Seite vollständig mit KI-Unterstützung konzipieren, implementieren und redaktionell befüllen lässt.
 
 ## Worum es hier geht
 
@@ -21,6 +23,8 @@ Die Inhalte werden als JSON-Dateien gepflegt und zur Laufzeit geladen. Die Suche
 
 Das Repo bildet einen experimentellen Arbeitsstand für `fakten-stammtisch.de` ab:
 
+- als privates Experiment und nicht als offen kuratiertes Community-Projekt
+- als bewusst vollständig KI-generiertes Projekt, sowohl im Code als auch in den vorhandenen Inhalten
 - als Produkt-Prototyp für eine statische, quellengestützte Argumentationsseite
 - als Redaktionssystem auf Dateibasis mit klar definiertem JSON-Schema
 - als Beispiel dafür, wie Regeln, Skills, Build-Skripte und KI-gestützte Qualitätsprüfungen in einem gemeinsamen Workflow zusammenspielen
@@ -144,6 +148,8 @@ Das Projekt ist auf statisches Hosting mit Apache-Fallback ausgelegt. Source Map
 ## KI-Workflow im Repository
 
 Ein zentraler Teil des Experiments ist nicht nur die Seite selbst, sondern der Weg dorthin.
+
+Hier geht es ausdrücklich um ein vollständig KI-getriebenes Setup: Der vorhandene Code und die vorhandenen Inhalte sind bewusst KI-generiert und werden in diesem Repository als Teil des Versuchs weiterentwickelt, überprüft und in eine konsistente Pipeline überführt.
 
 Das Repo enthält dafür drei Ebenen:
 
