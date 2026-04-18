@@ -12,6 +12,8 @@ import {
   HOME_USAGE_P1,
   HOME_USAGE_P2,
   HOME_USAGE_P3,
+  HOME_TRANSPARENCY_TITLE,
+  HOME_TRANSPARENCY_TEXT,
 } from '../content/homeTexts'
 
 export default function Home() {
@@ -65,6 +67,23 @@ export default function Home() {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {HOME_USAGE_P3}
+        </Typography>
+      </Box>
+      <Box
+        sx={{
+          mt: 4,
+          p: 2,
+          borderRadius: 1,
+          border: '1px solid',
+          borderColor: 'divider',
+          bgcolor: 'action.hover',
+        }}
+      >
+        <Typography variant="subtitle2" component="h2" sx={{ mb: 1, fontWeight: 600 }}>
+          {HOME_TRANSPARENCY_TITLE}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {HOME_TRANSPARENCY_TEXT}
         </Typography>
       </Box>
     </Box>

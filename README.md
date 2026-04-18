@@ -2,11 +2,13 @@
 
 Deutschsprachige, mobile-first React-SPA mit faktenbasierten Argumenten und Quellen zu politischen und gesellschaftlichen Debatten in Deutschland.
 
-> Dieses Repository ist kein generisches Demo-Projekt, sondern ein Experiment für die Idee hinter `fakten-stammtisch.de`.
-> Es dient zugleich als Arbeits- und Referenzprojekt dafür, wie einzelne KI-Komponenten zusammenarbeiten können:
-> Themen recherchieren, Inhalte strukturieren, Argumente schärfen, Quellen verifizieren und daraus eine veröffentlichbare Seite bauen.
->
-> Ebenso wichtig: Das ist ein privates Projekt. Code und vorhandene Inhalte in diesem Repository sind bewusst zu 100 % KI-generiert. Genau das ist Teil des Experiments: nicht nur das Produkt zu testen, sondern auch zu untersuchen, wie weit sich eine solche Seite vollständig mit KI-Unterstützung konzipieren, implementieren und redaktionell befüllen lässt.
+## Transparenz-Hinweis: Dieses Projekt ist ein KI-Experiment
+
+Sowohl der komplette Code in diesem Repository als auch sämtliche Inhalte der Themen-Factsheets sind zu **100 % KI-generiert**. Es gibt keine manuell geschriebenen Code-Zeilen und keine redaktionell von Hand verfassten Texte.
+
+Das ist Absicht, kein Versehen. `fakten-stammtisch.de` ist auch ein Versuchsaufbau: Wie weit kann man heute mit KI eine öffentlich vorzeigbare, quellenbasierte Recherche-Seite bauen — vom Konzept über die Implementierung bis zur inhaltlichen Qualitätssicherung? Kann KI recherchieren, Argumente schärfen, Quellen verifizieren und das Ganze in eine konsistente, wartbare Pipeline gießen?
+
+Trotzdem soll am Ende ein nutzbares Ergebnis stehen. Die Behauptung ist nicht "KI hat das gemacht, also ist es richtig", sondern: Jede Zahl, jede Quelle und jeder Argumentationsschritt durchläuft automatisierte Prüf-Workflows (`review-content`, `verify-sources`). Der Wert dieses Projekts soll sich am Ergebnis messen lassen — nicht an der Tatsache, dass eine KI es produziert hat.
 
 ## Worum es hier geht
 
@@ -24,12 +26,11 @@ Die Inhalte werden als JSON-Dateien gepflegt und zur Laufzeit geladen. Die Suche
 Das Repo bildet einen experimentellen Arbeitsstand für `fakten-stammtisch.de` ab:
 
 - als privates Experiment und nicht als offen kuratiertes Community-Projekt
-- als bewusst vollständig KI-generiertes Projekt, sowohl im Code als auch in den vorhandenen Inhalten
 - als Produkt-Prototyp für eine statische, quellengestützte Argumentationsseite
 - als Redaktionssystem auf Dateibasis mit klar definiertem JSON-Schema
 - als Beispiel dafür, wie Regeln, Skills, Build-Skripte und KI-gestützte Qualitätsprüfungen in einem gemeinsamen Workflow zusammenspielen
 
-Wichtig dabei: Die Kernanwendung bleibt bewusst eine statische SPA. Für das Hosting-Setup liegen zusätzlich kleine PHP-Helfer in [`public/api/feedback.php`](/home/mdeutschel/github/facts/public/api/feedback.php) und [`public/og.php`](/home/mdeutschel/github/facts/public/og.php), aber es gibt kein separates Backend-System, keine Datenbank und kein SSR-Framework.
+Die Kernanwendung bleibt bewusst eine statische SPA. Für das Hosting-Setup liegen zusätzlich kleine PHP-Helfer in [`public/api/feedback.php`](/home/mdeutschel/github/facts/public/api/feedback.php) und [`public/og.php`](/home/mdeutschel/github/facts/public/og.php), aber es gibt kein separates Backend-System, keine Datenbank und kein SSR-Framework.
 
 ## Tech-Stack
 
