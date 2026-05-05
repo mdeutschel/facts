@@ -109,15 +109,30 @@ function flattenContentBlock(block) {
   return ''
 }
 
-function buildSitemap(topics) {
+function buildSitemap(topics, topicDataById) {
   const staticPaths = ['/', '/ueber', '/methodik', '/impressum', '/feedback', '/suche']
-  const topicPaths = topics.map((topic) => `/thema/${topic.id}`)
-  const textFiles = ['/llms.txt', '/llms-full.txt']
-  const allPaths = [...staticPaths, ...topicPaths, ...textFiles]
+  const today = new Date().toISOString().slice(0, 10)
 
-  const urlEntries = allPaths
-    .map((routePath) => {
-      const lastMod = new Date().toISOString().slice(0, 10)
+  const entries = []
+  for (const routePath of staticPaths) {
+    entries.push({ path: routePath, lastMod: today })
+  }
+  for (const topic of topics) {
+    const data = topicDataById.get(topic.id)
+    const lastMod = data?.lastUpdated ?? today
+    entries.push({ path: `/thema/${topic.id}`, lastMod })
+    if (data?.arguments) {
+      for (const arg of data.arguments) {
+        entries.push({ path: `/thema/${topic.id}/${arg.id}`, lastMod })
+      }
+    }
+  }
+  for (const tf of ['/llms.txt', '/llms-full.txt']) {
+    entries.push({ path: tf, lastMod: today })
+  }
+
+  const urlEntries = entries
+    .map(({ path: routePath, lastMod }) => {
       return [
         '  <url>',
         `    <loc>${xmlEscape(absoluteUrl(routePath))}</loc>`,
@@ -268,7 +283,8 @@ function buildFallbackHtml(topics, topicDataById) {
       lines.push(`        <summary>Argumente (${data.arguments.length})</summary>`)
       lines.push('        <dl>')
       for (const arg of data.arguments) {
-        lines.push(`          <dt>${htmlEscape(arg.claim)}</dt>`)
+        const argUrl = absoluteUrl(`/thema/${topic.id}/${arg.id}`)
+        lines.push(`          <dt><a href="${htmlEscape(argUrl)}">${htmlEscape(arg.claim)}</a></dt>`)
         lines.push(`          <dd>${htmlEscape(arg.response)}</dd>`)
       }
       lines.push('        </dl>')
@@ -322,7 +338,7 @@ async function main() {
     topicDataById.set(topic.id, JSON.parse(topicRaw))
   }
 
-  await writeFile(path.join(PUBLIC_DIR, 'sitemap.xml'), buildSitemap(topics), 'utf8')
+  await writeFile(path.join(PUBLIC_DIR, 'sitemap.xml'), buildSitemap(topics, topicDataById), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms.txt'), buildLlmsTxt(topics), 'utf8')
   await writeFile(path.join(PUBLIC_DIR, 'llms-full.txt'), buildLlmsFull(topics, topicDataById), 'utf8')
 

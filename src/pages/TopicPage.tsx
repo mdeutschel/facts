@@ -130,6 +130,7 @@ export default function TopicPage() {
               key={arg.id}
               argument={arg}
               sections={topic.sections}
+              topicId={topic.id}
               onNavigateToSection={handleNavigateToSection}
             />
           ))}

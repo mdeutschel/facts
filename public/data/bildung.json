@@ -430,7 +430,7 @@
   ],
   "arguments": [
     {
-      "id": "arg_weltspitze",
+      "id": "weltspitze",
       "claim": "Unser Bildungssystem war mal Weltspitze",
       "response": "Deutschland hatte tatsächlich ein international angesehenes Bildungssystem – vor allem in der beruflichen Bildung (duales System). Aber bei PISA 2022 erreichten deutsche 15-Jährige in Mathematik nur noch 475 Punkte – ein historischer Tiefstand und ein Rückgang von 25 Punkten gegenüber 2018. Rund ein Drittel hat in mindestens einem Bereich nur minimale Kompetenzen. Statt sich auf vergangenen Ruhm zu berufen, braucht es massive Investitionen: Deutschland liegt mit 4,5 % des BIP für Bildung deutlich unter dem OECD-Schnitt von 5,1 % und weit hinter Skandinavien (6,5–7,1 %).",
       "keywords": [
@@ -446,7 +446,7 @@
       ]
     },
     {
-      "id": "arg_halbtags",
+      "id": "halbtags",
       "claim": "Die Lehrer arbeiten doch nur halbtags und haben ständig Ferien",
       "response": "Eine repräsentative Studie des Prognos-Instituts in Sachsen zeigt: In Schulwochen fallen Mehrstunden an. Im Jahresmittel lagen Vollzeit-Lehrkräfte etwa auf ihrem individuellen Soll, Teilzeitkräfte aber 5,8 % darüber. Unterricht ist dabei nur ein Teil der Arbeitszeit – hinzu kommen Vor- und Nachbereitung, Korrekturen, Elterngespräche, Verwaltung und Konferenzen.",
       "keywords": [
@@ -461,7 +461,7 @@
       ]
     },
     {
-      "id": "arg_verbloedung",
+      "id": "verbloedung",
       "claim": "Schüler können heute nichts mehr, die sind alle verblödet",
       "response": "Die PISA-Ergebnisse zeigen tatsächlich einen deutlichen Leistungsrückgang, der aber strukturelle Ursachen hat – und keine individuelle 'Verblödung'. Zu den Ursachen gehören chronische Unterfinanzierung (Deutschland liegt unter dem OECD-Schnitt), akuter Lehrkräftemangel (35.000 fehlend), pandemiebedingte Lernrückstände und der stärkste Zusammenhang zwischen sozialer Herkunft und Bildungserfolg in der OECD. Die Lösung liegt nicht bei den Schüler:innen, sondern beim System: bessere Ausstattung, mehr Personal, gezielte Förderung Benachteiligter.",
       "keywords": [
@@ -477,7 +477,7 @@
       ]
     },
     {
-      "id": "arg_laendersache",
+      "id": "laendersache",
       "claim": "Bildung ist Ländersache, da kann man nichts machen",
       "response": "Das stimmt verfassungsrechtlich – aber es ist kein Naturgesetz. Das Kooperationsverbot von 2006 verhindert, dass der Bund direkt in Schulen investiert. Das Ergebnis: 16 verschiedene Lehrpläne, massive Qualitätsunterschiede zwischen den Bundesländern und ein 'Bildungsflickenteppich'. Mehrere Bundesländer fordern inzwischen selbst die Aufhebung dieses Verbots. Auch der DigitalPakt Schule zeigt, dass Bund-Länder-Kooperation in der Bildung möglich ist – er wurde trotz Kooperationsverbot realisiert. 'Ländersache' heißt nicht 'unveränderbar'.",
       "keywords": [
@@ -493,7 +493,7 @@
       ]
     },
     {
-      "id": "arg_genug_geld",
+      "id": "genug-geld",
       "claim": "Wir geben genug Geld für Bildung aus",
       "response": "198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Die Konsequenzen sieht man: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher.",
       "keywords": [
@@ -509,7 +509,7 @@
       ]
     },
     {
-      "id": "arg_hauptschule",
+      "id": "hauptschule",
       "claim": "Hauptschüler sind halt einfach nicht so schlau",
       "response": "Das ist ein klassischer Zirkelschluss. PISA zeigt seit Jahren, dass Deutschland zu den OECD-Ländern mit stark ausgeprägten sozialen Bildungsungleichheiten gehört. Kinder aus bildungsfernen Familien werden überproportional auf niedrigere Schulformen verteilt. Das spricht nicht für mangelnde Intelligenz, sondern für strukturelle Probleme wie frühe Selektion, ungleiche Förderung und zu wenig Unterstützung benachteiligter Kinder.",
       "keywords": [
@@ -524,7 +524,7 @@
       ]
     },
     {
-      "id": "arg_inklusion",
+      "id": "inklusion",
       "claim": "Inklusion schadet normalen Schülern",
       "response": "Die umfassendste deutsche Studie zur Inklusion (INSIDE, 2016–2025, über 4.000 Schüler:innen an 246 Schulen) zeigt: Inklusion 'gelingt weder durchweg noch scheitert grundsätzlich'. Entscheidend sind die Rahmenbedingungen – insbesondere gute Kooperation zwischen Regel- und Sonderpädagogen sowie ausreichend Personal. Die Studie zeigt keine generellen Nachteile für Mitschüler:innen ohne Förderbedarf. Problematisch wird es erst, wenn Inklusion ohne zusätzliche Ressourcen umgesetzt wird. Das Problem ist also nicht die Inklusion an sich, sondern ihre unzureichende Ausstattung.",
       "keywords": [
@@ -539,7 +539,7 @@
       ]
     },
     {
-      "id": "arg_digitalisierung",
+      "id": "digitalisierung",
       "claim": "Digitalisierung an Schulen bringt nichts, Kinder sollen lesen lernen",
       "response": "Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat Milliarden in Infrastruktur gebunden. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Seit 2025 liegt bereits ein Zwischenbericht zur Evaluation vor; der DigitalPakt 2.0 soll stärker auf Qualität statt nur auf Hardware setzen.",
       "keywords": [
