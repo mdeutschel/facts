@@ -12,6 +12,7 @@ import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
 import ArgumentCard from '../components/topic/ArgumentCard'
 import PageMeta from '../components/seo/PageMeta'
+import { PERSON_ID } from '../components/seo/person'
 import { useTopic } from '../hooks/useTopics'
 import { formatGermanDate } from '../theme'
 
@@ -59,9 +60,18 @@ export default function TopicPage() {
   }
 
   const topicPath = `/thema/${topic.id}`
+  const topicUrl = `https://fakten-stammtisch.de${topicPath}`
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    '@id': `${topicUrl}#faqpage`,
+    url: topicUrl,
+    name: topic.title,
+    description: topic.subtitle,
+    inLanguage: 'de',
+    dateModified: topic.lastUpdated,
+    author: { '@id': PERSON_ID },
+    publisher: { '@id': PERSON_ID },
     mainEntity: topic.arguments.map((argument) => ({
       '@type': 'Question',
       name: argument.claim,

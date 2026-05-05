@@ -4,14 +4,32 @@ import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import { Link as RouterLink } from 'react-router-dom'
 import PageMeta from '../components/seo/PageMeta'
+import { PERSON_ID, PERSON_JSONLD } from '../components/seo/person'
 
 export default function Ueber() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'AboutPage',
+        '@id': 'https://fakten-stammtisch.de/ueber#aboutpage',
+        url: 'https://fakten-stammtisch.de/ueber',
+        name: 'Über dieses Projekt',
+        inLanguage: 'de',
+        about: { '@id': PERSON_ID },
+        mainEntity: { '@id': PERSON_ID },
+      },
+      PERSON_JSONLD,
+    ],
+  }
+
   return (
     <Stack spacing={2.5}>
       <PageMeta
         title="Über das Projekt"
         description="Über das private, nicht-kommerzielle Projekt Fakten-Stammtisch von Marcel Deutschel: Hintergrund, Motivation, Verantwortung und wie die Inhalte entstehen."
         path="/ueber"
+        jsonLd={jsonLd}
       />
       <Typography variant="h5" component="h1">
         Über dieses Projekt

@@ -5,14 +5,29 @@ import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import { Link as RouterLink } from 'react-router-dom'
 import PageMeta from '../components/seo/PageMeta'
+import { PERSON_ID } from '../components/seo/person'
 
 export default function Methodik() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': 'https://fakten-stammtisch.de/methodik#webpage',
+    url: 'https://fakten-stammtisch.de/methodik',
+    name: 'Methodik',
+    description:
+      'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, sieben Qualitätsdimensionen und transparenter Aktualität.',
+    inLanguage: 'de',
+    author: { '@id': PERSON_ID },
+    publisher: { '@id': PERSON_ID },
+  }
+
   return (
     <Stack spacing={2.5}>
       <PageMeta
         title="Methodik"
         description="Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, sieben Qualitätsdimensionen und transparenter Aktualität."
         path="/methodik"
+        jsonLd={jsonLd}
       />
       <Typography variant="h5" component="h1">
         Methodik
