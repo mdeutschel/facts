@@ -739,7 +739,8 @@
       "relatedSections": [
         "co2-konzentration",
         "globale-temperatur"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "deutschland-allein",
@@ -756,7 +757,8 @@
       "relatedSections": [
         "deutschland-emissionen",
         "kosten-handeln-vs-nichtstun"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "klimaschutz-arbeitsplaetze",
@@ -771,7 +773,8 @@
       ],
       "relatedSections": [
         "kosten-handeln-vs-nichtstun"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "wissenschaftler-uneinig",
@@ -787,7 +790,8 @@
       ],
       "relatedSections": [
         "wissenschaftlicher-konsens"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "gar-nicht-waermer",
@@ -803,7 +807,8 @@
       ],
       "relatedSections": [
         "globale-temperatur"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "co2-gut-fuer-pflanzen",
@@ -819,7 +824,8 @@
       ],
       "relatedSections": [
         "co2-konzentration"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "china-indien-schlimmer",
@@ -837,7 +843,8 @@
       "relatedSections": [
         "deutschland-emissionen",
         "co2-konzentration"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "vulkane-mehr-co2",
@@ -852,7 +859,8 @@
       ],
       "relatedSections": [
         "co2-konzentration"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "zu-teuer",
@@ -869,7 +877,8 @@
       "relatedSections": [
         "kosten-handeln-vs-nichtstun",
         "extremwetter"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

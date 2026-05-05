@@ -826,7 +826,8 @@
       ],
       "relatedSections": [
         "asylzahlen"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "leben-vom-buergergeld",
@@ -842,7 +843,8 @@
       ],
       "relatedSections": [
         "arbeitsmarkt"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "nehmen-jobs-weg",
@@ -858,7 +860,8 @@
       "relatedSections": [
         "arbeitsmarkt",
         "demografie"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "krimineller-als-deutsche",
@@ -875,7 +878,8 @@
       ],
       "relatedSections": [
         "kriminalitaet"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "kosten-migration",
@@ -892,7 +896,8 @@
       "relatedSections": [
         "kosten",
         "arbeitsmarkt"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "ungebildet",
@@ -909,7 +914,8 @@
       "relatedSections": [
         "arbeitsmarkt",
         "integrationskurse"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "abschieben-statt-integrieren",
@@ -924,7 +930,8 @@
       ],
       "relatedSections": [
         "abschiebungen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "alle-kommen-nach-deutschland",
@@ -939,7 +946,8 @@
       ],
       "relatedSections": [
         "eu-vergleich"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "integration-funktioniert-nicht",
@@ -955,7 +963,8 @@
         "arbeitsmarkt",
         "integrationskurse",
         "einbuergerungen"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "fruher-ging-es-ohne",
@@ -970,7 +979,8 @@
       "relatedSections": [
         "historischer-kontext",
         "demografie"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "einbuergerung-verschenkt",
@@ -985,7 +995,8 @@
       ],
       "relatedSections": [
         "einbuergerungen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "brauchen-keine-fachkraefte",
@@ -1000,7 +1011,8 @@
       "relatedSections": [
         "demografie",
         "fachkraefteeinwanderung"
-      ]
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [

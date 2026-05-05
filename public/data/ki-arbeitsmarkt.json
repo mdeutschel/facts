@@ -556,7 +556,8 @@
       "relatedSections": [
         "jobeffekte-prognosen",
         "automatisierungspotenziale"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "bueroarbeit-ueberfluessig",
@@ -573,7 +574,8 @@
       "relatedSections": [
         "betroffene-berufsgruppen",
         "produktivitaet"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "deutschland-verschlaeft",
@@ -589,7 +591,8 @@
       "relatedSections": [
         "internationaler-vergleich",
         "status-quo"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "nur-einfache-taetigkeiten",
@@ -605,7 +608,8 @@
       "relatedSections": [
         "automatisierungspotenziale",
         "betroffene-berufsgruppen"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "nur-produktiver",
@@ -621,7 +625,8 @@
       "relatedSections": [
         "produktivitaet",
         "jobeffekte-prognosen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "politik-tut-nichts",
@@ -638,7 +643,8 @@
       "relatedSections": [
         "qualifizierung-weiterbildung",
         "regulierung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "kreative-arbeit-weg",
@@ -655,7 +661,8 @@
       "relatedSections": [
         "betroffene-berufsgruppen",
         "automatisierungspotenziale"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "china-usa-voraus",
@@ -671,7 +678,8 @@
       ],
       "relatedSections": [
         "internationaler-vergleich"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "grundeinkommen-noetig",

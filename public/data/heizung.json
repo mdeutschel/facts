@@ -923,7 +923,8 @@
       "relatedSections": [
         "fraunhofer-ise",
         "status-quo"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "gas-billiger",
@@ -939,7 +940,8 @@
       "relatedSections": [
         "kostenvergleich",
         "co2-preis"
-      ]
+      ],
+      "verdict": "misleading"
     },
     {
       "id": "gasnetz-bleibt",
@@ -953,7 +955,8 @@
       ],
       "relatedSections": [
         "gasnetz-rueckbau"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "wasserstoff-loesung",
@@ -967,7 +970,8 @@
       ],
       "relatedSections": [
         "wasserstoff"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "heizungsgesetz-abgeschafft",
@@ -983,7 +987,8 @@
       "relatedSections": [
         "gesetzeslage-gmg",
         "co2-preis"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "heizung-funktioniert-noch",
@@ -1013,7 +1018,8 @@
       ],
       "relatedSections": [
         "lautstaerke"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "stromnetz-bricht-zusammen",
@@ -1028,7 +1034,8 @@
       ],
       "relatedSections": [
         "stromnetz"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "wp-funktioniert-nicht-bei-kaelte",
@@ -1045,7 +1052,8 @@
       "relatedSections": [
         "kaelteleistung",
         "internationaler-vergleich"
-      ]
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [

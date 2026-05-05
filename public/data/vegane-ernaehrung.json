@@ -501,7 +501,8 @@
       ],
       "relatedSections": [
         "ressourcen"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "naehrstoffmangel",
@@ -517,7 +518,8 @@
       ],
       "relatedSections": [
         "gesundheit"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "natuerlich-fleisch",
@@ -532,7 +534,8 @@
       ],
       "relatedSections": [
         "gesundheit"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "mandelmilch-wasser",
@@ -549,7 +552,8 @@
       "relatedSections": [
         "ressourcen",
         "pflanzenmilch"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "teurer-lifestyle",
@@ -562,7 +566,8 @@
         "Lifestyle",
         "Ersatzprodukte",
         "Privilegiert"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "bauern-existenz",
@@ -574,7 +579,8 @@
         "Arbeitsplätze",
         "Wirtschaft",
         "Subventionen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "antibiotika-resistenz",
@@ -590,7 +596,8 @@
       ],
       "relatedSections": [
         "antibiotika"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "einzelner-beitrag",
@@ -607,7 +614,8 @@
       "relatedSections": [
         "gesellschaft-trend",
         "pflanzenmilch"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

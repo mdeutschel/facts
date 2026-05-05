@@ -72,12 +72,22 @@ export interface Section {
   content: ContentBlock[]
 }
 
+export type ArgumentVerdict =
+  | 'false'
+  | 'mostly-false'
+  | 'misleading'
+  | 'outdated'
+  | 'lacks-context'
+  | 'partially-true'
+  | 'mostly-true'
+
 export interface Argument {
   id: string
   claim: string
   response: string
   keywords: string[]
   relatedSections?: string[]
+  verdict?: ArgumentVerdict
 }
 
 export interface Source {

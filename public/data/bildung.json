@@ -443,7 +443,8 @@
       "relatedSections": [
         "pisa-chancengleichheit",
         "bildungsausgaben"
-      ]
+      ],
+      "verdict": "outdated"
     },
     {
       "id": "halbtags",
@@ -458,7 +459,8 @@
       ],
       "relatedSections": [
         "lehrkraeftemangel"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "verbloedung",
@@ -474,7 +476,8 @@
       "relatedSections": [
         "pisa-chancengleichheit",
         "bildungsausgaben"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "laendersache",
@@ -490,7 +493,8 @@
       "relatedSections": [
         "bildungsausgaben",
         "digitalisierung"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "genug-geld",
@@ -506,7 +510,8 @@
       "relatedSections": [
         "bildungsausgaben",
         "kita-fruehkindlich"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "hauptschule",
@@ -521,7 +526,8 @@
       ],
       "relatedSections": [
         "pisa-chancengleichheit"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "inklusion",
@@ -536,7 +542,8 @@
       ],
       "relatedSections": [
         "lehrkraeftemangel"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "digitalisierung",
@@ -552,7 +559,8 @@
       ],
       "relatedSections": [
         "digitalisierung"
-      ]
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [

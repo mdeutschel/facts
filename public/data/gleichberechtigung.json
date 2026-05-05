@@ -1068,7 +1068,8 @@
       "relatedSections": [
         "pay-gap",
         "bildung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "fuehrung",
@@ -1084,7 +1085,8 @@
       "relatedSections": [
         "representation",
         "care-gap"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "gleichberechtigung-erreicht",
@@ -1101,7 +1103,8 @@
         "representation",
         "pension-gap",
         "gewalt"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "teilzeit",
@@ -1116,7 +1119,8 @@
       "relatedSections": [
         "care-gap",
         "pay-gap"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "quote",
@@ -1132,7 +1136,8 @@
       "relatedSections": [
         "representation",
         "bildung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "pension-gap-arg",
@@ -1148,7 +1153,8 @@
       "relatedSections": [
         "pension-gap",
         "care-gap"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "child-penalty",
@@ -1164,7 +1170,8 @@
       "relatedSections": [
         "care-gap",
         "pension-gap"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "gewalt-privatsache",
@@ -1179,7 +1186,8 @@
       ],
       "relatedSections": [
         "gewalt"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "dunkelziffer",
@@ -1194,7 +1202,8 @@
       ],
       "relatedSections": [
         "gewalt"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "maenner-benachteiligt",
@@ -1210,7 +1219,8 @@
         "pay-gap",
         "pension-gap",
         "gewalt"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "feminismus-uebertrieben",
@@ -1228,7 +1238,8 @@
         "pay-gap",
         "gewalt",
         "representation"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "gleiche-bildung",
@@ -1245,7 +1256,8 @@
         "bildung",
         "representation",
         "care-gap"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "eu-vergleich-arg",
@@ -1261,7 +1273,8 @@
       "relatedSections": [
         "eu-vergleich",
         "pay-gap"
-      ]
+      ],
+      "verdict": "partially-true"
     }
   ],
   "sources": [

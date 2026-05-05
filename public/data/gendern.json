@@ -530,7 +530,8 @@
       "relatedSections": [
         "sprachliche-formen",
         "regulierung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "mehrheit-lehnt-ab",
@@ -545,7 +546,8 @@
       ],
       "relatedSections": [
         "oeffentliche-meinung"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "nur-modeerscheinung",
@@ -560,7 +562,8 @@
       ],
       "relatedSections": [
         "regulierung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "sprache-aendert-nichts",
@@ -575,7 +578,8 @@
       ],
       "relatedSections": [
         "sprachforschung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "generisches-maskulinum-reicht",
@@ -590,7 +594,8 @@
       ],
       "relatedSections": [
         "sprachforschung"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "gendern-unlesbar",
@@ -607,7 +612,8 @@
       "relatedSections": [
         "verstaendlichkeit",
         "barrierefreiheit"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "uni-genderzwang",
@@ -625,7 +631,8 @@
       "relatedSections": [
         "bundeslaender-und-institutionen",
         "regulierung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "gegen-rechtschreibung",
@@ -641,7 +648,8 @@
       ],
       "relatedSections": [
         "regulierung"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "andere-sprachen-ohne",
@@ -657,7 +665,8 @@
       ],
       "relatedSections": [
         "internationaler-vergleich"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "sprachpolizei",
@@ -674,7 +683,8 @@
       "relatedSections": [
         "oeffentliche-meinung",
         "bundeslaender-und-institutionen"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

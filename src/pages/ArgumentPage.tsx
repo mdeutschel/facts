@@ -15,6 +15,11 @@ import FactCheckIcon from '@mui/icons-material/FactCheck'
 import ForumIcon from '@mui/icons-material/Forum'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
+import {
+  VERDICT_META,
+  VERDICT_RATING_BEST,
+  VERDICT_RATING_WORST,
+} from '../components/seo/verdict'
 import { useTopic } from '../hooks/useTopics'
 import { formatGermanDate } from '../theme'
 
@@ -68,35 +73,64 @@ export default function ArgumentPage() {
   const argumentUrl = `https://fakten-stammtisch.de${argumentPath}`
   const seoTitle = truncate(argument.claim, 65)
   const seoDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
+  const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
 
-  const qaJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'QAPage',
-    '@id': `${argumentUrl}#qapage`,
-    url: argumentUrl,
-    name: argument.claim,
-    description: seoDescription,
-    inLanguage: 'de',
-    dateModified: topic.lastUpdated,
-    author: { '@id': PERSON_ID },
-    publisher: { '@id': PERSON_ID },
-    isPartOf: {
-      '@type': 'WebPage',
-      '@id': `https://fakten-stammtisch.de/thema/${topic.id}#faqpage`,
-      name: topic.title,
-      url: `https://fakten-stammtisch.de/thema/${topic.id}`,
-    },
-    mainEntity: {
-      '@type': 'Question',
+  const graph: Record<string, unknown>[] = [
+    {
+      '@type': 'QAPage',
+      '@id': `${argumentUrl}#qapage`,
+      url: argumentUrl,
       name: argument.claim,
-      text: argument.claim,
-      answerCount: 1,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: argument.response,
-        author: { '@id': PERSON_ID },
+      description: seoDescription,
+      inLanguage: 'de',
+      dateModified: topic.lastUpdated,
+      author: { '@id': PERSON_ID },
+      publisher: { '@id': PERSON_ID },
+      isPartOf: {
+        '@type': 'WebPage',
+        '@id': `https://fakten-stammtisch.de/thema/${topic.id}#faqpage`,
+        name: topic.title,
+        url: `https://fakten-stammtisch.de/thema/${topic.id}`,
+      },
+      mainEntity: {
+        '@type': 'Question',
+        name: argument.claim,
+        text: argument.claim,
+        answerCount: 1,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: argument.response,
+          author: { '@id': PERSON_ID },
+        },
       },
     },
+  ]
+
+  if (verdictMeta) {
+    graph.push({
+      '@type': 'ClaimReview',
+      '@id': `${argumentUrl}#claimreview`,
+      url: argumentUrl,
+      datePublished: topic.lastUpdated,
+      claimReviewed: argument.claim,
+      author: { '@id': PERSON_ID },
+      itemReviewed: {
+        '@type': 'Claim',
+        text: argument.claim,
+      },
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: verdictMeta.ratingValue,
+        bestRating: VERDICT_RATING_BEST,
+        worstRating: VERDICT_RATING_WORST,
+        alternateName: verdictMeta.label,
+      },
+    })
+  }
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': graph,
   }
 
   return (
@@ -105,7 +139,7 @@ export default function ArgumentPage() {
         title={seoTitle}
         description={seoDescription}
         path={argumentPath}
-        jsonLd={qaJsonLd}
+        jsonLd={jsonLd}
       />
 
       <Breadcrumbs sx={{ mb: 2, fontSize: '0.8rem' }}>
@@ -131,11 +165,21 @@ export default function ArgumentPage() {
           <Typography variant="h5" component="h1" sx={{ lineHeight: 1.3, mb: 0.5 }}>
             „{argument.claim}"
           </Typography>
-          <Chip
-            label={`Stand: ${formatGermanDate(topic.lastUpdated)}`}
-            size="small"
-            sx={{ mt: 1, fontSize: '0.7rem' }}
-          />
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75, mt: 1 }}>
+            {verdictMeta && (
+              <Chip
+                label={`Bewertung: ${verdictMeta.label}`}
+                size="small"
+                color={verdictMeta.color}
+                sx={{ fontSize: '0.7rem', fontWeight: 600 }}
+              />
+            )}
+            <Chip
+              label={`Stand: ${formatGermanDate(topic.lastUpdated)}`}
+              size="small"
+              sx={{ fontSize: '0.7rem' }}
+            />
+          </Box>
         </Box>
 
         <Paper sx={{ p: { xs: 2, sm: 3 } }}>

@@ -1218,7 +1218,8 @@
       "relatedSections": [
         "smr",
         "stromgestehungskosten"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "atommuell-erledigt",
@@ -1233,7 +1234,8 @@
       ],
       "relatedSections": [
         "atommuell"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "deutschland-muss-sich-selbst-versorgen",
@@ -1249,7 +1251,8 @@
       "relatedSections": [
         "stromverbund",
         "dunkelflauten"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "windraeder-diesel",
@@ -1268,7 +1271,8 @@
       "relatedSections": [
         "strommix-2025",
         "ee-ausbau"
-      ]
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [

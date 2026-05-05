@@ -438,7 +438,8 @@
       ],
       "relatedSections": [
         "akkus-rohstoffe"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "stromnetz-kollaps",
@@ -454,7 +455,8 @@
       ],
       "relatedSections": [
         "stromnetz"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "co2-rucksack",
@@ -470,7 +472,8 @@
       ],
       "relatedSections": [
         "klimabilanz"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "kobalt-kinderarbeit",
@@ -485,7 +488,8 @@
       ],
       "relatedSections": [
         "akkus-rohstoffe"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "wasserstoff-zukunft",
@@ -501,7 +505,8 @@
       ],
       "relatedSections": [
         "efuels-wasserstoff"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "brennende-autos",
@@ -517,7 +522,8 @@
       ],
       "relatedSections": [
         "brandgefahr"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "reichweite",
@@ -533,7 +539,8 @@
       ],
       "relatedSections": [
         "status-quo"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

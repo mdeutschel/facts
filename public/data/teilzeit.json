@@ -314,7 +314,8 @@
       ],
       "relatedSections": [
         "gruende"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "arg-2",
@@ -328,7 +329,8 @@
       ],
       "relatedSections": [
         "arbeitsvolumen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-3",
@@ -342,7 +344,8 @@
       ],
       "relatedSections": [
         "gen-z"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "arg-4",
@@ -356,7 +359,8 @@
       ],
       "relatedSections": [
         "gen-z"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-5",
@@ -369,7 +373,8 @@
       ],
       "relatedSections": [
         "gruende"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-6",
@@ -383,7 +388,8 @@
       ],
       "relatedSections": [
         "gender-gap"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "arg-7",
@@ -397,7 +403,8 @@
       ],
       "relatedSections": [
         "eu-vergleich"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "arg-8",
@@ -412,7 +419,8 @@
       "relatedSections": [
         "rentenfolgen",
         "gender-gap"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

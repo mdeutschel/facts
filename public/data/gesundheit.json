@@ -650,7 +650,8 @@
       "relatedSections": [
         "gesundheitsausgaben",
         "zwei-klassen-medizin"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "beitraege-hoch",
@@ -666,7 +667,8 @@
       "relatedSections": [
         "gesundheitsausgaben",
         "praevention"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "jeder-versorgt",
@@ -682,7 +684,8 @@
       "relatedSections": [
         "zwei-klassen-medizin",
         "psychische-gesundheit"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "auslaender-gesundheit",
@@ -699,7 +702,8 @@
       "relatedSections": [
         "gesundheitsausgaben",
         "praevention"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "psychisch-einbildung",
@@ -715,7 +719,8 @@
       ],
       "relatedSections": [
         "psychische-gesundheit"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "homoeopathie",
@@ -746,7 +751,8 @@
       ],
       "relatedSections": [
         "krankenhausreform"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "pharma",
@@ -763,7 +769,8 @@
       "relatedSections": [
         "praevention",
         "arzneimittelpreise"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "aerztemangel-landleben",
@@ -780,7 +787,8 @@
       "relatedSections": [
         "aerztemangel",
         "zwei-klassen-medizin"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "medikamente-zu-teuer",
@@ -797,7 +805,8 @@
       "relatedSections": [
         "arzneimittelpreise",
         "gkv-finanzen"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "digitalisierung-rueckstand",
@@ -813,7 +822,8 @@
       ],
       "relatedSections": [
         "digitalisierung"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "gkv-pleite",
@@ -831,7 +841,8 @@
       "relatedSections": [
         "gkv-finanzen",
         "gesundheitsausgaben"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

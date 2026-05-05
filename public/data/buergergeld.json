@@ -420,7 +420,8 @@
       ],
       "relatedSections": [
         "lohnabstand"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "haengematte",
@@ -435,7 +436,8 @@
       ],
       "relatedSections": [
         "sanktionen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "erhoehung",
@@ -450,7 +452,8 @@
       ],
       "relatedSections": [
         "regelsatz"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "betrug",
@@ -465,7 +468,8 @@
       ],
       "relatedSections": [
         "missbrauch"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "auslaender",
@@ -480,7 +484,8 @@
       ],
       "relatedSections": [
         "regelsatz"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "ukraine",
@@ -495,7 +500,8 @@
       ],
       "relatedSections": [
         "regelsatz"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "langzeitbezug",
@@ -510,7 +516,8 @@
       ],
       "relatedSections": [
         "verweildauer"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "aufstocker",
@@ -526,7 +533,8 @@
       "relatedSections": [
         "aufstocker",
         "lohnabstand"
-      ]
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [
