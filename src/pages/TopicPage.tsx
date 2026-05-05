@@ -61,13 +61,15 @@ export default function TopicPage() {
 
   const topicPath = `/thema/${topic.id}`
   const topicUrl = `https://fakten-stammtisch.de${topicPath}`
+  const seoTitle = topic.seoTitle ?? topic.title
+  const seoDescription = topic.seoDescription ?? topic.subtitle
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     '@id': `${topicUrl}#faqpage`,
     url: topicUrl,
-    name: topic.title,
-    description: topic.subtitle,
+    name: seoTitle,
+    description: seoDescription,
     inLanguage: 'de',
     dateModified: topic.lastUpdated,
     author: { '@id': PERSON_ID },
@@ -85,8 +87,8 @@ export default function TopicPage() {
   return (
     <Box>
       <PageMeta
-        title={topic.title}
-        description={topic.subtitle}
+        title={seoTitle}
+        description={seoDescription}
         path={topicPath}
         jsonLd={faqJsonLd}
       />

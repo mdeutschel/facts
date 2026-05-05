@@ -189,8 +189,9 @@ function buildTopicSection(topicData) {
     .map((source) => (source.url ? `- ${source.label} (${source.url})` : `- ${source.label}`))
     .join('\n')
 
+  const summary = topicData.seoDescription ?? topicData.subtitle
   return [
-    `${topicData.subtitle} | Stand: ${topicData.lastUpdated}`,
+    `${summary} | Stand: ${topicData.lastUpdated}`,
     '',
     '### Fakten',
     '',
@@ -255,8 +256,10 @@ function buildFallbackHtml(topics, topicDataById) {
     if (!data) continue
 
     const url = absoluteUrl(`/thema/${topic.id}`)
-    lines.push(`      <h3><a href="${htmlEscape(url)}">${htmlEscape(data.title)}</a></h3>`)
-    lines.push(`      <p>${htmlEscape(data.subtitle)}</p>`)
+    const headline = data.seoTitle ?? data.title
+    const summary = data.seoDescription ?? data.subtitle
+    lines.push(`      <h3><a href="${htmlEscape(url)}">${htmlEscape(headline)}</a></h3>`)
+    lines.push(`      <p>${htmlEscape(summary)}</p>`)
 
     lines.push(`      <p>${topic.factCount} Fakten · ${topic.argumentCount} Argumente</p>`)
 
