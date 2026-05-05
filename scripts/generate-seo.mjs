@@ -110,7 +110,7 @@ function flattenContentBlock(block) {
 }
 
 function buildSitemap(topics) {
-  const staticPaths = ['/', '/impressum', '/feedback', '/suche']
+  const staticPaths = ['/', '/ueber', '/methodik', '/impressum', '/feedback', '/suche']
   const topicPaths = topics.map((topic) => `/thema/${topic.id}`)
   const textFiles = ['/llms.txt', '/llms-full.txt']
   const allPaths = [...staticPaths, ...topicPaths, ...textFiles]
@@ -162,6 +162,8 @@ function buildLlmsTxt(topics) {
     '',
     '## Optional',
     '',
+    `- [Über das Projekt](${absoluteUrl('/ueber')})`,
+    `- [Methodik](${absoluteUrl('/methodik')})`,
     `- [Impressum & Datenschutz](${absoluteUrl('/impressum')})`,
     `- [Sitemap](${absoluteUrl('/sitemap.xml')})`,
     '',
