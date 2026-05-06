@@ -201,6 +201,79 @@ export default function Methodik() {
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1.5}>
           <Typography variant="h6" component="h2">
+            Bewertung einzelner Behauptungen
+          </Typography>
+          <Typography variant="body2">
+            Auf den Detail-Seiten der einzelnen Argumente trägt jede
+            Behauptung — wo eine ehrliche Einordnung möglich ist — eine
+            kurze Bewertung als farbiges Etikett. Sie soll dem Leser auf
+            einen Blick zeigen, in welche Richtung die Datenlage zur
+            jeweiligen Stammtisch-Behauptung weist.
+          </Typography>
+          <Typography variant="body2">
+            Verwendet werden sieben Stufen mit klar abgegrenzter Bedeutung:
+          </Typography>
+          <Box component="ul" sx={{ m: 0, pl: 2.5 }}>
+            <Typography component="li" variant="body2">
+              <strong>Falsch</strong> — die Behauptung steht im klaren
+              Widerspruch zur belegbaren Datenlage.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Überwiegend falsch</strong> — die Behauptung trifft
+              in Teilaspekten zu, ist in der Hauptaussage aber nicht
+              haltbar.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Irreführend</strong> — die Behauptung kann technisch
+              stimmen, legt aber eine unzutreffende Schlussfolgerung nahe.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Ohne Kontext irreführend</strong> — der zitierte
+              Fakt ist richtig, ergibt aber ohne den fehlenden Kontext
+              ein verzerrtes Bild.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Überholt</strong> — die Behauptung war früher
+              zutreffend, ist nach heutigem Stand jedoch nicht mehr richtig.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Teilweise wahr</strong> — die Behauptung hat einen
+              substanziellen wahren Kern, ist aber unvollständig oder
+              einseitig.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Überwiegend wahr</strong> — die Behauptung trifft
+              im Kern zu; nur einzelne Aspekte sind einzuordnen.
+            </Typography>
+          </Box>
+          <Typography variant="body2">
+            Nicht jedes Argument bekommt ein Etikett. Wo eine Behauptung
+            normativ (z. B. „Erben ist Privatsache"), eine politische
+            Forderung oder eine offene Wertedebatte ist, wäre ein
+            Faktencheck-Stempel unredlich — solche Argumente bleiben
+            bewusst ohne Bewertung. Aktuell trägt knapp ein Zehntel der
+            Argumente keine Bewertung.
+          </Typography>
+          <Typography variant="body2">
+            Die Etiketten werden zusätzlich als{' '}
+            <Link
+              href="https://schema.org/ClaimReview"
+              target="_blank"
+              rel="noopener"
+              underline="hover"
+            >
+              ClaimReview
+            </Link>
+            -Markup im HTML mitgegeben, damit Suchmaschinen die Bewertung
+            maschinenlesbar einordnen können — das ist die Grundlage für
+            die Anzeige als Faktencheck in Suchergebnissen.
+          </Typography>
+        </Stack>
+      </Paper>
+
+      <Paper sx={{ p: { xs: 2, sm: 3 } }}>
+        <Stack spacing={1.5}>
+          <Typography variant="h6" component="h2">
             Aktualität — radikale Transparenz statt Versprechen
           </Typography>
           <Typography variant="body2">
