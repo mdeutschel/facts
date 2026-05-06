@@ -2,6 +2,8 @@
   "id": "verkehrswende",
   "title": "Verkehrswende",
   "subtitle": "Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen",
+  "seoTitle": "Verkehrswende: E-Auto, ÖPNV, Radverkehr — Argumente 2026",
+  "seoDescription": "Tötet Autofreiheit den Einzelhandel? E-Autos auch auf dem Land? Antworten zu E-Mobilität, ÖPNV, Radwegen und Tempo 30 — Quellen UBA und KBA.",
   "icon": "directions_car",
   "lastUpdated": "2026-03-18",
   "keyStats": [
@@ -620,7 +622,8 @@
       ],
       "relatedSections": [
         "emobilitaet"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "arg-efuels",
@@ -634,7 +637,8 @@
       ],
       "relatedSections": [
         "emobilitaet"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-dticket",
@@ -648,7 +652,8 @@
       ],
       "relatedSections": [
         "oepnv"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-reichweite",
@@ -662,7 +667,8 @@
       ],
       "relatedSections": [
         "emobilitaet"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-stromnetz",
@@ -673,7 +679,8 @@
         "Blackout",
         "Laden",
         "Kapazität"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-ladeinfrastruktur",
@@ -688,7 +695,8 @@
       ],
       "relatedSections": [
         "emobilitaet"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-innenstadt",
@@ -703,7 +711,8 @@
       ],
       "relatedSections": [
         "flaechenverbrauch"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-radwege",
@@ -718,7 +727,8 @@
       ],
       "relatedSections": [
         "radverkehr"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "arg-tempo30",
@@ -733,7 +743,8 @@
       ],
       "relatedSections": [
         "gesundheit"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "arg-autoland",
@@ -749,7 +760,8 @@
       "relatedSections": [
         "soziale_teilhabe",
         "radverkehr"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "arg-suv-sicher",
@@ -765,7 +777,8 @@
       "relatedSections": [
         "gesundheit",
         "flaechenverbrauch"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "arg-grossstadtthema",
@@ -780,7 +793,8 @@
       ],
       "relatedSections": [
         "soziale_teilhabe"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

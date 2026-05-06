@@ -5,9 +5,12 @@ import theme from './theme'
 import AppShell from './components/layout/AppShell'
 import Home from './pages/Home'
 import TopicPage from './pages/TopicPage'
+import ArgumentPage from './pages/ArgumentPage'
 import SearchPage from './pages/SearchPage'
 import Impressum from './pages/Impressum'
 import Feedback from './pages/Feedback'
+import Ueber from './pages/Ueber'
+import Methodik from './pages/Methodik'
 
 export default function App() {
   return (
@@ -18,9 +21,12 @@ export default function App() {
           <Route element={<AppShell />}>
             <Route index element={<Home />} />
             <Route path="thema/:topicId" element={<TopicPage />} />
+            <Route path="thema/:topicId/:argumentId" element={<ArgumentPage />} />
             <Route path="suche" element={<SearchPage />} />
             <Route path="impressum" element={<Impressum />} />
             <Route path="feedback" element={<Feedback />} />
+            <Route path="ueber" element={<Ueber />} />
+            <Route path="methodik" element={<Methodik />} />
           </Route>
         </Routes>
       </BrowserRouter>

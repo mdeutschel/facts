@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link as RouterLink } from 'react-router-dom'
 import Card from '@mui/material/Card'
 import CardActionArea from '@mui/material/CardActionArea'
 import CardContent from '@mui/material/CardContent'
@@ -10,12 +11,14 @@ import Button from '@mui/material/Button'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import FactCheckIcon from '@mui/icons-material/FactCheck'
+import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 import type { Argument, Section } from '../../types'
 
 interface ArgumentCardProps {
   argument: Argument
   defaultOpen?: boolean
   sections?: Section[]
+  topicId?: string
   onNavigateToSection?: (sectionId: string) => void
 }
 
@@ -23,6 +26,7 @@ export default function ArgumentCard({
   argument,
   defaultOpen = false,
   sections,
+  topicId,
   onNavigateToSection,
 }: ArgumentCardProps) {
   const [open, setOpen] = useState(defaultOpen)
@@ -105,6 +109,26 @@ export default function ArgumentCard({
               {argument.keywords.map((kw) => (
                 <Chip key={kw} label={kw} size="small" variant="outlined" sx={{ fontSize: '0.7rem' }} />
               ))}
+            </Box>
+          )}
+
+          {topicId && (
+            <Box sx={{ mt: 1.5, pt: 1.5, borderTop: 1, borderColor: 'divider' }}>
+              <Button
+                component={RouterLink}
+                to={`/thema/${topicId}/${argument.id}`}
+                size="small"
+                endIcon={<OpenInNewIcon sx={{ fontSize: 16 }} />}
+                sx={{
+                  textTransform: 'none',
+                  fontSize: '0.75rem',
+                  color: 'secondary.main',
+                  py: 0.25,
+                  minHeight: 0,
+                }}
+              >
+                Eigene Seite zu dieser Aussage öffnen
+              </Button>
             </Box>
           )}
         </CardContent>

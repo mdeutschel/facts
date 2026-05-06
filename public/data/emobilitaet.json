@@ -2,6 +2,8 @@
   "id": "emobilitaet",
   "title": "E-Mobilität",
   "subtitle": "Fakten zu Reichweite, Akkus, Kosten & Klimabilanz",
+  "seoTitle": "E-Auto vs. Verbrenner: Akku, CO₂, Kosten — Fakten 2026",
+  "seoDescription": "Hält der Akku nur 5 Jahre? Bricht das Stromnetz? Quellengeprüfte Antworten zu 7 verbreiteten E-Auto-Behauptungen — TCO, Klimabilanz, Reichweite.",
   "icon": "electric_car",
   "lastUpdated": "2026-03-18",
   "keyStats": [
@@ -436,7 +438,8 @@
       ],
       "relatedSections": [
         "akkus-rohstoffe"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "stromnetz-kollaps",
@@ -452,7 +455,8 @@
       ],
       "relatedSections": [
         "stromnetz"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "co2-rucksack",
@@ -468,7 +472,8 @@
       ],
       "relatedSections": [
         "klimabilanz"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "kobalt-kinderarbeit",
@@ -483,7 +488,8 @@
       ],
       "relatedSections": [
         "akkus-rohstoffe"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "wasserstoff-zukunft",
@@ -499,7 +505,8 @@
       ],
       "relatedSections": [
         "efuels-wasserstoff"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "brennende-autos",
@@ -515,7 +522,8 @@
       ],
       "relatedSections": [
         "brandgefahr"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "reichweite",
@@ -531,7 +539,8 @@
       ],
       "relatedSections": [
         "status-quo"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

@@ -2,6 +2,8 @@
   "id": "energiewende",
   "title": "Energiewende & Atomkraft",
   "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
+  "seoTitle": "Energiewende & Atomkraft: Argumente, Kosten, Versorgung",
+  "seoDescription": "Hätten AKW die Gaskrise gelöst? Sind SMRs realistisch? Antworten zu Atomausstieg, Strommix und Versorgungssicherheit — Quellen BNetzA und Fraunhofer.",
   "icon": "bolt",
   "lastUpdated": "2026-03-20",
   "keyStats": [
@@ -1216,7 +1218,8 @@
       "relatedSections": [
         "smr",
         "stromgestehungskosten"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "atommuell-erledigt",
@@ -1231,7 +1234,8 @@
       ],
       "relatedSections": [
         "atommuell"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "deutschland-muss-sich-selbst-versorgen",
@@ -1247,7 +1251,8 @@
       "relatedSections": [
         "stromverbund",
         "dunkelflauten"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "windraeder-diesel",
@@ -1266,7 +1271,8 @@
       "relatedSections": [
         "strommix-2025",
         "ee-ausbau"
-      ]
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [

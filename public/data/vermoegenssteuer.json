@@ -2,6 +2,8 @@
   "id": "vermoegenssteuer",
   "title": "Vermögens- und Erbschaftssteuer",
   "subtitle": "Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland",
+  "seoTitle": "Vermögens- & Erbschaftsteuer: Argumente, Fakten, Daten",
+  "seoDescription": "Wandern Reiche ab? Zerstört das den Mittelstand? Antworten zu Vermögensverteilung, OECD-Vergleich und Aufkommen mit Quellen vom DIW und BMF.",
   "icon": "account_balance",
   "lastUpdated": "2026-03-18",
   "keyStats": [
@@ -639,7 +641,8 @@
       ],
       "relatedSections": [
         "oecd-vergleich"
-      ]
+      ],
+      "verdict": "partially-true"
     },
     {
       "id": "neidsteuer",
@@ -672,7 +675,8 @@
       "relatedSections": [
         "erbschaftssteuer",
         "aufkommen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "abwanderung",
@@ -688,7 +692,8 @@
       ],
       "relatedSections": [
         "oecd-vergleich"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "doppelbesteuerung",
@@ -702,7 +707,8 @@
       ],
       "relatedSections": [
         "verfassung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "substanzbesteuerung",
@@ -718,7 +724,8 @@
       "relatedSections": [
         "erbschaftssteuer",
         "aufkommen"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "elternhaus",
@@ -735,7 +742,8 @@
       "relatedSections": [
         "erbschaftssteuer",
         "aufkommen"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "verwaltungskosten",
@@ -752,7 +760,8 @@
       "relatedSections": [
         "oecd-vergleich",
         "verfassung"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "leistung-erbe",
@@ -784,7 +793,8 @@
       ],
       "relatedSections": [
         "oecd-vergleich"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "privatsache",

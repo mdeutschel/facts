@@ -23,7 +23,30 @@ export default function Footer() {
           alignItems={{ xs: 'flex-start', sm: 'center' }}
           justifyContent="space-between"
         >
-          <Stack direction="row" spacing={2}>
+          <Stack
+            direction="row"
+            spacing={2}
+            useFlexGap
+            sx={{ flexWrap: 'wrap' }}
+          >
+            <Link
+              component={RouterLink}
+              to="/ueber"
+              color="inherit"
+              underline="hover"
+              sx={{ fontWeight: 500 }}
+            >
+              Über
+            </Link>
+            <Link
+              component={RouterLink}
+              to="/methodik"
+              color="inherit"
+              underline="hover"
+              sx={{ fontWeight: 500 }}
+            >
+              Methodik
+            </Link>
             <Link
               component={RouterLink}
               to="/impressum"

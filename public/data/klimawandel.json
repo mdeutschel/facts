@@ -2,6 +2,8 @@
   "id": "klimawandel",
   "title": "Klimawandel",
   "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
+  "seoTitle": "Klimawandel: Argumente, Fakten & Mythen im Faktencheck",
+  "seoDescription": "Hat sich das Klima schon immer verändert? Sind Forscher uneins? Antworten zu Temperatur, CO₂, Extremwetter und Kippelementen — Quellen IPCC und DWD.",
   "icon": "thermostat",
   "lastUpdated": "2026-03-18",
   "keyStats": [
@@ -737,7 +739,8 @@
       "relatedSections": [
         "co2-konzentration",
         "globale-temperatur"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "deutschland-allein",
@@ -754,7 +757,8 @@
       "relatedSections": [
         "deutschland-emissionen",
         "kosten-handeln-vs-nichtstun"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "klimaschutz-arbeitsplaetze",
@@ -769,7 +773,8 @@
       ],
       "relatedSections": [
         "kosten-handeln-vs-nichtstun"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "wissenschaftler-uneinig",
@@ -785,7 +790,8 @@
       ],
       "relatedSections": [
         "wissenschaftlicher-konsens"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "gar-nicht-waermer",
@@ -801,7 +807,8 @@
       ],
       "relatedSections": [
         "globale-temperatur"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "co2-gut-fuer-pflanzen",
@@ -817,7 +824,8 @@
       ],
       "relatedSections": [
         "co2-konzentration"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "china-indien-schlimmer",
@@ -835,7 +843,8 @@
       "relatedSections": [
         "deutschland-emissionen",
         "co2-konzentration"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "vulkane-mehr-co2",
@@ -850,7 +859,8 @@
       ],
       "relatedSections": [
         "co2-konzentration"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "zu-teuer",
@@ -867,7 +877,8 @@
       "relatedSections": [
         "kosten-handeln-vs-nichtstun",
         "extremwetter"
-      ]
+      ],
+      "verdict": "mostly-false"
     }
   ],
   "sources": [

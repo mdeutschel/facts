@@ -2,6 +2,8 @@
   "id": "heizung",
   "title": "Heizungswechsel 2026",
   "subtitle": "Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente",
+  "seoTitle": "Wärmepumpe vs. Gasheizung 2026: Argumente & Fakten",
+  "seoDescription": "Lohnt sich die Wärmepumpe? Funktioniert sie bei Frost? Quellengeprüfte Antworten zu den 9 häufigsten Behauptungen rund um den Heizungswechsel.",
   "icon": "heat_pump",
   "lastUpdated": "2026-03-18",
   "keyStats": [
@@ -921,7 +923,8 @@
       "relatedSections": [
         "fraunhofer-ise",
         "status-quo"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "gas-billiger",
@@ -937,7 +940,8 @@
       "relatedSections": [
         "kostenvergleich",
         "co2-preis"
-      ]
+      ],
+      "verdict": "misleading"
     },
     {
       "id": "gasnetz-bleibt",
@@ -951,7 +955,8 @@
       ],
       "relatedSections": [
         "gasnetz-rueckbau"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "wasserstoff-loesung",
@@ -965,7 +970,8 @@
       ],
       "relatedSections": [
         "wasserstoff"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "heizungsgesetz-abgeschafft",
@@ -981,7 +987,8 @@
       "relatedSections": [
         "gesetzeslage-gmg",
         "co2-preis"
-      ]
+      ],
+      "verdict": "false"
     },
     {
       "id": "heizung-funktioniert-noch",
@@ -1011,7 +1018,8 @@
       ],
       "relatedSections": [
         "lautstaerke"
-      ]
+      ],
+      "verdict": "lacks-context"
     },
     {
       "id": "stromnetz-bricht-zusammen",
@@ -1026,7 +1034,8 @@
       ],
       "relatedSections": [
         "stromnetz"
-      ]
+      ],
+      "verdict": "mostly-false"
     },
     {
       "id": "wp-funktioniert-nicht-bei-kaelte",
@@ -1043,7 +1052,8 @@
       "relatedSections": [
         "kaelteleistung",
         "internationaler-vergleich"
-      ]
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [
