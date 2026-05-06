@@ -1,0 +1,44 @@
+# Das Problem heißt Bürokratie, nicht Technologie.
+
+Thema: Energiewende & Atomkraft
+URL: https://fakten-stammtisch.de/thema/energiewende/problem-heisst-buerokratie
+Stand: 2026-03-20
+
+## Antwort
+
+Der Speichermarkt zeigt viel Interesse, aber Netzanschlüsse, Genehmigungen und Regulierung bremsen die Umsetzung. Das Problem ist deshalb heute oft weniger die Technik als die Geschwindigkeit von Verfahren und Netzausbau.
+
+## Fakten dazu
+
+### Speicherausbau: Der Markt drängt, die Bürokratie bremst
+
+- beantragt: 400 GW (Leistung 2024)
+- beantragt: 661 GWh (Kapazität 2024)
+- Anschlusszusagen: 25 GW (Leistung 2024)
+- Anschlusszusagen: 46 GWh (Kapazität 2024)
+Spalten: Kennzahl | Wert | Quelle
+- Beantragte Leistung (2024, ab Mittelspannung) | ~400 GW | BNetzA 11/2025
+- Beantragte Kapazität (2024) | 661 GWh | BNetzA 11/2025
+- Erteilte Anschlusszusagen (2024) | 25 GW / 46 GWh | BNetzA 11/2025
+- Kernaussage | Interesse sehr hoch, Umsetzung deutlich langsamer | BNetzA
+- 400 GW beantragte Speicherleistung – der Markt will, aber Netzanschlüsse und Genehmigungsverfahren bremsen.
+Engpass: Nicht Investoreninteresse oder Technologie, sondern Netzanschlüsse, Genehmigungsverfahren und regulatorische Unsicherheit.
+
+### Dunkelflauten: Reales Problem, kein Showstopper
+
+- Dunkelflauten: beherrschbar (fordern Flexibilität statt Panik)
+- Versorgungsengpass: kein annähernder (laut BNetzA Anfang 2025)
+- Negativpreisstunden: 573 Std. (2025)
+Spalten: Kennzahl | Wert | Quelle
+- Dunkelflautenlagen | reales Systemthema | BNetzA
+- Versorgungsengpässe Anfang 2025 | kein annähernder Engpass | BNetzA
+- Negativpreisstunden 2025 | 573 | BNetzA / SMARD
+- Schlüsselaufgabe | mehr Speicher, Netze und flexible Lasten | Systemische Einordnung
+- Selbst in der Dunkelflautenlage Anfang 2025 kam es laut Bundesnetzagentur nicht annähernd zu Versorgungsengpässen.
+Überbrückung heute: Gaskraftwerke, europäische Stromimporte, wachsend: Batteriespeicher. Kern des Problems: Nicht die Häufigkeit der Dunkelflauten, sondern fehlende Speicher und Netzkapazitäten.
+
+## Quellen
+
+- BNetzA: Hohe Nachfrage nach Netzanschlüssen für Batteriespeicher (12.11.2025) (https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20251112_Batteriespeicher.html)
+- BNetzA Insight: Dunkelflaute? Kein Grund zur Panik (https://www.bundesnetzagentur.de/DE/Allgemeines/DieBundesnetzagentur/Insight/Texte/Energiewende/Dunkelflaute.html)
+- SMARD/BNetzA: Jahresrückblick 2025 (https://www.smard.de/page/home/topic-article/216804/218954/hoechste-pv-einspeisung-in-jedem-quartal)

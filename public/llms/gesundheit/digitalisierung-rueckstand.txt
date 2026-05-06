@@ -1,0 +1,26 @@
+# Deutschland ist beim digitalen Gesundheitssystem hoffnungslos rückständig
+
+Thema: Deutsches Gesundheitssystem
+URL: https://fakten-stammtisch.de/thema/gesundheit/digitalisierung-rueckstand
+Bewertung: Teilweise wahr
+Stand: 2026-03-19
+
+## Antwort
+
+Der Rückstand war real: Die ePA startete mehrfach verzögert. Seit Februar 2025 haben 73 Millionen Versicherte automatisch eine ePA (Opt-out). Das ist ein echter Systemwechsel, wenn auch spät. Bei digitalen Gesundheitsanwendungen (DiGA) ist Deutschland mit 59 zugelassenen Apps und schnellen Erstattungswegen internationaler Vorreiter – allerdings bei unklarem Kosten-Nutzen-Verhältnis. Fortschritt und Rückstand existieren gleichzeitig.
+
+## Fakten dazu
+
+### Digitalisierung: ePA, DiGA und der lange Weg
+
+Seit Februar 2025 haben rund 73 Millionen GKV-Versicherte automatisch eine elektronische Patientenakte (ePA) – sofern sie nicht aktiv widersprochen haben. Deutschland setzt damit nach Jahren der Verzögerung auf ein Opt-out-Modell.
+- ePA-Versicherte (Opt-out): 73 Mio. (Rollout ab Februar 2025; Widerspruchsrate unter 10 %)
+- DiGA im BfArM-Verzeichnis: 59 (Stand Dezember 2024; davon rund 40 dauerhaft zugelassen (+20 % ggü. Vorjahr))
+- DiGA-Freischaltcodes bis Ende 2024: ~870.000 (Eingelöste Codes; DiGA-Kosten stiegen 2024 um +71 %)
+- Die DiGA-Kosten für die GKV stiegen 2024 um +71 %. Gleichzeitig belegen erste Studien bei einzelnen DiGA klinisch messbare Effekte.
+Der GKV-Spitzenverband kritisiert das Kosten-Nutzen-Verhältnis vieler DiGA: Apps werden erstattet, bevor langfristige Wirksamkeitsnachweise vorliegen. Die ePA soll Doppeluntersuchungen reduzieren, Medikationsfehler vermeiden und Forschungsdaten erschließen. Ohne konsequente Befüllung durch Praxen und Kliniken bleibt die Akte jedoch leer.
+
+## Quellen
+
+- BMG – ePA für alle (elektronische Patientenakte) (https://www.bundesgesundheitsministerium.de/themen/digitalisierung/elektronische-patientenakte/epa-fuer-alle)
+- Deutsches Ärzteblatt – DiGA-Nutzung steigt deutlich an (2024) (https://www.aerzteblatt.de/archiv/digitale-gesundheitsanwendungen-nutzung-steigt-deutlich-an-d5a67022-6911-4ca8-a07d-4e28266a7b60)

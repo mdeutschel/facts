@@ -1,0 +1,58 @@
+# Wir haben das beste Gesundheitssystem der Welt
+
+Thema: Deutsches Gesundheitssystem
+URL: https://fakten-stammtisch.de/thema/gesundheit/bestes-system
+Bewertung: Teilweise wahr
+Stand: 2026-03-19
+
+## Antwort
+
+Deutschland hat echte Stärken: universelle Absicherung, kurze Wartezeiten für Notfallversorgung und schnellen Zugang zu neuen Medikamenten. Gleichzeitig belegen Daten erhebliche Zugangsunterschiede zwischen GKV und PKV, einen akuten Pflegenotstand, strukturelle Überkapazitäten im Krankenhausbereich und einen der niedrigsten Präventionsanteile im OECD-Vergleich. 'Bestes System der Welt' ist daher eine pauschale Übertreibung.
+
+## Fakten dazu
+
+### Was kostet unser Gesundheitssystem?
+
+Deutschland gehört weltweit zu den Ländern mit den höchsten Gesundheitsausgaben.
+Hinweis: Gesundheitsausgaben pro Kopf 2023 (kaufkraftbereinigt, USD)
+- USA: 14775 USD
+- Schweiz: 9900 USD
+- Deutschland: 9365 USD
+- Norwegen: 8200 USD
+- OECD-Schnitt: 6000 USD
+- GKV-Gesamtbeitrag: 17,5 % (14,6 % + 2,9 % Zusatzbeitrag (2026))
+- GKV-Ausgaben 2025: 346,6 Mrd. € (Prognose GKV-Schätzerkreis)
+- BIP-Anteil Gesundheit: ~12 % (OECD-Schnitt: 9,3 %)
+Hinweis: GKV-Gesamtbeitragssatz seit 2015 (allgemeiner Beitrag + durchschnittlicher Zusatzbeitrag)
+- 2015: 15.5 %
+- 2018: 15.6 %
+- 2020: 15.7 %
+- 2022: 15.9 %
+- 2024: 16.3 %
+- 2025: 17.1 %
+- 2026: 17.5 %
+Hinweis: GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag; Schätzwerte für Steuerklasse I, kinderlos, ohne Kirchensteuer)
+Spalten: Position | Mindestlohn (~2.220 € brutto) | Median (~3.000 € brutto)
+- AN-Anteil GKV (8,75 %) | 194 € | 263 €
+- AG-Anteil GKV (8,75 %) | 194 € | 263 €
+- GKV gesamt | 388 € | 525 €
+- + Pflegeversicherung AN | ~40 € | ~53 €
+- Abzug vom Brutto (AN gesamt) | ~234 € | ~316 €
+- verbleibend netto (ca.) | ~1.570 € | ~2.050 €
+
+### Zwei-Klassen-Medizin: GKV vs. PKV
+
+Ungleichheiten zeigen sich besonders bei Facharztterminen. Für viele gesetzlich Versicherte bleiben Wartezeiten und Terminvergabe ein spürbares Problem.
+- Zu lange Facharzt-Wartezeit: 30 % (GKV-Versicherte empfinden ihre Wartezeit als zu lang (Selbstauskunft))
+- Mehr als 30 Tage: 25 % (GKV-Versicherte warten nach eigener Angabe länger als 30 Tage auf einen Facharzttermin)
+- Versichertenstruktur: ~88 % / ~11 % (GKV- bzw. PKV-Anteil an der Bevölkerung)
+- Viele gesetzlich Versicherte berichten von spürbaren Nachteilen bei Facharztterminen. Das stützt die Diagnose, dass der Zugang zur Versorgung nicht für alle gleich leicht ist.
+Rund 88 % der Bevölkerung sind gesetzlich und etwa 11 % privat versichert. Unterschiede bei Terminvergabe und Zugangswegen prägen deshalb die Debatte über Zwei-Klassen-Medizin stark.
+
+## Quellen
+
+- OECD – Health at a Glance 2025 (https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/health-expenditure-per-capita_affe6b0a.html)
+- GKV-Schätzerkreis – Prognose 2025/2026 (https://www.bundesamtsozialesicherung.de/de/service/newsroom/detail/gkv-schaetzerkreis-schaetzt-die-finanziellen-rahmenbedingungen-der-gesetzlichen-krankenversicherung-fuer-die-jahre-2025-und-2026/)
+- BMG - Beitragssätze der gesetzlichen Krankenversicherung (https://www.bundesgesundheitsministerium.de/beitraege)
+- GKV-Spitzenverband - Versichertenbefragung 2025 zu Wartezeiten (https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2181888.jsp)
+- KBV - Versichertenstruktur in Deutschland (https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/versichertenstruktur)

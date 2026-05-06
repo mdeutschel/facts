@@ -1,0 +1,70 @@
+# China und Indien sind doch viel schlimmer!
+
+Thema: Klimawandel
+URL: https://fakten-stammtisch.de/thema/klimawandel/china-indien-schlimmer
+Bewertung: Ohne Kontext irreführend
+Stand: 2026-03-18
+
+## Antwort
+
+China stößt heute absolut sehr viel CO₂ aus, Indien pro Kopf aber deutlich weniger als Deutschland. Für faire Vergleiche zählen neben aktuellen Emissionen auch Pro-Kopf-Werte, historische Beiträge und der Handel. Daraus folgt nicht, dass Deutschland nichts tun müsste.
+
+## Fakten dazu
+
+### Deutschlands Emissionen: Sektoren und Ziele
+
+- CO₂-Äquivalente 2024: 649 Mio. t (UBA)
+- seit 1990: -48,2 % (Gesamtreduktion)
+- Ziel 2030: -65 % (vs. 1990)
+- Klimaneutralität: 2045 (gesetzliches Ziel)
+Hinweis: Emissionen nach Sektoren 2024 (Mio. t CO₂-Äq.)
+- Energie: 188 Mio. t
+- Industrie: 149 Mio. t
+- Verkehr: 144 Mio. t
+- Gebäude: 100 Mio. t
+- Landwirtschaft: 61 Mio. t
+Hinweis: Emissionsentwicklung nach Sektoren (2023 → 2024)
+Spalten: Sektor | 2024 (Mio. t) | Veränderung | Anmerkung
+- Energiewirtschaft | 188 | -7,4 % | Kohlerückgang, EE-Ausbau
+- Industrie | 149 | +0,1 % | Nahezu stagnierend
+- Verkehr | 144 | -0,2 % | Sorgenkind: fast keine Reduktion
+- Gebäude | 100 | -2,3 % | mildere Witterung, Wärmepumpenbestand +10 %
+- Landwirtschaft | 61 | Rückgang ggü. 2023 | weniger Dünger, geringere Emissionen aus Böden
+- Der Verkehrssektor ist das Sorgenkind: -0,2 % Reduktion 2024. Ohne drastische Maßnahmen wird das Sektorziel klar verfehlt.
+- Die Energiewirtschaft trägt am stärksten zur Reduktion bei (-7,4 %), vor allem durch den Kohlerückgang.
+Hinweis: CO₂-Emissionen pro Kopf im internationalen Vergleich (2024, in Tonnen)
+- USA: 14.2 t/Kopf
+- China: 8.9 t/Kopf
+- Deutschland: 6.8 t/Kopf
+- Welt-Ø: 4.7 t/Kopf
+- Indien: 2 t/Kopf
+- Deutschland liegt mit 6,8 Tonnen CO₂ pro Kopf immer noch 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Das relativiert das Argument 'Deutschland allein kann nichts bewirken'.
+
+### CO₂-Konzentration in der Atmosphäre
+
+- CO₂-Konzentration: 423,9 ppm (globaler Durchschnitt 2024)
+- vorindustrielles Niveau: 280 ppm (vor 1750)
+- Anstieg: gut 50 % (seit vorindustriellem Niveau)
+- schneller als Natur: 250× (laut NASA vs. Ende der letzten Eiszeit)
+Hinweis: CO₂-Konzentration am Mauna Loa (Keeling-Kurve)
+- 1960: 316.91 ppm
+- 1970: 325.68 ppm
+- 1980: 338.76 ppm
+- 1990: 354.45 ppm
+- 2000: 369.71 ppm
+- 2010: 390.1 ppm
+- 2015: 401.01 ppm
+- 2020: 414.21 ppm
+- 2023: 421.08 ppm
+- 2024: 424.61 ppm
+- Die CO₂-Konzentration ist heute höher als jemals in den letzten 800.000 Jahren. Der heutige CO₂-Anstieg verläuft laut NASA etwa 250-mal schneller als natürliche Zunahmen nach der letzten Eiszeit.
+
+## Quellen
+
+- NOAA GML / Scripps: Annual mean CO₂ at Mauna Loa (Keeling Curve data) (https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt)
+- IPCC AR6 Synthesis Report: Summary for Policymakers Headline Statements (https://www.ipcc.ch/report/ar6/syr/resources/spm-headline-statements)
+- Umweltbundesamt (UBA): Finale Emissionsdaten 2024 (https://www.umweltbundesamt.de/themen/finale-daten-fuer-2024-emissionen-um-drei-prozent)
+- NASA Climate: Evidence for Climate Change (https://climate.nasa.gov/evidence/)
+- WMO: Carbon dioxide levels increase by record amount to new highs in 2024 (https://wmo.int/news/media-centre/carbon-dioxide-levels-increase-record-amount-new-highs-2024)
+- UBA: Treibhausgasminderungsziele Deutschlands (https://www.umweltbundesamt.de/daten/klima/treibhausgasminderungsziele-deutschlands)
+- UBA Data Cube: Entwicklung der Treibhausgasemissionen in Deutschland (https://datacube.uba.de/vis?df%5Bds%5D=ds-dc-release&df%5Bid%5D=DF_CLIMATE_EMISSIONS_GHG_TRENDS&df%5Bag%5D=UBA&df%5Bvs%5D=2026.0)

@@ -9,7 +9,9 @@ const SITE_URL = 'https://fakten-stammtisch.de'
 const HOME_TEXTS_PATH = path.join(ROOT_DIR, 'src/content/homeTexts.json')
 const homeTexts = JSON.parse(await readFile(HOME_TEXTS_PATH, 'utf8'))
 
-function absoluteUrl(routePath) {
+export const SITE_URL_EXPORT = SITE_URL
+
+export function absoluteUrl(routePath) {
   return `${SITE_URL}${routePath}`
 }
 
@@ -22,7 +24,7 @@ function xmlEscape(value) {
     .replaceAll("'", '&apos;')
 }
 
-function flattenContentBlock(block) {
+export function flattenContentBlock(block) {
   if (block.type === 'fact') {
     return `- ${block.text}`
   }
@@ -249,7 +251,7 @@ function buildLlmsFull(topics, topicDataById) {
   ].join('\n')
 }
 
-function htmlEscape(value) {
+export function htmlEscape(value) {
   return value
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
@@ -359,7 +361,10 @@ async function main() {
   await injectFallback(topics, topicDataById)
 }
 
-main().catch((error) => {
-  console.error(error)
-  process.exit(1)
-})
+const isDirectRun = import.meta.url === `file://${process.argv[1]}`
+if (isDirectRun) {
+  main().catch((error) => {
+    console.error(error)
+    process.exit(1)
+  })
+}

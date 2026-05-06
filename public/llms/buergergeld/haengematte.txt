@@ -1,0 +1,28 @@
+# Das Bürgergeld ist eine soziale Hängematte. Man muss gar nichts mehr machen und bekommt trotzdem Geld.
+
+Thema: Bürgergeld
+URL: https://fakten-stammtisch.de/thema/buergergeld/haengematte
+Bewertung: Überwiegend falsch
+Stand: 2026-03-19
+
+## Antwort
+
+Der Vergleich zu Hartz IV hat einen Kern: Mit der Bürgergeld-Reform 2023 wurden Sanktionen zunächst abgemildert — das war politisch umstritten und wurde 2024 teilweise korrigiert. Heute ist das Bürgergeld wieder an konkrete Mitwirkungspflichten geknüpft: Wer Termine beim Jobcenter unentschuldigt versäumt oder zumutbare Arbeit ablehnt, muss mit Leistungsminderungen rechnen. Bei wiederholter Verweigerung einer tatsächlich verfügbaren zumutbaren Arbeit kann der Regelbedarf seit März 2024 unter engen gesetzlichen Voraussetzungen für bis zu zwei Monate vollständig entfallen.
+
+## Fakten dazu
+
+### Sanktionen und Mitwirkungspflichten
+
+Das Bürgergeld ist kein bedingungsloses Grundeinkommen. Wer Termine versäumt oder zumutbare Arbeit ablehnt, wird sanktioniert.
+Hinweis: Sanktionsstufen bei Pflichtverletzungen
+- 1. Verstoß: 10% (10 % = −56 €/Monat für 1 Monat)
+- 2. Verstoß: 20% (20 % = −113 €/Monat für 2 Monate)
+- 3. Verstoß: 30% (30 % = −169 €/Monat für 3 Monate)
+- Seit Ende März 2024 kann bei wiederholter Verweigerung einer tatsächlich und unmittelbar möglichen zumutbaren Arbeit der Regelbedarf für bis zu zwei Monate vollständig entfallen. Die Kosten der Unterkunft und Heizung werden dadurch nicht gestrichen.
+- Das Bundesverfassungsgericht hat 2019 (1 BvL 7/16) entschieden: Leistungsminderungen sind grundsätzlich verfassungskonform, solange sie 30 Prozent des Regelbedarfs nicht überschreiten, Härtefallregelungen vorgesehen sind und ein vollständiger Entzug des Existenzminimums ausgeschlossen bleibt. Die aktuellen Regelungen wurden unter Berücksichtigung dieser Grenzen gestaltet.
+
+## Quellen
+
+- Bundesministerium für Arbeit und Soziales (BMAS) – Leistungen und Bedarfe im Bürgergeld (https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html)
+- SGB II § 31a - Rechtsfolgen bei Pflichtverletzungen (https://www.gesetze-im-internet.de/sgb_2/__31a.html)
+- Bundesverfassungsgericht – Urteil zu Sanktionen im SGB II (1 BvL 7/16, 5. November 2019) (https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/11/ls20191105_1bvl000716.html)

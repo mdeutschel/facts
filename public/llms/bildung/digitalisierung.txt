@@ -1,0 +1,25 @@
+# Digitalisierung an Schulen bringt nichts, Kinder sollen lesen lernen
+
+Thema: Deutsches Bildungssystem
+URL: https://fakten-stammtisch.de/thema/bildung/digitalisierung
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Digitale Kompetenz und Lesen lernen sind kein Widerspruch – beides gehört zu den Grundkompetenzen des 21. Jahrhunderts. Der DigitalPakt Schule hat Milliarden in Infrastruktur gebunden. Das Problem war nie 'ob', sondern 'wie': Tablets allein verbessern keinen Unterricht. Es braucht pädagogische Konzepte, geschulte Lehrkräfte und IT-Support. Seit 2025 liegt bereits ein Zwischenbericht zur Evaluation vor; der DigitalPakt 2.0 soll stärker auf Qualität statt nur auf Hardware setzen.
+
+## Fakten dazu
+
+### Digitalisierung an Schulen
+
+Der DigitalPakt Schule (2019–2024) sollte die digitale Infrastruktur an Schulen revolutionieren. Mit 6,5 Milliarden Euro wurden Laptops, Tablets, interaktive Whiteboards und WLAN-Netzwerke finanziert.
+- Bewilligte Mittel: 5,3 Mrd. € (97,4 % der verfügbaren Mittel)
+- Abgeflossene Mittel: 4,1 Mrd. € (Stand Juni 2025)
+- Evaluation: seit 2025 (Zwischenbericht veröffentlicht)
+- DigitalPakt 2.0: ab 2025 (Anschlussfinanzierung bis 2030 vereinbart)
+Kritiker bemängeln, dass Hardware allein nicht reicht: Lehrkräfte müssen für den Umgang mit digitalen Medien fortgebildet werden, und es fehlt flächendeckend an IT-Support. Lehrkräfte übernehmen häufig selbst die Rolle des IT-Administrators.
+
+## Quellen
+
+- BMBF – DigitalPakt Schule Fortschrittsbericht (https://www.digitalpaktschule.de/)

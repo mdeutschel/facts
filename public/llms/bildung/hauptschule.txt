@@ -1,0 +1,38 @@
+# Hauptschüler sind halt einfach nicht so schlau
+
+Thema: Deutsches Bildungssystem
+URL: https://fakten-stammtisch.de/thema/bildung/hauptschule
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Das ist ein klassischer Zirkelschluss. PISA zeigt seit Jahren, dass Deutschland zu den OECD-Ländern mit stark ausgeprägten sozialen Bildungsungleichheiten gehört. Kinder aus bildungsfernen Familien werden überproportional auf niedrigere Schulformen verteilt. Das spricht nicht für mangelnde Intelligenz, sondern für strukturelle Probleme wie frühe Selektion, ungleiche Förderung und zu wenig Unterstützung benachteiligter Kinder.
+
+## Fakten dazu
+
+### PISA 2022 & Chancengleichheit
+
+Die PISA-Studie 2022 offenbart einen historischen Tiefstand für Deutschland. In allen drei Bereichen sind die Leistungen so schlecht wie nie seit Beginn der PISA-Erhebungen im Jahr 2000.
+Hinweis: PISA 2022 – Punktzahlen im Vergleich (15-Jährige)
+Spalten: Land | Mathematik | Lesen | Naturwiss.
+- Finnland | 484 | 490 | 511
+- Schweden | 482 | 487 | 494
+- Deutschland | 475 | 480 | 492
+- OECD-Schnitt | 472 | 476 | 485
+- Norwegen | 468 | 477 | 478
+- Rund ein Drittel der 15-Jährigen (ca. 250.000 Jugendliche pro Jahrgang) hat in mindestens einem Bereich nur sehr geringe Kompetenzen. In Mathematik fiel Deutschland von 514 (2012) auf 475 Punkte (2022) — ein Verlust von 39 Punkten in 10 Jahren, vergleichbar mit dem Lernstand eines ganzen Schuljahres.
+Hinweis: PISA Mathematik – Deutschland im Zeitverlauf
+- 2000: 490 Punkte
+- 2003: 503 Punkte
+- 2006: 504 Punkte
+- 2009: 513 Punkte
+- 2012: 514 Punkte
+- 2015: 506 Punkte
+- 2018: 500 Punkte
+- 2022: 475 Punkte
+Auch PISA 2022 zeigt weiterhin ausgeprägte soziale Bildungsungleichheiten in Deutschland.
+
+## Quellen
+
+- PISA 2022 – Nationaler Bericht (TU München / ZIB) (https://www.zib.education/pisa-2022-analyse-der-bildungsergebnisse-in-deutschland/)

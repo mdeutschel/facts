@@ -1,0 +1,30 @@
+# Es wird doch schon alles bei der Einkommensteuer versteuert (Doppelbesteuerung)!
+
+Thema: Vermögens- und Erbschaftssteuer
+URL: https://fakten-stammtisch.de/thema/vermoegenssteuer/doppelbesteuerung
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Vermögen wächst oft ohne Einkommensteuerzahlung — durch Wertsteigerungen von Immobilien, Aktien oder Unternehmensanteilen. Diese unrealisierten Gewinne werden erst bei Verkauf besteuert, bei Erbschaften oft gar nicht. Zudem: Auch die Mehrwertsteuer ist eine 'Doppelbesteuerung' von bereits versteuertem Einkommen. Das Leistungsfähigkeitsprinzip erlaubt mehrere Steuern auf verschiedene Bemessungsgrundlagen.
+
+## Fakten dazu
+
+### Verfassungsrecht: Vermögensteuer ist nicht verboten
+
+Hinweis: Geschichte der Vermögensteuer in Deutschland
+- 1893: Einführung der Vermögensteuer (Preußen, später Deutsches Reich)
+- 1995: BVerfG-Beschluss: Einheitswerte verfassungswidrig (Ungleiche Bewertung von Immobilien vs. Geldvermögen)
+- 1997: Erhebung eingestellt (nicht abgeschafft) (Kabinett Kohl — politische Entscheidung, kein Zwang)
+- 2006: BVerfG gibt 'Halbteilungsgrundsatz' auf (Keine starre 50-%-Obergrenze für Gesamtbelastung)
+- 2014: BVerfG: Erbschaftsteuer-Privilegien verfassungswidrig (Reform 2016 ließ Kernprivilegien bestehen)
+- 2025: Grundsteuer-Reform in Kraft (Erstmals aktuelle Immobilienbewertungen — Grundlage für Vermögensteuer)
+- seit 2022 anhängig: Erneute verfassungsrechtliche Prüfung der Erbschaftsteuer-Privilegien (Az. 1 BvR 804/22)
+- Das BVerfG hat die Vermögensteuer NICHT für verfassungswidrig erklärt — nur die damalige Bewertungsmethode. Das Vermögensteuergesetz ist formal noch in Kraft. Für eine Wiedereinführung genügt ein einfaches Bundesgesetz (+ Bundesratszustimmung).
+Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Die seit 2025 wirksame Grundsteuer-Reform schafft zudem eine deutlich aktuellere Immobilienbewertung als früher, was eine verfassungskonforme Ausgestaltung erleichtern kann.
+
+## Quellen
+
+- BVerfG: Beschluss vom 22.6.1995 zur Vermögensteuer (https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1995/06/rs19950622_2bvr055291.html)
+- Gesetze im Internet – Vermögensteuergesetz (VStG) (https://www.gesetze-im-internet.de/vstg_1974/)

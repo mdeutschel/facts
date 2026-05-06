@@ -1,0 +1,57 @@
+# Klimaschutz können wir uns nicht leisten!
+
+Thema: Klimawandel
+URL: https://fakten-stammtisch.de/thema/klimawandel/zu-teuer
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Belastbar ist vor allem: Klimaschutz erfordert hohe Investitionen, aber verzögertes Handeln erhöht Risiken und Zusatzkosten. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad bis Anfang der 2030er weltweit rund 4,5 Billionen US-Dollar pro Jahr für Clean Energy.
+
+## Fakten dazu
+
+### Was kostet Handeln — was kostet Nichtstun?
+
+Hinweis: Frühes Handeln vs. spätes Aufschieben
+- Frühes Handeln
+  - IPCC: <2-°C-Pfad: ~1,7 Bio. USD/Jahr
+  - IPCC: 1,5 °C im Energiesektor: ~2,4 Bio. USD/Jahr
+  - IEA: Clean-Energy-Investitionen: 4,5 Bio. USD/Jahr bis Anfang der 2030er
+  - Robuster Befund: Investieren ist teuer, Aufschieben verteuert es weiter
+- Spätes Aufschieben
+  - Extremwetterschäden 2024: 320 Mrd. USD global (Munich Re)
+  - Deutschland 2024: 5,7 Mrd. € Naturgefahrenschäden (GDV)
+  - Ahrtal 2021 allein: 8,75 Mrd. € versichert
+  - IPCC-Warnung: Verzögerung erhöht Lock-ins und Folgekosten
+- Ersparnis: Der robuste ökonomische Kernbefund lautet: Verzögertes Handeln erhöht Risiken und Zusatzkosten.
+- Der IPCC hält fest: Globale Mitigationsinvestitionen müssen bis 2030 je nach Sektor und Region um ein Mehrfaches wachsen; für viele Bereiche liegt der Bedarf beim 3- bis 6-Fachen heutiger Größenordnungen.
+- Die IEA veranschlagt im aktualisierten Net-Zero-Roadmap-Pfad weltweite Clean-Energy-Investitionen von 4,5 Bio. USD pro Jahr bis Anfang der 2030er.
+
+### Extremwetter: Häufiger, teurer, tödlicher
+
+- Globale Schäden 2024: 320 Mrd. $ (Munich Re)
+- Globale Schäden 2025: 224 Mrd. $ (Munich Re)
+- Deutschland 2024: 5,7 Mrd. € (Naturgefahren gesamt (GDV))
+- Ahrtal 2021: 8,75 Mrd. € (versicherter Gesamtschaden (GDV))
+Hinweis: Versicherte Katastrophenschäden weltweit (Mrd. USD)
+- 2024: 140 Mrd. $
+- 2025: 108 Mrd. $
+- 2024 und 2025 lagen die versicherten Naturschäden weltweit jeweils über 100 Mrd. USD. Gleichzeitig entfielen 2024/2025 rund 92-93 % der Gesamtschäden und 97 % der versicherten Schäden auf Wetterkatastrophen.
+Hinweis: Extremwetter-Schäden in Deutschland
+Spalten: Ereignis / Jahr | Versicherte Schäden | Einordnung
+- Ahrtal-Flut 2021 | 8,75 Mrd. € | Folgenschwerste Naturkatastrophe in Deutschland für die Versicherungswirtschaft
+- Hochwasser/Starkregen 2024 | 2,6 Mrd. € | Deutschlandweit versicherte Schäden
+- Alle Naturgefahren 2024 | 5,7 Mrd. € | Sturm, Hagel, Starkregen und Überschwemmungen
+- Alle Naturgefahren 2025 | 2,6 Mrd. € | deutlich unter 2024, aber weiter relevante Schäden
+Das Ahrtal-Hochwasser 2021 war für die Versicherungswirtschaft mit 206.000 Schäden und 8,75 Mrd. Euro versichertem Gesamtschaden die folgenschwerste Naturkatastrophe in Deutschland.
+
+## Quellen
+
+- Munich Re: Natural disaster figures 2024 (https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2025/natural-disaster-figures-2024.html)
+- GDV: Naturgefahrenstatistik 2024 — Hochwasserschäden Deutschland (https://www.gdv.de/gdv/medien/medieninformationen/gdv-naturgefahrenstatistik-2024-hochwasserschaeden-mehr-als-verdoppelt-188734)
+- Munich Re: Natural disaster figures 2025 (https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/natural-disaster-figures-2025.html)
+- GDV: Flutkatastrophe von 2021 - 7,5 Milliarden Euro an über 200.000 Versicherte ausbezahlt (https://www.gdv.de/gdv/medien/medieninformationen/flutkatastrophe-ahrtal-schadenregulierung-180752)
+- GDV: Naturgefahrenbilanz 2025 - deutlich weniger Schäden durch Wetterextreme (https://www.gdv.de/gdv/medien/medieninformationen/gdv-naturgefahrenbilanz-2025-deutlich-weniger-schaeden-durch-wetterextreme--195410)
+- IPCC AR6 WGIII Chapter 15: Investment and Finance (https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-15/)
+- IEA: Net Zero Roadmap 2023 update (https://www.iea.org/news/the-path-to-limiting-global-warming-to-1-5-c-has-narrowed-but-clean-energy-growth-is-keeping-it-open)

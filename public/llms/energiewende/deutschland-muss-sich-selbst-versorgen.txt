@@ -1,0 +1,41 @@
+# Deutschland muss sich doch selbst versorgen können!
+
+Thema: Energiewende & Atomkraft
+URL: https://fakten-stammtisch.de/thema/energiewende/deutschland-muss-sich-selbst-versorgen
+Bewertung: Überwiegend falsch
+Stand: 2026-03-20
+
+## Antwort
+
+Der europäische Stromverbund ist Teil der Versorgungssicherheit. Import und Export gleichen regionale Unterschiede aus und sind kein Versagenssignal. Vollständige Autarkie wäre teurer und systemisch unflexibler als ein gut vernetztes europäisches Stromsystem.
+
+## Fakten dazu
+
+### Europäischer Stromverbund: Deutschland ist keine Insel
+
+- Import 2025: 76,2 TWh (Stromverbund mit Nachbarländern)
+- Export 2025: 54,3 TWh (Stromverbund mit Nachbarländern)
+- EE-Rekord: 67,5 % (Q2 2025)
+- Nettoimport 2025: 21,9 TWh – 22,6 % weniger als 2024. Tendenz: Importbedarf sinkt.
+- Der europäische Verbund gleicht regionale Wetter-, Last- und Preisunterschiede durch Importe und Exporte aus.
+- EU-Regel: Mindestens 70 % der physischen Übertragungskapazität muss für grenzüberschreitenden Handel verfügbar sein.
+Stromimport/-export ist kein Zeichen von Schwäche, sondern intelligentes System-Design. Es ist billiger als jedes Land für sich allein.
+
+### Dunkelflauten: Reales Problem, kein Showstopper
+
+- Dunkelflauten: beherrschbar (fordern Flexibilität statt Panik)
+- Versorgungsengpass: kein annähernder (laut BNetzA Anfang 2025)
+- Negativpreisstunden: 573 Std. (2025)
+Spalten: Kennzahl | Wert | Quelle
+- Dunkelflautenlagen | reales Systemthema | BNetzA
+- Versorgungsengpässe Anfang 2025 | kein annähernder Engpass | BNetzA
+- Negativpreisstunden 2025 | 573 | BNetzA / SMARD
+- Schlüsselaufgabe | mehr Speicher, Netze und flexible Lasten | Systemische Einordnung
+- Selbst in der Dunkelflautenlage Anfang 2025 kam es laut Bundesnetzagentur nicht annähernd zu Versorgungsengpässen.
+Überbrückung heute: Gaskraftwerke, europäische Stromimporte, wachsend: Batteriespeicher. Kern des Problems: Nicht die Häufigkeit der Dunkelflauten, sondern fehlende Speicher und Netzkapazitäten.
+
+## Quellen
+
+- BNetzA Insight: Dunkelflaute? Kein Grund zur Panik (https://www.bundesnetzagentur.de/DE/Allgemeines/DieBundesnetzagentur/Insight/Texte/Energiewende/Dunkelflaute.html)
+- SMARD/BNetzA: Jahresrückblick 2025 (https://www.smard.de/page/home/topic-article/216804/218954/hoechste-pv-einspeisung-in-jedem-quartal)
+- ACER: Monitoring the 70% cross-zonal capacity rule (https://www.acer.europa.eu/news-and-events/news/acers-monitoring-finds-much-stake-grid-operators-are-still-far-making-70-transmission-capacity-available-cross-zonal-electricity-trade)

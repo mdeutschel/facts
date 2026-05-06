@@ -1,0 +1,22 @@
+# E-Autos brennen ständig und können nicht gelöscht werden.
+
+Thema: E-Mobilität
+URL: https://fakten-stammtisch.de/thema/emobilitaet/brennende-autos
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Die pauschale Behauptung stimmt nicht. Laut BMUKN brennen Elektroautos nicht häufiger als andere Fahrzeuge. Wenn ein Akku-Brand entsteht, ist das Löschen zwar aufwendiger, aber für Feuerwehren ist das ein bekanntes und beherrschbares Szenario.
+
+## Fakten dazu
+
+### Brandgefahr: Brennen E-Autos häufiger?
+
+- Elektroautos brennen laut BMUKN nicht häufiger als andere Fahrzeuge.
+Ein brennendes Elektroauto ist laut BMUKN in thermischer Hinsicht nicht gefährlicher als ein brennendes Fahrzeug mit konventionellem Antrieb.
+Wenn ein E-Auto brennt, ist es oft aufwendiger zu löschen, weil der Akku gekühlt werden muss. Für Feuerwehren ist das ein bekanntes Einsatzszenario.
+
+## Quellen
+
+- BMUKN – Brandgefahr von Elektroautos (https://www.bmuv.de/faq/wie-gefaehrlich-sind-elektroautos-besonders-im-fall-eines-brands)

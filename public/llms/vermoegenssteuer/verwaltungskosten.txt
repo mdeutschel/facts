@@ -1,0 +1,42 @@
+# Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!
+
+Thema: Vermögens- und Erbschaftssteuer
+URL: https://fakten-stammtisch.de/thema/vermoegenssteuer/verwaltungskosten
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Das Verwaltungsargument ist heute schwächer als in den 1990ern. Durch Digitalisierung, Informationsaustausch und die reformierte Immobilienbewertung sind die Voraussetzungen deutlich besser. Entscheidend ist aber auch hier das Design: hohe Freibeträge und klare Bewertungsregeln halten den Aufwand beherrschbar.
+
+## Fakten dazu
+
+### Vermögensbezogene Steuern: Deutschland im OECD-Vergleich
+
+Deutschland besteuert Vermögen weit unterdurchschnittlich. Bei den Steuern auf Arbeit (Einkommensteuer, Sozialabgaben) liegt Deutschland an der Weltspitze — bei den vermögensbezogenen Steuern (Grundsteuer, Erbschaftsteuer, Vermögensteuer) deutlich unter dem OECD-Schnitt.
+Hinweis: Vermögensbezogene Steuern als % des BIP
+- UK: 4 bis 4.2 % BIP
+- Frankreich: 3.5 bis 3.9 % BIP
+- USA: 2.9 bis 3.1 % BIP
+- OECD-Ø: 1.7 bis 2.3 % BIP
+- Deutschland: 0.9 bis 1.1 % BIP
+- Deutschland erhebt nur knapp die Hälfte des OECD-Durchschnitts an vermögensbezogenen Steuern. Die Vermögensteuer wurde 1997 faktisch ausgesetzt — das Vermögensteuergesetz gilt formal bis heute weiter.
+
+### Verfassungsrecht: Vermögensteuer ist nicht verboten
+
+Hinweis: Geschichte der Vermögensteuer in Deutschland
+- 1893: Einführung der Vermögensteuer (Preußen, später Deutsches Reich)
+- 1995: BVerfG-Beschluss: Einheitswerte verfassungswidrig (Ungleiche Bewertung von Immobilien vs. Geldvermögen)
+- 1997: Erhebung eingestellt (nicht abgeschafft) (Kabinett Kohl — politische Entscheidung, kein Zwang)
+- 2006: BVerfG gibt 'Halbteilungsgrundsatz' auf (Keine starre 50-%-Obergrenze für Gesamtbelastung)
+- 2014: BVerfG: Erbschaftsteuer-Privilegien verfassungswidrig (Reform 2016 ließ Kernprivilegien bestehen)
+- 2025: Grundsteuer-Reform in Kraft (Erstmals aktuelle Immobilienbewertungen — Grundlage für Vermögensteuer)
+- seit 2022 anhängig: Erneute verfassungsrechtliche Prüfung der Erbschaftsteuer-Privilegien (Az. 1 BvR 804/22)
+- Das BVerfG hat die Vermögensteuer NICHT für verfassungswidrig erklärt — nur die damalige Bewertungsmethode. Das Vermögensteuergesetz ist formal noch in Kraft. Für eine Wiedereinführung genügt ein einfaches Bundesgesetz (+ Bundesratszustimmung).
+Die Vermögensteuer ist im Grundgesetz als Ländersteuer (Art. 106 Abs. 2 Nr. 1 GG) ausdrücklich vorgesehen. Die seit 2025 wirksame Grundsteuer-Reform schafft zudem eine deutlich aktuellere Immobilienbewertung als früher, was eine verfassungskonforme Ausgestaltung erleichtern kann.
+
+## Quellen
+
+- OECD Revenue Statistics — Taxes on property (https://stats.oecd.org/Index.aspx?DataSetCode=REV)
+- BVerfG: Beschluss vom 22.6.1995 zur Vermögensteuer (https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1995/06/rs19950622_2bvr055291.html)
+- Gesetze im Internet – Vermögensteuergesetz (VStG) (https://www.gesetze-im-internet.de/vstg_1974/)

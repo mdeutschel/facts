@@ -1,0 +1,48 @@
+# Meine Heizung funktioniert doch noch!
+
+Thema: Heizungswechsel 2026
+URL: https://fakten-stammtisch.de/thema/heizung/heizung-funktioniert-noch
+Stand: 2026-03-18
+
+## Antwort
+
+Viele Heizungen im Bestand sind alt: Laut BDH und ZVSHK ist über die Hälfte der 21,7 Mio. Heizungen veraltet, mehr als 4 Mio. sind über 30 Jahre alt. Wer früh tauscht, kann aktuelle Förderboni eher noch nutzen.
+
+## Fakten dazu
+
+### Förderung auf einen Blick (BEG, Stand März 2026)
+
+Hinweis: Förderung stapelt sich – bis zu 70 %
+- Grundförderung: 30% (jede neue WP)
+- Geschwindigkeitsbonus: 20% (bis Ende 2028)
+- Einkommensbonus: 30% (< 40.000 €/a)
+- Gesamt: Gedeckelt auf 21.000 EUR Zuschuss
+Spalten: Baustein | Satz | Bedingung
+- Grundförderung | 30 % | für jede neue Wärmepumpe
+- Geschwindigkeitsbonus | +20 % | Tausch alter Gas/Öl/Kohle/Nachtspeicher (bis Ende 2028, danach sinkend)
+- Einkommensbonus | +30 % | bei Haushaltseinkommen < 40.000 EUR/Jahr
+- Gesamtförderung | max 70 % | gedeckelt auf 21.000 EUR Zuschuss
+Hinweis: Rechenbeispiel: Was bleibt nach Förderung? (EFH, Tausch Gasheizung)
+Spalten: Position | Betrag
+- Luft-Wasser-WP inkl. Installation | ~30.000 €
+- Förderfähige Kosten (max. 30.000 €) | 30.000 €
+- Grundförderung (30 %) | −9.000 €
+- Geschwindigkeitsbonus (20 %, bis Ende 2028) | −6.000 €
+- Eigenanteil bei 50 % Förderung | ~15.000 €
+- Mit Einkommensbonus (< 40.000 €/a, 70 %) | ~9.000 € Eigenanteil
+- Betriebskosten-Ersparnis/Jahr vs. Gas | ~950 €
+- Amortisation (bei 50 % Förderung) | ~16 Jahre
+- KfW-Ergänzungskredit 358/359 verfügbar: bis zu 120.000 € zinsgünstiges Darlehen für die restlichen Kosten.
+- Antrag VOR Einbau bei KfW stellen — sonst verfällt der Förderanspruch.
+
+### Lock-in-Falle: Warum jede neue Gasheizung ein Risiko ist
+
+Eine 2026 eingebaute Gasheizung läuft oft zwei Jahrzehnte oder länger. In dieser Zeit steigen Preis- und Regulierungsrisiken: CO₂-Kosten werden marktabhängiger, Gasnetze stehen unter Transformationsdruck, und neue fossile Investitionen können wirtschaftlich schneller unattraktiv werden als geplant.
+
+## Quellen
+
+- DIW Berlin – Stilllegung der Erdgasnetze (https://www.diw.de/de/diw_01.c.898168.de/publikationen/wochenberichte/2024_13_1/waermewende__bundesregierung_sollte_kommunen_bei_der_stilllegung_der_erdgasnetze_unterstuetzen.html)
+- EWI Köln – Auswirkungen und Preispfade des EU ETS2 (https://www.ewi.uni-koeln.de/de/publikationen/auswirkungen-und-preispfade-des-eu-ets2/)
+- KfW – Heizungsförderung für Privatpersonen (https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Heizungsf%C3%B6rderung-f%C3%BCr-Privatpersonen-Wohngeb%C3%A4ude-(458)/)
+- KfW – Ergänzungskredit 358/359 (https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/F%C3%B6rderprodukte/Einzelma%C3%9Fnahmen-Erg%C3%A4nzungskredit-Wohngeb%C3%A4ude-(358-359)/)
+- EU-Gasbinnenmarktrichtlinie 2024 (https://eur-lex.europa.eu/eli/dir/2024/1788/oj/eng)

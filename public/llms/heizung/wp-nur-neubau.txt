@@ -1,0 +1,43 @@
+# Wärmepumpe lohnt sich nur im Neubau!
+
+Thema: Heizungswechsel 2026
+URL: https://fakten-stammtisch.de/thema/heizung/wp-nur-neubau
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Falsch. Fraunhofer ISE hat 77 Bestandsgebäude vermessen, darunter sehr alte Gebäude, und keinen Zusammenhang zwischen Baujahr und Effizienz gefunden. Entscheidend sind Heizkörpergröße, Hydraulik und saubere Auslegung. Fußbodenheizung ist nicht zwingend nötig. Außerdem gehen rund 80 % der neuen Wärmepumpen in Bestandsgebäude.
+
+## Fakten dazu
+
+### Fraunhofer ISE (2025): Wärmepumpe funktioniert im Altbau
+
+Forschungsprojekt „WP-QS im Bestand“: 77 Wärmepumpen in Bestandsgebäuden (Baujahre 1826–2001), vier Jahre vermessen.
+- Luft-Wasser-WP: JAZ 3,4 (Schnitt (2,6–4,9))
+- Erdwärme-WP: JAZ 4,3 (Schnitt (3,6–5,4))
+- CO₂-Einsparung: -64 % (vs. Gasheizung)
+- Zusammenhang: 0 (Baujahr↔Effizienz)
+Spalten: Ergebnis | Detail
+- JAZ 3,4 | Luft-Wasser-WP im Schnitt (Bandbreite 2,6–4,9)
+- JAZ 4,3 | Erdwärme-WP im Schnitt (Bandbreite 3,6–5,4)
+- -64 % CO₂ | vs. Gasheizung (2024), erstmals dynamisch bilanziert (viertelstündl. dt. Strommix)
+- Kein Zusammenhang | zwischen Baujahr und Effizienz
+- Ausreichend dimensionierte Heizkörper können im Mittel mit ähnlich niedrigen Temperaturen betrieben werden wie Fußbodenheizungen. Entscheidend sind Heizkörpergröße und Hydraulik, nicht das Gebäudealter.
+- Mythos widerlegt: „Wärmepumpe braucht Fußbodenheizung und Vollsanierung“ – Fraunhofer ISE, November 2025
+
+### Status Quo
+
+- 21,7 Mio. Heizungen in Deutschland
+- Drei Viertel der Wohnungen werden mit Gas oder Öl beheizt (Gas 56 %, Öl 19 %; Zensus 2022).
+- Über die Hälfte der Heizungen gilt als veraltet; mehr als 4 Mio. sind älter als 30 Jahre.
+- Wärmepumpen-Anteil im Bestand: nur 4,4 %
+- 2024 nutzten 69,4 % der fertiggestellten Wohngebäude primär Wärmepumpen.
+- Bei den Baugenehmigungen für Wohngebäude lagen Wärmepumpen 2024 sogar bei 81,0 %.
+
+## Quellen
+
+- Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025) (https://www.ise.fraunhofer.de/en/press-media/press-releases/2025/fraunhofer-ise-research-project-completed-heat-pumps-provide-climate-friendly-heating-in-existing-buildings.html)
+- BDEW – Heizungsmarkt und Gebäudebestand (https://www.bdew.de/media/documents/BDEW_Heizungsmarkt_2023_Zensus2022_BROSCH%C3%9CRE_Druckdatei_Final_1_8zcnCHX.pdf)
+- Destatis – Heizungsart in neuen Wohngebäuden 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_N031_31_51.html)
+- ZVSHK – Heizungsbranche schlägt Alarm (https://www.zvshk.de/presse/medien-center/pressemitteilungen/heizungsbranche-schlaegt-alarm)

@@ -1,0 +1,47 @@
+# Bürgergeld-Empfänger sind doch allesamt faul und wollen einfach nicht arbeiten!
+
+Thema: Bürgergeld
+URL: https://fakten-stammtisch.de/thema/buergergeld/aufstocker
+Bewertung: Falsch
+Stand: 2026-03-19
+
+## Antwort
+
+Rund 820.000 Bürgergeldbeziehende — etwa ein Fünftel aller erwerbsfähigen Leistungsberechtigten — gehen einer bezahlten Arbeit nach, verdienen aber zu wenig, um davon zu leben. Diese sogenannten ‚Aufstocker' sind überwiegend in Teilzeit oder geringfügig beschäftigt; nur rund 80.000 sind sozialversicherungspflichtig vollzeitbeschäftigt. Bürgergeld ist also nicht nur ein Instrument für Arbeitslose, sondern auch ein ergänzender Lohnzuschuss für Niedriglohnbeschäftigte.
+
+## Fakten dazu
+
+### Bürgergeld trotz Arbeit
+
+Bürgergeld ist nicht ausschließlich für Arbeitslose. Im Jahresdurchschnitt 2024 gingen rund 820.000 Leistungsberechtigte einer bezahlten Arbeit nach, verdienten aber zu wenig, um ohne ergänzendes Bürgergeld auszukommen. Diese sogenannten ‚Aufstocker' machen etwa ein Fünftel aller erwerbsfähigen Leistungsberechtigten aus.
+- Aufstocker gesamt (2024): ca. 820.000 (~20,7 % der erwerbsfähigen Berechtigten)
+- davon Teilzeit / geringfügig: über 500.000
+- davon Vollzeit-SVP: ca. 80.000
+Der typische Aufstocker ist kein Vollzeitbeschäftigter mit unzureichendem Stundenlohn, sondern überwiegend teilzeit- oder geringfügig beschäftigt. Der leichte Anstieg 2024 gegenüber 2023 (+30.000) wird vom Institut der deutschen Wirtschaft (IW Köln) unter anderem auf die verbesserte Arbeitsmarktintegration von Zuwanderern zurückgeführt — die zunächst häufig in Ausbildung oder Teilzeit einmünden.
+
+### Lohnt sich Arbeit noch?
+
+Eine Studie des Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) zeigt klar: Wer zum Mindestlohn arbeitet, hat am Ende des Monats spürbar mehr Geld zur Verfügung als mit Bürgergeld.
+Hinweis: Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bürgergeld (WSI-Modellrechnung auf Basis von 12,82 € Mindestlohn, Stand 2025)
+- Alleinstehende
+  - Bürgergeld inkl. Unterkunft: ca. 1.015 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 1.572 €
+  - Einkommensvorteil: + 557 €
+- Alleinerziehend (1 Kind)
+  - Bürgergeld inkl. Unterkunft: ca. 1.783 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 2.532 €
+  - Einkommensvorteil: + 749 €
+Hinweis: Aufschlüsselung Single-Haushalt (WSI-Modellrechnung, Bundesdurchschnitt)
+Spalten: Position | Bürgergeld | Mindestlohn-Vollzeit
+- Regelbedarf / Nettolohn | 563 € | ~1.572 € netto
+- Unterkunft + Heizung | ~452 € | vom Netto zu zahlen
+- Verfügbar nach Miete | 563 € | ~1.120 €
+- Einkommensvorteil |  | +557 €/Monat
+Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv. Ein alleinstehender Mindestlohn-Beschäftigter hat über das Jahr gerechnet rund 6.700 € mehr zur Verfügung als im Bürgergeldbezug.
+- Seit Januar 2026 beträgt der gesetzliche Mindestlohn 13,90 € pro Stunde (zuvor 12,82 €). Die WSI-Modellrechnung basiert auf dem 2025er Satz — der tatsächliche Einkommensvorteil gegenüber dem Bürgergeld ist seit Januar 2026 rechnerisch noch größer.
+
+## Quellen
+
+- WSI-Studie zum Lohnabstandsgebot (2024/2025) (https://www.wsi.de/de/pressemitteilungen-15991-einkommen-bei-mindestlohnbeschaeftigung-deutlich-hoeher-als-buergergeld-70666.htm)
+- IW Köln - Bürgergeld-Aufstocker: Ergebnis eines arbeitsmarktpolitischen Erfolges? (2025) (https://www.iwkoeln.de/studien/holger-schaefer-ergebnis-eines-arbeitsmarktpolitischen-erfolges.html)
+- BMAS - Mindestlohn steigt zum 1. Januar 2026 auf 13,90 Euro (https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/mindestlohn-steigt-zum-ersten-januar-2026.html)

@@ -1,0 +1,43 @@
+# KI nimmt den Kreativen die Arbeit weg!
+
+Thema: KI und der Arbeitsmarkt
+URL: https://fakten-stammtisch.de/thema/ki-arbeitsmarkt/kreative-arbeit-weg
+Bewertung: Teilweise wahr
+Stand: 2026-03-30
+
+## Antwort
+
+Kreativberufe sind tatsächlich stark betroffen: Modedesigner (+38 PP), Journalisten (+20 PP), Komponisten erstmals automatisierbar (von 0 auf 25 %). Der Synchronsprecher ist der einzige Beruf mit 100 % Substituierbarkeit. Aber in der Breite zeigt sich eher eine Verschiebung hin zur Mensch-KI-Kollaboration als eine vollständige Ersetzung — kreative Gesamtkonzepte sind bisher kaum automatisierbar.
+
+## Fakten dazu
+
+### Wer gewinnt, wer verliert?
+
+Generative KI hat das Bild verschoben: Nicht mehr nur Fabrikarbeit ist exponiert, sondern zunehmend Wissensarbeit. Der stärkste Anstieg der Substituierbarkeit findet in IT- und naturwissenschaftlichen Dienstleistungsberufen statt, gefolgt von Handels- und Unternehmensführungsberufen. Kaum verändert haben sich soziale, pflegerische und handwerkliche Berufe.
+Hinweis: Substituierbarkeitspotenzial ausgewählter Berufe (IAB 2024)
+Spalten: Beruf | 2019 | 2022 | Veränderung
+- Synchronsprecher:in | < 100 % | 100 % | vollständig
+- Modedesigner:in | 50 % | 88 % | +38 PP
+- Softwareentwickler:in | – | – | +~30 PP
+- Komponist:in | 0 % | 25 % | +25 PP
+- Betriebswirt:in (Industrie) | 46 % | 69 % | +23 PP
+- Journalist:in | 20 % | 40 % | +20 PP
+- Gesundheitsberufe | ~27 % | ~27 % | ±0
+- Soziale Dienstleistungen | ~14 % | ~14 % | ±0
+- Frauen sind in Industrieländern fast dreimal stärker von KI-Automatisierung bedroht als Männer: 9,6 % der weiblichen Arbeitsplätze fallen in die höchste Expositionsstufe, bei Männern sind es 3,5 %. Grund ist die starke Konzentration von Frauen in Büro-, Verwaltungs- und Buchhaltungstätigkeiten.
+
+### Welche Berufe sind besonders exponiert?
+
+Das IAB misst für jeden Beruf, welcher Anteil seiner Kerntätigkeiten heute potenziell von Computern oder KI übernommen werden könnte — das sogenannte Substituierbarkeitspotenzial. Das bedeutet nicht, dass diese Jobs tatsächlich wegfallen, sondern zeigt, wo technisch eine Automatisierung möglich wäre.
+Hinweis: Substituierbarkeitspotenzial nach Anforderungsniveau (2022)
+- Fachkraftberufe: 62 %
+- Helferberufe: 57 %
+- Spezialistenberufe: 50 %
+- Expertenberufe: 36 %
+- 13,03 Millionen sozialversicherungspflichtig Beschäftigte (38 %) arbeiten in Berufen mit einem Substituierbarkeitspotenzial von über 70 %. 2019 waren es noch 34 %.
+Die überraschende Erkenntnis: Durch generative KI steigt das Potenzial bei Expertenberufen am stärksten (+9,7 Prozentpunkte seit 2019), obwohl es dort absolut am niedrigsten bleibt. Hochqualifizierte bekommen die Digitalisierung verstärkt zu spüren — ein neues Phänomen, das vor allem auf Text-, Bild- und Codegeneratoren zurückgeht.
+
+## Quellen
+
+- IAB – Kurzbericht 5/2024: Substituierbarkeitspotenziale von Berufen (https://doku.iab.de/kurzber/2024/kb2024-05.pdf)
+- ILO – Generative AI and Jobs: Gender Impact (2024) (https://www.ilo.org/resource/news/new-ilo-data-confirm-women-face-higher-workplace-risks-generative-ai-men)

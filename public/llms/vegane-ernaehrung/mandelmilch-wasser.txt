@@ -1,0 +1,36 @@
+# Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!
+
+Thema: Vegane Ernährung & Fleischkonsum
+URL: https://fakten-stammtisch.de/thema/vegane-ernaehrung/mandelmilch-wasser
+Bewertung: Ohne Kontext irreführend
+Stand: 2026-03-19
+
+## Antwort
+
+Mandelmilch benötigt tatsächlich rund 371 Liter Wasser pro Liter — das ist viel. Aber Kuhmilch liegt mit 628 Litern pro Liter noch deutlich darüber. Wer Wasser- und Klimabilanz optimieren will, greift zu Hafermilch (48 L) oder Sojamilch (28 L). Beide schneiden in allen Umweltkategorien drastisch besser ab als Kuhmilch.
+
+## Fakten dazu
+
+### Flächen- und Wasserverbrauch
+
+Tierhaltung ist ressourcenintensiv und im Vergleich ineffizient: Tiere verbrauchen ein Vielfaches an Kalorien in Form von Futter, als sie später als Fleisch oder Milch liefern. Das führt zu einem hohen Flächen- und Wasserbedarf.
+- Wasser für 1kg Rindfleisch: 15.400 L (Globaler Durchschnitt)
+- Sojaernte global: 77 % (gehen ins Tierfutter)
+- Globale Agrarfläche: >75 % (Einsparpotenzial bei weltweiter veganer Ernährung)
+- Tierprodukte liefern global nur rund 18 % der Kalorien, beanspruchen aber etwa 83 % der Agrarfläche.
+
+### Pflanzenmilch vs. Kuhmilch
+
+Pflanzenmilch schneidet in fast allen Umweltkategorien deutlich besser ab als Kuhmilch. Besonders Hafer- und Sojamilch sind ressourceneffizient und können in Europa angebaut werden.
+Hinweis: Umweltbilanz pro Liter Milch (Poore & Nemecek 2018, globale Mittelwerte)
+Spalten: Milchsorte | CO₂-Äq. (kg) | Wasser (L) | Fläche (m²)
+- Kuhmilch | ~3,15 | ~628 | ~9,0
+- Mandelmilch | ~0,70 | ~371 | <1,0
+- Sojamilch | ~0,98 | ~28 | ~0,7
+- Hafermilch | ~0,32 | ~48 | ~0,1
+- Hafermilch verursacht rund 90 % weniger CO₂, benötigt 92 % weniger Wasser und 99 % weniger Fläche als Kuhmilch.
+
+## Quellen
+
+- Oxford University (Poore & Nemecek, 2018): Reducing food’s environmental impacts (https://science.sciencemag.org/content/360/6392/987)
+- Albert Schweitzer Stiftung: Ökologische Folgen des Fleischkonsums (https://albert-schweitzer-stiftung.de/themen/umwelt)

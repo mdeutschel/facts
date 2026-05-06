@@ -1,0 +1,62 @@
+# Ausländer belasten unser Gesundheitssystem
+
+Thema: Deutsches Gesundheitssystem
+URL: https://fakten-stammtisch.de/thema/gesundheit/auslaender-gesundheit
+Bewertung: Überwiegend falsch
+Stand: 2026-03-19
+
+## Antwort
+
+Es kommt auf die Gruppe an: Erwerbsmigrant:innen sowie EU-Bürger:innen zahlen Beiträge wie alle anderen GKV-Mitglieder auch – und nehmen statistisch im Schnitt weniger Leistungen in Anspruch als die ältere inländische Bevölkerung, weil sie jünger und erwerbstätig sind. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang (AsylbLG: akute Erkrankungen, Schmerzen, Schwangerschaft, Impfungen); erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert. Die Haupttreiber der Finanzierungsprobleme sind strukturell: steigende Ausgaben durch die alternde Bevölkerung, Überkapazitäten im Krankenhausbereich und zu wenig Prävention.
+
+## Fakten dazu
+
+### Was kostet unser Gesundheitssystem?
+
+Deutschland gehört weltweit zu den Ländern mit den höchsten Gesundheitsausgaben.
+Hinweis: Gesundheitsausgaben pro Kopf 2023 (kaufkraftbereinigt, USD)
+- USA: 14775 USD
+- Schweiz: 9900 USD
+- Deutschland: 9365 USD
+- Norwegen: 8200 USD
+- OECD-Schnitt: 6000 USD
+- GKV-Gesamtbeitrag: 17,5 % (14,6 % + 2,9 % Zusatzbeitrag (2026))
+- GKV-Ausgaben 2025: 346,6 Mrd. € (Prognose GKV-Schätzerkreis)
+- BIP-Anteil Gesundheit: ~12 % (OECD-Schnitt: 9,3 %)
+Hinweis: GKV-Gesamtbeitragssatz seit 2015 (allgemeiner Beitrag + durchschnittlicher Zusatzbeitrag)
+- 2015: 15.5 %
+- 2018: 15.6 %
+- 2020: 15.7 %
+- 2022: 15.9 %
+- 2024: 16.3 %
+- 2025: 17.1 %
+- 2026: 17.5 %
+Hinweis: GKV-Beitrag bei zwei Beispiel-Gehältern (2026, 17,5 % Gesamtbeitrag; Schätzwerte für Steuerklasse I, kinderlos, ohne Kirchensteuer)
+Spalten: Position | Mindestlohn (~2.220 € brutto) | Median (~3.000 € brutto)
+- AN-Anteil GKV (8,75 %) | 194 € | 263 €
+- AG-Anteil GKV (8,75 %) | 194 € | 263 €
+- GKV gesamt | 388 € | 525 €
+- + Pflegeversicherung AN | ~40 € | ~53 €
+- Abzug vom Brutto (AN gesamt) | ~234 € | ~316 €
+- verbleibend netto (ca.) | ~1.570 € | ~2.050 €
+
+### Prävention: Geringer Anteil an den Gesamtausgaben
+
+Das deutsche Gesundheitssystem konzentriert große Teile seiner Ausgaben auf Behandlung. Die Ausgaben für Prävention sind im Vergleich zu den Gesamtausgaben gering.
+Hinweis: Gesundheitsausgaben nach Leistungsart 2023
+- Pflege & Therapie: 155.1% (155,1 Mrd. EUR)
+- Ärztliche Leistungen: 118.3% (118,3 Mrd. EUR)
+- Arzneimittel: 77.9% (77,9 Mrd. EUR)
+- Prävention: 24.8% (24,8 Mrd. EUR)
+- Gesamt: Gesamtausgaben: 500,8 Mrd. EUR
+- Nur 4,9 % der Gesundheitsausgaben (24,8 Mrd. von 500,8 Mrd. €) flossen 2023 in Prävention — 298 € je Einwohner. Der GKV-Anteil für Präventionsaktivitäten lag 2024 bei nur 686 Mio. €, also weniger als 0,2 % der GKV-Ausgaben.
+Für viele Präventionsmaßnahmen – insbesondere Impfungen und Früherkennungsuntersuchungen – belegt die Forschung einen deutlich positiven Kosten-Nutzen-Effekt. Nicht jede Maßnahme ist gleich wirksam; der Return on Investment variiert je nach Intervention erheblich. Konsens besteht jedoch darin, dass insbesondere bei Volkskrankheiten wie Diabetes und Herz-Kreislauf-Erkrankungen mehr Prävention mittel- bis langfristig Behandlungskosten senkt.
+
+## Quellen
+
+- OECD – Health at a Glance 2025 (https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/health-expenditure-per-capita_affe6b0a.html)
+- GKV-Schätzerkreis – Prognose 2025/2026 (https://www.bundesamtsozialesicherung.de/de/service/newsroom/detail/gkv-schaetzerkreis-schaetzt-die-finanziellen-rahmenbedingungen-der-gesetzlichen-krankenversicherung-fuer-die-jahre-2025-und-2026/)
+- RKI – Gesundheitsberichterstattung Präventionsausgaben (https://www.gbe.rki.de/DE/Themen/Rahmenbedingungen/PolitischeRahmenbedingungen/GesetzlicheGrundlagen/Praeventionsausgaben/praeventionsausgaben_node.html)
+- GKV-Spitzenverband – Präventionsbericht 2025 (https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp)
+- BMG - Beitragssätze der gesetzlichen Krankenversicherung (https://www.bundesgesundheitsministerium.de/beitraege)
+- Destatis - Gesundheitsausgaben nach Leistungsarten 2023 (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Gesundheitsausgaben/Tabellen/leistungsarten.html)

@@ -1,0 +1,59 @@
+# Zeig mir das AKW, das du bauen willst.
+
+Thema: Energiewende & Atomkraft
+URL: https://fakten-stammtisch.de/thema/energiewende/zeig-mir-das-akw
+Stand: 2026-03-20
+
+## Antwort
+
+Große westliche AKW-Neubauten sind teuer, dauern lange und bleiben regelmäßig nicht im Startbudget. In Deutschland kämen zusätzlich fehlende Lieferketten, Fachkräfte und Genehmigungsroutinen hinzu. Wer heute neu beschließt, bekommt realistisch erst in den 2040er Jahren relevanten Strom.
+
+## Fakten dazu
+
+### AKW-Neubau im Westen: Kein Projekt im Budget
+
+Hinweis: Westliche AKW-Neubauprojekte
+Spalten: Projekt | Land | Bauzeit | Startbudget | Heute
+- Hinkley Point C | GB | 2017 - 2030+ | 18 Mrd. GBP | 35 Mrd. GBP (~48 Mrd. GBP nominal)
+- Flamanville 3 | FR | 2007 - 2024 | 3,3 Mrd. EUR | 23,7 Mrd. EUR (Rechnungshof)
+- Olkiluoto 3 | FI | 2005 - 2023 | 3 Mrd. EUR | ~11 Mrd. EUR
+- Vogtle 3&4 | USA | 2013 - 2023/24 | 14 Mrd. USD | ~35 Mrd. USD
+Barakah in den Vereinigten Arabischen Emiraten wird oft als Gegenbeispiel genannt. Das Projekt entstand aber unter sehr anderen Bedingungen: standardisierte südkoreanische Reaktortechnik, andere Genehmigungslogik und andere Kostenstrukturen. Es ist deshalb keine belastbare Blaupause für Deutschland oder andere westliche Demokratien.
+- Kein westliches Neubauprojekt blieb im Budget: Flamanville 3 kostete statt 3,3 Mrd. am Ende 23,7 Mrd. €; Hinkley Point C stieg von 18 auf 35 Mrd. GBP. Die Bauzeiten lagen bei 13–18 Jahren statt der geplanten 5–6.
+- Wer heute einen Neubau beschließt, erhält in westlichen Demokratien mit hoher Wahrscheinlichkeit erst in den 2040er Jahren nennenswerten Strom aus dem Projekt.
+- In Deutschland: Kein Fachpersonal, keine Lieferketten, keine Genehmigungsstrukturen
+
+### Stromgestehungskosten (LCOE) – Der Preisvergleich
+
+Quelle: Lazard LCOE+ v18.0 (Juni 2025), unsubventioniert, US-Marktdaten in USD/MWh.
+Hinweis: LCOE nach Technologie (USD/MWh, unsubventioniert)
+- Solar (Utility-Scale): 38 bis 78 $/MWh
+- Wind Onshore: 37 bis 86 $/MWh
+- Gas Combined Cycle: 48 bis 109 $/MWh
+- Wind Offshore: 74 bis 139 $/MWh
+- Kohle: 69 bis 168 $/MWh
+- Kernkraft Neubau: 141 bis 220 $/MWh
+Hinweis: LCOE nach Technologie (USD/MWh, unsubventioniert)
+Spalten: Technologie | LCOE (USD/MWh) | Anmerkung
+- Solar (Utility-Scale) | 38 - 78 | günstigste Neubauten im Lazard-Vergleich
+- Wind Onshore | 37 - 86 | klar unter Neubau-Kernkraft
+- Gas Combined Cycle | 48 - 109 | stark gaspreisabhängig
+- Wind Offshore | 74 - 139 | teurer als Onshore, aber unter Kernkraft möglich
+- Kohle | 69 - 168 | ohne externe Folgekosten
+- Kernkraft Neubau | 141 - 220 | teuerster großer Neubautyp im Vergleich
+Hinweis: Ergänzende LCOE-Werte
+Spalten: Kategorie | LCOE | Quelle
+- Bestands-AKW (abbezahlt, Langzeitbetrieb) | < 40 USD/MWh | OECD/IEA-NEA 2020
+- OECD-Modell „Nth-of-a-kind“ (3% Diskont) | 55 - 95 USD/MWh | OECD/IEA-NEA 2020
+- Hinkley Point C (Strike Price Jan 2026) | ~127 GBP/MWh ≈ 15 Ct/kWh | inflationsindexiert, steigt weiter
+- Neubau-Kernkraft ist in aktuellen Kostenvergleichen deutlich teurer als Solar- und Windkraft.
+
+## Quellen
+
+- Lazard LCOE+ v18.0 (Juni 2025) (https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf)
+- EDF 2024 financial statements: Hinkley Point C update (https://www.edf.fr/sites/groupe/files/2025-03/annual-results-2024-consolidated-financial-statements-2025-03-05.pdf)
+- Southern Company Annual Report 2024: Vogtle update (https://investor.southerncompany.com/files/doc_financials/2024/annual/2024-annual-report.pdf)
+- TVO: Olkiluoto 3 project history and settlement (https://www.tvo.fi/en/index/news/pressreleasesstockexchangereleases/2018/hD4GZkgAO.html)
+- World Nuclear Association: France nuclear power profile (Flamanville 3) (https://world-nuclear.org/information-library/country-profiles/countries-a-f/france)
+- ENEC and KEPCO announce financial close for Barakah Nuclear Energy Plant (https://www.enec.gov.ae/news/latest-news/enec-and-kepco-announce-financial-close-for-barakah-nuclear-energy-plant/)
+- World Nuclear News: Barakah 4 enters commercial operation (https://www.world-nuclear-news.org/articles/barakah-4-landmark-announced-as-world-nuclear-symp)

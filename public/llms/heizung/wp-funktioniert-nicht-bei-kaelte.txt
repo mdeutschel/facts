@@ -1,0 +1,38 @@
+# Bei richtigem Frost funktioniert die WP nicht!
+
+Thema: Heizungswechsel 2026
+URL: https://fakten-stammtisch.de/thema/heizung/wp-funktioniert-nicht-bei-kaelte
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Praxisdaten zeigen, dass Wärmepumpen auch in Bestandsgebäuden effizient laufen. Zudem kommen in Norwegen 632 installierte Wärmepumpen auf 1.000 Haushalte. Entscheidend sind gute Auslegung und passende Heizflächen, nicht pauschale Frost-Mythen.
+
+## Fakten dazu
+
+### Wärmepumpen funktionieren auch in kalten Klimazonen
+
+- Bestandsgebäude: 77 (im Fraunhofer-ISE-Projekt vermessen)
+- WP/1.000 HH: 632 (in Norwegen)
+- entscheidet: Praxis (nicht das Klischee über Altbau oder Frost)
+- Praxisdaten und der breite Einsatz in Norwegen zeigen: Wärmepumpen funktionieren auch in kalten Klimazonen.
+- Für die reale Effizienz sind Auslegung, Hydraulik und Heizflächen wichtiger als pauschale Frost-Mythen.
+
+### Internationaler Vergleich: Deutschland hinkt hinterher
+
+Hinweis: WP-Verbreitung im EU-Vergleich
+Spalten: Land | WP pro 1.000 HH | Marktanteil Neuanlagen
+- Norwegen | 632 | 97 %
+- Finnland | 524 | >90 %
+- Schweden | k.A. | >90 %
+- Schweiz | k.A. | 76 %
+- Deutschland | k.A. | knapp 50 % (2025)
+- EHPA: 2025 stiegen die Wärmepumpen-Verkäufe in 16 europäischen Ländern um 10 % auf rund 2,62 Mio. Geräte.
+- Skandinavien nutzt WP seit 30 Jahren – auch bei deutlich kälterem Klima als in Deutschland.
+- Erfolgsfaktoren Skandinavien: Niedriges Strom-zu-Gas-Preisverhältnis, kein flächendeckendes Gasnetz, langjährige politische Unterstützung.
+
+## Quellen
+
+- Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025) (https://www.ise.fraunhofer.de/en/press-media/press-releases/2025/fraunhofer-ise-research-project-completed-heat-pumps-provide-climate-friendly-heating-in-existing-buildings.html)
+- EHPA – Market data (https://ehpa.org/market-data/)

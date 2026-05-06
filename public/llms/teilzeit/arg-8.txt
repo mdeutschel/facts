@@ -1,0 +1,39 @@
+# Wer Teilzeit arbeitet, ist selbst schuld, wenn die Rente nicht reicht.
+
+Thema: Teilzeit & Arbeitsmoral
+URL: https://fakten-stammtisch.de/thema/teilzeit/arg-8
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Der Gender Pension Gap von 27,1 % (2023) zeigt, dass Frauen im Schnitt gut ein Viertel weniger eigene Alterssicherungsleistungen erhalten als Männer — unter anderem weil 68 % der Mütter in Teilzeit arbeiten, oft aufgrund fehlender Betreuungsmöglichkeiten. Die Entscheidung für Teilzeit ist in vielen Fällen keine freie Wahl, sondern Ergebnis struktureller Rahmenbedingungen. Positiv: Der Pension Gap wird für jüngere Generationen kleiner, weil sich Erwerbsbiografien angleichen.
+
+## Fakten dazu
+
+### Langzeitfolgen: Gender Pension Gap
+
+Langjährige Teilzeitarbeit hat erhebliche Auswirkungen auf die Altersvorsorge. Laut Statistischem Bundesamt (Destatis) lag der Gender Pension Gap 2023 bei 27,1 % — Frauen erhielten im Durchschnitt gut ein Viertel weniger eigene Alterssicherungsleistungen als Männer. Die hohe Teilzeitquote bei Frauen ist eine der Hauptursachen: Weniger Arbeitsstunden bedeuten geringere Rentenansprüche.
+- Gender Pension Gap: 27,1 % (Eigene Alterseinkünfte (2023))
+- Frauen-Teilzeitquote: 49 % (Haupttreiber der Rentenlücke)
+- Mütter in Teilzeit: 68 % (Mit Kind unter 18 Jahren)
+Der Pension Gap ist allerdings rückläufig: Für jüngere Geburtsjahrgänge fällt er laut Untersuchungen des DIW Berlin um rund 15 Prozentpunkte geringer aus als bei älteren Kohorten. Dennoch bleibt Teilzeitarbeit ein wesentlicher Risikofaktor für Altersarmut, insbesondere im Fall von Scheidung oder Verwitwung.
+
+### Teilzeit ist weiblich — der Gender Gap
+
+Teilzeitarbeit ist in Deutschland stark geschlechtsspezifisch verteilt. Laut Statistischem Bundesamt (Destatis) arbeiteten 2024 fast jede zweite Frau (49 %) in Teilzeit, aber nur gut jeder neunte Mann (12 %). Besonders ausgeprägt ist der Unterschied bei Eltern: 68 % aller erwerbstätigen Mütter mit Kindern unter 18 Jahren arbeiten in Teilzeit, bei Vätern sind es nur 8 %.
+Hinweis: Teilzeitquoten nach Geschlecht (2024)
+- Frauen
+  - Alle Erwerbstätigen: 49 %
+  - Mütter (Kind < 18): 68 %
+  - Mütter (Kind < 3): 73 %
+- Männer
+  - Alle Erwerbstätigen: 12 %
+  - Väter (Kind < 18): 8 %
+  - Väter (Kind < 3): 9 %
+Von 2005 bis 2024 stieg die Teilzeitquote bei Frauen von 43 % auf 49 % und bei Männern von 7 % auf 12 %. Beide Geschlechter arbeiten also häufiger in Teilzeit als früher — bei Männern ist der relative Anstieg sogar stärker.
+
+## Quellen
+
+- Destatis: Fast jede zweite erwerbstätige Frau arbeitet in Teilzeit (2024) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_175_13.html)
+- Destatis: Gender Pension Gap 2023 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/04/PD24_N016_12_63.html)

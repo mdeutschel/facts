@@ -1,0 +1,25 @@
+# Das Stromnetz bricht doch zusammen!
+
+Thema: Heizungswechsel 2026
+URL: https://fakten-stammtisch.de/thema/heizung/stromnetz-bricht-zusammen
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und hängen stark von Steuerung und Ausbauplanung ab. Entscheidend ist, dass Wärmepumpen sinnvoll ins Verteilnetz integriert und möglichst flexibel betrieben werden.
+
+## Fakten dazu
+
+### Stromnetz: WP bringen das Netz nicht zum Kollaps
+
+- Netzfragen: lokal (treten vor allem im Verteilnetz auf)
+- Lasten: steuerbar (können zeitlich verschoben werden)
+- Betrieb: flexibel (Tarife und Steuerung helfen dem Netz)
+- Wärmepumpen erhöhen den Strombedarf, aber Netzfragen sind vor allem lokal und stark von Steuerung, Tarifstruktur und Ausbauplanung abhängig.
+- Für Haushalte wird entscheidend, ob Wärmepumpen flexibel betrieben und sinnvoll in bestehende Verteilnetze integriert werden.
+
+## Quellen
+
+- Fraunhofer ISE – Wärmepumpen-Qualität im Bestand (2025) (https://www.ise.fraunhofer.de/en/press-media/press-releases/2025/fraunhofer-ise-research-project-completed-heat-pumps-provide-climate-friendly-heating-in-existing-buildings.html)
+- EHPA – Market data (https://ehpa.org/market-data/)

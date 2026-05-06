@@ -1,0 +1,47 @@
+# Was bringt es, wenn ich alleine auf Fleisch verzichte? Das ändert doch nichts!
+
+Thema: Vegane Ernährung & Fleischkonsum
+URL: https://fakten-stammtisch.de/thema/vegane-ernaehrung/einzelner-beitrag
+Bewertung: Überwiegend falsch
+Stand: 2026-03-19
+
+## Antwort
+
+Die EAT-Lancet-Kommission zeigt: Wenn viele Menschen ihre Ernährung umstellen, könnten weltweit 11,1 Millionen vorzeitige Todesfälle pro Jahr verhindert werden. In Deutschland kaufen bereits 39 % der Verbraucher regelmäßig vegetarische oder vegane Alternativen — Tendenz steigend. Jede Kaufentscheidung sendet ein Marktsignal. Allein der Wechsel von Kuhmilch zu Hafermilch spart pro Liter über 90 % CO₂ ein.
+
+## Fakten dazu
+
+### Gesellschaftlicher Trend & Planetary Health Diet
+
+Die Zahl der Vegetarier und Veganer in Deutschland wächst, auch wenn sie noch eine Minderheit darstellen. Gleichzeitig empfehlen internationale Kommissionen wie die EAT-Lancet-Kommission eine deutlich pflanzenbetontere Ernährung — aus Gesundheits- und Klimagründen.
+- Vegetarier in Deutschland: ~8,4 Mio. (ca. 10 % der Bevölkerung (2024))
+- Veganer in Deutschland: ~1,7 Mio. (ca. 2 % der Bevölkerung (2024))
+- Kaufen vegane/vegetarische Alternativen: 39 % (+10 % seit 2020 (BMEL))
+Hinweis: EAT-Lancet Planetary Health Diet vs. deutscher Durchschnitt
+- EAT-Lancet-Empfehlung
+  - Fleisch (rot): max. 98 g/Woche
+  - Gemüse & Obst: 500 g/Tag
+  - Hülsenfrüchte & Nüsse: 125 g/Tag
+- Deutscher Durchschnitt
+  - Fleisch (gesamt): ~1.020 g/Woche
+  - Gemüse & Obst: ~270 g/Tag
+  - Hülsenfrüchte & Nüsse: ~25 g/Tag
+- Ersparnis: Die EAT-Lancet-Kommission schätzt, dass ihre Ernährungsempfehlung weltweit 11,1 Millionen vorzeitige Todesfälle pro Jahr verhindern könnte.
+
+### Pflanzenmilch vs. Kuhmilch
+
+Pflanzenmilch schneidet in fast allen Umweltkategorien deutlich besser ab als Kuhmilch. Besonders Hafer- und Sojamilch sind ressourceneffizient und können in Europa angebaut werden.
+Hinweis: Umweltbilanz pro Liter Milch (Poore & Nemecek 2018, globale Mittelwerte)
+Spalten: Milchsorte | CO₂-Äq. (kg) | Wasser (L) | Fläche (m²)
+- Kuhmilch | ~3,15 | ~628 | ~9,0
+- Mandelmilch | ~0,70 | ~371 | <1,0
+- Sojamilch | ~0,98 | ~28 | ~0,7
+- Hafermilch | ~0,32 | ~48 | ~0,1
+- Hafermilch verursacht rund 90 % weniger CO₂, benötigt 92 % weniger Wasser und 99 % weniger Fläche als Kuhmilch.
+
+## Quellen
+
+- Oxford University (Poore & Nemecek, 2018): Reducing food’s environmental impacts (https://science.sciencemag.org/content/360/6392/987)
+- EAT-Lancet Commission: The Planetary Health Diet (2019) (https://eatforum.org/eat-lancet/the-planetary-health-diet/)
+- Allensbacher Markt- und Werbeträger-Analyse: Vegetarier in Deutschland 2024 (https://de.statista.com/statistik/daten/studie/173636/umfrage/lebenseinstellung-anzahl-vegetarier/)
+- BMEL-Ernährungsreport 2024: Vegetarische und vegane Alternativprodukte (https://www.bmel.de/DE/themen/ernaehrung/ernaehrungsreport2024.html)

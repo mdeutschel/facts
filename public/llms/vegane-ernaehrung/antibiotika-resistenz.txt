@@ -1,0 +1,25 @@
+# Was hat mein Fleischkonsum mit Antibiotikaresistenzen zu tun?
+
+Thema: Vegane Ernährung & Fleischkonsum
+URL: https://fakten-stammtisch.de/thema/vegane-ernaehrung/antibiotika-resistenz
+Bewertung: Falsch
+Stand: 2026-03-19
+
+## Antwort
+
+2024 gingen 562 Tonnen Antibiotika in die deutsche Tierhaltung. Der massenhafte Einsatz fördert die Entstehung resistenter Keime, die über Lebensmittel, Gülle und Abwasser auch den Menschen erreichen. Die WHO warnt, dass Antibiotikaresistenzen eine der größten Gesundheitsbedrohungen des 21. Jahrhunderts sind. Weniger Massentierhaltung bedeutet weniger Antibiotikaeinsatz.
+
+## Fakten dazu
+
+### Antibiotika in der Tierhaltung
+
+Der großflächige Einsatz von Antibiotika in der Tierhaltung fördert die Entstehung resistenter Keime, die auch für Menschen gefährlich werden können. 2024 wurden in Deutschland 562 Tonnen Antibiotika an Tierärzte abgegeben.
+- Antibiotika in Tiermedizin 2024: 562 t (+6,4 % ggü. Vorjahr)
+- Rückgang seit 2011: −67 % (von ca. 1.706 t auf 562 t)
+- Penicilline (größter Anteil): 222 t (39,5 % der Gesamtmenge)
+- Obwohl die Abgabemenge seit 2011 um 67 % gesunken ist, gehen weiterhin über 500 Tonnen Antibiotika pro Jahr in die deutsche Tierhaltung — darunter auch für den Menschen wichtige Reserveantibiotika.
+
+## Quellen
+
+- BVL: Antibiotikaabgabe in der Tiermedizin 2024 (https://www.bvl.bund.de/SharedDocs/Pressemitteilungen/05_tierarzneimittel/2025/PM_Abgabemengen_Antibiotika_Tiermedizin_2024.html)
+- BMEL: Lagebild Antibiotikaresistenz Tierhaltung 2024 (https://www.bmel.de/DE/themen/tiere/tierarzneimittel/lagebild-antibiotikaeinsatz-bei-tieren-2024.html)

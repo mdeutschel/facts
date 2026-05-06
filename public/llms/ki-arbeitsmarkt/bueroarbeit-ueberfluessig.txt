@@ -1,0 +1,47 @@
+# In ein paar Jahren braucht man keine Bürojobs mehr!
+
+Thema: KI und der Arbeitsmarkt
+URL: https://fakten-stammtisch.de/thema/ki-arbeitsmarkt/bueroarbeit-ueberfluessig
+Bewertung: Überwiegend falsch
+Stand: 2026-03-30
+
+## Antwort
+
+Büro- und Verwaltungstätigkeiten sind tatsächlich am stärksten betroffen — 54 % der geschätzten Jobwechsel entfallen auf diesen Bereich. Aber ‚betroffen' heißt nicht ‚überflüssig': BCG-Berater mit KI-Zugang lieferten 40 % bessere Qualität, was zeigt, dass KI eher ein Werkzeug als ein Ersatz ist. Die Aufgabenprofile werden sich verändern, die Funktionen bleiben.
+
+## Fakten dazu
+
+### Wer gewinnt, wer verliert?
+
+Generative KI hat das Bild verschoben: Nicht mehr nur Fabrikarbeit ist exponiert, sondern zunehmend Wissensarbeit. Der stärkste Anstieg der Substituierbarkeit findet in IT- und naturwissenschaftlichen Dienstleistungsberufen statt, gefolgt von Handels- und Unternehmensführungsberufen. Kaum verändert haben sich soziale, pflegerische und handwerkliche Berufe.
+Hinweis: Substituierbarkeitspotenzial ausgewählter Berufe (IAB 2024)
+Spalten: Beruf | 2019 | 2022 | Veränderung
+- Synchronsprecher:in | < 100 % | 100 % | vollständig
+- Modedesigner:in | 50 % | 88 % | +38 PP
+- Softwareentwickler:in | – | – | +~30 PP
+- Komponist:in | 0 % | 25 % | +25 PP
+- Betriebswirt:in (Industrie) | 46 % | 69 % | +23 PP
+- Journalist:in | 20 % | 40 % | +20 PP
+- Gesundheitsberufe | ~27 % | ~27 % | ±0
+- Soziale Dienstleistungen | ~14 % | ~14 % | ±0
+- Frauen sind in Industrieländern fast dreimal stärker von KI-Automatisierung bedroht als Männer: 9,6 % der weiblichen Arbeitsplätze fallen in die höchste Expositionsstufe, bei Männern sind es 3,5 %. Grund ist die starke Konzentration von Frauen in Büro-, Verwaltungs- und Buchhaltungstätigkeiten.
+
+### Welches wirtschaftliche Potenzial hat KI?
+
+- Produktivitätswachstum 2025–2030: 0,9 %/a (IW Köln)
+- Produktivitätswachstum 2030–2040: 1,2 %/a (IW Köln)
+- BIP-Boost DE bis 2035: +11 PP (PwC (optimistisch))
+- Deutscher KI-Markt 2024: 8,2 Mrd. € (Bitkom/IDC (Prognose))
+- Konkret messbare Produktivitätsgewinne: Im Kundenservice steigerte KI-Assistenz die Produktivität um 14 %, bei Berufseinsteigern sogar um 35 %. BCG-Berater mit GPT-4-Zugang lieferten 40 % bessere Qualität und waren 25 % schneller — bei Aufgaben außerhalb der KI-Kompetenz verschlechterten sich die Ergebnisse allerdings um 23 %.
+Das IW Köln erwartet kein ‚Produktivitätswunder': In den bisherigen 2020er-Jahren lag das Produktivitätswachstum bei nur 0,4 % — KI könnte es auf 0,9 bis 1,2 % steigern, was eine deutliche Verbesserung wäre, aber keine Revolution. Entscheidend ist die Adoptionsgeschwindigkeit: McKinsey schätzt, dass ohne schnelle Umsetzung und Qualifizierung nur 0,2 % Wachstum erreichbar sind.
+
+## Quellen
+
+- IAB – Kurzbericht 5/2024: Substituierbarkeitspotenziale von Berufen (https://doku.iab.de/kurzber/2024/kb2024-05.pdf)
+- McKinsey Global Institute – A New Future of Work (2024) (https://www.mckinsey.de/news/presse/2024-05-23-mgi-genai-future-of-work)
+- IW Köln – Wie wird KI die Produktivität in Deutschland verändern? (2025) (https://www.iwkoeln.de/studien/vera-demary-michael-groemling-christian-kestermann-marc-scheufen-stefanie-seele-oliver-stettes-marco-trenz-wie-wird-ki-die-produktivitaet-in-deutschland-veraendern.html)
+- PwC – Value in Motion: Chancen und Risiken von KI und Klimawandel (2025) (https://www.pwc.de/de/pressemitteilungen/2025/globale-pwc-studie-value-in-motion-beziffert-chancen-risiken-und-wechselwirkungen-von-ki-und-klimawandel.html)
+- Brynjolfsson/Li/Raymond – Generative AI at Work (NBER 2023) (https://www.nber.org/digest/20236/measuring-productivity-impact-generative-ai)
+- BCG/Harvard – How People Create and Destroy Value with Gen AI (2023) (https://www.bcg.com/publications/2023/how-people-create-and-destroy-value-with-gen-ai)
+- Bitkom/IDC – Deutscher KI-Markt wächst um ein Drittel (2024) (https://bitkom-research.de/news/deutscher-ki-markt-waechst-um-ein-drittel)
+- ILO – Generative AI and Jobs: Gender Impact (2024) (https://www.ilo.org/resource/news/new-ilo-data-confirm-women-face-higher-workplace-risks-generative-ai-men)

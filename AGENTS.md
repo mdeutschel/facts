@@ -30,7 +30,7 @@ Mobile-first, kein Backend, JSON-Daten werden zur Laufzeit geladen.
 - Installieren: `npm ci`
 - Cursor-Rules einrichten: `bash scripts/setup-cursor-rules.sh` (Symlinks `.cursor/rules/` → `.claude/rules/`)
 - Dev-Server: `npm run dev`
-- Build: `npm run build` (führt `generate-topic-index.mjs && generate-seo.mjs && tsc -b && vite build && cp .htaccess dist/` aus)
+- Build: `npm run build` (führt `generate-topic-index.mjs && generate-seo.mjs && tsc -b && vite build && generate-route-html.mjs && cp .htaccess dist/` aus)
 - Lint: `npm run lint`
 - Vorschau: `npm run preview`
 
@@ -60,7 +60,9 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 |-------|------------|-------|
 | `/` | Home | Themenkarten-Übersicht |
 | `/thema/:topicId` | TopicPage | Themendetail (Fakten + Argumente Tabs) |
+| `/thema/:topicId/:argumentId` | ArgumentPage | Argument-Detailseite (Claim, Verdict, Antwort, Fakten) |
 | `/suche?q=...` | SearchPage | Suchergebnisse |
+| `/ueber`, `/methodik`, `/impressum`, `/feedback` | Statische Seiten | Projekt-Infos |
 
 ## Datenarchitektur
 
@@ -79,7 +81,17 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 Folgende Dateien werden beim Build erzeugt und sollten nicht manuell gepflegt werden:
 
 - `public/data/topics.json` — Topic-Index, generiert von `scripts/generate-topic-index.mjs` aus allen `public/data/*.json`
-- SEO-Dateien — generiert von `scripts/generate-seo.mjs`
+- SEO-Basisdateien — generiert von `scripts/generate-seo.mjs` vor `vite build`:
+  - `public/sitemap.xml` (inkl. aller Topic- und Argument-URLs)
+  - `public/llms.txt`, `public/llms-full.txt`, `public/llms/{topicId}.txt`
+  - `<noscript>`-Block in `index.html` (Home-Fallback mit Topic-Liste)
+- Pre-rendered Route-HTML — generiert von `scripts/generate-route-html.mjs` nach `vite build`:
+  - `dist/thema/{topicId}/index.html` (Topic, mit FAQPage + BreadcrumbList JSON-LD und Topic-spezifischem noscript)
+  - `dist/thema/{topicId}/{argumentId}/index.html` (Argument, mit QAPage + ggf. ClaimReview + BreadcrumbList JSON-LD und Argument-spezifischem noscript)
+  - `dist/{ueber,methodik,impressum,feedback,suche}/index.html` (statische Seiten mit eigenen Meta-Tags und JSON-LD)
+  - Zusätzliches `CollectionPage`-JSON-LD in `dist/index.html`
+  - `public/llms/{topicId}/{argumentId}.txt` (per-Argument Plaintext)
+- Wenn neue statische Routen oder Argumentstrukturen hinzukommen, `STATIC_ROUTES` und die JSON-LD-Builder in `scripts/generate-route-html.mjs` synchron mit den React-Pages halten
 
 ## Code-Konventionen
 

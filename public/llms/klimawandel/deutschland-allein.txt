@@ -1,0 +1,66 @@
+# Deutschland allein kann das Klima nicht retten!
+
+Thema: Klimawandel
+URL: https://fakten-stammtisch.de/thema/klimawandel/deutschland-allein
+Bewertung: Ohne Kontext irreführend
+Stand: 2026-03-18
+
+## Antwort
+
+Deutschland allein entscheidet das Klima nicht. Aber mit 6,8 Tonnen CO₂ pro Kopf liegt Deutschland 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Historisch gehört Deutschland zu den größten Emittenten. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.
+
+## Fakten dazu
+
+### Deutschlands Emissionen: Sektoren und Ziele
+
+- CO₂-Äquivalente 2024: 649 Mio. t (UBA)
+- seit 1990: -48,2 % (Gesamtreduktion)
+- Ziel 2030: -65 % (vs. 1990)
+- Klimaneutralität: 2045 (gesetzliches Ziel)
+Hinweis: Emissionen nach Sektoren 2024 (Mio. t CO₂-Äq.)
+- Energie: 188 Mio. t
+- Industrie: 149 Mio. t
+- Verkehr: 144 Mio. t
+- Gebäude: 100 Mio. t
+- Landwirtschaft: 61 Mio. t
+Hinweis: Emissionsentwicklung nach Sektoren (2023 → 2024)
+Spalten: Sektor | 2024 (Mio. t) | Veränderung | Anmerkung
+- Energiewirtschaft | 188 | -7,4 % | Kohlerückgang, EE-Ausbau
+- Industrie | 149 | +0,1 % | Nahezu stagnierend
+- Verkehr | 144 | -0,2 % | Sorgenkind: fast keine Reduktion
+- Gebäude | 100 | -2,3 % | mildere Witterung, Wärmepumpenbestand +10 %
+- Landwirtschaft | 61 | Rückgang ggü. 2023 | weniger Dünger, geringere Emissionen aus Böden
+- Der Verkehrssektor ist das Sorgenkind: -0,2 % Reduktion 2024. Ohne drastische Maßnahmen wird das Sektorziel klar verfehlt.
+- Die Energiewirtschaft trägt am stärksten zur Reduktion bei (-7,4 %), vor allem durch den Kohlerückgang.
+Hinweis: CO₂-Emissionen pro Kopf im internationalen Vergleich (2024, in Tonnen)
+- USA: 14.2 t/Kopf
+- China: 8.9 t/Kopf
+- Deutschland: 6.8 t/Kopf
+- Welt-Ø: 4.7 t/Kopf
+- Indien: 2 t/Kopf
+- Deutschland liegt mit 6,8 Tonnen CO₂ pro Kopf immer noch 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Das relativiert das Argument 'Deutschland allein kann nichts bewirken'.
+
+### Was kostet Handeln — was kostet Nichtstun?
+
+Hinweis: Frühes Handeln vs. spätes Aufschieben
+- Frühes Handeln
+  - IPCC: <2-°C-Pfad: ~1,7 Bio. USD/Jahr
+  - IPCC: 1,5 °C im Energiesektor: ~2,4 Bio. USD/Jahr
+  - IEA: Clean-Energy-Investitionen: 4,5 Bio. USD/Jahr bis Anfang der 2030er
+  - Robuster Befund: Investieren ist teuer, Aufschieben verteuert es weiter
+- Spätes Aufschieben
+  - Extremwetterschäden 2024: 320 Mrd. USD global (Munich Re)
+  - Deutschland 2024: 5,7 Mrd. € Naturgefahrenschäden (GDV)
+  - Ahrtal 2021 allein: 8,75 Mrd. € versichert
+  - IPCC-Warnung: Verzögerung erhöht Lock-ins und Folgekosten
+- Ersparnis: Der robuste ökonomische Kernbefund lautet: Verzögertes Handeln erhöht Risiken und Zusatzkosten.
+- Der IPCC hält fest: Globale Mitigationsinvestitionen müssen bis 2030 je nach Sektor und Region um ein Mehrfaches wachsen; für viele Bereiche liegt der Bedarf beim 3- bis 6-Fachen heutiger Größenordnungen.
+- Die IEA veranschlagt im aktualisierten Net-Zero-Roadmap-Pfad weltweite Clean-Energy-Investitionen von 4,5 Bio. USD pro Jahr bis Anfang der 2030er.
+
+## Quellen
+
+- Umweltbundesamt (UBA): Finale Emissionsdaten 2024 (https://www.umweltbundesamt.de/themen/finale-daten-fuer-2024-emissionen-um-drei-prozent)
+- UBA: Treibhausgasminderungsziele Deutschlands (https://www.umweltbundesamt.de/daten/klima/treibhausgasminderungsziele-deutschlands)
+- UBA Data Cube: Entwicklung der Treibhausgasemissionen in Deutschland (https://datacube.uba.de/vis?df%5Bds%5D=ds-dc-release&df%5Bid%5D=DF_CLIMATE_EMISSIONS_GHG_TRENDS&df%5Bag%5D=UBA&df%5Bvs%5D=2026.0)
+- IPCC AR6 WGIII Chapter 15: Investment and Finance (https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-15/)
+- IEA: Net Zero Roadmap 2023 update (https://www.iea.org/news/the-path-to-limiting-global-warming-to-1-5-c-has-narrowed-but-clean-energy-growth-is-keeping-it-open)

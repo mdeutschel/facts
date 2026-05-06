@@ -1,0 +1,50 @@
+# Wir brauchen wegen KI ein bedingungsloses Grundeinkommen!
+
+Thema: KI und der Arbeitsmarkt
+URL: https://fakten-stammtisch.de/thema/ki-arbeitsmarkt/grundeinkommen-noetig
+Stand: 2026-03-30
+
+## Antwort
+
+Die Debatte ist legitim, aber die aktuelle Forschungslage stützt sie nicht unmittelbar: Das IAB erwartet keinen Netto-Jobabbau, und historisch haben technologische Umbrüche Arbeit transformiert statt eliminiert. Der dringendere Bedarf liegt bei gezielter Qualifizierung und sozialer Absicherung während des Übergangs. Ob KI langfristig ein Grundeinkommen nötig macht, hängt von Geschwindigkeit und Tiefe des Wandels ab — das ist heute noch offen.
+
+## Fakten dazu
+
+### Vernichtet KI Jobs oder schafft sie neue?
+
+Hinweis: KI-Exposition in Industrieländern (IWF-Schätzung)
+- Potenziell negativ betroffen: 30% (Teilaufgaben könnten ersetzt werden)
+- Potenziell produktiver: 30% (KI ergänzt bestehende Aufgaben)
+- Gering exponiert: 40% (Kaum von KI betroffen)
+- Gesamt: 100 % der Arbeitsplätze
+- Jobwechsel in DE bis 2030: 3 Mio. (McKinsey (2024))
+- Strukturwandel über 15 Jahre: 1,6 Mio. (IAB (2025))
+- Netto neue Jobs weltweit: +78 Mio. (WEF (2025))
+- der Unternehmen erwarten Stellenabbau: 27 % (ifo (2025))
+- Die IAB-Szenarioanalyse kommt zum Ergebnis, dass der Nettoeffekt von KI auf die Gesamtbeschäftigung in Deutschland nahezu neutral ausfällt — es werden etwa so viele Arbeitsplätze geschaffen wie abgebaut.
+Die Studien unterscheiden sich in Methodik und Zeithorizont, zeigen aber ein gemeinsames Muster: KI verändert Berufe stärker, als sie sie abschafft. McKinsey schätzt, dass in Deutschland bis zu 3 Millionen Menschen den Beruf wechseln müssen — vor allem aus Büro- und Verwaltungstätigkeiten (54 % der Jobwechsel). Gleichzeitig erwarten nur 5 % der Unternehmen, durch KI zusätzliche Stellen zu schaffen.
+
+### Was wird für den Wandel getan?
+
+- erhalten KI-Schulung vom Arbeitgeber: 20 % (Bitkom (2025))
+- besitzen digitale Basiskompetenzen: 49 % (Initiative D21)
+- WB-Quote Hilfsarbeitskräfte: 1,1 % (vs. 10,5 % Akademiker)
+- WB-Investitionen der Wirtschaft: 46,4 Mrd. € (IW Köln (2022))
+Die Bundesregierung hat mit dem Qualifizierungschancengesetz, der Nationalen Weiterbildungsstrategie und dem KI-Aktionsplan (über 1,6 Mrd. €) Instrumente geschaffen. Das Ziel: eine Weiterbildungsquote von 65 % bis 2030. Seit Februar 2025 verpflichtet der EU AI Act alle Unternehmen zudem, Mitarbeitenden mit KI-Kontakt eine Grundschulung in KI-Kompetenz anzubieten.
+- Die Schere bei der Weiterbildung geht auf: Akademiker haben eine 9,5-mal höhere Weiterbildungsquote als Hilfsarbeitskräfte (10,5 % vs. 1,1 %). Nur 49 % der Bevölkerung besitzen digitale Basiskompetenzen — bei Einkommensschwachen sind es nur 32 %.
+Die Programme existieren, aber ihre Reichweite ist begrenzt: 70 % der Beschäftigten bekommen keine KI-Fortbildung angeboten. Geringqualifizierte und KMU sind systematisch unterrepräsentiert. Die Herausforderung liegt nicht im fehlenden Angebot, sondern darin, die Richtigen zu erreichen.
+
+## Quellen
+
+- IAB – Forschungsbericht 23/2025: KI-Effekte auf den deutschen Arbeitsmarkt (https://doku.iab.de/forschungsbericht/2025/fb2325.pdf)
+- IWF – AI Will Transform the Global Economy (2024) (https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity)
+- McKinsey Global Institute – A New Future of Work (2024) (https://www.mckinsey.de/news/presse/2024-05-23-mgi-genai-future-of-work)
+- ifo Institut – Stellenabbau durch KI: Konjunkturumfrage (2025) (https://www.ifo.de/fakten/2025-06-05/ein-viertel-der-unternehmen-rechnet-mit-stellenabbau-durch-kuenstliche)
+- World Economic Forum – Future of Jobs Report 2025 (https://www.weforum.org/publications/the-future-of-jobs-report-2025/)
+- BMAS – Nationale Weiterbildungsstrategie: Umsetzungsbericht (2025) (https://www.bmas.de/DE/Service/Publikationen/Broschueren/a805-25-nationale-weiterbildungsstrategie.html)
+- Destatis – Weiterbildungsquoten nach Berufsgruppen (2024) (https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-6/weiterbildungsquoten.html)
+- Bitkom – Mehrheit erhält keine KI-Fortbildung (2025) (https://www.crn.de/news/2025/mehrheit-erhalt-keine-ki-fortbildung)
+- Initiative D21 – Digital Skills Gap (2025) (https://initiatived21.de/publikationen/digital-skills-gap)
+- IW Köln – Weiterbildungserhebung 2023: Investitionsvolumen auf Höchststand (https://www.iwkoeln.de/studien/susanne-seyda-sabine-koehne-finster-thomas-schleiermacher-investitionsvolumen-auf-hoechststand.html)
+- Bundesregierung – KI-Aktionsplan (2024) (https://www.bundesregierung.de/breg-de/aktuelles/aktionsplan-kuenstliche-intelligenz-2215658)
+- EU – AI Act / Verordnung (EU) 2024/1689 (https://commission.europa.eu/news/ai-act-enters-force-2024-08-01_en)

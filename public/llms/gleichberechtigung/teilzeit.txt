@@ -1,0 +1,83 @@
+# Männer arbeiten dafür mehr in Vollzeit und machen die harten Überstunden.
+
+Thema: Gleichberechtigung
+URL: https://fakten-stammtisch.de/thema/gleichberechtigung/teilzeit
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Wenn man bezahlte und unbezahlte Arbeit zusammenrechnet, arbeiten Frauen sogar etwas mehr: 45:33 Stunden pro Woche vs. 44:23 bei Männern (Destatis). Der Unterschied ist, dass Frauenarbeit zu einem großen Teil unsichtbar und unbezahlt bleibt — Kinderbetreuung, Pflege, Haushalt. Diese Arbeit hat keine Überstundenzuschläge, keinen Renteneintrag und keinen Aufstieg.
+
+## Fakten dazu
+
+### Unbezahlte Care-Arbeit & Child Penalty
+
+Der Gender Care Gap zeigt den Unterschied in der Zeitverwendung für unbezahlte Sorgearbeit (Kinderbetreuung, Pflege, Haushalt). Frauen leisten in Deutschland deutlich mehr unbezahlte Arbeit als Männer — mit weitreichenden Folgen für Einkommen, Karriere und Rente.
+- Gender Care Gap: 43,4 % (Frauen leisten deutlich mehr unbezahlte Arbeit)
+- Tägliche Differenz: +76 Min. (Mehrarbeit von Frauen pro Tag)
+- Teilzeitquote Frauen: 47,4 % (der erwerbstätigen Frauen (15–64) in Teilzeit)
+- Teilzeitquote Männer: 12,7 % (der erwerbstätigen Männer (15–64) in Teilzeit)
+Hinweis: Unbezahlte Arbeit pro Woche (in Stunden)
+- Frauen: 29 h
+- Männer: 20 h
+Hinweis: Gesamtarbeitszeit pro Woche (bezahlt + unbezahlt)
+- Frauen
+  - Bezahlte Erwerbsarbeit: 16:33 h
+  - Unbezahlte Arbeit: 29:00 h
+  - Gesamt: 45:33 h
+- Männer
+  - Bezahlte Erwerbsarbeit: 24:23 h
+  - Unbezahlte Arbeit: 20:00 h
+  - Gesamt: 44:23 h
+Hinweis: Erwerbstätigkeit von Eltern mit Kindern
+- Mütter
+  - Teilzeitquote: 66–67 %
+  - Vollzeitquote (Schulkinder): 37,1 %
+- Väter
+  - Teilzeitquote: 9 %
+  - Vollzeitquote (Schulkinder): 93,0 %
+- Laut ZEW verdienen Mütter im vierten Jahr nach der ersten Geburt durchschnittlich fast 30.000 Euro weniger als vergleichbare Frauen ohne Kinder. Dieser 'Child Penalty' wirkt langfristig auf Karriere, Vermögen und Rente. Bei Vätern gibt es keinen vergleichbaren Effekt. Zwei Drittel der erwerbstätigen Mütter arbeiten in Teilzeit — bei Vätern sind es nur 9 %.
+
+### Gender Pay Gap
+
+Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten Wert (Durchschnitt aller Beschäftigten) und dem bereinigten Wert (bei gleicher Qualifikation, Tätigkeit und Arbeitszeit). Beide Kennzahlen sind aussagekräftig: Der unbereinigte Gap zeigt die tatsächliche Einkommenslücke, der bereinigte die verbleibende Diskriminierung nach Herausrechnung struktureller Faktoren.
+- Unbereinigter Pay Gap: 16 % (Durchschnittlicher Verdienstunterschied (2025))
+- Bereinigter Pay Gap: 6 % (Bei gleicher Qualifikation und Tätigkeit)
+- Westdeutschland: 17 % (Unbereinigt – deutlich über Ost)
+- Ostdeutschland: 5 % (Unbereinigt – historisch geringere Lücke)
+Hinweis: Durchschnittlicher Bruttostundenverdienst (2025)
+- Männer
+  - Stundenlohn: 27,05 €
+  - Hochrechnung (38 h/Woche, 52 Wochen): ~53.450 € brutto/Jahr
+- Frauen
+  - Stundenlohn: 22,81 €
+  - Hochrechnung (38 h/Woche, 52 Wochen): ~45.080 € brutto/Jahr
+Hinweis: Unbereinigter Gender Pay Gap in Deutschland
+- 2006: 23 %
+- 2008: 23 %
+- 2010: 22 %
+- 2012: 23 %
+- 2014: 22 %
+- 2016: 21 %
+- 2018: 20 %
+- 2020: 18 %
+- 2022: 18 %
+- 2024: 16 %
+- 2025: 16 %
+Hinweis: Branchen mit den größten Pay Gaps (unbereiningter GPG, 2024)
+Spalten: Branche | Pay Gap
+- Finanz- und Versicherungsdienstleistungen | 25 %
+- Freiberufliche, wissenschaftliche und technische Dienste | 25 %
+- Verarbeitendes Gewerbe | 22 %
+- Gesundheits- und Sozialwesen | 19 %
+- Öffentliche Verwaltung | 8 %
+- Bei einer Vollzeitstelle mit 38 Wochenstunden ergibt der unbereinigte Pay Gap von 4,24 €/Stunde einen Gehaltsunterschied von rund 8.400 € brutto pro Jahr. In Ostdeutschland ist der Gap mit 5 % deutlich geringer als in Westdeutschland (17 %) — ein Erbe der höheren weiblichen Erwerbsbeteiligung in der DDR.
+
+## Quellen
+
+- Destatis: Gender Pay Gap 2025 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_453_621.html)
+- BMFSFJ / Destatis: Gender Care Gap (https://www.bmfsfj.de/bmfsfj/aktuelles/alle-meldungen/statistisches-bundesamt-veroeffentlicht-neue-zahlen-zum-gender-care-gap-236794)
+- Destatis: Erwerbsarbeit und unbezahlte Arbeit nach Geschlecht (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Zeitverwendung/Tabellen/erwerbsarbeit-unbezahlte-arbeit-geschlecht-zve.html)
+- ZEW: Einkommensverlust nach Geburt (https://www.zew.de/presse/pressearchiv/einkommensverlust-nach-geburt-weit-hoeher-als-bisher-gedacht)
+- Destatis: Teilzeitquote nach Geschlecht (https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/teilzeitbeschaeftigte.html)

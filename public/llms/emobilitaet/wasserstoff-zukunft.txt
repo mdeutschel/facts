@@ -1,0 +1,26 @@
+# Batterien sind nur eine Brückentechnologie, Wasserstoff und E-Fuels sind die Zukunft.
+
+Thema: E-Mobilität
+URL: https://fakten-stammtisch.de/thema/emobilitaet/wasserstoff-zukunft
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Die Physik spricht eher für direkte Elektrifizierung. Im Pkw ist das Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels. Diese Energieträger werden vor allem dort gebraucht, wo Batterien an Grenzen stoßen, etwa in Luftfahrt, Schifffahrt oder Teilen der Industrie.
+
+## Fakten dazu
+
+### E-Fuels & Wasserstoff im PKW: Ein Effizienzproblem
+
+Hinweis: Wirkungsgrad-Vergleich: Wie viel Strom kommt auf der Straße an?
+Spalten: Antrieb | Wirkungsgrad (Strom → Rad) | Strombedarf für 100 km
+- E-Auto (BEV) | ~70–80 % | ~15–20 kWh
+- Wasserstoff (FCEV) | ~25–30 % | ~40–55 kWh
+- E-Fuels (Verbrenner) | ~10–15 % | ~100–130 kWh
+- Für dieselbe Strecke braucht ein E-Fuel-Verbrenner etwa 5- bis 6-mal so viel Strom wie ein Batterieauto. Für Pkw ist die direkte Stromnutzung daher mit Abstand am effizientesten.
+E-Fuels und Wasserstoff sind wertvoll und werden vor allem in Sektoren gebraucht, die sich nur schwer direkt elektrifizieren lassen, etwa im Flugverkehr, in der Schifffahrt und in Teilen der Industrie. Im Pkw sind sie energetisch deutlich ineffizienter und meist nicht der sinnvolle Einsatz.
+
+## Quellen
+
+- Transport & Environment (T&E) – E-Fuels (https://www.transportenvironment.org/topics/cars/efuels)

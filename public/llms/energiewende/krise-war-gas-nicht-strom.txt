@@ -1,0 +1,30 @@
+# Die Krise war Gas, nicht Strom.
+
+Thema: Energiewende & Atomkraft
+URL: https://fakten-stammtisch.de/thema/energiewende/krise-war-gas-nicht-strom
+Stand: 2026-03-20
+
+## Antwort
+
+Die Energiekrise 2022 war vor allem eine Gaskrise. Kernkraft erzeugt Strom, ersetzt aber kein Gas in Heizungen oder Industrieöfen. Zudem bleibt auch Atomkraft auf internationale Lieferketten angewiesen.
+
+## Fakten dazu
+
+### Die Gaskrise 2022 – Warum AKW nicht geholfen hätten
+
+- Wärme + Industrie: ~80 % (Erdgasverbrauch)
+- Stromerzeugung: ~20 % (Erdgasverbrauch)
+- AKW erzeugen ausschließlich Strom. Sie ersetzen kein Gas in Gebäudeheizungen und Industrieöfen. Die Energiekrise 2022 war eine Gaskrise, keine Stromkrise.
+
+### Uranabhängigkeit: Souveränität?
+
+- Kernenergie bleibt: importabhängig (bei Uran und Vorstufen)
+- Konversion/Anreicherung: kritisch (teils über russisch geprägte Lieferketten)
+- Abhängigkeiten: geopolitisch (werden nicht durch Atomkraft aufgehoben)
+- Kernkraft ersetzt eine fossile Abhängigkeit nicht durch Souveränität, sondern bleibt auf internationale nukleare Lieferketten angewiesen.
+
+## Quellen
+
+- AGEB: Energieverbrauch wird 2025 stagnieren (https://ag-energiebilanzen.de/energieverbrauch-wird-2025-stagnieren/)
+- Euratom Supply Agency Annual Report 2024 (https://op.europa.eu/s/z9yD)
+- Eurostat: Nuclear energy statistics 2024 (https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Nuclear_energy_statistics)

@@ -1,0 +1,25 @@
+# Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.
+
+Thema: E-Mobilität
+URL: https://fakten-stammtisch.de/thema/emobilitaet/co2-rucksack
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Falsch. Laut ICCT verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner. Der höhere CO₂-Fußabdruck der Produktion wird im Fahrbetrieb wieder ausgeglichen.
+
+## Fakten dazu
+
+### Klimabilanz: Der CO₂-Rucksack
+
+Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ ins Leben. Dieser wird im Fahrbetrieb abgebaut, da der E-Motor deutlich effizienter ist und der Strommix immer grüner wird.
+- Break-Even: ~17.000 km (in Europa (ICCT 2025))
+- CO₂-Emissionen: -73 % (über Lebenszyklus (ICCT 2025))
+- Laut ICCT (Juli 2025) verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner.
+- Der CO₂-Rucksack aus der Produktion wird im Betrieb schrittweise ausgeglichen, weil E-Motoren effizienter sind und der Strommix weiter dekarbonisiert.
+
+## Quellen
+
+- ICCT – Life-cycle GHG emissions of passenger cars (Juli 2025) (https://theicct.org/publication/electric-cars-life-cycle-analysis-emissions-europe-jul25/)
+- BMUKN – Klima und Energie bei Elektromobilität (https://www.bmuv.de/themen/verkehr/elektromobilitaet/klima-und-energie)

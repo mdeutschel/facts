@@ -1,0 +1,32 @@
+# Die Wissenschaftler sind sich doch gar nicht einig!
+
+Thema: Klimawandel
+URL: https://fakten-stammtisch.de/thema/klimawandel/wissenschaftler-uneinig
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Doch. Metaanalysen kommen auf einen wissenschaftlichen Konsens von über 99 %, und der IPCC hält den menschlichen Einfluss auf die Erwärmung für eindeutig.
+
+## Fakten dazu
+
+### Was sagt die Wissenschaft?
+
+- der Fachpublikationen: >99 % (bestätigen menschengemachten Klimawandel)
+- Publikationen: 88.125 (in der Lynas-Metaanalyse 2021)
+- Abstracts mit Position: 97 % (in Cook et al. 2013)
+- IPCC AR6: unequivocal (= eindeutig menschengemacht)
+Hinweis: Entwicklung des wissenschaftlichen Konsenses
+- 2004: Oreskes-Studie (928 Abstracts: kein Widerspruch zum Konsens)
+- 2013: Cook et al. (97 % der Abstracts mit Position stützen den Konsens)
+- 2021: Lynas et al. (>99 % Konsens unter 88.125 Publikationen)
+- 2023: IPCC AR6 ("Unequivocally" — eindeutig menschengemacht)
+- Der IPCC AR6 (2023) stellt unmissverständlich fest: Menschliche Aktivitäten haben die globale Erwärmung 'eindeutig' (unequivocally) verursacht.
+
+## Quellen
+
+- IPCC AR6 Synthesis Report: Summary for Policymakers Headline Statements (https://www.ipcc.ch/report/ar6/syr/resources/spm-headline-statements)
+- Lynas et al. (2021): Greater than 99% consensus on human caused climate change (https://iopscience.iop.org/article/10.1088/1748-9326/ac2966)
+- Oreskes (2004): Beyond the Ivory Tower - The Scientific Consensus on Climate Change (https://www.science.org/doi/10.1126/science.1103618)
+- Cook et al. (2013): Quantifying the consensus on anthropogenic global warming (https://iopscience.iop.org/article/10.1088/1748-9326/8/2/024024)

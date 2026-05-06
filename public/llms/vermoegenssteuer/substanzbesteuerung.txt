@@ -1,0 +1,66 @@
+# Eine Vermögensteuer geht an die Substanz — das zerstört Unternehmen!
+
+Thema: Vermögens- und Erbschaftssteuer
+URL: https://fakten-stammtisch.de/thema/vermoegenssteuer/substanzbesteuerung
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Nicht das Unternehmen zahlt, sondern der Eigentümer. Bei einem Steuersatz von 1 % und typischen Kapitalrenditen von 5–10 % lässt sich die Steuer bequem aus den laufenden Erträgen bezahlen. Bei der Erbschaftsteuer ist zudem eine Stundung über 15 Jahre möglich — das entspricht etwa 1–2 % des jährlichen Unternehmensgewinns. Wer ein Unternehmen kauft, muss den vollen Preis sofort aufbringen — nur Erben bekommen Sonderkonditionen.
+
+## Fakten dazu
+
+### Erbschaftsteuer: Milliardäre zahlen weniger als Mittelstandserben
+
+- Aufkommen: 13,3 Mrd. € (festgesetzt 2024 (Rekord))
+- jährl. Erbvolumen: 300–400 Mrd. (davon nur 113 Mrd. steuerlich erfasst)
+- Mindereinnahmen/J.: ~7,8 Mrd. € (durch Betriebsvermögens-Verschonung)
+- Effektiver Ø-Satz: niedrig (je nach Bezugsbasis unterschiedlich)
+Hinweis: Kassenmäßiges Erbschaft- und Schenkungsteuer-Aufkommen
+- 2010: 4.4 Mrd. €
+- 2012: 4.3 Mrd. €
+- 2014: 5.4 Mrd. €
+- 2016: 7 Mrd. €
+- 2018: 6.8 Mrd. €
+- 2020: 8.6 Mrd. €
+- 2022: 9.2 Mrd. €
+- 2024: 11 Mrd. €
+- 0,7 % der Steuerpflichtigen erhalten 32 % aller erfassten Übertragungen — und 68 % aller steuerbefreiten Unternehmensübertragungen. Kleine Erben zahlen prozentual mehr als Milliardenerben.
+- 2021–2024 wurden in nur 105 Fällen über die Verschonungsbedarfsprüfung (§ 28a ErbStG) rund 7,38 Mrd. € Erbschaftsteuer erlassen. Das zeigt, wie stark einzelne Großübertragungen privilegiert werden.
+Die Betriebsvermögensverschonung ist laut 30. Subventionsbericht der Bundesregierung die größte Steuersubvention Deutschlands. Das BVerfG erklärte die Regelung bereits 2014 für verfassungswidrig — die Reform 2016 ließ die Kernprivilegien aber bestehen. Eine erneute Prüfung ist seit 2022 anhängig.
+
+### Aufkommenspotenzial: Was brächte eine Vermögensteuer?
+
+Das DIW Berlin hat verschiedene Modelle einer Vermögensteuer durchgerechnet. Betroffen wäre im Wesentlichen nur das reichste 1 % der Bevölkerung; den Großteil des Aufkommens trüge das reichste 0,1 %.
+Hinweis: Modelle einer Vermögensteuer und geschätztes Aufkommen
+Spalten: Modell | Freibetrag | Steuersatz | Aufkommen (brutto)
+- Die Linke: konservativ (DIW 2026) | 1 Mio. € | 1 % proportional | ~42 Mrd. €/J.
+- Die Linke: progressiv (DIW 2026) | 1 Mio. € | 1–12 % (progressiv) | ~147 Mrd. €/J.
+- Schon die konservativste Variante (1 % ab 1 Mio. € Freibetrag) brächte laut DIW rund 42 Mrd. Euro pro Jahr — mehr als dreimal so viel wie die Erbschaftsteuer. Betroffen wäre weniger als 1 % der Bevölkerung.
+Hinweis: Was 1 % Vermögensteuer (Freibetrag 1 Mio. €) konkret bedeuten würde
+Spalten: Nettovermögen | Steuerbetrag/Jahr | Einordnung
+- 500.000 € | 0 € | unter Freibetrag — nicht betroffen
+- 1,5 Mio. € | 5.000 € | nur auf 500.000 € über Freibetrag
+- 5 Mio. € | 40.000 € | bei 5–10 % Rendite aus laufenden Erträgen zahlbar
+- 50 Mio. € | 490.000 € | entspricht ~1 % des Vermögens
+- 1 Mrd. € | 9,99 Mio. € | weniger als eine typische Quartalsdividende
+Hinweis: Freibeträge Erbschaftsteuer: Deutschland vs. international
+Spalten: Land | System | Freibetrag (Kind) | Spitzensatz
+- Deutschland | Erwerberbasiert | 400.000 € (alle 10 J.) | 30 %
+- Frankreich | Erwerberbasiert | 100.000 € (alle 15 J.) | 45 %
+- UK | Nachlassbasiert | ~380.000 € (+ 205.000 Wohneigentum) | 40 %
+- USA | Nachlassbasiert | ~13,1 Mio. € pro Person | 40 %
+- Japan | Erwerberbasiert | ~185.000 € + pro Erbe | 55 %
+- OECD und andere internationale Institutionen empfehlen Deutschland seit Jahren, vermögensbezogene Steuern stärker zu nutzen und die hohe Belastung von Arbeit zu verringern.
+
+## Quellen
+
+- Statistisches Bundesamt: Erbschaft- und Schenkungsteuer 2024 (PD25_320) (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_320_736.html)
+- DIW Politikberatung kompakt 211: Vermögensteuer Die Linke (Bach/Wichers/Mudrack 2026) (https://www.diw.de/de/diw_01.c.998456.de/publikationen/politikberatung_kompakt/2026_0211/vermoegensteuer_die_linke_____aufkommens-_und_verteilungswir___n_die_linke_in_den_landtagen_und_der_rosa-luxemburg-stiftung.html)
+- DIW Wochenbericht 4/2026: Erbschaftsteuerreform (Bach/Sinclair) (https://www.diw.de/de/diw_01.c.996032.de/publikationen/wochenberichte/2026_04_1/erbschaftsteuerreform__verguenstigungen_abbauen__freibetraege_erhoehen__steuertarifstulen_reduzieren.html)
+- FES-Studie: Milliardenvermögen steuerfrei erben (2022) (https://library.fes.de/pdf-files/a-p-b/19775.pdf)
+- OECD Revenue Statistics — Taxes on property (https://stats.oecd.org/Index.aspx?DataSetCode=REV)
+- OECD Economic Survey Germany 2023 — Empfehlung Vermögensteuer (https://www.oecd.org/en/publications/oecd-economic-surveys-germany-2023_9642a3f5-en.html)
+- 30. Subventionsbericht der Bundesregierung (Sept. 2025) (https://www.bundesfinanzministerium.de/Content/DE/Downloads/Broschueren_Bestellservice/30-subventionsbericht.html)
+- BVerfG: Beschluss vom 22.6.1995 zur Vermögensteuer (https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/1995/06/rs19950622_2bvr055291.html)

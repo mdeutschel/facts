@@ -1,0 +1,31 @@
+# Andere Sprachen kommen auch ohne Gendern aus!
+
+Thema: Gendern & Sprachpolitik
+URL: https://fakten-stammtisch.de/thema/gendern/andere-sprachen-ohne
+Bewertung: Teilweise wahr
+Stand: 2026-03-30
+
+## Antwort
+
+Das trifft auf manche Sprachen zu — Finnisch und Türkisch etwa kennen kein grammatisches Geschlecht. Allerdings zeigen Studien, dass selbst dort ein Male Bias bei geschlechtsneutralen Pronomen besteht. Und in vielen Sprachen mit Genussystem gibt es parallele Debatten: In Frankreich hat der Senat écriture inclusive 2023 mit 221:82 verboten, in Schweden wurde ‚hen' 2015 offiziell eingeführt, im Englischen ist das singuläre ‚they' seit 2019 im Merriam-Webster. Das Anliegen ist international — die Lösungen fallen je nach Sprachstruktur verschieden aus.
+
+## Fakten dazu
+
+### Internationaler Vergleich
+
+Die Debatte um geschlechtergerechte Sprache ist kein deutsches Phänomen. In vielen Sprachen werden ähnliche Diskussionen geführt — mit teils sehr unterschiedlichen Dynamiken und Ergebnissen.
+Hinweis: Geschlechtergerechte Sprache in anderen Ländern
+Spalten: Sprache | Ansatz | Status
+- Englisch | Singular ‚they', Anrede ‚Mx.' | Merriam-Webster Word of the Year 2019, AP Stylebook erlaubt seit 2017
+- Französisch | Écriture inclusive, point médian | Académie française: ‚péril mortel'; Senat verbietet es 2023 (221:82)
+- Schwedisch | Pronomen ‚hen' (seit 2015 im Wörterbuch) | ~50 % Nutzung 2018, seit 2020 rückläufig
+- Spanisch | Pronomen ‚elle', Endung ‚-e' | RAE lehnt ab; nur 2 % der US-Hispanics bevorzugen ‚Latinx'
+- Finnisch / Türkisch | Kein grammatisches Geschlecht | Male Bias besteht trotzdem (kulturell bedingt)
+- Selbst in Sprachen ohne grammatisches Geschlecht wie Finnisch und Türkisch zeigen Studien einen Male Bias bei geschlechtsneutralen Pronomen — der Zusammenhang zwischen Sprache und Denken ist komplexer als ein reines Grammatikproblem.
+
+## Quellen
+
+- Sczesny, Formanowicz & Moser – Can Gender-Fair Language Reduce Stereotyping?, Frontiers in Psychology (2016) (https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.00025/full)
+- Académie française – Lettre ouverte sur l'écriture inclusive (2021) (https://www.academie-francaise.fr/actualites/lettre-ouverte-sur-lecriture-inclusive)
+- SVT Nyheter – Användandet av hen verkar ha stannat av (2024) (https://www.svt.se/nyheter/inrikes/sprakvetaren-anvandandet-av-hen-verkar-ha-stannat-av)
+- Pew Research Center – U.S. Hispanics' Preferences Among Pan-Ethnic Terms (2024) (https://www.pewresearch.org/race-and-ethnicity/2024/09/12/u-s-hispanics-preferences-among-pan-ethnic-terms/)

@@ -1,0 +1,67 @@
+# Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.
+
+Thema: Gleichberechtigung
+URL: https://fakten-stammtisch.de/thema/gleichberechtigung/berufswahl
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Branche und Beruf erklären einen Teil der Verdienstlücke. Aber selbst wenn Qualifikation, Tätigkeit, Erwerbsbiografie und Teilzeit berücksichtigt werden, bleibt 2025 ein bereinigter Gender Pay Gap von 6 %. Außerdem ist die Frage, warum „weibliche“ Berufe wie Pflege oder Erziehung so schlecht bezahlt sind, selbst ein Teil des Problems — ihre gesellschaftliche Bedeutung steht in keinem Verhältnis zur Vergütung.
+
+## Fakten dazu
+
+### Gender Pay Gap
+
+Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten Wert (Durchschnitt aller Beschäftigten) und dem bereinigten Wert (bei gleicher Qualifikation, Tätigkeit und Arbeitszeit). Beide Kennzahlen sind aussagekräftig: Der unbereinigte Gap zeigt die tatsächliche Einkommenslücke, der bereinigte die verbleibende Diskriminierung nach Herausrechnung struktureller Faktoren.
+- Unbereinigter Pay Gap: 16 % (Durchschnittlicher Verdienstunterschied (2025))
+- Bereinigter Pay Gap: 6 % (Bei gleicher Qualifikation und Tätigkeit)
+- Westdeutschland: 17 % (Unbereinigt – deutlich über Ost)
+- Ostdeutschland: 5 % (Unbereinigt – historisch geringere Lücke)
+Hinweis: Durchschnittlicher Bruttostundenverdienst (2025)
+- Männer
+  - Stundenlohn: 27,05 €
+  - Hochrechnung (38 h/Woche, 52 Wochen): ~53.450 € brutto/Jahr
+- Frauen
+  - Stundenlohn: 22,81 €
+  - Hochrechnung (38 h/Woche, 52 Wochen): ~45.080 € brutto/Jahr
+Hinweis: Unbereinigter Gender Pay Gap in Deutschland
+- 2006: 23 %
+- 2008: 23 %
+- 2010: 22 %
+- 2012: 23 %
+- 2014: 22 %
+- 2016: 21 %
+- 2018: 20 %
+- 2020: 18 %
+- 2022: 18 %
+- 2024: 16 %
+- 2025: 16 %
+Hinweis: Branchen mit den größten Pay Gaps (unbereiningter GPG, 2024)
+Spalten: Branche | Pay Gap
+- Finanz- und Versicherungsdienstleistungen | 25 %
+- Freiberufliche, wissenschaftliche und technische Dienste | 25 %
+- Verarbeitendes Gewerbe | 22 %
+- Gesundheits- und Sozialwesen | 19 %
+- Öffentliche Verwaltung | 8 %
+- Bei einer Vollzeitstelle mit 38 Wochenstunden ergibt der unbereinigte Pay Gap von 4,24 €/Stunde einen Gehaltsunterschied von rund 8.400 € brutto pro Jahr. In Ostdeutschland ist der Gap mit 5 % deutlich geringer als in Westdeutschland (17 %) — ein Erbe der höheren weiblichen Erwerbsbeteiligung in der DDR.
+
+### Bildung & Berufswahl
+
+Frauen sind in Deutschland im Bildungssystem mittlerweile überdurchschnittlich erfolgreich: Sie stellen die Mehrheit der Hochschulabsolventen. Dennoch zeigen sich bei Berufswahl und MINT-Fächern weiterhin deutliche Geschlechterunterschiede, die zu den Einkommenslücken beitragen.
+- Hochschulabschlüsse: 53,1 % (Frauenanteil an allen Abschlüssen (2024))
+- MINT-Absolventinnen: ~23 % (Frauenanteil in MINT-Studiengängen)
+- Informatik: ~22 % (Frauenanteil Studienanfänger)
+- Professorinnen: ~28 % (Frauenanteil an Professuren)
+Hinweis: Frauenanteil nach Qualifikationsstufe
+- Abitur: 54 %
+- Bachelor: 52 %
+- Master: 50 %
+- Promotion: 45 %
+- Professur: 28 %
+- Frauen stellen 53 % der Hochschulabsolventen, aber nur 23 % der MINT-Absolventinnen und 28 % der Professuren. Diese 'Leaky Pipeline' — der abnehmende Frauenanteil auf jeder Karrierestufe — entsteht nicht durch mangelnde Qualifikation, sondern durch strukturelle Barrieren.
+
+## Quellen
+
+- Destatis: Gender Pay Gap 2025 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_453_621.html)
+- Destatis: Bildung und Geschlecht (https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Hochschulen/hochschulen.html)

@@ -1,0 +1,38 @@
+# Wer arbeitet, ist doch der Dumme. Mit Bürgergeld hat man am Ende mehr in der Tasche!
+
+Thema: Bürgergeld
+URL: https://fakten-stammtisch.de/thema/buergergeld/lohnabstand
+Bewertung: Falsch
+Stand: 2026-03-19
+
+## Antwort
+
+Das stimmt nicht. Das Lohnabstandsgebot ist in der WSI-Modellrechnung gewahrt. Im Bundesdurchschnitt hat ein Single, der Vollzeit zum Mindestlohn arbeitet, 557 Euro mehr im Monat zur Verfügung als im Bürgergeldbezug (Stand 2025, Basis 12,82 €). Bei Alleinerziehenden mit einem Kind sind es 749 Euro. Seit Januar 2026 liegt der Mindestlohn bei 13,90 € — der Abstand ist rechnerisch noch größer. In Städten mit sehr hohen Mieten kann der Abstand geringer ausfallen, bleibt aber im Bundesdurchschnitt deutlich positiv.
+
+## Fakten dazu
+
+### Lohnt sich Arbeit noch?
+
+Eine Studie des Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) zeigt klar: Wer zum Mindestlohn arbeitet, hat am Ende des Monats spürbar mehr Geld zur Verfügung als mit Bürgergeld.
+Hinweis: Monatlicher Einkommensvorteil durch Vollzeit-Mindestlohn gegenüber Bürgergeld (WSI-Modellrechnung auf Basis von 12,82 € Mindestlohn, Stand 2025)
+- Alleinstehende
+  - Bürgergeld inkl. Unterkunft: ca. 1.015 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 1.572 €
+  - Einkommensvorteil: + 557 €
+- Alleinerziehend (1 Kind)
+  - Bürgergeld inkl. Unterkunft: ca. 1.783 €
+  - Verfügbares Einkommen mit Mindestlohn: ca. 2.532 €
+  - Einkommensvorteil: + 749 €
+Hinweis: Aufschlüsselung Single-Haushalt (WSI-Modellrechnung, Bundesdurchschnitt)
+Spalten: Position | Bürgergeld | Mindestlohn-Vollzeit
+- Regelbedarf / Nettolohn | 563 € | ~1.572 € netto
+- Unterkunft + Heizung | ~452 € | vom Netto zu zahlen
+- Verfügbar nach Miete | 563 € | ~1.120 €
+- Einkommensvorteil |  | +557 €/Monat
+Der Abstand variiert je nach Wohnort und Mietkosten, bleibt in der WSI-Modellrechnung im Bundesdurchschnitt aber deutlich positiv. Ein alleinstehender Mindestlohn-Beschäftigter hat über das Jahr gerechnet rund 6.700 € mehr zur Verfügung als im Bürgergeldbezug.
+- Seit Januar 2026 beträgt der gesetzliche Mindestlohn 13,90 € pro Stunde (zuvor 12,82 €). Die WSI-Modellrechnung basiert auf dem 2025er Satz — der tatsächliche Einkommensvorteil gegenüber dem Bürgergeld ist seit Januar 2026 rechnerisch noch größer.
+
+## Quellen
+
+- WSI-Studie zum Lohnabstandsgebot (2024/2025) (https://www.wsi.de/de/pressemitteilungen-15991-einkommen-bei-mindestlohnbeschaeftigung-deutlich-hoeher-als-buergergeld-70666.htm)
+- BMAS - Mindestlohn steigt zum 1. Januar 2026 auf 13,90 Euro (https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2025/mindestlohn-steigt-zum-ersten-januar-2026.html)

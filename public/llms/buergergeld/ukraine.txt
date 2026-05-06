@@ -1,0 +1,42 @@
+# Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!
+
+Thema: Bürgergeld
+URL: https://fakten-stammtisch.de/thema/buergergeld/ukraine
+Bewertung: Teilweise wahr
+Stand: 2026-03-19
+
+## Antwort
+
+Der Kern der Aussage stimmt: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Bürgergeld beantragen — früher als andere Schutzsuchende. Richtig ist auch: Sie haben nicht in das System eingezahlt. Das ist aber kein Konstruktionsfehler, sondern das Wesen dieser Leistung: Bürgergeld ist eine steuerfinanzierte Sozialleistung, keine beitragsfinanzierte Versicherung — genau wie Kindergeld oder Wohngeld. Der Zugang ist an Hilfebedürftigkeit und Aufenthaltsstatus geknüpft, verbunden mit Zugang zur Arbeitsvermittlung und Integrationskursen.
+
+## Fakten dazu
+
+### Wie hoch ist das Bürgergeld wirklich?
+
+Der Regelbedarf für alleinstehende Erwachsene beträgt seit 2024 unverändert 563 Euro im Monat. Für 2025 und 2026 blieben die Regelbedarfe unverändert, weil die gesetzliche Fortschreibung rechnerisch niedrigere Werte ergeben hätte und die Besitzschutzregelung griff.
+- Alleinstehende: 563 € (Regelbedarfsstufe 1)
+- Partner in Bedarfsgemeinschaft: 506 € (pro Person)
+- Jugendliche (14-17 J.): 471 €
+- Kinder (6-13 J.): 390 €
+Zusätzlich werden die angemessenen Kosten für Unterkunft und Heizung übernommen. Der Regelbedarf deckt insbesondere Ausgaben für Ernährung, Kleidung, Körperpflege, Hausrat, Haushaltsenergie ohne Heizkostenanteile sowie die soziale und kulturelle Teilhabe ab.
+- Im Jahresdurchschnitt 2024 gab es rund 5,55 Millionen Regelleistungsberechtigte in der Grundsicherung für Arbeitsuchende.
+- Nicht jeder ausländische Staatsangehörige hat Anspruch auf Bürgergeld: EU-Bürger sind in den ersten drei Monaten sowie bei einem Aufenthaltsrecht allein zur Arbeitsuche in der Regel ausgeschlossen; Asylbewerber erhalten Leistungen nach dem Asylbewerberleistungsgesetz (AsylbLG) — nicht das Bürgergeld.
+Hinweis: Bürgergeld vs. AsylbLG-Grundleistungen (Alleinstehende, 2026)
+- Bürgergeld (SGB II)
+  - Regelbedarf: 563 €/Monat
+  - Unterkunft + Heizung: zusätzlich (angemessen)
+- AsylbLG-Grundleistungen
+  - Grundleistungen gesamt (Näherung): ca. 460–480 €/Monat
+  - davon pers. Bedarf: 202 €
+- Ersparnis: Asylbewerber erhalten mindestens rund 80–100 € weniger als Bürgergeld-Empfänger — und erst nach 36 Monaten erweiterten Leistungsumfang.
+Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind dafür die Jobcenter.
+
+## Quellen
+
+- Bundesministerium für Arbeit und Soziales (BMAS) – Leistungen und Bedarfe im Bürgergeld (https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html)
+- Bundesregierung - Warum es 2025 eine Nullrunde beim Bürgergeld gibt (https://www.bundesregierung.de/breg-de/aktuelles/buergergeld-2025-2248000)
+- Regelbedarfsstufen-Fortschreibungsverordnung 2026 (https://www.gesetze-im-internet.de/rbsfv_2026/BJNR0F30B0025.html)
+- SGB II § 7 - Leistungsberechtigte (https://www.gesetze-im-internet.de/sgb_2/__7.html)
+- Bundesregierung - Grundsicherung für Geflüchtete aus der Ukraine (https://www.bundesregierung.de/breg-de/aktuelles/grundsicherung-fuer-ukrainer-2028694)
+- BMAS - Leistungssätze nach dem Asylbewerberleistungsgesetz (https://www.bmas.de/DE/Soziales/Sozialhilfe/LeistungenAsylbewerberleistungsgesetz/leistungssaetze-asylbewerberleistungsgesetz.html)
+- Bundesagentur für Arbeit - Überblick Grundsicherung für Arbeitsuchende (https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Ueberblick/Ueberblick-Nav.html)

@@ -1,0 +1,50 @@
+# Gendern ist Sprachpolizei und Bevormundung!
+
+Thema: Gendern & Sprachpolitik
+URL: https://fakten-stammtisch.de/thema/gendern/sprachpolizei
+Bewertung: Überwiegend falsch
+Stand: 2026-03-30
+
+## Antwort
+
+Die Sorge vor Sprachkontrolle ist demokratisch berechtigt. Tatsächlich gibt es weder ein Bundesgesetz noch eine Pflicht zum Gendern — 75 % lehnen eine solche laut Forsa auch ab. Umgekehrt haben mehrere Bundesländer Gendern in Schulen und Verwaltung verboten — also eher ein Sprechverbot als ein Sprechgebot. Kommunale Leitfäden wie in Hannover oder Bremen sind Empfehlungen, keine Vorschriften. Die Lage ist paradox: Es wird sowohl ein angeblicher Genderzwang als auch ein tatsächliches Genderverbot kritisiert.
+
+## Fakten dazu
+
+### Öffentliche Meinung
+
+Zahlreiche Umfragen zeigen ein konsistentes Bild: Eine Mehrheit lehnt Gendern mit Sonderzeichen ab. Die Ablehnung ist allerdings nicht monolithisch — Alter, Geschlecht und politische Orientierung spielen eine große Rolle. Zudem muss zwischen verschiedenen Formen unterschieden werden: Die Beidnennung wird deutlich breiter akzeptiert als Sternchen oder Doppelpunkt.
+Hinweis: Zustimmung zum Gendersternchen nach Altersgruppe (Forsa 2023)
+- 18–29 J.: 42 %
+- 30–44 J.: 31 %
+- 45–59 J.: 14 %
+- 60+ J.: 11 %
+- Stört Gendern mit Sonderzeichen: 73 % (Forsa Juli 2023)
+- Doppelnennung akzeptiert: 69 % (Infratest dimap / WDR 2022)
+- Gegen Gender-Pflicht in Verwaltung: 75 % (Forsa Juli 2023)
+- Gendern ‚gar nicht wichtig': 41 % (Infratest dimap / WDR 2022 (2020: 30 %))
+- Einzig Grünen-Anhänger befürworten Gendern mit Sonderzeichen mehrheitlich (58 %). In allen anderen Parteianhängerschaften überwiegt die Ablehnung — auch 46 % sprechen sich aber gegen ein Genderverbot in Verwaltungstexten aus.
+
+### Bundesländer und Institutionen
+
+Die Landschaft ist zerklüftet: Mehrere Bundesländer haben Gendern mit Sonderzeichen in Schulen und teils Verwaltung verboten, andere erlauben oder empfehlen es ausdrücklich. An Hochschulen existieren Sprachleitfäden, die allerdings Empfehlungen und keine verbindlichen Vorschriften sind. Die öffentlich-rechtlichen Sender haben keinen einheitlichen Standard.
+Hinweis: Genderregeln in den Bundesländern (Auswahl, Stand März 2026)
+Spalten: Land | Regelung | Scope | Seit
+- Bayern | Sonderzeichen verboten | Schulen, Hochschulen, Behörden | 04/2024
+- Hessen | Sonderzeichen verboten | Ministerien, Landesverwaltung | 03/2024
+- Sachsen | Sonderzeichen verboten + Genderklauseln | Schulen, Verwaltung, Partner | 07/2023
+- Sachsen-Anhalt | Sonderzeichen verboten | Schulen | 08/2023
+- Schleswig-Holstein | Sonderzeichen als Fehler gewertet | Schulen | 09/2021
+- Bremen | Doppelpunkt empfohlen | Verwaltung, Schulen | 01/2021
+- Berlin | Gendern nicht als Fehler gewertet | Schulen | laufend
+- Saarland | Doppelpunkt erlaubt | Schulen, Verwaltung | laufend
+- Länder mit Sonderzeichen-Verbot: mind. 5 (Bayern, Hessen, Sachsen, S.-Anhalt, SH)
+- Länder erlauben Sonderzeichen: mind. 2 (Bremen, Saarland)
+- Hochschulen mit Sprachleitfäden: mind. 50 (Empfehlungen, keine Pflicht)
+- ARD-weiter Gender-Standard: Keiner (Jede Rundfunkanstalt eigene Regeln)
+
+## Quellen
+
+- Forsa / stern – Große Mehrheit der Deutschen von Gendern genervt (2023) (https://www.stern.de/gesellschaft/gendern--grosse-mehrheit-der-deutschen-laut-forsa-umfrage-davon-genervt-33661462.html)
+- Infratest dimap / WDR – Gendergerechte Sprache (2022) (https://www.infratest-dimap.de/umfragen-analysen/bundesweit/umfragen/aktuell/gendergerechte-sprache/)
+- ZEIT – Bayern verbietet Gendersprache in Schule und Verwaltung (2024) (https://www.zeit.de/politik/deutschland/2024-03/markus-soeder-bayern-gendersprache-verbot)

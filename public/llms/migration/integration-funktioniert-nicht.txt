@@ -1,0 +1,59 @@
+# Integration funktioniert in Deutschland einfach nicht!
+
+Thema: Migration & Asyl
+URL: https://fakten-stammtisch.de/thema/migration/integration-funktioniert-nicht
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Die Daten widersprechen dem: 64 % der 2015 zugezogenen Geflüchteten sind erwerbstätig (Durchschnitt: 70 %), 50 % arbeiten als Fachkräfte, 88 % der Kursteilnehmer erreichen mindestens A2-Deutschniveau, und 2024 gab es 291.955 Einbürgerungen (Rekord). Die durchschnittliche Aufenthaltsdauer bei Einbürgerung beträgt 11,8 Jahre – Integration ist ein Generationenprojekt, kein Sprint.
+
+## Fakten dazu
+
+### Arbeitsmarktintegration
+
+Die Integration von Geflüchteten in den Arbeitsmarkt braucht Zeit (Spracherwerb, Qualifizierung), zeigt aber langfristig deutliche Erfolge. Laut dem Institut für Arbeitsmarkt- und Berufsforschung (IAB) nähert sich die Beschäftigungsquote der 2015 nach Deutschland gekommenen Geflüchteten nach neun Jahren dem Bevölkerungsdurchschnitt an.
+Hinweis: Beschäftigungsquote der 2015 zugezogenen Geflüchteten
+- Im 1. Jahr: 9% (unter 10 %)
+- Nach 9 Jahren: 64% (Männer: 76 %, Frauen: 35 %)
+- Gesamt: Bevölkerungsdurchschnitt: 70 %
+- Rund die Hälfte der beschäftigten Geflüchteten übt sieben bis acht Jahre nach Zuzug eine qualifizierte Tätigkeit als Fachkraft oder Spezialist aus.
+Für die 2015 zugezogene Geflüchtetenkohorte zeigen IAB-Daten eine besondere Bedeutung von Gesundheits-, Fertigungs- sowie Verkehrs- und Logistikberufen. Pauschale Aussagen über eine generelle Verdrängung am Arbeitsmarkt tragen diese Daten nicht.
+- 2023 lebten noch 34 % der 2015 zugezogenen Geflüchteten im erwerbsfähigen Alter in SGB-II-Haushalten. Unter den abhängig Beschäftigten konnten 84 % ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten.
+
+### Integration: Sprache & Bildung
+
+Die vom BAMF geförderten Integrationskurse sind das zentrale Instrument der sprachlichen Integration. 2024 nahmen rund 360.000 Personen neu an Integrationskursen teil. Die OECD bewertet das deutsche Integrationskurssystem im internationalen Vergleich als effektiv.
+Hinweis: Deutsch-Test für Zuwanderer – Ergebnisse 2024
+Spalten: Sprachniveau | Anteil | Bedeutung
+- B1 (Fortgeschritten) | 56 % | Selbstständige Sprachverwendung
+- A2 (Grundlagen) | 32 % | Elementare Sprachverwendung
+- Unter A2 | 12 % | Nicht bestanden
+- Über 88 % der Integrationskursteilnehmer erreichen mindestens das Niveau A2, mehr als die Hälfte sogar B1. Die Kurse ermöglichen damit den Einstieg in Arbeitsmarkt und Alltagsleben.
+Die Wartezeiten für Integrationskurse haben sich durch die Budgetkürzungen 2025 verlängert. Experten warnen, dass Kürzungen bei Sprachkursen die Arbeitsmarktintegration verzögern und langfristig höhere Kosten verursachen.
+
+### Einbürgerungen
+
+2024 wurden in Deutschland 291.955 Einbürgerungen vollzogen – ein absoluter Rekord seit Einführung der Statistik im Jahr 2000 und ein Anstieg von 46 % gegenüber dem Vorjahr. Hauptgrund war die Reform des Staatsangehörigkeitsrechts, die im Juni 2024 in Kraft trat: Der Mindestaufenthalt wurde von 8 auf 5 Jahre gesenkt, bei besonderer Integration auf 3 Jahre, und die doppelte Staatsbürgerschaft wurde generell erlaubt.
+Hinweis: Einbürgerungen in Deutschland pro Jahr
+- 2020: 109880 Einbürgerungen
+- 2021: 131600 Einbürgerungen
+- 2022: 168500 Einbürgerungen
+- 2023: 200095 Einbürgerungen
+- 2024: 291955 Einbürgerungen
+Hinweis: Häufigste Herkunftsländer bei Einbürgerungen 2024
+Spalten: Herkunftsland | Einbürgerungen | Anteil
+- Syrien | 83.150 | 28 %
+- Türkei | 22.525 | 8 %
+- Irak | 13.545 | 5 %
+- Russland | 12.980 | 4 %
+- Afghanistan | 10.085 | 3 %
+- Die durchschnittliche Aufenthaltsdauer bei Einbürgerung lag 2024 bei 11,8 Jahren. Einbürgerung ist also das Ergebnis eines langen Integrationsprozesses, nicht eines schnellen Durchlaufens.
+
+## Quellen
+
+- IAB: 10 Jahre Fluchtmigration (2025) (https://iab.de/daten/10-jahre-fluchtmigration-beschaeftigungsmerkmale-der-gefluechteten-die-2015-in-deutschland-schutz-gesucht-haben/)
+- BAMF: Integrationskurszahlen (https://www.bamf.de/DE/Themen/Statistik/Integrationskurszahlen/integrationskurszahlen-node.html)
+- Mediendienst Integration: Erfolgsquote Integrationskurse (https://mediendienst-integration.de/bildung/sprache/erfolgsquote-bei-integrationskursen/)
+- Destatis: 291.955 Einbürgerungen 2024 (https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_204_125.html)

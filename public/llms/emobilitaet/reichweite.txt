@@ -1,0 +1,31 @@
+# Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.
+
+Thema: E-Mobilität
+URL: https://fakten-stammtisch.de/thema/emobilitaet/reichweite
+Bewertung: Überwiegend falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Aktuelle E-Autos der Kompaktklasse erreichen 350–500 km WLTP-Reichweite. Eine Schnellladung von 10 auf 80 % dauert bei modernen Fahrzeugen rund 25–30 Minuten und lädt Strom für circa 200–300 km nach. Auf einer Fahrt München–Gardasee (ca. 480 km) wäre also ein Ladestopp nötig — ähnlich einer normalen Rast- oder Tankpause.
+
+## Fakten dazu
+
+### Status Quo: E-Autos in Deutschland
+
+- E-Autos (BEV): 2,03 Mio. (Bestand 1. Jan 2026 (KBA))
+- Öffentl. Ladepunkte: >190.000 (davon >48.000 Schnelllader (BNetzA))
+- BEV-Marktanteil: 19,1 % (Neuzulassungen 2025)
+Hinweis: Marktanteil reiner E-Autos (BEV) an Neuzulassungen in Deutschland
+- 2020: 6.7 %
+- 2021: 13.6 %
+- 2022: 17.7 %
+- 2023: 18.4 %
+- 2024: 13.5 %
+- 2025: 19.1 %
+- Nach dem Einbruch 2024 stieg der BEV-Anteil an den Neuzulassungen 2025 wieder auf 19,1 %. Gegenüber 2024 legte der BEV-Anteil damit wieder zu.
+
+## Quellen
+
+- BDEW – Marke von 200.000 Ladepunkten überschritten (https://www.bdew.de/presse/marke-von-200000-ladepunkten-ueberschritten-fokus-auf-elektrofahrzeugabsatz-kommt-zum-richtigen-zeitpunkt/)
+- Kraftfahrt-Bundesamt (KBA) – Bestand batterieelektrischer Pkw am 1. Januar 2026 (https://www.kba.de/DE/Presse/Pressemitteilungen/Allgemein/2026/pm08_2026_elektro_pkw.html)

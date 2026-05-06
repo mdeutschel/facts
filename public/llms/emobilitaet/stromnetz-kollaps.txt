@@ -1,0 +1,24 @@
+# Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.
+
+Thema: E-Mobilität
+URL: https://fakten-stammtisch.de/thema/emobilitaet/stromnetz-kollaps
+Bewertung: Falsch
+Stand: 2026-03-18
+
+## Antwort
+
+Nein. Netzbetreiber dürfen neue steuerbare Ladeeinrichtungen nicht pauschal wegen lokaler Engpässe ablehnen. Im Engpassfall darf der Strombezug nach § 14a EnWG vorübergehend auf 4,2 kW reduziert werden; diese Mindestleistung muss laut Bundesnetzagentur immer verfügbar bleiben.
+
+## Fakten dazu
+
+### Stromnetz: Droht der Blackout?
+
+- Mindestleistung: 4,2 kW (bei Dimmung nach § 14a EnWG)
+- Regelung: § 14a EnWG (verhindert lokale Überlastung)
+- Praxis: smart laden (Engpässe werden lokal statt pauschal gemanagt)
+- Neue steuerbare Ladeeinrichtungen dürfen nicht pauschal wegen lokaler Engpässe abgelehnt werden. Im Engpassfall darf der Strombezug zeitweise reduziert werden, die Bundesnetzagentur schreibt dabei aber eine Mindestleistung von 4,2 kW vor.
+Lokale Überlastungen werden durch intelligentes Laden gemanagt. Netzbetreiber dürfen Wallboxen im Engpassfall zeitweise dimmen, aber nicht vollständig abschalten.
+
+## Quellen
+
+- Bundesnetzagentur – E-Mobilität und § 14a EnWG (https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/E-Mobilitaet/start.html)
