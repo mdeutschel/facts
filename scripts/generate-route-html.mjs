@@ -655,8 +655,6 @@ async function main() {
   const enrichedHome = buildAndWriteHomeJsonLd(template, topics)
   await writeFile(indexHtmlPath, enrichedHome, 'utf8')
 
-  const llmsArgDir = path.join(ROOT_DIR, 'public', 'llms')
-
   let topicCount = 0
   let argumentCount = 0
 
@@ -678,9 +676,7 @@ async function main() {
     await writeRouteHtml(`thema/${topic.id}`, topicHtml)
     topicCount += 1
 
-    // Per-topic argument directory for llms/{topicId}/{argumentId}.txt
-    const topicLlmsDir = path.join(llmsArgDir, topic.id)
-    await mkdir(topicLlmsDir, { recursive: true })
+    // Per-argument plaintext lands directly in dist/ (build artifact, not source).
     const distLlmsDir = path.join(DIST_DIR, 'llms', topic.id)
     await mkdir(distLlmsDir, { recursive: true })
 
@@ -700,7 +696,6 @@ async function main() {
       argumentCount += 1
 
       const txt = buildArgumentTxt(topic, argument)
-      await writeFile(path.join(topicLlmsDir, `${argument.id}.txt`), txt, 'utf8')
       await writeFile(path.join(distLlmsDir, `${argument.id}.txt`), txt, 'utf8')
     }
   }
