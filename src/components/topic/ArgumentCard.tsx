@@ -13,6 +13,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import FactCheckIcon from '@mui/icons-material/FactCheck'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 import type { Argument, Section } from '../../types'
+import { VERDICT_META } from '../seo/verdict'
 
 interface ArgumentCardProps {
   argument: Argument
@@ -30,6 +31,7 @@ export default function ArgumentCard({
   onNavigateToSection,
 }: ArgumentCardProps) {
   const [open, setOpen] = useState(defaultOpen)
+  const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
 
   const relatedSectionTitles =
     sections && argument.relatedSections
@@ -59,6 +61,14 @@ export default function ArgumentCard({
             <Typography variant="subtitle2" sx={{ fontWeight: 600, lineHeight: 1.3 }}>
               „{argument.claim}"
             </Typography>
+            {verdictMeta && (
+              <Chip
+                label={verdictMeta.label}
+                size="small"
+                color={verdictMeta.color}
+                sx={{ mt: 0.75, fontSize: '0.65rem', height: 20, fontWeight: 600 }}
+              />
+            )}
           </Box>
           <ExpandMoreIcon
             sx={{
