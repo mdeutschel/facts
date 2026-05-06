@@ -28,10 +28,16 @@ AddDefaultCharset UTF-8
 RewriteRule ^\.well-known/llms\.txt$ /llms.txt [L,R=301]
 
 # Social media and AI crawler handling for homepage
+# Skipped if a static file already exists (pre-rendered route HTML).
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{HTTP_USER_AGENT} facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|TelegramBot|Discordbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|PerplexityBot|Applebot [NC]
 RewriteRule ^$ /og.php [L]
 
 # Social media and AI crawler handling for topic pages
+# Skipped if a static file already exists (pre-rendered route HTML).
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{HTTP_USER_AGENT} facebookexternalhit|Twitterbot|LinkedInBot|WhatsApp|Slackbot|TelegramBot|Discordbot|GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|PerplexityBot|Applebot [NC]
 RewriteRule ^thema/(.+)$ /og.php?topic=$1 [L,QSA]
 

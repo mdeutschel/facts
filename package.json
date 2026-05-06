@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/generate-topic-index.mjs && vite",
-    "build": "node scripts/generate-topic-index.mjs && node scripts/generate-seo.mjs && tsc -b && vite build && cp .htaccess dist/",
+    "build": "node scripts/generate-topic-index.mjs && node scripts/generate-seo.mjs && tsc -b && vite build && node scripts/generate-route-html.mjs && cp .htaccess dist/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
