@@ -11,8 +11,8 @@ import CircularProgress from '@mui/material/CircularProgress'
 import Alert from '@mui/material/Alert'
 import Button from '@mui/material/Button'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
-import FactCheckIcon from '@mui/icons-material/FactCheck'
 import ForumIcon from '@mui/icons-material/Forum'
+import FactSection from '../components/topic/FactSection'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
 import {
@@ -52,6 +52,21 @@ export default function ArgumentPage() {
     if (!topic || !argument) return []
     return topic.arguments.filter((a) => a.id !== argument.id)
   }, [topic, argument])
+
+  const citedSources = useMemo(() => {
+    if (!topic) return []
+    const refs = new Set<string>()
+    for (const section of relatedSections) {
+      for (const block of section.content) {
+        if ('sourceRefs' in block && block.sourceRefs) {
+          for (const ref of block.sourceRefs) refs.add(ref)
+        }
+      }
+    }
+    return topic.sources
+      .map((src, idx) => ({ src, num: idx + 1 }))
+      .filter(({ src }) => refs.has(src.id))
+  }, [topic, relatedSections])
 
   if (loading) {
     return (
@@ -200,29 +215,55 @@ export default function ArgumentPage() {
         </Paper>
 
         {relatedSections.length > 0 && (
-          <Paper sx={{ p: { xs: 2, sm: 3 } }}>
+          <Box>
             <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
-              Fakten dazu im Themen-Detail
+              Fakten dazu
             </Typography>
-            <Stack spacing={0.5}>
+            <Box>
               {relatedSections.map((s) => (
-                <Button
+                <FactSection
                   key={s.id}
-                  component={RouterLink}
-                  to={`/thema/${topic.id}?tab=1#section-${s.id}`}
-                  startIcon={<FactCheckIcon sx={{ fontSize: 16 }} />}
-                  sx={{
-                    justifyContent: 'flex-start',
-                    textTransform: 'none',
-                    fontSize: '0.85rem',
-                    color: 'secondary.main',
-                  }}
-                >
-                  {s.title}
-                </Button>
+                  section={s}
+                  defaultExpanded
+                  sources={topic.sources}
+                />
               ))}
-            </Stack>
-          </Paper>
+            </Box>
+            {citedSources.length > 0 && (
+              <Box id="quellen" sx={{ mt: 2, pt: 2, borderTop: 1, borderColor: 'divider' }}>
+                <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 600 }}>
+                  Quellen
+                </Typography>
+                <Box component="ol" sx={{ pl: 2.5, mt: 0.5, mb: 0 }}>
+                  {citedSources.map(({ src, num }) => (
+                    <Typography
+                      component="li"
+                      variant="caption"
+                      color="text.secondary"
+                      key={src.id}
+                      id={`quelle-${src.id}`}
+                      sx={{ fontSize: '0.65rem', listStyle: 'none' }}
+                    >
+                      {src.url ? (
+                        <a
+                          href={src.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style={{ color: 'inherit' }}
+                        >
+                          [{num}] {src.label}
+                        </a>
+                      ) : (
+                        <>
+                          [{num}] {src.label}
+                        </>
+                      )}
+                    </Typography>
+                  ))}
+                </Box>
+              </Box>
+            )}
+          </Box>
         )}
 
         {otherArguments.length > 0 && (
