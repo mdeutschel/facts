@@ -11,7 +11,7 @@ export default function SearchPage() {
   const query = searchParams.get('q') ?? ''
   const { results, loading } = useSearch(query)
   const encodedQuery = encodeURIComponent(query)
-  const searchPath = query ? `/suche?q=${encodedQuery}` : '/suche'
+  const searchPath = query ? `/suche/?q=${encodedQuery}` : '/suche/'
   const searchTitle = query ? `Suche: ${query}` : 'Suche'
   const searchDescription = query
     ? `Suchergebnisse für "${query}" bei Fakten-Stammtisch.`

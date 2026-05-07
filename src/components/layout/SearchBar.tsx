@@ -14,7 +14,7 @@ export default function SearchBar() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (value.trim()) {
-      navigate(`/suche?q=${encodeURIComponent(value.trim())}`)
+      navigate(`/suche/?q=${encodeURIComponent(value.trim())}`)
       setExpanded(false)
     }
   }

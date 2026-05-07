@@ -49,7 +49,7 @@ export default function TopicCard({ topic }: TopicCardProps) {
   return (
     <Card sx={{ height: '100%' }}>
       <CardActionArea
-        onClick={() => navigate(`/thema/${topic.id}`)}
+        onClick={() => navigate(`/thema/${topic.id}/`)}
         sx={{ height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'stretch' }}
       >
         <CardContent sx={{ flex: 1 }}>
