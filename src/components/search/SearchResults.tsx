@@ -39,9 +39,9 @@ export default function SearchResults({ results, query }: SearchResultsProps) {
 
   const handleClick = (result: SearchResult) => {
     if (result.type === 'argument') {
-      navigate(`/thema/${result.topicId}/${result.id}`)
+      navigate(`/thema/${result.topicId}/${result.id}/`)
     } else {
-      navigate(`/thema/${result.topicId}?tab=1#section-${result.id}`)
+      navigate(`/thema/${result.topicId}/?tab=1#section-${result.id}`)
     }
   }
 

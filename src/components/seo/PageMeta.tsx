@@ -9,9 +9,19 @@ interface PageMetaProps {
   jsonLd?: Record<string, unknown>
 }
 
+function withTrailingSlash(path: string): string {
+  // Apache adds a trailing slash to directory URLs (DirectorySlash). Match that
+  // here so the canonical points at the URL the server actually serves —
+  // otherwise the canonical would 301-redirect, which Search Console reports
+  // as "Page with redirect".
+  const [pathname, ...rest] = path.split(/(?=[?#])/)
+  if (pathname === '' || pathname.endsWith('/')) return path
+  return `${pathname}/${rest.join('')}`
+}
+
 export default function PageMeta({ title, description, path, jsonLd }: PageMetaProps) {
   const fullTitle = `${title} | ${SITE_NAME}`
-  const canonicalUrl = `${BASE_URL}${path}`
+  const canonicalUrl = `${BASE_URL}${withTrailingSlash(path)}`
 
   return (
     <>

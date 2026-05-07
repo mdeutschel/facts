@@ -84,7 +84,7 @@ export default function ArgumentPage() {
     return <Alert severity="error">Argument nicht gefunden</Alert>
   }
 
-  const argumentPath = `/thema/${topic.id}/${argument.id}`
+  const argumentPath = `/thema/${topic.id}/${argument.id}/`
   const argumentUrl = `https://fakten-stammtisch.de${argumentPath}`
   const seoTitle = truncate(argument.claim, 65)
   const seoDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
@@ -103,9 +103,9 @@ export default function ArgumentPage() {
       publisher: { '@id': PERSON_ID },
       isPartOf: {
         '@type': 'WebPage',
-        '@id': `https://fakten-stammtisch.de/thema/${topic.id}#faqpage`,
+        '@id': `https://fakten-stammtisch.de/thema/${topic.id}/#faqpage`,
         name: topic.title,
-        url: `https://fakten-stammtisch.de/thema/${topic.id}`,
+        url: `https://fakten-stammtisch.de/thema/${topic.id}/`,
       },
       mainEntity: {
         '@type': 'Question',
@@ -161,7 +161,7 @@ export default function ArgumentPage() {
         <Link component={RouterLink} to="/" underline="hover" color="inherit">
           Themen
         </Link>
-        <Link component={RouterLink} to={`/thema/${topic.id}`} underline="hover" color="inherit">
+        <Link component={RouterLink} to={`/thema/${topic.id}/`} underline="hover" color="inherit">
           {topic.title}
         </Link>
         <Typography variant="body2" color="text.primary" sx={{ fontSize: '0.8rem' }}>
@@ -276,7 +276,7 @@ export default function ArgumentPage() {
                 <Link
                   key={a.id}
                   component={RouterLink}
-                  to={`/thema/${topic.id}/${a.id}`}
+                  to={`/thema/${topic.id}/${a.id}/`}
                   underline="hover"
                   sx={{ fontSize: '0.85rem', color: 'text.primary' }}
                 >
@@ -290,7 +290,7 @@ export default function ArgumentPage() {
         <Box>
           <Button
             component={RouterLink}
-            to={`/thema/${topic.id}`}
+            to={`/thema/${topic.id}/`}
             startIcon={<ArrowBackIcon />}
             variant="outlined"
             size="small"

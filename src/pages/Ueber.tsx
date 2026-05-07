@@ -12,8 +12,8 @@ export default function Ueber() {
     '@graph': [
       {
         '@type': 'AboutPage',
-        '@id': 'https://fakten-stammtisch.de/ueber#aboutpage',
-        url: 'https://fakten-stammtisch.de/ueber',
+        '@id': 'https://fakten-stammtisch.de/ueber/#aboutpage',
+        url: 'https://fakten-stammtisch.de/ueber/',
         name: 'Über dieses Projekt',
         inLanguage: 'de',
         about: { '@id': PERSON_ID },
@@ -130,7 +130,7 @@ export default function Ueber() {
           </Typography>
           <Typography variant="body2">
             Den vollständigen Prozess beschreibe ich auf der{' '}
-            <Link component={RouterLink} to="/methodik" underline="hover">
+            <Link component={RouterLink} to="/methodik/" underline="hover">
               Methodik-Seite
             </Link>
             .
@@ -192,7 +192,7 @@ export default function Ueber() {
           </Typography>
           <Typography variant="body2">
             Auch per Mail an die{' '}
-            <Link component={RouterLink} to="/feedback" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="hover">
               Feedback-Adresse
             </Link>
             .
@@ -208,7 +208,7 @@ export default function Ueber() {
           <Typography variant="body2">
             Verantwortlich für Konzept, Methodik und Veröffentlichung:
             Marcel Deutschel. Anschrift im{' '}
-            <Link component={RouterLink} to="/impressum" underline="hover">
+            <Link component={RouterLink} to="/impressum/" underline="hover">
               Impressum
             </Link>
             .

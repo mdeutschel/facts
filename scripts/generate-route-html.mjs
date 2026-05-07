@@ -8,7 +8,7 @@ const DATA_DIR = path.join(DIST_DIR, 'data')
 const SITE_URL = 'https://fakten-stammtisch.de'
 const SITE_NAME = 'Fakten-Stammtisch'
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`
-const PERSON_ID = 'https://fakten-stammtisch.de/ueber#person'
+const PERSON_ID = 'https://fakten-stammtisch.de/ueber/#person'
 const DESCRIPTION_MAX = 155
 const TITLE_MAX = 65
 
@@ -58,7 +58,7 @@ function buildBreadcrumbList(items) {
 }
 
 function buildTopicJsonLd(topic) {
-  const topicUrl = absoluteUrl(`/thema/${topic.id}`)
+  const topicUrl = absoluteUrl(`/thema/${topic.id}/`)
   const seoTitle = topic.seoTitle ?? topic.title
   const seoDescription = topic.seoDescription ?? topic.subtitle
 
@@ -94,8 +94,8 @@ function buildTopicJsonLd(topic) {
 }
 
 function buildArgumentJsonLd(topic, argument) {
-  const argumentUrl = absoluteUrl(`/thema/${topic.id}/${argument.id}`)
-  const topicUrl = absoluteUrl(`/thema/${topic.id}`)
+  const argumentUrl = absoluteUrl(`/thema/${topic.id}/${argument.id}/`)
+  const topicUrl = absoluteUrl(`/thema/${topic.id}/`)
   const seoDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
 
@@ -235,7 +235,7 @@ function buildTopicNoscript(topic) {
   if (topic.arguments && topic.arguments.length > 0) {
     lines.push('<section><h2>Argumente</h2><dl>')
     for (const arg of topic.arguments) {
-      const argUrl = absoluteUrl(`/thema/${topic.id}/${arg.id}`)
+      const argUrl = absoluteUrl(`/thema/${topic.id}/${arg.id}/`)
       const verdict = arg.verdict ? ` <em>(Bewertung: ${htmlEscape(VERDICT_META[arg.verdict]?.label ?? arg.verdict)})</em>` : ''
       lines.push(`<dt><a href="${attrEscape(argUrl)}">${htmlEscape(arg.claim)}</a>${verdict}</dt>`)
       lines.push(`<dd>${htmlEscape(arg.response)}</dd>`)
@@ -262,8 +262,8 @@ function buildTopicNoscript(topic) {
 
 function buildArgumentNoscript(topic, argument) {
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
-  const argumentUrl = absoluteUrl(`/thema/${topic.id}/${argument.id}`)
-  const topicUrl = absoluteUrl(`/thema/${topic.id}`)
+  const argumentUrl = absoluteUrl(`/thema/${topic.id}/${argument.id}/`)
+  const topicUrl = absoluteUrl(`/thema/${topic.id}/`)
 
   const relatedSections = (argument.relatedSections ?? [])
     .map((sid) => topic.sections.find((s) => s.id === sid))
@@ -325,7 +325,7 @@ function buildArgumentNoscript(topic, argument) {
   if (otherArguments.length > 0) {
     lines.push('<section><h2>Weitere Aussagen zum Thema</h2><ul>')
     for (const a of otherArguments) {
-      const url = absoluteUrl(`/thema/${topic.id}/${a.id}`)
+      const url = absoluteUrl(`/thema/${topic.id}/${a.id}/`)
       lines.push(`<li><a href="${attrEscape(url)}">„${htmlEscape(a.claim)}"</a></li>`)
     }
     lines.push('</ul></section>')
@@ -342,7 +342,7 @@ function buildArgumentTxt(topic, argument) {
   lines.push(`# ${argument.claim}`)
   lines.push('')
   lines.push(`Thema: ${topic.title}`)
-  lines.push(`URL: ${absoluteUrl(`/thema/${topic.id}/${argument.id}`)}`)
+  lines.push(`URL: ${absoluteUrl(`/thema/${topic.id}/${argument.id}/`)}`)
   if (verdictMeta) lines.push(`Bewertung: ${verdictMeta.label}`)
   lines.push(`Stand: ${topic.lastUpdated}`)
   lines.push('')
@@ -471,8 +471,8 @@ const STATIC_ROUTES = [
       '@graph': [
         {
           '@type': 'AboutPage',
-          '@id': `${SITE_URL}/ueber#aboutpage`,
-          url: `${SITE_URL}/ueber`,
+          '@id': `${SITE_URL}/ueber/#aboutpage`,
+          url: `${SITE_URL}/ueber/`,
           name: 'Über dieses Projekt',
           inLanguage: 'de',
           about: { '@id': PERSON_ID },
@@ -485,7 +485,7 @@ const STATIC_ROUTES = [
           jobTitle: 'Informatiker',
           description:
             'Informatiker mit langjähriger Auseinandersetzung mit großen Sprachmodellen. Verantwortlich für Konzept und Methodik von Fakten-Stammtisch.',
-          url: `${SITE_URL}/ueber`,
+          url: `${SITE_URL}/ueber/`,
           sameAs: ['https://github.com/mdeutschel'],
           knowsAbout: [
             'KI-gestützte Inhaltsverifikation',
@@ -505,14 +505,14 @@ const STATIC_ROUTES = [
 <p>Marcel Deutschel, Informatiker, beschäftigt sich seit Jahren intensiv mit großen Sprachmodellen — was sie können, was nicht, und wie man sie gegen ihre eigenen Schwächen absichert. Fakten-Stammtisch ist sein privates Projekt.</p>
 <p>Er ist ausdrücklich kein Experte für Klimaforschung, Sozialpolitik, Verkehrsplanung oder Sprachwissenschaft. Sein Beitrag liegt in der Arbeit am Prüfverfahren selbst — den Skills im <a href="https://github.com/mdeutschel/facts/tree/main/.claude/skills" rel="noopener">Open-Source-Repository</a>.</p>
 <h2>Wie die Inhalte entstehen</h2>
-<p>Jedes Topic durchläuft denselben Workflow: Recherche, strukturierte Aufbereitung, Quellenverifizierung gegen erreichbare Online-Belege, inhaltliche Prüfung gegen sieben Qualitätsdimensionen (Nuance, Quellen-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente, sprachliche Präzision, Argument-Claim-Passung). Details auf der <a href="${SITE_URL}/methodik">Methodik-Seite</a>.</p>
+<p>Jedes Topic durchläuft denselben Workflow: Recherche, strukturierte Aufbereitung, Quellenverifizierung gegen erreichbare Online-Belege, inhaltliche Prüfung gegen sieben Qualitätsdimensionen (Nuance, Quellen-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente, sprachliche Präzision, Argument-Claim-Passung). Details auf der <a href="${SITE_URL}/methodik/">Methodik-Seite</a>.</p>
 <h2>Was diese Seite nicht ist</h2>
 <ul>
 <li>Kein Faktencheck-Portal im journalistischen Sinn (dafür gibt es Correctiv, dpa-Faktencheck und andere).</li>
 <li>Kein Wikipedia-Ersatz — das hier ist explizit argumentativ zugespitzt.</li>
 <li>Kein Werbe- oder Affiliate-Projekt — keine Einnahmen, keine bezahlten Inhalte, keine Tracking-Cookies.</li>
 </ul>
-<p><a href="${SITE_URL}/feedback">Feedback &amp; Kontakt</a> · <a href="${SITE_URL}/impressum">Impressum</a></p>
+<p><a href="${SITE_URL}/feedback/">Feedback &amp; Kontakt</a> · <a href="${SITE_URL}/impressum/">Impressum</a></p>
 </article>`.trim(),
   },
   {
@@ -523,8 +523,8 @@ const STATIC_ROUTES = [
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
-      '@id': `${SITE_URL}/methodik#webpage`,
-      url: `${SITE_URL}/methodik`,
+      '@id': `${SITE_URL}/methodik/#webpage`,
+      url: `${SITE_URL}/methodik/`,
       name: 'Methodik',
       description:
         'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, sieben Qualitätsdimensionen und transparenter Aktualität.',
@@ -547,7 +547,7 @@ const STATIC_ROUTES = [
 </ol>
 <h2>Transparenz</h2>
 <p>Das gesamte Verfahren — inklusive der Skills, die der KI vorgeben, wie eine Quelle verifiziert oder ein Argument geprüft wird — ist im <a href="https://github.com/mdeutschel/facts/tree/main/.claude/skills" rel="noopener">Open-Source-Repository einsehbar</a>.</p>
-<p>Korrekturhinweise und bessere Belege willkommen — siehe <a href="${SITE_URL}/feedback">Feedback</a>.</p>
+<p>Korrekturhinweise und bessere Belege willkommen — siehe <a href="${SITE_URL}/feedback/">Feedback</a>.</p>
 </article>`.trim(),
   },
   {
@@ -558,7 +558,7 @@ const STATIC_ROUTES = [
 <article>
 <nav aria-label="Breadcrumb"><a href="${SITE_URL}/">Themen</a> › Impressum</nav>
 <h1>Impressum &amp; Datenschutz</h1>
-<p>Verantwortlich für Konzept, Methodik und Veröffentlichung: Marcel Deutschel. Vollständige Anschrift und Kontaktdaten in der <a href="${SITE_URL}/impressum">Impressum-Ansicht der App</a>.</p>
+<p>Verantwortlich für Konzept, Methodik und Veröffentlichung: Marcel Deutschel. Vollständige Anschrift und Kontaktdaten in der <a href="${SITE_URL}/impressum/">Impressum-Ansicht der App</a>.</p>
 <p>Fakten-Stammtisch ist ein privates, nicht-kommerzielles Projekt. Keine Werbung, keine Tracking-Cookies, keine personenbezogenen Auswertungen über das technisch Notwendige hinaus.</p>
 </article>`.trim(),
   },
@@ -571,7 +571,7 @@ const STATIC_ROUTES = [
 <article>
 <nav aria-label="Breadcrumb"><a href="${SITE_URL}/">Themen</a> › Feedback</nav>
 <h1>Feedback</h1>
-<p>Korrekturen, Themenvorschläge und Quellenhinweise sind willkommen. Bitte das <a href="${SITE_URL}/feedback">Feedback-Formular der App</a> verwenden — es funktioniert nur mit aktiviertem JavaScript. Alternativ per E-Mail an feedback@fakten-stammtisch.de oder als Issue im <a href="https://github.com/mdeutschel/facts" rel="noopener">GitHub-Repository</a>.</p>
+<p>Korrekturen, Themenvorschläge und Quellenhinweise sind willkommen. Bitte das <a href="${SITE_URL}/feedback/">Feedback-Formular der App</a> verwenden — es funktioniert nur mit aktiviertem JavaScript. Alternativ per E-Mail an feedback@fakten-stammtisch.de oder als Issue im <a href="https://github.com/mdeutschel/facts" rel="noopener">GitHub-Repository</a>.</p>
 </article>`.trim(),
   },
   {
@@ -590,7 +590,9 @@ const STATIC_ROUTES = [
 
 async function generateStaticRoutes(template) {
   for (const route of STATIC_ROUTES) {
-    const canonical = `${SITE_URL}${route.path}`
+    // Canonical includes a trailing slash so it matches the URL Apache serves
+    // directly (DirectorySlash redirects /ueber → /ueber/).
+    const canonical = `${SITE_URL}${route.path}/`
     const html = buildRouteHtml(template, {
       title: route.title,
       description: route.description,
@@ -621,7 +623,7 @@ function buildHomeJsonLd(topics) {
         hasPart: topics.map((topic) => ({
           '@type': 'WebPage',
           name: topic.title,
-          url: `${SITE_URL}/thema/${topic.id}`,
+          url: `${SITE_URL}/thema/${topic.id}/`,
           description: topic.subtitle,
         })),
       },
@@ -664,7 +666,7 @@ async function main() {
 
     const topicTitle = topic.seoTitle ?? topic.title
     const topicDescription = topic.seoDescription ?? topic.subtitle
-    const topicCanonical = absoluteUrl(`/thema/${topic.id}`)
+    const topicCanonical = absoluteUrl(`/thema/${topic.id}/`)
 
     const topicHtml = buildRouteHtml(template, {
       title: topicTitle,
@@ -683,7 +685,7 @@ async function main() {
     for (const argument of topic.arguments) {
       const argTitle = truncate(argument.claim, TITLE_MAX)
       const argDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
-      const argCanonical = absoluteUrl(`/thema/${topic.id}/${argument.id}`)
+      const argCanonical = absoluteUrl(`/thema/${topic.id}/${argument.id}/`)
 
       const argHtml = buildRouteHtml(template, {
         title: argTitle,

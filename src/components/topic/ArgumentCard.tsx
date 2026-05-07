@@ -126,7 +126,7 @@ export default function ArgumentCard({
             <Box sx={{ mt: 1.5, pt: 1.5, borderTop: 1, borderColor: 'divider' }}>
               <Button
                 component={RouterLink}
-                to={`/thema/${topicId}/${argument.id}`}
+                to={`/thema/${topicId}/${argument.id}/`}
                 size="small"
                 endIcon={<OpenInNewIcon sx={{ fontSize: 16 }} />}
                 sx={{

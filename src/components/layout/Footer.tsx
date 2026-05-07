@@ -31,7 +31,7 @@ export default function Footer() {
           >
             <Link
               component={RouterLink}
-              to="/ueber"
+              to="/ueber/"
               color="inherit"
               underline="hover"
               sx={{ fontWeight: 500 }}
@@ -40,7 +40,7 @@ export default function Footer() {
             </Link>
             <Link
               component={RouterLink}
-              to="/methodik"
+              to="/methodik/"
               color="inherit"
               underline="hover"
               sx={{ fontWeight: 500 }}
@@ -49,7 +49,7 @@ export default function Footer() {
             </Link>
             <Link
               component={RouterLink}
-              to="/impressum"
+              to="/impressum/"
               color="inherit"
               underline="hover"
               sx={{ fontWeight: 500 }}
@@ -58,7 +58,7 @@ export default function Footer() {
             </Link>
             <Link
               component={RouterLink}
-              to="/feedback"
+              to="/feedback/"
               color="inherit"
               underline="hover"
               sx={{ fontWeight: 500 }}

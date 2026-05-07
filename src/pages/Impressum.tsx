@@ -66,7 +66,7 @@ export default function Impressum() {
           </Box>
           <Typography variant="body2">
             Weitere Kontaktmöglichkeit:{' '}
-            <Link component={RouterLink} to="/feedback" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="hover">
               Feedback-Formular
             </Link>
           </Typography>
@@ -125,7 +125,7 @@ export default function Impressum() {
           <Typography variant="subtitle2">4. Feedback-Formular</Typography>
           <Typography variant="body2">
             Wenn du das{' '}
-            <Link component={RouterLink} to="/feedback" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="hover">
               Feedback-Formular
             </Link>
             {' '}nutzt, werden die von dir eingegebenen Daten (Vorschlag, optional Name

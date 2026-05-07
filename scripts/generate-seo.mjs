@@ -112,7 +112,9 @@ export function flattenContentBlock(block) {
 }
 
 function buildSitemap(topics, topicDataById) {
-  const staticPaths = ['/', '/ueber', '/methodik', '/impressum', '/feedback', '/suche']
+  // Trailing slashes match Apache's served URLs (DirectorySlash) and avoid
+  // 301 redirects that would otherwise show up as "Page with redirect" in GSC.
+  const staticPaths = ['/', '/ueber/', '/methodik/', '/impressum/', '/feedback/', '/suche/']
   const today = new Date().toISOString().slice(0, 10)
 
   const entries = []
@@ -122,10 +124,10 @@ function buildSitemap(topics, topicDataById) {
   for (const topic of topics) {
     const data = topicDataById.get(topic.id)
     const lastMod = data?.lastUpdated ?? today
-    entries.push({ path: `/thema/${topic.id}`, lastMod })
+    entries.push({ path: `/thema/${topic.id}/`, lastMod })
     if (data?.arguments) {
       for (const arg of data.arguments) {
-        entries.push({ path: `/thema/${topic.id}/${arg.id}`, lastMod })
+        entries.push({ path: `/thema/${topic.id}/${arg.id}/`, lastMod })
       }
     }
   }
@@ -175,13 +177,13 @@ function buildLlmsTxt(topics) {
     '## Contact',
     '',
     '- E-Mail: feedback@fakten-stammtisch.de',
-    `- [Feedback-Formular](${absoluteUrl('/feedback')})`,
+    `- [Feedback-Formular](${absoluteUrl('/feedback/')})`,
     '',
     '## Optional',
     '',
-    `- [Über das Projekt](${absoluteUrl('/ueber')})`,
-    `- [Methodik](${absoluteUrl('/methodik')})`,
-    `- [Impressum & Datenschutz](${absoluteUrl('/impressum')})`,
+    `- [Über das Projekt](${absoluteUrl('/ueber/')})`,
+    `- [Methodik](${absoluteUrl('/methodik/')})`,
+    `- [Impressum & Datenschutz](${absoluteUrl('/impressum/')})`,
     `- [Sitemap](${absoluteUrl('/sitemap.xml')})`,
     '',
   ].join('\n')
@@ -272,7 +274,7 @@ function buildFallbackHtml(topics, topicDataById) {
     const data = topicDataById.get(topic.id)
     if (!data) continue
 
-    const url = absoluteUrl(`/thema/${topic.id}`)
+    const url = absoluteUrl(`/thema/${topic.id}/`)
     const headline = data.seoTitle ?? data.title
     const summary = data.seoDescription ?? data.subtitle
     lines.push(`      <h3><a href="${htmlEscape(url)}">${htmlEscape(headline)}</a></h3>`)
@@ -285,7 +287,7 @@ function buildFallbackHtml(topics, topicDataById) {
       lines.push(`        <summary>Argumente (${data.arguments.length})</summary>`)
       lines.push('        <dl>')
       for (const arg of data.arguments) {
-        const argUrl = absoluteUrl(`/thema/${topic.id}/${arg.id}`)
+        const argUrl = absoluteUrl(`/thema/${topic.id}/${arg.id}/`)
         lines.push(`          <dt><a href="${htmlEscape(argUrl)}">${htmlEscape(arg.claim)}</a></dt>`)
         lines.push(`          <dd>${htmlEscape(arg.response)}</dd>`)
       }
@@ -299,14 +301,14 @@ function buildFallbackHtml(topics, topicDataById) {
   lines.push(`      <p>${htmlEscape(homeTexts.usageP2)}</p>`)
   lines.push(`      <p>${htmlEscape(homeTexts.usageP3)}</p>`)
   lines.push(`      <h2>${htmlEscape(homeTexts.aboutTitle)}</h2>`)
-  lines.push(`      <p>${htmlEscape(homeTexts.aboutLead)} <a href="${absoluteUrl('/ueber')}">Über-Seite</a> beschrieben.</p>`)
+  lines.push(`      <p>${htmlEscape(homeTexts.aboutLead)} <a href="${absoluteUrl('/ueber/')}">Über-Seite</a> beschrieben.</p>`)
   lines.push(`      <h2>${htmlEscape(homeTexts.methodTitle)}</h2>`)
-  lines.push(`      <p>${htmlEscape(homeTexts.methodLead)} <a href="${absoluteUrl('/methodik')}">Methodik-Seite</a>.</p>`)
+  lines.push(`      <p>${htmlEscape(homeTexts.methodLead)} <a href="${absoluteUrl('/methodik/')}">Methodik-Seite</a>.</p>`)
   lines.push(`      <h2>${htmlEscape(homeTexts.transparencyTitle)}</h2>`)
   lines.push(`      <p>${htmlEscape(homeTexts.transparencyText)}</p>`)
   lines.push('      <h2>Quellen &amp; Transparenz</h2>')
   lines.push('      <p>Alle Aussagen auf dieser Seite werden mit Primärquellen belegt (Studien, amtliche Statistiken, Fachinstitute). Die vollständige Quellenliste ist auf jeder Themenseite einsehbar.</p>')
-  lines.push('      <p><a href="https://fakten-stammtisch.de/impressum">Impressum &amp; Datenschutz</a> · <a href="https://fakten-stammtisch.de/feedback">Feedback</a> · E-Mail: feedback@fakten-stammtisch.de</p>')
+  lines.push('      <p><a href="https://fakten-stammtisch.de/impressum/">Impressum &amp; Datenschutz</a> · <a href="https://fakten-stammtisch.de/feedback/">Feedback</a> · E-Mail: feedback@fakten-stammtisch.de</p>')
 
   return lines.join('\n')
 }

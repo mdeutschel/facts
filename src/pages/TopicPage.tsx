@@ -59,7 +59,7 @@ export default function TopicPage() {
     return <Alert severity="error">{error ?? 'Thema nicht gefunden'}</Alert>
   }
 
-  const topicPath = `/thema/${topic.id}`
+  const topicPath = `/thema/${topic.id}/`
   const topicUrl = `https://fakten-stammtisch.de${topicPath}`
   const seoTitle = topic.seoTitle ?? topic.title
   const seoDescription = topic.seoDescription ?? topic.subtitle

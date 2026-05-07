@@ -197,7 +197,7 @@ if ($topicId !== '') {
         if ($topicSubtitle !== '') {
           $description = $topicSubtitle;
         }
-        $path = '/thema/' . $topicId;
+        $path = '/thema/' . $topicId . '/';
 
         $mainEntity = [];
         if (isset($topic['arguments']) && is_array($topic['arguments'])) {
@@ -270,7 +270,7 @@ $websiteJsonLd = [
   'inLanguage' => 'de',
   'potentialAction' => [
     '@type' => 'SearchAction',
-    'target' => $siteUrl . '/suche?q={search_term_string}',
+    'target' => $siteUrl . '/suche/?q={search_term_string}',
     'query-input' => 'required name=search_term_string',
   ],
 ];
@@ -386,7 +386,7 @@ $websiteJsonLd = [
       <?php foreach ($topicsList as $t): ?>
         <?php if (!is_array($t)) continue; ?>
         <li>
-          <a href="<?= h($siteUrl . '/thema/' . (string)($t['id'] ?? '')) ?>">
+          <a href="<?= h($siteUrl . '/thema/' . (string)($t['id'] ?? '') . '/') ?>">
             <?= h((string)($t['title'] ?? '')) ?>
           </a>
           — <?= h((string)($t['subtitle'] ?? '')) ?>
@@ -409,8 +409,8 @@ $websiteJsonLd = [
       suchen. Alle Aussagen werden mit Primärquellen belegt.
     </p>
     <p>
-      <a href="<?= h($siteUrl) ?>/impressum">Impressum &amp; Datenschutz</a> ·
-      <a href="<?= h($siteUrl) ?>/feedback">Feedback</a> ·
+      <a href="<?= h($siteUrl) ?>/impressum/">Impressum &amp; Datenschutz</a> ·
+      <a href="<?= h($siteUrl) ?>/feedback/">Feedback</a> ·
       E-Mail: feedback@fakten-stammtisch.de
     </p>
 

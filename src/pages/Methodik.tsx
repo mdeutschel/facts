@@ -11,8 +11,8 @@ export default function Methodik() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': 'https://fakten-stammtisch.de/methodik#webpage',
-    url: 'https://fakten-stammtisch.de/methodik',
+    '@id': 'https://fakten-stammtisch.de/methodik/#webpage',
+    url: 'https://fakten-stammtisch.de/methodik/',
     name: 'Methodik',
     description:
       'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, sieben Qualitätsdimensionen und transparenter Aktualität.',
@@ -356,7 +356,7 @@ export default function Methodik() {
             </Typography>
             <Typography component="li" variant="body2">
               per Mail:{' '}
-              <Link component={RouterLink} to="/feedback" underline="hover">
+              <Link component={RouterLink} to="/feedback/" underline="hover">
                 Feedback-Formular
               </Link>
             </Typography>
