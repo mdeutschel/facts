@@ -34,12 +34,24 @@ export default function Methodik() {
       </Typography>
 
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
-        <Typography variant="body2">
-          Alle Inhalte auf Fakten-Stammtisch werden mit Hilfe von
-          KI-Systemen erstellt. Damit das nicht in beliebigem
-          Plausibilitäts-Text mündet, durchläuft jedes Topic einen festen
-          Prüfprozess. Diese Seite beschreibt ihn.
-        </Typography>
+        <Stack spacing={1.5}>
+          <Typography variant="body2">
+            Inhalte auf Fakten-Stammtisch werden mit Hilfe von KI-Systemen
+            erstellt. Damit das nicht in beliebigem Plausibilitäts-Text
+            mündet, durchläuft jedes Topic einen festen Prüfprozess. Diese
+            Seite beschreibt ihn.
+          </Typography>
+          <Typography variant="body2">
+            Wichtig vorweg: Die Qualität soll vom Workflow getragen werden
+            — automatisierte Quellenverifizierung, automatisierte
+            inhaltliche Prüfung, verlinkte Primärquellen, offener
+            Korrekturweg. Eine redaktionelle Vollprüfung jeder einzelnen
+            Aussage durch eine menschliche Redaktion findet bewusst nicht
+            statt. Verantwortung für Veröffentlichung und Methodik trägt
+            der Betreiber; die Grenzen dieses Ansatzes sind unten unter{' '}
+            <em>Grenzen dieser Methodik</em> offen benannt.
+          </Typography>
+        </Stack>
       </Paper>
 
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
@@ -75,12 +87,14 @@ export default function Methodik() {
             </Typography>
           </Box>
           <Typography variant="body2">
-            Nach Phase 3 und 4 sichte ich die Befunde und entscheide, was
-            vor der Veröffentlichung korrigiert wird. Dieser finale Schritt
-            ist menschlich — kein Automatismus erzwingt, dass jeder Hinweis
-            behoben wird, bevor ein Topic erscheint. Die Vollständigkeit
-            der Korrekturen liegt in meiner Verantwortung. Mehr dazu unter
-            „Grenzen dieser Methodik".
+            Nach Phase 3 und 4 entscheide ich über die Befunde, die das
+            System markiert hat — kein Automatismus erzwingt, dass jeder
+            Hinweis behoben wird, bevor ein Topic erscheint. Eine
+            systematische redaktionelle Vollprüfung jeder einzelnen Aussage
+            findet bewusst nicht statt; eigene Stichproben ergänzen die
+            automatisierten Prüfungen punktuell. Die Vollständigkeit und
+            Schärfe der Korrekturen liegt in meiner Verantwortung. Mehr
+            dazu unter „Grenzen dieser Methodik".
           </Typography>
         </Stack>
       </Paper>

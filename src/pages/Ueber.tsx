@@ -58,6 +58,35 @@ export default function Ueber() {
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1.5}>
           <Typography variant="h6" component="h2">
+            Wie die Inhalte entstehen
+          </Typography>
+          <Typography variant="body2">
+            Jedes Topic durchläuft denselben Workflow: Recherche,
+            strukturierte Aufbereitung, automatisierte Quellenverifizierung
+            gegen die tatsächlich erreichbaren Online-Belege, inhaltliche
+            Prüfung gegen sieben Qualitätsdimensionen (Nuance, Quellen-Fit,
+            Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente,
+            sprachliche Präzision, Argument-Claim-Passung).
+          </Typography>
+          <Typography variant="body2">
+            Recherche, Strukturierung und Erstellung der Texte erfolgen mit
+            Sprachmodellen. Eine redaktionelle Vollprüfung jeder einzelnen
+            Aussage findet bewusst nicht statt — die Qualität soll vom
+            Workflow getragen werden: verlinkte Primärquellen zu jeder Zahl,
+            automatisierte Skills für Quellenverifizierung und
+            argumentative Prüfung, ein offener Korrekturweg über Feedback
+            und Issues. Den vollständigen Prozess beschreibt die{' '}
+            <Link component={RouterLink} to="/methodik/" underline="hover">
+              Methodik-Seite
+            </Link>
+            .
+          </Typography>
+        </Stack>
+      </Paper>
+
+      <Paper sx={{ p: { xs: 2, sm: 3 } }}>
+        <Stack spacing={1.5}>
+          <Typography variant="h6" component="h2">
             Wer dahintersteht
           </Typography>
           <Typography variant="body2">
@@ -65,21 +94,15 @@ export default function Ueber() {
             experimentiere seit zwei bis drei Jahren intensiv mit großen
             Sprachmodellen — was sie können, was sie eben nicht können, und
             vor allem: wie man sie gegen ihre eigenen Schwächen absichert.
-          </Typography>
-          <Typography variant="body2">
             Fakten-Stammtisch ist mein privates Projekt, kein Produkt einer
             Firma.
           </Typography>
           <Typography variant="body2">
-            Ich bin ausdrücklich <strong>kein</strong> Experte für
-            Klimaforschung, Sozialpolitik, Verkehrsplanung oder
-            Sprachwissenschaft. Diese Seite gibt nicht vor, dass es anders
-            wäre. Was ich beitrage, ist nicht das Fachwissen — sondern die
-            fortlaufende Arbeit am Prüfverfahren selbst: an den Skills
+            Mein Beitrag liegt im Prüfverfahren selbst: in den Skills
             (Anleitungen für die KI), die festlegen, wie eine Quelle
             verifiziert wird, was eine zulässige Argumentationsstruktur
             ausmacht, wo die Grenzen zwischen Fakt und Bewertung verlaufen.
-            Diese Verfahren beeinflussen das Ergebnis stark — sie sind im{' '}
+            Diese Skills sind im{' '}
             <Link
               href="https://github.com/mdeutschel/facts/tree/main/.claude/skills"
               target="_blank"
@@ -89,6 +112,12 @@ export default function Ueber() {
               Repository einsehbar
             </Link>{' '}
             und entwickeln sich mit jedem Topic weiter.
+          </Typography>
+          <Typography variant="body2">
+            Fachexpertise zu Klimaforschung, Sozialpolitik, Verkehrsplanung
+            oder Sprachwissenschaft liegt bei den verlinkten Primärquellen
+            — nicht bei mir. Diese Seite ersetzt keine Fachstelle und tritt
+            nicht als solche auf.
           </Typography>
         </Stack>
       </Paper>
@@ -104,36 +133,13 @@ export default function Ueber() {
             Desinformation am Fließband produzieren, aber genauso gut
             helfen, Behauptungen schnell gegen die Datenlage zu prüfen.
             Fakten-Stammtisch ist mein Versuch, zu zeigen, dass die zweite
-            Variante machbar ist: AI-Content, der nicht nur plausibel
-            klingt, sondern überprüfbar belegt ist.
+            Variante machbar ist: KI-gestützte Inhalte, die nicht nur
+            plausibel klingen, sondern überprüfbar belegt sind.
           </Typography>
           <Typography variant="body2">
             Begonnen hat das als technisches Experiment im privaten Umfeld.
             Inzwischen sind die ersten Themen online, und solange das
             Format seinen Zweck erfüllt, baue ich es weiter aus.
-          </Typography>
-        </Stack>
-      </Paper>
-
-      <Paper sx={{ p: { xs: 2, sm: 3 } }}>
-        <Stack spacing={1.5}>
-          <Typography variant="h6" component="h2">
-            Wie die Inhalte entstehen
-          </Typography>
-          <Typography variant="body2">
-            Jedes Topic durchläuft denselben Workflow: Recherche,
-            strukturierte Aufbereitung, Quellenverifizierung gegen die
-            tatsächlich erreichbaren Online-Belege, inhaltliche Prüfung
-            gegen sieben Qualitätsdimensionen (Nuance, Quellen-Fit,
-            Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente,
-            sprachliche Präzision, Argument-Claim-Passung).
-          </Typography>
-          <Typography variant="body2">
-            Den vollständigen Prozess beschreibe ich auf der{' '}
-            <Link component={RouterLink} to="/methodik/" underline="hover">
-              Methodik-Seite
-            </Link>
-            .
           </Typography>
         </Stack>
       </Paper>
@@ -212,6 +218,26 @@ export default function Ueber() {
               Impressum
             </Link>
             .
+          </Typography>
+          <Typography variant="body2">
+            Eigene stichprobenartige Kontrolle ergänzt die automatisierten
+            Prüfungen, ersetzt aber keine redaktionelle Vollprüfung. Der
+            primäre Korrekturweg führt über Issues im{' '}
+            <Link
+              href="https://github.com/mdeutschel/facts/issues"
+              target="_blank"
+              rel="noopener"
+              underline="hover"
+            >
+              GitHub-Repository
+            </Link>{' '}
+            und das{' '}
+            <Link component={RouterLink} to="/feedback/" underline="hover">
+              Feedback-Formular
+            </Link>
+            . Hinweise zu falschen Zahlen, kaputten Quellen-Links oder
+            schiefen Argumentationen werden geprüft und — wenn berechtigt —
+            in der nächsten Aktualisierung des Topics berücksichtigt.
           </Typography>
         </Stack>
       </Paper>

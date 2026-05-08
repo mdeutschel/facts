@@ -62,24 +62,18 @@ function buildTopicJsonLd(topic) {
   const seoTitle = topic.seoTitle ?? topic.title
   const seoDescription = topic.seoDescription ?? topic.subtitle
 
-  const faqPage = {
-    '@type': 'FAQPage',
-    '@id': `${topicUrl}#faqpage`,
+  const article = {
+    '@type': 'Article',
+    '@id': `${topicUrl}#article`,
     url: topicUrl,
-    name: seoTitle,
+    headline: seoTitle,
     description: seoDescription,
     inLanguage: 'de',
+    datePublished: topic.lastUpdated,
     dateModified: topic.lastUpdated,
     author: { '@id': PERSON_ID },
     publisher: { '@id': PERSON_ID },
-    mainEntity: topic.arguments.map((argument) => ({
-      '@type': 'Question',
-      name: argument.claim,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: argument.response,
-      },
-    })),
+    mainEntityOfPage: topicUrl,
   }
 
   const breadcrumb = buildBreadcrumbList([
@@ -89,7 +83,7 @@ function buildTopicJsonLd(topic) {
 
   return {
     '@context': 'https://schema.org',
-    '@graph': [faqPage, breadcrumb],
+    '@graph': [article, breadcrumb],
   }
 }
 
@@ -111,8 +105,8 @@ function buildArgumentJsonLd(topic, argument) {
       author: { '@id': PERSON_ID },
       publisher: { '@id': PERSON_ID },
       isPartOf: {
-        '@type': 'WebPage',
-        '@id': `${topicUrl}#faqpage`,
+        '@type': 'Article',
+        '@id': `${topicUrl}#article`,
         name: topic.title,
         url: topicUrl,
       },
@@ -230,7 +224,9 @@ function buildTopicNoscript(topic) {
   lines.push(`<nav aria-label="Breadcrumb"><a href="${SITE_URL}/">Themen</a> › ${htmlEscape(topic.title)}</nav>`)
   lines.push(`<h1>${htmlEscape(headline)}</h1>`)
   lines.push(`<p>${htmlEscape(summary)}</p>`)
-  lines.push(`<p><small>Stand: ${htmlEscape(topic.lastUpdated)} · ${topic.sections.length} Faktenabschnitte · ${topic.arguments.length} Argumente</small></p>`)
+  lines.push(
+    `<p><small>Stand: ${htmlEscape(topic.lastUpdated)} · ${topic.sources.length} Quellen · ${topic.arguments.length} Argumente · ${topic.sections.length} Faktenabschnitte · <a href="${SITE_URL}/methodik/">Wie geprüft wird</a> · <a href="${SITE_URL}/feedback/">Fehler melden</a></small></p>`,
+  )
 
   if (topic.arguments && topic.arguments.length > 0) {
     lines.push('<section><h2>Argumente</h2><dl>')
