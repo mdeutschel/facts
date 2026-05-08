@@ -11,6 +11,7 @@ import FactCheckIcon from '@mui/icons-material/FactCheck'
 import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
 import ArgumentCard from '../components/topic/ArgumentCard'
+import TopicTrustBox from '../components/topic/TopicTrustBox'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
 import { useTopic } from '../hooks/useTopics'
@@ -63,25 +64,19 @@ export default function TopicPage() {
   const topicUrl = `https://fakten-stammtisch.de${topicPath}`
   const seoTitle = topic.seoTitle ?? topic.title
   const seoDescription = topic.seoDescription ?? topic.subtitle
-  const faqJsonLd = {
+  const articleJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    '@id': `${topicUrl}#faqpage`,
+    '@type': 'Article',
+    '@id': `${topicUrl}#article`,
     url: topicUrl,
-    name: seoTitle,
+    headline: seoTitle,
     description: seoDescription,
     inLanguage: 'de',
+    datePublished: topic.lastUpdated,
     dateModified: topic.lastUpdated,
     author: { '@id': PERSON_ID },
     publisher: { '@id': PERSON_ID },
-    mainEntity: topic.arguments.map((argument) => ({
-      '@type': 'Question',
-      name: argument.claim,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: argument.response,
-      },
-    })),
+    mainEntityOfPage: topicUrl,
   }
 
   return (
@@ -90,7 +85,7 @@ export default function TopicPage() {
         title={seoTitle}
         description={seoDescription}
         path={topicPath}
-        jsonLd={faqJsonLd}
+        jsonLd={articleJsonLd}
       />
       <Box sx={{ mb: 2 }}>
         <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
@@ -105,6 +100,8 @@ export default function TopicPage() {
           sx={{ mt: 1, fontSize: '0.7rem' }}
         />
       </Box>
+
+      <TopicTrustBox topic={topic} />
 
       <Tabs
         value={tab}

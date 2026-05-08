@@ -2,13 +2,11 @@
 
 Deutschsprachige, mobile-first React-SPA mit faktenbasierten Argumenten und Quellen zu politischen und gesellschaftlichen Debatten in Deutschland.
 
-## Transparenz-Hinweis: Dieses Projekt ist ein KI-Experiment
+## Wie diese Seite entsteht
 
-Sowohl der komplette Code in diesem Repository als auch sämtliche Inhalte der Themen-Factsheets sind zu **100 % KI-generiert**. Es gibt keine manuell geschriebenen Code-Zeilen und keine redaktionell von Hand verfassten Texte.
+Code und Inhalte werden mit Sprachmodellen erstellt. Die Verantwortung für Veröffentlichung, Methodik und das Repository liegt bei Marcel Deutschel als Betreiber. Qualität wird nicht durch redaktionelle Vollprüfung jeder Aussage abgesichert, sondern durch einen reproduzierbaren Workflow: automatisierte Quellenverifizierung gegen die tatsächlich erreichbaren Online-Belege (`verify-sources`), inhaltliche Prüfung gegen sieben Qualitätsdimensionen (`review-content`), verlinkte Primärquellen zu jeder Zahl, offen einsehbare Skills im `.claude/skills/`-Verzeichnis und ein offener Korrekturweg über GitHub-Issues und das Feedback-Formular.
 
-Das ist Absicht, kein Versehen. `fakten-stammtisch.de` ist auch ein Versuchsaufbau: Wie weit kann man heute mit KI eine öffentlich vorzeigbare, quellenbasierte Recherche-Seite bauen — vom Konzept über die Implementierung bis zur inhaltlichen Qualitätssicherung? Kann KI recherchieren, Argumente schärfen, Quellen verifizieren und das Ganze in eine konsistente, wartbare Pipeline gießen?
-
-Trotzdem soll am Ende ein nutzbares Ergebnis stehen. Die Behauptung ist nicht "KI hat das gemacht, also ist es richtig", sondern: Jede Zahl, jede Quelle und jeder Argumentationsschritt durchläuft automatisierte Prüf-Workflows (`review-content`, `verify-sources`). Der Wert dieses Projekts soll sich am Ergebnis messen lassen — nicht an der Tatsache, dass eine KI es produziert hat.
+Der Wert des Projekts soll sich am Ergebnis messen lassen — an Quellenlage, Argumentationsschärfe und Korrigierbarkeit. Die Tatsache, dass KI an Recherche, Strukturierung und Erstellung beteiligt ist, ist Teil des Versuchsaufbaus und im Abschnitt [KI-Workflow im Repository](#ki-workflow-im-repository) genauer beschrieben.
 
 ## Worum es hier geht
 
@@ -150,7 +148,7 @@ Das Projekt ist auf statisches Hosting mit Apache-Fallback ausgelegt. Source Map
 
 Ein zentraler Teil des Experiments ist nicht nur die Seite selbst, sondern der Weg dorthin.
 
-Hier geht es ausdrücklich um ein vollständig KI-getriebenes Setup: Der vorhandene Code und die vorhandenen Inhalte sind bewusst KI-generiert und werden in diesem Repository als Teil des Versuchs weiterentwickelt, überprüft und in eine konsistente Pipeline überführt.
+Code und Inhalte werden mit KI erstellt und in diesem Repository als Teil des Versuchs weiterentwickelt, überprüft und in eine konsistente Pipeline überführt. Der Anspruch ist, dass die Pipeline selbst — Regeln, Skills, Quellen-Workflow — die Qualität trägt, nicht eine redaktionelle Vollprüfung jeder einzelnen Aussage.
 
 Das Repo enthält dafür drei Ebenen:
 
