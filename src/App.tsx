@@ -3,6 +3,7 @@ import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import theme from './theme'
 import AppShell from './components/layout/AppShell'
+import ScrollManager from './components/layout/ScrollManager'
 import Home from './pages/Home'
 import TopicPage from './pages/TopicPage'
 import ArgumentPage from './pages/ArgumentPage'
@@ -18,6 +19,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <BrowserRouter>
+        <ScrollManager />
         <Routes>
           <Route element={<AppShell />}>
             <Route index element={<Home />} />
