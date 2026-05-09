@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, type MouseEvent } from 'react'
 import Button from '@mui/material/Button'
+import IconButton from '@mui/material/IconButton'
 import Snackbar from '@mui/material/Snackbar'
 import IosShareIcon from '@mui/icons-material/IosShare'
 
@@ -7,13 +8,25 @@ interface ShareButtonProps {
   title: string
   text?: string
   url: string
+  variant?: 'button' | 'icon'
+  ariaLabel?: string
 }
 
-export default function ShareButton({ title, text, url }: ShareButtonProps) {
+export default function ShareButton({
+  title,
+  text,
+  url,
+  variant = 'button',
+  ariaLabel = 'Diese Seite teilen',
+}: ShareButtonProps) {
   const [snackOpen, setSnackOpen] = useState(false)
   const [snackMessage, setSnackMessage] = useState('')
 
-  const handleShare = async () => {
+  const handleShare = async (event: MouseEvent<HTMLButtonElement>) => {
+    // Stop propagation so clicks inside larger clickable containers (e.g. an
+    // expandable card header) don't trigger the parent's onClick.
+    event.stopPropagation()
+
     const absoluteUrl = url.startsWith('http')
       ? url
       : `${window.location.origin}${url}`
@@ -42,15 +55,26 @@ export default function ShareButton({ title, text, url }: ShareButtonProps) {
 
   return (
     <>
-      <Button
-        onClick={handleShare}
-        startIcon={<IosShareIcon />}
-        size="small"
-        variant="outlined"
-        aria-label="Diese Seite teilen"
-      >
-        Teilen
-      </Button>
+      {variant === 'icon' ? (
+        <IconButton
+          onClick={handleShare}
+          size="small"
+          aria-label={ariaLabel}
+          sx={{ color: 'text.secondary' }}
+        >
+          <IosShareIcon fontSize="small" />
+        </IconButton>
+      ) : (
+        <Button
+          onClick={handleShare}
+          startIcon={<IosShareIcon />}
+          size="small"
+          variant="outlined"
+          aria-label={ariaLabel}
+        >
+          Teilen
+        </Button>
+      )}
       <Snackbar
         open={snackOpen}
         autoHideDuration={3000}
