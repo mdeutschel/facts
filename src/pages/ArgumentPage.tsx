@@ -13,6 +13,7 @@ import Button from '@mui/material/Button'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
+import ShareButton from '../components/layout/ShareButton'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
 import {
@@ -170,30 +171,35 @@ export default function ArgumentPage() {
       </Breadcrumbs>
 
       <Stack spacing={2.5}>
-        <Box>
-          <Chip
-            icon={<ForumIcon sx={{ fontSize: 16 }} />}
-            label={`Aussage zum Thema ${topic.title}`}
-            size="small"
-            sx={{ mb: 1.5, fontSize: '0.7rem' }}
-          />
-          <Typography variant="h5" component="h1" sx={{ lineHeight: 1.3, mb: 0.5 }}>
-            „{argument.claim}"
-          </Typography>
-          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75, mt: 1 }}>
-            {verdictMeta && (
-              <Chip
-                label={`Bewertung: ${verdictMeta.label}`}
-                size="small"
-                color={verdictMeta.color}
-                sx={{ fontSize: '0.7rem', fontWeight: 600 }}
-              />
-            )}
+        <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 1.5 }}>
+          <Box sx={{ flex: 1, minWidth: 0 }}>
             <Chip
-              label={`Stand: ${formatGermanDate(topic.lastUpdated)}`}
+              icon={<ForumIcon sx={{ fontSize: 16 }} />}
+              label={`Aussage zum Thema ${topic.title}`}
               size="small"
-              sx={{ fontSize: '0.7rem' }}
+              sx={{ mb: 1.5, fontSize: '0.7rem' }}
             />
+            <Typography variant="h5" component="h1" sx={{ lineHeight: 1.3, mb: 0.5 }}>
+              „{argument.claim}"
+            </Typography>
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.75, mt: 1 }}>
+              {verdictMeta && (
+                <Chip
+                  label={`Bewertung: ${verdictMeta.label}`}
+                  size="small"
+                  color={verdictMeta.color}
+                  sx={{ fontSize: '0.7rem', fontWeight: 600 }}
+                />
+              )}
+              <Chip
+                label={`Stand: ${formatGermanDate(topic.lastUpdated)}`}
+                size="small"
+                sx={{ fontSize: '0.7rem' }}
+              />
+            </Box>
+          </Box>
+          <Box sx={{ flexShrink: 0, mt: 0.5 }}>
+            <ShareButton title={seoTitle} text={argument.claim} url={argumentPath} />
           </Box>
         </Box>
 

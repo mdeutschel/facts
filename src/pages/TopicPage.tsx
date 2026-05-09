@@ -11,6 +11,7 @@ import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
 import ArgumentCard from '../components/topic/ArgumentCard'
 import TopicTrustBox from '../components/topic/TopicTrustBox'
+import ShareButton from '../components/layout/ShareButton'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
 import { useTopic } from '../hooks/useTopics'
@@ -85,13 +86,18 @@ export default function TopicPage() {
         path={topicPath}
         jsonLd={articleJsonLd}
       />
-      <Box sx={{ mb: 2 }}>
-        <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
-          {topic.title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {topic.subtitle}
-        </Typography>
+      <Box sx={{ mb: 2, display: 'flex', alignItems: 'flex-start', gap: 1.5 }}>
+        <Box sx={{ flex: 1, minWidth: 0 }}>
+          <Typography variant="h5" component="h1" sx={{ mb: 0.5 }}>
+            {topic.title}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {topic.subtitle}
+          </Typography>
+        </Box>
+        <Box sx={{ flexShrink: 0, mt: 0.5 }}>
+          <ShareButton title={seoTitle} text={seoDescription} url={topicPath} />
+        </Box>
       </Box>
 
       <TopicTrustBox topic={topic} />
