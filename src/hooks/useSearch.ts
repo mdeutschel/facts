@@ -8,8 +8,24 @@ interface SearchEntry {
   type: 'argument' | 'section'
   id: string
   title: string
-  text: string
-  weight: number
+  snippetText: string
+  titleText: string
+  keywordText: string
+  bodyText: string
+}
+
+function normalizeForSearch(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/ä/g, 'ae')
+    .replace(/ö/g, 'oe')
+    .replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
 }
 
 function buildIndex(topics: Topic[]): SearchEntry[] {
@@ -23,8 +39,10 @@ function buildIndex(topics: Topic[]): SearchEntry[] {
         type: 'argument',
         id: arg.id,
         title: arg.claim,
-        text: [arg.claim, arg.response, ...arg.keywords].join(' '),
-        weight: 3,
+        snippetText: [arg.claim, arg.response, ...arg.keywords].join(' '),
+        titleText: normalizeForSearch(arg.claim),
+        keywordText: normalizeForSearch(arg.keywords.join(' ')),
+        bodyText: normalizeForSearch(arg.response),
       })
     }
 
@@ -50,8 +68,10 @@ function buildIndex(topics: Topic[]): SearchEntry[] {
         type: 'section',
         id: section.id,
         title: section.title,
-        text: [section.title, ...texts].join(' '),
-        weight: 1,
+        snippetText: [section.title, ...texts].join(' '),
+        titleText: normalizeForSearch(section.title),
+        keywordText: '',
+        bodyText: normalizeForSearch(texts.join(' ')),
       })
     }
   }
@@ -60,30 +80,30 @@ function buildIndex(topics: Topic[]): SearchEntry[] {
 }
 
 function searchEntries(entries: SearchEntry[], query: string): SearchResult[] {
-  const terms = query.toLowerCase().split(/\s+/).filter(Boolean)
+  const terms = normalizeForSearch(query).split(/\s+/).filter(Boolean)
   if (terms.length === 0) return []
 
   const results: SearchResult[] = []
 
   for (const entry of entries) {
-    const lowerText = entry.text.toLowerCase()
-    let matchCount = 0
+    let score = 0
 
     for (const term of terms) {
-      if (lowerText.includes(term)) matchCount++
+      if (entry.titleText.includes(term)) score += 4
+      if (entry.keywordText.includes(term)) score += 3
+      if (entry.bodyText.includes(term)) score += 1
     }
 
-    if (matchCount === 0) continue
+    if (score === 0) continue
 
-    const score = (matchCount / terms.length) * entry.weight
-
-    const snippetStart = lowerText.indexOf(terms[0])
+    const normalizedSnippet = normalizeForSearch(entry.snippetText)
+    const snippetStart = normalizedSnippet.indexOf(terms[0])
     const start = Math.max(0, snippetStart - 40)
-    const end = Math.min(entry.text.length, snippetStart + terms[0].length + 120)
+    const end = Math.min(entry.snippetText.length, snippetStart + terms[0].length + 120)
     const snippet =
       (start > 0 ? '…' : '') +
-      entry.text.slice(start, end).trim() +
-      (end < entry.text.length ? '…' : '')
+      entry.snippetText.slice(start, end).trim() +
+      (end < entry.snippetText.length ? '…' : '')
 
     results.push({
       topicId: entry.topicId,
@@ -92,7 +112,7 @@ function searchEntries(entries: SearchEntry[], query: string): SearchResult[] {
       id: entry.id,
       title: entry.title,
       snippet,
-      score,
+      score: score / terms.length,
     })
   }
 
