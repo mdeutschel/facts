@@ -100,6 +100,7 @@ export interface Topic extends TopicMeta {
   seoTitle?: string
   seoDescription?: string
   sourceNote: string
+  relatedTopicIds?: string[]
   sections: Section[]
   arguments: Argument[]
   sources: Source[]

@@ -1101,5 +1101,10 @@
       "label": "bpb: Geschichte der Migration nach Deutschland",
       "url": "https://www.bpb.de/themen/migration-integration/laenderprofile/deutschland/"
     }
+  ],
+  "relatedTopicIds": [
+    "buergergeld",
+    "vermoegenssteuer",
+    "bildung"
   ]
 }

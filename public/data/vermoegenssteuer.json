@@ -889,5 +889,10 @@
       "label": "Netzwerk Steuergerechtigkeit",
       "url": "https://www.netzwerk-steuergerechtigkeit.de"
     }
+  ],
+  "relatedTopicIds": [
+    "buergergeld",
+    "migration",
+    "gleichberechtigung"
   ]
 }

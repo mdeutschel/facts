@@ -913,5 +913,10 @@
       "label": "FÖS: Dienstwagenprivileg",
       "url": "https://foes.de/de-de/publikationen/publikation?tx_foespublications_listpublications%5Bpublication%5D=340&tx_foespublications_listpublications%5Baction%5D=show&tx_foespublications_listpublications%5Bcontroller%5D=Publication&cHash=9f763bdd4ac1008645f0f4e8df2f1c40"
     }
+  ],
+  "relatedTopicIds": [
+    "emobilitaet",
+    "klimawandel",
+    "energiewende"
   ]
 }

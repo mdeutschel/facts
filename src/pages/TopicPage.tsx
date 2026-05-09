@@ -11,6 +11,7 @@ import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
 import ArgumentCard from '../components/topic/ArgumentCard'
 import TopicTrustBox from '../components/topic/TopicTrustBox'
+import RelatedTopics from '../components/topic/RelatedTopics'
 import ShareButton from '../components/layout/ShareButton'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
@@ -130,6 +131,9 @@ export default function TopicPage() {
               onNavigateToSection={handleNavigateToSection}
             />
           ))}
+          {topic.relatedTopicIds && topic.relatedTopicIds.length > 0 && (
+            <RelatedTopics ids={topic.relatedTopicIds} currentTopicId={topic.id} />
+          )}
         </Box>
       )}
 
@@ -143,6 +147,9 @@ export default function TopicPage() {
               sources={topic.sources}
             />
           ))}
+          {topic.relatedTopicIds && topic.relatedTopicIds.length > 0 && (
+            <RelatedTopics ids={topic.relatedTopicIds} currentTopicId={topic.id} />
+          )}
           {topic.sources.length > 0 && (
             <Box id="quellen" sx={{ mt: 3, pt: 2, borderTop: 1, borderColor: 'divider' }}>
               <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 600 }}>
