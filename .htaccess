@@ -1,6 +1,11 @@
 RewriteEngine On
 RewriteBase /
 
+# Custom 404 page (used for missing static assets like /data/foo.json).
+# SPA routes still fall through to /index.html below; the React router renders
+# its own NotFound view with `noindex` meta for those.
+ErrorDocument 404 /404.html
+
 # Canonical host redirect to avoid duplicate content
 RewriteCond %{HTTP_HOST} ^www\.fakten-stammtisch\.de$ [NC]
 RewriteRule ^(.*)$ https://fakten-stammtisch.de/$1 [R=301,L]

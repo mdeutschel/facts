@@ -1,7 +1,6 @@
-import { useState } from 'react'
+import { useState, type KeyboardEvent } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import Card from '@mui/material/Card'
-import CardActionArea from '@mui/material/CardActionArea'
 import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
 import Collapse from '@mui/material/Collapse'
@@ -14,6 +13,7 @@ import FactCheckIcon from '@mui/icons-material/FactCheck'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 import type { Argument, Section } from '../../types'
 import { VERDICT_META } from '../seo/verdict'
+import ShareButton from '../layout/ShareButton'
 
 interface ArgumentCardProps {
   argument: Argument
@@ -52,7 +52,25 @@ export default function ArgumentCard({
         transition: 'border-color 0.2s',
       }}
     >
-      <CardActionArea onClick={() => setOpen(!open)} sx={{ textAlign: 'left' }}>
+      <Box
+        onClick={() => setOpen(!open)}
+        onKeyDown={(event: KeyboardEvent<HTMLDivElement>) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault()
+            setOpen(!open)
+          }
+        }}
+        role="button"
+        tabIndex={0}
+        aria-expanded={open}
+        sx={{
+          cursor: 'pointer',
+          textAlign: 'left',
+          '&:hover': { bgcolor: 'action.hover' },
+          '&:focus-visible': { outline: '2px solid', outlineColor: 'secondary.main', outlineOffset: -2 },
+          transition: 'background-color 0.15s',
+        }}
+      >
         <CardContent sx={{ display: 'flex', alignItems: 'flex-start', gap: 1 }}>
           <FormatQuoteIcon
             sx={{ color: 'text.secondary', mt: 0.25, flexShrink: 0, fontSize: 20 }}
@@ -70,16 +88,27 @@ export default function ArgumentCard({
               />
             )}
           </Box>
+          {topicId && (
+            <Box sx={{ flexShrink: 0, mt: -0.5, mr: -0.5 }}>
+              <ShareButton
+                variant="icon"
+                title={argument.claim}
+                url={`/thema/${topicId}/${argument.id}/`}
+                ariaLabel="Diese Aussage teilen"
+              />
+            </Box>
+          )}
           <ExpandMoreIcon
             sx={{
               color: 'text.secondary',
               flexShrink: 0,
+              mt: 0.25,
               transform: open ? 'rotate(180deg)' : 'rotate(0deg)',
               transition: 'transform 0.2s',
             }}
           />
         </CardContent>
-      </CardActionArea>
+      </Box>
       <Collapse in={open}>
         <CardContent sx={{ pt: 0 }}>
           <Typography variant="body2" sx={{ lineHeight: 1.7, whiteSpace: 'pre-line' }}>
