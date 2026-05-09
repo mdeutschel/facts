@@ -6,7 +6,6 @@ import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
 import CircularProgress from '@mui/material/CircularProgress'
 import Alert from '@mui/material/Alert'
-import Chip from '@mui/material/Chip'
 import FactCheckIcon from '@mui/icons-material/FactCheck'
 import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
@@ -15,7 +14,6 @@ import TopicTrustBox from '../components/topic/TopicTrustBox'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
 import { useTopic } from '../hooks/useTopics'
-import { formatGermanDate } from '../theme'
 
 export default function TopicPage() {
   const { topicId } = useParams<{ topicId: string }>()
@@ -94,11 +92,6 @@ export default function TopicPage() {
         <Typography variant="body2" color="text.secondary">
           {topic.subtitle}
         </Typography>
-        <Chip
-          label={`Stand: ${formatGermanDate(topic.lastUpdated)}`}
-          size="small"
-          sx={{ mt: 1, fontSize: '0.7rem' }}
-        />
       </Box>
 
       <TopicTrustBox topic={topic} />
