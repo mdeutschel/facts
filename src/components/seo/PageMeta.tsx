@@ -7,6 +7,7 @@ interface PageMetaProps {
   description: string
   path: string
   jsonLd?: Record<string, unknown>
+  noindex?: boolean
 }
 
 function withTrailingSlash(path: string): string {
@@ -19,7 +20,7 @@ function withTrailingSlash(path: string): string {
   return `${pathname}/${rest.join('')}`
 }
 
-export default function PageMeta({ title, description, path, jsonLd }: PageMetaProps) {
+export default function PageMeta({ title, description, path, jsonLd, noindex = false }: PageMetaProps) {
   const fullTitle = `${title} | ${SITE_NAME}`
   const canonicalUrl = `${BASE_URL}${withTrailingSlash(path)}`
 
@@ -27,6 +28,7 @@ export default function PageMeta({ title, description, path, jsonLd }: PageMetaP
     <>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      {noindex ? <meta name="robots" content="noindex, follow" /> : null}
       <link rel="canonical" href={canonicalUrl} />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content={SITE_NAME} />

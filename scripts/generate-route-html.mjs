@@ -444,6 +444,10 @@ function buildRouteHtml(template, opts) {
     const tag = `<meta property="og:image" content="${DEFAULT_IMAGE}" />`
     updated = updated.replace('</head>', `    ${tag}\n  </head>`)
   }
+  if (opts.noindex) {
+    const tag = '<meta name="robots" content="noindex, follow" />'
+    updated = updated.replace('</head>', `    ${tag}\n  </head>`)
+  }
   return updated
 }
 
@@ -584,6 +588,41 @@ const STATIC_ROUTES = [
   },
 ]
 
+function buildNotFoundNoscript(topics) {
+  const lines = []
+  lines.push('<article>')
+  lines.push(`<nav aria-label="Breadcrumb"><a href="${SITE_URL}/">Themen</a> › Nicht gefunden</nav>`)
+  lines.push('<h1>Seite nicht gefunden</h1>')
+  lines.push(
+    '<p>Diese Seite existiert nicht (oder nicht mehr). Vielleicht hilft eines der folgenden Themen weiter:</p>',
+  )
+  lines.push('<ul>')
+  for (const topic of topics) {
+    const url = `${SITE_URL}/thema/${topic.id}/`
+    lines.push(
+      `<li><a href="${attrEscape(url)}">${htmlEscape(topic.title)}</a> — ${htmlEscape(topic.subtitle)}</li>`,
+    )
+  }
+  lines.push('</ul>')
+  lines.push(`<p><a href="${SITE_URL}/">Zur Themenübersicht</a> · <a href="${SITE_URL}/suche/">Zur Suche</a> · <a href="${SITE_URL}/feedback/">Fehler melden</a></p>`)
+  lines.push('</article>')
+  return lines.join('\n')
+}
+
+async function generateNotFoundPage(template, topics) {
+  const html = buildRouteHtml(template, {
+    title: 'Seite nicht gefunden',
+    description:
+      'Diese Seite existiert nicht (oder nicht mehr). Hier geht es zurück zur Themenübersicht oder zur Suche.',
+    canonical: `${SITE_URL}/`,
+    noscript: buildNotFoundNoscript(topics),
+    noindex: true,
+  })
+  // Apache serves this via `ErrorDocument 404 /404.html`, so it must sit flat
+  // in dist/ — not under dist/404/index.html.
+  await writeFile(path.join(DIST_DIR, '404.html'), html, 'utf8')
+}
+
 async function generateStaticRoutes(template) {
   for (const route of STATIC_ROUTES) {
     // Canonical includes a trailing slash so it matches the URL Apache serves
@@ -699,9 +738,10 @@ async function main() {
   }
 
   const staticCount = await generateStaticRoutes(template)
+  await generateNotFoundPage(template, topics)
 
   console.log(
-    `[generate-route-html] Wrote ${topicCount} topic + ${argumentCount} argument + ${staticCount} static HTML files (and matching llms/*.txt).`,
+    `[generate-route-html] Wrote ${topicCount} topic + ${argumentCount} argument + ${staticCount} static HTML files + 1 404 page (and matching llms/*.txt).`,
   )
 }
 
