@@ -679,5 +679,9 @@
       "label": "BMEL-Ernährungsreport 2024: Vegetarische und vegane Alternativprodukte",
       "url": "https://www.bmel.de/DE/themen/ernaehrung/ernaehrungsreport2024.html"
     }
+  ],
+  "relatedTopicIds": [
+    "klimawandel",
+    "gesundheit"
   ]
 }

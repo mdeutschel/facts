@@ -57,10 +57,30 @@ function buildBreadcrumbList(items) {
   }
 }
 
-function buildTopicJsonLd(topic) {
+function getRelatedTopics(topic, topicsById) {
+  if (!topic.relatedTopicIds || topic.relatedTopicIds.length === 0) return []
+  return topic.relatedTopicIds
+    .map((relatedId) => topicsById.get(relatedId))
+    .filter(Boolean)
+}
+
+function buildRelatedTopicsNoscript(topic, topicsById) {
+  const relatedTopics = getRelatedTopics(topic, topicsById)
+  if (relatedTopics.length === 0) return ""
+
+  const items = relatedTopics
+    .map((relatedTopic) => `<li><a href="${attrEscape(absoluteUrl(`/thema/${relatedTopic.id}/`))}">${htmlEscape(relatedTopic.title)}</a></li>`)
+    .join("")
+
+  return `<section><h2>Verwandte Themen</h2><ul>${items}</ul></section>`
+}
+
+function buildTopicJsonLd(topic, topicsById) {
   const topicUrl = absoluteUrl(`/thema/${topic.id}/`)
   const seoTitle = topic.seoTitle ?? topic.title
   const seoDescription = topic.seoDescription ?? topic.subtitle
+
+  const relatedTopics = getRelatedTopics(topic, topicsById)
 
   const article = {
     '@type': 'Article',
@@ -74,6 +94,7 @@ function buildTopicJsonLd(topic) {
     author: { '@id': PERSON_ID },
     publisher: { '@id': PERSON_ID },
     mainEntityOfPage: topicUrl,
+    relatedLink: relatedTopics.map((relatedTopic) => absoluteUrl(`/thema/${relatedTopic.id}/`)),
   }
 
   const breadcrumb = buildBreadcrumbList([
@@ -216,7 +237,7 @@ function renderSourcesHtml(sources) {
   return `<section><h2>Quellen</h2><ol>${items}</ol></section>`
 }
 
-function buildTopicNoscript(topic) {
+function buildTopicNoscript(topic, topicsById) {
   const headline = topic.seoTitle ?? topic.title
   const summary = topic.seoDescription ?? topic.subtitle
   const lines = []
@@ -245,6 +266,8 @@ function buildTopicNoscript(topic) {
     lines.push('</section>')
   }
 
+  lines.push(buildRelatedTopicsNoscript(topic, topicsById))
+
   lines.push(renderSourcesHtml(topic.sources))
 
   if (topic.sourceNote) {
@@ -256,7 +279,7 @@ function buildTopicNoscript(topic) {
   return lines.join('\n')
 }
 
-function buildArgumentNoscript(topic, argument) {
+function buildArgumentNoscript(topic, argument, topicsById) {
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
   const argumentUrl = absoluteUrl(`/thema/${topic.id}/${argument.id}/`)
   const topicUrl = absoluteUrl(`/thema/${topic.id}/`)
@@ -326,6 +349,8 @@ function buildArgumentNoscript(topic, argument) {
     }
     lines.push('</ul></section>')
   }
+
+  lines.push(buildRelatedTopicsNoscript(topic, topicsById))
 
   lines.push(`<p><a href="${attrEscape(topicUrl)}">Zurück zur Übersicht: ${htmlEscape(topic.title)}</a></p>`)
   lines.push('</article>')
@@ -687,6 +712,7 @@ async function main() {
   const topicsRaw = await readFile(path.join(DATA_DIR, 'topics.json'), 'utf8')
   const topicIndex = JSON.parse(topicsRaw)
   const topics = topicIndex.topics
+  const topicsById = new Map(topics.map((topicMeta) => [topicMeta.id, topicMeta]))
 
   // Enrich the home page with a CollectionPage JSON-LD pointing at all topics.
   const enrichedHome = buildAndWriteHomeJsonLd(template, topics)
@@ -707,8 +733,8 @@ async function main() {
       title: topicTitle,
       description: topicDescription,
       canonical: topicCanonical,
-      jsonLd: buildTopicJsonLd(topic),
-      noscript: buildTopicNoscript(topic),
+      jsonLd: buildTopicJsonLd(topic, topicsById),
+      noscript: buildTopicNoscript(topic, topicsById),
     })
     await writeRouteHtml(`thema/${topic.id}`, topicHtml)
     topicCount += 1
@@ -727,7 +753,7 @@ async function main() {
         description: argDescription,
         canonical: argCanonical,
         jsonLd: buildArgumentJsonLd(topic, argument),
-        noscript: buildArgumentNoscript(topic, argument),
+        noscript: buildArgumentNoscript(topic, argument, topicsById),
       })
       await writeRouteHtml(`thema/${topic.id}/${argument.id}`, argHtml)
       argumentCount += 1

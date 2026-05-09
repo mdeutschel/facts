@@ -14,6 +14,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import ForumIcon from '@mui/icons-material/Forum'
 import FactSection from '../components/topic/FactSection'
 import ShareButton from '../components/layout/ShareButton'
+import RelatedTopics from '../components/topic/RelatedTopics'
 import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID } from '../components/seo/person'
 import {
@@ -291,6 +292,10 @@ export default function ArgumentPage() {
               ))}
             </Stack>
           </Paper>
+        )}
+
+        {topic.relatedTopicIds && topic.relatedTopicIds.length > 0 && (
+          <RelatedTopics ids={topic.relatedTopicIds} currentTopicId={topic.id} />
         )}
 
         <Box>
