@@ -50,31 +50,61 @@ export function useTopicIndex() {
 }
 
 export function useTopic(id: string | undefined) {
-  const [topic, setTopic] = useState<Topic | null>(id && cache[id] ? cache[id] : null)
-  const [loading, setLoading] = useState<boolean>(!!id && !cache[id])
-  const [error, setError] = useState<string | null>(null)
+  // Track which id the current state belongs to so we can re-sync on id change.
+  const [state, setState] = useState<{
+    id: string | undefined
+    topic: Topic | null
+    loading: boolean
+    error: string | null
+  }>(() => ({
+    id,
+    topic: id && cache[id] ? cache[id] : null,
+    loading: !!id && !cache[id],
+    error: null,
+  }))
 
   useEffect(() => {
-    if (!id || cache[id]) {
+    if (!id) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setState({ id, topic: null, loading: false, error: null })
       return
     }
 
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setLoading(true)
+    if (cache[id]) {
+      setState({ id, topic: cache[id], loading: false, error: null })
+      return
+    }
+
+    setState({ id, topic: null, loading: true, error: null })
+
+    let cancelled = false
     fetchWithRetry(`${import.meta.env.BASE_URL}data/${id}.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`Thema "${id}" nicht gefunden`)
         return res.json() as Promise<Topic>
       })
       .then((data) => {
+        if (cancelled) return
         cacheSet(id, data)
-        setTopic(data)
+        setState({ id, topic: data, loading: false, error: null })
       })
-      .catch((err) => setError(err.message))
-      .finally(() => setLoading(false))
+      .catch((err) => {
+        if (cancelled) return
+        setState({ id, topic: null, loading: false, error: err.message })
+      })
+
+    return () => {
+      cancelled = true
+    }
   }, [id])
 
-  return { topic, loading, error }
+  // If id changed but the effect hasn't run yet, prefer cache to avoid showing stale topic.
+  if (state.id !== id) {
+    const cached = id ? cache[id] ?? null : null
+    return { topic: cached, loading: !!id && !cached, error: null }
+  }
+
+  return { topic: state.topic, loading: state.loading, error: state.error }
 }
 
 export function getAllCachedTopics(): Topic[] {
