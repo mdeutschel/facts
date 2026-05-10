@@ -5,12 +5,12 @@
   "seoTitle": "Migration & Asyl: Zahlen, Argumente & Fakten 2026",
   "seoDescription": "Werden wir überrannt? Sind Geflüchtete krimineller? Antworten zu Asylzahlen, Arbeitsmarkt, Kriminalität und Integration — Quellen BAMF, BKA und IAB.",
   "icon": "public",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-05-10",
   "keyStats": [
     "113.236 Asylerstanträge in 2025 (-50,7 % zu 2024)",
     "64 % Beschäftigungsquote bei 2015 zugezogenen Geflüchteten",
     "291.955 Einbürgerungen 2024 (Rekord)",
-    "12 Argumente"
+    "14 Argumente"
   ],
   "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen offizieller Institutionen: BAMF, BKA, Destatis, IAB, Eurostat und Mediendienst Integration (Stand Anfang 2026). Wo Exaktwerte methodisch schwer vergleichbar sind, werden konservative Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
@@ -1013,6 +1013,39 @@
         "fachkraefteeinwanderung"
       ],
       "verdict": "false"
+    },
+    {
+      "id": "remigration-ist-nur-abschiebung",
+      "claim": "Remigration heißt doch nur: kriminelle Ausländer abschieben.",
+      "response": "Straftäter ohne deutschen Pass konsequent abzuschieben ist rechtlich möglich und vielerorts Konsens. Der Begriff ‚Remigration‘ wird politisch aber oft weiter verwendet und umfasst je nach Konzept auch Menschen mit gesichertem Aufenthalt oder sogar Eingebürgerte. Genau da beginnt das Rechtsproblem: Abschiebung setzt eine konkrete Ausreisepflicht voraus, während deutsche Staatsangehörige nicht abgeschoben werden können. Deshalb sollte man immer konkret fragen, wer auf welcher Rechtsgrundlage gehen soll.",
+      "keywords": [
+        "Remigration",
+        "abschieben",
+        "kriminelle Ausländer",
+        "Ausreisepflicht",
+        "Staatsangehörigkeit"
+      ],
+      "relatedSections": [
+        "abschiebungen",
+        "einbuergerungen"
+      ],
+      "verdict": "misleading"
+    },
+    {
+      "id": "asylrecht-abschaffen-land",
+      "claim": "Das Asylrecht muss weg, sonst kommen immer mehr. Ein Bundesland kann das durchsetzen.",
+      "response": "Die Sorge über hohe Zuwanderung ist verständlich, aber das Asylgrundrecht steht im Grundgesetz (Art. 16a) und kann von einer Landesregierung nicht allein abgeschafft werden. Zudem sind die Asylerstanträge zuletzt deutlich gesunken. Länder können Verfahren organisatorisch beeinflussen, aber Verfassungsrecht, Aufenthaltsrecht und Staatsangehörigkeitsrecht werden vor allem auf Bundes- und EU-Ebene geregelt.",
+      "keywords": [
+        "Asylrecht",
+        "Grundgesetz",
+        "Landesregierung",
+        "abschaffen",
+        "Bundeskompetenz"
+      ],
+      "relatedSections": [
+        "asylzahlen"
+      ],
+      "verdict": "false"
     }
   ],
   "sources": [
@@ -1100,11 +1133,22 @@
       "id": "bpb-geschichte-migration",
       "label": "bpb: Geschichte der Migration nach Deutschland",
       "url": "https://www.bpb.de/themen/migration-integration/laenderprofile/deutschland/"
+    },
+    {
+      "id": "gg-artikel-16a",
+      "label": "Grundgesetz Art. 16a (Asylrecht)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_16a.html"
+    },
+    {
+      "id": "bmi-zustaendigkeit-migration",
+      "label": "BMI: Zuständigkeiten in der Migrationspolitik (Bundesebene)",
+      "url": "https://www.bmi.bund.de/DE/themen/migration/migration-node.html"
     }
   ],
   "relatedTopicIds": [
     "buergergeld",
     "vermoegenssteuer",
     "bildung"
-  ]
+  ],
+  "argumentCount": 14
 }

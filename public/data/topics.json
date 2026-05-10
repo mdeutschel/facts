@@ -59,9 +59,9 @@
       "title": "Migration & Asyl",
       "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",
       "icon": "public",
-      "lastUpdated": "2026-03-18",
+      "lastUpdated": "2026-05-10",
       "factCount": 13,
-      "argumentCount": 12
+      "argumentCount": 14
     },
     {
       "id": "teilzeit",
@@ -104,9 +104,9 @@
       "title": "Deutsches Bildungssystem",
       "subtitle": "Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung",
       "icon": "school",
-      "lastUpdated": "2026-03-18",
+      "lastUpdated": "2026-05-10",
       "factCount": 6,
-      "argumentCount": 8
+      "argumentCount": 11
     },
     {
       "id": "gesundheit",
