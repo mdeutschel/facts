@@ -5,7 +5,7 @@
   "seoTitle": "Bildungssystem Deutschland: PISA, Lehrermangel, Argumente",
   "seoDescription": "Lehrer arbeiten halbtags? Schüler werden dümmer? Antworten zu Bildungsausgaben, PISA-Studie und Lehrkräftemangel mit Quellen aus OECD, KMK und Destatis.",
   "icon": "school",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-05-10",
   "keyStats": [
     "198 Mrd. € Bildungsausgaben (2024)",
     "35.000 fehlende Lehrkräfte (2025/26)",
@@ -561,6 +561,52 @@
         "digitalisierung"
       ],
       "verdict": "false"
+    },
+    {
+      "id": "homeschooling-freiheit",
+      "claim": "Homeschooling gibt Eltern endlich Freiheit – Schulpflicht ist überholt.",
+      "response": "Elternrechte sind wichtig. Gleichzeitig soll die Schulpflicht gleiche Bildungschancen, soziale Teilhabe und Kinderschutz sichern – gerade auch für Kinder, die zuhause wenig Unterstützung haben. Deshalb ist Homeschooling in Deutschland nur in engen Ausnahmefällen möglich. Mehr Elternmitwirkung in Schule ist sinnvoll, ein genereller Ersatz der Schulpflicht aber nicht.",
+      "keywords": [
+        "Homeschooling",
+        "Schulpflicht",
+        "Elternrechte",
+        "Freiheit"
+      ],
+      "relatedSections": [
+        "pisa-chancengleichheit",
+        "ganztag"
+      ],
+      "verdict": "mostly-false"
+    },
+    {
+      "id": "gymnasium-25-prozent",
+      "claim": "Nur die besten 25 Prozent sollten aufs Gymnasium.",
+      "response": "Leistungsorientierung ist legitim, aber starre Quoten sind bildungspolitisch riskant. Lernverläufe entwickeln sich unterschiedlich, und frühe harte Selektion verschärft oft die Abhängigkeit vom Elternhaus. Sinnvoller sind klare Standards, gute Diagnostik und durchlässige Bildungswege, damit Spätentwickler nicht dauerhaft aussortiert werden.",
+      "keywords": [
+        "Gymnasium",
+        "25 Prozent",
+        "Selektion",
+        "Leistung"
+      ],
+      "relatedSections": [
+        "pisa-chancengleichheit"
+      ],
+      "verdict": "lacks-context"
+    },
+    {
+      "id": "schule-ideologiefrei",
+      "claim": "Schule muss endlich ideologiefrei werden.",
+      "response": "Schule darf keine Parteipropaganda machen – da stimmt der Kern. ‚Ideologiefrei‘ heißt aber nicht wertfrei: Demokratie, Grundrechte, Gleichberechtigung, Nationalsozialismus, Diskriminierung und Medienkompetenz gehören zum Bildungsauftrag. Entscheidend ist, Themen plural und altersgerecht zu behandeln statt parteipolitisch zu rahmen.",
+      "keywords": [
+        "ideologiefrei",
+        "Schule",
+        "Demokratiebildung",
+        "Politikunterricht"
+      ],
+      "relatedSections": [
+        "pisa-chancengleichheit"
+      ],
+      "verdict": "partially-true"
     }
   ],
   "sources": [
@@ -624,5 +670,6 @@
     "gleichberechtigung",
     "ki-arbeitsmarkt",
     "gendern"
-  ]
+  ],
+  "argumentCount": 11
 }
