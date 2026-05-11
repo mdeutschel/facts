@@ -6,7 +6,12 @@ RewriteBase /
 # its own NotFound view with `noindex` meta for those.
 ErrorDocument 404 /404.html
 
-# Canonical host redirect to avoid duplicate content
+# Canonical URL redirects to avoid duplicate content and mixed protocols
+# 1) Always force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# 2) Force apex host (remove www)
 RewriteCond %{HTTP_HOST} ^www\.fakten-stammtisch\.de$ [NC]
 RewriteRule ^(.*)$ https://fakten-stammtisch.de/$1 [R=301,L]
 
