@@ -603,6 +603,52 @@ const STATIC_ROUTES = [
 </article>`.trim(),
   },
   {
+    path: '/leitfaden',
+    title: 'Gesprächsleitfaden',
+    description:
+      'Wie man im Gespräch auf Stammtischparolen reagiert: sechs forschungsbasierte Werkzeuge aus politischer Bildung und Misinformation-Forschung.',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${SITE_URL}/leitfaden/#webpage`,
+      url: `${SITE_URL}/leitfaden/`,
+      name: 'Gesprächsleitfaden',
+      description:
+        'Wie man im Gespräch auf Stammtischparolen reagiert: sechs forschungsbasierte Werkzeuge aus politischer Bildung und Misinformation-Forschung.',
+      inLanguage: 'de',
+      author: { '@id': PERSON_ID },
+      publisher: { '@id': PERSON_ID },
+    },
+    noscript: `
+<article>
+<nav aria-label="Breadcrumb"><a href="${SITE_URL}/">Themen</a> › Gesprächsleitfaden</nav>
+<h1>Gesprächsleitfaden</h1>
+<p>Was die Forschung zur Argumentation gegen Stammtischparolen empfiehlt. Eine Stammtischparole ist kein Argument, sondern ein fertiges Urteil — wer mit einer Statistik kontert, landet schnell in der Defensive. Die politische Bildung (Klaus-Peter Hufer, bpb) und die Misinformation-Forschung der letzten Jahre liefern dazu sechs Werkzeuge.</p>
+<h2>Sechs Werkzeuge für den Stammtisch</h2>
+<ol>
+<li><strong>Mit Gegenfragen statt Vorträgen antworten</strong> — sokratische Nachfragen zwingen zur Präzisierung, ohne belehrend zu wirken.</li>
+<li><strong>Pauschalisierungen konkret machen</strong> — „die Ausländer", „die Politiker" durch konkrete Beispiele ersetzen.</li>
+<li><strong>Beim Thema bleiben</strong> — Themenwechsel der Gegenseite nicht mitmachen.</li>
+<li><strong>Brücken bauen statt Zeigefinger</strong> — wahren Kern anerkennen, dann einordnen.</li>
+<li><strong>Mit der Wahrheit anfangen, nicht mit der Lüge</strong> — die falsche Aussage nicht wiederholen („Truth Sandwich" nach Lakoff).</li>
+<li><strong>Klare Grenze bei Menschenverachtung</strong> — Position beziehen, nicht in Detaildebatten ziehen lassen.</li>
+</ol>
+<h2>Was die Forschung sagt</h2>
+<p>Eine aktuelle europäische Studie (Bruns et al., Scientific Reports 2024, n=5.228 in DE/GR/IE/PL) zeigt: Faktische Richtigstellung wirkt — sowohl vorbeugend (Prebunking) als auch nachträglich (Debunking). Der oft zitierte „Backfire Effect", wonach Korrekturen den Irrglauben verstärken, tritt selten auf. Korrigieren lohnt sich in den allermeisten Fällen, vor allem mit Blick auf die Zuhörenden am Tisch.</p>
+<h2>Wie diese Seite dabei hilft</h2>
+<p>Die einzelnen Argument-Seiten enthalten neben der faktischen Antwort eine Einordnung, was hinter der Parole steckt, und konkrete Gegenfragen für die Gesprächssituation. Beispiel: <a href="${SITE_URL}/thema/migration/nehmen-jobs-weg/">„Ausländer nehmen uns die guten Jobs weg."</a></p>
+<h2>Weiterführende Quellen</h2>
+<ul>
+<li>Klaus-Peter Hufer: Argumentationstraining gegen Stammtischparolen (Wochenschau Verlag, 10. Auflage 2016) — <a href="https://www.wochenschau-verlag.de/Argumentationstraining-gegen-Stammtischparolen/054" rel="noopener">Verlagsseite</a></li>
+<li>KonterBUNT — Strategieguide der Niedersächsischen Landeszentrale für politische Bildung — <a href="https://konterbunt.de/strategieguide/" rel="noopener">konterbunt.de</a></li>
+<li>Friedrich-Ebert-Stiftung — Interview Klaus-Peter Hufer — <a href="https://www.fes.de/akademie-management-und-politik/veroeffentlichungen/mup-interviews/argumentation-gegen-stammtischparolen" rel="noopener">fes.de</a></li>
+<li>Bundeszentrale für politische Bildung — „Widersprechen! Aber wie?" Handbuch (PDF) — <a href="https://www.bpb.de/system/files/dokument_pdf/Vorschau_Handbuch.pdf" rel="noopener">bpb.de</a></li>
+<li>Bruns et al.: Source and source trust in prebunks and debunks (Scientific Reports/Nature, 2024) — <a href="https://www.nature.com/articles/s41598-024-71599-6" rel="noopener">nature.com</a></li>
+<li>JRC der EU-Kommission: Misinformation and disinformation — both prebunking and debunking work — <a href="https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/misinformation-and-disinformation-both-prebunking-and-debunking-work-fighting-it-2024-10-25_en" rel="noopener">europa.eu</a></li>
+</ul>
+</article>`.trim(),
+  },
+  {
     path: '/impressum',
     title: 'Impressum und Datenschutz',
     description: 'Impressum, Datenschutz und Kontaktinformationen von Fakten-Stammtisch.',

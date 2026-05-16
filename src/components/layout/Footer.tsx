@@ -49,6 +49,15 @@ export default function Footer() {
             </Link>
             <Link
               component={RouterLink}
+              to="/leitfaden/"
+              color="inherit"
+              underline="hover"
+              sx={{ fontWeight: 500 }}
+            >
+              Leitfaden
+            </Link>
+            <Link
+              component={RouterLink}
               to="/impressum/"
               color="inherit"
               underline="hover"
