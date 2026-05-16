@@ -849,7 +849,7 @@
     {
       "id": "nehmen-jobs-weg",
       "claim": "Ausländer nehmen uns die guten Jobs weg.",
-      "response": "Die IAB-Daten zeigen, dass Geflüchtete vor allem in Gesundheits-, Verkehrs-/Logistik- und Fertigungsberufen arbeiten – Bereichen mit hohem Fachkräftemangel. Gleichzeitig sinkt die Zahl der Erwerbsfähigen bis Mitte der 2030er um 3,2 Millionen. Migration füllt also eher Lücken, als dass sie verdrängt.",
+      "response": "Es ist umgekehrt: Geflüchtete arbeiten laut IAB überwiegend dort, wo Personal fehlt – Gesundheit, Verkehr und Logistik, Fertigung. Bis Mitte der 2030er sinkt die Zahl der 20- bis 66-Jährigen laut Destatis selbst bei hoher Nettozuwanderung um rund 3,2 Millionen; ohne Zuwanderung bleiben Stellen unbesetzt, statt dass jemand verdrängt wird. Empirisch zeigt sich keine generelle Verdrängung am Arbeitsmarkt – in Branchen mit Fachkräftemangel ist gar nicht genug Konkurrenz da, um jemanden zu verdrängen.",
       "keywords": [
         "Jobs",
         "Arbeitsplätze",
@@ -861,7 +861,13 @@
         "arbeitsmarkt",
         "demografie"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole unterstellt einen Arbeitsmarkt mit fester Job-Menge: Wer ein Stück bekommt, nimmt es jemand anderem weg. In der Volkswirtschaftslehre heißt das ‚Lump-of-Labor-Trugschluss'. Tatsächlich entstehen mit jeder zusätzlichen Arbeitskraft auch neue Bedarfe – durch Konsum, Wohnen und Dienstleistungen. Außerdem fasst ‚die Ausländer' eine sehr unterschiedliche Gruppe zusammen – von der Pflegekraft über die Ärztin bis zum Handwerker.",
+      "counterQuestions": [
+        "Welchen Job hat dir oder jemandem, den du persönlich kennst, konkret ein Ausländer weggenommen?",
+        "Wer soll in zehn Jahren in der Pflege oder auf dem Bau arbeiten, wenn schon heute Zehntausende Stellen unbesetzt bleiben?",
+        "Du sagst ‚die Ausländer' – meinst du den polnischen Handwerker, die syrische Ärztin oder den italienischen Wirt um die Ecke?"
+      ]
     },
     {
       "id": "krimineller-als-deutsche",

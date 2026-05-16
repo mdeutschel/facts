@@ -316,6 +316,17 @@ function buildArgumentNoscript(topic, argument, topicsById) {
   // Convert linebreaks to <br/> to mirror the React `whiteSpace: pre-line` rendering.
   const responseHtml = htmlEscape(argument.response).replaceAll('\n', '<br/>')
   lines.push(`<p>${responseHtml}</p>`)
+  if (argument.rhetoricalPattern) {
+    lines.push(
+      `<p><strong>Was hinter der Parole steckt:</strong> ${htmlEscape(argument.rhetoricalPattern)}</p>`,
+    )
+  }
+  if (argument.counterQuestions && argument.counterQuestions.length > 0) {
+    const items = argument.counterQuestions
+      .map((q) => `<li>„${htmlEscape(q)}"</li>`)
+      .join('')
+    lines.push(`<p><strong>Am Tisch nützlich – Gegenfragen:</strong></p><ul>${items}</ul>`)
+  }
   if (argument.keywords && argument.keywords.length > 0) {
     lines.push(
       `<p><small>Stichworte: ${argument.keywords.map((kw) => htmlEscape(kw)).join(', ')}</small></p>`,
@@ -371,6 +382,22 @@ function buildArgumentTxt(topic, argument) {
   lines.push('')
   lines.push(argument.response)
   lines.push('')
+
+  if (argument.rhetoricalPattern) {
+    lines.push('## Was hinter der Parole steckt')
+    lines.push('')
+    lines.push(argument.rhetoricalPattern)
+    lines.push('')
+  }
+
+  if (argument.counterQuestions && argument.counterQuestions.length > 0) {
+    lines.push('## Am Tisch nützlich – Gegenfragen')
+    lines.push('')
+    for (const q of argument.counterQuestions) {
+      lines.push(`- „${q}"`)
+    }
+    lines.push('')
+  }
 
   const relatedSections = (argument.relatedSections ?? [])
     .map((sid) => topic.sections.find((s) => s.id === sid))
