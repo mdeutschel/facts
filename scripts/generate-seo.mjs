@@ -114,7 +114,7 @@ export function flattenContentBlock(block) {
 function buildSitemap(topics, topicDataById) {
   // Trailing slashes match Apache's served URLs (DirectorySlash) and avoid
   // 301 redirects that would otherwise show up as "Page with redirect" in GSC.
-  const staticPaths = ['/', '/ueber/', '/methodik/', '/impressum/', '/feedback/', '/suche/']
+  const staticPaths = ['/', '/ueber/', '/methodik/', '/leitfaden/', '/impressum/', '/feedback/', '/suche/']
   const today = new Date().toISOString().slice(0, 10)
 
   const entries = []
@@ -183,6 +183,7 @@ function buildLlmsTxt(topics) {
     '',
     `- [Über das Projekt](${absoluteUrl('/ueber/')})`,
     `- [Methodik](${absoluteUrl('/methodik/')})`,
+    `- [Gesprächsleitfaden](${absoluteUrl('/leitfaden/')})`,
     `- [Impressum & Datenschutz](${absoluteUrl('/impressum/')})`,
     `- [Sitemap](${absoluteUrl('/sitemap.xml')})`,
     '',
@@ -303,7 +304,7 @@ function buildFallbackHtml(topics, topicDataById) {
   lines.push(`      <h2>${htmlEscape(homeTexts.aboutTitle)}</h2>`)
   lines.push(`      <p>${htmlEscape(homeTexts.aboutLead)} <a href="${absoluteUrl('/ueber/')}">Über-Seite</a> beschrieben.</p>`)
   lines.push(`      <h2>${htmlEscape(homeTexts.methodTitle)}</h2>`)
-  lines.push(`      <p>${htmlEscape(homeTexts.methodLead)} <a href="${absoluteUrl('/methodik/')}">Methodik-Seite</a>.</p>`)
+  lines.push(`      <p>${htmlEscape(homeTexts.methodLead)} <a href="${absoluteUrl('/methodik/')}">Methodik-Seite</a>. Praktische Tipps für die Gesprächssituation: <a href="${absoluteUrl('/leitfaden/')}">Gesprächsleitfaden</a>.</p>`)
   lines.push(`      <h2>${htmlEscape(homeTexts.transparencyTitle)}</h2>`)
   lines.push(`      <p>${htmlEscape(homeTexts.transparencyText)}</p>`)
   lines.push('      <h2>Quellen &amp; Transparenz</h2>')

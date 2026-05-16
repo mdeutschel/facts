@@ -12,6 +12,7 @@ import Impressum from './pages/Impressum'
 import Feedback from './pages/Feedback'
 import Ueber from './pages/Ueber'
 import Methodik from './pages/Methodik'
+import Leitfaden from './pages/Leitfaden'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="feedback" element={<Feedback />} />
             <Route path="ueber" element={<Ueber />} />
             <Route path="methodik" element={<Methodik />} />
+            <Route path="leitfaden" element={<Leitfaden />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
