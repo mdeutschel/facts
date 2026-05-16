@@ -15,7 +15,7 @@ export default function Methodik() {
     url: 'https://fakten-stammtisch.de/methodik/',
     name: 'Methodik',
     description:
-      'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, sieben Qualitätsdimensionen und transparenter Aktualität.',
+      'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität.',
     inLanguage: 'de',
     author: { '@id': PERSON_ID },
     publisher: { '@id': PERSON_ID },
@@ -25,7 +25,7 @@ export default function Methodik() {
     <Stack spacing={2.5}>
       <PageMeta
         title="Methodik"
-        description="Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, sieben Qualitätsdimensionen und transparenter Aktualität."
+        description="Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität."
         path="/methodik"
         jsonLd={jsonLd}
       />
@@ -140,7 +140,7 @@ export default function Methodik() {
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1.5}>
           <Typography variant="h6" component="h2">
-            Inhaltliche Prüfung — sieben Dimensionen
+            Inhaltliche Prüfung — acht Dimensionen
           </Typography>
           <Typography variant="body2">
             Datenrichtigkeit allein macht einen Inhalt noch nicht redlich.
@@ -186,6 +186,15 @@ export default function Methodik() {
               <strong>Argument-Claim-Passung</strong> — Die Antwort muss
               die Behauptung tatsächlich adressieren — nicht ein
               verwandtes, aber anderes Thema.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Gesprächstauglichkeit</strong> — Antworten beginnen
+              mit der korrekten Aussage, nicht mit der Wiederholung der
+              Parole (Truth Sandwich nach Lakoff). Wo sinnvoll, ergänzen{' '}
+              <Link component={RouterLink} to="/leitfaden/" underline="hover">
+                eine Musterbenennung und konkrete Gegenfragen
+              </Link>{' '}
+              den Faktenkern für die tatsächliche Gesprächssituation.
             </Typography>
           </Box>
           <Typography variant="body2">

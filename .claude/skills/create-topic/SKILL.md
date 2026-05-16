@@ -117,6 +117,8 @@ Gesammelte Daten der Sektionsstruktur zuordnen:
 - [ ] Stärkstes Gegenargument pro Argument adressiert (Dim 5)
 - [ ] Keine absolutistische Sprache (Dim 6)
 - [ ] Antwort beantwortet direkt die Behauptung (Dim 7)
+- [ ] Response startet mit der korrekten Aussage (Truth Sandwich, Dim 8)
+- [ ] rhetoricalPattern und counterQuestions ergänzt bei Argumenten mit Verdict (Dim 8)
 
 **Strukturregeln:**
 - `id`-Felder: kebab-case
