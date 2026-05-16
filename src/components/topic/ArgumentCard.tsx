@@ -115,6 +115,49 @@ export default function ArgumentCard({
             {argument.response}
           </Typography>
 
+          {argument.rhetoricalPattern && (
+            <Box sx={{ mt: 1.5, pt: 1.5, borderTop: 1, borderColor: 'divider' }}>
+              <Typography
+                variant="caption"
+                color="text.secondary"
+                sx={{ fontWeight: 600, display: 'block', mb: 0.5, letterSpacing: 0.4 }}
+              >
+                Was hinter der Parole steckt
+              </Typography>
+              <Typography variant="body2" sx={{ lineHeight: 1.6, color: 'text.secondary' }}>
+                {argument.rhetoricalPattern}
+              </Typography>
+            </Box>
+          )}
+
+          {argument.counterQuestions && argument.counterQuestions.length > 0 && (
+            <Box
+              sx={{
+                mt: 1.5,
+                p: 1.5,
+                borderLeft: 3,
+                borderColor: 'secondary.main',
+                bgcolor: 'action.hover',
+                borderRadius: 1,
+              }}
+            >
+              <Typography
+                variant="caption"
+                color="secondary.main"
+                sx={{ fontWeight: 600, display: 'block', mb: 0.75, letterSpacing: 0.4 }}
+              >
+                Am Tisch nützlich · Gegenfragen
+              </Typography>
+              <Box component="ul" sx={{ pl: 2.25, m: 0, '& li': { mb: 0.5, lineHeight: 1.55 } }}>
+                {argument.counterQuestions.map((q) => (
+                  <Typography component="li" variant="body2" key={q} sx={{ fontSize: '0.85rem' }}>
+                    „{q}"
+                  </Typography>
+                ))}
+              </Box>
+            </Box>
+          )}
+
           {relatedSectionTitles.length > 0 && (
             <Box sx={{ mt: 1.5, pt: 1, borderTop: 1, borderColor: 'divider' }}>
               <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 600, display: 'block', mb: 0.5 }}>

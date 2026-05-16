@@ -212,6 +212,56 @@ export default function ArgumentPage() {
             {argument.response}
           </Typography>
 
+          {argument.rhetoricalPattern && (
+            <Box
+              sx={{
+                mt: 2.5,
+                pt: 2,
+                borderTop: 1,
+                borderColor: 'divider',
+              }}
+            >
+              <Typography
+                variant="overline"
+                color="text.secondary"
+                sx={{ fontWeight: 600, letterSpacing: 0.6, display: 'block', mb: 0.75 }}
+              >
+                Was hinter der Parole steckt
+              </Typography>
+              <Typography variant="body2" sx={{ lineHeight: 1.7, color: 'text.secondary' }}>
+                {argument.rhetoricalPattern}
+              </Typography>
+            </Box>
+          )}
+
+          {argument.counterQuestions && argument.counterQuestions.length > 0 && (
+            <Box
+              sx={{
+                mt: 2,
+                p: 2,
+                borderLeft: 3,
+                borderColor: 'secondary.main',
+                bgcolor: 'action.hover',
+                borderRadius: 1,
+              }}
+            >
+              <Typography
+                variant="overline"
+                color="secondary.main"
+                sx={{ fontWeight: 600, letterSpacing: 0.6, display: 'block', mb: 1 }}
+              >
+                Am Tisch nützlich · Gegenfragen
+              </Typography>
+              <Box component="ul" sx={{ pl: 2.5, m: 0, '& li': { mb: 0.75, lineHeight: 1.6 } }}>
+                {argument.counterQuestions.map((q) => (
+                  <Typography component="li" variant="body2" key={q}>
+                    „{q}"
+                  </Typography>
+                ))}
+              </Box>
+            </Box>
+          )}
+
           {argument.keywords.length > 0 && (
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5, mt: 2.5, pt: 2, borderTop: 1, borderColor: 'divider' }}>
               {argument.keywords.map((kw) => (

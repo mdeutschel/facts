@@ -88,6 +88,8 @@ export interface Argument {
   keywords: string[]
   relatedSections?: string[]
   verdict?: ArgumentVerdict
+  rhetoricalPattern?: string
+  counterQuestions?: string[]
 }
 
 export interface Source {
