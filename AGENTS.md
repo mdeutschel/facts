@@ -144,7 +144,7 @@ Topic-JSON-Quellen MÜSSEN online verifizierbar sein. `/verify-sources {topicId}
 
 Topic-Inhalte müssen argumentativ stichhaltig, ausgewogen und schwer angreifbar sein. `/review-content {topicId}` verwenden, um Framing, Nuancierung und intellektuelle Redlichkeit zu prüfen. Beim Erstellen oder Erweitern von Topic-Inhalten die Autor-Modus-Leitplanken aus `.claude/skills/review-content/SKILL.md` anwenden.
 
-Zentrale Qualitätsdimensionen: Nuance & Teilwahrheiten, Claim-Source-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung.
+Zentrale Qualitätsdimensionen: Nuance & Teilwahrheiten, Claim-Source-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung, Gesprächstauglichkeit (Truth-Sandwich-Einstieg, `rhetoricalPattern`, `counterQuestions` — siehe Leitfaden unter `/leitfaden/`).
 
 ## Thema bearbeiten
 

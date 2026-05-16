@@ -16,7 +16,7 @@ Ergänzt `verify-sources` (das die Datenlage prüft). Dieser Skill prüft, ob **
 
 ## Qualitätsdimensionen
 
-Jeder Inhaltsblock und jedes Argument MUSS diese 7 Prüfungen bestehen:
+Jeder Inhaltsblock und jedes Argument MUSS diese 8 Prüfungen bestehen:
 
 ### 1. Nuance & Teilwahrheiten
 
@@ -78,10 +78,42 @@ Das `response` muss den Claim direkt adressieren — nicht ein verwandtes, aber 
 - `relatedSections` muss Abschnitte enthalten, die das `response` wirklich untermauern
 - `keywords` muss zu dem passen, was jemand bei diesem Claim sagen würde
 
+### 8. Gesprächstauglichkeit
+
+Ein Argument soll nicht nur als Faktencheck-Eintrag, sondern auch in der konkreten Gesprächssituation taugen. Die optionalen Felder `rhetoricalPattern` und `counterQuestions` adressieren das. Grundlage: politische Bildung (Hufer, bpb, KonterBUNT) und Misinformation-Forschung (Bruns et al., Scientific Reports 2024) — zusammengefasst im [Gesprächsleitfaden](https://fakten-stammtisch.de/leitfaden/).
+
+**Wann beide Felder pflegen:**
+- Bei jedem Argument mit Verdict (`false`, `mostly-false`, `misleading`, `lacks-context`, `outdated`, `partially-true`, `mostly-true`) — also überall, wo eine Behauptung faktisch eingeordnet werden kann.
+- **Ausnahme:** Argumente ohne Verdict (normative Wertedebatten, politische Forderungen) brauchen keine Konter-Werkzeuge — dort gibt es keine Falschaussage zum Korrigieren.
+
+**Anforderungen an `response`:**
+- **Truth-Sandwich-Einstieg**: Mit der korrekten Aussage beginnen, nicht mit der Wiederholung der Parole. Statt „Es stimmt nicht, dass …" lieber „Tatsächlich ist es so, dass …" oder „Die Zahlen zeigen das Gegenteil: …".
+- Frame der Parole nicht unnötig wiederholen (Lakoff).
+
+**Anforderungen an `rhetoricalPattern` (optional, 2–4 Sätze):**
+- Benennt das **Denkmuster** hinter der Parole (z. B. Pauschalisierung, Lump-of-Labor-Trugschluss, Anekdotenargument, falsche Dichotomie, Korrelation-statt-Kausalität).
+- Erklärt, **warum** das Muster im konkreten Fall in die Irre führt — nicht nur „die Parole ist falsch, weil X".
+- Wiederholt die Parole sprachlich **nicht** — bezeichnet sie höchstens distanziert („die Parole unterstellt …", „die Aussage tut so, als ob …").
+- Weglassen, wenn kein erkennbares Muster vorliegt (z. B. bei reinen Zahlen-Streits) — leeres Feld ist besser als künstliches Muster.
+
+**Anforderungen an `counterQuestions` (optional, 2–3 Fragen):**
+- **Sokratisch**: Zwingen das Gegenüber zur Präzisierung statt zu belehren.
+- **Konkret**: Lösen Pauschalbegriffe auf („Welchen Job konkret?", „Wen meinst du konkret?").
+- **Nicht polemisch, nicht rhetorisch fangend**: Müssen auch ehrlich beantwortbar sein, keine versteckten Anklagen.
+- **Du-Form**, direkt ansprechbar in einem Gespräch.
+- Maximal 3 Fragen — mehr wirkt wie ein Verhör.
+- Jede Frage adressiert einen anderen Aspekt der Parole (z. B. Konkretisierung, Perspektivwechsel, Folgefrage).
+
+**Antipattern für Gegenfragen:**
+- Suggestivfragen mit eingebauter Wertung („Findest du das nicht selber lächerlich?")
+- Belehrungen als Frage verkleidet („Weißt du eigentlich, dass …?")
+- Mehr als 3 Fragen (Verhör-Effekt)
+- Fragen, die das Gegenüber demütigen oder ins Lächerliche ziehen
+
 ## Ablauf Review (Review-Modus)
 
 1. **Laden** — `public/data/$ARGUMENTS.json` lesen, alle `arguments` und `sections` extrahieren
-2. **Analysieren** — Pro Argument alle 7 Dimensionen bewerten. Pro Abschnitt Dimensionen 1–4 und 6 prüfen.
+2. **Analysieren** — Pro Argument alle 8 Dimensionen bewerten. Pro Abschnitt Dimensionen 1–4 und 6 prüfen.
 3. **Einordnen** — Jedes Befund bewerten:
    - ✓ **OK**: Prüfung bestanden
    - ⚠ **VERBESSERBAR**: Nicht falsch, aber erzeugt Angriffsfläche — Verbesserung vorschlagen
@@ -103,6 +135,9 @@ Beim Schreiben neuer Inhalte vor dem Festhalten im JSON anwenden:
 - [ ] Stärkstes Gegenargument angesprochen (Dim 5)
 - [ ] Keine absolutistische Sprache (Dim 6)
 - [ ] Response beantwortet den Claim direkt (Dim 7)
+- [ ] Response startet mit der korrekten Aussage (Truth Sandwich, Dim 8)
+- [ ] rhetoricalPattern benennt das Denkmuster, ohne den Frame zu wiederholen (Dim 8, sofern Muster vorhanden)
+- [ ] counterQuestions: 2–3 sokratische, konkrete, nicht polemische Fragen (Dim 8, bei Argumenten mit Verdict)
 ```
 
 ### Checkliste neuer Abschnitt

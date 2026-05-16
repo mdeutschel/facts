@@ -64,9 +64,10 @@ export default function Ueber() {
             Jedes Topic durchläuft denselben Workflow: Recherche,
             strukturierte Aufbereitung, automatisierte Quellenverifizierung
             gegen die tatsächlich erreichbaren Online-Belege, inhaltliche
-            Prüfung gegen sieben Qualitätsdimensionen (Nuance, Quellen-Fit,
+            Prüfung gegen acht Qualitätsdimensionen (Nuance, Quellen-Fit,
             Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente,
-            sprachliche Präzision, Argument-Claim-Passung).
+            sprachliche Präzision, Argument-Claim-Passung,
+            Gesprächstauglichkeit).
           </Typography>
           <Typography variant="body2">
             Recherche, Strukturierung und Erstellung der Texte erfolgen mit

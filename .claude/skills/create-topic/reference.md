@@ -63,19 +63,33 @@ Blocktypen danach wählen, was die Daten aussagen:
 {
   "id": "claim-kebab-id",
   "claim": "Typischer Stammtisch-Satz mit Ausrufezeichen!",
-  "response": "Nuancierte Antwort die: (1) den Kern der Behauptung anerkennt, (2) mit konkreten Daten kontert, (3) das stärkste Gegenargument adressiert, (4) vorsichtige Sprache verwendet.",
+  "response": "Truth-Sandwich-Einstieg mit der korrekten Aussage, nicht mit der Wiederholung der Parole. Danach konkrete Daten, stärkstes Gegenargument, qualifizierte Kernaussage.",
   "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
-  "relatedSections": ["section-id-1", "section-id-2"]
+  "relatedSections": ["section-id-1", "section-id-2"],
+  "verdict": "false",
+  "rhetoricalPattern": "Benennt das Denkmuster hinter der Parole (z. B. Pauschalisierung, Lump-of-Labor-Trugschluss, falsche Dichotomie) und erklärt in 2–4 Sätzen, warum es in die Irre führt. Wiederholt den Frame der Parole nicht.",
+  "counterQuestions": [
+    "Konkretisierungsfrage (löst Pauschalbegriffe auf)",
+    "Perspektivwechsel- oder Folgefrage",
+    "Optional: dritte Frage zu einem anderen Aspekt"
+  ]
 }
 ```
 
-**Aufbau einer Argumentantwort:**
-1. **Anerkennen** des Kerns der Wahrheit (ein Satz)
-2. **Darlegen** der zentralen Daten (1–2 Sätze mit Zahlen)
-3. **Eingehen auf** das stärkste Gegenargument (ein Satz)
-4. **Abschließen** mit einer qualifizierten Kernaussage (ein Satz)
+**Aufbau einer Argumentantwort (`response`):**
+1. **Truth-Sandwich-Einstieg**: Mit der korrekten Aussage beginnen, nicht mit der Wiederholung der Parole („Tatsächlich …", „Es ist umgekehrt …", „Die Zahlen zeigen …").
+2. **Anerkennen** des Kerns der Wahrheit, falls vorhanden (ein Satz).
+3. **Darlegen** der zentralen Daten (1–2 Sätze mit Zahlen).
+4. **Eingehen auf** das stärkste Gegenargument (ein Satz).
+5. **Abschließen** mit einer qualifizierten Kernaussage (ein Satz).
 
-Ziellänge: 3–5 Sätze, 40–80 Wörter.
+Ziellänge `response`: 3–5 Sätze, 40–100 Wörter.
+
+**Konter-Werkzeuge (`rhetoricalPattern`, `counterQuestions`):**
+- Bei Argumenten **mit** `verdict` mitliefern (`false`, `mostly-false`, `misleading`, `outdated`, `lacks-context`, `partially-true`, `mostly-true`).
+- Bei Argumenten **ohne** Verdict (normative Wertedebatten) weglassen — dort gibt es keine Falschaussage zum Korrigieren.
+- Wenn kein erkennbares Denkmuster vorliegt: `rhetoricalPattern` weglassen statt künstlich konstruieren.
+- Konkrete Gestaltungsregeln und Antipattern: siehe `.claude/skills/review-content/reference.md`, Dim 8.
 
 ## Vorlage für Quelleneinträge
 

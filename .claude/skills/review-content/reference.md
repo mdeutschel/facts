@@ -10,7 +10,8 @@ Konkrete Beispiele aus echtem Feedback mit Antipattern und verbesserten Versione
 4. [Dimension 5: Ignorierte Gegenargumente](#dim-5-ignorierte-gegenargumente)
 5. [Dimension 6: Absolutistische Sprache](#dim-6-absolutistische-sprache)
 6. [Dimension 7: Antwort verfehlt den Claim](#dim-7-antwort-verfehlt-den-claim)
-7. [Review-Report-Vorlage](#review-report-vorlage)
+7. [Dimension 8: Gesprächstauglichkeit](#dim-8-gesprächstauglichkeit)
+8. [Review-Report-Vorlage](#review-report-vorlage)
 
 ---
 
@@ -181,6 +182,86 @@ Konkrete Beispiele aus echtem Feedback mit Antipattern und verbesserten Versione
 
 ---
 
+## Dim 8: Gesprächstauglichkeit
+
+### Antipattern A: Response wiederholt zuerst die Parole
+
+```json
+{
+  "claim": "Ausländer nehmen uns die guten Jobs weg.",
+  "response": "Es stimmt nicht, dass Ausländer uns die Jobs wegnehmen. Geflüchtete arbeiten laut IAB vor allem in Mangelbereichen …"
+}
+```
+
+**Problem**: Der erste Halbsatz wiederholt den Frame der Parole („Ausländer nehmen Jobs weg"). Nach Lakoff verstärkt das den Frame im Kopf der Zuhörenden, auch wenn formal negiert wird.
+
+### Korrigierte Version (Truth-Sandwich-Einstieg)
+
+```json
+{
+  "claim": "Ausländer nehmen uns die guten Jobs weg.",
+  "response": "Es ist umgekehrt: Geflüchtete arbeiten laut IAB überwiegend dort, wo Personal fehlt — Gesundheit, Verkehr und Logistik, Fertigung. Bis Mitte der 2030er sinkt die Zahl der 20- bis 66-Jährigen laut Destatis selbst bei hoher Nettozuwanderung um rund 3,2 Millionen; ohne Zuwanderung bleiben Stellen unbesetzt, statt dass jemand verdrängt wird."
+}
+```
+
+**Warum besser**: Beginnt mit der korrekten Aussage. Der Frame der Parole wird nicht wiederholt.
+
+### Antipattern B: Polemische Gegenfragen
+
+```json
+{
+  "counterQuestions": [
+    "Glaubst du das wirklich selbst?",
+    "Liest du eigentlich auch mal eine Statistik?",
+    "Wann hast du zuletzt nachgedacht?"
+  ]
+}
+```
+
+**Problem**: Suggestivfragen, Belehrungen als Frage verkleidet, demütigend. Wirkt wie Angriff statt Gespräch, treibt das Gegenüber in die Defensive — genau das Gegenteil dessen, was die Forschung empfiehlt.
+
+### Korrigierte Version (sokratisch, konkret, neutral)
+
+```json
+{
+  "counterQuestions": [
+    "Welchen Job hat dir oder jemandem, den du persönlich kennst, konkret ein Ausländer weggenommen?",
+    "Wer soll in zehn Jahren in der Pflege oder auf dem Bau arbeiten, wenn schon heute Zehntausende Stellen unbesetzt bleiben?",
+    "Du sagst ‚die Ausländer' — meinst du den polnischen Handwerker, die syrische Ärztin oder den italienischen Wirt um die Ecke?"
+  ]
+}
+```
+
+**Warum besser**: Jede Frage adressiert einen anderen Aspekt (Konkretisierung, Perspektivwechsel, Pauschalisierung auflösen). Alle sind ehrlich beantwortbar, keine Demütigung, kein Sarkasmus.
+
+### Antipattern C: rhetoricalPattern wiederholt nur die Parole
+
+```json
+{
+  "rhetoricalPattern": "Die Aussage, Ausländer würden uns die Jobs wegnehmen, ist falsch, weil sie pauschal ist und nicht zutrifft."
+}
+```
+
+**Problem**: Wiederholt die Parole sprachlich und liefert keine eigenständige Mustererklärung. Verstärkt den Frame, ohne das Denkmuster zu benennen.
+
+### Korrigierte Version
+
+```json
+{
+  "rhetoricalPattern": "Die Parole unterstellt einen Arbeitsmarkt mit fester Job-Menge: Wer ein Stück bekommt, nimmt es jemand anderem weg. In der Volkswirtschaftslehre heißt das ‚Lump-of-Labor-Trugschluss'. Tatsächlich entstehen mit jeder zusätzlichen Arbeitskraft auch neue Bedarfe — durch Konsum, Wohnen und Dienstleistungen."
+}
+```
+
+**Warum besser**: Benennt das Denkmuster (Lump-of-Labor-Trugschluss) mit Fachterm, erklärt warum es in die Irre führt, und vermeidet die Phrase „Ausländer nehmen Jobs weg" im Wiederholen.
+
+### Wann `rhetoricalPattern` und `counterQuestions` weglassen
+
+- Bei Argumenten **ohne** Verdict (normative Wertedebatten, politische Forderungen) — dort gibt es keine Falschaussage zum Korrigieren.
+- Wenn kein erkennbares Denkmuster vorliegt (z. B. reine Zahlen-Streitigkeiten ohne rhetorische Figur): `rhetoricalPattern` weglassen, leeres Feld nicht erzwingen.
+- Wenn keine konkrete, nicht-polemische Gegenfrage formulierbar ist: `counterQuestions` weglassen statt schwache Fragen einbauen.
+
+---
+
 ## Review-Report-Vorlage
 
 Bei der Darstellung der Befunde im Review-Modus diese Struktur verwenden:
@@ -211,8 +292,3 @@ Bei der Darstellung der Befunde im Review-Modus diese Struktur verwenden:
 
 Sollen die Änderungen angewendet werden?
 ```
-</think>
-Schließendes Code-Fence korrigieren — ein doppeltes ``` wurde versehentlich eingefügt.
-
-<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>
-Read
