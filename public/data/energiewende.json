@@ -1178,6 +1178,13 @@
       "relatedSections": [
         "akw-neubau",
         "stromgestehungskosten"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Pro-AKW-Position bleibt rhetorisch („wir bauen einfach\"), lässt aber Zeit- und Kostenrahmen weg. Westliche Neubauten der letzten 20 Jahre (Hinkley Point C, Olkiluoto, Flamanville) sind alle deutlich über Budget und Zeit. In Deutschland fehlen zusätzlich Lieferketten, Fachkräfte und Genehmigungsroutinen. Das Schlagwort ersetzt einen umsetzbaren Plan.",
+      "counterQuestions": [
+        "Welches der jüngsten westlichen AKW-Projekte (Hinkley Point C, Olkiluoto, Flamanville) ist im Zeit- und Kostenrahmen geblieben?",
+        "Bis wann erwartest du, dass ein heute beschlossenes deutsches AKW Strom liefert — und wer trägt die Kosten in der Übergangszeit?",
+        "Wer baut die Reaktoren in Deutschland, wenn weder Lieferketten noch ausgebildete Fachkräfte vorhanden sind?"
       ]
     },
     {
@@ -1195,6 +1202,13 @@
       "relatedSections": [
         "energiebedarf",
         "strombedarf-2045"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Pro-AKW-Position rahmt Atomkraft als Abkürzung der Energiewende. Tatsächlich werden Netze, Speicher und Sektorkopplung in jedem realistischen Szenario gebraucht — der Strombedarf bis 2045 verdoppelt sich durch Elektrifizierung von Wärme, Verkehr und Industrie. AKW erzeugen Strom, aber sie ersetzen keine dieser Infrastruktur-Aufgaben.",
+      "counterQuestions": [
+        "Wenn sich der Strombedarf bis 2045 ungefähr verdoppelt — wie viele AKW bräuchte man, um den EE-Ausbau wirklich abzulösen?",
+        "Welcher Teil von Netzen, Speichern und Sektorkopplung würde durch AKW überflüssig?",
+        "Bei einer Bauzeit von 12-15 Jahren ab Beschluss: Was machst du in der Zwischenzeit gegen die wachsende Stromlücke?"
       ]
     },
     {
@@ -1213,6 +1227,13 @@
       "relatedSections": [
         "gaskrise-2022",
         "uranabhaengigkeit"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Pro-AKW-Position verwechselt Energieträger: Die Krise 2022 war primär Gas (Heizung, Industrieprozesse, Stromerzeugung), nicht Strom. AKW-Strom hätte Heizungen und Industrieöfen nicht ersetzen können. Zudem bleibt Atomkraft auf internationale Lieferketten angewiesen — Uran kommt überwiegend aus Kasachstan, Anreicherungskapazitäten teils aus Russland.",
+      "counterQuestions": [
+        "Welche Anwendung (Heizung, Industrieprozess, Verkehr), die 2022 fehlendes russisches Gas getroffen hat, hätte AKW-Strom direkt ersetzt?",
+        "Frankreich hatte 2022 trotz vieler AKW eine Strompreis-Spitze, weil mehr als die Hälfte des Parks außer Betrieb war — was sagt das zur Versorgungssicherheit über AKW?",
+        "Wenn Uran und Anreicherung überwiegend aus Kasachstan und Russland kommen — wie ‚unabhängig‘ ist AKW-Strom strukturell?"
       ]
     },
     {
@@ -1230,6 +1251,13 @@
       "relatedSections": [
         "speicherausbau",
         "dunkelflauten"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Eine häufige Gegenrede ist „die Technik gibt es ja gar nicht\" — gemeint sind meist Speicher oder Netze. Das verwechselt aber Technologie und Verfahren: 400 GW beantragte Speicherleistung zeigen Marktinteresse, der Engpass liegt bei Genehmigungen, Netzanschlüssen und regulatorischer Unsicherheit — nicht bei der Technik.",
+      "counterQuestions": [
+        "Wenn 400 GW Speicherleistung beantragt sind und die Bundesnetzagentur mit Netzanschluss-Anfragen geflutet ist — was bremst da: die Technologie oder die Verfahren?",
+        "Welche Speichertechnologie (Batterie, Pumpspeicher, Wasserstoff) hältst du konkret für nicht ausgereift?",
+        "Wenn die Bundesregierung Genehmigungs- und Anschlussverfahren beschleunigt — wie schnell könnte sich das Bild verändern?"
       ]
     },
     {
@@ -1247,7 +1275,13 @@
         "smr",
         "stromgestehungskosten"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Hoffnungs-Argument mit Verfügbarkeits-Lücke: SMRs sind bisher Technologieversprechen — kein westliches Land hat kommerziell etablierten Betrieb. Das fortgeschrittene Darlington-Projekt in Kanada wird frühestens Ende der 2020er ans Netz gehen. Auch im SMR-Szenario braucht es weiter Netze, Speicher und Erneuerbare.",
+      "counterQuestions": [
+        "Welches kommerzielle SMR-Projekt im Westen liefert heute Strom — kannst du eines benennen?",
+        "Wenn der erste westliche SMR frühestens 2029-2030 liefert: Was machst du in Deutschland bis dahin?",
+        "Selbst bei einem SMR-Erfolg in Kanada: Wer baut die hunderten von SMR, die Deutschland für nennenswerte Versorgungsanteile bräuchte, in welcher Zeit?"
+      ]
     },
     {
       "id": "atommuell-erledigt",
@@ -1263,7 +1297,13 @@
       "relatedSections": [
         "atommuell"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Wunschdenken / Ausblendung: ‚Abgeschaltet‘ wird mit ‚erledigt‘ verwechselt. Tatsächlich dauert die Endlagersuche noch Jahrzehnte an (frühestens 2050), die Zwischenlagerung läuft weiter, die Folgekosten verteilen sich über Generationen. Der Abschaltvorgang ist die Tagesordnung, das Problem die Generationenaufgabe.",
+      "counterQuestions": [
+        "Wenn die Endlagersuche frühestens 2050 abgeschlossen sein soll — was passiert in den Jahrzehnten dazwischen mit den Zwischenlagern?",
+        "Wer trägt die Kosten für Zwischenlagerung, Endlagersuche und spätere Verbringung — und wer entscheidet darüber?",
+        "Würde der Bau neuer AKW diese Generationenaufgabe kleiner machen?"
+      ]
     },
     {
       "id": "deutschland-muss-sich-selbst-versorgen",
@@ -1280,7 +1320,13 @@
         "stromverbund",
         "dunkelflauten"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Autarkie-Trugschluss: Nationale Selbstversorgung wird mit Versorgungssicherheit gleichgesetzt. Tatsächlich erhöht der europäische Stromverbund die Sicherheit gerade durch Risikodiversifizierung — Wind weht selten überall gleichzeitig flau, Sonne und Wind ergänzen sich räumlich. Vollständige Autarkie wäre teurer und systemisch unflexibler.",
+      "counterQuestions": [
+        "Wenn vollständige Autarkie nachweislich teurer ist als ein vernetztes europäisches System — warum sollte das ein Ziel sein?",
+        "Welche andere Industrieländer streben tatsächlich vollständige Stromautarkie an?",
+        "Ist der europäische Stromverbund nicht selbst ein zentrales Instrument der Versorgungssicherheit — gerade durch regionale Wind-/Sonnen-Komplementarität?"
+      ]
     },
     {
       "id": "windraeder-diesel",
@@ -1300,7 +1346,13 @@
         "strommix-2025",
         "ee-ausbau"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Verschwörungs-Anekdotik aus Einzelfall: Der Schottland-Notbetrieb 2023 (71 Turbinen wurden bei Frost mit Diesel warmgehalten, nach Netzausfall) wird zum Regelbetrieb verallgemeinert. Funktionsweise wird grundlegend missverstanden — Windräder wandeln Wind über einen Generator in Strom um, ohne Verbrennungsmotor.",
+      "counterQuestions": [
+        "Wenn Windräder mit Diesel betrieben würden — wozu sollte man sie dann überhaupt bauen?",
+        "Wie schnell hat eine Windkraftanlage laut UBA die Energie für ihren Bau wieder eingespielt — und passt das zu einem ‚Diesel-Betrieb‘?",
+        "Wenn der Schottland-Vorfall 2023 (Notbetrieb gegen Frost nach Netzausfall) zum Regelbetrieb verallgemeinert wird — was sagt deine Quelle konkret dazu?"
+      ]
     }
   ],
   "sources": [
