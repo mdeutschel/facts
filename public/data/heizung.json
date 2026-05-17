@@ -200,7 +200,7 @@
         },
         {
           "type": "fact",
-          "text": "Die EU-Kommission hat im April 2026 einen Reformvorschlag zur ETS-2-Marktstabilitätsreserve eingebracht; das Europäische Parlament beriet am 29. April 2026 darüber und fordert, die 45-EUR-Eingriffsschwelle über 2029 hinaus zu verlängern und an die Preise von 2026 anzupassen. Bis zum Abschluss des Trilogs gilt die ursprüngliche Regelung weiter.",
+          "text": "Die EU-Kommission hat am 27. November 2025 einen Reformvorschlag zur ETS-2-Marktstabilitätsreserve eingebracht; das Europäische Parlament beriet am 29. April 2026 darüber und fordert, die 45-EUR-Eingriffsschwelle über 2029 hinaus zu verlängern und an die Preise von 2026 anzupassen. Bis zum Abschluss des Trilogs gilt die ursprüngliche Regelung weiter.",
           "sourceRefs": [
             "europarl-ets2-msr-reform-2026",
             "dehst-eu-ets2-ausblick"
@@ -1246,7 +1246,7 @@
     {
       "id": "ets2-preisdeckel",
       "claim": "ETS 2 wird durch Preisdeckel schon nicht teuer.",
-      "response": "Im EU-ETS 2 gibt es keinen Preisdeckel und keinen Korridor — die Preise bilden sich am Markt. Die 45-EUR-Schwelle ist eine Eingriffsschwelle der Marktstabilitätsreserve: Bei Überschreiten werden zusätzliche Zertifikate freigegeben. Das dämpft kurzfristige Spitzen, garantiert aber keinen niedrigen Dauerpreis. Die EU-Kommission hat im April 2026 eine MSR-Reform vorgeschlagen; das Europäische Parlament fordert, die 45-EUR-Schwelle über 2029 hinaus zu verlängern — beschlossen ist das aber noch nicht. Die EWI-Szenarien für 2030 zeigen breite Spannen, klar nach oben offen.",
+      "response": "Im EU-ETS 2 gibt es keinen Preisdeckel und keinen Korridor — die Preise bilden sich am Markt. Die 45-EUR-Schwelle ist eine Eingriffsschwelle der Marktstabilitätsreserve: Bei Überschreiten werden zusätzliche Zertifikate freigegeben. Das dämpft kurzfristige Spitzen, garantiert aber keinen niedrigen Dauerpreis. Die EU-Kommission hat am 27. November 2025 eine MSR-Reform vorgeschlagen; das Europäische Parlament forderte am 29. April 2026, die 45-EUR-Schwelle über 2029 hinaus zu verlängern — beschlossen ist das aber noch nicht. Die EWI-Szenarien für 2030 zeigen breite Spannen, klar nach oben offen.",
       "keywords": [
         "ets2",
         "co2-preis",
