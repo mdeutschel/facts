@@ -5,14 +5,14 @@
   "seoTitle": "Vermögens- & Erbschaftsteuer: Argumente, Fakten, Daten",
   "seoDescription": "Wandern Reiche ab? Zerstört das den Mittelstand? Antworten zu Vermögensverteilung, OECD-Vergleich und Aufkommen mit Quellen vom DIW und BMF.",
   "icon": "account_balance",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-05-17",
   "keyStats": [
-    "Das reichste 1 % besitzt mindestens 26 % des Vermögens",
+    "Reichstes 1 % besitzt rund 1/3 des Vermögens (DIW)",
     "Nur ~1 % BIP vermögensbezogene Steuern (OECD: 1,9 %)",
-    "Große Unternehmensvermögen werden bei Erbschaften oft stark begünstigt",
-    "11 Argumente"
+    "BVerfG-Entscheidung zur Erbschaftsteuer 2026 erwartet",
+    "SPD-Vorschlag: 1 % ab 2 Mio. € pro Person"
   ],
-  "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin, der Deutschen Bundesbank (PHF 2023), des Statistischen Bundesamtes, der OECD Revenue Statistics, der OECD Germany Survey und der FES-Studie 2022.",
+  "sourceNote": "Daten basieren auf Erhebungen des DIW Berlin (Wochenbericht 4/2026 zur Erbschaftsteuerreform), der Deutschen Bundesbank (PHF 2023), des Statistischen Bundesamtes, der OECD Revenue Statistics, der OECD Germany Survey, der FES-Studie 2022, Tax Foundation / Euronews (internationaler Vergleich 2025), der Bundestags-Debatte vom 6. März 2026 sowie dem anhängigen BVerfG-Verfahren 1 BvR 804/22.",
   "sections": [
     {
       "id": "verteilung",
@@ -216,6 +216,13 @@
           "sourceRefs": [
             "oecd-revenue-statistics-taxes-on-property",
             "gesetze-im-internet-vermoegensteuergesetz-vstg"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Stand 2025 erheben nur drei europäische OECD-Länder eine Netto-Vermögensteuer: Norwegen (1,0-1,1 % ab rund 145.000 €), Spanien (progressiv 0,16-3,5 % ab 700.000 €) und die Schweiz (kantonal verschieden, Beispiel Zürich ab 80.000 CHF). Aufkommen 2023: Schweiz 9,5 Mrd. € (1,16 % BIP), Norwegen 2,7 Mrd. € (1,5 % der Steuereinnahmen), Spanien 3,1 Mrd. €.",
+          "sourceRefs": [
+            "tax-foundation-wealth-taxes-europe-2025"
           ]
         }
       ]
@@ -558,6 +565,34 @@
       ]
     },
     {
+      "id": "politische-debatte-2026",
+      "title": "Politische Debatte 2026: Wo steht die Diskussion?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Debatte ist seit dem Regierungswechsel 2025 wieder aktiv. Der Bundestag beriet am 6. März 2026 erstmals Anträge der Fraktion Die Linke (‚Vermögensteuer wieder erheben – Länderfinanzen nachhaltig sichern‘) und der Fraktion Bündnis 90/Die Grünen zur Wiedererhebung der Vermögensteuer. Die SPD schlägt eine Vermögensteuer von 1 % auf Nettovermögen ab 2 Mio. € pro Person vor. Die Union unter Kanzler Friedrich Merz lehnt eine Vermögensteuer kategorisch ab; im Koalitionsvertrag steht stattdessen eine Einkommensteuer-reform zum 1. Januar 2027 zur Entlastung kleiner und mittlerer Einkommen.",
+          "sourceRefs": [
+            "bundestag-vermoegenssteuer-debatte-2026-03"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Beim Bundesverfassungsgericht ist seit 2022 eine Verfassungsbeschwerde gegen die aktuelle Erbschaftsteuer anhängig (Az. 1 BvR 804/22). Im Mittelpunkt: die Privilegien für Betriebsvermögen und ihre Vereinbarkeit mit dem Gleichheitsgrundsatz. Eine Entscheidung wird 2026 erwartet, lag aber Stand Mai 2026 noch nicht vor.",
+          "highlight": true,
+          "sourceRefs": [
+            "bverfg-erbschaftssteuer-1bvr80422"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die SPD hat im Januar 2026 ein Konzeptpapier für die Erbschaftsteuer vorgelegt: Abschaffung der bisherigen Verschonungs-Regelungen für Betriebsvermögen, einheitlicher Freibetrag von 5 Mio. €, darüber hinaus reguläre Besteuerung. Um Liquiditätsbelastung abzufedern, soll die Steuer bei Erhalt von Arbeitsplätzen über 20 Jahre gestundet werden können. Das DIW Berlin plädiert in seinem Wochenbericht 4/2026 ähnlich: Vergünstigungen abbauen, Freibeträge erhöhen, Steuertarifstufen reduzieren.",
+          "sourceRefs": [
+            "diw-erbschaftsteuerreform-2026"
+          ]
+        }
+      ]
+    },
+    {
       "id": "verfassung",
       "title": "Verfassungsrecht: Vermögensteuer ist nicht verboten",
       "content": [
@@ -631,7 +666,7 @@
     {
       "id": "hochsteuerland",
       "claim": "Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!",
-      "response": "Bei Steuern und Abgaben auf Arbeit liegt Deutschland hoch. Bei den vermögensbezogenen Steuern liegt Deutschland mit rund 1 % des BIP dagegen klar unter dem OECD-Durchschnitt von 1,9 %. Viele internationale Vergleiche zeigen: Eine stärkere Besteuerung großer Vermögen kann helfen, Arbeitseinkommen im Gegenzug weniger stark zu belasten.",
+      "response": "Bei Steuern und Abgaben auf Arbeit liegt Deutschland tatsächlich hoch. Bei vermögensbezogenen Steuern liegt Deutschland mit rund 1 % des BIP aber klar unter dem OECD-Durchschnitt von 1,9 %. Nur drei europäische OECD-Länder erheben überhaupt eine Netto-Vermögensteuer (Norwegen, Spanien, Schweiz) — sie zeigen, dass das System funktioniert und finanzierbar ist. Eine stärkere Besteuerung großer Vermögen kann helfen, Arbeitseinkommen im Gegenzug weniger stark zu belasten.",
       "keywords": [
         "Hochsteuerland",
         "Steuerlast",
@@ -642,7 +677,13 @@
       "relatedSections": [
         "oecd-vergleich"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Pars-pro-toto: Aus dem (richtigen) Befund hoher Steuer-/Abgabenlast auf Arbeit wird ‚Hochsteuerland‘ als pauschales Label. Vermögensbezogene Steuern (1 % BIP, OECD-Schnitt 1,9 %) werden ausgeblendet, der Gegensatz Arbeit teuer / Vermögen günstig verschwindet aus der Argumentation.",
+      "counterQuestions": [
+        "Wenn Deutschland bei vermögensbezogenen Steuern mit rund 1 % BIP unter dem OECD-Schnitt von 1,9 % liegt — wo siehst du das ‚Hoch‘ bei Vermögen?",
+        "Wenn Norwegen, Spanien und Schweiz mit Vermögensteuer wirtschaften — was unterscheidet Deutschland an dieser Stelle, dass es uns ‚kaputt‘ machen würde?",
+        "Wo wäre dein Punkt, an dem Vermögensteuer akzeptabel wäre — bei welcher Höhe und ab welchem Vermögen?"
+      ]
     },
     {
       "id": "neidsteuer",
@@ -658,12 +699,19 @@
       "relatedSections": [
         "verteilung",
         "erbengesellschaft"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Ad-hominem-Verschiebung: Statt um den Sachverhalt (Verteilung, Aufkommen, Verfassungsrecht) wird das unterstellte Motiv der Befürworter angegriffen. Klassisches Diskursabschluss-Muster: Wer dafür ist, ist ‚neidisch‘ — eine Sachdebatte wird damit unmöglich.",
+      "counterQuestions": [
+        "Wenn das reichste 1 % rund ein Drittel des Vermögens besitzt — ist die Forderung nach Beteiligung an der Steuerlast für dich Neid oder Verteilung?",
+        "Würdest du eine progressive Einkommensteuer auch ‚Neidsteuer‘ nennen — und falls nicht, warum nicht?",
+        "Welche konkrete Ausgestaltung (1 % ab 2 Mio. € z. B.) hältst du sachlich für unfair — abseits der Motivunterstellung?"
       ]
     },
     {
       "id": "familienunternehmen",
       "claim": "Eine Vermögenssteuer zerstört unsere Familienunternehmen und den Mittelstand!",
-      "response": "Seriöse Modelle arbeiten mit hohen Freibeträgen und zielen auf sehr große Vermögen. Die besonders großzügigen Privilegien im Erbschaftsteuerrecht kommen heute vor allem bei sehr großen Unternehmensvermögen zum Tragen, nicht bei typischen kleinen Betrieben. Entscheidend ist daher die Ausgestaltung: Kleine und mittlere Betriebe lassen sich schützen, ohne milliardenschwere Übertragungen pauschal zu verschonen.",
+      "response": "Seriöse Modelle arbeiten mit hohen Freibeträgen und zielen auf sehr große Vermögen. Die besonders großzügigen Privilegien im Erbschaftsteuer-recht kommen heute vor allem bei sehr großen Unternehmensvermögen zum Tragen, nicht bei typischen kleinen Betrieben — genau diese Privilegien sind seit 2022 Gegenstand einer Verfassungsbeschwerde (Az. 1 BvR 804/22, BVerfG-Entscheidung 2026 erwartet). Die SPD hat im Januar 2026 ein Erbschaftsteuer-Konzept vorgelegt: einheitlicher Freibetrag von 5 Mio. €, Stundung über 20 Jahre bei Erhalt von Arbeitsplätzen. Kleine und mittlere Betriebe lassen sich also schützen, ohne milliardenschwere Übertragungen pauschal zu verschonen.",
       "keywords": [
         "Mittelstand",
         "Familienunternehmen",
@@ -676,12 +724,18 @@
         "erbschaftssteuer",
         "aufkommen"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Worst-Case-Pauschalisierung: Aus der theoretischen Möglichkeit, dass ein kleiner Betrieb betroffen sein könnte, wird ‚zerstört Mittelstand‘. Freibeträge, Stundungsregeln und die Realität, dass die heutigen Privilegien primär milliardenschwere Übertragungen schützen, verschwinden aus dem Bild.",
+      "counterQuestions": [
+        "Bei welchem Freibetrag wären für dich kleine und mittlere Betriebe geschützt — und wieviele Familienunternehmen liegen darüber?",
+        "Wer profitiert mehr von der heutigen Verschonungsregelung: ein Handwerksbetrieb mit 5 Mio. € Substanz oder ein Familienkonzern mit 5 Mrd. €?",
+        "Wenn SPD und DIW Modelle mit 5-Mio.-Freibetrag plus 20-Jahre-Stundung vorschlagen — wo wäre dein Mittelstand konkret bedroht?"
+      ]
     },
     {
       "id": "abwanderung",
       "claim": "Die Reichen wandern dann einfach ins Ausland ab!",
-      "response": "Abwanderungsrisiken gibt es, aber sie werden oft überschätzt. Wohnsitzentscheidungen hängen nicht nur von einer Steuer ab, sondern auch von Unternehmen, Familie, Infrastruktur und Rechtssicherheit. Zudem kann der Gesetzgeber Wegzugs- und Missbrauchsregeln so ausgestalten, dass reine Steuergestaltung erschwert wird.",
+      "response": "Abwanderungsrisiken gibt es, sie werden aber meist überschätzt. Das aktuellste Beispiel: Norwegen erhöhte 2021 die Vermögensteuer; zwischen 2022 und 2023 verließen über 500 vermögende Personen das Land — mehr als doppelt so viele wie in den Vorjahren, viele zogen in die Schweiz. Eine Harvard-Studie hat aber das Gesamtbild gerechnet: Die Mehreinnahmen aus der erhöhten Steuer übersteigen die Verluste durch Wegzug deutlich — unterm Strich stieg das Aufkommen. Die norwegischen Sozialdemokraten gewannen die Wahl September 2025 auch deshalb. Wohnsitzentscheidungen hängen ohnehin von Unternehmen, Familie, Infrastruktur und Rechtssicherheit ab, nicht allein von einer Steuer. Wegzugs- und Missbrauchsregeln lassen sich zudem so gestalten, dass reine Steuergestaltung erschwert wird.",
       "keywords": [
         "Abwanderung",
         "Ausland",
@@ -693,7 +747,13 @@
       "relatedSections": [
         "oecd-vergleich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Drohszenario aus selektiver Beobachtung: Einzelne Wegzugsfälle werden als ‚Beweis‘ gezeigt, die Netto-Bilanz (Aufkommen vs. Verluste) wird weggelassen. Beispiel Norwegen: 500+ Wegzüge stimmen — die Harvard-Studie zeigt aber, dass die Mehreinnahmen die Verluste übersteigen.",
+      "counterQuestions": [
+        "Wenn die Harvard-Studie für Norwegen Netto-Mehreinnahmen aus der Vermögensteuer-Erhöhung dokumentiert — was widerlegt dein ‚dann gehen alle weg‘ konkret?",
+        "Welcher Anteil der Vermögenden mit > 2 Mio. € verlässt Deutschland nach deiner Schätzung — und auf welcher Datenbasis?",
+        "Wenn Wegzugs- und Missbrauchsregeln möglich sind (und in Deutschland für andere Steuerarten existieren) — warum sollte das Abwanderungsrisiko die Höhe einer Vermögensteuer 1:1 begrenzen?"
+      ]
     },
     {
       "id": "doppelbesteuerung",
@@ -708,7 +768,13 @@
       "relatedSections": [
         "verfassung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Begriffsverwirrung: ‚Doppelbesteuerung‘ ist im Steuerrecht ein spezifischer Begriff (gleicher Tatbestand mehrfach besteuert). Umgangssprachlich wird er auf das Konzept ‚Geld zweimal anfassen‘ ausgeweitet — danach wäre Mehrwertsteuer genauso doppelbesteuert. Das Leistungsfähigkeitsprinzip erlaubt mehrere Steuern auf verschiedene Bemessungsgrundlagen.",
+      "counterQuestions": [
+        "Wenn Mehrwertsteuer auf bereits versteuertem Einkommen liegt — ist die Mehrwertsteuer für dich auch ‚Doppelbesteuerung‘?",
+        "Wenn Wertsteigerungen von Aktien/Immobilien gar nicht oder erst bei Verkauf einkommensbesteuert werden — wo ist die ‚Doppelung‘ bei der Vermögensteuer?",
+        "Welche Definition von Doppelbesteuerung legst du an — die juristische (gleicher Tatbestand mehrfach) oder die Alltags-Intuition?"
+      ]
     },
     {
       "id": "substanzbesteuerung",
@@ -725,7 +791,13 @@
         "erbschaftssteuer",
         "aufkommen"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Verwechslung von Eigentümer und Unternehmen: Rhetorisch wird das Unternehmen zur leidtragenden Partei gemacht, obwohl der Eigentümer die Steuer trägt. Bei 1 % Steuer und typischen 5-10 % Kapitalrenditen ist die Substanzfrage faktisch eine Ertragsfrage — wer kauft, zahlt ohnehin den vollen Preis.",
+      "counterQuestions": [
+        "Bei 1 % Steuer und 5-10 % Kapitalrendite — warum sollte das aus der Substanz statt aus den laufenden Erträgen kommen?",
+        "Wenn ein Unternehmenskäufer den vollen Kaufpreis aufbringt und das als normal gilt — warum ist eine Stundungsregelung über 20 Jahre bei Erben ein Substanz-Problem?",
+        "Welche Branche mit typischer Eigenkapitalrendite < 1 % wäre konkret bedroht — und wäre das nicht ohnehin ein Restrukturierungs-Indikator?"
+      ]
     },
     {
       "id": "elternhaus",
@@ -743,7 +815,13 @@
         "erbschaftssteuer",
         "aufkommen"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Emotionalisierung mit irrelevantem Beispiel: Das ‚Elternhaus‘ ist im Recht explizit geschützt (Selbstnutzung bis 200 m² steuerfrei, Freibeträge 400/500k €, 96 % aller Erbfälle komplett unter den Freibeträgen). Rhetorisch schützt das Argument den ‚kleinen Mann‘, faktisch erleichtert es die Übertragung großer Vermögen.",
+      "counterQuestions": [
+        "Wusstest du, dass für das selbstgenutzte Elternhaus (bis 200 m²) bei 10-Jahres-Selbstnutzung gar keine Erbschaftsteuer anfällt?",
+        "Wenn 96 % aller Erbfälle komplett unter die Freibeträge fallen — wer ist denn von der Steuer überhaupt betroffen?",
+        "Wenn das wirkliche Elternhaus geschützt ist — warum nutzt das Argument so oft Beispiele von Mehrfamilien­häusern oder Villen?"
+      ]
     },
     {
       "id": "verwaltungskosten",
@@ -761,7 +839,13 @@
         "oecd-vergleich",
         "verfassung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Statischer Vergleich mit den 1990ern: Die alte Bewertungsproblematik (BVerfG 1995) wird in die Gegenwart projiziert, obwohl Digitalisierung, internationaler Informationsaustausch (CRS, FATCA) und reformierte Immobilienbewertung die Voraussetzungen deutlich verbessert haben. Effizienzfrage wird gegen die Steuer als solche gerichtet.",
+      "counterQuestions": [
+        "Wenn die Schweiz seit Jahrzehnten Vermögensteuer kantonal einzieht — funktioniert deren Verwaltung anders, oder kann Deutschland das auch?",
+        "Was sind die konkreten Verwaltungskosten in den existierenden Vermögensteuer-Ländern relativ zum Aufkommen — kennst du Zahlen?",
+        "Welchen Beleg aus den 2020ern (nicht aus 1995) hast du dafür, dass die Steuer mehr kostet als sie einbringt?"
+      ]
     },
     {
       "id": "leistung-erbe",
@@ -778,6 +862,13 @@
       "relatedSections": [
         "erbschaftssteuer",
         "erbengesellschaft"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Begriffsverdrehung: Erben wird mit ‚Leistung‘ gleichgesetzt, obwohl es eine passive Übertragung ist. Die Diskussion verschiebt sich auf die Erbenden — die Frage der Vermögenskonzentration und der Generationengerechtigkeit verschwindet aus dem Bild.",
+      "counterQuestions": [
+        "Welche eigene ‚Leistung‘ hat das Kind eines Milliardärs für sein Erbe erbracht — verglichen mit jemandem, der das Vermögen erst aufgebaut hat?",
+        "Wenn Leistung belohnt werden soll — warum wird ein Erbe steuerlich stärker geschont als ein Lottogewinn oder ein selbst erarbeitetes Einkommen?",
+        "Wenn ‚Lebenswerk‘ ein Argument ist — wessen Lebenswerk schützt die heutige Verschonungsregelung tatsächlich am stärksten: das des Handwerksmeisters oder des Familienkonzern-Eigentümers?"
       ]
     },
     {
@@ -794,7 +885,13 @@
       "relatedSections": [
         "oecd-vergleich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Monokausale Erklärung: Standortentscheidungen werden auf eine einzelne Steuervariable reduziert. Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte, Energiekosten — alle empirisch wichtigeren Faktoren — werden ausgeblendet, um eine Kausalitäts-Drohung zu konstruieren.",
+      "counterQuestions": [
+        "Wenn Norwegen mit Vermögensteuer und Spanien ohne signifikante Investitionsabwanderung leben — was unterscheidet Deutschland?",
+        "Welche Studie quantifiziert eine direkte Vermögensteuer-Investitions-Kausalität — und mit welcher Effektgröße?",
+        "Würde eine 1-%-Vermögensteuer wirklich Standort-Entscheidungen drehen, die sonst von Fachkräften, Infrastruktur und Energiekosten getrieben sind?"
+      ]
     },
     {
       "id": "privatsache",
@@ -810,6 +907,13 @@
       "relatedSections": [
         "erbengesellschaft",
         "verfassung"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Verkürzte GG-Rezeption: Art. 14 Abs. 1 (Eigentumsgarantie) wird zitiert, Abs. 2 (Sozialpflichtigkeit) ausgelassen. Die rhetorische Verschiebung auf eine Grundsatzebene blendet das eigentliche Verteilungsproblem aus und verlagert die Debatte in den Liberalismus-Eigentum-Topos.",
+      "counterQuestions": [
+        "Wenn Art. 14 Abs. 2 GG sagt: ‚Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen.‘ — wie liest du das in der Erbschaftsteuer-Debatte?",
+        "Welche Infrastruktur (Schulen, Polizei, Eigentumsschutz, Verkehrswege, Rechtssystem) wurde nicht aus Steuern bezahlt, die ein Vermögensaufbau überhaupt erst ermöglicht?",
+        "Wenn Erbschaftsteuer ‚Einmischung‘ ist — wie unterscheidet sich das kategorisch von Einkommensteuer, Mehrwertsteuer oder Grundsteuer?"
       ]
     }
   ],
@@ -888,6 +992,31 @@
       "id": "netzwerk-steuergerechtigkeit",
       "label": "Netzwerk Steuergerechtigkeit",
       "url": "https://www.netzwerk-steuergerechtigkeit.de"
+    },
+    {
+      "id": "bundestag-vermoegenssteuer-debatte-2026-03",
+      "label": "Deutscher Bundestag – Debatte zur Wiedererhebung der Vermögensteuer (6. März 2026)",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw10-de-vermoegensteuer-1150522"
+    },
+    {
+      "id": "bverfg-erbschaftssteuer-1bvr80422",
+      "label": "BVerfG – Verfassungsbeschwerde Az. 1 BvR 804/22 (Erbschaftsteuer, Entscheidung 2026 erwartet)",
+      "url": "https://www.bundesverfassungsgericht.de/DE/Aktuelles/GeplanteEntscheidungen/geplante-Entscheidungen_node.html"
+    },
+    {
+      "id": "diw-erbschaftsteuerreform-2026",
+      "label": "DIW Berlin – Erbschaftsteuerreform: Vergünstigungen abbauen, Freibeträge erhöhen (Wochenbericht 4/2026)",
+      "url": "https://www.diw.de/de/diw_01.c.996032.de/publikationen/wochenberichte/2026_04_1/erbschaftsteuerreform__verguenstigungen_abbauen__freibetraege_erhoehen__steuertarifstufen_reduzieren.html"
+    },
+    {
+      "id": "tax-foundation-wealth-taxes-europe-2025",
+      "label": "Tax Foundation / Euronews – Wealth taxes in Europe 2025 (Übersicht Sätze und Aufkommen)",
+      "url": "https://www.euronews.com/business/2025/09/29/wealth-taxes-in-europe-who-collects-them-and-how-much-do-they-raise"
+    },
+    {
+      "id": "netzwerk-steuergerechtigkeit-norwegen-mythos",
+      "label": "Netzwerk Steuergerechtigkeit – Höhere Vermögensteuer in Norwegen, weniger Einnahmen? Ein verbreiteter Mythos",
+      "url": "https://www.netzwerk-steuergerechtigkeit.de/hoehere-vermoegenssteuer-in-norwegen-weniger-einnahmen-ein-weit-verbreiteter-und-falscher-mythos/"
     }
   ],
   "relatedTopicIds": [
