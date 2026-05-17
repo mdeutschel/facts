@@ -873,7 +873,13 @@
         "fraunhofer-ise",
         "marktentwicklung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Veraltetes Bild aus den 2000ern wird projiziert: Damalige WP brauchten 55-60 °C Vorlauftemperatur, moderne arbeiten effizient bei 35-45 °C. Fraunhofer-ISE-Felddaten (2025) zeigen JAZ-Werte um 3,1 auch im unsanierten Bestand. ‚Nur Neubau‘ ignoriert empirische Befunde zugunsten einer alten Heuristik.",
+      "counterQuestions": [
+        "Welche Vorlauftemperatur fährt dein Heizsystem heute — und hast du sie schon mal probeweise gesenkt, um zu sehen, ob es noch warm bleibt?",
+        "Wenn Fraunhofer ISE im Bestand JAZ um 3,1 misst — was unterscheidet dein Haus konkret von dieser Stichprobe?",
+        "Welche bauliche Eigenschaft (Heizkörper, Dämmung, Vorlauf) macht in deinem Fall die Entscheidung gegen die WP — kannst du das benennen?"
+      ]
     },
     {
       "id": "gas-billiger",
@@ -890,7 +896,13 @@
         "kostenvergleich",
         "co2-preis"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Snapshot-Argument: Der aktuelle kWh-Preis wird isoliert betrachtet, ohne die Zeitachse einer 15-20 Jahre laufenden Heizung. Ausgeblendet werden ETS-2-Aufschlag ab 2028 ohne Preisdeckel, EU-Förderverbot für reine Fossil-Kessel seit 1.1.2025 und die Bio-Quote ab 2029. Anschaffung wird mit Betrieb verrechnet, aber nicht über die volle Nutzungsdauer projiziert.",
+      "counterQuestions": [
+        "Wenn der ETS-2-CO2-Preis 2030 zwischen 100 und 160 EUR/t liegt — wie verändert das deine 20.000-kWh-Gas-Rechnung in Euro pro Jahr?",
+        "Vergleichst du Anschaffung + Betrieb über die volle Heizungslebensdauer (15-20 Jahre) oder nur den heutigen kWh-Preis?",
+        "Was sagst du dazu, dass die EU reine Fossil-Kessel seit dem 1. Januar 2025 nicht mehr fördert — wie sicher ist der Markt für Gasheizungen in 10 Jahren?"
+      ]
     },
     {
       "id": "gasnetz-bleibt",
@@ -905,7 +917,13 @@
       "relatedSections": [
         "gasnetz-rueckbau"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Falscher Allquantor: ‚Das Gasnetz‘ wird als bundesweit homogene Größe gedacht. Tatsächlich wird die Zukunft jedes Verteilnetzes lokal in der kommunalen Wärmeplanung entschieden — Stilllegungs-Szenarien sind in manchen Quartieren bereits dokumentiert. Das Argument verlagert eine lokale Unsicherheit in eine fiktive flächendeckende Garantie.",
+      "counterQuestions": [
+        "Ist deine Kommune bei der Wärmeplanung schon durch — und in welche Cluster (Gas-Bestand, Fernwärme, Strom-Wärme) fällt dein Quartier?",
+        "Was passiert mit deinem Gasanschluss, wenn dein Quartier perspektivisch auf Fernwärme oder Strom umgestellt wird?",
+        "Wenn die letzten Gaskunden im Quartier die Netzkosten anteilig tragen — wie kalkulierst du dieses Strukturrisiko ein?"
+      ]
     },
     {
       "id": "wasserstoff-loesung",
@@ -921,7 +939,13 @@
         "wasserstoff-fernwaerme",
         "gasnetz-rueckbau"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Hoffnungs-Argument mit Verfügbarkeits-Lücke: Grüner Wasserstoff wird im EU-Hochlauf prioritär für Stahl, Chemie und Schwerverkehr eingeplant — private Heizungen stehen weit hinten in der Mengen-Priorisierung. Verheizen von H2 ist zudem physikalisch teurer als WP (1 kWh Wärme kostet bei H2-Route 3-4× mehr Strom als bei Direkt-WP).",
+      "counterQuestions": [
+        "Welche Studie zur H2-Verfügbarkeit für Haushaltsheizungen rechnet konkret die Mengen vor, die du erwartest?",
+        "Wenn die H2-Heizungs-Route 3-4× mehr Primärstrom braucht als eine WP für dieselbe Wärme — warum sollte das wirtschaftlich werden?",
+        "Was ist dein Plan B, wenn dein Netzbetreiber sagt: ‚In deinem Quartier ist H2 für Haushalte nicht vorgesehen‘?"
+      ]
     },
     {
       "id": "heizungsgesetz-abgeschafft",
@@ -938,7 +962,13 @@
         "politik-status",
         "co2-preis"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Wunsch-Realität wird zur Tatsache erklärt. ‚Abgeschafft‘ überspringt den rechtlichen Stand: GEG gilt weiter, GModG ist Kabinettsbeschluss, Bundestagsbeschluss steht noch aus. Außerdem werden zwei rechtlich getrennte Ebenen vermischt — nationales Ordnungsrecht (GEG/GModG) und EU-Preisrahmen (ETS 2) als wäre eine Reform das eine das Ende des anderen.",
+      "counterQuestions": [
+        "Wusstest du, dass das GModG erst nach Bundestagsbeschluss in Kraft tritt — bis dahin gilt die 65-Prozent-Regel weiter?",
+        "Was passiert mit deiner Gasheizung 2028, wenn ETS 2 unabhängig vom GEG den CO2-Preis hochzieht?",
+        "Wenn ‚abgeschafft‘ stimmen würde — warum hat das Kabinett am 13. Mai 2026 überhaupt ein neues Gesetz beschlossen?"
+      ]
     },
     {
       "id": "heizung-funktioniert-noch",
@@ -954,7 +984,13 @@
         "foerderung",
         "lock-in-falle"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Status-quo-Bias: Die Entscheidung wird in den Notfall verschoben — genau dann, wenn Optionen knapp, Handwerker-Termine eng und Förderbedingungen schlechter geworden sind. Außerdem ignoriert das Argument, dass alte Heizungen meist über Jahre teurer im Betrieb sind, bevor sie ausfallen.",
+      "counterQuestions": [
+        "Was passiert, wenn deine Heizung mitten im Februar ausfällt — wie schnell bekommst du dann eine WP installiert und einen Antrag durch?",
+        "Wie alt ist deine Heizung, und wieviel hast du in den letzten zwei Jahren an Reparaturen und Wartung gezahlt?",
+        "Wenn der Klimageschwindigkeitsbonus ab 2029 alle zwei Jahre um drei Prozentpunkte sinkt — bis wann lohnt sich Warten für dich konkret?"
+      ]
     },
     {
       "id": "wp-zu-laut",
@@ -970,7 +1006,13 @@
       "relatedSections": [
         "lautstaerke"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Anekdotik aus alter Technik oder Fehlplanung wird verallgemeinert. Moderne Außeneinheiten unterschreiten bei korrekter Aufstellung die TA-Lärm-Nachtwerte in Wohngebieten regelmäßig. Das Muster nutzt einen punktuellen Negativeindruck, der durch Planung und Position der Außeneinheit lösbar ist.",
+      "counterQuestions": [
+        "Welche dB(A)-Werte hast du konkret gehört — und in welcher Entfernung zur Außeneinheit?",
+        "Wusstest du, dass die TA Lärm für Wohngebiete nachts 35 dB(A) vorsieht und moderne WP das in 3 m Entfernung typisch unterschreiten?",
+        "Welche Aufstellungsoptionen hat dein Planer geprüft — Schallschutzhaube, Wandkonsole, Distanz zur Grundstücksgrenze?"
+      ]
     },
     {
       "id": "stromnetz-bricht-zusammen",
@@ -986,7 +1028,13 @@
       "relatedSections": [
         "stromnetz"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Worst-Case-Szenarien werden zur Regel umgewertet. Tatsächlich erlauben die Fraunhofer-IEE-Modellrechnungen 2026 einen WP-Hochlauf von rund 1 Mio./Jahr ohne flächendeckende Engpässe, und § 14a EnWG regelt seit 2024 einzelne lokale Engpass-Eingriffe gegen reduzierte Netzentgelte. Lokale Verteilnetz-Aufgabe (lösbar mit Trafo-Tausch) wird zum systemischen Crash hochgerechnet.",
+      "counterQuestions": [
+        "Wenn Fraunhofer IEE einen WP-Hochlauf von 1 Mio. pro Jahr ohne systemischen Crash sieht — auf welche Studie stützt sich dein Gegenmodell?",
+        "Wusstest du, dass § 14a EnWG seit 2024 lokale Steuerung erlaubt und du dafür reduzierte Netzentgelte bekommst?",
+        "Was unterscheidet einen lokal lösbaren Verteilnetz-Punkt von ‚das Stromnetz bricht zusammen‘ in deiner Argumentation?"
+      ]
     },
     {
       "id": "wp-funktioniert-nicht-bei-kaelte",
@@ -1004,7 +1052,13 @@
         "kaelteleistung",
         "internationaler-vergleich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Veraltete Technik wird verallgemeinert. Moderne Luft/Wasser-WP arbeiten bis ~-15 °C ohne Heizstab; in Norwegen, Schweden und Finnland sind sie meistverkaufte Heiztechnik (EHPA 2025). Wer ‚geht nicht bei Frost‘ sagt, beschreibt eine Geräte-Generation der 2000er, nicht den Stand 2026.",
+      "counterQuestions": [
+        "Wenn WP in Skandinavien flächendeckend funktionieren — was unterscheidet das deutsche Klima signifikant?",
+        "Welche Außentemperatur-Verteilung erwartest du an deinem Standort, an wievielen Tagen wäre der Heizstab überhaupt aktiv?",
+        "Wusstest du, dass moderne Geräte mit Spritzbeständigkeit bis ~-25 °C arbeiten — auf welchen Wert beziehst du dein ‚geht nicht‘?"
+      ]
     },
     {
       "id": "politik-aendert-alles",
@@ -1021,7 +1075,13 @@
         "politik-status",
         "co2-preis"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Vermeidungs-Argument: Die nationale Ordnungsrechts-Ebene wird mit der EU-Preisrahmen-Ebene verschmolzen. National kippbar ist GEG/GModG — EU-Rahmen (ETS 2, EPBD, Förderverbot fossiler Kessel) sind es nicht. Wer auf ‚die Politik‘ wartet, wartet auf Veränderungen, die in der Sache nicht eintreten werden.",
+      "counterQuestions": [
+        "Welche der drei EU-Rahmen (ETS 2, EPBD Zero-Emission-Buildings, Förderverbot fossiler Kessel) hältst du für national kippbar?",
+        "Was passiert mit deiner Gasheizung 2028, wenn der ETS-2-CO2-Preis startet — unabhängig davon, was der Bundestag bis dahin entscheidet?",
+        "Wann genau wäre für dich ‚die Politik hat sich geklärt‘ — bei jeder neuen Bundestags- oder EU-Wahl kann sich wieder etwas verschieben?"
+      ]
     },
     {
       "id": "gmodg-macht-gas-sicher",
@@ -1039,7 +1099,13 @@
         "lock-in-falle",
         "co2-preis"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Falsche Vollständigkeit: Eine einzelne Regulierung (65-Prozent-Regel) wird gekippt, das wird als Auflösung aller Risiken interpretiert. Tatsächlich bleiben drei andere Mechanismen wirksam — Bio-Treppe ab 2029, ETS 2 ab 2028, Mieter-Kostenbremse. Das Argument verwechselt Teil-Erleichterung mit Gesamt-Sicherheit.",
+      "counterQuestions": [
+        "Wenn ab 2029 verpflichtende Bio-/H2-Anteile (Start 10 %, bis 60 % 2040) für Gasheizungen kommen — woher beziehst du deinen Anteil und zu welchem Preis?",
+        "Wer trägt die CO2-Kosten ab 2028, wenn der ETS-2-Preis steigt — und wie schlägt sich das auf deine jährliche Heizkostenabrechnung?",
+        "Welche der drei Risiken (Bio-Quote, ETS 2, Mieter-Kostenbremse) hältst du für deinen Fall für irrelevant — und mit welcher Begründung?"
+      ]
     },
     {
       "id": "gas-uebergangsloesung",
@@ -1056,7 +1122,13 @@
         "lock-in-falle",
         "gasnetz-rueckbau"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Sunk-Cost-Falle in Vorlauf-Variante: Niedriger Anschaffungspreis wird gegen Lebensdauerkosten gerechnet — eine 2026 eingebaute Gasheizung läuft typisch 15-20 Jahre und durchläuft genau die Phase, in der ETS 2, Bio-Quote und ggf. lokaler Gasnetz-Rückbau greifen. ‚Übergang‘ unterstellt eine kurze Brücke, die in der Praxis Heizungs-Lebensdauer lang ist.",
+      "counterQuestions": [
+        "Über welche Lebensdauer rechnest du den ‚Übergang‘ — 5 Jahre oder die typischen 15-20 Jahre einer Gasheizung?",
+        "Wie sieht deine Kostenbilanz aus, wenn der ETS-2-Preis 2030 auf 100-160 EUR/t steht und die Bio-Quote 10-15 % erreicht?",
+        "Was passiert, wenn du in 5 Jahren doch eine WP brauchst und die 2026er-Förderkonditionen längst gesunken sind?"
+      ]
     },
     {
       "id": "bio-treppe-loesung",
@@ -1073,7 +1145,13 @@
         "politik-status",
         "wasserstoff-fernwaerme"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Magisches Denken bei Mengen: Eine Pflicht-Quote löst kein Mengen-Problem auf der Angebotsseite. Bio-Methan ist EU-weit ein knappes Gut und in Industrie/Schwerverkehr deutlich werthaltiger als in der Hausheizung. Das Argument denkt vom Konsum-Endpunkt, nicht von der physischen Verfügbarkeit her.",
+      "counterQuestions": [
+        "Wo sollen die nötigen Bio-Methan-Mengen herkommen, wenn EU-weit über 50 Mio. Gasheizungs-Haushalte Quoten-Anteile beziehen müssten?",
+        "Wenn Bio-Methan in der Industrie um den Faktor 2-3 wertvoller ist — warum sollte es im Privatkessel landen, statt über Zertifikate verrechnet zu werden?",
+        "Wer trägt die Mehrkosten, wenn deine Pflicht-Quote nicht physisch lieferbar ist, sondern nur über Zertifikate dargestellt wird?"
+      ]
     },
     {
       "id": "wp-nur-mit-pv",
@@ -1090,12 +1168,18 @@
         "kostenvergleich",
         "stromnetz"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Falsche Kopplung: PV und WP werden als notwendiges Paar gedacht. Die JAZ-Rechnung steht unabhängig — bei JAZ 3,1 reicht ein Strom-Gas-Verhältnis ≤ 3,1, damit WP günstiger fährt. PV ist ein Bonus, keine Voraussetzung. Skandinavien betreibt WP flächendeckend ohne PV auch in Mehrfamilienhäusern.",
+      "counterQuestions": [
+        "Wie ändert sich deine Rechnung mit einem Wärmestromtarif (typisch 25-30 Ct/kWh) statt Normalstrom?",
+        "Bei JAZ 3,1 — 1 kWh Strom liefert 3,1 kWh Wärme — wie hoch müsste der Strompreis im Verhältnis zum Gaspreis stehen, damit Gas günstiger ist?",
+        "Wenn PV Voraussetzung wäre, warum betreibt Skandinavien WP auch in Mietshäusern und Wohnblocks ohne PV?"
+      ]
     },
     {
       "id": "wp-altbau-unsinn",
       "claim": "Im unsanierten Altbau ist eine Wärmepumpe Unsinn.",
-      "response": "Die Pauschale stimmt so nicht. Das Fraunhofer-ISE-Projekt WP-QS fand auch in alten Bestandsgebäuden mittlere JAZ-Werte um 3,4 bei Luft/Wasser-Geräten und keinen Zusammenhang zwischen Baujahr und Effizienz. Wo allerdings Heizflächen zu klein, Hydraulik schlecht oder Vorlauftemperaturen sehr hoch sind, sinkt die Effizienz spürbar. In solchen Fällen kann ein gestaffeltes Vorgehen sinnvoll sein: zunächst Heizflächen tauschen und Hydraulik abgleichen, dann die WP.",
+      "response": "Die Sorge ist nachvollziehbar — alte WP brauchten hohe Vorlauftemperaturen, alte Heizkörper sind dafür schlecht ausgelegt. Aber die Pauschale stimmt so nicht: Fraunhofer-ISE-Felddaten (2025) zeigen auch im unsanierten Bestand JAZ-Werte um 3,1. Entscheidend sind Vorlauftemperatur, Heizkörperflächen und hydraulischer Abgleich — oft genügt eine punktuelle Optimierung (Heizkurve, Heizkörper-Tausch in 1-2 Räumen), keine Komplett-Sanierung. ‚Altbau‘ ist nicht gleich Altbau.",
       "keywords": [
         "altbau",
         "unsaniert",
@@ -1106,7 +1190,13 @@
       "relatedSections": [
         "fraunhofer-ise"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Pauschalisierung einer heterogenen Gebäudegruppe: ‚Altbau‘ umfasst 1950er-Reihenhaus bis Gründerzeit-Mehrfamilienhaus, mit sehr unterschiedlichen Anforderungen an Vorlauf und Heizfläche. Das Argument projiziert einen Schwierigkeitsgrad pauschal auf alle, obwohl die Fraunhofer-Daten zeigen, dass die meisten Häuser WP-tauglich sind oder mit niedrigem Aufwand werden.",
+      "counterQuestions": [
+        "Welche Vorlauftemperatur fährt dein Altbau heute — und konntest du das schon mal in der Praxis testen?",
+        "Wenn Fraunhofer ISE im unsanierten Bestand JAZ um 3,1 misst — was unterscheidet dein Haus genau?",
+        "Welche kostengünstige Optimierung (Heizkurve, hydraulischer Abgleich, Heizkörper-Tausch in einem Raum) hast du schon prüfen lassen?"
+      ]
     },
     {
       "id": "fernwaerme-warten",
@@ -1123,7 +1213,13 @@
         "wasserstoff-fernwaerme",
         "politik-status"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Wunschdenken: ‚Fernwärme kommt schon‘ ist nicht in jedem Quartier realistisch — Wirtschaftlichkeit, Bebauungsdichte und Investitionsplanung entscheiden lokal. Wer wartet, ohne dass die kommunale Wärmeplanung sein Quartier benannt hat, riskiert in den Ausbau-Lücken zu landen.",
+      "counterQuestions": [
+        "Was sagt deine kommunale Wärmeplanung konkret zu deinem Quartier — Fernwärme-Ausbau geplant: ja oder nein?",
+        "Wenn dein Quartier nicht aufgenommen wird, was ist dein Plan B — und ab wann muss er greifen?",
+        "Hat dein Versorger dir verbindliche Anschluss-Daten und Preise genannt, oder bisher nur ‚Möglichkeiten‘?"
+      ]
     },
     {
       "id": "foerderung-bald-weg",
@@ -1139,7 +1235,13 @@
       "relatedSections": [
         "foerderung"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Aufschiebe-Argument unter falscher Knappheit. Tatsächlich läuft die KfW 458 weiter, der Klimageschwindigkeitsbonus von 20 % bleibt bis Ende 2028 und sinkt erst danach. ‚Bald weg‘ macht Druck ohne konkrete Frist, was Entscheidungsdruck erzeugt, aber die rationalere Planung verhindert.",
+      "counterQuestions": [
+        "Wusstest du, dass der Klimageschwindigkeitsbonus bis Ende 2028 bei 20 % bleibt und erst ab 2029 alle zwei Jahre um drei Prozentpunkte sinkt?",
+        "Bei einer Tauschplanung ab 2030 wäre der Bonus 17 %, ab 2031 nur 14 % — wieviel Euro Differenz ist das in deinem Fall konkret?",
+        "Welche Haushaltsentscheidung wäre für dich der Auslöser, doch zu planen — und wie hoch ist das Risiko, dass sie eintritt?"
+      ]
     },
     {
       "id": "ets2-preisdeckel",
@@ -1155,7 +1257,13 @@
       "relatedSections": [
         "co2-preis"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Verharmlosung mit Schein-Sicherheit: Die 45-EUR-Schwelle der Marktstabilitätsreserve wird als ‚Preisdeckel‘ missverstanden. Tatsächlich ist sie eine Eingriffsschwelle ohne harte Obergrenze; die EU-Kommission und das EU-Parlament debattieren aktuell darüber, ob die Schwelle überhaupt über 2029 hinaus bestehen bleibt. Wunsch wird mit Mechanismus verwechselt.",
+      "counterQuestions": [
+        "Welche Quelle nennt einen tatsächlichen Preisdeckel im ETS 2 — und wie unterscheidet sich der von der MSR-Eingriffsschwelle?",
+        "Wenn EWI-Szenarien Preise > 150 EUR/t für 2030 nicht ausschließen — was wäre dein Plan für deine Gasheizung?",
+        "Wenn das Parlament im April 2026 fordern muss, die 45-EUR-Schwelle über 2029 hinaus zu verlängern — was sagt das über ihren heutigen Status?"
+      ]
     }
   ],
   "sources": [
