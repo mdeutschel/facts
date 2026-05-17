@@ -5,14 +5,14 @@
   "seoTitle": "Energiewende & Atomkraft: Argumente, Kosten, Versorgung",
   "seoDescription": "Hätten AKW die Gaskrise gelöst? Sind SMRs realistisch? Antworten zu Atomausstieg, Strommix und Versorgungssicherheit — Quellen BNetzA und Fraunhofer.",
   "icon": "bolt",
-  "lastUpdated": "2026-03-20",
+  "lastUpdated": "2026-05-17",
   "keyStats": [
-    "55,3 % Erneuerbare am Stromverbrauch 2025",
-    "AKW-Neubau deutlich teurer als Wind/Solar",
+    "55,1 % Erneuerbare am Bruttostromverbrauch 2025 (BDEW/ZSW)",
+    "AKW-Neubau deutlich teurer als Wind/Solar (Lazard LCOE)",
     "400 GW beantragte Speicherleistung",
-    "8 Argumente"
+    "Industriestrompreis 2026-2028 (50 €/MWh, EU genehmigt)"
   ],
-  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand März 2026). Wo Exaktwerte unsicher oder methodisch schwer vergleichbar sind, werden konservative Spannweiten oder qualitative Aussagen verwendet.",
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand Mai 2026). Zentrale neuere Quellen: BDEW/ZSW (EE-Anteil 2025), Destatis (Stromerzeugung 2025 endgültig), Bundesnetzagentur (Strommarktdaten 2025), IWR (Windausbau Q1 2026), BMWE (Industriestrompreis 2026-2028, EU-Kommission-Genehmigung April 2026), Fraunhofer ISE / energy-charts.info, Lazard LCOE+ v18.0.",
   "sections": [
     {
       "id": "atomausstieg",
@@ -313,10 +313,10 @@
         },
         {
           "type": "fact",
-          "text": "2025 stammten 55,3 % des Stromverbrauchs aus Erneuerbaren – bei gleichzeitig historisch niedriger Kohleverstromung.",
+          "text": "2025 stammten 55,1 % des Bruttostromverbrauchs aus Erneuerbaren (BDEW/ZSW vorläufig); auf Basis der inländisch eingespeisten Stromerzeugung waren es 58,6 % (Destatis). Wind blieb mit 30,0 % wichtigste Quelle, Photovoltaik erreichte einen neuen Höchstwert von 16,0 %; Kohle fiel auf 22,1 %.",
           "highlight": true,
           "sourceRefs": [
-            "agora-energiewende-stand-der-dinge-2025-strommix"
+            "destatis-stromerzeugung-2025"
           ]
         }
       ]
@@ -455,6 +455,27 @@
           "highlight": true,
           "sourceRefs": [
             "lazard-lcoe-v18-0-juni-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "industriestrompreis",
+      "title": "Industriestrompreis 2026-2028",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Bundesregierung hat im Koalitionsausschuss einen Industriestrompreis für die Jahre 2026 bis 2028 beschlossen. Die EU-Kommission hat die Beihilferegelung im April 2026 genehmigt. Energieintensive Unternehmen aus 91 förderfähigen Branchen (u. a. Chemie, Glas, Gummi- und Kunststoffwaren, Teile der Halbleiterherstellung) bekommen ihren Strompreis auf 50 €/MWh (5 ct/kWh) gedeckelt — maximal für die Hälfte ihres Jahresverbrauchs.",
+          "sourceRefs": [
+            "bmwe-industriestrompreis-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Anträge werden 2027 rückwirkend für das gesamte Jahr 2026 gestellt; zuständig ist das Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA). Politisch bleibt offen, ob der Industriestrompreis ab 2029 verlängert oder durch andere Instrumente abgelöst wird.",
+          "highlight": true,
+          "sourceRefs": [
+            "bmwe-industriestrompreis-2026"
           ]
         }
       ]
@@ -1004,6 +1025,13 @@
         {
           "type": "text",
           "text": "Die Ziele für 2030 erfordern noch mehr: 19,6 GW/Jahr Solar und 9,4 GW/Jahr Wind onshore. Der Fokus muss auf EE-Beschleunigung liegen, nicht auf AKW-Debatten."
+        },
+        {
+          "type": "fact",
+          "text": "Q1 2026 setzt sich der Trend fort: 1.065 MW Wind onshore wurden neu in Betrieb genommen (+3,5 % gegenüber Q1 2025), zusätzlich 467,6 MW Wind offshore. PV-Zubau Januar 2026: 1.149 MW, Februar 930 MW. Branchenexperten erwarten für das Gesamtjahr 2026 bis zu 20 GW PV-Zubau.",
+          "sourceRefs": [
+            "iwr-windausbau-q1-2026"
+          ]
         }
       ]
     },
@@ -1415,6 +1443,21 @@
       "id": "science-feedback-diesel-wind-farms-2024",
       "label": "Science Feedback: Diesel generators did not power wind farms in Scotland, nor anywhere else",
       "url": "https://science.feedback.org/review/diesel-generators-do-not-power-wind-farms/"
+    },
+    {
+      "id": "destatis-stromerzeugung-2025",
+      "label": "Destatis – Stromerzeugung Deutschland 2025 (Photovoltaik und Erdgas auf Höchstwerten, März 2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_073_43312.html"
+    },
+    {
+      "id": "bmwe-industriestrompreis-2026",
+      "label": "BMWE – Industriestrompreis 2026-2028 (EU-Kommission genehmigt, April 2026)",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/2026/04/20260416-industriestrompreis-wird-eingefuehrt.html"
+    },
+    {
+      "id": "iwr-windausbau-q1-2026",
+      "label": "IWR – Windenergie-Zubau Q1 2026 (Wind onshore +3,5 %)",
+      "url": "https://www.iwr.de/news/windenergie-zubau-in-deutschland-steigt-im-ersten-quartal-2026-um-fast-50-prozent-windstromerzeugung-legt-kraeftig-zu-news39623"
     }
   ],
   "relatedTopicIds": [
