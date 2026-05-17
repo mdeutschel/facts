@@ -5,7 +5,7 @@
   "seoTitle": "Migration & Asyl: Zahlen, Argumente & Fakten 2026",
   "seoDescription": "Werden wir überrannt? Sind Geflüchtete krimineller? Antworten zu Asylzahlen, Arbeitsmarkt, Kriminalität und Integration — Quellen BAMF, BKA und IAB.",
   "icon": "public",
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-05-17",
   "keyStats": [
     "113.236 Asylerstanträge in 2025 (-50,7 % zu 2024)",
     "64 % Beschäftigungsquote bei 2015 zugezogenen Geflüchteten",
@@ -827,12 +827,18 @@
       "relatedSections": [
         "asylzahlen"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole arbeitet mit Dramatisierungs-Sprache (‚explodieren‘, ‚überrannt‘), die emotionale Bedrohung suggeriert, ohne sich an konkreten Zahlen zu messen. Die Wahrnehmung folgt oft alten Spitzenwerten (2015/2016 oder 2022/2023) statt der aktuellen Entwicklung. Wer ‚immer weiter‘ sagt, hat den Trend nicht im Blick.",
+      "counterQuestions": [
+        "Auf welche Zahl beziehst du dich konkret — und aus welchem Jahr?",
+        "Wie haben sich die Asylzahlen seit 2024 entwickelt — weißt du das?",
+        "Wenn die Zahlen seit zwei Jahren rückläufig sind: ändert das deine Einschätzung?"
+      ]
     },
     {
       "id": "leben-vom-buergergeld",
       "claim": "Die Flüchtlinge von 2015 leben alle nur vom Bürgergeld und arbeiten nicht.",
-      "response": "Die IAB-Daten zeigen etwas anderes: Ende 2024 lag die Beschäftigungsquote der 2015 zugezogenen Geflüchteten bei 64 % – nahe am Bevölkerungsdurchschnitt von 70 %. 84 % der abhängig Beschäftigten können ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten. ‚Alle leben vom Bürgergeld' ist damit klar falsch.",
+      "response": "Tatsächlich arbeitet die Mehrheit: Die IAB-Daten zeigen für die 2015 zugezogenen Geflüchteten Ende 2024 eine Beschäftigungsquote von 64 % – nahe am Bevölkerungsdurchschnitt von 70 %. 84 % der abhängig Beschäftigten können ihren Lebensunterhalt ohne ergänzende Leistungen bestreiten. ‚Alle leben vom Bürgergeld‘ ist damit klar falsch.",
       "keywords": [
         "Bürgergeld",
         "arbeiten nicht",
@@ -844,7 +850,13 @@
       "relatedSections": [
         "arbeitsmarkt"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Zwei Muster greifen ineinander: die absolute Pauschalisierung (‚alle‘) und das Anekdotenargument (‚ich kenne aber jemanden …‘). ‚Alle‘ macht jede Statistik mit auch nur einer Ausnahme zur Widerlegung — und blendet aus, dass Integration in den Arbeitsmarkt ein Prozess über Jahre ist, kein Zustand bei Ankunft.",
+      "counterQuestions": [
+        "‚Alle‘ ist eine starke Aussage — woran konkret machst du das fest?",
+        "Wenn 64 % der 2015 Zugezogenen heute erwerbstätig sind, wie passt das zu ‚alle leben vom Bürgergeld‘?",
+        "Was wäre für dich ein Beleg, dass Integration gelungen ist — und nach wie vielen Jahren würdest du das messen?"
+      ]
     },
     {
       "id": "nehmen-jobs-weg",
@@ -885,7 +897,13 @@
       "relatedSections": [
         "kriminalitaet"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole zitiert eine Rohzahl ohne die Kontextfaktoren, die das BKA selbst nennt: Alter, Geschlecht, soziale Lage und Anzeigeverhalten. In jeder Bevölkerung gilt — junge Männer in prekären Verhältnissen sind statistisch häufiger tatverdächtig. Wer den Durchschnitt der Gesamtbevölkerung mit einer spezifischen Untergruppe vergleicht, vergleicht Tomate mit Apfel.",
+      "counterQuestions": [
+        "Wenn man junge Männer in prekären Verhältnissen mit dem Bevölkerungsdurchschnitt vergleicht — welche Gruppe wäre statistisch krimineller, unabhängig von der Staatsangehörigkeit?",
+        "Was misst die PKS eigentlich — Verurteilte oder Tatverdächtige?",
+        "Wäre es für dich aussagekräftiger, Deutsche und Nichtdeutsche in vergleichbarer Lebenslage gegenüberzustellen, oder Durchschnitte gegen Untergruppen?"
+      ]
     },
     {
       "id": "kosten-migration",
@@ -903,12 +921,18 @@
         "kosten",
         "arbeitsmarkt"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole rechnet einseitig brutto statt netto: Sie zählt nur die Ausgaben, blendet aber Steuern, Sozialabgaben, Konsum und Wertschöpfung der Erwerbstätigen aus. Das ‚bringt nichts‘ unterstellt zudem einen Maßstab, an dem auch jede andere staatliche Ausgabe scheitern würde — wenn man sie isoliert betrachtet.",
+      "counterQuestions": [
+        "Wie hoch sind eigentlich die Steuern und Sozialabgaben, die heute erwerbstätige Geflüchtete zahlen — weißt du das?",
+        "Würdest du eine reine Kostenrechnung auch bei deutschen Steuerzahlern aufmachen, ohne deren Beiträge gegenzurechnen?",
+        "Wenn bis Mitte der 2030er 3,2 Millionen Erwerbsfähige fehlen — was wäre die Alternative zu Integrationsausgaben?"
+      ]
     },
     {
       "id": "ungebildet",
       "claim": "Die meisten Geflüchteten sind ungebildet und können hier gar nicht arbeiten.",
-      "response": "Rund die Hälfte der beschäftigten Geflüchteten arbeitet 7–8 Jahre nach Zuzug als Fachkraft oder Spezialist. 56 % der Integrationskursteilnehmer erreichen das Sprachniveau B1, über 88 % mindestens A2. Die Zahlen zeigen: Integration braucht Zeit, aber sie funktioniert – und zwar in qualifizierte Beschäftigung hinein.",
+      "response": "Tatsächlich arbeitet rund die Hälfte der beschäftigten Geflüchteten 7–8 Jahre nach Zuzug als Fachkraft oder Spezialist. 56 % der Integrationskursteilnehmer erreichen das Sprachniveau B1, über 88 % mindestens A2. Integration braucht Zeit, aber sie funktioniert – und zwar in qualifizierte Beschäftigung hinein.",
       "keywords": [
         "Bildung",
         "ungebildet",
@@ -921,7 +945,13 @@
         "arbeitsmarkt",
         "integrationskurse"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole verwechselt den Anfangszustand mit dem Endzustand: Beim Ankommen sind Sprache und formale Anerkennung tatsächlich Hürden, aber das wird als statische Eigenschaft projiziert. ‚Ungebildet‘ ist außerdem eine andere Behauptung als ‚noch nicht anerkannt‘ — ein syrischer Arzt ohne deutsche Approbation ist nicht ungebildet, sondern hat ein Übergangsproblem.",
+      "counterQuestions": [
+        "Wie lange ist für dich Zeit für Integration veranschlagt — Monate, Jahre?",
+        "Wenn ein syrischer Arzt erst Deutsch lernen und sein Diplom anerkennen lassen muss: Ist er dann ‚ungebildet‘ oder hat er ein Übergangsproblem?",
+        "Welche Berufe wären in Deutschland unbesetzt, wenn die Hälfte der beschäftigten Geflüchteten als Fachkraft arbeitet?"
+      ]
     },
     {
       "id": "abschieben-statt-integrieren",
@@ -937,7 +967,13 @@
       "relatedSections": [
         "abschiebungen"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Das Wort ‚einfach‘ macht aus einer rechtsstaatlich und praktisch komplexen Aufgabe eine reine Willensfrage. Es blendet aus, was Abschiebungen real verhindert: fehlende Papiere, fehlende Rücknahmeabkommen, medizinische Hindernisse, gerichtliche Schutzwege und Grundrechte. Wer ‚einfach‘ fordert, muss konkret werden, welche dieser Hürden er beseitigen will.",
+      "counterQuestions": [
+        "Wenn ‚einfach abschieben‘ funktionieren würde — warum scheitern dann 61 % der konkreten Versuche?",
+        "Wohin würdest du jemanden abschieben, dessen Herkunftsland keine Papiere ausstellt?",
+        "Welche rechtliche Hürde (Asylrecht, EMRK, Folterschutz) würdest du konkret abschaffen wollen — und mit welcher verfassungsrechtlichen Folge?"
+      ]
     },
     {
       "id": "alle-kommen-nach-deutschland",
@@ -953,12 +989,18 @@
       "relatedSections": [
         "eu-vergleich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole ‚alle‘ funktioniert nur, wenn man absolute Zahlen mit relativer Last verwechselt. Deutschland ist als großes Land bei absoluten Antragszahlen oft vorn, aber pro Kopf liegen kleinere EU-Länder wie Zypern deutlich höher. ‚Kein anderes Land‘ ignoriert außerdem, dass 75 % der EU-Anträge in anderen Mitgliedsstaaten gestellt werden.",
+      "counterQuestions": [
+        "Was ist für dich der fairere Maßstab — absolute Zahl oder Anteil an der Bevölkerung?",
+        "Würdest du Zypern mit 7.000 Anträgen pro Million Einwohner als ‚nimmt keine auf‘ bezeichnen?",
+        "Wenn Deutschland 25 % der EU-Anträge stellt: Was ist mit den anderen 75 %?"
+      ]
     },
     {
       "id": "integration-funktioniert-nicht",
       "claim": "Integration funktioniert in Deutschland einfach nicht!",
-      "response": "Die Daten widersprechen dem: 64 % der 2015 zugezogenen Geflüchteten sind erwerbstätig (Durchschnitt: 70 %), 50 % arbeiten als Fachkräfte, 88 % der Kursteilnehmer erreichen mindestens A2-Deutschniveau, und 2024 gab es 291.955 Einbürgerungen (Rekord). Die durchschnittliche Aufenthaltsdauer bei Einbürgerung beträgt 11,8 Jahre – Integration ist ein Generationenprojekt, kein Sprint.",
+      "response": "Tatsächlich funktioniert sie, wenn auch nicht über Nacht: 64 % der 2015 zugezogenen Geflüchteten sind erwerbstätig (Bevölkerungsschnitt: 70 %), 50 % arbeiten als Fachkräfte, 88 % der Kursteilnehmer erreichen mindestens A2-Deutschniveau, und 2024 gab es 291.955 Einbürgerungen (Rekord). Die durchschnittliche Aufenthaltsdauer bei Einbürgerung beträgt 11,8 Jahre – Integration ist ein Generationenprojekt, kein Sprint.",
       "keywords": [
         "Integration",
         "funktioniert nicht",
@@ -970,7 +1012,13 @@
         "integrationskurse",
         "einbuergerungen"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole bewertet pauschal, ohne einen Maßstab zu nennen: ‚Funktioniert nicht‘ — verglichen womit? Welche Quote, welcher Zeitrahmen wäre Erfolg? Oft fließen einzelne negative Beobachtungen zu einem Gesamturteil zusammen, während die statistische Mehrheit, für die Integration gelingt, unsichtbar bleibt.",
+      "counterQuestions": [
+        "Woran würdest du erkennen, dass Integration funktioniert — Beschäftigungsquote, Sprache, Einbürgerung, etwas anderes?",
+        "Wenn 64 % nach 9 Jahren erwerbstätig sind (gegenüber 70 % Bevölkerungsschnitt) — wie viel Abstand wäre für dich noch ein ‚funktioniert nicht‘?",
+        "Wie viel deiner Einschätzung kommt aus eigenen Beobachtungen, wie viel aus Medienberichten?"
+      ]
     },
     {
       "id": "fruher-ging-es-ohne",
@@ -986,7 +1034,13 @@
         "historischer-kontext",
         "demografie"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole stützt sich auf eine falsche historische Erinnerung. Deutschland war seit 1955 Einwanderungsland — Gastarbeiter, Spätaussiedler, EU-Freizügigkeit. ‚Früher‘ meint also meist eine Phase, die so nie existiert hat. Zusätzlich verschiebt das ‚brauchen‘ den Rahmen von Recht (Asyl) auf Nutzen — zwei Fragen, die getrennt zu beantworten sind.",
+      "counterQuestions": [
+        "Wann genau ist für dich ‚früher‘ — die 50er, die 80er, die 2000er?",
+        "Wie hätte sich die deutsche Wirtschaft ohne die Gastarbeiter ab 1955 entwickelt, deiner Meinung nach?",
+        "Wenn bis Mitte der 2030er 3,2 Millionen Erwerbsfähige fehlen: Welcher inländische Reservepool soll diese Lücke schließen?"
+      ]
     },
     {
       "id": "einbuergerung-verschenkt",
@@ -1002,7 +1056,13 @@
       "relatedSections": [
         "einbuergerungen"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Das Schlagwort ‚verschenkt‘ framt ein rechtsstaatlich geregeltes Verfahren als Gnaden-Akt. Tatsächlich gelten weiterhin Mindestaufenthalt, Sprachprüfung, eigenständige Lebensunterhaltssicherung und das Bekenntnis zur freiheitlich-demokratischen Grundordnung. Wer ‚verschenkt‘ sagt, blendet die Voraussetzungen aus.",
+      "counterQuestions": [
+        "Was sind nach deinem Kenntnisstand die heutigen Voraussetzungen für eine Einbürgerung?",
+        "Wenn ‚verschenkt‘ stimmen würde — warum dauert es im Schnitt 11,8 Jahre bis zur Einbürgerung?",
+        "Welcher Mindestaufenthalt wäre für dich angemessen — 5, 8, 10 Jahre? Und warum?"
+      ]
     },
     {
       "id": "brauchen-keine-fachkraefte",
@@ -1018,7 +1078,13 @@
         "demografie",
         "fachkraefteeinwanderung"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole nimmt eine konstante Erwerbsbevölkerung an und blendet die Demografie aus. Mit dem Renteneintritt der Babyboomer schrumpft das inländische Arbeitskräfteangebot systematisch — schon heute sind in Pflege, Handwerk, IT und Gastronomie Stellen unbesetzt. ‚Genug Deutsche‘ würde voraussetzen, dass das so bleibt.",
+      "counterQuestions": [
+        "Wie viele Pflegefachkräfte fehlen aktuell in Deutschland — und wo sollen die herkommen, wenn nicht aus Zuwanderung?",
+        "Wenn bis Mitte der 2030er 3,2 Millionen Erwerbsfähige fehlen — woher sollen die ‚genug Deutschen‘ kommen?",
+        "Wer ersetzt deiner Erwartung nach die Babyboomer ab 2030 in Beruf und Pflege?"
+      ]
     },
     {
       "id": "remigration-ist-nur-abschiebung",
@@ -1035,7 +1101,13 @@
         "abschiebungen",
         "einbuergerungen"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole verharmlost durch Begriffsverengung: ‚Remigration‘ wird auf einen unstrittigen Teilfall (Abschiebung straffälliger Nichtdeutscher) reduziert, während der politische Begriff bei seinen Urhebern deutlich weiter reicht — bis zu Menschen mit gesichertem Aufenthalt oder sogar Eingebürgerten. So lädt der Begriff Zustimmung für eine engere Lesart ab, die in der Praxis nicht eingehalten wird.",
+      "counterQuestions": [
+        "Wen genau soll ‚Remigration‘ deiner Meinung nach betreffen — nur verurteilte Straftäter ohne deutschen Pass, oder mehr?",
+        "Was soll mit Eingebürgerten geschehen, die seit Jahren hier sind?",
+        "Wenn ‚Remigration‘ nur die Abschiebung Krimineller meinte — warum verwenden die, die den Begriff geprägt haben, ihn deutlich weiter?"
+      ]
     },
     {
       "id": "asylrecht-abschaffen-land",
@@ -1051,7 +1123,13 @@
       "relatedSections": [
         "asylzahlen"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Zwei Annahmen sind falsch: erstens, dass ein Bundesland Asylrecht abschaffen kann (es steht im Grundgesetz, Art. 16a, und ist Bundes- bzw. EU-Materie). Zweitens, dass das Asylrecht die Zahlen treibt — diese sinken 2024/25 deutlich, ohne dass am Recht etwas geändert wurde. Föderale Kompetenz und kausaler Zusammenhang werden beide verkannt.",
+      "counterQuestions": [
+        "Welcher Artikel des Grundgesetzes regelt das Asylrecht — und kann ein Bundesland den ändern?",
+        "Wenn die Asylzahlen 2025 schon um über 50 % gesunken sind: Warum braucht es deiner Meinung nach jetzt die Abschaffung des Rechts?",
+        "Was kann ein Bundesland in der Asyl- und Migrationspolitik konkret tun, ohne Verfassung oder EU-Recht zu verletzen?"
+      ]
     }
   ],
   "sources": [
