@@ -10,7 +10,7 @@
     "113.236 Asylerstanträge in 2025 (-50,7 % zu 2024)",
     "64 % Beschäftigungsquote bei 2015 zugezogenen Geflüchteten",
     "291.955 Einbürgerungen 2024 (Rekord)",
-    "14 Argumente"
+    "16 Argumente"
   ],
   "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen offizieller Institutionen: BAMF, BKA, Destatis, IAB, Eurostat und Mediendienst Integration (Stand Anfang 2026). Wo Exaktwerte methodisch schwer vergleichbar sind, werden konservative Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
@@ -668,6 +668,13 @@
           "sourceRefs": [
             "destatis-einbuergerungen-2024"
           ]
+        },
+        {
+          "type": "text",
+          "text": "Art. 16 Abs. 1 Grundgesetz schützt vor willkürlichem Entzug der deutschen Staatsangehörigkeit: ‚Die deutsche Staatsangehörigkeit darf nicht entzogen werden. Der Verlust darf nur auf Grund eines Gesetzes und gegen den Willen des Betroffenen nur dann eintreten, wenn der Betroffene dadurch nicht staatenlos wird.‘ Dieser Schutz ist eine direkte Lehre aus den Massenausbürgerungen im Nationalsozialismus. Eng begrenzte Verlust-Tatbestände existieren nur bei Doppelstaatlern, etwa bei Beteiligung an einer Terrororganisation im Ausland — generelle Aberkennung bei Straftaten ist verfassungsrechtlich ausgeschlossen.",
+          "sourceRefs": [
+            "gg-artikel-16"
+          ]
         }
       ]
     },
@@ -746,6 +753,42 @@
           "text": "Der starke Rückgang syrischer Anträge im Vergleich zu Vorjahren hängt u. a. mit veränderten Fluchtrouten und EU-Abkommen zusammen. Ob der Rückgang anhält, hängt von der Entwicklung in den Herkunftsregionen und der europäischen Migrationspolitik ab.",
           "sourceRefs": [
             "bamf-asylzahlen-dezember-und-gesamtjahr-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sprache-und-konzepte",
+      "title": "Sprache & Konzepte: Wie über Migration geredet wird",
+      "content": [
+        {
+          "type": "text",
+          "text": "Begriffe verschieben, was politisch sagbar ist. ‚Remigration‘ stammt ursprünglich aus der Migrations- und Exilforschung und meinte dort überwiegend freiwillige Rückkehr — etwa von Jüdinnen und Juden aus dem Exil nach 1945. Die Sprachkritische Aktion ‚Unwort des Jahres‘ wählte den Begriff 2023 zum Unwort, weil er in der politischen Verwendung der Identitären Bewegung, rechter Parteien und weiter rechter Kreise zum euphemistischen Tarnbegriff für Forderungen nach erzwungener Ausweisung bis hin zu Massendeportationen geworden ist.",
+          "sourceRefs": [
+            "unwort-des-jahres-2023-remigration"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Am 25. November 2023 trafen sich in einer Potsdamer Villa Vertreter rechtsextremer Netzwerke, AfD-Funktionäre und Geldgeber. Martin Sellner (Identitäre Bewegung) skizzierte einen ‚Remigrations‘-Plan, der drei Gruppen umfasste: Asylsuchende, Ausländer mit Bleiberecht und ‚nicht assimilierte Staatsbürger‘ — also auch deutsche Staatsangehörige mit Migrationsgeschichte. Die Recherche wurde von CORRECTIV im Januar 2024 veröffentlicht; einzelne Formulierungen wurden später gerichtlich untersagt, der zentrale Befund zur Einbeziehung von Staatsbürgern aber bestätigt (LG Hamburg, Dezember 2025).",
+          "highlight": true,
+          "sourceRefs": [
+            "correctiv-geheimplan-potsdam"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Eng damit verknüpft ist die Erzählung vom ‚großen Austausch‘. Der französische Publizist Renaud Camus prägte den Begriff 2010 als These eines ‚von Eliten gesteuerten Bevölkerungsaustausches‘. Die Bundeszentrale für politische Bildung ordnet ihn klar als Verschwörungserzählung ohne empirische Basis ein, die in der extremen Rechten häufig mit antisemitischen Stereotypen verbunden wird (‚geheime Eliten‘). Die Identitäre Bewegung Deutschlands trägt diese Erzählung seit 2013 in den öffentlichen Diskurs und ist vom Bundesamt für Verfassungsschutz seit 2019 als gesichert rechtsextremistische Bestrebung eingestuft.",
+          "sourceRefs": [
+            "bpb-grosser-austausch",
+            "bpb-identitaere-bewegung"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Empirisch gegen den ‚Austausch‘-Mythos: Die Gesamtbevölkerung in Deutschland wächst nicht durch ‚Ersetzung‘, sondern schrumpft bei den Erwerbsfähigen — bis Mitte der 2030er Jahre laut Destatis um rund 3,2 Millionen, selbst bei hoher Nettozuwanderung. Es wird niemand ‚ersetzt‘; es fehlen Menschen.",
+          "sourceRefs": [
+            "destatis-demografischer-wandel-fachkraefte"
           ]
         }
       ]
@@ -1089,24 +1132,75 @@
     {
       "id": "remigration-ist-nur-abschiebung",
       "claim": "Remigration heißt doch nur: kriminelle Ausländer abschieben.",
-      "response": "Straftäter ohne deutschen Pass konsequent abzuschieben ist rechtlich möglich und vielerorts Konsens. Der Begriff ‚Remigration‘ wird politisch aber oft weiter verwendet und umfasst je nach Konzept auch Menschen mit gesichertem Aufenthalt oder sogar Eingebürgerte. Genau da beginnt das Rechtsproblem: Abschiebung setzt eine konkrete Ausreisepflicht voraus, während deutsche Staatsangehörige nicht abgeschoben werden können. Deshalb sollte man immer konkret fragen, wer auf welcher Rechtsgrundlage gehen soll.",
+      "response": "Straftäter ohne deutschen Pass konsequent abzuschieben ist rechtlich möglich und vielerorts Konsens — aber das ist nicht, was ‚Remigration‘ im politischen Gebrauch meint. Der Begriff stammt aus der Identitären Bewegung und umfasst nach dem Konzept, das beim Potsdamer Treffen 2023 vorgestellt wurde, auch Ausländer mit Bleiberecht und ‚nicht assimilierte‘ deutsche Staatsbürger. Die Sprachkritische Aktion hat ‚Remigration‘ 2023 zum Unwort des Jahres gewählt, weil der Begriff Massendeportationen sprachlich als Rückkehr verkleidet. Wer ihn benutzt, sollte sagen, wen er meint — und ob er auch deutsche Staatsangehörige einschließt.",
       "keywords": [
+        "kriminelle Ausländer",
+        "Unwort",
+        "Ausreisepflicht",
+        "Sellner",
+        "Euphemismus",
         "Remigration",
         "abschieben",
-        "kriminelle Ausländer",
-        "Ausreisepflicht",
         "Staatsangehörigkeit"
       ],
       "relatedSections": [
-        "abschiebungen",
-        "einbuergerungen"
+        "sprache-und-konzepte",
+        "abschiebungen"
       ],
       "verdict": "misleading",
-      "rhetoricalPattern": "Die Parole verharmlost durch Begriffsverengung: ‚Remigration‘ wird auf einen unstrittigen Teilfall (Abschiebung straffälliger Nichtdeutscher) reduziert, während der politische Begriff bei seinen Urhebern deutlich weiter reicht — bis zu Menschen mit gesichertem Aufenthalt oder sogar Eingebürgerten. So lädt der Begriff Zustimmung für eine engere Lesart ab, die in der Praxis nicht eingehalten wird.",
+      "rhetoricalPattern": "Zwei Muster greifen ineinander. Erstens Begriffsverengung: Die Parole reduziert ‚Remigration‘ auf den unstrittigen Teilfall (Abschiebung straffälliger Nichtdeutscher), während der politische Begriff bei seinen Urhebern erkennbar weiter reicht. Zweitens — und das ist der eigentliche Punkt — Euphemismus: Ein akademisch klingendes Wort verschleiert, was gemeint ist. Sprache verschiebt so die Grenze des Sagbaren, und der Begriff lädt Zustimmung für eine harmlosere Lesart ab, die in der politischen Praxis nicht eingehalten wird.",
       "counterQuestions": [
         "Wen genau soll ‚Remigration‘ deiner Meinung nach betreffen — nur verurteilte Straftäter ohne deutschen Pass, oder mehr?",
-        "Was soll mit Eingebürgerten geschehen, die seit Jahren hier sind?",
-        "Wenn ‚Remigration‘ nur die Abschiebung Krimineller meinte — warum verwenden die, die den Begriff geprägt haben, ihn deutlich weiter?"
+        "Warum braucht es für ‚nur Straftäter abschieben‘ einen neuen Begriff, wenn das Wort ‚Abschiebung‘ ja existiert und genau das beschreibt?",
+        "Was passiert nach deinem Begriff mit Eingebürgerten oder Menschen mit gesichertem Aufenthalt, die seit Jahren hier sind?"
+      ]
+    },
+    {
+      "id": "staatsbuergerschaft-aberkennen",
+      "claim": "Wer als Eingebürgerter Straftaten begeht, dem muss die Staatsbürgerschaft entzogen werden!",
+      "response": "Die deutsche Staatsangehörigkeit darf laut Art. 16 Grundgesetz nicht entzogen werden — das ist eine bewusste Lehre aus den NS-Massenausbürgerungen. Ein Verlust ist nur eng begrenzt zulässig, und auch dann nur, wenn keine Staatenlosigkeit eintritt (also faktisch nur bei Doppelstaatlern, etwa bei Beteiligung an einer Terrororganisation im Ausland). Eine generelle Aberkennung bei Straftaten würde zwei Klassen von Deutschen schaffen: geborene Deutsche, die für dieselbe Tat ihren Pass behielten, und Eingebürgerte, die ihn verlören — das verstößt gegen Art. 3 GG (Gleichheit) und ist verfassungsrechtlich ausgeschlossen.",
+      "keywords": [
+        "Staatsbürgerschaft",
+        "aberkennen",
+        "entziehen",
+        "Eingebürgerte",
+        "Art. 16",
+        "Doppelpass"
+      ],
+      "relatedSections": [
+        "einbuergerungen",
+        "sprache-und-konzepte"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Forderung verschiebt eine rechtsstaatliche Statusfrage (Staatsangehörigkeit) in den Bereich verhältnismäßiger Strafe. Sie verkennt den historischen Zweck von Art. 16 GG — der Schutz vor willkürlicher Ausbürgerung war eine direkte Antwort auf die NS-Praxis. Und sie produziert Kategorien von Deutschen mit unterschiedlichen Rechten: Wer den deutschen Pass von Geburt hat, behält ihn auch nach Straftat; wer ihn erworben hat, wäre ihn los. Genau das untersagt Art. 3 GG.",
+      "counterQuestions": [
+        "Wäre es für dich verfassungskonform, dass ein in Deutschland geborener Deutscher für dieselbe Tat den Pass behält, ein Eingebürgerter aber nicht?",
+        "Was sind die Lehren aus den NS-Massenausbürgerungen für dich — die genau diesen GG-Schutz begründet haben?",
+        "Würde dein Vorschlag auch Doppelstaatler ohne Verbindung zu einer Terrororganisation treffen — und wenn ja, mit welcher Rechtsgrundlage?"
+      ]
+    },
+    {
+      "id": "bevoelkerungsaustausch",
+      "claim": "Es findet ein Bevölkerungsaustausch statt — wir werden ausgetauscht!",
+      "response": "Es findet kein Austausch statt — die Daten zeigen das Gegenteil. Die Erwerbsbevölkerung in Deutschland schrumpft laut Destatis bis Mitte der 2030er um rund 3,2 Millionen Menschen, selbst bei hoher Nettozuwanderung. Es wird niemand ‚ersetzt‘; es fehlen Menschen. Die Erzählung vom ‚großen Austausch‘ stammt vom französischen Publizisten Renaud Camus (2010) und wurde von der Identitären Bewegung (seit 2019 vom Bundesamt für Verfassungsschutz als gesichert rechtsextrem eingestuft) in den Diskurs getragen. Die Bundeszentrale für politische Bildung ordnet sie als Verschwörungserzählung ohne empirische Basis ein, die häufig mit antisemitischen Stereotypen einer ‚geheimen Elite‘ verbunden wird.",
+      "keywords": [
+        "Bevölkerungsaustausch",
+        "Großer Austausch",
+        "Umvolkung",
+        "Ersatz",
+        "Identitäre",
+        "Verschwörung"
+      ],
+      "relatedSections": [
+        "sprache-und-konzepte",
+        "demografie"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole verbindet zwei Denkmuster. Erstens ein völkisches Bild von Bevölkerung als geschlossener, ‚auszutauschender‘ Einheit — eine Sicht, die individuelle Staatsbürgerschaft als zentrales Kriterium ausblendet. Zweitens ein klassisches Verschwörungsmuster: Migration ist nicht zufälliges Ergebnis globaler Bewegungen, sondern angeblicher Plan einer ‚Elite‘. Genau diese Struktur (handelnde Geheimakteure, klares Ziel der Mehrheits-Ablösung) macht aus einer politischen Behauptung eine Verschwörungserzählung.",
+      "counterQuestions": [
+        "Wer genau soll diesen Austausch nach deiner Vorstellung planen oder steuern — und mit welchem belegbaren Hinweis?",
+        "Wenn die Erwerbsbevölkerung laut Destatis bis Mitte der 2030er um 3,2 Millionen schrumpft — wo soll der Austausch zahlenmäßig herkommen?",
+        "Würdest du den deutschen Pass eines hier geborenen Kindes mit Migrationsgeschichte als ‚Austausch‘ einordnen — oder als Teil der deutschen Bevölkerung?"
       ]
     },
     {
@@ -1227,6 +1321,31 @@
       "id": "bmi-zustaendigkeit-migration",
       "label": "BMI: Zuständigkeiten in der Migrationspolitik (Bundesebene)",
       "url": "https://www.bmi.bund.de/DE/themen/migration/migration-node.html"
+    },
+    {
+      "id": "unwort-des-jahres-2023-remigration",
+      "label": "Sprachkritische Aktion: Unwort des Jahres 2023 – Remigration",
+      "url": "https://www.uni-marburg.de/de/aktuelles/news/2024/unwort-des-jahres-2023-remigration"
+    },
+    {
+      "id": "correctiv-geheimplan-potsdam",
+      "label": "CORRECTIV: Geheimplan gegen Deutschland – Potsdamer Treffen",
+      "url": "https://correctiv.org/aktuelles/neue-rechte/2024/01/10/geheimplan-remigration-vertreibung-afd-rechtsextreme-november-treffen/"
+    },
+    {
+      "id": "bpb-grosser-austausch",
+      "label": "bpb: Die Erzählung vom ‚großen Austausch‘",
+      "url": "https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/549525/die-erzaehlung-vom-grossen-austausch/"
+    },
+    {
+      "id": "bpb-identitaere-bewegung",
+      "label": "bpb: Identitäre Bewegung – Dossier Rechtsextremismus",
+      "url": "https://www.bpb.de/themen/rechtsextremismus/dossier-rechtsextremismus/500787/identitaere-bewegung/"
+    },
+    {
+      "id": "gg-artikel-16",
+      "label": "Grundgesetz Art. 16 (Staatsangehörigkeit, Auslieferung)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_16.html"
     }
   ],
   "relatedTopicIds": [
