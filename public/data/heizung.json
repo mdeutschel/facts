@@ -5,14 +5,15 @@
   "seoTitle": "Wärmepumpe vs. Gasheizung 2026: Argumente & Fakten",
   "seoDescription": "Lohnt sich die Wärmepumpe? Wie wirken ETS 2 und das geplante GModG? Quellengeprüfte Antworten zu den häufigsten Behauptungen rund um den Heizungswechsel.",
   "icon": "heat_pump",
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-05-17",
   "keyStats": [
     "21,7 Mio. Heizungen",
     "299.000 WP 2025 (+55 %)",
-    "Gesamtmarkt -12 %, niedrigster Stand seit 15 Jahren",
-    "ETS 2 voller Start 2028"
+    "Q1 2026: WP +34 %, Gesamtmarkt +16 %",
+    "ETS 2 voller Start 2028",
+    "GModG: Kabinettsbeschluss 13.5.2026"
   ],
-  "sourceNote": "Stand 10. Mai 2026. Primärquellen: Fraunhofer ISE (WP-QS, Nov. 2025), Fraunhofer IEE (WP im Stromnetz, April 2026), BWP-Absatzstatistik & Branchenstudie 2026, BDH, BDEW, Destatis (Zensus 2022 / Heizungsart Neubau 2024), DEHSt (EU-ETS 2), KfW (Programm 458), Bundesnetzagentur (§ 14a EnWG), BMWE (Wärmeplanungsgesetz-Novelle), DIW Berlin, EHPA, VKU, dena Gebäudereport 2026, Verbraucherzentrale, EU-Kommission, EU-Gebäuderichtlinie 2024/1275.",
+  "sourceNote": "Stand 17. Mai 2026. Primärquellen: Fraunhofer ISE (WP-QS, Nov. 2025), Fraunhofer IEE (WP im Stromnetz, April 2026), BWP/BDH-Marktdaten (2025-Jahr und Q1 2026), BWP-Branchenstudie 2026, BDEW, Destatis (Zensus 2022 / Heizungsart Neubau 2024), DEHSt (EU-ETS 2), KfW (Programm 458), Bundesnetzagentur (§ 14a EnWG), BMWE (Wärmeplanungsgesetz-Novelle), Bundesregierung (GModG-Kabinettsbeschluss 13.5.2026), Europäisches Parlament (ETS-2 MSR-Reform April 2026), DIW Berlin, EHPA, VKU, dena Gebäudereport 2026, Verbraucherzentrale, EU-Kommission, EU-Gebäuderichtlinie 2024/1275.",
   "sections": [
     {
       "id": "status-quo",
@@ -65,8 +66,9 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Rechtslage ist 2026 in Bewegung. Geltendes Recht ist weiterhin das Gebäudeenergiegesetz (GEG); seine 65-Prozent-Regel für neue Heizungen gilt in Großstädten (>100.000 EW) zunächst bis Ende Oktober 2026, weil die Übergangsfrist verlängert wurde. Parallel laufen Reform-Vorhaben — sie sind aber überwiegend Eckpunkte oder Referentenentwürfe, kein beschlossenes Recht.",
+          "text": "Am 13. Mai 2026 hat das Bundeskabinett das Gebäudemodernisierungsgesetz (GModG) beschlossen — Bauministerin Verena Hubertz (SPD) und Wirtschaftsministerin Katherina Reiche (CDU) brachten den Entwurf ein. Der Beschluss sieht vor: Die 65-Prozent-Regel für neue Heizungen entfällt, der Heizungstyp bleibt technologieoffen (Gas- und Ölheizungen weiterhin zulässig), Mieter werden vor unwirtschaftlichen Installationen geschützt, ab 2029 greifen verpflichtende Bio-/H2-Anteile (‚Bio-Treppe‘). Das Verfahren ist nach Art. 76 Abs. 2 Satz 4 GG als besonders eilbedürftig eingestuft; der Bundestag soll vor der Sommerpause Mitte Juli 2026 entscheiden. Bis zum Inkrafttreten gilt weiter das GEG mit der 65-Prozent-Regel (in Großstädten >100.000 EW noch bis Ende Oktober 2026 in Übergangsfrist).",
           "sourceRefs": [
+            "bundesregierung-gmodg-kabinettsbeschluss-2026-05-13",
             "geg-gebaeudeenergiegesetz",
             "energie-fachberater-gmodg-status"
           ]
@@ -194,6 +196,14 @@
           "text": "Rechenbeispiel: 55 EUR/t CO2 entsprechen rund 1,1 Ct/kWh Aufschlag auf den Gaspreis (~220 EUR/Jahr bei 20.000 kWh). Bei marktbasiert höheren Preisen wächst dieser Anteil entsprechend; konkrete Pfade sind szenarioabhängig.",
           "sourceRefs": [
             "ewi-koeln-auswirkungen-und-preispfade-des-eu"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die EU-Kommission hat im April 2026 einen Reformvorschlag zur ETS-2-Marktstabilitätsreserve eingebracht; das Europäische Parlament beriet am 29. April 2026 darüber und fordert, die 45-EUR-Eingriffsschwelle über 2029 hinaus zu verlängern und an die Preise von 2026 anzupassen. Bis zum Abschluss des Trilogs gilt die ursprüngliche Regelung weiter.",
+          "sourceRefs": [
+            "europarl-ets2-msr-reform-2026",
+            "dehst-eu-ets2-ausblick"
           ]
         }
       ]
@@ -539,6 +549,14 @@
           "sourceRefs": [
             "bdh-heizungsmarkt-im-herbst",
             "bwp-absatzstatistik-waermepumpen"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Q1 2026 setzt sich die Trendwende fort: 83.500 Heizungs-Wärmepumpen wurden abgesetzt (+34 % gegenüber Q1 2025); der Wärmepumpen-Marktanteil im Q1 lag bei rund 48,7 % aller Heizungsabsätze. Der Gesamtmarkt (171.500 Einheiten) wuchs ebenfalls um 16 %.",
+          "highlight": true,
+          "sourceRefs": [
+            "bwp-bdh-q1-2026-marktdaten"
           ]
         },
         {
@@ -908,7 +926,7 @@
     {
       "id": "heizungsgesetz-abgeschafft",
       "claim": "Das Heizungsgesetz ist doch abgeschafft!",
-      "response": "Das GEG gilt weiter; das Gebäudemodernisierungsgesetz (GModG) ist Stand 10. Mai 2026 erst Referentenentwurf in der Verbändeanhörung. Die 65-Prozent-Regel soll im Entwurf entfallen, dafür kommen Bio-Treppe ab 2029 und eine Mieter-Kostenbremse. Der CO2-Preis bleibt unabhängig vom GModG: ETS 2 ist EU-Recht und greift ab 2028.",
+      "response": "Das GEG gilt weiter; das Gebäudemodernisierungsgesetz (GModG) wurde am 13. Mai 2026 vom Bundeskabinett beschlossen, muss aber noch durch den Bundestag (geplant vor der Sommerpause Mitte Juli 2026). Erst mit Inkrafttreten löst es das GEG ab — bis dahin gilt die 65-Prozent-Regel. Im Beschluss entfällt diese Regel, dafür kommen Bio-Treppe ab 2029 und eine Mieter-Kostenbremse. Der CO2-Preis bleibt unabhängig vom GModG: ETS 2 ist EU-Recht und greift ab 2028.",
       "keywords": [
         "heizungsgesetz",
         "geg",
@@ -991,7 +1009,7 @@
     {
       "id": "politik-aendert-alles",
       "claim": "Ich warte lieber, bis die Politik wieder alles ändert.",
-      "response": "Politik kann nationales Ordnungsrecht verändern — das geschieht beim GModG aktuell. Die wirtschaftlich entscheidenden Größen sind aber EU-rechtlich verankert: ETS 2 ab 2028 (kein Preisdeckel), EPBD-Vorgaben für Zero-Emission-Buildings ab 2030 und das EU-Förderverbot für reine Fossil-Kessel seit 1.1.2025. Wer nur auf eine politische Wende wartet, ignoriert genau die Rahmenbedingungen, die nicht national kippbar sind.",
+      "response": "Politik kann nationales Ordnungsrecht verändern — beim GModG ist das am 13. Mai 2026 mit dem Kabinettsbeschluss geschehen, der Bundestag soll vor der Sommerpause entscheiden. Die wirtschaftlich entscheidenden Größen sind aber EU-rechtlich verankert: ETS 2 ab 2028 (kein Preisdeckel), EPBD-Vorgaben für Zero-Emission-Buildings ab 2030 und das EU-Förderverbot für reine Fossil-Kessel seit 1.1.2025. Wer nur auf eine politische Wende wartet, ignoriert genau die Rahmenbedingungen, die nicht national kippbar sind.",
       "keywords": [
         "politik",
         "warten",
@@ -1008,7 +1026,7 @@
     {
       "id": "gmodg-macht-gas-sicher",
       "claim": "Das neue Gebäudemodernisierungsgesetz macht Gas wieder sicher.",
-      "response": "Der Referentenentwurf des GModG soll die 65-Prozent-Regel ablösen. Damit endet aber kein Risiko: Die Bio-Treppe sieht ab 2029 verpflichtende Bio-/H2-Anteile vor (Start 10 %, steigend bis 60 % bis 2040), parallel greift ETS 2 ab 2028 ohne Preisdeckel und die geplante Mieter-Kostenbremse zwingt Vermieter zu 50 % der CO2- und Bio-Kostenanteile. Eine 2026 eingebaute Gasheizung läuft 15 bis 20 Jahre und sammelt diese Risiken auf.",
+      "response": "Das GModG wurde am 13. Mai 2026 vom Bundeskabinett beschlossen; die 65-Prozent-Regel entfällt voraussichtlich mit dem Inkrafttreten nach Bundestagsbeschluss. Damit endet aber kein Risiko: Die Bio-Treppe sieht ab 2029 verpflichtende Bio-/H2-Anteile vor (Start 10 %, steigend bis 60 % bis 2040), parallel greift ETS 2 ab 2028 ohne Preisdeckel, und die geplante Mieter-Kostenbremse zwingt Vermieter zu 50 % der CO2- und Bio-Kostenanteile. Eine 2026 eingebaute Gasheizung läuft 15 bis 20 Jahre und sammelt diese Risiken auf.",
       "keywords": [
         "gmodg",
         "gmg",
@@ -1126,7 +1144,7 @@
     {
       "id": "ets2-preisdeckel",
       "claim": "ETS 2 wird durch Preisdeckel schon nicht teuer.",
-      "response": "Im EU-ETS 2 gibt es keinen Preisdeckel und keinen Korridor — die Preise bilden sich am Markt. Die 45-EUR-Schwelle ist eine Eingriffsschwelle der Marktstabilitätsreserve: Bei Überschreiten werden zusätzliche Zertifikate freigegeben. Das dämpft kurzfristige Spitzen, garantiert aber keinen niedrigen Dauerpreis; die EWI-Szenarien für 2030 zeigen breite Spannen, klar nach oben offen.",
+      "response": "Im EU-ETS 2 gibt es keinen Preisdeckel und keinen Korridor — die Preise bilden sich am Markt. Die 45-EUR-Schwelle ist eine Eingriffsschwelle der Marktstabilitätsreserve: Bei Überschreiten werden zusätzliche Zertifikate freigegeben. Das dämpft kurzfristige Spitzen, garantiert aber keinen niedrigen Dauerpreis. Die EU-Kommission hat im April 2026 eine MSR-Reform vorgeschlagen; das Europäische Parlament fordert, die 45-EUR-Schwelle über 2029 hinaus zu verlängern — beschlossen ist das aber noch nicht. Die EWI-Szenarien für 2030 zeigen breite Spannen, klar nach oben offen.",
       "keywords": [
         "ets2",
         "co2-preis",
@@ -1310,6 +1328,21 @@
       "id": "bwp-schallrechner",
       "label": "BWP — Schallrechner",
       "url": "https://www.waermepumpe.de/schallrechner/"
+    },
+    {
+      "id": "bundesregierung-gmodg-kabinettsbeschluss-2026-05-13",
+      "label": "Bundesregierung – Kabinettsbeschluss Gebäudemodernisierungsgesetz (13. Mai 2026)",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/neues-gebaeudemodernisierungsgesetz-2430284"
+    },
+    {
+      "id": "bwp-bdh-q1-2026-marktdaten",
+      "label": "BWP/BDH – Marktdaten Heizungsabsatz Q1 2026",
+      "url": "https://www.tga-fachplaner.de/meldungen/marktdaten-q1-2026-waermepumpen-steigern-heizungsabsatz-um-16"
+    },
+    {
+      "id": "europarl-ets2-msr-reform-2026",
+      "label": "Europäisches Parlament – Änderungen der Marktstabilitätsreserve für Gebäude und Straßenverkehr (April 2026)",
+      "url": "https://www.europarl.europa.eu/news/de/agenda/plenary-news/2026-04-27/10/anderungen-der-marktstabilitatsreserve-fur-gebaude-und-strassenverkehr"
     }
   ],
   "relatedTopicIds": [
