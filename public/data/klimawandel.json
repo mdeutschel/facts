@@ -5,14 +5,14 @@
   "seoTitle": "Klimawandel: Argumente, Fakten & Mythen im Faktencheck",
   "seoDescription": "Hat sich das Klima schon immer verändert? Sind Forscher uneins? Antworten zu Temperatur, CO₂, Extremwetter und Kippelementen — Quellen IPCC und DWD.",
   "icon": "thermostat",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-05-17",
   "keyStats": [
-    "2024: Erstmals +1,6 °C über vorindustriellem Niveau",
-    "CO₂-Konzentration 2024: 423,9 ppm",
-    "Deutschland 2024: ~650 Mio. t THG",
-    "9 Argumente"
+    "2025: drittwärmstes Jahr (+1,47 °C); 3-Jahres-Mittel erstmals >1,5 °C",
+    "CO2-Konzentration heute höher als in 800.000 Jahren",
+    "Deutschland 2025: 649 Mio. t (−0,1 %), KSG-Lücke 2,4 Prozentpunkte",
+    "EU 2040-Klimaziel: −90 % beschlossen (Nov. 2025)"
   ],
-  "sourceNote": "Quellen: Copernicus, WMO, NOAA, IPCC, UBA, Munich Re, GDV, IEA sowie peer-reviewte Forschung zu Kipppunkten und Konsens (Stand März 2026).",
+  "sourceNote": "Quellen: Copernicus (2025-Jahresbilanz), WMO, NOAA, IPCC AR6, UBA (THG-Daten 2024/2025), Munich Re (Naturkatastrophen 2025), GDV, IEA, IRENA, NASA, EU-Umweltrat (2040-Klimaziel), UN-Klimakonferenz COP30 (Belém November 2025) sowie peer-reviewte Forschung zu Kipppunkten und Konsens (Stand Mai 2026).",
   "sections": [
     {
       "id": "globale-temperatur",
@@ -100,10 +100,11 @@
         },
         {
           "type": "fact",
-          "text": "2024 war das wärmste Jahr seit Beginn der Aufzeichnungen und das erste Kalenderjahr mit mehr als 1,5 °C über dem vorindustriellen Niveau (1850-1900).",
+          "text": "2024 war das wärmste Jahr seit Beginn der Aufzeichnungen und das erste Kalenderjahr mit mehr als 1,5 °C über dem vorindustriellen Niveau (1850-1900). 2025 lag mit 1,47 °C an dritter Stelle der Messreihe — entscheidender ist: Der gleitende Mittelwert der Jahre 2023-2025 überschritt erstmals die 1,5-Grad-Schwelle. Die elf wärmsten Jahre seit Beginn der Aufzeichnungen liegen alle in den letzten elf Jahren.",
           "highlight": true,
           "sourceRefs": [
-            "copernicus-climate-change-service-c3s-global"
+            "copernicus-climate-change-service-c3s-global",
+            "copernicus-2025-jahresbilanz"
           ]
         },
         {
@@ -481,6 +482,14 @@
           "type": "fact",
           "text": "Deutschland liegt mit 6,8 Tonnen CO₂ pro Kopf immer noch 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Das relativiert das Argument 'Deutschland allein kann nichts bewirken'.",
           "highlight": true
+        },
+        {
+          "type": "fact",
+          "text": "Vorläufige UBA-Zahlen für 2025: rund 649 Mio. t CO2-Äquivalente — das sind nur 0,1 % weniger als 2024. Das KSG-Ziel von -65 % bis 2030 bleibt formell erreichbar, mit aktuell implementierten Maßnahmen kommt Deutschland aber nur auf -62,6 % — eine Lücke von 2,4 Prozentpunkten. Das 2040-Ziel von -88 % wird mit Stand 2025 deutlich verfehlt (rund -80 %).",
+          "highlight": true,
+          "sourceRefs": [
+            "uba-thg-2025-vorlaeufige-daten"
+          ]
         }
       ]
     },
@@ -563,6 +572,34 @@
           "text": "Das Gefährliche: Kippelemente können sich gegenseitig destabilisieren und Kaskadeneffekte auslösen.",
           "sourceRefs": [
             "global-tipping-points-report-2023-university-of"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "internationale-klimapolitik",
+      "title": "Internationale Klimapolitik 2025: EU 2040 und COP30",
+      "content": [
+        {
+          "type": "text",
+          "text": "Anfang November 2025 hat der EU-Umweltrat formell beschlossen: Bis 2040 sollen die Treibhausgasemissionen in der EU um 90 % gegenüber 1990 sinken. Mindestens 85 % davon müssen durch tatsächliche Einsparungen innerhalb der EU erreicht werden; bis zu 5 % dürfen über internationale CO2-Zertifikate kompensiert werden. Ein indikatives Zwischenziel sieht 66,25-72,5 % Minderung bis 2035 vor.",
+          "sourceRefs": [
+            "eu-klimaziel-2040-beschluss"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "COP30 in Belém (10.-21. November 2025) endete mit der ‚Global Mutirão‘-Erklärung. Eine konkrete Roadmap für den Ausstieg aus fossilen Brennstoffen wurde nicht beschlossen — der Begriff ‚fossile Brennstoffe‘ fehlt im Schlussdokument. Über 80 Länder (initiiert von Kolumbien) hatten eine solche Roadmap gefordert; blockiert wurde sie von Saudi-Arabien, Russland, Indien und China. Beschlossen wurde dafür eine Verdreifachung der Klimafinanzierung für Entwicklungsländer.",
+          "highlight": true,
+          "sourceRefs": [
+            "cop30-mutirao-belem"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der COP30-Präsident kündigte zwei parallele Roadmaps an: eine zur Eindämmung der Entwaldung und eine zur ‚gerechten, geordneten und gleichberechtigten‘ Transition weg von fossilen Brennstoffen. Kolumbien plant für 2026 eine Folgekonferenz ambitionierter Staaten, um eine konkrete Roadmap zwischen diesen Ländern zu erarbeiten.",
+          "sourceRefs": [
+            "cop30-mutirao-belem"
           ]
         }
       ]
@@ -727,7 +764,7 @@
     {
       "id": "klima-schon-immer",
       "claim": "Das Klima hat sich schon immer verändert!",
-      "response": "Stimmt, das Klima hat sich schon immer verändert. Entscheidend ist aber: Der heutige CO₂-Anstieg und die aktuelle Erwärmung verlaufen viel schneller als die natürlichen Veränderungen nach der letzten Eiszeit. Das erschwert die Anpassung von Ökosystemen und Gesellschaft.",
+      "response": "Stimmt, das Klima hat sich schon immer verändert. Entscheidend ist aber die Geschwindigkeit: Der CO2-Anstieg verläuft heute laut NASA rund 250-mal schneller als bei natürlichen Zunahmen nach der letzten Eiszeit. 2025 lag die globale Temperatur 1,47 °C über vorindustriellem Niveau; das gleitende Mittel der letzten drei Jahre (2023-2025) hat erstmals die 1,5-Grad-Schwelle überschritten. Das erschwert die Anpassung von Ökosystemen und Gesellschaft — natürliche Klimawandel-Phasen dauern Tausende von Jahren, nicht Jahrzehnte.",
       "keywords": [
         "klima",
         "schon immer",
@@ -740,12 +777,18 @@
         "co2-konzentration",
         "globale-temperatur"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Falsche Skalen-Äquivalenz: Eine richtige Aussage über natürliche Schwankungen (Jahrtausende) wird mit der heutigen Erwärmung (Jahrzehnte) gleichgesetzt. Die Geschwindigkeit ist genau das, was Anpassung von Ökosystemen und Gesellschaft verhindert — sie verschwindet aus dem Bild, wenn nur die Quantität ‚Veränderung‘ verglichen wird.",
+      "counterQuestions": [
+        "Wenn die Erwärmung nach der letzten Eiszeit etwa 5 °C in 5.000 Jahren betrug — und wir jetzt rund 1,5 °C in 150 Jahren erleben — was sagt dir das Tempo?",
+        "Welche natürliche Ursache (Sonne, Vulkane, Erdbahnzyklen) erklärt nach deiner Annahme die aktuelle Erwärmung — und wie ist sie messbar belegt?",
+        "Wenn die natürlichen Zyklen heute laufen wie immer, warum messen wir den steilsten CO2-Anstieg in 800.000 Jahren?"
+      ]
     },
     {
       "id": "deutschland-allein",
       "claim": "Deutschland allein kann das Klima nicht retten!",
-      "response": "Deutschland allein entscheidet das Klima nicht. Aber mit 6,8 Tonnen CO₂ pro Kopf liegt Deutschland 45 % über dem Weltdurchschnitt (4,7 t) und mehr als dreimal so hoch wie Indien (2,0 t). Historisch gehört Deutschland zu den größten Emittenten. Wenn wohlhabende Industrieländer nicht mitreduzieren, fehlt Glaubwürdigkeit und Tempo für internationale Klimapolitik.",
+      "response": "Deutschland allein entscheidet das Klima nicht. Aber Deutschland steht mit 6,8 Tonnen CO2 pro Kopf 45 % über dem Weltdurchschnitt (4,7 t) und historisch unter den größten Emittenten. Außerdem stimmt das ‚allein‘ nicht: Die EU hat im November 2025 das 2040-Klimaziel (-90 % gegenüber 1990) formell beschlossen — Deutschland handelt im EU-Block, nicht isoliert. Bei COP30 in Belém forderten über 80 Länder eine konkrete Fossil-Ausstiegs-Roadmap, blockiert von Saudi-Arabien, Russland, Indien und China. Wer Deutschland als ‚allein‘ rahmt, ignoriert beide Realitäten.",
       "keywords": [
         "deutschland",
         "allein",
@@ -758,7 +801,13 @@
         "deutschland-emissionen",
         "kosten-handeln-vs-nichtstun"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Trittbrettfahrer-Argument: Die Globalität des Problems wird genutzt, um die eigene Verantwortung zu reduzieren. Wenn jedes Land so argumentiert, kollabiert kollektives Handeln. Zudem stimmt die Prämisse ‚allein‘ nicht — Deutschland ist Teil der EU mit -90 %-Ziel bis 2040, und über 80 Länder forderten bei COP30 eine fossile Ausstiegs-Roadmap.",
+      "counterQuestions": [
+        "Wenn jedes der knapp 200 Länder mit ‚wir allein können das nicht‘ argumentiert — wer handelt dann?",
+        "Wenn die EU geschlossen -90 % Reduktion bis 2040 beschlossen hat — wo siehst du Deutschland in deinem ‚allein‘-Bild konkret?",
+        "Wie ordnest du Deutschland zwischen den 80+ Ländern (pro fossile Roadmap) und der Saudi/Russland/Indien/China-Blockade bei COP30 ein?"
+      ]
     },
     {
       "id": "klimaschutz-arbeitsplaetze",
@@ -774,7 +823,13 @@
       "relatedSections": [
         "kosten-handeln-vs-nichtstun"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Selektive Bilanz: Verlorene Jobs (Kohle, fossile Industrie) werden gezählt, neu entstehende (Wärmepumpen-, PV-, E-Mobil-Industrie, Sanierung) systematisch nicht. Strukturwandel-Realität wird zur Nettoverlust-Behauptung umgedeutet, obwohl IRENA weltweit allein in Erneuerbaren 16,6 Mio. Arbeitsplätze zählt.",
+      "counterQuestions": [
+        "Wie sieht deine Bilanz aus, wenn du EE-Jobs (16,6 Mio. weltweit laut IRENA) und Wachstum in Wärmepumpen/PV/E-Mobil dagegenstellst?",
+        "In welchem Sektor in Deutschland siehst du tatsächlich Jobverluste durch Klimapolitik konkret — und welche Studie quantifiziert das?",
+        "Wenn der Strukturwandel ohnehin über Marktpreise und EU-CO2-Zoll kommt — bleibt der Job-Verlust ohne Klimaschutz wirklich aus?"
+      ]
     },
     {
       "id": "wissenschaftler-uneinig",
@@ -791,12 +846,18 @@
       "relatedSections": [
         "wissenschaftlicher-konsens"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "False Balance: Einzelmeinungen werden gegen den >99 %-Konsens gestellt, als wären beide Positionen gleichwertig. Pseudo-Skepsis ohne neue Erkenntnis — historisch dieselbe Strategie wie die Tabak- und Asbest-Industrie in ihrer Zeit. Das Muster nutzt aus, dass ‚Einigkeit‘ rhetorisch unterspezifiziert ist.",
+      "counterQuestions": [
+        "Welche peer-reviewte Studie (mit DOI) widerlegt nach deiner Annahme den anthropogenen Klimawandel — kannst du eine konkret benennen?",
+        "Wenn 99 %+ der publizierenden Klimaforscher zustimmen — was wäre für dich der Schwellenwert für ‚einig‘?",
+        "Warum sollte eine Einzelmeinung gegen 50+ Jahre Datenreihen und sechs IPCC-Berichtszyklen wiegen, ohne neue Empirie?"
+      ]
     },
     {
       "id": "gar-nicht-waermer",
       "claim": "Es ist doch gar nicht wärmer geworden — letzter Winter war kalt!",
-      "response": "Wetter ist nicht Klima. Ein kalter Winter in Deutschland widerlegt den globalen Trend nicht: 2024 war weltweit das wärmste Jahr seit Beginn der Aufzeichnungen. In Europa werden Kälteperioden insgesamt seltener, auch wenn einzelne kalte Winter weiter vorkommen können.",
+      "response": "Wetter ist nicht Klima. Ein kalter Winter in Deutschland widerlegt den globalen Trend nicht: 2025 war weltweit das drittwärmste Jahr seit Beginn der Aufzeichnungen (Copernicus); die letzten elf Jahre sind gleichzeitig die elf wärmsten der Messreihe. Das gleitende 3-Jahres-Mittel hat erstmals die 1,5-Grad-Schwelle überschritten. In Europa werden Kälteperioden insgesamt seltener, auch wenn einzelne kalte Winter weiter vorkommen können.",
       "keywords": [
         "nicht wärmer",
         "kalt",
@@ -808,7 +869,13 @@
       "relatedSections": [
         "globale-temperatur"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Wetter-Klima-Verwechslung mit geografischem Cherrypicking: Ein kurzer, lokaler Beobachtungsausschnitt (kalter Winter in Deutschland) ersetzt die globale 30-Jahres-Statistik. Genau diese Verwechslung ist die häufigste Form der Klima-Skepsis-Anekdotik.",
+      "counterQuestions": [
+        "Wenn 2025 global das drittwärmste Jahr war und alle elf wärmsten Jahre nach 2014 liegen — was unterscheidet dein lokales Wetter vom globalen Trend?",
+        "Wetter ist, was du draußen siehst — Klima ist die 30-Jahres-Statistik. Welche der beiden Größen bewertest du gerade?",
+        "Wenn der kalte Winter in Deutschland zeitgleich mit Hitzerekorden in Brasilien und Indien fällt — wie ordnest du das in dein ‚nicht wärmer‘-Bild ein?"
+      ]
     },
     {
       "id": "co2-gut-fuer-pflanzen",
@@ -825,12 +892,18 @@
       "relatedSections": [
         "co2-konzentration"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Cherrypicking eines Teil-Effekts: Die CO2-Düngung im Gewächshaus wird isoliert als Beleg gegen Klimaschutz herangezogen. Das System Landwirtschaft umfasst aber auch Wasser, Hitze, Schädlinge und Extremwetter — alle Belastungsfaktoren, die mit der Erwärmung zunehmen. Aus einem Labor-Effekt wird eine Freiland-Aussage.",
+      "counterQuestions": [
+        "Welcher Freiland-Effekt überwiegt nach deiner Annahme: die CO2-Düngung oder die Hitze-Dürre-Risiken?",
+        "Wenn Ernteausfälle durch Hitze und Dürre laut UN FAO bereits messbar zunehmen — wo siehst du das Umkippen der Bilanz?",
+        "Warum berichten Landwirte zunehmend von Mindererträgen durch Wetterextreme, wenn der CO2-Effekt dominant wäre?"
+      ]
     },
     {
       "id": "china-indien-schlimmer",
       "claim": "China und Indien sind doch viel schlimmer!",
-      "response": "China stößt heute absolut sehr viel CO₂ aus, Indien pro Kopf aber deutlich weniger als Deutschland. Für faire Vergleiche zählen neben aktuellen Emissionen auch Pro-Kopf-Werte, historische Beiträge und der Handel. Daraus folgt nicht, dass Deutschland nichts tun müsste.",
+      "response": "China stößt absolut viel CO2 aus, Indien pro Kopf aber deutlich weniger als Deutschland (Indien 2,0 t, Deutschland 6,8 t). Für faire Vergleiche zählen Pro-Kopf, historische Beiträge und Handelsemissionen — rund ein Drittel der chinesischen Emissionen entfällt auf Exporte, auch nach Deutschland. Politisch zeigt sich der Unterschied bei COP30: Saudi-Arabien, Russland, Indien und China blockierten die geforderte Fossil-Ausstiegs-Roadmap. Wenn Deutschland argumentiert ‚die sind schlimmer, also tun wir nichts‘, landet es im selben Lager — und nicht bei den über 80 Ländern, die voran wollen.",
       "keywords": [
         "china",
         "indien",
@@ -844,7 +917,13 @@
         "deutschland-emissionen",
         "co2-konzentration"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Whataboutismus: Verantwortung wird über Vergleich verlagert, ohne eigene Reduktion. Dabei werden Pro-Kopf-Werte, historische Beiträge und Handelsemissionen systematisch ausgeblendet. Politisch landet das Argument bei den COP30-Blockierern — nicht bei den progressiven 80+ Ländern.",
+      "counterQuestions": [
+        "Indiens Pro-Kopf-Emissionen liegen bei 2,0 t CO2, Deutschland bei 6,8 — auf welcher Basis ist Indien ‚schlimmer‘?",
+        "Wenn rund ein Drittel der chinesischen Emissionen für Exporte (auch nach Deutschland) anfällt — wer ist da ‚schlimmer‘?",
+        "Bei COP30 standen Saudi-Arabien, Russland, Indien und China gegen die Fossil-Roadmap — auf welcher Seite siehst du Deutschland mit deiner Argumentation?"
+      ]
     },
     {
       "id": "vulkane-mehr-co2",
@@ -860,12 +939,18 @@
       "relatedSections": [
         "co2-konzentration"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Falsche Größenordnung durch Anschauung: Vulkanausbrüche wirken spektakulär, sind aber im CO2-Gesamthaushalt rund 60-mal kleiner als anthropogene Emissionen. Visuelle Eindrucks-Größe ersetzt quantitative Messung; die Quelle der Behauptung bleibt meist ungenannt.",
+      "counterQuestions": [
+        "NOAA misst Vulkan-Emissionen direkt — wie hoch sind sie pro Jahr (laut Quelle, die du nennst)?",
+        "Wenn Vulkane wirklich dominant wären: Warum korreliert der CO2-Anstieg seit 1850 fast linear mit der fossilen Verbrennung — nicht mit Vulkan-Aktivität?",
+        "Welche peer-reviewte Quelle nennt dir eine andere Größenordnung — und wie unterscheidet sie sich von NOAA-Messdaten?"
+      ]
     },
     {
       "id": "zu-teuer",
       "claim": "Klimaschutz können wir uns nicht leisten!",
-      "response": "Belastbar ist vor allem: Klimaschutz erfordert hohe Investitionen, aber verzögertes Handeln erhöht Risiken und Zusatzkosten. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad bis Anfang der 2030er weltweit rund 4,5 Billionen US-Dollar pro Jahr für Clean Energy.",
+      "response": "Klimaschutz erfordert hohe Investitionen — verzögertes Handeln macht es aber teurer. Munich Re beziffert die Naturkatastrophen-Schäden 2025 weltweit auf rund 224 Mrd. US-Dollar, 92 % davon wetterbedingt; allein die LA-Waldbrände im Januar waren die teuerste Einzelkatastrophe des Jahres. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad rund 4,5 Bio. USD pro Jahr für Clean Energy — viel Geld, aber im Vergleich zu eskalierenden Schadens- und Anpassungskosten die günstigere Option.",
       "keywords": [
         "zu teuer",
         "leisten",
@@ -878,7 +963,13 @@
         "kosten-handeln-vs-nichtstun",
         "extremwetter"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Einseitige Kostenrechnung: Klimaschutzkosten werden addiert, Klimaschadenskosten weggelassen. Munich Re zählt allein 2025 rund 224 Mrd. US-Dollar Naturkatastrophen-Schäden weltweit, 92 % wetterbedingt. IPCC: Nicht-Handeln ist teurer als Handeln, mit Carbon Lock-ins und stranded assets als zusätzlichem Risiko.",
+      "counterQuestions": [
+        "Wenn Munich Re die Schäden 2025 mit 224 Mrd. US-Dollar beziffert — wie rechnest du das gegen die Klimaschutzkosten gegen?",
+        "Wie sieht deine Kostenbilanz aus, wenn Carbon Lock-ins und stranded assets in fossiler Infrastruktur dazukommen?",
+        "Bei COP30 wurde die Klimafinanzierung für Entwicklungsländer verdreifacht — siehst du das als zusätzliche Last oder als unvermeidbare Folge des Nicht-Handelns?"
+      ]
     }
   ],
   "sources": [
@@ -986,6 +1077,26 @@
       "id": "cook-et-al-2013-quantifying-the-consensus",
       "label": "Cook et al. (2013): Quantifying the consensus on anthropogenic global warming",
       "url": "https://iopscience.iop.org/article/10.1088/1748-9326/8/2/024024"
+    },
+    {
+      "id": "copernicus-2025-jahresbilanz",
+      "label": "Copernicus Climate Change Service – Globale Klimabilanz 2025 (Januar 2026)",
+      "url": "https://climate.copernicus.eu/copernicus-2025-was-third-hottest-year-globally"
+    },
+    {
+      "id": "eu-klimaziel-2040-beschluss",
+      "label": "EU-Klimaziel 2040 (-90 %) – Beschluss EU-Umweltrat (November 2025)",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/eu-klimaziel-2040-2392200"
+    },
+    {
+      "id": "cop30-mutirao-belem",
+      "label": "COP30 Belém – Global Mutirão-Erklärung (November 2025)",
+      "url": "https://news.un.org/en/story/2025/11/1166433"
+    },
+    {
+      "id": "uba-thg-2025-vorlaeufige-daten",
+      "label": "UBA – Treibhausgasemissionen Deutschland 2025 (vorläufige Daten, März 2026)",
+      "url": "https://www.bundesumweltministerium.de/pressemitteilung/treibhausgasdaten-zeigen-klimaschutz-braucht-neuen-schub"
     }
   ],
   "relatedTopicIds": [
