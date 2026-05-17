@@ -777,7 +777,13 @@
         "co2-konzentration",
         "globale-temperatur"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Falsche Skalen-Äquivalenz: Eine richtige Aussage über natürliche Schwankungen (Jahrtausende) wird mit der heutigen Erwärmung (Jahrzehnte) gleichgesetzt. Die Geschwindigkeit ist genau das, was Anpassung von Ökosystemen und Gesellschaft verhindert — sie verschwindet aus dem Bild, wenn nur die Quantität ‚Veränderung‘ verglichen wird.",
+      "counterQuestions": [
+        "Wenn die Erwärmung nach der letzten Eiszeit etwa 5 °C in 5.000 Jahren betrug — und wir jetzt rund 1,5 °C in 150 Jahren erleben — was sagt dir das Tempo?",
+        "Welche natürliche Ursache (Sonne, Vulkane, Erdbahnzyklen) erklärt nach deiner Annahme die aktuelle Erwärmung — und wie ist sie messbar belegt?",
+        "Wenn die natürlichen Zyklen heute laufen wie immer, warum messen wir den steilsten CO2-Anstieg in 800.000 Jahren?"
+      ]
     },
     {
       "id": "deutschland-allein",
@@ -795,7 +801,13 @@
         "deutschland-emissionen",
         "kosten-handeln-vs-nichtstun"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Trittbrettfahrer-Argument: Die Globalität des Problems wird genutzt, um die eigene Verantwortung zu reduzieren. Wenn jedes Land so argumentiert, kollabiert kollektives Handeln. Zudem stimmt die Prämisse ‚allein‘ nicht — Deutschland ist Teil der EU mit -90 %-Ziel bis 2040, und über 80 Länder forderten bei COP30 eine fossile Ausstiegs-Roadmap.",
+      "counterQuestions": [
+        "Wenn jedes der knapp 200 Länder mit ‚wir allein können das nicht‘ argumentiert — wer handelt dann?",
+        "Wenn die EU geschlossen -90 % Reduktion bis 2040 beschlossen hat — wo siehst du Deutschland in deinem ‚allein‘-Bild konkret?",
+        "Wie ordnest du Deutschland zwischen den 80+ Ländern (pro fossile Roadmap) und der Saudi/Russland/Indien/China-Blockade bei COP30 ein?"
+      ]
     },
     {
       "id": "klimaschutz-arbeitsplaetze",
@@ -811,7 +823,13 @@
       "relatedSections": [
         "kosten-handeln-vs-nichtstun"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Selektive Bilanz: Verlorene Jobs (Kohle, fossile Industrie) werden gezählt, neu entstehende (Wärmepumpen-, PV-, E-Mobil-Industrie, Sanierung) systematisch nicht. Strukturwandel-Realität wird zur Nettoverlust-Behauptung umgedeutet, obwohl IRENA weltweit allein in Erneuerbaren 16,6 Mio. Arbeitsplätze zählt.",
+      "counterQuestions": [
+        "Wie sieht deine Bilanz aus, wenn du EE-Jobs (16,6 Mio. weltweit laut IRENA) und Wachstum in Wärmepumpen/PV/E-Mobil dagegenstellst?",
+        "In welchem Sektor in Deutschland siehst du tatsächlich Jobverluste durch Klimapolitik konkret — und welche Studie quantifiziert das?",
+        "Wenn der Strukturwandel ohnehin über Marktpreise und EU-CO2-Zoll kommt — bleibt der Job-Verlust ohne Klimaschutz wirklich aus?"
+      ]
     },
     {
       "id": "wissenschaftler-uneinig",
@@ -828,7 +846,13 @@
       "relatedSections": [
         "wissenschaftlicher-konsens"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "False Balance: Einzelmeinungen werden gegen den >99 %-Konsens gestellt, als wären beide Positionen gleichwertig. Pseudo-Skepsis ohne neue Erkenntnis — historisch dieselbe Strategie wie die Tabak- und Asbest-Industrie in ihrer Zeit. Das Muster nutzt aus, dass ‚Einigkeit‘ rhetorisch unterspezifiziert ist.",
+      "counterQuestions": [
+        "Welche peer-reviewte Studie (mit DOI) widerlegt nach deiner Annahme den anthropogenen Klimawandel — kannst du eine konkret benennen?",
+        "Wenn 99 %+ der publizierenden Klimaforscher zustimmen — was wäre für dich der Schwellenwert für ‚einig‘?",
+        "Warum sollte eine Einzelmeinung gegen 50+ Jahre Datenreihen und sechs IPCC-Berichtszyklen wiegen, ohne neue Empirie?"
+      ]
     },
     {
       "id": "gar-nicht-waermer",
@@ -845,7 +869,13 @@
       "relatedSections": [
         "globale-temperatur"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Wetter-Klima-Verwechslung mit geografischem Cherrypicking: Ein kurzer, lokaler Beobachtungsausschnitt (kalter Winter in Deutschland) ersetzt die globale 30-Jahres-Statistik. Genau diese Verwechslung ist die häufigste Form der Klima-Skepsis-Anekdotik.",
+      "counterQuestions": [
+        "Wenn 2025 global das drittwärmste Jahr war und alle elf wärmsten Jahre nach 2014 liegen — was unterscheidet dein lokales Wetter vom globalen Trend?",
+        "Wetter ist, was du draußen siehst — Klima ist die 30-Jahres-Statistik. Welche der beiden Größen bewertest du gerade?",
+        "Wenn der kalte Winter in Deutschland zeitgleich mit Hitzerekorden in Brasilien und Indien fällt — wie ordnest du das in dein ‚nicht wärmer‘-Bild ein?"
+      ]
     },
     {
       "id": "co2-gut-fuer-pflanzen",
@@ -862,7 +892,13 @@
       "relatedSections": [
         "co2-konzentration"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Cherrypicking eines Teil-Effekts: Die CO2-Düngung im Gewächshaus wird isoliert als Beleg gegen Klimaschutz herangezogen. Das System Landwirtschaft umfasst aber auch Wasser, Hitze, Schädlinge und Extremwetter — alle Belastungsfaktoren, die mit der Erwärmung zunehmen. Aus einem Labor-Effekt wird eine Freiland-Aussage.",
+      "counterQuestions": [
+        "Welcher Freiland-Effekt überwiegt nach deiner Annahme: die CO2-Düngung oder die Hitze-Dürre-Risiken?",
+        "Wenn Ernteausfälle durch Hitze und Dürre laut UN FAO bereits messbar zunehmen — wo siehst du das Umkippen der Bilanz?",
+        "Warum berichten Landwirte zunehmend von Mindererträgen durch Wetterextreme, wenn der CO2-Effekt dominant wäre?"
+      ]
     },
     {
       "id": "china-indien-schlimmer",
@@ -881,7 +917,13 @@
         "deutschland-emissionen",
         "co2-konzentration"
       ],
-      "verdict": "lacks-context"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Whataboutismus: Verantwortung wird über Vergleich verlagert, ohne eigene Reduktion. Dabei werden Pro-Kopf-Werte, historische Beiträge und Handelsemissionen systematisch ausgeblendet. Politisch landet das Argument bei den COP30-Blockierern — nicht bei den progressiven 80+ Ländern.",
+      "counterQuestions": [
+        "Indiens Pro-Kopf-Emissionen liegen bei 2,0 t CO2, Deutschland bei 6,8 — auf welcher Basis ist Indien ‚schlimmer‘?",
+        "Wenn rund ein Drittel der chinesischen Emissionen für Exporte (auch nach Deutschland) anfällt — wer ist da ‚schlimmer‘?",
+        "Bei COP30 standen Saudi-Arabien, Russland, Indien und China gegen die Fossil-Roadmap — auf welcher Seite siehst du Deutschland mit deiner Argumentation?"
+      ]
     },
     {
       "id": "vulkane-mehr-co2",
@@ -897,7 +939,13 @@
       "relatedSections": [
         "co2-konzentration"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Falsche Größenordnung durch Anschauung: Vulkanausbrüche wirken spektakulär, sind aber im CO2-Gesamthaushalt rund 60-mal kleiner als anthropogene Emissionen. Visuelle Eindrucks-Größe ersetzt quantitative Messung; die Quelle der Behauptung bleibt meist ungenannt.",
+      "counterQuestions": [
+        "NOAA misst Vulkan-Emissionen direkt — wie hoch sind sie pro Jahr (laut Quelle, die du nennst)?",
+        "Wenn Vulkane wirklich dominant wären: Warum korreliert der CO2-Anstieg seit 1850 fast linear mit der fossilen Verbrennung — nicht mit Vulkan-Aktivität?",
+        "Welche peer-reviewte Quelle nennt dir eine andere Größenordnung — und wie unterscheidet sie sich von NOAA-Messdaten?"
+      ]
     },
     {
       "id": "zu-teuer",
@@ -915,7 +963,13 @@
         "kosten-handeln-vs-nichtstun",
         "extremwetter"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Einseitige Kostenrechnung: Klimaschutzkosten werden addiert, Klimaschadenskosten weggelassen. Munich Re zählt allein 2025 rund 224 Mrd. US-Dollar Naturkatastrophen-Schäden weltweit, 92 % wetterbedingt. IPCC: Nicht-Handeln ist teurer als Handeln, mit Carbon Lock-ins und stranded assets als zusätzlichem Risiko.",
+      "counterQuestions": [
+        "Wenn Munich Re die Schäden 2025 mit 224 Mrd. US-Dollar beziffert — wie rechnest du das gegen die Klimaschutzkosten gegen?",
+        "Wie sieht deine Kostenbilanz aus, wenn Carbon Lock-ins und stranded assets in fossiler Infrastruktur dazukommen?",
+        "Bei COP30 wurde die Klimafinanzierung für Entwicklungsländer verdreifacht — siehst du das als zusätzliche Last oder als unvermeidbare Folge des Nicht-Handelns?"
+      ]
     }
   ],
   "sources": [
