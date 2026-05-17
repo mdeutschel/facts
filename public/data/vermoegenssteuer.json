@@ -677,7 +677,13 @@
       "relatedSections": [
         "oecd-vergleich"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Pars-pro-toto: Aus dem (richtigen) Befund hoher Steuer-/Abgabenlast auf Arbeit wird ‚Hochsteuerland‘ als pauschales Label. Vermögensbezogene Steuern (1 % BIP, OECD-Schnitt 1,9 %) werden ausgeblendet, der Gegensatz Arbeit teuer / Vermögen günstig verschwindet aus der Argumentation.",
+      "counterQuestions": [
+        "Wenn Deutschland bei vermögensbezogenen Steuern mit rund 1 % BIP unter dem OECD-Schnitt von 1,9 % liegt — wo siehst du das ‚Hoch‘ bei Vermögen?",
+        "Wenn Norwegen, Spanien und Schweiz mit Vermögensteuer wirtschaften — was unterscheidet Deutschland an dieser Stelle, dass es uns ‚kaputt‘ machen würde?",
+        "Wo wäre dein Punkt, an dem Vermögensteuer akzeptabel wäre — bei welcher Höhe und ab welchem Vermögen?"
+      ]
     },
     {
       "id": "neidsteuer",
@@ -694,7 +700,13 @@
         "verteilung",
         "erbengesellschaft"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Ad-hominem-Verschiebung: Statt um den Sachverhalt (Verteilung, Aufkommen, Verfassungsrecht) wird das unterstellte Motiv der Befürworter angegriffen. Klassisches Diskursabschluss-Muster: Wer dafür ist, ist ‚neidisch‘ — eine Sachdebatte wird damit unmöglich.",
+      "counterQuestions": [
+        "Wenn das reichste 1 % rund ein Drittel des Vermögens besitzt — ist die Forderung nach Beteiligung an der Steuerlast für dich Neid oder Verteilung?",
+        "Würdest du eine progressive Einkommensteuer auch ‚Neidsteuer‘ nennen — und falls nicht, warum nicht?",
+        "Welche konkrete Ausgestaltung (1 % ab 2 Mio. € z. B.) hältst du sachlich für unfair — abseits der Motivunterstellung?"
+      ]
     },
     {
       "id": "familienunternehmen",
@@ -712,7 +724,13 @@
         "erbschaftssteuer",
         "aufkommen"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Worst-Case-Pauschalisierung: Aus der theoretischen Möglichkeit, dass ein kleiner Betrieb betroffen sein könnte, wird ‚zerstört Mittelstand‘. Freibeträge, Stundungsregeln und die Realität, dass die heutigen Privilegien primär milliardenschwere Übertragungen schützen, verschwinden aus dem Bild.",
+      "counterQuestions": [
+        "Bei welchem Freibetrag wären für dich kleine und mittlere Betriebe geschützt — und wieviele Familienunternehmen liegen darüber?",
+        "Wer profitiert mehr von der heutigen Verschonungsregelung: ein Handwerksbetrieb mit 5 Mio. € Substanz oder ein Familienkonzern mit 5 Mrd. €?",
+        "Wenn SPD und DIW Modelle mit 5-Mio.-Freibetrag plus 20-Jahre-Stundung vorschlagen — wo wäre dein Mittelstand konkret bedroht?"
+      ]
     },
     {
       "id": "abwanderung",
@@ -729,7 +747,13 @@
       "relatedSections": [
         "oecd-vergleich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Drohszenario aus selektiver Beobachtung: Einzelne Wegzugsfälle werden als ‚Beweis‘ gezeigt, die Netto-Bilanz (Aufkommen vs. Verluste) wird weggelassen. Beispiel Norwegen: 500+ Wegzüge stimmen — die Harvard-Studie zeigt aber, dass die Mehreinnahmen die Verluste übersteigen.",
+      "counterQuestions": [
+        "Wenn die Harvard-Studie für Norwegen Netto-Mehreinnahmen aus der Vermögensteuer-Erhöhung dokumentiert — was widerlegt dein ‚dann gehen alle weg‘ konkret?",
+        "Welcher Anteil der Vermögenden mit > 2 Mio. € verlässt Deutschland nach deiner Schätzung — und auf welcher Datenbasis?",
+        "Wenn Wegzugs- und Missbrauchsregeln möglich sind (und in Deutschland für andere Steuerarten existieren) — warum sollte das Abwanderungsrisiko die Höhe einer Vermögensteuer 1:1 begrenzen?"
+      ]
     },
     {
       "id": "doppelbesteuerung",
@@ -744,7 +768,13 @@
       "relatedSections": [
         "verfassung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Begriffsverwirrung: ‚Doppelbesteuerung‘ ist im Steuerrecht ein spezifischer Begriff (gleicher Tatbestand mehrfach besteuert). Umgangssprachlich wird er auf das Konzept ‚Geld zweimal anfassen‘ ausgeweitet — danach wäre Mehrwertsteuer genauso doppelbesteuert. Das Leistungsfähigkeitsprinzip erlaubt mehrere Steuern auf verschiedene Bemessungsgrundlagen.",
+      "counterQuestions": [
+        "Wenn Mehrwertsteuer auf bereits versteuertem Einkommen liegt — ist die Mehrwertsteuer für dich auch ‚Doppelbesteuerung‘?",
+        "Wenn Wertsteigerungen von Aktien/Immobilien gar nicht oder erst bei Verkauf einkommensbesteuert werden — wo ist die ‚Doppelung‘ bei der Vermögensteuer?",
+        "Welche Definition von Doppelbesteuerung legst du an — die juristische (gleicher Tatbestand mehrfach) oder die Alltags-Intuition?"
+      ]
     },
     {
       "id": "substanzbesteuerung",
@@ -761,7 +791,13 @@
         "erbschaftssteuer",
         "aufkommen"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Verwechslung von Eigentümer und Unternehmen: Rhetorisch wird das Unternehmen zur leidtragenden Partei gemacht, obwohl der Eigentümer die Steuer trägt. Bei 1 % Steuer und typischen 5-10 % Kapitalrenditen ist die Substanzfrage faktisch eine Ertragsfrage — wer kauft, zahlt ohnehin den vollen Preis.",
+      "counterQuestions": [
+        "Bei 1 % Steuer und 5-10 % Kapitalrendite — warum sollte das aus der Substanz statt aus den laufenden Erträgen kommen?",
+        "Wenn ein Unternehmenskäufer den vollen Kaufpreis aufbringt und das als normal gilt — warum ist eine Stundungsregelung über 20 Jahre bei Erben ein Substanz-Problem?",
+        "Welche Branche mit typischer Eigenkapitalrendite < 1 % wäre konkret bedroht — und wäre das nicht ohnehin ein Restrukturierungs-Indikator?"
+      ]
     },
     {
       "id": "elternhaus",
@@ -779,7 +815,13 @@
         "erbschaftssteuer",
         "aufkommen"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Emotionalisierung mit irrelevantem Beispiel: Das ‚Elternhaus‘ ist im Recht explizit geschützt (Selbstnutzung bis 200 m² steuerfrei, Freibeträge 400/500k €, 96 % aller Erbfälle komplett unter den Freibeträgen). Rhetorisch schützt das Argument den ‚kleinen Mann‘, faktisch erleichtert es die Übertragung großer Vermögen.",
+      "counterQuestions": [
+        "Wusstest du, dass für das selbstgenutzte Elternhaus (bis 200 m²) bei 10-Jahres-Selbstnutzung gar keine Erbschaftsteuer anfällt?",
+        "Wenn 96 % aller Erbfälle komplett unter die Freibeträge fallen — wer ist denn von der Steuer überhaupt betroffen?",
+        "Wenn das wirkliche Elternhaus geschützt ist — warum nutzt das Argument so oft Beispiele von Mehrfamilien­häusern oder Villen?"
+      ]
     },
     {
       "id": "verwaltungskosten",
@@ -797,7 +839,13 @@
         "oecd-vergleich",
         "verfassung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Statischer Vergleich mit den 1990ern: Die alte Bewertungsproblematik (BVerfG 1995) wird in die Gegenwart projiziert, obwohl Digitalisierung, internationaler Informationsaustausch (CRS, FATCA) und reformierte Immobilienbewertung die Voraussetzungen deutlich verbessert haben. Effizienzfrage wird gegen die Steuer als solche gerichtet.",
+      "counterQuestions": [
+        "Wenn die Schweiz seit Jahrzehnten Vermögensteuer kantonal einzieht — funktioniert deren Verwaltung anders, oder kann Deutschland das auch?",
+        "Was sind die konkreten Verwaltungskosten in den existierenden Vermögensteuer-Ländern relativ zum Aufkommen — kennst du Zahlen?",
+        "Welchen Beleg aus den 2020ern (nicht aus 1995) hast du dafür, dass die Steuer mehr kostet als sie einbringt?"
+      ]
     },
     {
       "id": "leistung-erbe",
@@ -815,7 +863,13 @@
         "erbschaftssteuer",
         "erbengesellschaft"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Begriffsverdrehung: Erben wird mit ‚Leistung‘ gleichgesetzt, obwohl es eine passive Übertragung ist. Die Diskussion verschiebt sich auf die Erbenden — die Frage der Vermögenskonzentration und der Generationengerechtigkeit verschwindet aus dem Bild.",
+      "counterQuestions": [
+        "Welche eigene ‚Leistung‘ hat das Kind eines Milliardärs für sein Erbe erbracht — verglichen mit jemandem, der das Vermögen erst aufgebaut hat?",
+        "Wenn Leistung belohnt werden soll — warum wird ein Erbe steuerlich stärker geschont als ein Lottogewinn oder ein selbst erarbeitetes Einkommen?",
+        "Wenn ‚Lebenswerk‘ ein Argument ist — wessen Lebenswerk schützt die heutige Verschonungsregelung tatsächlich am stärksten: das des Handwerksmeisters oder des Familienkonzern-Eigentümers?"
+      ]
     },
     {
       "id": "investitionen-flucht",
@@ -831,7 +885,13 @@
       "relatedSections": [
         "oecd-vergleich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Monokausale Erklärung: Standortentscheidungen werden auf eine einzelne Steuervariable reduziert. Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte, Energiekosten — alle empirisch wichtigeren Faktoren — werden ausgeblendet, um eine Kausalitäts-Drohung zu konstruieren.",
+      "counterQuestions": [
+        "Wenn Norwegen mit Vermögensteuer und Spanien ohne signifikante Investitionsabwanderung leben — was unterscheidet Deutschland?",
+        "Welche Studie quantifiziert eine direkte Vermögensteuer-Investitions-Kausalität — und mit welcher Effektgröße?",
+        "Würde eine 1-%-Vermögensteuer wirklich Standort-Entscheidungen drehen, die sonst von Fachkräften, Infrastruktur und Energiekosten getrieben sind?"
+      ]
     },
     {
       "id": "privatsache",
@@ -848,7 +908,13 @@
         "erbengesellschaft",
         "verfassung"
       ],
-      "verdict": "misleading"
+      "verdict": "misleading",
+      "rhetoricalPattern": "Verkürzte GG-Rezeption: Art. 14 Abs. 1 (Eigentumsgarantie) wird zitiert, Abs. 2 (Sozialpflichtigkeit) ausgelassen. Die rhetorische Verschiebung auf eine Grundsatzebene blendet das eigentliche Verteilungsproblem aus und verlagert die Debatte in den Liberalismus-Eigentum-Topos.",
+      "counterQuestions": [
+        "Wenn Art. 14 Abs. 2 GG sagt: ‚Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen.‘ — wie liest du das in der Erbschaftsteuer-Debatte?",
+        "Welche Infrastruktur (Schulen, Polizei, Eigentumsschutz, Verkehrswege, Rechtssystem) wurde nicht aus Steuern bezahlt, die ein Vermögensaufbau überhaupt erst ermöglicht?",
+        "Wenn Erbschaftsteuer ‚Einmischung‘ ist — wie unterscheidet sich das kategorisch von Einkommensteuer, Mehrwertsteuer oder Grundsteuer?"
+      ]
     }
   ],
   "sources": [
