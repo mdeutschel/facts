@@ -3,16 +3,16 @@
   "title": "E-Mobilität",
   "subtitle": "Fakten zu Reichweite, Akkus, Kosten & Klimabilanz",
   "seoTitle": "E-Auto vs. Verbrenner: Akku, CO₂, Kosten — Fakten 2026",
-  "seoDescription": "Hält der Akku nur 5 Jahre? Bricht das Stromnetz? Quellengeprüfte Antworten zu 7 verbreiteten E-Auto-Behauptungen — TCO, Klimabilanz, Reichweite.",
+  "seoDescription": "Hält der Akku nur 5 Jahre? Ist das E-Auto zu teuer? Bricht das Netz? Quellengeprüfte Antworten zu 8 verbreiteten E-Auto-Behauptungen — TCO, Klimabilanz, Effizienz, Reichweite.",
   "icon": "electric_car",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-05-30",
   "keyStats": [
     "2,03 Mio. BEV in Deutschland",
     ">190.000 öffentliche Ladepunkte",
     "19,1 % BEV-Marktanteil (2025)",
-    "7 Argumente"
+    "8 Argumente"
   ],
-  "sourceNote": "Quellen: ICCT, ADAC, BMUKN, BDEW, Bundesnetzagentur, KBA, Fraunhofer ISI, Transport & Environment und EU-Batterieverordnung (Stand März 2026).",
+  "sourceNote": "Quellen: ICCT, ADAC, BMUKN, Bundesnetzagentur, KBA, Fraunhofer ISI, P3, Recurrent, GDV, DAT, Transport & Environment und EU-Batterieverordnung (Stand Mai 2026).",
   "sections": [
     {
       "id": "status-quo",
@@ -29,17 +29,18 @@
             {
               "value": ">190.000",
               "label": "Öffentl. Ladepunkte",
-              "sublabel": "davon >48.000 Schnelllader (BNetzA)"
+              "sublabel": "davon >48.000 Schnelllader (BNetzA, 1.1.2026)"
             },
             {
               "value": "19,1 %",
               "label": "BEV-Marktanteil",
-              "sublabel": "Neuzulassungen 2025"
+              "sublabel": "Neuzulassungen 2025 (KBA)"
             }
           ],
           "sourceRefs": [
-            "bdew-marke-von-200-000-ladepunkten",
-            "kraftfahrt-bundesamt-kba-bestand"
+            "kraftfahrt-bundesamt-kba-bestand",
+            "bundesnetzagentur-ladesaeulenregister",
+            "kba-neuzulassungen-2025"
           ]
         },
         {
@@ -47,41 +48,25 @@
           "caption": "Marktanteil reiner E-Autos (BEV) an Neuzulassungen in Deutschland",
           "unit": "%",
           "items": [
-            {
-              "label": "2020",
-              "value": 6.7
-            },
-            {
-              "label": "2021",
-              "value": 13.6
-            },
-            {
-              "label": "2022",
-              "value": 17.7
-            },
-            {
-              "label": "2023",
-              "value": 18.4
-            },
-            {
-              "label": "2024",
-              "value": 13.5
-            },
-            {
-              "label": "2025",
-              "value": 19.1
-            }
+            { "label": "2020", "value": 6.7 },
+            { "label": "2021", "value": 13.6 },
+            { "label": "2022", "value": 17.7 },
+            { "label": "2023", "value": 18.4 },
+            { "label": "2024", "value": 13.5 },
+            { "label": "2025", "value": 19.1 }
           ],
           "sourceRefs": [
-            "bdew-marke-von-200-000-ladepunkten"
+            "kba-neuzulassungen-2025"
           ]
         },
         {
           "type": "fact",
-          "text": "Nach dem Einbruch 2024 stieg der BEV-Anteil an den Neuzulassungen 2025 wieder auf 19,1 %. Gegenüber 2024 legte der BEV-Anteil damit wieder zu.",
+          "text": "Der Einbruch 2024 folgte vor allem auf das abrupte Ende der staatlichen Kaufprämie Ende 2023. 2025 erholte sich der BEV-Anteil wieder auf 19,1 %. Inzwischen sind über 2 Millionen reine E-Autos zugelassen — rund 4 % des gesamten Pkw-Bestands von etwa 49 Millionen Fahrzeugen.",
           "highlight": true,
           "sourceRefs": [
-            "bdew-marke-von-200-000-ladepunkten"
+            "kba-neuzulassungen-2025",
+            "kraftfahrt-bundesamt-kba-bestand",
+            "kraftfahrt-bundesamt-kba-fahrzeugbestand-am-1"
           ]
         }
       ]
@@ -92,7 +77,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Ein E-Auto startet wegen der Batterieproduktion mit einem „CO₂-Rucksack“ ins Leben. Dieser wird im Fahrbetrieb abgebaut, da der E-Motor deutlich effizienter ist und der Strommix immer grüner wird.",
+          "text": "Ein E-Auto startet mit einem CO₂-Rucksack ins Leben: Seine Herstellung verursacht laut ICCT rund 40 % mehr Emissionen als die eines Verbrenners, vor allem wegen der Batterieproduktion. Entscheidend ist aber nicht der Start, sondern die Bilanz über das ganze Autoleben — und wie grün der geladene Strom ist.",
           "sourceRefs": [
             "icct-life-cycle-ghg-emissions-of-passenger-cars",
             "bmukn-klima-und-energie-bei-elektromobilitaet"
@@ -104,13 +89,18 @@
             {
               "value": "~17.000 km",
               "label": "Break-Even",
-              "sublabel": "in Europa (ICCT 2025)",
+              "sublabel": "Produktions-Rucksack abgefahren (ICCT 2025)",
               "color": "#00897b"
             },
             {
-              "value": "-73 %",
-              "label": "CO₂-Emissionen",
-              "sublabel": "über Lebenszyklus (ICCT 2025)"
+              "value": "−73 %",
+              "label": "CO₂ über Lebenszyklus",
+              "sublabel": "vs. Benziner, EU-Strommix (ICCT 2025)"
+            },
+            {
+              "value": "−78 %",
+              "label": "mit Ökostrom",
+              "sublabel": "Lebenszyklus vs. Benziner (ICCT 2025)"
             }
           ],
           "sourceRefs": [
@@ -118,19 +108,27 @@
           ]
         },
         {
-          "type": "fact",
-          "text": "Laut ICCT (Juli 2025) verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner.",
-          "highlight": true,
+          "type": "bar_chart",
+          "caption": "Treibhausgase über den gesamten Lebenszyklus (Pkw, EU-Zulassung 2025)",
+          "unit": "g CO₂e/km",
+          "items": [
+            { "label": "Benziner", "value": 235 },
+            { "label": "Diesel", "value": 234 },
+            { "label": "Vollhybrid", "value": 188 },
+            { "label": "Plug-in-Hybrid", "value": 165 },
+            { "label": "E-Auto (EU-Strommix)", "value": 63, "highlight": true },
+            { "label": "E-Auto (Ökostrom)", "value": 52, "highlight": true }
+          ],
           "sourceRefs": [
             "icct-life-cycle-ghg-emissions-of-passenger-cars"
           ]
         },
         {
           "type": "fact",
-          "text": "Der CO₂-Rucksack aus der Produktion wird im Betrieb schrittweise ausgeglichen, weil E-Motoren effizienter sind und der Strommix weiter dekarbonisiert.",
+          "text": "Auch gegenüber Diesel und Hybriden bleibt der Vorsprung groß: Weil Diesel (234 g) und Benziner (235 g) fast gleichauf liegen, gilt das Minus von rund 73 % praktisch für beide. Voll- und Plug-in-Hybride stoßen über den Lebenszyklus noch rund dreimal so viel Treibhausgase aus wie ein reines E-Auto.",
+          "highlight": true,
           "sourceRefs": [
-            "icct-life-cycle-ghg-emissions-of-passenger-cars",
-            "bmukn-klima-und-energie-bei-elektromobilitaet"
+            "icct-life-cycle-ghg-emissions-of-passenger-cars"
           ]
         }
       ]
@@ -141,80 +139,65 @@
       "content": [
         {
           "type": "text",
-          "text": "TCO (Total Cost of Ownership) beinhaltet Anschaffung, Wertverlust, Steuern, Versicherung, Wartung und Energiekosten (ADAC Autokostenrechner).",
+          "text": "TCO (Total Cost of Ownership) zählt nicht nur den Kaufpreis, sondern alle Kosten über die Haltedauer: Wertverlust, Kfz-Steuer, Versicherung, Wartung, Reparaturen, Reifen und Energie. Der ADAC rechnet mit 5 Jahren Haltedauer und 15.000 km im Jahr.",
           "sourceRefs": [
-            "adac-autokostenrechner-tco-vergleich"
+            "adac-elektroauto-kostenvergleich"
           ]
         },
         {
           "type": "comparison",
-          "caption": "ADAC-Kostenvergleich: VW ID.3 vs. VW Golf (bei 15.000 km/Jahr)",
+          "caption": "ADAC-Gesamtkostenvergleich: VW ID.3 vs. VW Golf (5 Jahre, 15.000 km/Jahr)",
           "items": [
             {
               "title": "VW Golf 1.5 eTSI (Benzin)",
               "color": "#546e7a",
               "rows": [
-                {
-                  "label": "Listenpreis",
-                  "value": "ab ~33.400 €"
-                },
-                {
-                  "label": "Gesamtkosten",
-                  "value": "~57 Ct/km"
-                },
-                {
-                  "label": "Kfz-Steuer",
-                  "value": "regelmäßig fällig"
-                },
-                {
-                  "label": "Wartung/Verschleiß",
-                  "value": "höher (Ölwechsel, Bremsen, Kupplung)"
-                }
+                { "label": "Anschaffung", "value": "niedriger" },
+                { "label": "Gesamtkosten", "value": "50,5 Ct/km" },
+                { "label": "Kfz-Steuer", "value": "regelmäßig fällig" },
+                { "label": "Wartung/Verschleiß", "value": "höher (Öl, mehr Verschleiß)" },
+                { "label": "Wertverlust", "value": "niedriger" }
               ],
               "total": {
-                "label": "Monatliche Kosten",
-                "value": "~710 €"
+                "label": "Kosten pro Monat",
+                "value": "~631 €"
               }
             },
             {
-              "title": "VW ID.3 Pure (Elektro)",
+              "title": "VW ID.3 Pro (Elektro)",
               "color": "#00897b",
               "rows": [
-                {
-                  "label": "Listenpreis",
-                  "value": "ab ~33.300 €"
-                },
-                {
-                  "label": "Gesamtkosten",
-                  "value": "~47 Ct/km"
-                },
-                {
-                  "label": "Kfz-Steuer",
-                  "value": "bis Ende 2030 befreit"
-                },
-                {
-                  "label": "Wartung/Verschleiß",
-                  "value": "niedriger (kein Ölwechsel, weniger Bremsverschleiß)"
-                }
+                { "label": "Anschaffung", "value": "höher (ab ~39.000 €)" },
+                { "label": "Gesamtkosten", "value": "41,6 Ct/km" },
+                { "label": "Kfz-Steuer", "value": "bis Ende 2030 befreit" },
+                { "label": "Wartung/Verschleiß", "value": "~⅓ günstiger (kein Ölwechsel)" },
+                { "label": "Wertverlust", "value": "höher als beim Verbrenner" }
               ],
               "total": {
-                "label": "Monatliche Kosten",
-                "value": "~590 €"
+                "label": "Kosten pro Monat",
+                "value": "~520 €"
               }
             }
           ],
-          "savings": "Der ID.3 ist laut ADAC über 4 Jahre Nutzung rund 3.000–4.000 € günstiger als der Golf.",
+          "savings": "Über die Gesamtkosten liegt der ID.3 trotz höheren Wertverlusts vorn — gegenüber dem Diesel-Golf (53,8 Ct/km) noch deutlicher. Mit 10 % Rabatt auf den Benziner schmilzt der Vorteil allerdings zusammen.",
           "sourceRefs": [
-            "adac-autokostenrechner-tco-vergleich",
+            "adac-elektroauto-kostenvergleich",
             "zoll-verlaengerung-der-steuerbefreiung-fuer"
           ]
         },
         {
           "type": "fact",
-          "text": "Laut ADAC ist der VW ID.3 bei ähnlichem Listenpreis in den Gesamtkosten rund 10 Cent/km günstiger als der vergleichbare VW Golf – vor allem durch niedrigere Energie-, Steuer- und Wartungskosten.",
+          "text": "E-Autos sind laut ADAC ‚oft, aber nicht immer‘ günstiger: In der Mittelklasse rechnen sie sich bis zu einem Strompreis von rund 80 Ct/kWh. Kleinwagen dagegen lohnen sich wegen des hohen Wertverlusts oft selbst bei billigem Strom nicht, und in der Oberklasse oder bei reinem Laden an teuren Schnellladern kann der Verbrenner günstiger bleiben.",
           "highlight": true,
           "sourceRefs": [
-            "adac-autokostenrechner-tco-vergleich"
+            "adac-elektroauto-kostenvergleich"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der Wertverlust ist die größte Schwachstelle: Ein drei Jahre altes E-Auto bringt laut DAT im Schnitt nur rund die Hälfte des Neupreises, ein vergleichbarer Benziner oder Diesel über 60 %. Schnelle Technik-Sprünge und Preissenkungen bei Neuwagen drücken die Restwerte — bei der Gesamtrechnung ist das bereits eingerechnet.",
+          "sourceRefs": [
+            "dat-restwerte-elektroauto"
           ]
         }
       ]
@@ -227,21 +210,33 @@
           "type": "stat_grid",
           "items": [
             {
-              "value": "8 Jahre",
-              "label": "Akku-Garantie",
-              "sublabel": "oder 160.000 km, Marktstandard",
+              "value": "~91 %",
+              "label": "Restkapazität",
+              "sublabel": "VW ID.3 nach >160.000 km (ADAC-Dauertest)",
               "color": "#00897b"
             },
             {
-              "value": "70 %",
-              "label": "Mindestkapazität",
-              "sublabel": "nach Garantielaufzeit"
+              "value": "8 J / 160.000 km",
+              "label": "Garantie-Standard",
+              "sublabel": "auf min. 70 % Kapazität"
             },
             {
-              "value": "250.000 km",
-              "label": "BYD Blade",
-              "sublabel": "erweiterte Garantie"
+              "value": "~2,5 %",
+              "label": "je getauscht",
+              "sublabel": "Anteil aller E-Auto-Akkus (Recurrent)"
             }
+          ],
+          "sourceRefs": [
+            "adac-vw-id3-dauertest",
+            "recurrent-ev-battery-replacement"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die Garantie ist nur die Untergrenze, nicht die Lebensdauer. Reale Flottendaten zeigen langsamen Verschleiß: Eine P3-Auswertung von über 7.000 Fahrzeugen fand nach 100.000 km im Schnitt noch rund 90 % Kapazität. Akkus altern anfangs etwas schneller und dann sehr flach — die meisten überdauern das Auto. Ausgetauscht werden vor allem bei jüngeren Baujahren nur sehr wenige.",
+          "sourceRefs": [
+            "p3-battery-aging-study",
+            "adac-vw-id3-dauertest"
           ]
         },
         {
@@ -253,55 +248,43 @@
             "Kapazitätsgarantie"
           ],
           "rows": [
-            [
-              "VW (ID.-Familie)",
-              "8 Jahre / 160.000 km",
-              "min. 70 %"
-            ],
-            [
-              "Hyundai (IONIQ 5/6)",
-              "8 Jahre / 160.000 km",
-              "min. 70 %"
-            ],
-            [
-              "Tesla (Model 3/Y)",
-              "8 Jahre / 192.000 km",
-              "min. 70 %"
-            ],
-            [
-              "BYD (Blade-Batterie)",
-              "8 Jahre / 250.000 km",
-              "min. 70 %"
-            ]
+            ["VW (ID.-Familie)", "8 Jahre / 160.000 km", "min. 70 %"],
+            ["Hyundai (IONIQ 5/6)", "8 Jahre / 160.000 km", "min. 70 %"],
+            ["Tesla (Model 3/Y Long Range)", "8 Jahre / 192.000 km", "min. 70 %"],
+            ["BYD (Blade-Batterie)", "8 Jahre / 250.000 km", "min. 70 %"]
           ]
         },
         {
           "type": "stat_grid",
           "items": [
             {
-              "value": "90 %",
+              "value": "90 → 95 %",
               "label": "Rückgewinnung",
-              "sublabel": "ab Ende 2027 für Kobalt, Kupfer, Blei und Nickel"
+              "sublabel": "Kobalt, Kupfer, Nickel: 90 % bis Ende 2027, 95 % bis Ende 2031"
             },
             {
-              "value": "50 %",
-              "label": "Lithium",
-              "sublabel": "Rückgewinnungsziel bis Ende 2027, später 80 %"
+              "value": "50 → 80 %",
+              "label": "Lithium-Recycling",
+              "sublabel": "50 % bis Ende 2027, 80 % bis Ende 2031"
             },
             {
               "value": "Second Life",
               "label": "Nachnutzung",
-              "sublabel": "Ausgemusterte Akkus werden als stationäre Speicher weitergenutzt"
+              "sublabel": "Akkus unter ~80 % als stationäre Speicher"
             }
+          ],
+          "sourceRefs": [
+            "eu-batterieverordnung-2023-1542-recyclingquoten",
+            "fraunhofer-isi-batterie-recycling-in-europa"
           ]
         },
         {
           "type": "fact",
-          "text": "Die Rohstofffrage ist real, aber Batterien sind reguliert: Hersteller reduzieren kritische Materialien, und die EU verschärft die Recyclingvorgaben deutlich.",
+          "text": "Der Trend geht weg von kritischen Rohstoffen: LFP-Akkus, die inzwischen rund 40 % des E-Auto-Markts ausmachen, kommen ganz ohne Kobalt und Nickel aus. Zugleich verschärft die EU-Batterieverordnung die Recyclingquoten und schreibt Sorgfaltspflichten in der Lieferkette vor.",
           "highlight": true,
           "sourceRefs": [
-            "fraunhofer-isi-batterie-recycling-in-europa",
-            "eu-batterieverordnung-2023-1542-recyclingquoten"
+            "eu-batterieverordnung-2023-1542-recyclingquoten",
+            "fraunhofer-isi-batterie-recycling-in-europa"
           ]
         }
       ]
@@ -314,36 +297,37 @@
           "type": "stat_grid",
           "items": [
             {
+              "value": "~100 TWh",
+              "label": "Strombedarf",
+              "sublabel": "falls alle ~45 Mio. Pkw elektrisch — ca. ein Sechstel des Verbrauchs (BMUKN)"
+            },
+            {
               "value": "4,2 kW",
               "label": "Mindestleistung",
-              "sublabel": "bei Dimmung nach § 14a EnWG"
+              "sublabel": "garantiert trotz Dimmung (§ 14a EnWG)"
             },
             {
-              "value": "§ 14a EnWG",
-              "label": "Regelung",
-              "sublabel": "verhindert lokale Überlastung"
-            },
-            {
-              "value": "smart laden",
-              "label": "Praxis",
-              "sublabel": "Engpässe werden lokal statt pauschal gemanagt"
+              "value": "seit 2024",
+              "label": "§ 14a EnWG",
+              "sublabel": "steuert lokale Lastspitzen"
             }
           ],
           "sourceRefs": [
+            "bmukn-strombedarf-und-netze",
             "bundesnetzagentur-e-mobilitaet-und-14a-enwg"
           ]
         },
         {
           "type": "fact",
-          "text": "Neue steuerbare Ladeeinrichtungen dürfen nicht pauschal wegen lokaler Engpässe abgelehnt werden. Im Engpassfall darf der Strombezug zeitweise reduziert werden, die Bundesnetzagentur schreibt dabei aber eine Mindestleistung von 4,2 kW vor.",
+          "text": "Ein flächendeckender Umstieg würde den Stromverbrauch nicht vervielfachen: Selbst eine komplett elektrische Pkw-Flotte bräuchte laut BMUKN rund ein Sechstel des heutigen Stromverbrauchs — gut planbar über viele Jahre. Das eigentliche Thema sind einzelne lokale Verteilnetze, nicht die bundesweite Erzeugung.",
           "highlight": true,
           "sourceRefs": [
-            "bundesnetzagentur-e-mobilitaet-und-14a-enwg"
+            "bmukn-strombedarf-und-netze"
           ]
         },
         {
           "type": "text",
-          "text": "Lokale Überlastungen werden durch intelligentes Laden gemanagt. Netzbetreiber dürfen Wallboxen im Engpassfall zeitweise dimmen, aber nicht vollständig abschalten.",
+          "text": "Lokale Spitzen regelt § 14a EnWG: Netzbetreiber dürfen neue Wallboxen im Engpassfall vorübergehend drosseln, aber nicht abschalten — mindestens 4,2 kW (gut 50 km Reichweite in zwei Stunden) bleiben immer verfügbar. Gesteuertes Laden und zeitvariable Tarife verteilen die Last über die Nacht, statt sie zu addieren.",
           "sourceRefs": [
             "bundesnetzagentur-e-mobilitaet-und-14a-enwg"
           ]
@@ -352,48 +336,94 @@
     },
     {
       "id": "efuels-wasserstoff",
-      "title": "E-Fuels & Wasserstoff im PKW: Ein Effizienzproblem",
+      "title": "Effizienz: Vom Kraftwerk bis zum Rad",
       "content": [
         {
+          "type": "text",
+          "text": "Ein fairer Vergleich von Antrieben muss auf der Energieebene ansetzen — also fragen, wie viel der eingesetzten Energie am Ende das Rad antreibt. Genau hier liegt der größte Vorteil des E-Autos: Der Elektromotor wandelt Strom fast verlustfrei in Bewegung um, während der Verbrenner den Großteil als Abwärme verliert.",
+          "sourceRefs": [
+            "adac-elektroauto-kostenvergleich"
+          ]
+        },
+        {
           "type": "table",
-          "caption": "Wirkungsgrad-Vergleich: Wie viel Strom kommt auf der Straße an?",
+          "caption": "Wirkungsgrad: Wie viel der eingesetzten Energie das Rad antreibt",
+          "headers": [
+            "Antrieb",
+            "Anteil Energie ans Rad"
+          ],
+          "rows": [
+            ["E-Auto (BEV)", "~70 % (inkl. Ladeverluste)"],
+            ["Verbrenner (Benzin/Diesel)", "~20–30 %"]
+          ],
+          "sourceRefs": [
+            "adac-elektroauto-kostenvergleich"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Mit derselben Menge Energie fährt ein E-Auto rund zwei- bis dreimal so weit wie ein Verbrenner — der Rest verpufft im Verbrenner als Abwärme. Deshalb ist die direkte Stromnutzung im Pkw energetisch konkurrenzlos effizient.",
+          "highlight": true,
+          "sourceRefs": [
+            "adac-elektroauto-kostenvergleich"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Strombedarf je Antriebsweg für 100 km (Strom als gemeinsame Ausgangsenergie)",
           "headers": [
             "Antrieb",
             "Wirkungsgrad (Strom → Rad)",
             "Strombedarf für 100 km"
           ],
           "rows": [
-            [
-              "E-Auto (BEV)",
-              "~70–80 %",
-              "~15–20 kWh"
-            ],
-            [
-              "Wasserstoff (FCEV)",
-              "~25–30 %",
-              "~40–55 kWh"
-            ],
-            [
-              "E-Fuels (Verbrenner)",
-              "~10–15 %",
-              "~100–130 kWh"
-            ]
+            ["E-Auto (BEV)", "~70–80 %", "~15–20 kWh"],
+            ["Wasserstoff (FCEV)", "~25–30 %", "~40–55 kWh"],
+            ["E-Fuels (Verbrenner)", "~10–15 %", "~100–130 kWh"]
           ],
           "sourceRefs": [
             "transport-environment-t-e-e-fuels"
           ]
         },
         {
-          "type": "fact",
-          "text": "Für dieselbe Strecke braucht ein E-Fuel-Verbrenner etwa 5- bis 6-mal so viel Strom wie ein Batterieauto. Für Pkw ist die direkte Stromnutzung daher mit Abstand am effizientesten.",
-          "highlight": true,
+          "type": "text",
+          "text": "Für dieselbe Strecke braucht ein E-Fuel-Verbrenner also rund fünf- bis sechsmal so viel Strom wie ein Batterieauto. E-Fuels und Wasserstoff sind trotzdem wertvoll — aber vor allem dort, wo sich direkte Elektrifizierung schwer umsetzen lässt: im Flugverkehr, in der Schifffahrt und in Teilen der Industrie. Im Massen-Pkw sind sie der teure und ineffiziente Umweg.",
           "sourceRefs": [
             "transport-environment-t-e-e-fuels"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reichweite-laden",
+      "title": "Reichweite & Laden: Reicht das für den Alltag?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "350–500 km",
+              "label": "WLTP-Reichweite",
+              "sublabel": "viele aktuelle Kompakt-E-Autos"
+            },
+            {
+              "value": "~25–30 Min.",
+              "label": "Schnellladen",
+              "sublabel": "10 → 80 %, Strom für ~200–300 km"
+            },
+            {
+              "value": ">48.000",
+              "label": "Schnelllader",
+              "sublabel": "öffentlich in Deutschland (BNetzA, 1.1.2026)"
+            }
+          ],
+          "sourceRefs": [
+            "bundesnetzagentur-ladesaeulenregister"
           ]
         },
         {
           "type": "text",
-          "text": "E-Fuels und Wasserstoff sind wertvoll und werden vor allem in Sektoren gebraucht, die sich nur schwer direkt elektrifizieren lassen, etwa im Flugverkehr, in der Schifffahrt und in Teilen der Industrie. Im Pkw sind sie energetisch deutlich ineffizienter und meist nicht der sinnvolle Einsatz."
+          "text": "Für den Alltag reicht das locker: Die meisten Fahrten sind kurz, und wer zu Hause oder beim Arbeitgeber lädt, startet jeden Morgen mit voller Batterie. Auf Langstrecke ersetzt ein Ladestopp die ohnehin sinnvolle Pause. Ehrlich bleibt: Bei hohem Autobahntempo und Kälte sinkt die reale Reichweite spürbar unter den WLTP-Wert — Langstrecke will also etwas mehr Planung als beim Verbrenner."
         }
       ]
     },
@@ -403,22 +433,24 @@
       "content": [
         {
           "type": "fact",
-          "text": "Elektroautos brennen laut BMUKN nicht häufiger als andere Fahrzeuge.",
+          "text": "Die Zahlen zeigen das Gegenteil der Parole: E-Autos brennen laut BMUKN nicht häufiger als Verbrenner. Eine Auswertung der schwedischen Behörde MSB kam für 2022 sogar auf rund 3,8 Fahrzeugbrände je 100.000 E- und Hybridautos gegenüber rund 76 je 100.000 Verbrennern. Ein Teil dieses Unterschieds geht allerdings auf die im Schnitt ältere Verbrennerflotte zurück.",
           "highlight": true,
           "sourceRefs": [
-            "bmukn-brandgefahr-von-elektroautos"
+            "bmukn-brandgefahr-von-elektroautos",
+            "gdv-elektroauto-braende"
           ]
         },
         {
           "type": "text",
-          "text": "Ein brennendes Elektroauto ist laut BMUKN in thermischer Hinsicht nicht gefährlicher als ein brennendes Fahrzeug mit konventionellem Antrieb.",
+          "text": "Auch in der Schwere unterscheiden sich die Brände kaum: Ein brennendes E-Auto ist laut BMUKN in thermischer Hinsicht nicht gefährlicher als ein brennendes Fahrzeug mit Verbrenner, und der Versicherer-Verband GDV stellt kein erhöhtes Brandrisiko fest.",
           "sourceRefs": [
-            "bmukn-brandgefahr-von-elektroautos"
+            "bmukn-brandgefahr-von-elektroautos",
+            "gdv-elektroauto-braende"
           ]
         },
         {
           "type": "text",
-          "text": "Wenn ein E-Auto brennt, ist es oft aufwendiger zu löschen, weil der Akku gekühlt werden muss. Für Feuerwehren ist das ein bekanntes Einsatzszenario."
+          "text": "Wenn ein Akku doch brennt, ist das Löschen aufwendiger, weil die Zellen gekühlt werden müssen. Für Feuerwehren ist das aber ein bekanntes und beherrschbares Einsatzszenario, kein unlöschbares Inferno."
         }
       ]
     }
@@ -427,7 +459,7 @@
     {
       "id": "akku-kaputt",
       "claim": "Nach 3 bis 5 Jahren ist der Akku kaputt und ein neuer kostet 15.000 Euro.",
-      "response": "Pauschal falsch. Marktstandard ist 8 Jahre oder 160.000 km Garantie auf mindestens 70 % Kapazität. BYD garantiert sogar 250.000 km. Ein Austausch nach 3–5 Jahren ist die Ausnahme, nicht die Regel. Und selbst ausgemusterte Akkus unter 80 % Kapazität werden als stationäre Speicher weitergenutzt.",
+      "response": "Akkus halten in der Praxis deutlich länger, als das Auto sie braucht. Marktstandard sind 8 Jahre oder 160.000 km Garantie auf mindestens 70 % Kapazität, BYD garantiert sogar 250.000 km. Reale Messungen zeigen weit weniger Verschleiß: Im ADAC-Dauertest hatte ein VW ID.3 nach über 160.000 km noch rund 91 % Kapazität. Ausgetauscht wird in der Praxis nur ein kleiner Bruchteil der Akkus, bei Modellen ab 2016 deutlich unter 1 %. Ein Kompletttausch nach 3 bis 5 Jahren ist die seltene Ausnahme, kein Normalfall.",
       "keywords": [
         "akku",
         "kaputt",
@@ -439,29 +471,41 @@
       "relatedSections": [
         "akkus-rohstoffe"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole überträgt die Alltagserfahrung mit Handy-Akkus auf Autobatterien — dabei sind die Packs aktiv gekühlt, werden nie ganz voll oder ganz leer gefahren und haben eine Reserve. Aus seltenen Einzelfällen früher Defekte wird eine Regel gemacht (unzulässige Verallgemeinerung), und der teuerste denkbare Tauschpreis wird zum Standard erklärt.",
+      "counterQuestions": [
+        "Woher stammt die Zahl von 3 bis 5 Jahren — kennst du ein konkretes Modell, bei dem das dokumentiert ist, oder ist es das Gefühl vom Handy-Akku?",
+        "Wenn Hersteller 8 Jahre und bis zu 250.000 km Garantie geben — würden sie das tun, wenn die Akkus reihenweise nach 5 Jahren ausfielen?",
+        "Was wäre für dich ein fairer Beleg: reale Messdaten von Autos mit hoher Laufleistung, oder reicht eine Geschichte vom Hörensagen?"
+      ]
     },
     {
-      "id": "stromnetz-kollaps",
-      "claim": "Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.",
-      "response": "Nein. Netzbetreiber dürfen neue steuerbare Ladeeinrichtungen nicht pauschal wegen lokaler Engpässe ablehnen. Im Engpassfall darf der Strombezug nach § 14a EnWG vorübergehend auf 4,2 kW reduziert werden; diese Mindestleistung muss laut Bundesnetzagentur immer verfügbar bleiben.",
+      "id": "zu-teuer",
+      "claim": "E-Autos sind einfach viel zu teuer.",
+      "response": "Beim Kaufpreis stimmt das oft noch — über die Gesamtkosten kippt das Bild aber häufig. In der Anschaffung sind vergleichbare E-Autos meist teurer, im Unterhalt dafür günstiger: Der ADAC rechnet den VW ID.3 mit rund 41,6 Ct/km günstiger als den Golf-Benziner (50,5 Ct/km) oder -Diesel (53,8 Ct/km), vor allem wegen niedrigerer Energie-, Steuer- und Wartungskosten. Pauschal ist es aber nicht: Kleinwagen rechnen sich wegen des hohen Wertverlusts oft nicht, und wer nur an teuren Schnellladern lädt oder ein Oberklasse-Modell fährt, kann schlechter dastehen. ‚Zu teuer‘ hängt also stark von Klasse, Fahrleistung und Ladeweise ab.",
       "keywords": [
-        "stromnetz",
-        "blackout",
-        "zusammenbruch",
-        "laden",
-        "netz",
-        "überlastung"
+        "teuer",
+        "preis",
+        "kosten",
+        "anschaffung",
+        "unterhalt",
+        "tco"
       ],
       "relatedSections": [
-        "stromnetz"
+        "kosten-tco"
       ],
-      "verdict": "false"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Aussage verengt ‚Kosten‘ auf den Kaufpreis und blendet Unterhalt, Steuer, Wartung und Energie aus — eine unvollständige Rechnung. ‚Zu teuer‘ wird absolut gesetzt, obwohl die Antwort stark von Fahrzeugklasse und Nutzung abhängt.",
+      "counterQuestions": [
+        "Meinst du den Kaufpreis oder die Kosten pro Kilometer über die ganze Haltedauer?",
+        "Wie viele Kilometer fährst du im Jahr — und kannst du zu Hause oder beim Arbeitgeber laden?",
+        "Welche Fahrzeugklasse schwebt dir vor? Bei einem Kleinwagen sieht die Rechnung anders aus als in der Mittelklasse."
+      ]
     },
     {
       "id": "co2-rucksack",
       "claim": "Wegen der Batterieproduktion ist ein E-Auto klimaschädlicher als ein Diesel.",
-      "response": "Falsch. Laut ICCT verursachen 2025 in Europa verkaufte Batterie-Elektroautos über ihren Lebenszyklus rund 73 % weniger Treibhausgasemissionen als vergleichbare Benziner. Der höhere CO₂-Fußabdruck der Produktion wird im Fahrbetrieb wieder ausgeglichen.",
+      "response": "Über das ganze Autoleben gerechnet liegt das E-Auto klar vorn — auch gegenüber dem Diesel. Laut ICCT (2025) verursacht ein heute in Europa zugelassenes Batterieauto über den Lebenszyklus rund 73 % weniger Treibhausgase als ein Benziner; weil Diesel und Benziner fast gleichauf liegen (234 bzw. 235 g CO₂/km), gilt der Vorsprung gegenüber Diesel praktisch genauso. Die höheren Produktionsemissionen der Batterie sind nach rund 17.000 km — meist im ersten oder zweiten Jahr — wieder ausgeglichen. Mit Ökostrom wächst der Vorteil auf rund 78 %.",
       "keywords": [
         "klimaschädlich",
         "co2",
@@ -473,12 +517,18 @@
       "relatedSections": [
         "klimabilanz"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Aussage greift einen realen Teilaspekt heraus — die höhere Produktionsemission der Batterie — und blendet den Rest der Bilanz aus (selektive Wahrnehmung). Ein Rucksack am Start sagt nichts über das Ziel: Entscheidend ist die Gesamtbilanz über alle gefahrenen Kilometer, nicht der Ausgangspunkt.",
+      "counterQuestions": [
+        "Vergleichst du nur die Herstellung oder das ganze Autoleben inklusive Sprit beziehungsweise Strom?",
+        "Nach wie vielen Kilometern ist der Produktions-Mehraufwand deiner Meinung nach wieder drin — und woher hast du die Zahl?",
+        "Würde sich dein Urteil ändern, wenn das E-Auto mit Ökostrom geladen wird?"
+      ]
     },
     {
       "id": "kobalt-kinderarbeit",
       "claim": "Für E-Autos schuften Kinder im Kongo für Kobalt.",
-      "response": "Die Probleme im Rohstoffabbau sind real und müssen ernst genommen werden. Gleichzeitig sinkt der Einsatz kritischer Materialien bei manchen Batterietypen, LFP-Akkus kommen ohne Kobalt und Nickel aus, und die EU verschärft die Recyclingvorgaben für Batterierohstoffe deutlich.",
+      "response": "Der Kern stimmt: Im Rohstoffabbau, besonders bei Kobalt aus dem Kongo, gibt es gravierende Menschenrechts- und Umweltprobleme, die man nicht kleinreden darf. Zugleich greift die Zuspitzung zu kurz: Der Kobaltanteil sinkt, LFP-Akkus (rund 40 % des E-Auto-Markts) kommen ganz ohne Kobalt und Nickel aus, und die EU-Batterieverordnung schreibt Sorgfaltspflichten in der Lieferkette und steigende Recyclingquoten vor. Kobalt steckt außerdem auch in Handys, Laptops und in Raffinerie-Katalysatoren für Diesel und Benzin — das Problem ist real, aber kein reines E-Auto-Thema.",
       "keywords": [
         "kobalt",
         "kinderarbeit",
@@ -489,12 +539,18 @@
       "relatedSections": [
         "akkus-rohstoffe"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole nutzt ein echtes, moralisch aufgeladenes Problem selektiv als Totschlagargument gegen nur eine Technologie: Kobalt-Abbau wird zum E-Auto-Spezifikum erklärt, obwohl er ebenso Smartphones, Laptops und die Erdölverarbeitung betrifft. Das Anliegen kann ehrlich sein, die Engführung führt aber in die Irre.",
+      "counterQuestions": [
+        "Ist dir wichtig, dass Kobalt fair abgebaut wird — oder geht es darum, das E-Auto zu treffen? Beim ersten Ziel ziehen wir am selben Strang.",
+        "Wusstest du, dass auch in deinem Smartphone und in der Diesel-Raffinerie Kobalt steckt — gilt deine Sorge auch dort?",
+        "Was hältst du von kobaltfreien LFP-Akkus — wäre das für dich ein gangbarer Weg?"
+      ]
     },
     {
       "id": "wasserstoff-zukunft",
       "claim": "Batterien sind nur eine Brückentechnologie, Wasserstoff und E-Fuels sind die Zukunft.",
-      "response": "Die Physik spricht eher für direkte Elektrifizierung. Im Pkw ist das Batterieauto deutlich effizienter als Wasserstoff oder E-Fuels. Diese Energieträger werden vor allem dort gebraucht, wo Batterien an Grenzen stoßen, etwa in Luftfahrt, Schifffahrt oder Teilen der Industrie.",
+      "response": "Bei Pkw spricht die Physik klar für die Batterie. Vom Strom bis zum Rad nutzt ein Batterieauto rund 70 bis 80 % der eingesetzten Energie, eine Brennstoffzelle nur etwa 25 bis 30 %, ein E-Fuel-Verbrenner gerade einmal 10 bis 15 %. Für dieselbe Strecke braucht der E-Fuel-Wagen also rund fünf- bis sechsmal so viel Strom. Das macht Wasserstoff und E-Fuels nicht wertlos — sie sind dort sinnvoll, wo Batterien an Grenzen stoßen: Luftfahrt, Schifffahrt, Teile der Industrie. Im Massen-Pkw sind sie der teure Umweg.",
       "keywords": [
         "wasserstoff",
         "e-fuels",
@@ -506,12 +562,18 @@
       "relatedSections": [
         "efuels-wasserstoff"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Das Schlagwort ‚Brückentechnologie‘ dreht die Beweislast um: Die etablierte, effiziente Lösung wird zum Provisorium erklärt, die unausgereifte zur Zukunft — ohne die Effizienzverluste zu benennen. ‚Technologieoffenheit‘ klingt neutral, ignoriert aber die physikalischen Wirkungsgrade.",
+      "counterQuestions": [
+        "Wenn ein E-Fuel-Auto fünfmal so viel Strom pro Kilometer braucht — woher soll dieser zusätzliche Strom kommen?",
+        "Für welchen konkreten Pkw-Einsatzzweck ist Wasserstoff der Batterie heute praktisch überlegen?",
+        "Was genau soll die ‚Brücke‘ überbrücken — und wohin führt sie, wenn die Batterie längst da ist?"
+      ]
     },
     {
       "id": "brennende-autos",
       "claim": "E-Autos brennen ständig und können nicht gelöscht werden.",
-      "response": "Die pauschale Behauptung stimmt nicht. Laut BMUKN brennen Elektroautos nicht häufiger als andere Fahrzeuge. Wenn ein Akku-Brand entsteht, ist das Löschen zwar aufwendiger, aber für Feuerwehren ist das ein bekanntes und beherrschbares Szenario.",
+      "response": "Die Zahlen zeigen das Gegenteil: E-Autos brennen laut BMUKN nicht häufiger als Verbrenner — eine schwedische Auswertung (MSB) kam für 2022 sogar auf rund 19-mal seltener, wobei die ältere Verbrennerflotte das Bild mitprägt. Auch der Versicherer-Verband GDV sieht kein erhöhtes Brandrisiko. Brennt ein Akku doch, ist das Löschen aufwendiger, weil die Zellen gekühlt werden müssen — für Feuerwehren ist das aber ein bekanntes, beherrschbares Szenario, kein unlöschbares Inferno.",
       "keywords": [
         "brennen",
         "feuer",
@@ -523,12 +585,41 @@
       "relatedSections": [
         "brandgefahr"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole stützt sich auf den Verfügbarkeitsfehler: Spektakuläre Einzelbilder eines brennenden E-Autos bleiben im Gedächtnis und wirken häufiger, als sie sind. ‚Ständig‘ und ‚nicht löschbar‘ sind Dramatisierungen, die eine seltene, beherrschte Ausnahme zur Regel erklären.",
+      "counterQuestions": [
+        "Wie viele E-Auto-Brände kennst du aus Statistiken — und wie viele aus einzelnen viralen Videos?",
+        "Würdest du erwarten, dass Versicherer E-Autos teurer machen, wenn sie wirklich öfter brennen würden?",
+        "Was genau meinst du mit ‚nicht löschbar‘ — dass es länger dauert, oder dass es gar nicht geht?"
+      ]
+    },
+    {
+      "id": "stromnetz-kollaps",
+      "claim": "Wenn alle abends ihr E-Auto anstecken, bricht das Stromnetz zusammen.",
+      "response": "Das Netz ist auf solche Lasten vorbereitet. Selbst wenn alle rund 45 Millionen Pkw in Deutschland elektrisch führen, läge der Mehrbedarf laut BMUKN bei gut 100 TWh im Jahr — etwa einem Sechstel des heutigen Stromverbrauchs, nicht beim Vielfachen. Lokale Spitzen am Abend fängt § 14a EnWG ab: Netzbetreiber dürfen einzelne Wallboxen im Engpassfall vorübergehend drosseln, müssen aber mindestens 4,2 kW durchlassen (gut 50 km Reichweite in zwei Stunden). Gesteuertes Laden verteilt die Last, statt sie zu addieren.",
+      "keywords": [
+        "stromnetz",
+        "blackout",
+        "zusammenbruch",
+        "laden",
+        "netz",
+        "überlastung"
+      ],
+      "relatedSections": [
+        "stromnetz"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole unterstellt, alle würden exakt gleichzeitig die volle Leistung ziehen — ein konstruierter Worst Case, der die Realität des gesteuerten, zeitversetzten Ladens ausblendet. Sie verwechselt zudem eine lokale Verteilnetz-Frage mit einem bundesweiten Erzeugungsproblem.",
+      "counterQuestions": [
+        "Meinst du das bundesweite Stromangebot oder das Kabel in deiner Straße — das sind zwei verschiedene Fragen?",
+        "Wenn die meisten Autos nachts 8 bis 10 Stunden am Kabel hängen, aber nur 2 Stunden Ladung brauchen — warum sollten alle gleichzeitig Volllast ziehen?",
+        "Würde ein Stromtarif, der nachts günstiger ist, das Laden nicht von selbst entzerren?"
+      ]
     },
     {
       "id": "reichweite",
       "claim": "Mit dem E-Auto komme ich nicht in den Urlaub nach Italien.",
-      "response": "Aktuelle E-Autos der Kompaktklasse erreichen 350–500 km WLTP-Reichweite. Eine Schnellladung von 10 auf 80 % dauert bei modernen Fahrzeugen rund 25–30 Minuten und lädt Strom für circa 200–300 km nach. Auf einer Fahrt München–Gardasee (ca. 480 km) wäre also ein Ladestopp nötig — ähnlich einer normalen Rast- oder Tankpause.",
+      "response": "Langstrecke funktioniert — mit etwas mehr Planung als beim Verbrenner. Viele Kompakt-E-Autos schaffen 350 bis 500 km WLTP-Reichweite, bei hohem Tempo real etwas weniger. An einem Schnelllader (über 48.000 stehen in Deutschland) lädt man in rund 25 bis 30 Minuten von 10 auf 80 % nach, also Strom für grob 200 bis 300 km. Auf der Strecke München–Gardasee (ca. 480 km) genügt ein Ladestopp — etwa so lang wie eine ohnehin sinnvolle Kaffee- und Toilettenpause. Wer pendelt, lädt zudem meist bequem zu Hause und startet morgens mit voller Batterie.",
       "keywords": [
         "urlaub",
         "reichweite",
@@ -538,9 +629,15 @@
         "pause"
       ],
       "relatedSections": [
-        "status-quo"
+        "reichweite-laden"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole macht aus dem seltenen Extremfall — der einen langen Urlaubsfahrt im Jahr — den Maßstab für den gesamten Alltag. Dabei sind die allermeisten Fahrten kurz und werden bequem zu Hause geladen. Ein Sonderfall wird zum K.-o.-Kriterium aufgeblasen.",
+      "counterQuestions": [
+        "Wie oft im Jahr fährst du tatsächlich am Stück über 600 km — und wie oft sind es unter 50 km?",
+        "Machst du auf so einer langen Strecke nicht ohnehin eine Pause zum Essen und für die Toilette?",
+        "Wo würdest du dein E-Auto im Alltag laden — gibt es zu Hause oder beim Arbeitgeber eine Lademöglichkeit?"
+      ]
     }
   ],
   "sources": [
@@ -550,19 +647,49 @@
       "url": "https://theicct.org/publication/electric-cars-life-cycle-analysis-emissions-europe-jul25/"
     },
     {
-      "id": "adac-autokostenrechner-tco-vergleich",
-      "label": "ADAC – Autokostenrechner / TCO-Vergleich",
-      "url": "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/uebersicht/"
+      "id": "adac-elektroauto-kostenvergleich",
+      "label": "ADAC – Kostenvergleich: Elektroauto, Plug-in, Benziner oder Diesel?",
+      "url": "https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/autokosten/elektroauto-kostenvergleich/"
     },
     {
-      "id": "bdew-marke-von-200-000-ladepunkten",
-      "label": "BDEW – Marke von 200.000 Ladepunkten überschritten",
-      "url": "https://www.bdew.de/presse/marke-von-200000-ladepunkten-ueberschritten-fokus-auf-elektrofahrzeugabsatz-kommt-zum-richtigen-zeitpunkt/"
+      "id": "adac-vw-id3-dauertest",
+      "label": "ADAC – VW ID.3 im Dauertest (Akku-Restkapazität nach >160.000 km)",
+      "url": "https://www.adac.de/rund-ums-fahrzeug/autokatalog/autotest/vw-id3-dauertest/"
+    },
+    {
+      "id": "dat-restwerte-elektroauto",
+      "label": "autohaus.de / DAT – E-Auto-Restwerte unter Verbrenner-Niveau",
+      "url": "https://www.autohaus.de/nachrichten/gw-trends/e-auto-restwerte-weiterhin-unter-verbrenner-niveau-3693415"
+    },
+    {
+      "id": "recurrent-ev-battery-replacement",
+      "label": "Recurrent – How long do EV batteries last (Austauschrate)",
+      "url": "https://www.recurrentauto.com/research/how-long-do-ev-batteries-last"
+    },
+    {
+      "id": "p3-battery-aging-study",
+      "label": "P3 Group – Battery Aging in Practice (via electrive)",
+      "url": "https://www.electrive.com/2024/11/24/new-study-shows-ev-batteries-last-much-longer-than-expected/"
+    },
+    {
+      "id": "fraunhofer-isi-batterie-recycling-in-europa",
+      "label": "Fraunhofer ISI – Batterie-Recycling in Europa",
+      "url": "https://www.isi.fraunhofer.de/de/blog/themen/batterie-update/batterie-recycling_europa_kapazitaeten_bedarf_update_2025.html"
+    },
+    {
+      "id": "eu-batterieverordnung-2023-1542-recyclingquoten",
+      "label": "EU-Batterieverordnung 2023/1542 – Recyclingquoten",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
     },
     {
       "id": "bundesnetzagentur-e-mobilitaet-und-14a-enwg",
       "label": "Bundesnetzagentur – E-Mobilität und § 14a EnWG",
       "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/E-Mobilitaet/start.html"
+    },
+    {
+      "id": "bmukn-strombedarf-und-netze",
+      "label": "BMUKN – Strombedarf und Netze bei Elektromobilität",
+      "url": "https://www.bundesumweltministerium.de/themen/verkehr/elektromobilitaet/strombedarf-und-netze"
     },
     {
       "id": "bmukn-klima-und-energie-bei-elektromobilitaet",
@@ -575,19 +702,9 @@
       "url": "https://www.transportenvironment.org/topics/cars/efuels"
     },
     {
-      "id": "fraunhofer-isi-batterie-recycling-in-europa",
-      "label": "Fraunhofer ISI – Batterie-Recycling in Europa",
-      "url": "https://www.isi.fraunhofer.de/de/blog/themen/batterie-update/batterie-recycling_europa_kapazitaeten_bedarf_update_2025.html"
-    },
-    {
-      "id": "kraftfahrt-bundesamt-kba-bestand",
-      "label": "Kraftfahrt-Bundesamt (KBA) – Bestand batterieelektrischer Pkw am 1. Januar 2026",
-      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Allgemein/2026/pm08_2026_elektro_pkw.html"
-    },
-    {
-      "id": "kraftfahrt-bundesamt-kba-fahrzeugbestand-am-1",
-      "label": "Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand am 1. Januar 2026",
-      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html"
+      "id": "gdv-elektroauto-braende",
+      "label": "GDV – Brandstatistik Elektroautos vs. Verbrenner",
+      "url": "https://www.gdv.de/gdv/themen/mobilitaet/dossier-elektromobilitaet/e-autos-elektroauto-braende-statistik-182792"
     },
     {
       "id": "bmukn-brandgefahr-von-elektroautos",
@@ -595,9 +712,24 @@
       "url": "https://www.bmuv.de/faq/wie-gefaehrlich-sind-elektroautos-besonders-im-fall-eines-brands"
     },
     {
-      "id": "eu-batterieverordnung-2023-1542-recyclingquoten",
-      "label": "EU-Batterieverordnung 2023/1542 – Recyclingquoten",
-      "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj"
+      "id": "bundesnetzagentur-ladesaeulenregister",
+      "label": "Bundesnetzagentur – Ladesäulenregister / Ladesäulenkarte",
+      "url": "https://www.bundesnetzagentur.de/Ladesaeulenkarte"
+    },
+    {
+      "id": "kraftfahrt-bundesamt-kba-bestand",
+      "label": "Kraftfahrt-Bundesamt (KBA) – Bestand batterieelektrischer Pkw am 1. Januar 2026",
+      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Allgemein/2026/pm08_2026_elektro_pkw.html"
+    },
+    {
+      "id": "kba-neuzulassungen-2025",
+      "label": "Kraftfahrt-Bundesamt (KBA) – Neuzulassungen Jahresbilanz 2025",
+      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/2026/pm01_2026_n_12_25_pm_komplett.html"
+    },
+    {
+      "id": "kraftfahrt-bundesamt-kba-fahrzeugbestand-am-1",
+      "label": "Kraftfahrt-Bundesamt (KBA) – Fahrzeugbestand am 1. Januar 2026",
+      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugbestand/2026/pm09_fz_bestand_pm_komplett.html"
     },
     {
       "id": "zoll-verlaengerung-der-steuerbefreiung-fuer",
