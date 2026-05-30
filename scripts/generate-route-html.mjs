@@ -39,10 +39,11 @@ function attrEscape(value) {
     .replaceAll('"', '&quot;')
 }
 
-function jsonLdScript(payload) {
+function jsonLdScript(payload, canonical) {
   // Embedding JSON inside <script>: escape `<` to prevent premature script close.
   const json = JSON.stringify(payload).replaceAll('<', '\\u003c')
-  return `<script type="application/ld+json" data-prerendered="route">${json}</script>`
+  const canonicalAttr = canonical ? ` data-canonical="${attrEscape(canonical)}"` : ''
+  return `<script type="application/ld+json" data-prerendered="route"${canonicalAttr}>${json}</script>`
 }
 
 function buildBreadcrumbList(items) {
@@ -111,6 +112,8 @@ function buildTopicJsonLd(topic, topicsById) {
 function buildArgumentJsonLd(topic, argument) {
   const argumentUrl = absoluteUrl(`/thema/${topic.id}/${argument.id}/`)
   const topicUrl = absoluteUrl(`/thema/${topic.id}/`)
+  const questionId = `${argumentUrl}#question`
+  const answerId = `${argumentUrl}#accepted-answer`
   const seoDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
 
@@ -122,6 +125,7 @@ function buildArgumentJsonLd(topic, argument) {
       name: argument.claim,
       description: seoDescription,
       inLanguage: 'de',
+      datePublished: topic.lastUpdated,
       dateModified: topic.lastUpdated,
       author: { '@id': PERSON_ID },
       publisher: { '@id': PERSON_ID },
@@ -133,13 +137,29 @@ function buildArgumentJsonLd(topic, argument) {
       },
       mainEntity: {
         '@type': 'Question',
+        '@id': questionId,
+        url: argumentUrl,
         name: argument.claim,
         text: argument.claim,
+        datePublished: topic.lastUpdated,
+        dateModified: topic.lastUpdated,
+        author: {
+          '@type': 'Person',
+          '@id': PERSON_ID,
+        },
         answerCount: 1,
         acceptedAnswer: {
           '@type': 'Answer',
+          '@id': answerId,
+          url: argumentUrl,
           text: argument.response,
-          author: { '@id': PERSON_ID },
+          datePublished: topic.lastUpdated,
+          dateModified: topic.lastUpdated,
+          upvoteCount: 0,
+          author: {
+            '@type': 'Person',
+            '@id': PERSON_ID,
+          },
         },
       },
     },
@@ -465,9 +485,9 @@ function rewriteHead(html, values) {
   return updated
 }
 
-function injectJsonLd(html, jsonLdPayload) {
+function injectJsonLd(html, jsonLdPayload, canonical) {
   if (!jsonLdPayload) return html
-  const tag = jsonLdScript(jsonLdPayload)
+  const tag = jsonLdScript(jsonLdPayload, canonical)
   return html.replace('</head>', `    ${tag}\n  </head>`)
 }
 
@@ -489,7 +509,7 @@ function buildRouteHtml(template, opts) {
     description: opts.description,
     canonical: opts.canonical,
   })
-  updated = injectJsonLd(updated, opts.jsonLd)
+  updated = injectJsonLd(updated, opts.jsonLd, opts.canonical)
   updated = replaceNoscript(updated, opts.noscript)
   // Make sure og:image is set (fallback if missing in template).
   if (!/og:image"\s/.test(updated)) {
@@ -766,7 +786,7 @@ function buildHomeJsonLd(topics) {
 
 function injectHomeJsonLd(html, payload) {
   // Add the CollectionPage JSON-LD without removing the existing WebSite block.
-  const tag = jsonLdScript(payload)
+  const tag = jsonLdScript(payload, `${SITE_URL}/`)
   return html.replace('</head>', `    ${tag}\n  </head>`)
 }
 

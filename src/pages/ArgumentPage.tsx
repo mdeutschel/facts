@@ -88,6 +88,8 @@ export default function ArgumentPage() {
 
   const argumentPath = `/thema/${topic.id}/${argument.id}/`
   const argumentUrl = `https://fakten-stammtisch.de${argumentPath}`
+  const questionId = `${argumentUrl}#question`
+  const answerId = `${argumentUrl}#accepted-answer`
   const seoTitle = truncate(argument.claim, 65)
   const seoDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
@@ -100,6 +102,7 @@ export default function ArgumentPage() {
       name: argument.claim,
       description: seoDescription,
       inLanguage: 'de',
+      datePublished: topic.lastUpdated,
       dateModified: topic.lastUpdated,
       author: { '@id': PERSON_ID },
       publisher: { '@id': PERSON_ID },
@@ -111,13 +114,29 @@ export default function ArgumentPage() {
       },
       mainEntity: {
         '@type': 'Question',
+        '@id': questionId,
+        url: argumentUrl,
         name: argument.claim,
         text: argument.claim,
+        datePublished: topic.lastUpdated,
+        dateModified: topic.lastUpdated,
+        author: {
+          '@type': 'Person',
+          '@id': PERSON_ID,
+        },
         answerCount: 1,
         acceptedAnswer: {
           '@type': 'Answer',
+          '@id': answerId,
+          url: argumentUrl,
           text: argument.response,
-          author: { '@id': PERSON_ID },
+          datePublished: topic.lastUpdated,
+          dateModified: topic.lastUpdated,
+          upvoteCount: 0,
+          author: {
+            '@type': 'Person',
+            '@id': PERSON_ID,
+          },
         },
       },
     },
