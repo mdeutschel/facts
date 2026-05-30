@@ -10,6 +10,16 @@ interface PageMetaProps {
   noindex?: boolean
 }
 
+function hasPrerenderedJsonLd(canonicalUrl: string): boolean {
+  if (typeof document === 'undefined') return false
+
+  return Array.from(
+    document.querySelectorAll<HTMLScriptElement>(
+      'script[type="application/ld+json"][data-prerendered="route"]',
+    ),
+  ).some((script) => script.dataset.canonical === canonicalUrl)
+}
+
 function withTrailingSlash(path: string): string {
   // Apache adds a trailing slash to directory URLs (DirectorySlash). Match that
   // here so the canonical points at the URL the server actually serves —
@@ -23,6 +33,7 @@ function withTrailingSlash(path: string): string {
 export default function PageMeta({ title, description, path, jsonLd, noindex = false }: PageMetaProps) {
   const fullTitle = `${title} | ${SITE_NAME}`
   const canonicalUrl = `${BASE_URL}${withTrailingSlash(path)}`
+  const shouldRenderJsonLd = Boolean(jsonLd) && !hasPrerenderedJsonLd(canonicalUrl)
 
   return (
     <>
@@ -43,7 +54,7 @@ export default function PageMeta({ title, description, path, jsonLd, noindex = f
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={DEFAULT_IMAGE_URL} />
-      {jsonLd ? (
+      {shouldRenderJsonLd ? (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
