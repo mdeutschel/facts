@@ -1,18 +1,18 @@
 {
   "id": "teilzeit",
   "title": "Teilzeit & Arbeitsmoral",
-  "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Care-Arbeit, der Gen Z und den Folgen von Teilzeit.",
+  "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Produktivität, Care-Arbeit, der Gen Z und den politischen Rezepten gegen den Fachkräftemangel.",
   "seoTitle": "Teilzeit & Arbeitsmoral: Arbeiten wir wirklich weniger?",
-  "seoDescription": "Will die Gen Z nicht mehr arbeiten? Geht das Arbeitsvolumen zurück? Antworten zu Teilzeit, Care-Arbeit und Arbeitsstunden — Quellen IAB und Destatis.",
+  "seoDescription": "Sind die Deutschen faul? Will die Gen Z nicht mehr arbeiten? Fakten zu Arbeitsstunden, Produktivität, Teilzeit, Care-Arbeit, Aktivrente & Vier-Tage-Woche — Quellen IAB, Destatis, OECD.",
   "icon": "schedule",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-05-31",
   "keyStats": [
     "61,26 Mrd. Stunden Gesamtarbeitsvolumen (2025)",
-    "49 % Teilzeitquote bei Frauen (2024)",
-    "Nur 4,8 % unfreiwillig in Teilzeit (historischer Tiefstand)",
-    "8 Argumente"
+    "1.331 Std./Kopf — wenigste der OECD",
+    "Platz 10 der OECD bei Produktivität je Stunde",
+    "13 Argumente"
   ],
-  "sourceNote": "Daten basieren auf Veröffentlichungen von IAB, Destatis und Eurostat aus den Jahren 2024–2026; je nach Thema reichen die zugrunde liegenden Erhebungsjahre von 2005 bis 2025.",
+  "sourceNote": "Daten stammen primär von IAB, Destatis, OECD, DIW, IW, BMF, Deutscher Rentenversicherung und Bertelsmann Stiftung (Stand 2024–2026); zugrunde liegende Erhebungsjahre reichen von 1991 bis 2026. Wichtig: IAB-, OECD- und Destatis-Arbeitszeitwerte beruhen auf unterschiedlichen Methoden und sind nicht 1:1 vergleichbar. Bei unsicheren Werten werden Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
     {
       "id": "arbeitsvolumen",
@@ -20,9 +20,9 @@
       "content": [
         {
           "type": "text",
-          "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Tatsächlich lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — das entspricht umgerechnet 1.332 Stunden pro Erwerbstätigem und Jahr. Der Pro-Kopf-Wert sinkt zwar leicht, doch gleichzeitig ist die Zahl der Erwerbstätigen auf einem Rekordhoch. In der Summe arbeitet Deutschland also ähnlich viel wie in den Vorjahren.",
+          "text": "Oft wird behauptet, Deutschland arbeite immer weniger. Laut der Arbeitszeitrechnung des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) lag das Gesamtarbeitsvolumen 2025 bei 61,26 Milliarden Stunden — nur 0,2 % unter dem Vorjahr. Umgerechnet sind das 1.332 Stunden pro Erwerbstätigem. Der Pro-Kopf-Wert sinkt langfristig, gleichzeitig ist die Zahl der Erwerbstätigen mit 45,98 Millionen nahe einem Rekordhoch. In der Summe arbeitet Deutschland also ähnlich viel wie in den Vorjahren — die Arbeit verteilt sich nur auf mehr Köpfe mit jeweils etwas kürzeren Zeiten.",
           "sourceRefs": [
-            "iab-ergebnisse-der-arbeitszeitrechnung-2025"
+            "iab-arbeitszeitrechnung-2025"
           ]
         },
         {
@@ -31,21 +31,112 @@
             {
               "label": "Gesamtarbeitsvolumen",
               "value": "61,26 Mrd.",
-              "sublabel": "Stunden im Jahr 2025"
+              "sublabel": "Stunden im Jahr 2025 (−0,2 %)"
             },
             {
               "label": "Erwerbstätige",
               "value": "45,98 Mio.",
-              "sublabel": "Personen in Deutschland"
+              "sublabel": "nahe Rekordhoch"
             },
             {
               "label": "Teilzeitquote",
               "value": "39,9 %",
-              "sublabel": "Neuer Höchststand (IAB)"
+              "sublabel": "Höchststand (IAB-Definition)"
             }
           ],
           "sourceRefs": [
-            "iab-ergebnisse-der-arbeitszeitrechnung-2025"
+            "iab-arbeitszeitrechnung-2025"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der Rückgang der Stunden pro Kopf ist real, aber ein langsamer Langfristtrend: Laut IAB-Reihe sank die durchschnittliche Jahresarbeitszeit pro Erwerbstätigem seit 1991 von rund 1.400 auf 1.332 Stunden. Getrieben wird das vor allem durch die Zunahme der Teilzeit — nicht durch eine sinkende Arbeitsbereitschaft der Einzelnen.",
+          "sourceRefs": [
+            "iab-arbeitszeitrechnung-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stunden-produktivitaet",
+      "title": "Wenige Stunden — aber hohe Produktivität",
+      "content": [
+        {
+          "type": "text",
+          "text": "Im internationalen Vergleich arbeiten Erwerbstätige in Deutschland tatsächlich wenig Stunden: Laut der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD) waren es 2024 mit 1.331 Stunden pro Kopf die wenigsten aller OECD-Länder, weit unter dem OECD-Durchschnitt von 1.736 Stunden. Dieselbe Statistik zeigt aber die andere Seite: Pro geleisteter Stunde gehört Deutschland zu den produktivsten Volkswirtschaften — beim Bruttoinlandsprodukt je Arbeitsstunde lag es 2023 mit rund 94 US-Dollar (kaufkraftbereinigt) auf Rang 10 der OECD, deutlich über dem Schnitt von etwa 71 Dollar.",
+          "sourceRefs": [
+            "oecd-hours-worked",
+            "oecd-gdp-per-hour"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Durchschnittliche Jahresarbeitsstunden pro Erwerbstätigem (OECD, 2024)",
+          "unit": "Std.",
+          "items": [
+            {
+              "label": "Deutschland",
+              "value": 1331,
+              "highlight": true
+            },
+            {
+              "label": "Niederlande",
+              "value": 1445
+            },
+            {
+              "label": "Frankreich",
+              "value": 1491
+            },
+            {
+              "label": "Japan",
+              "value": 1617
+            },
+            {
+              "label": "Italien",
+              "value": 1709
+            },
+            {
+              "label": "OECD-Schnitt",
+              "value": 1736
+            },
+            {
+              "label": "USA",
+              "value": 1796
+            }
+          ],
+          "sourceRefs": [
+            "oecd-hours-worked"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Wer Arbeitsleistung an geleisteten Stunden misst, übersieht zudem die Überstunden: 2024 leisteten Beschäftigte in Deutschland rund 1,2 Milliarden Überstunden — davon 638 Millionen unbezahlt. Mehr als jede zweite Überstunde wurde also nicht vergütet. Das passt nicht zum Bild einer arbeitsunwilligen Gesellschaft.",
+          "sourceRefs": [
+            "iab-arbeitszeitrechnung-2024"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Produktivität je Stunde",
+              "value": "Platz 10",
+              "sublabel": "OECD, ~94 USD/Std. (2023)"
+            },
+            {
+              "label": "Überstunden gesamt",
+              "value": "~1,2 Mrd.",
+              "sublabel": "Stunden im Jahr 2024"
+            },
+            {
+              "label": "davon unbezahlt",
+              "value": "638 Mio.",
+              "sublabel": "mehr als die Hälfte"
+            }
+          ],
+          "sourceRefs": [
+            "oecd-gdp-per-hour",
+            "iab-arbeitszeitrechnung-2024"
           ]
         }
       ]
@@ -56,9 +147,9 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Gründe für Teilzeitarbeit sind vielfältig. Während der allgemeine Wunsch nach reduzierter Arbeitszeit der häufigste Grund ist, spielt Care-Arbeit (Betreuung von Kindern oder Pflegebedürftigen) eine fast ebenso große Rolle — insbesondere bei Frauen. Nur 4,8 % der Teilzeitbeschäftigten geben an, keine Vollzeitstelle gefunden zu haben.",
+          "text": "Die Gründe für Teilzeitarbeit sind vielfältig. Der allgemeine Wunsch nach reduzierter Arbeitszeit ist der häufigste Einzelgrund, doch Care-Arbeit (Betreuung von Kindern oder Pflegebedürftigen) spielt eine fast ebenso große Rolle — insbesondere bei Frauen. Nur 4,8 % der Teilzeitbeschäftigten geben an, keine Vollzeitstelle gefunden zu haben.",
           "sourceRefs": [
-            "destatis-gruende-fuer-teilzeittaetigkeit-2024"
+            "destatis-teilzeitgruende-2024"
           ]
         },
         {
@@ -89,25 +180,68 @@
             }
           ],
           "sourceRefs": [
-            "destatis-gruende-fuer-teilzeittaetigkeit-2024"
+            "destatis-teilzeitgruende-2024"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Teilzeitgründe nach Geschlecht (2024)",
+          "items": [
+            {
+              "title": "Frauen",
+              "rows": [
+                {
+                  "label": "Eigener Wunsch",
+                  "value": "28,9 %"
+                },
+                {
+                  "label": "Care-Arbeit",
+                  "value": "28,8 %"
+                },
+                {
+                  "label": "Aus-/Weiterbildung",
+                  "value": "8,4 %"
+                }
+              ]
+            },
+            {
+              "title": "Männer",
+              "rows": [
+                {
+                  "label": "Eigener Wunsch",
+                  "value": "24,9 %"
+                },
+                {
+                  "label": "Care-Arbeit",
+                  "value": "6,8 %"
+                },
+                {
+                  "label": "Aus-/Weiterbildung",
+                  "value": "21,5 %"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "destatis-teilzeitgruende-2024"
           ]
         },
         {
           "type": "text",
-          "text": "Auffällig: Der Anteil der unfreiwillig Teilzeitbeschäftigten — also jener, die keine Vollzeitstelle finden konnten — ist mit 4,8 % auf einem historischen Tiefstand (2014: noch 13,6 %). Im EU-Vergleich liegt Deutschland damit weit unter dem Durchschnitt von 17,2 %. Die meisten arbeiten also nicht in Teilzeit, weil sie müssen, sondern weil sie es aufgrund persönlicher Umstände so gewählt haben.",
+          "text": "Auffällig: Der Anteil der unfreiwillig Teilzeitbeschäftigten ist mit 4,8 % auf einem historischen Tiefstand (2014: noch 13,6 %). Bei Frauen liegen Wunsch (28,9 %) und Care-Arbeit (28,8 %) nahezu gleichauf, bei Männern dominiert Aus- und Weiterbildung. Care-Arbeit ist bei Frauen damit mehr als viermal so häufig ein Teilzeitgrund wie bei Männern.",
           "sourceRefs": [
-            "destatis-gruende-teilzeit-endergebnisse-2024"
+            "destatis-teilzeitgruende-2024"
           ]
         }
       ]
     },
     {
-      "id": "gender-gap",
-      "title": "Teilzeit ist weiblich — der Gender Gap",
+      "id": "gender-care",
+      "title": "Teilzeit ist weiblich — und der Gender Care Gap",
       "content": [
         {
           "type": "text",
-          "text": "Teilzeitarbeit ist in Deutschland stark geschlechtsspezifisch verteilt. Laut Statistischem Bundesamt (Destatis) arbeiteten 2024 fast jede zweite Frau (49 %) in Teilzeit, aber nur gut jeder neunte Mann (12 %). Besonders ausgeprägt ist der Unterschied bei Eltern: 68 % aller erwerbstätigen Mütter mit Kindern unter 18 Jahren arbeiten in Teilzeit, bei Vätern sind es nur 8 %.",
+          "text": "Teilzeitarbeit ist in Deutschland stark geschlechtsspezifisch verteilt. Laut Statistischem Bundesamt (Destatis) arbeitete 2024 fast jede zweite erwerbstätige Frau (49 %) in Teilzeit, aber nur gut jeder neunte Mann (12 %). Besonders ausgeprägt ist der Unterschied bei Eltern: 68 % der erwerbstätigen Mütter mit Kindern unter 18 Jahren arbeiten in Teilzeit, bei Vätern sind es nur 8 %.",
           "sourceRefs": [
             "destatis-teilzeitquote-geschlecht-2024"
           ]
@@ -157,53 +291,319 @@
         },
         {
           "type": "text",
-          "text": "Von 2005 bis 2024 stieg die Teilzeitquote bei Frauen von 43 % auf 49 % und bei Männern von 7 % auf 12 %. Beide Geschlechter arbeiten also häufiger in Teilzeit als früher — bei Männern ist der relative Anstieg sogar stärker.",
+          "text": "Hinter der Teilzeit steht ein zweiter, unbezahlter Arbeitsmarkt: Frauen leisten laut Zeitverwendungserhebung 2022 rund 44,3 % mehr unbezahlte Sorgearbeit als Männer (Gender Care Gap) — etwa 30 gegenüber 21 Stunden pro Woche, ein Unterschied von gut einer Stunde und 20 Minuten pro Tag. Der Wert sinkt langsam (2012/13: 52,4 %), bleibt aber hoch. Wer also die bezahlte Arbeitszeit von Frauen betrachtet, sieht nur die halbe Geschichte.",
           "sourceRefs": [
-            "destatis-teilzeitquote-geschlecht-2024"
+            "destatis-gender-care-gap-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wunsch-wirklichkeit",
+      "title": "Wunsch und Wirklichkeit der Arbeitszeit",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die gewünschte Arbeitszeit ist in Deutschland seit 2007 in allen Altersgruppen gesunken — nicht nur bei den Jungen. Laut Institut der deutschen Wirtschaft (IW) ging der Wunsch bei Unter-25-Jährigen, bei 26- bis 40-Jährigen und bei Über-40-Jährigen jeweils um rund zwei bis drei Wochenstunden zurück. Der stärkste Rückgang zeigte sich bei Beschäftigten mit niedrigen Stundenlöhnen — ein Hinweis darauf, dass dahinter oft finanzielle und strukturelle Gründe stehen, nicht reine Bequemlichkeit.",
+          "sourceRefs": [
+            "iw-arbeitszeitwuensche-2024"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Durchschnittlich gewünschte Wochenarbeitszeit (2021)",
+          "items": [
+            {
+              "title": "Frauen",
+              "rows": [
+                {
+                  "label": "Gewünschte Stunden/Woche",
+                  "value": "~29,5 h"
+                }
+              ]
+            },
+            {
+              "title": "Männer",
+              "rows": [
+                {
+                  "label": "Gewünschte Stunden/Woche",
+                  "value": "~35,4 h"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "iw-arbeitszeitwuensche-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Wunsch und tatsächliche Arbeitszeit klaffen dabei in beide Richtungen auseinander: Viele Vollzeitbeschäftigte würden gern etwas kürzer treten, während ein erheblicher Teil der Teilzeitbeschäftigten — vor allem alleinstehende Frauen — gern aufstocken würde. Es gibt also nicht nur überarbeitete, sondern auch unterbeschäftigte Menschen. Die pauschale Erzählung ‚alle wollen weniger arbeiten' verdeckt dieses gegenläufige Muster.",
+          "sourceRefs": [
+            "iab-brueckenteilzeit-2023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gen-z",
+      "title": "Die Gen Z und die Arbeitsmoral",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ein häufig geäußerter Vorwurf besagt, die Generation Z sei arbeitsscheu. Die Daten des IAB zeichnen ein anderes Bild: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um rund 6 Prozentpunkte auf etwa 76 % gestiegen — der höchste Stand seit Jahrzehnten. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen: Deren Erwerbsquote stieg von 36,7 % auf 56,0 %.",
+          "sourceRefs": [
+            "iab-generation-z"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Erwerbsverhalten der 20- bis 24-Jährigen (2015 → 2023)",
+          "items": [
+            {
+              "title": "Erwerbsbeteiligung gesamt",
+              "rows": [
+                {
+                  "label": "2015",
+                  "value": "ca. 70 %"
+                },
+                {
+                  "label": "2023",
+                  "value": "~76 %"
+                }
+              ]
+            },
+            {
+              "title": "Erwerbsquote Studierende",
+              "rows": [
+                {
+                  "label": "2015",
+                  "value": "36,7 %"
+                },
+                {
+                  "label": "2023",
+                  "value": "56,0 %"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "iab-generation-z"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Rechnet man den gestiegenen Studierendenanteil heraus, unterscheidet sich die gewünschte Arbeitszeit junger Menschen laut IAB kaum von der älterer Altersgruppen. Junge Beschäftigte wechseln auch nicht häufiger den Job als früher. Dass sie andere Erwartungen an Arbeit haben — flexible Zeiten, Homeoffice, Sinn — bedeutet nicht, dass sie weniger arbeiten wollen.",
+          "sourceRefs": [
+            "iab-forum-genz"
           ]
         }
       ]
     },
     {
       "id": "eu-vergleich",
-      "title": "Deutschland im europäischen Vergleich",
+      "title": "Teilzeit im europäischen Vergleich",
       "content": [
         {
           "type": "text",
-          "text": "Deutschland gehört zu den Ländern mit den höchsten Teilzeitquoten in der EU. Mit 29 % aller Erwerbstätigen liegt Deutschland deutlich über dem EU-Durchschnitt von 18 %. Nur die Niederlande (43 %) und Österreich (31 %) haben höhere Quoten. Auffällig: In den Niederlanden geht die hohe Teilzeitquote mit der höchsten Erwerbstätigenquote von Frauen in der EU einher — ein Hinweis darauf, dass hohe Teilzeitquoten nicht gleichbedeutend mit geringer Arbeitsbereitschaft sind.",
+          "text": "Deutschland gehört zu den Ländern mit den höchsten Teilzeitquoten in der EU. Mit 29,1 % aller Erwerbstätigen (15–64 Jahre) liegt es 2024 deutlich über dem EU-Durchschnitt von 17,7 % (Eurostat-Definition; die IAB-Quote von 39,9 % zählt nach anderer Methode). Nur die Niederlande (42,2 %) und Österreich (30,5 %) haben höhere Quoten. Auffällig: Die Niederlande haben gleichzeitig eine der höchsten Frauenerwerbsquoten der EU (rund 80 %) — ein Hinweis darauf, dass hohe Teilzeitquoten nicht gleichbedeutend mit geringer Arbeitsbereitschaft sind.",
           "sourceRefs": [
-            "destatis-teilzeitquote-geschlecht-2024"
+            "eurostat-teilzeitquote-2024"
           ]
         },
         {
           "type": "bar_chart",
-          "caption": "Teilzeitquoten im EU-Vergleich (2024)",
+          "caption": "Teilzeitquoten im EU-Vergleich (2024, Eurostat, 15–64 Jahre)",
           "unit": "%",
           "items": [
             {
               "label": "Niederlande",
-              "value": 43
+              "value": 42.2
             },
             {
               "label": "Österreich",
-              "value": 31
+              "value": 30.5
             },
             {
               "label": "Deutschland",
-              "value": 29,
+              "value": 29.1,
               "highlight": true
             },
             {
               "label": "EU-Durchschnitt",
-              "value": 18
+              "value": 17.7
             },
             {
               "label": "Bulgarien",
-              "value": 2
+              "value": 1.5
             }
           ],
           "sourceRefs": [
-            "destatis-teilzeitquote-geschlecht-2024"
+            "eurostat-teilzeitquote-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demografie-potenzial",
+      "title": "Demografie und ungenutztes Arbeitskräftepotenzial",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der eigentliche Druck auf das Arbeitsvolumen kommt nicht von der Teilzeit, sondern von der Demografie. Laut Destatis erreichen in den nächsten 15 Jahren rund 13,4 Millionen Erwerbstätige die Regelaltersgrenze von 67 Jahren — fast ein Drittel aller Erwerbstätigen. Das IAB hatte bereits berechnet, dass das Arbeitskräfteangebot ohne Zuwanderung bis 2035 um etwa 7,2 Millionen Personen schrumpfen würde (Projektion von 2021; Methodik und Stichjahr unterscheiden sich von der Destatis-Zahl).",
+          "sourceRefs": [
+            "destatis-babyboomer-2025",
+            "iab-arbeitskraefteangebot-2021"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Renteneintritt bis ~2039",
+              "value": "13,4 Mio.",
+              "sublabel": "≈ ein Drittel der Erwerbstätigen"
+            },
+            {
+              "label": "Stille Reserve",
+              "value": "3,1 Mio.",
+              "sublabel": "verfügbares, ungenutztes Potenzial"
+            },
+            {
+              "label": "Teilzeit-Potenzial",
+              "value": "1,7 Mio.",
+              "sublabel": "Vollzeitstellen (Modellszenario)"
+            }
+          ],
+          "sourceRefs": [
+            "destatis-stille-reserve-2025",
+            "iaw-teilzeitpotenzial-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hier liegt zugleich eine Chance: Eine Studie des Instituts für Angewandte Wirtschaftsforschung (IAW) kommt zu dem Ergebnis, dass sich rund 1,7 Millionen zusätzliche Vollzeitstellen heben ließen — allerdings nur unter der Annahme, dass die Hälfte der teilzeitbeschäftigten Frauen ohne betreuungspflichtige Kinder ihre Stunden an gleichaltrige Männer angleicht. Das ist ein Modellszenario, kein Automatismus. Es zeigt aber, dass die Stellschraube weniger ‚Faulheit' ist als die Frage, wer unter welchen Bedingungen aufstocken kann.",
+          "sourceRefs": [
+            "iaw-teilzeitpotenzial-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "politik-anreize",
+      "title": "Politische Rezepte und strukturelle Fehlanreize",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ein großer Teil der Teilzeit ist nicht freie Vorliebe, sondern Reaktion auf das Steuer- und Abgabensystem. Ehegattensplitting und die Steuerklassenkombination III/V machen es für Zweitverdienende — meist Frauen — finanziell wenig attraktiv, die Stunden auszuweiten. Eine Auswertung des Bundeswirtschaftsministeriums zeigt: Wer automatisch in das Faktorverfahren (Steuerklasse IV/IV) eingestuft wurde, hatte eine um rund einen Prozentpunkt höhere Frauenerwerbsbeteiligung und eine um zwei Prozentpunkte geringere Lohnlücke zwischen den Partnern. Auch die OECD empfiehlt Deutschland, Splitting und Minijobs zu reformieren.",
+          "sourceRefs": [
+            "bmwk-ehegattenbesteuerung-2025",
+            "oecd-wirtschaftsbericht-2025"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die Minijob-Grenze ist dynamisch an den Mindestlohn gekoppelt und stieg zum 1. Januar 2026 auf 603 Euro im Monat. Solche geringfügigen Beschäftigungen verfestigen oft die Teilzeit, weil der Übergang in reguläre, sozialversicherungspflichtige Arbeit netto kaum lohnt. Das gesetzliche Rückkehrrecht aus der Teilzeit (Brückenteilzeit, seit 2019) sollte gegensteuern — wird aber kaum genutzt: Mitte 2022 hatten nur rund 0,5 % der sozialversicherungspflichtig Beschäftigten davon Gebrauch gemacht.",
+          "sourceRefs": [
+            "drv-minijob-2026",
+            "iab-brueckenteilzeit-2023"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die aktuelle Bundesregierung setzt vor allem auf steuerliche Anreize zum Mehrarbeiten: Seit dem 1. Januar 2026 können Beschäftigte nach Erreichen der Regelaltersgrenze über die ‚Aktivrente' bis zu 2.000 Euro im Monat steuerfrei hinzuverdienen; zudem sollen Überstundenzuschläge steuerfrei gestellt werden. Ökonomen sind skeptisch: Das Deutsche Institut für Wirtschaftsforschung (DIW Berlin) rechnet bei der Aktivrente vor allem mit Mitnahmeeffekten — rund 73 % der Entlastung entfielen auf das oberste Einkommensfünftel. Das Wirtschafts- und Sozialwissenschaftliche Institut (WSI) verweist darauf, dass nur etwa 1,4 % der Beschäftigten überhaupt regelmäßig steuerpflichtige Überstundenzuschläge erhalten.",
+          "sourceRefs": [
+            "bmf-aktivrente-2025",
+            "diw-aktivrente-2025"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Aktivrente",
+              "value": "2.000 €",
+              "sublabel": "steuerfrei/Monat ab Regelalter (seit 2026)"
+            },
+            {
+              "label": "DIW: Entlastung",
+              "value": "73 %",
+              "sublabel": "fließt ins oberste Einkommensfünftel"
+            },
+            {
+              "label": "Minijob-Grenze 2026",
+              "value": "603 €",
+              "sublabel": "an Mindestlohn gekoppelt"
+            }
+          ],
+          "sourceRefs": [
+            "bmf-aktivrente-2025",
+            "diw-aktivrente-2025",
+            "drv-minijob-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arbeitszeitmodelle",
+      "title": "Vier-Tage-Woche: weniger Tage, gleiche Leistung?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Auch kürzere Arbeitswochen stehen unter dem Verdacht, die Wirtschaft zu schwächen. Die bisher größte deutsche Studie (Universität Münster, 45 Organisationen, Februar bis September 2024) fand das Gegenteil: Umsatz und Gewinn unterschieden sich nicht signifikant vom Vorjahr — blieben also im Kern stabil —, die Beschäftigten berichteten von weniger Stress und besserer Gesundheit, und mehr als 70 % der teilnehmenden Organisationen wollten die Vier-Tage-Woche fortführen.",
+          "sourceRefs": [
+            "unimuenster-viertagewoche-2024"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Ergebnisse zweier Vier-Tage-Woche-Pilotprojekte",
+          "items": [
+            {
+              "title": "Deutschland (2024, 45 Orgs.)",
+              "rows": [
+                {
+                  "label": "Umsatz/Gewinn",
+                  "value": "stabil"
+                },
+                {
+                  "label": "Stress/Gesundheit",
+                  "value": "verbessert"
+                },
+                {
+                  "label": "Fortführung geplant",
+                  "value": ">70 % der Orgs."
+                }
+              ]
+            },
+            {
+              "title": "UK (2022, 61 Orgs.)",
+              "rows": [
+                {
+                  "label": "Umsatz",
+                  "value": "nahezu unverändert"
+                },
+                {
+                  "label": "Krankheitstage",
+                  "value": "−65 %"
+                },
+                {
+                  "label": "Beibehaltung danach",
+                  "value": "92 % der Firmen"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "unimuenster-viertagewoche-2024",
+            "4dayweek-uk-2023"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Solche Pilotprojekte sind freiwillig und selbstselektiv — teilnehmende Firmen sind oft besonders motiviert, und die Ergebnisse lassen sich nicht eins zu eins auf Schichtbetriebe, Pflege oder Industrie übertragen. Sie widerlegen aber die pauschale Annahme, weniger Arbeitstage bedeuteten zwangsläufig weniger Leistung.",
+          "sourceRefs": [
+            "unimuenster-viertagewoche-2024"
           ]
         }
       ]
@@ -214,7 +614,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Langjährige Teilzeitarbeit hat erhebliche Auswirkungen auf die Altersvorsorge. Laut Statistischem Bundesamt (Destatis) lag der Gender Pension Gap 2023 bei 27,1 % — Frauen erhielten im Durchschnitt gut ein Viertel weniger eigene Alterssicherungsleistungen als Männer. Die hohe Teilzeitquote bei Frauen ist eine der Hauptursachen: Weniger Arbeitsstunden bedeuten geringere Rentenansprüche.",
+          "text": "Langjährige Teilzeitarbeit hat erhebliche Auswirkungen auf die Altersvorsorge. Laut Destatis lag der Gender Pension Gap 2023 bei 27,1 % — Frauen erhielten im Durchschnitt gut ein Viertel weniger eigene Alterssicherungsleistungen als Männer. Die hohe Teilzeitquote bei Frauen ist eine der Hauptursachen: Weniger Arbeitsstunden bedeuten geringere Rentenansprüche.",
           "sourceRefs": [
             "destatis-gender-pension-gap-2023"
           ]
@@ -235,7 +635,7 @@
             {
               "label": "Mütter in Teilzeit",
               "value": "68 %",
-              "sublabel": "Mit Kind unter 18 Jahren"
+              "sublabel": "mit Kind unter 18 Jahren"
             }
           ],
           "sourceRefs": [
@@ -245,7 +645,7 @@
         },
         {
           "type": "text",
-          "text": "Der Pension Gap ist allerdings rückläufig: Für jüngere Geburtsjahrgänge fällt er laut Untersuchungen des DIW Berlin um rund 15 Prozentpunkte geringer aus als bei älteren Kohorten. Dennoch bleibt Teilzeitarbeit ein wesentlicher Risikofaktor für Altersarmut, insbesondere im Fall von Scheidung oder Verwitwung.",
+          "text": "Der Pension Gap sinkt für jüngere Geburtsjahrgänge, weil sich die Erwerbsbiografien von Frauen und Männern angleichen. Dennoch bleibt Teilzeitarbeit ein wesentlicher Risikofaktor für Altersarmut — besonders im Fall von Scheidung oder Verwitwung, wenn das Partnereinkommen wegfällt.",
           "sourceRefs": [
             "destatis-gender-pension-gap-2023"
           ]
@@ -253,49 +653,45 @@
       ]
     },
     {
-      "id": "gen-z",
-      "title": "Die Gen Z und die Arbeitsmoral",
+      "id": "krankenstand",
+      "title": "Krankenstand: krankfeiern oder besser erfasst?",
       "content": [
         {
           "type": "text",
-          "text": "Ein häufig geäußerter Vorwurf besagt, die Generation Z sei arbeitsscheu. Die Daten des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) von 2025, basierend auf Erhebungen bis 2023, zeichnen ein anderes Bild: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um über 6 Prozentpunkte auf rund 76 % gestiegen. Der Anstieg der Teilzeit in dieser Gruppe hängt laut IAB zu großen Teilen mit einer höheren Erwerbsbeteiligung von Studierenden zusammen — deren Erwerbsquote stieg von 36,7 % auf 56,0 %.",
+          "text": "In der Debatte um Arbeitsmoral wird oft der hohe Krankenstand angeführt. Er lag 2024 mit rund 6,1 % tatsächlich auf einem hohen Niveau — im Schnitt etwa 22,3 Krankheitstage pro Beschäftigtem. Ein wesentlicher Teil des Anstiegs der letzten Jahre ist allerdings statistisch erklärbar: Seit der verpflichtenden elektronischen Arbeitsunfähigkeitsbescheinigung (eAU) werden auch kurze Krankschreibungen vollständiger erfasst, die früher oft nicht bei den Kassen ankamen.",
           "sourceRefs": [
-            "iab-generation-z-erwerbsbeteiligung-der-20-bis"
+            "bkk-krankenstand-2024"
           ]
         },
         {
-          "type": "comparison",
-          "caption": "Erwerbsverhalten der 20- bis 24-Jährigen",
+          "type": "stat_grid",
           "items": [
             {
-              "title": "Erwerbsbeteiligung",
-              "rows": [
-                {
-                  "label": "2015",
-                  "value": "ca. 70 %"
-                },
-                {
-                  "label": "2023",
-                  "value": "75,9 %"
-                }
-              ]
+              "label": "Krankenstand 2024",
+              "value": "6,1 %",
+              "sublabel": "stabil ggü. 2023"
             },
             {
-              "title": "Erwerbsquote Studierende",
-              "rows": [
-                {
-                  "label": "2015",
-                  "value": "36,7 %"
-                },
-                {
-                  "label": "2023",
-                  "value": "56,0 %"
-                }
-              ]
+              "label": "AU-Tage",
+              "value": "~22,3",
+              "sublabel": "je Beschäftigtem/Jahr"
+            },
+            {
+              "label": "Langzeit-Fehltage",
+              "value": "~40 %",
+              "sublabel": "Erkrankungen über 6 Wochen"
             }
           ],
           "sourceRefs": [
-            "iab-generation-z-erwerbsbeteiligung-der-20-bis"
+            "bkk-krankenstand-2024",
+            "aok-fehlzeiten-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gegen das Bild massenhafter Kurz-Krankmeldungen spricht zudem, dass rund 40 % aller Fehltage auf Langzeiterkrankungen von mehr als sechs Wochen entfallen — also auf schwere, ärztlich begleitete Fälle, nicht auf spontane ‚Brückentage'.",
+          "sourceRefs": [
+            "aok-fehlzeiten-2024"
           ]
         }
       ]
@@ -305,149 +701,427 @@
     {
       "id": "arg-1",
       "claim": "Die Leute wollen heute alle nur noch in Teilzeit arbeiten und ihre Freizeit genießen.",
-      "response": "Es stimmt, dass der Wunsch nach mehr Freizeit der häufigste Einzelgrund für Teilzeit ist (27,9 %). Allerdings arbeiten fast genauso viele (23,5 %) in Teilzeit, weil sie Care-Arbeit leisten — also Kinder betreuen oder Angehörige pflegen. Bei Frauen liegen beide Gründe nahezu gleichauf (28,9 % vs. 28,8 %). Und nur 4,8 % der Teilzeitbeschäftigten geben an, keine Vollzeitstelle gefunden zu haben. Wer Teilzeit pauschal als Faulheit abtut, übersieht die vielfältigen Gründe.",
+      "response": "Der Wunsch nach reduzierter Arbeitszeit ist tatsächlich der häufigste Einzelgrund für Teilzeit (27,9 %). Fast genauso viele (23,5 %) arbeiten aber wegen Care-Arbeit reduziert — bei Frauen liegen beide Gründe nahezu gleichauf (28,9 % vs. 28,8 %). Und nur 4,8 % finden keine Vollzeitstelle, ein historischer Tiefstand. ‚Alle' stimmt also nicht, und ‚nur Freizeit' verkennt, dass hinter einem großen Teil der Teilzeit die Betreuung von Kindern und Pflegebedürftigen steht.",
       "keywords": [
         "Freizeit",
         "Faul",
         "Care-Arbeit",
-        "Wunsch"
+        "Wunsch",
+        "alle Teilzeit"
       ],
       "relatedSections": [
-        "gruende"
+        "gruende",
+        "wunsch-wirklichkeit"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole pauschalisiert von einzelnen Beobachtungen auf ‚alle' und setzt Teilzeit mit Bequemlichkeit gleich. Sie blendet aus, dass ein großer Teil der reduzierten Stunden auf unbezahlte Sorgearbeit entfällt — also Arbeit ist, nur eben unvergütete.",
+      "counterQuestions": [
+        "Wen genau meinst du mit ‚alle' — auch die Mutter, die wegen fehlender Kitaplätze nicht aufstocken kann?",
+        "Würdest du die Pflege von Angehörigen als ‚Freizeit genießen' bezeichnen?",
+        "Wenn so viele lieber kürzertreten — warum werden dann jedes Jahr über 600 Millionen Überstunden unbezahlt geleistet?"
+      ]
     },
     {
       "id": "arg-2",
       "claim": "Wegen der ganzen Teilzeit geht in Deutschland die Arbeitsleistung zurück.",
-      "response": "Die durchschnittliche Arbeitszeit pro Kopf sinkt tatsächlich leicht — 2025 lag sie bei 1.332 Stunden pro Erwerbstätigem. Gleichzeitig hat die Zahl der Erwerbstätigen mit 45,98 Millionen fast ein Rekordhoch erreicht, sodass das Gesamtarbeitsvolumen bei 61,26 Milliarden Stunden lag — nur 0,2 % unter dem Vorjahr. In der Summe arbeitet Deutschland also nahezu gleich viel.",
+      "response": "Die durchschnittliche Arbeitszeit pro Kopf sinkt leicht, das stimmt — 2025 waren es 1.332 Stunden pro Erwerbstätigem. Das Gesamtarbeitsvolumen lag mit 61,26 Milliarden Stunden aber nur 0,2 % unter dem Vorjahr, weil mit 45,98 Millionen so viele Menschen erwerbstätig sind wie selten zuvor. Die gleiche Arbeitsmenge verteilt sich also auf mehr Köpfe. Und gemessen an der Leistung pro Stunde gehört Deutschland weiter zu den produktivsten Ländern der OECD.",
       "keywords": [
         "Arbeitsleistung",
         "Wirtschaft",
         "Rückgang",
-        "Volumen"
+        "Volumen",
+        "Produktivität"
       ],
       "relatedSections": [
-        "arbeitsvolumen"
+        "arbeitsvolumen",
+        "stunden-produktivitaet"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Aussage schließt vom sinkenden Pro-Kopf-Wert direkt auf eine sinkende Gesamtleistung — ein Trugschluss, der die gestiegene Erwerbstätigenzahl und die hohe Stundenproduktivität ignoriert. Stunden werden mit Wertschöpfung gleichgesetzt, obwohl beides auseinanderfällt.",
+      "counterQuestions": [
+        "Zählt für die Wirtschaft die Zahl der Stunden — oder das, was in diesen Stunden erarbeitet wird?",
+        "Wie passt ‚immer weniger Arbeitsleistung' dazu, dass die Erwerbstätigenzahl auf Rekordniveau liegt?",
+        "Wenn Deutschland je Arbeitsstunde im OECD-Vergleich vorne liegt — woran genau machst du den Leistungsrückgang fest?"
+      ]
     },
     {
       "id": "arg-3",
+      "claim": "Die Deutschen sind faul — nirgends wird so wenig gearbeitet wie bei uns.",
+      "response": "Beim reinen Blick auf die Jahresstunden steckt ein wahrer Kern darin: Mit 1.331 Stunden pro Kopf hatte Deutschland 2024 laut OECD die wenigsten aller Mitgliedsländer. Aber die Stunde ist nicht gleich die Leistung — pro Arbeitsstunde produziert Deutschland mehr als der OECD-Durchschnitt und liegt auf Rang 10. Hinzu kommen jährlich rund 1,2 Milliarden Überstunden, davon 638 Millionen unbezahlt. Wenige Stunden bedeuten hier hohe Intensität, nicht Faulheit.",
+      "keywords": [
+        "faul",
+        "wenig arbeiten",
+        "OECD",
+        "Stunden",
+        "Produktivität"
+      ],
+      "relatedSections": [
+        "stunden-produktivitaet",
+        "arbeitsvolumen"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole pickt eine einzelne Kennzahl — Jahresstunden pro Kopf — heraus und deutet sie als Charaktereigenschaft (‚faul'). Sie unterschlägt die zweite Hälfte derselben Statistik: die Leistung je Stunde. Damit wird ein Effizienzmaß in ein Moralurteil umgedeutet.",
+      "counterQuestions": [
+        "Ist jemand fleißiger, weil er länger im Büro sitzt — oder weil er in der Zeit mehr schafft?",
+        "Wie passt ‚faul' zu 638 Millionen unbezahlt geleisteten Überstunden im Jahr?",
+        "Würdest du ein Land mit vielen Stunden und niedriger Produktivität wirklich für fleißiger halten?"
+      ]
+    },
+    {
+      "id": "arg-4",
       "claim": "Die Gen Z ist arbeitsscheu und will nicht mehr richtig arbeiten.",
-      "response": "Die Daten des IAB zeigen ein anderes Bild: Die Erwerbsbeteiligung der 20- bis 24-Jährigen stieg seit 2015 um über 6 Prozentpunkte auf 76 %. Der Teilzeitanstieg in dieser Gruppe erklärt sich vor allem durch mehr arbeitende Studierende: Deren Erwerbsquote stieg von 36,7 % (2015) auf 56,0 % (2023). Dass junge Menschen andere Vorstellungen von Arbeit haben — etwa flexible Arbeitszeiten oder Homeoffice — bedeutet nicht, dass sie weniger arbeiten wollen.",
+      "response": "Die Daten des IAB zeigen das Gegenteil: Die Erwerbsbeteiligung der 20- bis 24-Jährigen ist seit 2015 um rund 6 Prozentpunkte auf etwa 76 % gestiegen — so hoch wie seit Jahrzehnten nicht. Der Anstieg der Teilzeit in dieser Gruppe geht vor allem auf mehr arbeitende Studierende zurück (Erwerbsquote von 36,7 % auf 56,0 %). Rechnet man das heraus, unterscheidet sich der Arbeitszeitwunsch junger Menschen kaum von dem älterer.",
       "keywords": [
         "Gen Z",
         "Jugend",
         "Faul",
-        "Arbeitsmoral"
+        "Arbeitsmoral",
+        "arbeitsscheu"
       ],
       "relatedSections": [
-        "gen-z"
+        "gen-z",
+        "wunsch-wirklichkeit"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Hier wird eine ganze Generation über einen Kamm geschoren und ein verändertes Anspruchsdenken (Homeoffice, flexible Zeiten) mit Arbeitsunwilligkeit verwechselt. Anekdoten über einzelne Berufseinsteiger werden zu einem Gruppenurteil verallgemeinert.",
+      "counterQuestions": [
+        "Woran machst du ‚arbeitsscheu' fest — an Daten oder an einzelnen Erlebnissen?",
+        "Ist es arbeitsscheu, neben dem Studium zu jobben — oder genau das Gegenteil?",
+        "Heißt ‚anders arbeiten wollen' für dich automatisch ‚weniger arbeiten wollen'?"
+      ]
     },
     {
-      "id": "arg-4",
+      "id": "arg-5",
       "claim": "Die jungen Leute machen alle nur noch Teilzeit, weil sie keine Lust auf 40 Stunden haben.",
-      "response": "Der Anstieg der Teilzeit bei jungen Menschen hängt laut IAB zu großen Teilen mit mehr erwerbstätigen Studierenden zusammen. Die Erwerbsquote von Studierenden im Alter von 20 bis 24 Jahren stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %. Studierende arbeiten zwangsläufig in Teilzeit — das sagt nichts über ihre Arbeitsmoral nach dem Studium aus.",
+      "response": "Dass mehr junge Menschen in Teilzeit sind, hat einen klaren Grund — und er heißt nicht Unlust: Die Erwerbsquote von Studierenden zwischen 20 und 24 stieg zwischen 2015 und 2023 um 19,3 Prozentpunkte auf 56,0 %. Studierende arbeiten zwangsläufig in Teilzeit, weil sie nebenher studieren. Das sagt nichts über ihre Bereitschaft zur Vollzeit nach dem Abschluss aus.",
       "keywords": [
         "Studenten",
         "Teilzeit",
         "Jugend",
-        "40 Stunden"
+        "40 Stunden",
+        "keine Lust"
       ],
       "relatedSections": [
         "gen-z"
       ],
-      "verdict": "mostly-false"
-    },
-    {
-      "id": "arg-5",
-      "claim": "Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.",
-      "response": "Die Idee klingt einfach, geht aber an der Realität vorbei. Teilzeit hängt häufig mit Betreuungspflichten (23,5 %), Aus- und Weiterbildung (11,6 %) oder Krankheit bzw. Behinderung (4,9 %) zusammen. Ein pauschales Abschaffen beseitigt diese Gründe nicht — es würde eher dazu führen, dass Menschen ganz aus dem Arbeitsmarkt ausscheiden. Kritiker weisen zurecht darauf hin, dass bessere Kinderbetreuung und flexiblere Arbeitsmodelle wirksamer wären.",
-      "keywords": [
-        "Fachkräftemangel",
-        "Abschaffen",
-        "Vollzeit"
-      ],
-      "relatedSections": [
-        "gruende"
-      ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole verwechselt Ursache und Motiv: Sie deutet eine strukturelle Erklärung (mehr erwerbstätige Studierende) als Einstellungsproblem (‚keine Lust') um — und pauschalisiert mit ‚alle'.",
+      "counterQuestions": [
+        "Was soll eine Studentin tun, die neben dem Studium jobbt — Vollzeit arbeiten und das Studium hinwerfen?",
+        "Wäre dir lieber, junge Menschen würden gar nicht studieren, damit die Teilzeitquote sinkt?",
+        "Woher weißt du, wie diese Leute nach dem Abschluss arbeiten?"
+      ]
     },
     {
       "id": "arg-6",
+      "claim": "Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.",
+      "response": "Mehr Arbeitskräfte ließen sich tatsächlich gewinnen — eine IAW-Studie beziffert das Potenzial auf bis zu 1,7 Millionen Vollzeitstellen, allerdings nur unter klaren Annahmen. Teilzeit lässt sich aber nicht per Dekret abschaffen: Sie hängt an Care-Pflichten (23,5 %), Ausbildung (11,6 %) und Krankheit (4,9 %). Würde man sie streichen, schieden viele Menschen ganz aus dem Arbeitsmarkt aus. Wirksamer sind bessere Kinderbetreuung, der Abbau steuerlicher Fehlanreize und flexible Modelle — denn die größte Lücke reißt ohnehin der Renteneintritt von 13,4 Millionen Babyboomern.",
+      "keywords": [
+        "Fachkräftemangel",
+        "Abschaffen",
+        "Vollzeit",
+        "Potenzial"
+      ],
+      "relatedSections": [
+        "demografie-potenzial",
+        "gruende",
+        "politik-anreize"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Aussage unterstellt eine einfache Stellschraube für ein vielschichtiges Problem (falsche Einfachlösung) und behandelt Teilzeit als freie Entscheidung, die man einfach untersagen könnte — als hinge nichts daran.",
+      "counterQuestions": [
+        "Wer betreut die Kinder und Pflegebedürftigen, wenn die Teilzeit wegfällt?",
+        "Glaubst du, eine pflegende Angehörige geht dann in Vollzeit — oder ganz aus dem Job?",
+        "Was hilft mehr gegen Fachkräftemangel: ein Verbot oder genug Kitaplätze?"
+      ]
+    },
+    {
+      "id": "arg-7",
       "claim": "Teilzeit ist doch ein reines Frauenproblem.",
-      "response": "Frauen arbeiten tatsächlich deutlich häufiger in Teilzeit als Männer (49 % vs. 12 % im Jahr 2024). Aber auch bei Männern hat sich die Quote seit 2005 von 7 % auf 12 % fast verdoppelt. Zudem betrifft Teilzeit die gesamte Gesellschaft: Die hohe Teilzeitquote von Müttern (68 %) hängt eng mit dem Mangel an Betreuungsplätzen zusammen — einem strukturellen Problem, das nicht nur Frauen betrifft.",
+      "response": "Frauen arbeiten deutlich häufiger in Teilzeit als Männer (49 % vs. 12 % im Jahr 2024) — das ist richtig. Aber das ist kein ‚Frauenproblem', sondern ein gesellschaftliches: Dahinter steht ein Gender Care Gap von 44,3 %, also unbezahlte Sorgearbeit, die überwiegend an Frauen hängt, sowie fehlende Betreuungsplätze und steuerliche Fehlanreize. Auch bei Männern hat sich die Quote seit 2005 von 7 % auf 12 % fast verdoppelt. Es betrifft Familien, Arbeitgeber und das Rentensystem insgesamt.",
       "keywords": [
         "Frauen",
         "Männer",
         "Gleichberechtigung",
-        "Gender"
+        "Gender",
+        "Frauenproblem"
       ],
       "relatedSections": [
-        "gender-gap"
+        "gender-care",
+        "politik-anreize"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Indem die Parole das Thema als ‚Frauenproblem' etikettiert, schiebt sie die Verantwortung einer Gruppe zu und entzieht sich der strukturellen Frage — als ginge es um eine private Vorliebe statt um Betreuungsinfrastruktur und Steuerrecht.",
+      "counterQuestions": [
+        "Wenn überwiegend Frauen reduzieren, um Kinder zu betreuen — ist das ein Frauenproblem oder ein Familienthema?",
+        "Wer profitiert eigentlich davon, dass diese unbezahlte Arbeit erledigt wird?",
+        "Würde sich an der Verteilung etwas ändern, wenn es genug Kitaplätze gäbe?"
+      ]
     },
     {
-      "id": "arg-7",
+      "id": "arg-8",
       "claim": "In anderen Ländern wird viel mehr gearbeitet als bei uns.",
-      "response": "Deutschlands Teilzeitquote von 29 % liegt zwar über dem EU-Durchschnitt von 18 %. Allerdings haben nur die Niederlande (43 %) und Österreich (31 %) höhere Quoten — und gerade die Niederlande haben gleichzeitig die höchste Frauenerwerbstätigenquote der EU. Hohe Teilzeitquoten gehen oft mit hoher Erwerbsbeteiligung einher: Mehr Menschen arbeiten, aber manche eben weniger Stunden. Länder mit niedrigen Teilzeitquoten haben häufig auch eine geringere Erwerbsbeteiligung.",
+      "response": "Beim reinen Stundenvergleich stimmt das: Deutschland hatte 2024 laut OECD mit 1.331 Stunden pro Kopf die kürzesten Jahresarbeitszeiten. Aber zwei Dinge gehören dazu: Erstens ist die Leistung pro Stunde hierzulande hoch — Rang 10 der OECD, über dem Durchschnitt. Zweitens gehen kurze Durchschnittszeiten oft mit hoher Erwerbsbeteiligung einher: In den Niederlanden etwa arbeiten besonders viele Menschen, viele davon in Teilzeit. Lange Stunden sind also kein Beleg für mehr Wohlstand.",
       "keywords": [
         "Europa",
         "Vergleich",
         "Niederlande",
-        "Ausland"
+        "Ausland",
+        "mehr arbeiten"
       ],
       "relatedSections": [
+        "stunden-produktivitaet",
         "eu-vergleich"
       ],
-      "verdict": "partially-true"
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Aussage isoliert die Stundenzahl und ignoriert Produktivität und Erwerbsbeteiligung. Sie legt nahe, mehr Stunden seien automatisch besser — ein Kurzschluss zwischen Aufwand und Ergebnis.",
+      "counterQuestions": [
+        "Sind Länder mit mehr Arbeitsstunden auch wohlhabender oder produktiver?",
+        "Würdest du lieber länger arbeiten für das gleiche Ergebnis?",
+        "Zählt am Ende die Zeit am Arbeitsplatz oder das, was dabei herauskommt?"
+      ]
     },
     {
-      "id": "arg-8",
+      "id": "arg-9",
       "claim": "Wer Teilzeit arbeitet, ist selbst schuld, wenn die Rente nicht reicht.",
-      "response": "Der Gender Pension Gap von 27,1 % (2023) zeigt, dass Frauen im Schnitt gut ein Viertel weniger eigene Alterssicherungsleistungen erhalten als Männer — unter anderem weil 68 % der Mütter in Teilzeit arbeiten, oft aufgrund fehlender Betreuungsmöglichkeiten. Die Entscheidung für Teilzeit ist in vielen Fällen keine freie Wahl, sondern Ergebnis struktureller Rahmenbedingungen. Positiv: Der Pension Gap wird für jüngere Generationen kleiner, weil sich Erwerbsbiografien angleichen.",
+      "response": "Der Gender Pension Gap von 27,1 % (2023) zeigt, dass Frauen im Schnitt gut ein Viertel weniger eigene Alterssicherung erhalten — unter anderem, weil 68 % der Mütter in Teilzeit arbeiten. Diese Entscheidung fällt aber selten frei: Fehlende Kitaplätze, das Ehegattensplitting und die Steuerklasse V machen Teilzeit für Zweitverdienende oft zur rationalen Wahl. Wer hier von ‚selbst schuld' spricht, übersieht, dass das System Teilzeit für viele erst nahelegt — und dass dieselbe Sorgearbeit anderen nützt.",
       "keywords": [
         "Rente",
         "Altersarmut",
         "Eigenverantwortung",
-        "Pension Gap"
+        "Pension Gap",
+        "selbst schuld"
       ],
       "relatedSections": [
         "rentenfolgen",
-        "gender-gap"
+        "gender-care",
+        "politik-anreize"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole individualisiert ein strukturelles Problem (‚selbst schuld') und tut so, als sei Teilzeit immer eine freie, folgenlos veränderbare Wahl — sie ignoriert Betreuungslücken und steuerliche Anreize, die die Entscheidung mitprägen.",
+      "counterQuestions": [
+        "Ist es eine freie Wahl, in Teilzeit zu gehen, wenn es keinen Kitaplatz gibt?",
+        "Wem nützt die unbezahlte Sorgearbeit, für die jemand die Stunden reduziert?",
+        "Würdest du das Steuersystem ändern, das Teilzeit für Zweitverdiener attraktiv macht — oder nur den Einzelnen die Schuld geben?"
+      ]
+    },
+    {
+      "id": "arg-10",
+      "claim": "Heute feiert doch jeder ständig krank — das ist alles nur Bummelei.",
+      "response": "Der Krankenstand ist mit 6,1 % (2024) wirklich hoch. Ein großer Teil des Anstiegs ist aber statistisch: Seit die elektronische Krankmeldung (eAU) Pflicht ist, landen auch kurze Krankschreibungen vollständig bei den Kassen, die früher oft nicht gemeldet wurden. Gegen das Bild der ‚Bummelei' spricht außerdem, dass rund 40 % aller Fehltage auf schwere Langzeiterkrankungen von über sechs Wochen entfallen — nicht auf spontane freie Tage.",
+      "keywords": [
+        "krankfeiern",
+        "Krankenstand",
+        "Bummelei",
+        "blaumachen",
+        "krankgeschrieben"
+      ],
+      "relatedSections": [
+        "krankenstand"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole deutet einen statistischen Erfassungseffekt als moralischen Verfall und verallgemeinert von Einzelfällen (‚jeder') auf alle. Dass der größte Teil der Fehltage auf ernste Erkrankungen entfällt, wird ausgeblendet.",
+      "counterQuestions": [
+        "Kann es sein, dass nicht mehr Leute krank sind, sondern Krankmeldungen nur besser erfasst werden?",
+        "Wen meinst du mit ‚jeder' — auch die 40 % Fehltage durch monatelange schwere Erkrankungen?",
+        "Würdest du dir wünschen, dass Kranke trotzdem zur Arbeit kommen und Kollegen anstecken?"
+      ]
+    },
+    {
+      "id": "arg-11",
+      "claim": "Die Vier-Tage-Woche ist eine Spinnerei, die unsere Wirtschaft ruiniert.",
+      "response": "Die bislang größte deutsche Studie (Universität Münster, 45 Organisationen, 2024) deutet in eine andere Richtung: Umsatz und Gewinn blieben stabil, Stress und Gesundheit verbesserten sich, und mehr als 70 % der teilnehmenden Organisationen wollten das Modell fortführen. Eine große britische Studie kam zu ähnlichen Ergebnissen, mit 65 % weniger Krankheitstagen. Fairerweise: Die Teilnehmer waren freiwillig dabei und meist motiviert, und in Schichtbetrieben oder der Pflege lässt sich das nicht eins zu eins übertragen. Eine ‚Ruinierung' der Wirtschaft zeigen die Daten aber nicht.",
+      "keywords": [
+        "Vier-Tage-Woche",
+        "4-Tage-Woche",
+        "Wirtschaft",
+        "Spinnerei",
+        "weniger arbeiten"
+      ],
+      "relatedSections": [
+        "arbeitszeitmodelle"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole erklärt ein Arbeitszeitmodell vorab für gescheitert (‚Spinnerei'), ohne die vorliegenden Ergebnisse anzusehen, und unterstellt einen Automatismus weniger Tage = weniger Leistung, den die Studien gerade nicht zeigen.",
+      "counterQuestions": [
+        "Wenn Produktivität und Umsatz stabil bleiben — woran genau scheitert die Wirtschaft dann?",
+        "Ist die Zahl der Arbeitstage entscheidend oder das Ergebnis am Ende der Woche?",
+        "Würdest du ein Modell ablehnen, das den Krankenstand senkt und Beschäftigte hält?"
+      ]
+    },
+    {
+      "id": "arg-12",
+      "claim": "Mit der Aktivrente und steuerfreien Überstunden lösen wir den Fachkräftemangel.",
+      "response": "Die Idee, Mehrarbeit steuerlich zu belohnen, klingt plausibel — die Wirkung ist aber unsicher. Beim DIW wird die Aktivrente vor allem als Mitnahmeeffekt eingeschätzt: Rund 73 % der Steuerentlastung entfallen auf das oberste Einkommensfünftel, also auf Menschen, die ohnehin weiterarbeiten würden. Und von den steuerfreien Überstundenzuschlägen profitieren laut WSI nur etwa 1,4 % der Beschäftigten, die überhaupt regelmäßig solche Zuschläge erhalten. Gegen den demografischen Schwund von Millionen Erwerbspersonen sind das eher kleine Hebel.",
+      "keywords": [
+        "Aktivrente",
+        "Überstunden",
+        "steuerfrei",
+        "Fachkräftemangel",
+        "Anreize"
+      ],
+      "relatedSections": [
+        "politik-anreize",
+        "demografie-potenzial"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Aussage verspricht eine große Wirkung von einer Maßnahme, die nur einen kleinen Kreis erreicht, und blendet Mitnahmeeffekte aus — wer ohnehin gearbeitet hätte, wird belohnt, ohne dass zusätzliche Arbeit entsteht.",
+      "counterQuestions": [
+        "Entsteht zusätzliche Arbeit, wenn vor allem Menschen entlastet werden, die ohnehin weiterarbeiten?",
+        "Wie viele der Beschäftigten haben überhaupt steuerpflichtige Überstundenzuschläge?",
+        "Was bewegt mehr: ein Steuerbonus für wenige oder bessere Betreuung für Millionen Teilzeitkräfte?"
+      ]
+    },
+    {
+      "id": "arg-13",
+      "claim": "Frauen entscheiden sich doch freiwillig für Teilzeit — das ist deren eigene Wahl.",
+      "response": "Auf dem Papier ist es eine Entscheidung, und viele treffen sie auch bewusst. Aber ‚freiwillig' verkennt den Rahmen: Bundesweit fehlen rund 430.000 Kitaplätze, das Ehegattensplitting und die Steuerklasse V machen das Aufstocken für Zweitverdienende unattraktiv, und das gesetzliche Rückkehrrecht aus der Teilzeit (Brückenteilzeit) nutzen nur etwa 0,5 % der Beschäftigten. Wenn die Alternativen fehlen, ist die ‚freie Wahl' eher eine Wahl unter Zwängen.",
+      "keywords": [
+        "freiwillig",
+        "freie Wahl",
+        "Frauen",
+        "Kinderbetreuung",
+        "Ehegattensplitting"
+      ],
+      "relatedSections": [
+        "politik-anreize",
+        "gender-care",
+        "gruende"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole rahmt eine durch Infrastruktur und Steuerrecht stark vorgeprägte Entscheidung als rein individuelle ‚freie Wahl' — und entlastet damit die strukturellen Rahmenbedingungen von jeder Verantwortung.",
+      "counterQuestions": [
+        "Ist es eine freie Wahl, wenn der nötige Kitaplatz schlicht fehlt?",
+        "Warum lohnt sich das Aufstocken für Zweitverdiener steuerlich so wenig?",
+        "Wenn die Rückkehr in Vollzeit so einfach wäre — warum nutzen sie kaum 0,5 % der Beschäftigten?"
+      ]
     }
   ],
   "sources": [
     {
-      "id": "iab-ergebnisse-der-arbeitszeitrechnung-2025",
-      "label": "IAB: Ergebnisse der Arbeitszeitrechnung 2025",
+      "id": "iab-arbeitszeitrechnung-2025",
+      "label": "IAB: Ergebnisse der Arbeitszeitrechnung für das Jahr 2025",
       "url": "https://iab.de/presseinfo/ergebnisse-der-iab-arbeitszeitrechnung-fuer-das-jahr-2025-teilzeitbeschaeftigte-arbeiteten-132-millionen-stunden/"
     },
     {
-      "id": "destatis-gruende-fuer-teilzeittaetigkeit-2024",
-      "label": "Destatis: Gründe für Teilzeittätigkeit 2024",
-      "url": "https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Qualitaet-Arbeit/Dimension-3/Interaktiv/3-9_tz_gruende-geschlecht.html"
+      "id": "iab-arbeitszeitrechnung-2024",
+      "label": "IAB: Arbeitszeitrechnung 2024 — erstmals seit Corona sinkt das Arbeitsvolumen",
+      "url": "https://iab.de/presseinfo/ergebnisse-der-iab-arbeitszeitrechnung-fuer-das-jahr-2024-erstmals-seit-corona-sinkt-das-arbeitsvolumen/"
     },
     {
-      "id": "iab-generation-z-erwerbsbeteiligung-der-20-bis",
-      "label": "IAB: Generation Z – Erwerbsbeteiligung der 20- bis 24-Jährigen",
-      "url": "https://iab.de/presseinfo/generation-z-erwerbsbeteiligung-der-20-bis-24-jaehrigen-klettert-auf-den-hoechsten-stand-seit-jahrzehnten/"
+      "id": "oecd-hours-worked",
+      "label": "OECD: Hours worked (average annual hours actually worked per worker)",
+      "url": "https://www.oecd.org/en/data/indicators/hours-worked.html"
+    },
+    {
+      "id": "oecd-gdp-per-hour",
+      "label": "OECD: GDP per hour worked (Arbeitsproduktivität)",
+      "url": "https://www.oecd.org/en/data/indicators/gdp-per-hour-worked.html"
+    },
+    {
+      "id": "destatis-teilzeitgruende-2024",
+      "label": "Destatis: Gründe für Teilzeittätigkeit 2024 (Mikrozensus-Endergebnisse, PD26 N007)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/01/PD26_N007_13.html"
     },
     {
       "id": "destatis-teilzeitquote-geschlecht-2024",
-      "label": "Destatis: Fast jede zweite erwerbstätige Frau arbeitet in Teilzeit (2024)",
+      "label": "Destatis: Fast jede zweite erwerbstätige Frau arbeitet in Teilzeit (PD25 175)",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_175_13.html"
     },
     {
-      "id": "destatis-gruende-teilzeit-endergebnisse-2024",
-      "label": "Destatis: 28 % der Teilzeitbeschäftigten arbeiten auf eigenen Wunsch reduziert (Endergebnisse Mikrozensus 2024)",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/01/PD26_N007_13.html"
+      "id": "eurostat-teilzeitquote-2024",
+      "label": "Eurostat: Part-time employment and temporary contracts — annual data (lfsi_pt_a), 2024",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/lfsi_pt_a/default/table?lang=en"
+    },
+    {
+      "id": "destatis-gender-care-gap-2024",
+      "label": "Destatis: Gender Care Gap 44,3 % (Zeitverwendungserhebung 2022, PD24 073)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/02/PD24_073_63991.html"
+    },
+    {
+      "id": "iw-arbeitszeitwuensche-2024",
+      "label": "IW Köln: Arbeitszeitwünsche von jungen Beschäftigten (Hammermann/Schäfer, 2024)",
+      "url": "https://www.iwkoeln.de/studien/andrea-hammermann-holger-schaefer-arbeitszeitwuensche-von-jungen-beschaeftigten.html"
+    },
+    {
+      "id": "iab-generation-z",
+      "label": "IAB: Generation Z — Erwerbsbeteiligung der 20- bis 24-Jährigen auf Höchststand",
+      "url": "https://iab.de/presseinfo/generation-z-erwerbsbeteiligung-der-20-bis-24-jaehrigen-klettert-auf-den-hoechsten-stand-seit-jahrzehnten/"
+    },
+    {
+      "id": "iab-forum-genz",
+      "label": "IAB-Forum: Generation Z — noch ein Klischee weniger (Hellwagner/Weber, 2025)",
+      "url": "https://iab-forum.de/generation-z-noch-ein-klischee-weniger/"
+    },
+    {
+      "id": "iab-brueckenteilzeit-2023",
+      "label": "IAB-Forum: Die gesetzliche Brückenteilzeit wird eher zurückhaltend genutzt (2023)",
+      "url": "https://iab-forum.de/die-gesetzliche-bruckenteilzeit-wird-eher-zuruckhaltend-genutzt/"
+    },
+    {
+      "id": "destatis-babyboomer-2025",
+      "label": "Destatis: 13,4 Millionen Erwerbstätige erreichen in 15 Jahren die Regelaltersgrenze (PD25 N048)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_N048_13.html"
+    },
+    {
+      "id": "iab-arbeitskraefteangebot-2021",
+      "label": "IAB: Arbeitskräfteangebot sinkt ohne Zuwanderung bis 2035 um 7,2 Mio. (2021)",
+      "url": "https://iab.de/presseinfo/nur-mit-einer-jaehrlichen-nettozuwanderung-von-400-000-personen-bleibt-das-arbeitskraefteangebot-langfristig-konstant/"
+    },
+    {
+      "id": "iaw-teilzeitpotenzial-2024",
+      "label": "IAW / Stiftung Familienunternehmen: Weniger Teilzeit könnte 1,7 Mio. Vollzeitstellen bringen (2024)",
+      "url": "https://www.familienunternehmen.de/de/news/weniger-teilzeit-koennte-1-7-millionen-zusaetzliche-vollzeitstellen-bringen"
+    },
+    {
+      "id": "destatis-stille-reserve-2025",
+      "label": "Destatis: 3,1 Millionen Menschen in der Stillen Reserve (PD25 231)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_231_13.html"
+    },
+    {
+      "id": "bmwk-ehegattenbesteuerung-2025",
+      "label": "BMWE: Kann eine Reform der Ehegattenbesteuerung die Beschäftigung erhöhen? (2025)",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Schlaglichter-der-Wirtschaftspolitik/2025/05/05-ehegattenbesteuerung.html"
+    },
+    {
+      "id": "oecd-wirtschaftsbericht-2025",
+      "label": "OECD: Economic Survey Germany 2025 (Empfehlung zu Ehegattensplitting und Minijobs)",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-germany-2025_39d62aed-en.html"
+    },
+    {
+      "id": "drv-minijob-2026",
+      "label": "Deutsche Rentenversicherung: Minijob-Verdienstgrenze steigt 2026 auf 603 Euro",
+      "url": "https://www.deutsche-rentenversicherung.de/BadenWuerttemberg/DE/Presse/Pressemitteilungen/2025/251222_Minijob.html"
+    },
+    {
+      "id": "bmf-aktivrente-2025",
+      "label": "Bundesfinanzministerium: Gesetzentwurf zur neuen Aktivrente (15.10.2025)",
+      "url": "https://www.bundesfinanzministerium.de/Content/DE/Pressemitteilungen/Finanzpolitik/2025/10/2025-10-15-gesetzentwurf-zur-neuen-aktivrente.html"
+    },
+    {
+      "id": "diw-aktivrente-2025",
+      "label": "DIW Berlin: Aktivrente entlastet vor allem Besserverdienende (Wochenbericht 25/2025)",
+      "url": "https://www.diw.de/de/diw_01.c.958929.de/publikationen/wochenberichte/2025_25_1/aktivrente_entlastet_vor_allem_besserverdienende_rentner_innen_____mit_unsicheren_beschaeftigungseffekten.html"
+    },
+    {
+      "id": "unimuenster-viertagewoche-2024",
+      "label": "Universität Münster: Pilotprojekt Vier-Tage-Woche — Ergebnisse (Backmann u.a., 2024)",
+      "url": "https://www.wiwi.uni-muenster.de/fakultaet/de/news/4877"
+    },
+    {
+      "id": "4dayweek-uk-2023",
+      "label": "University of Cambridge: Results of world's largest trial of the four-day working week (2023)",
+      "url": "https://www.sociology.cam.ac.uk/news/new-results-worlds-largest-trial-four-day-working-week"
+    },
+    {
+      "id": "bkk-krankenstand-2024",
+      "label": "BKK Dachverband: Arbeitsunfähigkeitsdaten 2024 — Krankenstand auf Rekordniveau",
+      "url": "https://www.bkk-dachverband.de/presse/pressemitteilungen/pressemitteilung/arbeitsunfaehigkeitsdaten-2024-der-krankenstand-stabilisiert-sich-auf-rekordniveau"
+    },
+    {
+      "id": "aok-fehlzeiten-2024",
+      "label": "AOK / WIdO: Fehlzeiten-Report 2024",
+      "url": "https://www.aok.de/pp/bv/pm/fehlzeiten-2024/"
     },
     {
       "id": "destatis-gender-pension-gap-2023",
