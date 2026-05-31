@@ -5,12 +5,12 @@
   "seoTitle": "Gleichberechtigung: Pay Gap, Care, Rente — Argumente & Daten",
   "seoDescription": "Verdienen Frauen freiwillig weniger? Ist Feminismus überflüssig? Antworten zu Pay Gap, Care, Altersarmut und Gewalt — Daten aus Destatis und BKA.",
   "icon": "balance",
-  "lastUpdated": "2026-03-18",
+  "lastUpdated": "2026-05-30",
   "keyStats": [
     "16 % unbereinigter Gender Pay Gap (2025)",
     "43,4 % Gender Care Gap",
     "132 Frauen durch Partner getötet (2024)",
-    "13 Argumente"
+    "17 Argumente"
   ],
   "sourceNote": "Die Daten stammen primär von Destatis, dem BMFSFJ, dem BKA, dem Bundestag, der Deutschen Rentenversicherung, der Bundesbank, dem DIW, dem ZEW und EIGE (Stand 2024–2026). Wo Exaktwerte unsicher oder methodisch schwer vergleichbar sind, werden konservative Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
@@ -346,7 +346,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Der Gender Pension Gap ist die Rentenlücke zwischen Männern und Frauen. Er spiegelt die kumulierten Auswirkungen von Pay Gap, Care Gap und Teilzeitarbeit über ein ganzes Erwerbsleben wider. Ohne Hinterbliebenenrenten beträgt die Lücke fast 40 %.",
+          "text": "Der Gender Pension Gap ist die Rentenlücke zwischen Männern und Frauen. Er spiegelt die kumulierten Auswirkungen von Pay Gap, Care Gap und Teilzeitarbeit über ein ganzes Erwerbsleben wider. Bei den eigenen Rentenansprüchen — also ohne Hinterbliebenenrenten — beträgt die Lücke gut ein Drittel. Sie sinkt langsam, bleibt aber eine der größten in Europa.",
           "sourceRefs": [
             "destatis-gender-pension-gap"
           ]
@@ -356,23 +356,23 @@
           "items": [
             {
               "label": "Gender Pension Gap",
-              "value": "27,1 %",
-              "sublabel": "Mit Hinterbliebenenrenten (2023)"
+              "value": "24,2 %",
+              "sublabel": "Mit Hinterbliebenenrenten (2024)"
             },
             {
               "label": "Ohne Hinterbliebenenrenten",
-              "value": "39,4 %",
-              "sublabel": "Eigene Rentenansprüche (2023)",
+              "value": "36,0 %",
+              "sublabel": "Eigene Rentenansprüche (2024)",
               "color": "#b71c1c"
             },
             {
               "label": "Westdeutschland",
-              "value": "43,8 %",
+              "value": "40,8 %",
               "sublabel": "Ohne Hinterbliebenenrenten"
             },
             {
               "label": "Ostdeutschland",
-              "value": "18,6 %",
+              "value": "13,2 %",
               "sublabel": "Ohne Hinterbliebenenrenten"
             }
           ],
@@ -429,15 +429,15 @@
           "rows": [
             [
               "65+",
-              "21,4 %",
-              "17,0 %",
-              "+4,4 Pp."
+              "21,3 %",
+              "17,3 %",
+              "+4,0 Pp."
             ],
             [
               "75+",
-              "21,8 %",
-              "15,4 %",
-              "+6,4 Pp."
+              "21,3 %",
+              "15,8 %",
+              "+5,5 Pp."
             ]
           ],
           "sourceRefs": [
@@ -496,8 +496,8 @@
               "value": 30
             },
             {
-              "label": "2023",
-              "value": 27.1
+              "label": "2024",
+              "value": 24.2
             }
           ],
           "sourceRefs": [
@@ -506,7 +506,7 @@
         },
         {
           "type": "fact",
-          "text": "Frauen erhalten im Schnitt 450 € weniger Altersrente pro Monat als Männer — über 20 Rentenjahre summiert sich das auf über 100.000 €. Ein Hauptgrund: Frauen haben durchschnittlich nur 33 Beitragsjahre (Männer: 42) — 9 Jahre fehlen durch Care-Arbeit. Immerhin sinkt der Gap langsam: von 43 % (2007) auf 27,1 % (2023). Ohne Hinterbliebenenrenten bleibt er bei 39,4 %.",
+          "text": "Frauen erhalten im Schnitt 450 € weniger Altersrente pro Monat als Männer — über 20 Rentenjahre summiert sich das auf über 100.000 €. Ein Hauptgrund: Frauen haben durchschnittlich nur 33 Beitragsjahre (Männer: 42) — 9 Jahre fehlen durch Care-Arbeit. Immerhin sinkt der Gap langsam: von 43 % (2007) auf 24,2 % (2024). Bei den eigenen Rentenansprüchen — ohne Hinterbliebenenrenten — bleibt er bei 36,0 %.",
           "highlight": true,
           "sourceRefs": [
             "destatis-gender-pension-gap",
@@ -600,8 +600,8 @@
             },
             {
               "label": "Anstieg 5 Jahre",
-              "value": "+14 %",
-              "sublabel": "Häusliche Gewalt seit 2019"
+              "value": "+17,8 %",
+              "sublabel": "Häusliche Gewalt 2019 bis 2024"
             }
           ],
           "sourceRefs": [
@@ -654,35 +654,35 @@
           "type": "stat_grid",
           "items": [
             {
-              "label": "Dunkelziffer",
-              "value": "95 %",
-              "sublabel": "der Taten werden nicht angezeigt (LeSuBiA)",
+              "label": "Anzeigequote",
+              "value": "unter 10 %",
+              "sublabel": "der Fälle werden polizeilich bekannt (LeSuBiA)",
               "color": "#b71c1c"
             },
             {
               "label": "Betroffene Frauen",
-              "value": "18 %",
-              "sublabel": "erleben häusliche Gewalt (Dunkelfeld)"
+              "value": "48,7 %",
+              "sublabel": "psychische Partnerschaftsgewalt im Leben (LeSuBiA)"
             },
             {
-              "label": "Getötete Frauen insgesamt",
+              "label": "Tötungsdelikte (Partnerschaft)",
               "value": "308",
-              "sublabel": "Alle Tötungsdelikte gegen Frauen (2024)"
+              "sublabel": "versuchte + vollendete an Frauen (2024)"
             },
             {
               "label": "Sexualdelikte",
               "value": "53.451",
-              "sublabel": "Opfer von Sexualdelikten (2024)"
+              "sublabel": "weibliche Opfer von Sexualdelikten (2024)"
             }
           ],
           "sourceRefs": [
             "lesubia-dunkelfeldstudie",
-            "bmi-straftaten-gegen-frauen-2024"
+            "bka-straftaten-gegen-frauen-2024"
           ]
         },
         {
           "type": "fact",
-          "text": "Alle drei Tage wird in Deutschland eine Frau durch ihren Partner oder Ex-Partner getötet. 2024 waren es 132 Frauen. Die LeSuBiA-Dunkelfeldstudie zeigt: 19 von 20 Taten werden nie angezeigt — die Anzeigequote liegt unter 5 %. Das heißt: Die 265.942 polizeilich erfassten Fälle sind nur die Spitze des Eisbergs. Tatsächlich erleben 18 % aller Frauen in Deutschland häusliche Gewalt.",
+          "text": "Alle drei Tage wird in Deutschland eine Frau durch ihren Partner oder Ex-Partner getötet. 2024 waren es 132 Frauen. Die LeSuBiA-Dunkelfeldstudie des BKA (2026) zeigt, warum die Hellfeld-Zahlen das Ausmaß unterschätzen: Die Anzeigequote liegt bei den meisten Gewaltformen unter 10 %, bei Partnerschaftsgewalt noch niedriger. Die 265.942 polizeilich erfassten Fälle sind also nur die Spitze des Eisbergs — fast jede zweite Frau (48,7 %) erlebt im Lauf ihres Lebens psychische Partnerschaftsgewalt.",
           "highlight": true,
           "sourceRefs": [
             "bka-haeusliche-gewalt-2024",
@@ -723,13 +723,14 @@
             },
             {
               "label": "DAX-Vorstände",
-              "value": "~23 %",
-              "sublabel": "Frauenanteil in DAX-40-Vorständen (2025)"
+              "value": "25,4 %",
+              "sublabel": "Frauenanteil in DAX-40-Vorständen (Anfang 2026)"
             }
           ],
           "sourceRefs": [
             "destatis-frauen-in-fuehrungspositionen-2024-2025",
-            "bundestag-abgeordneten-statistik-21-bundestag"
+            "bundestag-abgeordneten-statistik-21-bundestag",
+            "diw-managerinnen-barometer-2026"
           ]
         },
         {
@@ -840,8 +841,8 @@
             },
             {
               "label": "Professorinnen",
-              "value": "~28 %",
-              "sublabel": "Frauenanteil an Professuren"
+              "value": "30 %",
+              "sublabel": "Frauenanteil an Professuren (2024)"
             }
           ],
           "sourceRefs": [
@@ -872,7 +873,7 @@
             },
             {
               "label": "Professur",
-              "value": 28
+              "value": 30
             }
           ],
           "sourceRefs": [
@@ -881,10 +882,54 @@
         },
         {
           "type": "fact",
-          "text": "Frauen stellen 53 % der Hochschulabsolventen, aber nur 23 % der MINT-Absolventinnen und 28 % der Professuren. Diese 'Leaky Pipeline' — der abnehmende Frauenanteil auf jeder Karrierestufe — entsteht nicht durch mangelnde Qualifikation, sondern durch strukturelle Barrieren.",
+          "text": "Frauen stellen 53 % der Hochschulabsolventen, aber nur rund 23 % der MINT-Absolventinnen und 30 % der Professuren. Diese 'Leaky Pipeline' — der abnehmende Frauenanteil auf jeder Karrierestufe — entsteht nicht durch mangelnde Qualifikation, sondern durch strukturelle Barrieren.",
           "highlight": true,
           "sourceRefs": [
             "destatis-bildung-geschlecht"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Umgekehrt zeigt sich am Anfang der Bildungskette ein gegenläufiges Muster: Jungen fallen in der Schule häufiger zurück. Beim Statistischen Bundesamt (Destatis) heißt das ‚Gender Education Gap'. Das ist ein eigenständiges, ernst zu nehmendes Problem — und kein Widerspruch zur beruflichen Benachteiligung von Frauen, sondern ein zweiter Engpass an anderer Stelle im Lebenslauf.",
+          "sourceRefs": [
+            "destatis-gender-education-gap"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Schulabschlüsse nach Geschlecht (2023)",
+          "items": [
+            {
+              "title": "Allgemeine Hochschulreife (Abitur)",
+              "color": "#00897b",
+              "rows": [
+                {
+                  "label": "Frauen",
+                  "value": "55 %"
+                },
+                {
+                  "label": "Männer",
+                  "value": "45 %"
+                }
+              ]
+            },
+            {
+              "title": "Niedrigster Schulabschluss",
+              "color": "#37474f",
+              "rows": [
+                {
+                  "label": "Männer",
+                  "value": "59 %"
+                },
+                {
+                  "label": "Frauen",
+                  "value": "41 %"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "destatis-gender-education-gap"
           ]
         }
       ]
@@ -895,10 +940,10 @@
       "content": [
         {
           "type": "text",
-          "text": "Im EU-Vergleich steht Deutschland bei der Gleichstellung gemischt da: hoher Lebensstandard und gute Bildung, aber einer der größten Gender Pay Gaps in der EU. Der unbereinigte Pay Gap von 16 % liegt deutlich über dem EU-Durchschnitt von 12,7 %. Im WEF Global Gender Gap Report 2024 belegt Deutschland Platz 7 von 146 Ländern.",
+          "text": "Im EU-Vergleich steht Deutschland bei der Gleichstellung gemischt da: hoher Lebensstandard und gute Bildung, aber einer der größten Gender Pay Gaps in der EU. Der unbereinigte Pay Gap von 16 % liegt deutlich über dem EU-Durchschnitt, der zwischen 2014 und 2024 von 16 % auf 11 % gesunken ist. Im WEF Global Gender Gap Report 2025 belegt Deutschland Platz 9 von 148 Ländern.",
           "sourceRefs": [
             "destatis-gender-pay-gap-eu",
-            "wef-global-gender-gap-2024"
+            "wef-global-gender-gap-2025"
           ]
         },
         {
@@ -911,33 +956,28 @@
           ],
           "rows": [
             [
-              "Luxemburg",
-              "0,7 %",
-              "Niedrigster in der EU"
+              "Belgien",
+              "1 %",
+              "Einer der niedrigsten in der EU"
             ],
             [
-              "Italien",
-              "4,3 %",
-              "Unter EU-Durchschnitt"
-            ],
-            [
-              "Frankreich",
-              "13,9 %",
-              "Knapp über Durchschnitt"
+              "Polen / Rumänien",
+              "4 %",
+              "Deutlich unter Durchschnitt"
             ],
             [
               "EU-Durchschnitt",
-              "12,7 %",
+              "11 %",
               "—"
             ],
             [
               "Deutschland",
-              "16,0 %",
+              "16 %",
               "Deutlich über Durchschnitt"
             ],
             [
               "Estland",
-              "21,3 %",
+              "19 %",
               "Höchster in der EU"
             ]
           ],
@@ -954,7 +994,7 @@
             {
               "label": "EU-Durchschnitt",
               "min": 0,
-              "max": 12.7,
+              "max": 11,
               "color": "#37474f"
             },
             {
@@ -970,11 +1010,11 @@
         },
         {
           "type": "fact",
-          "text": "Deutschland hat einen der höchsten Gender Pay Gaps in der EU — nur Estland, Österreich und Tschechien schneiden schlechter ab. Im WEF Global Gender Gap Report 2024 belegt Deutschland dennoch Platz 7, weil Bildung und Gesundheitsversorgung gut abschneiden. Die wirtschaftliche Teilhabe bleibt der größte Schwachpunkt.",
+          "text": "Deutschland hat mit 16 % einen der höchsten Gender Pay Gaps in der EU, wo der Durchschnitt bei 11 % liegt. In Belgien beträgt die Lücke nur 1 %, in Luxemburg verdienen Frauen sogar rund 1 % mehr als Männer. Im WEF Global Gender Gap Report 2025 belegt Deutschland dennoch Platz 9, weil Bildung und Gesundheitsversorgung gut abschneiden. Die wirtschaftliche Teilhabe bleibt der größte Schwachpunkt.",
           "highlight": true,
           "sourceRefs": [
             "destatis-gender-pay-gap-eu",
-            "wef-global-gender-gap-2024"
+            "wef-global-gender-gap-2025"
           ]
         }
       ]
@@ -1034,20 +1074,28 @@
               "label": "2021",
               "value": "Vorstandsquote",
               "sublabel": "Mindestbeteiligung von Frauen in Vorständen großer Unternehmen"
+            },
+            {
+              "label": "2025",
+              "value": "Gewalthilfegesetz",
+              "sublabel": "Erstmals bundesweiter Rechtsanspruch auf Schutz und Beratung",
+              "highlight": true
             }
           ],
           "sourceRefs": [
             "bpb-gleichberechtigung-geschichte",
-            "bundestag-gleichberechtigungsgesetz"
+            "bundestag-gleichberechtigungsgesetz",
+            "bmfsfj-gewalthilfegesetz"
           ]
         },
         {
           "type": "fact",
-          "text": "Bis 1958 durfte ein Ehemann das Arbeitsverhältnis seiner Frau ohne deren Zustimmung kündigen. Erst 1977 wurde das Eherecht so reformiert, dass Frauen ohne Erlaubnis des Mannes erwerbstätig sein durften. Vergewaltigung in der Ehe wurde erst 1997 unter Strafe gestellt — vor nicht einmal 30 Jahren.",
+          "text": "Bis 1958 durfte ein Ehemann das Arbeitsverhältnis seiner Frau ohne deren Zustimmung kündigen. Erst 1977 wurde das Eherecht so reformiert, dass Frauen ohne Erlaubnis des Mannes erwerbstätig sein durften. Vergewaltigung in der Ehe wurde erst 1997 unter Strafe gestellt — vor nicht einmal 30 Jahren. 2025 schuf das Gewalthilfegesetz erstmals einen bundesweiten, kostenfreien Rechtsanspruch auf Schutz und Beratung; der individuelle Anspruch greift ab 2032.",
           "highlight": true,
           "sourceRefs": [
             "bpb-gleichberechtigung-geschichte",
-            "bundestag-gleichberechtigungsgesetz"
+            "bundestag-gleichberechtigungsgesetz",
+            "bmfsfj-gewalthilfegesetz"
           ]
         }
       ]
@@ -1057,7 +1105,7 @@
     {
       "id": "berufswahl",
       "claim": "Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.",
-      "response": "Branche und Beruf erklären einen Teil der Verdienstlücke. Aber selbst wenn Qualifikation, Tätigkeit, Erwerbsbiografie und Teilzeit berücksichtigt werden, bleibt 2025 ein bereinigter Gender Pay Gap von 6 %. Außerdem ist die Frage, warum „weibliche“ Berufe wie Pflege oder Erziehung so schlecht bezahlt sind, selbst ein Teil des Problems — ihre gesellschaftliche Bedeutung steht in keinem Verhältnis zur Vergütung.",
+      "response": "Branche und Beruf erklären tatsächlich einen großen Teil der Verdienstlücke — rund 60 % laut Destatis. Aber selbst bei gleicher Qualifikation, Tätigkeit, Erwerbsbiografie und Arbeitszeit bleibt 2025 ein bereinigter Gender Pay Gap von 6 % übrig, der sich so nicht wegrechnen lässt. Und die ‚freie' Berufswahl hat eine zweite Schicht: Dass ausgerechnet Pflege und Erziehung so schlecht bezahlt sind, ist keine Naturkonstante, sondern eine gesellschaftliche Bewertung — gut bezahlte Branchen wie Finanzdienstleistungen haben mit 25 % einen der größten Pay Gaps überhaupt.",
       "keywords": [
         "Berufswahl",
         "soziale Berufe",
@@ -1069,29 +1117,65 @@
         "pay-gap",
         "bildung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole verschiebt die Verantwortung vollständig auf die individuelle Entscheidung und blendet aus, dass diese Entscheidung in einem vorgeprägten Rahmen fällt. Sie behandelt die niedrige Bezahlung sozialer Berufe als gegeben, statt zu fragen, warum gerade als ‚weiblich' geltende Tätigkeiten schlechter entlohnt werden — und übersieht, dass auch nach Herausrechnung aller Faktoren eine Lücke bleibt.",
+      "counterQuestions": [
+        "Wenn Frauen sich ‚frei' für soziale Berufe entscheiden — warum bleibt dann selbst bei gleichem Beruf und gleicher Stelle noch eine Lücke übrig?",
+        "Wer entscheidet eigentlich, dass eine Pflegekraft weniger wert ist als jemand in der Finanzbranche?",
+        "Würdest du sagen, dass die Arbeit einer Erzieherin für die Gesellschaft weniger wichtig ist als die eines Investmentbankers?"
+      ]
+    },
+    {
+      "id": "paygap-mythos",
+      "claim": "Der Gender Pay Gap ist doch ein Mythos — bereinigt liegt der bei fast null, das IW kommt auf 2 %.",
+      "response": "Die niedrige Zahl gibt es wirklich, aber sie misst etwas anderes als behauptet. Das Institut der deutschen Wirtschaft (IW) kommt mit einer speziellen Methode (‚statistische Zwillinge') auf rund 2 %; rechnet es mit den gleichen Daten wie das Statistische Bundesamt, landet es selbst bei rund 8 % — nahe an den amtlichen 6 % bereinigt und 16 % unbereinigt. Entscheidend ist aber ein Denkfehler: Der bereinigte Gap rechnet genau die Dinge heraus, die selbst Teil des Problems sind — Teilzeit wegen Care-Arbeit, ‚weibliche' Branchen, unterbrochene Erwerbsbiografien. ‚Bereinigt' heißt also nicht ‚diskriminierungsfrei', sondern ‚nach Abzug der strukturellen Benachteiligung'.",
+      "keywords": [
+        "Pay Gap Mythos",
+        "bereinigt null",
+        "IW Köln",
+        "2 Prozent",
+        "widerlegt",
+        "Statistik"
+      ],
+      "relatedSections": [
+        "pay-gap",
+        "care-gap"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Hier wird eine einzelne, methodisch abweichende Zahl als ‚die Wahrheit' gegen den amtlichen Wert ausgespielt — ein Rosinenpicken der niedrigsten verfügbaren Schätzung. Zugleich steckt ein Definitionstrick dahinter: Der bereinigte Gap wird mit ‚keine Diskriminierung' gleichgesetzt, obwohl er gerade die strukturellen Ursachen herausrechnet, statt sie zu widerlegen.",
+      "counterQuestions": [
+        "Wenn man Teilzeit und Berufswahl herausrechnet, um den Gap kleinzurechnen — sind das nicht genau die Punkte, um die es in der Debatte geht?",
+        "Warum kommt dasselbe Institut auf 8 %, sobald es mit den amtlichen Daten rechnet?",
+        "Heißt ‚bereinigt nahe null' für dich, dass eine Frau und ein Mann auf derselben Stelle gleich viel verdienen — oder dass man die Unterschiede nur anders sortiert hat?"
+      ]
     },
     {
       "id": "fuehrung",
       "claim": "Frauen wollen gar keine Führungspositionen übernehmen, weil ihnen die Familie wichtiger ist.",
-      "response": "In Deutschland sind nur 29,1 % der Führungskräfte weiblich — deutlich weniger als im EU-Durchschnitt (35,2 %). Die Unterrepräsentation liegt nicht am mangelnden Willen: 47,4 % der erwerbstätigen Frauen arbeiten in Teilzeit, überwiegend wegen Care-Arbeit. Wenn Frauen den Großteil der unbezahlten Arbeit leisten (Care Gap: 43,4 %), bleibt weniger Zeit für die Karriereleiter — das ist keine freie Wahl, sondern ein strukturelles Problem.",
+      "response": "Die Daten sprechen gegen den fehlenden Willen: In Deutschland sind nur 29,1 % der Führungskräfte weiblich, klar unter dem EU-Schnitt von 35,2 %, und selbst in den DAX-40-Vorständen stagniert der Anteil zuletzt bei 25,4 %. Der Engpass ist nicht der Wille, sondern die Zeit: 47,4 % der erwerbstätigen Frauen arbeiten in Teilzeit, ganz überwiegend wegen Sorgeverantwortung. Wer den Großteil der unbezahlten Arbeit zu Hause stemmt, kann schlecht gleichzeitig die 60-Stunden-Präsenzkultur einer Vorstandslaufbahn bedienen. Richtig ist: Manche Frauen entscheiden sich bewusst gegen diesen Weg — die Frage ist, ob die Bedingungen eine echte Wahl lassen.",
       "keywords": [
         "Führungsposition",
         "Karriere",
         "Familie",
         "wollen nicht",
-        "Quote"
+        "Vorstand"
       ],
       "relatedSections": [
         "representation",
         "care-gap"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole deutet ein Ergebnis (wenige Frauen an der Spitze) kurzerhand in eine freie Präferenz um — als sei das Resultat der Beweis für den Wunsch. Sie ignoriert die Rahmenbedingungen, unter denen ‚Wollen' überhaupt entsteht, und macht aus einer strukturellen Hürde eine Frage des persönlichen Geschmacks.",
+      "counterQuestions": [
+        "Woher weißt du, dass es am Wollen liegt und nicht daran, dass die Vereinbarkeit fehlt?",
+        "Würden sich mehr Frauen für Führung entscheiden, wenn die Sorgearbeit gleicher verteilt und die Arbeitszeitkultur familienfreundlicher wäre?",
+        "Wenn der Wille fehlt — warum müssen Männer für dieselbe Karriere nicht zwischen Kind und Beförderung wählen?"
+      ]
     },
     {
       "id": "gleichberechtigung-erreicht",
       "claim": "Die Gleichberechtigung ist doch längst erreicht, Frauen haben heute genau die gleichen Möglichkeiten wie Männer.",
-      "response": "Gesetzlich sind Frauen gleichgestellt, faktisch gibt es weiterhin erhebliche Lücken: 16 % Pay Gap, 43,4 % Care Gap, 27,1 % Pension Gap. Frauen ab 65 sind häufiger armutsgefährdet (21,4 % vs. 17,0 % bei Männern). Im aktuellen Bundestag ist der Frauenanteil auf 32,4 % gesunken. Und 2024 wurden 132 Frauen durch ihre Partner oder Ex-Partner getötet. Gleichberechtigung auf dem Papier ist nicht Gleichberechtigung im Alltag.",
+      "response": "Rechtlich stimmt das — und das ist eine echte Errungenschaft. Im Alltag klafft die Lücke aber weiter: Mütter verdienen laut ZEW noch im vierten Jahr nach der ersten Geburt fast 30.000 € weniger als kinderlose Frauen, während Väter keinen solchen Einschnitt erleben. Frauen besitzen im Schnitt rund 30.000 € weniger Vermögen, und ihr Anteil im Bundestag ist 2025 auf 32,4 % gesunken. ‚Gleiche Rechte' und ‚gleiche tatsächliche Möglichkeiten' sind eben nicht dasselbe: Wer von vornherein den Großteil der unbezahlten Arbeit übernimmt, startet nicht von derselben Linie.",
       "keywords": [
         "längst erreicht",
         "gleiche Möglichkeiten",
@@ -1100,16 +1184,21 @@
       ],
       "relatedSections": [
         "care-gap",
-        "representation",
-        "pension-gap",
-        "gewalt"
+        "wealth-gap",
+        "representation"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Aussage setzt rechtliche Gleichstellung mit gelebter Gleichberechtigung gleich — ein Sprung von der Möglichkeit auf dem Papier zur Wirklichkeit. Weil formal niemand mehr benachteiligt werden darf, wird unterstellt, es geschehe auch nicht mehr. Messbare Ergebnisunterschiede werden so zu reinen Privatentscheidungen umgedeutet.",
+      "counterQuestions": [
+        "Gleiche Rechte auf dem Papier — aber starten beide wirklich von derselben Linie, wenn eine Seite den Großteil der unbezahlten Arbeit trägt?",
+        "Wenn alles erreicht ist, wie erklärst du dir, dass derselbe Lebenslauf mit Kind bei Frauen zu Einbußen führt, bei Männern aber nicht?",
+        "Welche konkrete Zahl müsste sich ändern, damit du sagen würdest: ‚Jetzt ist es tatsächlich gleich'?"
+      ]
     },
     {
       "id": "teilzeit",
       "claim": "Männer arbeiten dafür mehr in Vollzeit und machen die harten Überstunden.",
-      "response": "Wenn man bezahlte und unbezahlte Arbeit zusammenrechnet, arbeiten Frauen sogar etwas mehr: 45:33 Stunden pro Woche vs. 44:23 bei Männern (Destatis). Der Unterschied ist, dass Frauenarbeit zu einem großen Teil unsichtbar und unbezahlt bleibt — Kinderbetreuung, Pflege, Haushalt. Diese Arbeit hat keine Überstundenzuschläge, keinen Renteneintrag und keinen Aufstieg.",
+      "response": "Bei der bezahlten Erwerbsarbeit stimmt das — Männer leisten im Schnitt mehr Erwerbsstunden. Zählt man aber die unbezahlte Arbeit dazu, dreht sich das Bild: Frauen kommen laut Destatis auf 45:33 Stunden pro Woche, Männer auf 44:23. Die Differenz ist nicht, dass Frauen weniger arbeiten, sondern dass ein großer Teil ihrer Arbeit unsichtbar bleibt — Kinderbetreuung, Pflege, Haushalt. Diese Stunden haben keine Überstundenzuschläge, keinen Renteneintrag und keine Beförderung.",
       "keywords": [
         "Vollzeit",
         "Überstunden",
@@ -1117,15 +1206,20 @@
         "Teilzeit"
       ],
       "relatedSections": [
-        "care-gap",
-        "pay-gap"
+        "care-gap"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole verengt ‚Arbeit' auf bezahlte Erwerbsarbeit und blendet die unbezahlte Sorgearbeit komplett aus. So entsteht der Eindruck, die eine Seite leiste mehr — obwohl in Wahrheit nur ein Teil der Leistung gezählt wird. Was nicht auf der Gehaltsabrechnung steht, zählt rhetorisch als Nichtstun.",
+      "counterQuestions": [
+        "Zählt für dich nur die Arbeit als Arbeit, für die jemand bezahlt wird?",
+        "Wer macht in deinem Haushalt die Wäsche, kocht, organisiert Arzttermine und Großeltern — und steht das auf irgendeiner Lohnabrechnung?",
+        "Wenn die unbezahlte Arbeit morgen niemand mehr machen würde — wie lange liefe der Betrieb dann noch?"
+      ]
     },
     {
       "id": "quote",
       "claim": "Eine Frauenquote führt nur dazu, dass unqualifizierte Frauen bevorzugt werden und fähige Männer das Nachsehen haben.",
-      "response": "Frauen stellen 53 % der Hochschulabsolventen, aber nur 29,1 % der Führungskräfte — das Qualifikationsargument steht also auf wackligen Beinen. Die Quote setzt dort an, wo nachweislich qualifizierte Frauen bei der Besetzung übergangen werden. Die eigentliche Frage ist nicht, ob es ein Problem gibt (das belegen die Zahlen), sondern welche Instrumente es wirksam und fair verringern.",
+      "response": "Die Sorge vor Bevorzugung ist nachvollziehbar — niemand will nach Geschlecht statt nach Leistung besetzen. Genau deshalb lohnt der Blick auf die Ausgangslage: Frauen stellen 53 % der Hochschulabschlüsse, aber nur 30 % der Professuren und 29,1 % der Führungskräfte. Wenn die Qualifikation da ist, der Aufstieg aber systematisch ausbleibt, ist es unwahrscheinlich, dass es allein an der Eignung liegt. Quoten setzen dort an, wo qualifizierte Frauen übergangen werden. Über das richtige Instrument lässt sich streiten — dass es ein Problem zu lösen gibt, belegen die Zahlen.",
       "keywords": [
         "Quote",
         "Frauenquote",
@@ -1137,12 +1231,18 @@
         "representation",
         "bildung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole unterstellt, der heutige Zustand sei ein reines Leistungsergebnis — wer oben ist, ist dort, weil er der Beste war. Diese Annahme eines schon funktionierenden Meritokratie-Marktes blendet aus, dass gut qualifizierte Frauen messbar seltener aufsteigen. Sie stellt die Quote als Eingriff in einen fairen Wettbewerb dar, der so gar nicht existiert.",
+      "counterQuestions": [
+        "Wenn heute schon nur nach Leistung besetzt würde — warum steigen Frauen trotz besserer Abschlüsse seltener auf?",
+        "Woran würdest du erkennen, dass eine Frau eine Position ‚nur wegen der Quote' hat und nicht wegen ihrer Qualifikation?",
+        "Wäre es dir lieber, qualifizierte Frauen werden weiter übergangen, nur damit niemand den Verdacht der Bevorzugung hat?"
+      ]
     },
     {
       "id": "pension-gap-arg",
       "claim": "Frauen bekommen weniger Rente, weil sie halt weniger gearbeitet haben — selbst schuld.",
-      "response": "Männer erhalten im Schnitt 1.405 € Altersrente pro Monat, Frauen nur 955 € — 450 € weniger, jeden Monat. Auf 20 Rentenjahre sind das über 100.000 € Differenz. Dahinter stehen nicht individuelle Entscheidungen, sondern strukturelle Ursachen: Der Care Gap von 43,4 % zeigt, dass Frauen den Großteil der gesellschaftlich notwendigen Sorgearbeit übernehmen. Ohne Kinderbetreuung, Pflege und Haushalt würde die Wirtschaft stillstehen — das Rentensystem bestraft diese Leistung trotzdem.",
+      "response": "Frauen haben tatsächlich im Schnitt weniger Beitragsjahre — 33 gegenüber 42 bei Männern. Nur ist das kein Faulheits-, sondern ein Sorgearbeits-Effekt: Die fehlenden neun Jahre stecken großteils in Kinderbetreuung und Pflege, also in Arbeit, die jemand leisten muss. Das Ergebnis sind 955 € statt 1.405 € Altersrente im Monat — 450 € weniger, über 20 Rentenjahre mehr als 100.000 € Differenz. Das Rentensystem koppelt die Absicherung fast vollständig an bezahlte Erwerbsarbeit und lässt unbezahlte Sorgearbeit weitgehend leer ausgehen — ‚selbst schuld' trifft es also nicht.",
       "keywords": [
         "Rente",
         "Pension",
@@ -1154,12 +1254,18 @@
         "pension-gap",
         "care-gap"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Das Wort ‚selbst schuld' macht aus einem strukturellen Ergebnis eine individuelle Verfehlung. Es setzt ‚weniger Erwerbsarbeit' mit ‚weniger gearbeitet' gleich und unterschlägt, dass die fehlenden Jahre überwiegend für unbezahlte, aber notwendige Sorgearbeit draufgehen. Die gesellschaftliche Aufgabenverteilung wird so zur Privatentscheidung umgedeutet.",
+      "counterQuestions": [
+        "Ist jemand, der jahrelang Kinder großzieht oder Angehörige pflegt, in deinen Augen wirklich ‚weniger fleißig'?",
+        "Wer hätte die Sorgearbeit machen sollen, die hinter den fehlenden Beitragsjahren steckt?",
+        "Wenn diese Arbeit gesellschaftlich notwendig ist — warum sollte sie im Alter mit Armut bestraft werden?"
+      ]
     },
     {
       "id": "child-penalty",
       "claim": "Kinder sind eine freiwillige Entscheidung, dann muss man halt mit den Konsequenzen leben.",
-      "response": "Kinder sind eine gesellschaftliche Notwendigkeit — ohne Nachwuchs kein Rentensystem, keine Fachkräfte, keine Zukunft. Die ZEW-Studie zeigt, dass Mütter im vierten Jahr nach der ersten Geburt fast 30.000 Euro weniger verdienen als vergleichbare Frauen ohne Kinder. Bei Vätern gibt es keinen solchen Einschnitt. Es geht also nicht um die Entscheidung für Kinder, sondern darum, dass die Konsequenzen fast ausschließlich Mütter treffen.",
+      "response": "Dass Elternschaft eine Entscheidung ist, stimmt — aber die Rechnung wird einseitig präsentiert. Laut ZEW verdienen Mütter noch im vierten Jahr nach der ersten Geburt fast 30.000 € weniger als vergleichbare Frauen ohne Kinder; bei Vätern gibt es keinen vergleichbaren Einschnitt. Dieselbe ‚freiwillige Entscheidung' kostet also die Mutter massiv und den Vater kaum etwas. Hinzu kommt: Eine Gesellschaft ganz ohne Nachwuchs hätte bald kein funktionierendes Renten- und Gesundheitssystem mehr. Es geht nicht darum, ob man Kinder bekommt, sondern warum die Kosten fast ausschließlich an einem Geschlecht hängen bleiben.",
       "keywords": [
         "Kinder",
         "Mutter",
@@ -1171,28 +1277,41 @@
         "care-gap",
         "pension-gap"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole rahmt die Folgen von Elternschaft als selbstverschuldetes Privatrisiko — wer A sagt, muss auch B zahlen. Sie übersieht zwei Dinge: dass dieselbe Entscheidung Mütter und Väter höchst ungleich trifft, und dass Kinder ein gesellschaftlicher Nutzen sind, von dem auch Kinderlose über das Umlagesystem profitieren.",
+      "counterQuestions": [
+        "Wenn Kinder eine freie Entscheidung beider Eltern sind — warum trägt fast nur die Mutter die finanziellen Folgen?",
+        "Von wessen Kindern bekommst du später deine Rente bezahlt?",
+        "Sollte eine Entscheidung, die der ganzen Gesellschaft nützt, wirklich allein zulasten der Mütter gehen?"
+      ]
     },
     {
       "id": "gewalt-privatsache",
       "claim": "Häusliche Gewalt ist Privatsache, da soll sich der Staat raushalten.",
-      "response": "2024 wurden in Deutschland 265.942 Opfer häuslicher Gewalt polizeilich erfasst, über 70 % davon Frauen. 132 Frauen wurden durch ihren Partner oder Ex-Partner getötet — im Schnitt alle drei Tage eine. Das ist kein Privatproblem, sondern ein Straftatbestand und ein gravierendes gesellschaftliches Problem. Die Dunkelziffer liegt laut Studien deutlich höher als die erfassten Fälle.",
+      "response": "Häusliche Gewalt ist rechtlich gerade keine Privatsache, sondern eine Straftat — und sie ist auch kein Randphänomen: 2024 wurden 265.942 Opfer polizeilich erfasst, über 70 % davon Frauen, und 132 Frauen wurden von ihrem Partner oder Ex-Partner getötet. Der Staat hat sich deshalb 2025 mit dem Gewalthilfegesetz ausdrücklich eingemischt: Es schafft erstmals einen bundesweiten, kostenfreien Rechtsanspruch auf Schutz und Beratung. Was hinter der Wohnungstür passiert, hört nicht auf, ein öffentliches Problem zu sein, nur weil es privat geschieht.",
       "keywords": [
         "häusliche Gewalt",
         "Privatsache",
         "Staat",
         "Familie",
-        "Gewalt"
+        "Gewalthilfegesetz"
       ],
       "relatedSections": [
-        "gewalt"
+        "gewalt",
+        "historischer-kontext"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Das Etikett ‚Privatsache' zieht eine Grenze, die das Strafrecht so nicht kennt: Es tut so, als ende staatliche Verantwortung an der Wohnungstür. Damit wird Schutz vor Gewalt zur Frage des Wohnorts gemacht — als wäre ein Schlag in der Küche etwas anderes als ein Schlag auf der Straße.",
+      "counterQuestions": [
+        "Wäre dieselbe Tat plötzlich erlaubt, nur weil sie zu Hause statt auf der Straße passiert?",
+        "Wenn der Staat sich raushalten soll — wer soll dann den Betroffenen helfen, die sich oft nicht selbst befreien können?",
+        "Würdest du auch bei Kindesmisshandlung sagen, das sei Privatsache der Familie?"
+      ]
     },
     {
       "id": "dunkelziffer",
       "claim": "Die Zahlen zu häuslicher Gewalt sind doch aufgebauscht — so schlimm kann es nicht sein.",
-      "response": "Im Gegenteil: Die polizeilichen Zahlen (265.942 Opfer, 2024) bilden nur die Spitze des Eisbergs. Die LeSuBiA-Dunkelfeldstudie des BKA zeigt, dass die Anzeigequote bei häuslicher Gewalt unter 5 % liegt — 19 von 20 Taten werden nie angezeigt. Tatsächlich erleben 18 % aller Frauen in Deutschland häusliche Gewalt. Die Gründe für Nicht-Anzeigen: Angst, Scham, emotionale und finanzielle Abhängigkeit. Die offiziellen Zahlen unterschätzen das Problem also massiv.",
+      "response": "Die belastbaren Daten zeigen das Gegenteil: Die polizeilich erfassten Fälle sind eher zu niedrig als zu hoch. Die LeSuBiA-Dunkelfeldstudie des BKA (2026) — eine Befragung von über 15.000 Menschen — kommt auf Anzeigequoten von meist unter 10 %, bei Partnerschaftsgewalt sogar darunter. Fast jede zweite Frau (48,7 %) hat im Lauf ihres Lebens psychische Partnerschaftsgewalt erlebt. Die Gründe fürs Schweigen sind gut dokumentiert: Angst, Scham, emotionale und finanzielle Abhängigkeit. Wer von ‚aufgebauscht' spricht, müsste also erklären, warum so viele Betroffene gerade nicht zur Polizei gehen.",
       "keywords": [
         "Dunkelziffer",
         "aufgebauscht",
@@ -1203,29 +1322,87 @@
       "relatedSections": [
         "gewalt"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole unterstellt, was nicht angezeigt wird, gebe es kaum — ein Fehlschluss, der die polizeiliche Statistik mit der Realität verwechselt. Tatsächlich misst das Hellfeld nur die gemeldeten Fälle; gerade bei Gewalt im Nahbereich ist die Anzeigeschwelle besonders hoch. Niedrige Anzeigezahlen werden so als Entwarnung missdeutet, obwohl sie das Problem verbergen.",
+      "counterQuestions": [
+        "Wenn nur ein Bruchteil der Taten angezeigt wird — sagen die niedrigen Zahlen dann etwas über die Gewalt oder über das Schweigen?",
+        "Warum, glaubst du, gehen so viele Betroffene gerade nicht zur Polizei?",
+        "Würdest du eine Dunkelfeldstudie mit über 15.000 Befragten für ‚aufgebauscht' halten — und woran machst du das fest?"
+      ]
     },
     {
       "id": "maenner-benachteiligt",
       "claim": "Heutzutage werden eher Männer benachteiligt — im Familienrecht, bei Sorgerecht, überall.",
-      "response": "Männer haben tatsächlich Nachteile in bestimmten Bereichen — etwa bei der Lebenserwartung (4,7 Jahre weniger), psychischer Gesundheit (höhere Suizidrate) oder gesellschaftlichem Druck. Diese Probleme sind real und ernst zu nehmen. Aber sie heben die systematische Benachteiligung von Frauen bei Einkommen (16 % Pay Gap), Rente (39,4 % Pension Gap), Vermögen und körperlicher Sicherheit (132 Femizide 2024) nicht auf. Gleichberechtigung bedeutet, beide Seiten zu sehen.",
+      "response": "Männer haben in einigen Bereichen reale Nachteile, und die gehören ernst genommen: kürzere Lebenserwartung, höhere Suizidrate, oft weniger Zeit mit den Kindern nach Trennungen, und ab 2026 erhalten zunächst nur Männer einen verpflichtenden Wehrdienst-Fragebogen. Auch zeigt die LeSuBiA-Studie, dass Männer von psychischer Partnerschaftsgewalt häufiger betroffen sind als lange angenommen. Das ist aber kein Nullsummenspiel: Diese Probleme heben die systematische Benachteiligung von Frauen bei Einkommen, Rente, Vermögen und körperlicher Sicherheit nicht auf — Frauen tragen bei Gewalt das deutlich höhere Risiko schwerer Verletzungen und Tötung. Beides darf nebeneinander stehen, ohne gegeneinander aufgerechnet zu werden.",
       "keywords": [
         "Männer benachteiligt",
         "Sorgerecht",
         "Familienrecht",
-        "umgekehrt"
+        "umgekehrt",
+        "Männer"
       ],
       "relatedSections": [
-        "pay-gap",
-        "pension-gap",
-        "gewalt"
+        "gewalt",
+        "pension-gap"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole nutzt einen Whataboutism: Reale Männer-Nachteile werden angeführt, um die Frauen-Benachteiligung als erledigt darzustellen. Dahinter steckt ein Nullsummen-Denken — als ließe sich Benachteiligung nur einer Seite zuordnen. Tatsächlich können beide Befunde gleichzeitig wahr sein, ohne dass der eine den anderen aufwiegt.",
+      "counterQuestions": [
+        "Muss man die Nachteile von Männern und Frauen gegeneinander aufrechnen — oder kann man beide ernst nehmen?",
+        "Welche konkrete Benachteiligung von Männern meinst du, und welche Zahl belegt sie?",
+        "Wenn Männer in manchem benachteiligt sind: Hilft es ihnen, wenn man die Benachteiligung von Frauen kleinredet?"
+      ]
+    },
+    {
+      "id": "jungen-bildungsverlierer",
+      "claim": "Heute sind doch die Jungen die Bildungsverlierer — wozu noch Frauenförderung, wenn die Mädchen die besseren Abschlüsse machen?",
+      "response": "Der Befund stimmt und ist ernst zu nehmen: Jungen verlassen die Schule häufiger ohne Abschluss, machen seltener Abitur und haben öfter früh Sprachprobleme — das belegt auch der ‚Gender Education Gap‘ des Statistischen Bundesamts. Mädchen stellen die Mehrheit bei Abitur und Hochschulabschluss. Nur folgt daraus nicht, dass Frauenförderung überflüssig wäre: Trotz besserer Abschlüsse landen Frauen seltener in Führung und verdienen weniger — der Bildungsvorsprung wandelt sich nicht in Einkommen und Macht um. Es ist kein Entweder-oder: Jungen in der Schule zu fördern und Frauen im Beruf zu fördern widerspricht sich nicht, sondern beschreibt zwei verschiedene Engpässe an verschiedenen Stellen im Lebenslauf.",
+      "keywords": [
+        "Jungen",
+        "Bildungsverlierer",
+        "Schule",
+        "Mädchen besser",
+        "Frauenförderung"
+      ],
+      "relatedSections": [
+        "bildung",
+        "representation"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole spielt zwei reale Probleme gegeneinander aus, als gäbe es nur ein begrenztes Kontingent an Förderung — ein Nullsummen-Frame. Sie springt zudem von der Schule (wo Jungen zurückfallen) unzulässig zum Erwerbsleben (wo Frauen zurückfallen), als beträfe beides dieselbe Stufe. Damit wird ein Befund über 18-Jährige genutzt, um eine Benachteiligung 45-Jähriger für erledigt zu erklären.",
+      "counterQuestions": [
+        "Wenn Mädchen die besseren Abschlüsse machen — warum sitzen dann später so viel weniger Frauen in den Chefetagen?",
+        "Schließt es sich für dich aus, Jungen in der Schule und Frauen im Beruf zu unterstützen?",
+        "Warum schlägt sich der Bildungsvorsprung der Frauen nicht in höheren Gehältern nieder?"
+      ]
+    },
+    {
+      "id": "wehrpflicht",
+      "claim": "Echte Gleichberechtigung hieße, dass auch Frauen zum Wehrdienst müssen — die wollen nur die Vorteile, nicht die Pflichten.",
+      "response": "Der Punkt hat einen berechtigten Kern: Beim neuen Wehrdienst ab 2026 ist das Ausfüllen des Erfassungs-Fragebogens nur für Männer verpflichtend, für Frauen freiwillig — das ist eine echte Ungleichbehandlung. Sie steht aber so im Grundgesetz (Art. 12a), das eine Dienstpflicht bislang nur für Männer vorsieht; eine Änderung bräuchte eine Zwei-Drittel-Mehrheit und ist Gegenstand der laufenden Debatte, nicht von Frauen ‚blockiert‘. Vor allem aber verschiebt die Parole das Thema: Aus ‚Frauen werden bei Lohn, Rente und Sicherheit benachteiligt‘ wird ‚aber beim Wehrdienst haben sie es leichter‘. Beides kann man angehen — die eine Ungleichheit hebt die andere nicht auf. Und gesellschaftliche Pflichtarbeit leisten Frauen längst überproportional: in Pflege und Sorgearbeit.",
+      "keywords": [
+        "Wehrpflicht",
+        "Wehrdienst",
+        "Bundeswehr",
+        "Pflichten",
+        "Musterung",
+        "Gleichberechtigung"
+      ],
+      "relatedSections": [
+        "care-gap"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole ist ein Whataboutism: Sie kontert belegte Benachteiligungen mit einem einzelnen Bereich, in dem Männer formal schlechter gestellt sind, und tut so, als sei damit die Gesamtbilanz ausgeglichen. Zugleich unterstellt sie, Frauen verweigerten sich den Pflichten — obwohl die Asymmetrie aus dem Grundgesetz folgt und Sorgearbeit als gesellschaftliche Pflichtleistung ausgeblendet wird.",
+      "counterQuestions": [
+        "Die Ungleichbehandlung beim Wehrdienst steht im Grundgesetz — wer genau hindert die Politik daran, das zu ändern?",
+        "Hebt eine Benachteiligung von Männern beim Wehrdienst die Lohn-, Renten- und Gewaltzahlen bei Frauen auf?",
+        "Wenn es dir um gleiche Pflichten geht — zählt die überwiegend von Frauen geleistete Pflege- und Sorgearbeit für dich auch als Dienst an der Gesellschaft?"
+      ]
     },
     {
       "id": "feminismus-uebertrieben",
       "claim": "Feminismus ist in Deutschland nicht mehr nötig, das ist doch übertrieben.",
-      "response": "Bis 1977 durften Frauen in Deutschland nicht ohne Erlaubnis des Ehemanns arbeiten. Vergewaltigung in der Ehe war bis 1997 legal. Heute, 2025, verdienen Frauen 16 % weniger, bekommen 39,4 % weniger eigene Rente und alle drei Tage wird eine Frau durch ihren Partner getötet. Im Bundestag liegt der Frauenanteil bei 32,4 % — und ist gerade gesunken. Ob man das „Feminismus“ nennt oder nicht: Der Handlungsbedarf ist durch Zahlen belegt.",
+      "response": "Wie weit wir gekommen sind, sieht man am besten daran, wie spät die Schritte kamen: Bis 1977 durften Frauen nur mit Erlaubnis des Ehemanns arbeiten, Vergewaltigung in der Ehe war bis 1997 straffrei. Dass das heute undenkbar ist, ist genau das Ergebnis dieser Bewegung — kein Beweis, dass sie überflüssig wurde. Und der Handlungsbedarf ist weiter messbar: erst 2025 schuf das Gewalthilfegesetz einen bundesweiten Rechtsanspruch auf Schutz, der individuelle Anspruch greift sogar erst ab 2032. Ob man das ‚Feminismus‘ nennt oder ‚Gleichstellungspolitik‘, ist Geschmackssache — die offenen Baustellen sind keine.",
       "keywords": [
         "Feminismus",
         "übertrieben",
@@ -1235,16 +1412,44 @@
       ],
       "relatedSections": [
         "historischer-kontext",
-        "pay-gap",
-        "gewalt",
-        "representation"
+        "gewalt"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole verwechselt Erfolg mit Überflüssigkeit: Weil vieles erreicht wurde, soll die Ursache dieses Erfolgs nun unnötig sein — als könnte man die Leiter wegwerfen, auf der man gerade erst hochgestiegen ist. Zugleich wird ‚übertrieben‘ als Werturteil gesetzt, ohne sich an den noch offenen, belegbaren Lücken zu messen.",
+      "counterQuestions": [
+        "Dass Frauen heute ohne Erlaubnis des Mannes arbeiten dürfen — meinst du, das kam von allein oder durch genau diese Bewegung?",
+        "Wenn alles erledigt ist: Warum brauchte es 2025 ein neues Gesetz für den Schutz vor häuslicher Gewalt?",
+        "Was genau findest du ‚übertrieben‘ — die Forderungen oder die Zahlen, auf die sie sich stützen?"
+      ]
+    },
+    {
+      "id": "tradwife",
+      "claim": "Frauen wollen doch selbst zurück an den Herd — der Tradwife-Trend zeigt, dass traditionelle Rollen einfach natürlicher sind.",
+      "response": "Es stimmt, dass das Hausfrauen-Ideal in sozialen Medien gerade ästhetisch romantisiert wird — als Lebensentwurf wählen es aber nur wenige: Rund 69 % der Mütter minderjähriger Kinder sind erwerbstätig, und Umfragen zeigen, dass nur eine kleine Minderheit der jungen Frauen diese Rolle tatsächlich anstrebt. ‚Natürlich‘ ist daran wenig: Das Modell setzt ein Alleinverdiener-Einkommen voraus und schafft eine finanzielle Abhängigkeit, die sich bei Trennung oder im Alter bitter rächt — genau hier setzen Pension Gap und Altersarmut an. Wer sich frei dafür entscheidet, soll das dürfen. Ein gesellschaftlicher Beleg für ‚natürliche‘ Rollen ist ein Social-Media-Trend aber nicht.",
+      "keywords": [
+        "Tradwife",
+        "Herd",
+        "Hausfrau",
+        "traditionelle Rollen",
+        "natürlich",
+        "freiwillig"
+      ],
+      "relatedSections": [
+        "care-gap",
+        "pension-gap"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole macht aus einem sichtbaren Medientrend einen Beleg für eine angeblich ‚natürliche‘ Ordnung — ein Schluss von der Ästhetik auf die Biologie. Dass eine laute Minderheit etwas inszeniert, wird mit einem Mehrheitswillen verwechselt; und die ökonomische Voraussetzung (ein ausreichendes Alleinverdiener-Einkommen) sowie die Abhängigkeitsrisiken bleiben unsichtbar.",
+      "counterQuestions": [
+        "Ein paar virale Videos — ist das ein Beleg dafür, was die Mehrheit der Frauen wirklich will?",
+        "Wenn die Rolle ‚natürlich‘ wäre, warum sind dann rund zwei Drittel der Mütter erwerbstätig?",
+        "Was passiert im Tradwife-Modell mit der Frau, wenn die Beziehung zerbricht oder das Alleinverdiener-Einkommen wegfällt?"
+      ]
     },
     {
       "id": "gleiche-bildung",
       "claim": "Frauen sind doch mittlerweile besser gebildet als Männer, dann müssten sie ja auch mehr verdienen.",
-      "response": "Stimmt: 53 % der Hochschulabschlüsse gehen an Frauen, 54 % der Abiturienten sind weiblich. Trotzdem sind nur 29,1 % der Führungskräfte und 28 % der Professoren Frauen. Diese 'Leaky Pipeline' zeigt, dass Bildungserfolg allein nicht reicht — strukturelle Barrieren, Care-Verantwortung und Teilzeitfallen sorgen dafür, dass die Qualifikation nicht in entsprechende Positionen und Gehälter mündet.",
+      "response": "Beim Bildungserfolg liegen Frauen tatsächlich vorn: 53 % der Hochschulabschlüsse und 54 % der Abiturabschlüsse entfallen auf sie. Genau das macht die Lücke danach so aufschlussreich — der Frauenanteil sinkt mit jeder Karrierestufe: 50 % im Master, 45 % bei Promotionen, nur noch 30 % bei Professuren und 29,1 % in Führungspositionen. Diese ‚Leaky Pipeline‘ zeigt, dass nicht die Qualifikation das Problem ist, sondern was danach passiert: Care-Verantwortung, Teilzeitfallen und Aufstiegshürden sorgen dafür, dass aus besseren Abschlüssen keine besseren Gehälter werden.",
       "keywords": [
         "Bildung",
         "besser gebildet",
@@ -1254,15 +1459,20 @@
       ],
       "relatedSections": [
         "bildung",
-        "representation",
-        "care-gap"
+        "representation"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole unterstellt einen geraden Automatismus von Bildung zu Lohn — wer besser qualifiziert ist, verdient mehr. Diese Annahme einer reibungslosen Verwertung übersieht alles, was zwischen Abschluss und Gehalt passiert. Gerade weil die Prämisse (Frauen sind besser gebildet) stimmt, entlarvt der ausbleibende Lohn den unterstellten Automatismus.",
+      "counterQuestions": [
+        "Wenn Bildung sich direkt in Gehalt übersetzt — warum sinkt der Frauenanteil auf jeder Stufe nach dem Abschluss?",
+        "Was passiert deiner Meinung nach zwischen Hochschulabschluss und Chefsessel, das Frauen ausbremst?",
+        "Liegt es an der Qualifikation der Frauen — oder an den Bedingungen, unter denen Karriere gemacht wird?"
+      ]
     },
     {
       "id": "eu-vergleich-arg",
       "claim": "Deutschland steht bei der Gleichberechtigung doch gut da im Vergleich zu anderen Ländern.",
-      "response": "Im WEF-Ranking liegt Deutschland auf Platz 7 — das klingt gut, verdeckt aber die Schwächen. Beim Gender Pay Gap gehört Deutschland mit 16 % zu den Schlusslichtern der EU (Durchschnitt: 12,7 %). Nur Estland, Österreich und Tschechien schneiden schlechter ab. Bei wirtschaftlicher Teilhabe und politischer Repräsentation liegt Deutschland deutlich hinter Skandinavien. Der 7. Platz kommt vor allem durch gute Werte bei Bildung und Gesundheit zustande.",
+      "response": "Im WEF-Ranking 2025 liegt Deutschland auf Platz 9 von 148 — das ist ordentlich, sagt aber wenig über die wirtschaftliche Gleichstellung. Genau dort hakt es: Mit 16 % gehört Deutschland beim Gender Pay Gap zu den Schlusslichtern der EU, deren Durchschnitt auf 11 % gesunken ist; in Belgien sind es nur 1 %. Der gute Gesamtrang entsteht vor allem durch Bildung und Gesundheit, wo Deutschland stark ist. Bei Einkommen und politischer Teilhabe liegt es dagegen hinter den skandinavischen Ländern. Gut dazustehen und ein Problem zu haben, schließt sich also nicht aus.",
       "keywords": [
         "EU",
         "Vergleich",
@@ -1274,7 +1484,13 @@
         "eu-vergleich",
         "pay-gap"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole nutzt einen guten Gesamtrang als Generalentlastung — ein Durchschnitt verdeckt die Schwankungen darunter. Weil Deutschland bei Bildung und Gesundheit stark ist, soll auch alles andere in Ordnung sein. Der schwache Teilbereich (wirtschaftliche Teilhabe) verschwindet hinter der guten Gesamtnote.",
+      "counterQuestions": [
+        "Ein guter Gesamtrang — aber woraus setzt er sich zusammen, und wo genau schneidet Deutschland schlecht ab?",
+        "Hilft der 9. Platz im Ranking einer Frau, die beim Lohn 16 % weniger bekommt als ein Mann?",
+        "Warum schafft Deutschland bei Bildung Spitzenwerte, aber beim Pay Gap nur EU-Schlusslicht?"
+      ]
     }
   ],
   "sources": [
@@ -1290,8 +1506,8 @@
     },
     {
       "id": "bmfsfj-destatis-gender-care-gap",
-      "label": "BMFSFJ / Destatis: Gender Care Gap",
-      "url": "https://www.bmfsfj.de/bmfsfj/aktuelles/alle-meldungen/statistisches-bundesamt-veroeffentlicht-neue-zahlen-zum-gender-care-gap-236794"
+      "label": "BMFSFJ / Destatis: Gender Care Gap (Zeitverwendungserhebung 2022)",
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/alle-meldungen/statistisches-bundesamt-veroeffentlicht-neue-zahlen-zum-gender-care-gap-236794"
     },
     {
       "id": "bundestag-abgeordneten-statistik-21-bundestag",
@@ -1305,7 +1521,7 @@
     },
     {
       "id": "destatis-gender-pension-gap",
-      "label": "Destatis: Gender Pension Gap 2023",
+      "label": "Destatis: Gender Pension Gap (EU-SILC 2025, Berichtsjahr 2024)",
       "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Einkommen-Konsum-Lebensbedingungen/Lebensbedingungen-Armutsgefaehrdung/Tabellen/einkommen-gender-pension-gap.html"
     },
     {
@@ -1354,9 +1570,9 @@
       "url": "https://www.destatis.de/Europa/DE/Thema/Bevoelkerung-Arbeit-Soziales/Arbeitsmarkt/gender_pay_gap.html"
     },
     {
-      "id": "wef-global-gender-gap-2024",
-      "label": "WEF: Global Gender Gap Report 2024",
-      "url": "https://www.weforum.org/publications/global-gender-gap-report-2024/"
+      "id": "wef-global-gender-gap-2025",
+      "label": "WEF: Global Gender Gap Report 2025",
+      "url": "https://www.weforum.org/publications/global-gender-gap-report-2025/"
     },
     {
       "id": "bpb-gleichberechtigung-geschichte",
@@ -1370,7 +1586,7 @@
     },
     {
       "id": "lesubia-dunkelfeldstudie",
-      "label": "BKA / BMFSFJ: LeSuBiA-Dunkelfeldstudie (2023–2025)",
+      "label": "BKA: LeSuBiA-Dunkelfeldstudie (veröffentlicht Februar 2026)",
       "url": "https://www.bka.de/SharedDocs/Kurzmeldungen/DE/Kurzmeldungen/260210_LeSuBiA.html"
     },
     {
@@ -1387,6 +1603,21 @@
       "id": "diw-gender-wealth-gap",
       "label": "DIW Berlin: Gender Wealth Gap in Germany",
       "url": "https://ideas.repec.org/p/diw/diwwpp/dp806.html"
+    },
+    {
+      "id": "diw-managerinnen-barometer-2026",
+      "label": "DIW Berlin: Managerinnen-Barometer (Frauenanteil DAX-Vorstände, Q4 2025)",
+      "url": "https://www.diw.de/de/diw_01.c.994710.de/managerinnen-barometer.html"
+    },
+    {
+      "id": "bmfsfj-gewalthilfegesetz",
+      "label": "BMFSFJ: Gewalthilfegesetz (Rechtsanspruch auf Schutz und Beratung, 2025)",
+      "url": "https://www.bmbfsfj.bund.de/bmbfsfj/aktuelles/alle-meldungen/bundestag-beschliesst-gewalthilfegesetz-255088"
+    },
+    {
+      "id": "destatis-gender-education-gap",
+      "label": "Destatis: Gender Education Gap (Bildungsunterschiede nach Geschlecht, 2025)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/04/PD25_N014_212.html"
     }
   ],
   "relatedTopicIds": [
