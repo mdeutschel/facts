@@ -18,6 +18,7 @@ import BalanceIcon from '@mui/icons-material/Balance'
 import ThermostatIcon from '@mui/icons-material/Thermostat'
 import SchoolIcon from '@mui/icons-material/School'
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital'
+import SecurityIcon from '@mui/icons-material/Security'
 import TopicIcon from '@mui/icons-material/Topic'
 import type { TopicMeta } from '../../types'
 import { formatGermanDate } from '../../theme'
@@ -36,6 +37,7 @@ const iconMap: Record<string, React.ReactElement> = {
   thermostat: <ThermostatIcon sx={{ fontSize: 40 }} />,
   school: <SchoolIcon sx={{ fontSize: 40 }} />,
   local_hospital: <LocalHospitalIcon sx={{ fontSize: 40 }} />,
+  security: <SecurityIcon sx={{ fontSize: 40 }} />,
 }
 
 interface TopicCardProps {

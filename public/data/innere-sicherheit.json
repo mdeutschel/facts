@@ -1,0 +1,794 @@
+{
+  "id": "innere-sicherheit",
+  "title": "Innere Sicherheit & Kriminalität",
+  "subtitle": "Fakten zu Kriminalitätstrend, Gewalt, Sicherheitsgefühl, Polizei und Prävention",
+  "seoTitle": "Innere Sicherheit & Kriminalität: Zahlen, Argumente & Fakten 2026",
+  "seoDescription": "Wird Deutschland immer unsicherer? Antworten zu Kriminalitätstrend, Messerangriffen, No-go-Areas, Polizei und Videoüberwachung — Quellen BKA, Destatis und DIW.",
+  "icon": "security",
+  "lastUpdated": "2026-06-01",
+  "keyStats": [
+    "5,84 Mio. Straftaten 2024 (−1,7 %, unter dem Niveau der 1990er)",
+    "Aufklärungsquote stabil bei rund 58 %",
+    "342.500 Vollzeitäquivalente bei der Polizei (2024)",
+    "9 Argumente"
+  ],
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen: BKA (Polizeiliche Kriminalstatistik 2024/2025, Sicherheit und Kriminalität in Deutschland — SKiD 2024), Statistisches Bundesamt, DIW Berlin sowie kriminologische Forschung (Stand Anfang 2026). Wo Vergleiche methodisch heikel sind (z. B. Bevölkerungsbasis Zensus 2011 vs. 2022, deliktspezifische Erfassung), wird das transparent gemacht.",
+  "relatedTopicIds": [
+    "migration"
+  ],
+  "sections": [
+    {
+      "id": "langzeittrend",
+      "title": "Kriminalität im Langzeittrend",
+      "content": [
+        {
+          "type": "text",
+          "text": "Das Gefühl, Deutschland werde ‚immer unsicherer‘, hält dem Langzeitvergleich nicht stand. Die Polizeiliche Kriminalstatistik (PKS) des BKA erfasst seit Jahrzehnten alle polizeilich bekannt gewordenen Straftaten. 2024 wurden 5.837.445 Straftaten registriert — rund 1,7 % weniger als 2023 und deutlich unter dem Höchststand der 1990er Jahre. Gemessen an der Häufigkeitszahl (Straftaten pro 100.000 Einwohner) liegt das heutige Niveau klar unter dem von 1993 oder 2004.",
+          "sourceRefs": [
+            "bka-pks-2024-gesamtzahl",
+            "bka-pks-2024-zeitreihe"
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Häufigkeitszahl: erfasste Straftaten pro 100.000 Einwohner",
+          "unit": "pro 100.000 EW",
+          "items": [
+            {
+              "label": "1993",
+              "value": 8337
+            },
+            {
+              "label": "2004",
+              "value": 8037
+            },
+            {
+              "label": "2014",
+              "value": 7530
+            },
+            {
+              "label": "2019",
+              "value": 6548
+            },
+            {
+              "label": "2021",
+              "value": 6070
+            },
+            {
+              "label": "2022",
+              "value": 6762
+            },
+            {
+              "label": "2023",
+              "value": 7042
+            },
+            {
+              "label": "2024",
+              "value": 6894
+            }
+          ],
+          "sourceRefs": [
+            "bka-pks-2024-zeitreihe"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Straftaten insgesamt im Langzeitvergleich (barrierefreie Datenansicht)",
+          "headers": [
+            "Jahr",
+            "Erfasste Fälle",
+            "Häufigkeitszahl"
+          ],
+          "rows": [
+            [
+              "1993",
+              "6.750.613",
+              "8.337"
+            ],
+            [
+              "2004",
+              "6.633.156",
+              "8.037"
+            ],
+            [
+              "2019",
+              "5.436.401",
+              "6.548"
+            ],
+            [
+              "2021 (Corona-Tief)",
+              "5.047.860",
+              "6.070"
+            ],
+            [
+              "2023",
+              "5.940.667",
+              "7.042"
+            ],
+            [
+              "2024",
+              "5.837.445",
+              "6.894"
+            ]
+          ],
+          "sourceRefs": [
+            "bka-pks-2024-zeitreihe"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Der absolute Höchststand der Kriminalität im wiedervereinigten Deutschland war 1993 mit 6,75 Mio. Straftaten — nicht heute. Das Niveau 2021 war durch Corona-Maßnahmen besonders niedrig, der Anstieg 2022/2023 ist teils ein Nachholeffekt. 2024 sanken die Zahlen wieder.",
+          "highlight": true,
+          "sourceRefs": [
+            "bka-pks-2024-zeitreihe",
+            "bka-pks-2024-gesamtzahl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gewaltkriminalitaet",
+      "title": "Gewaltkriminalität & Messerangriffe",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ein wichtiger Wahrheitskern: Während die Gesamtkriminalität langfristig sinkt, ist die Gewaltkriminalität real gestiegen. 2024 erreichte sie mit 217.277 Fällen den höchsten Stand seit Einführung der Kategorie 2007 (+1,5 % gegenüber 2023). Gleichzeitig macht Gewaltkriminalität rechnerisch nur rund 3,7 % aller 5,84 Mio. Straftaten aus — der Anstieg ist ernst zu nehmen, betrifft aber einen kleinen Teilbereich des Gesamtgeschehens.",
+          "sourceRefs": [
+            "bka-pks-2024-gesamtzahl",
+            "bka-pks-2024-zeitreihe"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "217.277",
+              "label": "Gewaltdelikte 2024",
+              "sublabel": "+1,5 %, Höchststand seit 2007",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "29.014",
+              "label": "Messerangriffe 2024",
+              "sublabel": "davon 54 % Gewalt, 43 % Bedrohung"
+            },
+            {
+              "value": "~3,7 %",
+              "label": "Anteil an allen Straftaten",
+              "sublabel": "Gewaltkriminalität am Gesamtgeschehen"
+            }
+          ],
+          "sourceRefs": [
+            "bka-pks-2024-gesamtzahl",
+            "bka-pks-2024-zeitreihe"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Ausgewählte Gewaltdelikte 2023 vs. 2024",
+          "headers": [
+            "Delikt",
+            "2023",
+            "2024",
+            "Veränderung"
+          ],
+          "rows": [
+            [
+              "Gewaltkriminalität gesamt",
+              "214.099",
+              "217.277",
+              "+1,5 %"
+            ],
+            [
+              "Gefährliche/schwere Körperverletzung",
+              "154.541",
+              "158.177",
+              "+2,4 %"
+            ],
+            [
+              "Raub",
+              "44.857",
+              "43.194",
+              "−3,7 %"
+            ],
+            [
+              "Gef./schw. KV mit Messer",
+              "8.951",
+              "9.620",
+              "+7,5 %"
+            ]
+          ],
+          "sourceRefs": [
+            "bka-pks-2024-zeitreihe",
+            "bka-pks-2024-messer",
+            "bka-pks-2023-messer"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Das Bild ist nicht durchgängig ‚immer mehr Gewalt‘: Raubdelikte gingen 2024 um 3,7 % zurück. Messerangriffe werden zudem erst seit 2024 deliktübergreifend gesondert ausgewiesen — ein belastbarer Vorjahresvergleich der Gesamtzahl existiert deshalb noch nicht, nur für Teilgrößen wie die Körperverletzung.",
+          "sourceRefs": [
+            "bka-pks-2024-messer",
+            "bka-pks-2023-messer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sicherheitsgefuehl",
+      "title": "Sicherheitsgefühl vs. reale Lage",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sicherheitsgefühl und tatsächliche Betroffenheit klaffen auseinander. Laut der BKA-Dunkelfeldstudie ‚Sicherheit und Kriminalität in Deutschland‘ (SKiD 2024) ist die Kriminalitätsfurcht zwischen 2020 und 2024 bei fast allen Delikten gestiegen — am stärksten bei Internetbetrug, Körperverletzung und sexueller Belästigung. Die tatsächliche Opferwerdung liegt bei den meisten Gewaltdelikten dagegen niedrig: 2023 wurden 2,6 % der Befragten Opfer einer Körperverletzung.",
+          "sourceRefs": [
+            "bka-skid-2024"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "88,7 %",
+              "label": "fühlen sich tagsüber sicher",
+              "sublabel": "auf öffentlichen Straßen und Plätzen"
+            },
+            {
+              "value": "2,6 %",
+              "label": "Opfer einer Körperverletzung",
+              "sublabel": "tatsächliche Betroffenheit 2023"
+            },
+            {
+              "value": "41,7 %",
+              "label": "weichen nachts Fremden aus",
+              "sublabel": "verbreitetes Vermeideverhalten"
+            }
+          ],
+          "sourceRefs": [
+            "bka-skid-2024"
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Anteil mit großen Sorgen über Kriminalität (Sozio-oekonomisches Panel, SOEP)",
+          "unit": "% der Befragten",
+          "color": "#5e35b1",
+          "items": [
+            {
+              "label": "2000",
+              "value": 54
+            },
+            {
+              "label": "2013",
+              "value": 31
+            },
+            {
+              "label": "2016",
+              "value": 47
+            },
+            {
+              "label": "2023",
+              "value": 38
+            }
+          ],
+          "sourceRefs": [
+            "diw-sicherheitsgefuehl-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Sorge vor Kriminalität schwankt stark mit der allgemeinen Stimmungslage, nicht mit der realen Kriminalitätsentwicklung: 2013 war sie auf einem Tiefpunkt (31 %), 2016 sprang sie auf 47 %. Gefühlte und tatsächliche Sicherheit sind zwei verschiedene Dinge.",
+          "highlight": true,
+          "sourceRefs": [
+            "diw-sicherheitsgefuehl-2025",
+            "bka-skid-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aufklaerung-polizei",
+      "title": "Aufklärungsquote & Polizeipräsenz",
+      "content": [
+        {
+          "type": "text",
+          "text": "Zwei verbreitete Behauptungen — ‚die Polizei ist kaputtgespart‘ und ‚die Aufklärungsquote ist im Keller‘ — halten den Zahlen nicht stand. Die Aufklärungsquote ist seit Jahren stabil: 2024 lag sie bei 58,0 %, 2025 bei 57,9 %. Und die Polizei wurde personell aufgestockt, nicht abgebaut.",
+          "sourceRefs": [
+            "bka-pks-2024-gesamtzahl",
+            "bka-pks-2025"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "58,0 %",
+              "label": "Aufklärungsquote 2024",
+              "sublabel": "2025: 57,9 % — stabil"
+            },
+            {
+              "value": "342.500",
+              "label": "Vollzeitäquivalente Polizei",
+              "sublabel": "Bund und Länder, Stand 30.06.2024"
+            },
+            {
+              "value": "−5,6 %",
+              "label": "Straftaten 2025",
+              "sublabel": "Rückgang auf 5,51 Mio. Fälle"
+            }
+          ],
+          "sourceRefs": [
+            "bka-pks-2024-gesamtzahl",
+            "bka-pks-2025",
+            "destatis-polizeibeschaeftigte-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Zum 30.06.2024 zählten Bund und Länder rund 342.500 Vollzeitäquivalente bei der Polizei, davon etwa 294.000 Beamtinnen und Beamte. Bereits 2017 verzeichnete die Polizei mit rund 319.400 Beschäftigten den größten Personalzuwachs seit über 20 Jahren. Der Personalstand ist seit 2017 also gestiegen, nicht gesunken. Davon zu trennen sind Debatten über Arbeitsbelastung, Bürokratie und Ausstattung.",
+          "highlight": true,
+          "sourceRefs": [
+            "destatis-polizeibeschaeftigte-2024",
+            "destatis-polizei-personalanstieg-2017"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die Aufklärungsquote schwankt stark nach Delikt: Bei Tötungs- und Gewaltdelikten ist sie hoch, weil Opfer und Täter sich oft kennen; bei Fahrraddiebstahl oder Wohnungseinbruch ist sie deutlich niedriger, weil Täter selten auf frischer Tat gefasst werden. Die stabile Gesamtquote um 58 % ist damit ein Mittelwert über sehr unterschiedliche Deliktarten.",
+          "sourceRefs": [
+            "bka-pks-2024-gesamtzahl"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-go-areas",
+      "title": "‚No-go-Areas‘ & kriminalitätsbelastete Orte",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Begriff ‚No-go-Area‘ im Sinne rechtsfreier Räume wird von Polizei und Innenbehörden zurückgewiesen. Bereits 1998 stellte ein Brandenburger Polizeiführer klar, es gebe keine ‚rechtsfreien Räume, wo das staatliche Gewaltmonopol nicht greift‘; Berlins Innensenator betonte 2004, es gebe ‚nirgendwo in Berlin No-go-Areas‘. Anerkannt werden zugleich Problemlagen an einzelnen Orten — diese werden polizeilich als ‚Angsträume‘ oder ‚kriminalitätsbelastete Orte‘ bezeichnet.",
+          "sourceRefs": [
+            "zdl-no-go-area"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "An ‚kriminalitätsbelasteten Orten‘ (in Berlin etwa Alexanderplatz, Görlitzer Park oder Kottbusser Tor — aktuell sieben Orte) hat die Polizei erweiterte Befugnisse: verdachtsunabhängige Identitätskontrollen, Durchsuchungen und Videoüberwachung schon im Vorfeld einer konkreten Gefahr, auf Grundlage des Berliner ASOG. An diesen Orten gilt damit gerade nicht weniger, sondern mehr staatliche Präsenz.",
+          "highlight": true,
+          "sourceRefs": [
+            "polizei-berlin-kbo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "videoueberwachung",
+      "title": "Videoüberwachung & Prävention — was wirkt?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mehr Videoüberwachung ist eine zentrale Forderung in der Sicherheitsdebatte. Die Forschung zeichnet ein differenziertes Bild: Videoüberwachung wirkt vor allem dort, wo Taten planbar sind und in abgegrenzten Räumen stattfinden — kaum dagegen bei spontaner Gewalt im Affekt. Eine internationale Meta-Analyse (Welsh & Farrington) findet einen ‚moderaten, aber signifikanten‘ Gesamteffekt, getragen vor allem von Parkhäusern.",
+          "sourceRefs": [
+            "welsh-farrington-cctv-2008",
+            "soztheo-videoueberwachung"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Wo Videoüberwachung wirkt — und wo kaum",
+          "items": [
+            {
+              "title": "Eher wirksam",
+              "color": "#2e7d32",
+              "rows": [
+                {
+                  "label": "Kfz-Diebstahl in Parkhäusern",
+                  "value": "deutlicher Rückgang (über 40 %)"
+                },
+                {
+                  "label": "Planbare Eigentumsdelikte",
+                  "value": "messbar reduziert"
+                }
+              ]
+            },
+            {
+              "title": "Kaum wirksam",
+              "color": "#b71c1c",
+              "rows": [
+                {
+                  "label": "Gewaltkriminalität",
+                  "value": "kein nachweisbarer Effekt"
+                },
+                {
+                  "label": "Taschendiebstahl",
+                  "value": "nur 2–4 % weniger"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "welsh-farrington-cctv-2008",
+            "soztheo-videoueberwachung"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Praxisbeispiele bestätigen die Vorsicht: Der Videotest in der Berliner U-Bahn (2006/07) brachte keinen Sicherheitsgewinn — von tausenden Delikten lag nur in 78 Fällen verwertbares Material vor. In Mannheim stieg durch KI-gestützte Überwachung bislang nur das subjektive Sicherheitsgefühl (von 51 % auf 58 %); eine belastbare Bewertung der objektiven Wirkung steht erst 2027 an. Kameras können Polizeiarbeit ergänzen, aber nicht ersetzen.",
+          "sourceRefs": [
+            "heise-bvg-videoueberwachung-2007",
+            "heise-mannheim-videoueberwachung-2027",
+            "kfn-fb143-videoueberwachung-nrw"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regionaler-vergleich",
+      "title": "Regionaler Vergleich: Stadt, Land, Ost & West",
+      "content": [
+        {
+          "type": "text",
+          "text": "Wo ist es am unsichersten? Die Kriminalitätshäufigkeit unterscheidet sich stark nach Region — aber anders, als es manche Wahlkampferzählung nahelegt. Die höchsten Häufigkeitszahlen haben durchweg die Stadtstaaten Bremen, Berlin und Hamburg, nicht der Osten. Großstädte haben strukturell höhere Werte: Pendler, Tourismus und eine andere Deliktstruktur treiben die Statistik. Ein fairer Vergleich stellt Großstadt gegen Großstadt, nicht Großstadt gegen Flächenland. Hinweis zur Vergleichbarkeit: Die Länderzahlen beruhen auf der aktuellen Bevölkerungsbasis (Zensus 2022); die bundesweite Häufigkeitszahl liegt dadurch bei 6.995 statt der 6.894 aus der älteren Langzeitreihe (Zensus 2011).",
+          "sourceRefs": [
+            "bka-pks2024-laender"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Straftaten je 100.000 Einwohner nach Bundesland (PKS 2024, Basis Zensus 2022)",
+          "unit": "pro 100.000 EW",
+          "items": [
+            {
+              "label": "Bremen",
+              "value": 14998
+            },
+            {
+              "label": "Berlin",
+              "value": 14719,
+              "highlight": true
+            },
+            {
+              "label": "Hamburg",
+              "value": 12147
+            },
+            {
+              "label": "Sachsen-Anhalt",
+              "value": 8588
+            },
+            {
+              "label": "Bund gesamt",
+              "value": 6995
+            },
+            {
+              "label": "Meckl.-Vorp.",
+              "value": 6878
+            },
+            {
+              "label": "Bayern",
+              "value": 4726
+            }
+          ],
+          "sourceRefs": [
+            "bka-pks2024-laender"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Kein pauschaler Ost-West-Graben: Unter den Flächenländern liegt nur Sachsen-Anhalt (8.588) klar über dem Bundesschnitt (6.995). Mecklenburg-Vorpommern liegt mit 6.878 sogar darunter, ebenso wie die sichersten Länder Bayern (4.726) und Baden-Württemberg (5.230). Die Spannweite innerhalb Westdeutschlands ist größer als der Unterschied zwischen Ost und West.",
+          "highlight": true,
+          "sourceRefs": [
+            "bka-pks2024-laender"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Und die Entwicklung zeigt nicht überall nach oben: 2024 gingen die Fallzahlen in Mecklenburg-Vorpommern (−2,7 %) und Sachsen-Anhalt (−5,0 %) zurück, in Berlin blieben sie nahezu stabil (+0,4 %).",
+          "sourceRefs": [
+            "bka-pks2024-laender"
+          ]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "kriminalitaet-explodiert",
+      "claim": "Die Kriminalität explodiert, Deutschland wird immer unsicherer!",
+      "response": "Tatsächlich liegt die Gesamtkriminalität heute unter dem Niveau der 1990er: 2024 zählte die PKS 5,84 Mio. Straftaten — rund 1,7 % weniger als 2023 und klar unter dem Höchststand von 1993 (6,75 Mio.). Richtig ist: Die Gewaltkriminalität ist real gestiegen und 2024 auf einem Hoch. Aber sie macht nur etwa 3,7 % aller Straftaten aus. ‚Explodiert‘ trifft auf das Gesamtbild nicht zu — die Lage ist differenziert, nicht dramatisch.",
+      "keywords": [
+        "Kriminalität",
+        "explodiert",
+        "unsicherer",
+        "immer mehr",
+        "Straftaten",
+        "Statistik"
+      ],
+      "relatedSections": [
+        "langzeittrend",
+        "gewaltkriminalitaet"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole überträgt einen realen Anstieg im Teilbereich Gewalt (3,7 % aller Taten) auf das gesamte Kriminalitätsgeschehen und verstärkt ihn mit Dramatisierungs-Sprache (‚explodiert‘). Wer einen kleinen Ausschnitt zum Gesamtbild erklärt, betreibt Rosinenpicken — die Gesamtkriminalität liegt klar unter den 1990ern.",
+      "counterQuestions": [
+        "Meinst du die Gesamtkriminalität oder einen bestimmten Bereich wie Gewaltdelikte?",
+        "Weißt du, wie hoch die Kriminalität pro Kopf in den 1990ern war im Vergleich zu heute?",
+        "Wenn 2024 weniger Straftaten registriert wurden als 2023 — passt das zu ‚explodiert‘?"
+      ]
+    },
+    {
+      "id": "ueberall-messerangriffe",
+      "claim": "Überall Messerangriffe, man kann ja gar nicht mehr auf die Straße!",
+      "response": "Messerangriffe gibt es, und sie werden seit 2024 erstmals systematisch erfasst: 29.014 Fälle, davon gut die Hälfte Gewaltdelikte. Bei der gefährlichen Körperverletzung stieg der Messeranteil von 8.951 (2023) auf 9.620 Fälle (2024) — das ist real und ernst. Aber ‚überall‘ und ‚man kann nicht mehr raus‘ ist Wahrnehmung, nicht Statistik: Tagsüber fühlen sich laut BKA fast 89 % der Menschen auf Straßen und Plätzen sicher. Das individuelle Risiko bleibt sehr gering.",
+      "keywords": [
+        "Messer",
+        "Messerangriffe",
+        "Messerattacke",
+        "Gewalt",
+        "Straße",
+        "unsicher"
+      ],
+      "relatedSections": [
+        "gewaltkriminalitaet",
+        "sicherheitsgefuehl"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Hier wirkt die Verfügbarkeitsheuristik: Einzelne, medial stark präsente Fälle erzeugen den Eindruck der Allgegenwart (‚überall‘). Aus drastischen Einzelbildern wird ein gefühltes Dauerrisiko, obwohl die individuelle Betroffenheitswahrscheinlichkeit niedrig ist.",
+      "counterQuestions": [
+        "Wann bist du persönlich oder jemand, den du kennst, zuletzt mit einem Messer bedroht worden?",
+        "Woher stammt dein Eindruck — aus eigenem Erleben oder aus den Schlagzeilen?",
+        "Wenn sich 89 % tagsüber draußen sicher fühlen — passt das zu ‚man kann nicht mehr raus‘?"
+      ]
+    },
+    {
+      "id": "frueher-ohne-angst",
+      "claim": "Früher konnte man nachts noch ohne Angst auf die Straße gehen!",
+      "response": "Die Nostalgie täuscht: In den 1990ern wurden pro Kopf mehr Straftaten erfasst als heute — 1993 lag die Häufigkeitszahl bei 8.337 pro 100.000 Einwohner, 2024 bei rund 6.894. Objektiv war es ‚früher‘ also nicht sicherer, eher im Gegenteil. Die Kriminalitätsfurcht folgt zudem oft der Stimmungslage, nicht der realen Lage: 2013 war die Sorge vor Kriminalität auf einem Tiefpunkt, 2016 sprang sie deutlich nach oben — bei real kaum veränderter Lage.",
+      "keywords": [
+        "früher",
+        "nachts",
+        "Angst",
+        "war besser",
+        "Sicherheit",
+        "Nostalgie"
+      ],
+      "relatedSections": [
+        "langzeittrend",
+        "sicherheitsgefuehl"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die verklärte Rückschau idealisiert eine Vergangenheit, die statistisch unsicherer war. Das Gedächtnis blendet frühere Kriminalität aus und kontrastiert sie mit heutigen Schlagzeilen — ein klassischer ‚früher war alles besser‘-Effekt, der sich an den Zahlen nicht belegen lässt.",
+      "counterQuestions": [
+        "Welches ‚früher‘ meinst du genau — die 1990er, die 2000er?",
+        "Würde es deine Einschätzung ändern, wenn pro Kopf damals mehr Straftaten passiert sind als heute?",
+        "Könnte es sein, dass nicht die Lage, sondern die Berichterstattung sich verändert hat?"
+      ]
+    },
+    {
+      "id": "no-go-areas-kapituliert",
+      "claim": "In den No-go-Areas hat der Staat doch längst kapituliert!",
+      "response": "‚No-go-Areas‘ im Sinne rechtsfreier Räume gibt es in Deutschland nach Einschätzung von Polizei und Innenbehörden nicht — schon Berlins Innensenator und Brandenburger Polizeiführung wiesen den Begriff zurück. Was es gibt, sind ‚kriminalitätsbelastete Orte‘ wie der Alexanderplatz oder das Kottbusser Tor. Dort hat die Polizei aber mehr Befugnisse, nicht weniger: verdachtsunabhängige Kontrollen, Durchsuchungen, Videoüberwachung. Das ist das Gegenteil von Kapitulation — es ist gezielt erhöhte Präsenz.",
+      "keywords": [
+        "No-go-Area",
+        "rechtsfreier Raum",
+        "Staat",
+        "kapituliert",
+        "Görli",
+        "Problemviertel"
+      ],
+      "relatedSections": [
+        "no-go-areas"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "‚No-go-Area‘ ist ein Kampfbegriff, der Staatsversagen suggeriert, das es so nicht gibt. Der Begriff erzeugt das Bild rechtsfreier Zonen — tatsächlich gelten an den gemeinten Orten erweiterte Polizeibefugnisse. Die Sprache behauptet einen Zustand, den die Rechtslage gerade widerlegt.",
+      "counterQuestions": [
+        "Welchen Ort meinst du konkret — und woher weißt du, dass dort kein Recht mehr gilt?",
+        "Ist dir bekannt, dass die Polizei an ‚kriminalitätsbelasteten Orten‘ mehr Befugnisse hat als anderswo?",
+        "Wenn dort verstärkt kontrolliert und überwacht wird — wäre das nicht das Gegenteil von Kapitulation?"
+      ]
+    },
+    {
+      "id": "polizei-kaputtgespart",
+      "claim": "Die Polizei ist doch kaputtgespart, es gibt viel zu wenige Polizisten!",
+      "response": "Tatsächlich wurde die Polizei in den letzten Jahren personell aufgestockt: Zum 30.06.2024 zählten Bund und Länder rund 342.500 Vollzeitäquivalente, davon etwa 294.000 Beamtinnen und Beamte. Schon 2017 gab es den größten Personalzuwachs seit über 20 Jahren. Von ‚kaputtgespart‘ kann beim Personalstand keine Rede sein. Berechtigt ist die Debatte über Belastung, Überstunden, Bürokratie und Ausstattung — aber das ist etwas anderes als zu wenige Stellen.",
+      "keywords": [
+        "Polizei",
+        "kaputtgespart",
+        "zu wenige",
+        "Personal",
+        "Polizisten",
+        "Stellen"
+      ],
+      "relatedSections": [
+        "aufklaerung-polizei"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole stellt eine pauschale Mangelbehauptung auf, ohne sie an Personalzahlen zu messen, und vermischt zwei verschiedene Fragen: die Zahl der Stellen (gestiegen) und die Arbeitsbedingungen (belastend). Beides in ‚kaputtgespart‘ zu bündeln, verwischt, worüber man eigentlich streitet.",
+      "counterQuestions": [
+        "Meinst du die Zahl der Stellen oder die Arbeitsbelastung der vorhandenen Beamten?",
+        "Weißt du, wie sich der Polizei-Personalstand seit 2017 entwickelt hat?",
+        "Wäre es nicht ehrlicher, über Bürokratie und Ausstattung zu reden statt über fehlende Köpfe?"
+      ]
+    },
+    {
+      "id": "aufklaerungsquote-keller",
+      "claim": "Die Aufklärungsquote ist im Keller, Verbrechen lohnt sich doch!",
+      "response": "Die Aufklärungsquote ist stabil, nicht im Keller: 2024 lag sie bei 58,0 %, 2025 bei 57,9 % — seit Jahren auf diesem Niveau. Sie schwankt stark nach Delikt: Bei Gewalt- und Tötungsdelikten ist sie hoch, weil Täter und Opfer sich oft kennen; bei Fahrraddiebstahl oder Einbruch ist sie niedrig, weil selten jemand auf frischer Tat gefasst wird. Eine konstante 58-%-Quote als ‚Keller‘ zu bezeichnen, geben die Zahlen nicht her.",
+      "keywords": [
+        "Aufklärungsquote",
+        "Keller",
+        "lohnt sich",
+        "Verbrechen",
+        "ungestraft",
+        "Polizei"
+      ],
+      "relatedSections": [
+        "aufklaerung-polizei"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Hier wird eine stabile Kennzahl dramatisiert (‚Keller‘) und eine Gesamtquote über sehr unterschiedliche Delikte gestülpt. Dass Fahrraddiebstähle schwerer aufzuklären sind als Tötungsdelikte, sagt nichts über generelles Behördenversagen — es liegt in der Natur der Delikte.",
+      "counterQuestions": [
+        "Welchen Wert würdest du erwarten — und weißt du, wie hoch die Quote tatsächlich ist?",
+        "Sollte man Mord und Fahrraddiebstahl wirklich an derselben Aufklärungsquote messen?",
+        "Wenn die Quote seit Jahren bei rund 58 % liegt — ist das eher ‚Keller‘ oder stabil?"
+      ]
+    },
+    {
+      "id": "videoueberwachung-macht-sicher",
+      "claim": "Mehr Videoüberwachung macht uns endlich sicher!",
+      "response": "Videoüberwachung kann helfen — aber gezielt, nicht pauschal. Die Forschung zeigt: An überschaubaren Orten und bei planbaren Eigentumsdelikten (etwa Kfz-Diebstahl in Parkhäusern) sinkt die Kriminalität messbar. Bei spontaner Gewalt im Affekt zeigt sie dagegen kaum Wirkung. Der Test in der Berliner U-Bahn brachte keinen Sicherheitsgewinn; in Mannheim stieg bislang nur das subjektive Sicherheitsgefühl, die objektive Wirkung ist erst 2027 belastbar bewertbar. Kameras ersetzen keine Polizei — sie wirken nur im richtigen Kontext.",
+      "keywords": [
+        "Videoüberwachung",
+        "Kameras",
+        "Überwachung",
+        "sicher",
+        "Prävention",
+        "Plätze"
+      ],
+      "relatedSections": [
+        "videoueberwachung"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole macht aus einer kontextabhängigen Maßnahme eine Wunderwaffe (‚endlich sicher‘). Sie übergeneralisiert einen begrenzten Effekt (Eigentumsdelikte in abgegrenzten Räumen) auf alle Kriminalität — gerade bei spontaner Gewalt, die viele am meisten fürchten, ist die Wirkung schwach.",
+      "counterQuestions": [
+        "Bei welcher Art von Straftaten soll die Kamera konkret helfen — Eigentum oder spontane Gewalt?",
+        "Wenn der Berliner U-Bahn-Test keinen Sicherheitsgewinn brachte, woran lag das?",
+        "Würdest du das Geld lieber in Kameras oder in mehr ansprechbare Polizei vor Ort stecken?"
+      ]
+    },
+    {
+      "id": "osten-am-unsichersten",
+      "claim": "Im Osten ist es am unsichersten, kein Wunder bei der Politik dort!",
+      "response": "Die Zahlen geben das nicht her. Spitzenreiter bei der Kriminalitätshäufigkeit sind die Stadtstaaten Bremen, Berlin und Hamburg — nicht der Osten. Unter den Flächenländern liegt nur Sachsen-Anhalt (8.588 pro 100.000) klar über dem Bundesschnitt (6.995); Mecklenburg-Vorpommern liegt mit 6.878 sogar darunter. Großstädte haben strukturell höhere Werte als ländliche Regionen — das ist ein Stadt-Land-Effekt, kein Ost-West-Graben. 2024 gingen die Fallzahlen in MV und Sachsen-Anhalt sogar zurück.",
+      "keywords": [
+        "Osten",
+        "Bundesländer",
+        "unsicher",
+        "Ostdeutschland",
+        "Vergleich",
+        "Häufigkeitszahl"
+      ],
+      "relatedSections": [
+        "regionaler-vergleich"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole verwechselt einen Stadt-Land-Effekt mit einem Ost-West-Gegensatz und verallgemeinert von einem Ausreißer (Sachsen-Anhalt) auf ‚den Osten‘. Tatsächlich liegen die Stadtstaaten vorn und mehrere Ost-Flächenländer unter dem Bundesschnitt — die Behauptung pickt sich das passende Land heraus.",
+      "counterQuestions": [
+        "Welche Bundesländer haben tatsächlich die höchsten Werte — weißt du das?",
+        "Vergleichst du gerade eine Großstadt mit einem Flächenland — ist das fair?",
+        "Wie passt es ins Bild, dass Mecklenburg-Vorpommern unter dem Bundesschnitt liegt?"
+      ]
+    },
+    {
+      "id": "auslaender-unsichere-staedte",
+      "claim": "Die Ausländer machen unsere Städte unsicher!",
+      "response": "Die Kriminalstatistik zeigt eine Überrepräsentation nichtdeutscher Tatverdächtiger — das ist real, erklärt sich laut BKA aber zu großen Teilen durch Alter, Geschlecht und soziale Lage: Tatverdächtige sind überall überproportional junge Männer in prekären Verhältnissen, unabhängig vom Pass. Zudem zählen ausländerrechtliche Verstöße mit, die nur Nichtdeutsche begehen können. Pauschal ‚die Ausländer‘ für Unsicherheit verantwortlich zu machen, blendet diese Faktoren aus — eine ausführliche Einordnung findest du im Thema Migration & Asyl.",
+      "keywords": [
+        "Ausländer",
+        "Migranten",
+        "Städte",
+        "unsicher",
+        "Kriminalität",
+        "Tatverdächtige"
+      ],
+      "relatedSections": [
+        "gewaltkriminalitaet",
+        "regionaler-vergleich"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole nimmt eine Rohzahl (Anteil nichtdeutscher Tatverdächtiger) und blendet die Faktoren aus, die das BKA selbst nennt: Altersstruktur, Geschlecht, soziale Lage und mitgezählte ausländerrechtliche Delikte. Aus einer Korrelation wird so vorschnell eine Eigenschaft der Gruppe gemacht.",
+      "counterQuestions": [
+        "Vergleichst du Gruppen mit gleicher Alters- und Sozialstruktur — oder den Durchschnitt mit einer jungen, männlichen Teilgruppe?",
+        "Ist dir bewusst, dass ausländerrechtliche Verstöße mitgezählt werden, die nur Nichtdeutsche begehen können?",
+        "Was sagt die Staatsangehörigkeit über das Verhalten aus, wenn Alter und Lebenslage die eigentlichen Treiber sind?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bka-pks-2024-gesamtzahl",
+      "label": "BKA – Polizeiliche Kriminalstatistik 2024, Gesamtüberblick (2025)",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/Polizeiliche_Kriminalstatistik_2024/Polizeiliche_Kriminalstatistik_2024_node.html"
+    },
+    {
+      "id": "bka-pks-2024-zeitreihe",
+      "label": "BKA – PKS 2024, Zeitreihen (Grundtabelle T01, Straftaten und Gewaltdelikte)",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/PKSTabellen/Zeitreihen/zeitreihen_node.html"
+    },
+    {
+      "id": "bka-pks-2024-messer",
+      "label": "BKA – PKS 2024, Messerangriffe (2025)",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/Polizeiliche_Kriminalstatistik_2024/Polizeiliche_Kriminalstatistik_2024_node.html"
+    },
+    {
+      "id": "bka-pks-2023-messer",
+      "label": "BKA – Polizeiliche Kriminalstatistik 2023 (Messer-Vorjahreswerte)",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2023/Polizeiliche_Kriminalstatistik_2023/Polizeiliche_Kriminalstatistik_2023.html"
+    },
+    {
+      "id": "bka-pks-2025",
+      "label": "BKA – Polizeiliche Kriminalstatistik 2025 (Aufklärungsquote, Fallzahlen)",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2025/Polizeiliche_Kriminalstatistik_2025/Polizeiliche_Kriminalstatistik_2025_node.html"
+    },
+    {
+      "id": "bka-pks2024-laender",
+      "label": "BKA – PKS 2024, Länder-Falltabellen (Häufigkeitszahlen und Fallentwicklung)",
+      "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2024/PKSTabellen/LandFalltabellen/landFalltabellen.html"
+    },
+    {
+      "id": "bka-skid-2024",
+      "label": "BKA – Sicherheit und Kriminalität in Deutschland (SKiD 2024), Ergebnisbericht",
+      "url": "https://www.bka.de/DE/UnsereAufgaben/Forschung/ForschungsprojekteUndErgebnisse/Dunkelfeldforschung/SKiD/Ergebnisse/Ergebnisbericht.pdf"
+    },
+    {
+      "id": "diw-sicherheitsgefuehl-2025",
+      "label": "DIW Berlin – Wochenbericht 30/2025: Das Sicherheitsgefühl in Deutschland",
+      "url": "https://www.diw.de/de/diw_01.c.968457.de/publikationen/wochenberichte/2025_30_1/das_sicherheitsgefuehl_in_deutschland_ist_sozial_und_regional_ungleich_verteilt.html"
+    },
+    {
+      "id": "destatis-polizeibeschaeftigte-2024",
+      "label": "Statistisches Bundesamt – Vollzeitäquivalente der Beschäftigten im Aufgabenbereich Polizei (Stand 30.06.2024)",
+      "url": "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/beschaeftigten-polizei.html"
+    },
+    {
+      "id": "destatis-polizei-personalanstieg-2017",
+      "label": "Statistisches Bundesamt – Pressemitteilung: Mehr Personal für Polizei (Stand 30.06.2017)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2018/06/PD18_226_741.html"
+    },
+    {
+      "id": "zdl-no-go-area",
+      "label": "ZDL (Leibniz) – Wortgeschichte ‚No-go-Area‘ (mit amtlichen Einordnungen 1998/2004)",
+      "url": "https://www.zdl.org/wb/wortgeschichten/No-go-Area"
+    },
+    {
+      "id": "polizei-berlin-kbo",
+      "label": "Polizei Berlin – Kriminalitätsbelastete Orte: Fakten und Hintergründe",
+      "url": "https://www.berlin.de/polizei/polizeimeldungen/fakten-hintergruende/artikel.1078268.php"
+    },
+    {
+      "id": "welsh-farrington-cctv-2008",
+      "label": "Welsh & Farrington – Effects of Closed Circuit Television Surveillance on Crime (Campbell Systematic Review)",
+      "url": "https://ideas.repec.org/a/wly/camsys/v4y2008i1p1-73.html"
+    },
+    {
+      "id": "soztheo-videoueberwachung",
+      "label": "SozTheo (Prof. Christian Wickert) – Videoüberwachung: Forschungsstand zur Wirksamkeit",
+      "url": "https://soztheo.de/stadtsoziologie/videoueberwachung/"
+    },
+    {
+      "id": "kfn-fb143-videoueberwachung-nrw",
+      "label": "KFN – Forschungsbericht 143: Evaluation polizeilicher Videobeobachtung in NRW (Glaubitz et al. 2018)",
+      "url": "https://kfn.de/wp-content/uploads/Forschungsberichte/FB_143.pdf"
+    },
+    {
+      "id": "heise-bvg-videoueberwachung-2007",
+      "label": "heise online – Studie: Videoüberwachung in Berliner U-Bahn brachte keinen Sicherheitsgewinn (2007)",
+      "url": "https://www.heise.de/newsticker/meldung/Studie-Videoueberwachung-in-Berliner-U-Bahn-brachte-keinen-Sicherheitsgewinn-183294.html"
+    },
+    {
+      "id": "heise-mannheim-videoueberwachung-2027",
+      "label": "heise online – Evaluation von intelligenter Videoüberwachung in Mannheim erst 2027 (2023)",
+      "url": "https://www.heise.de/news/Evaluation-von-intelligenter-Videoueberwachung-in-Mannheim-erst-2027-9580827.html"
+    }
+  ]
+}
