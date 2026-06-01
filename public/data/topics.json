@@ -152,6 +152,15 @@
       "lastUpdated": "2026-06-01",
       "factCount": 7,
       "argumentCount": 9
+    },
+    {
+      "id": "russland-ukraine-sanktionen",
+      "title": "Russland, Ukraine & Sanktionen",
+      "subtitle": "Fakten zu Krieg, Sanktionen, Energie, Ukraine-Hilfe und Friedensperspektive",
+      "icon": "balance",
+      "lastUpdated": "2026-06-01",
+      "factCount": 9,
+      "argumentCount": 11
     }
   ]
 }
