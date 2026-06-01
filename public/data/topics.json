@@ -143,6 +143,15 @@
       "lastUpdated": "2026-05-31",
       "factCount": 8,
       "argumentCount": 10
+    },
+    {
+      "id": "innere-sicherheit",
+      "title": "Innere Sicherheit & Kriminalität",
+      "subtitle": "Fakten zu Kriminalitätstrend, Gewalt, Sicherheitsgefühl, Polizei und Prävention",
+      "icon": "security",
+      "lastUpdated": "2026-06-01",
+      "factCount": 7,
+      "argumentCount": 9
     }
   ]
 }
