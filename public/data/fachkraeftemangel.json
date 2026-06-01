@@ -1,0 +1,870 @@
+{
+  "id": "fachkraeftemangel",
+  "title": "Fachkräftemangel",
+  "subtitle": "Gibt es den Mangel wirklich? Fakten zu Fachkräftelücke, Demografie, Löhnen, inländischen Potenzialen, Zuwanderung und Automatisierung.",
+  "seoTitle": "Fachkräftemangel: Mythos oder Realität? Die Fakten 2026",
+  "seoDescription": "Gibt es den Fachkräftemangel wirklich oder zahlen Firmen nur zu wenig? Fakten zu Fachkräftelücke, Babyboomern, Löhnen, Zuwanderung & KI — Quellen IW/KOFA, IAB, Destatis, BA.",
+  "icon": "engineering",
+  "lastUpdated": "2026-05-31",
+  "factCount": 8,
+  "argumentCount": 10,
+  "keyStats": [
+    "369.516 fehlende Fachkräfte (KOFA 2025)",
+    "163 von ~1.200 Berufen sind Engpassberufe",
+    "13,4 Mio. erreichen bis 2039 das Rentenalter",
+    "10 Argumente"
+  ],
+  "sourceNote": "Daten stammen primär von IW Köln/KOFA, der Bundesagentur für Arbeit (BA), dem IAB, Destatis, BIBB, dem IAW, der Bertelsmann Stiftung und dem BMI (Stand 2024–2026). Wichtig: Die KOFA-Fachkräftelücke, die BA-Engpassanalyse und die IAB-/Destatis-Projektionen beruhen auf unterschiedlichen Methoden und Bezugsjahren und sind nicht 1:1 vergleichbar. Bei unsicheren Werten werden Spannweiten oder qualitative Aussagen verwendet.",
+  "sections": [
+    {
+      "id": "ausmass",
+      "title": "Wie groß ist der Fachkräftemangel wirklich?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Begriff ‚Fachkräftemangel' wird oft unscharf verwendet. Das Kompetenzzentrum Fachkräftesicherung (KOFA) am Institut der deutschen Wirtschaft misst die sogenannte Fachkräftelücke: die Zahl der offenen Stellen für qualifizierte Kräfte, für die es rechnerisch bundesweit keine passend qualifizierten Arbeitslosen gibt. Im Jahresdurchschnitt 2025 lag diese Lücke bei 369.516 Stellen. Das ist kein flächendeckender Arbeitskräftemangel, sondern ein gezielter Engpass bei bestimmten Qualifikationen — 61 % davon entfallen auf Fachkräfte mit abgeschlossener Berufsausbildung.",
+          "sourceRefs": [
+            "iw-kofa-jahresrueckblick-2025"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Fachkräftelücke",
+              "value": "369.516",
+              "sublabel": "nicht besetzbare Stellen (Ø 2025)"
+            },
+            {
+              "label": "Gemeldete Stellen",
+              "value": "641.000",
+              "sublabel": "bei der BA (April 2026)"
+            },
+            {
+              "label": "Vakanzzeit",
+              "value": "94 Tage",
+              "sublabel": "bis eine Stelle besetzt ist (2024)"
+            },
+            {
+              "label": "Betroffene Berufe",
+              "value": "51,4 %",
+              "sublabel": "der qualifizierten Berufsgattungen"
+            }
+          ],
+          "sourceRefs": [
+            "iw-kofa-jahresrueckblick-2025",
+            "ba-arbeitsmarkt-april-2026",
+            "iab-monitor-arbeitskraeftebedarf-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Fachkräftelücke ist 2025 um 24,1 % gesunken — von 487.029 (2024) auf 369.516.",
+          "highlight": true,
+          "sourceRefs": [
+            "iw-kofa-jahresrueckblick-2025",
+            "iw-kofa-jahresrueckblick-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Dieser Rückgang ist allerdings vor allem konjunkturell: In der Wirtschaftsflaute melden Betriebe weniger offene Stellen. Der strukturelle, demografisch getriebene Engpass bleibt bestehen und dürfte mit der Rentenwelle wieder zunehmen. Dass er realwirtschaftlich Folgen hat, zeigt eine Berechnung des Instituts der deutschen Wirtschaft (IW): 2024 konnte die deutsche Wirtschaft Produktionskapazitäten im Wert von rund 49 Milliarden Euro nicht ausschöpfen, weil Stellen unbesetzt blieben. Für 2027 prognostiziert das Institut einen Anstieg auf 74 Milliarden Euro. Solche Modellrechnungen sind mit Unsicherheit behaftet, illustrieren aber die Größenordnung.",
+          "sourceRefs": [
+            "iw-kosten-fachkraeftemangel-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engpassberufe",
+      "title": "Wo genau fehlen die Fachkräfte?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Mangel ist kein gleichmäßiges Phänomen, sondern konzentriert sich auf wenige Felder. Die Bundesagentur für Arbeit zählte in ihrer Engpassanalyse 2024 Engpässe in 163 von rund 1.200 bewerteten Berufen — also etwa jedem achten. Besonders betroffen sind zwei Bereiche: Bau- und Elektroberufe sowie Gesundheits- und Sozialberufe. Es handelt sich überwiegend um praktische Ausbildungsberufe, nicht um akademische Tätigkeiten.",
+          "sourceRefs": [
+            "ba-engpassanalyse-2024",
+            "iw-kofa-jahresrueckblick-2025"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Größte Fachkräftelücken nach Berufsgattung (KOFA, Ø 2025)",
+          "unit": "fehlende Kräfte",
+          "items": [
+            {
+              "label": "Bauelektrik",
+              "value": 16270,
+              "highlight": true
+            },
+            {
+              "label": "Altenpflege",
+              "value": 15233
+            },
+            {
+              "label": "Gesundheits-/Krankenpflege",
+              "value": 13390
+            },
+            {
+              "label": "Kinderbetreuung/Erziehung",
+              "value": 13351
+            },
+            {
+              "label": "Kraftfahrzeugtechnik",
+              "value": 13327
+            },
+            {
+              "label": "Sozialarbeit/Sozialpädagogik",
+              "value": 11077
+            }
+          ],
+          "sourceRefs": [
+            "iw-kofa-jahresrueckblick-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Auch die IT bleibt ein Engpass: Laut Bitkom waren 2025 rund 109.000 IT-Stellen unbesetzt, eine offene IT-Stelle blieb im Schnitt 7,7 Monate vakant. 85 % der Unternehmen beklagen einen IT-Fachkräftemangel. Der Engpass reicht damit vom Handwerk über die Pflege bis in die Hochtechnologie.",
+          "sourceRefs": [
+            "bitkom-it-fachkraefte-2025"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bemerkenswert ist die Spaltung des Arbeitsmarkts: Trotz mehrerer Millionen Arbeitsloser suchte laut BA nur etwa ein Viertel der arbeitslos gemeldeten Fachkräfte in einem Engpassberuf. Offene Stellen und arbeitslose Bewerber passen also häufig nicht zusammen — weder regional noch fachlich. Genau dieser ‚Mismatch' macht den Engpass aus, nicht ein simpler Mangel an Menschen.",
+          "sourceRefs": [
+            "ba-engpassanalyse-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demografie",
+      "title": "Demografie: der eigentliche Treiber",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der wichtigste Grund für den Fachkräftemangel ist nicht Faulheit oder Teilzeit, sondern die Alterung der Gesellschaft. Laut Statistischem Bundesamt erreichen in den nächsten 15 Jahren rund 13,4 Millionen Erwerbspersonen die Regelaltersgrenze von 67 Jahren — etwa 31 % aller Erwerbspersonen. Diese ‚Babyboomer' gehen in Rente, ohne dass gleich große Jahrgänge nachrücken.",
+          "sourceRefs": [
+            "destatis-rentenwelle-13mio"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Renteneintritt bis 2039",
+              "value": "13,4 Mio.",
+              "sublabel": "≈ 31 % der Erwerbspersonen"
+            },
+            {
+              "label": "Ohne Zuwanderung",
+              "value": "−7,2 Mio.",
+              "sublabel": "Erwerbspersonen bis 2035 (IAB)"
+            },
+            {
+              "label": "Ältere Beschäftigte",
+              "value": "24 %",
+              "sublabel": "der Erwerbstätigen sind 55–64 (EU-Spitze)"
+            },
+            {
+              "label": "Nötige Nettozuwanderung",
+              "value": "~400.000",
+              "sublabel": "pro Jahr für ein konstantes Angebot"
+            }
+          ],
+          "sourceRefs": [
+            "destatis-rentenwelle-13mio",
+            "iab-zuwanderung-400000",
+            "destatis-aeltere-anteil-beschaeftigte"
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Erwerbspersonenpotenzial ohne Zuwanderung (IAB-Projektion, Mio.)",
+          "unit": "Mio.",
+          "color": "#c62828",
+          "items": [
+            {
+              "label": "2020",
+              "value": 47.4
+            },
+            {
+              "label": "2035",
+              "value": 40.2
+            },
+            {
+              "label": "2060",
+              "value": 31.4
+            }
+          ],
+          "sourceRefs": [
+            "iab-zuwanderung-400000"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Laut Prognose des Instituts für Arbeitsmarkt- und Berufsforschung (IAB) wächst das Erwerbspersonenpotenzial 2025 noch leicht und sinkt 2026 erstmals demografiebedingt. Anders als die konjunkturabhängige Fachkräftelücke ist dieser Rückgang langfristig angelegt — durch höhere Erwerbsbeteiligung und Zuwanderung abfederbar, aber in der Grundtendenz nicht aufzuhalten.",
+          "sourceRefs": [
+            "iab-prognose-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mangel-oder-lohn",
+      "title": "Echter Mangel oder nur ein Lohnproblem?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ein verbreiteter Einwand kommt von Ökonomen selbst: Bei echter Knappheit müssten die Löhne in Mangelberufen kräftig steigen — tun sie das nicht, sei der ‚Mangel' überzeichnet. Prominent vertreten haben diese These IZA-Direktor Simon Jäger und ifo-Präsident Clemens Fuest, die höhere Löhne als marktwirtschaftliche Antwort fordern. Der Gedanke hat einen wahren Kern: Wo das Arbeitsangebot elastisch ist, lockt mehr Geld zusätzliche Kräfte an.",
+          "sourceRefs": [
+            "bpb-hoehere-loehne",
+            "iw-koeln-loehne-keine-loesung"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Offene Stellen und Arbeitslose nach Qualifikation (Ø 2022)",
+          "items": [
+            {
+              "title": "Fachkräfte (qualifiziert)",
+              "rows": [
+                {
+                  "label": "Offene Stellen",
+                  "value": "1.339.000"
+                },
+                {
+                  "label": "Qualifizierte Arbeitslose",
+                  "value": "968.000"
+                },
+                {
+                  "label": "Rechnerische Lücke",
+                  "value": "−371.000"
+                }
+              ]
+            },
+            {
+              "title": "Helfer (ohne Abschluss)",
+              "rows": [
+                {
+                  "label": "Offene Stellen",
+                  "value": "244.000"
+                },
+                {
+                  "label": "Arbeitslose",
+                  "value": "1.278.000"
+                },
+                {
+                  "label": "Je Stelle",
+                  "value": "> 5 Arbeitslose"
+                }
+              ]
+            }
+          ],
+          "sourceRefs": [
+            "iw-koeln-loehne-keine-loesung"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hier liegt der Kern der Debatte: Bei Helfertätigkeiten gibt es ein Überangebot — dort wäre mehr Lohn tatsächlich ein wirksamer Hebel. Bei qualifizierten Fachkräften fehlen die Menschen aber schlicht: Auf Ebene der konkret geforderten Qualifikationen fehlten 2022 rechnerisch zwischen 371.000 und 630.000 Kräfte. Das IW Köln findet bei klassischen Ausbildungsberufen zudem keinen statistischen Zusammenhang zwischen Engpass und Lohnentwicklung — unter anderem, weil Tarifverträge die Bezahlung an Qualifikation und nicht an Knappheit knüpfen.",
+          "sourceRefs": [
+            "iw-koeln-loehne-keine-loesung"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Pflege ist das Gegenbeispiel zur reinen Lohnthese: Pflegefachkräfte verdienten im April 2023 mit 4.067 € (Krankenpflege) bzw. 3.920 € (Altenpflege) überdurchschnittlich — gut 200 bis 350 € mehr als der Schnitt aller Vollzeitbeschäftigten mit Berufsausbildung (3.714 €). Trotzdem bleibt die Lücke groß. Höhere Löhne allein schaffen keine zusätzlich ausgebildeten Pflegekräfte.",
+          "highlight": true,
+          "sourceRefs": [
+            "destatis-pflege-verdienst"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inlaendische-potenziale",
+      "title": "Ungenutzte Potenziale im Inland",
+      "content": [
+        {
+          "type": "text",
+          "text": "Bevor man auf Zuwanderung schaut, lohnt der Blick auf die Reserven im Inland. Laut Destatis umfasste die ‚Stille Reserve' 2025 rund 3,2 Millionen Menschen — Personen, die zwar arbeiten möchten, aber dem Arbeitsmarkt aktuell nicht als Arbeitslose zur Verfügung stehen. Zusammen mit Erwerbslosen ergibt sich ein ungenutztes Potenzial von fast 4,9 Millionen Menschen.",
+          "sourceRefs": [
+            "destatis-stille-reserve-2025"
+          ]
+        },
+        {
+          "type": "progress_stack",
+          "caption": "Hebbares Arbeitskräftepotenzial in Vollzeitäquivalenten (IAW-Modellrechnung)",
+          "segments": [
+            {
+              "label": "Längere Arbeitszeit bei Teilzeit",
+              "value": 1700000,
+              "sublabel": "v. a. Frauen ohne betreuungspflichtige Kinder"
+            },
+            {
+              "label": "Höhere Qualifizierung",
+              "value": 1175000,
+              "sublabel": "Aufstieg in höhere Anforderungsniveaus"
+            },
+            {
+              "label": "Menschen ohne Berufsabschluss",
+              "value": 609000,
+              "sublabel": "Nachqualifizierung"
+            },
+            {
+              "label": "Personen mit Migrationshintergrund",
+              "value": 432000,
+              "sublabel": "höhere Erwerbsbeteiligung"
+            },
+            {
+              "label": "Arbeitnehmende ab 50",
+              "value": 414000,
+              "sublabel": "längeres Erwerbsleben"
+            }
+          ],
+          "total": "≈ 4,3 Mio. Vollzeitäquivalente (Modellannahmen)",
+          "sourceRefs": [
+            "iaw-teilzeitpotenzial"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Bei den Älteren wird dieses Potenzial bereits stark genutzt: Die Erwerbstätigenquote der 60- bis 64-Jährigen stieg von 53 % (2015) auf 68 % (2025) — der größte Anstieg aller Altersgruppen. Viel zusätzlicher Spielraum nach oben ist hier also schon ausgeschöpft.",
+          "highlight": true,
+          "sourceRefs": [
+            "destatis-erwerbstaetigkeit-aeltere"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die Potenziale sind real, aber kein Selbstläufer. Das Teilzeit-Potenzial hängt an Kinderbetreuung und steuerlichen Anreizen (siehe Thema Teilzeit), nicht an fehlendem Willen. Und die Qualifizierungsreserve ist groß: 19 % der 20- bis 34-Jährigen hatten 2023 keinen Berufsabschluss. Diese Menschen für Engpassberufe zu gewinnen, ist anspruchsvoller, als eine Zahl es nahelegt.",
+          "sourceRefs": [
+            "bibb-ohne-berufsabschluss"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zuwanderung",
+      "title": "Zuwanderung: Notwendigkeit und Grenzen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Selbst wenn man alle inländischen Potenziale hebt, reicht das rechnerisch nicht aus, um die demografische Lücke zu schließen. Die Bertelsmann Stiftung beziffert den nötigen jährlichen Zustrom auf 288.000 bis 368.000 Arbeitskräfte bis 2040. Tatsächlich lag die Nettozuwanderung 2024 bei rund 430.000 Personen — nach einem Ausnahmejahr 2023 (663.000) deutlich rückläufig, aber weiterhin im benötigten Bereich.",
+          "sourceRefs": [
+            "bertelsmann-zuwanderung-arbeitsmarkt",
+            "demografie-portal-nettozuwanderung-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Ohne Zuwanderung würde die Beschäftigung längst schrumpfen: Von 2015 bis 2024 stieg die Zahl der sozialversicherungspflichtig Beschäftigten um 4,0 Millionen — davon entfielen 2,7 Millionen auf ausländische und nur 1,3 Millionen auf deutsche Beschäftigte. In der Pflege wird das Beschäftigungswachstum inzwischen ausschließlich von ausländischen Kräften getragen.",
+          "highlight": true,
+          "sourceRefs": [
+            "iab-auslaendische-beschaeftigte-2025"
+          ]
+        },
+        {
+          "type": "timeline",
+          "caption": "Fachkräfteeinwanderungsgesetz: Inkrafttreten in Stufen",
+          "steps": [
+            {
+              "label": "Nov 2023",
+              "value": "Stufe 1: Blaue Karte EU, niedrigere Gehaltsschwellen"
+            },
+            {
+              "label": "März 2024",
+              "value": "Stufe 2: Erfahrungssäule und Anerkennungspartnerschaft"
+            },
+            {
+              "label": "Juni 2024",
+              "value": "Stufe 3: Chancenkarte mit Punktesystem",
+              "sublabel": "mind. 6 Punkte; Westbalkan-Kontingent auf 50.000 verdoppelt",
+              "highlight": true
+            }
+          ],
+          "sourceRefs": [
+            "bmi-chancenkarte-punktesystem"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Zuwanderung ist also notwendig, aber kein Selbstläufer. Die Anerkennung ausländischer Abschlüsse wächst zwar (2024: 79.100 positive Bescheide, +21 %), bleibt aber durch föderale Zuständigkeiten und lange Verfahren ein Nadelöhr. Ende 2023 hatten rund 419.000 Menschen aus Nicht-EU-Staaten einen Aufenthaltstitel zur Erwerbstätigkeit. Entscheidend ist, dass die mitgebrachten Qualifikationen zu den Engpässen passen — sonst entsteht Zuwanderung in Arbeitslosigkeit statt in Mangelberufe.",
+          "sourceRefs": [
+            "destatis-anerkennung-2024",
+            "destatis-erwerbsmigration-2023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automatisierung",
+      "title": "Lösen KI und Roboter das Problem?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Eine verbreitete Hoffnung lautet: Automatisierung und Künstliche Intelligenz machen den Fachkräftemangel überflüssig. Die Forschung des IAB dämpft diese Erwartung — und zwar ausgerechnet dort, wo der Mangel am größten ist. Denn die Engpassberufe gehören zu den am schwersten automatisierbaren Tätigkeiten.",
+          "sourceRefs": [
+            "iab-substituierbarkeit-2024"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Substituierbarkeitspotenzial nach Berufssegment (IAB, 2022)",
+          "headers": [
+            "Berufssegment",
+            "Automatisierbar"
+          ],
+          "rows": [
+            [
+              "Fertigungsberufe",
+              "87,9 %"
+            ],
+            [
+              "Bau- und Ausbauberufe",
+              "42,5 %"
+            ],
+            [
+              "Gesundheitsberufe",
+              "26,5 %"
+            ],
+            [
+              "Soziale und kulturelle Berufe (inkl. Erziehung)",
+              "13,5 %"
+            ]
+          ],
+          "sourceRefs": [
+            "iab-substituierbarkeit-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Das IAB warnt ausdrücklich, das Potenzial der KI zur Linderung von Fachkräfteengpässen ‚nicht zu überschätzen'. Pflege, Erziehung und Sozialarbeit lassen sich kaum durch Maschinen ersetzen — oft auch aus ethischen oder rechtlichen Gründen. Bei IT-Berufen ist sogar offen, ob KI den Engpass lindert oder durch steigende Nachfrage nach KI-Lösungen weiter verschärft.",
+          "highlight": true,
+          "sourceRefs": [
+            "iab-substituierbarkeit-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "KI kann produktiver machen und damit Druck aus dem Mangel nehmen — aber in Maßen. Das IW Köln erwartet durch KI ein Produktivitätswachstum von 0,9 % pro Jahr (2025–2030) und 1,2 % (2030–2040). Das wäre eine spürbare Verbesserung, erreicht aber nur das ohnehin schwache Niveau der 2000er Jahre. Ein ‚Produktivitätswunder', das die fehlenden Millionen Arbeitskräfte ersetzt, ist nicht in Sicht.",
+          "sourceRefs": [
+            "iw-koeln-ki-produktivitaet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "massnahmen",
+      "title": "Was tatsächlich hilft",
+      "content": [
+        {
+          "type": "text",
+          "text": "Es gibt keinen einzelnen Hebel gegen den Fachkräftemangel — und genau das macht die Debatte anfällig für Scheinlösungen. Die Fachkräftestrategie der Bundesregierung (2022) setzt deshalb auf fünf Handlungsfelder gleichzeitig: zeitgemäße Ausbildung, gezielte Weiterbildung, höhere Erwerbsbeteiligung (Frauen, Ältere, Menschen mit Behinderung), bessere Arbeitsbedingungen sowie eine modernisierte Einwanderung.",
+          "sourceRefs": [
+            "bmas-fachkraeftestrategie-2022"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Schon bei der Ausbildung zeigt sich, dass es kein reines Mengenproblem ist, sondern ein Passungsproblem: Zum Stichtag 30.09.2024 standen 69.400 unbesetzten Ausbildungsstellen 70.400 unversorgte Bewerber gegenüber. Angebot und Nachfrage existieren — sie finden nur regional und fachlich oft nicht zusammen.",
+          "highlight": true,
+          "sourceRefs": [
+            "bibb-ausbildungsmarkt-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Wirksam ist deshalb ein Bündel: inländische Potenziale heben (Teilzeit, Ältere, Stille Reserve), konsequent nach- und weiterqualifizieren, die Ausbildung attraktiver und passgenauer machen sowie qualifizierte Zuwanderung erleichtern. Keine dieser Maßnahmen allein schließt die Lücke — und die demografische Grundtendenz lässt sich abfedern, aber nicht aufheben. Wer eine einfache Patentlösung verspricht, vereinfacht das Problem unzulässig.",
+          "sourceRefs": [
+            "bmas-fachkraeftestrategie-2022",
+            "iab-zuwanderung-400000"
+          ]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "kein-mangel-nur-lohn",
+      "claim": "Einen Fachkräftemangel gibt es gar nicht — die Firmen wollen nur nicht anständig zahlen!",
+      "response": "Bei einfachen Tätigkeiten steckt ein wahrer Kern darin: Wo viele Arbeitslose auf wenige Stellen kommen, wären höhere Löhne tatsächlich ein wirksamer Hebel — auf eine Helferstelle kamen 2022 mehr als fünf Arbeitslose. Bei qualifizierten Fachkräften ist es umgekehrt: Dort fehlten rechnerisch 371.000 bis 630.000 Menschen (2022), und in der gut bezahlten Pflege bleibt die Lücke trotz überdurchschnittlicher Löhne groß. Geld allein schafft keine zusätzlich ausgebildeten Fachkräfte. Der Mangel ist also echt — aber gezielt, nicht flächendeckend.",
+      "keywords": [
+        "kein Mangel",
+        "Löhne",
+        "Bezahlung",
+        "Arbeitgeber",
+        "Lohndumping"
+      ],
+      "relatedSections": [
+        "mangel-oder-lohn",
+        "ausmass"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole verallgemeinert einen Effekt, der nur für Helfertätigkeiten gilt, auf den ganzen Arbeitsmarkt und deutet ein strukturelles Passungsproblem in reine Lohndrückerei um. Sie unterschlägt, dass bei qualifizierten Berufen schlicht die Menschen fehlen — auch dort, wo gut gezahlt wird.",
+      "counterQuestions": [
+        "Wenn es nur am Lohn liegt: Warum fehlen dann auch in der überdurchschnittlich bezahlten Pflege die Leute?",
+        "Wo genau sollen die zusätzlichen ausgebildeten Pflegekräfte oder Elektriker herkommen, wenn der Lohn steigt?",
+        "Gilt dein Argument für jeden Beruf gleich — oder nur für Tätigkeiten, die man schnell anlernen kann?"
+      ]
+    },
+    {
+      "id": "genug-arbeitslose",
+      "claim": "Wir haben doch genug Arbeitslose, die sollen mal arbeiten!",
+      "response": "Es stimmt, dass gleichzeitig Millionen Menschen arbeitslos sind und Stellen offen bleiben — das wirkt paradox. Der Grund ist ein Passungsproblem: Laut Bundesagentur für Arbeit suchte nur rund ein Viertel der arbeitslosen Fachkräfte überhaupt in einem Engpassberuf. Wer als Helfer ohne Abschluss gemeldet ist, kann eine offene Stelle für examinierte Pflegekräfte oder Elektriker nicht einfach besetzen. Es fehlt also nicht der Wille, sondern die passende Qualifikation am passenden Ort — deshalb hilft Qualifizierung mehr als Vorwürfe.",
+      "keywords": [
+        "Arbeitslose",
+        "Bürgergeld",
+        "arbeiten gehen",
+        "Vermittlung",
+        "Faulheit"
+      ],
+      "relatedSections": [
+        "mangel-oder-lohn",
+        "engpassberufe"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Aussage setzt Arbeitslosigkeit mit Unwilligkeit gleich und unterstellt, jede arbeitslose Person sei für jede offene Stelle einsetzbar. Sie ignoriert den qualifikatorischen und regionalen Mismatch, der den eigentlichen Engpass ausmacht.",
+      "counterQuestions": [
+        "Kann ein arbeitsloser Helfer ohne Ausbildung eine Stelle als examinierte Pflegekraft übernehmen?",
+        "Was bringt mehr: Druck auf Arbeitslose oder eine Umschulung in einen Engpassberuf?",
+        "Wenn es so einfach wäre — warum bleiben die Stellen trotz vieler Bewerber unbesetzt?"
+      ]
+    },
+    {
+      "id": "vorwand-fuer-zuwanderung",
+      "claim": "Der Fachkräftemangel ist nur ein Vorwand, um billige Ausländer ins Land zu holen!",
+      "response": "Die Zahlen sprechen gegen einen erfundenen Vorwand: Die Fachkräftelücke lag 2025 bei rund 370.000 Stellen, Engpässe gibt es in 163 Berufen, und die nicht ausgeschöpfte Wertschöpfung beziffert das IW Köln auf 49 Milliarden Euro. Dass ausländische Beschäftigte den Beschäftigungsaufbau tragen (von 2015 bis 2024 plus 2,7 Millionen), ist eine Folge des Mangels, nicht sein Zweck. Und ‚billig' trifft es nicht: In der Pflege etwa liegen die Löhne über dem Durchschnitt. Hinter dem Mangel steht die Demografie — bis 2039 gehen 13,4 Millionen Menschen in Rente.",
+      "keywords": [
+        "Vorwand",
+        "Ausländer",
+        "Lohndrücker",
+        "billige Arbeitskräfte",
+        "Zuwanderung"
+      ],
+      "relatedSections": [
+        "ausmass",
+        "demografie",
+        "zuwanderung"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole unterstellt eine verdeckte Absicht (Lohndrückerei durch Zuwanderung) und erklärt damit belegte Daten zur reinen Inszenierung. Sie verwechselt eine Folge des Mangels — mehr ausländische Beschäftigte — mit dessen angeblichem Zweck.",
+      "counterQuestions": [
+        "Wenn der Mangel nur ein Vorwand wäre — wie erklärst du dann die 13,4 Millionen Babyboomer, die bis 2039 in Rente gehen?",
+        "Wenn der Mangel erfunden ist: Warum verliert die Wirtschaft dann laut IW 49 Milliarden Euro an unausgeschöpfter Produktion?",
+        "Sind überdurchschnittlich bezahlte Pflegekräfte wirklich ‚billige Arbeitskräfte'?"
+      ]
+    },
+    {
+      "id": "alle-vollzeit",
+      "claim": "Wenn alle Vollzeit arbeiten würden, bräuchten wir keine Zuwanderung!",
+      "response": "Die inländischen Reserven sind tatsächlich groß: Würden mehr Teilzeitkräfte aufstocken und weitere Gruppen stärker mitarbeiten, ließen sich modellhaft bis zu rund 4,3 Millionen Vollzeitäquivalente heben. Das ist viel — aber es steht gegen einen demografischen Rückgang von 7,2 Millionen Erwerbspersonen allein bis 2035. Hinzu kommt: Teilzeit lässt sich nicht per Dekret abschaffen, sie hängt an Kinderbetreuung und Pflege. Realistisch braucht es beides — mehr inländische Beteiligung und Zuwanderung —, nicht ein Entweder-oder.",
+      "keywords": [
+        "Vollzeit",
+        "Teilzeit",
+        "ohne Zuwanderung",
+        "inländisches Potenzial",
+        "Aufstocken"
+      ],
+      "relatedSections": [
+        "inlaendische-potenziale",
+        "demografie",
+        "zuwanderung"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Aussage stellt zwei Lösungen als sich ausschließend dar (falsche Dichotomie) und überschätzt das inländische Potenzial gegenüber der demografischen Lücke. Sie behandelt Teilzeit zudem als freie Verweigerung, die man einfach beenden könnte.",
+      "counterQuestions": [
+        "Reichen 4,3 Millionen hebbare Vollzeitstellen gegen 7,2 Millionen wegfallende Erwerbspersonen?",
+        "Wer betreut Kinder und Pflegebedürftige, wenn alle in Vollzeit gehen sollen?",
+        "Warum sollte man inländische Potenziale und Zuwanderung gegeneinander ausspielen, statt beides zu nutzen?"
+      ]
+    },
+    {
+      "id": "babyboomer-kollaps",
+      "claim": "Die Babyboomer gehen in Rente — dann bricht alles zusammen.",
+      "response": "Die Sorge hat eine reale Grundlage: Bis 2039 erreichen 13,4 Millionen Erwerbspersonen das Rentenalter, und 2026 sinkt das Erwerbspersonenpotenzial erstmals demografiebedingt. Das ist der härteste Kern des Fachkräftemangels. ‚Alles bricht zusammen' überzeichnet aber: Höhere Erwerbsbeteiligung Älterer (die Quote der 60- bis 64-Jährigen stieg bereits von 53 auf 68 %), Zuwanderung und Produktivitätsgewinne federn den Rückgang ab. Es droht kein Kollaps, aber ein langer, spürbarer Anpassungsdruck.",
+      "keywords": [
+        "Babyboomer",
+        "Rente",
+        "Demografie",
+        "Kollaps",
+        "Überalterung"
+      ],
+      "relatedSections": [
+        "demografie",
+        "inlaendische-potenziale"
+      ],
+      "verdict": "mostly-true",
+      "rhetoricalPattern": "Die Aussage benennt einen realen Trend, dramatisiert ihn aber zur Katastrophe und blendet die vorhandenen Stellschrauben aus. Aus einem beherrschbaren Anpassungsproblem wird so ein unausweichlicher Zusammenbruch.",
+      "counterQuestions": [
+        "Wenn der Trend bekannt ist — welche Gegenmaßnahmen laufen bereits, etwa bei der Erwerbsbeteiligung Älterer?",
+        "Heißt ‚weniger Erwerbspersonen' automatisch ‚Zusammenbruch', oder kommt es auch auf Produktivität an?",
+        "Was wäre der Unterschied zwischen einem Kollaps und einem langsamen, gestaltbaren Wandel?"
+      ]
+    },
+    {
+      "id": "nur-akademiker-gejammer",
+      "claim": "Fachkräftemangel betrifft nur Akademiker — und die Wirtschaft jammert sowieso nur.",
+      "response": "Dass Interessenverbände gern dramatisieren, ist ein berechtigter Verdacht — hier deckt sich die Klage aber mit unabhängigen Daten. Und der Mangel trifft vor allem die praktischen Ausbildungsberufe, nicht die Hörsäle: 61 % der Fachkräftelücke entfallen auf Menschen mit abgeschlossener Berufsausbildung, die größten Engpässe liegen in Bauelektrik, Alten- und Krankenpflege, Erziehung und Kfz-Technik. Akademische Berufe sind am wenigsten betroffen. Dass es nicht bloß Gejammer ist, zeigt der reale Schaden: Das Institut der deutschen Wirtschaft (IW) beziffert die 2024 nicht ausgeschöpfte Produktion auf 49 Milliarden Euro.",
+      "keywords": [
+        "Akademiker",
+        "Handwerk",
+        "Gejammer",
+        "Wirtschaft",
+        "Studium"
+      ],
+      "relatedSections": [
+        "engpassberufe",
+        "ausmass"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Die Parole verschiebt das Problem auf eine kleine, wohlhabende Gruppe (Akademiker) und entwertet es als Klage interessierter Kreise. Sie ignoriert, dass der Engpass gerade die handwerklichen und sozialen Ausbildungsberufe trifft.",
+      "counterQuestions": [
+        "Wenn nur Akademiker betroffen sind — warum fehlen dann zuerst Elektriker, Pflegekräfte und Erzieher?",
+        "Wenn du an die letzte Wartezeit auf einen Handwerker oder einen Pflegeplatz denkst — wirkt der Mangel da wie bloßes Gejammer?",
+        "Sind 49 Milliarden Euro nicht ausgeschöpfter Produktion wirklich nur ‚Gejammer'?"
+      ]
+    },
+    {
+      "id": "zuwanderung-loest-alles",
+      "claim": "Zuwanderung löst den Fachkräftemangel.",
+      "response": "Zuwanderung ist notwendig — ohne sie würde die Beschäftigung längst schrumpfen, und es braucht jährlich grob 290.000 bis 370.000 Arbeitskräfte von außen. Aber sie löst das Problem nicht im Alleingang. Entscheidend ist, dass die Qualifikationen zu den Engpässen passen: Die Anerkennung ausländischer Abschlüsse bleibt durch Bürokratie und föderale Zuständigkeiten ein Nadelöhr. Zuwanderung wirkt nur als ein Baustein neben Qualifizierung, höherer Erwerbsbeteiligung und besserer Ausbildung — nicht als alleinige Lösung.",
+      "keywords": [
+        "Zuwanderung",
+        "Migration",
+        "Fachkräfteeinwanderung",
+        "Lösung",
+        "Anerkennung"
+      ],
+      "relatedSections": [
+        "zuwanderung",
+        "inlaendische-potenziale"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Aussage erklärt einen notwendigen Baustein zur Komplettlösung und blendet die Voraussetzungen aus — passende Qualifikation, funktionierende Anerkennung, Integration. So entsteht der Eindruck eines Automatismus, den es nicht gibt.",
+      "counterQuestions": [
+        "Was passiert, wenn Zugewanderte zwar kommen, ihre Abschlüsse aber jahrelang nicht anerkannt werden?",
+        "Reicht Zuwanderung allein, oder müssen auch inländische Potenziale und Ausbildung mitziehen?",
+        "Wie stellt man sicher, dass die mitgebrachten Qualifikationen zu den offenen Stellen passen?"
+      ]
+    },
+    {
+      "id": "ki-macht-ueberfluessig",
+      "claim": "KI und Roboter machen den ganzen Fachkräftemangel sowieso überflüssig.",
+      "response": "KI wird die Arbeitswelt verändern und kann produktiver machen — gegen den Fachkräftemangel hilft sie aber ausgerechnet dort am wenigsten, wo er am größten ist. Pflege, Erziehung und Sozialarbeit haben mit 13 bis 27 % das niedrigste Automatisierungspotenzial; das Institut für Arbeitsmarkt- und Berufsforschung (IAB) warnt ausdrücklich davor, die Entlastung durch KI ‚zu überschätzen'. Bei IT-Berufen könnte der Engpass durch steigende KI-Nachfrage sogar zunehmen. Realistisch bringt KI moderate Produktivitätsgewinne (rund 1 % pro Jahr), aber keinen Ersatz für Millionen fehlende Kräfte.",
+      "keywords": [
+        "KI",
+        "Roboter",
+        "Automatisierung",
+        "Digitalisierung",
+        "überflüssig"
+      ],
+      "relatedSections": [
+        "automatisierung",
+        "engpassberufe"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole überträgt ein allgemeines Versprechen (KI ersetzt Arbeit) pauschal auf die Engpassberufe, obwohl gerade diese kaum automatisierbar sind. Sie verwechselt technisches Potenzial mit tatsächlicher, kurzfristiger Entlastung.",
+      "counterQuestions": [
+        "Welcher Roboter übernimmt die Grundpflege im Altenheim oder die Betreuung in der Kita?",
+        "Wenn KI die Lösung ist — warum dämpft ausgerechnet das Arbeitsmarkt-Forschungsinstitut die Erwartung?",
+        "Kann es sein, dass KI bei IT-Berufen den Bedarf eher erhöht als senkt?"
+      ]
+    },
+    {
+      "id": "genug-ausbildung",
+      "claim": "Wir bilden doch genug aus — das Problem ist hausgemacht.",
+      "response": "An der Diagnose ist etwas dran: Es ist tatsächlich auch ein hausgemachtes Passungsproblem. Zum Stichtag 30.09.2024 blieben 69.400 Ausbildungsstellen unbesetzt, während gleichzeitig 70.400 Bewerber unversorgt waren — Angebot und Nachfrage finden regional und fachlich nicht zusammen. Hinzu kommt, dass 19 % der jungen Erwachsenen keinen Berufsabschluss haben. Bessere Berufsorientierung, Mobilität und Attraktivität der Ausbildung helfen also wirklich. Aber selbst eine perfekte Ausbildung ändert nichts daran, dass demografisch schlicht weniger Junge nachrücken.",
+      "keywords": [
+        "Ausbildung",
+        "hausgemacht",
+        "Lehrstellen",
+        "Azubis",
+        "Berufsschule"
+      ],
+      "relatedSections": [
+        "massnahmen",
+        "inlaendische-potenziale"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Aussage benennt zu Recht das Matching-Problem bei der Ausbildung, verallgemeinert es aber zur Alleinursache (‚hausgemacht') und blendet den demografischen Rückgang der nachrückenden Jahrgänge aus.",
+      "counterQuestions": [
+        "Wenn genug ausgebildet wird — warum bleiben dann zugleich Zehntausende Lehrstellen und Bewerber ohne Match?",
+        "Wie viele zusätzliche Azubis kann man gewinnen, wenn die jungen Jahrgänge demografisch kleiner werden?",
+        "Welcher Teil ist hausgemacht (Matching, Attraktivität) und welcher schlicht Demografie?"
+      ]
+    },
+    {
+      "id": "laenger-arbeiten",
+      "claim": "Einfach alle länger arbeiten lassen — Rente mit 70, dann ist das Problem gelöst.",
+      "response": "Ältere länger im Job zu halten, hilft tatsächlich — und passiert längst: Die Erwerbstätigenquote der 60- bis 64-Jährigen ist von 53 % (2015) auf 68 % (2025) gestiegen. Genau deshalb ist das zusätzliche Potenzial begrenzt: Modellrechnungen sehen bei den über 50-Jährigen noch rund 414.000 Vollzeitäquivalente. Das steht gegen 7,2 Millionen wegfallende Erwerbspersonen bis 2035. Längeres Arbeiten ist ein sinnvoller Baustein, aber bei Weitem keine Komplettlösung — und körperlich belastende Engpassberufe wie die Pflege lassen sich nicht beliebig verlängern.",
+      "keywords": [
+        "Rente mit 70",
+        "länger arbeiten",
+        "Renteneintritt",
+        "Ältere",
+        "Lebensarbeitszeit"
+      ],
+      "relatedSections": [
+        "inlaendische-potenziale",
+        "demografie"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole verspricht von einem einzelnen Hebel die Lösung des gesamten Problems und ignoriert, dass das Potenzial Älterer schon weitgehend gehoben ist. Sie übersieht zudem, dass gerade belastende Engpassberufe sich nicht beliebig verlängern lassen.",
+      "counterQuestions": [
+        "Wenn die Erwerbsquote Älterer schon von 53 auf 68 % gestiegen ist — wie viel Spielraum bleibt da noch?",
+        "Reichen rund 414.000 zusätzliche Kräfte gegen 7,2 Millionen wegfallende Erwerbspersonen?",
+        "Soll eine 68-jährige Pflegekraft oder Dachdeckerin wirklich noch zwei Jahre länger arbeiten?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "iw-kofa-jahresrueckblick-2025",
+      "label": "IW Köln / KOFA – KOFA Kompakt 3/2026: Jahresrückblick 2025 (2026)",
+      "url": "https://www.iwkoeln.de/studien/jurek-tiedemann-gero-kunath-paula-risius-jahresrueckblick-2025-schwacher-arbeitsmarkt-erste-impulse-durch-sondervermoegen.html"
+    },
+    {
+      "id": "iw-kofa-jahresrueckblick-2024",
+      "label": "IW Köln / KOFA – KOFA Kompakt 2/2025: Jahresrückblick 2024 (2025)",
+      "url": "https://www.iwkoeln.de/studien/jurek-tiedemann-paula-risius-jahresrueckblick-2024-engpaesse-fuer-energiewende-trotz-sinkender-fachkraefteluecke.html"
+    },
+    {
+      "id": "ba-arbeitsmarkt-april-2026",
+      "label": "Bundesagentur für Arbeit – Der Arbeitsmarkt im April 2026 (2026)",
+      "url": "https://www.arbeitsagentur.de/presse/2026-15-arbeitsmarkt-im-april-2026"
+    },
+    {
+      "id": "iab-monitor-arbeitskraeftebedarf-2025",
+      "label": "IAB – IAB-Monitor Arbeitskräftebedarf 1/2025 (2025)",
+      "url": "https://iab-forum.de/iab-monitor-arbeitskraeftebedarf-1-2025/"
+    },
+    {
+      "id": "ba-engpassanalyse-2024",
+      "label": "Bundesagentur für Arbeit – Qualifizierte Fachkräfte weiterhin gesucht: Engpässe in 163 Berufen (Engpassanalyse 2024, 2025)",
+      "url": "https://www.arbeitsagentur.de/presse/2025-25-qualifizierte-fachkraefte-weiterhin-gesucht"
+    },
+    {
+      "id": "bitkom-it-fachkraefte-2025",
+      "label": "Bitkom – In Deutschland fehlen weiterhin mehr als 100.000 IT-Fachkräfte (2025)",
+      "url": "https://www.bitkom.org/Presse/Presseinformation/Deutschland-fehlen-IT-Fachkraefte"
+    },
+    {
+      "id": "iw-kosten-fachkraeftemangel-2024",
+      "label": "Institut der deutschen Wirtschaft (IW) – Fachkräftemangel: Wirtschaft verliert 49 Milliarden Euro (2024)",
+      "url": "https://www.iwkoeln.de/presse/pressemitteilungen/alexander-burstedde-galina-kolev-schaefer-wirtschaft-verliert-49-milliarden-euro.html"
+    },
+    {
+      "id": "destatis-rentenwelle-13mio",
+      "label": "Statistisches Bundesamt – 13,4 Millionen Erwerbspersonen erreichen in den nächsten 15 Jahren das gesetzliche Rentenalter (2025)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_N048_13.html"
+    },
+    {
+      "id": "iab-zuwanderung-400000",
+      "label": "IAB – Nur mit einer jährlichen Nettozuwanderung von 400.000 Personen bleibt das Arbeitskräfteangebot langfristig konstant (2021)",
+      "url": "https://iab.de/presseinfo/nur-mit-einer-jaehrlichen-nettozuwanderung-von-400-000-personen-bleibt-das-arbeitskraefteangebot-langfristig-konstant/"
+    },
+    {
+      "id": "iab-prognose-2026",
+      "label": "IAB – IAB-Prognose für 2025/2026: Arbeitsmarkt profitiert von Fiskalpaketen, wird aber durch den demografischen Wandel gebremst (2025)",
+      "url": "https://iab.de/presseinfo/iab-prognose-fuer-2025-2026-arbeitsmarkt-profitiert-von-fiskalpaketen-wird-aber-durch-den-demografischen-wandel-gebremst/"
+    },
+    {
+      "id": "destatis-aeltere-anteil-beschaeftigte",
+      "label": "Statistisches Bundesamt – Fast ein Viertel der Erwerbstätigen ist zwischen 55 und 64 Jahre alt (2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_N009_13.html"
+    },
+    {
+      "id": "iw-koeln-loehne-keine-loesung",
+      "label": "Institut der deutschen Wirtschaft – Fachkräftemangel: keine einfache Lösung durch höhere Löhne (IW-Kurzbericht 23/2023)",
+      "url": "https://www.iwkoeln.de/fileadmin/user_upload/Studien/Kurzberichte/PDF/2023/IW-Kurzbericht_2023-Fachkr%C3%A4ftemangel-h%C3%B6here-L%C3%B6hne.pdf"
+    },
+    {
+      "id": "bpb-hoehere-loehne",
+      "label": "Bundeszentrale für politische Bildung – Höhere Löhne gegen den Fachkräftemangel? (APuZ Fachkräftemangel, 2024)",
+      "url": "https://www.bpb.de/shop/zeitschriften/apuz/fachkraeftemangel-2024/548770/hoehere-loehne-gegen-den-fachkraeftemangel/"
+    },
+    {
+      "id": "destatis-pflege-verdienst",
+      "label": "Statistisches Bundesamt – Engpassberufe: Pflegefachkräfte verdienten im April 2023 überdurchschnittlich (2024)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/03/PD24_121_62.html"
+    },
+    {
+      "id": "destatis-stille-reserve-2025",
+      "label": "Statistisches Bundesamt – Ungenutztes Arbeitskräftepotenzial 2025: 1,7 Mio. Erwerbslose und 3,2 Mio. Personen in Stiller Reserve (2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_154_13.html"
+    },
+    {
+      "id": "iaw-teilzeitpotenzial",
+      "label": "IAW / Stiftung Familienunternehmen – Arbeitskräftepotenziale in Deutschland besser ausschöpfen (2024)",
+      "url": "https://www.familienunternehmen.de/de/news/weniger-teilzeit-koennte-1-7-millionen-zusaetzliche-vollzeitstellen-bringen"
+    },
+    {
+      "id": "destatis-erwerbstaetigkeit-aeltere",
+      "label": "Statistisches Bundesamt – Erwerbstätigkeit älterer Menschen (2026)",
+      "url": "https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aeltere-Menschen/erwerbstaetigkeit.html"
+    },
+    {
+      "id": "bibb-ohne-berufsabschluss",
+      "label": "BIBB – Nicht formal Qualifizierte: 19 % der 20- bis 34-Jährigen ohne Berufsabschluss (Datenreport 2024, Bezugsjahr 2023)",
+      "url": "https://www.bibb.de/de/212956.php"
+    },
+    {
+      "id": "bertelsmann-zuwanderung-arbeitsmarkt",
+      "label": "Bertelsmann Stiftung – Deutschland braucht weiter Zuwanderung, um den Bedarf an Arbeitskräften bis 2040 zu decken (2024)",
+      "url": "https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Presse/20241126_Pressemitteilung_Deutschland-braucht-weiter-Zuwanderung-um-den-Bedarf-an-Arbeitskraeften-bis-2040-zu-decken.pdf"
+    },
+    {
+      "id": "demografie-portal-nettozuwanderung-2024",
+      "label": "Demografie-Portal des Bundes / Destatis – Nettozuwanderung 2024 auf 430.000 Personen gesunken (2025)",
+      "url": "https://www.demografie-portal.de/DE/Bund-Laender/Meldungen/2025/250624-bund-nettozuwanderung-2024-auf-430000-Personen-gesunken.html"
+    },
+    {
+      "id": "iab-auslaendische-beschaeftigte-2025",
+      "label": "IAB – Demografischer Wandel und Arbeitskräftemangel (IAB-Kurzbericht 8/2025)",
+      "url": "https://doku.iab.de/kurzber/2025/kb2025-08.pdf"
+    },
+    {
+      "id": "bmi-chancenkarte-punktesystem",
+      "label": "BMI – Punktesystem für die Chancenkarte: Fachkräfteeinwanderungsgesetz tritt in Stufen in Kraft (2024)",
+      "url": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2024/05/chancenkarte-feg.html"
+    },
+    {
+      "id": "destatis-anerkennung-2024",
+      "label": "Statistisches Bundesamt – 21 % mehr Anerkennungen ausländischer Berufsabschlüsse im Jahr 2024 (2025)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_321_212.html"
+    },
+    {
+      "id": "destatis-erwerbsmigration-2023",
+      "label": "Statistisches Bundesamt – Erwerbsmigration im Jahr 2023 erneut stark gestiegen (2024)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/05/PD24_177_125.html"
+    },
+    {
+      "id": "iab-substituierbarkeit-2024",
+      "label": "IAB – Folgen des technologischen Wandels: Substituierbarkeitspotenziale von Berufen (IAB-Kurzbericht 5/2024)",
+      "url": "https://doku.iab.de/kurzber/2024/kb2024-05.pdf"
+    },
+    {
+      "id": "iw-koeln-ki-produktivitaet",
+      "label": "Institut der deutschen Wirtschaft – Wie wird KI die Produktivität in Deutschland verändern? (2025)",
+      "url": "https://www.iwkoeln.de/studien/vera-demary-michael-groemling-christian-kestermann-marc-scheufen-stefanie-seele-oliver-stettes-marco-trenz-wie-wird-ki-die-produktivitaet-in-deutschland-veraendern.html"
+    },
+    {
+      "id": "bmas-fachkraeftestrategie-2022",
+      "label": "BMAS – Kabinett beschließt Fachkräftestrategie der Bundesregierung (2022)",
+      "url": "https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2022/fachkraeftestrategie-vom-kabinett-beschlossen.html"
+    },
+    {
+      "id": "bibb-ausbildungsmarkt-2024",
+      "label": "BIBB – Die Entwicklung des Ausbildungsmarktes im Jahr 2024 (2024)",
+      "url": "https://www.bibb.de/de/201811.php"
+    }
+  ],
+  "relatedTopicIds": [
+    "teilzeit",
+    "ki-arbeitsmarkt",
+    "migration"
+  ]
+}
