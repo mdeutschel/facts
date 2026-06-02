@@ -161,6 +161,15 @@
       "lastUpdated": "2026-06-01",
       "factCount": 9,
       "argumentCount": 11
+    },
+    {
+      "id": "wissenschaftsskepsis",
+      "title": "Vertrauen in die Wissenschaft",
+      "subtitle": "Fakten zu Vertrauen, Konsens, Replikationskrise, Interessenkonflikten und ‚Eigenrecherche'",
+      "icon": "science",
+      "lastUpdated": "2026-06-02",
+      "factCount": 7,
+      "argumentCount": 9
     }
   ]
 }
