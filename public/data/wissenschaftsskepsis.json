@@ -1,0 +1,679 @@
+{
+  "id": "wissenschaftsskepsis",
+  "title": "Vertrauen in die Wissenschaft",
+  "subtitle": "Fakten zu Vertrauen, Konsens, Replikationskrise, Interessenkonflikten und ‚Eigenrecherche'",
+  "seoTitle": "Wissenschaftsskepsis: Kann man der Wissenschaft trauen? — Faktencheck",
+  "seoDescription": "Widersprechen sich Studien ständig? Ist Forschung gekauft? 9 typische Zweifel an der Wissenschaft — mit Daten zu Vertrauen, Klimakonsens und Replikationskrise, belegt und nachprüfbar.",
+  "icon": "science",
+  "lastUpdated": "2026-06-02",
+  "keyStats": [
+    "55 % vertrauen der Wissenschaft (2024)",
+    "97–99 % Klimakonsens in Fachartikeln",
+    "Nur 36 % Replikationsrate in der Psychologie",
+    "9 Argumente"
+  ],
+  "sourceNote": "Basierend auf Daten von Wissenschaft im Dialog (Wissenschaftsbarometer), dem Edelman Trust Barometer, der US-amerikanischen National Academy of Sciences, der Open Science Collaboration, Cochrane, dem Statistischen Bundesamt sowie Studien u. a. von Cook et al., Lynas et al., Kearns et al., Diethelm & McKee und Aslett et al. (Stand 2009–2025).",
+  "sections": [
+    {
+      "id": "vertrauen-in-zahlen",
+      "title": "Vertrauen in Zahlen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Das Vertrauen in die Wissenschaft ist in Deutschland seit Jahren mehrheitlich stabil, schwankt aber mit dem Zeitgeschehen. Im Wissenschaftsbarometer — der jährlichen Bevölkerungsbefragung von Wissenschaft im Dialog — gaben 2024 rund 55 % an, der Wissenschaft eher oder voll zu vertrauen. Das ist deutlich mehr als das Vertrauen in viele andere Institutionen, aber kein bedingungsloser Freibrief.",
+          "sourceRefs": [
+            "wissenschaft-im-dialog-barometer-2024"
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Vertrauen in Wissenschaft und Forschung in Deutschland (Wissenschaftsbarometer)",
+          "items": [
+            { "label": "2017", "value": 50 },
+            { "label": "2018", "value": 54 },
+            { "label": "2019", "value": 46 },
+            { "label": "2020", "value": 60 },
+            { "label": "2021", "value": 61 },
+            { "label": "2022", "value": 62 },
+            { "label": "2023", "value": 56 },
+            { "label": "2024", "value": 55 }
+          ],
+          "unit": "%",
+          "sourceRefs": [
+            "wissenschaft-im-dialog-barometer-2021",
+            "wissenschaft-im-dialog-barometer-2023",
+            "wissenschaft-im-dialog-barometer-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "In der Frühphase der Corona-Pandemie stieg das Vertrauen sprunghaft: Im April 2020 vertrauten 73 % der Wissenschaft — der höchste je gemessene Wert.",
+          "highlight": true,
+          "sourceRefs": [
+            "wissenschaft-im-dialog-corona-spezial-2020"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Wissenschaftler",
+              "value": "77 %",
+              "sublabel": "Edelman 2024 (global)"
+            },
+            {
+              "label": "Journalisten",
+              "value": "49 %",
+              "sublabel": "Edelman 2024 (global)"
+            },
+            {
+              "label": "Regierungschefs",
+              "value": "42 %",
+              "sublabel": "Edelman 2024 (global)"
+            },
+            {
+              "label": "Vertrauen Klima-Aussagen",
+              "value": "59 %",
+              "sublabel": "2024 (2016: 39 %)"
+            }
+          ],
+          "sourceRefs": [
+            "edelman-trust-barometer-2024",
+            "wissenschaft-im-dialog-barometer-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Wissenschaftler genießen damit international klar mehr Vertrauen als Politik oder Medien; eine pauschale Vertrauenskrise lässt sich aus den Daten nicht ableiten. Gleichzeitig ist das Vertrauen nicht gleich verteilt: Es hängt von Bildung, politischer Orientierung und Thema ab — und das Vertrauen in einzelne Aussagen (etwa zum Klimawandel) ist über die Jahre sogar gewachsen.",
+          "sourceRefs": [
+            "edelman-trust-barometer-2024",
+            "wissenschaft-im-dialog-barometer-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wie-wissenschaft-funktioniert",
+      "title": "Wie Wissenschaft funktioniert",
+      "content": [
+        {
+          "type": "text",
+          "text": "Viele Missverständnisse über die Wissenschaft entstehen aus einer falschen Erwartung: Wissenschaft liefere fertige, endgültige Wahrheiten. Tatsächlich ist sie ein Verfahren, das Wissen schrittweise prüft, eingrenzt und bei Bedarf korrigiert. Eine einzelne Studie ist immer vorläufig — verlässlich wird Wissen erst durch das Zusammenspiel vieler unabhängiger Befunde."
+        },
+        {
+          "type": "timeline",
+          "caption": "Wie aus einer Idee belastbares Wissen wird",
+          "steps": [
+            {
+              "label": "Hypothese",
+              "value": "Begründete Vermutung, aus der sich überprüfbare Vorhersagen ableiten lassen"
+            },
+            {
+              "label": "Studie & Daten",
+              "value": "Kontrollierte Überprüfung an der Realität"
+            },
+            {
+              "label": "Peer Review",
+              "value": "Begutachtung durch unabhängige Fachleute vor der Veröffentlichung",
+              "highlight": true
+            },
+            {
+              "label": "Replikation",
+              "value": "Unabhängige Wiederholung durch andere Forschungsgruppen"
+            },
+            {
+              "label": "Konsens",
+              "value": "Verdichtung vieler Befunde zum belastbaren Forschungsstand",
+              "highlight": true
+            }
+          ],
+          "sourceRefs": [
+            "iwh-peer-review-definition",
+            "nas-reproduzierbarkeit-2019"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Eine wissenschaftliche ‚Theorie' ist keine bloße Vermutung, sondern laut der US-amerikanischen National Academy of Sciences eine ‚gut belegte Erklärung eines Aspekts der natürlichen Welt', die Fakten, Gesetze und geprüfte Hypothesen zusammenführt.",
+          "highlight": true,
+          "sourceRefs": [
+            "nas-definition-theorie"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Dass die Wissenschaft ihre Aussagen revidiert, wenn neue Evidenz vorliegt, ist kein Mangel, sondern ihr Kern: Ein Befund gewinnt erst dann Vertrauen, wenn er wiederholter Prüfung standhält. Das Verfahren ist darauf ausgelegt, eigene Fehler zu finden — nicht, sie zu vermeiden.",
+          "sourceRefs": [
+            "nas-reproduzierbarkeit-2019"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "replikationskrise",
+      "title": "Die Replikationskrise",
+      "content": [
+        {
+          "type": "text",
+          "text": "Seit etwa 2011 ist klar: Nicht jeder publizierte Befund lässt sich wiederholen. Besonders in Teilen der Psychologie und der biomedizinischen Forschung scheiterten Replikationsversuche häufiger als erwartet. Das ist ein ernstes Problem — aber eines, das die Wissenschaft selbst entdeckt, benannt und untersucht hat.",
+          "sourceRefs": [
+            "open-science-collaboration-2015"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Psychologie repliziert",
+              "value": "36 %",
+              "sublabel": "von 100 Studien (Originale: 97 %)"
+            },
+            {
+              "label": "Krebsbiologie repliziert",
+              "value": "40 %",
+              "sublabel": "positive Effekte (39 von 97)"
+            },
+            {
+              "label": "Journals mit Präregistrierung",
+              "value": "300+",
+              "sublabel": "Registered Reports"
+            }
+          ],
+          "sourceRefs": [
+            "open-science-collaboration-2015",
+            "elife-krebsbiologie-2021",
+            "cos-registered-reports"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Replikationskrise wurde nicht von Kritikern der Wissenschaft aufgedeckt, sondern von Forschenden selbst — in großangelegten, kooperativen Replikationsprojekten.",
+          "highlight": true,
+          "sourceRefs": [
+            "open-science-collaboration-2015"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Dass die Wissenschaft ihre eigenen Schwächen sucht, offenlegt und korrigiert, ist Selbstkontrolle in Aktion. Die Reaktion war Reform, nicht Vertuschung: Über 300 Fachzeitschriften nutzen heute das Format der Registered Reports, bei dem die Methodik einer Studie schon vor der Datenerhebung begutachtet und angenommen wird — das nimmt den Anreiz, Ergebnisse im Nachhinein schönzurechnen.",
+          "sourceRefs": [
+            "cos-registered-reports"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "konsens-vs-dissens",
+      "title": "Konsens und echter Dissens",
+      "content": [
+        {
+          "type": "text",
+          "text": "‚Die Wissenschaftler sind sich nicht einig' ist ein beliebtes Argument — aber es vermischt zwei Dinge: den breiten Konsens über Grundfragen und die normale Uneinigkeit über Details. Bei vielen Themen ist die Grundlage praktisch unstrittig, während über Feinheiten weiter geforscht und gestritten wird."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "label": "Cook et al. 2013",
+              "value": "97,1 %",
+              "sublabel": "Zustimmung in 11.944 Fachartikeln"
+            },
+            {
+              "label": "Lynas et al. 2021",
+              "value": ">99 %",
+              "sublabel": "aus 88.125 untersuchten Papern"
+            }
+          ],
+          "sourceRefs": [
+            "cook-2013-klimakonsens",
+            "lynas-2021-klimakonsens"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Beim menschengemachten Klimawandel liegt der Konsens unter Fachleuten je nach Untersuchung zwischen 97 % und über 99 %. Uneinigkeit besteht über Details wie das exakte Tempo einzelner Effekte — nicht über die Grundursache.",
+          "highlight": true,
+          "sourceRefs": [
+            "cook-2013-klimakonsens",
+            "lynas-2021-klimakonsens"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Konsens bedeutet nicht Einstimmigkeit und auch nicht Unfehlbarkeit — er ist das vorläufige Gesamturteil der Fachwelt auf Basis der besten verfügbaren Evidenz. Wo gezielt Zweifel an einem belastbaren Konsens gesät werden, geht es oft weniger um offene Forschungsfragen als um das Hinauszögern unbequemer Schlussfolgerungen."
+        }
+      ]
+    },
+    {
+      "id": "interessenkonflikte",
+      "title": "Interessenkonflikte und Finanzierung",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Verdacht, Forschung sei käuflich, hat einen wahren Kern: Wer eine Studie bezahlt, kann ihre Ergebnisse beeinflussen. Deshalb gibt es Offenlegungspflichten, unabhängige Replikation und Peer Review — Mechanismen, die genau solche Verzerrungen sichtbar machen sollen. Die Geschichte kennt klare Negativbeispiele."
+        },
+        {
+          "type": "table",
+          "caption": "Dokumentierte Fälle industrieller Einflussnahme",
+          "headers": [
+            "Fall",
+            "Vorgehen der Industrie",
+            "Beleg"
+          ],
+          "rows": [
+            [
+              "Tabak",
+              "Gezielt Zweifel an Krebsstudien gesät; internes Memo 1969: ‚Doubt is our product'",
+              "Brown & Williamson (UCSF-Archiv)"
+            ],
+            [
+              "Zucker",
+              "Sugar Research Foundation finanzierte 1965 eine Übersicht, die Fett statt Zucker beschuldigte — ohne Offenlegung",
+              "Kearns et al., JAMA Intern. Med. 2016"
+            ]
+          ],
+          "sourceRefs": [
+            "bw-doubt-product-1969",
+            "jama-sugar-research-2016"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Der Effekt ist messbar: Eine Cochrane-Übersicht von 2017 zeigt, dass von der Industrie finanzierte Arzneimittel- und Medizinproduktstudien häufiger zu herstellergünstigen Ergebnissen kommen (relatives Risiko 1,27).",
+          "highlight": true,
+          "sourceRefs": [
+            "cochrane-industry-sponsorship-2017"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Daraus folgt aber nicht, dass ‚die Forschung' gekauft ist. 2023 entfielen von 129,7 Mrd. Euro Forschungsausgaben in Deutschland zwar mehr als zwei Drittel auf die Wirtschaft (als durchführenden Sektor), doch ein erheblicher Teil läuft an öffentlich finanzierten Hochschulen und Instituten. Entscheidend ist nicht, ob es Interessenkonflikte gibt, sondern ob sie offengelegt und kontrolliert werden.",
+          "sourceRefs": [
+            "destatis-fue-2023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leugnungsmuster",
+      "title": "Methoden der Wissenschaftsleugnung",
+      "content": [
+        {
+          "type": "text",
+          "text": "Echte Skepsis und Wissenschaftsleugnung sehen oberflächlich ähnlich aus, funktionieren aber gegensätzlich: Skepsis prüft Evidenz und lässt sich überzeugen, Leugnung lehnt unliebsame Schlüsse unabhängig von der Evidenz ab. Die Forschung hat fünf wiederkehrende Techniken der Leugnung beschrieben (Diethelm & McKee 2009).",
+          "sourceRefs": [
+            "eurpub-denialism-flicc-2009"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Fünf Techniken der Wissenschaftsleugnung",
+          "headers": [
+            "Technik",
+            "Masche",
+            "Beispiel"
+          ],
+          "rows": [
+            [
+              "Fake-Experten",
+              "Scheinautoritäten ins Feld führen, deren Ansichten dem Forschungsstand widersprechen",
+              "Listen ‚Tausender Wissenschaftler', die einen Konsens bestreiten"
+            ],
+            [
+              "Rosinenpickerei",
+              "Einzelne abweichende oder schwache Studien herauspicken",
+              "Ein kühles Jahr als ‚Beweis' gegen die Erderwärmung"
+            ],
+            [
+              "Unmögliche Erwartungen",
+              "Unerfüllbare Beweisansprüche stellen",
+              "Exakte Temperaturdaten aus der Zeit vor dem Thermometer verlangen"
+            ],
+            [
+              "Logikfehler",
+              "Trugschlüsse und falsche Vergleiche nutzen",
+              "Tabakgegner als ‚Nazis', weil auch Hitler Rauchen ablehnte"
+            ],
+            [
+              "Verschwörungsmythen",
+              "Konsens als Komplott statt als Ergebnis unabhängiger Forschung deuten",
+              "‚Die Forscher sind alle gekauft oder gleichgeschaltet'"
+            ]
+          ],
+          "sourceRefs": [
+            "eurpub-denialism-flicc-2009"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der Unterschied ist entscheidend: Wer nach widerlegbaren Belegen fragt, betreibt Wissenschaft. Wer keine Evidenz akzeptiert, die der eigenen Position widerspricht, betreibt Leugnung — auch wenn er sich ‚kritisch' nennt.",
+          "sourceRefs": [
+            "eurpub-denialism-flicc-2009"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eigenrecherche",
+      "title": "‚Eigenrecherche' und Informationskompetenz",
+      "content": [
+        {
+          "type": "text",
+          "text": "‚Mach dir dein eigenes Bild' klingt nach Mündigkeit — und eigenständiges Denken ist wertvoll. Problematisch wird es, wenn ein paar Stunden Internetsuche mit der jahrelangen Einarbeitung von Fachleuten gleichgesetzt werden. Der Engpass ist selten der Zugang zu Informationen, sondern die Fähigkeit, deren Qualität zu beurteilen."
+        },
+        {
+          "type": "fact",
+          "text": "Eine Studie in Nature (Aslett et al. 2024) fand einen kontraintuitiven Effekt: Wer Falschnachrichten per Online-Suche überprüfte, hielt sie danach mit höherer Wahrscheinlichkeit für wahr. Grund sind ‚data voids' — zu vielen Falschbehauptungen liefert die Suche überwiegend unseriöse Treffer (38 % gegenüber 15 % bei wahren Meldungen).",
+          "highlight": true,
+          "sourceRefs": [
+            "nature-online-search-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Expertise besteht nicht darin, mehr zu wissen, sondern darin, Quellen, Methoden und Widersprüche richtig zu gewichten — eine Studie nach Stichprobengröße, Methodik und Reproduzierbarkeit einzuordnen, statt nur ihr Ergebnis zu lesen. Genau diese Einordnung leistet die naive Eigenrecherche meist nicht.",
+          "sourceRefs": [
+            "nature-online-search-2024"
+          ]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "studien-widersprechen-sich",
+      "claim": "Studien widersprechen sich doch ständig — da kann man eh nichts glauben!",
+      "response": "Tatsächlich ist Widerspruch ein normaler Teil des Erkenntnisprozesses, kein Beweis für Beliebigkeit. Eine einzelne Studie ist immer vorläufig — verlässlich wird Wissen erst, wenn sich Ergebnisse über viele unabhängige Untersuchungen hinweg verdichten. Dass die Wissenschaft ihre Aussagen bei neuer Evidenz korrigiert, ist gerade die Methode, die sie verlässlich macht. Wer aus zwei widersprüchlichen Schlagzeilen schließt ‚man kann nichts glauben', verwechselt den Forschungsstand mit der Meldung über eine Einzelstudie.",
+      "keywords": [
+        "Studien widersprechen sich",
+        "kann man nichts glauben",
+        "heute so morgen so",
+        "Wissenschaft unsicher",
+        "Einzelstudie"
+      ],
+      "relatedSections": [
+        "wie-wissenschaft-funktioniert"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Verwechslung von Einzelstudie und Forschungsstand: Aus der normalen Vorläufigkeit einzelner Ergebnisse wird auf die Wertlosigkeit des Gesamtwissens geschlossen. Übersehen wird, dass sich belastbares Wissen gerade durch das Aussortieren widersprüchlicher Befunde bildet.",
+      "counterQuestions": [
+        "Geht es um eine einzelne Studie oder um den Stand vieler Untersuchungen zu dieser Frage?",
+        "Würdest du von deinem Arzt erwarten, dass er seine Diagnose nie ändert — auch wenn neue Befunde vorliegen?"
+      ]
+    },
+    {
+      "id": "replikationskrise-alles-kaputt",
+      "claim": "Die Replikationskrise beweist, dass die ganze Forschung kaputt ist!",
+      "response": "Die Replikationskrise ist real und ernst — in der Psychologie ließen sich nur rund 36 % der untersuchten Befunde klar wiederholen. Aufgedeckt wurde sie allerdings von der Wissenschaft selbst, nicht von ihren Gegnern. Und die Reaktion war Reform: Über 300 Fachzeitschriften nutzen heute die Präregistrierung, bei der die Methodik vor der Datenerhebung begutachtet wird. Das Problem betrifft bestimmte Felder und wird aktiv bearbeitet — es ist ein Zeichen funktionierender Selbstkontrolle, keine Bankrotterklärung.",
+      "keywords": [
+        "Replikationskrise",
+        "lässt sich nicht reproduzieren",
+        "Forschung kaputt",
+        "Studien wertlos",
+        "nicht wiederholbar"
+      ],
+      "relatedSections": [
+        "replikationskrise"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Pars pro toto: Ein reales Problem einzelner Disziplinen wird zur Generalabrechnung mit ‚der Forschung' aufgeblasen. Dass die Krise aus der Wissenschaft selbst kam und Reformen auslöste, wird ausgeblendet.",
+      "counterQuestions": [
+        "Wer hat die Replikationskrise eigentlich entdeckt und benannt?",
+        "Spricht es gegen ein System, wenn es eigene Fehler sucht, offenlegt und korrigiert?"
+      ]
+    },
+    {
+      "id": "von-industrie-gekauft",
+      "claim": "Forschung ist doch eh von der Industrie gekauft!",
+      "response": "Die Sorge ist berechtigt — Studien mit Industriefinanzierung kommen nachweislich häufiger zu herstellergünstigen Ergebnissen (Cochrane: relatives Risiko 1,27). Genau deshalb gibt es Offenlegungspflichten, unabhängige Replikation und Peer Review, die solche Verzerrungen sichtbar machen sollen. Pauschal ‚gekauft' ist die Forschung damit aber nicht: Ein erheblicher Teil läuft an öffentlich finanzierten Hochschulen und Instituten. Entscheidend ist nicht, ob es Interessenkonflikte gibt, sondern ob sie offengelegt und kontrolliert werden.",
+      "keywords": [
+        "Industrie gekauft",
+        "Pharma bezahlt",
+        "Studien gekauft",
+        "wer zahlt bestimmt",
+        "Lobby Forschung"
+      ],
+      "relatedSections": [
+        "interessenkonflikte"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Verallgemeinerung eines realen Teilproblems: Aus belegbaren Verzerrungen bei industrienaher Forschung wird ein Pauschalurteil über alle Wissenschaft. Die Mechanismen, die genau diese Verzerrung aufdecken, werden übergangen.",
+      "counterQuestions": [
+        "Wer hat die konkrete Studie finanziert — und ist das offengelegt?",
+        "Gibt es unabhängige Studien, die zum selben Ergebnis kommen?"
+      ]
+    },
+    {
+      "id": "forscher-uneinig-klima",
+      "claim": "Die Wissenschaftler sind sich beim Klima doch selbst nicht einig!",
+      "response": "Bei den Grundfragen ist die Einigkeit überwältigend: Cook et al. (2013) fanden in 97,1 % der Fachartikel mit Position Zustimmung zum menschengemachten Klimawandel, eine Folgestudie von 2021 kam sogar auf über 99 %. Uneinigkeit gibt es bei Detailfragen — etwa zum exakten Tempo einzelner Effekte —, nicht bei der Grundursache. Diese normale Debatte über Details als ‚grundsätzliche Uneinigkeit' darzustellen, verwechselt wissenschaftliche Feinarbeit mit einem offenen Grundsatzstreit.",
+      "keywords": [
+        "Wissenschaftler uneinig",
+        "Forscher streiten",
+        "kein Konsens",
+        "umstritten Klima",
+        "nicht bewiesen"
+      ],
+      "relatedSections": [
+        "konsens-vs-dissens"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Vom Detaildissens zum Grundsatzzweifel: Die normale Uneinigkeit über Einzelheiten wird als Beleg dafür ausgegeben, dass die Grundlage strittig sei. Tatsächlich besteht beim Kern breiter Konsens.",
+      "counterQuestions": [
+        "Geht es um die Grundursache oder um eine Detailfrage innerhalb des Konsenses?",
+        "Wie viele Fachstudien müssten widersprechen, damit du von echter Uneinigkeit sprichst?"
+      ]
+    },
+    {
+      "id": "rauchen-war-gesund",
+      "claim": "Früher war Rauchen laut Wissenschaft doch auch gesund!",
+      "response": "Das ist ein hartnäckiger Mythos: Die Wissenschaft hat die Gesundheitsgefahren des Rauchens früh erkannt — verschleiert wurden sie gezielt von der Tabakindustrie. Ein internes Memo von 1969 bringt deren Strategie auf den Punkt: ‚Doubt is our product' — Zweifel zu säen war das erklärte Ziel, um den Faktenkörper der Wissenschaft zu untergraben. Hier hat also nicht die Forschung versagt, sondern eine Industrie hat sie aktiv bekämpft. Der Fall zeigt das Gegenteil der Behauptung: Man musste der Wissenschaft glauben, nicht der bezahlten PR.",
+      "keywords": [
+        "Rauchen war gesund",
+        "früher hieß es",
+        "Wissenschaft hat sich geirrt",
+        "Arzt empfahl Zigaretten",
+        "damals anders"
+      ],
+      "relatedSections": [
+        "interessenkonflikte",
+        "leugnungsmuster"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Umkehrung von Quelle und Täter: Eine gezielte Desinformationskampagne der Industrie wird der Wissenschaft als deren Irrtum untergeschoben. Verwechselt wird bezahlte PR mit dem damaligen Forschungsstand.",
+      "counterQuestions": [
+        "Wer hat damals behauptet, Rauchen sei harmlos — Forschungsinstitute oder die Tabakindustrie?",
+        "Wem nützte es, Zweifel an den Gesundheitsstudien zu streuen?"
+      ]
+    },
+    {
+      "id": "eigene-recherche",
+      "claim": "Ich mach mir mit eigener Recherche meine Meinung — das ist genauso gut!",
+      "response": "Eigenständiges Nachdenken ist wertvoll — aber ‚selbst googeln' ersetzt keine Fachprüfung. Eine Studie in Nature (Aslett et al. 2024) zeigt sogar das Gegenteil des Erhofften: Wer Falschnachrichten per Online-Suche überprüfte, hielt sie danach eher für wahr. Grund sind ‚data voids' — zu vielen Falschbehauptungen liefert die Suche überwiegend unseriöse Treffer. Fachleute unterscheiden sich von Laien nicht durch den Zugang zu Informationen, sondern durch die Fähigkeit, deren Qualität zu gewichten.",
+      "keywords": [
+        "eigene Recherche",
+        "selbst googeln",
+        "eigene Meinung bilden",
+        "informiere mich selbst",
+        "do your own research"
+      ],
+      "relatedSections": [
+        "eigenrecherche"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Gleichsetzung von Informationszugang und Kompetenz: Aus ‚Ich kann alles nachschlagen' wird ‚Ich kann es auch beurteilen'. Übersehen wird, dass das Gewichten von Quellenqualität die eigentliche Expertise ist — und naive Suche sogar in die Irre führen kann.",
+      "counterQuestions": [
+        "Woran erkennst du bei einem Suchtreffer, ob die Quelle seriös ist?",
+        "Würdest du dir nach ein paar Stunden Recherche selbst eine Brücke statisch berechnen?"
+      ]
+    },
+    {
+      "id": "nur-eine-theorie",
+      "claim": "Das ist doch alles nur eine Theorie!",
+      "response": "Hier liegt ein Missverständnis des Begriffs vor: Im Alltag heißt ‚Theorie' bloße Vermutung, in der Wissenschaft das Gegenteil. Eine wissenschaftliche Theorie ist laut der US-amerikanischen National Academy of Sciences eine ‚gut belegte Erklärung eines Aspekts der natürlichen Welt', die Fakten, Gesetze und geprüfte Hypothesen zusammenführt. Die Evolutions- oder die Relativitätstheorie sind in diesem Sinne keine Spekulationen, sondern vielfach bestätigte Erklärungsgebäude. Etwas als ‚nur eine Theorie' abzutun, verwechselt Umgangs- mit Fachsprache.",
+      "keywords": [
+        "nur eine Theorie",
+        "ist doch nicht bewiesen",
+        "bloß eine These",
+        "Hypothese",
+        "nicht erwiesen"
+      ],
+      "relatedSections": [
+        "wie-wissenschaft-funktioniert"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Äquivokation: Das Wort ‚Theorie' wird in seiner Alltagsbedeutung (Vermutung) gegen seine Fachbedeutung (gut belegtes Erklärungssystem) ausgespielt. Der Bedeutungswechsel erzeugt einen Scheinzweifel.",
+      "counterQuestions": [
+        "Meinst du ‚Theorie' im Sinne von Vermutung oder im Sinne eines geprüften Erklärungssystems?",
+        "Würdest du auch sagen, die Schwerkraft sei ‚nur eine Theorie'?"
+      ]
+    },
+    {
+      "id": "nur-foerdergelder",
+      "claim": "Die wollen doch nur Fördergelder, deshalb übertreiben sie die Ergebnisse!",
+      "response": "Dass Forschende auf Finanzierung angewiesen sind, stimmt — die Anreize wirken aber in beide Richtungen. Spektakuläre Ergebnisse erhöhen zwar die Publikations- und damit Förderchancen, was zum Publication Bias beiträgt. Zugleich durchläuft jedes Ergebnis Peer Review und wird von Konkurrenten nachgeprüft, die mit dem Widerlegen etablierter Befunde selbst Reputation gewinnen; wessen Ergebnisse sich nicht reproduzieren lassen, verliert an Glaubwürdigkeit. Ein einseitiger Anreiz, dauerhaft zu übertreiben, lässt sich daraus nicht ableiten — Übertreibung trägt das Risiko, beim Nachprüfen aufzufliegen.",
+      "keywords": [
+        "nur Fördergelder",
+        "Forschungsgelder",
+        "übertreiben für Geld",
+        "Panikmache",
+        "Drittmittel"
+      ],
+      "relatedSections": [
+        "wie-wissenschaft-funktioniert",
+        "replikationskrise"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Unterstellung eines einseitigen Anreizes: Aus der Abhängigkeit von Drittmitteln wird ein durchgängiges Motiv zum Übertreiben konstruiert. Übersehen wird, dass Peer Review und unabhängige Nachprüfung ein Gegengewicht bilden und Übertreibung mit dem Risiko des Auffliegens bestrafen — auch wenn das Publikationssystem spektakuläre Ergebnisse durchaus begünstigt.",
+      "counterQuestions": [
+        "Wer macht in der Wissenschaft Karriere — wer Ergebnisse bestätigt oder wer etablierte Annahmen kippt?",
+        "Was passiert mit dem Ruf einer Forscherin, deren übertriebene Ergebnisse sich nicht replizieren lassen?"
+      ]
+    },
+    {
+      "id": "corona-staendig-geirrt",
+      "claim": "Bei Corona hat sich die Wissenschaft doch ständig geirrt!",
+      "response": "Dass sich Empfehlungen geändert haben, stimmt — bei einem neuen Virus ist das meist kein Irrtum, sondern die Methode: Wissen wird an neue Daten angepasst. Die anfängliche Überschätzung der Übertragung über Oberflächen etwa wurde korrigiert, als sich die Aerosolübertragung als entscheidend erwies. Nicht jede Kehrtwende war reine Wissenschaft — bei der Maskenfrage spielten zeitweise auch Materialknappheit und politische Abwägungen mit. Bemerkenswert ist trotzdem, dass das Vertrauen in die Wissenschaft in der Pandemie sogar stieg — im April 2020 auf 73 %. Eine Position bei neuer Evidenz zu revidieren ist ein Qualitätsmerkmal, kein Versagen; problematisch wäre das Festhalten an überholten Annahmen.",
+      "keywords": [
+        "Corona geirrt",
+        "ständig geändert",
+        "erst so dann so",
+        "Pandemie Fehler",
+        "Masken hin und her"
+      ],
+      "relatedSections": [
+        "vertrauen-in-zahlen",
+        "wie-wissenschaft-funktioniert"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Revision als Schwäche umgedeutet: Die Anpassung an neue Evidenz wird als Beweis für Unzuverlässigkeit gelesen. Tatsächlich wäre das Gegenteil — starres Festhalten trotz neuer Daten — das eigentliche Versagen.",
+      "counterQuestions": [
+        "Welche Kehrtwende meinst du konkret — und beruhte sie auf neuen Daten oder auf etwas anderem?",
+        "Wäre es dir lieber gewesen, man hätte trotz besserer Daten an der ersten Einschätzung festgehalten?",
+        "Unterscheidest du zwischen einer korrigierten Annahme und einer von Anfang an falschen Tatsache?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wissenschaft-im-dialog-barometer-2024",
+      "label": "Wissenschaft im Dialog / Kantar – Wissenschaftsbarometer 2024",
+      "url": "https://idw-online.de/de/news842012"
+    },
+    {
+      "id": "wissenschaft-im-dialog-barometer-2021",
+      "label": "Wissenschaft im Dialog / Kantar – Wissenschaftsbarometer 2021 (Vertrauensverlauf 2017–2021)",
+      "url": "https://idw-online.de/de/news778910"
+    },
+    {
+      "id": "wissenschaft-im-dialog-barometer-2023",
+      "label": "Wissenschaft im Dialog / Kantar – Wissenschaftsbarometer 2023 (Werte 2022–2023)",
+      "url": "https://www.bundesverband-hochschulkommunikation.de/aktuelles/news/einzelnews/wissenschaftsbarometer-2023-nach-wie-vor-grosses-vertrauen-in-wissenschaft-und-forschung/"
+    },
+    {
+      "id": "wissenschaft-im-dialog-corona-spezial-2020",
+      "label": "Wissenschaft im Dialog – Wissenschaftsbarometer Corona Spezial (April 2020)",
+      "url": "https://idw-online.de/de/news745443"
+    },
+    {
+      "id": "edelman-trust-barometer-2024",
+      "label": "Edelman – Trust Barometer 2024 (Vertrauen in Berufsgruppen)",
+      "url": "https://www.edelman.com/trust/2024/trust-barometer"
+    },
+    {
+      "id": "nas-definition-theorie",
+      "label": "National Academy of Sciences – Definitions: Fact, Theory, Law",
+      "url": "https://www.nationalacademies.org/evolution/definitions"
+    },
+    {
+      "id": "iwh-peer-review-definition",
+      "label": "Institute for Work & Health – What researchers mean by: peer review",
+      "url": "https://www.iwh.on.ca/what-researchers-mean-by/peer-review"
+    },
+    {
+      "id": "nas-reproduzierbarkeit-2019",
+      "label": "National Academies – Reproducibility and Replicability in Science (2019)",
+      "url": "https://www.nationalacademies.org/read/25303/chapter/3"
+    },
+    {
+      "id": "open-science-collaboration-2015",
+      "label": "Open Science Collaboration – Estimating the Reproducibility of Psychological Science, Science (2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26315443/"
+    },
+    {
+      "id": "elife-krebsbiologie-2021",
+      "label": "Errington et al. – Reproducibility Project: Cancer Biology, eLife (2021)",
+      "url": "https://elifesciences.org/articles/71601"
+    },
+    {
+      "id": "cos-registered-reports",
+      "label": "Center for Open Science – Registered Reports",
+      "url": "https://www.cos.io/initiatives/registered-reports"
+    },
+    {
+      "id": "cook-2013-klimakonsens",
+      "label": "Cook et al. – Quantifying the Consensus on Anthropogenic Global Warming, Environmental Research Letters (2013)",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/8/2/024024"
+    },
+    {
+      "id": "lynas-2021-klimakonsens",
+      "label": "Lynas, Houlton & Perry – Greater than 99% Consensus on Human-Caused Climate Change, Environmental Research Letters (2021)",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/ac2966"
+    },
+    {
+      "id": "bw-doubt-product-1969",
+      "label": "Brown & Williamson – Smoking and Health Proposal (1969), UCSF Truth Tobacco Industry Documents",
+      "url": "https://www.industrydocuments.ucsf.edu/tid/nvs40f00"
+    },
+    {
+      "id": "jama-sugar-research-2016",
+      "label": "Kearns, Schmidt & Glantz – Sugar Industry and Coronary Heart Disease Research, JAMA Internal Medicine (2016)",
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2548255"
+    },
+    {
+      "id": "cochrane-industry-sponsorship-2017",
+      "label": "Lundh et al. – Industry Sponsorship and Research Outcome, Cochrane Database of Systematic Reviews (2017)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8132492/"
+    },
+    {
+      "id": "destatis-fue-2023",
+      "label": "Statistisches Bundesamt – Ausgaben für Forschung und Entwicklung 2023 (Pressemitteilung Nr. 084, 2025)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/03/PD25_084_218.html"
+    },
+    {
+      "id": "eurpub-denialism-flicc-2009",
+      "label": "Diethelm & McKee – Denialism: what is it and how should scientists respond?, European Journal of Public Health (2009)",
+      "url": "https://academic.oup.com/eurpub/article/19/1/2/463780"
+    },
+    {
+      "id": "nature-online-search-2024",
+      "label": "Aslett et al. – Online Searches to Evaluate Misinformation Can Increase Its Perceived Veracity, Nature (2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10794132/"
+    }
+  ],
+  "relatedTopicIds": [
+    "klimawandel",
+    "gesundheit",
+    "gendern"
+  ]
+}
