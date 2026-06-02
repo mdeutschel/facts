@@ -1,0 +1,946 @@
+{
+  "id": "russland-ukraine-sanktionen",
+  "title": "Russland, Ukraine & Sanktionen",
+  "subtitle": "Fakten zu Krieg, Sanktionen, Energie, Ukraine-Hilfe und Friedensperspektive",
+  "seoTitle": "Russland, Ukraine & Sanktionen: Fakten & Argumente 2026",
+  "seoDescription": "Schaden Sanktionen uns mehr als Russland? Bringt Ukraine-Hilfe etwas? Ist die NATO schuld? Antworten mit Quellen von EU, Kiel Institute, SIPRI, bpb und Auswärtigem Amt.",
+  "icon": "balance",
+  "lastUpdated": "2026-06-01",
+  "keyStats": [
+    "20 EU-Sanktionspakete (Stand April 2026)",
+    "Russlands BIP: +4,3 % (2024) → +0,6 % (2025)",
+    "Deutsche Ukraine-Hilfe: ~55,5 Mrd. € militärisch",
+    "11 Argumente"
+  ],
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen: EU-Kommission und Europäisches Parlament, Auswärtiges Amt, Bundesnetzagentur, Destatis, Deutscher Bundestag, Kiel Institute for the World Economy, SIPRI, IWF, Bundeszentrale für politische Bildung sowie Faktencheck-Stellen (CORRECTIV, EUvsDisinfo). Stand: Anfang 2026. Bei methodisch schwer vergleichbaren Werten werden konservative Spannweiten oder qualitative Aussagen verwendet.",
+  "sections": [
+    {
+      "id": "chronologie",
+      "title": "Chronologie des Krieges",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der russische Angriff auf die Ukraine begann nicht erst 2022. Er hat eine Vorgeschichte, die bis zur Annexion der Krim 2014 zurückreicht. Wer die aktuelle Lage einordnen will, sollte die wichtigsten Stationen kennen — von den ersten Verträgen über die Sicherheit der Ukraine bis zur Vollinvasion.",
+          "sourceRefs": [
+            "bpb-ukraine-analysen"
+          ]
+        },
+        {
+          "type": "timeline",
+          "caption": "Schlüsseldaten des Konflikts",
+          "steps": [
+            {
+              "label": "1994",
+              "value": "Budapester Memorandum",
+              "sublabel": "Ukraine gibt Atomwaffen ab — Russland sagt Achtung der Grenzen zu"
+            },
+            {
+              "label": "2013/14",
+              "value": "Euromaidan",
+              "sublabel": "Proteste nach Absage des EU-Abkommens, Sturz von Präsident Janukowytsch"
+            },
+            {
+              "label": "März 2014",
+              "value": "Annexion der Krim",
+              "sublabel": "Völkerrechtswidrig, international nicht anerkannt"
+            },
+            {
+              "label": "2014/15",
+              "value": "Krieg im Donbass & Minsk-Abkommen",
+              "sublabel": "Von Russland gestützte Separatisten, Waffenstillstände bleiben unumgesetzt"
+            },
+            {
+              "label": "24. Feb. 2022",
+              "value": "Russische Vollinvasion",
+              "sublabel": "Großangriff auf die gesamte Ukraine",
+              "highlight": true
+            },
+            {
+              "label": "Sept. 2022",
+              "value": "Annexion von vier Oblasten",
+              "sublabel": "Nach Schein-Referenden, von der UN-Generalversammlung verurteilt"
+            }
+          ],
+          "sourceRefs": [
+            "bpb-ukraine-analysen",
+            "bpb-budapester-memorandum",
+            "unric-un-resolution"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Krim-Annexion 2014 und die Vollinvasion 2022 betrafen Grenzen, die Russland 1994 im Budapester Memorandum selbst völkerrechtlich anerkannt hatte — im Gegenzug für die Abgabe der ukrainischen Atomwaffen.",
+          "highlight": true,
+          "sourceRefs": [
+            "bpb-budapester-memorandum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sanktionen-ueberblick",
+      "title": "Die Sanktionen im Überblick",
+      "content": [
+        {
+          "type": "text",
+          "text": "Seit der Vollinvasion hat die EU in mehreren Paketen umfassende Sanktionen gegen Russland verhängt. Sie zielen auf den Finanzsektor, den Energieexport, den Zugang zu Technologie sowie auf einzelne Personen und Unternehmen. Bis April 2026 wurden 20 Sanktionspakete beschlossen.",
+          "sourceRefs": [
+            "ec-kommission-20-paket"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "20",
+              "label": "EU-Sanktionspakete",
+              "sublabel": "das 20. am 23. April 2026"
+            },
+            {
+              "value": "> 2.500",
+              "label": "gelistete Personen/Entitäten",
+              "sublabel": "Vermögenssperren, Einreiseverbote"
+            },
+            {
+              "value": "~210 Mrd. €",
+              "label": "eingefrorene Zentralbankvermögen",
+              "sublabel": "in der EU, seit 12/2025 unbefristet"
+            },
+            {
+              "value": "47,60 $",
+              "label": "Ölpreisdeckel je Barrel",
+              "sublabel": "gesenkt von 60 $ (seit Sept. 2025)"
+            }
+          ],
+          "sourceRefs": [
+            "ec-kommission-20-paket",
+            "ec-kommission-18-paket",
+            "europarl-eprs-frozen-assets"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Worauf die Sanktionen zielen",
+          "headers": [
+            "Bereich",
+            "Maßnahme"
+          ],
+          "rows": [
+            [
+              "Finanzsektor",
+              "Rund 70 russische Banken vom EU-Markt ausgeschlossen, SWIFT-Sperren"
+            ],
+            [
+              "Zentralbank",
+              "~210 Mrd. € an Vermögenswerten immobilisiert (Großteil bei Euroclear)"
+            ],
+            [
+              "Energie",
+              "Embargo für Kohle und Seeöl, Ölpreisdeckel von 47,60 $/Barrel"
+            ],
+            [
+              "Technologie",
+              "Exportverbote für Dual-Use- und Hightech-Güter"
+            ],
+            [
+              "Schattenflotte",
+              "Über 600 Tanker gelistet, die Sanktionen umgehen sollen"
+            ]
+          ],
+          "sourceRefs": [
+            "ec-kommission-20-paket",
+            "ec-kommission-18-paket",
+            "europarl-eprs-frozen-assets"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Im Dezember 2025 beschloss die EU, die immobilisierten russischen Zentralbankvermögen unbefristet einzufrieren — statt sie wie bisher nur halbjährlich zu verlängern.",
+          "sourceRefs": [
+            "europarl-eprs-frozen-assets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wirken-sanktionen",
+      "title": "Wirken die Sanktionen?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sanktionen wirken selten als Knockout, sondern als langsame Erosion der wirtschaftlichen Handlungsspielräume. Kurzfristig hat Russland sie besser verkraftet als von manchen erhofft — die Kriegswirtschaft hielt die Konjunktur zunächst oben. Mittelfristig zeigen sich aber deutliche Belastungen.",
+          "sourceRefs": [
+            "ifw-kiel-kriegswirtschaft"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "+4,3 % → +0,6 %",
+              "label": "BIP-Wachstum Russland",
+              "sublabel": "2024 (Ist) zu 2025 (IWF-Prognose)"
+            },
+            {
+              "value": "~7,5 %",
+              "label": "des BIP für das Militär",
+              "sublabel": "2025, höchster Anteil seit Sowjet-Ende (SIPRI)"
+            },
+            {
+              "value": "−21 %",
+              "label": "Öl- & Gaseinnahmen",
+              "sublabel": "Jan.–Okt. 2025, russ. Finanzministerium",
+              "color": "#b71c1c"
+            }
+          ],
+          "sourceRefs": [
+            "imf-weo-russland-bip",
+            "sipri-militaerbudget-2026",
+            "russ-finanzministerium-oel-gas"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Selbst nach Russlands eigenen Zahlen sanken die Öl- und Gaseinnahmen 2025 um rund 21 % — ihr Anteil an den Föderalhaushaltseinnahmen fiel unter 23 %, der niedrigste Rohstoff-Anteil seit Jahrzehnten.",
+          "highlight": true,
+          "sourceRefs": [
+            "russ-finanzministerium-oel-gas"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gleichzeitig laufen die Sanktionen nicht ins Leere, aber auch nicht perfekt: Russland beschafft militärisch relevante Komponenten weiter über Drittländer und Parallelimporte. Das Kiel Institute beschreibt die Kriegswirtschaft als ‚groß und wachsend' — finanziert allerdings auf Kosten ziviler Bereiche und mit einem Leitzins, den die Zentralbank zeitweise auf ein Rekordhoch von 21 % anheben musste.",
+          "sourceRefs": [
+            "ifw-kiel-kriegswirtschaft",
+            "cbr-leitzins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "energie",
+      "title": "Energie: Abkehr von russischem Gas",
+      "content": [
+        {
+          "type": "text",
+          "text": "Vor dem Krieg war Deutschland stark von russischem Erdgas abhängig: 2021 stammten rund 52 % der Gasimporte aus Russland. Heute fließt praktisch kein russisches Pipelinegas mehr nach Deutschland. Wichtig für die Einordnung: Es war Russland, das die Lieferungen drosselte — nicht eine Gassanktion der EU.",
+          "sourceRefs": [
+            "bnetza-gas-2022",
+            "ec-sanctions-energy"
+          ]
+        },
+        {
+          "type": "progress_stack",
+          "caption": "Woher Deutschland 2024 sein Gas bezog",
+          "segments": [
+            {
+              "label": "Norwegen",
+              "value": 48,
+              "sublabel": "größter Lieferant"
+            },
+            {
+              "label": "Niederlande",
+              "value": 25
+            },
+            {
+              "label": "Belgien",
+              "value": 18
+            },
+            {
+              "label": "LNG & Sonstige",
+              "value": 9,
+              "sublabel": "LNG v. a. aus den USA"
+            }
+          ],
+          "total": "Russisches Pipelinegas: 0 %",
+          "sourceRefs": [
+            "bnetza-gas-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Russland drosselte die Lieferungen durch Nord Stream 1 ab Juni 2022 schrittweise und stoppte sie im September 2022 ganz — bevor überhaupt EU-Energieembargos in Kraft traten. Erdgas war 2022 von den EU-Sanktionen gar nicht erfasst.",
+          "highlight": true,
+          "sourceRefs": [
+            "bnetza-gas-2022",
+            "ec-sanctions-energy"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Am 26. September 2022 wurden die Pipelines Nord Stream 1 und 2 durch Sprengsätze schwer beschädigt. Der Generalbundesanwalt bestätigt eine vorsätzliche Sprengstoffexplosion — also Sabotage.",
+          "sourceRefs": [
+            "generalbundesanwalt-nord-stream"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die Großhandelspreise für Gas schossen 2022 in der Spitze auf ein Vielfaches des Vorkriegsniveaus, haben sich seither aber wieder weitgehend normalisiert. Die Versorgung wurde durch neue LNG-Terminals und andere Lieferländer umgestellt.",
+          "sourceRefs": [
+            "bnetza-gas-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "was-kostet-uns-das",
+      "title": "Was kostet uns das?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Krieg und die Energiekrise haben Deutschland viel Geld gekostet — über höhere Energiepreise, Inflation und milliardenschwere Entlastungspakete. Diese Lasten sind real und sollten nicht kleingeredet werden. Es lohnt aber, die Größenordnungen einzuordnen.",
+          "sourceRefs": [
+            "destatis-inflation-2022"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "7,9 %",
+              "label": "Inflation 2022",
+              "sublabel": "VPI; harmonisiert (HVPI): 8,7 %"
+            },
+            {
+              "value": "5,9 %",
+              "label": "Inflation 2023",
+              "sublabel": "rückläufig (VPI, Jahresdurchschnitt)"
+            },
+            {
+              "value": "200 Mrd. €",
+              "label": "Energie-Abwehrschirm",
+              "sublabel": "‚Doppelwumms' 2022, Gas-/Strompreisbremse"
+            },
+            {
+              "value": "502,55 Mrd. €",
+              "label": "Bundeshaushalt 2025",
+              "sublabel": "Bezugsgröße für Einordnung"
+            }
+          ],
+          "sourceRefs": [
+            "destatis-inflation-2022",
+            "destatis-inflation-2023",
+            "bundestag-abwehrschirm",
+            "bundestag-haushalt-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Der einmalige Energie-Abwehrschirm von 2022 (200 Mrd. €) übertraf die über fast vier Jahre kumulierte deutsche Ukraine-Hilfe deutlich. Die größten Kosten der Krise entstanden im Inland — bei der Abfederung der Energiepreise.",
+          "highlight": true,
+          "sourceRefs": [
+            "bundestag-abwehrschirm",
+            "aa-ukraine-solidaritaet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ukraine-hilfe",
+      "title": "Deutsche & internationale Ukraine-Hilfe",
+      "content": [
+        {
+          "type": "text",
+          "text": "Deutschland ist nach den USA der zweitgrößte bilaterale Unterstützer der Ukraine. Die Hilfe umfasst militärische, finanzielle und humanitäre Leistungen. Nach Angaben des Auswärtigen Amts wurden seit Februar 2022 rund 55,5 Mrd. € militärisch und rund 41 Mrd. € zivil geleistet oder für die kommenden Jahre bereitgestellt.",
+          "sourceRefs": [
+            "aa-ukraine-solidaritaet",
+            "kiel-ukraine-support-tracker"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "~55,5 Mrd. €",
+              "label": "militärische Hilfe",
+              "sublabel": "Deutschland, seit Feb. 2022, geleistet & zugesagt"
+            },
+            {
+              "value": "~41 Mrd. €",
+              "label": "zivile & finanzielle Hilfe",
+              "sublabel": "inkl. humanitärer Hilfe"
+            },
+            {
+              "value": "11,5 Mrd. €",
+              "label": "geplante Hilfe 2026",
+              "sublabel": "~2 % des Bundeshaushalts"
+            }
+          ],
+          "sourceRefs": [
+            "aa-ukraine-solidaritaet",
+            "bmvg-vier-jahre",
+            "bundestag-haushalt-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Gemessen an der Wirtschaftskraft tragen kleinere Länder überproportional viel: Nordeuropa stellte rund ein Drittel der europäischen Militärhilfe, obwohl es nur etwa 8 % des BIP der 31 europäischen Geber ausmacht. 2025 stiegen die europäischen Militärhilfen deutlich (rund +67 % über dem Schnitt 2022–2024), während sich die USA zurückzogen.",
+          "highlight": true,
+          "sourceRefs": [
+            "kiel-ukraine-4-jahre"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Deutsche Militärhilfe ist überwiegend Sachleistung — Panzer, Munition, Flugabwehr, Fahrzeuge —, kein überwiesenes Bargeld. Finanzhilfen sind an Auflagen und Kontrollen gebunden.",
+          "sourceRefs": [
+            "bundesregierung-waffenlieferungen"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Zur Korruptionsdebatte: Korruption ist in der Ukraine ein reales, gut dokumentiertes Problem — im Korruptionswahrnehmungsindex von Transparency International liegt das Land im hinteren Mittelfeld. Allerdings hat sich der Wert seit dem Euromaidan 2014 spürbar verbessert (von rund 25 auf 36 von 100 Punkten).",
+          "sourceRefs": [
+            "transparency-cpi-ukraine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kriegsursachen",
+      "title": "Kriegsursachen & ‚NATO-Osterweiterung'",
+      "content": [
+        {
+          "type": "text",
+          "text": "Über die Ursachen des Krieges wird heftig gestritten. Wichtig ist die Unterscheidung zwischen einer Begründung, die ein Akteur nennt, und einer Rechtfertigung, die völkerrechtlich Bestand hätte. Russland führt die NATO-Osterweiterung als Grund an — das ist eine real geäußerte Wahrnehmung, aber keine rechtliche Legitimation für einen Angriffskrieg.",
+          "sourceRefs": [
+            "zmsbw-russische-rechtfertigung"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die UN-Generalversammlung verurteilte den russischen Angriff am 2. März 2022 mit 141 zu 5 Stimmen (bei 35 Enthaltungen) und forderte den sofortigen, vollständigen Rückzug aller russischen Truppen.",
+          "highlight": true,
+          "sourceRefs": [
+            "unric-un-resolution"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Zur NATO-Osterweiterung gibt es zwei belastbare Befunde: Erstens existiert kein rechtsverbindlicher Vertrag über einen NATO-Erweiterungsverzicht. Zweitens sind Bündnisbeitritte souveräne Entscheidungen der jeweiligen Staaten — ein Prinzip, das Russland mehrfach anerkannt hat, etwa in der NATO-Russland-Grundakte 1997. Die Ukraine hatte 2022 zudem keinen konkreten Beitrittsfahrplan (kein Membership Action Plan).",
+          "sourceRefs": [
+            "correctiv-nato-osterweiterung",
+            "bpb-nato-bukarest-2008"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Im Budapester Memorandum von 1994 gab die Ukraine das damals drittgrößte Atomwaffenarsenal der Welt ab. Russland, die USA und Großbritannien sagten im Gegenzug zu, ihre Unabhängigkeit und Grenzen zu achten und auf Gewalt zu verzichten.",
+          "sourceRefs": [
+            "bpb-budapester-memorandum"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verhandlungen",
+      "title": "Verhandlungen & Friedensperspektive",
+      "content": [
+        {
+          "type": "text",
+          "text": "Seit Kriegsbeginn gab es mehrere Verhandlungsversuche. Sie zeigen, dass Gespräche grundsätzlich möglich sind — aber auch, woran sie bislang scheiterten.",
+          "sourceRefs": [
+            "bpb-verhandlungen"
+          ]
+        },
+        {
+          "type": "timeline",
+          "caption": "Stationen der Diplomatie (2022/23)",
+          "steps": [
+            {
+              "label": "März/April 2022",
+              "value": "Istanbul-Gespräche",
+              "sublabel": "Ukraine bot Neutralität gegen Sicherheitsgarantien an — Gespräche scheiterten"
+            },
+            {
+              "label": "Juli 2022",
+              "value": "Getreideabkommen",
+              "sublabel": "vermittelt von Türkei und UN, ermöglichte Schwarzmeer-Exporte"
+            },
+            {
+              "label": "Juli 2023",
+              "value": "Russland steigt aus",
+              "sublabel": "Ende des Getreideabkommens"
+            },
+            {
+              "label": "ab 2022",
+              "value": "Ukrainische Friedensformel",
+              "sublabel": "Zehn Punkte: territoriale Integrität, Abzug, Garantien"
+            }
+          ],
+          "sourceRefs": [
+            "bpb-verhandlungen"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "‚Frieden' ist nicht gleich Frieden: Ein Waffenstillstand beendet zunächst nur die Kämpfe, ein Friedensvertrag regelt die offenen Kernfragen — vor allem Territorium und Sicherheitsgarantien. Genau hier liegen die Positionen beider Seiten bislang weit auseinander.",
+          "sourceRefs": [
+            "swp-friedensverhandlungen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "desinformation",
+      "title": "Desinformation & Narrative",
+      "content": [
+        {
+          "type": "text",
+          "text": "Rund um den Krieg kursieren zahlreiche Erzählungen, die gezielt verbreitet werden, um den Angriff zu rechtfertigen oder die Unterstützung für die Ukraine zu untergraben. Faktencheck-Stellen wie CORRECTIV und EUvsDisinfo (EU-Auswärtiger Dienst) ordnen die häufigsten Narrative ein.",
+          "sourceRefs": [
+            "euvsdisinfo-nazis"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Das Narrativ der ‚Entnazifizierung' dient laut EUvsDisinfo als Vorwand: Die Ukraine ist eine demokratisch gewählte Regierung; der Vorwurf eines ‚Nazi-Staates' ist nicht haltbar.",
+          "sourceRefs": [
+            "euvsdisinfo-nazis"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Behauptung von ‚US-Biowaffenlaboren' in der Ukraine hält einer Prüfung nicht stand: Es gibt zivile, öffentlich bekannte Forschungseinrichtungen, aber keine Biowaffen. Ein entsprechender russischer Antrag im UN-Sicherheitsrat wurde im November 2022 abgelehnt; im Umlauf waren u. a. gefälschte Medienartikel.",
+          "highlight": true,
+          "sourceRefs": [
+            "correctiv-biowaffenlabore"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Auch die Erzählung, der Westen habe Russland ‚provoziert', folgt diesem Muster: Sie verschiebt die Verantwortung vom Angreifer auf die Angegriffenen. Eine genannte Begründung ersetzt keine völkerrechtliche Rechtfertigung — der Angriff bleibt ein Bruch der UN-Charta.",
+          "sourceRefs": [
+            "zmsbw-russische-rechtfertigung"
+          ]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "sanktionen-schaden-uns-mehr",
+      "claim": "Die Sanktionen schaden uns mehr als Russland!",
+      "response": "Die Kosten für Deutschland sind real — Energiepreise, Inflation, Belastungen für Unternehmen. Doch die Größenordnung unterscheidet sich: Russland steckt rund 7,5 % seines BIP ins Militär, die Öl- und Gaseinnahmen sanken 2025 nach eigenen Angaben um etwa 21 %, und die Zentralbank musste den Leitzins zeitweise auf ein Rekordhoch von 21 % anheben. Deutschland federte die Krise mit einem 200-Mrd.-Abwehrschirm ab, und die Inflation ging ab 2023 wieder zurück. Beide Seiten zahlen — aber dass es ‚uns mehr' schadet, tragen die Daten nicht.",
+      "keywords": [
+        "Sanktionen",
+        "schaden uns",
+        "Wirtschaft",
+        "Energiepreise",
+        "Bumerang",
+        "Russland"
+      ],
+      "relatedSections": [
+        "was-kostet-uns-das",
+        "wirken-sanktionen"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole vergleicht selektiv: Sie stellt die sichtbaren Kosten bei uns den weniger sichtbaren Belastungen in Russland gegenüber und blendet aus, dass Sanktionen langfristig wirken. Oft schwingt ein Nullsummen-Denken mit — als wäre jeder Nachteil bei uns automatisch ein Vorteil für die Gegenseite.",
+      "counterQuestions": [
+        "Woran genau machst du fest, dass es uns ‚mehr' schadet — an welcher Zahl?",
+        "Wenn Russland 7,5 % seines BIP fürs Militär aufwendet und die Energieeinnahmen sinken: Wer trägt da die größere Last?",
+        "Würdest du den einmaligen Preisschock 2022 mit der dauerhaften Belastung einer Kriegswirtschaft gleichsetzen?"
+      ]
+    },
+    {
+      "id": "keine-waffen-sofort-frieden",
+      "claim": "Wenn wir keine Waffen mehr liefern, ist sofort Frieden!",
+      "response": "Der Wunsch nach einem schnellen Ende ist verständlich, und mehr Waffen verlängern die Kämpfe — das stimmt. Aber Frieden setzt voraus, dass beide Seiten ihn wollen. Angegriffen wurde die Ukraine; ohne Verteidigungsfähigkeit endet nicht der Krieg, sondern die Gegenwehr. Die Istanbul-Gespräche 2022 zeigten, dass verhandelt werden kann — sie scheiterten aber nicht an Waffenlieferungen. ‚Sofort Frieden' verwechselt das Ende der Lieferungen mit dem Ende des Krieges.",
+      "keywords": [
+        "Waffenlieferungen",
+        "Frieden",
+        "keine Waffen",
+        "Diplomatie",
+        "Verhandlungen",
+        "Eskalation"
+      ],
+      "relatedSections": [
+        "verhandlungen"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Hier wird eine einfache Kausalkette behauptet (keine Waffen → Frieden), die nur eine Seite betrachtet. Sie unterstellt, der Krieg hänge allein an der Unterstützung der Verteidiger — und nicht an den Zielen des Angreifers.",
+      "counterQuestions": [
+        "Was passiert mit der angegriffenen Seite konkret, wenn sie sich nicht mehr verteidigen kann?",
+        "Woran scheiterten die Verhandlungen von 2022 tatsächlich — weißt du das?",
+        "Wenn ‚keine Waffen' Frieden bringt: Warum hat der Krieg 2014 bis 2022 trotz westlicher Zurückhaltung nicht aufgehört?"
+      ]
+    },
+    {
+      "id": "ukraine-kann-nicht-gewinnen",
+      "claim": "Die Ukraine kann eh nicht gewinnen — reine Geldverschwendung.",
+      "response": "Militärisch ist die Lage festgefahren, das stimmt — ein schneller Sieg ist unwahrscheinlich. Doch ‚gewinnen' wird selten definiert. Die Hilfe zielt nicht auf einen Endsieg, sondern darauf, die Ukraine verhandlungsfähig zu halten: Wer aus einer Position der Schwäche verhandelt, bekommt schlechtere Bedingungen. Die deutsche Militärhilfe ist zudem überwiegend Gerät, kein verschenktes Geld. ‚Verschwendung' unterstellt, das Ergebnis stünde fest — das tut es nicht.",
+      "keywords": [
+        "Ukraine",
+        "gewinnen",
+        "Geldverschwendung",
+        "sinnlos",
+        "verlieren",
+        "Krieg"
+      ],
+      "relatedSections": [
+        "ukraine-hilfe",
+        "verhandlungen"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole arbeitet mit einem undefinierten Erfolgsbegriff (‚gewinnen') und behandelt ein offenes Ergebnis als feststehend. So wird jede Unterstützung im Vorhinein für sinnlos erklärt — unabhängig vom tatsächlichen Zweck.",
+      "counterQuestions": [
+        "Was genau meinst du mit ‚gewinnen' — und was wäre die Alternative für die Ukraine?",
+        "Wirkt sich militärische Stärke auf die Bedingungen bei späteren Verhandlungen aus?",
+        "Ist Gerät, das geliefert wird, dasselbe wie ‚verschenktes Geld'?"
+      ]
+    },
+    {
+      "id": "schuld-nato-osterweiterung",
+      "claim": "Schuld ist doch die NATO-Osterweiterung.",
+      "response": "Es stimmt, dass Russland die NATO-Osterweiterung als Begründung anführt — das ist eine real geäußerte Wahrnehmung. Faktisch gibt es aber keinen bindenden Vertrag über einen Erweiterungsverzicht, und Bündnisbeitritte sind souveräne Entscheidungen der jeweiligen Länder, was Russland 1997 selbst anerkannte. Die Ukraine hatte 2022 keinen konkreten Beitrittsfahrplan. Eine Begründung zu kennen, heißt nicht, einen völkerrechtswidrigen Angriffskrieg zu rechtfertigen.",
+      "keywords": [
+        "NATO",
+        "Osterweiterung",
+        "Schuld",
+        "Provokation",
+        "Westen",
+        "Ursache"
+      ],
+      "relatedSections": [
+        "kriegsursachen"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Hier wird eine genannte Begründung mit einer Rechtfertigung verwechselt. Das verschiebt die Verantwortung vom Angreifer weg (Täter-Opfer-Umkehr) und behandelt eine umstrittene Wahrnehmung wie eine bewiesene Ursache.",
+      "counterQuestions": [
+        "Gibt es einen Vertrag, der eine NATO-Erweiterung verbietet — und wenn ja, welchen?",
+        "Dürfen souveräne Staaten ihr Bündnis frei wählen, oder entscheidet das der Nachbar?",
+        "Ist der Hinweis auf eine Begründung dasselbe wie eine Rechtfertigung für einen Angriffskrieg?"
+      ]
+    },
+    {
+      "id": "milliarden-waehrend-hier-alles-zerfaellt",
+      "claim": "Wir zahlen Milliarden für die Ukraine, während hier alles zerfällt!",
+      "response": "Die Summen sind real, und marode Schulen oder Brücken sind ein berechtigtes Ärgernis. Nur konkurriert die Ukraine-Hilfe damit kaum: Die für 2026 geplanten 11,5 Mrd. € sind rund 2 % eines Bundeshaushalts von über 500 Mrd. €, und die kumulierte Hilfe über fast vier Jahre liegt unter dem, was der einmalige Energie-Abwehrschirm 2022 kostete. Wer hier investiert, nimmt es nicht der Infrastruktur weg — beides sind politische Prioritäten, kein Entweder-oder.",
+      "keywords": [
+        "Milliarden",
+        "Steuergeld",
+        "Infrastruktur",
+        "hier zuerst",
+        "zahlen",
+        "Schulen"
+      ],
+      "relatedSections": [
+        "was-kostet-uns-das",
+        "ukraine-hilfe"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole baut eine falsche Dichotomie auf: Geld für die Ukraine ODER für Schulen und Straßen. Tatsächlich entscheidet der Haushalt über viele Posten gleichzeitig; die Ukraine-Hilfe ist nur ein kleiner Anteil und steht nicht in direkter Konkurrenz zu Investitionen im Inland.",
+      "counterQuestions": [
+        "Welchen Anteil am Bundeshaushalt macht die Ukraine-Hilfe konkret aus — schätz mal?",
+        "Wäre die marode Brücke saniert, wenn es die Ukraine-Hilfe nicht gäbe?",
+        "Warum war für den Energie-Abwehrschirm 200 Mrd. € möglich, und gilt das Geld bei der Ukraine plötzlich als ‚zu viel'?"
+      ]
+    },
+    {
+      "id": "gaspreise-nur-wegen-sanktionen",
+      "claim": "Die Gaspreise sind doch nur wegen der Sanktionen explodiert.",
+      "response": "Die Energiepreise sind 2022 tatsächlich stark gestiegen — aber nicht wegen Gassanktionen: Die EU hat russisches Gas 2022 gar nicht sanktioniert. Es war Russland, das die Lieferungen durch Nord Stream 1 ab Juni 2022 drosselte und im September ganz stoppte, bevor Energie-Embargos überhaupt griffen. Die Preise stiegen also durch die russische Verknappung und die Kriegsunsicherheit. Inzwischen haben sich die Großhandelspreise wieder weitgehend normalisiert.",
+      "keywords": [
+        "Gaspreise",
+        "Energiepreise",
+        "Sanktionen",
+        "explodiert",
+        "Inflation",
+        "Gas"
+      ],
+      "relatedSections": [
+        "energie"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Hier werden Ursache und Wirkung vertauscht: Der Preisanstieg wird den Sanktionen zugeschrieben, obwohl Gas 2022 nicht sanktioniert war. Tatsächlich ging die russische Lieferdrosselung den Energie-Embargos zeitlich voraus.",
+      "counterQuestions": [
+        "Wurde russisches Gas 2022 überhaupt von der EU sanktioniert?",
+        "Was war zuerst da — die russische Drosselung der Lieferungen oder ein EU-Gasembargo?",
+        "Wenn die Sanktionen schuld wären: Warum sind die Gaspreise trotz fortbestehender Sanktionen wieder gesunken?"
+      ]
+    },
+    {
+      "id": "sanktionen-wirken-nicht",
+      "claim": "Sanktionen wirken doch gar nicht, Russland geht's blendend.",
+      "response": "Kurzfristig stimmt es: Russlands Wirtschaft wuchs 2024 um 4,3 % und ist nicht kollabiert. Aber dieses Wachstum ist kriegsfinanziert — rund 7,5 % des BIP fließen ins Militär. 2025 brach das Wachstum laut IWF auf 0,6 % ein, die Öl- und Gaseinnahmen sanken um etwa 21 %, und die Zentralbank hielt den Leitzins zeitweise bei 21 %. Sanktionen wirken nicht als Knockout, sondern als langsame Erosion der Spielräume.",
+      "keywords": [
+        "Sanktionen",
+        "wirken nicht",
+        "Russland",
+        "Wirtschaft",
+        "wirkungslos",
+        "Rubel"
+      ],
+      "relatedSections": [
+        "wirken-sanktionen"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole misst Sanktionen an einer überzogenen Erwartung (sofortiger Kollaps) und erklärt sie für gescheitert, wenn dieser ausbleibt — ein Strohmann. Sie verwechselt kurzfristige, kriegsfinanzierte Resilienz mit langfristiger Stabilität.",
+      "counterQuestions": [
+        "Woher kommt das russische Wachstum — aus produktiver Wirtschaft oder aus Rüstungsausgaben?",
+        "Was sagt ein Leitzins von zeitweise 21 % über den Zustand einer Volkswirtschaft aus?",
+        "Müssen Sanktionen sofort zum Kollaps führen, um zu wirken — oder reicht eine schleichende Erosion?"
+      ]
+    },
+    {
+      "id": "ukraine-korrupt-geld-versickert",
+      "claim": "Die Ukraine ist total korrupt, da versickert unser Geld nur.",
+      "response": "Korruption ist in der Ukraine ein reales, gut dokumentiertes Problem — im Index von Transparency International liegt das Land im hinteren Mittelfeld. Aber zwei Dinge sind entscheidend: Seit dem Euromaidan 2014 hat sich der Wert deutlich verbessert, und die deutsche Militärhilfe ist überwiegend Sachleistung — Panzer, Munition, Flugabwehr —, kein überwiesenes Bargeld, das ‚versickern' könnte. Finanzhilfen sind an Reformauflagen und Kontrollen gebunden.",
+      "keywords": [
+        "Ukraine",
+        "korrupt",
+        "Korruption",
+        "versickert",
+        "Geld",
+        "Selenskyj"
+      ],
+      "relatedSections": [
+        "ukraine-hilfe"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Ein wahrer Kern (Korruption existiert) wird zur Pauschale aufgeblasen (‚total korrupt', ‚versickert nur') und auf die gesamte Hilfe übertragen — ohne zu unterscheiden, in welcher Form die Hilfe überhaupt fließt.",
+      "counterQuestions": [
+        "Weißt du, ob Militärhilfe als Bargeld oder als Gerät geliefert wird?",
+        "Hat sich die Korruptionslage in der Ukraine seit 2014 verbessert oder verschlechtert?",
+        "Würdest du wegen vorhandener Korruption auch jede Entwicklungshilfe oder EU-Förderung pauschal stoppen?"
+      ]
+    },
+    {
+      "id": "selenskyj-will-keinen-frieden",
+      "claim": "Selenskyj will doch gar keinen Frieden.",
+      "response": "Tatsächlich gab es ukrainische Verhandlungsangebote — etwa in Istanbul 2022, mit Neutralität gegen Sicherheitsgarantien, und später die Zehn-Punkte-Friedensformel. Dass Kiew auf territorialer Integrität und Garantien besteht, ist kein Kriegswille, sondern die Position der angegriffenen Seite. Frieden scheitert nicht am Willen einer Seite allein — die Forderungen beider Seiten liegen weit auseinander. ‚Will keinen Frieden' blendet aus, wer den Krieg begonnen hat und welche Ziele Russland nennt.",
+      "keywords": [
+        "Selenskyj",
+        "Frieden",
+        "Verhandlungen",
+        "Ukraine",
+        "Kriegstreiber",
+        "Diplomatie"
+      ],
+      "relatedSections": [
+        "verhandlungen"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole schiebt die Verantwortung für das Ausbleiben von Frieden einseitig der angegriffenen Seite zu (Täter-Opfer-Umkehr) und deutet legitime Verhandlungsbedingungen als Friedensunwilligkeit um.",
+      "counterQuestions": [
+        "Welche Verhandlungsangebote gab es bislang von ukrainischer Seite — kennst du sie?",
+        "Sind Forderungen nach territorialer Integrität und Sicherheitsgarantien ungewöhnlich für ein angegriffenes Land?",
+        "Wer müsste für einen Frieden seine Truppen zurückziehen — und tut er das?"
+      ]
+    },
+    {
+      "id": "deutschland-wird-hineingezogen",
+      "claim": "Deutschland wird in den Krieg hineingezogen!",
+      "response": "Die Sorge ist nachvollziehbar — niemand will einen größeren Krieg. Rechtlich ist die Unterstützung eines angegriffenen Staates aber etwas anderes als Kriegsbeteiligung: Wer Waffen liefert, wird nach gängiger völkerrechtlicher Auffassung dadurch nicht selbst zur Kriegspartei. Deutschland und die NATO haben bewusst Grenzen gezogen, etwa keine eigenen Truppen in der Ukraine. Das schließt Eskalationsrisiken nicht aus, aber ‚hineingezogen werden' beschreibt einen Automatismus, den es so nicht gibt.",
+      "keywords": [
+        "Deutschland",
+        "Kriegspartei",
+        "hineingezogen",
+        "Eskalation",
+        "NATO",
+        "Weltkrieg"
+      ],
+      "relatedSections": [
+        "kriegsursachen",
+        "ukraine-hilfe"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole folgt einem Dammbruch-Muster (Slippery Slope): Aus Unterstützung wird zwangsläufig Kriegsbeteiligung. Sie unterschlägt die rechtliche und praktische Unterscheidung zwischen Hilfe und Kriegspartei.",
+      "counterQuestions": [
+        "Macht eine Waffenlieferung einen Staat völkerrechtlich automatisch zur Kriegspartei?",
+        "Welche konkreten Grenzen haben Deutschland und die NATO bislang gezogen?",
+        "Unterscheidest du zwischen einem Risiko und einem Automatismus?"
+      ]
+    },
+    {
+      "id": "russland-hat-sich-nur-verteidigt",
+      "claim": "Russland hat sich doch nur gegen die Bedrohung verteidigt.",
+      "response": "Tatsächlich war es ein Angriff, keine Verteidigung: Am 24. Februar 2022 hat Russland die Ukraine großflächig angegriffen — über eine Grenze, die es 1994 im Budapester Memorandum selbst anerkannt hatte. Die UN-Generalversammlung verurteilte die Aggression mit 141 zu 5 Stimmen. Von einer Bedrohung, die einen Angriff erfordert hätte, war die Ukraine weit entfernt; sie hatte ihre Atomwaffen 1994 abgegeben. Ein Angriffskrieg lässt sich nicht als Verteidigung umdeuten.",
+      "keywords": [
+        "Russland",
+        "Verteidigung",
+        "Bedrohung",
+        "Angriffskrieg",
+        "Völkerrecht",
+        "Präventivschlag"
+      ],
+      "relatedSections": [
+        "kriegsursachen",
+        "chronologie"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Klassische Täter-Opfer-Umkehr: Der Angreifer wird als Verteidiger dargestellt. Das verdreht die belegbare Abfolge — Russland überschritt eine international anerkannte Grenze, ohne angegriffen worden zu sein.",
+      "counterQuestions": [
+        "Wer hat am 24. Februar 2022 wessen Grenze überschritten?",
+        "Welche konkrete militärische Bedrohung ging 2022 von der atomwaffenfreien Ukraine aus?",
+        "Wie passt eine ‚Verteidigung' dazu, dass 141 Staaten in der UN den Angriff verurteilten?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "ec-kommission-20-paket",
+      "label": "EU-Kommission: 20. Sanktionspaket gegen Russland (April 2026)",
+      "url": "https://finance.ec.europa.eu/news/eu-adopts-20th-package-sanctions-against-russia-2026-04-23_en"
+    },
+    {
+      "id": "ec-kommission-18-paket",
+      "label": "EU-Kommission: 18. Sanktionspaket gegen Russland (Juli 2025)",
+      "url": "https://finance.ec.europa.eu/news/eu-adopts-18th-package-sanctions-against-russia-2025-07-18_en"
+    },
+    {
+      "id": "ec-sanctions-energy",
+      "label": "EU-Kommission: Sanktionen im Energiebereich",
+      "url": "https://commission.europa.eu/topics/eu-solidarity-ukraine/eu-sanctions-against-russia-following-invasion-ukraine/sanctions-energy_en"
+    },
+    {
+      "id": "europarl-eprs-frozen-assets",
+      "label": "Europäisches Parlament (EPRS): Frozen Russian assets (2025)",
+      "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2025/775908/EPRS_BRI(2025)775908_EN.pdf"
+    },
+    {
+      "id": "sipri-militaerbudget-2026",
+      "label": "SIPRI: Military spending in Russia's budget 2026",
+      "url": "https://www.sipri.org/publications/2026/sipri-insights-peace-and-security/budget-fifth-year-war-military-spending-russias-budget-2026"
+    },
+    {
+      "id": "imf-weo-russland-bip",
+      "label": "IWF World Economic Outlook (Okt. 2025), zit. n. The Moscow Times",
+      "url": "https://www.themoscowtimes.com/2025/10/14/imf-cuts-russias-2025-economic-forecast-again-a90809"
+    },
+    {
+      "id": "russ-finanzministerium-oel-gas",
+      "label": "Russisches Finanzministerium: Öl- und Gaseinnahmen 2025, zit. n. TASS",
+      "url": "https://tass.com/economy/2042183"
+    },
+    {
+      "id": "ifw-kiel-kriegswirtschaft",
+      "label": "Kiel Institute: Kiel Report Nr. 3 – Russlands Kriegswirtschaft (Juni 2025)",
+      "url": "https://www.kielinstitut.de/fileadmin/Dateiverwaltung/IfW-Publications/fis-import/eef51261-68bf-4883-b1e9-ed0fb74a92ed-Kiel_Report_no3.pdf"
+    },
+    {
+      "id": "cbr-leitzins",
+      "label": "Russische Zentralbank: Leitzins-Anhebung auf Rekordhoch 21 %, zit. n. TASS",
+      "url": "https://tass.com/economy/1862371"
+    },
+    {
+      "id": "bnetza-gas-2022",
+      "label": "Bundesnetzagentur: Rückblick auf die Gasversorgung 2022",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2023/20230106_RueckblickGasversorgung.html"
+    },
+    {
+      "id": "bnetza-gas-2024",
+      "label": "Bundesnetzagentur: Rückblick auf die Gasversorgung 2024",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2025/20250108_GasRueckblick.html"
+    },
+    {
+      "id": "generalbundesanwalt-nord-stream",
+      "label": "Generalbundesanwalt: Pressemitteilung zur Nord-Stream-Sabotage (21.08.2025)",
+      "url": "https://www.generalbundesanwalt.de/SharedDocs/Pressemitteilungen/DE/2025/Pressemitteilung-vom-21-08-2025.html"
+    },
+    {
+      "id": "destatis-inflation-2022",
+      "label": "Destatis: Inflationsrate 2022 bei +7,9 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/01/PD23_022_611.html"
+    },
+    {
+      "id": "destatis-inflation-2023",
+      "label": "Destatis: Inflationsrate 2023 bei +5,9 %",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/01/PD24_020_611.html"
+    },
+    {
+      "id": "bundestag-abwehrschirm",
+      "label": "Deutscher Bundestag: Wirtschaftsstabilisierungsfonds / 200-Mrd.-Abwehrschirm (Okt. 2022)",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2022/kw42-de-stabilisierungsfond-915612"
+    },
+    {
+      "id": "bundestag-haushalt-2025",
+      "label": "Deutscher Bundestag: Haushaltsgesetz 2025 (502,55 Mrd. €)",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw38-de-haushaltsgesetz-2025-dritte-lesung-1104010"
+    },
+    {
+      "id": "aa-ukraine-solidaritaet",
+      "label": "Auswärtiges Amt: Deutsche Unterstützung für die Ukraine (Stand 24.02.2026)",
+      "url": "https://www.auswaertiges-amt.de/de/service/laender/ukraine-node/ukraine-solidaritaet-2513956"
+    },
+    {
+      "id": "kiel-ukraine-support-tracker",
+      "label": "Kiel Institute for the World Economy: Ukraine Support Tracker",
+      "url": "https://www.kielinstitut.de/topics/war-against-ukraine/ukraine-support-tracker/"
+    },
+    {
+      "id": "kiel-ukraine-4-jahre",
+      "label": "Kiel Institute: Ukraine Support after 4 Years of War – Europe Steps Up (Feb. 2026)",
+      "url": "https://www.kielinstitut.de/publications/news/ukraine-support-after-4-years-of-war-europe-steps-up/"
+    },
+    {
+      "id": "bmvg-vier-jahre",
+      "label": "Bundesministerium der Verteidigung: Vier Jahre Ukraine-Unterstützung (2026)",
+      "url": "https://www.bmvg.de/de/aktuelles/vier-jahre-ukraine-unterstuetzung-6071848"
+    },
+    {
+      "id": "bundesregierung-waffenlieferungen",
+      "label": "Bundesregierung: FAQ zu Waffenlieferungen an die Ukraine",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/faq-waffenlieferungen-2027766"
+    },
+    {
+      "id": "bpb-budapester-memorandum",
+      "label": "bpb: Budapester Memorandum (5. Dezember 1994)",
+      "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/557151/5-dezember-1994-budapester-memorandum/"
+    },
+    {
+      "id": "unric-un-resolution",
+      "label": "UNRIC: UN-Generalversammlung verurteilt Russlands Überfall (141:5:35)",
+      "url": "https://unric.org/de/generalversammlung-verurteilt-russlands-ueberfall-mit-grosser-mehrheit-nur-fuenf-gegenstimmen/"
+    },
+    {
+      "id": "bpb-ukraine-analysen",
+      "label": "bpb: Ukraine-Analysen (Chronik & Hintergrund)",
+      "url": "https://www.bpb.de/themen/europa/ukraine-analysen/"
+    },
+    {
+      "id": "bpb-nato-bukarest-2008",
+      "label": "bpb: Die Sicherheitspolitik der Ukraine und ihre Beziehungen zur NATO (Bukarest 2008)",
+      "url": "https://www.bpb.de/themen/europa/ukraine-analysen/155758/analyse-die-sicherheitspolitik-der-ukraine-und-ihre-beziehungen-zur-nato/"
+    },
+    {
+      "id": "correctiv-nato-osterweiterung",
+      "label": "CORRECTIV: NATO-Osterweiterung – was Russland und der Westen vereinbarten und was nicht",
+      "url": "https://correctiv.org/faktencheck/hintergrund/2022/12/12/nato-osterweiterung-was-russland-und-der-westen-vereinbarten-und-was-nicht/"
+    },
+    {
+      "id": "zmsbw-russische-rechtfertigung",
+      "label": "ZMSBw (Bundeswehr): Russische Rechtfertigungen des Krieges",
+      "url": "https://zms.bundeswehr.de/de/mediathek/zmsbw-dossier-ukraine-ina-kraft-russische-rechtfertigung-5467274"
+    },
+    {
+      "id": "bpb-verhandlungen",
+      "label": "bpb Ukraine-Analysen Nr. 306: Verhandlungen über eine Beendigung des Krieges",
+      "url": "https://www.bpb.de/themen/europa/ukraine-analysen/nr-306/556769/analyse-verhandlungen-ueber-eine-beendigung-des-kriegeszwischen-russland-und-der-ukraine-erfahrungen-und-aussichten/"
+    },
+    {
+      "id": "swp-friedensverhandlungen",
+      "label": "SWP: Friedensverhandlungen im Russland-Ukraine-Krieg (2022)",
+      "url": "https://www.swp-berlin.org/10.18449/2022A66/"
+    },
+    {
+      "id": "transparency-cpi-ukraine",
+      "label": "Transparency International: Corruption Perceptions Index – Ukraine",
+      "url": "https://www.transparency.org/en/countries/ukraine"
+    },
+    {
+      "id": "correctiv-biowaffenlabore",
+      "label": "CORRECTIV: Angebliche Biowaffenlabore in der Ukraine – Faktencheck",
+      "url": "https://correctiv.org/faktencheck/2023/08/24/angebliche-biowaffenlabore-in-der-ukraine-pro-kreml-netzwerk-verbreitet-gefaelschten-welt-artikel/"
+    },
+    {
+      "id": "euvsdisinfo-nazis",
+      "label": "EUvsDisinfo (EEAS): Narrativ ‚Nazis in der Ukraine'",
+      "url": "https://euvsdisinfo.eu/key-narratives-in-pro-kremlin-disinformation-nazis/"
+    }
+  ],
+  "relatedTopicIds": [
+    "energiewende",
+    "migration"
+  ]
+}
