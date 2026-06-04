@@ -78,7 +78,7 @@ export default function Methodik() {
               Online-Belege
             </Typography>
             <Typography component="li" variant="body2">
-              <strong>Inhaltliche Prüfung</strong> — Kontrolle gegen sieben
+              <strong>Inhaltliche Prüfung</strong> — Kontrolle gegen acht
               Qualitätsdimensionen (siehe unten)
             </Typography>
             <Typography component="li" variant="body2">
