@@ -37,7 +37,7 @@ export default function ComparisonView({ items, caption, savings }: ComparisonVi
                 py: 1,
               }}
             >
-              <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>
+              <Typography variant="subtitle2" component="div" sx={{ fontWeight: 700 }}>
                 {item.title}
               </Typography>
             </Box>

@@ -95,7 +95,7 @@ export default function Leitfaden() {
         Gesprächsleitfaden
       </Typography>
 
-      <Typography variant="subtitle1" color="text.secondary" sx={{ mt: -1 }}>
+      <Typography variant="subtitle1" component="p" color="text.secondary" sx={{ mt: -1 }}>
         Was die Forschung zur Argumentation gegen Stammtischparolen empfiehlt
       </Typography>
 

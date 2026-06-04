@@ -89,14 +89,14 @@ export default function Impressum() {
           </Typography>
 
           <Divider />
-          <Typography variant="subtitle2">1. SSL-/TLS-Verschlüsselung</Typography>
+          <Typography variant="subtitle2" component="h3">1. SSL-/TLS-Verschlüsselung</Typography>
           <Typography variant="body2">
             Diese Website nutzt aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung.
             Eine verschlüsselte Verbindung erkennst du an dem Schloss-Symbol in der
             Adresszeile deines Browsers.
           </Typography>
 
-          <Typography variant="subtitle2">2. Hosting und Server-Log-Dateien</Typography>
+          <Typography variant="subtitle2" component="h3">2. Hosting und Server-Log-Dateien</Typography>
           <Typography variant="body2">
             Diese Website wird bei ALL-INKL.COM – Neue Medien Münnich, Inhaber
             René Münnich, Hauptstraße 68, 02742 Friedersdorf (
@@ -116,13 +116,13 @@ export default function Impressum() {
             findet nicht statt.
           </Typography>
 
-          <Typography variant="subtitle2">3. Keine Cookies und kein Tracking</Typography>
+          <Typography variant="subtitle2" component="h3">3. Keine Cookies und kein Tracking</Typography>
           <Typography variant="body2">
             Diese Website verwendet keine Cookies, keine Tracking-Tools und keine
             Analyse-Dienste.
           </Typography>
 
-          <Typography variant="subtitle2">4. Feedback-Formular</Typography>
+          <Typography variant="subtitle2" component="h3">4. Feedback-Formular</Typography>
           <Typography variant="body2">
             Wenn du das{' '}
             <Link component={RouterLink} to="/feedback/" underline="always">
@@ -139,7 +139,7 @@ export default function Impressum() {
             Bearbeitung gelöscht, sofern keine gesetzliche Aufbewahrungspflicht besteht.
           </Typography>
 
-          <Typography variant="subtitle2">5. Weitergabe an Dritte</Typography>
+          <Typography variant="subtitle2" component="h3">5. Weitergabe an Dritte</Typography>
           <Typography variant="body2">
             Eine Weitergabe personenbezogener Daten an Dritte erfolgt nicht, sofern
             keine gesetzliche Verpflichtung dazu besteht. Der Hosting-Anbieter
@@ -147,7 +147,7 @@ export default function Impressum() {
             die Server-Log-Dateien.
           </Typography>
 
-          <Typography variant="subtitle2">6. Deine Rechte</Typography>
+          <Typography variant="subtitle2" component="h3">6. Deine Rechte</Typography>
           <Typography variant="body2">
             Du hast gegenüber dem Verantwortlichen folgende Rechte hinsichtlich deiner
             personenbezogenen Daten:
@@ -164,7 +164,7 @@ export default function Impressum() {
             Zur Ausübung deiner Rechte genügt eine E-Mail an die oben genannte Adresse.
           </Typography>
 
-          <Typography variant="subtitle2">7. Beschwerderecht bei einer Aufsichtsbehörde</Typography>
+          <Typography variant="subtitle2" component="h3">7. Beschwerderecht bei einer Aufsichtsbehörde</Typography>
           <Typography variant="body2">
             Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren,
             wenn du der Ansicht bist, dass die Verarbeitung deiner personenbezogenen Daten

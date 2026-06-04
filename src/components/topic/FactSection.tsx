@@ -189,13 +189,22 @@ interface FactSectionProps {
   section: Section
   defaultExpanded?: boolean
   sources?: Source[]
+  // Heading level of the section title, so the document outline stays valid in
+  // both contexts: directly under the topic h1 (h2) and nested under another
+  // section heading on the argument page (h3).
+  titleComponent?: 'h2' | 'h3'
 }
 
-export default function FactSection({ section, defaultExpanded = false, sources }: FactSectionProps) {
+export default function FactSection({
+  section,
+  defaultExpanded = false,
+  sources,
+  titleComponent = 'h2',
+}: FactSectionProps) {
   return (
     <Accordion defaultExpanded={defaultExpanded} id={`section-${section.id}`}>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-        <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
+        <Typography variant="subtitle1" component={titleComponent} sx={{ fontWeight: 600 }}>
           {section.title}
         </Typography>
       </AccordionSummary>

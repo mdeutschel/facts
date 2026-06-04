@@ -76,7 +76,7 @@ export default function ArgumentCard({
             sx={{ color: 'text.secondary', mt: 0.25, flexShrink: 0, fontSize: 20 }}
           />
           <Box sx={{ flex: 1, minWidth: 0 }}>
-            <Typography variant="subtitle2" sx={{ fontWeight: 600, lineHeight: 1.3 }}>
+            <Typography variant="subtitle2" component="h2" sx={{ fontWeight: 600, lineHeight: 1.3 }}>
               „{argument.claim}"
             </Typography>
             {verdictMeta && (

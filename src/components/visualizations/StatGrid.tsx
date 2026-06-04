@@ -32,7 +32,7 @@ export default function StatGrid({ items }: StatGridProps) {
             borderRadius: 2,
           }}
         >
-          <Typography variant="h5" sx={{ fontWeight: 800, lineHeight: 1.2 }}>
+          <Typography variant="h5" component="div" sx={{ fontWeight: 800, lineHeight: 1.2 }}>
             {item.value}
           </Typography>
           <Typography variant="caption" sx={{ fontWeight: 600, display: 'block', mt: 0.25 }}>
