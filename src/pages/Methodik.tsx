@@ -191,7 +191,7 @@ export default function Methodik() {
               <strong>Gesprächstauglichkeit</strong> — Antworten beginnen
               mit der korrekten Aussage, nicht mit der Wiederholung der
               Parole (Truth Sandwich nach Lakoff). Wo sinnvoll, ergänzen{' '}
-              <Link component={RouterLink} to="/leitfaden/" underline="hover">
+              <Link component={RouterLink} to="/leitfaden/" underline="always">
                 eine Musterbenennung und konkrete Gegenfragen
               </Link>{' '}
               den Faktenkern für die tatsächliche Gesprächssituation.
@@ -203,7 +203,7 @@ export default function Methodik() {
               href="https://github.com/mdeutschel/facts/blob/main/.claude/skills/review-content/SKILL.md"
               target="_blank"
               rel="noopener"
-              underline="hover"
+              underline="always"
             >
               review-content
             </Link>
@@ -212,7 +212,7 @@ export default function Methodik() {
               href="https://github.com/mdeutschel/facts/blob/main/.claude/skills/verify-sources/SKILL.md"
               target="_blank"
               rel="noopener"
-              underline="hover"
+              underline="always"
             >
               verify-sources
             </Link>
@@ -283,7 +283,7 @@ export default function Methodik() {
               href="https://schema.org/ClaimReview"
               target="_blank"
               rel="noopener"
-              underline="hover"
+              underline="always"
             >
               ClaimReview
             </Link>

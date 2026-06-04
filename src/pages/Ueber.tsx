@@ -77,7 +77,7 @@ export default function Ueber() {
             automatisierte Skills für Quellenverifizierung und
             argumentative Prüfung, ein offener Korrekturweg über Feedback
             und Issues. Den vollständigen Prozess beschreibt die{' '}
-            <Link component={RouterLink} to="/methodik/" underline="hover">
+            <Link component={RouterLink} to="/methodik/" underline="always">
               Methodik-Seite
             </Link>
             .
@@ -108,7 +108,7 @@ export default function Ueber() {
               href="https://github.com/mdeutschel/facts/tree/main/.claude/skills"
               target="_blank"
               rel="noopener"
-              underline="hover"
+              underline="always"
             >
               Repository einsehbar
             </Link>{' '}
@@ -177,7 +177,7 @@ export default function Ueber() {
               href="https://github.com/mdeutschel/facts"
               target="_blank"
               rel="noopener"
-              underline="hover"
+              underline="always"
             >
               github.com/mdeutschel/facts
             </Link>
@@ -199,7 +199,7 @@ export default function Ueber() {
           </Typography>
           <Typography variant="body2">
             Auch per Mail an die{' '}
-            <Link component={RouterLink} to="/feedback/" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="always">
               Feedback-Adresse
             </Link>
             .
@@ -215,7 +215,7 @@ export default function Ueber() {
           <Typography variant="body2">
             Verantwortlich für Konzept, Methodik und Veröffentlichung:
             Marcel Deutschel. Anschrift im{' '}
-            <Link component={RouterLink} to="/impressum/" underline="hover">
+            <Link component={RouterLink} to="/impressum/" underline="always">
               Impressum
             </Link>
             .
@@ -228,12 +228,12 @@ export default function Ueber() {
               href="https://github.com/mdeutschel/facts/issues"
               target="_blank"
               rel="noopener"
-              underline="hover"
+              underline="always"
             >
               GitHub-Repository
             </Link>{' '}
             und das{' '}
-            <Link component={RouterLink} to="/feedback/" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="always">
               Feedback-Formular
             </Link>
             . Hinweise zu falschen Zahlen, kaputten Quellen-Links oder
