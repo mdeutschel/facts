@@ -47,7 +47,7 @@ export default function AppShell() {
               height={32}
               sx={{
                 height: { xs: 28, sm: 32 },
-                width: 'auto',
+                width: { xs: 28, sm: 32 },
                 borderRadius: '4px',
               }}
             />
@@ -66,6 +66,7 @@ export default function AppShell() {
         </Toolbar>
       </AppBar>
       <Container
+        component="main"
         maxWidth="md"
         sx={{
           flex: 1,

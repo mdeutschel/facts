@@ -81,7 +81,7 @@ export default function Home() {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {HOME_ABOUT_LEAD}{' '}
-          <Link component={RouterLink} to="/ueber/" underline="hover">
+          <Link component={RouterLink} to="/ueber/" underline="always">
             Über-Seite
           </Link>{' '}
           beschrieben.
@@ -93,7 +93,7 @@ export default function Home() {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {HOME_METHOD_LEAD}{' '}
-          <Link component={RouterLink} to="/methodik/" underline="hover">
+          <Link component={RouterLink} to="/methodik/" underline="always">
             Methodik-Seite
           </Link>
           .
