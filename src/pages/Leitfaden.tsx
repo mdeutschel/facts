@@ -235,7 +235,7 @@ export default function Leitfaden() {
             <Link
               component={RouterLink}
               to="/thema/migration/nehmen-jobs-weg/"
-              underline="hover"
+              underline="always"
             >
               „Ausländer nehmen uns die guten Jobs weg.“
             </Link>
@@ -284,7 +284,7 @@ export default function Leitfaden() {
             Quellen wurden zum Stand der Veröffentlichung dieser Seite
             abgerufen und auf inhaltliche Passung geprüft. Hinweise auf
             kaputte Links oder bessere Belege gerne über das{' '}
-            <Link component={RouterLink} to="/feedback/" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="always">
               Feedback-Formular
             </Link>
             .

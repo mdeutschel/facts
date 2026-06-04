@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { Outlet, useNavigate, useLocation } from 'react-router-dom'
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
@@ -8,6 +9,7 @@ import Box from '@mui/material/Box'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import SearchBar from './SearchBar'
 import Footer from './Footer'
+import PageSkeleton from './PageSkeleton'
 
 export default function AppShell() {
   const navigate = useNavigate()
@@ -47,7 +49,7 @@ export default function AppShell() {
               height={32}
               sx={{
                 height: { xs: 28, sm: 32 },
-                width: 'auto',
+                width: { xs: 28, sm: 32 },
                 borderRadius: '4px',
               }}
             />
@@ -66,6 +68,7 @@ export default function AppShell() {
         </Toolbar>
       </AppBar>
       <Container
+        component="main"
         maxWidth="md"
         sx={{
           flex: 1,
@@ -74,7 +77,9 @@ export default function AppShell() {
           minHeight: { xs: 'calc(100vh - 56px - 120px)', sm: 'calc(100vh - 64px - 120px)' },
         }}
       >
-        <Outlet />
+        <Suspense fallback={<PageSkeleton />}>
+          <Outlet />
+        </Suspense>
       </Container>
       <Footer />
     </Box>

@@ -66,7 +66,7 @@ export default function Impressum() {
           </Box>
           <Typography variant="body2">
             Weitere Kontaktmöglichkeit:{' '}
-            <Link component={RouterLink} to="/feedback/" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="always">
               Feedback-Formular
             </Link>
           </Typography>
@@ -100,7 +100,7 @@ export default function Impressum() {
           <Typography variant="body2">
             Diese Website wird bei ALL-INKL.COM – Neue Medien Münnich, Inhaber
             René Münnich, Hauptstraße 68, 02742 Friedersdorf (
-            <Link href="https://all-inkl.com" target="_blank" rel="noopener" underline="hover">
+            <Link href="https://all-inkl.com" target="_blank" rel="noopener" underline="always">
               all-inkl.com
             </Link>
             ) gehostet. Beim Aufruf der Website werden automatisch Server-Log-Dateien
@@ -125,7 +125,7 @@ export default function Impressum() {
           <Typography variant="subtitle2">4. Feedback-Formular</Typography>
           <Typography variant="body2">
             Wenn du das{' '}
-            <Link component={RouterLink} to="/feedback/" underline="hover">
+            <Link component={RouterLink} to="/feedback/" underline="always">
               Feedback-Formular
             </Link>
             {' '}nutzt, werden die von dir eingegebenen Daten (Vorschlag, optional Name

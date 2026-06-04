@@ -15,7 +15,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (id.includes('node_modules/@mui/')) return 'mui'
+          // Keep React and the router in a single long-lived vendor chunk —
+          // they are needed on every route and rarely change. MUI is left to
+          // Rollup's automatic splitting so route-specific components land in
+          // their lazy route chunks instead of one eagerly loaded bundle.
           if (id.includes('node_modules/react') || id.includes('node_modules/react-router-dom')) {
             return 'vendor'
           }

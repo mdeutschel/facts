@@ -1,3 +1,4 @@
+import { lazy } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
@@ -5,15 +6,19 @@ import theme from './theme'
 import AppShell from './components/layout/AppShell'
 import ScrollManager from './components/layout/ScrollManager'
 import Home from './pages/Home'
-import TopicPage from './pages/TopicPage'
-import ArgumentPage from './pages/ArgumentPage'
-import SearchPage from './pages/SearchPage'
-import Impressum from './pages/Impressum'
-import Feedback from './pages/Feedback'
-import Ueber from './pages/Ueber'
-import Methodik from './pages/Methodik'
-import Leitfaden from './pages/Leitfaden'
-import NotFound from './pages/NotFound'
+
+// Home stays eager so the most-visited route renders without a Suspense swap
+// (keeps its zero layout shift). Every other route is code-split into its own
+// chunk so the initial load no longer ships their components.
+const TopicPage = lazy(() => import('./pages/TopicPage'))
+const ArgumentPage = lazy(() => import('./pages/ArgumentPage'))
+const SearchPage = lazy(() => import('./pages/SearchPage'))
+const Impressum = lazy(() => import('./pages/Impressum'))
+const Feedback = lazy(() => import('./pages/Feedback'))
+const Ueber = lazy(() => import('./pages/Ueber'))
+const Methodik = lazy(() => import('./pages/Methodik'))
+const Leitfaden = lazy(() => import('./pages/Leitfaden'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 
 export default function App() {
   return (

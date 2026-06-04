@@ -7,7 +7,6 @@ import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import Chip from '@mui/material/Chip'
 import Breadcrumbs from '@mui/material/Breadcrumbs'
-import CircularProgress from '@mui/material/CircularProgress'
 import Alert from '@mui/material/Alert'
 import Button from '@mui/material/Button'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack'
@@ -24,6 +23,7 @@ import {
   VERDICT_RATING_WORST,
 } from '../components/seo/verdict'
 import { useTopic } from '../hooks/useTopics'
+import PageSkeleton from '../components/layout/PageSkeleton'
 import { formatGermanDate } from '../theme'
 
 const DESCRIPTION_MAX = 155
@@ -72,11 +72,7 @@ export default function ArgumentPage() {
   }, [topic, relatedSections])
 
   if (loading) {
-    return (
-      <Box sx={{ display: 'flex', justifyContent: 'center', py: 8 }}>
-        <CircularProgress />
-      </Box>
-    )
+    return <PageSkeleton blocks={5} />
   }
 
   if (error || !topic) {

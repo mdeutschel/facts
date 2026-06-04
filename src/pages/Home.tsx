@@ -1,8 +1,6 @@
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Link from '@mui/material/Link'
-import CircularProgress from '@mui/material/CircularProgress'
-import Alert from '@mui/material/Alert'
 import { Link as RouterLink } from 'react-router-dom'
 import TopicCard from '../components/home/TopicCard'
 import PageMeta from '../components/seo/PageMeta'
@@ -23,19 +21,7 @@ import {
 } from '../content/homeTexts'
 
 export default function Home() {
-  const { topics, loading, error } = useTopicIndex()
-
-  if (loading) {
-    return (
-      <Box sx={{ display: 'flex', justifyContent: 'center', py: 8 }}>
-        <CircularProgress />
-      </Box>
-    )
-  }
-
-  if (error) {
-    return <Alert severity="error">Fehler beim Laden: {error}</Alert>
-  }
+  const { topics } = useTopicIndex()
 
   return (
     <Box>
@@ -81,7 +67,7 @@ export default function Home() {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {HOME_ABOUT_LEAD}{' '}
-          <Link component={RouterLink} to="/ueber/" underline="hover">
+          <Link component={RouterLink} to="/ueber/" underline="always">
             Über-Seite
           </Link>{' '}
           beschrieben.
@@ -93,7 +79,7 @@ export default function Home() {
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {HOME_METHOD_LEAD}{' '}
-          <Link component={RouterLink} to="/methodik/" underline="hover">
+          <Link component={RouterLink} to="/methodik/" underline="always">
             Methodik-Seite
           </Link>
           .

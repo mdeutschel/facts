@@ -1,5 +1,12 @@
 import { useState, useEffect } from 'react'
-import type { TopicIndex, TopicMeta, Topic } from '../types'
+import type { TopicIndex, Topic } from '../types'
+// The topic index is generated at build time (generate-topic-index.mjs) and
+// imported statically so the home/related views render their full content on
+// first paint. Avoiding a runtime fetch for this small metadata file removes
+// the loading-spinner swap that caused cumulative layout shift.
+import topicIndexData from '../../public/data/topics.json'
+
+const STATIC_TOPIC_INDEX = (topicIndexData as TopicIndex).topics
 
 const MAX_CACHE_SIZE = 50
 const cacheKeys: string[] = []
@@ -31,22 +38,9 @@ async function fetchWithRetry(url: string, retries = 2): Promise<Response> {
 }
 
 export function useTopicIndex() {
-  const [topics, setTopics] = useState<TopicMeta[]>([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
-
-  useEffect(() => {
-    fetchWithRetry(`${import.meta.env.BASE_URL}data/topics.json`)
-      .then((res) => {
-        if (!res.ok) throw new Error(`HTTP ${res.status}`)
-        return res.json() as Promise<TopicIndex>
-      })
-      .then((data) => setTopics(data.topics))
-      .catch((err) => setError(err.message))
-      .finally(() => setLoading(false))
-  }, [])
-
-  return { topics, loading, error }
+  // Served synchronously from the statically imported build-time index, so
+  // consumers never render a loading state for the topic list.
+  return { topics: STATIC_TOPIC_INDEX, loading: false, error: null }
 }
 
 export function useTopic(id: string | undefined) {

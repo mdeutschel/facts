@@ -4,7 +4,6 @@ import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
-import CircularProgress from '@mui/material/CircularProgress'
 import Alert from '@mui/material/Alert'
 import FactCheckIcon from '@mui/icons-material/FactCheck'
 import ForumIcon from '@mui/icons-material/Forum'
@@ -17,6 +16,7 @@ import PageMeta from '../components/seo/PageMeta'
 import { PERSON_ID, ORG_ID } from '../components/seo/person'
 import { buildFaqPage } from '../components/seo/jsonLd'
 import { useTopic } from '../hooks/useTopics'
+import PageSkeleton from '../components/layout/PageSkeleton'
 
 export default function TopicPage() {
   const { topicId } = useParams<{ topicId: string }>()
@@ -50,11 +50,7 @@ export default function TopicPage() {
   }, [hash, location.key])
 
   if (loading) {
-    return (
-      <Box sx={{ display: 'flex', justifyContent: 'center', py: 8 }}>
-        <CircularProgress />
-      </Box>
-    )
+    return <PageSkeleton blocks={5} />
   }
 
   if (error || !topic) {
