@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import { Link as RouterLink } from 'react-router-dom'
 import PageMeta from '../components/seo/PageMeta'
-import { PERSON_ID } from '../components/seo/person'
+import { PERSON_ID, ORG_ID } from '../components/seo/person'
 
 interface PrincipleProps {
   number: number
@@ -79,7 +79,7 @@ export default function Leitfaden() {
       'Wie man im Gespräch auf Stammtischparolen reagiert: sechs forschungsbasierte Werkzeuge aus politischer Bildung und Misinformation-Forschung.',
     inLanguage: 'de',
     author: { '@id': PERSON_ID },
-    publisher: { '@id': PERSON_ID },
+    publisher: { '@id': ORG_ID },
   }
 
   return (

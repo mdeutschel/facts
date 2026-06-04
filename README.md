@@ -4,7 +4,7 @@ Deutschsprachige, mobile-first React-SPA mit faktenbasierten Argumenten und Quel
 
 ## Wie diese Seite entsteht
 
-Code und Inhalte werden mit Sprachmodellen erstellt. Die Verantwortung für Veröffentlichung, Methodik und das Repository liegt bei Marcel Deutschel als Betreiber. Qualität wird nicht durch redaktionelle Vollprüfung jeder Aussage abgesichert, sondern durch einen reproduzierbaren Workflow: automatisierte Quellenverifizierung gegen die tatsächlich erreichbaren Online-Belege (`verify-sources`), inhaltliche Prüfung gegen sieben Qualitätsdimensionen (`review-content`), verlinkte Primärquellen zu jeder Zahl, offen einsehbare Skills im `.claude/skills/`-Verzeichnis und ein offener Korrekturweg über GitHub-Issues und das Feedback-Formular.
+Code und Inhalte werden mit Sprachmodellen erstellt. Die Verantwortung für Veröffentlichung, Methodik und das Repository liegt bei Marcel Deutschel als Betreiber. Qualität wird nicht durch redaktionelle Vollprüfung jeder Aussage abgesichert, sondern durch einen reproduzierbaren Workflow: automatisierte Quellenverifizierung gegen die tatsächlich erreichbaren Online-Belege (`verify-sources`), inhaltliche Prüfung gegen acht Qualitätsdimensionen (`review-content`), verlinkte Primärquellen zu jeder Zahl, offen einsehbare Skills im `.claude/skills/`-Verzeichnis und ein offener Korrekturweg über GitHub-Issues und das Feedback-Formular.
 
 Der Wert des Projekts soll sich am Ergebnis messen lassen — an Quellenlage, Argumentationsschärfe und Korrigierbarkeit. Die Tatsache, dass KI an Recherche, Strukturierung und Erstellung beteiligt ist, ist Teil des Versuchsaufbaus und im Abschnitt [KI-Workflow im Repository](#ki-workflow-im-repository) genauer beschrieben.
 
@@ -79,6 +79,7 @@ public/
 scripts/
   generate-topic-index.mjs   erzeugt public/data/topics.json
   generate-seo.mjs           erzeugt Sitemap, LLM-Dateien und HTML-Fallbacks
+  generate-route-html.mjs    erzeugt vorgerenderte Route-HTML inkl. JSON-LD
   setup-cursor-rules.sh      spiegelt .claude/rules nach .cursor/rules
 ```
 
@@ -140,7 +141,8 @@ Ein neues Thema anzulegen heißt praktisch: eine neue `public/data/{topicId}.jso
    - HTML-Fallback-Inhalte in `index.html`
 3. TypeScript-Build mit `tsc -b`
 4. Vite-Production-Build nach `dist/`
-5. Kopie der Apache-Konfiguration nach `dist/.htaccess`
+5. `generate-route-html.mjs` erzeugt vorgerenderte Route-HTML mit JSON-LD (Article, FAQPage, ggf. ClaimReview, BreadcrumbList) und routenspezifischem `<noscript>`-Inhalt
+6. Kopie der Apache-Konfiguration nach `dist/.htaccess`
 
 Das Projekt ist auf statisches Hosting mit Apache-Fallback ausgelegt. Source Maps sind im Production-Build deaktiviert.
 
