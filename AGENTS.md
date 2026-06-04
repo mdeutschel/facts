@@ -92,7 +92,7 @@ Folgende Dateien werden beim Build erzeugt und sollten nicht manuell gepflegt we
   - Zusätzliches `CollectionPage`-JSON-LD in `dist/index.html`
   - Sitewide `WebSite` + `Organization` + `Person` JSON-LD-Graph liegt statisch in `index.html` und erscheint via Template auf allen Routen; `author`/`publisher` referenzieren diese Knoten per `@id` (`#person` bzw. `#organization`). FAQPage wird genutzt, weil QAPage von Google nutzer-einreichbare Antworten verlangt; FAQ-Rich-Results sind seit Mai 2026 abgeschaltet, das Markup bleibt aber für Verständnis und KI-Nutzung relevant.
   - `public/llms/{topicId}/{argumentId}.txt` (per-Argument Plaintext)
-- Wenn neue statische Routen oder Argumentstrukturen hinzukommen, `STATIC_ROUTES` und die JSON-LD-Builder in `scripts/generate-route-html.mjs` synchron mit den React-Pages halten
+- JSON-LD wird an **zwei** Stellen erzeugt, die identisch bleiben müssen: die Prerender-Builder in `scripts/generate-route-html.mjs` (Crawler sehen diese in den `dist/.../index.html`) und die Runtime-Builder in den React-Pages (`TopicPage.tsx`, `ArgumentPage.tsx`, statische Seiten) für SPA-Navigation. Der gemeinsame FAQPage-Builder liegt in `src/components/seo/jsonLd.ts`, IDs/Verdict-Mapping in `src/components/seo/`. Bei neuen statischen Routen oder Argumentstrukturen `STATIC_ROUTES`, die Builder in `generate-route-html.mjs` und die React-Pages synchron halten.
 
 ## Code-Konventionen
 

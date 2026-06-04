@@ -79,6 +79,7 @@ public/
 scripts/
   generate-topic-index.mjs   erzeugt public/data/topics.json
   generate-seo.mjs           erzeugt Sitemap, LLM-Dateien und HTML-Fallbacks
+  generate-route-html.mjs    erzeugt vorgerenderte Route-HTML inkl. JSON-LD
   setup-cursor-rules.sh      spiegelt .claude/rules nach .cursor/rules
 ```
 
@@ -140,7 +141,8 @@ Ein neues Thema anzulegen heißt praktisch: eine neue `public/data/{topicId}.jso
    - HTML-Fallback-Inhalte in `index.html`
 3. TypeScript-Build mit `tsc -b`
 4. Vite-Production-Build nach `dist/`
-5. Kopie der Apache-Konfiguration nach `dist/.htaccess`
+5. `generate-route-html.mjs` erzeugt vorgerenderte Route-HTML mit JSON-LD (Article, FAQPage, ggf. ClaimReview, BreadcrumbList) und routenspezifischem `<noscript>`-Inhalt
+6. Kopie der Apache-Konfiguration nach `dist/.htaccess`
 
 Das Projekt ist auf statisches Hosting mit Apache-Fallback ausgelegt. Source Maps sind im Production-Build deaktiviert.
 
