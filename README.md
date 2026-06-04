@@ -4,7 +4,7 @@ Deutschsprachige, mobile-first React-SPA mit faktenbasierten Argumenten und Quel
 
 ## Wie diese Seite entsteht
 
-Code und Inhalte werden mit Sprachmodellen erstellt. Die Verantwortung für Veröffentlichung, Methodik und das Repository liegt bei Marcel Deutschel als Betreiber. Qualität wird nicht durch redaktionelle Vollprüfung jeder Aussage abgesichert, sondern durch einen reproduzierbaren Workflow: automatisierte Quellenverifizierung gegen die tatsächlich erreichbaren Online-Belege (`verify-sources`), inhaltliche Prüfung gegen sieben Qualitätsdimensionen (`review-content`), verlinkte Primärquellen zu jeder Zahl, offen einsehbare Skills im `.claude/skills/`-Verzeichnis und ein offener Korrekturweg über GitHub-Issues und das Feedback-Formular.
+Code und Inhalte werden mit Sprachmodellen erstellt. Die Verantwortung für Veröffentlichung, Methodik und das Repository liegt bei Marcel Deutschel als Betreiber. Qualität wird nicht durch redaktionelle Vollprüfung jeder Aussage abgesichert, sondern durch einen reproduzierbaren Workflow: automatisierte Quellenverifizierung gegen die tatsächlich erreichbaren Online-Belege (`verify-sources`), inhaltliche Prüfung gegen acht Qualitätsdimensionen (`review-content`), verlinkte Primärquellen zu jeder Zahl, offen einsehbare Skills im `.claude/skills/`-Verzeichnis und ein offener Korrekturweg über GitHub-Issues und das Feedback-Formular.
 
 Der Wert des Projekts soll sich am Ergebnis messen lassen — an Quellenlage, Argumentationsschärfe und Korrigierbarkeit. Die Tatsache, dass KI an Recherche, Strukturierung und Erstellung beteiligt ist, ist Teil des Versuchsaufbaus und im Abschnitt [KI-Workflow im Repository](#ki-workflow-im-repository) genauer beschrieben.
 
