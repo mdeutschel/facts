@@ -275,7 +275,7 @@ export default function ArgumentPage() {
 
         {relatedSections.length > 0 && (
           <Box>
-            <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
+            <Typography variant="subtitle2" component="h2" sx={{ fontWeight: 600, mb: 1 }}>
               Fakten dazu
             </Typography>
             <Box>
@@ -285,6 +285,7 @@ export default function ArgumentPage() {
                   section={s}
                   defaultExpanded
                   sources={topic.sources}
+                  titleComponent="h3"
                 />
               ))}
             </Box>
@@ -327,7 +328,7 @@ export default function ArgumentPage() {
 
         {otherArguments.length > 0 && (
           <Paper sx={{ p: { xs: 2, sm: 3 } }}>
-            <Typography variant="subtitle2" sx={{ fontWeight: 600, mb: 1 }}>
+            <Typography variant="subtitle2" component="h2" sx={{ fontWeight: 600, mb: 1 }}>
               Weitere Aussagen zum Thema {topic.title}
             </Typography>
             <Stack spacing={0.5}>
