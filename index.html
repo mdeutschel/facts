@@ -21,16 +21,40 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Fakten-Stammtisch",
-        "url": "https://fakten-stammtisch.de",
-        "description": "Faktenbasierte Argumente für Stammtischdiskussionen",
-        "inLanguage": "de",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://fakten-stammtisch.de/suche/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://fakten-stammtisch.de/#website",
+            "name": "Fakten-Stammtisch",
+            "url": "https://fakten-stammtisch.de",
+            "description": "Faktenbasierte Argumente für Stammtischdiskussionen",
+            "inLanguage": "de",
+            "publisher": { "@id": "https://fakten-stammtisch.de/#organization" },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://fakten-stammtisch.de/suche/?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://fakten-stammtisch.de/#organization",
+            "name": "Fakten-Stammtisch",
+            "url": "https://fakten-stammtisch.de/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://fakten-stammtisch.de/logo.png"
+            },
+            "founder": { "@id": "https://fakten-stammtisch.de/ueber/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://fakten-stammtisch.de/ueber/#person",
+            "name": "Marcel Deutschel",
+            "url": "https://fakten-stammtisch.de/ueber/",
+            "sameAs": ["https://github.com/mdeutschel"]
+          }
+        ]
       }
     </script>
     <meta name="description" content="Faktenbasierte Argumente für Stammtischdiskussionen — quellengestützte Fakten zu Heizung, E-Mobilität, Klimawandel, Migration und mehr." />

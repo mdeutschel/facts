@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography'
 import Link from '@mui/material/Link'
 import { Link as RouterLink } from 'react-router-dom'
 import PageMeta from '../components/seo/PageMeta'
-import { PERSON_ID } from '../components/seo/person'
+import { PERSON_ID, ORG_ID } from '../components/seo/person'
 
 export default function Methodik() {
   const jsonLd = {
@@ -18,7 +18,7 @@ export default function Methodik() {
       'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität.',
     inLanguage: 'de',
     author: { '@id': PERSON_ID },
-    publisher: { '@id': PERSON_ID },
+    publisher: { '@id': ORG_ID },
   }
 
   return (

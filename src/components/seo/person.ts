@@ -1,4 +1,8 @@
 export const PERSON_ID = 'https://fakten-stammtisch.de/ueber/#person'
+// Publisher entity. The matching Organization node is declared once in the static
+// index.html JSON-LD graph (present in the DOM on every route), so author/publisher
+// references resolve by @id without re-declaring the node per page.
+export const ORG_ID = 'https://fakten-stammtisch.de/#organization'
 
 export const PERSON_JSONLD = {
   '@type': 'Person',

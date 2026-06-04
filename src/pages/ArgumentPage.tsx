@@ -16,7 +16,8 @@ import FactSection from '../components/topic/FactSection'
 import ShareButton from '../components/layout/ShareButton'
 import RelatedTopics from '../components/topic/RelatedTopics'
 import PageMeta from '../components/seo/PageMeta'
-import { PERSON_ID } from '../components/seo/person'
+import { PERSON_ID, ORG_ID } from '../components/seo/person'
+import { buildFaqPage } from '../components/seo/jsonLd'
 import {
   VERDICT_META,
   VERDICT_RATING_BEST,
@@ -88,58 +89,35 @@ export default function ArgumentPage() {
 
   const argumentPath = `/thema/${topic.id}/${argument.id}/`
   const argumentUrl = `https://fakten-stammtisch.de${argumentPath}`
-  const questionId = `${argumentUrl}#question`
-  const answerId = `${argumentUrl}#accepted-answer`
+  const topicUrl = `https://fakten-stammtisch.de/thema/${topic.id}/`
   const seoTitle = truncate(argument.claim, 65)
   const seoDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
 
+  // Mirror buildArgumentJsonLd() in scripts/generate-route-html.mjs — keep both in sync.
   const graph: Record<string, unknown>[] = [
     {
-      '@type': 'QAPage',
-      '@id': `${argumentUrl}#qapage`,
+      '@type': 'Article',
+      '@id': `${argumentUrl}#article`,
       url: argumentUrl,
-      name: argument.claim,
+      headline: seoTitle,
       description: seoDescription,
+      articleBody: argument.response.replace(/\s+/g, ' ').trim(),
+      image: `https://fakten-stammtisch.de/og-image.png`,
       inLanguage: 'de',
       datePublished: topic.lastUpdated,
       dateModified: topic.lastUpdated,
       author: { '@id': PERSON_ID },
-      publisher: { '@id': PERSON_ID },
+      publisher: { '@id': ORG_ID },
+      mainEntityOfPage: argumentUrl,
       isPartOf: {
-        '@type': 'WebPage',
-        '@id': `https://fakten-stammtisch.de/thema/${topic.id}/#faqpage`,
+        '@type': 'Article',
+        '@id': `${topicUrl}#article`,
         name: topic.title,
-        url: `https://fakten-stammtisch.de/thema/${topic.id}/`,
-      },
-      mainEntity: {
-        '@type': 'Question',
-        '@id': questionId,
-        url: argumentUrl,
-        name: argument.claim,
-        text: argument.claim,
-        datePublished: topic.lastUpdated,
-        dateModified: topic.lastUpdated,
-        author: {
-          '@type': 'Person',
-          '@id': PERSON_ID,
-        },
-        answerCount: 1,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          '@id': answerId,
-          url: argumentUrl,
-          text: argument.response,
-          datePublished: topic.lastUpdated,
-          dateModified: topic.lastUpdated,
-          upvoteCount: 0,
-          author: {
-            '@type': 'Person',
-            '@id': PERSON_ID,
-          },
-        },
+        url: topicUrl,
       },
     },
+    buildFaqPage(argumentUrl, [argument]),
   ]
 
   if (verdictMeta) {
@@ -163,6 +141,15 @@ export default function ArgumentPage() {
       },
     })
   }
+
+  graph.push({
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Themen', item: 'https://fakten-stammtisch.de/' },
+      { '@type': 'ListItem', position: 2, name: topic.title, item: topicUrl },
+      { '@type': 'ListItem', position: 3, name: truncate(argument.claim, 65), item: argumentUrl },
+    ],
+  })
 
   const jsonLd = {
     '@context': 'https://schema.org',

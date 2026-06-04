@@ -14,7 +14,8 @@ import TopicTrustBox from '../components/topic/TopicTrustBox'
 import RelatedTopics from '../components/topic/RelatedTopics'
 import ShareButton from '../components/layout/ShareButton'
 import PageMeta from '../components/seo/PageMeta'
-import { PERSON_ID } from '../components/seo/person'
+import { PERSON_ID, ORG_ID } from '../components/seo/person'
+import { buildFaqPage } from '../components/seo/jsonLd'
 import { useTopic } from '../hooks/useTopics'
 
 export default function TopicPage() {
@@ -64,20 +65,34 @@ export default function TopicPage() {
   const topicUrl = `https://fakten-stammtisch.de${topicPath}`
   const seoTitle = topic.seoTitle ?? topic.title
   const seoDescription = topic.seoDescription ?? topic.subtitle
-  const articleJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    '@id': `${topicUrl}#article`,
-    url: topicUrl,
-    headline: seoTitle,
-    description: seoDescription,
-    inLanguage: 'de',
-    datePublished: topic.lastUpdated,
-    dateModified: topic.lastUpdated,
-    author: { '@id': PERSON_ID },
-    publisher: { '@id': PERSON_ID },
-    mainEntityOfPage: topicUrl,
+  // Mirror buildTopicJsonLd() in scripts/generate-route-html.mjs — keep both in sync.
+  const graph: Record<string, unknown>[] = [
+    {
+      '@type': 'Article',
+      '@id': `${topicUrl}#article`,
+      url: topicUrl,
+      headline: seoTitle,
+      description: seoDescription,
+      image: `https://fakten-stammtisch.de/og-image.png`,
+      inLanguage: 'de',
+      datePublished: topic.lastUpdated,
+      dateModified: topic.lastUpdated,
+      author: { '@id': PERSON_ID },
+      publisher: { '@id': ORG_ID },
+      mainEntityOfPage: topicUrl,
+    },
+  ]
+  if (topic.arguments.length > 0) {
+    graph.push(buildFaqPage(topicUrl, topic.arguments))
   }
+  graph.push({
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Themen', item: 'https://fakten-stammtisch.de/' },
+      { '@type': 'ListItem', position: 2, name: topic.title, item: topicUrl },
+    ],
+  })
+  const jsonLd = { '@context': 'https://schema.org', '@graph': graph }
 
   return (
     <Box>
@@ -85,7 +100,7 @@ export default function TopicPage() {
         title={seoTitle}
         description={seoDescription}
         path={topicPath}
-        jsonLd={articleJsonLd}
+        jsonLd={jsonLd}
       />
       <Box sx={{ mb: 2, display: 'flex', alignItems: 'flex-start', gap: 1.5 }}>
         <Box sx={{ flex: 1, minWidth: 0 }}>

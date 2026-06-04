@@ -9,6 +9,7 @@ const SITE_URL = 'https://fakten-stammtisch.de'
 const SITE_NAME = 'Fakten-Stammtisch'
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`
 const PERSON_ID = 'https://fakten-stammtisch.de/ueber/#person'
+const ORG_ID = `${SITE_URL}/#organization`
 const DESCRIPTION_MAX = 155
 const TITLE_MAX = 65
 
@@ -58,6 +59,27 @@ function buildBreadcrumbList(items) {
   }
 }
 
+function buildFaqPage(pageUrl, args) {
+  // FAQPage = publisher-authored question(s) with a single definitive answer each.
+  // This is the schema-correct type for our content (QAPage requires user-submittable
+  // answers). It no longer yields a Google rich result, but Google and AI systems
+  // still parse it to understand the Q&A structure.
+  return {
+    '@type': 'FAQPage',
+    '@id': `${pageUrl}#faq`,
+    url: pageUrl,
+    inLanguage: 'de',
+    mainEntity: args.map((argument) => ({
+      '@type': 'Question',
+      name: argument.claim,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: argument.response.replace(/\s+/g, ' ').trim(),
+      },
+    })),
+  }
+}
+
 function getRelatedTopics(topic, topicsById) {
   if (!topic.relatedTopicIds || topic.relatedTopicIds.length === 0) return []
   return topic.relatedTopicIds
@@ -89,11 +111,12 @@ function buildTopicJsonLd(topic, topicsById) {
     url: topicUrl,
     headline: seoTitle,
     description: seoDescription,
+    image: DEFAULT_IMAGE,
     inLanguage: 'de',
     datePublished: topic.lastUpdated,
     dateModified: topic.lastUpdated,
     author: { '@id': PERSON_ID },
-    publisher: { '@id': PERSON_ID },
+    publisher: { '@id': ORG_ID },
     mainEntityOfPage: topicUrl,
     relatedLink: relatedTopics.map((relatedTopic) => absoluteUrl(`/thema/${relatedTopic.id}/`)),
   }
@@ -103,66 +126,50 @@ function buildTopicJsonLd(topic, topicsById) {
     { name: topic.title, url: topicUrl },
   ])
 
+  const graph = [article]
+  if (topic.arguments && topic.arguments.length > 0) {
+    graph.push(buildFaqPage(topicUrl, topic.arguments))
+  }
+  graph.push(breadcrumb)
+
   return {
     '@context': 'https://schema.org',
-    '@graph': [article, breadcrumb],
+    '@graph': graph,
   }
 }
 
 function buildArgumentJsonLd(topic, argument) {
   const argumentUrl = absoluteUrl(`/thema/${topic.id}/${argument.id}/`)
   const topicUrl = absoluteUrl(`/thema/${topic.id}/`)
-  const questionId = `${argumentUrl}#question`
-  const answerId = `${argumentUrl}#accepted-answer`
   const seoDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
 
   const graph = [
+    // The argument page is a publisher-authored analysis of a single claim → Article.
     {
-      '@type': 'QAPage',
-      '@id': `${argumentUrl}#qapage`,
+      '@type': 'Article',
+      '@id': `${argumentUrl}#article`,
       url: argumentUrl,
-      name: argument.claim,
+      headline: truncate(argument.claim, TITLE_MAX),
       description: seoDescription,
+      articleBody: argument.response.replace(/\s+/g, ' ').trim(),
+      image: DEFAULT_IMAGE,
       inLanguage: 'de',
       datePublished: topic.lastUpdated,
       dateModified: topic.lastUpdated,
       author: { '@id': PERSON_ID },
-      publisher: { '@id': PERSON_ID },
+      publisher: { '@id': ORG_ID },
+      mainEntityOfPage: argumentUrl,
       isPartOf: {
         '@type': 'Article',
         '@id': `${topicUrl}#article`,
         name: topic.title,
         url: topicUrl,
       },
-      mainEntity: {
-        '@type': 'Question',
-        '@id': questionId,
-        url: argumentUrl,
-        name: argument.claim,
-        text: argument.claim,
-        datePublished: topic.lastUpdated,
-        dateModified: topic.lastUpdated,
-        author: {
-          '@type': 'Person',
-          '@id': PERSON_ID,
-        },
-        answerCount: 1,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          '@id': answerId,
-          url: argumentUrl,
-          text: argument.response,
-          datePublished: topic.lastUpdated,
-          dateModified: topic.lastUpdated,
-          upvoteCount: 0,
-          author: {
-            '@type': 'Person',
-            '@id': PERSON_ID,
-          },
-        },
-      },
     },
+    // Q&A structure as FAQPage (single authored question + answer), not QAPage:
+    // QAPage requires user-submittable answers, which does not match this content.
+    buildFaqPage(argumentUrl, [argument]),
   ]
 
   if (verdictMeta) {
@@ -602,7 +609,7 @@ const STATIC_ROUTES = [
         'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität.',
       inLanguage: 'de',
       author: { '@id': PERSON_ID },
-      publisher: { '@id': PERSON_ID },
+      publisher: { '@id': ORG_ID },
     },
     noscript: `
 <article>
@@ -637,7 +644,7 @@ const STATIC_ROUTES = [
         'Wie man im Gespräch auf Stammtischparolen reagiert: sechs forschungsbasierte Werkzeuge aus politischer Bildung und Misinformation-Forschung.',
       inLanguage: 'de',
       author: { '@id': PERSON_ID },
-      publisher: { '@id': PERSON_ID },
+      publisher: { '@id': ORG_ID },
     },
     noscript: `
 <article>
@@ -772,7 +779,7 @@ function buildHomeJsonLd(topics) {
           'Faktenbasierte Argumente und Quellen zu politischen und gesellschaftlichen Themen in Deutschland — Bürgergeld, Energiewende, Migration, Heizungswechsel, Gendern und mehr.',
         inLanguage: 'de',
         author: { '@id': PERSON_ID },
-        publisher: { '@id': PERSON_ID },
+        publisher: { '@id': ORG_ID },
         hasPart: topics.map((topic) => ({
           '@type': 'WebPage',
           name: topic.title,
