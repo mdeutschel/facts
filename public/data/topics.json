@@ -111,11 +111,11 @@
     {
       "id": "gesundheit",
       "title": "Deutsches Gesundheitssystem",
-      "subtitle": "Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Arzneimittel, Digitalisierung & Prävention",
+      "subtitle": "Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Arzneimittel, Digitalisierung, Krankenstand & GKV-Reform 2026",
       "icon": "local_hospital",
-      "lastUpdated": "2026-03-19",
-      "factCount": 10,
-      "argumentCount": 12
+      "lastUpdated": "2026-06-05",
+      "factCount": 12,
+      "argumentCount": 14
     },
     {
       "id": "gendern",
