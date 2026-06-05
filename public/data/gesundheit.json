@@ -494,7 +494,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Die gesetzliche Krankenversicherung schloss das Jahr 2025 auf Kassenebene mit einem kleinen Überschuss ab — aber nur, weil die Kassen ihre Zusatzbeiträge kräftig anhoben. Der Gesundheitsfonds blieb im Defizit, die Finanzreserven liegen weiter unter der gesetzlichen Mindestschwelle, und die Ausgaben wuchsen mehr als doppelt so schnell wie die Einnahmen.",
+          "text": "Die gesetzliche Krankenversicherung schloss das Jahr 2025 auf Kassenebene mit einem kleinen Überschuss ab — aber nur, weil die Kassen ihre Zusatzbeiträge anhoben. Der Gesundheitsfonds blieb im Defizit, die Finanzreserven liegen weiter unter der gesetzlichen Mindestschwelle, und die Ausgaben wuchsen mehr als doppelt so schnell wie die Einnahmen.",
           "sourceRefs": [
             "bmg-finanzentwicklung-gkv-2025"
           ]
@@ -533,7 +533,7 @@
         },
         {
           "type": "text",
-          "text": "Strukturell wachsen die GKV-Ausgaben deutlich schneller als die Einnahmen. Haupttreiber: teure Arzneimittel-Innovationen, steigende Krankenhauskosten und die alternde Bevölkerung. Der Überschuss 2025 ist daher kein Zeichen der Entwarnung, sondern erkauft durch höhere Beiträge. Ohne Strukturreform drohen ab 2027 zweistellige Milliardenlücken pro Jahr.",
+          "text": "Strukturell wachsen die GKV-Ausgaben deutlich schneller als die Einnahmen. Haupttreiber: teure Arzneimittel-Innovationen, steigende Krankenhauskosten und die alternde Bevölkerung. Der Überschuss 2025 ist daher kein Zeichen der Entwarnung, sondern erkauft durch höhere Beiträge. Ohne Strukturreform sind ab 2027 zweistellige Milliardenlücken pro Jahr zu erwarten.",
           "sourceRefs": [
             "vdek-stabilisierung-2025",
             "wido-arzneimittel-kompass-2025"
@@ -547,7 +547,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Auf die Finanzlücke reagiert die Politik 2026 mit einem Gesetzespaket. Das vom Bundeskabinett am 29. April 2026 beschlossene GKV-Beitragssatzstabilisierungsgesetz soll die Beiträge dämpfen — verschiebt einen Teil der Lasten aber auf Versicherte und Patienten zurück.",
+          "text": "Auf die Finanzlücke reagiert die Politik 2026 mit einem Gesetzespaket. Das vom Bundeskabinett am 29. April 2026 beschlossene GKV-Beitragssatzstabilisierungsgesetz soll die Beiträge dämpfen — verschiebt einen Teil der Lasten aber auf Versicherte und Patienten zurück. So werden etwa die Zuzahlungen erstmals seit 2004 angehoben.",
           "sourceRefs": [
             "aerzteblatt-gkv-stabilisierungsgesetz-2026"
           ]
@@ -568,7 +568,7 @@
             {
               "label": "Zuzahlungen",
               "value": "+50 %",
-              "sublabel": "von 5–10 € auf 7,50–15 € — erstmals seit 22 Jahren angehoben"
+              "sublabel": "von 5–10 € auf 7,50–15 € (Basiszuzahlung)"
             }
           ],
           "sourceRefs": [
@@ -696,7 +696,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Deutsche Beschäftigte fehlen im EU-Vergleich auffällig oft krankheitsbedingt. Das befeuert 2026 eine Debatte über die Lohnfortzahlung — bis hin zur Forderung nach einem unbezahlten ‚Karenztag‘ am ersten Krankheitstag.",
+          "text": "Deutsche Beschäftigte fehlen im EU-Vergleich deutlich häufiger krankheitsbedingt. Das befeuert 2026 eine Debatte über die Lohnfortzahlung — bis hin zur Forderung nach einem unbezahlten ‚Karenztag‘ am ersten Krankheitstag.",
           "sourceRefs": [
             "igu-lohnfortzahlung-2025"
           ]
@@ -727,7 +727,7 @@
         },
         {
           "type": "fact",
-          "text": "Ein erheblicher Teil des gemessenen Anstiegs ist ein statistischer Effekt: Seit der elektronischen Arbeitsunfähigkeitsmeldung (eAU, ab 2022/2023) werden Krankschreibungen lückenlos erfasst, die früher in der Statistik fehlten. Der ‚Rekordkrankenstand‘ bildet also nicht allein einen realen Gesundheitsverfall ab.",
+          "text": "Ein erheblicher Teil des gemessenen Anstiegs ist ein statistischer Effekt: Seit der elektronischen Arbeitsunfähigkeitsmeldung (eAU, ab 2022/2023) werden Krankschreibungen lückenlos erfasst, die früher in der Statistik fehlten. Der ‚Rekordkrankenstand‘ bildet also nicht allein einen realen Gesundheitsverfall ab. Auch internationale Vergleiche sind nur begrenzt belastbar, weil Länder Krankheitstage unterschiedlich erfassen.",
           "highlight": true,
           "sourceRefs": [
             "personalwirtschaft-karenztag-2026"
@@ -793,7 +793,7 @@
     {
       "id": "jeder-versorgt",
       "claim": "Jeder bekommt in Deutschland die medizinische Versorgung, die er braucht",
-      "response": "Formal ist der Zugang breit, aber in der Praxis gibt es spürbare Versorgungslücken. Viele gesetzlich Versicherte berichten über lange Wartezeiten auf Facharzttermine, hinzu kommen Engpässe in Pflege und psychischer Versorgung sowie regionale Unterschiede.",
+      "response": "Der Anspruch ist breit — Deutschland hat eine der umfassendsten Pflichtabsicherungen weltweit, niemand bleibt formal ohne Versorgung. In der Praxis gibt es aber spürbare Lücken: Viele gesetzlich Versicherte berichten über lange Wartezeiten auf Facharzttermine, hinzu kommen Engpässe in Pflege und psychischer Versorgung sowie deutliche Unterschiede zwischen Stadt und Land.",
       "keywords": [
         "versorgung",
         "zugang",
@@ -816,7 +816,7 @@
     {
       "id": "auslaender-gesundheit",
       "claim": "Ausländer belasten unser Gesundheitssystem",
-      "response": "Es kommt auf die Gruppe an: Erwerbsmigrant:innen sowie EU-Bürger:innen zahlen Beiträge wie alle anderen GKV-Mitglieder auch – und nehmen statistisch im Schnitt weniger Leistungen in Anspruch als die ältere inländische Bevölkerung, weil sie jünger und erwerbstätig sind. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang (AsylbLG: akute Erkrankungen, Schmerzen, Schwangerschaft, Impfungen); erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert. Die Haupttreiber der Finanzierungsprobleme sind strukturell: steigende Ausgaben durch die alternde Bevölkerung, Überkapazitäten im Krankenhausbereich und zu wenig Prävention.",
+      "response": "Es kommt auf die Gruppe an: Erwerbsmigrant:innen sowie EU-Bürger:innen zahlen Beiträge wie alle anderen GKV-Mitglieder auch – und nehmen statistisch im Schnitt weniger Leistungen in Anspruch als die ältere inländische Bevölkerung, weil sie jünger und erwerbstätig sind. Für Asylsuchende gilt zunächst nur ein eingeschränkter Leistungsumfang (AsylbLG: akute Erkrankungen, Schmerzen, Schwangerschaft, Impfungen); erst nach 36 Monaten ist der Leistungsumfang deutlich erweitert. Punktuelle Mehrkosten bei der Erstversorgung Asylsuchender gibt es — sie tragen aber überwiegend Kommunen und Länder, nicht die GKV. Die Haupttreiber der Finanzierungsprobleme sind strukturell: steigende Ausgaben durch die alternde Bevölkerung, Überkapazitäten im Krankenhausbereich und zu wenig Prävention.",
       "keywords": [
         "ausländer",
         "flüchtlinge",
@@ -855,7 +855,7 @@
       "verdict": "false",
       "rhetoricalPattern": "Die Parole deutet einen Anstieg der Diagnosen kurzerhand in einen Beweis fürs Erfundensein um — als ob mehr Sichtbarkeit bedeutet, dass nichts dahintersteckt. Tatsächlich verwechselt sie zwei Dinge: Dass heute mehr erkannt und benannt wird, heißt nicht, dass die Erkrankung neu oder eingebildet ist. Dahinter steckt oft eine Abwertung von allem, was nicht körperlich sichtbar ist.",
       "counterQuestions": [
-        "Würdest du jemandem mit einer Depression auch sagen, er solle sich ‚nicht so anstellen‘ — oder gilt das nur, solange du nicht betroffen bist?",
+        "Was würdest du jemandem mit einer diagnostizierten Depression raten — und würdest du ihm sagen, das sei nur Einbildung?",
         "Wenn mehr Menschen eine Diagnose bekommen: Liegt das daran, dass es die Krankheit vorher nicht gab, oder dass man sie früher übersah?",
         "Was unterscheidet für dich einen Beinbruch von einer Angststörung, wenn beides messbar behandlungsbedürftig ist?"
       ]
@@ -919,7 +919,7 @@
       "counterQuestions": [
         "Was wäre für ein Unternehmen lukrativer — gesunde Menschen oder zahlungskräftige Patienten, die teure Medikamente brauchen?",
         "Wenn es Absicht wäre: Wie würde das die Zulassung und Nutzenbewertung durch unabhängige Behörden überstehen?",
-        "Reicht es nicht, der Industrie überhöhte Preise vorzuwerfen — wofür brauchst du die Unterstellung, sie mache uns absichtlich krank?"
+        "Würde der Vorwurf überhöhter Preise nicht schon reichen — was bringt die Annahme einer bewussten Absicht zusätzlich?"
       ]
     },
     {
