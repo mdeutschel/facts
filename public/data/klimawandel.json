@@ -5,7 +5,7 @@
   "seoTitle": "Klimawandel: Argumente, Fakten & Mythen im Faktencheck",
   "seoDescription": "Hat sich das Klima schon immer verändert? Sind Forscher uneins? Antworten zu Temperatur, CO₂, Extremwetter und Kippelementen — Quellen IPCC und DWD.",
   "icon": "thermostat",
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-06-07",
   "keyStats": [
     "2025: drittwärmstes Jahr (+1,47 °C); 3-Jahres-Mittel erstmals >1,5 °C",
     "CO2-Konzentration heute höher als in 800.000 Jahren",
@@ -490,6 +490,14 @@
           "sourceRefs": [
             "uba-thg-2025-vorlaeufige-daten"
           ]
+        },
+        {
+          "type": "fact",
+          "text": "Absolut ist Deutschland zwar der größte Treibhausgas-Emittent der EU — aber vor allem als größte Volkswirtschaft und bevölkerungsreichstes Land der Union. In Europa insgesamt stößt etwa Russland ein Vielfaches aus. Pro Kopf liegt Deutschland nur im oberen Mittelfeld, und die Emissionen sind seit 1990 um fast die Hälfte gesunken.",
+          "sourceRefs": [
+            "edgar-jrc-emissions-2025",
+            "uba-treibhausgasminderungsziele-deutschlands"
+          ]
         }
       ]
     },
@@ -676,6 +684,14 @@
           "text": "Die IEA veranschlagt im aktualisierten Net-Zero-Roadmap-Pfad weltweite Clean-Energy-Investitionen von 4,5 Bio. USD pro Jahr bis Anfang der 2030er.",
           "sourceRefs": [
             "iea-net-zero-roadmap-2023"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Für Deutschland beziffert KfW Research die Investitionen bis zur Klimaneutralität 2045 auf rund 5 Billionen Euro — verteilt auf gut zwei Jahrzehnte sind das etwa 191 Mrd. Euro pro Jahr (rund 5 % des BIP). Davon sind aber nur rund 1,9 Billionen Euro klimaschutzbedingte Mehrinvestitionen; der Rest sind ohnehin anfallende Ersatzinvestitionen (neue Autos, Heizungen, Anlagen). KfW stuft die Summe als wirtschaftlich tragbar ein.",
+          "highlight": true,
+          "sourceRefs": [
+            "kfw-research-klimaneutralitaet-2045"
           ]
         }
       ]
@@ -970,6 +986,103 @@
         "Wie sieht deine Kostenbilanz aus, wenn Carbon Lock-ins und stranded assets in fossiler Infrastruktur dazukommen?",
         "Bei COP30 wurde die Klimafinanzierung für Entwicklungsländer verdreifacht — siehst du das als zusätzliche Last oder als unvermeidbare Folge des Nicht-Handelns?"
       ]
+    },
+    {
+      "id": "deutschland-groesster-emittent-europa",
+      "claim": "Kein Land in Europa bläst so viel Treibhausgase raus wie Deutschland.",
+      "response": "Innerhalb der EU ist Deutschland tatsächlich der größte Emittent — aber vor allem, weil es die größte Volkswirtschaft und das bevölkerungsreichste Land der Union ist. In Europa insgesamt stößt Russland ein Vielfaches aus. Pro Kopf liegt Deutschland mit 6,8 t nur im oberen Mittelfeld, hinter den USA (14,2 t) und China (8,9 t), und die Emissionen sind seit 1990 um fast die Hälfte gesunken. Die absolute Zahl allein sagt wenig über Anstrengung oder Verantwortung — dafür zählen Pro-Kopf-Werte, Wirtschaftsgröße und der Trend.",
+      "keywords": [
+        "treibhausgase",
+        "größter emittent",
+        "europa",
+        "absolut",
+        "pro kopf",
+        "deutschland",
+        "co2"
+      ],
+      "relatedSections": [
+        "deutschland-emissionen"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole stellt eine absolute Zahl ohne Bezugsgröße in den Raum. Dass ein großes, bevölkerungsreiches Industrieland in Summe viel emittiert, ist erwartbar — aussagekräftig werden Emissionen erst pro Kopf, im Verhältnis zur Wirtschaftsleistung und im Zeitverlauf. Die Aussage nutzt die Größe des Landes als scheinbaren Beleg für besonderes Versagen.",
+      "counterQuestions": [
+        "Wäre es nicht erwartbar, dass die größte Volkswirtschaft der EU auch absolut viel emittiert — was sagt das über die Anstrengung pro Kopf?",
+        "Welches europäische Land stößt insgesamt am meisten aus, wenn man Russland mitzählt?",
+        "Wie haben sich Deutschlands Emissionen seit 1990 entwickelt — gestiegen oder gesunken?"
+      ]
+    },
+    {
+      "id": "klimaneutralitaet-5-billionen",
+      "claim": "Klimaneutralität kostet 5 Billionen Euro — mehr als ein ganzes Jahr Wirtschaftsleistung, das können wir uns nicht leisten.",
+      "response": "Die Zahl stimmt ungefähr: KfW Research veranschlagt rund 5 Billionen Euro Investitionen bis 2045. Sie als Einmalsumme einem Jahres-BIP gegenüberzustellen führt aber in die Irre. Verteilt auf gut zwei Jahrzehnte sind es etwa 191 Mrd. Euro pro Jahr (rund 5 % des BIP), und nur etwa 1,9 Billionen davon sind klimaschutzbedingte Mehrkosten — der Rest sind Investitionen, die ohnehin anfallen (neue Autos, Heizungen, Industrieanlagen). KfW selbst hält die Summe für tragbar. Dagegen stehen die Kosten des Nichtstuns: allein 2025 rund 224 Mrd. USD an weltweiten Wetterschäden.",
+      "keywords": [
+        "kosten",
+        "5 billionen",
+        "klimaneutralität",
+        "2045",
+        "investitionen",
+        "kfw",
+        "leisten",
+        "teuer"
+      ],
+      "relatedSections": [
+        "kosten-handeln-vs-nichtstun"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole verdichtet einen über zwanzig Jahre gestreckten Investitionsbedarf zu einer erschlagenden Einmalsumme und vergleicht sie mit einer Jahresgröße (BIP). Das erzeugt Schockwirkung, verschweigt aber die zeitliche Streckung, den hohen Anteil ohnehin fälliger Ersatzinvestitionen und die vermiedenen Schadenskosten.",
+      "counterQuestions": [
+        "5 Billionen über 20 Jahre — wie viel ist das pro Jahr, und wie viel davon wäre für neue Autos und Heizungen ohnehin fällig?",
+        "Wenn KfW die Summe selbst als tragbar einstuft — worauf stützt du die Behauptung, sie sei unbezahlbar?",
+        "Was kostet die Alternative, also das Nichtstun, an Schäden und Anpassung?"
+      ]
+    },
+    {
+      "id": "klimaschutz-vorwand-kapitalismus",
+      "claim": "Klimaschutz ist nur ein Vorwand, um den Kapitalismus abzuschaffen.",
+      "response": "Einzelne Aktivisten verbinden Klimaschutz tatsächlich mit Kapitalismuskritik — aber von der Aussage einzelner Personen auf das Motiv der gesamten Klimapolitik zu schließen, ist ein Fehlschluss. Die physikalischen Befunde zum Klimawandel sind unabhängig von der Wirtschaftsordnung; der Konsens in der Forschung liegt bei über 99 %. Und die zentralen Klimaschutz-Instrumente sind marktwirtschaftlich: Der CO₂-Emissionshandel setzt einen Preis und überlässt den Weg dem Markt. Auch Versicherer, Notenbanken und Großkonzerne treiben die Dekarbonisierung — kaum Akteure mit Interesse an der Abschaffung des Kapitalismus.",
+      "keywords": [
+        "klimaschutz",
+        "vorwand",
+        "kapitalismus",
+        "ideologie",
+        "naomi klein",
+        "sozialismus",
+        "motiv"
+      ],
+      "relatedSections": [
+        "wissenschaftlicher-konsens"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Aussage ist ein Motiv-Fehlschluss: Sie schließt von der Gesinnung einzelner Personen auf die Stichhaltigkeit einer ganzen Faktenlage (Ad hominem) und unterstellt eine verborgene Agenda. Ob CO₂ die Atmosphäre erwärmt, hängt aber nicht davon ab, was eine Aktivistin über den Kapitalismus denkt.",
+      "counterQuestions": [
+        "Ändert sich die Physik des Treibhauseffekts, je nachdem welche politische Absicht jemand damit verbindet?",
+        "Wenn der Emissionshandel ein marktwirtschaftliches Instrument ist — wie passt das zur Behauptung, es gehe um die Abschaffung des Kapitalismus?",
+        "Warum investieren dann Versicherer, Notenbanken und Konzerne massiv in Dekarbonisierung?"
+      ]
+    },
+    {
+      "id": "erst-wohlstand-dann-umwelt",
+      "claim": "Nur reiche, kapitalistische Länder können sich Umweltschutz leisten — erst Wachstum, dann Klima.",
+      "response": "Für viele lokale Umweltprobleme stimmt das: Reiche Länder haben Luft- und Wasserverschmutzung deutlich reduziert, ärmere kämpfen noch damit. Beim CO₂ kehrt sich das Bild aber um. Pro Kopf emittieren gerade die reichen Länder am meisten — die USA 14,2 t, Deutschland 6,8 t, gegenüber Indien mit 2,0 t. Wohlstand hat bisher höhere, nicht niedrigere Treibhausgas-Emissionen bedeutet. ‚Erst wachsen, dann ans Klima denken' verlängert genau den fossilen Pfad, der das Problem verursacht — zumal sich Klimaschutz und Wachstum nicht ausschließen müssen.",
+      "keywords": [
+        "wohlstand",
+        "wachstum",
+        "umweltschutz",
+        "kapitalismus",
+        "kuznets",
+        "reiche länder",
+        "pro kopf"
+      ],
+      "relatedSections": [
+        "deutschland-emissionen"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole verallgemeinert einen für lokale Schadstoffe gültigen Zusammenhang (Umwelt-Kuznets-Kurve) auf das CO₂ — wo er nicht gilt. Sie verwechselt sichtbare lokale Verschmutzung, die Wohlstand beseitigt, mit globalen Treibhausgasen, die mit Wohlstand bisher steigen.",
+      "counterQuestions": [
+        "Wenn Wohlstand automatisch die Umwelt schützt — warum emittieren die reichsten Länder pro Kopf am meisten CO₂?",
+        "Gilt dein Argument für sichtbare lokale Verschmutzung (Luft, Wasser) genauso wie für unsichtbares CO₂?",
+        "Müssen sich Wachstum und Klimaschutz ausschließen — oder lassen sie sich entkoppeln?"
+      ]
     }
   ],
   "sources": [
@@ -1097,6 +1210,16 @@
       "id": "uba-thg-2025-vorlaeufige-daten",
       "label": "UBA – Treibhausgasemissionen Deutschland 2025 (vorläufige Daten, März 2026)",
       "url": "https://www.bundesumweltministerium.de/pressemitteilung/treibhausgasdaten-zeigen-klimaschutz-braucht-neuen-schub"
+    },
+    {
+      "id": "kfw-research-klimaneutralitaet-2045",
+      "label": "KfW Research: Klimaneutralität bis Mitte des Jahrhunderts erfordert Investitionen von 5 Billionen EUR",
+      "url": "https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_673344.html"
+    },
+    {
+      "id": "edgar-jrc-emissions-2025",
+      "label": "EDGAR / JRC: Emissions Database for Global Atmospheric Research — Länderemissionen 2025",
+      "url": "https://edgar.jrc.ec.europa.eu/report_2025"
     }
   ],
   "relatedTopicIds": [

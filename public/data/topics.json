@@ -23,18 +23,18 @@
       "title": "Energiewende & Atomkraft",
       "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
       "icon": "bolt",
-      "lastUpdated": "2026-05-17",
-      "factCount": 17,
-      "argumentCount": 8
+      "lastUpdated": "2026-06-07",
+      "factCount": 21,
+      "argumentCount": 14
     },
     {
       "id": "klimawandel",
       "title": "Klimawandel",
       "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
       "icon": "thermostat",
-      "lastUpdated": "2026-05-17",
+      "lastUpdated": "2026-06-07",
       "factCount": 8,
-      "argumentCount": 9
+      "argumentCount": 13
     },
     {
       "id": "verkehrswende",

@@ -5,14 +5,14 @@
   "seoTitle": "Energiewende & Atomkraft: Argumente, Kosten, Versorgung",
   "seoDescription": "Hätten AKW die Gaskrise gelöst? Sind SMRs realistisch? Antworten zu Atomausstieg, Strommix und Versorgungssicherheit — Quellen BNetzA und Fraunhofer.",
   "icon": "bolt",
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-06-07",
   "keyStats": [
     "55,1 % Erneuerbare am Bruttostromverbrauch 2025 (BDEW/ZSW)",
     "AKW-Neubau deutlich teurer als Wind/Solar (Lazard LCOE)",
     "400 GW beantragte Speicherleistung",
     "Industriestrompreis 2026-2028 (50 €/MWh, EU genehmigt)"
   ],
-  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand Mai 2026). Zentrale neuere Quellen: BDEW/ZSW (EE-Anteil 2025), Destatis (Stromerzeugung 2025 endgültig), Bundesnetzagentur (Strommarktdaten 2025), IWR (Windausbau Q1 2026), BMWE (Industriestrompreis 2026-2028, EU-Kommission-Genehmigung April 2026), Fraunhofer ISE / energy-charts.info, Lazard LCOE+ v18.0.",
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand Juni 2026). Zentrale neuere Quellen: BDEW/ZSW (EE-Anteil 2025), Destatis (Stromerzeugung 2025 endgültig), Bundesnetzagentur (Strommarktdaten 2025), IWR (Windausbau Q1 2026), BMWE (Industriestrompreis 2026-2028, EU-Kommission-Genehmigung April 2026), Fraunhofer ISE / energy-charts.info, Lazard LCOE+ v18.0. Für die wirtschaftspolitische Einordnung zusätzlich: ifo/Destatis (Industrieproduktion), EY-Industriebarometer (Industriebeschäftigung), Eurostat/BDEW (Strompreise), BMWE (Kraftwerksstrategie 2026), DIHK und EnEfG (Energieeffizienzziele).",
   "sections": [
     {
       "id": "atomausstieg",
@@ -1159,6 +1159,214 @@
           ]
         }
       ]
+    },
+    {
+      "id": "strompreis",
+      "title": "Strompreis: hoch — aber warum eigentlich?",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "~18 ct/kWh",
+              "label": "Industriestrompreis 2025",
+              "sublabel": "mittleres Verbrauchsband (Eurostat)"
+            },
+            {
+              "value": "+17 %",
+              "label": "über EU-Durchschnitt",
+              "sublabel": "Industrie 2025",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "~41 %",
+              "label": "Beschaffung & Vertrieb",
+              "sublabel": "am Haushaltspreis (BDEW)"
+            }
+          ],
+          "sourceRefs": [
+            "eurostat-strompreise-industrie-2025",
+            "bdew-strompreisanalyse-2026"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der deutsche Strompreis ist im internationalen Vergleich hoch: Industriekunden im mittleren Verbrauchsband zahlten 2025 laut Eurostat rund 18 ct/kWh — etwa 17 % mehr als der EU-Durchschnitt. Der Preis besteht aber aus mehreren Bausteinen: Beim Haushaltsstrompreis (rund 37 ct/kWh) entfallen laut BDEW etwa 41 % auf Beschaffung und Vertrieb, der Rest auf Netzentgelte (25 %) sowie Steuern, Abgaben und Umlagen (34 %).",
+          "sourceRefs": [
+            "eurostat-strompreise-industrie-2025",
+            "bdew-strompreisanalyse-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Netzentgelte, Steuern, Abgaben und Umlagen machen zusammen den größeren Teil des Strompreises aus — nicht die Erzeugungskosten der Erneuerbaren.",
+          "highlight": true,
+          "sourceRefs": [
+            "bdew-strompreisanalyse-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deindustrialisierung",
+      "title": "Industrie unter Druck: ein Faktor, viele Ursachen",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "-13 %",
+              "label": "Produktionsindex vs. 2018",
+              "sublabel": "verarbeitendes Gewerbe",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "341.500",
+              "label": "Industriejobs weg",
+              "sublabel": "seit 2019 (EY)",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "~6 %",
+              "label": "weniger Industriebeschäftigte",
+              "sublabel": "2019-2025"
+            }
+          ],
+          "sourceRefs": [
+            "ifo-strukturwandel-verarbeitendes-gewerbe-2025",
+            "ey-industriebarometer-q1-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Der Produktionsindex des verarbeitenden Gewerbes liegt rund 13 % unter dem Niveau von 2018; seit 2019 sind laut EY rund 341.500 Industriejobs weggefallen (gut 6 %), allein 2025 etwa 124.100.",
+          "highlight": true,
+          "sourceRefs": [
+            "ifo-strukturwandel-verarbeitendes-gewerbe-2025",
+            "destatis-produktion-2025",
+            "ey-industriebarometer-q1-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die preisbereinigte Bruttowertschöpfung der Industrie fiel 2018-2024 nur um rund 3 %. Der Produktionsindex überzeichnet den Rückgang, weil Firmen einfache Fertigung verlagern und sich im Inland auf Entwicklung, Dienstleistungen und höherwertige Tätigkeiten konzentrieren.",
+          "sourceRefs": [
+            "ifo-strukturwandel-verarbeitendes-gewerbe-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Besonders betroffen ist die Autoindustrie — dort ging seit 2019 etwa jeder siebte Job verloren. Chemie/Pharma (+3 %) und Elektroindustrie (+2 %) legten im selben Zeitraum dagegen zu.",
+          "sourceRefs": [
+            "ey-industriebarometer-q1-2026"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Die Ursachen sind vielfältig: schwache Weltnachfrage (vor allem aus China), der Gaspreisschock 2022 nach dem russischen Lieferstopp, hohe Zinsen, der Umbruch in der Autoindustrie, Fachkräftemangel und Bürokratie. Hohe Energiekosten sind ein Faktor unter mehreren — eine allein auf die Energiewende verengte Erklärung greift zu kurz.",
+          "sourceRefs": [
+            "ifo-strukturwandel-verarbeitendes-gewerbe-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup-und-netze",
+      "title": "Backup-Kraftwerke und Netze: Versicherung, nicht Dauerlast",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "12 GW",
+              "label": "neue regelbare Leistung",
+              "sublabel": "ausgeschrieben ab 2026"
+            },
+            {
+              "value": "H₂-ready",
+              "label": "wasserstofffähig",
+              "sublabel": "Dekarbonisierung bis 2045"
+            },
+            {
+              "value": "Backup",
+              "label": "Funktion",
+              "sublabel": "Dunkelflaute & Netzstabilität"
+            }
+          ],
+          "sourceRefs": [
+            "bmwe-kraftwerksstrategie-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Kraftwerksstrategie schreibt rund 12 GW neue, wasserstofffähige Gaskraftwerke aus. Sie sollen als Reserve einspringen, wenn Wind und Sonne nicht liefern — nicht im Dauerbetrieb laufen.",
+          "highlight": true,
+          "sourceRefs": [
+            "bmwe-kraftwerksstrategie-2026"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Reservekraftwerke laufen nur wenige Volllaststunden im Jahr. Ihr Beitrag zur durchschnittlichen Stromrechnung bleibt deshalb begrenzt, auch wenn Gasstrom je Kilowattstunde teuer ist. Der Netzausbau verursacht zwar Kosten, kann aber zugleich teure Eingriffe zur Netzstabilisierung (Redispatch) verringern.",
+          "sourceRefs": [
+            "bmwe-kraftwerksstrategie-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entkopplung",
+      "title": "Wachstum, Energie und Emissionen entkoppeln",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "+15 %",
+              "label": "BIP 2008-2024",
+              "sublabel": "real gestiegen",
+              "color": "#00897b"
+            },
+            {
+              "value": "-13 %",
+              "label": "Endenergieverbrauch",
+              "sublabel": "2008-2024"
+            },
+            {
+              "value": "1.867 TWh",
+              "label": "EnEfG-Deckel 2030",
+              "sublabel": "-26,5 % ggü. 2008"
+            }
+          ],
+          "sourceRefs": [
+            "dihk-enefg-wachstum-2025",
+            "enefg-gesetz"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Zwischen 2008 und 2024 stieg das Bruttoinlandsprodukt um 15 %, während der Endenergieverbrauch um 13 % sank — Wirtschaftsleistung und Energieverbrauch haben sich also bereits entkoppelt.",
+          "highlight": true,
+          "sourceRefs": [
+            "dihk-enefg-wachstum-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Das Energieeffizienzgesetz (EnEfG) deckelt den Endenergieverbrauch 2030 auf 1.867 TWh (-26,5 % gegenüber 2008). Die DIHK warnt: Bei der zuletzt erreichten Effizienzsteigerung von 1,7 % pro Jahr müsste das BIP um knapp 9 % schrumpfen, um das Ziel zu treffen — nötig wären rund 3,3 % pro Jahr.",
+          "sourceRefs": [
+            "enefg-gesetz",
+            "dihk-enefg-wachstum-2025"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Das Gesetz begrenzt den Energieverbrauch, nicht die Wirtschaftsleistung. Ob daraus ein Schrumpfungszwang wird, hängt vom Tempo der Energieproduktivität ab. Die bisherige Entkopplung zeigt: Wachstum bei sinkendem Energieverbrauch ist möglich — das Tempo muss aber deutlich zunehmen.",
+          "sourceRefs": [
+            "dihk-enefg-wachstum-2025"
+          ]
+        }
+      ]
     }
   ],
   "arguments": [
@@ -1353,6 +1561,158 @@
         "Wie schnell hat eine Windkraftanlage laut UBA die Energie für ihren Bau wieder eingespielt — und passt das zu einem ‚Diesel-Betrieb‘?",
         "Wenn der Schottland-Vorfall 2023 (Notbetrieb gegen Frost nach Netzausfall) zum Regelbetrieb verallgemeinert wird — was sagt deine Quelle konkret dazu?"
       ]
+    },
+    {
+      "id": "energiewende-deindustrialisierung",
+      "claim": "Die Energiewende hat Deutschland deindustrialisiert.",
+      "response": "Die deutsche Industrie steckt tatsächlich in einer Schwächephase: Der Produktionsindex liegt rund 13 % unter dem Niveau von 2018, seit 2019 sind gut 340.000 Industriejobs weggefallen. Die preisbereinigte Wertschöpfung ging allerdings nur um etwa 3 % zurück, weil Firmen einfache Fertigung verlagern und sich auf höherwertige Tätigkeiten verlegen. Die Ursachen sind zudem vielfältig — schwache Weltnachfrage, der Gaspreisschock 2022 nach dem russischen Lieferstopp, hohe Zinsen, der Umbruch in der Autoindustrie, Fachkräftemangel und Bürokratie. Hohe Energiekosten gehören dazu, doch die Krise allein der Energiewende zuzuschreiben blendet die übrigen Treiber aus. Bezeichnend: Chemie und Elektroindustrie haben trotz desselben Strompreises seit 2019 Beschäftigung aufgebaut.",
+      "keywords": [
+        "deindustrialisierung",
+        "industrie",
+        "arbeitsplätze",
+        "wettbewerbsfähigkeit",
+        "produktion",
+        "abwanderung",
+        "energiekosten"
+      ],
+      "relatedSections": [
+        "deindustrialisierung",
+        "strompreis"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole macht aus einem Faktor die alleinige Ursache (Monokausalität). Auf die Industrie wirken mehrere Kräfte gleichzeitig — Weltkonjunktur, Gaspreisschock, Zinsen, Strukturwandel der Autobranche, Demografie. Energiekosten gehören dazu, erklären den Rückgang aber nicht allein; die Zuspitzung auf ‚die Energiewende' ersetzt die Ursachenanalyse durch ein Feindbild.",
+      "counterQuestions": [
+        "Welcher Anteil des Produktionsrückgangs geht konkret auf Strompreise zurück — und welcher auf schwache Nachfrage aus China oder den Umbruch der Autoindustrie?",
+        "Warum sind Chemie/Pharma und Elektroindustrie seit 2019 gewachsen, wenn der Strompreis doch für alle gilt?",
+        "Der Gaspreisschock 2022 kam durch den russischen Lieferstopp — was davon hätte ein langsameres Energiewende-Tempo verhindert?"
+      ]
+    },
+    {
+      "id": "strom-teuerste-der-welt",
+      "claim": "Nirgends ist Strom so teuer wie bei uns — schuld ist die Energiewende.",
+      "response": "Strom ist in Deutschland tatsächlich teuer: Die Industrie zahlte 2025 rund 17 % mehr als der EU-Durchschnitt. Den größeren Teil des Preises machen aber Netzentgelte, Steuern, Abgaben und Umlagen aus — dazu der Gaspreis, der in Knappheitsstunden oft den Großhandelspreis bestimmt. Die Erzeugungskosten von Wind und Solar sind dagegen die niedrigsten im Neubau. Die hohen Preise sind also weniger Folge der Erneuerbaren als der Abgabenlast und der Gasabhängigkeit.",
+      "keywords": [
+        "strompreis",
+        "teuer",
+        "industriestrompreis",
+        "netzentgelte",
+        "abgaben",
+        "gaspreis",
+        "wettbewerb"
+      ],
+      "relatedSections": [
+        "strompreis",
+        "stromgestehungskosten"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole verknüpft einen hohen Endpreis kurzschlüssig mit einer einzelnen Ursache. Sie blendet aus, dass sich der Strompreis aus vielen Komponenten zusammensetzt und gerade die günstigen Erneuerbaren den Großhandelspreis senken, während Abgaben, Netzentgelte und der gaspreisgetriebene Spitzenpreis ihn treiben.",
+      "counterQuestions": [
+        "Welcher Teil deines Strompreises ist Erzeugung — und welcher Netzentgelte, Steuern und Abgaben?",
+        "Wenn Wind und Solar die teuersten wären — warum sind sie im Neubau-Kostenvergleich am günstigsten?",
+        "Was setzte 2022 den Strompreis nach oben: der Ausbau der Erneuerbaren oder der Gaspreis nach dem russischen Lieferstopp?"
+      ]
+    },
+    {
+      "id": "gaskraftwerke-trassen-teurer",
+      "claim": "Mit neuen Gaskraftwerken und tausenden Kilometern Stromtrassen wird Strom nur teurer.",
+      "response": "Es stimmt, dass Backup-Gaskraftwerke und Netzausbau Geld kosten. Die rund 12 GW neuen, wasserstofffähigen Gaskraftwerke sind aber als Reserve für Dunkelflauten geplant, nicht für den Dauerbetrieb — sie laufen nur wenige Stunden im Jahr und schlagen entsprechend wenig auf die durchschnittliche Kilowattstunde durch. Der Netzausbau wiederum kann teure Noteingriffe zur Netzstabilisierung verringern. Beides ist Versicherung gegen Engpässe, kein Preistreiber im Dauerbetrieb.",
+      "keywords": [
+        "gaskraftwerke",
+        "stromtrassen",
+        "netzausbau",
+        "backup",
+        "reserve",
+        "dunkelflaute",
+        "teuer"
+      ],
+      "relatedSections": [
+        "backup-und-netze",
+        "dunkelflauten"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Aussage rechnet die hohen Kosten je Kilowattstunde eines Reservekraftwerks auf das ganze System hoch und übersieht die geringe Laufzeit. Ein Backup, das nur in seltenen Knappheitsstunden einspringt, bestimmt nicht den Durchschnittspreis — sonst wäre jede Feuerversicherung ‚zu teuer', nur weil Löschen teuer ist.",
+      "counterQuestions": [
+        "Wie viele Volllaststunden im Jahr läuft ein Reservekraftwerk — und wie stark schlägt das auf den Durchschnittspreis durch?",
+        "Was kostet am Ende mehr: der Netzausbau oder die teuren Noteingriffe (Redispatch), die ohne ihn nötig bleiben?",
+        "Welche Alternative zu Backup-Kapazität für Dunkelflauten schlägst du vor — und was würde die kosten?"
+      ]
+    },
+    {
+      "id": "flatterstrom-waesche-waschen",
+      "claim": "Bald müssen wir Wäsche waschen, wenn der Wind weht — Flatterstrom statt sicherer Versorgung.",
+      "response": "Die schwankende Einspeisung aus Wind und Sonne ist eine reale Herausforderung — aber sie macht die Versorgung nicht unsicher. Selbst in der Dunkelflaute Anfang 2025 kam es laut Bundesnetzagentur nicht annähernd zu Engpässen. Ausgeglichen wird über Speicher, flexible Lasten und den europäischen Stromverbund. Lastmanagement heißt dabei nicht Verzicht, sondern Verbrauch dann, wenn Strom günstig und reichlich ist — oft automatisiert und ohne spürbaren Komfortverlust.",
+      "keywords": [
+        "flatterstrom",
+        "dunkelflaute",
+        "versorgungssicherheit",
+        "speicher",
+        "lastmanagement",
+        "wind",
+        "sonne",
+        "blackout"
+      ],
+      "relatedSections": [
+        "dunkelflauten",
+        "speicherausbau",
+        "stromverbund"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Das Bild vom ‚Wäsche waschen, wenn der Wind weht' überzeichnet flexible Lasten zum Rückschritt in vormoderne Zeiten. Es unterstellt, ein Stromsystem mit Erneuerbaren funktioniere nur bei passender Witterung — und ignoriert Speicher, Netze und den europäischen Ausgleich, die genau dieses Problem bewirtschaften.",
+      "counterQuestions": [
+        "Wann gab es in Deutschland zuletzt einen Versorgungsengpass wegen Dunkelflaute — und was sagt die Bundesnetzagentur dazu?",
+        "Wenn dein Auto oder deine Wärmepumpe automatisch dann lädt, wenn Strom billig ist — wo genau ist der Komfortverlust?",
+        "Warum weht der Wind selten überall in Europa gleichzeitig flau — und was bedeutet das für die Versorgung?"
+      ]
+    },
+    {
+      "id": "energiewende-planwirtschaft",
+      "claim": "Die Energiewende ist keine Marktwirtschaft mehr, sondern Planwirtschaft.",
+      "response": "Der Staat setzt bei der Energiewende Ziele und Rahmen — das tut er in der Energieversorgung aber seit jeher, von Bergbausubventionen bis zu Haftungsregeln für Atomkraft. Das zentrale Steuerungsinstrument ist heute der CO₂-Preis im Emissionshandel: Er verteuert klimaschädliche Energie und überlässt den konkreten Weg dem Markt. Dass Wind und Solar im Neubau am günstigsten sind, zeigt zudem: Auch ein rein an Kosten orientierter Markt würde stark auf Erneuerbare setzen. Externe Kosten einzupreisen ist Marktkorrektur, nicht Planwirtschaft.",
+      "keywords": [
+        "planwirtschaft",
+        "markt",
+        "oktroi",
+        "ideologie",
+        "co2-preis",
+        "emissionshandel",
+        "staat"
+      ],
+      "relatedSections": [
+        "stromgestehungskosten",
+        "strompreis"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Der Begriff ‚Planwirtschaft' rahmt jede staatliche Rahmensetzung als Gegenteil des Marktes. Das verkennt, dass Klimapolitik überwiegend mit Preissignalen (Emissionshandel) statt mit Mengenplanung arbeitet — und dass auch ein freier Markt die heute günstigsten Technologien wählt. Das Etikett ersetzt die Auseinandersetzung mit dem tatsächlichen Instrumentenmix.",
+      "counterQuestions": [
+        "Wenn der Emissionshandel den Preis setzt und den Weg dem Markt überlässt — was genau daran ist ‚Planwirtschaft'?",
+        "Wäre ein Markt, in dem die Folgekosten von CO₂ niemand zahlt, wirklich freier — oder nur einer mit ausgelagerter Rechnung?",
+        "Wenn Wind und Solar die günstigsten Neubauten sind: Würde ein reiner Kostenmarkt nicht ohnehin auf sie setzen?"
+      ]
+    },
+    {
+      "id": "energieeffizienzgesetz-degrowth",
+      "claim": "Das Energieeffizienzgesetz zwingt die Wirtschaft zum Schrumpfen.",
+      "response": "Der Einwand hat einen wahren Kern: Das EnEfG deckelt den Endenergieverbrauch absolut (2030 auf 1.867 TWh), und die DIHK rechnet vor, dass bei der zuletzt erreichten Effizienzsteigerung das BIP um knapp 9 % schrumpfen müsste, um das Ziel zu treffen. Das Ziel ist also ambitioniert. Es zwingt aber nicht zum Schrumpfen, sondern zu schnellerer Effizienz: 2008 bis 2024 stieg das BIP um 15 %, während der Energieverbrauch um 13 % fiel. Die Entkopplung läuft bereits — sie muss sich nur beschleunigen.",
+      "keywords": [
+        "energieeffizienzgesetz",
+        "enefg",
+        "degrowth",
+        "schrumpfen",
+        "bip",
+        "endenergie",
+        "deckel",
+        "dihk"
+      ],
+      "relatedSections": [
+        "entkopplung"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole liest ein Verbrauchsziel als Wachstumsverbot. Sie unterstellt eine feste Kopplung von Energie und Wertschöpfung, die historisch längst aufgebrochen ist — und blendet aus, dass das Ziel über steigende Energieproduktivität statt über Schrumpfung erreichbar ist.",
+      "counterQuestions": [
+        "Wenn das BIP 2008-2024 um 15 % stieg, während der Energieverbrauch um 13 % sank — warum sollte weniger Energie zwingend weniger Wirtschaft bedeuten?",
+        "Die DIHK-Rechnung gilt bei gleichbleibendem Effizienztempo — was passiert mit dem Ergebnis, wenn die Energieproduktivität schneller steigt?",
+        "Geht es dir gegen das Ziel oder gegen das Instrument — und welches Instrument würde Effizienz besser fördern?"
+      ]
     }
   ],
   "sources": [
@@ -1510,6 +1870,46 @@
       "id": "iwr-windausbau-q1-2026",
       "label": "IWR – Windenergie-Zubau Q1 2026 (Wind onshore +3,5 %)",
       "url": "https://www.iwr.de/news/windenergie-zubau-in-deutschland-steigt-im-ersten-quartal-2026-um-fast-50-prozent-windstromerzeugung-legt-kraeftig-zu-news39623"
+    },
+    {
+      "id": "eurostat-strompreise-industrie-2025",
+      "label": "Eurostat: Electricity price statistics — Industriestrompreise EU (2. Halbjahr 2025)",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Electricity_price_statistics"
+    },
+    {
+      "id": "bdew-strompreisanalyse-2026",
+      "label": "BDEW-Strompreisanalyse (2026) — Zusammensetzung des Strompreises",
+      "url": "https://www.bdew.de/service/daten-und-grafiken/bdew-strompreisanalyse/"
+    },
+    {
+      "id": "ifo-strukturwandel-verarbeitendes-gewerbe-2025",
+      "label": "ifo Institut: Strukturwandel im Verarbeitenden Gewerbe (2025)",
+      "url": "https://www.ifo.de/DocDL/sd-digital-2025-05-lehmann-etal-strukturwandel-verarbeitendes-gewerbe.pdf"
+    },
+    {
+      "id": "destatis-produktion-2025",
+      "label": "Destatis: Produktion im Produzierenden Gewerbe 2025 (-1,1 % zum Vorjahr)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_043_421.html"
+    },
+    {
+      "id": "ey-industriebarometer-q1-2026",
+      "label": "EY-Industriebarometer Q1 2026 — 341.500 Industriejobs seit 2019 verloren",
+      "url": "https://www.ey.com/de_de/newsroom/2026/05/ey-industriebarometer-q1-2026"
+    },
+    {
+      "id": "bmwe-kraftwerksstrategie-2026",
+      "label": "BMWE: Grundsatzeinigung mit der EU-Kommission über die Kraftwerksstrategie (Jan. 2026)",
+      "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/2026/01/20260115-grundsatzeinigung-mit-europaeischen-kommission-ueber-eckpunkte-der-kraftwerksstrategie.html"
+    },
+    {
+      "id": "dihk-enefg-wachstum-2025",
+      "label": "DIHK: Wie die absoluten Einsparziele aus dem Energieeffizienzgesetz auf das Wirtschaftswachstum wirken",
+      "url": "https://www.dihk.de/de/newsroom/wie-die-absoluten-einsparziele-aus-dem-energieeffizienzgesetz-auf-das-wirtschaftswachstum-wirken-178844"
+    },
+    {
+      "id": "enefg-gesetz",
+      "label": "Energieeffizienzgesetz (EnEfG) — gesetze-im-internet.de",
+      "url": "https://www.gesetze-im-internet.de/enefg/"
     }
   ],
   "relatedTopicIds": [
