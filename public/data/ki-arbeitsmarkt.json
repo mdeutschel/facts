@@ -5,14 +5,14 @@
   "seoTitle": "KI & Arbeitsmarkt: Welche Jobs sind in Gefahr? Fakten 2026",
   "seoDescription": "Vernichtet KI die Hälfte aller Jobs? Verschläft Deutschland die Revolution? Antworten zu Automatisierung, Berufen und Weiterbildung — Quellen IAB, OECD.",
   "icon": "smart_toy",
-  "lastUpdated": "2026-03-30",
+  "lastUpdated": "2026-06-09",
   "keyStats": [
     "26 % der Unternehmen nutzen KI (Destatis 2025)",
     "Bis zu 3 Mio. Jobwechsel in DE bis 2030",
     "13 Mio. Beschäftigte in hochexponierten Berufen",
     "9 Argumente"
   ],
-  "sourceNote": "Basierend auf Daten von Destatis, IAB, Eurostat, IWF, McKinsey, ifo Institut, IW Köln, Bitkom und BMAS (Stand März 2026).",
+  "sourceNote": "Basierend auf Daten von Destatis, IAB, Eurostat, IWF, McKinsey, ifo Institut, IW Köln, Bitkom, BMAS und Stanford HAI (Stand Juni 2026).",
   "sections": [
     {
       "id": "status-quo",
@@ -114,6 +114,13 @@
         {
           "type": "text",
           "text": "Die überraschende Erkenntnis: Durch generative KI steigt das Potenzial bei Expertenberufen am stärksten (+9,7 Prozentpunkte seit 2019), obwohl es dort absolut am niedrigsten bleibt. Hochqualifizierte bekommen die Digitalisierung verstärkt zu spüren — ein neues Phänomen, das vor allem auf Text-, Bild- und Codegeneratoren zurückgeht.",
+          "sourceRefs": [
+            "iab-substituierbarkeit-kb2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Bei mehr als der Hälfte der Berufe (2.234 von 4.316) hat sich das Substituierbarkeitspotenzial zwischen 2019 und 2022 gar nicht verändert. Gleichzeitig sind über 280 neue Berufe entstanden — etwa KI-Manager:in, Machine Learning Engineer oder Ethical Hacker.",
           "sourceRefs": [
             "iab-substituierbarkeit-kb2024"
           ]
@@ -233,9 +240,15 @@
             ],
             [
               "Softwareentwickler:in",
-              "–",
-              "–",
-              "+~30 PP"
+              "k. A.",
+              "k. A.",
+              "ca. +30 PP"
+            ],
+            [
+              "Hörfunk-/Fernsehsprecher:in",
+              "14 %",
+              "43 %",
+              "+29 PP"
             ],
             [
               "Komponist:in",
@@ -256,18 +269,31 @@
               "+20 PP"
             ],
             [
+              "Friedhofsarbeiter:in",
+              "60 %",
+              "44 %",
+              "−16 PP"
+            ],
+            [
               "Gesundheitsberufe",
               "~27 %",
-              "~27 %",
+              "26,5 %",
               "±0"
             ],
             [
               "Soziale Dienstleistungen",
               "~14 %",
-              "~14 %",
+              "13,5 %",
               "±0"
             ]
           ],
+          "sourceRefs": [
+            "iab-substituierbarkeit-kb2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Zwei Lesehinweise zur Tabelle: Für Softwareentwickler:innen nennt das IAB nur den Anstieg (rund 30 Prozentpunkte durch Low- und No-Coding), keine Absolutwerte. Und das Potenzial kann auch sinken — bei Friedhofsarbeiter:innen fiel es von 60 auf 44 %, weil nicht automatisierbare Aufgaben wie Heckenschnitt und Winterdienst neu zu den Kerntätigkeiten zählen. Berufsbilder verschieben sich also in beide Richtungen.",
           "sourceRefs": [
             "iab-substituierbarkeit-kb2024"
           ]
@@ -403,42 +429,42 @@
       "content": [
         {
           "type": "bar_chart",
-          "caption": "Private KI-Investitionen 2024 (Mrd. US-Dollar)",
+          "caption": "Private KI-Investitionen 2025 (Mrd. US-Dollar)",
           "items": [
             {
               "label": "USA",
-              "value": 109.1,
+              "value": 285.9,
               "highlight": true
             },
             {
               "label": "China",
-              "value": 9.3
+              "value": 12.4
             },
             {
               "label": "UK",
-              "value": 4.5
-            },
-            {
-              "label": "Schweden",
-              "value": 4.3
-            },
-            {
-              "label": "Kanada",
-              "value": 2.9
+              "value": 5.9
             },
             {
               "label": "Frankreich",
-              "value": 2.6
+              "value": 4.4
+            },
+            {
+              "label": "Kanada",
+              "value": 4.3
+            },
+            {
+              "label": "Indien",
+              "value": 4.1
             },
             {
               "label": "Deutschland",
-              "value": 2.0,
+              "value": 3.9,
               "highlight": true
             }
           ],
           "unit": "Mrd. $",
           "sourceRefs": [
-            "stanford-ai-index-2025"
+            "stanford-ai-index-2026"
           ]
         },
         {
@@ -460,23 +486,24 @@
               "sublabel": "+36 % ggü. Vorjahr (2025)"
             },
             {
-              "value": "12×",
-              "label": "weniger Pro-Kopf-VC als die USA"
+              "value": "18×",
+              "label": "weniger KI-Investitionen pro Kopf als die USA",
+              "sublabel": "2025, eigene Berechnung"
             }
           ],
           "sourceRefs": [
             "tortoise-global-ai-2024",
             "wipo-ai-patents-2024",
             "appliedai-startup-landscape-2025",
-            "stanford-ai-index-2025"
+            "stanford-ai-index-2026"
           ]
         },
         {
           "type": "text",
-          "text": "Deutschland zeigt ein zweigeteiltes Bild: Stark in Forschung (3,1 % des BIP für F&E), industrieller KI-Anwendung und Patenten — schwach bei Risikokapital, Skalierung von Startups und der Geschwindigkeit der KI-Adoption in traditionellen Industrien. 90 % der deutschen KI-Startups sind B2B-orientiert mit Fokus auf Manufacturing, Gesundheit und branchenübergreifende Lösungen. Die Schwäche liegt weniger in der Innovation als im Transfer in die breite wirtschaftliche Anwendung.",
+          "text": "Deutschland zeigt ein zweigeteiltes Bild: Stark in Forschung (3,1 % des BIP für F&E), industrieller KI-Anwendung und Patenten — schwach bei Risikokapital, Skalierung von Startups und der Geschwindigkeit der KI-Adoption in traditionellen Industrien. 90 % der deutschen KI-Startups sind B2B-orientiert mit Fokus auf Manufacturing, Gesundheit und branchenübergreifende Lösungen. Die Lücke wächst dabei: 2025 stiegen die privaten KI-Investitionen in den USA um 160 %, in Europa nur um 7 %. Die Schwäche liegt weniger in der Innovation als im Transfer in die breite wirtschaftliche Anwendung.",
           "sourceRefs": [
             "appliedai-startup-landscape-2025",
-            "stanford-ai-index-2025"
+            "stanford-ai-index-2026"
           ]
         }
       ]
@@ -545,7 +572,7 @@
     {
       "id": "ki-vernichtet-jobs",
       "claim": "KI wird die Hälfte aller Jobs vernichten!",
-      "response": "Die Angst ist verständlich, aber die Forschung zeichnet ein anderes Bild. Laut IAB fällt der Nettoeffekt von KI auf die Gesamtbeschäftigung in Deutschland nahezu neutral aus — es werden etwa so viele Arbeitsplätze geschaffen wie abgebaut. Allerdings müssen bis zu 3 Millionen Menschen den Beruf wechseln. Das Problem ist weniger Massenarbeitslosigkeit als ein massiver Umschulungsbedarf.",
+      "response": "Die Forschung zeichnet ein anderes Bild: Laut IAB fällt der Nettoeffekt von KI auf die Gesamtbeschäftigung in Deutschland nahezu neutral aus — es werden etwa so viele Arbeitsplätze geschaffen wie abgebaut. Die Sorge hat aber einen wahren Kern: Bis zu 3 Millionen Menschen müssen voraussichtlich den Beruf wechseln. Das Problem ist weniger Massenarbeitslosigkeit als ein massiver Umschulungsbedarf.",
       "keywords": [
         "arbeitsplätze",
         "jobverlust",
@@ -557,7 +584,13 @@
         "jobeffekte-prognosen",
         "automatisierungspotenziale"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Lump-of-Labor-Trugschluss: Die Aussage behandelt Arbeit als feste Menge, von der Maschinen einfach die Hälfte wegnehmen. Sie übersieht, dass Produktivitätsgewinne neue Nachfrage, Aufgaben und Berufe schaffen — zwischen 2019 und 2022 sind allein in Deutschland über 280 neue Berufe entstanden. Außerdem wird technisches Automatisierungspotenzial mit tatsächlichem Jobwegfall gleichgesetzt; das IAB betont ausdrücklich, dass Potenziale oft nicht ausgeschöpft werden.",
+      "counterQuestions": [
+        "An welchen Jobs machst du das fest — und welcher Teil davon kann heute wirklich komplett von KI übernommen werden?",
+        "Was wäre für dich der Unterschied zwischen ‚der Job fällt weg' und ‚der Beruf verändert sich'?",
+        "Bei früheren Technologiesprüngen — Computer, Internet — gab es ähnliche Prognosen. Warum sollte es diesmal grundsätzlich anders laufen?"
+      ]
     },
     {
       "id": "bueroarbeit-ueberfluessig",
@@ -575,12 +608,18 @@
         "betroffene-berufsgruppen",
         "produktivitaet"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Pars-pro-toto-Schluss: Von automatisierbaren Teilaufgaben (Routinetexte, Terminkoordination, Protokolle) wird auf den ganzen Beruf geschlossen. Laut IAB ist aber fast kein Beruf vollständig substituierbar — Programmieren oder Schreiben ist jeweils nur eine von vielen Kerntätigkeiten. Die Aussage verwechselt zudem technische Machbarkeit mit betrieblicher Realität: Verantwortung, Kontrolle und Abstimmung bleiben beim Menschen.",
+      "counterQuestions": [
+        "Welche Aufgaben einer Sachbearbeiterin meinst du konkret — alle oder vor allem die Routinetexte?",
+        "Kennst du ein Büro, in dem KI heute schon ganze Stellen ersetzt hat — oder hat sie eher Aufgaben verschoben?",
+        "Wer prüft, korrigiert und verantwortet die Ergebnisse, wenn die KI den Entwurf liefert?"
+      ]
     },
     {
       "id": "deutschland-verschlaeft",
       "claim": "Deutschland verschläft die KI-Revolution!",
-      "response": "Das Bild ist differenzierter: Deutschland liegt auf Platz 7 im globalen KI-Index, hält Platz 5 bei KI-Patenten und hat 935 aktive KI-Startups. Die echte Schwäche liegt im Risikokapital (12-mal weniger pro Kopf als die USA) und der langsamen KI-Adoption in traditionellen Industrien. Deutschland hat die Forschung, aber nicht die Skalierung.",
+      "response": "Das Bild ist differenzierter: Deutschland liegt auf Platz 7 im globalen KI-Index, hält Platz 5 bei KI-Patenten und hat 935 aktive KI-Startups. Die echte Schwäche liegt beim Kapital (18-mal weniger private KI-Investitionen pro Kopf als die USA, Stand 2025) und der langsamen KI-Adoption in traditionellen Industrien. Deutschland hat die Forschung, aber nicht die Skalierung — und diese Lücke ist 2025 weiter gewachsen.",
       "keywords": [
         "verschlafen",
         "rückstand",
@@ -592,7 +631,13 @@
         "internationaler-vergleich",
         "status-quo"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Pauschalisierung mit Schlagwort: Ein vielschichtiger Befund (starke Forschung und Patente, schwaches Risikokapital, langsame Adoption) wird auf ein einziges Urteil — ‚verschlafen' — verdichtet. Das Muster macht aus einem spezifischen, lösbaren Problem (Skalierung und Kapital) ein diffuses Totalversagen, mit dem sich nicht mehr konstruktiv arbeiten lässt.",
+      "counterQuestions": [
+        "Woran machst du ‚verschlafen' fest — an der Forschung, den Patenten, den Startups oder am Geld?",
+        "Welcher Teil fehlt aus deiner Sicht konkret: die Technologie, das Kapital oder die Anwendung in den Betrieben?",
+        "Was müsste sich ändern, damit ein deutsches KI-Startup hier skaliert, statt in die USA zu gehen?"
+      ]
     },
     {
       "id": "nur-einfache-taetigkeiten",
@@ -609,7 +654,13 @@
         "automatisierungspotenziale",
         "betroffene-berufsgruppen"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Fortschreibung eines veralteten Musters: Die Erfahrung aus der Industrieautomatisierung — Roboter ersetzen Handarbeit — wird unverändert auf generative KI übertragen. Die automatisiert aber gerade Text-, Analyse- und Codearbeit, also Kernaufgaben von Wissensberufen. Was bei Fließband und Lagerhalle stimmte, kehrt sich bei Sprachmodellen teilweise um.",
+      "counterQuestions": [
+        "Was kann ein Sprachmodell besser: ein Regal einräumen oder einen Bericht schreiben?",
+        "Welche Tätigkeiten in deinem eigenen Job wären betroffen, wenn Texte, Analysen und Code automatisierbar werden?",
+        "Warum ist das Automatisierungspotenzial laut IAB zuletzt ausgerechnet bei Akademikerberufen am stärksten gestiegen?"
+      ]
     },
     {
       "id": "nur-produktiver",
@@ -626,7 +677,13 @@
         "produktivitaet",
         "jobeffekte-prognosen"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Falsche Dichotomie: Die Aussage tut so, als schlössen Produktivitätsgewinn und Stellenabbau einander aus. Tatsächlich passiert beides gleichzeitig — je nach Branche, Funktion und Unternehmensstrategie. Ob freiwerdende Kapazität in Wachstum oder in Personalabbau fließt, ist eine betriebswirtschaftliche Entscheidung, kein Naturgesetz der Technologie.",
+      "counterQuestions": [
+        "Wenn ein Team durch KI 20 % schneller wird — was macht das Unternehmen mit der freien Kapazität: mehr Aufträge annehmen oder Stellen streichen?",
+        "Gilt ‚nur produktiver' auch für Berufe, deren Kernaufgabe genau das ist, was KI übernimmt — etwa Routinetexte und Standardauswertungen?",
+        "Was passiert mit stark automatisierbaren Stellen, wenn der nächste Sparkurs kommt?"
+      ]
     },
     {
       "id": "politik-tut-nichts",
@@ -644,7 +701,13 @@
         "qualifizierung-weiterbildung",
         "regulierung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Vom Nicht-Sehen aufs Nicht-Existieren geschlossen: Aus ‚ich merke davon nichts' wird ‚es gibt nichts'. Die Programme existieren und sind finanziert — sie scheitern an der Reichweite, nicht an der Existenz. Das Muster verwandelt eine berechtigte Vollzugskritik (die Falschen werden erreicht) in einen pauschalen Totalvorwurf, der die eigentliche Schwachstelle verdeckt.",
+      "counterQuestions": [
+        "Meinst du, es gibt keine Programme — oder dass sie bei den Falschen ankommen?",
+        "Hast du mal geprüft, ob dein Arbeitgeber Förderung über das Qualifizierungschancengesetz nutzen könnte?",
+        "Was wäre für dich der Beleg, dass Politik ‚etwas tut' — Gesetze, Geld oder messbare Ergebnisse?"
+      ]
     },
     {
       "id": "kreative-arbeit-weg",
@@ -662,12 +725,18 @@
         "betroffene-berufsgruppen",
         "automatisierungspotenziale"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Unzulässige Verallgemeinerung: ‚Die Kreativen' werden als homogene Gruppe behandelt, obwohl die Betroffenheit extrem streut — vom vollständig substituierbaren Synchronsprechen bis zu Gesamtkonzept und Regie, die bisher kaum automatisierbar sind. Zudem wird vom automatisierbaren Handwerksanteil (Bild generieren, Text formulieren) auf die gesamte kreative Leistung geschlossen.",
+      "counterQuestions": [
+        "Welche kreative Arbeit meinst du konkret — Stockfotos und Werbetexte oder Konzept, Dramaturgie und Regie?",
+        "Wo verläuft für dich die Grenze zwischen ‚KI erledigt das Handwerk' und ‚KI hat die Idee'?",
+        "Wenn KI-Massenware billig verfügbar ist — was passiert dann mit dem Wert erkennbar menschlicher Arbeit?"
+      ]
     },
     {
       "id": "china-usa-voraus",
       "claim": "China und die USA sind uns bei KI meilenweit voraus!",
-      "response": "Bei Investitionen stimmt das: Die USA investieren mit 109 Milliarden Dollar 55-mal mehr als Deutschland. Bei Patenten dominiert China mit 25.177 gegenüber 436. Aber Deutschland ist Europas Nr. 1 bei KI-Patenten, hat eine wachsende Startup-Szene (+36 %) und weltweit anerkannte Forschung. Die Lücke liegt weniger in der Kompetenz als in der Skalierung und im Risikokapital.",
+      "response": "Bei Investitionen stimmt das: Die USA investierten 2025 mit knapp 286 Milliarden Dollar rund 73-mal mehr in KI als Deutschland (3,9 Mrd. $), China folgt mit 12,4 Mrd. $ auf Platz 2. Bei Patenten dominiert China mit 25.177 gegenüber 436. Aber Deutschland ist Europas Nr. 1 bei KI-Patenten, hat eine wachsende Startup-Szene (+36 %) und weltweit anerkannte Forschung. Die Lücke liegt weniger in der Kompetenz als in der Skalierung und im Risikokapital.",
       "keywords": [
         "china",
         "usa",
@@ -679,7 +748,13 @@
       "relatedSections": [
         "internationaler-vergleich"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Eindimensionale Metrik als Gesamturteil: Der reale Rückstand bei einer Kennzahl (Investitionskapital) wird zum Pauschalurteil über die gesamte KI-Fähigkeit erklärt. Forschung, Patente und industrielle Anwendung — Felder, auf denen Deutschland vorne mitspielt — fallen aus dem Bild. So wird aus einem spezifischen Finanzierungsproblem ein scheinbar hoffnungsloser Generalrückstand.",
+      "counterQuestions": [
+        "Voraus worin genau — bei den Investitionen, bei der Forschung oder bei der Anwendung in der Industrie?",
+        "Sollte Deutschland mit den USA bei Basismodellen konkurrieren — oder seine Stärke in der industriellen Anwendung ausspielen?",
+        "Wenn die Lücke vor allem beim Risikokapital liegt — was müsste sich ändern, damit Gründer hier skalieren können?"
+      ]
     },
     {
       "id": "grundeinkommen-noetig",
@@ -794,9 +869,9 @@
       "url": "https://www.iwkoeln.de/studien/susanne-seyda-sabine-koehne-finster-thomas-schleiermacher-investitionsvolumen-auf-hoechststand.html"
     },
     {
-      "id": "stanford-ai-index-2025",
-      "label": "Stanford HAI – AI Index Report 2025",
-      "url": "https://hai.stanford.edu/ai-index/2025-ai-index-report"
+      "id": "stanford-ai-index-2026",
+      "label": "Stanford HAI – AI Index Report 2026",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
     },
     {
       "id": "tortoise-global-ai-2024",
