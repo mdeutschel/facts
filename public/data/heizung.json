@@ -5,7 +5,7 @@
   "seoTitle": "Wärmepumpe vs. Gasheizung 2026: Argumente & Fakten",
   "seoDescription": "Lohnt sich die Wärmepumpe? Wie wirken ETS 2 und das geplante GModG? Quellengeprüfte Antworten zu den häufigsten Behauptungen rund um den Heizungswechsel.",
   "icon": "heat_pump",
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "21,7 Mio. Heizungen",
     "299.000 WP 2025 (+55 %)",
@@ -1110,7 +1110,7 @@
     {
       "id": "gas-uebergangsloesung",
       "claim": "Eine neue Gasheizung ist doch als Übergang günstiger.",
-      "response": "Die Anschaffung ist günstiger, aber die Übergangsdauer ist meist die Laufzeit der Heizung, nicht ein paar Jahre. Über 15 bis 20 Jahre kommen ETS-2-Kostenrisiko, geplante Bio-Treppe und steigende Netzentgelte zusammen; bei sinkender Auslastung tragen verbleibende Gaskunden lokal höhere spezifische Netzkosten. Sinnvolle echte Brücken sind eher hydraulischer Abgleich, größere Heizkörper und Wartung — sie machen die WP später möglich, ohne neuen fossilen Lock-in.",
+      "response": "Die Anschaffung ist günstiger, aber die Übergangsdauer ist meist die Laufzeit der Heizung, nicht ein paar Jahre. Über 15 bis 20 Jahre kommen ETS-2-Kostenrisiko, geplante Bio-Treppe und steigende Netzentgelte zusammen; bei sinkender Auslastung tragen verbleibende Gaskunden lokal höhere spezifische Netzkosten. Wer wirklich nur überbrücken will, kann das auch unterhalb eines Kesseltauschs — etwa mit Reparatur, hydraulischem Abgleich oder größeren Heizkörpern. Der Begriff ‚Übergang' passt nur, wenn die Nutzungsdauer tatsächlich kurz bleibt — ein neuer Kessel bindet dagegen für 15 bis 20 Jahre.",
       "keywords": [
         "übergang",
         "brücke",
@@ -1128,6 +1128,29 @@
         "Über welche Lebensdauer rechnest du den ‚Übergang‘ — 5 Jahre oder die typischen 15-20 Jahre einer Gasheizung?",
         "Wie sieht deine Kostenbilanz aus, wenn der ETS-2-Preis 2030 auf 100-160 EUR/t steht und die Bio-Quote 10-15 % erreicht?",
         "Was passiert, wenn du in 5 Jahren doch eine WP brauchst und die 2026er-Förderkonditionen längst gesunken sind?"
+      ]
+    },
+    {
+      "id": "wp-rechnet-sich-immer",
+      "claim": "Die Wärmepumpe rechnet sich für jeden — wer heute noch Gas einbaut, ist selbst schuld!",
+      "response": "So pauschal stimmt auch das nicht: Die Kostenvergleiche zeigen eine Bandbreite, keinen Automatismus. Im mittleren Szenario (JAZ 3,5, WP-Tarif) spart die Wärmepumpe rund 1.150 Euro pro Jahr — im ungünstigen Fall (niedrige JAZ, hoher Strompreis, teure Einbausituation) ist sie nur knapp vorn, bei deutlich höherer Anschaffung. Entscheidend sind Vorlauftemperatur, Heizflächen, Stromtarif und Förderquote — also der Einzelfall. Die Tendenz spricht durch ETS 2 und Netzentgelte zunehmend für die Wärmepumpe, aber ‚rechnet sich für jeden' ersetzt genauso wenig eine Einzelfallrechnung wie ‚Gas ist billiger'.",
+      "keywords": [
+        "rechnet sich immer",
+        "für jeden",
+        "selbst schuld",
+        "Wärmepumpe immer besser",
+        "Pauschalurteil"
+      ],
+      "relatedSections": [
+        "kostenvergleich",
+        "fraunhofer-ise"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der ‚Gas ist billiger'-Pauschale: Ein im Mittel zutreffender Befund wird zur Regel ohne Ausnahme erklärt, und die Schuldzuweisung (‚selbst schuld') ersetzt die Einzelfallprüfung. Beide Pauschalen scheitern an derselben Stelle — der Bandbreite der realen Einbausituationen.",
+      "counterQuestions": [
+        "Kennst du die Vorlauftemperatur und den Stromtarif des konkreten Hauses — oder schließt du vom Durchschnitt auf den Einzelfall?",
+        "Was ist mit Fällen, in denen JAZ und Einbausituation ungünstig sind — gilt dein ‚für jeden' auch dort?",
+        "Würdest du die gleiche Pauschalisierung gelten lassen, wenn jemand sagt ‚Gas ist immer billiger'?"
       ]
     },
     {
