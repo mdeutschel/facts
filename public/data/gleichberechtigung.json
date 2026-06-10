@@ -5,12 +5,12 @@
   "seoTitle": "Gleichberechtigung: Pay Gap, Care, Rente — Argumente & Daten",
   "seoDescription": "Verdienen Frauen freiwillig weniger? Ist Feminismus überflüssig? Antworten zu Pay Gap, Care, Altersarmut und Gewalt — Daten aus Destatis und BKA.",
   "icon": "balance",
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "16 % unbereinigter Gender Pay Gap (2025)",
     "43,4 % Gender Care Gap",
     "132 Frauen durch Partner getötet (2024)",
-    "17 Argumente"
+    "18 Argumente"
   ],
   "sourceNote": "Die Daten stammen primär von Destatis, dem BMFSFJ, dem BKA, dem Bundestag, der Deutschen Rentenversicherung, der Bundesbank, dem DIW, dem ZEW und EIGE (Stand 2024–2026). Wo Exaktwerte unsicher oder methodisch schwer vergleichbar sind, werden konservative Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
@@ -20,7 +20,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten Wert (Durchschnitt aller Beschäftigten) und dem bereinigten Wert (bei gleicher Qualifikation, Tätigkeit und Arbeitszeit). Beide Kennzahlen sind aussagekräftig: Der unbereinigte Gap zeigt die tatsächliche Einkommenslücke, der bereinigte die verbleibende Diskriminierung nach Herausrechnung struktureller Faktoren.",
+          "text": "Der Gender Pay Gap beschreibt den Verdienstunterschied zwischen Männern und Frauen. Man unterscheidet zwischen dem unbereinigten Wert (Durchschnitt aller Beschäftigten) und dem bereinigten Wert (bei gleicher Qualifikation, Tätigkeit und Arbeitszeit). Beide Kennzahlen sind aussagekräftig: Der unbereinigte Gap zeigt die tatsächliche Einkommenslücke, der bereinigte den Unterschied, der bei vergleichbarer Qualifikation, Tätigkeit und Arbeitszeit verbleibt — er gilt als Obergrenze für mögliche Diskriminierung, weil auch nicht erfasste Faktoren eine Rolle spielen können.",
           "sourceRefs": [
             "destatis-gender-pay-gap-2025"
           ]
@@ -882,7 +882,7 @@
         },
         {
           "type": "fact",
-          "text": "Frauen stellen 53 % der Hochschulabsolventen, aber nur rund 23 % der MINT-Absolventinnen und 30 % der Professuren. Diese 'Leaky Pipeline' — der abnehmende Frauenanteil auf jeder Karrierestufe — entsteht nicht durch mangelnde Qualifikation, sondern durch strukturelle Barrieren.",
+          "text": "Frauen stellen 53 % der Hochschulabsolventen, aber nur rund 23 % der MINT-Absolventinnen und 30 % der Professuren. Diese 'Leaky Pipeline' — der abnehmende Frauenanteil auf jeder Karrierestufe — lässt sich nicht mit mangelnder Qualifikation erklären; welche Mischung aus Sorgeverantwortung, Arbeitszeitmodellen und Aufstiegshürden sie verursacht, ist Gegenstand der Forschung.",
           "highlight": true,
           "sourceRefs": [
             "destatis-bildung-geschlecht"
@@ -1105,7 +1105,7 @@
     {
       "id": "berufswahl",
       "claim": "Frauen verdienen nur deshalb weniger, weil sie sich freiwillig für schlechter bezahlte soziale Berufe entscheiden.",
-      "response": "Branche und Beruf erklären tatsächlich einen großen Teil der Verdienstlücke — rund 60 % laut Destatis. Aber selbst bei gleicher Qualifikation, Tätigkeit, Erwerbsbiografie und Arbeitszeit bleibt 2025 ein bereinigter Gender Pay Gap von 6 % übrig, der sich so nicht wegrechnen lässt. Und die ‚freie' Berufswahl hat eine zweite Schicht: Dass ausgerechnet Pflege und Erziehung so schlecht bezahlt sind, ist keine Naturkonstante, sondern eine gesellschaftliche Bewertung — gut bezahlte Branchen wie Finanzdienstleistungen haben mit 25 % einen der größten Pay Gaps überhaupt.",
+      "response": "Branche und Beruf erklären tatsächlich einen großen Teil der Verdienstlücke — rund 60 % laut Destatis. Aber selbst bei gleicher Qualifikation, Tätigkeit, Erwerbsbiografie und Arbeitszeit bleibt 2025 ein bereinigter Gender Pay Gap von 6 % übrig, der sich so nicht wegrechnen lässt. Und die ‚freie' Berufswahl hat eine zweite Schicht: Warum als ‚weiblich' geltende Berufe wie Pflege und Erziehung niedriger entlohnt werden, ist Gegenstand der Forschung — die Erklärungen reichen von Marktmechanismen bis zur gesellschaftlichen Bewertung von Sorgearbeit. Auffällig bleibt: Auch innerhalb gut bezahlter Branchen wie Finanzdienstleistungen liegt der Pay Gap mit 25 % besonders hoch — dort greift das Berufswahl-Argument gar nicht.",
       "keywords": [
         "Berufswahl",
         "soziale Berufe",
@@ -1118,17 +1118,17 @@
         "bildung"
       ],
       "verdict": "mostly-false",
-      "rhetoricalPattern": "Die Parole verschiebt die Verantwortung vollständig auf die individuelle Entscheidung und blendet aus, dass diese Entscheidung in einem vorgeprägten Rahmen fällt. Sie behandelt die niedrige Bezahlung sozialer Berufe als gegeben, statt zu fragen, warum gerade als ‚weiblich' geltende Tätigkeiten schlechter entlohnt werden — und übersieht, dass auch nach Herausrechnung aller Faktoren eine Lücke bleibt.",
+      "rhetoricalPattern": "Die Parole verschiebt die Verantwortung vollständig auf die individuelle Entscheidung und blendet aus, dass diese Entscheidung in einem vorgeprägten Rahmen fällt. Sie behandelt die niedrige Bezahlung sozialer Berufe als feststehende Größe, obwohl deren Ursachen selbst Teil der Debatte sind — und übersieht, dass auch nach Herausrechnung aller Faktoren eine Lücke bleibt.",
       "counterQuestions": [
         "Wenn Frauen sich ‚frei' für soziale Berufe entscheiden — warum bleibt dann selbst bei gleichem Beruf und gleicher Stelle noch eine Lücke übrig?",
-        "Wer entscheidet eigentlich, dass eine Pflegekraft weniger wert ist als jemand in der Finanzbranche?",
-        "Würdest du sagen, dass die Arbeit einer Erzieherin für die Gesellschaft weniger wichtig ist als die eines Investmentbankers?"
+        "Wie erklärst du dir, dass der Pay Gap ausgerechnet in gut bezahlten Branchen wie Finanzdienstleistungen am größten ist — dort greift das Berufswahl-Argument doch nicht?",
+        "Was müsste sich an Bezahlung oder Arbeitsbedingungen ändern, damit mehr Männer Pflege- und Erziehungsberufe wählen — und was sagt das über die ‚freie' Wahl?"
       ]
     },
     {
       "id": "paygap-mythos",
       "claim": "Der Gender Pay Gap ist doch ein Mythos — bereinigt liegt der bei fast null, das IW kommt auf 2 %.",
-      "response": "Die niedrige Zahl gibt es wirklich, aber sie misst etwas anderes als behauptet. Das Institut der deutschen Wirtschaft (IW) kommt mit einer speziellen Methode (‚statistische Zwillinge') auf rund 2 %; rechnet es mit den gleichen Daten wie das Statistische Bundesamt, landet es selbst bei rund 8 % — nahe an den amtlichen 6 % bereinigt und 16 % unbereinigt. Entscheidend ist aber ein Denkfehler: Der bereinigte Gap rechnet genau die Dinge heraus, die selbst Teil des Problems sind — Teilzeit wegen Care-Arbeit, ‚weibliche' Branchen, unterbrochene Erwerbsbiografien. ‚Bereinigt' heißt also nicht ‚diskriminierungsfrei', sondern ‚nach Abzug der strukturellen Benachteiligung'.",
+      "response": "Die niedrige Zahl gibt es wirklich, aber sie misst etwas anderes als behauptet. Das Institut der deutschen Wirtschaft (IW) kommt mit einer speziellen Methode (‚statistische Zwillinge') auf rund 2 %; rechnet es mit den gleichen Daten wie das Statistische Bundesamt, landet es selbst bei rund 8 % — nahe an den amtlichen 6 % bereinigt und 16 % unbereinigt. Entscheidend ist aber, was ‚bereinigt' bedeutet: Herausgerechnet werden Faktoren wie Teilzeit, Branche und Erwerbsunterbrechungen — also genau die Punkte, um deren Ursachen die Debatte geht. Wer sie als freie Wahl liest, kommt zu einem anderen Urteil als wer sie als Folge der Sorgearbeitsverteilung liest. Unstrittig ist zweierlei: Auch der bereinigte Wert liegt mit 6 % nicht bei null, und ‚bereinigt' ist nicht dasselbe wie ‚diskriminierungsfrei'.",
       "keywords": [
         "Pay Gap Mythos",
         "bereinigt null",
@@ -1142,7 +1142,7 @@
         "care-gap"
       ],
       "verdict": "misleading",
-      "rhetoricalPattern": "Hier wird eine einzelne, methodisch abweichende Zahl als ‚die Wahrheit' gegen den amtlichen Wert ausgespielt — ein Rosinenpicken der niedrigsten verfügbaren Schätzung. Zugleich steckt ein Definitionstrick dahinter: Der bereinigte Gap wird mit ‚keine Diskriminierung' gleichgesetzt, obwohl er gerade die strukturellen Ursachen herausrechnet, statt sie zu widerlegen.",
+      "rhetoricalPattern": "Hier wird eine einzelne, methodisch abweichende Zahl als ‚die Wahrheit' gegen den amtlichen Wert ausgespielt — ein Rosinenpicken der niedrigsten verfügbaren Schätzung. Zugleich steckt eine Begriffsverschiebung dahinter: Der bereinigte Gap wird mit ‚keine Diskriminierung' gleichgesetzt, obwohl er nur misst, was nach Herausrechnung umstrittener Faktoren übrig bleibt — er widerlegt deren Ursachen nicht.",
       "counterQuestions": [
         "Wenn man Teilzeit und Berufswahl herausrechnet, um den Gap kleinzurechnen — sind das nicht genau die Punkte, um die es in der Debatte geht?",
         "Warum kommt dasselbe Institut auf 8 %, sobald es mit den amtlichen Daten rechnet?",
@@ -1150,9 +1150,31 @@
       ]
     },
     {
+      "id": "gleiche-arbeit-16-prozent",
+      "claim": "Frauen bekommen für die gleiche Arbeit 16 % weniger Lohn!",
+      "response": "Die 16 % stimmen als Zahl, aber sie messen etwas anderes: Das ist der unbereinigte Gender Pay Gap — der Durchschnittsvergleich aller erwerbstätigen Männer und Frauen, über alle Berufe, Branchen und Arbeitszeiten hinweg. Für ‚gleiche Arbeit' ist der bereinigte Wert die richtige Kennzahl: Bei vergleichbarer Qualifikation, Tätigkeit und Arbeitszeit bleiben 6 % — keine Bagatelle, aber eben nicht 16 %. Beide Zahlen zeigen reale Probleme, nur verschiedene: Die 16 % spiegeln vor allem Teilzeit, Branchenwahl und Erwerbsunterbrechungen, die 6 % den Unterschied bei vergleichbarer Stelle. Wer die 16 % auf ‚gleiche Arbeit' bezieht, macht ein berechtigtes Anliegen unnötig angreifbar.",
+      "keywords": [
+        "gleiche Arbeit",
+        "gleicher Lohn",
+        "16 Prozent",
+        "Lohnlücke",
+        "Equal Pay"
+      ],
+      "relatedSections": [
+        "pay-gap"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Kennzahlen-Verwechslung: Eine korrekte Zahl (16 % unbereinigt) wird mit der falschen Bezugsgröße (‚gleiche Arbeit') kombiniert. Das Muster ist das Spiegelbild des ‚Pay-Gap-Mythos'-Arguments — dort wird die kleinste Zahl pauschal entwarnend, hier die größte Zahl pauschal alarmierend verwendet.",
+      "counterQuestions": [
+        "Vergleichen die 16 % zwei Personen auf derselben Stelle — oder alle Männer mit allen Frauen über alle Berufe hinweg?",
+        "Welche Zahl beschreibt ‚gleiche Arbeit' genauer: der unbereinigte oder der bereinigte Gap?",
+        "Wird das Anliegen stärker oder schwächer, wenn man die passende Kennzahl nennt?"
+      ]
+    },
+    {
       "id": "fuehrung",
       "claim": "Frauen wollen gar keine Führungspositionen übernehmen, weil ihnen die Familie wichtiger ist.",
-      "response": "Die Daten sprechen gegen den fehlenden Willen: In Deutschland sind nur 29,1 % der Führungskräfte weiblich, klar unter dem EU-Schnitt von 35,2 %, und selbst in den DAX-40-Vorständen stagniert der Anteil zuletzt bei 25,4 %. Der Engpass ist nicht der Wille, sondern die Zeit: 47,4 % der erwerbstätigen Frauen arbeiten in Teilzeit, ganz überwiegend wegen Sorgeverantwortung. Wer den Großteil der unbezahlten Arbeit zu Hause stemmt, kann schlecht gleichzeitig die 60-Stunden-Präsenzkultur einer Vorstandslaufbahn bedienen. Richtig ist: Manche Frauen entscheiden sich bewusst gegen diesen Weg — die Frage ist, ob die Bedingungen eine echte Wahl lassen.",
+      "response": "Die Daten sprechen gegen den fehlenden Willen: In Deutschland sind nur 29,1 % der Führungskräfte weiblich, klar unter dem EU-Schnitt von 35,2 %, und selbst in den DAX-40-Vorständen stagniert der Anteil zuletzt bei 25,4 %. Die Daten deuten weniger auf fehlenden Willen als auf fehlende Zeit: 47,4 % der erwerbstätigen Frauen arbeiten in Teilzeit, ganz überwiegend wegen Sorgeverantwortung. Wer den Großteil der unbezahlten Arbeit zu Hause stemmt, kann schlecht gleichzeitig die 60-Stunden-Präsenzkultur einer Vorstandslaufbahn bedienen. Richtig ist: Manche Frauen entscheiden sich bewusst gegen diesen Weg — die Frage ist, ob die Bedingungen eine echte Wahl lassen.",
       "keywords": [
         "Führungsposition",
         "Karriere",
@@ -1236,7 +1258,7 @@
       "counterQuestions": [
         "Wenn heute schon nur nach Leistung besetzt würde — warum steigen Frauen trotz besserer Abschlüsse seltener auf?",
         "Woran würdest du erkennen, dass eine Frau eine Position ‚nur wegen der Quote' hat und nicht wegen ihrer Qualifikation?",
-        "Wäre es dir lieber, qualifizierte Frauen werden weiter übergangen, nur damit niemand den Verdacht der Bevorzugung hat?"
+        "Wie würdest du sicherstellen, dass Besetzungen wirklich nach Leistung laufen — und woran würdest du messen, ob das heute schon der Fall ist?"
       ]
     },
     {
@@ -1259,7 +1281,7 @@
       "counterQuestions": [
         "Ist jemand, der jahrelang Kinder großzieht oder Angehörige pflegt, in deinen Augen wirklich ‚weniger fleißig'?",
         "Wer hätte die Sorgearbeit machen sollen, die hinter den fehlenden Beitragsjahren steckt?",
-        "Wenn diese Arbeit gesellschaftlich notwendig ist — warum sollte sie im Alter mit Armut bestraft werden?"
+        "Wie sollte ein Rentensystem aus deiner Sicht mit Jahren umgehen, in denen jemand unbezahlt Kinder erzieht oder Angehörige pflegt?"
       ]
     },
     {
@@ -1379,7 +1401,7 @@
     {
       "id": "wehrpflicht",
       "claim": "Echte Gleichberechtigung hieße, dass auch Frauen zum Wehrdienst müssen — die wollen nur die Vorteile, nicht die Pflichten.",
-      "response": "Der Punkt hat einen berechtigten Kern: Beim neuen Wehrdienst ab 2026 ist das Ausfüllen des Erfassungs-Fragebogens nur für Männer verpflichtend, für Frauen freiwillig — das ist eine echte Ungleichbehandlung. Sie steht aber so im Grundgesetz (Art. 12a), das eine Dienstpflicht bislang nur für Männer vorsieht; eine Änderung bräuchte eine Zwei-Drittel-Mehrheit und ist Gegenstand der laufenden Debatte, nicht von Frauen ‚blockiert‘. Vor allem aber verschiebt die Parole das Thema: Aus ‚Frauen werden bei Lohn, Rente und Sicherheit benachteiligt‘ wird ‚aber beim Wehrdienst haben sie es leichter‘. Beides kann man angehen — die eine Ungleichheit hebt die andere nicht auf. Und gesellschaftliche Pflichtarbeit leisten Frauen längst überproportional: in Pflege und Sorgearbeit.",
+      "response": "Der Punkt hat einen berechtigten Kern: Beim neuen Wehrdienst ab 2026 ist das Ausfüllen des Erfassungs-Fragebogens nur für Männer verpflichtend, für Frauen freiwillig — das ist eine echte Ungleichbehandlung. Sie steht aber so im Grundgesetz (Art. 12a), das eine Dienstpflicht bislang nur für Männer vorsieht; eine Änderung bräuchte eine Zwei-Drittel-Mehrheit und ist Gegenstand der laufenden Debatte, nicht von Frauen ‚blockiert‘. Vor allem aber verschiebt die Parole das Thema: Aus ‚Frauen werden bei Lohn, Rente und Sicherheit benachteiligt‘ wird ‚aber beim Wehrdienst haben sie es leichter‘. Beides kann man angehen — die eine Ungleichheit hebt die andere nicht auf. Wer eine Gesamtbilanz der Pflichten aufmacht, sollte zudem fair bilanzieren: Unbezahlte Pflege- und Sorgearbeit ist rechtlich keine Pflicht, wird aber überproportional von Frauen geleistet und taucht in dieser Rechnung meist gar nicht auf.",
       "keywords": [
         "Wehrpflicht",
         "Wehrdienst",
@@ -1392,7 +1414,7 @@
         "care-gap"
       ],
       "verdict": "misleading",
-      "rhetoricalPattern": "Die Parole ist ein Whataboutism: Sie kontert belegte Benachteiligungen mit einem einzelnen Bereich, in dem Männer formal schlechter gestellt sind, und tut so, als sei damit die Gesamtbilanz ausgeglichen. Zugleich unterstellt sie, Frauen verweigerten sich den Pflichten — obwohl die Asymmetrie aus dem Grundgesetz folgt und Sorgearbeit als gesellschaftliche Pflichtleistung ausgeblendet wird.",
+      "rhetoricalPattern": "Die Parole ist ein Whataboutism: Sie kontert belegte Benachteiligungen mit einem einzelnen Bereich, in dem Männer formal schlechter gestellt sind, und tut so, als sei damit die Gesamtbilanz ausgeglichen. Zugleich unterstellt sie als Motiv, Frauen verweigerten sich den Pflichten — obwohl die Asymmetrie aus dem Grundgesetz folgt und nicht von Frauen beschlossen wurde.",
       "counterQuestions": [
         "Die Ungleichbehandlung beim Wehrdienst steht im Grundgesetz — wer genau hindert die Politik daran, das zu ändern?",
         "Hebt eine Benachteiligung von Männern beim Wehrdienst die Lohn-, Renten- und Gewaltzahlen bei Frauen auf?",
