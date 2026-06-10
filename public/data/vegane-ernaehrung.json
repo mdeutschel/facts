@@ -5,12 +5,12 @@
   "seoTitle": "Vegane Ernährung: Klima, Gesundheit, Fleischkonsum — Fakten",
   "seoDescription": "Aktuelle Fakten zu veganer Ernährung, Fleischkonsum 2025, DGE-Empfehlungen, B12, Soja, Pflanzenmilch, Tierhaltung und Antibiotika — mit Gesprächsargumenten.",
   "icon": "eco",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "rund 746 Mio. Tiere wurden 2025 in Deutschland geschlachtet",
     "54,9 kg Fleisch pro Kopf wurden 2025 rechnerisch verzehrt",
     "DGE: vegan kann für gesunde Erwachsene gesundheitsfördernd sein — mit B12 und Planung",
-    "10 Argumente"
+    "11 Argumente"
   ],
   "sourceNote": "Basierend auf Daten von Destatis, BLE/BMEL, UBA, BVL, DGE, EAT-Lancet, Poore & Nemecek/Oxford und Our World in Data (Stand 2026).",
   "sections": [
@@ -667,7 +667,7 @@
     {
       "id": "mandelmilch-wasser",
       "claim": "Pflanzenmilch wie Mandelmilch verbraucht doch auch extrem viel Wasser!",
-      "response": "Der Einwand hat einen wahren Kern: Mandelmilch braucht deutlich mehr Wasser als Hafer- oder Sojamilch. Im Vergleich zu Kuhmilch schneiden pflanzliche Drinks aber in den meisten Umweltkategorien trotzdem besser ab; besonders Hafer- und Sojamilch sind beim Wasser- und Flächenbedarf deutlich günstiger. Die bessere Schlussfolgerung lautet also nicht ‘zurück zur Kuhmilch’, sondern ‘innerhalb der Pflanzenmilch bewusst wählen’.",
+      "response": "Der Einwand hat einen wahren Kern: Mandelmilch braucht deutlich mehr Wasser als Hafer- oder Sojamilch. Im Vergleich zu Kuhmilch schneiden pflanzliche Drinks aber in den meisten Umweltkategorien trotzdem besser ab; besonders Hafer- und Sojamilch sind beim Wasser- und Flächenbedarf deutlich günstiger. Der Mandel-Befund taugt also nicht als Argument für Kuhmilch — er unterscheidet nur zwischen den Pflanzendrinks selbst.",
       "keywords": [
         "Mandelmilch",
         "Hafermilch",
@@ -691,7 +691,7 @@
     {
       "id": "teurer-lifestyle",
       "claim": "Veganismus ist nur ein teurer Lifestyle für privilegierte Großstädter.",
-      "response": "Teuer sind vor allem stark verarbeitete Ersatzprodukte und Spezialartikel. Eine pflanzenbetonte Basis aus Kartoffeln, Reis, Nudeln, Haferflocken, Linsen, Bohnen, Tiefkühlgemüse, saisonalem Gemüse und Öl kann sehr günstig sein. Der berechtigte Punkt ist: Zeit, Küchenwissen und Zugang zu guten Lebensmitteln sind sozial ungleich verteilt. Das spricht aber eher für bessere Gemeinschaftsverpflegung und günstige Grundzutaten als gegen pflanzliches Essen.",
+      "response": "Teuer sind vor allem stark verarbeitete Ersatzprodukte und Spezialartikel. Eine pflanzenbetonte Basis aus Kartoffeln, Reis, Nudeln, Haferflocken, Linsen, Bohnen, Tiefkühlgemüse, saisonalem Gemüse und Öl kann sehr günstig sein. Der berechtigte Punkt ist: Zeit, Küchenwissen und Zugang zu guten Lebensmitteln sind sozial ungleich verteilt. Das ist allerdings ein Zugangs- und Zeitproblem — die Grundzutaten selbst gehören zu den günstigsten im Supermarkt.",
       "keywords": [
         "Teuer",
         "Kosten",
@@ -716,7 +716,7 @@
     {
       "id": "bauern-existenz",
       "claim": "Wenn alle vegan werden, verlieren unsere Landwirte ihre Existenz!",
-      "response": "Ein Ernährungswandel passiert nicht über Nacht. Sinkt die Nachfrage nach Tierprodukten, braucht die Landwirtschaft verlässliche Übergänge: mehr Anbau von Hülsenfrüchten und pflanzlichen Proteinen, Umbau von Tierhaltungsbetrieben, faire Preise und politische Planung. Der Einwand ist als Strukturfrage berechtigt; er widerlegt aber nicht die Klima-, Flächen- und Tierwohlprobleme hoher Tierproduktion.",
+      "response": "Ein Ernährungswandel passiert nicht über Nacht — und ein Szenario, in dem ‚alle vegan werden', ist angesichts von 54,9 kg Pro-Kopf-Verzehr nicht absehbar. Sinkt die Nachfrage nach Tierprodukten allmählich, verschiebt sich auch die Produktion: mehr Hülsenfrüchte und pflanzliche Proteine, weniger Tierhaltung. Wie hart oder weich dieser Übergang für Betriebe ausfällt, ist eine reale Strukturfrage — sie sagt aber nichts darüber aus, ob die Klima-, Flächen- und Tierwohlbefunde zur heutigen Tierproduktion stimmen.",
       "keywords": [
         "Bauern",
         "Landwirte",
@@ -733,7 +733,7 @@
       "rhetoricalPattern": "Das Muster macht aus einem notwendigen Strukturwandel ein Alles-oder-nichts-Szenario. Dadurch wird so getan, als gäbe es nur Status quo oder plötzlichen Zusammenbruch, obwohl Märkte und Betriebe sich über Jahre an veränderte Nachfrage anpassen können.",
       "counterQuestions": [
         "Welche Unterstützung bräuchten Betriebe, wenn weniger Tierprodukte nachgefragt werden?",
-        "Ist es fairer, den Wandel zu planen — oder zu warten, bis Betriebe von Markt- und Klimarisiken überrollt werden?",
+        "Wie schnell müsste die Nachfrage sinken, damit Betriebe tatsächlich in Existenznot geraten — und wie schnell sinkt sie real?",
         "Welche pflanzlichen Kulturen könnten für Landwirte in deiner Region wirtschaftlich interessant sein?"
       ]
     },
@@ -756,7 +756,7 @@
       "rhetoricalPattern": "Die Aussage trennt den eigenen Konsum künstlich von Produktionsbedingungen. Gleichzeitig wäre es überzogen, Resistenzen nur Fleischkonsum zuzuschreiben; korrekt ist eine One-Health-Perspektive, in der Humanmedizin, Tiermedizin, Hygiene und Haltung zusammen betrachtet werden.",
       "counterQuestions": [
         "Sollten wir Resistenzen nur in Krankenhäusern betrachten — oder auch dort, wo viele Tiere dicht gehalten werden?",
-        "Wenn die Abgabemengen stark gesunken sind: Was spricht dagegen, den Trend durch weniger intensive Haltung fortzusetzen?",
+        "Wodurch sind die Abgabemengen seit 2011 so stark gesunken — und welche Rolle spielte dabei die Haltungsform?",
         "Welche Haltungsform braucht aus deiner Sicht weniger Routine-Behandlungen?"
       ]
     },
@@ -832,6 +832,28 @@
         "Geht es dir um schlecht geplante vegane Ernährung — oder auch um gut begleitete mit Blutwertkontrolle und Supplementen?",
         "Welche Nährstoffe wären in Schwangerschaft oder Kindheit konkret zu überwachen?",
         "Würdest du bei Mischkost in der Schwangerschaft ebenfalls auf Jod, Folsäure, Eisen und B12 achten?"
+      ]
+    },
+    {
+      "id": "vegan-immer-gesuender",
+      "claim": "Vegan ist immer die gesündeste Ernährung — wer Fleisch isst, schadet seinem Körper!",
+      "response": "Die DGE-Position ist deutlich vorsichtiger: Vegane Ernährung kann für gesunde Erwachsene gesundheitsfördernd sein — unter Bedingungen: zuverlässige B12-Supplementierung, gute Planung und Blick auf kritische Nährstoffe. Schlecht geplant ist sie genauso mangelhaft wie schlecht geplante Mischkost. Für Kinder, Schwangere, Stillende und Ältere gibt die DGE bewusst keine eindeutige Empfehlung. Und für Fleisch gilt keine Null-Empfehlung, sondern eine Mengenempfehlung: bis 300–600 g pro Woche. Pauschal ‚immer am gesündesten' und ‚Fleisch schadet' geben die Ernährungsempfehlungen nicht her — es kommt auf Menge, Planung und Lebensphase an.",
+      "keywords": [
+        "vegan gesündeste",
+        "Fleisch schadet",
+        "immer gesund",
+        "DGE Empfehlung",
+        "Pauschalurteil"
+      ],
+      "relatedSections": [
+        "gesundheit"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der ‚Veganer haben alle Nährstoffmangel'-Parole: Dort wird aus einem realen Risiko (B12) ein Pauschalurteil gegen vegane Ernährung, hier aus einem bedingten Befund (‚kann gesundheitsfördernd sein') ein Pauschalurteil gegen jede Mischkost. Beide überspringen dieselben Bedingungen: Planung, Menge, Lebensphase.",
+      "counterQuestions": [
+        "Was sagt die DGE wörtlich — ‚ist immer gesünder' oder ‚kann unter Bedingungen gesundheitsfördernd sein'?",
+        "Gilt dein Urteil auch für schlecht geplante vegane Ernährung ohne B12-Supplement?",
+        "Schadet die Menge Fleisch innerhalb der DGE-Empfehlung von 300–600 g pro Woche nach der Studienlage messbar?"
       ]
     }
   ],

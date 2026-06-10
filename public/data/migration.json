@@ -5,12 +5,12 @@
   "seoTitle": "Migration & Asyl: Zahlen, Argumente & Fakten 2026",
   "seoDescription": "Werden wir überrannt? Sind Geflüchtete krimineller? Antworten zu Asylzahlen, Arbeitsmarkt, Kriminalität und Integration — Quellen BAMF, BKA und IAB.",
   "icon": "public",
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "113.236 Asylerstanträge in 2025 (-50,7 % zu 2024)",
     "64 % Beschäftigungsquote bei 2015 zugezogenen Geflüchteten",
     "291.955 Einbürgerungen 2024 (Rekord)",
-    "16 Argumente"
+    "17 Argumente"
   ],
   "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen offizieller Institutionen: BAMF, BKA, Destatis, IAB, Eurostat und Mediendienst Integration (Stand Anfang 2026). Wo Exaktwerte methodisch schwer vergleichbar sind, werden konservative Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
@@ -951,7 +951,7 @@
     {
       "id": "kosten-migration",
       "claim": "Migration kostet uns nur Milliarden und bringt wirtschaftlich nichts!",
-      "response": "Die Kosten sind real: 2024 gab der Bund rund 28 Mrd. Euro im Kontext Flucht/Migration aus. Aber erstens ist das ca. 6 % des Bundeshaushalts. Zweitens zeigen die IAB-Daten, dass 64 % der 2015 zugezogenen Geflüchteten nach 9 Jahren erwerbstätig sind und Steuern sowie Sozialabgaben zahlen. Integrationsausgaben sind Investitionen mit zeitversetzter Rendite.",
+      "response": "Die Kosten sind real: 2024 gab der Bund rund 28 Mrd. Euro im Kontext Flucht/Migration aus. Aber erstens ist das ca. 6 % des Bundeshaushalts. Zweitens zeigen die IAB-Daten, dass 64 % der 2015 zugezogenen Geflüchteten nach 9 Jahren erwerbstätig sind und Steuern sowie Sozialabgaben zahlen. ‚Bringt wirtschaftlich nichts' unterschlägt diese Einnahmenseite — wie die Bilanz unterm Strich ausfällt, hängt vom Zeithorizont ab und verbessert sich mit steigender Beschäftigung von Jahr zu Jahr.",
       "keywords": [
         "Kosten",
         "Milliarden",
@@ -970,6 +970,29 @@
         "Wie hoch sind eigentlich die Steuern und Sozialabgaben, die heute erwerbstätige Geflüchtete zahlen — weißt du das?",
         "Würdest du eine reine Kostenrechnung auch bei deutschen Steuerzahlern aufmachen, ohne deren Beiträge gegenzurechnen?",
         "Wenn bis Mitte der 2030er 3,2 Millionen Erwerbsfähige fehlen — was wäre die Alternative zu Integrationsausgaben?"
+      ]
+    },
+    {
+      "id": "migranten-zahlen-mehr-ein",
+      "claim": "Migranten zahlen doch mehr ein, als sie kosten — Migration kostet uns unterm Strich gar nichts!",
+      "response": "So pauschal stimmt auch das nicht: Die Ausgaben sind real und erheblich — 2024 rund 28 Mrd. Euro allein beim Bund für Unterbringung, Sprachkurse, Sozialleistungen und Verwaltung. Auf der Einnahmenseite steht, dass die Beschäftigung über die Jahre deutlich steigt (64 % bei den 2015 Zugezogenen nach 9 Jahren) und damit Steuern und Sozialabgaben fließen. Wie die Bilanz ausfällt, hängt also stark davon ab, welche Gruppe man betrachtet und über welchen Zeitraum — in den ersten Jahren nach der Flucht überwiegen die Kosten, später dreht sich das Bild zunehmend. Die Pauschalaussage ist das Spiegelbild der reinen Kostenrechnung: Beide blenden eine Seite der Rechnung aus.",
+      "keywords": [
+        "zahlen mehr ein",
+        "Nettozahler",
+        "kostet nichts",
+        "fiskalische Bilanz",
+        "Beitrag"
+      ],
+      "relatedSections": [
+        "kosten",
+        "arbeitsmarkt"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der Brutto-Kostenrechnung: Statt nur Ausgaben werden nur Beiträge gezählt. Unterschiede zwischen Gruppen (Arbeitsmigration vs. Flucht) und der Zeitverlauf der Integration verschwinden hinter einem pauschalen ‚unterm Strich'.",
+      "counterQuestions": [
+        "Über welche Gruppe sprichst du — Arbeitsmigranten, Geflüchtete, alle zusammen? Die Bilanzen unterscheiden sich deutlich.",
+        "Über welchen Zeitraum rechnest du — die ersten Jahre nach Ankunft oder ein Erwerbsleben?",
+        "Was würde sich an deinem Argument ändern, wenn die Bilanz in den ersten Jahren negativ und später positiv ist?"
       ]
     },
     {

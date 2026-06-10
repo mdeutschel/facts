@@ -5,7 +5,7 @@
   "seoTitle": "Gesundheitssystem Deutschland: Kosten, Pflege, Argumente",
   "seoDescription": "Bestes System der Welt? Bald pleite? Antworten zu Beitragssatz, Zwei-Klassen-Medizin, Pflegenotstand und ePA mit Quellen aus GKV-SV, BMG und OECD.",
   "icon": "local_hospital",
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "9.365 USD pro Kopf (OECD-Platz 3)",
     "17,5 % Gesamt-Beitragssatz GKV (2026)",
@@ -855,7 +855,7 @@
       "verdict": "false",
       "rhetoricalPattern": "Die Parole deutet einen Anstieg der Diagnosen kurzerhand in einen Beweis fürs Erfundensein um — als ob mehr Sichtbarkeit bedeutet, dass nichts dahintersteckt. Tatsächlich verwechselt sie zwei Dinge: Dass heute mehr erkannt und benannt wird, heißt nicht, dass die Erkrankung neu oder eingebildet ist. Dahinter steckt oft eine Abwertung von allem, was nicht körperlich sichtbar ist.",
       "counterQuestions": [
-        "Was würdest du jemandem mit einer diagnostizierten Depression raten — und würdest du ihm sagen, das sei nur Einbildung?",
+        "Woran würdest du festmachen, ob eine Erkrankung ‚echt' ist — und erfüllt eine diagnostizierte Depression diese Kriterien?",
         "Wenn mehr Menschen eine Diagnose bekommen: Liegt das daran, dass es die Krankheit vorher nicht gab, oder dass man sie früher übersah?",
         "Was unterscheidet für dich einen Beinbruch von einer Angststörung, wenn beides messbar behandlungsbedürftig ist?"
       ]
@@ -1038,13 +1038,13 @@
       "counterQuestions": [
         "Woher weißt du, dass die Leute ‚feiern‘ und nicht wirklich krank sind — was unterscheidet das für dich?",
         "Wenn seit 2023 jede Krankschreibung automatisch erfasst wird: Wie viel vom Anstieg ist echtes Mehr und wie viel bessere Statistik?",
-        "Würdest du selbst krank zur Arbeit gehen und Kollegen anstecken, nur um den ersten Tag bezahlt zu bekommen?"
+        "Wie viel vom internationalen Unterschied erklärt sich durch andere Meldesysteme — weißt du, wie die EU-Nachbarn Krankheitstage zählen?"
       ]
     },
     {
       "id": "buergerversicherung-loest-alles",
       "claim": "Wenn Privatversicherte und Beamte auch einzahlen würden, wären die Finanzprobleme der Kassen gelöst",
-      "response": "Eine Bürgerversicherung würde die Finanzierung gerechter verteilen — das ist ein ernstzunehmendes Argument: Knapp 8,79 Mio. PKV-Vollversicherte (rund 10,6 % der Bevölkerung) stehen etwa 74,5 Mio. GKV-Versicherten gegenüber, und gerade gut verdienende, gesunde Menschen fehlen dem Solidarsystem. ‚Alle Probleme gelöst‘ ist aber zu viel versprochen: Das strukturelle Grundproblem der GKV ist nicht die Einnahmebasis allein, sondern dass die Ausgaben — alternde Bevölkerung, teure Innovationen — dauerhaft schneller wachsen als jede Einnahmequelle. Hinzu kommt: Auch Privatversicherte verursachen im Alter hohe Kosten, und der Übergang wäre rechtlich wie finanziell komplex. Mehr Beitragszahler verschaffen Luft — die Kostendynamik bremsen sie nicht.",
+      "response": "Eine Bürgerversicherung würde die Finanzierungsbasis verbreitern — Befürworter sehen darin mehr Beitragsgerechtigkeit, und der Kern ist ernstzunehmen: Knapp 8,79 Mio. PKV-Vollversicherte (rund 10,6 % der Bevölkerung) stehen etwa 74,5 Mio. GKV-Versicherten gegenüber, und gerade gut verdienende, gesunde Menschen fehlen dem Solidarsystem. ‚Alle Probleme gelöst‘ ist aber zu viel versprochen: Das strukturelle Grundproblem der GKV ist nicht die Einnahmebasis allein, sondern dass die Ausgaben — alternde Bevölkerung, teure Innovationen — dauerhaft schneller wachsen als jede Einnahmequelle. Hinzu kommt: Auch Privatversicherte verursachen im Alter hohe Kosten, und der Übergang wäre rechtlich wie finanziell komplex. Mehr Beitragszahler verschaffen Luft — die Kostendynamik bremsen sie nicht.",
       "keywords": [
         "bürgerversicherung",
         "privatversicherte",

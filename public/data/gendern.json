@@ -3,14 +3,14 @@
   "title": "Gendern & Sprachpolitik",
   "subtitle": "Fakten zu Gendersprache, Umfragen, Sprachforschung und Regulierung",
   "seoTitle": "Gendern: Argumente, Umfragen & Sprachforschung — Faktencheck",
-  "seoDescription": "Lehnt die Mehrheit Gendern ab? Macht es Texte unlesbar? 10 Streitpunkte mit Daten aus Allensbach und Sprachforschung — belegt und nachprüfbar.",
+  "seoDescription": "Lehnt die Mehrheit Gendern ab? Macht es Texte unlesbar? 11 Streitpunkte mit Daten aus Allensbach und Sprachforschung — belegt und nachprüfbar.",
   "icon": "forum",
   "lastUpdated": "2026-06-10",
   "keyStats": [
     "73 % stört Gendern mit Sonderzeichen (2023)",
     "Doppelnennung von 69 % akzeptiert",
     "Male Bias repliziert in Multi-Lab-Studie (N = 2.697)",
-    "10 Argumente"
+    "11 Argumente"
   ],
   "sourceNote": "Basierend auf Daten von Infratest dimap, Forsa, dem Rat für deutsche Rechtschreibung, dem DBSV, dem BVerfG sowie Studien von Brohmer et al., Friedrich & Heise, Sczesny et al. und weiteren (Stand 2019–2025). Wo Exaktwerte methodisch schwer vergleichbar sind, werden Spannen oder qualitative Aussagen verwendet.",
   "sections": [
@@ -584,7 +584,7 @@
       "rhetoricalPattern": "Die Aussage behandelt ‚Gendern' als Einheit, obwohl die Akzeptanz je nach Form stark auseinanderfällt — von breiter Zustimmung zur Beidnennung bis zu deutlicher Ablehnung der Sonderzeichen. Zudem ersetzt der Verweis auf die Mehrheit das Sachargument (argumentum ad populum): Aus einer Mehrheitsmeinung folgt nicht automatisch, was sprachlich sinnvoll ist.",
       "counterQuestions": [
         "Meinst du alle Formen geschlechtergerechter Sprache oder nur das Gendern mit Sternchen und Doppelpunkt?",
-        "Sollte die Mehrheit darüber entscheiden, wie andere sprechen und schreiben?",
+        "Was folgt für dich aus der Mehrheitsmeinung — und wie passt dazu, dass sich zugleich 46 % gegen ein Genderverbot aussprechen?",
         "Wie gehst du damit um, dass die Zustimmung bei den unter 30-Jährigen deutlich höher liegt?"
       ]
     },
@@ -630,6 +630,28 @@
         "Warum geben Unternehmen Milliarden für Werbetexte aus, wenn Worte nichts bewirken?",
         "Zählt es für dich zur Realität, welche Berufe sich Kinder zutrauen?",
         "Was würdest du als Beleg akzeptieren, dass Sprache Wahrnehmung beeinflusst?"
+      ]
+    },
+    {
+      "id": "gendern-schafft-gleichstellung",
+      "claim": "Sprache schafft Realität — wer gendert, sorgt nachweislich für mehr Gleichstellung!",
+      "response": "Belegt ist ein Wahrnehmungseffekt, kein Gleichstellungseffekt: In Studien werden bei inklusiven Formen mehr Frauen genannt und verändern sich Berufsassoziationen — die Befunde dazu stehen im Abschnitt zur Sprachforschung. Das ist real — aber die meisten Befunde stammen aus Laborexperimenten, und wie stark sie im Alltag wirken, ist in der Forschung umstritten. Für die Kette ‚Gendern → messbar mehr Gleichstellung bei Gehältern, Aufstieg oder Ämtern' gibt es keinen Nachweis. Wer Sprache als Hebel sieht, kann sich auf die Wahrnehmungsbefunde stützen — sollte das ‚nachweislich' aber auf das beschränken, was tatsächlich nachgewiesen ist.",
+      "keywords": [
+        "Sprache schafft Realität",
+        "nachweislich",
+        "Gleichstellung",
+        "Wirkung",
+        "Sprachwandel"
+      ],
+      "relatedSections": [
+        "sprachforschung"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der ‚Sprache ändert nichts'-Parole: Aus begrenzten, gut belegten Laboreffekten wird eine durchgehende Wirkungskette bis zur gesellschaftlichen Gleichstellung extrapoliert. Die Einschränkungen der Studien — Laborbedingungen, unklare Alltagswirkung — fallen dabei weg.",
+      "counterQuestions": [
+        "Welcher Schritt ist belegt: dass inklusive Sprache die Vorstellung verändert — oder dass sie Gehälter und Aufstiegschancen verändert?",
+        "Würdest du die Labor-Einschränkung gelten lassen, wenn sie jemand gegen das Gendern anführt?",
+        "Was wäre für dich ein messbarer Beleg, dass Gendern über die Wahrnehmung hinaus wirkt?"
       ]
     },
     {

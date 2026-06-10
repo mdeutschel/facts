@@ -5,12 +5,12 @@
   "seoTitle": "Verkehrswende: E-Auto, ÖPNV, Radverkehr — Argumente 2026",
   "seoDescription": "Reicht die Reichweite? Tötet Autofreiheit den Handel? Antworten zu E-Mobilität, Laden, ÖPNV, Radwegen und Tempo 30 — Quellen UBA, KBA, MiD und BNetzA.",
   "icon": "directions_car",
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "2,03 Mio. E-Autos (BEV) in Deutschland (Jan 2026)",
     "200.000+ öffentliche Ladepunkte (April 2026)",
     "143,1 Mio. t CO₂ im Verkehrssektor (2024)",
-    "15 Argumente"
+    "16 Argumente"
   ],
   "sourceNote": "Daten basieren auf offiziellen Statistiken und belastbaren Fachquellen, insbesondere KBA, UBA, VDV, Destatis, Bundesnetzagentur, BMV/MiD, EEA, WHO sowie ausgewählten Studien mit klarer Methodik. Wo Exaktwerte unsicher sind, werden Aussagen konservativ formuliert. Zitierte Einzelfallbilanzen (z. B. Städtevergleiche) sind als solche gekennzeichnet.",
   "sections": [
@@ -824,11 +824,33 @@
         "oepnv"
       ],
       "verdict": "mostly-false",
-      "rhetoricalPattern": "‚Milliardengrab' verengt den Blick auf die Kostenseite und blendet Nutzen und Vergleichsmaßstab aus — auch der Straßenverkehr wird massiv subventioniert. Das ‚bringt niemanden zum Umstieg' ist eine Alles-oder-nichts-Logik: Weil nicht alle umsteigen, wird jeder Nutzen geleugnet.",
+      "rhetoricalPattern": "‚Milliardengrab' verengt den Blick auf die Kostenseite und blendet Nutzen und Vergleichsmaßstab aus — auch andere Verkehrsträger erhalten erhebliche öffentliche Mittel. Das ‚bringt niemanden zum Umstieg' ist eine Alles-oder-nichts-Logik: Weil nicht alle umsteigen, wird jeder Nutzen geleugnet.",
       "counterQuestions": [
         "Woran würdest du den Erfolg messen — nur an Autofahrern, die umsteigen, oder auch an Menschen, die überhaupt erst mobil werden?",
-        "Wie viele öffentliche Milliarden fließen im Vergleich in Straßenbau, Pendlerpauschale und Dienstwagenprivileg?",
+        "Mit welchen anderen öffentlich finanzierten Verkehrsausgaben vergleichst du die Ticket-Milliarden — und nach welchem Maßstab?",
         "Wenn 14 Millionen Menschen freiwillig zahlen — wofür sprechen die niedrigen Kündigungszahlen trotz Preiserhöhung?"
+      ]
+    },
+    {
+      "id": "arg-dticket-umstieg",
+      "claim": "Das Deutschlandticket bringt Millionen dazu, das Auto stehen zu lassen!",
+      "response": "Die Nutzungszahlen sind stark, der Umstiegseffekt ist es bislang nicht: Rund 14,6 Millionen Menschen nutzten das Ticket Ende 2025 — aber der messbar vom Auto verlagerte Verkehr ist bislang moderat. Viele Abos ersetzen vorhandene ÖPNV-Tickets oder machen Wege günstiger, die ohnehin mit Bus und Bahn zurückgelegt wurden. Der belegte Haupteffekt liegt woanders: ein Tarif statt Tarifdschungel, einfacher Zugang, spürbare Entlastung für Pendler. Wer das Ticket als Klimainstrument verkauft, sollte den moderaten Verlagerungseffekt ehrlich benennen — sonst ist die Zahl der Nutzenden nur die halbe Geschichte.",
+      "keywords": [
+        "Deutschlandticket Umstieg",
+        "Auto stehen lassen",
+        "Verlagerung",
+        "Klimawirkung",
+        "Millionen"
+      ],
+      "relatedSections": [
+        "oepnv"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der ‚Milliardengrab'-Parole: Hier wird die hohe Nutzerzahl mit Verkehrsverlagerung gleichgesetzt, dort der moderate Umstieg mit Nutzlosigkeit. Beide verwechseln dieselben zwei Kennzahlen — Abos und verlagerte Autofahrten.",
+      "counterQuestions": [
+        "Misst du Abos oder tatsächlich verlagerte Autofahrten — und wie groß ist der Unterschied?",
+        "Wie viele der 14,6 Millionen Nutzenden sind vorher Auto gefahren — und wie viele hatten schon ein ÖPNV-Abo?",
+        "Was wäre für dich ein belastbarer Beleg, dass das Ticket Autoverkehr ersetzt?"
       ]
     },
     {
@@ -1033,7 +1055,7 @@
     {
       "id": "arg-autoland",
       "claim": "Deutschland ist ein Autoland — ohne Auto kommst du nicht zur Arbeit!",
-      "response": "Das stimmt für viele Regionen tatsächlich — und genau das ist der Punkt. Deutschland ist stark aufs Auto ausgerichtet, im ländlichen Raum liegt der Auto-Anteil an den Wegen über 60 %. Aber das ist kein Naturgesetz, sondern Ergebnis jahrzehntelanger Planung. In vielen Städten leben heute rund 20 % der Haushalte ohne eigenes Auto. Das Kernproblem ist meist nicht fehlender Wille, sondern das Fehlen guter Alternativen — und genau die zu schaffen ist das Ziel der Verkehrswende.",
+      "response": "Das stimmt für viele Regionen tatsächlich — und genau das ist der Punkt. Deutschland ist stark aufs Auto ausgerichtet, im ländlichen Raum liegt der Auto-Anteil an den Wegen über 60 %. Aber das ist kein Naturgesetz, sondern Ergebnis jahrzehntelanger Planung. In vielen Städten leben heute rund 20 % der Haushalte ohne eigenes Auto. Das Kernproblem ist meist nicht fehlender Wille, sondern das Fehlen guter Alternativen — genau dort setzt die Verkehrswende erklärtermaßen an.",
       "keywords": [
         "Autoland",
         "Pendler",
@@ -1056,7 +1078,7 @@
     {
       "id": "arg-grossstadtthema",
       "claim": "Verkehrswende ist doch nur ein Großstadtthema — auf dem Land braucht man das Auto!",
-      "response": "Tatsächlich ist die Verkehrswende auf dem Land sogar dringender als in der Stadt — dort ist die Auto-Abhängigkeit am größten und trifft besonders die, die kein Auto fahren können: Jugendliche, Ältere, Menschen mit wenig Geld. Genau deshalb geht es nicht ums Autoverbot, sondern um bessere Busse und Bahnen, Rufbusse, sichere Radwege und gute Verknüpfungspunkte. Der wahre Kern: Viele Maßnahmen aus der Stadt lassen sich nicht 1:1 übertragen — das Land braucht eigene Lösungen, nicht weniger Verkehrswende.",
+      "response": "Auf dem Land ist die Abhängigkeit vom Auto am größten — und damit trifft eine fehlende Alternative dort besonders die, die nicht selbst fahren können: Jugendliche, Ältere, Menschen mit wenig Geld. Die diskutierten Maßnahmen für den ländlichen Raum sind deshalb keine Autoverbote, sondern bessere Busse und Bahnen, Rufbusse, sichere Radwege und gute Verknüpfungspunkte. Der wahre Kern: Viele Maßnahmen aus der Stadt lassen sich nicht 1:1 übertragen — das Land braucht eigene Lösungen.",
       "keywords": [
         "Land",
         "ländlich",
@@ -1071,14 +1093,14 @@
       "rhetoricalPattern": "Die Parole schiebt das Thema in die Großstadt ab (betrifft mich nicht) und unterstellt, Verkehrswende heiße Auto-Verzicht — ein Strohmann. Übersehen wird, dass gerade die Auto-Abhängigkeit auf dem Land ein Problem für alle ist, die nicht selbst fahren können.",
       "counterQuestions": [
         "Wie kommt bei euch auf dem Land eigentlich ein 15-Jähriger oder eine 85-Jährige ohne Führerschein von A nach B?",
-        "Was wäre dir lieber: gar keine Alternative zum Auto oder ein zuverlässiger Rufbus und sichere Radwege?",
+        "Welche Verbesserung würde dir auf dem Land konkret helfen — auch wenn du selbst weiter Auto fährst?",
         "Heißt Verkehrswende für dich automatisch Auto-Verbot — oder könnte sie auch mehr Wahlmöglichkeiten bedeuten?"
       ]
     },
     {
       "id": "arg-verbotspolitik",
       "claim": "Die Verkehrswende ist doch reine Verbotspolitik gegen Autofahrer.",
-      "response": "Verkehrswende heißt in erster Linie, Alternativen aufzubauen, nicht das Auto zu verbieten — bessere Bahnen, sichere Radwege, attraktive Innenstädte. Der wahre Kern: Manche Maßnahmen sind tatsächlich ordnungspolitisch, etwa Tempolimits, Parkraumbewirtschaftung oder die EU-Flottengrenzwerte ab 2035. Regeln gehören aber zu jeder Verkehrspolitik dazu — auch das heutige System bevorzugt das Auto massiv, von der Stellplatzpflicht bis zum Dienstwagenprivileg. ‚Freie Fahrt' ist schon heute reguliert; die Frage ist nur, zu wessen Gunsten.",
+      "response": "Verkehrswende heißt in erster Linie, Alternativen aufzubauen, nicht das Auto zu verbieten — bessere Bahnen, sichere Radwege, attraktive Innenstädte. Der wahre Kern: Manche Maßnahmen sind tatsächlich ordnungspolitisch, etwa Tempolimits, Parkraumbewirtschaftung oder die EU-Flottengrenzwerte ab 2035. Regeln gehören aber zu jeder Verkehrspolitik dazu — auch das heutige Regelwerk enthält viele Festlegungen zugunsten des Autos, von Stellplatzpflichten bis zur steuerlichen Behandlung von Dienstwagen. ‚Freie Fahrt' ist schon heute reguliert; die Frage ist nur, zu wessen Gunsten.",
       "keywords": [
         "Verbote",
         "Bevormundung",

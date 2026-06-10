@@ -5,7 +5,7 @@
   "seoTitle": "Fachkräftemangel: Mythos oder Realität? Die Fakten 2026",
   "seoDescription": "Gibt es den Fachkräftemangel wirklich oder zahlen Firmen nur zu wenig? Fakten zu Fachkräftelücke, Babyboomern, Löhnen, Zuwanderung & KI — Quellen IW/KOFA, IAB, Destatis, BA.",
   "icon": "engineering",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-10",
   "factCount": 8,
   "argumentCount": 10,
   "keyStats": [
@@ -529,7 +529,7 @@
       "rhetoricalPattern": "Die Aussage setzt Arbeitslosigkeit mit Unwilligkeit gleich und unterstellt, jede arbeitslose Person sei für jede offene Stelle einsetzbar. Sie ignoriert den qualifikatorischen und regionalen Mismatch, der den eigentlichen Engpass ausmacht.",
       "counterQuestions": [
         "Kann ein arbeitsloser Helfer ohne Ausbildung eine Stelle als examinierte Pflegekraft übernehmen?",
-        "Was bringt mehr: Druck auf Arbeitslose oder eine Umschulung in einen Engpassberuf?",
+        "Wie viele der gemeldeten Arbeitslosen haben eine Qualifikation, die zu den offenen Engpassstellen passt?",
         "Wenn es so einfach wäre — warum bleiben die Stellen trotz vieler Bewerber unbesetzt?"
       ]
     },
@@ -578,7 +578,7 @@
       "counterQuestions": [
         "Reichen 4,3 Millionen hebbare Vollzeitstellen gegen 7,2 Millionen wegfallende Erwerbspersonen?",
         "Wer betreut Kinder und Pflegebedürftige, wenn alle in Vollzeit gehen sollen?",
-        "Warum sollte man inländische Potenziale und Zuwanderung gegeneinander ausspielen, statt beides zu nutzen?"
+        "Wie groß bleibt die Lücke rechnerisch, wenn man die inländischen Potenziale voll hebt — und was folgt daraus?"
       ]
     },
     {
@@ -623,7 +623,7 @@
       "rhetoricalPattern": "Die Parole verschiebt das Problem auf eine kleine, wohlhabende Gruppe (Akademiker) und entwertet es als Klage interessierter Kreise. Sie ignoriert, dass der Engpass gerade die handwerklichen und sozialen Ausbildungsberufe trifft.",
       "counterQuestions": [
         "Wenn nur Akademiker betroffen sind — warum fehlen dann zuerst Elektriker, Pflegekräfte und Erzieher?",
-        "Wenn du an die letzte Wartezeit auf einen Handwerker oder einen Pflegeplatz denkst — wirkt der Mangel da wie bloßes Gejammer?",
+        "Wie lang sind aktuell die Wartezeiten auf einen Handwerkertermin oder einen Pflegeplatz in deiner Region — und was sagt das über den Mangel?",
         "Sind 49 Milliarden Euro nicht ausgeschöpfter Produktion wirklich nur ‚Gejammer'?"
       ]
     },
@@ -716,7 +716,7 @@
       "counterQuestions": [
         "Wenn die Erwerbsquote Älterer schon von 53 auf 68 % gestiegen ist — wie viel Spielraum bleibt da noch?",
         "Reichen rund 414.000 zusätzliche Kräfte gegen 7,2 Millionen wegfallende Erwerbspersonen?",
-        "Soll eine 68-jährige Pflegekraft oder Dachdeckerin wirklich noch zwei Jahre länger arbeiten?"
+        "Für welche Berufe ist längeres Arbeiten realistisch — und für welche körperlich anspruchsvollen eher nicht?"
       ]
     }
   ],

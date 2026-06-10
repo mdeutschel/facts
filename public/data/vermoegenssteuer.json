@@ -5,7 +5,7 @@
   "seoTitle": "Vermögens- & Erbschaftsteuer: Argumente, Fakten, Daten",
   "seoDescription": "Wandern Reiche ab? Zerstört das den Mittelstand? Antworten zu Vermögensverteilung, OECD-Vergleich und Aufkommen mit Quellen vom DIW und BMF.",
   "icon": "account_balance",
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "Reichstes 1 % besitzt rund 1/3 des Vermögens (DIW)",
     "Nur ~1 % BIP vermögensbezogene Steuern (OECD: 1,9 %)",
@@ -364,7 +364,7 @@
         },
         {
           "type": "fact",
-          "text": "Die reichsten 10 % erhalten die Hälfte aller Erbschaften — die ärmere Hälfte der Bevölkerung geht praktisch leer aus. Erbschaften verstärken die Ungleichheit, statt sie auszugleichen.",
+          "text": "Die reichsten 10 % erhalten die Hälfte aller Erbschaften — die ärmere Hälfte der Bevölkerung geht praktisch leer aus. Erbschaften erhöhen damit die bestehende Vermögensungleichheit.",
           "highlight": true,
           "sourceRefs": [
             "diw-berlin-private-vermoegen-hoehe-entwicklung",
@@ -666,7 +666,7 @@
     {
       "id": "hochsteuerland",
       "claim": "Wir sind sowieso schon Hochsteuerland, eine Vermögenssteuer macht uns kaputt!",
-      "response": "Bei Steuern und Abgaben auf Arbeit liegt Deutschland tatsächlich hoch. Bei vermögensbezogenen Steuern liegt Deutschland mit rund 1 % des BIP aber klar unter dem OECD-Durchschnitt von 1,9 %. Nur drei europäische OECD-Länder erheben überhaupt eine Netto-Vermögensteuer (Norwegen, Spanien, Schweiz) — sie zeigen, dass das System funktioniert und finanzierbar ist. Eine stärkere Besteuerung großer Vermögen kann helfen, Arbeitseinkommen im Gegenzug weniger stark zu belasten.",
+      "response": "Bei Steuern und Abgaben auf Arbeit liegt Deutschland tatsächlich hoch. Bei vermögensbezogenen Steuern liegt Deutschland mit rund 1 % des BIP aber klar unter dem OECD-Durchschnitt von 1,9 %. Drei europäische OECD-Länder (Norwegen, Spanien, Schweiz) erheben eine Netto-Vermögensteuer und zeigen, dass sie administrativ machbar ist. ‚Hochsteuerland' trifft also auf Arbeit zu, auf Vermögen nicht — ob man die Last zwischen beidem verschieben will, ist eine politische Gestaltungsfrage, die die Daten nicht beantworten.",
       "keywords": [
         "Hochsteuerland",
         "Steuerlast",
@@ -682,13 +682,13 @@
       "counterQuestions": [
         "Wenn Deutschland bei vermögensbezogenen Steuern mit rund 1 % BIP unter dem OECD-Schnitt von 1,9 % liegt — wo siehst du das ‚Hoch‘ bei Vermögen?",
         "Wenn Norwegen, Spanien und Schweiz mit Vermögensteuer wirtschaften — was unterscheidet Deutschland an dieser Stelle, dass es uns ‚kaputt‘ machen würde?",
-        "Wo wäre dein Punkt, an dem Vermögensteuer akzeptabel wäre — bei welcher Höhe und ab welchem Vermögen?"
+        "Meinst du mit ‚Hochsteuerland‘ die Belastung von Arbeit, von Vermögen oder beides — und wie hoch liegt sie jeweils im internationalen Vergleich?"
       ]
     },
     {
       "id": "neidsteuer",
       "claim": "Das ist doch reine Neidsteuer! Typisch deutsche Neidgesellschaft!",
-      "response": "Es geht nicht um Neid, sondern um Chancengerechtigkeit. Ein großer Teil sehr großer Vermögen wird geerbt, nicht neu aufgebaut. Wenn Vermögenskonzentration über Generationen hinweg zunimmt und große Erbschaften steuerlich stark privilegiert werden, ist das eine Frage der fairen Verteilung von Chancen. Vermögensteuern oder strengere Erbschaftsteuern sind deshalb kein exotischer Sonderweg.",
+      "response": "Ob hinter einer politischen Forderung Neid steckt, lässt sich nicht messen — das ist eine Motivunterstellung, keine überprüfbare Aussage. Messbar ist die Sachlage, auf die sich Befürworter berufen: Das reichste 1 % besitzt nach DIW-Schätzungen rund ein Drittel des Privatvermögens, und ein großer Teil sehr großer Vermögen ist geerbt statt selbst aufgebaut. Ob man daraus eine stärkere Besteuerung ableitet oder bestehendes Vermögen vor dem Zugriff des Staates schützen will, ist eine Wertefrage über Verteilungsgerechtigkeit — Daten können sie informieren, aber nicht entscheiden.",
       "keywords": [
         "Neid",
         "Neidsteuer",
@@ -699,19 +699,12 @@
       "relatedSections": [
         "verteilung",
         "erbengesellschaft"
-      ],
-      "verdict": "misleading",
-      "rhetoricalPattern": "Ad-hominem-Verschiebung: Statt um den Sachverhalt (Verteilung, Aufkommen, Verfassungsrecht) wird das unterstellte Motiv der Befürworter angegriffen. Klassisches Diskursabschluss-Muster: Wer dafür ist, ist ‚neidisch‘ — eine Sachdebatte wird damit unmöglich.",
-      "counterQuestions": [
-        "Wenn das reichste 1 % rund ein Drittel des Vermögens besitzt — ist die Forderung nach Beteiligung an der Steuerlast für dich Neid oder Verteilung?",
-        "Würdest du eine progressive Einkommensteuer auch ‚Neidsteuer‘ nennen — und falls nicht, warum nicht?",
-        "Welche konkrete Ausgestaltung (1 % ab 2 Mio. € z. B.) hältst du sachlich für unfair — abseits der Motivunterstellung?"
       ]
     },
     {
       "id": "familienunternehmen",
       "claim": "Eine Vermögenssteuer zerstört unsere Familienunternehmen und den Mittelstand!",
-      "response": "Seriöse Modelle arbeiten mit hohen Freibeträgen und zielen auf sehr große Vermögen. Die besonders großzügigen Privilegien im Erbschaftsteuer-recht kommen heute vor allem bei sehr großen Unternehmensvermögen zum Tragen, nicht bei typischen kleinen Betrieben — genau diese Privilegien sind seit 2022 Gegenstand einer Verfassungsbeschwerde (Az. 1 BvR 804/22, BVerfG-Entscheidung 2026 erwartet). Die SPD hat im Januar 2026 ein Erbschaftsteuer-Konzept vorgelegt: einheitlicher Freibetrag von 5 Mio. €, Stundung über 20 Jahre bei Erhalt von Arbeitsplätzen. Kleine und mittlere Betriebe lassen sich also schützen, ohne milliardenschwere Übertragungen pauschal zu verschonen.",
+      "response": "Seriöse Modelle arbeiten mit hohen Freibeträgen und zielen auf sehr große Vermögen. Die besonders großzügigen Privilegien im Erbschaftsteuer-recht kommen heute vor allem bei sehr großen Unternehmensvermögen zum Tragen, nicht bei typischen kleinen Betrieben — genau diese Privilegien sind seit 2022 Gegenstand einer Verfassungsbeschwerde (Az. 1 BvR 804/22, BVerfG-Entscheidung 2026 erwartet). Die SPD hat im Januar 2026 ein Erbschaftsteuer-Konzept vorgelegt: einheitlicher Freibetrag von 5 Mio. €, Stundung über 20 Jahre bei Erhalt von Arbeitsplätzen. Ob ein Betrieb betroffen wäre, ist damit vor allem eine Frage der konkreten Ausgestaltung — die vorliegenden Modelle nehmen typische kleine und mittlere Betriebe ausdrücklich aus.",
       "keywords": [
         "Mittelstand",
         "Familienunternehmen",
@@ -735,7 +728,7 @@
     {
       "id": "abwanderung",
       "claim": "Die Reichen wandern dann einfach ins Ausland ab!",
-      "response": "Abwanderungsrisiken gibt es, sie werden aber meist überschätzt. Das aktuellste Beispiel: Norwegen erhöhte 2021 die Vermögensteuer; zwischen 2022 und 2023 verließen über 500 vermögende Personen das Land — mehr als doppelt so viele wie in den Vorjahren, viele zogen in die Schweiz. Eine Harvard-Studie hat aber das Gesamtbild gerechnet: Die Mehreinnahmen aus der erhöhten Steuer übersteigen die Verluste durch Wegzug deutlich — unterm Strich stieg das Aufkommen. Die norwegischen Sozialdemokraten gewannen die Wahl September 2025 auch deshalb. Wohnsitzentscheidungen hängen ohnehin von Unternehmen, Familie, Infrastruktur und Rechtssicherheit ab, nicht allein von einer Steuer. Wegzugs- und Missbrauchsregeln lassen sich zudem so gestalten, dass reine Steuergestaltung erschwert wird.",
+      "response": "Abwanderungsrisiken gibt es, sie werden aber meist überschätzt. Das aktuellste Beispiel: Norwegen erhöhte 2021 die Vermögensteuer; zwischen 2022 und 2023 verließen über 500 vermögende Personen das Land — mehr als doppelt so viele wie in den Vorjahren, viele zogen in die Schweiz. Eine Harvard-Studie hat aber das Gesamtbild gerechnet: Die Mehreinnahmen aus der erhöhten Steuer übersteigen die Verluste durch Wegzug deutlich — unterm Strich stieg das Aufkommen. Wohnsitzentscheidungen hängen ohnehin von Unternehmen, Familie, Infrastruktur und Rechtssicherheit ab, nicht allein von einer Steuer. Wegzugs- und Missbrauchsregeln lassen sich zudem so gestalten, dass reine Steuergestaltung erschwert wird.",
       "keywords": [
         "Abwanderung",
         "Ausland",
@@ -779,7 +772,7 @@
     {
       "id": "substanzbesteuerung",
       "claim": "Eine Vermögensteuer geht an die Substanz — das zerstört Unternehmen!",
-      "response": "Nicht das Unternehmen zahlt, sondern der Eigentümer. Bei einem Steuersatz von 1 % und typischen Kapitalrenditen von 5–10 % lässt sich die Steuer bequem aus den laufenden Erträgen bezahlen. Bei der Erbschaftsteuer ist zudem eine Stundung über 15 Jahre möglich — das entspricht etwa 1–2 % des jährlichen Unternehmensgewinns. Wer ein Unternehmen kauft, muss den vollen Preis sofort aufbringen — nur Erben bekommen Sonderkonditionen.",
+      "response": "Nicht das Unternehmen zahlt, sondern der Eigentümer. Bei einem Steuersatz von 1 % und typischen Kapitalrenditen von 5–10 % lässt sich die Steuer in der Regel aus den laufenden Erträgen bezahlen; für ertragsschwache Jahre sehen die diskutierten Modelle Stundungsregeln vor. Bei der Erbschaftsteuer ist eine Stundung über 15 Jahre möglich — das entspricht etwa 1–2 % des jährlichen Unternehmensgewinns. Zum Vergleich: Wer ein Unternehmen kauft, muss den vollen Preis sofort aufbringen.",
       "keywords": [
         "Substanz",
         "Substanzbesteuerung",
@@ -796,13 +789,13 @@
       "counterQuestions": [
         "Bei 1 % Steuer und 5-10 % Kapitalrendite — warum sollte das aus der Substanz statt aus den laufenden Erträgen kommen?",
         "Wenn ein Unternehmenskäufer den vollen Kaufpreis aufbringt und das als normal gilt — warum ist eine Stundungsregelung über 20 Jahre bei Erben ein Substanz-Problem?",
-        "Welche Branche mit typischer Eigenkapitalrendite < 1 % wäre konkret bedroht — und wäre das nicht ohnehin ein Restrukturierungs-Indikator?"
+        "Für welche konkrete Konstellation aus Rendite, Steuersatz und Stundung ginge die Steuer rechnerisch tatsächlich an die Substanz?"
       ]
     },
     {
       "id": "elternhaus",
       "claim": "Die Erbschaftsteuer zwingt Erben dazu, ihr Elternhaus zu verkaufen!",
-      "response": "Für das Familienheim gibt es weitreichende Ausnahmen: Wer das geerbte Haus selbst für mindestens 10 Jahre bewohnt, zahlt darauf null Euro Erbschaftsteuer (bis 200 m² Wohnfläche). Zudem gibt es hohe persönliche Freibeträge: 400.000 € pro Kind, 500.000 € für Ehepartner — alle 10 Jahre erneuerbar. 96 % aller Erbfälle fallen komplett unter die Freibeträge. Das 'Elternhaus'-Argument schützt in Wahrheit die Villen der Superreichen.",
+      "response": "Für das Familienheim gibt es weitreichende Ausnahmen: Wer das geerbte Haus selbst für mindestens 10 Jahre bewohnt, zahlt darauf null Euro Erbschaftsteuer (bis 200 m² Wohnfläche). Zudem gibt es hohe persönliche Freibeträge: 400.000 € pro Kind, 500.000 € für Ehepartner — alle 10 Jahre erneuerbar. 96 % aller Erbfälle fallen komplett unter die Freibeträge. Das selbstgenutzte Elternhaus ist also schon heute weitgehend steuerfrei — von weiteren Entlastungen würden rechnerisch vor allem die wenigen sehr großen Nachlässe oberhalb der Freibeträge profitieren.",
       "keywords": [
         "Elternhaus",
         "Immobilie",
@@ -816,17 +809,17 @@
         "aufkommen"
       ],
       "verdict": "false",
-      "rhetoricalPattern": "Emotionalisierung mit irrelevantem Beispiel: Das ‚Elternhaus‘ ist im Recht explizit geschützt (Selbstnutzung bis 200 m² steuerfrei, Freibeträge 400/500k €, 96 % aller Erbfälle komplett unter den Freibeträgen). Rhetorisch schützt das Argument den ‚kleinen Mann‘, faktisch erleichtert es die Übertragung großer Vermögen.",
+      "rhetoricalPattern": "Emotionalisierung mit einem Beispiel, das der geltenden Rechtslage nicht entspricht: Das ‚Elternhaus‘ ist explizit geschützt (Selbstnutzung bis 200 m² steuerfrei, Freibeträge 400/500k €, 96 % aller Erbfälle komplett unter den Freibeträgen). Betroffen von der Steuer sind ganz überwiegend große Nachlässe oberhalb dieser Grenzen.",
       "counterQuestions": [
         "Wusstest du, dass für das selbstgenutzte Elternhaus (bis 200 m²) bei 10-Jahres-Selbstnutzung gar keine Erbschaftsteuer anfällt?",
         "Wenn 96 % aller Erbfälle komplett unter die Freibeträge fallen — wer ist denn von der Steuer überhaupt betroffen?",
-        "Wenn das wirkliche Elternhaus geschützt ist — warum nutzt das Argument so oft Beispiele von Mehrfamilien­häusern oder Villen?"
+        "Kennst du einen konkreten Fall, in dem ein selbstgenutztes Elternhaus wegen der Erbschaftsteuer verkauft werden musste — und lag der über den Freibeträgen?"
       ]
     },
     {
       "id": "verwaltungskosten",
       "claim": "Die Erhebung einer Vermögenssteuer kostet mehr, als sie einbringt!",
-      "response": "Das Verwaltungsargument ist heute schwächer als in den 1990ern. Durch Digitalisierung, Informationsaustausch und die reformierte Immobilienbewertung sind die Voraussetzungen deutlich besser. Entscheidend ist aber auch hier das Design: hohe Freibeträge und klare Bewertungsregeln halten den Aufwand beherrschbar.",
+      "response": "Das Verwaltungsargument ist heute schwächer als in den 1990ern. Durch Digitalisierung, Informationsaustausch und die reformierte Immobilienbewertung sind die Voraussetzungen deutlich besser. Eine ehrliche Einschränkung: Aktuelle Erhebungskosten-Daten für Deutschland gibt es nicht, weil die Steuer seit 1997 ausgesetzt ist. Die Länder, die sie erheben, erzielen damit aber relevante Nettoeinnahmen (Schweiz 2023: 9,5 Mrd. €). Entscheidend ist das Design: hohe Freibeträge und klare Bewertungsregeln halten den Aufwand beherrschbar.",
       "keywords": [
         "Verwaltungskosten",
         "Bürokratie",
@@ -850,7 +843,7 @@
     {
       "id": "leistung-erbe",
       "claim": "Erbschaftsteuer bestraft Leistung und zerstört Lebenswerke!",
-      "response": "Erben ist keine eigene Leistung. Gleichzeitig werden große Unternehmensvermögen im geltenden Recht oft weit stärker geschont als normale Erbschaften. Dadurch wird Vermögenskonzentration über Generationen eher verstärkt als abgemildert. Wer kleine und mittlere Erbschaften schützen will, kann Freibeträge hoch halten und Privilegien an der Spitze gezielter abbauen.",
+      "response": "Hier stecken zwei Ebenen ineinander. Empirisch prüfbar ist der zweite Teil: ‚Zerstörte Lebenswerke' sind angesichts hoher Freibeträge, Stundungsregeln und der Tatsache, dass 96 % aller Erbfälle komplett unter den Freibeträgen bleiben, nicht dokumentiert — das geltende Recht verschont große Unternehmensübertragungen sogar besonders stark (2021–2024 wurden allein über die Verschonungsbedarfsprüfung rund 7,38 Mrd. € erlassen). Ob Erbschaftsteuer ‚Leistung bestraft', ist dagegen eine Wertefrage: Die einen stellen die Lebensleistung des Erblassers in den Mittelpunkt, die anderen, dass der Erbe selbst nichts dafür geleistet hat. Diese Abwägung können Daten nicht entscheiden — sie zeigen nur, wer von den heutigen Regeln tatsächlich profitiert.",
       "keywords": [
         "Leistung",
         "Lebenswerk",
@@ -863,18 +856,18 @@
         "erbschaftssteuer",
         "erbengesellschaft"
       ],
-      "verdict": "misleading",
-      "rhetoricalPattern": "Begriffsverdrehung: Erben wird mit ‚Leistung‘ gleichgesetzt, obwohl es eine passive Übertragung ist. Die Diskussion verschiebt sich auf die Erbenden — die Frage der Vermögenskonzentration und der Generationengerechtigkeit verschwindet aus dem Bild.",
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Ebenen-Vermischung: Eine prüfbare Tatsachenbehauptung (‚zerstört Lebenswerke‘) wird mit einem Werturteil (‚bestraft Leistung‘) verschweißt. Wer den Tatsachenteil widerlegt, scheint das Werturteil anzugreifen — und umgekehrt immunisiert das Werturteil den Tatsachenteil gegen Prüfung.",
       "counterQuestions": [
-        "Welche eigene ‚Leistung‘ hat das Kind eines Milliardärs für sein Erbe erbracht — verglichen mit jemandem, der das Vermögen erst aufgebaut hat?",
-        "Wenn Leistung belohnt werden soll — warum wird ein Erbe steuerlich stärker geschont als ein Lottogewinn oder ein selbst erarbeitetes Einkommen?",
-        "Wenn ‚Lebenswerk‘ ein Argument ist — wessen Lebenswerk schützt die heutige Verschonungsregelung tatsächlich am stärksten: das des Handwerksmeisters oder des Familienkonzern-Eigentümers?"
+        "Kennst du einen dokumentierten Fall, in dem ein Betrieb wegen der Erbschaftsteuer aufgegeben werden musste — trotz Freibeträgen und Stundungsregeln?",
+        "Wessen Leistung meinst du: die des Erblassers, der das Vermögen aufgebaut hat, oder die des Erben, der es empfängt?",
+        "Wenn 96 % aller Erbfälle unter den Freibeträgen bleiben — über welche Lebenswerke reden wir konkret?"
       ]
     },
     {
       "id": "investitionen-flucht",
       "claim": "Investitionen fließen ab und Firmen gehen ins Ausland!",
-      "response": "Standortentscheidungen hängen von vielen Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte und Energiekosten. Eine Vermögensteuer allein entscheidet selten über Investitionen. Wichtig ist daher, sehr große private Vermögen zu adressieren, ohne produktive Unternehmensinvestitionen unnötig zu belasten.",
+      "response": "Standortentscheidungen hängen von vielen Faktoren ab: Fachkräfte, Infrastruktur, Rechtssicherheit, Absatzmärkte und Energiekosten. Eine Vermögensteuer allein entscheidet selten über Investitionen. Ob eine konkrete Ausgestaltung produktive Investitionen belastet, hängt an Freibeträgen und der Behandlung von Betriebsvermögen — pauschal lässt sich der Effekt weder behaupten noch ausschließen.",
       "keywords": [
         "Investitionen",
         "Kapitalflucht",
@@ -894,9 +887,34 @@
       ]
     },
     {
+      "id": "haushaltsprobleme-geloest",
+      "claim": "Mit einer Vermögenssteuer wären unsere Haushaltsprobleme doch gelöst — die Reichen können das locker bezahlen!",
+      "response": "Das Aufkommenspotenzial ist real, aber begrenzt: Die konservativste DIW-Variante (1 % ab 1 Mio. € Freibetrag) brächte rund 42 Mrd. € pro Jahr — mehr als das Dreifache der Erbschaftsteuer, aber kein Betrag, der die Finanzierungslücken aller staatlichen Ebenen schließt. Hinzu kommt: Die Vermögensteuer ist im Grundgesetz als Ländersteuer vorgesehen, würde also nicht direkt den Bundeshaushalt entlasten. Und die Schätzungen hängen von Bewertung, Freibeträgen und Ausweichreaktionen ab. Als Baustein ist das Aufkommen relevant; ‚Haushaltsprobleme gelöst' verspricht mehr, als die Zahlen hergeben.",
+      "keywords": [
+        "Haushaltsloch",
+        "Staatsfinanzen",
+        "Reiche zahlen",
+        "Milliarden",
+        "Haushalt sanieren",
+        "locker bezahlen"
+      ],
+      "relatedSections": [
+        "aufkommen",
+        "verfassung",
+        "oecd-vergleich"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Allheilmittel-Erzählung: Ein realer, aber begrenzter Einnahmeposten wird rhetorisch zur Gesamtlösung vergrößert. Größenordnung (42 Mrd. € gegenüber den Gesamtausgaben aller staatlichen Ebenen), Zuständigkeit (Ländersteuer) und Verhaltensreaktionen verschwinden dabei aus dem Bild.",
+      "counterQuestions": [
+        "Die Vermögensteuer wäre eine Ländersteuer — welches Haushaltsproblem soll sie konkret lösen: das des Bundes oder das der Länder?",
+        "Wie groß ist die Finanzierungslücke, die du schließen willst — und wie verhält sie sich zu den geschätzten 42 Mrd. € Aufkommen?",
+        "Welche Ausweichreaktionen rechnest du ein — und was bleibt nach deiner Schätzung netto übrig?"
+      ]
+    },
+    {
       "id": "privatsache",
       "claim": "Erben ist Privatsache — der Staat hat da nichts zu suchen!",
-      "response": "Art. 14 GG garantiert Eigentum, betont aber auch dessen Sozialpflichtigkeit. Große Erbschaften entstehen nicht losgelöst von staatlich finanzierter Infrastruktur, Bildung und Rechtssicherheit. Deshalb ist ihre Besteuerung keine unzulässige Einmischung, sondern Teil legitimer Verteilungspolitik in einem Sozialstaat.",
+      "response": "Das ist im Kern eine Werteposition — hier die Faktenbasis dazu: Art. 14 GG garantiert Eigentum und Erbrecht, verankert in Absatz 2 aber auch die Sozialpflichtigkeit des Eigentums. Das BVerfG hat die Erbschaftsteuer als solche nie beanstandet, sondern nur einzelne Ausgestaltungen — zuletzt 2014 die Verschonungsregeln für Betriebsvermögen. 96 % aller Erbfälle bleiben heute komplett unter den Freibeträgen. Wie weit der Staat darüber hinaus besteuern soll, ist eine Verteilungsfrage, die Daten allein nicht entscheiden können — sie zeigen nur, dass die heutige Praxis große Übertragungen stärker verschont als kleine.",
       "keywords": [
         "Privatsache",
         "geht den Staat nichts an",
@@ -907,13 +925,6 @@
       "relatedSections": [
         "erbengesellschaft",
         "verfassung"
-      ],
-      "verdict": "misleading",
-      "rhetoricalPattern": "Verkürzte GG-Rezeption: Art. 14 Abs. 1 (Eigentumsgarantie) wird zitiert, Abs. 2 (Sozialpflichtigkeit) ausgelassen. Die rhetorische Verschiebung auf eine Grundsatzebene blendet das eigentliche Verteilungsproblem aus und verlagert die Debatte in den Liberalismus-Eigentum-Topos.",
-      "counterQuestions": [
-        "Wenn Art. 14 Abs. 2 GG sagt: ‚Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen.‘ — wie liest du das in der Erbschaftsteuer-Debatte?",
-        "Welche Infrastruktur (Schulen, Polizei, Eigentumsschutz, Verkehrswege, Rechtssystem) wurde nicht aus Steuern bezahlt, die ein Vermögensaufbau überhaupt erst ermöglicht?",
-        "Wenn Erbschaftsteuer ‚Einmischung‘ ist — wie unterscheidet sich das kategorisch von Einkommensteuer, Mehrwertsteuer oder Grundsteuer?"
       ]
     }
   ],

@@ -5,7 +5,7 @@
   "seoTitle": "Innere Sicherheit & Kriminalität: Zahlen, Argumente & Fakten 2026",
   "seoDescription": "Wird Deutschland immer unsicherer? Antworten zu Kriminalitätstrend, Messerangriffen, No-go-Areas, Polizei und Videoüberwachung — Quellen BKA, Destatis und DIW.",
   "icon": "security",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "5,84 Mio. Straftaten 2024 (−1,7 %, unter dem Niveau der 1990er)",
     "Aufklärungsquote stabil bei rund 58 %",
@@ -535,7 +535,7 @@
       "verdict": "misleading",
       "rhetoricalPattern": "Hier wirkt die Verfügbarkeitsheuristik: Einzelne, medial stark präsente Fälle erzeugen den Eindruck der Allgegenwart (‚überall‘). Aus drastischen Einzelbildern wird ein gefühltes Dauerrisiko, obwohl die individuelle Betroffenheitswahrscheinlichkeit niedrig ist.",
       "counterQuestions": [
-        "Wann bist du persönlich oder jemand, den du kennst, zuletzt mit einem Messer bedroht worden?",
+        "Wie hoch schätzt du dein persönliches Risiko ein, Opfer eines Messerangriffs zu werden — und wie hoch ist es laut Statistik?",
         "Woher stammt dein Eindruck — aus eigenem Erleben oder aus den Schlagzeilen?",
         "Wenn sich 89 % tagsüber draußen sicher fühlen — passt das zu ‚man kann nicht mehr raus‘?"
       ]
@@ -607,7 +607,7 @@
       "counterQuestions": [
         "Meinst du die Zahl der Stellen oder die Arbeitsbelastung der vorhandenen Beamten?",
         "Weißt du, wie sich der Polizei-Personalstand seit 2017 entwickelt hat?",
-        "Wäre es nicht ehrlicher, über Bürokratie und Ausstattung zu reden statt über fehlende Köpfe?"
+        "Wenn die Stellenzahl gestiegen ist — liegt das Problem dann eher bei Belastung, Bürokratie oder Ausstattung?"
       ]
     },
     {
@@ -653,7 +653,7 @@
       "counterQuestions": [
         "Bei welcher Art von Straftaten soll die Kamera konkret helfen — Eigentum oder spontane Gewalt?",
         "Wenn der Berliner U-Bahn-Test keinen Sicherheitsgewinn brachte, woran lag das?",
-        "Würdest du das Geld lieber in Kameras oder in mehr ansprechbare Polizei vor Ort stecken?"
+        "An welchem Ort und gegen welche Deliktart soll die Kamera konkret wirken — und was sagt die Forschung zu genau diesem Einsatz?"
       ]
     },
     {

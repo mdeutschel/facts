@@ -5,25 +5,25 @@
       "title": "Heizungswechsel 2026",
       "subtitle": "Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente",
       "icon": "heat_pump",
-      "lastUpdated": "2026-05-17",
+      "lastUpdated": "2026-06-10",
       "factCount": 14,
-      "argumentCount": 18
+      "argumentCount": 19
     },
     {
       "id": "emobilitaet",
       "title": "E-Mobilität",
       "subtitle": "Fakten zu Reichweite, Akkus, Kosten & Klimabilanz",
       "icon": "electric_car",
-      "lastUpdated": "2026-05-30",
+      "lastUpdated": "2026-06-10",
       "factCount": 8,
-      "argumentCount": 8
+      "argumentCount": 9
     },
     {
       "id": "energiewende",
       "title": "Energiewende & Atomkraft",
       "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
       "icon": "bolt",
-      "lastUpdated": "2026-06-07",
+      "lastUpdated": "2026-06-10",
       "factCount": 21,
       "argumentCount": 14
     },
@@ -32,79 +32,79 @@
       "title": "Klimawandel",
       "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
       "icon": "thermostat",
-      "lastUpdated": "2026-06-07",
+      "lastUpdated": "2026-06-10",
       "factCount": 8,
-      "argumentCount": 13
+      "argumentCount": 14
     },
     {
       "id": "verkehrswende",
       "title": "Verkehrswende",
       "subtitle": "Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen",
       "icon": "directions_car",
-      "lastUpdated": "2026-05-30",
+      "lastUpdated": "2026-06-10",
       "factCount": 8,
-      "argumentCount": 15
+      "argumentCount": 16
     },
     {
       "id": "buergergeld",
       "title": "Bürgergeld",
       "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
       "icon": "account_balance_wallet",
-      "lastUpdated": "2026-05-17",
+      "lastUpdated": "2026-06-10",
       "factCount": 6,
-      "argumentCount": 8
+      "argumentCount": 9
     },
     {
       "id": "migration",
       "title": "Migration & Asyl",
       "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",
       "icon": "public",
-      "lastUpdated": "2026-05-17",
+      "lastUpdated": "2026-06-10",
       "factCount": 14,
-      "argumentCount": 16
+      "argumentCount": 17
     },
     {
       "id": "teilzeit",
       "title": "Teilzeit & Arbeitsmoral",
       "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Produktivität, Care-Arbeit, der Gen Z und den politischen Rezepten gegen den Fachkräftemangel.",
       "icon": "schedule",
-      "lastUpdated": "2026-05-31",
+      "lastUpdated": "2026-06-10",
       "factCount": 12,
-      "argumentCount": 13
+      "argumentCount": 14
     },
     {
       "id": "vegane-ernaehrung",
       "title": "Vegane Ernährung & Fleischkonsum",
       "subtitle": "Klima, Gesundheit, Tierhaltung und alltagstaugliche Antworten",
       "icon": "eco",
-      "lastUpdated": "2026-05-31",
+      "lastUpdated": "2026-06-10",
       "factCount": 8,
-      "argumentCount": 10
+      "argumentCount": 11
     },
     {
       "id": "vermoegenssteuer",
       "title": "Vermögens- und Erbschaftssteuer",
       "subtitle": "Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland",
       "icon": "account_balance",
-      "lastUpdated": "2026-05-17",
+      "lastUpdated": "2026-06-10",
       "factCount": 8,
-      "argumentCount": 11
+      "argumentCount": 12
     },
     {
       "id": "gleichberechtigung",
       "title": "Gleichberechtigung",
       "subtitle": "Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation",
       "icon": "balance",
-      "lastUpdated": "2026-05-30",
+      "lastUpdated": "2026-06-10",
       "factCount": 9,
-      "argumentCount": 17
+      "argumentCount": 18
     },
     {
       "id": "bildung",
       "title": "Deutsches Bildungssystem",
       "subtitle": "Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung",
       "icon": "school",
-      "lastUpdated": "2026-05-10",
+      "lastUpdated": "2026-06-10",
       "factCount": 6,
       "argumentCount": 11
     },
@@ -113,7 +113,7 @@
       "title": "Deutsches Gesundheitssystem",
       "subtitle": "Fakten zu Kosten, Zwei-Klassen-Medizin, Pflege, Arzneimittel, Digitalisierung, Krankenstand & GKV-Reform 2026",
       "icon": "local_hospital",
-      "lastUpdated": "2026-06-05",
+      "lastUpdated": "2026-06-10",
       "factCount": 12,
       "argumentCount": 14
     },
@@ -124,14 +124,14 @@
       "icon": "forum",
       "lastUpdated": "2026-06-10",
       "factCount": 8,
-      "argumentCount": 10
+      "argumentCount": 11
     },
     {
       "id": "ki-arbeitsmarkt",
       "title": "KI und der Arbeitsmarkt",
       "subtitle": "Fakten zu Automatisierung, Jobwandel und Qualifizierung in Deutschland",
       "icon": "smart_toy",
-      "lastUpdated": "2026-06-09",
+      "lastUpdated": "2026-06-10",
       "factCount": 8,
       "argumentCount": 9
     },
@@ -140,7 +140,7 @@
       "title": "Fachkräftemangel",
       "subtitle": "Gibt es den Mangel wirklich? Fakten zu Fachkräftelücke, Demografie, Löhnen, inländischen Potenzialen, Zuwanderung und Automatisierung.",
       "icon": "engineering",
-      "lastUpdated": "2026-05-31",
+      "lastUpdated": "2026-06-10",
       "factCount": 8,
       "argumentCount": 10
     },
@@ -149,7 +149,7 @@
       "title": "Innere Sicherheit & Kriminalität",
       "subtitle": "Fakten zu Kriminalitätstrend, Gewalt, Sicherheitsgefühl, Polizei und Prävention",
       "icon": "security",
-      "lastUpdated": "2026-06-01",
+      "lastUpdated": "2026-06-10",
       "factCount": 7,
       "argumentCount": 9
     },
@@ -158,18 +158,18 @@
       "title": "Russland, Ukraine & Sanktionen",
       "subtitle": "Fakten zu Krieg, Sanktionen, Energie, Ukraine-Hilfe und Friedensperspektive",
       "icon": "balance",
-      "lastUpdated": "2026-06-01",
+      "lastUpdated": "2026-06-10",
       "factCount": 9,
-      "argumentCount": 11
+      "argumentCount": 12
     },
     {
       "id": "wissenschaftsskepsis",
       "title": "Vertrauen in die Wissenschaft",
       "subtitle": "Fakten zu Vertrauen, Konsens, Replikationskrise, Interessenkonflikten und ‚Eigenrecherche'",
       "icon": "science",
-      "lastUpdated": "2026-06-02",
+      "lastUpdated": "2026-06-10",
       "factCount": 7,
-      "argumentCount": 9
+      "argumentCount": 10
     }
   ]
 }

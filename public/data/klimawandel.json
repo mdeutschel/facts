@@ -5,7 +5,7 @@
   "seoTitle": "Klimawandel: Argumente, Fakten & Mythen im Faktencheck",
   "seoDescription": "Hat sich das Klima schon immer verändert? Sind Forscher uneins? Antworten zu Temperatur, CO₂, Extremwetter und Kippelementen — Quellen IPCC und DWD.",
   "icon": "thermostat",
-  "lastUpdated": "2026-06-07",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "2025: drittwärmstes Jahr (+1,47 °C); 3-Jahres-Mittel erstmals >1,5 °C",
     "CO2-Konzentration heute höher als in 800.000 Jahren",
@@ -319,6 +319,13 @@
           "text": "Das Ahrtal-Hochwasser 2021 war für die Versicherungswirtschaft mit 206.000 Schäden und 8,75 Mrd. Euro versichertem Gesamtschaden die folgenschwerste Naturkatastrophe in Deutschland.",
           "sourceRefs": [
             "gdv-flutkatastrophe-von-2021-7-5-milliarden"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ob ein einzelnes Ereignis ‚der Klimawandel' war, lässt sich so nicht beantworten — die Attributionsforschung berechnet stattdessen, wie viel wahrscheinlicher oder intensiver die Erwärmung ein Ereignis gemacht hat. Die Belege sind je nach Typ unterschiedlich stark: Bei Hitzewellen weisen über 90 % der Attributionsstudien einen verstärkenden Einfluss nach, bei Starkregen ist der Effekt regional zunehmend belegt (bis 2015 waren rund 18 % der täglichen Niederschlagsextreme dem Klimawandel zuzuordnen), bei Dürren und Stürmen sind die Unsicherheiten deutlich größer. Der Klimawandel ist dabei nie die einzige Ursache eines Extremereignisses.",
+          "sourceRefs": [
+            "helmholtz-klima-attribution"
           ]
         }
       ]
@@ -828,7 +835,7 @@
     {
       "id": "klimaschutz-arbeitsplaetze",
       "claim": "Klimaschutz kostet Arbeitsplätze!",
-      "response": "Klimaschutz verschiebt Beschäftigung stärker, als dass er pauschal Jobs vernichtet. Weltweit arbeiten laut IRENA bereits 16,6 Mio. Menschen in den Erneuerbaren. In Deutschland sind Energiewende-Berufe in den letzten Jahren stark gewachsen. Entscheidend ist, den Strukturwandel mit Qualifizierung und regionaler Unterstützung zu begleiten.",
+      "response": "Klimaschutz verschiebt Beschäftigung stärker, als dass er pauschal Jobs vernichtet. Weltweit arbeiten laut IRENA bereits 16,6 Mio. Menschen in den Erneuerbaren. In Deutschland sind Energiewende-Berufe in den letzten Jahren stark gewachsen. Ein wahrer Kern bleibt: Für einzelne Regionen und Branchen — etwa die Kohlereviere — sind die Verluste real und konzentriert, während neue Jobs oft anderswo und in anderen Berufen entstehen. Pauschal ‚kostet Arbeitsplätze' beschreibt also eine Verschiebung als Vernichtung.",
       "keywords": [
         "arbeitsplätze",
         "jobs",
@@ -894,6 +901,28 @@
       ]
     },
     {
+      "id": "jedes-unwetter-klimawandel",
+      "claim": "Dieses Unwetter ist der Klimawandel — jedes Extremwetter geht aufs Konto der Erderwärmung!",
+      "response": "Die Richtung stimmt, die Pauschalität nicht: Extremwetter haben immer mehrere Ursachen — der Klimawandel ist nie die einzige. Die Attributionsforschung kann für einzelne Ereignisse berechnen, wie stark die Erwärmung sie wahrscheinlicher oder intensiver gemacht hat, und das Ergebnis hängt vom Ereignistyp ab: Bei Hitzewellen weisen über 90 % der Studien einen verstärkenden Einfluss nach, bei Stürmen und manchen Dürren sind die Unsicherheiten groß. ‚Ohne Klimawandel wäre das nicht passiert' ist deshalb meist nicht belegbar — belegbar ist häufig: ‚Es wurde wahrscheinlicher oder heftiger.' Wer jedes Ereignis pauschal zuordnet, ersetzt das präzise, starke Argument durch ein angreifbares.",
+      "keywords": [
+        "jedes Unwetter",
+        "wegen Klimawandel",
+        "Attributionsforschung",
+        "Einzelereignis",
+        "Zuordnung"
+      ],
+      "relatedSections": [
+        "extremwetter"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der ‚kalter Winter widerlegt die Erwärmung'-Anekdotik: Dort soll ein Einzelereignis den Trend widerlegen, hier soll es ihn beweisen. Beide verwechseln Einzelereignis und Statistik — die Attributionsforschung ersetzt genau dieses Pauschalurteil durch quantifizierte Wahrscheinlichkeiten je Ereignistyp.",
+      "counterQuestions": [
+        "Meinst du, das Ereignis wäre ohne Klimawandel unmöglich gewesen — oder dass es wahrscheinlicher und heftiger wurde? Das ist ein wichtiger Unterschied.",
+        "Für welchen Ereignistyp ist die Zuordnung stark belegt — und für welchen bisher kaum?",
+        "Wird das Klima-Argument stärker oder schwächer, wenn man die präzise Attributionsaussage statt der Pauschale verwendet?"
+      ]
+    },
+    {
       "id": "co2-gut-fuer-pflanzen",
       "claim": "CO₂ ist doch gut für Pflanzen!",
       "response": "Mehr CO₂ kann Pflanzen unter kontrollierten Bedingungen beim Wachstum helfen. Im Freiland begrenzen aber Wasser, Nährstoffe, Hitze und Extremwetter diesen Effekt. Für Landwirtschaft und Ökosysteme ist das deshalb kein Entwarnungssignal.",
@@ -919,7 +948,7 @@
     {
       "id": "china-indien-schlimmer",
       "claim": "China und Indien sind doch viel schlimmer!",
-      "response": "China stößt absolut viel CO2 aus, Indien pro Kopf aber deutlich weniger als Deutschland (Indien 2,0 t, Deutschland 6,8 t). Für faire Vergleiche zählen Pro-Kopf, historische Beiträge und Handelsemissionen — rund ein Drittel der chinesischen Emissionen entfällt auf Exporte, auch nach Deutschland. Politisch zeigt sich der Unterschied bei COP30: Saudi-Arabien, Russland, Indien und China blockierten die geforderte Fossil-Ausstiegs-Roadmap. Wenn Deutschland argumentiert ‚die sind schlimmer, also tun wir nichts‘, landet es im selben Lager — und nicht bei den über 80 Ländern, die voran wollen.",
+      "response": "China stößt absolut viel CO2 aus, Indien pro Kopf aber deutlich weniger als Deutschland (Indien 2,0 t, Deutschland 6,8 t). Für faire Vergleiche zählen Pro-Kopf, historische Beiträge und Handelsemissionen — rund ein Drittel der chinesischen Emissionen entfällt auf Exporte, auch nach Deutschland. Bei COP30 blockierten Saudi-Arabien, Russland, Indien und China die von über 80 Ländern geforderte Fossil-Ausstiegs-Roadmap — der Verweis auf China und Indien beschreibt also ein reales Verhalten dieser Staaten. Nur trägt er als Argument nichts: Aus dem Verhalten anderer folgt logisch nicht, was für die eigenen Emissionen richtig ist.",
       "keywords": [
         "china",
         "indien",
@@ -934,11 +963,11 @@
         "co2-konzentration"
       ],
       "verdict": "lacks-context",
-      "rhetoricalPattern": "Whataboutismus: Verantwortung wird über Vergleich verlagert, ohne eigene Reduktion. Dabei werden Pro-Kopf-Werte, historische Beiträge und Handelsemissionen systematisch ausgeblendet. Politisch landet das Argument bei den COP30-Blockierern — nicht bei den progressiven 80+ Ländern.",
+      "rhetoricalPattern": "Whataboutismus: Verantwortung wird über den Vergleich mit anderen verlagert, ohne dass daraus etwas für die eigenen Emissionen folgt. Dabei werden Pro-Kopf-Werte, historische Beiträge und Handelsemissionen systematisch ausgeblendet — je nach Maßstab kippt das Bild.",
       "counterQuestions": [
         "Indiens Pro-Kopf-Emissionen liegen bei 2,0 t CO2, Deutschland bei 6,8 — auf welcher Basis ist Indien ‚schlimmer‘?",
         "Wenn rund ein Drittel der chinesischen Emissionen für Exporte (auch nach Deutschland) anfällt — wer ist da ‚schlimmer‘?",
-        "Bei COP30 standen Saudi-Arabien, Russland, Indien und China gegen die Fossil-Roadmap — auf welcher Seite siehst du Deutschland mit deiner Argumentation?"
+        "Angenommen, China und Indien wären tatsächlich ‚schlimmer' — was folgt daraus für die deutschen Emissionen?"
       ]
     },
     {
@@ -966,7 +995,7 @@
     {
       "id": "zu-teuer",
       "claim": "Klimaschutz können wir uns nicht leisten!",
-      "response": "Klimaschutz erfordert hohe Investitionen — verzögertes Handeln macht es aber teurer. Munich Re beziffert die Naturkatastrophen-Schäden 2025 weltweit auf rund 224 Mrd. US-Dollar, 92 % davon wetterbedingt; allein die LA-Waldbrände im Januar waren die teuerste Einzelkatastrophe des Jahres. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad rund 4,5 Bio. USD pro Jahr für Clean Energy — viel Geld, aber im Vergleich zu eskalierenden Schadens- und Anpassungskosten die günstigere Option.",
+      "response": "Klimaschutz erfordert hohe Investitionen — verzögertes Handeln macht es aber teurer. Munich Re beziffert die Naturkatastrophen-Schäden 2025 weltweit auf rund 224 Mrd. US-Dollar, 92 % davon wetterbedingt; allein die LA-Waldbrände im Januar waren die teuerste Einzelkatastrophe des Jahres. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad rund 4,5 Bio. USD pro Jahr für Clean Energy — viel Geld, aber nach diesen Analysen günstiger als die eskalierenden Schadens- und Anpassungskosten des Nicht-Handelns.",
       "keywords": [
         "zu teuer",
         "leisten",
@@ -1086,6 +1115,11 @@
     }
   ],
   "sources": [
+    {
+      "id": "helmholtz-klima-attribution",
+      "label": "Helmholtz-Klima-Initiative – Klimafakten: Der Zusammenhang von Extremwettern und Klimawandel (Attributionsforschung)",
+      "url": "https://www.helmholtz-klima.de/klimafakten/behauptung-der-zusammenhang-von-extremwettern-und-klimawandel-ist-nicht-eindeutig-belegt"
+    },
     {
       "id": "copernicus-climate-change-service-c3s-global",
       "label": "Copernicus Climate Change Service (C3S): 2024 first year above 1.5°C above pre-industrial level",

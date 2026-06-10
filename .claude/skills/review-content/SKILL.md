@@ -16,7 +16,7 @@ Ergänzt `verify-sources` (das die Datenlage prüft). Dieser Skill prüft, ob **
 
 ## Qualitätsdimensionen
 
-Jeder Inhaltsblock und jedes Argument MUSS diese 8 Prüfungen bestehen:
+Jeder Inhaltsblock und jedes Argument MUSS diese 9 Prüfungen bestehen:
 
 ### 1. Nuance & Teilwahrheiten
 
@@ -110,10 +110,36 @@ Ein Argument soll nicht nur als Faktencheck-Eintrag, sondern auch in der konkret
 - Mehr als 3 Fragen (Verhör-Effekt)
 - Fragen, die das Gegenüber demütigen oder ins Lächerliche ziehen
 
+### 9. Politische Neutralität
+
+Die Seite bezieht Position für den wissenschaftlichen Kenntnisstand — nicht für ein politisches Lager. Färbung entsteht selten durch falsche Zahlen, sondern durch Verdicts auf Werturteilen, Plädoyer-Sprache und einseitige Claim-Auswahl.
+
+**9a. Verdict-Disziplin (Empirie-Test):**
+- Ein `verdict` ist nur zulässig, wenn der Claim **empirisch prüfbar** ist. Test: „Könnte eine Statistik oder Studie diese Aussage grundsätzlich widerlegen?" Wenn nein → kein Verdict.
+- Normative Claims (erkennbar an „sollte", „muss", „ist Privatsache", „ist gerecht/ungerecht", „bestraft", „hat da nichts zu suchen") bekommen **kein Verdict**. Das `response` ordnet dann die empirische Faktenbasis ein, stellt die stärksten Argumente beider Seiten dar und benennt explizit, wo der Wertkonflikt beginnt.
+- Mischformen (empirische Prämisse + normative Forderung): Das Verdict **bleibt erhalten** und bezieht sich auf den empirischen Teil; im `response` die Ebenen klar trennen („Die zugrunde liegende Zahl stimmt nicht — ob man X dennoch will, ist eine Wertfrage"). `rhetoricalPattern` und `counterQuestions` bleiben gemäß Dim 8 ebenfalls bestehen.
+- Verdict-Entfernung ist die **Ausnahme** für rein normative Claims ohne prüfbaren empirischen Kern — nur dann entfallen gemäß Dim 8 auch `rhetoricalPattern` und `counterQuestions`. Im Zweifel: Verdict behalten und die Ebenen im `response` trennen.
+
+**9b. Kein Plädoyer:**
+- Das `response` empfiehlt keine politische Maßnahme und erklärt keine politische Position für legitim, nötig oder überfällig („ist Teil legitimer Verteilungspolitik", „kann helfen, Arbeit zu entlasten" sind Plädoyers, keine Faktenchecks).
+- Erlaubt: darstellen, was empirisch belegt ist, was Modellrechnungen zeigen und welche Annahmen sie machen. Nicht erlaubt: daraus eine Handlungsempfehlung ableiten.
+
+**9c. Gleicher Maßstab unabhängig von der Richtung:**
+- Verdicts werden nach denselben Kriterien vergeben, egal aus welcher politischen Richtung der Claim kommt. Prüffrage: „Würde ein inhaltlich gleich starker Claim der Gegenrichtung dasselbe Verdict bekommen?"
+- Wahre Kerne in Claims jeder Richtung gleich großzügig anerkennen (Dim 1 symmetrisch anwenden).
+
+**9d. Keine Lager-Sprache:**
+- Kampfbegriffe und lagertypische Framings weder übernehmen noch selbst produzieren — weder „Sozialtourismus", „Klimahysterie", „Verbotspolitik" als eigene Wertung, noch „Villen der Superreichen", „Konzernlobby", „neoliberal" als eigene Wertung.
+- Politische Kampfbegriffe dürfen distanziert analysiert werden (Herkunft, Bedeutung, Belegbarkeit), aber nicht als eigene Beschreibung der Wirklichkeit dienen.
+
+**9e. Claim-Auswahl-Balance (Topic-Ebene):**
+- Pro Thema prüfen: Existieren im realen Diskurs verbreitete Fehlannahmen aus **mehreren** politischen Richtungen? Dann sollten sie auch vertreten sein (z. B. neben „Bürgergeld lohnt sich mehr als Arbeit" auch „Sanktionen treffen nur Unschuldige", neben „Vermögenssteuer zerstört den Mittelstand" auch „Eine Vermögenssteuer allein saniert den Haushalt").
+- Die Auswahl muss nicht 50/50 sein — sie folgt der Verbreitung der Parolen, nicht einer Quote. Aber: Fehlt eine Richtung komplett, obwohl es dort verbreitete falsche Claims gibt, ist das ein ⚠-Befund.
+
 ## Ablauf Review (Review-Modus)
 
 1. **Laden** — `public/data/$ARGUMENTS.json` lesen, alle `arguments` und `sections` extrahieren
-2. **Analysieren** — Pro Argument alle 8 Dimensionen bewerten. Pro Abschnitt Dimensionen 1–4 und 6 prüfen.
+2. **Analysieren** — Pro Argument alle 9 Dimensionen bewerten. Pro Abschnitt Dimensionen 1–4 und 6 prüfen. Zusätzlich auf Topic-Ebene die Claim-Auswahl-Balance bewerten (Dim 9e).
 3. **Einordnen** — Jedes Befund bewerten:
    - ✓ **OK**: Prüfung bestanden
    - ⚠ **VERBESSERBAR**: Nicht falsch, aber erzeugt Angriffsfläche — Verbesserung vorschlagen
@@ -138,6 +164,9 @@ Beim Schreiben neuer Inhalte vor dem Festhalten im JSON anwenden:
 - [ ] Response startet mit der korrekten Aussage (Truth Sandwich, Dim 8)
 - [ ] rhetoricalPattern benennt das Denkmuster, ohne den Frame zu wiederholen (Dim 8, sofern Muster vorhanden)
 - [ ] counterQuestions: 2–3 sokratische, konkrete, nicht polemische Fragen (Dim 8, bei Argumenten mit Verdict)
+- [ ] Empirie-Test bestanden: Verdict nur bei empirisch widerlegbaren Claims (Dim 9a)
+- [ ] Response enthält kein politisches Plädoyer und keine Lager-Sprache (Dim 9b, 9d)
+- [ ] Verdict-Maßstab unabhängig von der politischen Richtung des Claims (Dim 9c)
 ```
 
 ### Checkliste neuer Abschnitt
@@ -153,7 +182,7 @@ Beim Schreiben neuer Inhalte vor dem Festhalten im JSON anwenden:
 
 - **Kein Wegreden**: Berechtigte Kritik nicht entfernen — sie aufnehmen
 - **Zurückhaltende Formulierungen**: Bei Unsicherheit abschwächen; nie überzeichnen
-- **Strukturelle Ehrlichkeit**: Die Seite vertritt eine klare Position und nutzt gute Quellen — nicht so tun, als sei sie neutral, aber fair bleiben
+- **Position nur für die Evidenz**: Die Seite bezieht klar Stellung — aber für den wissenschaftlichen Kenntnisstand und gegen Falschaussagen, nicht für ein politisches Lager. Wo die Evidenz endet und das Werturteil beginnt, wird das ausgewiesen (Dim 9).
 - **Ergänzt verify-sources**: Dieser Skill prüft Framing; `verify-sources` prüft Datenlage. Beides bei neuen Inhalten ausführen.
 
 ## Referenz

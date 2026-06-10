@@ -5,7 +5,7 @@
   "seoTitle": "Energiewende & Atomkraft: Argumente, Kosten, Versorgung",
   "seoDescription": "Hätten AKW die Gaskrise gelöst? Sind SMRs realistisch? Antworten zu Atomausstieg, Strommix und Versorgungssicherheit — Quellen BNetzA und Fraunhofer.",
   "icon": "bolt",
-  "lastUpdated": "2026-06-07",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "55,1 % Erneuerbare am Bruttostromverbrauch 2025 (BDEW/ZSW)",
     "AKW-Neubau deutlich teurer als Wind/Solar (Lazard LCOE)",
@@ -1516,7 +1516,7 @@
     {
       "id": "deutschland-muss-sich-selbst-versorgen",
       "claim": "Deutschland muss sich doch selbst versorgen können!",
-      "response": "Der europäische Stromverbund ist Teil der Versorgungssicherheit. Import und Export gleichen regionale Unterschiede aus und sind kein Versagenssignal. Vollständige Autarkie wäre teurer und systemisch unflexibler als ein gut vernetztes europäisches Stromsystem.",
+      "response": "Der europäische Stromverbund ist Teil der Versorgungssicherheit. Import und Export gleichen regionale Unterschiede aus und sind kein Versagenssignal. Vollständige Autarkie wäre teurer und systemisch unflexibler als ein gut vernetztes europäisches Stromsystem. Wie viel Unabhängigkeit man sich davon unabhängig leisten will, ist eine politische Abwägung — die Daten zeigen nur, dass Autarkie kein Synonym für Sicherheit ist.",
       "keywords": [
         "autarkie",
         "selbstversorgung",
@@ -1531,7 +1531,7 @@
       "verdict": "mostly-false",
       "rhetoricalPattern": "Autarkie-Trugschluss: Nationale Selbstversorgung wird mit Versorgungssicherheit gleichgesetzt. Tatsächlich erhöht der europäische Stromverbund die Sicherheit gerade durch Risikodiversifizierung — Wind weht selten überall gleichzeitig flau, Sonne und Wind ergänzen sich räumlich. Vollständige Autarkie wäre teurer und systemisch unflexibler.",
       "counterQuestions": [
-        "Wenn vollständige Autarkie nachweislich teurer ist als ein vernetztes europäisches System — warum sollte das ein Ziel sein?",
+        "Geht es dir um Unabhängigkeit von wem — von europäischen Nachbarn oder von Rohstofflieferanten außerhalb Europas?",
         "Welche andere Industrieländer streben tatsächlich vollständige Stromautarkie an?",
         "Ist der europäische Stromverbund nicht selbst ein zentrales Instrument der Versorgungssicherheit — gerade durch regionale Wind-/Sonnen-Komplementarität?"
       ]

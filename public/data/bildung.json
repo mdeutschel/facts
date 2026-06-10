@@ -5,7 +5,7 @@
   "seoTitle": "Bildungssystem Deutschland: PISA, Lehrermangel, Argumente",
   "seoDescription": "Lehrer arbeiten halbtags? Schüler werden dümmer? Antworten zu Bildungsausgaben, PISA-Studie und Lehrkräftemangel mit Quellen aus OECD, KMK und Destatis.",
   "icon": "school",
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "198 Mrd. € Bildungsausgaben (2024)",
     "35.000 fehlende Lehrkräfte (2025/26)",
@@ -444,7 +444,13 @@
         "pisa-chancengleichheit",
         "bildungsausgaben"
       ],
-      "verdict": "outdated"
+      "verdict": "outdated",
+      "rhetoricalPattern": "Nostalgie-Anker: Ein früherer Ruf wird als heutiger Zustand fortgeschrieben — die Bewertung speist sich aus der Erinnerung, nicht aus der aktuellen Messung. Der PISA-Tiefstand von 2022 kommt in diesem Bild nicht vor.",
+      "counterQuestions": [
+        "Auf welche Zeit und welche Messung stützt sich ‚Weltspitze' — und was zeigen die aktuellen PISA-Daten?",
+        "Was hat sich seit damals verändert — das System oder nur sein Ruf?",
+        "Woran würdest du messen, ob das System wieder vorne ist?"
+      ]
     },
     {
       "id": "halbtags",
@@ -460,7 +466,13 @@
       "relatedSections": [
         "lehrkraeftemangel"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Sichtbarkeits-Fehlschluss: Nur der öffentlich sichtbare Teil der Arbeit (Unterrichtsstunden, Ferien) wird als Gesamtarbeitszeit gewertet. Vorbereitung, Korrekturen, Elterngespräche und Verwaltung bleiben unsichtbar — und fallen damit aus der Rechnung.",
+      "counterQuestions": [
+        "Zählst du nur die Unterrichtsstunden — oder auch Vorbereitung, Korrekturen, Elterngespräche und Konferenzen?",
+        "Was zeigt die Prognos-Arbeitszeitstudie zur tatsächlichen Jahresarbeitszeit von Lehrkräften?",
+        "Wie viele Stunden Arbeit stecken nach deiner Schätzung hinter einer einzelnen Unterrichtsstunde?"
+      ]
     },
     {
       "id": "verbloedung",
@@ -477,7 +489,13 @@
         "pisa-chancengleichheit",
         "bildungsausgaben"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Personalisierung eines Strukturbefunds: Ein messbarer Leistungsrückgang wird zur Eigenschaft der Schüler erklärt, statt nach den veränderten Bedingungen zu fragen — Unterfinanzierung, Lehrkräftemangel, Pandemie-Lernrückstände und die starke Kopplung an die soziale Herkunft.",
+      "counterQuestions": [
+        "Erklärt sich ein Rückgang über alle Bundesländer hinweg besser durch ‚dümmere Kinder' oder durch veränderte Rahmenbedingungen?",
+        "Was hat sich seit 2012 geändert — die Kinder oder Personaldecke, Unterrichtsausfall und Pandemie?",
+        "Welche Rolle spielen Lernrückstände aus den Schulschließungen in deiner Erklärung?"
+      ]
     },
     {
       "id": "laendersache",
@@ -494,12 +512,18 @@
         "bildungsausgaben",
         "digitalisierung"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Sachzwang-Argument: Eine änderbare Rechtslage (das Kooperationsverbot von 2006) wird wie ein Naturgesetz behandelt, und Zuständigkeitsverteilung wird mit Handlungsunfähigkeit verwechselt — obwohl Bund und Länder nachweislich gemeinsame Programme auflegen.",
+      "counterQuestions": [
+        "Ist das Kooperationsverbot ein Naturgesetz — oder eine Grundgesetzänderung von 2006, die sich wieder ändern lässt?",
+        "Wie kam der DigitalPakt zustande, wenn ‚man nichts machen kann'?",
+        "Warum fordern inzwischen mehrere Bundesländer selbst die Aufhebung des Verbots?"
+      ]
     },
     {
       "id": "genug-geld",
       "claim": "Wir geben genug Geld für Bildung aus",
-      "response": "198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Die Konsequenzen sieht man: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher.",
+      "response": "198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Parallel dazu bestehen sichtbare Engpässe: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher. Ob ‚genug' ausgegeben wird, hängt am Maßstab — am OECD-Vergleich gemessen liegt Deutschland darunter.",
       "keywords": [
         "genug geld",
         "ausgaben",
@@ -511,7 +535,13 @@
         "bildungsausgaben",
         "kita-fruehkindlich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Absolutzahl ohne Maßstab: Eine große Summe (198 Milliarden) wirkt für sich genommen wie ein Beleg für ‚genug'. Bewertbar wird sie erst im Verhältnis — zum BIP, zum OECD-Schnitt und zum sichtbaren Bedarf.",
+      "counterQuestions": [
+        "Gemessen woran ist es ‚genug' — an der absoluten Summe oder am Anteil der Wirtschaftsleistung im OECD-Vergleich?",
+        "Wenn Deutschland nur den OECD-Schnitt erreichte — was würden rund 25 Mrd. € mehr pro Jahr ändern?",
+        "Wie passt ‚genug Geld' zu 35.000 fehlenden Lehrkräften und maroden Gebäuden?"
+      ]
     },
     {
       "id": "hauptschule",
@@ -527,7 +557,13 @@
       "relatedSections": [
         "pisa-chancengleichheit"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Zirkelschluss aus dem Selektionsergebnis: Wer auf eine Schulform sortiert wurde, gilt rückwirkend als dort hingehörig. Die soziale Selektion, die PISA für Deutschland dokumentiert, wird so zur angeborenen Begabung umgedeutet.",
+      "counterQuestions": [
+        "Wie stark hängt die Schulform in Deutschland von der sozialen Herkunft ab — auch bei gleicher Leistung?",
+        "Wenn zwei gleich starke Kinder unterschiedliche Empfehlungen bekommen — was misst die Schulform dann?",
+        "Was sagt ein Bildungsweg über Intelligenz aus, wenn Förderung und Startbedingungen ungleich verteilt sind?"
+      ]
     },
     {
       "id": "inklusion",
@@ -543,7 +579,13 @@
       "relatedSections": [
         "lehrkraeftemangel"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Verwechslung von Konzept und Ausstattung: Probleme einer unterfinanzierten Umsetzung werden dem Konzept selbst zugeschrieben. Die INSIDE-Studie trennt genau das — entscheidend sind Personal und Kooperation, nicht das Ob der Inklusion.",
+      "counterQuestions": [
+        "Meinst du Inklusion als Konzept — oder Inklusion ohne zusätzliches Personal? Die Studienlage trennt das.",
+        "Welche generellen Nachteile für Mitschüler ohne Förderbedarf zeigt die INSIDE-Studie?",
+        "Woran würdest du ‚schadet' festmachen — an Einzelfällen oder an den Daten aus 246 Schulen?"
+      ]
     },
     {
       "id": "digitalisierung",
@@ -560,12 +602,18 @@
       "relatedSections": [
         "digitalisierung"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Falsche Dichotomie: Lesenlernen und digitale Kompetenz werden als Entweder-oder gerahmt, obwohl beides Grundkompetenzen sind. Berechtigte Kritik an schlechter Umsetzung (Geräte ohne Konzept) wird dabei zum Urteil über das Ziel selbst.",
+      "counterQuestions": [
+        "Geht es dir um Tablets ohne pädagogisches Konzept — oder dagegen, dass Kinder digitale Kompetenzen lernen?",
+        "Schließen Lesenlernen und Medienkompetenz einander aus — oder braucht ein Schulabgänger beides?",
+        "Was unterscheidet eine schlechte Umsetzung von einem falschen Ziel?"
+      ]
     },
     {
       "id": "homeschooling-freiheit",
       "claim": "Homeschooling gibt Eltern endlich Freiheit – Schulpflicht ist überholt.",
-      "response": "Elternrechte sind wichtig. Gleichzeitig soll die Schulpflicht gleiche Bildungschancen, soziale Teilhabe und Kinderschutz sichern – gerade auch für Kinder, die zuhause wenig Unterstützung haben. Deshalb ist Homeschooling in Deutschland nur in engen Ausnahmefällen möglich. Mehr Elternmitwirkung in Schule ist sinnvoll, ein genereller Ersatz der Schulpflicht aber nicht.",
+      "response": "Ob die Schulpflicht ‚überholt' ist, ist eine Werteabwägung zwischen Elternrechten und Kindesinteressen — hier die Faktenbasis dazu: In Deutschland ist Homeschooling nur in engen Ausnahmefällen zulässig; die Schulpflicht soll gleiche Bildungschancen, soziale Teilhabe und Kinderschutz sichern — gerade für Kinder, die zuhause wenig Unterstützung bekommen. Auf der anderen Seite steht das grundgesetzlich geschützte Erziehungsrecht der Eltern. Welche Seite man stärker gewichtet, können Daten nicht entscheiden — sie zeigen nur, dass gerade benachteiligte Kinder am stärksten von verbindlicher Schule profitieren.",
       "keywords": [
         "Homeschooling",
         "Schulpflicht",
@@ -575,13 +623,12 @@
       "relatedSections": [
         "pisa-chancengleichheit",
         "ganztag"
-      ],
-      "verdict": "mostly-false"
+      ]
     },
     {
       "id": "gymnasium-25-prozent",
       "claim": "Nur die besten 25 Prozent sollten aufs Gymnasium.",
-      "response": "Leistungsorientierung ist legitim, aber starre Quoten sind bildungspolitisch riskant. Lernverläufe entwickeln sich unterschiedlich, und frühe harte Selektion verschärft oft die Abhängigkeit vom Elternhaus. Sinnvoller sind klare Standards, gute Diagnostik und durchlässige Bildungswege, damit Spätentwickler nicht dauerhaft aussortiert werden.",
+      "response": "Wie selektiv das Schulsystem sein soll, ist eine bildungspolitische Werteentscheidung — die empirische Basis dazu: Lernverläufe entwickeln sich unterschiedlich, und PISA zeigt für Deutschland einen besonders engen Zusammenhang zwischen sozialer Herkunft und Schulform — frühe, harte Selektion trifft also nicht nur die ‚Leistung', sondern auch das Elternhaus. Eine feste Quote setzt zudem voraus, dass sich ‚die Besten' zum Übertrittszeitpunkt zuverlässig messen lassen; genau das ist nach der Datenlage zur frühen Diagnostik unsicher. Ob man trotzdem stärker selektieren will, bleibt eine Wertefrage — die Treffsicherheit der Auswahl ist dagegen empirisch begrenzt.",
       "keywords": [
         "Gymnasium",
         "25 Prozent",
@@ -590,13 +637,12 @@
       ],
       "relatedSections": [
         "pisa-chancengleichheit"
-      ],
-      "verdict": "lacks-context"
+      ]
     },
     {
       "id": "schule-ideologiefrei",
       "claim": "Schule muss endlich ideologiefrei werden.",
-      "response": "Schule darf keine Parteipropaganda machen – da stimmt der Kern. ‚Ideologiefrei‘ heißt aber nicht wertfrei: Demokratie, Grundrechte, Gleichberechtigung, Nationalsozialismus, Diskriminierung und Medienkompetenz gehören zum Bildungsauftrag. Entscheidend ist, Themen plural und altersgerecht zu behandeln statt parteipolitisch zu rahmen.",
+      "response": "Schule darf keine Parteipropaganda machen – da stimmt der Kern. ‚Ideologiefrei‘ heißt aber nicht wertfrei: Demokratie, Grundrechte, Gleichberechtigung, Nationalsozialismus, Diskriminierung und Medienkompetenz gehören zum gesetzlichen Bildungsauftrag. Der bestehende Maßstab dafür ist, Themen plural und altersgerecht zu behandeln, ohne sie parteipolitisch zu rahmen — wer ‚ideologiefrei‘ fordert, sollte sagen, was davon gestrichen werden soll.",
       "keywords": [
         "ideologiefrei",
         "Schule",
@@ -606,7 +652,13 @@
       "relatedSections": [
         "pisa-chancengleichheit"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Begriffsunschärfe als Hebel: ‚Ideologie' bleibt undefiniert, sodass sich beliebige Unterrichtsinhalte darunter einsortieren lassen. Die Forderung verwechselt Parteilichkeit (die untersagt ist) mit Wertebildung (die zum gesetzlichen Bildungsauftrag gehört).",
+      "counterQuestions": [
+        "Was meinst du mit ‚Ideologie' — Parteipropaganda oder auch Demokratie- und Grundrechtsbildung?",
+        "Welches konkrete Unterrichtsthema würdest du streichen — und gehört es zum gesetzlichen Bildungsauftrag?",
+        "Woran erkennst du den Unterschied zwischen kontroverser Darstellung und parteiischer Rahmung?"
+      ]
     }
   ],
   "sources": [
