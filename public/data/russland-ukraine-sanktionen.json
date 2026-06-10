@@ -5,7 +5,7 @@
   "seoTitle": "Russland, Ukraine & Sanktionen: Fakten & Argumente 2026",
   "seoDescription": "Schaden Sanktionen uns mehr als Russland? Bringt Ukraine-Hilfe etwas? Ist die NATO schuld? Antworten mit Quellen von EU, Kiel Institute, SIPRI, bpb und Auswärtigem Amt.",
   "icon": "balance",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "20 EU-Sanktionspakete (Stand April 2026)",
     "Russlands BIP: +4,3 % (2024) → +0,6 % (2025)",
@@ -168,7 +168,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Sanktionen wirken selten als Knockout, sondern als langsame Erosion der wirtschaftlichen Handlungsspielräume. Kurzfristig hat Russland sie besser verkraftet als von manchen erhofft — die Kriegswirtschaft hielt die Konjunktur zunächst oben. Mittelfristig zeigen sich aber deutliche Belastungen.",
+          "text": "Sanktionen wirken selten als Knockout, sondern als langsame Erosion der wirtschaftlichen Handlungsspielräume. Kurzfristig hat Russland sie besser verkraftet als von manchen erwartet — die Kriegswirtschaft hielt die Konjunktur zunächst oben. Mittelfristig zeigen sich aber deutliche Belastungen.",
           "sourceRefs": [
             "ifw-kiel-kriegswirtschaft"
           ]
@@ -568,7 +568,7 @@
     {
       "id": "ukraine-kann-nicht-gewinnen",
       "claim": "Die Ukraine kann eh nicht gewinnen — reine Geldverschwendung.",
-      "response": "Militärisch ist die Lage festgefahren, das stimmt — ein schneller Sieg ist unwahrscheinlich. Doch ‚gewinnen' wird selten definiert. Die Hilfe zielt nicht auf einen Endsieg, sondern darauf, die Ukraine verhandlungsfähig zu halten: Wer aus einer Position der Schwäche verhandelt, bekommt schlechtere Bedingungen. Die deutsche Militärhilfe ist zudem überwiegend Gerät, kein verschenktes Geld. ‚Verschwendung' unterstellt, das Ergebnis stünde fest — das tut es nicht.",
+      "response": "Militärisch ist die Lage festgefahren, das stimmt — ein schneller Sieg ist unwahrscheinlich. Doch ‚gewinnen' wird selten definiert. Der erklärte Zweck der Hilfe ist nicht ein Endsieg, sondern die Ukraine verhandlungsfähig zu halten: Wer aus einer Position der Schwäche verhandelt, bekommt schlechtere Bedingungen. Die deutsche Militärhilfe ist zudem überwiegend Gerät, kein verschenktes Geld. ‚Verschwendung' als Tatsachenbehauptung unterstellt, das Ergebnis stünde fest — das tut es nicht. Ob einem dieser Zweck die Kosten wert ist, bleibt davon getrennt eine politische Abwägung.",
       "keywords": [
         "Ukraine",
         "gewinnen",
@@ -615,7 +615,7 @@
     {
       "id": "milliarden-waehrend-hier-alles-zerfaellt",
       "claim": "Wir zahlen Milliarden für die Ukraine, während hier alles zerfällt!",
-      "response": "Die Summen sind real, und marode Schulen oder Brücken sind ein berechtigtes Ärgernis. Nur konkurriert die Ukraine-Hilfe damit kaum: Die für 2026 geplanten 11,5 Mrd. € sind rund 2 % eines Bundeshaushalts von über 500 Mrd. €, und die kumulierte Hilfe über fast vier Jahre liegt unter dem, was der einmalige Energie-Abwehrschirm 2022 kostete. Wer hier investiert, nimmt es nicht der Infrastruktur weg — beides sind politische Prioritäten, kein Entweder-oder.",
+      "response": "Die Summen sind real, und marode Schulen oder Brücken sind ein berechtigtes Ärgernis. Nur konkurriert die Ukraine-Hilfe damit kaum: Die für 2026 geplanten 11,5 Mrd. € sind rund 2 % eines Bundeshaushalts von über 500 Mrd. €, und die kumulierte Hilfe über fast vier Jahre liegt unter dem, was der einmalige Energie-Abwehrschirm 2022 kostete. Haushaltsposten konkurrieren zwar grundsätzlich miteinander — aber ein Posten von rund 2 % erklärt keinen jahrzehntelangen Sanierungsstau. Wie die Prioritäten gesetzt werden, ist am Ende eine politische Entscheidung.",
       "keywords": [
         "Milliarden",
         "Steuergeld",
@@ -629,7 +629,7 @@
         "ukraine-hilfe"
       ],
       "verdict": "misleading",
-      "rhetoricalPattern": "Die Parole baut eine falsche Dichotomie auf: Geld für die Ukraine ODER für Schulen und Straßen. Tatsächlich entscheidet der Haushalt über viele Posten gleichzeitig; die Ukraine-Hilfe ist nur ein kleiner Anteil und steht nicht in direkter Konkurrenz zu Investitionen im Inland.",
+      "rhetoricalPattern": "Die Parole baut eine falsche Dichotomie auf: Geld für die Ukraine ODER für Schulen und Straßen. Tatsächlich entscheidet der Haushalt über viele Posten gleichzeitig; die Ukraine-Hilfe ist mit rund 2 % ein kleiner Anteil, der den Zustand der Infrastruktur nicht erklärt.",
       "counterQuestions": [
         "Welchen Anteil am Bundeshaushalt macht die Ukraine-Hilfe konkret aus — schätz mal?",
         "Wäre die marode Brücke saniert, wenn es die Ukraine-Hilfe nicht gäbe?",
@@ -680,6 +680,28 @@
         "Woher kommt das russische Wachstum — aus produktiver Wirtschaft oder aus Rüstungsausgaben?",
         "Was sagt ein Leitzins von zeitweise 21 % über den Zustand einer Volkswirtschaft aus?",
         "Müssen Sanktionen sofort zum Kollaps führen, um zu wirken — oder reicht eine schleichende Erosion?"
+      ]
+    },
+    {
+      "id": "russland-kollabiert-bald",
+      "claim": "Die Sanktionen ruinieren Russland — der Kollaps ist nur eine Frage der Zeit!",
+      "response": "Die Belastungen sind real, aber ein Kollaps zeichnet sich nicht ab: Russlands Wirtschaft wuchs 2024 um 4,3 %, und auch nach dem Einbruch auf 0,6 % Wachstum 2025 funktioniert die Kriegswirtschaft — das Kiel Institute beschreibt sie als ‚groß und wachsend', militärisch relevante Komponenten kommen weiter über Drittländer und Parallelimporte. Die Erosion ist messbar (Öl- und Gaseinnahmen 2025: −21 %, Leitzins zeitweise 21 %), aber Sanktionen wirken als langsamer Druck auf die Spielräume, nicht als absehbarer Zusammenbruch. Wer den Kollaps verspricht, überzeichnet ihre Wirkungsweise genauso wie jene, die sie für wirkungslos erklären.",
+      "keywords": [
+        "Kollaps",
+        "ruinieren",
+        "Zusammenbruch",
+        "Russland pleite",
+        "Wirtschaft kollabiert"
+      ],
+      "relatedSections": [
+        "wirken-sanktionen"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild des ‚Sanktionen wirken nicht'-Strohmanns: Aus realen Belastungssignalen wird ein zwangsläufiger Zusammenbruch extrapoliert. Gegenläufige Befunde — kriegsfinanziertes Wachstum, Umgehung über Drittländer — verschwinden aus dem Bild.",
+      "counterQuestions": [
+        "Woran würdest du einen bevorstehenden Kollaps festmachen — und welche dieser Signale siehst du aktuell?",
+        "Wie passt ein Wachstum von 4,3 % im Jahr 2024 zu einem unmittelbar bevorstehenden Zusammenbruch?",
+        "Was bedeutet es für die Sanktionswirkung, dass Russland Komponenten über Drittländer weiter beschafft?"
       ]
     },
     {
