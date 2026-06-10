@@ -5,12 +5,12 @@
   "seoTitle": "Teilzeit & Arbeitsmoral: Arbeiten wir wirklich weniger?",
   "seoDescription": "Sind die Deutschen faul? Will die Gen Z nicht mehr arbeiten? Fakten zu Arbeitsstunden, Produktivität, Teilzeit, Care-Arbeit, Aktivrente & Vier-Tage-Woche — Quellen IAB, Destatis, OECD.",
   "icon": "schedule",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "61,26 Mrd. Stunden Gesamtarbeitsvolumen (2025)",
     "1.331 Std./Kopf — wenigste der OECD",
     "Platz 10 der OECD bei Produktivität je Stunde",
-    "13 Argumente"
+    "14 Argumente"
   ],
   "sourceNote": "Daten stammen primär von IAB, Destatis, OECD, DIW, IW, BMF, Deutscher Rentenversicherung und Bertelsmann Stiftung (Stand 2024–2026); zugrunde liegende Erhebungsjahre reichen von 1991 bis 2026. Wichtig: IAB-, OECD- und Destatis-Arbeitszeitwerte beruhen auf unterschiedlichen Methoden und sind nicht 1:1 vergleichbar. Bei unsicheren Werten werden Spannweiten oder qualitative Aussagen verwendet.",
   "sections": [
@@ -808,14 +808,14 @@
       "rhetoricalPattern": "Die Parole verwechselt Ursache und Motiv: Sie deutet eine strukturelle Erklärung (mehr erwerbstätige Studierende) als Einstellungsproblem (‚keine Lust') um — und pauschalisiert mit ‚alle'.",
       "counterQuestions": [
         "Was soll eine Studentin tun, die neben dem Studium jobbt — Vollzeit arbeiten und das Studium hinwerfen?",
-        "Wäre dir lieber, junge Menschen würden gar nicht studieren, damit die Teilzeitquote sinkt?",
+        "Wie verändert sich die Teilzeitquote der Jungen, wenn man die arbeitenden Studierenden herausrechnet?",
         "Woher weißt du, wie diese Leute nach dem Abschluss arbeiten?"
       ]
     },
     {
       "id": "arg-6",
       "claim": "Wenn wir die Teilzeit abschaffen, haben wir keinen Fachkräftemangel mehr.",
-      "response": "Mehr Arbeitskräfte ließen sich tatsächlich gewinnen — eine IAW-Studie beziffert das Potenzial auf bis zu 1,7 Millionen Vollzeitstellen, allerdings nur unter klaren Annahmen. Teilzeit lässt sich aber nicht per Dekret abschaffen: Sie hängt an Care-Pflichten (23,5 %), Ausbildung (11,6 %) und Krankheit (4,9 %). Würde man sie streichen, schieden viele Menschen ganz aus dem Arbeitsmarkt aus. Wirksamer sind bessere Kinderbetreuung, der Abbau steuerlicher Fehlanreize und flexible Modelle — denn die größte Lücke reißt ohnehin der Renteneintritt von 13,4 Millionen Babyboomern.",
+      "response": "Mehr Arbeitskräfte ließen sich tatsächlich gewinnen — eine IAW-Studie beziffert das Potenzial auf bis zu 1,7 Millionen Vollzeitstellen, allerdings nur unter klaren Annahmen. Teilzeit lässt sich aber nicht per Dekret abschaffen: Sie hängt an Care-Pflichten (23,5 %), Ausbildung (11,6 %) und Krankheit (4,9 %). Würde man sie streichen, schieden viele Menschen ganz aus dem Arbeitsmarkt aus statt aufzustocken. Das rechnerische Potenzial hängt also daran, ob die Gründe für Teilzeit (Betreuung, Steueranreize, Gesundheit) adressiert werden — und die größte Lücke reißt ohnehin der Renteneintritt von 13,4 Millionen Babyboomern.",
       "keywords": [
         "Fachkräftemangel",
         "Abschaffen",
@@ -832,7 +832,7 @@
       "counterQuestions": [
         "Wer betreut die Kinder und Pflegebedürftigen, wenn die Teilzeit wegfällt?",
         "Glaubst du, eine pflegende Angehörige geht dann in Vollzeit — oder ganz aus dem Job?",
-        "Was hilft mehr gegen Fachkräftemangel: ein Verbot oder genug Kitaplätze?"
+        "Welche der Teilzeit-Ursachen (Betreuung, Steueranreize, Gesundheit) ließe sich überhaupt per Gesetz abstellen?"
       ]
     },
     {
@@ -902,7 +902,7 @@
       "counterQuestions": [
         "Ist es eine freie Wahl, in Teilzeit zu gehen, wenn es keinen Kitaplatz gibt?",
         "Wem nützt die unbezahlte Sorgearbeit, für die jemand die Stunden reduziert?",
-        "Würdest du das Steuersystem ändern, das Teilzeit für Zweitverdiener attraktiv macht — oder nur den Einzelnen die Schuld geben?"
+        "Welche Rolle spielen Kitaplätze, Ehegattensplitting und Steuerklasse V bei der Entscheidung für Teilzeit?"
       ]
     },
     {
@@ -924,7 +924,7 @@
       "counterQuestions": [
         "Kann es sein, dass nicht mehr Leute krank sind, sondern Krankmeldungen nur besser erfasst werden?",
         "Wen meinst du mit ‚jeder' — auch die 40 % Fehltage durch monatelange schwere Erkrankungen?",
-        "Würdest du dir wünschen, dass Kranke trotzdem zur Arbeit kommen und Kollegen anstecken?"
+        "Wie unterscheidest du zwischen ‚Bummelei' und den 40 % der Fehltage, die auf Langzeiterkrankungen entfallen?"
       ]
     },
     {
@@ -946,7 +946,29 @@
       "counterQuestions": [
         "Wenn Produktivität und Umsatz stabil bleiben — woran genau scheitert die Wirtschaft dann?",
         "Ist die Zahl der Arbeitstage entscheidend oder das Ergebnis am Ende der Woche?",
-        "Würdest du ein Modell ablehnen, das den Krankenstand senkt und Beschäftigte hält?"
+        "Für welche Branchen würde das Modell aus deiner Sicht nicht funktionieren — und was folgt daraus für den Rest?"
+      ]
+    },
+    {
+      "id": "arg-14",
+      "claim": "Die Vier-Tage-Woche macht alle produktiver — das ist doch längst bewiesen!",
+      "response": "Die Studienlage ist positiver, als Skeptiker behaupten — aber ‚bewiesen für alle' ist sie nicht. Die Münster-Studie (45 Organisationen, 2024) zeigt stabile Umsätze und bessere Gesundheit, und über 70 % der Teilnehmer machten weiter. Der Haken: Die Betriebe nahmen freiwillig teil und waren meist motiviert — eine Selbstselektion, die sich nicht auf alle Unternehmen hochrechnen lässt. In Schichtbetrieben, Pflege oder Handwerk ist das Modell schwer übertragbar. Belegt ist: Es kann funktionieren, ohne zu ruinieren. Nicht belegt ist: Es funktioniert überall und steigert generell die Produktivität.",
+      "keywords": [
+        "Vier-Tage-Woche bewiesen",
+        "produktiver",
+        "Studie",
+        "für alle",
+        "Arbeitszeitverkürzung"
+      ],
+      "relatedSections": [
+        "arbeitszeitmodelle"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der ‚Spinnerei'-Parole: Aus Pilotstudien mit freiwilligen, motivierten Teilnehmern wird ein Generalbeweis. Die Selbstselektion und die schwer übertragbaren Branchen verschwinden — derselbe Fehler wie bei der Gegenseite, nur mit umgekehrtem Vorzeichen.",
+      "counterQuestions": [
+        "Wer hat an den Studien teilgenommen — ein Querschnitt der Wirtschaft oder freiwillige, motivierte Betriebe?",
+        "Gilt dein ‚bewiesen' auch für Schichtbetriebe, Pflege und Handwerk?",
+        "Was unterscheidet ‚kann funktionieren' von ‚funktioniert überall' — und welche Studie belegt Letzteres?"
       ]
     },
     {
@@ -969,7 +991,7 @@
       "counterQuestions": [
         "Entsteht zusätzliche Arbeit, wenn vor allem Menschen entlastet werden, die ohnehin weiterarbeiten?",
         "Wie viele der Beschäftigten haben überhaupt steuerpflichtige Überstundenzuschläge?",
-        "Was bewegt mehr: ein Steuerbonus für wenige oder bessere Betreuung für Millionen Teilzeitkräfte?"
+        "Wie viele zusätzliche Arbeitsstunden müssten die Maßnahmen auslösen, um die Lücke der Babyboomer zu schließen?"
       ]
     },
     {
