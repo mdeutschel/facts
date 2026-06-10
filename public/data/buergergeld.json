@@ -116,9 +116,10 @@
         },
         {
           "type": "text",
-          "text": "Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind dafür die Jobcenter.",
+          "text": "Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Grundsicherung erhalten. Zuständig sind dafür die Jobcenter. Das soll sich für einen Teil der Gruppe ändern: Das geplante Leistungsrechtsanpassungsgesetz (Kabinettsbeschluss November 2025) sieht vor, dass nach dem 1. April 2025 eingereiste ukrainische Geflüchtete künftig AsylbLG-Leistungen statt Bürgergeld erhalten. Stand Juni 2026 ist das Gesetz noch nicht von Bundestag und Bundesrat beschlossen; die Zustimmung der Länder steht aus.",
           "sourceRefs": [
-            "bundesregierung-grundsicherung-ukraine"
+            "bundesregierung-grundsicherung-ukraine",
+            "bundestag-leistungsrechtsanpassungsgesetz-2026"
           ]
         }
       ]
@@ -520,7 +521,7 @@
     {
       "id": "ukraine",
       "claim": "Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!",
-      "response": "Der Kern der Aussage stimmt: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Bürgergeld beantragen — früher als andere Schutzsuchende. Richtig ist auch: Sie haben nicht in das System eingezahlt. Das ist allerdings keine Sonderregel für diese Gruppe, sondern das Prinzip der Leistungsart: Bürgergeld ist eine steuerfinanzierte Sozialleistung, keine beitragsfinanzierte Versicherung — genau wie Kindergeld oder Wohngeld. Ob man den frühen Zugang für diese Gruppe richtig findet, ist eine politische Frage — an der Systematik der Leistung ändert sie nichts. Der Zugang ist an Hilfebedürftigkeit und Aufenthaltsstatus geknüpft, verbunden mit Zugang zur Arbeitsvermittlung und Integrationskursen.",
+      "response": "Der Kern der Aussage stimmt: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Bürgergeld beantragen — früher als andere Schutzsuchende. Richtig ist auch: Sie haben nicht in das System eingezahlt. Das ist allerdings keine Sonderregel für diese Gruppe, sondern das Prinzip der Leistungsart: Bürgergeld ist eine steuerfinanzierte Sozialleistung, keine beitragsfinanzierte Versicherung — genau wie Kindergeld oder Wohngeld. Ob man den frühen Zugang für diese Gruppe richtig findet, ist eine politische Frage — und sie wird gerade neu verhandelt: Ein Gesetzentwurf sieht vor, dass nach dem 1. April 2025 eingereiste Ukrainer künftig AsylbLG-Leistungen statt Bürgergeld erhalten. Beschlossen ist das Stand Juni 2026 noch nicht. Der Zugang ist an Hilfebedürftigkeit und Aufenthaltsstatus geknüpft, verbunden mit Zugang zur Arbeitsvermittlung und Integrationskursen.",
       "keywords": [
         "ukraine",
         "flüchtlinge",
@@ -672,6 +673,11 @@
       "id": "ba-verweildauer-sgbii",
       "label": "Bundesagentur für Arbeit – Verweildauern in der Grundsicherung für Arbeitsuchende (SGB II)",
       "url": "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Grundlagen/Methodik-Qualitaet/Methodenberichte/Grundsicherung-Arbeitsuchende-SGBII/Generische-Publikationen/MB-Verweildauern-Leistungsberechtigte-GruSi.pdf?__blob=publicationFile&v=8"
+    },
+    {
+      "id": "bundestag-leistungsrechtsanpassungsgesetz-2026",
+      "label": "Deutscher Bundestag – Anhörung zum Leistungsrechtsanpassungsgesetz: Rechtskreiswechsel für ukrainische Geflüchtete (23. Februar 2026)",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw09-pa-arbeit-soziales-leistungsrecht-1140742"
     },
     {
       "id": "bverfg-sanktionen-2019",
