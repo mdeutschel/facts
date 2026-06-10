@@ -444,7 +444,13 @@
         "pisa-chancengleichheit",
         "bildungsausgaben"
       ],
-      "verdict": "outdated"
+      "verdict": "outdated",
+      "rhetoricalPattern": "Nostalgie-Anker: Ein früherer Ruf wird als heutiger Zustand fortgeschrieben — die Bewertung speist sich aus der Erinnerung, nicht aus der aktuellen Messung. Der PISA-Tiefstand von 2022 kommt in diesem Bild nicht vor.",
+      "counterQuestions": [
+        "Auf welche Zeit und welche Messung stützt sich ‚Weltspitze' — und was zeigen die aktuellen PISA-Daten?",
+        "Was hat sich seit damals verändert — das System oder nur sein Ruf?",
+        "Woran würdest du messen, ob das System wieder vorne ist?"
+      ]
     },
     {
       "id": "halbtags",
@@ -460,7 +466,13 @@
       "relatedSections": [
         "lehrkraeftemangel"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Sichtbarkeits-Fehlschluss: Nur der öffentlich sichtbare Teil der Arbeit (Unterrichtsstunden, Ferien) wird als Gesamtarbeitszeit gewertet. Vorbereitung, Korrekturen, Elterngespräche und Verwaltung bleiben unsichtbar — und fallen damit aus der Rechnung.",
+      "counterQuestions": [
+        "Zählst du nur die Unterrichtsstunden — oder auch Vorbereitung, Korrekturen, Elterngespräche und Konferenzen?",
+        "Was zeigt die Prognos-Arbeitszeitstudie zur tatsächlichen Jahresarbeitszeit von Lehrkräften?",
+        "Wie viele Stunden Arbeit stecken nach deiner Schätzung hinter einer einzelnen Unterrichtsstunde?"
+      ]
     },
     {
       "id": "verbloedung",
@@ -477,7 +489,13 @@
         "pisa-chancengleichheit",
         "bildungsausgaben"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Personalisierung eines Strukturbefunds: Ein messbarer Leistungsrückgang wird zur Eigenschaft der Schüler erklärt, statt nach den veränderten Bedingungen zu fragen — Unterfinanzierung, Lehrkräftemangel, Pandemie-Lernrückstände und die starke Kopplung an die soziale Herkunft.",
+      "counterQuestions": [
+        "Erklärt sich ein Rückgang über alle Bundesländer hinweg besser durch ‚dümmere Kinder' oder durch veränderte Rahmenbedingungen?",
+        "Was hat sich seit 2012 geändert — die Kinder oder Personaldecke, Unterrichtsausfall und Pandemie?",
+        "Welche Rolle spielen Lernrückstände aus den Schulschließungen in deiner Erklärung?"
+      ]
     },
     {
       "id": "laendersache",
@@ -494,7 +512,13 @@
         "bildungsausgaben",
         "digitalisierung"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Sachzwang-Argument: Eine änderbare Rechtslage (das Kooperationsverbot von 2006) wird wie ein Naturgesetz behandelt, und Zuständigkeitsverteilung wird mit Handlungsunfähigkeit verwechselt — obwohl Bund und Länder nachweislich gemeinsame Programme auflegen.",
+      "counterQuestions": [
+        "Ist das Kooperationsverbot ein Naturgesetz — oder eine Grundgesetzänderung von 2006, die sich wieder ändern lässt?",
+        "Wie kam der DigitalPakt zustande, wenn ‚man nichts machen kann'?",
+        "Warum fordern inzwischen mehrere Bundesländer selbst die Aufhebung des Verbots?"
+      ]
     },
     {
       "id": "genug-geld",
@@ -511,7 +535,13 @@
         "bildungsausgaben",
         "kita-fruehkindlich"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Absolutzahl ohne Maßstab: Eine große Summe (198 Milliarden) wirkt für sich genommen wie ein Beleg für ‚genug'. Bewertbar wird sie erst im Verhältnis — zum BIP, zum OECD-Schnitt und zum sichtbaren Bedarf.",
+      "counterQuestions": [
+        "Gemessen woran ist es ‚genug' — an der absoluten Summe oder am Anteil der Wirtschaftsleistung im OECD-Vergleich?",
+        "Wenn Deutschland nur den OECD-Schnitt erreichte — was würden rund 25 Mrd. € mehr pro Jahr ändern?",
+        "Wie passt ‚genug Geld' zu 35.000 fehlenden Lehrkräften und maroden Gebäuden?"
+      ]
     },
     {
       "id": "hauptschule",
@@ -527,7 +557,13 @@
       "relatedSections": [
         "pisa-chancengleichheit"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Zirkelschluss aus dem Selektionsergebnis: Wer auf eine Schulform sortiert wurde, gilt rückwirkend als dort hingehörig. Die soziale Selektion, die PISA für Deutschland dokumentiert, wird so zur angeborenen Begabung umgedeutet.",
+      "counterQuestions": [
+        "Wie stark hängt die Schulform in Deutschland von der sozialen Herkunft ab — auch bei gleicher Leistung?",
+        "Wenn zwei gleich starke Kinder unterschiedliche Empfehlungen bekommen — was misst die Schulform dann?",
+        "Was sagt ein Bildungsweg über Intelligenz aus, wenn Förderung und Startbedingungen ungleich verteilt sind?"
+      ]
     },
     {
       "id": "inklusion",
@@ -543,7 +579,13 @@
       "relatedSections": [
         "lehrkraeftemangel"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Verwechslung von Konzept und Ausstattung: Probleme einer unterfinanzierten Umsetzung werden dem Konzept selbst zugeschrieben. Die INSIDE-Studie trennt genau das — entscheidend sind Personal und Kooperation, nicht das Ob der Inklusion.",
+      "counterQuestions": [
+        "Meinst du Inklusion als Konzept — oder Inklusion ohne zusätzliches Personal? Die Studienlage trennt das.",
+        "Welche generellen Nachteile für Mitschüler ohne Förderbedarf zeigt die INSIDE-Studie?",
+        "Woran würdest du ‚schadet' festmachen — an Einzelfällen oder an den Daten aus 246 Schulen?"
+      ]
     },
     {
       "id": "digitalisierung",
@@ -560,7 +602,13 @@
       "relatedSections": [
         "digitalisierung"
       ],
-      "verdict": "false"
+      "verdict": "false",
+      "rhetoricalPattern": "Falsche Dichotomie: Lesenlernen und digitale Kompetenz werden als Entweder-oder gerahmt, obwohl beides Grundkompetenzen sind. Berechtigte Kritik an schlechter Umsetzung (Geräte ohne Konzept) wird dabei zum Urteil über das Ziel selbst.",
+      "counterQuestions": [
+        "Geht es dir um Tablets ohne pädagogisches Konzept — oder dagegen, dass Kinder digitale Kompetenzen lernen?",
+        "Schließen Lesenlernen und Medienkompetenz einander aus — oder braucht ein Schulabgänger beides?",
+        "Was unterscheidet eine schlechte Umsetzung von einem falschen Ziel?"
+      ]
     },
     {
       "id": "homeschooling-freiheit",
@@ -604,7 +652,13 @@
       "relatedSections": [
         "pisa-chancengleichheit"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Begriffsunschärfe als Hebel: ‚Ideologie' bleibt undefiniert, sodass sich beliebige Unterrichtsinhalte darunter einsortieren lassen. Die Forderung verwechselt Parteilichkeit (die untersagt ist) mit Wertebildung (die zum gesetzlichen Bildungsauftrag gehört).",
+      "counterQuestions": [
+        "Was meinst du mit ‚Ideologie' — Parteipropaganda oder auch Demokratie- und Grundrechtsbildung?",
+        "Welches konkrete Unterrichtsthema würdest du streichen — und gehört es zum gesetzlichen Bildungsauftrag?",
+        "Woran erkennst du den Unterschied zwischen kontroverser Darstellung und parteiischer Rahmung?"
+      ]
     }
   ],
   "sources": [
