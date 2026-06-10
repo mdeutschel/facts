@@ -5,7 +5,7 @@
   "seoTitle": "Klimawandel: Argumente, Fakten & Mythen im Faktencheck",
   "seoDescription": "Hat sich das Klima schon immer verändert? Sind Forscher uneins? Antworten zu Temperatur, CO₂, Extremwetter und Kippelementen — Quellen IPCC und DWD.",
   "icon": "thermostat",
-  "lastUpdated": "2026-06-07",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "2025: drittwärmstes Jahr (+1,47 °C); 3-Jahres-Mittel erstmals >1,5 °C",
     "CO2-Konzentration heute höher als in 800.000 Jahren",
@@ -828,7 +828,7 @@
     {
       "id": "klimaschutz-arbeitsplaetze",
       "claim": "Klimaschutz kostet Arbeitsplätze!",
-      "response": "Klimaschutz verschiebt Beschäftigung stärker, als dass er pauschal Jobs vernichtet. Weltweit arbeiten laut IRENA bereits 16,6 Mio. Menschen in den Erneuerbaren. In Deutschland sind Energiewende-Berufe in den letzten Jahren stark gewachsen. Entscheidend ist, den Strukturwandel mit Qualifizierung und regionaler Unterstützung zu begleiten.",
+      "response": "Klimaschutz verschiebt Beschäftigung stärker, als dass er pauschal Jobs vernichtet. Weltweit arbeiten laut IRENA bereits 16,6 Mio. Menschen in den Erneuerbaren. In Deutschland sind Energiewende-Berufe in den letzten Jahren stark gewachsen. Ein wahrer Kern bleibt: Für einzelne Regionen und Branchen — etwa die Kohlereviere — sind die Verluste real und konzentriert, während neue Jobs oft anderswo und in anderen Berufen entstehen. Pauschal ‚kostet Arbeitsplätze' beschreibt also eine Verschiebung als Vernichtung.",
       "keywords": [
         "arbeitsplätze",
         "jobs",
@@ -919,7 +919,7 @@
     {
       "id": "china-indien-schlimmer",
       "claim": "China und Indien sind doch viel schlimmer!",
-      "response": "China stößt absolut viel CO2 aus, Indien pro Kopf aber deutlich weniger als Deutschland (Indien 2,0 t, Deutschland 6,8 t). Für faire Vergleiche zählen Pro-Kopf, historische Beiträge und Handelsemissionen — rund ein Drittel der chinesischen Emissionen entfällt auf Exporte, auch nach Deutschland. Politisch zeigt sich der Unterschied bei COP30: Saudi-Arabien, Russland, Indien und China blockierten die geforderte Fossil-Ausstiegs-Roadmap. Wenn Deutschland argumentiert ‚die sind schlimmer, also tun wir nichts‘, landet es im selben Lager — und nicht bei den über 80 Ländern, die voran wollen.",
+      "response": "China stößt absolut viel CO2 aus, Indien pro Kopf aber deutlich weniger als Deutschland (Indien 2,0 t, Deutschland 6,8 t). Für faire Vergleiche zählen Pro-Kopf, historische Beiträge und Handelsemissionen — rund ein Drittel der chinesischen Emissionen entfällt auf Exporte, auch nach Deutschland. Bei COP30 blockierten Saudi-Arabien, Russland, Indien und China die von über 80 Ländern geforderte Fossil-Ausstiegs-Roadmap — der Verweis auf China und Indien beschreibt also ein reales Verhalten dieser Staaten. Nur trägt er als Argument nichts: Aus dem Verhalten anderer folgt logisch nicht, was für die eigenen Emissionen richtig ist.",
       "keywords": [
         "china",
         "indien",
@@ -934,11 +934,11 @@
         "co2-konzentration"
       ],
       "verdict": "lacks-context",
-      "rhetoricalPattern": "Whataboutismus: Verantwortung wird über Vergleich verlagert, ohne eigene Reduktion. Dabei werden Pro-Kopf-Werte, historische Beiträge und Handelsemissionen systematisch ausgeblendet. Politisch landet das Argument bei den COP30-Blockierern — nicht bei den progressiven 80+ Ländern.",
+      "rhetoricalPattern": "Whataboutismus: Verantwortung wird über den Vergleich mit anderen verlagert, ohne dass daraus etwas für die eigenen Emissionen folgt. Dabei werden Pro-Kopf-Werte, historische Beiträge und Handelsemissionen systematisch ausgeblendet — je nach Maßstab kippt das Bild.",
       "counterQuestions": [
         "Indiens Pro-Kopf-Emissionen liegen bei 2,0 t CO2, Deutschland bei 6,8 — auf welcher Basis ist Indien ‚schlimmer‘?",
         "Wenn rund ein Drittel der chinesischen Emissionen für Exporte (auch nach Deutschland) anfällt — wer ist da ‚schlimmer‘?",
-        "Bei COP30 standen Saudi-Arabien, Russland, Indien und China gegen die Fossil-Roadmap — auf welcher Seite siehst du Deutschland mit deiner Argumentation?"
+        "Angenommen, China und Indien wären tatsächlich ‚schlimmer' — was folgt daraus für die deutschen Emissionen?"
       ]
     },
     {
@@ -966,7 +966,7 @@
     {
       "id": "zu-teuer",
       "claim": "Klimaschutz können wir uns nicht leisten!",
-      "response": "Klimaschutz erfordert hohe Investitionen — verzögertes Handeln macht es aber teurer. Munich Re beziffert die Naturkatastrophen-Schäden 2025 weltweit auf rund 224 Mrd. US-Dollar, 92 % davon wetterbedingt; allein die LA-Waldbrände im Januar waren die teuerste Einzelkatastrophe des Jahres. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad rund 4,5 Bio. USD pro Jahr für Clean Energy — viel Geld, aber im Vergleich zu eskalierenden Schadens- und Anpassungskosten die günstigere Option.",
+      "response": "Klimaschutz erfordert hohe Investitionen — verzögertes Handeln macht es aber teurer. Munich Re beziffert die Naturkatastrophen-Schäden 2025 weltweit auf rund 224 Mrd. US-Dollar, 92 % davon wetterbedingt; allein die LA-Waldbrände im Januar waren die teuerste Einzelkatastrophe des Jahres. Der IPCC warnt vor Carbon Lock-ins und stranded assets; die IEA veranschlagt im Net-Zero-Pfad rund 4,5 Bio. USD pro Jahr für Clean Energy — viel Geld, aber nach diesen Analysen günstiger als die eskalierenden Schadens- und Anpassungskosten des Nicht-Handelns.",
       "keywords": [
         "zu teuer",
         "leisten",
