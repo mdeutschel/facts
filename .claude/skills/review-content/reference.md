@@ -11,7 +11,8 @@ Konkrete Beispiele aus echtem Feedback mit Antipattern und verbesserten Versione
 5. [Dimension 6: Absolutistische Sprache](#dim-6-absolutistische-sprache)
 6. [Dimension 7: Antwort verfehlt den Claim](#dim-7-antwort-verfehlt-den-claim)
 7. [Dimension 8: Gesprächstauglichkeit](#dim-8-gesprächstauglichkeit)
-8. [Review-Report-Vorlage](#review-report-vorlage)
+8. [Dimension 9: Politische Neutralität](#dim-9-politische-neutralität)
+9. [Review-Report-Vorlage](#review-report-vorlage)
 
 ---
 
@@ -262,6 +263,72 @@ Konkrete Beispiele aus echtem Feedback mit Antipattern und verbesserten Versione
 
 ---
 
+## Dim 9: Politische Neutralität
+
+### Antipattern A: Verdict auf einem Werturteil
+
+```json
+{
+  "claim": "Erben ist Privatsache — der Staat hat da nichts zu suchen!",
+  "verdict": "misleading",
+  "response": "Art. 14 GG garantiert Eigentum, betont aber auch dessen Sozialpflichtigkeit. […] Deshalb ist ihre Besteuerung keine unzulässige Einmischung, sondern Teil legitimer Verteilungspolitik in einem Sozialstaat."
+}
+```
+
+**Problem**: Der Claim ist eine Werteposition — keine Statistik kann ihn widerlegen, der Empirie-Test (Dim 9a) schlägt fehl. Das Verdict `misleading` suggeriert faktische Widerlegbarkeit. Zusätzlich endet das `response` in einem Plädoyer („legitime Verteilungspolitik"), das eine politische Position als richtig erklärt.
+
+### Korrigierte Version
+
+```json
+{
+  "claim": "Erben ist Privatsache — der Staat hat da nichts zu suchen!",
+  "response": "Das ist eine Werteposition — hier die Faktenbasis dazu: Art. 14 GG garantiert Eigentum und Erbrecht, verankert aber auch die Sozialpflichtigkeit des Eigentums; das BVerfG hat die Erbschaftsteuer mehrfach als verfassungskonform bestätigt. 96 % aller Erbfälle bleiben unter den Freibeträgen. Ob der Staat darüber hinaus stärker oder schwächer besteuern soll, ist eine Verteilungsfrage, die Daten allein nicht entscheiden können."
+}
+```
+
+**Warum besser**: Kein Verdict auf einer Wertfrage. Das `response` liefert die verfassungsrechtliche und statistische Faktenbasis und benennt explizit, wo das Werturteil beginnt — ohne es zu fällen.
+
+### Antipattern B: Plädoyer-Sprache und Lager-Framing
+
+```json
+{
+  "response": "[…] 96 % aller Erbfälle fallen komplett unter die Freibeträge. Das 'Elternhaus'-Argument schützt in Wahrheit die Villen der Superreichen."
+}
+```
+
+**Problem**: Der erste Satz ist Faktencheck, der zweite politische Rhetorik. „Villen der Superreichen" ist Lager-Sprache (Dim 9d), „in Wahrheit … schützt" unterstellt den Vertretern der Gegenposition ein verdecktes Motiv statt eine falsche Zahl.
+
+### Korrigierte Version
+
+```json
+{
+  "response": "[…] 96 % aller Erbfälle fallen komplett unter die Freibeträge. Von einer Abschaffung oder weiteren Senkung der Erbschaftsteuer würden daher rechnerisch vor allem die wenigen sehr großen Nachlässe profitieren — das geerbte Elternhaus ist heute schon weitgehend steuerfrei."
+}
+```
+
+**Warum besser**: Dieselbe Aussage als überprüfbare Verteilungsaussage formuliert, ohne Motivunterstellung und ohne Kampfvokabular.
+
+### Antipattern C: Asymmetrischer Maßstab
+
+```json
+{
+  "claim": "Die Reichen wandern dann einfach ins Ausland ab!",
+  "verdict": "mostly-false"
+}
+```
+
+— während im selben Topic ein gleich pauschaler Claim der Gegenrichtung („Eine Vermögenssteuer finanziert unsere Schulen und Krankenhäuser!") fehlt oder milder bewertet würde.
+
+**Prüfung (Dim 9c/9e)**: Würde der inhaltlich gleich starke Claim der Gegenrichtung dasselbe Verdict bekommen? Gibt es im realen Diskurs verbreitete Fehlannahmen der anderen Richtung, die im Topic fehlen? Wenn ja: als ⚠-Befund melden und Claims ergänzen — z. B. überzogene Aufkommenserwartungen, „die Schweiz zeigt, dass niemand abwandert", „nur die obersten 0,1 % wären betroffen, ganz ohne Nebenwirkungen".
+
+### Schnelltest für jedes Argument
+
+1. **Empirie-Test**: Könnte eine Studie/Statistik den Claim widerlegen? Nein → kein Verdict, Faktenbasis + Wertkonflikt ausweisen.
+2. **Plädoyer-Test**: Enthält das `response` eine Empfehlung oder Legitimitätszuschreibung („sollte", „legitim", „nötig", „überfällig")? Ja → in Datenlage + offene Wertfrage umformulieren.
+3. **Spiegel-Test**: Würde dieselbe Formulierung mit vertauschten politischen Vorzeichen als parteiisch auffallen? Ja → neutralisieren.
+
+---
+
 ## Review-Report-Vorlage
 
 Bei der Darstellung der Befunde im Review-Modus diese Struktur verwenden:
@@ -284,6 +351,12 @@ Bei der Darstellung der Befunde im Review-Modus diese Struktur verwenden:
 ...
 
 (für jede Dimension mit Befunden wiederholen)
+
+### Dim 9: Politische Neutralität
+| Element | Bewertung | Befund | Vorschlag |
+|---------|-----------|--------|-----------|
+| argument "claim-id" | ✗ | Verdict auf normativem Claim | Verdict entfernen, Wertkonflikt ausweisen |
+| Topic gesamt | ⚠ | Claims nur aus einer Richtung | Verbreitete Fehlannahmen der Gegenrichtung ergänzen |
 
 ## Empfohlene Änderungen
 1. argument "claim-id": response umformulieren (Dim 1, 5)

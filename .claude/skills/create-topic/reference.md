@@ -91,6 +91,22 @@ Ziellänge `response`: 3–5 Sätze, 40–100 Wörter.
 - Wenn kein erkennbares Denkmuster vorliegt: `rhetoricalPattern` weglassen statt künstlich konstruieren.
 - Konkrete Gestaltungsregeln und Antipattern: siehe `.claude/skills/review-content/reference.md`, Dim 8.
 
+## Vorlage für normative Argumente (ohne Verdict)
+
+Für Werturteile und politische Forderungen, die der Empirie-Test nicht prüfbar macht (siehe `review-content`, Dim 9a):
+
+```json
+{
+  "id": "claim-kebab-id",
+  "claim": "Politische Forderung oder Werteposition vom Stammtisch!",
+  "response": "Einordnung als Wertefrage, dann die Faktenbasis: Was ist empirisch belegt (Rechtslage, Zahlen, Studienlage zu den Prämissen)? Welche stärksten Argumente führen beide Seiten an? Abschluss benennt explizit, welche Frage Daten nicht entscheiden können — ohne sie selbst zu beantworten.",
+  "keywords": ["keyword1", "keyword2", "keyword3", "keyword4"],
+  "relatedSections": ["section-id-1"]
+}
+```
+
+**Regeln:** Kein `verdict`, kein `rhetoricalPattern`, keine `counterQuestions`. Das `response` darf falsche empirische Prämissen des Claims korrigieren, aber keine Position empfehlen.
+
 ## Vorlage für Quelleneinträge
 
 ```json
@@ -133,3 +149,5 @@ Starkes Beispiel: Sinnvoller Einsatz von `table` für Extremwetter-Schäden. Arg
 6. **Doppelte Daten** — Dieselben Daten nicht gleichzeitig als `stat_grid` UND `table` UND `fact` zeigen. Bestes Format wählen, oder `table` nur als barrierefreie Alternative zu Diagrammen.
 7. **Ungeprüfte Quellen als Grundlage** — Zahlen aus der Web-Recherche niemals ungeprüft in Strukturierung oder JSON übernehmen. Jede URL muss abgerufen und jeder Datenpunkt gegen den tatsächlichen Seiteninhalt verifiziert sein, bevor er in ContentBlocks einfließt. Siehe Phase 2 in SKILL.md.
 8. **Deutsche Anführungszeichen in JSON** — „…" (U+201E / U+201C) bricht JSON-Syntax, weil das schließende `"` beim Tool-gestützten Schreiben zu ASCII `"` wird. Stattdessen ‚…' (U+201A / U+2018) verwenden. Nach dem Schreiben der JSON-Datei immer `node -e "JSON.parse(...)"` zur Validierung ausführen, bevor `npm run build` läuft. Siehe auch `.claude/rules/data-schema.md`.
+9. **Verdict auf Werturteilen** — Normative Claims („sollte", „Privatsache", „bestraft Leistung") bekommen kein `verdict` und keine Konter-Werkzeuge; das Response weist Faktenbasis und Wertkonflikt aus, statt eine Position zu vertreten. Siehe review-content, Dimension 9.
+10. **Einseitige Claim-Auswahl** — Nur Parolen einer politischen Richtung sammeln, obwohl im Diskurs auch Fehlannahmen der Gegenrichtung kursieren. Richtungs-Check in Phase 1 durchführen. Siehe review-content, Dimension 9e.

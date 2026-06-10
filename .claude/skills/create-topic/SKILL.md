@@ -19,9 +19,11 @@ End-to-End-Workflow für ein neues Fakten-Stammtisch-Thema. Orchestriert Recherc
 
 1. **Reichweite verstehen** — Was ist die Kerndebatte? Was macht das Thema stammtischtauglich?
 2. **5–10 Teilaspekte identifizieren**, die jeweils eine eigene Sektion verdienen (z. B. für „Wohnen": Mietentwicklung, Neubau, Sozialwohnungen, Mietpreisbremse, Enteignungsdebatte, internationaler Vergleich)
-3. **6–12 typische Stammtisch-Behauptungen sammeln** — diese werden zu `arguments`
+3. **6–12 typische Stammtisch-Behauptungen sammeln** — diese werden zu `arguments`. Dabei:
+   - **Richtungs-Check**: Verbreitete Fehlannahmen aus **allen** politischen Richtungen aufnehmen, sofern sie im realen Diskurs existieren — nicht nur die einer Seite. Die Auswahl folgt der Verbreitung, nicht einer Quote; aber eine komplett fehlende Richtung trotz existierender Parolen ist ein Mangel.
+   - **Empirie-Test pro Claim**: Für jeden Claim festhalten, ob er empirisch prüfbar ist (→ bekommt ein Verdict) oder eine normative Werteposition (→ kein Verdict, Antwort weist Faktenbasis und Wertkonflikt aus). Siehe `review-content`, Dimension 9a.
 4. **ContentBlock-Mix planen** — Jedes Thema sollte mindestens 3–4 verschiedene Block-Typen für visuelle Abwechslung nutzen. Siehe reference.md für Auswahl-Hilfe.
-5. **Gliederung dem Nutzer vorlegen** bevor es weitergeht:
+5. **Gliederung dem Nutzer vorlegen** bevor es weitergeht (normative Claims als „ohne Verdict" kennzeichnen):
 
 ```
 Geplante Struktur für "{topicTitle}":
@@ -119,6 +121,8 @@ Gesammelte Daten der Sektionsstruktur zuordnen:
 - [ ] Antwort beantwortet direkt die Behauptung (Dim 7)
 - [ ] Response startet mit der korrekten Aussage (Truth Sandwich, Dim 8)
 - [ ] rhetoricalPattern und counterQuestions ergänzt bei Argumenten mit Verdict (Dim 8)
+- [ ] Verdict nur bei empirisch widerlegbaren Claims; normative Claims ohne Verdict (Dim 9a)
+- [ ] Kein politisches Plädoyer, keine Lager-Sprache, gleicher Maßstab für alle Richtungen (Dim 9b–d)
 
 **Strukturregeln:**
 - `id`-Felder: kebab-case
@@ -159,7 +163,7 @@ Die Inline-Verifizierung in Phase 2 sollte die meisten Fehler bereits abgefangen
 
 - **Nutzerbestätigung** nach Phase 1 (Gliederung), nach Phase 2 (Quellenbericht) und vor Phase 6 (Integration)
 - **Keine halluzinierten Daten** — jede Zahl muss aus einer verifizierten Quelle stammen
-- **Ausgewogenes Framing** — die Seite argumentiert mit guten Quellen, muss aber fair bleiben
+- **Politische Neutralität** — die Seite bezieht Position für die Evidenz, nicht für ein Lager: Claims aus allen Richtungen sammeln, Verdicts nur auf empirisch prüfbare Aussagen, keine Plädoyers in Antworten (siehe `review-content`, Dimension 9)
 - **Konservative Sprache** — bei Unsicherheit abschwächen, niemals übertreiben
 - **Visuelle Vielfalt** — mindestens 3 verschiedene ContentBlock-Typen pro Thema
 - **Mindestumfang** — mindestens 5 Sektionen, 6 Argumente, 8 Quellen

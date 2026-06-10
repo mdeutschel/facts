@@ -15,7 +15,7 @@ export default function Methodik() {
     url: 'https://fakten-stammtisch.de/methodik/',
     name: 'Methodik',
     description:
-      'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität.',
+      'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, neun Qualitätsdimensionen und transparenter Aktualität.',
     inLanguage: 'de',
     author: { '@id': PERSON_ID },
     publisher: { '@id': ORG_ID },
@@ -25,7 +25,7 @@ export default function Methodik() {
     <Stack spacing={2.5}>
       <PageMeta
         title="Methodik"
-        description="Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität."
+        description="Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, neun Qualitätsdimensionen und transparenter Aktualität."
         path="/methodik"
         jsonLd={jsonLd}
       />
@@ -78,7 +78,7 @@ export default function Methodik() {
               Online-Belege
             </Typography>
             <Typography component="li" variant="body2">
-              <strong>Inhaltliche Prüfung</strong> — Kontrolle gegen acht
+              <strong>Inhaltliche Prüfung</strong> — Kontrolle gegen neun
               Qualitätsdimensionen (siehe unten)
             </Typography>
             <Typography component="li" variant="body2">
@@ -140,7 +140,7 @@ export default function Methodik() {
       <Paper sx={{ p: { xs: 2, sm: 3 } }}>
         <Stack spacing={1.5}>
           <Typography variant="h6" component="h2">
-            Inhaltliche Prüfung — acht Dimensionen
+            Inhaltliche Prüfung — neun Dimensionen
           </Typography>
           <Typography variant="body2">
             Datenrichtigkeit allein macht einen Inhalt noch nicht redlich.
@@ -195,6 +195,14 @@ export default function Methodik() {
                 eine Musterbenennung und konkrete Gegenfragen
               </Link>{' '}
               den Faktenkern für die tatsächliche Gesprächssituation.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Politische Neutralität</strong> — Bewertungen
+              (Verdicts) gibt es nur für empirisch prüfbare Behauptungen;
+              Wertefragen werden als solche ausgewiesen statt „widerlegt".
+              Antworten enthalten keine politischen Empfehlungen, und für
+              Behauptungen aus allen politischen Richtungen gilt derselbe
+              Maßstab.
             </Typography>
           </Box>
           <Typography variant="body2">
