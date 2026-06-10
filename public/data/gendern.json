@@ -5,7 +5,7 @@
   "seoTitle": "Gendern: Argumente, Umfragen & Sprachforschung — Faktencheck",
   "seoDescription": "Lehnt die Mehrheit Gendern ab? Macht es Texte unlesbar? 10 Streitpunkte mit Daten aus Allensbach und Sprachforschung — belegt und nachprüfbar.",
   "icon": "forum",
-  "lastUpdated": "2026-03-30",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "73 % stört Gendern mit Sonderzeichen (2023)",
     "Doppelnennung von 69 % akzeptiert",
@@ -168,9 +168,9 @@
           "type": "stat_grid",
           "items": [
             {
-              "label": "Replikationsstudie",
-              "value": "2.697 Vpn",
-              "sublabel": "Brohmer et al. 2024, 12 Labore"
+              "label": "Hinweis ‚alle gemeint' im Test",
+              "value": "Ohne Wirkung",
+              "sublabel": "Rothermund & Strack 2024, Uni Würzburg"
             },
             {
               "label": "Erstnachweis Male Bias",
@@ -189,14 +189,14 @@
             }
           ],
           "sourceRefs": [
-            "brohmer-multilab-2024",
+            "rothermund-strack-2024",
             "horvath-sczesny-2015",
             "vervecken-hannover-2015"
           ]
         },
         {
           "type": "text",
-          "text": "Die Befunde zeigen einen robusten Effekt: Das generische Maskulinum löst überwiegend männliche Assoziationen aus. Eine Studie der Uni Würzburg (Rothermund & Strack 2024) zeigte, dass selbst ein expliziter Hinweis auf die geschlechtsübergreifende Bedeutung den Male Bias nicht beseitigt — nur kontextuelle Hinweise wirkten. Gleichzeitig ist zu beachten, dass die meisten Studien Laborexperimente sind und die Alltagsrelevanz der gemessenen Effekte in der Forschung umstritten bleibt.",
+          "text": "Die Befunde zeigen einen robusten Effekt: Das generische Maskulinum löst überwiegend männliche Assoziationen aus — in der Würzburger Studie halfen nur kontextuelle Hinweise, nicht der bloße Verweis auf die geschlechtsübergreifende Bedeutung. Einschränkend gilt: Die meisten Studien sind Laborexperimente, und wie stark sich die gemessenen Effekte im Alltag auswirken, bleibt in der Forschung umstritten.",
           "sourceRefs": [
             "rothermund-strack-2024",
             "sczesny-review-2016"
@@ -218,10 +218,10 @@
         },
         {
           "type": "text",
-          "text": "Die Verständlichkeitsforschung liefert ein differenziertes Bild: In kontrollierten Experimenten beeinträchtigen geschlechtergerechte Formulierungen die Textverständlichkeit nicht messbar. Blake & Klimmt (2010) kamen für Nachrichtentexte zum gleichen Ergebnis — auch die Textästhetik litt nicht. Allerdings beziehen sich die meisten Studien auf Beidnennung und Binnen-I. Für neuere Formen wie Genderstern oder Doppelpunkt ist die Datenlage dünner. Die Uni Wien (Pabst & Kollmayer 2023) fand auch beim Genderstern keinen Verständlichkeitsnachteil, allerdings mit einer kleineren Stichprobe (N = 163).",
+          "text": "Weitere Studien stützen diesen Befund: Blake & Klimmt (2010) fanden bei Nachrichtentexten weder bei der Verständlichkeit noch bei der Textästhetik Nachteile. Allerdings beziehen sich die meisten Untersuchungen auf Beidnennung und Binnen-I — für neuere Formen wie Genderstern oder Doppelpunkt ist die Datenlage dünner. Die Universität Wien (Pabst & Kollmayer 2023) fand auch beim Genderstern keinen Verständlichkeitsnachteil, allerdings mit einer kleineren Stichprobe (N = 163).",
           "sourceRefs": [
-            "friedrich-heise-2019",
-            "blake-klimmt-2010"
+            "blake-klimmt-2010",
+            "pabst-kollmayer-2023"
           ]
         }
       ]
@@ -241,6 +241,10 @@
             {
               "label": "1972",
               "value": "Abschaffung von ‚Fräulein' in Bundesbehörden"
+            },
+            {
+              "label": "1978",
+              "value": "Trömel-Plötz: erster deutschsprachiger Aufsatz zur feministischen Sprachkritik"
             },
             {
               "label": "1980",
@@ -271,11 +275,16 @@
             {
               "label": "2024",
               "value": "Bayern, Hessen: Genderverbot in Verwaltung und Schulen"
+            },
+            {
+              "label": "2025",
+              "value": "Hamburg: Verfassungsgericht bestätigt Scheitern des Volksbegehrens gegen Gendersprache am Quorum"
             }
           ],
           "sourceRefs": [
             "rdr-ergaenzungspassus-2023",
-            "bverfg-divers-2017"
+            "bverfg-divers-2017",
+            "hverfg-gendersprache-2025"
           ]
         },
         {
@@ -294,11 +303,14 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Landschaft ist zerklüftet: Mehrere Bundesländer haben Gendern mit Sonderzeichen in Schulen und teils Verwaltung verboten, andere erlauben oder empfehlen es ausdrücklich. An Hochschulen existieren Sprachleitfäden, die allerdings Empfehlungen und keine verbindlichen Vorschriften sind. Die öffentlich-rechtlichen Sender haben keinen einheitlichen Standard."
+          "text": "Die Landschaft ist zerklüftet: Mehrere Bundesländer haben Gendern mit Sonderzeichen in Schulen und teils Verwaltung verboten, andere erlauben oder empfehlen es ausdrücklich. An Hochschulen existieren Sprachleitfäden, die allerdings Empfehlungen und keine verbindlichen Vorschriften sind. Die öffentlich-rechtlichen Sender haben keinen einheitlichen Standard. Ein prominenter direktdemokratischer Vorstoß gegen das Gendern blieb ebenfalls erfolglos: In Hamburg scheiterte das Volksbegehren der Initiative ‚Schluss mit Gendersprache in Verwaltung und Bildung' am Unterschriften-Quorum, was das Hamburgische Verfassungsgericht im Juli 2025 bestätigte.",
+          "sourceRefs": [
+            "hverfg-gendersprache-2025"
+          ]
         },
         {
           "type": "table",
-          "caption": "Genderregeln in den Bundesländern (Auswahl, Stand März 2026)",
+          "caption": "Genderregeln in den Bundesländern (Auswahl, Stand Juni 2026)",
           "headers": [
             "Land",
             "Regelung",
@@ -356,7 +368,15 @@
             ]
           ],
           "sourceRefs": [
-            "bayern-genderverbot-2024"
+            "bayern-genderverbot-2024",
+            "hessen-genderverbot-2024",
+            "sachsen-genderverbot-2023",
+            "gew-sachsen-genderklausel",
+            "sachsen-anhalt-genderverbot-2023",
+            "sh-genderverbot-2021",
+            "bremen-handreichung-2021",
+            "berlin-kein-genderverbot-2024",
+            "laendervergleich-genderregeln-2023"
           ]
         },
         {
@@ -374,14 +394,18 @@
             },
             {
               "label": "Hochschulen mit Sprachleitfäden",
-              "value": "mind. 50",
-              "sublabel": "Empfehlungen, keine Pflicht"
+              "value": "rund 80",
+              "sublabel": "Erhebung 2017 — Empfehlungen, keine Pflicht"
             },
             {
               "label": "ARD-weiter Gender-Standard",
               "value": "Keiner",
               "sublabel": "Jede Rundfunkanstalt eigene Regeln"
             }
+          ],
+          "sourceRefs": [
+            "diewald-ggs-2019",
+            "ard-gendern-2022"
           ]
         }
       ]
@@ -452,7 +476,10 @@
         },
         {
           "type": "text",
-          "text": "Die BFIT-Bund (Bundesüberwachungsstelle für Barrierefreiheit) hatte 2021 noch das Sternchen empfohlen, nahm diese Empfehlung 2023 aber zurück und gibt seitdem kein Votum mehr für ein bestimmtes Genderzeichen ab. Das grundsätzliche Spannungsfeld bleibt: Inklusion über Sprache und Inklusion über Barrierefreiheit sind derzeit nicht vollständig miteinander vereinbar."
+          "text": "Die Überwachungsstelle des Bundes für Barrierefreiheit von Informationstechnik (BFIT-Bund) hatte 2021 noch das Sternchen empfohlen, richtete ihre Publikation im November 2023 aber neu aus und gibt seitdem bewusst kein Votum mehr für ein bestimmtes Genderzeichen ab — sie benennt nur noch Grundprinzipien wie Wahrnehmbarkeit und Verständlichkeit. Das grundsätzliche Spannungsfeld bleibt: Inklusion über Sprache und Inklusion über Barrierefreiheit sind derzeit nicht vollständig miteinander vereinbar.",
+          "sourceRefs": [
+            "bfit-genderzeichen-2023"
+          ]
         }
       ]
     },
@@ -496,7 +523,7 @@
             [
               "Finnisch / Türkisch",
               "Kein grammatisches Geschlecht",
-              "Male Bias besteht trotzdem (kulturell bedingt)"
+              "Male Bias in Studien dennoch nachweisbar"
             ]
           ],
           "sourceRefs": [
@@ -519,7 +546,7 @@
     {
       "id": "gendern-zerstoert-sprache",
       "claim": "Das Gendern zerstört die deutsche Sprache!",
-      "response": "Die Sorge um die Sprachqualität ist nachvollziehbar — tatsächlich kritisiert auch der Rechtschreibrat die grammatischen Folgeprobleme von Sonderzeichen. Allerdings war die deutsche Sprache immer im Wandel: 1972 wurde ‚Fräulein' in Behörden abgeschafft, seit 1980 sind geschlechtsneutrale Stellenanzeigen Pflicht. Die Beidnennung ist seit Jahrzehnten etabliert und wird von 69 % akzeptiert. Die Debatte betrifft primär neuere Kurzformen wie den Genderstern — nicht geschlechtergerechte Sprache insgesamt.",
+      "response": "Sprachwandel ist der Normalfall, nicht die Ausnahme: Das Deutsche hat Rechtschreibreformen, Anglizismen und neue Anredekonventionen aufgenommen, ohne Schaden zu nehmen. Die Beidnennung ist seit Jahrzehnten etabliert und vollständig regelkonform. Einen berechtigten Kern hat die Kritik bei den Sonderzeichen: Der Rat für deutsche Rechtschreibung benennt grammatische Folgeprobleme und hat sie nicht ins amtliche Regelwerk aufgenommen. Die Debatte betrifft damit primär neuere Kurzformen — nicht geschlechtergerechte Sprache insgesamt. Dass eine Sprache an umstrittenen Schreibweisen ‚zerbricht', ist sprachwissenschaftlich nicht belegbar.",
       "keywords": [
         "Sprachverfall",
         "Sprachzerstörung",
@@ -531,7 +558,13 @@
         "sprachliche-formen",
         "regulierung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole setzt einzelne umstrittene Schreibweisen mit der Sprache als Ganzem gleich (Pars pro toto) und rahmt Sprachwandel als Verfall, obwohl Wandel der Normalzustand jeder lebenden Sprache ist. Das dramatische Vokabular baut eine Bedrohungskulisse auf, die eine nüchterne Diskussion über einzelne Formen erschwert.",
+      "counterQuestions": [
+        "Was genau wird deiner Meinung nach zerstört — die Grammatik, der Wortschatz oder eine Schreibgewohnheit?",
+        "Geht es dir um alle Formen, also auch um ‚Ärztinnen und Ärzte', oder nur um Sternchen und Doppelpunkt?",
+        "Welche frühere Sprachveränderung hat das Deutsche denn nachhaltig beschädigt?"
+      ]
     },
     {
       "id": "mehrheit-lehnt-ab",
@@ -547,12 +580,18 @@
       "relatedSections": [
         "oeffentliche-meinung"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Aussage behandelt ‚Gendern' als Einheit, obwohl die Akzeptanz je nach Form stark auseinanderfällt — von breiter Zustimmung zur Beidnennung bis zu deutlicher Ablehnung der Sonderzeichen. Zudem ersetzt der Verweis auf die Mehrheit das Sachargument (argumentum ad populum): Aus einer Mehrheitsmeinung folgt nicht automatisch, was sprachlich sinnvoll ist.",
+      "counterQuestions": [
+        "Meinst du alle Formen geschlechtergerechter Sprache oder nur das Gendern mit Sternchen und Doppelpunkt?",
+        "Sollte die Mehrheit darüber entscheiden, wie andere sprechen und schreiben?",
+        "Wie gehst du damit um, dass die Zustimmung bei den unter 30-Jährigen deutlich höher liegt?"
+      ]
     },
     {
       "id": "nur-modeerscheinung",
       "claim": "Gendern ist nur eine Modeerscheinung!",
-      "response": "Der Eindruck ist verständlich, weil Sonderzeichen wie der Genderstern erst seit wenigen Jahren verbreitet sind. Geschlechtergerechte Sprache wird jedoch seit den späten 1970ern wissenschaftlich diskutiert — Senta Trömel-Plötz veröffentlichte 1978 den ersten Aufsatz dazu. Seit 1980 sind geschlechtsneutrale Stellenausschreibungen gesetzlich vorgeschrieben, seit 1986 formuliert Hessen Gesetze ohne generisches Maskulinum. Die konkrete Form ändert sich, aber das Grundanliegen besteht seit über 45 Jahren.",
+      "response": "Geschlechtergerechte Sprache wird seit den späten 1970ern wissenschaftlich diskutiert — Senta Trömel-Plötz veröffentlichte 1978 den ersten deutschsprachigen Aufsatz zur feministischen Sprachkritik, und seit 1980 sind geschlechtsneutrale Stellenausschreibungen gesetzlich vorgeschrieben. Richtig ist: Einzelne Formen wie der Genderstern sind deutlich jünger, und welche Schreibweise sich langfristig durchsetzt, ist offen. Die konkrete Form mag sich ändern — das Grundanliegen besteht aber seit über 45 Jahren und ist teilweise gesetzlich verankert.",
       "keywords": [
         "Mode",
         "Trend",
@@ -563,12 +602,18 @@
       "relatedSections": [
         "regulierung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Das Etikett ‚Mode' verharmlost: Was nur vorübergehend ist, muss man nicht ernst nehmen. Dabei wird die Neuheit einzelner Schreibweisen mit dem Alter des Anliegens verwechselt — die Form ist jung, die Debatte ist es nicht.",
+      "counterQuestions": [
+        "Seit wann, glaubst du, wird über geschlechtergerechte Sprache diskutiert?",
+        "Geschlechtsneutrale Stellenanzeigen sind seit über 45 Jahren Pflicht — fällt das für dich noch unter Mode?",
+        "Wäre das Anliegen dahinter falsch, selbst wenn der Genderstern wieder verschwindet?"
+      ]
     },
     {
       "id": "sprache-aendert-nichts",
       "claim": "Sprache ändert doch nichts an der Realität!",
-      "response": "Die Intuition ist nachvollziehbar — aber die Forschung zeigt messbare Effekte. Eine Multi-Lab-Studie mit 2.697 Teilnehmenden an 12 Laboren (Brohmer et al. 2024) bestätigte: Bei geschlechterinklusiven Formen nennen Versuchspersonen signifikant mehr Frauen. Kinder trauen sich bei Beidnennung typisch männliche Berufe eher zu (Vervecken & Hannover 2015). Allerdings sind die meisten Befunde Laborergebnisse — ob und wie stark sie sich im Alltag auswirken, ist wissenschaftlich nicht abschließend geklärt.",
+      "response": "Die Forschung zeigt messbare Effekte: In einer Multi-Lab-Studie mit 2.697 Teilnehmenden (Brohmer et al. 2024) nannten Versuchspersonen bei geschlechterinklusiven Formen signifikant mehr Frauen, und Kinder trauen sich bei Beidnennung typisch männliche Berufe eher zu (Vervecken & Hannover 2015). Einen wahren Kern hat der Einwand trotzdem: Sprache allein ändert keine Gehälter und keine Karrierechancen, und die meisten Befunde stammen aus Laborexperimenten — wie stark sie im Alltag wirken, ist nicht abschließend geklärt. Dass Worte gar nichts bewirken, lässt sich nach aktueller Studienlage aber nicht halten.",
       "keywords": [
         "Realität",
         "ändert nichts",
@@ -579,7 +624,13 @@
       "relatedSections": [
         "sprachforschung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Aussage baut eine falsche Dichotomie auf: Entweder Sprache verändert ‚die Realität' unmittelbar, oder sie ist wirkungslos. Wahrnehmung, Assoziationen und Berufswünsche sind aber ebenfalls Realität — die belegten Effekte liegen zwischen den beiden Extremen, die die Parole zulässt.",
+      "counterQuestions": [
+        "Warum geben Unternehmen Milliarden für Werbetexte aus, wenn Worte nichts bewirken?",
+        "Zählt es für dich zur Realität, welche Berufe sich Kinder zutrauen?",
+        "Was würdest du als Beleg akzeptieren, dass Sprache Wahrnehmung beeinflusst?"
+      ]
     },
     {
       "id": "generisches-maskulinum-reicht",
@@ -595,12 +646,18 @@
       "relatedSections": [
         "sprachforschung"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Hier werden Norm und Wirkung verwechselt: Aus der grammatischen Konvention, dass alle gemeint sind, wird geschlossen, dass auch alle mitgedacht werden. Was eine Regel intendiert und welche Bilder beim Lesen tatsächlich entstehen, sind zwei verschiedene Fragen — nur die zweite lässt sich empirisch prüfen.",
+      "counterQuestions": [
+        "Wen stellst du dir spontan vor, wenn du ‚die besten Fußballer Deutschlands' hörst?",
+        "Warum schreiben Stellenanzeigen seit Jahrzehnten ‚(m/w/d)', wenn das Maskulinum ohnehin alle meint?",
+        "Woran machst du fest, dass sich alle mitgemeint fühlen?"
+      ]
     },
     {
       "id": "gendern-unlesbar",
       "claim": "Gendern macht Texte unlesbar!",
-      "response": "Die subjektive Wahrnehmung ist verbreitet, wird aber von der Verständlichkeitsforschung nicht gestützt. Die TU Braunschweig (Friedrich & Heise 2019) testete vier Versionen eines Vertrags an 355 Personen: kein messbarer Verständlichkeitsunterschied. Blake & Klimmt (2010) fanden auch bei Nachrichtentexten keine Beeinträchtigung. Allerdings gibt es berechtigte Barrierefreiheitsbedenken: Der DBSV rät von Doppelpunkt und Unterstrich ab, da Screenreader sie problematisch verarbeiten. Die Verständlichkeit hängt weniger am Gendern als an der gewählten Form.",
+      "response": "In kontrollierten Studien beeinträchtigen geschlechtergerechte Formulierungen die Verständlichkeit nicht messbar: Die TU Braunschweig (Friedrich & Heise 2019) testete vier Versionen eines Vertrags an 355 Personen — ohne Unterschied im Verständnis. Das subjektive Empfinden, dass ungewohnte Formen den Lesefluss stören, ist trotzdem real, und es gibt berechtigte Barrierefreiheitsbedenken: Der Deutsche Blinden- und Sehbehindertenverband rät vom Doppelpunkt (Screenreader lesen ihn als lange Pause) und vom Unterstrich (für Sehbehinderte schlecht erkennbar) ab. Die Lesbarkeit hängt damit weniger am Gendern an sich als an der gewählten Form.",
       "keywords": [
         "unlesbar",
         "Lesbarkeit",
@@ -613,12 +670,18 @@
         "verstaendlichkeit",
         "barrierefreiheit"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Ein subjektives Leseempfinden wird zur objektiven Texteigenschaft erklärt — ungewohnt wird mit unverständlich gleichgesetzt. Die Pauschalaussage unterscheidet zudem nicht zwischen den Formen, obwohl Beidnennung, Sonderzeichen und neutrale Formulierungen ganz unterschiedlich wirken.",
+      "counterQuestions": [
+        "Meinst du unverständlich oder eher ungewohnt?",
+        "Stört dich auch ‚Ärztinnen und Ärzte' — oder nur das Sternchen?",
+        "Für wen muss ein Text lesbar sein — gehören blinde Menschen mit Screenreader dazu?"
+      ]
     },
     {
       "id": "uni-genderzwang",
       "claim": "An den Unis wird man zum Gendern gezwungen!",
-      "response": "Mindestens 50 deutsche Hochschulen haben Sprachleitfäden — diese sind allerdings Empfehlungen, keine Vorschriften. Der Rechtschreibrat hat 2023 darauf hingewiesen, dass es strittig sei, ob Hochschulen vom amtlichen Regelwerk abweichen dürfen. In Bayern gilt seit April 2024 ein Genderverbot auch an Hochschulen, mit Ausnahme der geschützten Freiheit von Forschung und Lehre. Es gibt also Empfehlungen, selten echten Druck, und zunehmend auch explizite Verbote.",
+      "response": "Sprachleitfäden sind an Hochschulen weit verbreitet — eine Erhebung der Leibniz Universität Hannover fand bereits 2017 rund 80 davon. Verbindlich sind sie in aller Regel nicht: Sie stellen Möglichkeiten dar, statt Schreibweisen vorzuschreiben. Der Rechtschreibrat hat 2023 darauf hingewiesen, dass es strittig sei, ob Hochschulen vom amtlichen Regelwerk abweichen dürfen. In Bayern gilt seit April 2024 ein Genderverbot auch an Hochschulen, mit Ausnahme der geschützten Freiheit von Forschung und Lehre. Es gibt also Empfehlungen, selten echten Druck, und zunehmend auch explizite Verbote.",
       "keywords": [
         "Uni",
         "Universität",
@@ -632,7 +695,13 @@
         "bundeslaender-und-institutionen",
         "regulierung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Einzelne umstrittene Fälle werden zu einem flächendeckenden ‚Zwang' verallgemeinert (Anekdotenargument), und Empfehlungen werden mit Vorschriften gleichgesetzt. Auffällig ist die Einseitigkeit: Das real existierende Genderverbot an bayerischen Hochschulen kommt in der Zwangs-Erzählung nicht vor.",
+      "counterQuestions": [
+        "Kennst du einen konkreten Fall, in dem Punkte fürs Nicht-Gendern abgezogen wurden — und wie ist er ausgegangen?",
+        "Macht es für dich einen Unterschied, ob etwas empfohlen oder vorgeschrieben ist?",
+        "Ist das bayerische Genderverbot an Hochschulen für dich auch ein Eingriff — oder nur die Leitfäden?"
+      ]
     },
     {
       "id": "gegen-rechtschreibung",
@@ -649,12 +718,18 @@
       "relatedSections": [
         "regulierung"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Eine Teilwahrheit wird zur Totalaussage ausgedehnt: Der zutreffende Befund des Rechtschreibrats zu Sonderzeichen wird auf geschlechtergerechte Sprache insgesamt übertragen, obwohl Beidnennung und neutrale Formulierungen vollständig regelkonform sind. Zudem wird das Regelwerk als statisch dargestellt, obwohl der Rat die Entwicklung ausdrücklich weiter beobachtet.",
+      "counterQuestions": [
+        "Meinst du alle Formen oder nur Sternchen und Doppelpunkt?",
+        "Ist ‚Ärztinnen und Ärzte' für dich ein Rechtschreibfehler?",
+        "Soll das amtliche Regelwerk den Sprachgebrauch abbilden oder festschreiben?"
+      ]
     },
     {
       "id": "andere-sprachen-ohne",
       "claim": "Andere Sprachen kommen auch ohne Gendern aus!",
-      "response": "Das trifft auf manche Sprachen zu — Finnisch und Türkisch etwa kennen kein grammatisches Geschlecht. Allerdings zeigen Studien, dass selbst dort ein Male Bias bei geschlechtsneutralen Pronomen besteht. Und in vielen Sprachen mit Genussystem gibt es parallele Debatten: In Frankreich hat der Senat écriture inclusive 2023 mit 221:82 verboten, in Schweden wurde ‚hen' 2015 offiziell eingeführt, im Englischen ist das singuläre ‚they' seit 2019 im Merriam-Webster. Das Anliegen ist international — die Lösungen fallen je nach Sprachstruktur verschieden aus.",
+      "response": "Das trifft auf manche Sprachen zu — Finnisch und Türkisch etwa kennen kein grammatisches Geschlecht. Allerdings zeigen Studien, dass selbst dort ein Male Bias bei geschlechtsneutralen Pronomen besteht. Und in vielen Sprachen mit Genussystem gibt es parallele Debatten: In Frankreich hat der Senat écriture inclusive 2023 mit 221:82 verboten, in Schweden wurde ‚hen' 2015 ins Wörterbuch der Schwedischen Akademie aufgenommen, im Englischen ist das singuläre ‚they' seit 2019 im Merriam-Webster. Das Anliegen ist international — die Lösungen fallen je nach Sprachstruktur verschieden aus.",
       "keywords": [
         "andere Sprachen",
         "Englisch",
@@ -666,12 +741,18 @@
       "relatedSections": [
         "internationaler-vergleich"
       ],
-      "verdict": "partially-true"
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Der Vergleich hinkt strukturell: Aus Sprachen ohne grammatisches Geschlecht lässt sich nicht ableiten, dass das Anliegen in einer Genus-Sprache wie dem Deutschen überflüssig ist. Tatsächlich führen viele Sprachgemeinschaften dieselbe Debatte — nur mit Mitteln, die zu ihrer jeweiligen Sprachstruktur passen.",
+      "counterQuestions": [
+        "Welche Sprache meinst du konkret — und hat sie überhaupt grammatische Geschlechter wie das Deutsche?",
+        "Wie erklärst du dir, dass im Englischen das singuläre ‚they' und in Schweden das ‚hen' entstanden sind?",
+        "Wenn andere Sprachen eigene Lösungen gefunden haben — spricht das gegen das Anliegen oder dafür?"
+      ]
     },
     {
       "id": "sprachpolizei",
       "claim": "Gendern ist Sprachpolizei und Bevormundung!",
-      "response": "Die Sorge vor Sprachkontrolle ist demokratisch berechtigt. Tatsächlich gibt es weder ein Bundesgesetz noch eine Pflicht zum Gendern — 75 % lehnen eine solche laut Forsa auch ab. Umgekehrt haben mehrere Bundesländer Gendern in Schulen und Verwaltung verboten — also eher ein Sprechverbot als ein Sprechgebot. Kommunale Leitfäden wie in Hannover oder Bremen sind Empfehlungen, keine Vorschriften. Die Lage ist paradox: Es wird sowohl ein angeblicher Genderzwang als auch ein tatsächliches Genderverbot kritisiert.",
+      "response": "Tatsächlich gibt es weder ein Bundesgesetz noch eine allgemeine Pflicht zum Gendern — die Sorge vor staatlicher Sprachkontrolle ist demokratisch berechtigt, nur zeigt die Regelungslage ein anderes Bild: Verbindliche Eingriffe sind bislang vor allem Verbote, denn mehrere Bundesländer untersagen Gendern in Schulen und Verwaltung. Kommunale Leitfäden wie in Hannover oder Bremen sind dagegen Empfehlungen, keine Vorschriften. Die Lage ist paradox: Kritisiert wird ein vermeintlicher Genderzwang, während die tatsächlichen staatlichen Sprachvorgaben überwiegend in die Gegenrichtung zielen.",
       "keywords": [
         "Zwang",
         "Bevormundung",
@@ -682,9 +763,16 @@
       ],
       "relatedSections": [
         "oeffentliche-meinung",
-        "bundeslaender-und-institutionen"
+        "bundeslaender-und-institutionen",
+        "regulierung"
       ],
-      "verdict": "mostly-false"
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole setzt Empfehlungen mit Vorschriften gleich und rahmt eine nicht existierende Pflicht als Bedrohung, während real existierende Verbote unerwähnt bleiben. Wer Bevormundung konsequent ablehnt, müsste staatliche Sprachverbote genauso kritisch sehen wie Sprachgebote.",
+      "counterQuestions": [
+        "Wer zwingt dich konkret wo zum Gendern?",
+        "Ist ein staatliches Verbot bestimmter Schreibweisen für dich auch Bevormundung — oder nur die Empfehlung?",
+        "Sollte der Staat überhaupt regeln, wie Menschen schreiben — in beide Richtungen?"
+      ]
     }
   ],
   "sources": [
@@ -724,6 +812,11 @@
       "url": "https://idw-online.de/de/news716587"
     },
     {
+      "id": "pabst-kollmayer-2023",
+      "label": "Pabst & Kollmayer – Impact of Gender-Fair Language on Text Comprehensibility, Frontiers in Psychology (2023)",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1234860/full"
+    },
+    {
       "id": "blake-klimmt-2010",
       "label": "Blake & Klimmt – Geschlechtergerechte Formulierungen in Nachrichtentexten, Publizistik (2010)",
       "url": "https://link.springer.com/article/10.1007/s11616-010-0093-2"
@@ -749,6 +842,11 @@
       "url": "https://www.dbsv.org/gendern.html"
     },
     {
+      "id": "bfit-genderzeichen-2023",
+      "label": "BFIT-Bund – Die digitale Barrierefreiheit auf der semiotischen Ebene der Genderzeichen (2023)",
+      "url": "https://www.bfit-bund.de/DE/Publikation/digitale-barrierefreiheit-semiotik-genderzeichen.html"
+    },
+    {
       "id": "genderleicht-leichte-sprache",
       "label": "genderleicht.de – Gendern in Leichter Sprache: Anleitung",
       "url": "https://www.genderleicht.de/gendern-in-leichter-sprache-anleitung/"
@@ -757,6 +855,61 @@
       "id": "bayern-genderverbot-2024",
       "label": "ZEIT – Bayern verbietet Gendersprache in Schule und Verwaltung (2024)",
       "url": "https://www.zeit.de/politik/deutschland/2024-03/markus-soeder-bayern-gendersprache-verbot"
+    },
+    {
+      "id": "hessen-genderverbot-2024",
+      "label": "Haufe – Hessen verbietet Gendern in der Landesverwaltung (2024)",
+      "url": "https://www.haufe.de/oeffentlicher-dienst/personal-tarifrecht/hessen-verbietet-gendern-in-der-landesverwaltung_144_619764.html"
+    },
+    {
+      "id": "sachsen-genderverbot-2023",
+      "label": "UEPO – Sachsen verpflichtet Verwaltung und Schulen zu amtlicher Rechtschreibung (2023)",
+      "url": "https://uepo.de/2023/07/10/sachsen-verpflichtet-verwaltung-und-schulen-zu-amtlicher-rechtschreibung-kein-gendern-mit-sonderzeichen/"
+    },
+    {
+      "id": "gew-sachsen-genderklausel",
+      "label": "GEW Sachsen – Fragen und Antworten zum Verbot der Genderzeichen an öffentlichen Schulen",
+      "url": "https://www.gew-sachsen.de/aktuelles/detailseite/fragen-und-antworten-zum-verbot-der-genderzeichen-sternchen-doppelpunkt-unterstrich-an-oeffentlichen-schulen"
+    },
+    {
+      "id": "sachsen-anhalt-genderverbot-2023",
+      "label": "UEPO – Bildungsministerium Sachsen-Anhalt untersagt Schulen das Gendern mit Sternchen & Co. (2023)",
+      "url": "https://uepo.de/2023/08/15/bildungsministerium-sachsen-anhalt-untersagt-schulen-das-gendern-mit-sternchen-co/"
+    },
+    {
+      "id": "sh-genderverbot-2021",
+      "label": "Der Nordschleswiger – Karin Prien verbietet das Gender-Sternchen an Schulen (2021)",
+      "url": "https://www.nordschleswiger.dk/de/suedschleswig/karin-prien-verbietet-gender-sternchen-schulen"
+    },
+    {
+      "id": "bremen-handreichung-2021",
+      "label": "Senatspressestelle Bremen – Geschlechtersensible Sprache: Handreichung für Bremer Verwaltung (2021)",
+      "url": "https://www.senatspressestelle.bremen.de/pressemitteilungen/geschlechtersensible-sprache-handreichung-fuer-bremer-verwaltung-350369"
+    },
+    {
+      "id": "berlin-kein-genderverbot-2024",
+      "label": "Berliner Zeitung – Gendern bleibt in Berlins Behörden und Schulen erlaubt (2024)",
+      "url": "https://www.berliner-zeitung.de/news/gendern-bleibt-in-berlins-behoerden-und-schulen-erlaubt-kein-genderverbot-li.2198795"
+    },
+    {
+      "id": "laendervergleich-genderregeln-2023",
+      "label": "Utopia – Sachsens Gender-Verbot: So handhaben es andere Bundesländer (2023)",
+      "url": "https://utopia.de/news/sachsens-gender-verbot-so-handhaben-es-andere-bundeslaender_547195/"
+    },
+    {
+      "id": "diewald-ggs-2019",
+      "label": "Diewald et al. – Geschlechtergerechte Sprache in Theorie und Praxis, Abschlussbericht, Leibniz Universität Hannover (2019)",
+      "url": "https://www.gabrielediewald.de/fileadmin/_gd/downloads/Vorlaeufiger_Abschlussbericht_GGS.pdf"
+    },
+    {
+      "id": "ard-gendern-2022",
+      "label": "dts / Oldenburger Onlinezeitung – ARD und ZDF wollen weiter gendern (2022)",
+      "url": "https://www.oldenburger-onlinezeitung.de/nachrichten/ard-und-zdf-wollen-weiter-gendern-89355.html"
+    },
+    {
+      "id": "hverfg-gendersprache-2025",
+      "label": "Hamburgisches Verfassungsgericht – Urteile HVerfG 4/24 und 4/25: Anträge der Volksinitiative ‚Schluss mit Gendersprache' erfolglos (2025)",
+      "url": "https://www.hamburgisches-verfassungsgericht.de/presse/urteile-des-hamburgischen-verfassungsgerichts-vom-4-juli-2025-4-24-und-4-25-antraege-der-volksinitiative-schluss-mit-gendersprache-in-verwaltung-und-bildung-erfolglos"
     },
     {
       "id": "bverfg-divers-2017",
