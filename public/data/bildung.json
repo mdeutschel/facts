@@ -5,7 +5,7 @@
   "seoTitle": "Bildungssystem Deutschland: PISA, Lehrermangel, Argumente",
   "seoDescription": "Lehrer arbeiten halbtags? Schüler werden dümmer? Antworten zu Bildungsausgaben, PISA-Studie und Lehrkräftemangel mit Quellen aus OECD, KMK und Destatis.",
   "icon": "school",
-  "lastUpdated": "2026-05-10",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "198 Mrd. € Bildungsausgaben (2024)",
     "35.000 fehlende Lehrkräfte (2025/26)",
@@ -499,7 +499,7 @@
     {
       "id": "genug-geld",
       "claim": "Wir geben genug Geld für Bildung aus",
-      "response": "198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Die Konsequenzen sieht man: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher.",
+      "response": "198 Milliarden Euro klingen nach viel. Aber gemessen am BIP gibt Deutschland nur 4,5 % aus — unter dem OECD-Schnitt von 5,1 %. Die Differenz entspricht rund 25 Mrd. Euro pro Jahr oder ~1.600 € mehr pro Schüler/Kitakind. Zum Vergleich: Schweden investiert 7,1 % des BIP. Parallel dazu bestehen sichtbare Engpässe: marode Schulgebäude, 35.000 fehlende Lehrkräfte und 100.000 fehlende Erzieher. Ob ‚genug' ausgegeben wird, hängt am Maßstab — am OECD-Vergleich gemessen liegt Deutschland darunter.",
       "keywords": [
         "genug geld",
         "ausgaben",
@@ -565,7 +565,7 @@
     {
       "id": "homeschooling-freiheit",
       "claim": "Homeschooling gibt Eltern endlich Freiheit – Schulpflicht ist überholt.",
-      "response": "Elternrechte sind wichtig. Gleichzeitig soll die Schulpflicht gleiche Bildungschancen, soziale Teilhabe und Kinderschutz sichern – gerade auch für Kinder, die zuhause wenig Unterstützung haben. Deshalb ist Homeschooling in Deutschland nur in engen Ausnahmefällen möglich. Mehr Elternmitwirkung in Schule ist sinnvoll, ein genereller Ersatz der Schulpflicht aber nicht.",
+      "response": "Ob die Schulpflicht ‚überholt' ist, ist eine Werteabwägung zwischen Elternrechten und Kindesinteressen — hier die Faktenbasis dazu: In Deutschland ist Homeschooling nur in engen Ausnahmefällen zulässig; die Schulpflicht soll gleiche Bildungschancen, soziale Teilhabe und Kinderschutz sichern — gerade für Kinder, die zuhause wenig Unterstützung bekommen. Auf der anderen Seite steht das grundgesetzlich geschützte Erziehungsrecht der Eltern. Welche Seite man stärker gewichtet, können Daten nicht entscheiden — sie zeigen nur, dass gerade benachteiligte Kinder am stärksten von verbindlicher Schule profitieren.",
       "keywords": [
         "Homeschooling",
         "Schulpflicht",
@@ -575,13 +575,12 @@
       "relatedSections": [
         "pisa-chancengleichheit",
         "ganztag"
-      ],
-      "verdict": "mostly-false"
+      ]
     },
     {
       "id": "gymnasium-25-prozent",
       "claim": "Nur die besten 25 Prozent sollten aufs Gymnasium.",
-      "response": "Leistungsorientierung ist legitim, aber starre Quoten sind bildungspolitisch riskant. Lernverläufe entwickeln sich unterschiedlich, und frühe harte Selektion verschärft oft die Abhängigkeit vom Elternhaus. Sinnvoller sind klare Standards, gute Diagnostik und durchlässige Bildungswege, damit Spätentwickler nicht dauerhaft aussortiert werden.",
+      "response": "Wie selektiv das Schulsystem sein soll, ist eine bildungspolitische Werteentscheidung — die empirische Basis dazu: Lernverläufe entwickeln sich unterschiedlich, und PISA zeigt für Deutschland einen besonders engen Zusammenhang zwischen sozialer Herkunft und Schulform — frühe, harte Selektion trifft also nicht nur die ‚Leistung', sondern auch das Elternhaus. Eine feste Quote setzt zudem voraus, dass sich ‚die Besten' zum Übertrittszeitpunkt zuverlässig messen lassen; genau das ist nach der Datenlage zur frühen Diagnostik unsicher. Ob man trotzdem stärker selektieren will, bleibt eine Wertefrage — die Treffsicherheit der Auswahl ist dagegen empirisch begrenzt.",
       "keywords": [
         "Gymnasium",
         "25 Prozent",
@@ -590,13 +589,12 @@
       ],
       "relatedSections": [
         "pisa-chancengleichheit"
-      ],
-      "verdict": "lacks-context"
+      ]
     },
     {
       "id": "schule-ideologiefrei",
       "claim": "Schule muss endlich ideologiefrei werden.",
-      "response": "Schule darf keine Parteipropaganda machen – da stimmt der Kern. ‚Ideologiefrei‘ heißt aber nicht wertfrei: Demokratie, Grundrechte, Gleichberechtigung, Nationalsozialismus, Diskriminierung und Medienkompetenz gehören zum Bildungsauftrag. Entscheidend ist, Themen plural und altersgerecht zu behandeln statt parteipolitisch zu rahmen.",
+      "response": "Schule darf keine Parteipropaganda machen – da stimmt der Kern. ‚Ideologiefrei‘ heißt aber nicht wertfrei: Demokratie, Grundrechte, Gleichberechtigung, Nationalsozialismus, Diskriminierung und Medienkompetenz gehören zum gesetzlichen Bildungsauftrag. Der bestehende Maßstab dafür ist, Themen plural und altersgerecht zu behandeln, ohne sie parteipolitisch zu rahmen — wer ‚ideologiefrei‘ fordert, sollte sagen, was davon gestrichen werden soll.",
       "keywords": [
         "ideologiefrei",
         "Schule",
