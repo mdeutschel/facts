@@ -5,12 +5,12 @@
   "seoTitle": "E-Auto vs. Verbrenner: Akku, CO₂, Kosten — Fakten 2026",
   "seoDescription": "Hält der Akku nur 5 Jahre? Ist das E-Auto zu teuer? Bricht das Netz? Quellengeprüfte Antworten zu 8 verbreiteten E-Auto-Behauptungen — TCO, Klimabilanz, Effizienz, Reichweite.",
   "icon": "electric_car",
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "2,03 Mio. BEV in Deutschland",
     ">190.000 öffentliche Ladepunkte",
     "19,1 % BEV-Marktanteil (2025)",
-    "8 Argumente"
+    "9 Argumente"
   ],
   "sourceNote": "Quellen: ICCT, ADAC, BMUKN, Bundesnetzagentur, KBA, Fraunhofer ISI, P3, Recurrent, GDV, DAT, Transport & Environment und EU-Batterieverordnung (Stand Mai 2026).",
   "sections": [
@@ -476,7 +476,7 @@
       "counterQuestions": [
         "Woher stammt die Zahl von 3 bis 5 Jahren — kennst du ein konkretes Modell, bei dem das dokumentiert ist, oder ist es das Gefühl vom Handy-Akku?",
         "Wenn Hersteller 8 Jahre und bis zu 250.000 km Garantie geben — würden sie das tun, wenn die Akkus reihenweise nach 5 Jahren ausfielen?",
-        "Was wäre für dich ein fairer Beleg: reale Messdaten von Autos mit hoher Laufleistung, oder reicht eine Geschichte vom Hörensagen?"
+        "Was wäre für dich ein fairer Beleg — und würden reale Messdaten von Autos mit hoher Laufleistung dich überzeugen?"
       ]
     },
     {
@@ -526,6 +526,29 @@
       ]
     },
     {
+      "id": "null-emissionen",
+      "claim": "E-Autos fahren zu 100 % sauber — das ist ein Null-Emissions-Auto!",
+      "response": "Lokal stimmt das — aus dem Auspuff kommt nichts, was für die Luft in Städten ein echter Gewinn ist. Über den Lebenszyklus gerechnet ist ‚null' aber falsch: Batterieproduktion und Strommix verursachen Emissionen, laut ICCT (2025) liegt der Vorteil gegenüber einem Benziner bei rund 73 % — viel, aber nicht 100 %. Dazu kommen reale Umwelt- und Menschenrechtsfragen im Rohstoffabbau, etwa beim Kobalt. Wer ‚emissionsfrei' sagt, liefert der Gegenseite die Steilvorlage, mit dem CO₂-Rucksack das Gesamtbild zu kippen — die belastbare Aussage ist ‚deutlich sauberer', nicht ‚sauber'.",
+      "keywords": [
+        "emissionsfrei",
+        "null Emissionen",
+        "100 Prozent sauber",
+        "Zero Emission",
+        "Klimabilanz"
+      ],
+      "relatedSections": [
+        "klimabilanz",
+        "akkus-rohstoffe"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild des CO₂-Rucksack-Arguments: Dort wird die Produktionsemission zum Gesamturteil aufgeblasen, hier wird sie komplett ausgeblendet. Beide ersetzen die Lebenszyklus-Bilanz durch den Ausschnitt, der zur eigenen Position passt.",
+      "counterQuestions": [
+        "Meinst du die Emissionen am Auspuff oder über das ganze Autoleben inklusive Herstellung und Strom?",
+        "Wie groß ist der Lebenszyklus-Vorteil laut ICCT tatsächlich — und warum ist er nicht 100 %?",
+        "Wird das Argument fürs E-Auto stärker oder schwächer, wenn man die ehrliche Zahl nennt?"
+      ]
+    },
+    {
       "id": "kobalt-kinderarbeit",
       "claim": "Für E-Autos schuften Kinder im Kongo für Kobalt.",
       "response": "Der Kern stimmt: Im Rohstoffabbau, besonders bei Kobalt aus dem Kongo, gibt es gravierende Menschenrechts- und Umweltprobleme, die man nicht kleinreden darf. Zugleich greift die Zuspitzung zu kurz: Der Kobaltanteil sinkt, LFP-Akkus (rund 40 % des E-Auto-Markts) kommen ganz ohne Kobalt und Nickel aus, und die EU-Batterieverordnung schreibt Sorgfaltspflichten in der Lieferkette und steigende Recyclingquoten vor. Kobalt steckt außerdem auch in Handys, Laptops und in Raffinerie-Katalysatoren für Diesel und Benzin — das Problem ist real, aber kein reines E-Auto-Thema.",
@@ -542,7 +565,7 @@
       "verdict": "partially-true",
       "rhetoricalPattern": "Die Parole nutzt ein echtes, moralisch aufgeladenes Problem selektiv als Totschlagargument gegen nur eine Technologie: Kobalt-Abbau wird zum E-Auto-Spezifikum erklärt, obwohl er ebenso Smartphones, Laptops und die Erdölverarbeitung betrifft. Das Anliegen kann ehrlich sein, die Engführung führt aber in die Irre.",
       "counterQuestions": [
-        "Ist dir wichtig, dass Kobalt fair abgebaut wird — oder geht es darum, das E-Auto zu treffen? Beim ersten Ziel ziehen wir am selben Strang.",
+        "Was müsste sich am Kobaltabbau konkret ändern, damit die Lieferkette für dich akzeptabel wäre?",
         "Wusstest du, dass auch in deinem Smartphone und in der Diesel-Raffinerie Kobalt steckt — gilt deine Sorge auch dort?",
         "Was hältst du von kobaltfreien LFP-Akkus — wäre das für dich ein gangbarer Weg?"
       ]
