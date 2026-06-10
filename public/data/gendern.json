@@ -243,6 +243,10 @@
               "value": "Abschaffung von ‚Fräulein' in Bundesbehörden"
             },
             {
+              "label": "1978",
+              "value": "Trömel-Plötz: erster deutschsprachiger Aufsatz zur feministischen Sprachkritik"
+            },
+            {
               "label": "1980",
               "value": "Geschlechtsneutrale Stellenausschreibungen (§ 611b BGB)"
             },
@@ -274,7 +278,7 @@
             },
             {
               "label": "2025",
-              "value": "Hamburg: Verfassungsgericht bestätigt Scheitern der Volksinitiative gegen Gendersprache am Quorum"
+              "value": "Hamburg: Verfassungsgericht bestätigt Scheitern des Volksbegehrens gegen Gendersprache am Quorum"
             }
           ],
           "sourceRefs": [
@@ -299,7 +303,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Landschaft ist zerklüftet: Mehrere Bundesländer haben Gendern mit Sonderzeichen in Schulen und teils Verwaltung verboten, andere erlauben oder empfehlen es ausdrücklich. An Hochschulen existieren Sprachleitfäden, die allerdings Empfehlungen und keine verbindlichen Vorschriften sind. Die öffentlich-rechtlichen Sender haben keinen einheitlichen Standard. Auch direktdemokratische Vorstöße gegen das Gendern blieben bislang erfolglos: In Hamburg scheiterte die Volksinitiative ‚Schluss mit Gendersprache in Verwaltung und Bildung' am Unterschriften-Quorum, was das Hamburgische Verfassungsgericht im Juli 2025 bestätigte.",
+          "text": "Die Landschaft ist zerklüftet: Mehrere Bundesländer haben Gendern mit Sonderzeichen in Schulen und teils Verwaltung verboten, andere erlauben oder empfehlen es ausdrücklich. An Hochschulen existieren Sprachleitfäden, die allerdings Empfehlungen und keine verbindlichen Vorschriften sind. Die öffentlich-rechtlichen Sender haben keinen einheitlichen Standard. Ein prominenter direktdemokratischer Vorstoß gegen das Gendern blieb ebenfalls erfolglos: In Hamburg scheiterte das Volksbegehren der Initiative ‚Schluss mit Gendersprache in Verwaltung und Bildung' am Unterschriften-Quorum, was das Hamburgische Verfassungsgericht im Juli 2025 bestätigte.",
           "sourceRefs": [
             "hverfg-gendersprache-2025"
           ]
@@ -460,7 +464,10 @@
         },
         {
           "type": "text",
-          "text": "Die BFIT-Bund (Bundesüberwachungsstelle für Barrierefreiheit) hatte 2021 noch das Sternchen empfohlen, nahm diese Empfehlung 2023 aber zurück und gibt seitdem kein Votum mehr für ein bestimmtes Genderzeichen ab. Das grundsätzliche Spannungsfeld bleibt: Inklusion über Sprache und Inklusion über Barrierefreiheit sind derzeit nicht vollständig miteinander vereinbar."
+          "text": "Die Überwachungsstelle des Bundes für Barrierefreiheit von Informationstechnik (BFIT-Bund) hatte 2021 noch das Sternchen empfohlen, richtete ihre Publikation im November 2023 aber neu aus und gibt seitdem bewusst kein Votum mehr für ein bestimmtes Genderzeichen ab — sie benennt nur noch Grundprinzipien wie Wahrnehmbarkeit und Verständlichkeit. Das grundsätzliche Spannungsfeld bleibt: Inklusion über Sprache und Inklusion über Barrierefreiheit sind derzeit nicht vollständig miteinander vereinbar.",
+          "sourceRefs": [
+            "bfit-genderzeichen-2023"
+          ]
         }
       ]
     },
@@ -504,7 +511,7 @@
             [
               "Finnisch / Türkisch",
               "Kein grammatisches Geschlecht",
-              "Male Bias besteht trotzdem (kulturell bedingt)"
+              "Male Bias in Studien dennoch nachweisbar"
             ]
           ],
           "sourceRefs": [
@@ -572,7 +579,7 @@
     {
       "id": "nur-modeerscheinung",
       "claim": "Gendern ist nur eine Modeerscheinung!",
-      "response": "Geschlechtergerechte Sprache wird seit den späten 1970ern wissenschaftlich diskutiert — Senta Trömel-Plötz veröffentlichte 1978 den ersten Aufsatz dazu, seit 1980 sind geschlechtsneutrale Stellenausschreibungen gesetzlich vorgeschrieben, und Hessen formuliert seit 1986 Gesetze ohne generisches Maskulinum. Richtig ist: Einzelne Formen wie der Genderstern sind deutlich jünger, und welche Schreibweise sich langfristig durchsetzt, ist offen. Die konkrete Form mag sich ändern — das Grundanliegen besteht aber seit über 45 Jahren und ist teilweise gesetzlich verankert.",
+      "response": "Geschlechtergerechte Sprache wird seit den späten 1970ern wissenschaftlich diskutiert — Senta Trömel-Plötz veröffentlichte 1978 den ersten deutschsprachigen Aufsatz zur feministischen Sprachkritik, und seit 1980 sind geschlechtsneutrale Stellenausschreibungen gesetzlich vorgeschrieben. Richtig ist: Einzelne Formen wie der Genderstern sind deutlich jünger, und welche Schreibweise sich langfristig durchsetzt, ist offen. Die konkrete Form mag sich ändern — das Grundanliegen besteht aber seit über 45 Jahren und ist teilweise gesetzlich verankert.",
       "keywords": [
         "Mode",
         "Trend",
@@ -632,13 +639,13 @@
       "counterQuestions": [
         "Wen stellst du dir spontan vor, wenn du ‚die besten Fußballer Deutschlands' hörst?",
         "Warum schreiben Stellenanzeigen seit Jahrzehnten ‚(m/w/d)', wenn das Maskulinum ohnehin alle meint?",
-        "Woher weißt du, dass sich alle mitgemeint fühlen — hast du mal nachgefragt?"
+        "Woran machst du fest, dass sich alle mitgemeint fühlen?"
       ]
     },
     {
       "id": "gendern-unlesbar",
       "claim": "Gendern macht Texte unlesbar!",
-      "response": "In kontrollierten Studien beeinträchtigen geschlechtergerechte Formulierungen die Verständlichkeit nicht messbar: Die TU Braunschweig (Friedrich & Heise 2019) testete vier Versionen eines Vertrags an 355 Personen — ohne Unterschied im Verständnis. Das subjektive Empfinden, dass ungewohnte Formen den Lesefluss stören, ist trotzdem real, und es gibt berechtigte Barrierefreiheitsbedenken: Der Deutsche Blinden- und Sehbehindertenverband rät von Doppelpunkt und Unterstrich ab, da Screenreader sie problematisch verarbeiten. Die Lesbarkeit hängt damit weniger am Gendern an sich als an der gewählten Form.",
+      "response": "In kontrollierten Studien beeinträchtigen geschlechtergerechte Formulierungen die Verständlichkeit nicht messbar: Die TU Braunschweig (Friedrich & Heise 2019) testete vier Versionen eines Vertrags an 355 Personen — ohne Unterschied im Verständnis. Das subjektive Empfinden, dass ungewohnte Formen den Lesefluss stören, ist trotzdem real, und es gibt berechtigte Barrierefreiheitsbedenken: Der Deutsche Blinden- und Sehbehindertenverband rät vom Doppelpunkt (Screenreader lesen ihn als lange Pause) und vom Unterstrich (für Sehbehinderte schlecht erkennbar) ab. Die Lesbarkeit hängt damit weniger am Gendern an sich als an der gewählten Form.",
       "keywords": [
         "unlesbar",
         "Lesbarkeit",
@@ -710,7 +717,7 @@
     {
       "id": "andere-sprachen-ohne",
       "claim": "Andere Sprachen kommen auch ohne Gendern aus!",
-      "response": "Das trifft auf manche Sprachen zu — Finnisch und Türkisch etwa kennen kein grammatisches Geschlecht. Allerdings zeigen Studien, dass selbst dort ein Male Bias bei geschlechtsneutralen Pronomen besteht. Und in vielen Sprachen mit Genussystem gibt es parallele Debatten: In Frankreich hat der Senat écriture inclusive 2023 mit 221:82 verboten, in Schweden wurde ‚hen' 2015 offiziell eingeführt, im Englischen ist das singuläre ‚they' seit 2019 im Merriam-Webster. Das Anliegen ist international — die Lösungen fallen je nach Sprachstruktur verschieden aus.",
+      "response": "Das trifft auf manche Sprachen zu — Finnisch und Türkisch etwa kennen kein grammatisches Geschlecht. Allerdings zeigen Studien, dass selbst dort ein Male Bias bei geschlechtsneutralen Pronomen besteht. Und in vielen Sprachen mit Genussystem gibt es parallele Debatten: In Frankreich hat der Senat écriture inclusive 2023 mit 221:82 verboten, in Schweden wurde ‚hen' 2015 ins Wörterbuch der Schwedischen Akademie aufgenommen, im Englischen ist das singuläre ‚they' seit 2019 im Merriam-Webster. Das Anliegen ist international — die Lösungen fallen je nach Sprachstruktur verschieden aus.",
       "keywords": [
         "andere Sprachen",
         "Englisch",
@@ -744,7 +751,8 @@
       ],
       "relatedSections": [
         "oeffentliche-meinung",
-        "bundeslaender-und-institutionen"
+        "bundeslaender-und-institutionen",
+        "regulierung"
       ],
       "verdict": "mostly-false",
       "rhetoricalPattern": "Die Parole setzt Empfehlungen mit Vorschriften gleich und rahmt eine nicht existierende Pflicht als Bedrohung, während real existierende Verbote unerwähnt bleiben. Wer Bevormundung konsequent ablehnt, müsste staatliche Sprachverbote genauso kritisch sehen wie Sprachgebote.",
@@ -820,6 +828,11 @@
       "id": "dbsv-gendern",
       "label": "DBSV – Empfehlungen zum Gendern (2024)",
       "url": "https://www.dbsv.org/gendern.html"
+    },
+    {
+      "id": "bfit-genderzeichen-2023",
+      "label": "BFIT-Bund – Die digitale Barrierefreiheit auf der semiotischen Ebene der Genderzeichen (2023)",
+      "url": "https://www.bfit-bund.de/DE/Publikation/digitale-barrierefreiheit-semiotik-genderzeichen.html"
     },
     {
       "id": "genderleicht-leichte-sprache",
