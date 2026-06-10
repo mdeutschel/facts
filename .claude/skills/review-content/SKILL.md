@@ -117,7 +117,8 @@ Die Seite bezieht Position für den wissenschaftlichen Kenntnisstand — nicht f
 **9a. Verdict-Disziplin (Empirie-Test):**
 - Ein `verdict` ist nur zulässig, wenn der Claim **empirisch prüfbar** ist. Test: „Könnte eine Statistik oder Studie diese Aussage grundsätzlich widerlegen?" Wenn nein → kein Verdict.
 - Normative Claims (erkennbar an „sollte", „muss", „ist Privatsache", „ist gerecht/ungerecht", „bestraft", „hat da nichts zu suchen") bekommen **kein Verdict**. Das `response` ordnet dann die empirische Faktenbasis ein, stellt die stärksten Argumente beider Seiten dar und benennt explizit, wo der Wertkonflikt beginnt.
-- Mischformen (empirische Prämisse + normative Forderung): Nur den empirischen Teil bewerten und im `response` klar trennen („Die zugrunde liegende Zahl stimmt nicht — ob man X dennoch will, ist eine Wertfrage").
+- Mischformen (empirische Prämisse + normative Forderung): Das Verdict **bleibt erhalten** und bezieht sich auf den empirischen Teil; im `response` die Ebenen klar trennen („Die zugrunde liegende Zahl stimmt nicht — ob man X dennoch will, ist eine Wertfrage"). `rhetoricalPattern` und `counterQuestions` bleiben gemäß Dim 8 ebenfalls bestehen.
+- Verdict-Entfernung ist die **Ausnahme** für rein normative Claims ohne prüfbaren empirischen Kern — nur dann entfallen gemäß Dim 8 auch `rhetoricalPattern` und `counterQuestions`. Im Zweifel: Verdict behalten und die Ebenen im `response` trennen.
 
 **9b. Kein Plädoyer:**
 - Das `response` empfiehlt keine politische Maßnahme und erklärt keine politische Position für legitim, nötig oder überfällig („ist Teil legitimer Verteilungspolitik", „kann helfen, Arbeit zu entlasten" sind Plädoyers, keine Faktenchecks).

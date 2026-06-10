@@ -855,6 +855,13 @@
       "relatedSections": [
         "erbschaftssteuer",
         "erbengesellschaft"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Ebenen-Vermischung: Eine prüfbare Tatsachenbehauptung (‚zerstört Lebenswerke‘) wird mit einem Werturteil (‚bestraft Leistung‘) verschweißt. Wer den Tatsachenteil widerlegt, scheint das Werturteil anzugreifen — und umgekehrt immunisiert das Werturteil den Tatsachenteil gegen Prüfung.",
+      "counterQuestions": [
+        "Kennst du einen dokumentierten Fall, in dem ein Betrieb wegen der Erbschaftsteuer aufgegeben werden musste — trotz Freibeträgen und Stundungsregeln?",
+        "Wessen Leistung meinst du: die des Erblassers, der das Vermögen aufgebaut hat, oder die des Erben, der es empfängt?",
+        "Wenn 96 % aller Erbfälle unter den Freibeträgen bleiben — über welche Lebenswerke reden wir konkret?"
       ]
     },
     {
