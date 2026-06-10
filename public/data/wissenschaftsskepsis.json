@@ -5,12 +5,12 @@
   "seoTitle": "Wissenschaftsskepsis: Kann man der Wissenschaft trauen? — Faktencheck",
   "seoDescription": "Widersprechen sich Studien ständig? Ist Forschung gekauft? 9 typische Zweifel an der Wissenschaft — mit Daten zu Vertrauen, Klimakonsens und Replikationskrise, belegt und nachprüfbar.",
   "icon": "science",
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "55 % vertrauen der Wissenschaft (2024)",
     "97–99 % Klimakonsens in Fachartikeln",
     "Nur 36 % Replikationsrate in der Psychologie",
-    "9 Argumente"
+    "10 Argumente"
   ],
   "sourceNote": "Basierend auf Daten von Wissenschaft im Dialog (Wissenschaftsbarometer), dem Edelman Trust Barometer, der US-amerikanischen National Academy of Sciences, der Open Science Collaboration, Cochrane, dem Statistischen Bundesamt sowie Studien u. a. von Cook et al., Lynas et al., Kearns et al., Diethelm & McKee und Aslett et al. (Stand 2009–2025).",
   "sections": [
@@ -569,8 +569,31 @@
       "rhetoricalPattern": "Revision als Schwäche umgedeutet: Die Anpassung an neue Evidenz wird als Beweis für Unzuverlässigkeit gelesen. Tatsächlich wäre das Gegenteil — starres Festhalten trotz neuer Daten — das eigentliche Versagen.",
       "counterQuestions": [
         "Welche Kehrtwende meinst du konkret — und beruhte sie auf neuen Daten oder auf etwas anderem?",
-        "Wäre es dir lieber gewesen, man hätte trotz besserer Daten an der ersten Einschätzung festgehalten?",
+        "Woran würdest du einen echten Irrtum von einer Anpassung an neue Daten unterscheiden?",
         "Unterscheidest du zwischen einer korrigierten Annahme und einer von Anfang an falschen Tatsache?"
+      ]
+    },
+    {
+      "id": "wissenschaft-hat-immer-recht",
+      "claim": "Was die Wissenschaft sagt, stimmt eben — wer daran zweifelt, hat es nicht verstanden!",
+      "response": "So funktioniert Wissenschaft gerade nicht: Organisierter Zweifel ist ihr Kernmechanismus, nicht ihr Gegner. Einzelne Studien sind vorläufig — in der Psychologie ließen sich nur rund 36 % der untersuchten Befunde klar wiederholen, und genau deshalb gibt es Replikation, Peer Review und Präregistrierung. Verlässlich ist der über viele unabhängige Untersuchungen verdichtete Kenntnisstand, nicht jede einzelne Schlagzeile mit ‚Studie zeigt'. Der entscheidende Unterschied liegt zwischen methodischem Zweifel (prüfbar, an Belege gebunden) und pauschalem Misstrauen — wer Wissenschaft für unfehlbar erklärt, liefert den Pauschal-Skeptikern die Vorlage, jede Korrektur als Versagen zu deuten.",
+      "keywords": [
+        "Wissenschaft hat recht",
+        "Zweifel unwissenschaftlich",
+        "Studie zeigt",
+        "blindes Vertrauen",
+        "Szientismus"
+      ],
+      "relatedSections": [
+        "wie-wissenschaft-funktioniert",
+        "replikationskrise"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Spiegelbild der Pauschal-Skepsis: Statt jede Studie zu verwerfen, wird jede Studie zur Wahrheit erklärt. Beide verwechseln Einzelbefund und verdichteten Kenntnisstand — und beide machen die Korrekturfähigkeit der Wissenschaft zum Problem statt zur Stärke.",
+      "counterQuestions": [
+        "Meinst du eine einzelne Studie oder den über viele Untersuchungen verdichteten Kenntnisstand?",
+        "Wie passt ‚stimmt eben' zu einer Replikationsrate von 36 % bei Einzelbefunden in der Psychologie?",
+        "Was unterscheidet methodischen Zweifel mit Belegen von pauschalem Misstrauen?"
       ]
     }
   ],
