@@ -5,7 +5,7 @@
   "seoTitle": "KI & Arbeitsmarkt: Welche Jobs sind in Gefahr? Fakten 2026",
   "seoDescription": "Vernichtet KI die Hälfte aller Jobs? Verschläft Deutschland die Revolution? Antworten zu Automatisierung, Berufen und Weiterbildung — Quellen IAB, OECD.",
   "icon": "smart_toy",
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "26 % der Unternehmen nutzen KI (Destatis 2025)",
     "Bis zu 3 Mio. Jobwechsel in DE bis 2030",
@@ -759,7 +759,7 @@
     {
       "id": "grundeinkommen-noetig",
       "claim": "Wir brauchen wegen KI ein bedingungsloses Grundeinkommen!",
-      "response": "Die Debatte ist legitim, aber die aktuelle Forschungslage stützt sie nicht unmittelbar: Das IAB erwartet keinen Netto-Jobabbau, und historisch haben technologische Umbrüche Arbeit transformiert statt eliminiert. Der dringendere Bedarf liegt bei gezielter Qualifizierung und sozialer Absicherung während des Übergangs. Ob KI langfristig ein Grundeinkommen nötig macht, hängt von Geschwindigkeit und Tiefe des Wandels ab — das ist heute noch offen.",
+      "response": "Die Debatte ist legitim, aber die aktuelle Forschungslage stützt sie nicht unmittelbar: Das IAB erwartet keinen Netto-Jobabbau, und historisch haben technologische Umbrüche Arbeit transformiert statt eliminiert. Was die Daten zeigen, ist also vor allem ein Übergangsproblem — Berufswechsel und Qualifizierungsbedarf —, nicht das Wegfallen der Arbeit, auf das die BGE-Begründung zielt. Ob KI langfristig ein Grundeinkommen nötig macht und ob man es unabhängig davon will, sind zwei verschiedene Fragen: Die erste hängt von Geschwindigkeit und Tiefe des Wandels ab und ist offen, die zweite ist eine Wertefrage, die Daten nicht beantworten.",
       "keywords": [
         "grundeinkommen",
         "bedingungslos",
