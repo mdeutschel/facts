@@ -3,14 +3,14 @@
   "title": "Bürgergeld",
   "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
   "seoTitle": "Bürgergeld 2026: Lohnt sich Arbeit noch? Fakten & Quellen",
-  "seoDescription": "Bürgergeld als Hängematte? Lohnabstand, Sanktionen, Mythen vs. Daten – Antworten auf 8 Stammtisch-Behauptungen mit Quellen aus IAB, BMAS und Destatis.",
+  "seoDescription": "Bürgergeld als Hängematte? Lohnabstand, Sanktionen, Mythen vs. Daten – Antworten auf 9 Stammtisch-Behauptungen mit Quellen aus IAB, BMAS und Destatis.",
   "icon": "account_balance_wallet",
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-06-10",
   "keyStats": [
     "563 € Regelsatz (Nullrunde 2025/2026)",
     "557 € Einkommensvorteil bei Mindestlohn-Vollzeit (Stand 2025)",
     "ca. 820.000 Aufstocker trotz Arbeit (2024)",
-    "8 Argumente"
+    "9 Argumente"
   ],
   "sourceNote": "Basierend auf Daten von BMAS, Bundesregierung, Bundesagentur für Arbeit, WSI, IW Köln und den einschlägigen Gesetzestexten (Stand März 2026).",
   "sections": [
@@ -520,7 +520,7 @@
     {
       "id": "ukraine",
       "claim": "Ukraine-Flüchtlinge bekommen sofort Bürgergeld, ohne jemals eingezahlt zu haben!",
-      "response": "Der Kern der Aussage stimmt: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Bürgergeld beantragen — früher als andere Schutzsuchende. Richtig ist auch: Sie haben nicht in das System eingezahlt. Das ist aber kein Konstruktionsfehler, sondern das Wesen dieser Leistung: Bürgergeld ist eine steuerfinanzierte Sozialleistung, keine beitragsfinanzierte Versicherung — genau wie Kindergeld oder Wohngeld. Der Zugang ist an Hilfebedürftigkeit und Aufenthaltsstatus geknüpft, verbunden mit Zugang zur Arbeitsvermittlung und Integrationskursen.",
+      "response": "Der Kern der Aussage stimmt: Ukrainische Geflüchtete mit Schutzstatus nach § 24 AufenthG können seit dem 1. Juni 2022 bei Hilfebedürftigkeit Bürgergeld beantragen — früher als andere Schutzsuchende. Richtig ist auch: Sie haben nicht in das System eingezahlt. Das ist allerdings keine Sonderregel für diese Gruppe, sondern das Prinzip der Leistungsart: Bürgergeld ist eine steuerfinanzierte Sozialleistung, keine beitragsfinanzierte Versicherung — genau wie Kindergeld oder Wohngeld. Ob man den frühen Zugang für diese Gruppe richtig findet, ist eine politische Frage — an der Systematik der Leistung ändert sie nichts. Der Zugang ist an Hilfebedürftigkeit und Aufenthaltsstatus geknüpft, verbunden mit Zugang zur Arbeitsvermittlung und Integrationskursen.",
       "keywords": [
         "ukraine",
         "flüchtlinge",
@@ -542,7 +542,7 @@
     {
       "id": "langzeitbezug",
       "claim": "Die bleiben doch alle jahrelang drin. Bürgergeld-Empfänger kommen da nie wieder raus!",
-      "response": "Der Anteil des Langzeitbezugs ist tatsächlich hoch: Rund 65 Prozent der erwerbsfähigen Leistungsberechtigten gelten als Langzeitbeziehende, fast 39 Prozent beziehen seit vier Jahren oder länger Bürgergeld. Das zeigt eine strukturelle Verfestigung, die ernst zu nehmen ist. Die Ursachen sind jedoch vielfältig: gesundheitliche Einschränkungen, fehlende Berufsqualifikationen, Betreuungspflichten oder regionale Arbeitslosigkeit. Ältere Beziehende (50–64 Jahre) haben mit 70 Monaten Medianverweildauer den schwersten Stand. Pauschale Unwilligkeit erklärt das nicht — aber die Zahlen zeigen auch, dass passive Leistungsgewährung allein keine Integration leistet.",
+      "response": "Der Anteil des Langzeitbezugs ist tatsächlich hoch: Rund 65 Prozent der erwerbsfähigen Leistungsberechtigten gelten als Langzeitbeziehende, fast 39 Prozent beziehen seit vier Jahren oder länger Bürgergeld. Das zeigt eine strukturelle Verfestigung, die ernst zu nehmen ist. Die Ursachen sind jedoch vielfältig: gesundheitliche Einschränkungen, fehlende Berufsqualifikationen, Betreuungspflichten oder regionale Arbeitslosigkeit. Ältere Beziehende (50–64 Jahre) haben mit 70 Monaten Medianverweildauer den schwersten Stand. Pauschale Unwilligkeit erklärt das nicht — die Verfestigung selbst ist aber real und bleibt eines der ungelösten Probleme des Systems.",
       "keywords": [
         "langzeit",
         "jahrelang",
@@ -559,6 +559,28 @@
         "Wenn 50- bis 64-Jährige eine Medianverweildauer von 70 Monaten haben — liegt das eher an mangelnder Vermittelbarkeit auf dem Arbeitsmarkt oder an Unwilligkeit?",
         "Welcher Anteil der Langzeitbeziehenden ist Aufstocker, alleinerziehend oder gesundheitlich eingeschränkt — und wie verändert das das Bild?",
         "Was wären für dich wirksame Maßnahmen, um die Verfestigung zu lösen — bei derselben Personen-Realität?"
+      ]
+    },
+    {
+      "id": "sanktionen-verboten",
+      "claim": "Sanktionen beim Bürgergeld sind doch verfassungswidrig — das hat das Bundesverfassungsgericht verboten!",
+      "response": "Das Urteil sagt etwas anderes: Das Bundesverfassungsgericht hat 2019 (1 BvL 7/16) die damaligen scharfen Hartz-IV-Sanktionen von 60 und 100 Prozent gekippt — Leistungsminderungen grundsätzlich aber ausdrücklich für verfassungskonform erklärt, solange sie 30 Prozent des Regelbedarfs nicht überschreiten, Härtefallregelungen bestehen und das Existenzminimum nicht vollständig entzogen wird. Die seit März 2024 geltende Regelung — vollständiger Wegfall des Regelbedarfs für bis zu zwei Monate bei wiederholter Verweigerung tatsächlich verfügbarer zumutbarer Arbeit — wurde unter Berücksichtigung dieser Grenzen gestaltet; die Kosten für Unterkunft und Heizung bleiben dabei unangetastet. Ob diese Neuregelung einer Prüfung standhält, ist offen — ‚verboten' hat das Gericht Sanktionen aber nicht.",
+      "keywords": [
+        "Sanktionen verfassungswidrig",
+        "Bundesverfassungsgericht",
+        "verboten",
+        "Existenzminimum",
+        "Urteil"
+      ],
+      "relatedSections": [
+        "sanktionen"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Urteils-Überdehnung: Aus einer differenzierten Entscheidung (alte 60/100-Prozent-Sanktionen unzulässig, Minderungen bis 30 Prozent zulässig) wird ein Totalverbot. Das Muster spiegelt die ‚Hängematten'-Parole der Gegenseite: Beide ignorieren, was seit 2024 tatsächlich gilt.",
+      "counterQuestions": [
+        "Was genau hat das Gericht 2019 gekippt — alle Sanktionen oder die damaligen 60- und 100-Prozent-Minderungen?",
+        "Welche Grenzen hat das Urteil für zulässige Minderungen gezogen?",
+        "Bleiben Miete und Heizung bei der heutigen Regelung bestehen — und ändert das deine Einschätzung?"
       ]
     },
     {
