@@ -719,7 +719,7 @@
             }
           ],
           "sourceRefs": [
-            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov"
+            "ariadne-energiewende-kosteneffizient-2045"
           ]
         },
         {
@@ -748,14 +748,14 @@
             ]
           ],
           "sourceRefs": [
-            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov"
+            "ariadne-energiewende-kosteneffizient-2045"
           ]
         },
         {
           "type": "text",
           "text": "Treiber des Mehrbedarfs: Direkte Elektrifizierung (Wärmepumpen + E-Autos ersetzen Gasheizungen und Verbrenner), grüner Wasserstoff (400–620 TWh Strom allein für Elektrolyseure in Stahl, Chemie, Luftfahrt) und ein Gegeneffekt: Gesamtenergiebedarf sinkt dank Effizienz um 32–38%.",
           "sourceRefs": [
-            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov",
+            "ariadne-energiewende-kosteneffizient-2045",
             "bee-strombedarfsanalyse-2025-sektorenkopplung"
           ]
         },
@@ -764,7 +764,7 @@
           "text": "Selbst alle 17 historischen deutschen AKW hätten bei verdoppeltem Strombedarf nur ~10% gedeckt. Der EE-Ausbau bleibt in jedem Szenario unvermeidlich.",
           "highlight": true,
           "sourceRefs": [
-            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov",
+            "ariadne-energiewende-kosteneffizient-2045",
             "ag-energiebilanzen-ageb-jahresbericht-2025",
             "iaea-statista-kernenergie-anteil-deutschland"
           ]
@@ -780,7 +780,7 @@
           "text": "Mehrere unabhängige Szenarienstudien modellieren ein klimaneutrales, fast vollständig erneuerbares Energiesystem für Deutschland bis 2045 — mit zu jeder Stunde gesicherter Versorgung in allen Verbrauchssektoren. Das ist kein Selbstläufer, aber nach aktueller Studienlage technisch machbar und volkswirtschaftlich tragbar. Strittig ist weniger das Ob als Tempo, Kosten und der richtige Technologiemix.",
           "sourceRefs": [
             "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024",
-            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov",
+            "ariadne-energiewende-kosteneffizient-2045",
             "agora-klimaneutrales-deutschland-2045"
           ]
         },
@@ -835,7 +835,7 @@
           ],
           "sourceRefs": [
             "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024",
-            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov"
+            "ariadne-energiewende-kosteneffizient-2045"
           ]
         },
         {
@@ -1922,8 +1922,8 @@
       "url": "https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf"
     },
     {
-      "id": "ariadne-szenarien-zur-klimaneutralitaet-2045-nov",
-      "label": "Ariadne: Szenarien zur Klimaneutralität 2045 (Nov. 2025) – Strombedarf 2030/2045, Elektrifizierungspfade",
+      "id": "ariadne-energiewende-kosteneffizient-2045",
+      "label": "Ariadne: Die Energiewende kosteneffizient gestalten – Szenarien zur Klimaneutralität 2045 (März 2025, aktualisiert Nov. 2025) – Strombedarf 2030/2045, Mehrkosten, Elektrifizierungspfade",
       "url": "https://ariadneprojekt.de/publikation/report-szenarien-zur-klimaneutralitat-2045/"
     },
     {
