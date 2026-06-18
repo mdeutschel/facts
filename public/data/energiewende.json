@@ -5,14 +5,14 @@
   "seoTitle": "Energiewende & Atomkraft: Argumente, Kosten, Versorgung",
   "seoDescription": "Hätten AKW die Gaskrise gelöst? Sind SMRs realistisch? Antworten zu Atomausstieg, Strommix und Versorgungssicherheit — Quellen BNetzA und Fraunhofer.",
   "icon": "bolt",
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-18",
   "keyStats": [
     "55,1 % Erneuerbare am Bruttostromverbrauch 2025 (BDEW/ZSW)",
     "AKW-Neubau deutlich teurer als Wind/Solar (Lazard LCOE)",
     "400 GW beantragte Speicherleistung",
     "Industriestrompreis 2026-2028 (50 €/MWh, EU genehmigt)"
   ],
-  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand Juni 2026). Zentrale neuere Quellen: BDEW/ZSW (EE-Anteil 2025), Destatis (Stromerzeugung 2025 endgültig), Bundesnetzagentur (Strommarktdaten 2025), IWR (Windausbau Q1 2026), BMWE (Industriestrompreis 2026-2028, EU-Kommission-Genehmigung April 2026), Fraunhofer ISE / energy-charts.info, Lazard LCOE+ v18.0. Für die wirtschaftspolitische Einordnung zusätzlich: ifo/Destatis (Industrieproduktion), EY-Industriebarometer (Industriebeschäftigung), Eurostat/BDEW (Strompreise), BMWE (Kraftwerksstrategie 2026), DIHK und EnEfG (Energieeffizienzziele).",
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand Juni 2026). Zentrale neuere Quellen: BDEW/ZSW (EE-Anteil 2025), Destatis (Stromerzeugung 2025 endgültig), Bundesnetzagentur (Strommarktdaten 2025), IWR (Windausbau Q1 2026), BMWE (Industriestrompreis 2026-2028, EU-Kommission-Genehmigung April 2026), Fraunhofer ISE / energy-charts.info, Lazard LCOE+ v18.0. Für die wirtschaftspolitische Einordnung zusätzlich: ifo/Destatis (Industrieproduktion), EY-Industriebarometer (Industriebeschäftigung), Eurostat/BDEW (Strompreise), BMWE (Kraftwerksstrategie 2026), DIHK und EnEfG (Energieeffizienzziele). Für die Machbarkeit einer Vollversorgung zusätzlich: Fraunhofer ISE (Wege zu einem klimaneutralen Energiesystem; Energiesystem Deutschland 2050), Ariadne (Szenarien zur Klimaneutralität 2045), Agora/Stiftung Klimaneutralität (Klimaneutrales Deutschland 2045), EWI (Wasserstoffspeicher), UBA/AGEE-Stat und AGEB (EE-Anteile Strom/Endenergie/Primärenergie) sowie Netzentwicklungsplan Strom 2037/2045.",
   "sections": [
     {
       "id": "atomausstieg",
@@ -767,6 +767,117 @@
             "ariadne-szenarien-zur-klimaneutralitaet-2045-nov",
             "ag-energiebilanzen-ageb-jahresbericht-2025",
             "iaea-statista-kernenergie-anteil-deutschland"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vollversorgung-szenarien",
+      "title": "100%-Szenarien: Ist Vollversorgung machbar?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Mehrere unabhängige Szenarienstudien modellieren ein klimaneutrales, fast vollständig erneuerbares Energiesystem für Deutschland bis 2045 — mit zu jeder Stunde gesicherter Versorgung in allen Verbrauchssektoren. Das ist kein Selbstläufer, aber nach aktueller Studienlage technisch machbar und volkswirtschaftlich tragbar. Strittig ist weniger das Ob als Tempo, Kosten und der richtige Technologiemix.",
+          "sourceRefs": [
+            "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024",
+            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov",
+            "agora-klimaneutrales-deutschland-2045"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "≈420 GW",
+              "label": "Photovoltaik 2045",
+              "sublabel": "Szenario technologieoffen (ISE)"
+            },
+            {
+              "value": "≈290 GW",
+              "label": "Windkraft 2045",
+              "sublabel": "On- und Offshore (ISE)"
+            },
+            {
+              "value": "1.150–1.650",
+              "label": "TWh Strombedarf 2045",
+              "sublabel": "je nach Szenario (ISE)",
+              "color": "#00897b"
+            }
+          ],
+          "sourceRefs": [
+            "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Was die Transformation kostet – Szenarienvergleich",
+          "headers": [
+            "Studie",
+            "Kennzahl",
+            "Wert"
+          ],
+          "rows": [
+            [
+              "Fraunhofer ISE (technologieoffen)",
+              "Mehrkosten ggü. fossilem System",
+              "≈54 Mrd. €/Jahr (~1,2 % des BIP)"
+            ],
+            [
+              "Ariadne (2025)",
+              "Mehrkosten ggü. bestehender Politik",
+              "16–26 Mrd. €/Jahr"
+            ],
+            [
+              "Ariadne (2025)",
+              "Gesamtinvestitionen Energiewende",
+              "116–131 Mrd. €/Jahr (~3,5 % des BIP)"
+            ]
+          ],
+          "sourceRefs": [
+            "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024",
+            "ariadne-szenarien-zur-klimaneutralitaet-2045-nov"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der schwierige Teil ist nicht die Erzeugung in sonnen- und windreichen Stunden, sondern die letzten Prozent gesicherter Versorgung. Modellrechnungen zeigen: Oberhalb von rund 85 % Emissionsminderung steigt der nötige Zubau überproportional, weil Stromüberschüsse über verlustreiche Power-to-Gas-Ketten gespeichert werden müssen. Dafür braucht es Langzeitspeicher (Wasserstoffbedarf fürs Stromsystem bis zu rund 80 TWh in 2045, im Kern der Modellläufe eher 34–44 TWh), gesicherte Backup-Leistung (die Kraftwerksstrategie schreibt zunächst 12 GW wasserstofffähige Kraftwerke aus) und einen großen Netzausbau (der Netzentwicklungsplan veranschlagt für das Übertragungsnetz bis 2045 mehrere hundert Milliarden Euro).",
+          "sourceRefs": [
+            "fraunhofer-ise-energiesystem-deutschland-2050",
+            "ewi-wasserstoffspeicher-2024",
+            "bmwe-kraftwerksstrategie-2026",
+            "nep-strom-2037-2045-2025"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "55,1 %",
+              "label": "Erneuerbare am Stromverbrauch",
+              "sublabel": "2025 (UBA)"
+            },
+            {
+              "value": "23,8 %",
+              "label": "am Endenergieverbrauch",
+              "sublabel": "2025, inkl. Wärme & Verkehr (UBA)"
+            },
+            {
+              "value": "~20 %",
+              "label": "am Primärenergieverbrauch",
+              "sublabel": "2024 (AGEB)"
+            }
+          ],
+          "sourceRefs": [
+            "uba-erneuerbare-energien-2025",
+            "ageb-erneuerbare-fuenftel-primaerenergie"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Vollversorgung ist damit weniger eine Frage des Ob als des Wie: Beim Strom (55 %) ist Deutschland auf Kurs, Wärme (19 %) und Verkehr (8 %) hinken hinterher. Der Aufwand verschiebt sich von der reinen Erzeugung hin zu Speichern, Netzen, Backup und der Elektrifizierung von Heizung und Verkehr.",
+          "highlight": true,
+          "sourceRefs": [
+            "uba-erneuerbare-energien-2025"
           ]
         }
       ]
@@ -1713,6 +1824,94 @@
         "Die DIHK-Rechnung gilt bei gleichbleibendem Effizienztempo — was passiert mit dem Ergebnis, wenn die Energieproduktivität schneller steigt?",
         "Geht es dir gegen das Ziel oder gegen das Instrument — und welches Instrument würde Effizienz besser fördern?"
       ]
+    },
+    {
+      "id": "hundert-prozent-utopie",
+      "claim": "100 Prozent erneuerbar ist Träumerei — eine Industrienation läuft nicht auf Wind und Sonne.",
+      "response": "Tatsächlich modellieren mehrere unabhängige Szenarienstudien — Fraunhofer ISE, das Ariadne-Projekt und Agora/Stiftung Klimaneutralität — ein klimaneutrales, nahezu vollständig erneuerbares Energiesystem für Deutschland bis 2045, mit zu jeder Stunde gesicherter Versorgung. Der Aufwand ist real: nötig sind massiver Wind- und Solarausbau (ISE rechnet mit grob 420 GW Photovoltaik und 290 GW Wind), Langzeitspeicher, wasserstofffähige Backup-Kraftwerke und ein großer Netzausbau. Die jährlichen Mehrkosten gegenüber einem Weiter-so beziffern die Studien aber als überschaubar — auf etwa 1 Prozent der Wirtschaftsleistung (Fraunhofer ISE) bzw. 16 bis 26 Milliarden Euro pro Jahr (Ariadne). ‚Unmöglich' ist es also nicht; es ist eine Planungs- und Investitionsaufgabe mit bekannten Stellschrauben.",
+      "keywords": [
+        "100 prozent",
+        "erneuerbar",
+        "utopie",
+        "träumerei",
+        "unmöglich",
+        "industrienation",
+        "versorgungssicherheit",
+        "vollversorgung",
+        "wind und sonne"
+      ],
+      "relatedSections": [
+        "vollversorgung-szenarien",
+        "strombedarf-2045",
+        "dunkelflauten",
+        "speicherausbau",
+        "backup-und-netze"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole macht aus den realen Schwierigkeiten der letzten Prozent einen Beweis für die Unmöglichkeit des Ganzen — eine Alles-oder-nichts-Logik. Sie übergeht, dass die Machbarkeit nicht bloß behauptet, sondern in stündlich aufgelösten Modellen mit konkreten Kosten durchgerechnet ist, und verwechselt ‚schwierig und teuer' mit ‚geht nicht'.",
+      "counterQuestions": [
+        "Welche konkrete technische Hürde meinst du — die Erzeugung, die Speicher, das Netz oder das Backup?",
+        "Wenn mehrere unabhängige Institute dieselbe Machbarkeit durchrechnen: Welche Annahme darin hältst du für falsch?",
+        "Würde es dir reichen, wenn nicht 100, sondern 90 Prozent erneuerbar wären und der Rest aus wasserstofffähigen Reservekraftwerken kommt?"
+      ]
+    },
+    {
+      "id": "hundert-prozent-selbstlaeufer",
+      "claim": "100 Prozent kriegen wir locker hin — einfach genug Windräder und Solar aufstellen, fertig.",
+      "response": "Beim Zubau von Wind und Solar liegt Deutschland tatsächlich gut im Rennen, und Erzeugungskapazität ist der einfachere Teil. Der schwierige Teil ist die zeitliche Lücke: Strom muss auch dann da sein, wenn wenig Wind und keine Sonne zusammenkommen. Modellrechnungen zeigen, dass der nötige Ausbau oberhalb von rund 85 Prozent überproportional steigt, weil Überschüsse über verlustreiche Power-to-Gas-Ketten gespeichert werden müssen. Nötig sind deshalb zusätzlich Langzeitspeicher (Wasserstoffbedarf fürs Stromsystem bis zu rund 80 TWh), gesicherte Backup-Leistung (die Kraftwerksstrategie schreibt zunächst 12 GW wasserstofffähige Kraftwerke aus), ein großer Netzausbau und die Elektrifizierung von Wärme und Verkehr. ‚Einfach mehr aufstellen' beschreibt also nur den leichtesten Teil der Aufgabe.",
+      "keywords": [
+        "100 prozent",
+        "selbstläufer",
+        "einfach",
+        "windräder",
+        "solar",
+        "easy",
+        "speicher",
+        "backup",
+        "versorgungssicherheit"
+      ],
+      "relatedSections": [
+        "vollversorgung-szenarien",
+        "speicherausbau",
+        "backup-und-netze",
+        "dunkelflauten",
+        "ee-ausbau"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Aussage setzt Erzeugungskapazität mit gesicherter Versorgung gleich und blendet die Zeitdimension aus — Strom muss in der richtigen Stunde verfügbar sein, nicht nur im Jahresmittel. Damit erscheint das Speicher-, Netz- und Backup-Problem als Detail, obwohl genau dort ein großer Teil von Aufwand und Kosten steckt.",
+      "counterQuestions": [
+        "Woher kommt der Strom in einer windstillen Winterwoche, wenn die Solaranlagen kaum etwas liefern?",
+        "Wenn nur mehr Windräder reichten — warum schreibt der Staat gerade wasserstofffähige Reservekraftwerke aus?",
+        "Was passiert mit dem Strom an einem sonnigen, windigen Sonntag, an dem mehr erzeugt als verbraucht wird?"
+      ]
+    },
+    {
+      "id": "schon-ueber-die-haelfte-erneuerbar",
+      "claim": "Wir decken doch schon über die Hälfte mit Erneuerbaren — der Rest ist ein Klacks.",
+      "response": "Die über 50 Prozent stimmen — aber nur beim Strom: 2025 deckten Erneuerbare 55,1 Prozent des Bruttostromverbrauchs. Strom ist allerdings nur etwa ein Fünftel des gesamten Energieverbrauchs. Rechnet man Wärme und Verkehr mit, lag der Erneuerbaren-Anteil am Endenergieverbrauch 2025 bei 23,8 Prozent, am Primärenergieverbrauch bei rund einem Fünftel. Der Wärmesektor kam auf 19, der Verkehr auf 8 Prozent. Der ‚Rest' ist also nicht der kleinere, sondern der größere Teil — und er erfordert zusätzlich, dass Heizungen und Fahrzeuge auf Strom umgestellt werden.",
+      "keywords": [
+        "über die hälfte",
+        "55 prozent",
+        "erneuerbar",
+        "strommix",
+        "endenergie",
+        "primärenergie",
+        "wärme",
+        "verkehr",
+        "anteil"
+      ],
+      "relatedSections": [
+        "vollversorgung-szenarien",
+        "strommix-2025",
+        "strombedarf-2045"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Parole überträgt eine Zahl aus dem Stromsektor stillschweigend auf die gesamte Energieversorgung — sie verwechselt ‚Strom' mit ‚Energie'. Weil Strom nur rund ein Fünftel des Energieverbrauchs ausmacht, erscheint der bereits erreichte Fortschritt dadurch deutlich größer, als er über alle Sektoren hinweg ist.",
+      "counterQuestions": [
+        "Meinst du den Anteil am Strom oder am gesamten Energieverbrauch inklusive Heizung und Verkehr?",
+        "Wie wird deine Wohnung geheizt und dein Auto angetrieben — und zählt diese Energie schon zu den ‚über 50 Prozent'?",
+        "Wenn der Rest ein Klacks wäre — warum liegt der Verkehr erst bei 8 Prozent erneuerbar?"
+      ]
     }
   ],
   "sources": [
@@ -1910,6 +2109,41 @@
       "id": "enefg-gesetz",
       "label": "Energieeffizienzgesetz (EnEfG) — gesetze-im-internet.de",
       "url": "https://www.gesetze-im-internet.de/enefg/"
+    },
+    {
+      "id": "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024",
+      "label": "Fraunhofer ISE: Wege zu einem klimaneutralen Energiesystem (Update Nov. 2024) – PV-/Wind-Ausbau 2045, stündliche Versorgungssicherheit",
+      "url": "https://www.ise.fraunhofer.de/en/press-media/press-releases/2024/achieving-climate-neutrality-fraunhofer-ise-study-shows-regional-transformation-pathways-for-german-energy-system.html"
+    },
+    {
+      "id": "fraunhofer-ise-energiesystem-deutschland-2050",
+      "label": "Fraunhofer ISE: Energiesystem Deutschland 2050 (2013) – überproportionaler EE-Ausbau bei sehr hohen CO₂-Minderungsgraden",
+      "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/Fraunhofer-ISE_Energiesystem-Deutschland-2050.pdf"
+    },
+    {
+      "id": "ewi-wasserstoffspeicher-2024",
+      "label": "EWI Köln: Wasserstoffspeicher in Deutschland und Europa – modellbasierte Analyse bis 2050 (2024)",
+      "url": "https://www.ewi.uni-koeln.de/de/publikationen/wasserstoffspeicher-in-deutschland-und-europa/"
+    },
+    {
+      "id": "uba-erneuerbare-energien-2025",
+      "label": "Umweltbundesamt (UBA)/AGEE-Stat: Erneuerbare Energien in Deutschland 2025 – Anteile Strom, Endenergie, Wärme, Verkehr",
+      "url": "https://www.umweltbundesamt.de/themen/erneuerbare-energien-in-deutschland-wachstum-2025"
+    },
+    {
+      "id": "ageb-erneuerbare-fuenftel-primaerenergie",
+      "label": "AG Energiebilanzen (AGEB): Erneuerbare decken ein Fünftel des Energieverbrauchs (Primärenergie 2024)",
+      "url": "https://ag-energiebilanzen.de/erneuerbare-decken-ein-fuenftel-des-energieverbrauchs/"
+    },
+    {
+      "id": "nep-strom-2037-2045-2025",
+      "label": "Übertragungsnetzbetreiber/Bundesnetzagentur: Netzentwicklungsplan Strom 2037/2045 (Entwurf 2025) – Netzausbaukosten",
+      "url": "https://www.netzentwicklungsplan.de/"
+    },
+    {
+      "id": "agora-klimaneutrales-deutschland-2045",
+      "label": "Agora Energiewende/Verkehrswende & Stiftung Klimaneutralität: Klimaneutrales Deutschland 2045",
+      "url": "https://www.agora-energiewende.de/aktuelles/klimaneutralitaet-in-deutschland-bereits-2045-moeglich-vollversion-erschienen"
     }
   ],
   "relatedTopicIds": [
