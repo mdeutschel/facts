@@ -12,7 +12,7 @@
     "400 GW beantragte Speicherleistung",
     "Industriestrompreis 2026-2028 (50 €/MWh, EU genehmigt)"
   ],
-  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand Juni 2026). Zentrale neuere Quellen: BDEW/ZSW (EE-Anteil 2025), Destatis (Stromerzeugung 2025 endgültig), Bundesnetzagentur (Strommarktdaten 2025), IWR (Windausbau Q1 2026), BMWE (Industriestrompreis 2026-2028, EU-Kommission-Genehmigung April 2026), Fraunhofer ISE / energy-charts.info, Lazard LCOE+ v18.0. Für die wirtschaftspolitische Einordnung zusätzlich: ifo/Destatis (Industrieproduktion), EY-Industriebarometer (Industriebeschäftigung), Eurostat/BDEW (Strompreise), BMWE (Kraftwerksstrategie 2026), DIHK und EnEfG (Energieeffizienzziele). Für die Machbarkeit einer Vollversorgung zusätzlich: Fraunhofer ISE (Wege zu einem klimaneutralen Energiesystem; Energiesystem Deutschland 2050), Ariadne (Szenarien zur Klimaneutralität 2045), Agora/Stiftung Klimaneutralität (Klimaneutrales Deutschland 2045), EWI (Wasserstoffspeicher), UBA/AGEE-Stat und AGEB (EE-Anteile Strom/Endenergie/Primärenergie) sowie Netzentwicklungsplan Strom 2037/2045.",
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primär- oder belastbaren Fachquellen (Stand Juni 2026). Zentrale neuere Quellen: BDEW/ZSW (EE-Anteil 2025), Destatis (Stromerzeugung 2025 endgültig), Bundesnetzagentur (Strommarktdaten 2025), IWR (Windausbau Q1 2026), BMWE (Industriestrompreis 2026-2028, EU-Kommission-Genehmigung April 2026), Fraunhofer ISE / energy-charts.info, Lazard LCOE+ v18.0. Für die wirtschaftspolitische Einordnung zusätzlich: ifo/Destatis (Industrieproduktion), EY-Industriebarometer (Industriebeschäftigung), Eurostat/BDEW (Strompreise), BMWE (Kraftwerksstrategie 2026), DIHK und EnEfG (Energieeffizienzziele). Für die Machbarkeit einer Vollversorgung zusätzlich: Fraunhofer ISE (Wege zu einem klimaneutralen Energiesystem), Ariadne (Szenarien zur Klimaneutralität 2045), Agora/Stiftung Klimaneutralität (Klimaneutrales Deutschland 2045), EWI (Wasserstoffspeicher), UBA/AGEE-Stat und AGEB (EE-Anteile Strom/Endenergie/Primärenergie) sowie Netzentwicklungsplan Strom 2037/2045. Zur überproportionalen Kostensteigerung der letzten Prozent Richtung 100 %: NREL/Cole et al. (Joule 2021) und Dunsmore et al. (RESCORE, arXiv-Preprint 2025).",
   "sections": [
     {
       "id": "atomausstieg",
@@ -840,9 +840,10 @@
         },
         {
           "type": "text",
-          "text": "Der schwierige Teil ist nicht die Erzeugung in sonnen- und windreichen Stunden, sondern die letzten Prozent gesicherter Versorgung. Modellrechnungen zeigen: Oberhalb von rund 85 % Emissionsminderung steigt der nötige Zubau überproportional, weil Stromüberschüsse über verlustreiche Power-to-Gas-Ketten gespeichert werden müssen. Dafür braucht es Langzeitspeicher (Wasserstoffbedarf fürs Stromsystem bis zu rund 80 TWh in 2045, im Kern der Modellläufe eher 34–44 TWh), gesicherte Backup-Leistung (die Kraftwerksstrategie schreibt zunächst 12 GW wasserstofffähige Kraftwerke aus) und einen großen Netzausbau (der Netzentwicklungsplan veranschlagt für das Übertragungsnetz bis 2045 mehrere hundert Milliarden Euro).",
+          "text": "Der schwierige Teil ist nicht die Erzeugung in sonnen- und windreichen Stunden, sondern die letzten Prozent gesicherter Versorgung. Modellrechnungen für stark dekarbonisierte Strommärkte zeigen, dass die Kosten in den letzten Prozent Richtung 100 % überproportional steigen: Seltene, aber langanhaltende Dunkelflauten erzwingen entweder gesicherte Backup-Leistung oder eine starke Überbauung der Erzeugung samt Langzeitspeichern. In einem reinen Wind-Solar-Speicher-System kann allein das letzte Prozent der Nachfrage rund ein Drittel der Systemkosten ausmachen — schon ein kleiner Anteil steuerbarer Kraftwerke senkt die Kosten dagegen deutlich. Genau hier setzen die konkreten Bausteine an: Langzeitspeicher (Wasserstoffbedarf fürs Stromsystem bis zu rund 80 TWh in 2045, im Kern der Modellläufe eher 34–44 TWh), wasserstofffähige Backup-Kraftwerke (die Kraftwerksstrategie schreibt zunächst 12 GW aus) und ein großer Netzausbau (der Netzentwicklungsplan veranschlagt für das Übertragungsnetz bis 2045 mehrere hundert Milliarden Euro).",
           "sourceRefs": [
-            "fraunhofer-ise-energiesystem-deutschland-2050",
+            "nrel-cole-100-prozent-erneuerbar-2021",
+            "dunsmore-deep-decarbonisation-europe-2025",
             "ewi-wasserstoffspeicher-2024",
             "bmwe-kraftwerksstrategie-2026",
             "nep-strom-2037-2045-2025"
@@ -1858,7 +1859,7 @@
     {
       "id": "hundert-prozent-selbstlaeufer",
       "claim": "100 Prozent kriegen wir locker hin — einfach genug Windräder und Solar aufstellen, fertig.",
-      "response": "Beim Zubau von Wind und Solar liegt Deutschland tatsächlich gut im Rennen, und Erzeugungskapazität ist der einfachere Teil. Der schwierige Teil ist die zeitliche Lücke: Strom muss auch dann da sein, wenn wenig Wind und keine Sonne zusammenkommen. Modellrechnungen zeigen, dass der nötige Ausbau oberhalb von rund 85 Prozent überproportional steigt, weil Überschüsse über verlustreiche Power-to-Gas-Ketten gespeichert werden müssen. Nötig sind deshalb zusätzlich Langzeitspeicher (Wasserstoffbedarf fürs Stromsystem bis zu rund 80 TWh), gesicherte Backup-Leistung (die Kraftwerksstrategie schreibt zunächst 12 GW wasserstofffähige Kraftwerke aus), ein großer Netzausbau und die Elektrifizierung von Wärme und Verkehr. ‚Einfach mehr aufstellen' beschreibt also nur den leichtesten Teil der Aufgabe.",
+      "response": "Beim Zubau von Wind und Solar liegt Deutschland tatsächlich gut im Rennen, und Erzeugungskapazität ist der einfachere Teil. Der schwierige Teil ist die zeitliche Lücke: Strom muss auch dann da sein, wenn wenig Wind und keine Sonne zusammenkommen. Modellrechnungen zeigen, dass die Kosten in den letzten Prozent Richtung 100 Prozent überproportional steigen, weil seltene, langanhaltende Dunkelflauten gesicherte Backup-Leistung oder eine starke Überbauung der Erzeugung mit Langzeitspeichern erfordern. Nötig sind deshalb zusätzlich Langzeitspeicher (Wasserstoffbedarf fürs Stromsystem bis zu rund 80 TWh), gesicherte Backup-Leistung (die Kraftwerksstrategie schreibt zunächst 12 GW wasserstofffähige Kraftwerke aus), ein großer Netzausbau und die Elektrifizierung von Wärme und Verkehr. ‚Einfach mehr aufstellen' beschreibt also nur den leichtesten Teil der Aufgabe.",
       "keywords": [
         "100 prozent",
         "selbstläufer",
@@ -2116,11 +2117,6 @@
       "url": "https://www.ise.fraunhofer.de/en/press-media/press-releases/2024/achieving-climate-neutrality-fraunhofer-ise-study-shows-regional-transformation-pathways-for-german-energy-system.html"
     },
     {
-      "id": "fraunhofer-ise-energiesystem-deutschland-2050",
-      "label": "Fraunhofer ISE: Energiesystem Deutschland 2050 (2013) – überproportionaler EE-Ausbau bei sehr hohen CO₂-Minderungsgraden",
-      "url": "https://www.ise.fraunhofer.de/content/dam/ise/de/documents/publications/studies/Fraunhofer-ISE_Energiesystem-Deutschland-2050.pdf"
-    },
-    {
       "id": "ewi-wasserstoffspeicher-2024",
       "label": "EWI Köln: Wasserstoffspeicher in Deutschland und Europa – modellbasierte Analyse bis 2050 (2024)",
       "url": "https://www.ewi.uni-koeln.de/de/publikationen/wasserstoffspeicher-in-deutschland-und-europa/"
@@ -2144,6 +2140,16 @@
       "id": "agora-klimaneutrales-deutschland-2045",
       "label": "Agora Energiewende/Verkehrswende & Stiftung Klimaneutralität: Klimaneutrales Deutschland 2045",
       "url": "https://www.agora-energiewende.de/aktuelles/klimaneutralitaet-in-deutschland-bereits-2045-moeglich-vollversion-erschienen"
+    },
+    {
+      "id": "nrel-cole-100-prozent-erneuerbar-2021",
+      "label": "NREL/Cole et al.: Quantifying the challenge of reaching a 100% renewable energy power system (Joule, 2021) – nichtlineare Grenzkosten der letzten Prozent",
+      "url": "https://www.osti.gov/biblio/1812702"
+    },
+    {
+      "id": "dunsmore-deep-decarbonisation-europe-2025",
+      "label": "Dunsmore/Arthur/Kemp: Modelling reliability under deep decarbonisation of the European electricity grid (RESCORE, arXiv-Preprint, Nov. 2025) – Kosten der letzten Prozent Versorgungssicherheit",
+      "url": "https://arxiv.org/abs/2503.23604"
     }
   ],
   "relatedTopicIds": [
