@@ -216,6 +216,10 @@ interface FactSectionProps {
   // multiple times on one page (e.g. under several arguments) to avoid duplicate
   // ids; the default `section-{id}` is the hash-scroll target on the facts tab.
   domId?: string
+  // Tones the title down for nested usage (e.g. "Fakten dazu" inside an argument
+  // card): smaller than the argument claim and in the secondary colour, so the
+  // embedded fact sections don't dominate. The facts tab keeps the default style.
+  embedded?: boolean
 }
 
 export default function FactSection({
@@ -224,11 +228,16 @@ export default function FactSection({
   sources,
   titleComponent = 'h2',
   domId,
+  embedded = false,
 }: FactSectionProps) {
   return (
     <Accordion defaultExpanded={defaultExpanded} id={domId ?? `section-${section.id}`}>
-      <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-        <Typography variant="subtitle1" component={titleComponent} sx={{ fontWeight: 600 }}>
+      <AccordionSummary expandIcon={<ExpandMoreIcon sx={embedded ? { fontSize: 20, color: 'secondary.main' } : undefined} />}>
+        <Typography
+          variant="subtitle1"
+          component={titleComponent}
+          sx={embedded ? { fontWeight: 600, fontSize: '0.8rem', color: 'secondary.main' } : { fontWeight: 600 }}
+        >
           {section.title}
         </Typography>
       </AccordionSummary>

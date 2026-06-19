@@ -168,6 +168,7 @@ export default function ArgumentCard({
                     sources={sources}
                     titleComponent="h3"
                     domId={`arg-${argument.id}-section-${s.id}`}
+                    embedded
                   />
                 ))}
               </Box>
