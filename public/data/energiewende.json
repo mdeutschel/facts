@@ -5,7 +5,7 @@
   "seoTitle": "Energiewende & Atomkraft: Argumente, Kosten, Versorgung",
   "seoDescription": "Hätten AKW die Gaskrise gelöst? Sind SMRs realistisch? Antworten zu Atomausstieg, Strommix und Versorgungssicherheit — Quellen BNetzA und Fraunhofer.",
   "icon": "bolt",
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "keyStats": [
     "55,1 % Erneuerbare am Bruttostromverbrauch 2025 (BDEW/ZSW)",
     "AKW-Neubau deutlich teurer als Wind/Solar (Lazard LCOE)",
@@ -879,6 +879,129 @@
           "highlight": true,
           "sourceRefs": [
             "uba-erneuerbare-energien-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faktor-wind-solar",
+      "title": "Faktor 10? Wie viel Wind und Solar wirklich nötig sind",
+      "content": [
+        {
+          "type": "text",
+          "text": "Wie viel mehr Wind und Solar braucht Deutschland, um seinen Energiebedarf erneuerbar zu decken? Die Antwort hängt entscheidend davon ab, was man misst: erzeugte Energie oder installierte Leistung, nur den Stromsektor oder die gesamte Energie, und ob man die Effizienzgewinne der Elektrifizierung mitrechnet. Je nach Annahme reicht die Spanne von knapp dem Vierfachen bis zum Dreizehnfachen. Die oft genannte Zahl ‚Faktor 10' beschreibt dabei einen ganz bestimmten Fall.",
+          "sourceRefs": [
+            "fraunhofer-ise-stromerzeugung-2025",
+            "ageb-erneuerbare-fuenftel-primaerenergie"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Wie viel mehr Wind und Solar? Vier Bezugsgrößen im Vergleich",
+          "headers": [
+            "Bezugsgröße",
+            "Heute",
+            "Ziel",
+            "Faktor",
+            "Annahme"
+          ],
+          "rows": [
+            [
+              "Primärenergie ersetzen",
+              "219 TWh Wind+Solar",
+              "2.911 TWh",
+              "~13×",
+              "jede fossile kWh 1:1 durch Strom"
+            ],
+            [
+              "Endenergie ersetzen",
+              "219 TWh Wind+Solar",
+              "~2.200 TWh",
+              "~10×",
+              "Strom+Wärme+Verkehr 1:1, ohne Effizienzgewinn"
+            ],
+            [
+              "Stromerzeugung 2045",
+              "219 TWh Wind+Solar",
+              "~1.100–1.400 TWh",
+              "~5–6×",
+              "mit Elektrifizierungs-Effizienz (ISE/Ariadne)"
+            ],
+            [
+              "Installierte Leistung",
+              "~195 GW Wind+Solar",
+              "~710 GW",
+              "knapp 4×",
+              "ISE-Szenario 2045 (420 GW PV + 290 GW Wind)"
+            ]
+          ],
+          "sourceRefs": [
+            "fraunhofer-ise-stromerzeugung-2025",
+            "bnetza-eeg-ausbau-2025",
+            "ageb-erneuerbare-fuenftel-primaerenergie",
+            "uba-endenergieverbrauch-2024",
+            "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "219 TWh",
+              "label": "Wind + Solar 2025",
+              "sublabel": "132 TWh Wind + 87 TWh PV"
+            },
+            {
+              "value": "~195 GW",
+              "label": "installiert heute",
+              "sublabel": "117 GW PV + ~78 GW Wind (Ende 2025)"
+            },
+            {
+              "value": "~710 GW",
+              "label": "nötig 2045",
+              "sublabel": "ISE-Szenario: 420 GW PV + 290 GW Wind",
+              "color": "#00897b"
+            }
+          ],
+          "sourceRefs": [
+            "fraunhofer-ise-stromerzeugung-2025",
+            "bnetza-eeg-ausbau-2025",
+            "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "‚Faktor 10' stimmt für die einfachste Rechnung: den gesamten heutigen Endenergiebedarf (Strom, Wärme und Verkehr zusammen, rund 2.200 TWh) eins-zu-eins mit dem heutigen Wind- und Solarstrom (219 TWh) zu ersetzen. Diese Annahme unterstellt aber, dass jede fossile Kilowattstunde 1:1 durch eine Strom-Kilowattstunde ersetzt werden müsste.",
+          "highlight": true,
+          "sourceRefs": [
+            "fraunhofer-ise-stromerzeugung-2025",
+            "uba-endenergieverbrauch-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Genau diese 1:1-Annahme trifft nicht zu, weil Strom viele Anwendungen deutlich effizienter antreibt als Verbrennung. Eine Wärmepumpe macht aus 1 kWh Strom je nach Anlage rund 3 bis 4 kWh Heizwärme; ein batterieelektrisches Auto erreicht über die gesamte Kette einen Wirkungsgrad von rund 75 % und damit ein Vielfaches eines Verbrenners — es nutzt also grob ein Drittel der Energie für dieselbe Strecke. Deshalb sinkt der gesamte Energiebedarf bei konsequenter Elektrifizierung laut Szenarienstudien um rund ein Drittel — und der nötige Wind- und Solarzubau schrumpft entsprechend.",
+          "sourceRefs": [
+            "uba-umgebungswaerme-waermepumpen",
+            "uba-elektroauto-effizienz",
+            "ariadne-energiewende-kosteneffizient-2045"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Rechnet man die Effizienzgewinne mit, bleibt als reale Bau-Aufgabe eine knappe Vervierfachung der installierten Leistung — von rund 195 GW Wind und Solar heute auf etwa 710 GW im klimaneutralen Szenario 2045. Die erzeugte Strommenge müsste dabei auf grob das Fünf- bis Sechsfache steigen, nicht auf das Zehnfache.",
+          "highlight": true,
+          "sourceRefs": [
+            "bnetza-eeg-ausbau-2025",
+            "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Anschaulich heißt das: Beim Rekordtempo der letzten Jahre (gut 20 GW Wind- und Solarzubau pro Jahr) ist eine Vervierfachung der Leistung eine Aufgabe von gut zwei Jahrzehnten — also genau das Zeitfenster bis 2045, wobei das jährliche Tempo dafür noch etwas zulegen muss. Den Flächenbedarf für die Windräder hat der Gesetzgeber im Windenergieflächenbedarfsgesetz auf 2 % der Bundesfläche bis 2032 festgelegt; ein großer Teil der zusätzlichen Solarleistung lässt sich zudem auf Dächern und entlang von Verkehrswegen unterbringen.",
+          "sourceRefs": [
+            "bnetza-eeg-ausbau-2025",
+            "uba-windenergie-2-prozent-ziel"
           ]
         }
       ]
@@ -1913,6 +2036,38 @@
         "Wie wird deine Wohnung geheizt und dein Auto angetrieben — und zählt diese Energie schon zu den ‚über 50 Prozent'?",
         "Wenn der Rest ein Klacks wäre — warum liegt der Verkehr erst bei 8 Prozent erneuerbar?"
       ]
+    },
+    {
+      "id": "faktor-zehn-wind-solar",
+      "claim": "Wir bräuchten das Zehnfache an Wind und Solar, um den Energiebedarf zu decken — das schafft niemand.",
+      "response": "Die Größenordnung hat einen wahren Kern, und ‚Faktor 10' ist sogar nachrechenbar: Wind und Solar liefern heute rund 219 TWh; der gesamte deutsche Endenergiebedarf aus Strom, Wärme und Verkehr liegt bei rund 2.200 TWh. Wer diesen kompletten Bedarf eins-zu-eins mit dem heutigen Wind- und Solarstrom ersetzen wollte, käme tatsächlich auf rund das Zehnfache (am Primärenergieverbrauch von 2.911 TWh sogar auf das Dreizehnfache). Diese Rechnung unterstellt aber, dass jede fossile Kilowattstunde 1:1 durch eine Strom-Kilowattstunde ersetzt wird — und das stimmt nicht. Eine Wärmepumpe macht aus 1 kWh Strom 3 bis 4 kWh Wärme, ein E-Auto fährt mit rund einem Drittel der Energie eines Verbrenners. Mit diesen Effizienzgewinnen schrumpft die reale Aufgabe auf eine knappe Vervierfachung der installierten Leistung: von rund 195 GW Wind und Solar heute auf etwa 710 GW im klimaneutralen Szenario 2045. ‚Faktor 10' ist also die richtige Größenordnung für die einfachste Rechnung — die tatsächliche Bau-Aufgabe ist das Vierfache an Leistung. Groß, aber machbar: Beim Rekordtempo der letzten Jahre ist das eine Aufgabe von gut zwei Jahrzehnten, und der Flächenbedarf für Wind ist gesetzlich auf 2 % der Bundesfläche begrenzt.",
+      "keywords": [
+        "faktor 10",
+        "zehnfache",
+        "verzehnfachen",
+        "vervierfachen",
+        "wind",
+        "solar",
+        "photovoltaik",
+        "energiebedarf",
+        "endenergie",
+        "primärenergie",
+        "installierte leistung",
+        "ausbau"
+      ],
+      "relatedSections": [
+        "faktor-wind-solar",
+        "strombedarf-2045",
+        "vollversorgung-szenarien",
+        "ee-ausbau"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole greift den höchsten, gröbsten Multiplikator heraus — die gesamte heutige End- oder Primärenergie 1:1 mit dem heutigen Wind- und Solarstrom verglichen — und präsentiert ihn als Bau-Aufgabe. Dabei werden zwei Dinge vermengt: erzeugte Energie und installierte Leistung, und es wird ausgeblendet, dass Strom über Wärmepumpe und E-Auto viele Anwendungen drei- bis viermal effizienter antreibt. Rechnet man das mit, ist die reale Aufgabe eine Vervierfachung der Leistung, nicht das Zehnfache.",
+      "counterQuestions": [
+        "Meinst du das Zehnfache an erzeugten Kilowattstunden oder an installierter Leistung — das sind sehr unterschiedliche Zahlen?",
+        "Wenn eine Wärmepumpe aus 1 kWh Strom 3 bis 4 kWh Wärme macht — muss man dann wirklich jede fossile Kilowattstunde 1:1 durch Strom ersetzen?",
+        "Eine Vervierfachung der Leistung bis 2045 bedeutet etwa das bisherige Rekordtempo weiterzufahren — was genau hältst du daran für unmöglich?"
+      ]
     }
   ],
   "sources": [
@@ -2150,6 +2305,36 @@
       "id": "dunsmore-deep-decarbonisation-europe-2025",
       "label": "Dunsmore/Arthur/Kemp: Modelling reliability under deep decarbonisation of the European electricity grid (RESCORE, arXiv-Preprint, Nov. 2025) – Kosten der letzten Prozent Versorgungssicherheit",
       "url": "https://arxiv.org/abs/2503.23604"
+    },
+    {
+      "id": "fraunhofer-ise-stromerzeugung-2025",
+      "label": "Fraunhofer ISE / energy-charts.info: Öffentliche Nettostromerzeugung 2025 – Wind (132 TWh) und Photovoltaik (87 TWh) erstmals an der Spitze",
+      "url": "https://www.ise.fraunhofer.de/en/press-media/press-releases/2026/german-public-electricity-generation-in-2025-wind-and-solar-power-take-the-lead.html"
+    },
+    {
+      "id": "bnetza-eeg-ausbau-2025",
+      "label": "Bundesnetzagentur: Ausbau Erneuerbarer Energien 2025 (08.01.2026) – installierte Leistung PV 117 GW, Wind onshore 68,1 GW, Wind offshore 9,5 GW",
+      "url": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260108_EEG.html"
+    },
+    {
+      "id": "uba-endenergieverbrauch-2024",
+      "label": "Umweltbundesamt / AG Energiebilanzen: Endenergieverbrauch nach Energieträgern und Sektoren – 2024 auf historischem Tiefstand seit der Wiedervereinigung (2023: rund 2.280 TWh / 8.200 PJ)",
+      "url": "https://www.umweltbundesamt.de/daten/umweltzustand-trends/energie/endenergieverbrauch-nach-energietraegern-sektoren"
+    },
+    {
+      "id": "uba-umgebungswaerme-waermepumpen",
+      "label": "Umweltbundesamt: Umgebungswärme und Wärmepumpen – Jahresarbeitszahl (1 kWh Strom ergibt rund 3–4 kWh Wärme)",
+      "url": "https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/umgebungswaerme-waermepumpen"
+    },
+    {
+      "id": "uba-elektroauto-effizienz",
+      "label": "Umweltbundesamt: Wasserstoff im Verkehr (FAQ) – Gesamtwirkungsgrad batterieelektrisches Auto rund 75 % (Well-to-Wheel)",
+      "url": "https://www.umweltbundesamt.de/themen/verkehr/kraftstoffe-antriebe/wasserstoff-im-verkehr-haeufig-gestellte-fragen"
+    },
+    {
+      "id": "uba-windenergie-2-prozent-ziel",
+      "label": "Umweltbundesamt: Ausbau der Windenergie an Land – 2-Prozent-Flächenziel (Windenergieflächenbedarfsgesetz, 1,4 % bis 2027, 2 % bis 2032)",
+      "url": "https://www.umweltbundesamt.de/themen/ausbau-der-windenergie-an-land-2-prozent-ziel"
     }
   ],
   "relatedTopicIds": [
