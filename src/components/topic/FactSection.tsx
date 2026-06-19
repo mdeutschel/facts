@@ -27,15 +27,24 @@ function SourceRefLinks({ refs, sources }: { refs?: SourceRef[]; sources?: Sourc
 
   const resolvedRefs = refs
     .map((ref) => {
-      const sourceNumber = sources.findIndex((source) => source.id === ref) + 1
+      const index = sources.findIndex((source) => source.id === ref)
 
-      if (sourceNumber <= 0) return null
+      if (index < 0) return null
 
-      return { ref, sourceNumber }
+      return { ref, sourceNumber: index + 1, url: sources[index].url }
     })
-    .filter((entry): entry is { ref: SourceRef; sourceNumber: number } => entry !== null)
+    .filter(
+      (entry): entry is { ref: SourceRef; sourceNumber: number; url: string | undefined } =>
+        entry !== null,
+    )
 
   if (!resolvedRefs.length) return null
+
+  const linkSx = {
+    color: 'text.disabled',
+    textDecoration: 'none',
+    '&:hover': { textDecoration: 'underline' },
+  }
 
   return (
     <Typography
@@ -43,20 +52,30 @@ function SourceRefLinks({ refs, sources }: { refs?: SourceRef[]; sources?: Sourc
       variant="caption"
       sx={{ color: 'text.disabled', fontSize: '0.65rem', ml: 0.5 }}
     >
-      [{resolvedRefs.map(({ ref, sourceNumber }, i) => (
+      [{resolvedRefs.map(({ ref, sourceNumber, url }, i) => (
         <span key={ref}>
           {i > 0 && ', '}
-          <Box
-            component="a"
-            href={`#quelle-${ref}`}
-            sx={{ color: 'text.disabled', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}
-            onClick={(e: React.MouseEvent) => {
-              e.preventDefault()
-              document.getElementById(`quelle-${ref}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-            }}
-          >
-            {sourceNumber}
-          </Box>
+          {url ? (
+            // Source has a URL — open it directly in a new tab, so the reader
+            // reaches the source with a single click instead of first scrolling
+            // to the source list.
+            <Box component="a" href={url} target="_blank" rel="noopener noreferrer" sx={linkSx}>
+              {sourceNumber}
+            </Box>
+          ) : (
+            // No URL — fall back to scrolling to the entry in the source list.
+            <Box
+              component="a"
+              href={`#quelle-${ref}`}
+              sx={linkSx}
+              onClick={(e: React.MouseEvent) => {
+                e.preventDefault()
+                document.getElementById(`quelle-${ref}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+              }}
+            >
+              {sourceNumber}
+            </Box>
+          )}
         </span>
       ))}]
     </Typography>
