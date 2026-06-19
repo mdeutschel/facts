@@ -10,17 +10,17 @@ Mobile-first, kein Backend, JSON-Daten werden zur Laufzeit geladen.
 | Paket | Version | Zweck |
 |-------|---------|-------|
 | React + ReactDOM | 19.x | UI-Framework |
-| MUI Material + Icons | 7.x | Komponentenbibliothek |
+| MUI Material + Icons | 9.x | Komponentenbibliothek |
 | Emotion | 11.x | Styling (MUI-Abhängigkeit) |
 | react-router-dom | 7.x | Client-seitiges Routing |
 | Recharts | 3.x | Diagramme (lazy-loaded) |
 | Vite | 8.x | Build-Tool |
-| TypeScript | 5.9 | Sprache (strict mode) |
-| ESLint | 9.x | Linting (Flat-Config) |
+| TypeScript | 6.x | Sprache (strict mode) |
+| ESLint | 10.x | Linting (Flat-Config) |
 
 ## Technische Hinweise
 
-- MUI v7 hat Breaking Changes gegenüber v6 (Pigment CSS, neue Slot-API)
+- MUI v9 hat deprecated System-Props (`alignItems`, `justifyContent`, `fontWeight` etc.) von `Box`/`Grid`/`Stack`/`Typography` entfernt — diese gehören in `sx`; deprecated Slot-Props (`primaryTypographyProps`, `inputProps` auf TextField etc.) wurden durch `slotProps` ersetzt
 - React 19 Actions, `use()`, `useOptimistic()` sind verfügbar
 - Vite 8 nutzt natives ESM — keine CommonJS-Importe
 - Recharts wird lazy geladen (`React.lazy`)
@@ -131,7 +131,7 @@ Detaillierte Konventionen sind in den Rule-Dateien unter `.claude/rules/` defini
 
 - Wenn der Build nach 2 Versuchen fehlschlägt: stoppen und den vollständigen Fehler-Output melden
 - Bei unklaren Type-Fehlern: zuerst `src/types/index.ts` prüfen
-- Bei unerwartetem MUI-Komponentenverhalten: MUI-v7-Docs prüfen (Breaking Changes gegenüber v6)
+- Bei unerwartetem MUI-Komponentenverhalten: MUI-v9-Docs prüfen (Breaking Changes gegenüber v7/v8)
 
 ## Thema erstellen
 

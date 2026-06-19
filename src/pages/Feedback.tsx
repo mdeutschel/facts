@@ -227,7 +227,7 @@ export default function Feedback() {
               value={honeypot}
               onChange={(event) => setHoneypot(event.target.value)}
               sx={{ display: 'none' }}
-              inputProps={{ tabIndex: -1, autoComplete: 'off' }}
+              slotProps={{ htmlInput: { tabIndex: -1, autoComplete: 'off' } }}
               aria-hidden="true"
             />
 

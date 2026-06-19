@@ -66,8 +66,10 @@ export default function SearchResults({ results, query }: SearchResultsProps) {
               <ListItemText
                 primary={result.title}
                 secondary={result.snippet}
-                primaryTypographyProps={{ variant: 'subtitle2', fontWeight: 600 }}
-                secondaryTypographyProps={{ variant: 'caption', noWrap: false }}
+                slotProps={{
+                  primary: { variant: 'subtitle2', sx: { fontWeight: 600 } },
+                  secondary: { variant: 'caption', noWrap: false },
+                }}
               />
               <Chip
                 label={result.type === 'argument' ? 'Argument' : 'Fakt'}
