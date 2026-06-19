@@ -9,38 +9,35 @@ import Chip from '@mui/material/Chip'
 import Button from '@mui/material/Button'
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
-import FactCheckIcon from '@mui/icons-material/FactCheck'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
-import type { Argument, Section } from '../../types'
+import type { Argument, Section, Source } from '../../types'
 import { VERDICT_META } from '../seo/verdict'
 import ShareButton from '../layout/ShareButton'
+import FactSection from './FactSection'
 
 interface ArgumentCardProps {
   argument: Argument
   defaultOpen?: boolean
   sections?: Section[]
+  sources?: Source[]
   topicId?: string
-  onNavigateToSection?: (sectionId: string) => void
 }
 
 export default function ArgumentCard({
   argument,
   defaultOpen = false,
   sections,
+  sources,
   topicId,
-  onNavigateToSection,
 }: ArgumentCardProps) {
   const [open, setOpen] = useState(defaultOpen)
   const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
 
-  const relatedSectionTitles =
+  const relatedSections =
     sections && argument.relatedSections
-      ? argument.relatedSections
-          .map((id) => {
-            const section = sections.find((s) => s.id === id)
-            return section ? { id, title: section.title } : null
-          })
-          .filter(Boolean) as { id: string; title: string }[]
+      ? (argument.relatedSections
+          .map((id) => sections.find((s) => s.id === id))
+          .filter(Boolean) as Section[])
       : []
 
   return (
@@ -158,29 +155,20 @@ export default function ArgumentCard({
             </Box>
           )}
 
-          {relatedSectionTitles.length > 0 && (
+          {relatedSections.length > 0 && (
             <Box sx={{ mt: 1.5, pt: 1, borderTop: 1, borderColor: 'divider' }}>
               <Typography variant="caption" color="text.secondary" sx={{ fontWeight: 600, display: 'block', mb: 0.5 }}>
                 Fakten dazu:
               </Typography>
-              <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
-                {relatedSectionTitles.map((s) => (
-                  <Button
+              <Box>
+                {relatedSections.map((s) => (
+                  <FactSection
                     key={s.id}
-                    size="small"
-                    startIcon={<FactCheckIcon sx={{ fontSize: 16 }} />}
-                    onClick={() => onNavigateToSection?.(s.id)}
-                    sx={{
-                      justifyContent: 'flex-start',
-                      textTransform: 'none',
-                      fontSize: '0.75rem',
-                      color: 'secondary.main',
-                      py: 0.25,
-                      minHeight: 0,
-                    }}
-                  >
-                    {s.title}
-                  </Button>
+                    section={s}
+                    sources={sources}
+                    titleComponent="h3"
+                    domId={`arg-${argument.id}-section-${s.id}`}
+                  />
                 ))}
               </Box>
             </Box>

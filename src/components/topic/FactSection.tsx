@@ -193,6 +193,10 @@ interface FactSectionProps {
   // both contexts: directly under the topic h1 (h2) and nested under another
   // section heading on the argument page (h3).
   titleComponent?: 'h2' | 'h3'
+  // Overrides the accordion's DOM id. Needed when the same section is embedded
+  // multiple times on one page (e.g. under several arguments) to avoid duplicate
+  // ids; the default `section-{id}` is the hash-scroll target on the facts tab.
+  domId?: string
 }
 
 export default function FactSection({
@@ -200,9 +204,10 @@ export default function FactSection({
   defaultExpanded = false,
   sources,
   titleComponent = 'h2',
+  domId,
 }: FactSectionProps) {
   return (
-    <Accordion defaultExpanded={defaultExpanded} id={`section-${section.id}`}>
+    <Accordion defaultExpanded={defaultExpanded} id={domId ?? `section-${section.id}`}>
       <AccordionSummary expandIcon={<ExpandMoreIcon />}>
         <Typography variant="subtitle1" component={titleComponent} sx={{ fontWeight: 600 }}>
           {section.title}
