@@ -20,8 +20,10 @@ export default function Footer() {
         <Stack
           direction={{ xs: 'column', sm: 'row' }}
           spacing={1}
-          alignItems={{ xs: 'flex-start', sm: 'center' }}
-          justifyContent="space-between"
+          sx={{
+            alignItems: { xs: 'flex-start', sm: 'center' },
+            justifyContent: 'space-between',
+          }}
         >
           <Stack
             direction="row"
@@ -75,7 +77,7 @@ export default function Footer() {
               Feedback
             </Link>
           </Stack>
-          <Stack alignItems={{ xs: 'flex-start', sm: 'flex-end' }} spacing={0}>
+          <Stack spacing={0} sx={{ alignItems: { xs: 'flex-start', sm: 'flex-end' } }}>
             <Typography variant="body2" sx={{ opacity: 0.9 }}>
               © {year} Fakten-Stammtisch
             </Typography>
