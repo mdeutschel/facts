@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo } from 'react'
-import { useParams, useSearchParams, useLocation, useNavigate } from 'react-router-dom'
+import { useParams, useSearchParams, useLocation } from 'react-router-dom'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Tabs from '@mui/material/Tabs'
@@ -23,7 +23,6 @@ export default function TopicPage() {
   const { topic, loading, error } = useTopic(topicId)
   const [searchParams, setSearchParams] = useSearchParams()
   const location = useLocation()
-  const navigate = useNavigate()
   const tab = Number(searchParams.get('tab') ?? 0)
   const hash = location.hash.slice(1)
 
@@ -35,10 +34,6 @@ export default function TopicPage() {
   const setTab = useCallback((value: number) => {
     setSearchParams({ tab: String(value) }, { replace: true })
   }, [setSearchParams])
-
-  const handleNavigateToSection = useCallback((sectionId: string) => {
-    navigate(`?tab=1#section-${sectionId}`)
-  }, [navigate])
 
   useEffect(() => {
     if (!hash) return
@@ -138,8 +133,8 @@ export default function TopicPage() {
               key={arg.id}
               argument={arg}
               sections={topic.sections}
+              sources={topic.sources}
               topicId={topic.id}
-              onNavigateToSection={handleNavigateToSection}
             />
           ))}
           {topic.relatedTopicIds && topic.relatedTopicIds.length > 0 && (
