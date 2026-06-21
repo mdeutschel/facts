@@ -69,6 +69,7 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 - Themen-Index: `public/data/topics.json` (auto-generiert beim Build aus allen Topic-JSONs)
 - Themen-Daten: `public/data/{topicId}.json`
 - Neues Thema hinzufügen = neue JSON-Datei anlegen, `npm run build` generiert den Index automatisch
+- **Reihenfolge auf der Startseite**: Die Kartenreihenfolge ist in der `TOPIC_ORDER`-Liste in `scripts/generate-topic-index.mjs` festgelegt (thematische Blöcke, Single Source of Truth). Neue Themen müssen dort an der passenden thematischen Position eingetragen werden — sonst werden sie mit einer Build-Warnung ans Ende gehängt.
 - Schema definiert in `src/types/index.ts` — ContentBlock nutzt Discriminated Unions (`type`-Feld)
 - ContentBlock-Typen: `fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`, `myth_fact`, `pictograph`, `target_progress`
 - Client-seitiger Suchindex wird zur Laufzeit aus allen Topic-JSONs aufgebaut
@@ -80,7 +81,7 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 
 Folgende Dateien werden beim Build erzeugt und sollten nicht manuell gepflegt werden:
 
-- `public/data/topics.json` — Topic-Index, generiert von `scripts/generate-topic-index.mjs` aus allen `public/data/*.json`
+- `public/data/topics.json` — Topic-Index, generiert von `scripts/generate-topic-index.mjs` aus allen `public/data/*.json`; die Reihenfolge folgt der `TOPIC_ORDER`-Liste in diesem Skript
 - SEO-Basisdateien — generiert von `scripts/generate-seo.mjs` vor `vite build`:
   - `public/sitemap.xml` (inkl. aller Topic- und Argument-URLs)
   - `public/llms.txt`, `public/llms-full.txt`, `public/llms/{topicId}.txt`
