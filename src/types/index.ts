@@ -52,6 +52,19 @@ export interface LineChartItem {
   value: number
 }
 
+export interface MythFactItem {
+  myth: string
+  fact: string
+}
+
+export interface TargetProgressItem {
+  label: string
+  current: number
+  target: number
+  unit?: string
+  color?: string
+}
+
 export type SourceRef = string
 
 export type ContentBlock =
@@ -65,6 +78,9 @@ export type ContentBlock =
   | { type: 'line_chart'; caption?: string; items: LineChartItem[]; unit?: string; color?: string; sourceRefs?: SourceRef[] }
   | { type: 'timeline'; caption?: string; steps: TimelineStep[]; sourceRefs?: SourceRef[] }
   | { type: 'progress_stack'; caption?: string; segments: { label: string; value: number; sublabel?: string }[]; total?: string; sourceRefs?: SourceRef[] }
+  | { type: 'myth_fact'; caption?: string; items: MythFactItem[]; sourceRefs?: SourceRef[] }
+  | { type: 'pictograph'; caption?: string; filled: number; total: number; label: string; icon?: string; color?: string; sourceRefs?: SourceRef[] }
+  | { type: 'target_progress'; caption?: string; items: TargetProgressItem[]; maxScale?: number; unit?: string; sourceRefs?: SourceRef[] }
 
 export interface Section {
   id: string

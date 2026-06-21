@@ -14,7 +14,7 @@ Topic-JSON-Dateien in `public/data/` folgen dem Schema in `src/types/index.ts`.
 ## ContentBlock-Typen
 
 Jede Section enthält `content: ContentBlock[]`. Gültige Typen:
-`fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`
+`fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`, `myth_fact`, `pictograph`, `target_progress`
 
 Jeder Typ hat eigene Pflichtfelder — siehe die Discriminated Union in `src/types/index.ts`.
 

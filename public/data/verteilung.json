@@ -147,6 +147,18 @@
           ]
         },
         {
+          "type": "pictograph",
+          "caption": "Kinderarmut in Deutschland (2024)",
+          "filled": 1,
+          "total": 7,
+          "icon": "child_care",
+          "color": "#b71c1c",
+          "label": "Kindern und Jugendlichen ist armutsgefährdet — eine Quote von 15,2 % (Destatis: ‚gut jedes siebte Kind').",
+          "sourceRefs": [
+            "destatis-armutsgefaehrdung-2025"
+          ]
+        },
+        {
           "type": "fact",
           "text": "Armut ist stark von der Herkunft geprägt: Kinder aus Haushalten mit niedrigem Bildungsabschluss der Eltern sind zu 41,8 % armutsgefährdet, bei akademischem Elternhaus sind es 7,2 %. Mit Einwanderungsgeschichte liegt die Quote bei 31,9 %, ohne bei 7,7 %.",
           "highlight": true,

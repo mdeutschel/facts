@@ -970,6 +970,24 @@
           ]
         },
         {
+          "type": "target_progress",
+          "caption": "Installierte Wind- und Solarleistung: heute vs. ISE-Szenario 2045",
+          "unit": "GW",
+          "items": [
+            {
+              "label": "Wind + Solar installiert (Ende 2025 → 2045)",
+              "current": 195,
+              "target": 710,
+              "color": "#00897b"
+            }
+          ],
+          "sourceRefs": [
+            "fraunhofer-ise-stromerzeugung-2025",
+            "bnetza-eeg-ausbau-2025",
+            "fraunhofer-ise-wege-klimaneutrales-energiesystem-2024"
+          ]
+        },
+        {
           "type": "fact",
           "text": "‚Faktor 10' stimmt für die einfachste Rechnung: den gesamten heutigen Endenergiebedarf (Strom, Wärme und Verkehr zusammen, rund 2.200 TWh) eins-zu-eins mit dem heutigen Wind- und Solarstrom (219 TWh) zu ersetzen. Diese Annahme unterstellt aber, dass jede fossile Kilowattstunde 1:1 durch eine Strom-Kilowattstunde ersetzt werden müsste.",
           "highlight": true,

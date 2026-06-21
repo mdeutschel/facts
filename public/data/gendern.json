@@ -83,6 +83,18 @@
           ]
         },
         {
+          "type": "pictograph",
+          "caption": "Ablehnung von Gendern mit Sonderzeichen (Forsa 2023)",
+          "filled": 73,
+          "total": 100,
+          "icon": "group",
+          "color": "#37474f",
+          "label": "Befragten stört Gendern mit Sonderzeichen wie Sternchen oder Doppelpunkt.",
+          "sourceRefs": [
+            "forsa-2023"
+          ]
+        },
+        {
           "type": "bar_chart",
           "caption": "Zustimmung zum Gendersternchen nach Altersgruppe (Forsa 2023)",
           "items": [

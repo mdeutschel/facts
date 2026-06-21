@@ -430,6 +430,18 @@
           ]
         },
         {
+          "type": "myth_fact",
+          "items": [
+            {
+              "myth": "Im Altbau funktionieren Wärmepumpen nicht — dort sind sie ineffizient und unwirtschaftlich.",
+              "fact": "Die Fraunhofer-ISE-Feldstudie vermaß vier Jahre lang 77 Wärmepumpen in Bestandsbauten (Baujahre 1826 bis 2001): Luft/Wasser-Geräte erreichten im Mittel eine Jahresarbeitszahl von 3,4, Sole/Wasser-Geräte 4,3 — ohne erkennbaren Zusammenhang zwischen Baujahr und Effizienz."
+            }
+          ],
+          "sourceRefs": [
+            "fraunhofer-ise-waermepumpen-qualitaet-im-bestand"
+          ]
+        },
+        {
           "type": "stat_grid",
           "items": [
             {

@@ -30,3 +30,6 @@ Komponenten in diesem Verzeichnis rendern ContentBlock-Varianten aus JSON-Daten.
 | SimpleLineChart | `line_chart` | Recharts (lazy) |
 | TimelineView | `timeline` | Nur MUI |
 | ProgressStack | `progress_stack` | Nur MUI |
+| MythFactView | `myth_fact` | Nur MUI |
+| Pictograph | `pictograph` | Nur MUI |
+| TargetProgressView | `target_progress` | Nur MUI |

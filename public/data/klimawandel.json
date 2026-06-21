@@ -365,6 +365,24 @@
           ]
         },
         {
+          "type": "target_progress",
+          "caption": "Treibhausgas-Minderung gegenüber 1990 — Stand vs. gesetzliches Ziel",
+          "unit": "%",
+          "maxScale": 100,
+          "items": [
+            {
+              "label": "Ist 2024 → Ziel 2030",
+              "current": 48.2,
+              "target": 65,
+              "color": "#00897b"
+            }
+          ],
+          "sourceRefs": [
+            "umweltbundesamt-uba-finale-emissionsdaten-2024",
+            "uba-treibhausgasminderungsziele-deutschlands"
+          ]
+        },
+        {
           "type": "bar_chart",
           "caption": "Emissionen nach Sektoren 2024 (Mio. t CO₂-Äq.)",
           "unit": "Mio. t",
