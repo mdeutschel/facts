@@ -39,13 +39,23 @@ export default function TargetProgressView({ items, maxScale, unit = '', caption
 
           return (
             <Box key={i}>
-              <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 0.5 }}>
+              <Box
+                sx={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+                  columnGap: 1,
+                  rowGap: 0.25,
+                  justifyContent: 'space-between',
+                  alignItems: 'baseline',
+                  mb: 0.5,
+                }}
+              >
                 <Typography variant="caption" sx={{ fontWeight: 600 }}>
                   {item.label}
                 </Typography>
-                <Typography variant="caption" color="text.secondary">
+                <Typography variant="caption" color="text.secondary" sx={{ whiteSpace: 'nowrap' }}>
                   <Box component="span" sx={{ color, fontWeight: 700 }}>
-                    {formatValue(item.current)}{itemUnit ? ` ${itemUnit}` : ''}
+                    Ist {formatValue(item.current)}{itemUnit ? ` ${itemUnit}` : ''}
                   </Box>
                   {' · Ziel '}
                   {formatValue(item.target)}{itemUnit ? ` ${itemUnit}` : ''}

@@ -44,11 +44,11 @@ export default function ComparisonView({ items, caption, savings }: ComparisonVi
             <Box sx={{ px: 2, py: 1 }}>
               {item.rows.map((row, ri) => (
                 <Box key={ri}>
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', py: 0.5 }}>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 1.5, py: 0.5 }}>
                     <Typography variant="caption" color="text.secondary">
                       {row.label}
                     </Typography>
-                    <Typography variant="caption" sx={{ fontWeight: 600 }}>
+                    <Typography variant="caption" sx={{ fontWeight: 600, textAlign: 'right' }}>
                       {row.value}
                     </Typography>
                   </Box>
@@ -58,11 +58,11 @@ export default function ComparisonView({ items, caption, savings }: ComparisonVi
               {item.total && (
                 <>
                   <Divider sx={{ my: 0.5 }} />
-                  <Box sx={{ display: 'flex', justifyContent: 'space-between', py: 0.5 }}>
+                  <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 1.5, py: 0.5 }}>
                     <Typography variant="body2" sx={{ fontWeight: 700 }}>
                       {item.total.label}
                     </Typography>
-                    <Typography variant="body2" sx={{ fontWeight: 700 }}>
+                    <Typography variant="body2" sx={{ fontWeight: 700, textAlign: 'right' }}>
                       {item.total.value}
                     </Typography>
                   </Box>
