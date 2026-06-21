@@ -1,0 +1,948 @@
+{
+  "id": "verteilung",
+  "title": "Arm und Reich",
+  "subtitle": "Vermögensverteilung, Sozialstaat und Chancengleichheit in Deutschland",
+  "seoTitle": "Arm und Reich: Ungleichheit, Sozialstaat & Reichtum – Fakten",
+  "seoDescription": "Geht die Schere auseinander? Bringt Umverteilung nichts? Zahlen Reiche genug? Fakten zu Armut, sozialem Aufstieg, Abgabenlast, Trickle-down und Überreichtum – mit Quellen von DIW, OECD, Destatis und Oxfam.",
+  "icon": "balance",
+  "lastUpdated": "2026-06-21",
+  "keyStats": [
+    "Oberstes Zehntel: +35 % Realeinkommen seit 1991 (DIW)",
+    "15,5 % der Bevölkerung armutsgefährdet (Destatis 2024)",
+    "Sozialer Aufstieg dauert in DE ~6 Generationen (OECD)",
+    "12 Argumente"
+  ],
+  "sourceNote": "Daten basieren u. a. auf DIW Berlin (SOEP), dem Statistischen Bundesamt (EU-SILC 2024), der OECD, dem IMK der Hans-Böckler-Stiftung, dem BMAS-Sozialbudget 2024, dem Netzwerk Steuergerechtigkeit, Oxfam, der LSE-Studie von Hope/Limberg (2020), der Bürgerbewegung Finanzwende und dem Bundesverband Deutscher Stiftungen (Stand 2024–2026).",
+  "sections": [
+    {
+      "id": "schere",
+      "title": "Die Schere: Einkommen und Vermögen im Zeitverlauf",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ob die Ungleichheit ‚immer weiter' auseinandergeht, lohnt eine Differenzierung: Bei den Einkommen ist die Ungleichheit seit den 1990ern gestiegen, allerdings schubweise und mit Phasen der Stagnation. Bei den Vermögen ist die Konzentration deutlich höher und wächst dynamischer als die Wirtschaft.",
+          "sourceRefs": [
+            "diw-einkommensungleichheit-2019",
+            "bpb-einkommensverteilung"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "+35 %",
+              "label": "Oberstes Zehntel",
+              "sublabel": "verfügbares Realeinkommen 1991–2016"
+            },
+            {
+              "value": "stagniert",
+              "label": "Unterstes Zehntel",
+              "sublabel": "real eher gesunken im selben Zeitraum",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "23,3 %",
+              "label": "Einkommensanteil oben",
+              "sublabel": "des obersten Zehntels (2016, 1991: 20,5 %)"
+            }
+          ],
+          "sourceRefs": [
+            "diw-einkommensungleichheit-2019",
+            "bpb-einkommensverteilung"
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Gini-Koeffizient der verfügbaren Haushaltseinkommen (SOEP)",
+          "color": "#37474f",
+          "items": [
+            {
+              "label": "1999",
+              "value": 0.25
+            },
+            {
+              "label": "2005",
+              "value": 0.29
+            },
+            {
+              "label": "2009",
+              "value": 0.28
+            },
+            {
+              "label": "2016",
+              "value": 0.3
+            }
+          ],
+          "sourceRefs": [
+            "diw-einkommensungleichheit-2019"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Vermögen der 100 reichsten Deutschen (Mrd. €)",
+          "unit": "Mrd. €",
+          "items": [
+            {
+              "label": "2001",
+              "value": 263
+            },
+            {
+              "label": "2024",
+              "value": 758,
+              "highlight": true
+            }
+          ],
+          "sourceRefs": [
+            "manager-magazin-reichste-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Während sich das Vermögen der 100 reichsten Deutschen seit 2001 fast verdreifacht hat (von 263 auf 758 Mrd. €), hat sich das Bruttoinlandsprodukt nur etwa verdoppelt. Die Konzentration an der Spitze wächst also schneller als die Wirtschaft.",
+          "highlight": true,
+          "sourceRefs": [
+            "manager-magazin-reichste-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "armut",
+      "title": "Armut in einem reichen Land",
+      "content": [
+        {
+          "type": "text",
+          "text": "In Deutschland geht es um relative Armut: Als armutsgefährdet gilt, wer über weniger als 60 % des mittleren Einkommens verfügt. Das bedeutet selten existenzielle Not, aber eingeschränkte gesellschaftliche Teilhabe.",
+          "sourceRefs": [
+            "destatis-armutsgefaehrdung-2025"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "15,5 %",
+              "label": "Bevölkerung",
+              "sublabel": "armutsgefährdet 2024 (~13,1 Mio.)"
+            },
+            {
+              "value": "15,2 %",
+              "label": "Kinder/Jugendliche",
+              "sublabel": "2024 (2023: 14,0 %)",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "1.381 €",
+              "label": "Schwelle",
+              "sublabel": "netto/Monat, Alleinlebende 2024"
+            },
+            {
+              "value": "19,3 %",
+              "label": "EU-Schnitt",
+              "sublabel": "Deutschland liegt darunter"
+            }
+          ],
+          "sourceRefs": [
+            "destatis-armutsgefaehrdung-2025"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Armut ist stark von der Herkunft geprägt: Kinder aus Haushalten mit niedrigem Bildungsabschluss der Eltern sind zu 41,8 % armutsgefährdet, bei akademischem Elternhaus sind es 7,2 %. Mit Einwanderungsgeschichte liegt die Quote bei 31,9 %, ohne bei 7,7 %.",
+          "highlight": true,
+          "sourceRefs": [
+            "destatis-armutsgefaehrdung-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aufstieg",
+      "title": "Sozialer Aufstieg: Wie durchlässig ist Deutschland?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Glaube ‚wer sich anstrengt, schafft es' trifft auf eine vergleichsweise geringe soziale Durchlässigkeit. Die OECD misst, wie lange es dauert, bis Nachkommen einkommensarmer Familien das Durchschnittseinkommen erreichen.",
+          "sourceRefs": [
+            "oecd-soziale-mobilitaet-2018"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Generationen bis zum Durchschnittseinkommen (Aufstieg aus einkommensarmer Familie)",
+          "unit": "Generationen",
+          "items": [
+            {
+              "label": "Dänemark",
+              "value": 2
+            },
+            {
+              "label": "OECD-Ø",
+              "value": 4.5
+            },
+            {
+              "label": "Deutschland",
+              "value": 6,
+              "highlight": true
+            }
+          ],
+          "sourceRefs": [
+            "oecd-soziale-mobilitaet-2018"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "In Deutschland dauert der Aufstieg aus dem unteren Einkommensbereich im Schnitt rund sechs Generationen — gegenüber 4,5 im OECD-Schnitt und 2 in Dänemark. Die Bildungsmobilität ist seit den 1970er-Jahren eher gesunken; die Herkunft prägt Bildungserfolg und Einkommen wieder stärker.",
+          "highlight": true,
+          "sourceRefs": [
+            "oecd-soziale-mobilitaet-2018",
+            "ifo-soziale-mobilitaet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abgabenlast",
+      "title": "Wer finanziert den Staat? Die Verteilung der Abgabenlast",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Einkommensteuer ist stark progressiv und wird vor allem von höheren Einkommen getragen. Fast die Hälfte des Steueraufkommens stammt aber aus indirekten Steuern (vor allem Mehrwertsteuer), die untere Einkommen relativ stärker belasten.",
+          "sourceRefs": [
+            "diw-steuerlast-2016"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Anteil indirekter Steuern am Bruttoeinkommen nach Einkommensgruppe",
+          "headers": [
+            "Gruppe",
+            "Anteil an indirekten Steuern"
+          ],
+          "rows": [
+            [
+              "Ärmste 10 %",
+              "23 % des Bruttoeinkommens"
+            ],
+            [
+              "Reichste 10 %",
+              "7 % des Bruttoeinkommens"
+            ]
+          ],
+          "sourceRefs": [
+            "diw-steuerlast-2016"
+          ]
+        },
+        {
+          "type": "comparison",
+          "caption": "Effektive Gesamtbelastung mit Steuern und Abgaben (Beispielrechnung)",
+          "items": [
+            {
+              "title": "Durchschnittspaar",
+              "color": "#37474f",
+              "rows": [
+                {
+                  "label": "Bruttoeinkommen",
+                  "value": "~110.000 €"
+                },
+                {
+                  "label": "Quelle des Einkommens",
+                  "value": "v. a. Arbeit"
+                }
+              ],
+              "total": {
+                "label": "Steuer- & Abgabenquote",
+                "value": "43 %"
+              }
+            },
+            {
+              "title": "Muster-Millionär",
+              "color": "#00897b",
+              "rows": [
+                {
+                  "label": "Einkommen",
+                  "value": "~1,6 Mio. €"
+                },
+                {
+                  "label": "Quelle des Einkommens",
+                  "value": "v. a. Kapital"
+                }
+              ],
+              "total": {
+                "label": "Steuer- & Abgabenquote",
+                "value": "24 %"
+              }
+            }
+          ],
+          "sourceRefs": [
+            "netzwerk-steuergerechtigkeit-jahrbuch-2023"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Zählt man direkte Steuern, indirekte Steuern und Sozialabgaben zusammen, ist die Gesamtbelastung über die Einkommensgruppen ‚erstaunlich gleichmäßig' verteilt und wirkt nur leicht progressiv. Den Staat finanzieren also nicht allein die Spitzenverdiener.",
+          "highlight": true,
+          "sourceRefs": [
+            "diw-steuerlast-2016"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sozialstaat",
+      "title": "Der Sozialstaat: Umfang und Zusammensetzung",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Sozialstaat ist in absoluten Zahlen groß — die entscheidende Frage ist aber der Maßstab: Wie steht Deutschland international da, und wohin fließt das Geld?",
+          "sourceRefs": [
+            "bmas-sozialbudget-2024",
+            "imk-sozialstaat-2024"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "1.345 Mrd. €",
+              "label": "Sozialbudget 2024",
+              "sublabel": "31,2 % des BIP"
+            },
+            {
+              "value": "Rang 7/18",
+              "label": "OECD-Vergleich",
+              "sublabel": "netto 26,7 % BIP — EU-Mittelfeld"
+            },
+            {
+              "value": "> 50 %",
+              "label": "Rente + Gesundheit",
+              "sublabel": "Renten- (29,1 %) + Krankenversicherung (23,2 %)"
+            }
+          ],
+          "sourceRefs": [
+            "bmas-sozialbudget-2024",
+            "imk-sozialstaat-2024",
+            "sozialpolitik-aktuell-sozialbudget"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "OECD-vergleichbar berechnet liegt Deutschlands Sozialquote mit rund 26,7 % des BIP auf Rang 7 von 18 reichen Ländern — also im Mittelfeld, nicht an der Spitze. Der Großteil fließt in gesetzliche Renten- und Krankenversicherung (zusammen über die Hälfte), getrieben von Demografie und Gesundheitskosten — nicht in eine ‚soziale Hängematte'.",
+          "highlight": true,
+          "sourceRefs": [
+            "imk-sozialstaat-2024",
+            "sozialpolitik-aktuell-sozialbudget"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umverteilung",
+      "title": "Was Umverteilung tatsächlich bewirkt",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Wirkung von Steuern und Sozialtransfers zeigt sich erst im Vergleich: Wie hoch wären Ungleichheit und Armut ohne staatliche Umverteilung — und wie hoch sind sie danach?",
+          "sourceRefs": [
+            "armuts-reichtumsbericht-sozialtransfers"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "24,1 % → 15,5 %",
+              "label": "Armutsgefährdung",
+              "sublabel": "vor vs. nach Sozialtransfers (ohne Renten)"
+            },
+            {
+              "value": "~0,50 → ~0,29",
+              "label": "Gini-Koeffizient",
+              "sublabel": "Markt- vs. verfügbares Einkommen"
+            },
+            {
+              "value": "−35,7 %",
+              "label": "Armutssenkung",
+              "sublabel": "durch Sozialtransfers (ohne Renten)"
+            }
+          ],
+          "sourceRefs": [
+            "armuts-reichtumsbericht-sozialtransfers",
+            "diw-einkommensungleichheit-2019"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Ohne Sozialtransfers läge die Armutsgefährdung bei rund 24 %; nach Transfers sinkt sie auf etwa 15,5 % — eine Reduktion um gut ein Drittel. Auch der Gini der Markteinkommen (~0,50) fällt durch Steuern und Transfers auf etwa 0,29. Umverteilung wirkt also messbar; diskutieren lässt sich über Effizienz, nicht über das Ob.",
+          "highlight": true,
+          "sourceRefs": [
+            "armuts-reichtumsbericht-sozialtransfers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wachstum",
+      "title": "Trickle-down: Profitieren am Ende alle?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Trickle-down-These besagt, dass Wohlstand an der Spitze ‚nach unten durchsickert'. Die empirische Forschung dazu ist gemischt — am belastbarsten ist das Negativergebnis für Steuersenkungen zugunsten Reicher.",
+          "sourceRefs": [
+            "hope-limberg-tax-cuts-2020"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "18 Länder",
+              "label": "LSE-Studie",
+              "sublabel": "Steuerreformen 1965–2015 (Hope/Limberg)"
+            },
+            {
+              "value": "kein Effekt",
+              "label": "auf Wachstum/Jobs",
+              "sublabel": "von Steuersenkungen für Reiche"
+            },
+            {
+              "value": "+ Ungleichheit",
+              "label": "messbare Folge",
+              "sublabel": "kurz- und mittelfristig",
+              "color": "#b71c1c"
+            }
+          ],
+          "sourceRefs": [
+            "hope-limberg-tax-cuts-2020"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Eine LSE-Studie über 18 Industrieländer findet, dass Steuersenkungen für Reiche die Ungleichheit erhöhen, Wachstum und Beschäftigung aber nicht messbar steigern. OECD und IWF sehen in hoher Ungleichheit eher einen Wachstumsdämpfer — dieser Zusammenhang ist allerdings methodisch umstritten (u. a. ifo-Kritik).",
+          "highlight": true,
+          "sourceRefs": [
+            "hope-limberg-tax-cuts-2020",
+            "ifo-ungleichheit-wachstum-2018"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "klima",
+      "title": "Hohe Einkommen und CO₂-Fußabdruck",
+      "content": [
+        {
+          "type": "text",
+          "text": "Wer viel besitzt und konsumiert, verursacht in der Regel auch deutlich mehr Treibhausgase — über Konsum wie über Investitionen. Oxfam hat die globalen Emissionen nach Einkommensgruppen aufgeschlüsselt.",
+          "sourceRefs": [
+            "oxfam-carbon-inequality-2020"
+          ]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Anteil an den globalen CO₂-Emissionen (1990–2015)",
+          "unit": "%",
+          "items": [
+            {
+              "label": "Reichste 10 %",
+              "value": 52,
+              "highlight": true
+            },
+            {
+              "label": "Reichstes 1 %",
+              "value": 15
+            },
+            {
+              "label": "Ärmere Hälfte",
+              "value": 7
+            }
+          ],
+          "sourceRefs": [
+            "oxfam-carbon-inequality-2020"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die reichsten 10 % der Welt verantworten gut die Hälfte (52 %) der CO₂-Emissionen, das reichste 1 % allein 15 % — die ärmere Hälfte der Menschheit nur 7 %. Auch in Deutschland stießen die reichsten 10 % seit 1990 mehr CO₂ aus als die gesamte ärmere Hälfte der Bevölkerung zusammen.",
+          "highlight": true,
+          "sourceRefs": [
+            "oxfam-carbon-inequality-2020",
+            "oxfam-klimabudget-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steuervermeidung",
+      "title": "Steuervermeidung, Steueroasen und die Steuerlücke",
+      "content": [
+        {
+          "type": "text",
+          "text": "Zu trennen sind zwei Dinge: legale Steuergestaltung (etwa die niedrigere Besteuerung von Kapital gegenüber Arbeit) und illegale Steuerhinterziehung. Beides verringert das Steueraufkommen — aber in unterschiedlichem Maß und mit unterschiedlicher rechtlicher Bewertung.",
+          "sourceRefs": [
+            "netzwerk-steuergerechtigkeit-jahrbuch-2023",
+            "finanzwende-cumex"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "≥ 10 Mrd. €",
+              "label": "Cum-Ex",
+              "sublabel": "geschätzter Steuerschaden"
+            },
+            {
+              "value": "≥ 28 Mrd. €",
+              "label": "Cum-Cum",
+              "sublabel": "Schätzung (Spengel)",
+              "color": "#b71c1c"
+            },
+            {
+              "value": "Bruchteil",
+              "label": "zurückgeholt",
+              "sublabel": "bislang nur ein kleiner Teil"
+            }
+          ],
+          "sourceRefs": [
+            "finanzwende-cumex",
+            "finanzwende-cumcum"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Illegale Konstrukte wie Cum-Ex (mindestens 10 Mrd. € Schaden) und Cum-Cum (zusammen über 35 Mrd. €) kosteten den Fiskus Milliarden, von denen bislang nur ein Bruchteil zurückgeholt wurde. Hinzu kommt legale Gestaltung: Ein Muster-Millionär zahlt anteilig rund 24 %, ein Durchschnittspaar 43 % — der effektive Satz an der Spitze liegt also niedriger als in der Mitte.",
+          "highlight": true,
+          "sourceRefs": [
+            "finanzwende-cumex",
+            "netzwerk-steuergerechtigkeit-jahrbuch-2023"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "philanthropie",
+      "title": "Philanthropie und Stiftungen: Geben Reiche zurück?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Stiftungen und Spenden tragen zum Gemeinwohl bei. Ob sie staatliche Umverteilung ersetzen können, ist eine Frage der Größenordnung — und der Steuersystematik, denn gemeinnützige Stiftungen sind steuerbegünstigt.",
+          "sourceRefs": [
+            "stiftungen-groesste-2024",
+            "stiftungen-landschaft-2024"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "6,8 Mrd. €",
+              "label": "Stiftungsausgaben",
+              "sublabel": "60 größte Stiftungen, 2024"
+            },
+            {
+              "value": "26.349",
+              "label": "Stiftungen",
+              "sublabel": "rechtsfähig, Ende 2024"
+            },
+            {
+              "value": "89 %",
+              "label": "gemeinnützig",
+              "sublabel": "der rechtsfähigen Stiftungen"
+            }
+          ],
+          "sourceRefs": [
+            "stiftungen-groesste-2024",
+            "stiftungen-landschaft-2024"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die 60 größten Stiftungen gaben 2024 rund 6,8 Mrd. € für gemeinnützige Zwecke aus. Gemessen am Sozialbudget von 1.345 Mrd. € liegt das im Promillebereich. Philanthropie ergänzt den Sozialstaat also — sie ersetzt ihn nicht, zumal der Stifter den Zweck bestimmt und die Steuerbegünstigung teils zulasten öffentlicher Einnahmen geht.",
+          "highlight": true,
+          "sourceRefs": [
+            "stiftungen-groesste-2024",
+            "bmas-sozialbudget-2024"
+          ]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "schere",
+      "claim": "Die Schere zwischen Arm und Reich geht immer weiter auseinander!",
+      "response": "Tatsächlich ist die Ungleichheit gewachsen — aber ungleichmäßig. Das verfügbare Realeinkommen des obersten Zehntels stieg 1991–2016 um rund 35 %, während das einkommensschwächste Zehntel real eher stagnierte oder verlor. Bei den Einkommen verlief der Anstieg allerdings nicht ‚immer weiter', sondern flachte nach Mitte der 2000er zeitweise ab. Deutlicher ist die Lücke beim Vermögen: Das der reichsten 100 hat sich seit 2001 fast verdreifacht, das BIP nur verdoppelt. ‚Die Schere' beschreibt also einen realen Trend — bei Vermögen stärker als bei Einkommen.",
+      "keywords": [
+        "Schere",
+        "Arm und Reich",
+        "Ungleichheit",
+        "auseinander",
+        "Kluft"
+      ],
+      "relatedSections": [
+        "schere"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Pauschaler Dauertrend: ‚Immer weiter' suggeriert eine gleichmäßig fortlaufende Bewegung. Tatsächlich stieg die Einkommensungleichheit schubweise und flachte zeitweise ab, während die Vermögenskonzentration deutlich dynamischer wuchs — Einkommen und Vermögen werden im Schlagwort vermengt.",
+      "counterQuestions": [
+        "Meinst du die Einkommens- oder die Vermögensungleichheit — die entwickeln sich unterschiedlich?",
+        "Wenn die Einkommensungleichheit nach 2005 zeitweise stagnierte: Woran machst du das ‚immer weiter' fest?",
+        "Würde dich überraschen, dass die Lücke beim Vermögen stärker wächst als bei den Löhnen?"
+      ]
+    },
+    {
+      "id": "keine-armut",
+      "claim": "Deutschland ist reich — echte Armut gibt's hier doch gar nicht!",
+      "response": "Armut in Deutschland ist real, sie sieht nur anders aus als in ärmeren Weltregionen. 2024 galten 15,5 % der Bevölkerung — rund 13,1 Millionen Menschen — als armutsgefährdet, bei Kindern 15,2 %. Gemeint ist relative Armut: weniger als 60 % des mittleren Einkommens, für Alleinlebende unter 1.381 € netto im Monat. Das ist kein Hungern, bedeutet aber eingeschränkte Teilhabe. Richtig ist: Im EU-Vergleich (19,3 %) steht Deutschland besser da. ‚Gar keine Armut' trifft die Lage aber nicht.",
+      "keywords": [
+        "keine Armut",
+        "reiches Land",
+        "echte Armut",
+        "relative Armut",
+        "Teilhabe"
+      ],
+      "relatedSections": [
+        "armut"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Maßstabswechsel: Echte Armut wird stillschweigend mit existenzieller Not (Hunger, Obdachlosigkeit) gleichgesetzt; relative Armut und eingeschränkte Teilhabe fallen so aus der Definition. Damit lässt sich jedes Armutsproblem in einem reichen Land wegdefinieren.",
+      "counterQuestions": [
+        "Ab welchem Einkommen würdest du von Armut sprechen — und wo liegt es im Verhältnis zum mittleren Einkommen?",
+        "Wenn gut jedes siebte Kind als armutsgefährdet gilt: Ist das für dich ‚keine Armut'?",
+        "Meinst du absolute Not oder fehlende Teilhabe — und warum sollte nur Ersteres zählen?"
+      ]
+    },
+    {
+      "id": "aufstieg",
+      "claim": "Wer sich anstrengt, schafft den Aufstieg — wer arm bleibt, ist selbst schuld!",
+      "response": "Anstrengung hilft — entscheidet aber weniger, als der Spruch nahelegt. Laut OECD dauert es in Deutschland im Schnitt rund sechs Generationen, bis Nachkommen einer einkommensarmen Familie das Durchschnittseinkommen erreichen; im OECD-Schnitt sind es 4,5, in Dänemark 2. Die Bildungsmobilität ist seit den 1970ern eher gesunken. Schon bei Kindern bildungsferner Eltern liegt die Armutsgefährdung bei 41,8 %, bei akademischem Elternhaus bei 7,2 %. Aufstieg ist möglich, aber die Startposition prägt das Ergebnis stark — ‚selbst schuld' verkürzt das.",
+      "keywords": [
+        "Aufstieg",
+        "selbst schuld",
+        "Anstrengung",
+        "Chancengleichheit",
+        "Leistung"
+      ],
+      "relatedSections": [
+        "aufstieg",
+        "armut"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Fundamentaler Attributionsfehler: Erfolg und Misserfolg werden allein der individuellen Anstrengung zugeschrieben, während strukturelle Startbedingungen (Elternhaus, Bildung, Vermögen) ausgeblendet werden. Aus statistisch geringer Mobilität wird individuelles Verschulden.",
+      "counterQuestions": [
+        "Wenn Aufstieg in Dänemark zwei und in Deutschland sechs Generationen dauert — woran liegt der Unterschied, wenn nicht an Strukturen?",
+        "Wie erklärst du, dass Kinder aus bildungsfernen Familien rund fünfmal häufiger armutsgefährdet sind?",
+        "Wie viel des Erfolgs schreibst du der Anstrengung zu, wie viel dem Elternhaus — und worauf stützt du das?"
+      ]
+    },
+    {
+      "id": "leistungstraeger",
+      "claim": "Die Reichen finanzieren mit ihren Steuern den ganzen Sozialstaat!",
+      "response": "Spitzenverdiener tragen tatsächlich einen großen Teil der Einkommensteuer — aber sie finanzieren nicht ‚den ganzen' Staat. Fast die Hälfte des Steueraufkommens stammt aus indirekten Steuern wie der Mehrwertsteuer, die untere Einkommen relativ stärker belasten: Die ärmsten 10 % zahlen dafür 23 % ihres Bruttoeinkommens, die reichsten nur 7 %. Zählt man Sozialabgaben hinzu, ist die Gesamtbelastung über die Einkommensgruppen erstaunlich gleichmäßig. Hohe Einkommen leisten viel — aber alle finanzieren den Staat, nicht nur ‚die Reichen'.",
+      "keywords": [
+        "Leistungsträger",
+        "Reiche finanzieren",
+        "Steuern zahlen",
+        "Sozialstaat",
+        "Spitzenverdiener"
+      ],
+      "relatedSections": [
+        "abgabenlast",
+        "sozialstaat"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Selektiver Steuerbegriff: Aus dem hohen Anteil an der Einkommensteuer wird die Finanzierung ‚des ganzen Staates'. Mehrwertsteuer, Verbrauch- und Sozialabgaben — die untere und mittlere Einkommen relativ stärker treffen — werden ausgeblendet.",
+      "counterQuestions": [
+        "Zählst du Mehrwertsteuer und Sozialabgaben mit, wenn du fragst, wer den Staat finanziert?",
+        "Wenn die Gesamtbelastung über die Einkommensgruppen fast gleich hoch ist — wer trägt dann wen?",
+        "Wie viel Prozent ihres Einkommens zahlen Geringverdiener über die Mehrwertsteuer — und wie viel die Top-Einkommen?"
+      ]
+    },
+    {
+      "id": "reiche-zahlen-keine-steuern",
+      "claim": "Die Reichen zahlen doch eh keine Steuern!",
+      "response": "Vermögende zahlen Steuern — aber gemessen am Einkommen oft anteilig weniger als die Mitte. Ein Muster-Millionär kommt auf rund 24 % Steuern und Abgaben, ein Durchschnittspaar dagegen auf 43 %. Grund ist die niedrigere Besteuerung von Kapitalerträgen gegenüber Arbeit. ‚Gar keine Steuern' stimmt also nicht — wohl aber, dass der effektive Satz an der Spitze sinken kann. Illegale Hinterziehung über Konstrukte wie Cum-Ex kommt hinzu, ist aber von legaler Steuergestaltung zu trennen.",
+      "keywords": [
+        "keine Steuern",
+        "Reiche",
+        "Schlupflöcher",
+        "effektiver Steuersatz",
+        "Kapital"
+      ],
+      "relatedSections": [
+        "abgabenlast",
+        "steuervermeidung"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Übertreibung ins Absolute: Aus ‚zahlen anteilig weniger' wird ‚zahlen gar nichts'. Das verwischt zugleich die Grenze zwischen legaler Steuergestaltung (niedrigere Sätze auf Kapital) und illegaler Hinterziehung — beides verschwimmt zum pauschalen ‚die zahlen eh nichts'.",
+      "counterQuestions": [
+        "Meinst du den absoluten Betrag oder den Anteil am Einkommen — und welcher ist bei Topverdienern niedriger?",
+        "Unterscheidest du zwischen legaler Gestaltung und illegaler Hinterziehung?",
+        "Würde dich überraschen, dass ein Millionär anteilig oft weniger zahlt als eine Facharbeiterfamilie?"
+      ]
+    },
+    {
+      "id": "sozialstaat-teuer",
+      "claim": "Der Sozialstaat ist überdimensioniert — wir geben viel zu viel für Soziales aus!",
+      "response": "Der Sozialstaat ist groß, im Vergleich aber nicht überdimensioniert. Die Sozialleistungsquote lag 2024 bei 31,2 % des BIP; OECD-vergleichbar berechnet liegt Deutschland mit rund 26,7 % auf Rang 7 von 18 reichen Ländern — also im Mittelfeld, nicht an der Spitze. Und der Großteil fließt nicht in eine ‚Hängematte': Allein gesetzliche Renten- und Krankenversicherung machen über die Hälfte aus, getrieben von Demografie und Gesundheitskosten. Ob das ‚zu viel' ist, ist eine politische Frage — ein Ausreißer nach oben ist Deutschland nicht.",
+      "keywords": [
+        "Sozialstaat",
+        "überdimensioniert",
+        "zu teuer",
+        "Sozialausgaben",
+        "zu viel"
+      ],
+      "relatedSections": [
+        "sozialstaat"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Absolutzahl ohne Maßstab: Eine große Summe wirkt für sich genommen ‚überdimensioniert'. Der internationale Vergleich (Mittelfeld) und die Zusammensetzung (überwiegend Rente und Gesundheit) fehlen — so entsteht das Bild eines aufgeblähten Apparats.",
+      "counterQuestions": [
+        "Im Vergleich zu welchen Ländern ist der deutsche Sozialstaat ‚zu groß' — und wo liegt er wirklich?",
+        "Wohin fließt der größte Teil: in Bürgergeld oder in Rente und Gesundheit?",
+        "Welchen Posten würdest du konkret kürzen, wenn du ‚zu viel Soziales' sagst?"
+      ]
+    },
+    {
+      "id": "umverteilung-bringt-nichts",
+      "claim": "Umverteilung bringt nichts — am Ende sind alle ärmer!",
+      "response": "Umverteilung wirkt messbar. Ohne Steuern und Sozialtransfers läge die Armutsgefährdung bei rund 24 %; nach Transfers (ohne Renten gerechnet) sinkt sie auf etwa 15,5 % — eine Reduktion um gut ein Drittel. Auch die Einkommensungleichheit fällt deutlich: Der Gini der Markteinkommen von rund 0,50 sinkt durch Steuern und Transfers auf etwa 0,29. ‚Bringt nichts' ist damit widerlegt — diskutieren kann man über Effizienz und Treffsicherheit, nicht über das Ob der Wirkung.",
+      "keywords": [
+        "Umverteilung",
+        "bringt nichts",
+        "alle ärmer",
+        "Sozialtransfers",
+        "Gini"
+      ],
+      "relatedSections": [
+        "umverteilung",
+        "sozialstaat"
+      ],
+      "verdict": "false",
+      "rhetoricalPattern": "Ergebnis ohne Gegenrechnung: Die Wirkung von Umverteilung zeigt sich erst im Vergleich von Markt- und Nettoeinkommen. Wer nur das Endergebnis betrachtet (‚es gibt ja immer noch Arme'), übersieht, wie viel höher Armut und Ungleichheit ohne Umverteilung wären.",
+      "counterQuestions": [
+        "Womit vergleichst du das Ergebnis — mit einem Land ganz ohne Sozialtransfers?",
+        "Wenn Transfers die Armutsquote um ein Drittel senken: Was genau ‚bringt nichts'?",
+        "Meinst du, Umverteilung wirke gar nicht, oder sie wirke nicht effizient genug?"
+      ]
+    },
+    {
+      "id": "trickle-down",
+      "claim": "Geht's den Reichen gut, profitieren am Ende alle!",
+      "response": "Für den klassischen Trickle-down-Effekt gibt es wenig Beleg. Eine LSE-Studie über 18 Industrieländer (1965–2015) findet, dass Steuersenkungen für Reiche die Ungleichheit erhöhen, Wachstum und Beschäftigung aber nicht messbar steigern. OECD und IWF sehen in hoher Ungleichheit eher einen Wachstumsdämpfer. Fairerweise: Dieser Zusammenhang ist methodisch umstritten — das ifo etwa kritisiert die Studien. Belastbar ist vor allem das Negativergebnis: Dass Reichtum an der Spitze von allein ‚nach unten durchsickert', lässt sich empirisch nicht zeigen.",
+      "keywords": [
+        "Trickle-down",
+        "profitieren alle",
+        "durchsickern",
+        "Wachstum",
+        "Steuersenkung"
+      ],
+      "relatedSections": [
+        "wachstum",
+        "abgabenlast"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Wunschkausalität: Aus dem plausibel klingenden Bild ‚oben gut, also für alle gut' wird ein Automatismus. Die empirische Prüfung zeigt jedoch keinen verlässlichen Durchsicker-Effekt — die Behauptung lebt von der Intuition, nicht von den Daten.",
+      "counterQuestions": [
+        "Welche Studie zeigt, dass Steuersenkungen für Reiche unten ankommen — und mit welcher Effektgröße?",
+        "Wenn Reichtum automatisch durchsickert: Warum stieg die Ungleichheit trotz solcher Senkungen?",
+        "Würdest du Maßnahmen, die nur ‚von oben' wirken sollen, an ihrem Ergebnis messen?"
+      ]
+    },
+    {
+      "id": "ein-prozent",
+      "claim": "Das oberste 1 % besitzt eh alles — da kann man nichts machen!",
+      "response": "Die Konzentration ist hoch — aber ‚alles' besitzt das oberste Prozent nicht, und ‚nichts machen' folgt daraus erst recht nicht. Das reichste 1 % hält je nach Schätzung rund ein Drittel des Vermögens, nicht alles; das Vermögen der reichsten 100 hat sich seit 2001 fast verdreifacht. Gerade weil Konzentration politisch gestaltbar ist — über Steuer-, Erbschafts- und Bildungspolitik — ist Resignation unbegründet. Der Befund stimmt also im Kern, die Schlussfolgerung ‚da kann man nichts machen' aber nicht.",
+      "keywords": [
+        "ein Prozent",
+        "besitzt alles",
+        "kann man nichts machen",
+        "Konzentration",
+        "Superreiche"
+      ],
+      "relatedSections": [
+        "schere"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Resignations-Schluss: Aus einem realen Befund (hohe Konzentration) wird mit ‚da kann man nichts machen' politische Untätigkeit abgeleitet. Die Übertreibung ‚besitzt alles' verstärkt das Ohnmachtsgefühl, obwohl Verteilung gestaltbar ist.",
+      "counterQuestions": [
+        "‚Alles' oder rund ein Drittel — welcher Anteil stimmt, und macht das einen Unterschied?",
+        "Wenn andere Länder weniger Konzentration haben: Warum sollte sie unveränderlich sein?",
+        "Was folgt aus ‚kann man nichts machen' — und wem nützt diese Schlussfolgerung?"
+      ]
+    },
+    {
+      "id": "superreiche-klima",
+      "claim": "Die Superreichen ruinieren mit Privatjets das Klima — und wir sollen ein schlechtes Gewissen wegen der Plastiktüte haben!",
+      "response": "Der Kern stimmt: Sehr hohe Einkommen verursachen überproportional viel CO₂. Global verantworten die reichsten 10 % gut die Hälfte (52 %) der Emissionen, das reichste 1 % rund 15 %, die ärmere Hälfte nur 7 %. Auch in Deutschland stoßen die reichsten 10 % mehr aus als die ärmere Hälfte zusammen. Einschränkung: Das entlastet niemanden vom eigenen Beitrag, und gemeint sind nicht nur Jets, sondern auch Emissionen aus Investitionen und Vermögen. Der Eindruck einer schiefen Debatte über kleine Alltagsverzichte hat aber einen realen Kern.",
+      "keywords": [
+        "Superreiche",
+        "Privatjet",
+        "Klima",
+        "CO2-Fußabdruck",
+        "Emissionen"
+      ],
+      "relatedSections": [
+        "klima"
+      ],
+      "verdict": "mostly-true",
+      "counterQuestions": [
+        "Folgt daraus, dass der eigene Beitrag egal ist — oder dass beides zählt?",
+        "Geht es nur um Konsum wie Jets, oder auch um die Emissionen aus Investitionen und Vermögen?"
+      ]
+    },
+    {
+      "id": "steueroasen",
+      "claim": "Die verstecken ihr Geld doch eh alle in Steueroasen!",
+      "response": "Daran ist etwas Wahres — mit Maß. Steuerflucht und illegale Konstrukte existieren real: Der Cum-Ex-Skandal kostete den Fiskus mindestens 10 Milliarden Euro, mit Cum-Cum zusammen über 35 Milliarden; zurückgeholt wurde bislang nur ein Bruchteil. Hinzu kommt legale Verlagerung in Niedrigsteuerländer. Aber ‚die verstecken ihr Geld eh alle' verallgemeinert: Das Gros der Vermögen liegt nicht in Oasen, und nicht jede Gestaltung ist illegal. Das Problem ist groß genug, ohne es zur Regel für alle Vermögenden zu erklären.",
+      "keywords": [
+        "Steueroasen",
+        "Offshore",
+        "Cum-Ex",
+        "Steuerhinterziehung",
+        "verstecken"
+      ],
+      "relatedSections": [
+        "steuervermeidung"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Verallgemeinerung vom Skandal zur Regel: Aus realen, aber spezifischen Fällen (Cum-Ex, Offshore) wird ein pauschales Verhalten ‚aller' Vermögenden. Das überdehnt den Befund und macht zugleich die Grenze zwischen Betrug und legaler Gestaltung unsichtbar.",
+      "counterQuestions": [
+        "Meinst du illegale Hinterziehung oder legale Verlagerung — und wie groß ist jeweils der Anteil?",
+        "Welcher Teil großer Vermögen liegt tatsächlich in Steueroasen?",
+        "Würde härtere Durchsetzung bei Cum-Ex & Co. dein Anliegen besser treffen als der Pauschalverdacht?"
+      ]
+    },
+    {
+      "id": "stiftungen-spenden",
+      "claim": "Reiche geben über Stiftungen und Spenden viel zurück — das ersetzt staatliche Umverteilung!",
+      "response": "Stiftungen und Spenden leisten viel — ersetzen den Sozialstaat aber nicht. Die 60 größten Stiftungen gaben 2024 rund 6,8 Milliarden Euro für gemeinnützige Zwecke aus; insgesamt gibt es über 26.000 Stiftungen, 89 % gemeinnützig. Zum Vergleich: Das Sozialbudget umfasst 1.345 Milliarden Euro — Stiftungsausgaben liegen im Promillebereich davon. Zudem sind Stiftungen steuerbegünstigt, gehen also teils zulasten öffentlicher Einnahmen, und der Stifter bestimmt den Zweck. Philanthropie ergänzt — staatliche Umverteilung ersetzt sie nicht.",
+      "keywords": [
+        "Stiftungen",
+        "Spenden",
+        "Philanthropie",
+        "Mäzenatentum",
+        "zurückgeben"
+      ],
+      "relatedSections": [
+        "philanthropie",
+        "umverteilung"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Anekdote schlägt Größenordnung: Sichtbare, sympathische Beispiele (Stiftungen, Spenden) werden als Ersatz für systematische Umverteilung dargestellt. Der Größenvergleich (Milliarden gegenüber über tausend Milliarden Sozialbudget) und die Steuerbegünstigung bleiben außen vor.",
+      "counterQuestions": [
+        "Wie verhalten sich 6,8 Mrd. € Stiftungsausgaben zu 1.345 Mrd. € Sozialbudget?",
+        "Wer entscheidet bei Philanthropie über die Mittel — und wer bei Steuern?",
+        "Würden freiwillige Spenden Renten, Gesundheit und Grundsicherung verlässlich finanzieren?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "diw-einkommensungleichheit-2019",
+      "label": "DIW Wochenbericht: Wiederanstieg der Einkommensungleichheit – aber auch deutlich steigende Realeinkommen (2019)",
+      "url": "https://www.diw.de/de/diw_01.c.620826.de/wochenberichte/wiederanstieg_der_einkommensungleichheit_aber_auch_deutlich_steigende_realeinkommen.html"
+    },
+    {
+      "id": "bpb-einkommensverteilung",
+      "label": "bpb: Einkommensverteilung – Die soziale Situation in Deutschland",
+      "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61769/einkommensverteilung/"
+    },
+    {
+      "id": "manager-magazin-reichste-2024",
+      "label": "manager magazin: Die reichsten Deutschen 2024 – mehr Milliardäre als je zuvor (Presseportal)",
+      "url": "https://www.presseportal.de/pm/18957/5877196"
+    },
+    {
+      "id": "destatis-armutsgefaehrdung-2025",
+      "label": "Statistisches Bundesamt: Gut jedes siebte Kind armutsgefährdet (Armutsgefährdung 2024, PD25_N065)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/11/PD25_N065_63.html"
+    },
+    {
+      "id": "oecd-soziale-mobilitaet-2018",
+      "label": "OECD: A Broken Social Elevator? How to Promote Social Mobility (2018), zit. n. Handelsblatt",
+      "url": "https://www.handelsblatt.com/politik/deutschland/studie-zur-chancengerechtigkeit-sozialer-aufstieg-in-deutschland-bleibt-die-ausnahme-oecd-fuerchtet-vergeudung-von-talent/22690454.html"
+    },
+    {
+      "id": "ifo-soziale-mobilitaet",
+      "label": "Aktuelle Sozialpolitik / ifo: Einkommensmobilität hat sich deutlich verschlechtert (2025)",
+      "url": "https://aktuelle-sozialpolitik.de/2025/09/21/einkommensmobilitaet-hat-sich-deutlich-verschlechtert/"
+    },
+    {
+      "id": "diw-steuerlast-2016",
+      "label": "DIW Berlin: Steuerbelastung ist in Deutschland relativ gleichmäßig über die Einkommensgruppen verteilt (Wochenbericht 51+52/2016)",
+      "url": "https://www.diw.de/de/diw_01.c.549487.de/steuerbelastung_ist_in_deutschland_relativ_gleichmaessig_ueber_die_einkommensgruppen_verteilt.html"
+    },
+    {
+      "id": "netzwerk-steuergerechtigkeit-jahrbuch-2023",
+      "label": "Netzwerk Steuergerechtigkeit: Jahrbuch Steuergerechtigkeit 2023 – Deutschland ist Niedrigsteuerland für Superreiche",
+      "url": "https://www.netzwerk-steuergerechtigkeit.de/jahrbuch2023/"
+    },
+    {
+      "id": "bmas-sozialbudget-2024",
+      "label": "BMAS: Sozialbudget 2024",
+      "url": "https://www.bmas.de/DE/Service/Publikationen/Broschueren/a230-25-sozialbudget-2024.html"
+    },
+    {
+      "id": "imk-sozialstaat-2024",
+      "label": "IMK / Hans-Böckler-Stiftung: Die Mär vom aufgeblähten Sozialstaat (Böckler Impuls 4/2024)",
+      "url": "https://www.boeckler.de/de/boeckler-impuls-die-mar-vom-aufgeblahten-sozialstaat-57956.htm"
+    },
+    {
+      "id": "sozialpolitik-aktuell-sozialbudget",
+      "label": "Sozialpolitik aktuell: Struktur der Sozialleistungen nach Leistungsarten 2024",
+      "url": "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Finanzierung/Datensammlung/PDF-Dateien/abbII2.pdf"
+    },
+    {
+      "id": "armuts-reichtumsbericht-sozialtransfers",
+      "label": "BMAS Armuts- und Reichtumsbericht: Wirkung von Sozialtransfers (EU-SILC)",
+      "url": "https://www.armuts-und-reichtumsbericht.de/DE/Indikatoren/Armut/Wirkung-von-Sozialtransfers/wirkung-von-sozialtransfers.html"
+    },
+    {
+      "id": "hope-limberg-tax-cuts-2020",
+      "label": "Hope & Limberg (LSE): The Economic Consequences of Major Tax Cuts for the Rich (2020)",
+      "url": "https://eprints.lse.ac.uk/107919/"
+    },
+    {
+      "id": "ifo-ungleichheit-wachstum-2018",
+      "label": "ifo Institut: Ungleichheit und Wirtschaftswachstum – warum IWF und OECD falsch liegen (2018)",
+      "url": "https://www.ifo.de/pressemitteilung/2018-05-18/ungleichheit-und-wirtschaftswachstum-warum-iwf-und-oecd-falsch-liegen"
+    },
+    {
+      "id": "oxfam-carbon-inequality-2020",
+      "label": "Oxfam: Confronting Carbon Inequality – das reichste 1 % schädigt das Klima doppelt so stark wie die ärmere Hälfte (2020)",
+      "url": "https://www.oxfam.de/aktuelles/klimawandel-ungleichheit-reichste-1-prozent-schaedigt-klima-doppelt-so-stark-aermere"
+    },
+    {
+      "id": "oxfam-klimabudget-2026",
+      "label": "Oxfam: Das reichste Prozent hat sein Treibhausgasbudget für 2026 bereits ausgeschöpft (2026)",
+      "url": "https://www.oxfam.de/presse/pressemitteilungen/2026-01-10-reichste-prozent-hat-treibhausgasbudget-2026-bereits"
+    },
+    {
+      "id": "finanzwende-cumex",
+      "label": "Bürgerbewegung Finanzwende: Cum-Ex – Schadensschätzung und Stand der Aufarbeitung",
+      "url": "https://www.finanzwende.de/themen/cumex"
+    },
+    {
+      "id": "finanzwende-cumcum",
+      "label": "Bürgerbewegung Finanzwende: Cum-Cum – Schadensschätzung (u. a. Spengel)",
+      "url": "https://www.finanzwende.de/themen/cumcum"
+    },
+    {
+      "id": "stiftungen-groesste-2024",
+      "label": "Bundesverband Deutscher Stiftungen: Liste der größten Stiftungen – 6,8 Mrd. € für das Gemeinwohl (2024)",
+      "url": "https://www.stiftungen.org/aktuelles/pressemitteilungen/mitteilung/die-liste-der-groessten-stiftungen-fast-sieben-milliarden-euro-fuer-das-gemeinwohl-15883.html"
+    },
+    {
+      "id": "stiftungen-landschaft-2024",
+      "label": "Bundesverband Deutscher Stiftungen: Stiftungslandschaft wächst weiter – 711 Neugründungen 2024",
+      "url": "https://www.stiftungen.org/aktuelles/pressemitteilungen/mitteilung/stiftungslandschaft-waechst-weiter-711-neugruendungen-im-jahr-2024-14804.html"
+    }
+  ],
+  "relatedTopicIds": [
+    "vermoegenssteuer",
+    "buergergeld",
+    "teilzeit"
+  ]
+}

@@ -170,6 +170,15 @@
       "lastUpdated": "2026-06-10",
       "factCount": 7,
       "argumentCount": 10
+    },
+    {
+      "id": "verteilung",
+      "title": "Arm und Reich",
+      "subtitle": "Vermögensverteilung, Sozialstaat und Chancengleichheit in Deutschland",
+      "icon": "balance",
+      "lastUpdated": "2026-06-21",
+      "factCount": 10,
+      "argumentCount": 12
     }
   ]
 }
