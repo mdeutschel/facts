@@ -5,14 +5,14 @@
   "seoTitle": "E-Auto vs. Verbrenner: Akku, CO₂, Kosten — Fakten 2026",
   "seoDescription": "Hält der Akku nur 5 Jahre? Ist das E-Auto zu teuer? Bricht das Netz? Quellengeprüfte Antworten zu 9 verbreiteten E-Auto-Behauptungen — TCO, Klimabilanz, Effizienz, Reichweite.",
   "icon": "electric_car",
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-21",
   "keyStats": [
     "2,03 Mio. BEV in Deutschland",
     ">190.000 öffentliche Ladepunkte",
     "19,1 % BEV-Marktanteil (2025)",
     "9 Argumente"
   ],
-  "sourceNote": "Quellen: ICCT, ADAC, BMUKN, Bundesnetzagentur, KBA, Fraunhofer ISI, P3, Recurrent, GDV, DAT, Transport & Environment und EU-Batterieverordnung (Stand Mai 2026).",
+  "sourceNote": "Quellen: ICCT, ADAC, BMUKN, Umweltbundesamt, BDEW, Bundesnetzagentur, KBA, Fraunhofer ISI, Rho Motion, P3, Recurrent, GDV, DAT, Transport & Environment, Deutscher Bundestag und EU-Batterieverordnung (Stand Juni 2026).",
   "sections": [
     {
       "id": "status-quo",
@@ -77,10 +77,11 @@
       "content": [
         {
           "type": "text",
-          "text": "Ein E-Auto startet mit einem CO₂-Rucksack ins Leben: Seine Herstellung verursacht laut ICCT rund 40 % mehr Emissionen als die eines Verbrenners, vor allem wegen der Batterieproduktion. Entscheidend ist aber nicht der Start, sondern die Bilanz über das ganze Autoleben — und wie grün der geladene Strom ist.",
+          "text": "Ein E-Auto startet mit einem CO₂-Rucksack ins Leben: Seine Herstellung verursacht laut ICCT rund 40 % mehr Emissionen als die eines Verbrenners, vor allem wegen der Batterieproduktion. Entscheidend ist aber nicht der Start, sondern die Bilanz über das ganze Autoleben — und wie grün der geladene Strom ist. Der wird in Deutschland stetig grüner: 2025 stammten bereits 55,1 % des Bruttostromverbrauchs aus erneuerbaren Quellen (2024: 54,4 %). Jede zusätzliche Kilowattstunde Ökostrom verbessert die Bilanz über die gesamte Haltedauer.",
           "sourceRefs": [
             "icct-life-cycle-ghg-emissions-of-passenger-cars",
-            "bmukn-klima-und-energie-bei-elektromobilitaet"
+            "bmukn-klima-und-energie-bei-elektromobilitaet",
+            "uba-erneuerbare-stromverbrauch-2025"
           ]
         },
         {
@@ -111,13 +112,14 @@
               "sublabel": "vs. Benziner, EU-Strommix (ICCT 2025)"
             },
             {
-              "value": "−78 %",
-              "label": "mit Ökostrom",
-              "sublabel": "Lebenszyklus vs. Benziner (ICCT 2025)"
+              "value": "55,1 %",
+              "label": "Erneuerbarer Strom",
+              "sublabel": "Anteil am Bruttostromverbrauch 2025, steigend (UBA)"
             }
           ],
           "sourceRefs": [
-            "icct-life-cycle-ghg-emissions-of-passenger-cars"
+            "icct-life-cycle-ghg-emissions-of-passenger-cars",
+            "uba-erneuerbare-stromverbrauch-2025"
           ]
         },
         {
@@ -142,6 +144,28 @@
           "highlight": true,
           "sourceRefs": [
             "icct-life-cycle-ghg-emissions-of-passenger-cars"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luftqualitaet-laerm",
+      "title": "Luftqualität & Lärm: Was vor Ort ankommt",
+      "content": [
+        {
+          "type": "fact",
+          "text": "Neben dem Klima zählt die Luft direkt vor der Haustür: E-Autos stoßen im Betrieb keine Auspuffschadstoffe aus — kein Stickoxid (NOₓ), keinen verbrennungsbedingten Feinstaub. Gerade gegenüber Dieseln ist das in Städten mit dichtem Verkehr ein spürbarer Gewinn, und bis etwa 25 km/h sind E-Autos zudem leiser.",
+          "highlight": true,
+          "sourceRefs": [
+            "bmukn-luft-und-laerm"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ganz emissionsfrei ist aber auch das E-Auto vor Ort nicht: Ein großer Teil des Pkw-Feinstaubs entsteht nicht im Motor, sondern durch Reifen-, Brems- und Straßenabrieb — beim PM10 etwa 1,3 bis 15,6 mg/km aus den Reifen und 1,9 bis 4,5 mg/km aus den Bremsen. Diese Quellen betreffen alle Autos. E-Autos sind durch die Batterie schwerer, was den Reifenabrieb tendenziell erhöht; zugleich verzögern sie viel über Rekuperation statt über die Reibbremse. Der klare Vorteil bleibt bei NOₓ und Auspuff-Feinstaub.",
+          "sourceRefs": [
+            "deutscher-bundestag-feinstaub-elektroautos",
+            "bmukn-luft-und-laerm"
           ]
         }
       ]
@@ -293,9 +317,11 @@
         },
         {
           "type": "fact",
-          "text": "Der Trend geht weg von kritischen Rohstoffen: LFP-Akkus, die inzwischen rund 40 % des E-Auto-Markts ausmachen, kommen ganz ohne Kobalt und Nickel aus. Zugleich verschärft die EU-Batterieverordnung die Recyclingquoten und schreibt Sorgfaltspflichten in der Lieferkette vor.",
+          "text": "Der Trend geht weg von kritischen Rohstoffen: Kobalt- und nickelfreie LFP-Akkus stellten 2025 erstmals über die Hälfte der weltweit verbauten E-Auto-Batterien (Rho Motion). Die nächste Generation — Natrium-Ionen-Zellen, ab Mitte 2026 im ersten Serien-Pkw — kommt sogar ganz ohne Lithium, Kobalt und Nickel aus. Zugleich verschärft die EU-Batterieverordnung die Recyclingquoten und schreibt Sorgfaltspflichten in der Lieferkette vor.",
           "highlight": true,
           "sourceRefs": [
+            "rho-motion-lfp-marktanteil-2025",
+            "iaa-natrium-ionen-batterie",
             "eu-batterieverordnung-2023-1542-recyclingquoten",
             "fraunhofer-isi-batterie-recycling-in-europa"
           ]
@@ -425,18 +451,29 @@
               "sublabel": "10 → 80 %, Strom für ~200–300 km"
             },
             {
-              "value": ">48.000",
-              "label": "Schnelllader",
-              "sublabel": "öffentlich in Deutschland (BNetzA, 1.1.2026)"
+              "value": ">85 %",
+              "label": "Laden zu Hause/Arbeit",
+              "sublabel": "Anteil aller Ladevorgänge (BDEW)"
             }
           ],
           "sourceRefs": [
-            "bundesnetzagentur-ladesaeulenregister"
+            "bdew-mobilitaet-der-zukunft"
           ]
         },
         {
           "type": "text",
-          "text": "Für den Alltag reicht das locker: Die meisten Fahrten sind kurz, und wer zu Hause oder beim Arbeitgeber lädt, startet jeden Morgen mit voller Batterie. Auf Langstrecke ersetzt ein Ladestopp die ohnehin sinnvolle Pause. Ehrlich bleibt: Bei hohem Autobahntempo und Kälte sinkt die reale Reichweite spürbar unter den WLTP-Wert — Langstrecke will also etwas mehr Planung als beim Verbrenner."
+          "text": "Für den Alltag reicht das locker: Die meisten Fahrten sind kurz, und wer zu Hause oder beim Arbeitgeber lädt, startet jeden Morgen mit voller Batterie. Über 85 % aller Ladevorgänge finden laut BDEW genau dort statt — neun von zehn. Auf Langstrecke ersetzt ein Ladestopp die ohnehin sinnvolle Pause. Ehrlich bleibt: Bei hohem Autobahntempo und Kälte sinkt die reale Reichweite spürbar unter den WLTP-Wert — Langstrecke will also etwas mehr Planung als beim Verbrenner.",
+          "sourceRefs": [
+            "bdew-mobilitaet-der-zukunft"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Wie weit man real kommt, hängt stark vom Modell ab: Im ADAC-Test (inklusive Ladeverluste) reicht der Verbrauch von 13,4 bis 29,7 kWh/100 km. Ein effizienter Kompaktwagen fährt mit derselben Akkuladung also rund doppelt so weit wie ein durstiger Van oder SUV — im Alltag schlägt Effizienz oft die reine Akkugröße.",
+          "highlight": true,
+          "sourceRefs": [
+            "adac-ecotest-stromverbrauch"
+          ]
         }
       ]
     },
@@ -551,6 +588,7 @@
       ],
       "relatedSections": [
         "klimabilanz",
+        "luftqualitaet-laerm",
         "akkus-rohstoffe"
       ],
       "verdict": "lacks-context",
@@ -564,7 +602,7 @@
     {
       "id": "kobalt-kinderarbeit",
       "claim": "Für E-Autos schuften Kinder im Kongo für Kobalt.",
-      "response": "Der Kern stimmt: Im Rohstoffabbau, besonders bei Kobalt aus dem Kongo, gibt es gravierende Menschenrechts- und Umweltprobleme, die man nicht kleinreden darf. Zugleich greift die Zuspitzung zu kurz: Der Kobaltanteil sinkt, LFP-Akkus (rund 40 % des E-Auto-Markts) kommen ganz ohne Kobalt und Nickel aus, und die EU-Batterieverordnung schreibt Sorgfaltspflichten in der Lieferkette und steigende Recyclingquoten vor. Kobalt steckt außerdem auch in Handys, Laptops und in Raffinerie-Katalysatoren für Diesel und Benzin — das Problem ist real, aber kein reines E-Auto-Thema.",
+      "response": "Der Kern stimmt: Im Rohstoffabbau, besonders bei Kobalt aus dem Kongo, gibt es gravierende Menschenrechts- und Umweltprobleme, die man nicht kleinreden darf. Zugleich greift die Zuspitzung zu kurz: Der Kobaltanteil sinkt, kobaltfreie LFP-Akkus stellen seit 2025 weltweit die Mehrheit der verbauten E-Auto-Batterien, neue Natrium-Ionen-Zellen kommen ganz ohne Kobalt, Nickel und Lithium aus, und die EU-Batterieverordnung schreibt Sorgfaltspflichten in der Lieferkette und steigende Recyclingquoten vor. Kobalt steckt außerdem auch in Handys, Laptops und in Raffinerie-Katalysatoren für Diesel und Benzin — das Problem ist real, aber kein reines E-Auto-Thema.",
       "keywords": [
         "kobalt",
         "kinderarbeit",
@@ -771,6 +809,41 @@
       "id": "zoll-verlaengerung-der-steuerbefreiung-fuer",
       "label": "Zoll – Verlängerung der Steuerbefreiung für reine Elektrofahrzeuge",
       "url": "https://www.zoll.de/SharedDocs/Fachmeldungen/Aktuelle-Einzelmeldungen/2026/kfz_verlaengerung_steuerbefreiung_elektrofahrzeuge.html"
+    },
+    {
+      "id": "uba-erneuerbare-stromverbrauch-2025",
+      "label": "Umweltbundesamt – Erneuerbare Energien in Deutschland 2025 (Anteil am Bruttostromverbrauch)",
+      "url": "https://www.umweltbundesamt.de/themen/erneuerbare-energien-in-deutschland-wachstum-2025"
+    },
+    {
+      "id": "bmukn-luft-und-laerm",
+      "label": "BMUKN – Luftschadstoffe und Lärm bei Elektromobilität",
+      "url": "https://www.bundesumweltministerium.de/themen/verkehr/elektromobilitaet/luft-und-laerm"
+    },
+    {
+      "id": "deutscher-bundestag-feinstaub-elektroautos",
+      "label": "Deutscher Bundestag (hib) – Feinstaubemissionen durch Elektroautos (Brems- und Reifenabrieb)",
+      "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-930712"
+    },
+    {
+      "id": "adac-ecotest-stromverbrauch",
+      "label": "ADAC – Stromverbrauch von Elektroautos im Test (realer Verbrauch inkl. Ladeverluste)",
+      "url": "https://www.adac.de/rund-ums-fahrzeug/elektromobilitaet/elektroauto/stromverbrauch-elektroautos-adac-test/"
+    },
+    {
+      "id": "bdew-mobilitaet-der-zukunft",
+      "label": "BDEW – Die Mobilität der Zukunft (Anteil privater Ladevorgänge)",
+      "url": "https://www.bdew.de/presse/pressemappen/die-mobilitaet-der-zukunft/"
+    },
+    {
+      "id": "rho-motion-lfp-marktanteil-2025",
+      "label": "Rho Motion (via InsideEVs) – LFP übertrifft 2025 erstmals nickelbasierte E-Auto-Akkus",
+      "url": "https://insideevs.de/news/785404/elektroautobatterien-lfp-überwiegt-2025/"
+    },
+    {
+      "id": "iaa-natrium-ionen-batterie",
+      "label": "IAA Mobility – Natrium-Ionen-Batterie ohne Lithium, Kobalt und Nickel (erstes Serien-Pkw 2026)",
+      "url": "https://www.iaa-mobility.com/de/newsroom/news/technology/changan-nevo-a06-erstes-serien-e-auto-mit-natrium-ion-batterie"
     }
   ],
   "relatedTopicIds": [
