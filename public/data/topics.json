@@ -1,6 +1,24 @@
 {
   "topics": [
     {
+      "id": "klimawandel",
+      "title": "Klimawandel",
+      "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
+      "icon": "thermostat",
+      "lastUpdated": "2026-06-10",
+      "factCount": 8,
+      "argumentCount": 14
+    },
+    {
+      "id": "energiewende",
+      "title": "Energiewende & Atomkraft",
+      "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
+      "icon": "bolt",
+      "lastUpdated": "2026-06-19",
+      "factCount": 23,
+      "argumentCount": 18
+    },
+    {
       "id": "heizung",
       "title": "Heizungswechsel 2026",
       "subtitle": "Wärmepumpe vs. Öl- & Gasheizung | Zahlen · Fakten · Argumente",
@@ -19,24 +37,6 @@
       "argumentCount": 9
     },
     {
-      "id": "energiewende",
-      "title": "Energiewende & Atomkraft",
-      "subtitle": "Fakten zu Erneuerbaren, AKW-Neubau & Versorgungssicherheit",
-      "icon": "bolt",
-      "lastUpdated": "2026-06-19",
-      "factCount": 23,
-      "argumentCount": 18
-    },
-    {
-      "id": "klimawandel",
-      "title": "Klimawandel",
-      "subtitle": "Fakten zu Temperatur, Extremwetter, Emissionen & Kippelemente",
-      "icon": "thermostat",
-      "lastUpdated": "2026-06-10",
-      "factCount": 8,
-      "argumentCount": 14
-    },
-    {
       "id": "verkehrswende",
       "title": "Verkehrswende",
       "subtitle": "Fakten zu Mobilität, Flächengerechtigkeit, Radverkehr und Klimazielen",
@@ -44,33 +44,6 @@
       "lastUpdated": "2026-06-10",
       "factCount": 8,
       "argumentCount": 16
-    },
-    {
-      "id": "buergergeld",
-      "title": "Bürgergeld",
-      "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
-      "icon": "account_balance_wallet",
-      "lastUpdated": "2026-06-10",
-      "factCount": 6,
-      "argumentCount": 9
-    },
-    {
-      "id": "migration",
-      "title": "Migration & Asyl",
-      "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",
-      "icon": "public",
-      "lastUpdated": "2026-06-10",
-      "factCount": 14,
-      "argumentCount": 17
-    },
-    {
-      "id": "teilzeit",
-      "title": "Teilzeit & Arbeitsmoral",
-      "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Produktivität, Care-Arbeit, der Gen Z und den politischen Rezepten gegen den Fachkräftemangel.",
-      "icon": "schedule",
-      "lastUpdated": "2026-06-10",
-      "factCount": 12,
-      "argumentCount": 14
     },
     {
       "id": "vegane-ernaehrung",
@@ -82,6 +55,51 @@
       "argumentCount": 11
     },
     {
+      "id": "fachkraeftemangel",
+      "title": "Fachkräftemangel",
+      "subtitle": "Gibt es den Mangel wirklich? Fakten zu Fachkräftelücke, Demografie, Löhnen, inländischen Potenzialen, Zuwanderung und Automatisierung.",
+      "icon": "engineering",
+      "lastUpdated": "2026-06-10",
+      "factCount": 8,
+      "argumentCount": 10
+    },
+    {
+      "id": "teilzeit",
+      "title": "Teilzeit & Arbeitsmoral",
+      "subtitle": "Arbeiten wir immer weniger? Fakten zu Arbeitsvolumen, Produktivität, Care-Arbeit, der Gen Z und den politischen Rezepten gegen den Fachkräftemangel.",
+      "icon": "schedule",
+      "lastUpdated": "2026-06-10",
+      "factCount": 12,
+      "argumentCount": 14
+    },
+    {
+      "id": "ki-arbeitsmarkt",
+      "title": "KI und der Arbeitsmarkt",
+      "subtitle": "Fakten zu Automatisierung, Jobwandel und Qualifizierung in Deutschland",
+      "icon": "smart_toy",
+      "lastUpdated": "2026-06-10",
+      "factCount": 8,
+      "argumentCount": 9
+    },
+    {
+      "id": "buergergeld",
+      "title": "Bürgergeld",
+      "subtitle": "Fakten zu Regelsätzen, Sanktionen und Lohnabstand",
+      "icon": "account_balance_wallet",
+      "lastUpdated": "2026-06-10",
+      "factCount": 6,
+      "argumentCount": 9
+    },
+    {
+      "id": "verteilung",
+      "title": "Arm und Reich",
+      "subtitle": "Vermögensverteilung, Sozialstaat und Chancengleichheit in Deutschland",
+      "icon": "balance",
+      "lastUpdated": "2026-06-21",
+      "factCount": 10,
+      "argumentCount": 12
+    },
+    {
       "id": "vermoegenssteuer",
       "title": "Vermögens- und Erbschaftssteuer",
       "subtitle": "Verteilung von Reichtum und Besteuerung von großen Vermögen in Deutschland",
@@ -91,6 +109,24 @@
       "argumentCount": 12
     },
     {
+      "id": "migration",
+      "title": "Migration & Asyl",
+      "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",
+      "icon": "public",
+      "lastUpdated": "2026-06-10",
+      "factCount": 14,
+      "argumentCount": 17
+    },
+    {
+      "id": "innere-sicherheit",
+      "title": "Innere Sicherheit & Kriminalität",
+      "subtitle": "Fakten zu Kriminalitätstrend, Gewalt, Sicherheitsgefühl, Polizei und Prävention",
+      "icon": "security",
+      "lastUpdated": "2026-06-10",
+      "factCount": 7,
+      "argumentCount": 9
+    },
+    {
       "id": "gleichberechtigung",
       "title": "Gleichberechtigung",
       "subtitle": "Fakten zu Bezahlung, Care-Arbeit, Gewalt, Rente und Repräsentation",
@@ -98,6 +134,15 @@
       "lastUpdated": "2026-06-10",
       "factCount": 9,
       "argumentCount": 18
+    },
+    {
+      "id": "gendern",
+      "title": "Gendern & Sprachpolitik",
+      "subtitle": "Fakten zu Gendersprache, Umfragen, Sprachforschung und Regulierung",
+      "icon": "forum",
+      "lastUpdated": "2026-06-10",
+      "factCount": 8,
+      "argumentCount": 11
     },
     {
       "id": "bildung",
@@ -118,51 +163,6 @@
       "argumentCount": 14
     },
     {
-      "id": "gendern",
-      "title": "Gendern & Sprachpolitik",
-      "subtitle": "Fakten zu Gendersprache, Umfragen, Sprachforschung und Regulierung",
-      "icon": "forum",
-      "lastUpdated": "2026-06-10",
-      "factCount": 8,
-      "argumentCount": 11
-    },
-    {
-      "id": "ki-arbeitsmarkt",
-      "title": "KI und der Arbeitsmarkt",
-      "subtitle": "Fakten zu Automatisierung, Jobwandel und Qualifizierung in Deutschland",
-      "icon": "smart_toy",
-      "lastUpdated": "2026-06-10",
-      "factCount": 8,
-      "argumentCount": 9
-    },
-    {
-      "id": "fachkraeftemangel",
-      "title": "Fachkräftemangel",
-      "subtitle": "Gibt es den Mangel wirklich? Fakten zu Fachkräftelücke, Demografie, Löhnen, inländischen Potenzialen, Zuwanderung und Automatisierung.",
-      "icon": "engineering",
-      "lastUpdated": "2026-06-10",
-      "factCount": 8,
-      "argumentCount": 10
-    },
-    {
-      "id": "innere-sicherheit",
-      "title": "Innere Sicherheit & Kriminalität",
-      "subtitle": "Fakten zu Kriminalitätstrend, Gewalt, Sicherheitsgefühl, Polizei und Prävention",
-      "icon": "security",
-      "lastUpdated": "2026-06-10",
-      "factCount": 7,
-      "argumentCount": 9
-    },
-    {
-      "id": "russland-ukraine-sanktionen",
-      "title": "Russland, Ukraine & Sanktionen",
-      "subtitle": "Fakten zu Krieg, Sanktionen, Energie, Ukraine-Hilfe und Friedensperspektive",
-      "icon": "balance",
-      "lastUpdated": "2026-06-10",
-      "factCount": 9,
-      "argumentCount": 12
-    },
-    {
       "id": "wissenschaftsskepsis",
       "title": "Vertrauen in die Wissenschaft",
       "subtitle": "Fakten zu Vertrauen, Konsens, Replikationskrise, Interessenkonflikten und ‚Eigenrecherche'",
@@ -172,12 +172,12 @@
       "argumentCount": 10
     },
     {
-      "id": "verteilung",
-      "title": "Arm und Reich",
-      "subtitle": "Vermögensverteilung, Sozialstaat und Chancengleichheit in Deutschland",
+      "id": "russland-ukraine-sanktionen",
+      "title": "Russland, Ukraine & Sanktionen",
+      "subtitle": "Fakten zu Krieg, Sanktionen, Energie, Ukraine-Hilfe und Friedensperspektive",
       "icon": "balance",
-      "lastUpdated": "2026-06-21",
-      "factCount": 10,
+      "lastUpdated": "2026-06-10",
+      "factCount": 9,
       "argumentCount": 12
     }
   ]

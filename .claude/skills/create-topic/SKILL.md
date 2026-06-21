@@ -152,12 +152,14 @@ Die Inline-Verifizierung in Phase 2 sollte die meisten Fehler bereits abgefangen
 
 ### Phase 6: Integration & Validierung
 
-1. **Validieren** — `npm run build` generiert automatisch den `topics.json`-Index aus der neuen Topic-Datei:
+1. **In die Startseiten-Reihenfolge einordnen** — die neue `topicId` in der `TOPIC_ORDER`-Liste in `scripts/generate-topic-index.mjs` an der thematisch passenden Position eintragen (Blöcke: Klima/Energie/Mobilität · Arbeit/Verteilung · Gesellschaft · Staat/Bildung/Wissen). Ohne Eintrag landet das Thema mit Build-Warnung am Ende der Startseite.
+
+2. **Validieren** — `npm run build` generiert automatisch den `topics.json`-Index aus der neuen Topic-Datei:
    ```bash
    npm run lint && npm run build
    ```
 
-2. **Dem Nutzer berichten**, was erstellt wurde
+3. **Dem Nutzer berichten**, was erstellt wurde
 
 ## Regeln
 
