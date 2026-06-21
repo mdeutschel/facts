@@ -32,6 +32,8 @@ export default function SimpleLineChart({ items, unit, caption, color }: SimpleL
               axisLine={false}
               tickLine={false}
               dy={10}
+              interval="preserveStartEnd"
+              minTickGap={16}
             />
             <YAxis
               tick={{ fontSize: 11, fill: theme.palette.text.secondary }}

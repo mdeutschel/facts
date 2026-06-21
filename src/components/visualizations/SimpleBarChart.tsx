@@ -27,10 +27,11 @@ export default function SimpleBarChart({ items, unit, caption }: SimpleBarChartP
             <YAxis
               type="category"
               dataKey="label"
-              width={60}
+              width={84}
               tick={{ fontSize: 11, fill: theme.palette.text.secondary }}
               axisLine={false}
               tickLine={false}
+              interval={0}
             />
             <Bar dataKey="value" radius={[0, 4, 4, 0]} barSize={20}>
               {items.map((item, i) => (
