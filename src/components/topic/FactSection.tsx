@@ -17,6 +17,9 @@ import ComparisonView from '../visualizations/ComparisonView'
 import RangeBarChart from '../visualizations/RangeBarChart'
 import TimelineView from '../visualizations/TimelineView'
 import ProgressStack from '../visualizations/ProgressStack'
+import MythFactView from '../visualizations/MythFactView'
+import Pictograph from '../visualizations/Pictograph'
+import TargetProgressView from '../visualizations/TargetProgressView'
 import type { Section, ContentBlock, Source, SourceRef } from '../../types'
 
 const SimpleBarChart = lazy(() => import('../visualizations/SimpleBarChart'))
@@ -183,6 +186,26 @@ function ContentBlockView({ block }: { block: ContentBlock }) {
 
     case 'progress_stack':
       return <ProgressStack segments={block.segments} total={block.total} caption={block.caption} />
+
+    case 'myth_fact':
+      return <MythFactView items={block.items} caption={block.caption} />
+
+    case 'pictograph':
+      return (
+        <Pictograph
+          filled={block.filled}
+          total={block.total}
+          label={block.label}
+          icon={block.icon}
+          color={block.color}
+          caption={block.caption}
+        />
+      )
+
+    case 'target_progress':
+      return (
+        <TargetProgressView items={block.items} maxScale={block.maxScale} unit={block.unit} caption={block.caption} />
+      )
 
     default: {
       const _exhaustive: never = block

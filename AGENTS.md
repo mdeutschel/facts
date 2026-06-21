@@ -70,7 +70,7 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 - Themen-Daten: `public/data/{topicId}.json`
 - Neues Thema hinzufügen = neue JSON-Datei anlegen, `npm run build` generiert den Index automatisch
 - Schema definiert in `src/types/index.ts` — ContentBlock nutzt Discriminated Unions (`type`-Feld)
-- ContentBlock-Typen: `fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`
+- ContentBlock-Typen: `fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`, `myth_fact`, `pictograph`, `target_progress`
 - Client-seitiger Suchindex wird zur Laufzeit aus allen Topic-JSONs aufgebaut
 - `id`-Felder: kebab-case, `icon`: MUI-Icon-Name, `lastUpdated`: `YYYY-MM-DD`
 - Quellen: `label` Pflicht, `url` optional

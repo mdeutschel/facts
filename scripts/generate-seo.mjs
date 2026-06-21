@@ -108,6 +108,35 @@ export function flattenContentBlock(block) {
     return lines.join('\n')
   }
 
+  if (block.type === 'myth_fact') {
+    const lines = []
+    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
+    for (const item of block.items) {
+      lines.push(`- Behauptung: ${item.myth}`)
+      lines.push(`  Faktencheck: ${item.fact}`)
+    }
+    return lines.join('\n')
+  }
+
+  if (block.type === 'pictograph') {
+    const lines = []
+    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
+    lines.push(`- ${block.filled} von ${block.total}: ${block.label}`)
+    return lines.join('\n')
+  }
+
+  if (block.type === 'target_progress') {
+    const unit = block.unit ?? ''
+    const lines = []
+    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
+    for (const item of block.items) {
+      const itemUnit = item.unit ?? unit
+      const suffix = itemUnit ? ` ${itemUnit}` : ''
+      lines.push(`- ${item.label}: aktuell ${item.current}${suffix}, Ziel ${item.target}${suffix}`)
+    }
+    return lines.join('\n')
+  }
+
   return ''
 }
 

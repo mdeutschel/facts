@@ -211,6 +211,19 @@
           "text": "‚Die Wissenschaftler sind sich nicht einig' ist ein beliebtes Argument — aber es vermischt zwei Dinge: den breiten Konsens über Grundfragen und die normale Uneinigkeit über Details. Bei vielen Themen ist die Grundlage praktisch unstrittig, während über Feinheiten weiter geforscht und gestritten wird."
         },
         {
+          "type": "myth_fact",
+          "items": [
+            {
+              "myth": "Über den menschengemachten Klimawandel sind sich die Forscher doch gar nicht einig.",
+              "fact": "Unter publizierenden Klimaforschenden reicht die Zustimmung von 97,1 % (Cook et al. 2013) bis über 99 % (Lynas et al. 2021). Uneinigkeit besteht nur über Details wie das exakte Tempo einzelner Effekte — nicht über die menschengemachte Grundursache."
+            }
+          ],
+          "sourceRefs": [
+            "cook-2013-klimakonsens",
+            "lynas-2021-klimakonsens"
+          ]
+        },
+        {
           "type": "stat_grid",
           "items": [
             {
