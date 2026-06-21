@@ -8,6 +8,7 @@ import HomeIcon from '@mui/icons-material/Home'
 import EuroIcon from '@mui/icons-material/Euro'
 import PublicIcon from '@mui/icons-material/Public'
 import GroupIcon from '@mui/icons-material/Group'
+import BusinessIcon from '@mui/icons-material/Business'
 
 interface PictographProps {
   filled: number
@@ -25,6 +26,7 @@ const iconMap: Record<string, ComponentType<SvgIconProps>> = {
   euro: EuroIcon,
   public: PublicIcon,
   group: GroupIcon,
+  business: BusinessIcon,
 }
 
 // Icon-array (waffle) chart: renders `total` icons, of which `filled` are

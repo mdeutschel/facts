@@ -48,6 +48,18 @@
           ]
         },
         {
+          "type": "pictograph",
+          "caption": "Verbreitung von KI in deutschen Unternehmen (2025)",
+          "filled": 26,
+          "total": 100,
+          "icon": "business",
+          "color": "#00897b",
+          "label": "Unternehmen in Deutschland setzen KI ein — rund jedes vierte (Destatis 2025).",
+          "sourceRefs": [
+            "destatis-ki-nutzung-2025"
+          ]
+        },
+        {
           "type": "text",
           "text": "Die KI-Nutzung hat sich in Deutschland seit 2023 mehr als verdoppelt: von 12 % (2023) über 20 % (2024) auf 26 % (2025, Destatis). Der sprunghafte Anstieg ab 2024 geht vor allem auf generative KI zurück — Text Mining, Bild- und Sprachgeneratoren sind die am häufigsten genutzten Technologien. Deutschland liegt damit über dem EU-Durchschnitt, aber deutlich hinter den nordischen Spitzenreitern Dänemark (42 %) und Finnland (38 %).",
           "sourceRefs": [

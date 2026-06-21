@@ -84,6 +84,19 @@
           ]
         },
         {
+          "type": "myth_fact",
+          "items": [
+            {
+              "myth": "Wegen der aufwändigen Batterieproduktion ist ein E-Auto über sein Leben hinweg klimaschädlicher als ein Verbrenner.",
+              "fact": "Der CO₂-Rucksack der Herstellung (rund 40 % höher) ist nach etwa 17.000 km abgefahren. Über den gesamten Lebenszyklus stößt ein E-Auto im EU-Strommix rund 73 % weniger Treibhausgase aus als ein Benziner — mit Ökostrom sogar 78 %."
+            }
+          ],
+          "sourceRefs": [
+            "icct-life-cycle-ghg-emissions-of-passenger-cars",
+            "bmukn-klima-und-energie-bei-elektromobilitaet"
+          ]
+        },
+        {
           "type": "stat_grid",
           "items": [
             {

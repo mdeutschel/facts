@@ -26,6 +26,18 @@
           ]
         },
         {
+          "type": "myth_fact",
+          "items": [
+            {
+              "myth": "Der Gender Pay Gap von 16 % bedeutet, dass Frauen für die gleiche Arbeit 16 % weniger bekommen.",
+              "fact": "Die 16 % sind der unbereinigte Gap über alle Beschäftigten — er erfasst auch Unterschiede bei Beruf, Branche und Arbeitszeit. Bei gleicher Qualifikation und Tätigkeit verbleibt ein bereinigter Gap von 6 %, der als Obergrenze möglicher Diskriminierung gilt. Beide Werte sind real, messen aber Unterschiedliches."
+            }
+          ],
+          "sourceRefs": [
+            "destatis-gender-pay-gap-2025"
+          ]
+        },
+        {
           "type": "stat_grid",
           "items": [
             {
