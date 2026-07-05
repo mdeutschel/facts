@@ -2,7 +2,9 @@ import { createTheme } from '@mui/material/styles'
 
 // Visualization color palettes — used by chart/graph components
 export const chartPalette = {
-  comparison: ['#546e7a', '#00897b'],
+  // #00897b (secondary.main) only reaches 4.32:1 against white chip/header
+  // text — swapped for the darker secondary.dark to clear WCAG AA (4.5:1).
+  comparison: ['#546e7a', '#005b4f'],
   sequential: ['#00897b', '#26a69a', '#4db6ac', '#80cbc4', '#78909c', '#b71c1c'],
 }
 
@@ -84,6 +86,13 @@ const theme = createTheme({
           ownerState.variant === 'filled' ? { backgroundColor: '#b45300' } : {},
         colorInfo: ({ ownerState }) =>
           ownerState.variant === 'filled' ? { backgroundColor: '#01579b' } : {},
+        // secondary.main only reaches 4.32:1 against white — both as a filled
+        // background with white text and as outlined text on white — just
+        // under WCAG AA's 4.5:1 at chip text sizes. Use secondary.dark instead.
+        colorSecondary: ({ ownerState, theme }) =>
+          ownerState.variant === 'filled'
+            ? { backgroundColor: theme.palette.secondary.dark }
+            : { color: theme.palette.secondary.dark },
       },
     },
   },

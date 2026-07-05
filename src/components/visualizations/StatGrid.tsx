@@ -27,7 +27,9 @@ export default function StatGrid({ items }: StatGridProps) {
           sx={{
             p: 1.5,
             textAlign: 'center',
-            bgcolor: item.color ?? 'secondary.main',
+            // secondary.main against white text is only 4.32:1 — secondary.dark
+            // keeps the brand color while passing WCAG AA at this font size.
+            bgcolor: item.color ?? 'secondary.dark',
             color: 'white',
             borderRadius: 2,
           }}

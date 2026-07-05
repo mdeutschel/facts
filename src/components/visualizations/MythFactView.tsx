@@ -90,7 +90,7 @@ export default function MythFactView({ items, caption }: MythFactViewProps) {
               <Box>
                 <Typography
                   variant="caption"
-                  sx={{ fontWeight: 700, color: 'secondary.main', textTransform: 'uppercase', letterSpacing: 0.5, display: 'block' }}
+                  sx={{ fontWeight: 700, color: 'secondary.dark', textTransform: 'uppercase', letterSpacing: 0.5, display: 'block' }}
                 >
                   Faktencheck
                 </Typography>
