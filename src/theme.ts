@@ -76,6 +76,16 @@ const theme = createTheme({
         },
       },
     },
+    MuiChip: {
+      styleOverrides: {
+        // Default warning/info filled backgrounds fail WCAG AA (3.1:1 / 3.9:1)
+        // against white chip text at small sizes — darken them to pass 4.5:1.
+        colorWarning: ({ ownerState }) =>
+          ownerState.variant === 'filled' ? { backgroundColor: '#b45300' } : {},
+        colorInfo: ({ ownerState }) =>
+          ownerState.variant === 'filled' ? { backgroundColor: '#01579b' } : {},
+      },
+    },
   },
 })
 

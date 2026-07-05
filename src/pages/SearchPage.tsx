@@ -32,7 +32,7 @@ export default function SearchPage() {
       )}
       {loading ? (
         <Box sx={{ display: 'flex', justifyContent: 'center', py: 4 }}>
-          <CircularProgress />
+          <CircularProgress aria-label="Suchergebnisse werden geladen" />
         </Box>
       ) : (
         <SearchResults results={results} query={query} />

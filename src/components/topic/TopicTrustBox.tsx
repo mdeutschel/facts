@@ -52,7 +52,7 @@ export default function TopicTrustBox({ topic }: TopicTrustBoxProps) {
             href="#quellen"
             underline="hover"
             color="text.secondary"
-            sx={{ fontSize: '0.75rem' }}
+            sx={{ fontSize: '0.75rem', display: 'inline-block', py: 0.5 }}
           >
             {sourceCount} {sourceCount === 1 ? 'Quelle' : 'Quellen'}
           </Link>
@@ -73,7 +73,7 @@ export default function TopicTrustBox({ topic }: TopicTrustBoxProps) {
             component={RouterLink}
             to="/methodik/"
             underline="hover"
-            sx={{ fontSize: '0.75rem' }}
+            sx={{ fontSize: '0.75rem', display: 'inline-block', py: 0.5 }}
           >
             Wie geprüft wird
           </Link>
@@ -84,7 +84,7 @@ export default function TopicTrustBox({ topic }: TopicTrustBoxProps) {
             component={RouterLink}
             to="/feedback/"
             underline="hover"
-            sx={{ fontSize: '0.75rem' }}
+            sx={{ fontSize: '0.75rem', display: 'inline-block', py: 0.5 }}
           >
             Fehler melden
           </Link>
@@ -96,7 +96,7 @@ export default function TopicTrustBox({ topic }: TopicTrustBoxProps) {
             target="_blank"
             rel="noopener"
             underline="hover"
-            sx={{ fontSize: '0.75rem' }}
+            sx={{ fontSize: '0.75rem', display: 'inline-block', py: 0.5 }}
           >
             Quelltext &amp; Inhalte auf GitHub
           </Link>
