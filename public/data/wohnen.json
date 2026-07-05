@@ -262,7 +262,7 @@
         {
           "type": "fact",
           "text": "Trotz Rekordförderung sinkt der Sozialwohnungsbestand weiter: 2024 wurden nur 26.796 neue Sozialmietwohnungen gebaut, während über 41.000 aus der Bindung fielen.",
-          "description": "Die Förderung müsste den Neubau etwa verdoppeln, nur um den Bestand zu halten.",
+          "description": "Der Neubau von Sozialmietwohnungen müsste um mehr als die Hälfte steigen, nur um die jährlich auslaufenden Bindungen auszugleichen.",
           "highlight": true,
           "sourceRefs": ["bmwsb-foerderergebnisse-swb-2024", "mieterbund-sozialwohnungen-2024"]
         }
@@ -326,7 +326,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Deutschland ist das einzige EU-Land, in dem mehr Menschen zur Miete wohnen als im Eigentum. Das hat historische Gründe (Nachkriegs-Mietwohnungsbau, funktionierender Mieterschutz) — aber die Hürden für den Eigentumserwerb sind zuletzt deutlich gestiegen: vervierfachte Zinsen, hohe Kaufnebenkosten und Preise, die sich nach kurzer Korrektur wieder erholen.",
+          "text": "Deutschland ist das einzige EU-Land, in dem mehr Menschen zur Miete wohnen als im Eigentum. Das hat historische Gründe (Nachkriegs-Mietwohnungsbau, funktionierender Mieterschutz) — aber die Hürden für den Eigentumserwerb sind zuletzt deutlich gestiegen: vervierfachte Zinsen, hohe Kaufnebenkosten und Preise, die nach kurzer Korrektur wieder steigen.",
           "sourceRefs": ["eurostat-wohneigentumsquote-2024", "interhyp-bauzinsen-vergleich"]
         },
         {
@@ -368,7 +368,7 @@
         },
         {
           "type": "text",
-          "text": "Die niedrige Eigentumsquote ist ein wesentlicher Grund, warum das Medianvermögen deutscher Haushalte trotz hoher Einkommen im EU-Vergleich niedrig ausfällt: Wohneigentum ist für die Mittelschicht der wichtigste Vermögensbaustein (siehe Thema Vermögensverteilung).",
+          "text": "Wohneigentum ist für die Mittelschicht meist der wichtigste Vermögensbaustein — die niedrige Eigentumsquote gilt daher als ein wesentlicher Grund, warum das Medianvermögen deutscher Haushalte trotz hoher Einkommen im EU-Vergleich niedrig ausfällt (mehr dazu im Thema Vermögensverteilung).",
           "sourceRefs": ["eurostat-wohneigentumsquote-2024"]
         }
       ]
@@ -411,7 +411,7 @@
         {
           "type": "fact",
           "text": "Vergesellschaftung ändert den Eigentümer, nicht die Zahl der Wohnungen: Sie kann Mieten im übernommenen Bestand dauerhaft binden, schafft aber selbst keinen zusätzlichen Wohnraum.",
-          "description": "Der Kernkonflikt der Debatte: dauerhafte Mietsicherheit für Bestandsmieter gegen Milliardenbeträge, die nicht in Neubau fließen.",
+          "description": "Der Zielkonflikt der Debatte: dauerhafte Mietbindung im übernommenen Bestand auf der einen Seite, hohe Entschädigungssummen mit umstrittenen Folgekosten für den Landeshaushalt auf der anderen (siehe Sondervotum und Landesrechnungshof).",
           "highlight": true,
           "sourceRefs": ["expertenkommission-vergesellschaftung-2023"]
         }
@@ -449,7 +449,7 @@
         },
         {
           "type": "fact",
-          "text": "Wiens geförderter Wohnungsbestand ist das Ergebnis von 100 Jahren kontinuierlicher Bodenvorrats- und Wohnbaupolitik — er lässt sich nicht kurzfristig kopieren, einzelne Instrumente wie die aktive Bodenpolitik aber schon.",
+          "text": "Wiens geförderter Wohnungsbestand — rund 220.000 Gemeindewohnungen plus über 200.000 geförderte Wohnungen — ist das Ergebnis von 100 Jahren kontinuierlicher Bodenvorrats- und Wohnbaupolitik seit den frühen 1920er Jahren.",
           "highlight": true,
           "sourceRefs": ["stadt-wien-socialhousing", "empirica-wohnungsmarkt-wien-2020"]
         }
@@ -490,8 +490,8 @@
       "response": "Das Bild ist zweigeteilt, und beide Hälften gehören zur Wahrheit: Für Bestandsmieter funktionierte der Deckel — die Mieten regulierter Wohnungen sanken um rund 11 %. Gleichzeitig halbierte sich das Angebot an inserierten Mietwohnungen, im unregulierten Segment und im Umland stiegen die Mieten stärker, und Wohnungssuchende gingen weitgehend leer aus. 2021 erklärte das Bundesverfassungsgericht das Gesetz für nichtig — allerdings aus Kompetenzgründen (Mietrecht ist Bundessache), nicht wegen der Inhalte. Wer den Deckel bewertet, muss beide Gruppen betrachten: die geschützten Bestandsmieter und die Suchenden, für die der Markt fast dicht war.",
       "keywords": ["mietendeckel", "berlin", "mietenstopp", "funktioniert", "bundesverfassungsgericht"],
       "relatedSections": ["mietregulierung"],
-      "verdict": "lacks-context",
-      "rhetoricalPattern": "Überlebenden-Perspektive: Bewertet wird nur aus Sicht derer, die bereits eine Wohnung haben und profitieren. Die Kosten tragen unsichtbare Dritte — Wohnungssuchende, die im halbierten Angebot keine Wohnung mehr finden. Eine Bilanz, die nur die Gewinner zählt, ist keine.",
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Überlebenden-Perspektive: Bewertet wird nur aus Sicht derer, die bereits eine Wohnung haben und profitieren. Die Kosten tragen unsichtbare Dritte — Wohnungssuchende, die im halbierten Angebot keine Wohnung mehr finden. Eine Bilanz, die nur die Gewinner zählt, bleibt unvollständig.",
       "counterQuestions": [
         "Wie erging es während des Deckels denen, die eine Wohnung gesucht haben?",
         "Warum hat das Verfassungsgericht das Gesetz gekippt — und was hieße das für eine bundesweite Neuauflage?"
@@ -500,7 +500,7 @@
     {
       "id": "einfach-bauen-bauen-bauen",
       "claim": "Man muss einfach nur bauen, bauen, bauen — dann löst sich das Problem von selbst!",
-      "response": "Neubau ist tatsächlich der wichtigste Hebel gegen den Wohnungsmangel — daran führt kein Weg vorbei, und aktuell wird mit 206.600 Fertigstellungen (2025) nur gut die Hälfte des Bedarfs gebaut. Aber ‚einfach' ist daran nichts: Neubau wirkt erst nach Jahren, entsteht überwiegend im teuren Segment, und die belegten Sickereffekte — Neubau macht über Umzugsketten auch ältere Wohnungen frei — reichen auf angespannten Märkten nur eingeschränkt bis ins günstige Segment. Zudem scheitert das Bauen derzeit nicht am Willen, sondern an Zinsen, Baukosten und Baulandpreisen. Bauen ist notwendig, aber kein Selbstläufer — ohne Förderung, Bauland und Bestandsschutz kommt die Entlastung unten kaum an.",
+      "response": "Neubau ist tatsächlich der wichtigste Hebel gegen den Wohnungsmangel — daran führt kein Weg vorbei, und aktuell wird mit 206.600 Fertigstellungen (2025) nur gut die Hälfte des Bedarfs gebaut. Aber ‚einfach' ist daran nichts: Neubau wirkt erst nach Jahren, entsteht überwiegend im teuren Segment, und die belegten Sickereffekte — Neubau macht über Umzugsketten auch ältere Wohnungen frei — reichen auf angespannten Märkten nur eingeschränkt bis ins günstige Segment. Zudem scheitert das Bauen derzeit nicht am Willen, sondern an Zinsen, Baukosten und Baulandpreisen. Bauen ist notwendig, aber kein Selbstläufer — die Studienlage zum Sickereffekt spricht dagegen, dass Marktneubau allein das günstige Segment entlastet; dort wirkt vor allem geförderter Wohnungsbau.",
       "keywords": ["bauen", "neubau", "angebot", "nachfrage", "sickereffekt", "wohnungsbau"],
       "relatedSections": ["neubau", "sozialwohnungen"],
       "verdict": "partially-true",
@@ -513,9 +513,16 @@
     {
       "id": "enteignen-loest-wohnungsnot",
       "claim": "Große Wohnungskonzerne enteignen — das löst die Wohnungsnot!",
-      "response": "Ob Vergesellschaftung richtig ist, ist am Ende eine Wertefrage — die Faktenbasis dazu ist aber klar umrissen: Rechtlich wäre sie nach dem Bericht der Berliner Expertenkommission grundsätzlich möglich (Art. 15 GG, noch nie angewandt). Sie würde in Berlin je nach Schätzung 220.000–243.000 Wohnungen betreffen — rund 13,5 % der Mietwohnungen — und laut Senat 28,8–36 Mrd. € Entschädigung kosten (die Initiative rechnet mit 7,3–13,7 Mrd. €). Zusätzlichen Wohnraum schafft sie nicht; das Sondervotum der Kommission hält sogar Bauzurückhaltung im privaten Markt für wahrscheinlicher. Befürworter setzen auf dauerhaft gebundene Mieten im Bestand, Kritiker auf Neubau statt Eigentümerwechsel — welche dieser Prioritäten wichtiger ist, können Daten nicht entscheiden.",
+      "response": "Vergesellschaftung ändert den Eigentümer, nicht die Zahl der Wohnungen — den Mangel an verfügbarem Wohnraum behebt sie nach der Faktenlage nicht; das Sondervotum der Berliner Expertenkommission hält im verbleibenden privaten Markt sogar Bauzurückhaltung für wahrscheinlicher. Was sie leisten kann: Mieten im übernommenen Bestand dauerhaft binden — in Berlin beträfe das je nach Schätzung 220.000–243.000 Wohnungen, rund 13,5 % der Mietwohnungen. Dem stehen laut Senat 28,8–36 Mrd. € Entschädigung gegenüber (die Initiative rechnet mit 7,3–13,7 Mrd. €). Rechtlich wäre sie nach dem Kommissionsbericht grundsätzlich möglich (Art. 15 GG, noch nie angewandt). Ob man dauerhafte Mietbindung im Bestand höher gewichtet als andere Verwendungen dieser Mittel, ist eine Wertfrage — dass dadurch zusätzlicher Wohnraum entsteht, ist es nicht.",
       "keywords": ["enteignung", "vergesellschaftung", "deutsche wohnen", "vonovia", "wohnungskonzerne", "volksentscheid"],
-      "relatedSections": ["enteignung", "sozialwohnungen"]
+      "relatedSections": ["enteignung", "sozialwohnungen"],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Ebenenverwechslung: Ein Verteilungsinstrument (wem gehört der Bestand, wie entwickeln sich dort die Mieten) wird als Mengeninstrument (wie viele Wohnungen gibt es) verkauft. Eigentümerwechsel und Wohnraumschaffung sind zwei verschiedene Dinge — das erste zu tun heißt nicht, das zweite erreicht zu haben.",
+      "counterQuestions": [
+        "Wie entsteht durch den Eigentümerwechsel eine einzige zusätzliche Wohnung?",
+        "Geht es dir um mehr Wohnungen oder um dauerhaft günstige Mieten im Bestand — und leistet Vergesellschaftung beides?",
+        "Wer bezahlt die Entschädigung — und was wäre mit denselben Mitteln sonst finanzierbar?"
+      ]
     },
     {
       "id": "fluechtlinge-nehmen-wohnungen-weg",
@@ -560,7 +567,7 @@
     {
       "id": "wien-einfach-kopieren",
       "claim": "Wien macht's doch vor — das müssen wir einfach kopieren!",
-      "response": "Wien zeigt tatsächlich, dass dauerhaft bezahlbares Wohnen im großen Maßstab möglich ist: Rund die Hälfte der Wiener wohnt in Gemeinde- oder geförderten Wohnungen. Nur ist das kein kopierbares Programm, sondern das Ergebnis von 100 Jahren kontinuierlicher Boden- und Wohnbaupolitik seit dem ‚Roten Wien' der 1920er. Deutschland hat seinen vergleichbaren Bestand — die Sozialwohnungen — seit 1990 von 3 Mio. auf 1 Mio. schrumpfen lassen; das lässt sich nicht in einer Legislaturperiode umkehren. Übertragbar sind einzelne Instrumente: aktive Bodenvorratspolitik und verpflichtende Widmung neuer Flächen für geförderten Wohnbau. Und auch Wien ist kein Mietparadies für Neuankömmlinge — private Neuvertragsmieten liegen dort ähnlich hoch wie in deutschen Metropolen.",
+      "response": "Wien zeigt tatsächlich, dass dauerhaft bezahlbares Wohnen im großen Maßstab möglich ist: Rund die Hälfte der Wiener wohnt in Gemeinde- oder geförderten Wohnungen. Nur ist das kein kopierbares Programm, sondern das Ergebnis von 100 Jahren kontinuierlicher Boden- und Wohnbaupolitik seit dem ‚Roten Wien' der 1920er. Deutschland hat seinen vergleichbaren Bestand — die Sozialwohnungen — seit 1990 von 3 Mio. auf 1 Mio. schrumpfen lassen; das lässt sich nicht in einer Legislaturperiode umkehren. Übertragbar sind einzelne Instrumente: aktive Bodenvorratspolitik und verpflichtende Widmung neuer Flächen für geförderten Wohnbau. Und auch Wien ist kein Mietparadies für Neuankömmlinge — laut einer Analyse im Auftrag der deutschen Immobilienwirtschaft (empirica 2020) liegen private Neuvertragsmieten dort ähnlich hoch wie in deutschen Metropolen.",
       "keywords": ["wien", "gemeindebau", "vorbild", "kommunaler wohnungsbau", "österreich"],
       "relatedSections": ["internationaler-vergleich", "sozialwohnungen"],
       "verdict": "lacks-context",
