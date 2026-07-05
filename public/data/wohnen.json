@@ -133,7 +133,7 @@
       "content": [
         {
           "type": "text",
-          "text": "Die Nachfrage nach Wohnungen wächst aus zwei Richtungen: Zum einen steigt die Zahl der Haushalte seit Jahrzehnten auch ohne Bevölkerungswachstum, weil immer mehr Menschen allein leben — 2025 gab es 41,1 Mio. Privathaushalte, davon 42,1 % Einpersonenhaushalte (2000–2024: +8,7 % Haushalte bei sinkender Haushaltsgröße). Zum anderen erhöhen Zuwanderungsspitzen die Nachfrage: 2022 lag die Nettozuwanderung mit +1,46 Mio. auf einem Rekordwert (davon über 1,1 Mio. Zuzüge aus der Ukraine); bis 2025 fiel sie auf +235.000.",
+          "text": "Die Nachfrage nach Wohnungen wächst aus zwei Richtungen: Zum einen steigt die Zahl der Haushalte seit Jahrzehnten auch ohne Bevölkerungswachstum, weil immer mehr Menschen allein leben — 2025 gab es 41,1 Mio. Privathaushalte, davon 42,1 % Einpersonenhaushalte (2000–2024: +8,7 % Haushalte bei sinkender Haushaltsgröße). Zum anderen erhöhen Zuwanderungsspitzen die Nachfrage: 2022 lag die Nettozuwanderung mit +1,46 Mio. auf einem Rekordwert (davon rund 1,1 Mio. Zuzüge aus der Ukraine); bis 2025 fiel sie auf +235.000.",
           "sourceRefs": ["destatis-privathaushalte-2025", "uba-haushalte-struktur", "destatis-nettozuwanderung-2022", "destatis-nettozuwanderung-2025"]
         },
         {
@@ -152,7 +152,7 @@
         {
           "type": "fact",
           "text": "Private Kleinvermieter erzielen im Schnitt rund 5.475 € Nettomieteinnahmen pro Jahr; 45 % kommen auf weniger als 5.000 € — Vermietung dient häufig der Altersvorsorge.",
-          "description": "Einnahmen-, keine Renditekennzahl (IW-Gutachten auf Basis Zensus 2022 und SOEP).",
+          "description": "Einnahmen-, keine Renditekennzahl (IW-Gutachten im Auftrag von Haus & Grund Köln/Düsseldorf, auf Basis der amtlichen Daten aus Zensus 2022 und SOEP).",
           "sourceRefs": ["iw-private-vermieter-2025"]
         }
       ]
@@ -811,7 +811,7 @@
     },
     {
       "id": "iw-private-vermieter-2025",
-      "label": "IW Köln – Private Vermieter in Deutschland, Gutachten (2025)",
+      "label": "IW Köln – Private Vermieter in Deutschland, Gutachten im Auftrag von Haus & Grund Köln/Düsseldorf, auf Basis Zensus 2022 und SOEP (2025)",
       "url": "https://www.iwkoeln.de/fileadmin/user_upload/Studien/Gutachten/PDF/2025/Gutachten-Private-Vermieter-in-Deutschland.pdf"
     }
   ]
