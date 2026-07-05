@@ -151,7 +151,7 @@
         },
         {
           "type": "fact",
-          "text": "Private Kleinvermieter erzielen im Schnitt rund 5.475 € Nettomieteinnahmen pro Jahr; 45 % kommen auf weniger als 5.000 € — Vermietung dient häufig der Altersvorsorge.",
+          "text": "Private Kleinvermieter erzielten 2022 im Median knapp 5.500 € Nettomieteinnahmen im Jahr; rund 45 % lagen unter 5.000 €, etwa 9 % sogar im negativen Bereich — Vermietung dient häufig der Altersvorsorge.",
           "description": "Einnahmen-, keine Renditekennzahl (IW-Gutachten im Auftrag von Haus & Grund Köln/Düsseldorf, auf Basis der amtlichen Daten aus Zensus 2022 und SOEP).",
           "sourceRefs": ["iw-private-vermieter-2025"]
         }
@@ -175,7 +175,7 @@
             { "label": "2024", "current": 251.9, "target": 400 },
             { "label": "2025", "current": 206.6, "target": 400 }
           ],
-          "sourceRefs": ["destatis-baufertigstellungen-2024", "destatis-baufertigstellungen-2025"]
+          "sourceRefs": ["destatis-baufertigstellungen-2023", "destatis-baufertigstellungen-2024", "destatis-baufertigstellungen-2025"]
         },
         {
           "type": "bar_chart",
@@ -236,7 +236,7 @@
             { "label": "2023", "value": "1,07 Mio.", "sublabel": "historischer Tiefstand" },
             { "label": "2024", "value": "~1,05 Mio.", "sublabel": "erneut −20.600", "highlight": true }
           ],
-          "sourceRefs": ["paritaetischer-sozialwohnungen-2024", "bmwsb-foerderergebnisse-swb-2024"]
+          "sourceRefs": ["paritaetischer-sozialwohnungen-2024", "mieterbund-sozialwohnungen-2024", "bmwsb-foerderergebnisse-swb-2024"]
         },
         {
           "type": "stat_grid",
@@ -541,7 +541,7 @@
     {
       "id": "vermieter-sind-miethaie",
       "claim": "Vermieter sind doch alle Miethaie und zocken nur ab!",
-      "response": "Die Vermieterlandschaft sieht anders aus als das Konzern-Klischee: 64,4 % der Mietwohnungen in Deutschland gehören privaten Kleinvermietern — oft Privatleute mit einer oder wenigen Wohnungen zur Altersvorsorge, mit durchschnittlichen Nettomieteinnahmen von rund 5.500 € im Jahr. Große privatwirtschaftliche Anbieter stellen 14 % des Mietmarkts, kommunale Anbieter und Genossenschaften rund 20 %. Der Wahrheitskern: In angespannten Märkten gibt es überzogene Neuvertragsmieten und Umgehungstricks wie überteuerte Möblierung — dagegen richtet sich die Mietpreisbremse. Aber von Einzelfällen auf ‚alle Vermieter' zu schließen, trifft ausgerechnet die Mehrheit, die langjährige Mietverhältnisse zu moderaten Preisen hält.",
+      "response": "Die Vermieterlandschaft sieht anders aus als das Konzern-Klischee: 64,4 % der Mietwohnungen in Deutschland gehören privaten Kleinvermietern — oft Privatleute mit einer oder wenigen Wohnungen zur Altersvorsorge, mit Nettomieteinnahmen von im Median knapp 5.500 € im Jahr (2022). Große privatwirtschaftliche Anbieter stellen 14 % des Mietmarkts, kommunale Anbieter und Genossenschaften rund 20 %. Der Wahrheitskern: In angespannten Märkten gibt es überzogene Neuvertragsmieten und Umgehungstricks wie überteuerte Möblierung — dagegen richtet sich die Mietpreisbremse. Aber von Einzelfällen auf ‚alle Vermieter' zu schließen, trifft ausgerechnet die Mehrheit, die langjährige Mietverhältnisse zu moderaten Preisen hält.",
       "keywords": ["vermieter", "miethaie", "abzocke", "konzerne", "kleinvermieter", "rendite"],
       "relatedSections": ["markt-struktur", "mietregulierung"],
       "verdict": "mostly-false",
@@ -650,6 +650,11 @@
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_174_31121.html"
     },
     {
+      "id": "destatis-baufertigstellungen-2023",
+      "label": "Statistisches Bundesamt – 0,3 % weniger fertiggestellte Wohnungen im Jahr 2023, Pressemitteilung Nr. 203 (2024)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/05/PD24_203_31121.html"
+    },
+    {
       "id": "destatis-baufertigstellungen-2024",
       "label": "Statistisches Bundesamt – 14,4 % weniger fertiggestellte Wohnungen im Jahr 2024, Pressemitteilung Nr. 183 (2025)",
       "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_183_31121.html"
@@ -756,8 +761,8 @@
     },
     {
       "id": "landesabstimmungsleiterin-volksentscheid-2021",
-      "label": "Landesabstimmungsleiterin Berlin – Endgültiges Ergebnis des Volksentscheids ‚Vergesellschaftung der Wohnungsbestände großer Wohnungsunternehmen' (2021)",
-      "url": "https://www.berlin.de/wahlen/abstimmungen/deutsche-wohnen-und-co-enteignen/ergebnisse/artikel.1130038.php"
+      "label": "Landesabstimmungsleiterin Berlin – Bericht über das endgültige Ergebnis des Volksentscheids ‚Vergesellschaftung der Wohnungsbestände großer Wohnungsunternehmen' (2021)",
+      "url": "https://www.berlin.de/wahlen/abstimmungen/deutsche-wohnen-und-co-enteignen/ergebnisse/wahlbuch_ve_endgueltig.pdf"
     },
     {
       "id": "berlin-kostenschaetzung-volksentscheid-2021",
