@@ -24,7 +24,8 @@ Block 1 (Klima/Energie/Mobilität): klimawandel, energiewende, heizung,
 emobilitaet, verkehrswende, vegane-ernaehrung
 Block 2 (Arbeit/Verteilung): fachkraeftemangel, teilzeit, ki-arbeitsmarkt,
 buergergeld, verteilung, vermoegenssteuer
-Block 3 (Gesellschaft): migration, innere-sicherheit, gleichberechtigung, gendern
+Block 3 (Gesellschaft): wohnen (seit 2026-07-05), migration, innere-sicherheit,
+gleichberechtigung, gendern
 Block 4 (Staat/Bildung/Wissen/Außen): bildung, gesundheit, wissenschaftsskepsis,
 russland-ukraine-sanktionen
 
@@ -32,7 +33,7 @@ russland-ukraine-sanktionen
 
 ### Top-Priorität — klare Lücken mit hoher Wahlrelevanz
 
-1. **Wohnen & Mieten** — `wohnen` *(Status: in Umsetzung, siehe unten)*
+1. **Wohnen & Mieten** — `wohnen` *(Status: umgesetzt am 2026-07-05, siehe unten)*
    Größte Lücke, in Berlin DAS Wahlkampfthema. Aspekte: Mietentwicklung vs.
    Einkommen, Neubaukrise/Wohnungsbauziele, Sozialwohnungen, Mietpreisbremse,
    Mietendeckel, Enteignungsdebatte ("Deutsche Wohnen enteignen"), internationaler
@@ -77,7 +78,7 @@ russland-ukraine-sanktionen
 
 | Thema | topicId | Status |
 |-------|---------|--------|
-| Wohnen & Mieten | `wohnen` | In Umsetzung (2026-06-21) |
+| Wohnen & Mieten | `wohnen` | Umgesetzt (2026-07-05) |
 | Ostdeutschland | `ostdeutschland` | Vorgeschlagen |
 | Demokratie/AfD | `demokratie` | Vorgeschlagen — Framing-Abstimmung nötig |
 | Rente | `rente` | Vorgeschlagen |
