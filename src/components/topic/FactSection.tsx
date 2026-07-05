@@ -46,6 +46,8 @@ function SourceRefLinks({ refs, sources }: { refs?: SourceRef[]; sources?: Sourc
   const linkSx = {
     color: 'text.disabled',
     textDecoration: 'none',
+    display: 'inline-block',
+    py: 0.5,
     '&:hover': { textDecoration: 'underline' },
   }
 
@@ -169,14 +171,20 @@ function ContentBlockView({ block }: { block: ContentBlock }) {
 
     case 'bar_chart':
       return (
-        <Suspense fallback={null}>
+        <Suspense
+          // Reserves roughly the space SimpleBarChart itself takes (its own
+          // height formula + margins), so sections that are open by default
+          // (e.g. on the argument page) don't shift the page once the lazy
+          // recharts chunk finishes loading.
+          fallback={<Box sx={{ height: Math.max(180, block.items.length * 36) + (block.caption ? 24 : 0) + 16 }} />}
+        >
           <SimpleBarChart items={block.items} unit={block.unit} caption={block.caption} />
         </Suspense>
       )
 
     case 'line_chart':
       return (
-        <Suspense fallback={null}>
+        <Suspense fallback={<Box sx={{ height: 250 + (block.caption ? 24 : 0) + 32 }} />}>
           <SimpleLineChart items={block.items} unit={block.unit} caption={block.caption} color={block.color} />
         </Suspense>
       )
@@ -254,7 +262,14 @@ export default function FactSection({
   embedded = false,
 }: FactSectionProps) {
   return (
-    <Accordion defaultExpanded={defaultExpanded} id={domId ?? `section-${section.id}`}>
+    <Accordion
+      defaultExpanded={defaultExpanded}
+      id={domId ?? `section-${section.id}`}
+      // Without this, MUI mounts AccordionDetails on first render even while
+      // collapsed, which would eagerly trigger the lazy recharts import below
+      // for any section holding a bar/line chart the user hasn't opened yet.
+      slotProps={{ transition: { mountOnEnter: true } }}
+    >
       <AccordionSummary expandIcon={<ExpandMoreIcon sx={embedded ? { fontSize: 20, color: 'secondary.main' } : undefined} />}>
         <Typography
           variant="subtitle1"

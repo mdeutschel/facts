@@ -239,7 +239,7 @@ export default function Feedback() {
               <Button type="submit" variant="contained" disabled={submitting}>
                 {submitting ? (
                   <Box sx={{ display: 'inline-flex', alignItems: 'center', gap: 1 }}>
-                    <CircularProgress color="inherit" size={18} />
+                    <CircularProgress color="inherit" size={18} aria-label="Wird gesendet" />
                     Wird gesendet…
                   </Box>
                 ) : (

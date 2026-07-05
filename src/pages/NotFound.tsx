@@ -36,7 +36,7 @@ export default function NotFound() {
       </Box>
       {loading ? (
         <Box sx={{ display: 'flex', justifyContent: 'center', py: 4 }}>
-          <CircularProgress />
+          <CircularProgress aria-label="Themen werden geladen" />
         </Box>
       ) : (
         <Box

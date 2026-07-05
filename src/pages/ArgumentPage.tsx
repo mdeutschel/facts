@@ -309,7 +309,7 @@ export default function ArgumentPage() {
                           href={src.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          style={{ color: 'inherit' }}
+                          style={{ color: 'inherit', display: 'inline-block', padding: '4px 0' }}
                         >
                           [{num}] {src.label}
                         </a>
