@@ -1,0 +1,811 @@
+{
+  "id": "wohnen",
+  "title": "Wohnen & Mieten",
+  "subtitle": "Mietentwicklung, Neubaukrise, Sozialwohnungen und die Debatte um Regulierung und Enteignung",
+  "seoTitle": "Wohnen & Mieten: Fakten zu Mietpreisen, Neubau und Wohnungskrise",
+  "seoDescription": "Explodieren die Mieten überall? Bringt die Mietpreisbremse nichts? Löst Enteignung die Wohnungsnot? Antworten mit Daten von Destatis, DIW, ifo und Eurostat.",
+  "icon": "apartment",
+  "lastUpdated": "2026-07-05",
+  "keyStats": [
+    "206.600 fertiggestellte Wohnungen 2025 — Ziel: 400.000",
+    "Sozialwohnungen: ~3 Mio. (1990) → ~1,05 Mio. (2024)",
+    "Mietbelastung: Ø 27,8 % — ärmstes Fünftel ~36 %",
+    "9 Argumente"
+  ],
+  "sourceNote": "Basierend auf Daten des Statistischen Bundesamtes (Bautätigkeit, Verbraucherpreise, Mikrozensus, EU-SILC, Wanderungsstatistik), von Eurostat, DIW Berlin, ifo Institut, IW Köln, BMWSB, den Wissenschaftlichen Diensten des Deutschen Bundestages, dem Bundesverfassungsgericht sowie amtlichen Berliner Dokumenten zum Volksentscheid 2021 (Stand Juli 2026).",
+  "relatedTopicIds": ["verteilung", "vermoegenssteuer", "migration"],
+  "sections": [
+    {
+      "id": "mietentwicklung",
+      "title": "Mietentwicklung: Ein gespaltener Markt",
+      "content": [
+        {
+          "type": "text",
+          "text": "Bei den Mieten gibt es nicht die eine Wahrheit, sondern zwei sehr unterschiedliche Märkte: Bestandsmieten (laufende Verträge) steigen bundesweit moderat um rund 2 % pro Jahr. Neuvertragsmieten in Großstädten und zunehmend in deren Umland steigen deutlich schneller. Wer lange im Mietvertrag ist, spürt die Krise kaum — wer umziehen muss oder neu in eine Stadt kommt, trifft sie mit voller Wucht.",
+          "sourceRefs": ["destatis-nettokaltmieten-vpi", "iw-wohnindex-q1-2026"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "+1,9 %",
+              "label": "Bestandsmieten",
+              "sublabel": "VPI-Nettokaltmiete, Mai 2026 ggü. Vorjahr"
+            },
+            {
+              "value": "+3,5 %",
+              "label": "Neuvertragsmieten",
+              "sublabel": "IW-Wohnindex, Q1 2026 ggü. Vorjahr"
+            },
+            {
+              "value": "24,11 €/m²",
+              "label": "München",
+              "sublabel": "Median-Angebotsmiete, H1 2025"
+            },
+            {
+              "value": "11,01 €/m²",
+              "label": "Leipzig",
+              "sublabel": "Median-Angebotsmiete, H1 2025"
+            }
+          ],
+          "sourceRefs": ["destatis-nettokaltmieten-vpi", "iw-wohnindex-q1-2026", "jll-angebotsmieten-h1-2025"]
+        },
+        {
+          "type": "line_chart",
+          "caption": "Bestandsmieten-Index (VPI-Nettokaltmiete), Jahresdurchschnitte, 2020 = 100 — eigene Berechnung aus Destatis-Monatswerten",
+          "unit": "Index",
+          "items": [
+            { "label": "2020", "value": 100 },
+            { "label": "2021", "value": 101.2 },
+            { "label": "2022", "value": 102.9 },
+            { "label": "2023", "value": 105 },
+            { "label": "2024", "value": 107.2 },
+            { "label": "2025", "value": 109.4 }
+          ],
+          "sourceRefs": ["dashboard-deutschland-nettokaltmiete"]
+        },
+        {
+          "type": "text",
+          "text": "Zum Vergleich: Die Nominallöhne stiegen von 2020 bis 2024 kumuliert um rund 18 %, die Bestandsmieten im selben Zeitraum um gut 7 % (eigene Berechnung aus zwei Destatis-Reihen). Das DIW kommt entsprechend zum Befund, dass die durchschnittliche Mietbelastung zuletzt nicht gestiegen ist — sie ist aber sehr ungleich verteilt. Die Dynamik konzentriert sich auf Neuvermietungen in Ballungsräumen und deren Umland (+4,2 % im Q1 2026); in Berlin gingen die Angebotsmieten zuletzt sogar leicht zurück (−0,8 %).",
+          "sourceRefs": ["destatis-nominallohnindex", "diw-mietbelastung-2024", "iw-wohnindex-q1-2026"]
+        },
+        {
+          "type": "fact",
+          "text": "Bundesweit lagen die Bruttokaltmieten 2022 bei durchschnittlich 8,70 €/m² — in Großstädten 9,60 €/m², in Kleinstädten 7,50 €/m². Bei Einzug ab 2019: 9,80 €/m² bundesweit, 11,00 €/m² in Großstädten.",
+          "description": "Die regionale Spreizung und der Abstand zwischen Alt- und Neuverträgen sind das Kernmerkmal des deutschen Mietmarkts.",
+          "highlight": true,
+          "sourceRefs": ["destatis-mikrozensus-wohnen-2022"]
+        }
+      ]
+    },
+    {
+      "id": "wohnkostenbelastung",
+      "title": "Wohnkostenbelastung: Wen die Krise trifft",
+      "content": [
+        {
+          "type": "text",
+          "text": "Der Durchschnitt verdeckt die Verteilung: Im Mittel geben Mieterhaushalte 27,8 % ihres Nettoeinkommens für die Bruttokaltmiete aus — ein seit Jahren weitgehend stabiler Wert. Aufgeschlüsselt zeigt sich aber, dass einkommensschwache Haushalte, Alleinlebende und Neueinzüge deutlich stärker belastet sind.",
+          "sourceRefs": ["destatis-mikrozensus-wohnen-2022", "diw-mietbelastung-2024"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "27,8 %",
+              "label": "Ø Mietbelastung",
+              "sublabel": "aller Mieterhaushalte (2022)"
+            },
+            {
+              "value": "~36 %",
+              "label": "Ärmstes Fünftel",
+              "sublabel": "vs. ~22 % beim reichsten Fünftel (2021)"
+            },
+            {
+              "value": "3,1 Mio.",
+              "label": "Haushalte über 40 %",
+              "sublabel": "davon 1,5 Mio. über 50 % Belastung (2022)"
+            },
+            {
+              "value": "32,7 %",
+              "label": "Alleinlebende",
+              "sublabel": "vs. 22,8 % bei Zweipersonenhaushalten"
+            }
+          ],
+          "sourceRefs": ["destatis-mikrozensus-wohnen-2022", "diw-mietbelastung-2024"]
+        },
+        {
+          "type": "fact",
+          "text": "Von den armutsgefährdeten Menschen in Deutschland waren 2025 35,0 % durch Wohnkosten überlastet (mehr als 40 % des Einkommens) — in der Gesamtbevölkerung waren es 11,2 %.",
+          "description": "Die Wohnungskrise ist vor allem eine soziale Frage: Sie trifft konzentriert die unteren Einkommen.",
+          "highlight": true,
+          "sourceRefs": ["destatis-wohnkostenanteil-silc"]
+        },
+        {
+          "type": "text",
+          "text": "Wichtig für die Einordnung: Die stabile Durchschnittsbelastung bedeutet nicht Entwarnung. Sie entsteht auch dadurch, dass Menschen ausweichen — kleinere Wohnungen, längere Pendelwege, Verbleib in alten Verträgen. Die Belastungsspitzen liegen bei denen, die neu suchen müssen: Bei Einzug ab 2019 lag die Quote bei 29,5 %.",
+          "sourceRefs": ["destatis-mikrozensus-wohnen-2022", "diw-mietbelastung-2024"]
+        }
+      ]
+    },
+    {
+      "id": "markt-struktur",
+      "title": "Nachfrage und Anbieter: Wer sucht, wem gehört der Markt?",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Nachfrage nach Wohnungen wächst aus zwei Richtungen: Zum einen steigt die Zahl der Haushalte seit Jahrzehnten auch ohne Bevölkerungswachstum, weil immer mehr Menschen allein leben — 2025 gab es 41,1 Mio. Privathaushalte, davon 42,1 % Einpersonenhaushalte (2000–2024: +8,7 % Haushalte bei sinkender Haushaltsgröße). Zum anderen erhöhen Zuwanderungsspitzen die Nachfrage: 2022 lag die Nettozuwanderung mit +1,46 Mio. auf einem Rekordwert (davon über 1,1 Mio. Zuzüge aus der Ukraine); bis 2025 fiel sie auf +235.000.",
+          "sourceRefs": ["destatis-privathaushalte-2025", "uba-haushalte-struktur", "destatis-nettozuwanderung-2022", "destatis-nettozuwanderung-2025"]
+        },
+        {
+          "type": "progress_stack",
+          "caption": "Wem gehören die rund 25 Mio. Mietwohnungen in Deutschland? (Zensus 2022)",
+          "total": "rund 25 Mio. Mietwohnungen",
+          "segments": [
+            { "label": "Private Kleinvermieter", "value": 64.4, "sublabel": "16,1 Mio. Wohnungen" },
+            { "label": "Privatwirtschaftliche Unternehmen", "value": 14, "sublabel": "inkl. börsennotierter Konzerne" },
+            { "label": "Kommunale/öffentliche Anbieter", "value": 11.5 },
+            { "label": "Genossenschaften", "value": 8.7 },
+            { "label": "Kirchen & Non-Profit", "value": 1.4 }
+          ],
+          "sourceRefs": ["iw-private-vermieter-2025"]
+        },
+        {
+          "type": "fact",
+          "text": "Private Kleinvermieter erzielen im Schnitt rund 5.475 € Nettomieteinnahmen pro Jahr; 45 % kommen auf weniger als 5.000 € — Vermietung dient häufig der Altersvorsorge.",
+          "description": "Einnahmen-, keine Renditekennzahl (IW-Gutachten auf Basis Zensus 2022 und SOEP).",
+          "sourceRefs": ["iw-private-vermieter-2025"]
+        }
+      ]
+    },
+    {
+      "id": "neubau",
+      "title": "Neubau: Weit unter Ziel und Bedarf",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Bundesregierung hat sich 2021 das Ziel gesetzt, jährlich 400.000 neue Wohnungen zu bauen, davon 100.000 öffentlich gefördert. Erreicht wurde es nie — 2025 wurde mit 206.600 fertiggestellten Wohnungen nur gut die Hälfte geschafft, der niedrigste Wert seit 2012. Hauptursachen des Einbruchs ab 2022: der schnelle Zinsanstieg und massiv gestiegene Baukosten.",
+          "sourceRefs": ["bmwsb-massnahmenpaket-wohnungsbau", "destatis-baufertigstellungen-2025"]
+        },
+        {
+          "type": "target_progress",
+          "caption": "Fertiggestellte Wohnungen vs. Regierungsziel 400.000 pro Jahr",
+          "unit": "Tsd.",
+          "items": [
+            { "label": "2023", "current": 294.4, "target": 400 },
+            { "label": "2024", "current": 251.9, "target": 400 },
+            { "label": "2025", "current": 206.6, "target": 400 }
+          ],
+          "sourceRefs": ["destatis-baufertigstellungen-2024", "destatis-baufertigstellungen-2025"]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Baugenehmigungen für Wohnungen (Vorlaufindikator für künftige Fertigstellungen)",
+          "unit": "Tsd.",
+          "items": [
+            { "label": "2021", "value": 380.7 },
+            { "label": "2022", "value": 354.4 },
+            { "label": "2023", "value": 260.1 },
+            { "label": "2024", "value": 215.3, "highlight": true },
+            { "label": "2025", "value": 238.5 }
+          ],
+          "sourceRefs": ["destatis-baugenehmigungen-2022", "destatis-baugenehmigungen-2023", "destatis-baugenehmigungen-2025"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "+44 %",
+              "label": "Neubaupreise",
+              "sublabel": "Wohngebäude, Anfang 2021 bis Anfang 2026"
+            },
+            {
+              "value": "0,8 → 4,0 %",
+              "label": "Bauzinsen",
+              "sublabel": "10 Jahre Zinsbindung, 2020 vs. Anfang 2026"
+            },
+            {
+              "value": "+102 %",
+              "label": "Baulandpreise",
+              "sublabel": "2010–2020 (Baupreise: +29 %)"
+            }
+          ],
+          "sourceRefs": ["destatis-baupreisindex-wohngebaeude", "interhyp-bauzinsen-vergleich", "bundestag-wd-baukosten-standards"]
+        },
+        {
+          "type": "text",
+          "text": "Wie groß ist die Lücke? Das IW Köln beziffert den Neubaubedarf für 2021–2025 auf 372.600 Wohnungen pro Jahr; ab 2026 sinkt er demografiebedingt auf rund 257.400. Das Pestel-Institut schätzte Anfang 2026 den aufgelaufenen Mangel auf 1,4 Mio. fehlende Wohnungen (Studie im Auftrag des Bündnisses Soziales Wohnen, hier zitiert nach ZDF-Berichterstattung). Ein Hoffnungswert: Die Genehmigungen stiegen 2025 erstmals seit 2021 wieder (+10,8 %), und Ende 2025 waren 760.700 genehmigte Wohnungen noch nicht fertiggestellt. Wichtig für die Wirkung von Neubau: Über Umzugsketten macht er auch ältere, günstigere Wohnungen frei (Sickereffekt) — auf angespannten Märkten reicht dieser Effekt laut Studienauswertung der Bundestags-Wissenschaftsdienste aber nur eingeschränkt bis ins preisgünstige Segment.",
+          "sourceRefs": ["iw-wohnungsbedarf-2024", "pestel-wohnungsmangel-2026", "destatis-baugenehmigungen-2025", "destatis-baufertigstellungen-2025", "bundestag-wd-sickereffekt"]
+        }
+      ]
+    },
+    {
+      "id": "sozialwohnungen",
+      "title": "Sozialwohnungen: Der schrumpfende Bestand",
+      "content": [
+        {
+          "type": "text",
+          "text": "Sozialwohnungen haben eine zeitlich befristete Miet- und Belegungsbindung — läuft sie aus, wird die Wohnung zur normalen Mietwohnung. Weil jahrzehntelang mehr Bindungen ausliefen als neue gefördert wurden, ist der Bestand drastisch geschrumpft.",
+          "sourceRefs": ["paritaetischer-sozialwohnungen-2024", "mieterbund-sozialwohnungen-2024"]
+        },
+        {
+          "type": "timeline",
+          "caption": "Bestand an Sozialmietwohnungen in Deutschland",
+          "steps": [
+            { "label": "1990", "value": "~3,0 Mio.", "sublabel": "Anfang der 1990er Jahre" },
+            { "label": "2006", "value": "über 2 Mio.", "sublabel": "seither etwa halbiert" },
+            { "label": "2023", "value": "1,07 Mio.", "sublabel": "historischer Tiefstand" },
+            { "label": "2024", "value": "~1,05 Mio.", "sublabel": "erneut −20.600", "highlight": true }
+          ],
+          "sourceRefs": ["paritaetischer-sozialwohnungen-2024", "bmwsb-foerderergebnisse-swb-2024"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "61.887",
+              "label": "Geförderte Wohneinheiten 2024",
+              "sublabel": "+25 % ggü. 2023, davon 26.796 neue Sozialmietwohnungen"
+            },
+            {
+              "value": ">41.000",
+              "label": "Fallen jährlich aus der Bindung",
+              "sublabel": "über 500.000 bis 2035"
+            },
+            {
+              "value": "23,5 Mrd. €",
+              "label": "Bundesmittel bis 2029",
+              "sublabel": "Aufwuchs auf 5,5 Mrd. €/Jahr"
+            }
+          ],
+          "sourceRefs": ["bmwsb-foerderergebnisse-swb-2024", "mieterbund-sozialwohnungen-2024", "bmwsb-vv-sozialer-wohnungsbau-2026"]
+        },
+        {
+          "type": "fact",
+          "text": "Trotz Rekordförderung sinkt der Sozialwohnungsbestand weiter: 2024 wurden nur 26.796 neue Sozialmietwohnungen gebaut, während über 41.000 aus der Bindung fielen.",
+          "description": "Die Förderung müsste den Neubau etwa verdoppeln, nur um den Bestand zu halten.",
+          "highlight": true,
+          "sourceRefs": ["bmwsb-foerderergebnisse-swb-2024", "mieterbund-sozialwohnungen-2024"]
+        }
+      ]
+    },
+    {
+      "id": "mietregulierung",
+      "title": "Mietpreisbremse & Mietendeckel: Was die Evidenz zeigt",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Mietpreisbremse (seit 2015, verlängert bis Ende 2029) begrenzt Neuvertragsmieten in angespannten Märkten auf maximal 10 % über der ortsüblichen Vergleichsmiete. Neubau (Erstnutzung nach Oktober 2014) ist ausgenommen; als verbreitete Umgehungsstrategie gilt die möblierte Vermietung, für die die Bundesregierung besseren Schutz angekündigt hat. Der Berliner Mietendeckel (2020–2021) ging weiter und fror Bestandsmieten ein — er ist das am besten untersuchte Experiment harter Mietregulierung in Deutschland.",
+          "sourceRefs": ["bundesregierung-mietpreisbremse-2025", "bmjv-mietpreisbremse-2025"]
+        },
+        {
+          "type": "myth_fact",
+          "caption": "Was die Studienlage zu beiden Instrumenten sagt",
+          "items": [
+            {
+              "myth": "Die Mietpreisbremse hat keinerlei Wirkung.",
+              "fact": "Das DIW fand dort, wo sie greift, einen einmaligen Rückgang der Angebotsmieten um rund 3 %. Sie wirkt aber nur in Hochpreisregionen, Neubau ist ausgenommen, und Umgehungen (z. B. Möblierung) schwächen sie."
+            },
+            {
+              "myth": "Der Berliner Mietendeckel hat das Wohnungsproblem gelöst.",
+              "fact": "Die Mieten regulierter Wohnungen sanken um rund 11 % — aber die Zahl der annoncierten Mietwohnungen halbierte sich, im Umland stiegen die Mieten um rund 12 %, und das BVerfG erklärte das Gesetz für nichtig."
+            }
+          ],
+          "sourceRefs": ["diw-mietpreisbremse-2018", "diw-mietendeckel-2021", "bverfg-mietendeckel-2021"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "−11 %",
+              "label": "Mieten regulierter Wohnungen",
+              "sublabel": "unter dem Berliner Mietendeckel (DIW)"
+            },
+            {
+              "value": "−50 bis −60 %",
+              "label": "Mietwohnungsangebot",
+              "sublabel": "im regulierten Segment (DIW/ifo)"
+            },
+            {
+              "value": "25.03.2021",
+              "label": "BVerfG: nichtig",
+              "sublabel": "Az. 2 BvF 1/20 — Länder ohne Gesetzgebungskompetenz"
+            }
+          ],
+          "sourceRefs": ["diw-mietendeckel-2021", "ifo-mietendeckel-2022", "bverfg-mietendeckel-2021"]
+        },
+        {
+          "type": "text",
+          "text": "Wichtig zur Einordnung des BVerfG-Beschlusses: Das Gericht hat den Mietendeckel aus Kompetenzgründen gekippt (Mietpreisrecht ist Bundesrecht), nicht inhaltlich bewertet. Ökonomisch zeigt die Evidenz einen Zielkonflikt: Preisregulierung entlastet Bestandsmieter messbar, verknappt aber bei unverändertem Angebot die verfügbaren Wohnungen und verschärft die Konkurrenz für Suchende — das ifo dokumentierte zudem eine Marktspaltung, bei der unregulierte Mieten schneller stiegen als in Vergleichsstädten.",
+          "sourceRefs": ["bverfg-mietendeckel-2021", "ifo-mietendeckel-2022"]
+        }
+      ]
+    },
+    {
+      "id": "eigentum",
+      "title": "Wohneigentum: Deutschland als Schlusslicht",
+      "content": [
+        {
+          "type": "text",
+          "text": "Deutschland ist das einzige EU-Land, in dem mehr Menschen zur Miete wohnen als im Eigentum. Das hat historische Gründe (Nachkriegs-Mietwohnungsbau, funktionierender Mieterschutz) — aber die Hürden für den Eigentumserwerb sind zuletzt deutlich gestiegen: vervierfachte Zinsen, hohe Kaufnebenkosten und Preise, die sich nach kurzer Korrektur wieder erholen.",
+          "sourceRefs": ["eurostat-wohneigentumsquote-2024", "interhyp-bauzinsen-vergleich"]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Anteil der Bevölkerung im Wohneigentum, 2024 (Eurostat)",
+          "unit": "%",
+          "items": [
+            { "label": "Rumänien", "value": 94.3 },
+            { "label": "Polen", "value": 87.1 },
+            { "label": "Italien", "value": 75.9 },
+            { "label": "Spanien", "value": 73.7 },
+            { "label": "EU-27", "value": 68.4 },
+            { "label": "Frankreich", "value": 61.2 },
+            { "label": "Österreich", "value": 54.5 },
+            { "label": "Deutschland", "value": 47.2, "highlight": true }
+          ],
+          "sourceRefs": ["eurostat-tenure-status-2024"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "3,5–6,5 %",
+              "label": "Grunderwerbsteuer",
+              "sublabel": "je nach Bundesland; bei 300.000 €: 10.500–19.500 €"
+            },
+            {
+              "value": "−8,4 %",
+              "label": "Kaufpreise 2023",
+              "sublabel": "stärkster Rückgang seit Beginn der Zeitreihe 2000"
+            },
+            {
+              "value": "+1,4 %",
+              "label": "Kaufpreise Q1 2026",
+              "sublabel": "ggü. Vorjahresquartal — Erholung seit 2024"
+            }
+          ],
+          "sourceRefs": ["finanz-tools-grunderwerbsteuer-2026", "destatis-haeuserpreisindex-2023", "destatis-haeuserpreisindex-2026"]
+        },
+        {
+          "type": "text",
+          "text": "Die niedrige Eigentumsquote ist ein wesentlicher Grund, warum das Medianvermögen deutscher Haushalte trotz hoher Einkommen im EU-Vergleich niedrig ausfällt: Wohneigentum ist für die Mittelschicht der wichtigste Vermögensbaustein (siehe Thema Vermögensverteilung).",
+          "sourceRefs": ["eurostat-wohneigentumsquote-2024"]
+        }
+      ]
+    },
+    {
+      "id": "enteignung",
+      "title": "Die Enteignungsdebatte: Berlin als Testfall",
+      "content": [
+        {
+          "type": "text",
+          "text": "Beim Berliner Volksentscheid ‚Deutsche Wohnen & Co enteignen' stimmten am 26. September 2021 57,6 % der Teilnehmenden für die Vergesellschaftung der Bestände privater Wohnungsunternehmen mit mehr als 3.000 Wohnungen (Beteiligung: 73,5 %; bezogen auf die gültigen Stimmen: 59,1 %). Der Entscheid ist rechtlich nicht bindend — er fordert den Senat auf, ein Vergesellschaftungsgesetz nach Art. 15 GG zu erarbeiten. Dieser Grundgesetzartikel wurde in der Geschichte der Bundesrepublik noch nie angewandt.",
+          "sourceRefs": ["landesabstimmungsleiterin-volksentscheid-2021", "bundestag-wd-art15gg-2019"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "57,6 %",
+              "label": "Ja-Stimmen",
+              "sublabel": "Anteil der Teilnehmenden, Volksentscheid 2021"
+            },
+            {
+              "value": "~220.000–243.000",
+              "label": "Betroffene Wohnungen",
+              "sublabel": "je nach Schätzung und Stichtag; ~13,5 % der Berliner Mietwohnungen"
+            },
+            {
+              "value": "28,8–36 Mrd. €",
+              "label": "Entschädigung (Senat)",
+              "sublabel": "Initiative rechnet mit 7,3–13,7 Mrd. €"
+            }
+          ],
+          "sourceRefs": ["berlin-kostenschaetzung-volksentscheid-2021", "landesabstimmungsleiterin-volksentscheid-2021", "expertenkommission-vergesellschaftung-2023"]
+        },
+        {
+          "type": "text",
+          "text": "Die vom Senat eingesetzte Expertenkommission kam 2023 zum Ergebnis, dass Berlin die Gesetzgebungskompetenz hat und eine Vergesellschaftung mit Art. 15 GG grundsätzlich vereinbar wäre; die Kommissionsmehrheit sah auch die Verhältnismäßigkeit nicht entgegenstehen. Drei Mitglieder widersprachen in einem Sondervotum: Dass Vergesellschaftung den Wohnungsneubau erhöht, sei ‚nicht belegt und eher unplausibel' — wahrscheinlicher sei Bauzurückhaltung im verbleibenden privaten Markt. Der Landesrechnungshof warnte zudem, dass hohe Entschädigungen dem Land dauerhaft Mittel entziehen könnten, mit denen es stattdessen neuen Wohnraum schaffen oder fördern könnte.",
+          "sourceRefs": ["expertenkommission-vergesellschaftung-2023"]
+        },
+        {
+          "type": "fact",
+          "text": "Vergesellschaftung ändert den Eigentümer, nicht die Zahl der Wohnungen: Sie kann Mieten im übernommenen Bestand dauerhaft binden, schafft aber selbst keinen zusätzlichen Wohnraum.",
+          "description": "Der Kernkonflikt der Debatte: dauerhafte Mietsicherheit für Bestandsmieter gegen Milliardenbeträge, die nicht in Neubau fließen.",
+          "highlight": true,
+          "sourceRefs": ["expertenkommission-vergesellschaftung-2023"]
+        }
+      ]
+    },
+    {
+      "id": "internationaler-vergleich",
+      "title": "Deutschland im internationalen Vergleich",
+      "content": [
+        {
+          "type": "text",
+          "text": "Deutschland ist Mieterland Nummer eins in der EU: 53 % der Bevölkerung wohnen zur Miete — der höchste Wert aller EU-Staaten (EU-Schnitt: 32 %). Entsprechend stark schlagen Mietsteigerungen hier auf die Breite der Bevölkerung durch: Die Wohnkostenüberlastung liegt deutlich über dem EU-Schnitt.",
+          "sourceRefs": ["eurostat-wohneigentumsquote-2024", "eurostat-wohnkostenueberlastung"]
+        },
+        {
+          "type": "table",
+          "caption": "Wohnkostenüberlastung im EU-Vergleich, 2024 (Anteil der Bevölkerung mit Wohnkosten über 40 % des verfügbaren Einkommens)",
+          "headers": ["Land", "Überlastungsquote"],
+          "rows": [
+            ["Griechenland", "28,9 %"],
+            ["Dänemark", "14,6 %"],
+            ["Deutschland", "12,0 %"],
+            ["EU-27", "8,2 %"],
+            ["Spanien", "7,8 %"],
+            ["Frankreich", "7,0 %"],
+            ["Niederlande", "6,9 %"],
+            ["Österreich", "6,3 %"]
+          ],
+          "sourceRefs": ["eurostat-wohnkostenueberlastung"]
+        },
+        {
+          "type": "text",
+          "text": "Häufig als Vorbild genannt: Wien. Die Stadt besitzt rund 220.000 Gemeindewohnungen, dazu kommen über 200.000 geförderte (v. a. Genossenschafts-)Wohnungen — rund die Hälfte der Wiener wohnt gefördert. Dieses System wurde seit den frühen 1920er Jahren über ein Jahrhundert aufgebaut. Eine Analyse im Auftrag der deutschen Immobilienwirtschaft (empirica 2020) kommt zum Schluss, dass das Wiener Mietsystem nicht 1:1 übertragbar ist und private Neuvertragsmieten dort ähnlich hoch liegen wie in deutschen Metropolen — als übertragenswert gilt dagegen die Bodenpolitik: Wien kauft langfristig günstiges Bauland auf Vorrat und widmet seit 2019 größere Neubauflächen verpflichtend überwiegend für geförderten Wohnbau.",
+          "sourceRefs": ["stadt-wien-socialhousing", "empirica-wohnungsmarkt-wien-2020"]
+        },
+        {
+          "type": "fact",
+          "text": "Wiens geförderter Wohnungsbestand ist das Ergebnis von 100 Jahren kontinuierlicher Bodenvorrats- und Wohnbaupolitik — er lässt sich nicht kurzfristig kopieren, einzelne Instrumente wie die aktive Bodenpolitik aber schon.",
+          "highlight": true,
+          "sourceRefs": ["stadt-wien-socialhousing", "empirica-wohnungsmarkt-wien-2020"]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "mieten-explodieren-ueberall",
+      "claim": "Die Mieten explodieren doch überall — Wohnen ist für normale Leute unbezahlbar geworden!",
+      "response": "Die Daten zeigen einen gespaltenen Markt, keine flächendeckende Explosion: Bestandsmieten stiegen bundesweit zuletzt um rund 2 % pro Jahr, und die durchschnittliche Mietbelastung ist mit knapp 28 % seit Jahren stabil. Richtig ist: Wer in einer Großstadt neu sucht, zahlt drastisch mehr — Neuvertragsmieten in Metropolen und ihrem Umland steigen deutlich schneller, und das ärmste Fünftel der Mieterhaushalte gibt rund 36 % seines Einkommens für Miete aus. Die Krise ist real, aber sie trifft gezielt Wohnungssuchende in Ballungsräumen und niedrige Einkommen — nicht ‚alle überall'.",
+      "keywords": ["mieten", "mietpreise", "explodieren", "unbezahlbar", "wohnungskrise", "mietwahnsinn"],
+      "relatedSections": ["mietentwicklung", "wohnkostenbelastung"],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Verallgemeinerung vom Extremfall: Die sichtbarsten Fälle (Neuvermietung in München oder Berlin) werden zum Normalfall erklärt. Das verdeckt, wo das Problem tatsächlich sitzt — bei Neuverträgen in Ballungsräumen und bei niedrigen Einkommen — und erschwert damit zielgenaue Lösungen.",
+      "counterQuestions": [
+        "Meinst du Neuvertragsmieten in Großstädten oder Bestandsmieten insgesamt?",
+        "Wie hat sich deine eigene Miete in den letzten fünf Jahren verändert?",
+        "Wen trifft die Krise am härtesten — und was würde genau denen helfen?"
+      ]
+    },
+    {
+      "id": "mietpreisbremse-bringt-nichts",
+      "claim": "Die Mietpreisbremse bringt doch überhaupt nichts!",
+      "response": "Die Studienlage zeigt eine messbare, aber begrenzte Wirkung: Das DIW fand in Regionen, in denen die Bremse greift, einen einmaligen Rückgang der Angebotsmieten um rund 3 % — sie ist also nicht wirkungslos. Der berechtigte Kern der Kritik: Sie gilt nur in ausgewiesenen angespannten Märkten, Neubau ist ausgenommen, und Umgehungen wie möblierte Vermietung schwächen sie spürbar. Sie ist ein Dämpfer für Bestandsmärkte, kein Instrument gegen die Ursache Wohnungsmangel — deshalb wurde sie bis 2029 verlängert und soll zugleich gegen Umgehungen geschärft werden.",
+      "keywords": ["mietpreisbremse", "wirkungslos", "bringt nichts", "regulierung", "vergleichsmiete"],
+      "relatedSections": ["mietregulierung", "mietentwicklung"],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Nirwana-Fehlschluss: Weil ein Instrument das Problem nicht vollständig löst, wird es als komplett nutzlos dargestellt. Der Maßstab ‚löst die Wohnungskrise' ist für ein Preisdämpfungsinstrument der falsche — die relevante Frage ist, ob es ohne die Bremse besser oder schlechter liefe.",
+      "counterQuestions": [
+        "Woran würdest du Wirkung messen — an sinkenden Mieten oder an gebremstem Anstieg?",
+        "Wäre Mietern geholfen, wenn man die Bremse ersatzlos streicht?"
+      ]
+    },
+    {
+      "id": "mietendeckel-hat-funktioniert",
+      "claim": "Der Berliner Mietendeckel hat doch super funktioniert — so etwas brauchen wir überall!",
+      "response": "Das Bild ist zweigeteilt, und beide Hälften gehören zur Wahrheit: Für Bestandsmieter funktionierte der Deckel — die Mieten regulierter Wohnungen sanken um rund 11 %. Gleichzeitig halbierte sich das Angebot an inserierten Mietwohnungen, im unregulierten Segment und im Umland stiegen die Mieten stärker, und Wohnungssuchende gingen weitgehend leer aus. 2021 erklärte das Bundesverfassungsgericht das Gesetz für nichtig — allerdings aus Kompetenzgründen (Mietrecht ist Bundessache), nicht wegen der Inhalte. Wer den Deckel bewertet, muss beide Gruppen betrachten: die geschützten Bestandsmieter und die Suchenden, für die der Markt fast dicht war.",
+      "keywords": ["mietendeckel", "berlin", "mietenstopp", "funktioniert", "bundesverfassungsgericht"],
+      "relatedSections": ["mietregulierung"],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Überlebenden-Perspektive: Bewertet wird nur aus Sicht derer, die bereits eine Wohnung haben und profitieren. Die Kosten tragen unsichtbare Dritte — Wohnungssuchende, die im halbierten Angebot keine Wohnung mehr finden. Eine Bilanz, die nur die Gewinner zählt, ist keine.",
+      "counterQuestions": [
+        "Wie erging es während des Deckels denen, die eine Wohnung gesucht haben?",
+        "Warum hat das Verfassungsgericht das Gesetz gekippt — und was hieße das für eine bundesweite Neuauflage?"
+      ]
+    },
+    {
+      "id": "einfach-bauen-bauen-bauen",
+      "claim": "Man muss einfach nur bauen, bauen, bauen — dann löst sich das Problem von selbst!",
+      "response": "Neubau ist tatsächlich der wichtigste Hebel gegen den Wohnungsmangel — daran führt kein Weg vorbei, und aktuell wird mit 206.600 Fertigstellungen (2025) nur gut die Hälfte des Bedarfs gebaut. Aber ‚einfach' ist daran nichts: Neubau wirkt erst nach Jahren, entsteht überwiegend im teuren Segment, und die belegten Sickereffekte — Neubau macht über Umzugsketten auch ältere Wohnungen frei — reichen auf angespannten Märkten nur eingeschränkt bis ins günstige Segment. Zudem scheitert das Bauen derzeit nicht am Willen, sondern an Zinsen, Baukosten und Baulandpreisen. Bauen ist notwendig, aber kein Selbstläufer — ohne Förderung, Bauland und Bestandsschutz kommt die Entlastung unten kaum an.",
+      "keywords": ["bauen", "neubau", "angebot", "nachfrage", "sickereffekt", "wohnungsbau"],
+      "relatedSections": ["neubau", "sozialwohnungen"],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Monokausale Patentlösung: Ein komplexes Problem (Zinsen, Kosten, Bauland, Segmente, Verteilung) wird auf einen einzigen Hebel reduziert. Der Kern stimmt — mehr Angebot entspannt Märkte —, aber ‚von selbst' löst sich nichts: Entscheidend ist, was wo für wen gebaut wird.",
+      "counterQuestions": [
+        "Wer soll zu aktuellen Zinsen und Baukosten bauen — und welche Miete kommt dabei heraus?",
+        "Warum wird trotz riesiger Nachfrage so wenig gebaut, wenn es so einfach wäre?"
+      ]
+    },
+    {
+      "id": "enteignen-loest-wohnungsnot",
+      "claim": "Große Wohnungskonzerne enteignen — das löst die Wohnungsnot!",
+      "response": "Ob Vergesellschaftung richtig ist, ist am Ende eine Wertefrage — die Faktenbasis dazu ist aber klar umrissen: Rechtlich wäre sie nach dem Bericht der Berliner Expertenkommission grundsätzlich möglich (Art. 15 GG, noch nie angewandt). Sie würde in Berlin je nach Schätzung 220.000–243.000 Wohnungen betreffen — rund 13,5 % der Mietwohnungen — und laut Senat 28,8–36 Mrd. € Entschädigung kosten (die Initiative rechnet mit 7,3–13,7 Mrd. €). Zusätzlichen Wohnraum schafft sie nicht; das Sondervotum der Kommission hält sogar Bauzurückhaltung im privaten Markt für wahrscheinlicher. Befürworter setzen auf dauerhaft gebundene Mieten im Bestand, Kritiker auf Neubau statt Eigentümerwechsel — welche dieser Prioritäten wichtiger ist, können Daten nicht entscheiden.",
+      "keywords": ["enteignung", "vergesellschaftung", "deutsche wohnen", "vonovia", "wohnungskonzerne", "volksentscheid"],
+      "relatedSections": ["enteignung", "sozialwohnungen"]
+    },
+    {
+      "id": "fluechtlinge-nehmen-wohnungen-weg",
+      "claim": "Die Flüchtlinge nehmen uns die Wohnungen weg!",
+      "response": "Der Wohnungsmangel hat mehrere Ursachen, die zusammenwirken: eingebrochener Neubau, immer mehr und kleinere Haushalte, Zuzug in Ballungsräume — und ja, auch Zuwanderungsspitzen wie 2015 und 2022 (+1,46 Mio., davon über eine Million aus der Ukraine) erhöhen die Nachfrage spürbar. Nur trägt die Erklärung als Hauptursache nicht: Die Nettozuwanderung fiel bis 2025 auf +235.000 — die Wohnungskrise blieb. Die Zahl der Haushalte wächst seit Jahrzehnten auch ohne Zuwanderung, weil 42 % aller Haushalte inzwischen Einpersonenhaushalte sind, und der Einbruch der Baugenehmigungen um 43 % kam durch Zins- und Kostenschock. Real ist die verschärfte Konkurrenz im günstigen Segment — genau dort, wo der Sozialwohnungsbestand seit 1990 um zwei Drittel geschrumpft ist.",
+      "keywords": ["flüchtlinge", "migranten", "zuwanderung", "wohnungen weg", "asyl", "konkurrenz"],
+      "relatedSections": ["markt-struktur", "neubau", "sozialwohnungen"],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Sündenbock-Muster: Eine sichtbare Gruppe wird zur Hauptursache eines strukturellen Problems erklärt. Das entlastet von der unbequemeren Diagnose — jahrzehntelang zu wenig gebaut und Sozialbindungen auslaufen lassen — und lenkt die Debatte von den Stellschrauben ab, die tatsächlich Wohnungen schaffen.",
+      "counterQuestions": [
+        "Warum gab es die Wohnungsknappheit in München oder Hamburg schon lange vor 2015?",
+        "Die Zuwanderung ist seit 2022 stark gesunken — warum ist die Wohnungskrise nicht kleiner geworden?",
+        "Was würde am fehlenden Neubau besser, wenn weniger Menschen kämen?"
+      ]
+    },
+    {
+      "id": "vermieter-sind-miethaie",
+      "claim": "Vermieter sind doch alle Miethaie und zocken nur ab!",
+      "response": "Die Vermieterlandschaft sieht anders aus als das Konzern-Klischee: 64,4 % der Mietwohnungen in Deutschland gehören privaten Kleinvermietern — oft Privatleute mit einer oder wenigen Wohnungen zur Altersvorsorge, mit durchschnittlichen Nettomieteinnahmen von rund 5.500 € im Jahr. Große privatwirtschaftliche Anbieter stellen 14 % des Mietmarkts, kommunale Anbieter und Genossenschaften rund 20 %. Der Wahrheitskern: In angespannten Märkten gibt es überzogene Neuvertragsmieten und Umgehungstricks wie überteuerte Möblierung — dagegen richtet sich die Mietpreisbremse. Aber von Einzelfällen auf ‚alle Vermieter' zu schließen, trifft ausgerechnet die Mehrheit, die langjährige Mietverhältnisse zu moderaten Preisen hält.",
+      "keywords": ["vermieter", "miethaie", "abzocke", "konzerne", "kleinvermieter", "rendite"],
+      "relatedSections": ["markt-struktur", "mietregulierung"],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Pauschalisierung: Aus realen Negativbeispielen (überhöhte Neuvertragsmieten, Möblierungstricks) wird ein Urteil über eine sehr heterogene Gruppe, deren größter Teil aus Kleinvermietern besteht. Das Feindbild ersetzt die genauere Frage, in welchen Marktsegmenten Missbrauch tatsächlich stattfindet.",
+      "counterQuestions": [
+        "Wen meinst du konkret — den börsennotierten Konzern oder das Ehepaar mit einer vermieteten Eigentumswohnung?",
+        "Wem gehören die meisten Mietwohnungen in Deutschland eigentlich?"
+      ]
+    },
+    {
+      "id": "staat-reguliert-bau-zu-tode",
+      "claim": "Der Staat reguliert den Wohnungsbau zu Tode — deshalb wird nichts mehr gebaut!",
+      "response": "Der Kern ist berechtigt: Gestiegene (vor allem energetische) Standards erklären nach einer Auswertung der Bundestags-Wissenschaftsdienste rund 30 % des Baukostenanstiegs von 2000 bis 2020, und lange Genehmigungsverfahren kosten zusätzlich Zeit und Geld. Als Erklärung für den aktuellen Einbruch taugt Regulierung allein aber nicht: 2020 wurden trotz nahezu gleicher Vorschriften noch 306.400 Wohnungen fertiggestellt. Eingebrochen ist der Bau, als die Zinsen von 0,8 auf rund 4 % stiegen und die Neubaupreise um 44 % zulegten — dazu Baulandpreise, die sich binnen zehn Jahren verdoppelt haben. Vereinfachte Standards können Bauen billiger machen; den Zins- und Kostenschock ersetzen sie nicht.",
+      "keywords": ["bürokratie", "vorschriften", "normen", "baukosten", "regulierung", "genehmigung"],
+      "relatedSections": ["neubau"],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Einzelursache statt Ursachenbündel — mit falscher zeitlicher Zuordnung: Der Einbruch ab 2022 fällt mit dem Zinsschock zusammen, nicht mit neuen Bauvorschriften. Ein realer Kostenfaktor (Standards) wird zur Alleinerklärung aufgeblasen, wodurch die größeren Hebel aus dem Blick geraten.",
+      "counterQuestions": [
+        "Welche konkrete Vorschrift meinst du — und was kostet sie pro Quadratmeter?",
+        "Warum wurde 2020 mit fast denselben Standards noch 50 % mehr gebaut als 2025?"
+      ]
+    },
+    {
+      "id": "wien-einfach-kopieren",
+      "claim": "Wien macht's doch vor — das müssen wir einfach kopieren!",
+      "response": "Wien zeigt tatsächlich, dass dauerhaft bezahlbares Wohnen im großen Maßstab möglich ist: Rund die Hälfte der Wiener wohnt in Gemeinde- oder geförderten Wohnungen. Nur ist das kein kopierbares Programm, sondern das Ergebnis von 100 Jahren kontinuierlicher Boden- und Wohnbaupolitik seit dem ‚Roten Wien' der 1920er. Deutschland hat seinen vergleichbaren Bestand — die Sozialwohnungen — seit 1990 von 3 Mio. auf 1 Mio. schrumpfen lassen; das lässt sich nicht in einer Legislaturperiode umkehren. Übertragbar sind einzelne Instrumente: aktive Bodenvorratspolitik und verpflichtende Widmung neuer Flächen für geförderten Wohnbau. Und auch Wien ist kein Mietparadies für Neuankömmlinge — private Neuvertragsmieten liegen dort ähnlich hoch wie in deutschen Metropolen.",
+      "keywords": ["wien", "gemeindebau", "vorbild", "kommunaler wohnungsbau", "österreich"],
+      "relatedSections": ["internationaler-vergleich", "sozialwohnungen"],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Vorbild-Verkürzung: Das sichtbare Ergebnis (günstige Gemeindebauten) wird vom jahrzehntelangen Entstehungspfad getrennt und als schnell kopierbare Lösung präsentiert. Wer den Pfad ignoriert, unterschätzt systematisch, was der Aufbau kostet und wie lange er dauert.",
+      "counterQuestions": [
+        "Welche Wiener Instrumente wären hier kurzfristig umsetzbar — und welche brauchen Jahrzehnte?",
+        "Wie viel kommunalen Wohnungsbestand müsste eine deutsche Großstadt dafür erst einmal aufbauen?"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "destatis-nettokaltmieten-vpi",
+      "label": "Statistisches Bundesamt – Verbraucherpreisindex, Teilindex Nettokaltmiete (2026)",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Basisdaten/vpi044a.html"
+    },
+    {
+      "id": "dashboard-deutschland-nettokaltmiete",
+      "label": "Statistisches Bundesamt / Dashboard Deutschland – VPI Nettokaltmiete, Monatswerte (2026)",
+      "url": "https://www.dashboard-deutschland.de/indicator/data_woh_bruttokaltmiete"
+    },
+    {
+      "id": "iw-wohnindex-q1-2026",
+      "label": "IW Köln – IW-Wohnindex: Im Umland der Metropolen wird es teurer (2026)",
+      "url": "https://www.iwkoeln.de/presse/pressemitteilungen/pekka-sagner-michael-voigtlaender-iw-wohnindex-im-umland-der-metropolen-wird-es-teurer.html"
+    },
+    {
+      "id": "jll-angebotsmieten-h1-2025",
+      "label": "JLL – Angebotsmieten für Bestandswohnungen steigen stärker als für Neubauten (2025)",
+      "url": "https://www.jll.com/de-de/newsroom/Angebotsmieten-fuer-Bestandswohnungen-steigen-staerker-als-fuer-Neubauten"
+    },
+    {
+      "id": "destatis-mikrozensus-wohnen-2022",
+      "label": "Statistisches Bundesamt – Mikrozensus-Zusatzerhebung Wohnen 2022, Pressemitteilung Nr. 129 (2023)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/03/PD23_129_12_63.html"
+    },
+    {
+      "id": "destatis-nominallohnindex",
+      "label": "Statistisches Bundesamt – Reallohn- und Nominallohnentwicklung (2025)",
+      "url": "https://www.destatis.de/DE/Themen/Arbeit/Verdienste/Realloehne-Nettoverdienste/Tabellen/liste-reallohnentwicklung.html"
+    },
+    {
+      "id": "diw-mietbelastung-2024",
+      "label": "DIW Berlin – Mietbelastung in Deutschland: In den letzten Jahren nicht gestiegen, aber ungleich verteilt, Wochenbericht 41/2024",
+      "url": "https://www.diw.de/de/diw_01.c.916094.de/publikationen/wochenberichte/2024_41_1/mietbelastung_in_deutschland__in_den_letzten_jahren_nicht_gestiegen__aber_ungleich_verteilt.html"
+    },
+    {
+      "id": "eurostat-wohnkostenueberlastung",
+      "label": "Eurostat – Housing cost overburden rate (ilc_lvho07a), EU-SILC (2026)",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho07a/default/table?lang=en"
+    },
+    {
+      "id": "destatis-wohnkostenanteil-silc",
+      "label": "Statistisches Bundesamt – Anteil der Wohnkosten am Einkommen und Wohnkostenüberlastung, EU-SILC (2026)",
+      "url": "https://www.destatis.de/EN/Themes/Society-Environment/Housing/Tables/eurostat-share-housing-costs-mz-silc.html"
+    },
+    {
+      "id": "destatis-privathaushalte-2025",
+      "label": "Statistisches Bundesamt – Privathaushalte und Haushaltsmitglieder (2026)",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Haushalte-Familien/Tabellen/1-1-privathaushalte-haushaltsmitglieder.html"
+    },
+    {
+      "id": "uba-haushalte-struktur",
+      "label": "Umweltbundesamt – Bevölkerungsentwicklung und Struktur privater Haushalte (2025)",
+      "url": "https://www.umweltbundesamt.de/daten/private-haushalte-konsum/strukturdaten-privater-haushalte/bevoelkerungsentwicklung-struktur-privater"
+    },
+    {
+      "id": "destatis-nettozuwanderung-2022",
+      "label": "Statistisches Bundesamt – Nettozuwanderung 2022 auf Rekordhoch, Pressemitteilung Nr. 249 (2023)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/06/PD23_249_12411.html"
+    },
+    {
+      "id": "destatis-nettozuwanderung-2025",
+      "label": "Statistisches Bundesamt – Nettozuwanderung 2025 deutlich gesunken, Pressemitteilung Nr. 184 (2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_184_12411.html"
+    },
+    {
+      "id": "destatis-baufertigstellungen-2025",
+      "label": "Statistisches Bundesamt – 18,0 % weniger fertiggestellte Wohnungen im Jahr 2025, Pressemitteilung Nr. 174 (2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_174_31121.html"
+    },
+    {
+      "id": "destatis-baufertigstellungen-2024",
+      "label": "Statistisches Bundesamt – 14,4 % weniger fertiggestellte Wohnungen im Jahr 2024, Pressemitteilung Nr. 183 (2025)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/05/PD25_183_31121.html"
+    },
+    {
+      "id": "bmwsb-massnahmenpaket-wohnungsbau",
+      "label": "BMWSB – Maßnahmenpaket der Bundesregierung für den Wohnungsbau (2026)",
+      "url": "https://www.bmwsb.bund.de/SharedDocs/topthemen/DE/Massnahmenpaket-bauen/massnahmenpaket-artikel.html"
+    },
+    {
+      "id": "destatis-baugenehmigungen-2025",
+      "label": "Statistisches Bundesamt – 10,8 % mehr Baugenehmigungen für Wohnungen im Jahr 2025, Pressemitteilung Nr. 052 (2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_052_3111.html"
+    },
+    {
+      "id": "destatis-baugenehmigungen-2023",
+      "label": "Statistisches Bundesamt – 26,6 % weniger Baugenehmigungen für Wohnungen im Jahr 2023, Pressemitteilung Nr. 074 (2024)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/02/PD24_074_3111.html"
+    },
+    {
+      "id": "destatis-baugenehmigungen-2022",
+      "label": "Statistisches Bundesamt – 6,9 % weniger Baugenehmigungen für Wohnungen im Jahr 2022, Pressemitteilung Nr. 095 (2023)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2023/03/PD23_095_3111.html"
+    },
+    {
+      "id": "destatis-baupreisindex-wohngebaeude",
+      "label": "Statistisches Bundesamt – Preisindizes für Bauwerke, Wohngebäude (2026)",
+      "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Preise/bpr110.html"
+    },
+    {
+      "id": "interhyp-bauzinsen-vergleich",
+      "label": "Interhyp – Baufinanzierung: Zinsen im 45-Jahres-Vergleich (2025)",
+      "url": "https://www.interhyp.de/ratgeber/news/blick-in-die-vergangenheit-baufinanzierung/"
+    },
+    {
+      "id": "iw-wohnungsbedarf-2024",
+      "label": "IW Köln – Wohnungsbedarf: Jährlich müssten 372.600 Wohnungen gebaut werden (2024)",
+      "url": "https://www.iwkoeln.de/presse/pressemitteilungen/jaehrlich-muessten-372600-wohnungen-gebaut-werden.html"
+    },
+    {
+      "id": "pestel-wohnungsmangel-2026",
+      "label": "Pestel-Institut / ZDFheute – Studie zählt 1,4 Millionen fehlende Wohnungen (2026)",
+      "url": "https://www.zdfheute.de/politik/deutschland/studie-wohnungsmangel-rekordstand-100.html"
+    },
+    {
+      "id": "bmwsb-foerderergebnisse-swb-2024",
+      "label": "BMWSB – Förderergebnisse Sozialer Wohnungsbau 2024 (2025)",
+      "url": "https://www.bmwsb.bund.de/DE/wohnen/foerderprogramme-bmwsb/foerderprogramme-wohnen/sozialer-wohnungsbau/kernergebnisse-swb-2024.pdf?__blob=publicationFile&v=2"
+    },
+    {
+      "id": "paritaetischer-sozialwohnungen-2024",
+      "label": "Der Paritätische Gesamtverband – Historischer Tiefstand bei Sozialwohnungen (2024)",
+      "url": "https://www.der-paritaetische.de/alle-meldungen/historischer-tiefstand-bei-sozialwohnungen-anzahl-von-sozialwohnungen-sinkt-weiter/"
+    },
+    {
+      "id": "mieterbund-sozialwohnungen-2024",
+      "label": "Deutscher Mieterbund – Historischer Tiefstand bei Sozialwohnungen (2024)",
+      "url": "https://mieterbund.de/aktuelles/meldungen/historischer-tiefstand-bei-sozialwohnungen/"
+    },
+    {
+      "id": "bmwsb-vv-sozialer-wohnungsbau-2026",
+      "label": "BMWSB – Sozialer Wohnungsbau 2026/2027: Verwaltungsvereinbarung unterzeichnet (2025)",
+      "url": "https://www.bmwsb.bund.de/SharedDocs/pressemitteilungen/DE/2025/11/VV-sozialer-wohnungsbau-2026.html"
+    },
+    {
+      "id": "bundestag-wd-baukosten-standards",
+      "label": "Wissenschaftliche Dienste des Deutschen Bundestages – Kostensteigerungen im Wohnungsbau durch höhere Energiestandards, WD 5-3000-012/22 (2022)",
+      "url": "https://www.bundestag.de/resource/blob/892394/813e72ec7f01d0287e82027918ed7d4e/WD-5-012-22-pdf-data.pdf"
+    },
+    {
+      "id": "bundestag-wd-sickereffekt",
+      "label": "Wissenschaftliche Dienste des Deutschen Bundestages – Sickereffekt im Wohnungsmarkt, WD 5-3000-079/22 (2022)",
+      "url": "https://www.bundestag.de/resource/blob/906072/8d24ffc3211f7974a2945b6b55f5f815/WD-5-079-22-pdf-data.pdf"
+    },
+    {
+      "id": "diw-mietpreisbremse-2018",
+      "label": "DIW Berlin – Mietpreisbremse ist besser als ihr Ruf, kann Wohnungsmarktproblem aber nicht allein lösen (2018)",
+      "url": "https://www.diw.de/de/diw_01.c.578224.de/mietpreisbremse_ist_besser_als_ihr_ruf_kann_wohnungsmarktproblem_aber_nicht_allein_loesen.html"
+    },
+    {
+      "id": "bundesregierung-mietpreisbremse-2025",
+      "label": "Bundesregierung – Verlängerung der Mietpreisbremse bis Ende 2029 (2025)",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/verlaengerung-mietpreisbremse-2350648"
+    },
+    {
+      "id": "bmjv-mietpreisbremse-2025",
+      "label": "BMJV – Pressemitteilung Nr. 16/2025: Mietpreisbremse soll bis 31.12.2029 verlängert werden (2025)",
+      "url": "https://www.bmjv.de/SharedDocs/Pressemitteilungen/DE/2025/0528_Mietpreisbremse.html"
+    },
+    {
+      "id": "diw-mietendeckel-2021",
+      "label": "DIW Berlin – Die unmittelbaren Auswirkungen des Berliner Mietendeckels, Wochenbericht 8/2021",
+      "url": "https://www.diw.de/de/diw_01.c.811698.de/publikationen/wochenberichte/2021_08_3/die_unmittelbaren_auswirkungen_des_berliner_mietendeckels__wohnungen_guenstiger__aber_schwieriger_zu_finden.html"
+    },
+    {
+      "id": "ifo-mietendeckel-2022",
+      "label": "ifo Institut – Entwicklungen am Berliner Immobilienmarkt ein Jahr nach dem Mietendeckel, ifo Schnelldienst 4/2022",
+      "url": "https://www.ifo.de/DocDL/sd-2022-04-arlia-dolls-etal-mietendeckel-update.pdf"
+    },
+    {
+      "id": "bverfg-mietendeckel-2021",
+      "label": "Bundesverfassungsgericht – Pressemitteilung Nr. 28/2021: Berliner Mietendeckel nichtig, Beschluss vom 25.03.2021, 2 BvF 1/20 (2021)",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2021/bvg21-028.html"
+    },
+    {
+      "id": "landesabstimmungsleiterin-volksentscheid-2021",
+      "label": "Landesabstimmungsleiterin Berlin – Endgültiges Ergebnis des Volksentscheids ‚Vergesellschaftung der Wohnungsbestände großer Wohnungsunternehmen' (2021)",
+      "url": "https://www.berlin.de/wahlen/abstimmungen/deutsche-wohnen-und-co-enteignen/ergebnisse/artikel.1130038.php"
+    },
+    {
+      "id": "berlin-kostenschaetzung-volksentscheid-2021",
+      "label": "Landeswahlleitung Berlin – Amtliche Informationen zum Volksentscheid: Kostenschätzungen (2021)",
+      "url": "https://www.berlin.de/wahlen/abstimmungen/deutsche-wohnen-und-co-enteignen/allgemeine-informationen/artikel.1115174.php"
+    },
+    {
+      "id": "expertenkommission-vergesellschaftung-2023",
+      "label": "Expertenkommission zum Volksentscheid ‚Vergesellschaftung großer Wohnungsunternehmen' – Abschlussbericht (2023)",
+      "url": "https://www.berlin.de/kommission-vergesellschaftung/_assets/abschlussbericht_vergesellschaftung-grosser-wohnungsunternehmen-230627.pdf"
+    },
+    {
+      "id": "bundestag-wd-art15gg-2019",
+      "label": "Wissenschaftliche Dienste des Deutschen Bundestages – Verfassungsrechtliche Vorgaben der Vergesellschaftung von Wohneigentum, WD 3-3000-105/19 (2019)",
+      "url": "https://www.bundestag.de/resource/blob/648696/163f6e6673b8f28ce7fe941c0b5da995/WD-3-105-19-pdf.pdf"
+    },
+    {
+      "id": "eurostat-wohneigentumsquote-2024",
+      "label": "Eurostat – Housing in Europe, 2025 edition (2025)",
+      "url": "https://ec.europa.eu/eurostat/web/interactive-publications/housing-2025"
+    },
+    {
+      "id": "eurostat-tenure-status-2024",
+      "label": "Eurostat – Distribution of population by tenure status (ilc_lvho02), Daten 2024",
+      "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_lvho02/default/table?lang=en"
+    },
+    {
+      "id": "finanz-tools-grunderwerbsteuer-2026",
+      "label": "finanz-tools.de – Grunderwerbsteuer 2026: Tabelle aller Bundesländer (2026)",
+      "url": "https://www.finanz-tools.de/grunderwerbsteuer/bundeslaender-tabelle"
+    },
+    {
+      "id": "destatis-haeuserpreisindex-2023",
+      "label": "Statistisches Bundesamt – Preise für Wohnimmobilien im 4. Quartal 2023, Pressemitteilung Nr. 114 (2024)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/03/PD24_114_61262.html"
+    },
+    {
+      "id": "destatis-haeuserpreisindex-2026",
+      "label": "Statistisches Bundesamt – Preise für Wohnimmobilien im 1. Quartal 2026, Pressemitteilung Nr. 219 (2026)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/06/PD26_219_61262.html"
+    },
+    {
+      "id": "stadt-wien-socialhousing",
+      "label": "Stadt Wien – Social Housing in Vienna (socialhousing.wien)",
+      "url": "https://socialhousing.wien/"
+    },
+    {
+      "id": "empirica-wohnungsmarkt-wien-2020",
+      "label": "empirica / BID – Wohnungsmarkt Wien: Eine wohnungspolitische Analyse aus deutscher Sicht (2020, im Auftrag der Immobilienwirtschaft)",
+      "url": "https://www.bid.info/wp-content/uploads/2020/01/Bericht_Wien_2019050_endbericht-rev.pdf"
+    },
+    {
+      "id": "iw-private-vermieter-2025",
+      "label": "IW Köln – Private Vermieter in Deutschland, Gutachten (2025)",
+      "url": "https://www.iwkoeln.de/fileadmin/user_upload/Studien/Gutachten/PDF/2025/Gutachten-Private-Vermieter-in-Deutschland.pdf"
+    }
+  ]
+}
