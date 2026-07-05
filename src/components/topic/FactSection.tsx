@@ -254,7 +254,14 @@ export default function FactSection({
   embedded = false,
 }: FactSectionProps) {
   return (
-    <Accordion defaultExpanded={defaultExpanded} id={domId ?? `section-${section.id}`}>
+    <Accordion
+      defaultExpanded={defaultExpanded}
+      id={domId ?? `section-${section.id}`}
+      // Without this, MUI mounts AccordionDetails on first render even while
+      // collapsed, which would eagerly trigger the lazy recharts import below
+      // for any section holding a bar/line chart the user hasn't opened yet.
+      slotProps={{ transition: { mountOnEnter: true } }}
+    >
       <AccordionSummary expandIcon={<ExpandMoreIcon sx={embedded ? { fontSize: 20, color: 'secondary.main' } : undefined} />}>
         <Typography
           variant="subtitle1"
