@@ -527,6 +527,16 @@ function buildRouteHtml(template, opts) {
     const tag = '<meta name="robots" content="noindex, follow" />'
     updated = updated.replace('</head>', `    ${tag}\n  </head>`)
   }
+  if (opts.preloadHref) {
+    // Topic/argument pages render an empty #root and fetch their data client-side
+    // (useTopic) once React mounts — on a cold load that fetch only starts after
+    // the JS bundle has parsed and executed, which is what causes the visible
+    // skeleton-to-content layout shift. A preload lets the browser's preload
+    // scanner start this request immediately, in parallel with the JS, so the
+    // fetch is usually done before the skeleton would otherwise be painted.
+    const tag = `<link rel="preload" as="fetch" href="${attrEscape(opts.preloadHref)}" crossorigin="anonymous" fetchpriority="high" />`
+    updated = updated.replace('</head>', `    ${tag}\n  </head>`)
+  }
   return updated
 }
 
@@ -835,6 +845,7 @@ async function main() {
       canonical: topicCanonical,
       jsonLd: buildTopicJsonLd(topic, topicsById),
       noscript: buildTopicNoscript(topic, topicsById),
+      preloadHref: `/data/${topic.id}.json`,
     })
     await writeRouteHtml(`thema/${topic.id}`, topicHtml)
     topicCount += 1
@@ -854,6 +865,7 @@ async function main() {
         canonical: argCanonical,
         jsonLd: buildArgumentJsonLd(topic, argument),
         noscript: buildArgumentNoscript(topic, argument, topicsById),
+        preloadHref: `/data/${topic.id}.json`,
       })
       await writeRouteHtml(`thema/${topic.id}/${argument.id}`, argHtml)
       argumentCount += 1
