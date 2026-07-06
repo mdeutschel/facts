@@ -109,6 +109,15 @@
       "argumentCount": 12
     },
     {
+      "id": "wohnen",
+      "title": "Wohnen & Mieten",
+      "subtitle": "Mietentwicklung, Neubaukrise, Sozialwohnungen und die Debatte um Regulierung und Enteignung",
+      "icon": "apartment",
+      "lastUpdated": "2026-07-05",
+      "factCount": 9,
+      "argumentCount": 9
+    },
+    {
       "id": "migration",
       "title": "Migration & Asyl",
       "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",

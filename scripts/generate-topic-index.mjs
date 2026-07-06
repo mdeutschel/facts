@@ -25,6 +25,7 @@ const TOPIC_ORDER = [
   'verteilung',
   'vermoegenssteuer',
   // Block 3 — Gesellschaft & Zusammenleben
+  'wohnen',
   'migration',
   'innere-sicherheit',
   'gleichberechtigung',
