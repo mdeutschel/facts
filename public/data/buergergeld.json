@@ -323,23 +323,24 @@
           ]
         },
         {
-          "type": "progress_stack",
+          "type": "timeline",
           "caption": "Sanktionsstufen bei Pflichtverletzungen",
-          "segments": [
+          "steps": [
             {
               "label": "1. Verstoß",
-              "value": 10,
-              "sublabel": "10 % = −56 €/Monat für 1 Monat"
+              "value": "10 %",
+              "sublabel": "−56 €/Monat für 1 Monat"
             },
             {
               "label": "2. Verstoß",
-              "value": 20,
-              "sublabel": "20 % = −113 €/Monat für 2 Monate"
+              "value": "20 %",
+              "sublabel": "−113 €/Monat für 2 Monate"
             },
             {
               "label": "3. Verstoß",
-              "value": 30,
-              "sublabel": "30 % = −169 €/Monat für 3 Monate"
+              "value": "30 %",
+              "sublabel": "−169 €/Monat für 3 Monate",
+              "highlight": true
             }
           ],
           "sourceRefs": [

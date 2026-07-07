@@ -47,7 +47,7 @@
         },
         {
           "type": "text",
-          "text": "Das Tempo der Angleichung hat sich seit Einführung des Mindestlohns 2015 verdreifacht: Zwischen 1999 und 2014 schrumpfte die Lücke nur um 1,6 Prozentpunkte, zwischen 2014 und 2024 um 7,0 Prozentpunkte. Im unteren Lohnbereich ist die Lücke praktisch geschlossen, bei mittleren und hohen Einkommen bleibt sie größer.",
+          "text": "Laut einer Auswertung des gewerkschaftsnahen Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) der Hans-Böckler-Stiftung hat sich das Tempo der Angleichung seit Einführung des Mindestlohns 2015 verdreifacht: Zwischen 1999 und 2014 schrumpfte die Lücke nur um 1,6 Prozentpunkte, zwischen 2014 und 2024 um 7,0 Prozentpunkte. Im unteren Lohnbereich ist die Lücke damit praktisch geschlossen, bei mittleren und hohen Einkommen bleibt sie größer.",
           "sourceRefs": ["boeckler-wsi-lohngefaelle-angleichung"]
         }
       ]
@@ -92,7 +92,7 @@
         },
         {
           "type": "comparison",
-          "caption": "Durchschnittlicher Rentenzahlbetrag 2023",
+          "caption": "Durchschnittlicher Rentenzahlbetrag 2023 (Berechnung von Prognos im Auftrag des Versicherungsverbands GDV)",
           "items": [
             { "title": "Frauen", "rows": [{ "label": "Ost", "value": "1.218 €" }, { "label": "West", "value": "861 €" }] },
             { "title": "Männer", "rows": [{ "label": "Ost", "value": "1.416 €" }, { "label": "West", "value": "1.430 €" }] }
@@ -101,7 +101,7 @@
         },
         {
           "type": "text",
-          "text": "Trotz gleichem Rentenwert unterscheiden sich die tatsächlich ausgezahlten Renten weiter, weil sie von der individuellen Erwerbsbiografie abhängen. Frauen im Osten hatten in der DDR eine deutlich höhere Erwerbsquote und damit oft längere, durchgehendere Versicherungszeiten — deshalb ist die Rentenlücke zwischen den Geschlechtern im Osten mit 13 Prozentpunkten viel kleiner als im Westen mit 37 Prozentpunkten.",
+          "text": "Trotz gleichem Rentenwert unterscheiden sich die tatsächlich ausgezahlten Renten weiter, weil sie von der individuellen Erwerbsbiografie abhängen. Frauen im Osten hatten in der DDR eine deutlich höhere Erwerbsquote und damit oft längere, durchgehendere Versicherungszeiten — deshalb ist die Rentenlücke zwischen den Geschlechtern laut der amtlichen Rentenstatistik der Deutschen Rentenversicherung (ausgewertet vom WSI) im Osten mit 13 Prozentpunkten viel kleiner als im Westen mit 37 Prozentpunkten.",
           "sourceRefs": ["wsi-gender-pension-gap-ost-west-2024"]
         }
       ]
@@ -171,7 +171,7 @@
         },
         {
           "type": "text",
-          "text": "Die Abwanderung traf vor allem junge Frauen: Von den 1,2 Millionen Menschen, die zwischen 1991 und 2024 netto aus dem Osten abwanderten, waren 57 % Frauen. Der Trend hat sich seit den 2010er Jahren aber regional gespalten — Prognosen zeigen für Leipzig bis 2040 ein Plus von fast 15 %, während viele ländliche Landkreise weiter deutlich schrumpfen.",
+          "text": "Die Abwanderung traf vor allem junge Frauen: Von den 1,2 Millionen Menschen, die zwischen 1991 und 2024 netto aus dem Osten abwanderten, waren 57 % Frauen. Der Trend hat sich seit den 2010er Jahren aber regional gespalten — eine Bevölkerungsprognose der Bertelsmann Stiftung zeigt für Leipzig bis 2040 ein Plus von fast 15 %, während viele ländliche Landkreise weiter deutlich schrumpfen.",
           "sourceRefs": ["destatis-abwanderung-frauen-jung-ost-west", "bertelsmann-leipzig-dresden-laendlicher-raum"]
         }
       ]
@@ -226,15 +226,18 @@
           "sourceRefs": ["ostdeutschland-info-elitenmonitor-fuehrung", "evangelisch-de-elitenmonitor-justiz-militaer"]
         },
         {
-          "type": "fact",
-          "highlight": true,
-          "text": "In 26 von 30 DAX-Unternehmen saß kein einziger Ostdeutscher im Vorstand — insgesamt nur 5 von 196 Vorstandsposten.",
-          "description": "Datenstand 2018, die einzige verfügbare DAX-spezifische Erhebung — neuere Zahlen zu einzelnen Konzernen liegen nicht in vergleichbarer Systematik vor.",
+          "type": "pictograph",
+          "caption": "Ostdeutsche in DAX-Vorständen (2018)",
+          "filled": 4,
+          "total": 30,
+          "icon": "business",
+          "color": "#37474f",
+          "label": "DAX-Unternehmen hatten mindestens einen Ostdeutschen im Vorstand — in den übrigen 26 saß niemand (insgesamt nur 5 von 196 Vorstandsposten).",
           "sourceRefs": ["tagesspiegel-dax-vorstaende-ost"]
         },
         {
           "type": "text",
-          "text": "Der Bevölkerungsanteil ostdeutscher Herkunft liegt bei rund 20 % — der Anteil in Führungspositionen bleibt mit 12,1 % deutlich darunter. Die Entwicklung ist aber uneinheitlich: In Verwaltung und Politik wächst der Anteil, in der Wirtschaft ist er zwischen 2018 und 2024 sogar leicht gesunken.",
+          "text": "Der Bevölkerungsanteil ostdeutscher Herkunft liegt bei rund 20 % — der Anteil in Führungspositionen bleibt mit 12,1 % deutlich darunter. Die Entwicklung ist aber uneinheitlich: In Verwaltung und Politik wächst der Anteil, in der Wirtschaft ist er zwischen 2018 und 2024 sogar leicht gesunken. Die DAX-Zahlen stammen aus einer eigenen Tagesspiegel-Erhebung von 2018 — der einzigen verfügbaren Untersuchung in dieser Systematik; neuere konzernspezifische Zahlen liegen nicht in vergleichbarer Form vor.",
           "sourceRefs": ["ostdeutschland-info-elitenmonitor-fuehrung"]
         }
       ]
@@ -257,14 +260,12 @@
           "sourceRefs": ["bundeswahlleiterin-afd-zweitstimmen-2025", "bpb-waehlerstimmen-laender-wahlkreise"]
         },
         {
-          "type": "fact",
-          "text": "Im Schnitt erreicht die AfD in Ostdeutschland etwa doppelt so hohe Stimmenanteile wie in Westdeutschland.",
-          "sourceRefs": ["bpb-afd-ost-west-waehlerschaft"]
-        },
-        {
-          "type": "fact",
-          "text": "53 % der Ostdeutschen sind mit dem Funktionieren der Demokratie unzufrieden, im Westen sind es 36 %.",
-          "sourceRefs": ["ostdeutschland-info-deutschland-monitor-2024"]
+          "type": "stat_grid",
+          "items": [
+            { "value": "2×", "label": "AfD-Stimmenanteil Ost vs. West", "sublabel": "im Schnitt doppelt so hoch" },
+            { "value": "53 % / 36 %", "label": "Demokratie-Unzufriedenheit", "sublabel": "Ost / West, 2024" }
+          ],
+          "sourceRefs": ["bpb-afd-ost-west-waehlerschaft", "ostdeutschland-info-deutschland-monitor-2024"]
         }
       ]
     },
@@ -282,6 +283,16 @@
             { "label": "2021", "value": "Soli-Reform", "sublabel": "rund 90 % aller Steuerzahler vollständig befreit" }
           ],
           "sourceRefs": ["bpb-solidarpakt-i-ii", "bpb-soli-geschichte-reform"]
+        },
+        {
+          "type": "progress_stack",
+          "caption": "Solidarpakt II: Verteilung der Mittel (2005–2019)",
+          "segments": [
+            { "label": "Korb I – teilungsbedingte Sonderlasten", "value": 67, "sublabel": "105 Mrd. € – u. a. Altschulden, strukturelle Sonderlasten" },
+            { "label": "Korb II – wirtschaftlicher Aufholprozess", "value": 33, "sublabel": "51 Mrd. € – Investitions- und Aufholprogramme" }
+          ],
+          "total": "156 Mrd. €",
+          "sourceRefs": ["bpb-solidarpakt-i-ii"]
         },
         {
           "type": "stat_grid",
@@ -316,7 +327,7 @@
     {
       "id": "renten-jetzt-gleich",
       "claim": "Die Renten sind im Osten jetzt genauso hoch wie im Westen.",
-      "response": "Der Rentenwert — die Berechnungsgrundlage — ist seit dem 1. Juli 2023 tatsächlich bundeseinheitlich, das stimmt. Die ausgezahlten Renten unterscheiden sich aber weiter, weil sie von der individuellen Erwerbsbiografie abhängen: Bei Frauen liegt die Ost-Rente wegen der höheren DDR-Erwerbsquote sogar über der West-Rente (1.218 € vs. 861 €), bei Männern ist es leicht umgekehrt (1.416 € vs. 1.430 €). Gleiche Formel, aber unterschiedliche Ergebnisse je nach Lebenslauf.",
+      "response": "Der Rentenwert — die Berechnungsgrundlage — ist seit dem 1. Juli 2023 tatsächlich bundeseinheitlich, das stimmt. Die ausgezahlten Renten unterscheiden sich aber weiter, weil sie von der individuellen Erwerbsbiografie abhängen: Bei Frauen liegt die Ost-Rente wegen der höheren DDR-Erwerbsquote sogar über der West-Rente (1.218 € vs. 861 €, Berechnung von Prognos im Auftrag des Versicherungsverbands GDV), bei Männern ist es leicht umgekehrt (1.416 € vs. 1.430 €). Gleiche Formel, aber unterschiedliche Ergebnisse je nach Lebenslauf.",
       "keywords": ["Rente", "Rentenwert", "Ost", "West", "Angleichung", "DDR"],
       "relatedSections": ["renten"],
       "verdict": "misleading",

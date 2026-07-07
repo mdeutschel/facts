@@ -300,28 +300,28 @@
           "segments": [
             {
               "label": "Längere Arbeitszeit bei Teilzeit",
-              "value": 1700000,
-              "sublabel": "v. a. Frauen ohne betreuungspflichtige Kinder"
+              "value": 39,
+              "sublabel": "1,7 Mio. – v. a. Frauen ohne betreuungspflichtige Kinder"
             },
             {
               "label": "Höhere Qualifizierung",
-              "value": 1175000,
-              "sublabel": "Aufstieg in höhere Anforderungsniveaus"
+              "value": 27,
+              "sublabel": "1,18 Mio. – Aufstieg in höhere Anforderungsniveaus"
             },
             {
               "label": "Menschen ohne Berufsabschluss",
-              "value": 609000,
-              "sublabel": "Nachqualifizierung"
+              "value": 14,
+              "sublabel": "609.000 – Nachqualifizierung"
             },
             {
               "label": "Personen mit Migrationshintergrund",
-              "value": 432000,
-              "sublabel": "höhere Erwerbsbeteiligung"
+              "value": 10,
+              "sublabel": "432.000 – höhere Erwerbsbeteiligung"
             },
             {
               "label": "Arbeitnehmende ab 50",
-              "value": 414000,
-              "sublabel": "längeres Erwerbsleben"
+              "value": 10,
+              "sublabel": "414.000 – längeres Erwerbsleben"
             }
           ],
           "total": "≈ 4,3 Mio. Vollzeitäquivalente (Modellannahmen)",
