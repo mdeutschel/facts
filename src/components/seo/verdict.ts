@@ -14,6 +14,7 @@ export const VERDICT_META: Record<ArgumentVerdict, VerdictMeta> = {
   'lacks-context': { label: 'Ohne Kontext irreführend', ratingValue: 2, color: 'warning' },
   'partially-true': { label: 'Teilweise wahr', ratingValue: 3, color: 'info' },
   'mostly-true': { label: 'Überwiegend wahr', ratingValue: 4, color: 'success' },
+  'true': { label: 'Wahr', ratingValue: 5, color: 'success' },
 }
 
 export const VERDICT_RATING_BEST = 5

@@ -123,6 +123,8 @@ Aus der Verifizierung aller 13 bestehenden Themen abgeleitete wiederkehrende Mus
 | Überinterpretation | Quelle stützt einen Trend, nicht die konkrete Exaktzahl | „64 %" pauschal auf „2025" statt korrekt auf „Ende 2024, neun Jahre nach Zuzug" |
 | Verrutschte sourceRefs | Referenz zeigt auf falsche Quelle nach Umsortierung des sources-Arrays | Keeling-Kurve verweist auf Emissionsquelle statt NOAA |
 | Ungenutzte Quellen | Einträge im sources-Array ohne verweisenden Block | Karteileichen aus früheren Bearbeitungen |
+| Interessengebundene Einzelquelle | Zentraler Datenpunkt hängt allein an Verbands-/Stiftungs-/Auftragsstudie | Highlight-Fakt nur mit GDV-Zahl, ohne Herkunftsvermerk oder Zweitquelle |
+| Fälschlich als unverifizierbar eingestuft | PDF/Paywall/toter Link nicht nach den Sonderfall-Regeln behandelt | Destatis-PDF nicht per curl geprüft; Behörden-Link ohne Wayback-Check gestrichen |
 
 ## Prüfliste
 
@@ -133,5 +135,6 @@ Bei der Verifizierung jeden Inhaltsblock an diesem Muster prüfen:
 | Jede `sourceRefs`-ID existiert im `sources`-Array | ✓ | Verwaiste Referenz |
 | Jede Quelle hat ein `url`-Feld | ✓ | URL fehlt |
 | Zahlen im Inhalt stimmen mit den Quelldaten überein | ✓ | Datenabweichung |
-| Quellen-URL ist erreichbar | ✓ | Toter Link |
+| Quellen-URL ist erreichbar (bei toten Links: Wayback-Snapshot geprüft) | ✓ | Toter Link |
 | Keine Quelle ohne mindestens einen verweisenden Block | ✓ | Ungenutzte Quelle |
+| Zentrale Datenpunkte durch unabhängige Quelle gestützt oder Herkunft ausgewiesen | ✓ | Interessengebundene Einzelquelle |

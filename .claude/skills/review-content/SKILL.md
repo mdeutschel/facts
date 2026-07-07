@@ -2,7 +2,7 @@
 name: review-content
 description: Prüft Topic-JSON-Inhalte auf argumentative Qualität, Ausgewogenheit und intellektuelle Redlichkeit. Verwenden beim Erstellen neuer Themeninhalte, beim Hinzufügen von Abschnitten oder Argumenten, beim Bearbeiten bestehender Inhalte oder wenn der Nutzer eine Prüfung oder Verbesserung der argumentativen Stärke eines Factsheets wünscht.
 argument-hint: "[topicId]"
-allowed-tools: Read, Glob, Grep, Bash, WebSearch, Agent, TodoWrite, AskUserQuestion, Edit
+allowed-tools: Read, Glob, Grep, Edit, WebSearch, Agent, AskUserQuestion, Bash(npm run lint), Bash(npm run build), Bash(node *)
 ---
 
 # Inhaltliche Qualitätsprüfung für `public/data/$ARGUMENTS.json`
@@ -26,13 +26,18 @@ Stammtisch-Aussagen sind oft nur teilweise wahr. Ein `response` darf nicht als r
 - Formulierungen wie „Der Kern stimmt, aber…“, „Das war bis X richtig, seitdem…“ nutzen
 - Kennzeichnen, wenn das `response` ein komplexes Thema schwarz-weiß behandelt
 
-### 2. Claim-Source-Fit
+### 2. Claim-Source-Fit & Quellen-Unabhängigkeit
 
 Die Quelle muss den konkreten Claim tatsächlich stützen. Überinterpretation ist der häufigste Fehler.
 
 - Jeder `sourceRef` muss genau den Claim tragen, an den er gebunden ist — nicht mehr
 - Stützt eine Quelle einen breiteren Trend, aber nicht die konkrete Zahl, das klar sagen
 - `sourceRefs` entfernen, die den zugehörigen Inhaltsblock nicht direkt stützen
+
+**Unabhängigkeit der Quellen:**
+- Zentrale Datenpunkte (highlight-Fakten, `keyStats`, Kernzahlen in Argument-Antworten), die **allein** auf einer interessengebundenen Quelle beruhen (Verbände wie GDV/ADAC/BDA/DGB, Stiftungen mit Agenda, Auftragsstudien) → ⚠-Befund: amtliche/wissenschaftliche Quelle oder unabhängige Zweitquelle vorschlagen
+- Ersatzweise muss die Herkunft im Text ausgewiesen sein („laut Branchenverband GDV …") statt die Zahl als neutralen Fakt zu präsentieren
+- Auf Topic-Ebene prüfen: Hängt die Datenbasis einer ganzen Sektion an einem einzigen Herausgeber?
 
 ### 3. Annahmen-Transparenz
 
@@ -83,8 +88,9 @@ Das `response` muss den Claim direkt adressieren — nicht ein verwandtes, aber 
 Ein Argument soll nicht nur als Faktencheck-Eintrag, sondern auch in der konkreten Gesprächssituation taugen. Die optionalen Felder `rhetoricalPattern` und `counterQuestions` adressieren das. Grundlage: politische Bildung (Hufer, bpb, KonterBUNT) und Misinformation-Forschung (Bruns et al., Scientific Reports 2024) — zusammengefasst im [Gesprächsleitfaden](https://fakten-stammtisch.de/leitfaden/).
 
 **Wann beide Felder pflegen:**
-- Bei jedem Argument mit Verdict (`false`, `mostly-false`, `misleading`, `lacks-context`, `outdated`, `partially-true`, `mostly-true`) — also überall, wo eine Behauptung faktisch eingeordnet werden kann.
-- **Ausnahme:** Argumente ohne Verdict (normative Wertedebatten, politische Forderungen) brauchen keine Konter-Werkzeuge — dort gibt es keine Falschaussage zum Korrigieren.
+- Bei jedem Argument mit korrigierendem Verdict (`false`, `mostly-false`, `misleading`, `lacks-context`, `outdated`, `partially-true`; bei `mostly-true` optional für den falschen Restanteil) — also überall, wo eine Fehlannahme korrigiert wird.
+- **Ausnahme 1:** Argumente mit `verdict: "true"` brauchen keine Konter-Werkzeuge — eine zutreffende Behauptung wird bestätigt, nicht gekontert.
+- **Ausnahme 2:** Argumente ohne Verdict (normative Wertedebatten, politische Forderungen) brauchen keine Konter-Werkzeuge — dort gibt es keine Falschaussage zum Korrigieren.
 
 **Anforderungen an `response`:**
 - **Truth-Sandwich-Einstieg**: Mit der korrekten Aussage beginnen, nicht mit der Wiederholung der Parole. Statt „Es stimmt nicht, dass …" lieber „Tatsächlich ist es so, dass …" oder „Die Zahlen zeigen das Gegenteil: …".
@@ -116,6 +122,7 @@ Die Seite bezieht Position für den wissenschaftlichen Kenntnisstand — nicht f
 
 **9a. Verdict-Disziplin (Empirie-Test):**
 - Ein `verdict` ist nur zulässig, wenn der Claim **empirisch prüfbar** ist. Test: „Könnte eine Statistik oder Studie diese Aussage grundsätzlich widerlegen?" Wenn nein → kein Verdict.
+- Die Skala reicht von `false` bis `true`: Ein empirisch schlicht **zutreffender** Stammtisch-Claim bekommt `verdict: "true"` — er wird bestätigt und eingeordnet, nicht weggelassen oder künstlich relativiert. Das stärkt die Balance (9c/9e): Berechtigte Sorgen jeder Richtung werden als solche ausgewiesen.
 - Normative Claims (erkennbar an „sollte", „muss", „ist Privatsache", „ist gerecht/ungerecht", „bestraft", „hat da nichts zu suchen") bekommen **kein Verdict**. Das `response` ordnet dann die empirische Faktenbasis ein, stellt die stärksten Argumente beider Seiten dar und benennt explizit, wo der Wertkonflikt beginnt.
 - Mischformen (empirische Prämisse + normative Forderung): Das Verdict **bleibt erhalten** und bezieht sich auf den empirischen Teil; im `response` die Ebenen klar trennen („Die zugrunde liegende Zahl stimmt nicht — ob man X dennoch will, ist eine Wertfrage"). `rhetoricalPattern` und `counterQuestions` bleiben gemäß Dim 8 ebenfalls bestehen.
 - Verdict-Entfernung ist die **Ausnahme** für rein normative Claims ohne prüfbaren empirischen Kern — nur dann entfallen gemäß Dim 8 auch `rhetoricalPattern` und `counterQuestions`. Im Zweifel: Verdict behalten und die Ebenen im `response` trennen.
@@ -145,7 +152,7 @@ Die Seite bezieht Position für den wissenschaftlichen Kenntnisstand — nicht f
    - ⚠ **VERBESSERBAR**: Nicht falsch, aber erzeugt Angriffsfläche — Verbesserung vorschlagen
    - ✗ **PROBLEM**: intellektuell unehrlich oder logisch mangelhaft — muss behoben werden
 4. **Berichten** — Befunde nach Dimension gruppiert darstellen, mit konkreten Korrekturvorschlägen
-5. **Umsetzen** — Nach Bestätigung durch den Nutzer: JSON bearbeiten, danach `npm run lint && npm run build` ausführen
+5. **Umsetzen (autonom)** — Korrekturen direkt anwenden: alle ✗ PROBLEM-Befunde beheben, ⚠ VERBESSERBAR-Befunde soweit sinnvoll adressieren; danach `npm run lint && npm run build` ausführen. Jede Änderung im Bericht dokumentieren (Element, Dimension, alt → neu). Nicht auf Bestätigung warten — Ausnahme nur, wenn der Nutzer ausdrücklich um Rücksprache gebeten hat oder eine Korrektur die Kernaussage eines Arguments umkehren würde (dann per AskUserQuestion klären, falls ein Nutzer erreichbar ist, sonst konservativ korrigieren und prominent im Bericht ausweisen).
 
 ## Autor-Leitplanken (Autor-Modus)
 
@@ -156,6 +163,7 @@ Beim Schreiben neuer Inhalte vor dem Festhalten im JSON anwenden:
 ```
 - [ ] Response erkennt den Wahrheitskern im Claim an (Dim 1)
 - [ ] Jeder sourceRef stützt direkt den zugehörigen Claim (Dim 2)
+- [ ] Zentrale Zahlen nicht allein auf interessengebundener Quelle; sonst Herkunft ausweisen (Dim 2)
 - [ ] Rechnungen zeigen Annahmen und Sensitivität (Dim 3)
 - [ ] Fakten und Interpretation klar getrennt (Dim 4)
 - [ ] Stärkstes Gegenargument angesprochen (Dim 5)
@@ -164,7 +172,7 @@ Beim Schreiben neuer Inhalte vor dem Festhalten im JSON anwenden:
 - [ ] Response startet mit der korrekten Aussage (Truth Sandwich, Dim 8)
 - [ ] rhetoricalPattern benennt das Denkmuster, ohne den Frame zu wiederholen (Dim 8, sofern Muster vorhanden)
 - [ ] counterQuestions: 2–3 sokratische, konkrete, nicht polemische Fragen (Dim 8, bei Argumenten mit Verdict)
-- [ ] Empirie-Test bestanden: Verdict nur bei empirisch widerlegbaren Claims (Dim 9a)
+- [ ] Empirie-Test bestanden: Verdict nur bei empirisch prüfbaren Claims; zutreffende Claims bekommen `true` (Dim 9a)
 - [ ] Response enthält kein politisches Plädoyer und keine Lager-Sprache (Dim 9b, 9d)
 - [ ] Verdict-Maßstab unabhängig von der politischen Richtung des Claims (Dim 9c)
 ```
@@ -180,6 +188,7 @@ Beim Schreiben neuer Inhalte vor dem Festhalten im JSON anwenden:
 
 ## Regeln
 
+- **Autonome Abarbeitung**: Der Review-Modus läuft standardmäßig komplett durch — analysieren, berichten, Korrekturen anwenden, validieren. Der Bericht dokumentiert alle Änderungen; er ist kein Freigabe-Gate.
 - **Kein Wegreden**: Berechtigte Kritik nicht entfernen — sie aufnehmen
 - **Zurückhaltende Formulierungen**: Bei Unsicherheit abschwächen; nie überzeichnen
 - **Position nur für die Evidenz**: Die Seite bezieht klar Stellung — aber für den wissenschaftlichen Kenntnisstand und gegen Falschaussagen, nicht für ein politisches Lager. Wo die Evidenz endet und das Werturteil beginnt, wird das ausgewiesen (Dim 9).

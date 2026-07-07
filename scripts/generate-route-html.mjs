@@ -23,6 +23,7 @@ const VERDICT_META = {
   'lacks-context': { label: 'Ohne Kontext irreführend', ratingValue: 2 },
   'partially-true': { label: 'Teilweise wahr', ratingValue: 3 },
   'mostly-true': { label: 'Überwiegend wahr', ratingValue: 4 },
+  'true': { label: 'Wahr', ratingValue: 5 },
 }
 
 function truncate(text, max) {

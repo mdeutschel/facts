@@ -33,8 +33,11 @@ Blocktypen danach wählen, was die Daten aussagen:
 | Entwicklung über die Zeit (wenige Punkte) | `line_chart` | Recharts (lazy) | Trends mit 4–8 Datenpunkten |
 | Aufeinanderfolgende Schritte/Meilensteine | `timeline` | MUI (leicht) | Gesetzgebungsfahrpläne, historischer Verlauf |
 | Teile eines Ganzen | `progress_stack` | MUI (leicht) | Budgetaufschlüsselungen, prozentuale Zusammensetzung |
+| Verbreitete Irrtümer richtigstellen | `myth_fact` | MUI (leicht) | 2–4 Mythos/Fakt-Paare kompakt gegenüberstellen (`items` mit `myth`/`fact`) |
+| Ein Anteil, der greifbar werden soll | `pictograph` | MUI (leicht) | „x von y"-Aussagen (`filled`/`total` + `icon`), z. B. „96 von 100 Erbfällen steuerfrei" |
+| Ist-Stand gegen Zielwert | `target_progress` | MUI (leicht) | Zielerreichung (`current` vs. `target`), z. B. Ausbau- oder Klimaziele |
 
-**Regel zur visuellen Abwechslung:** Jedes Thema sollte mindestens 3–4 verschiedene Blocktypen nutzen. Themen vermeiden, die nur aus `fact`-Blöcken bestehen. `bar_chart` und `line_chart` nutzen Recharts (lazy-loaded) — sparsam einsetzen, wenn das Thema viele Sektionen hat.
+**Regel zur visuellen Abwechslung:** Jedes Thema sollte mindestens 3–4 verschiedene Blocktypen nutzen. Themen vermeiden, die nur aus `fact`-Blöcken bestehen. `bar_chart` und `line_chart` nutzen Recharts (lazy-loaded) — sparsam einsetzen, wenn das Thema viele Sektionen hat. Die vollständige, verbindliche Typenliste steht in der Discriminated Union `ContentBlock` in `src/types/index.ts` — bei neuen Typen dort zuerst nachsehen, diese Tabelle kann nachlaufen.
 
 ## Muster für den Aufbau von Abschnitten
 
@@ -86,7 +89,8 @@ Blocktypen danach wählen, was die Daten aussagen:
 Ziellänge `response`: 3–5 Sätze, 40–100 Wörter.
 
 **Konter-Werkzeuge (`rhetoricalPattern`, `counterQuestions`):**
-- Bei Argumenten **mit** `verdict` mitliefern (`false`, `mostly-false`, `misleading`, `outdated`, `lacks-context`, `partially-true`, `mostly-true`).
+- Bei Argumenten mit **korrigierendem** `verdict` mitliefern (`false`, `mostly-false`, `misleading`, `outdated`, `lacks-context`, `partially-true`; bei `mostly-true` optional für den falschen Restanteil).
+- Bei `verdict: "true"` weglassen — eine zutreffende Behauptung braucht keinen Konter.
 - Bei Argumenten **ohne** Verdict (normative Wertedebatten) weglassen — dort gibt es keine Falschaussage zum Korrigieren.
 - Wenn kein erkennbares Denkmuster vorliegt: `rhetoricalPattern` weglassen statt künstlich konstruieren.
 - Konkrete Gestaltungsregeln und Antipattern: siehe `.claude/skills/review-content/reference.md`, Dim 8.
@@ -124,11 +128,9 @@ Für Werturteile und politische Forderungen, die der Empirie-Test nicht prüfbar
 
 ## Qualitätsmaßstäbe aus bestehenden Themen
 
-### Gute Kennzahlen für Themen (basierend auf 13 bestehenden Themen)
-- Abschnitte: 5–14 (Median ~8)
-- Argumente: 7–13 (Median ~9)
-- Quellen: 8–19 (Median ~12)
-- genutzte ContentBlock-Typen: 3–6 verschiedene Typen pro Thema
+### Kennzahlen
+
+Die verbindlichen Bestandswerte (Anzahl Themen, Mediane für Sektionen/Argumente/Quellen/Block-Typen) werden beim Skill-Start **live aus `public/data/` ermittelt** — siehe Abschnitt „Live-Benchmarks" in der SKILL.md. Keine hier notierten statischen Zahlen verwenden; sie veralten mit jedem neuen Thema.
 
 ### heizung.json (14 Fakten, 9 Argumente, 19 Quellen)
 Starkes Beispiel: Nutzt `stat_grid`, `comparison`, `timeline`, `line_chart`, `progress_stack`, `table`, `fact`, `text`. Gute Transparenz der Annahmen bei Kostenschätzungen.
@@ -151,3 +153,4 @@ Starkes Beispiel: Sinnvoller Einsatz von `table` für Extremwetter-Schäden. Arg
 8. **Deutsche Anführungszeichen in JSON** — „…" (U+201E / U+201C) bricht JSON-Syntax, weil das schließende `"` beim Tool-gestützten Schreiben zu ASCII `"` wird. Stattdessen ‚…' (U+201A / U+2018) verwenden. Nach dem Schreiben der JSON-Datei immer `node -e "JSON.parse(...)"` zur Validierung ausführen, bevor `npm run build` läuft. Siehe auch `.claude/rules/data-schema.md`.
 9. **Verdict auf Werturteilen** — Normative Claims („sollte", „Privatsache", „bestraft Leistung") bekommen kein `verdict` und keine Konter-Werkzeuge; das Response weist Faktenbasis und Wertkonflikt aus, statt eine Position zu vertreten. Siehe review-content, Dimension 9.
 10. **Einseitige Claim-Auswahl** — Nur Parolen einer politischen Richtung sammeln, obwohl im Diskurs auch Fehlannahmen der Gegenrichtung kursieren. Richtungs-Check in Phase 1 durchführen. Siehe review-content, Dimension 9e.
+11. **Interessengebundene Einzelquelle für zentrale Datenpunkte** — highlight-Fakten, keyStats oder Kernzahlen in Argumenten allein auf Verbands-, Stiftungs- oder Auftragsstudien stützen. Entweder amtliche/wissenschaftliche Quelle finden, unabhängige Zweitquelle ergänzen oder die Herkunft im Text ausweisen („laut Branchenverband …"). Siehe Unabhängigkeitsregel in Phase 2.

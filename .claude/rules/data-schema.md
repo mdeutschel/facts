@@ -23,8 +23,10 @@ Jeder Typ hat eigene Pflichtfelder — siehe die Discriminated Union in `src/typ
 - `id`-Felder: kebab-case (`status-quo`, `foerderung-2026`)
 - `icon` in TopicMeta: MUI-Icon-Name als String
 - `lastUpdated`: Format `YYYY-MM-DD`
-- Quellen: immer `label` angeben, `url` ist optional
+- Quellen: `label` und `url` sind Pflicht — jede Quelle muss online verifizierbar sein. Einzige Ausnahme: nicht online verfügbare Publikationen (Print), dann Ausgabe/Jahr im `label` vermerken
+- Zentrale Datenpunkte (highlight-Fakten, `keyStats`) nicht allein auf interessengebundene Quellen (Verbände, Stiftungen, Auftragsstudien) stützen — unabhängige Zweitquelle oder Herkunftsvermerk im Text
 - Argumente: `keywords`-Array ermöglicht Suchmatching, `relatedSections` verlinkt zu Section-IDs
+- `verdict` (optional): `false` | `mostly-false` | `misleading` | `outdated` | `lacks-context` | `partially-true` | `mostly-true` | `true` — nur für empirisch prüfbare Claims; normative Werturteile bekommen kein Verdict (siehe `review-content`, Dim 9a)
 
 ## Anführungszeichen in JSON-Strings
 

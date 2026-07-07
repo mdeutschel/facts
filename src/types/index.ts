@@ -96,6 +96,7 @@ export type ArgumentVerdict =
   | 'lacks-context'
   | 'partially-true'
   | 'mostly-true'
+  | 'true'
 
 export interface Argument {
   id: string
