@@ -155,7 +155,7 @@ Zentrale Qualitätsdimensionen: Nuance & Teilwahrheiten, Claim-Source-Fit & Quel
 
 ## Thema bearbeiten
 
-Zum Aktualisieren oder Erweitern bestehender Topic-JSONs `/update-topic {topicId} {Änderungsauftrag}` verwenden. Der Skill orchestriert Recherche mit Inline-Verifizierung, Autor-Leitplanken, beide Quality Gates und den Build. Vollständige Anleitung in `.claude/skills/update-topic/SKILL.md`.
+Zum Aktualisieren oder Erweitern bestehender Topic-JSONs `/update-topic {topicId} {Änderungsauftrag}` verwenden. Der Skill orchestriert Recherche mit Inline-Verifizierung, Autor-Leitplanken, einen Darstellungs-Check (Blocktyp-Vielfalt, UX, Datenverständnis — bei Darstellungsaufträgen für das ganze Topic), beide Quality Gates und den Build. Vollständige Anleitung in `.claude/skills/update-topic/SKILL.md`.
 
 ## Datenpflege
 
