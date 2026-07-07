@@ -5,14 +5,14 @@
   "seoTitle": "Innere Sicherheit & Kriminalität: Zahlen, Argumente & Fakten 2026",
   "seoDescription": "Wird Deutschland immer unsicherer? Antworten zu Kriminalitätstrend, Messerangriffen, No-go-Areas, Polizei und Videoüberwachung — Quellen BKA, Destatis und DIW.",
   "icon": "security",
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-07-07",
   "keyStats": [
-    "5,84 Mio. Straftaten 2024 (−1,7 %, unter dem Niveau der 1990er)",
+    "5,51 Mio. Straftaten 2025 (−5,6 %, zweiter Rückgang in Folge)",
     "Aufklärungsquote stabil bei rund 58 %",
     "342.500 Vollzeitäquivalente bei der Polizei (2024)",
     "9 Argumente"
   ],
-  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen: BKA (Polizeiliche Kriminalstatistik 2024/2025, Sicherheit und Kriminalität in Deutschland — SKiD 2024), Statistisches Bundesamt, DIW Berlin sowie kriminologische Forschung (Stand Anfang 2026). Wo Vergleiche methodisch heikel sind (z. B. Bevölkerungsbasis Zensus 2011 vs. 2022, deliktspezifische Erfassung), wird das transparent gemacht.",
+  "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen: BKA (Polizeiliche Kriminalstatistik 2025, Sicherheit und Kriminalität in Deutschland — SKiD 2024), Statistisches Bundesamt, DIW Berlin sowie kriminologische Forschung (Stand Sommer 2026). Wo Vergleiche methodisch heikel sind (z. B. Bevölkerungsbasis Zensus 2011 vs. 2022, deliktspezifische Erfassung), wird das transparent gemacht.",
   "relatedTopicIds": [
     "migration"
   ],
@@ -23,10 +23,11 @@
       "content": [
         {
           "type": "text",
-          "text": "Das Gefühl, Deutschland werde ‚immer unsicherer‘, hält dem Langzeitvergleich nicht stand. Die Polizeiliche Kriminalstatistik (PKS) des BKA erfasst seit Jahrzehnten alle polizeilich bekannt gewordenen Straftaten. 2024 wurden 5.837.445 Straftaten registriert — rund 1,7 % weniger als 2023 und deutlich unter dem Höchststand der 1990er Jahre. Gemessen an der Häufigkeitszahl (Straftaten pro 100.000 Einwohner) liegt das heutige Niveau klar unter dem von 1993 oder 2004.",
+          "text": "Das Gefühl, Deutschland werde ‚immer unsicherer‘, hält dem Langzeitvergleich nicht stand. Die Polizeiliche Kriminalstatistik (PKS) des BKA erfasst seit Jahrzehnten alle polizeilich bekannt gewordenen Straftaten. 2025 wurden 5.508.559 Straftaten registriert — ein weiteres Minus von 5,6 % gegenüber 2024 und damit der zweite Rückgang in Folge, deutlich unter dem Höchststand der 1990er Jahre. Gemessen an der Häufigkeitszahl (Straftaten pro 100.000 Einwohner) lag bereits das Niveau von 2024 klar unter dem von 1993 oder 2004.",
           "sourceRefs": [
             "bka-pks-2024-gesamtzahl",
-            "bka-pks-2024-zeitreihe"
+            "bka-pks-2024-zeitreihe",
+            "bka-pks-2025"
           ]
         },
         {
@@ -117,11 +118,12 @@
         },
         {
           "type": "fact",
-          "text": "Der absolute Höchststand der Kriminalität im wiedervereinigten Deutschland war 1993 mit 6,75 Mio. Straftaten — nicht heute. Das Niveau 2021 war durch Corona-Maßnahmen besonders niedrig, der Anstieg 2022/2023 ist teils ein Nachholeffekt. 2024 sanken die Zahlen wieder.",
+          "text": "Der absolute Höchststand der Kriminalität im wiedervereinigten Deutschland war 1993 mit 6,75 Mio. Straftaten — nicht heute. Das Niveau 2021 war durch Corona-Maßnahmen besonders niedrig, der Anstieg 2022/2023 ist teils ein Nachholeffekt. 2024 und 2025 sanken die Zahlen zwei Jahre in Folge, zuletzt auf 5,51 Mio. Straftaten.",
           "highlight": true,
           "sourceRefs": [
             "bka-pks-2024-zeitreihe",
-            "bka-pks-2024-gesamtzahl"
+            "bka-pks-2024-gesamtzahl",
+            "bka-pks-2025"
           ]
         }
       ]
@@ -132,35 +134,37 @@
       "content": [
         {
           "type": "text",
-          "text": "Ein wichtiger Wahrheitskern: Während die Gesamtkriminalität langfristig sinkt, ist die Gewaltkriminalität real gestiegen. 2024 erreichte sie mit 217.277 Fällen den höchsten Stand seit Einführung der Kategorie 2007 (+1,5 % gegenüber 2023). Gleichzeitig macht Gewaltkriminalität rechnerisch nur rund 3,7 % aller 5,84 Mio. Straftaten aus — der Anstieg ist ernst zu nehmen, betrifft aber einen kleinen Teilbereich des Gesamtgeschehens.",
+          "text": "Ein wichtiger Wahrheitskern: Die Gewaltkriminalität war über Jahre real gestiegen und erreichte 2024 mit 217.277 Fällen den höchsten Stand seit Einführung der Kategorie 2007 (+1,5 % gegenüber 2023). 2025 kehrte sich dieser Trend erstmals seit 2021 um: Die Gewaltkriminalität sank auf 212.335 Fälle (−2,3 %). Sie macht damit weiterhin rechnerisch nur rund 3,9 % aller 5,51 Mio. Straftaten 2025 aus — ernst zu nehmen, aber ein kleiner Teilbereich des Gesamtgeschehens, der sich zuletzt sogar leicht entspannt hat.",
           "sourceRefs": [
             "bka-pks-2024-gesamtzahl",
-            "bka-pks-2024-zeitreihe"
+            "bka-pks-2024-zeitreihe",
+            "bka-pks-2025"
           ]
         },
         {
           "type": "stat_grid",
           "items": [
             {
-              "value": "217.277",
-              "label": "Gewaltdelikte 2024",
-              "sublabel": "+1,5 %, Höchststand seit 2007",
+              "value": "212.335",
+              "label": "Gewaltdelikte 2025",
+              "sublabel": "−2,3 %, erster Rückgang seit 2021",
               "color": "#b71c1c"
             },
             {
-              "value": "29.014",
-              "label": "Messerangriffe 2024",
-              "sublabel": "davon 54 % Gewalt, 43 % Bedrohung"
+              "value": "29.243",
+              "label": "Messerangriffe 2025",
+              "sublabel": "+0,8 % — nahezu unverändert zu 2024"
             },
             {
-              "value": "~3,7 %",
+              "value": "~3,9 %",
               "label": "Anteil an allen Straftaten",
-              "sublabel": "Gewaltkriminalität am Gesamtgeschehen"
+              "sublabel": "Gewaltkriminalität am Gesamtgeschehen 2025"
             }
           ],
           "sourceRefs": [
             "bka-pks-2024-gesamtzahl",
-            "bka-pks-2024-zeitreihe"
+            "bka-pks-2024-zeitreihe",
+            "bka-pks-2025"
           ]
         },
         {
@@ -206,10 +210,11 @@
         },
         {
           "type": "fact",
-          "text": "Das Bild ist nicht durchgängig ‚immer mehr Gewalt‘: Raubdelikte gingen 2024 um 3,7 % zurück. Messerangriffe werden zudem erst seit 2024 deliktübergreifend gesondert ausgewiesen — ein belastbarer Vorjahresvergleich der Gesamtzahl existiert deshalb noch nicht, nur für Teilgrößen wie die Körperverletzung.",
+          "text": "Das Bild ist nicht durchgängig ‚immer mehr Gewalt‘: Raubdelikte gingen 2024 um 3,7 % zurück. Bei den Messerangriffen zeigt sich 2025 ein gemischtes Bild: Die Gesamtzahl blieb mit 29.243 Fällen nahezu stabil (+0,8 %), während die Messerangriffe im engeren Kontext der Gewaltkriminalität auf 14.787 Fälle sanken (−6,1 %) — ein Hinweis darauf, dass sich auch dieser Teilbereich zuletzt eher entspannt als verschärft hat.",
           "sourceRefs": [
             "bka-pks-2024-messer",
-            "bka-pks-2023-messer"
+            "bka-pks-2023-messer",
+            "bka-pks-2025"
           ]
         }
       ]
@@ -312,9 +317,9 @@
               "sublabel": "Bund und Länder, Stand 30.06.2024"
             },
             {
-              "value": "−5,6 %",
+              "value": "5,51 Mio.",
               "label": "Straftaten 2025",
-              "sublabel": "Rückgang auf 5,51 Mio. Fälle"
+              "sublabel": "−5,6 % — zweiter Rückgang in Folge"
             }
           ],
           "sourceRefs": [
@@ -495,7 +500,7 @@
     {
       "id": "kriminalitaet-explodiert",
       "claim": "Die Kriminalität explodiert, Deutschland wird immer unsicherer!",
-      "response": "Tatsächlich liegt die Gesamtkriminalität heute unter dem Niveau der 1990er: 2024 zählte die PKS 5,84 Mio. Straftaten — rund 1,7 % weniger als 2023 und klar unter dem Höchststand von 1993 (6,75 Mio.). Richtig ist: Die Gewaltkriminalität ist real gestiegen und 2024 auf einem Hoch. Aber sie macht nur etwa 3,7 % aller Straftaten aus. ‚Explodiert‘ trifft auf das Gesamtbild nicht zu — die Lage ist differenziert, nicht dramatisch.",
+      "response": "Tatsächlich liegt die Gesamtkriminalität heute unter dem Niveau der 1990er und sinkt seit zwei Jahren: 2025 zählte die PKS 5,51 Mio. Straftaten — rund 5,6 % weniger als 2024 und klar unter dem Höchststand von 1993 (6,75 Mio.). Richtig ist: Die Gewaltkriminalität war bis 2024 real gestiegen und erreichte damals ein Hoch. 2025 ging aber auch sie erstmals seit 2021 zurück (−2,3 %) und macht weiterhin nur etwa 3,9 % aller Straftaten aus. ‚Explodiert‘ trifft auf das Gesamtbild nicht zu — die Lage ist differenziert, nicht dramatisch.",
       "keywords": [
         "Kriminalität",
         "explodiert",
@@ -509,17 +514,17 @@
         "gewaltkriminalitaet"
       ],
       "verdict": "misleading",
-      "rhetoricalPattern": "Die Parole überträgt einen realen Anstieg im Teilbereich Gewalt (3,7 % aller Taten) auf das gesamte Kriminalitätsgeschehen und verstärkt ihn mit Dramatisierungs-Sprache (‚explodiert‘). Wer einen kleinen Ausschnitt zum Gesamtbild erklärt, betreibt Rosinenpicken — die Gesamtkriminalität liegt klar unter den 1990ern.",
+      "rhetoricalPattern": "Die Parole überträgt einen früheren Anstieg im Teilbereich Gewalt (rund 3,9 % aller Taten) auf das gesamte Kriminalitätsgeschehen und verstärkt ihn mit Dramatisierungs-Sprache (‚explodiert‘). Wer einen kleinen, zuletzt sogar rückläufigen Ausschnitt zum Gesamtbild erklärt, betreibt Rosinenpicken — die Gesamtkriminalität liegt klar unter den 1990ern.",
       "counterQuestions": [
         "Meinst du die Gesamtkriminalität oder einen bestimmten Bereich wie Gewaltdelikte?",
         "Weißt du, wie hoch die Kriminalität pro Kopf in den 1990ern war im Vergleich zu heute?",
-        "Wenn 2024 weniger Straftaten registriert wurden als 2023 — passt das zu ‚explodiert‘?"
+        "Wenn 2025 zum zweiten Mal in Folge weniger Straftaten registriert wurden als im Vorjahr — passt das zu ‚explodiert‘?"
       ]
     },
     {
       "id": "ueberall-messerangriffe",
       "claim": "Überall Messerangriffe, man kann ja gar nicht mehr auf die Straße!",
-      "response": "Messerangriffe gibt es, und sie werden seit 2024 erstmals systematisch erfasst: 29.014 Fälle, davon gut die Hälfte Gewaltdelikte. Bei der gefährlichen Körperverletzung stieg der Messeranteil von 8.951 (2023) auf 9.620 Fälle (2024) — das ist real und ernst. Aber ‚überall‘ und ‚man kann nicht mehr raus‘ ist Wahrnehmung, nicht Statistik: Tagsüber fühlen sich laut BKA fast 89 % der Menschen auf Straßen und Plätzen sicher. Das individuelle Risiko bleibt sehr gering.",
+      "response": "Messerangriffe gibt es, und sie werden seit 2024 erstmals systematisch erfasst: 2025 waren es 29.243 Fälle — nahezu unverändert zu 2024 (+0,8 %). Im engeren Kontext der Gewaltkriminalität sanken sie sogar auf 14.787 Fälle (−6,1 %). Bei der gefährlichen Körperverletzung war der Messeranteil zuvor von 8.951 (2023) auf 9.620 Fälle (2024) gestiegen — das bleibt ernst zu nehmen, auch wenn die Gesamtentwicklung 2025 kein weiteres Anwachsen zeigt. Aber ‚überall‘ und ‚man kann nicht mehr raus‘ ist Wahrnehmung, nicht Statistik: Tagsüber fühlen sich laut BKA fast 89 % der Menschen auf Straßen und Plätzen sicher. Das individuelle Risiko bleibt sehr gering.",
       "keywords": [
         "Messer",
         "Messerangriffe",
@@ -727,7 +732,7 @@
     },
     {
       "id": "bka-pks-2025",
-      "label": "BKA – Polizeiliche Kriminalstatistik 2025 (Aufklärungsquote, Fallzahlen)",
+      "label": "BKA – Polizeiliche Kriminalstatistik 2025 (Fallzahlen, Gewaltkriminalität, Messerangriffe, Aufklärungsquote)",
       "url": "https://www.bka.de/DE/AktuelleInformationen/StatistikenLagebilder/PolizeilicheKriminalstatistik/PKS2025/Polizeiliche_Kriminalstatistik_2025/Polizeiliche_Kriminalstatistik_2025_node.html"
     },
     {
