@@ -118,6 +118,15 @@
       "argumentCount": 9
     },
     {
+      "id": "ostdeutschland",
+      "title": "Ostdeutschland — Ost-West-Unterschiede",
+      "subtitle": "Löhne, Vermögen, Renten, Demografie und Repräsentation zwischen Konvergenz und bleibenden Lücken",
+      "icon": "map",
+      "lastUpdated": "2026-07-07",
+      "factCount": 9,
+      "argumentCount": 9
+    },
+    {
       "id": "migration",
       "title": "Migration & Asyl",
       "subtitle": "Fakten zu Einwanderung, Flucht und Arbeitsmarkt in Deutschland",
