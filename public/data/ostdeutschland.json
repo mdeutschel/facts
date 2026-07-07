@@ -47,7 +47,7 @@
         },
         {
           "type": "text",
-          "text": "Das Tempo der Angleichung hat sich seit Einführung des Mindestlohns 2015 verdreifacht: Zwischen 1999 und 2014 schrumpfte die Lücke nur um 1,6 Prozentpunkte, zwischen 2014 und 2024 um 7,0 Prozentpunkte. Im unteren Lohnbereich ist die Lücke praktisch geschlossen, bei mittleren und hohen Einkommen bleibt sie größer.",
+          "text": "Laut einer Auswertung des gewerkschaftsnahen Wirtschafts- und Sozialwissenschaftlichen Instituts (WSI) der Hans-Böckler-Stiftung hat sich das Tempo der Angleichung seit Einführung des Mindestlohns 2015 verdreifacht: Zwischen 1999 und 2014 schrumpfte die Lücke nur um 1,6 Prozentpunkte, zwischen 2014 und 2024 um 7,0 Prozentpunkte. Im unteren Lohnbereich ist die Lücke damit praktisch geschlossen, bei mittleren und hohen Einkommen bleibt sie größer.",
           "sourceRefs": ["boeckler-wsi-lohngefaelle-angleichung"]
         }
       ]
@@ -92,7 +92,7 @@
         },
         {
           "type": "comparison",
-          "caption": "Durchschnittlicher Rentenzahlbetrag 2023",
+          "caption": "Durchschnittlicher Rentenzahlbetrag 2023 (Berechnung von Prognos im Auftrag des Versicherungsverbands GDV)",
           "items": [
             { "title": "Frauen", "rows": [{ "label": "Ost", "value": "1.218 €" }, { "label": "West", "value": "861 €" }] },
             { "title": "Männer", "rows": [{ "label": "Ost", "value": "1.416 €" }, { "label": "West", "value": "1.430 €" }] }
@@ -101,7 +101,7 @@
         },
         {
           "type": "text",
-          "text": "Trotz gleichem Rentenwert unterscheiden sich die tatsächlich ausgezahlten Renten weiter, weil sie von der individuellen Erwerbsbiografie abhängen. Frauen im Osten hatten in der DDR eine deutlich höhere Erwerbsquote und damit oft längere, durchgehendere Versicherungszeiten — deshalb ist die Rentenlücke zwischen den Geschlechtern im Osten mit 13 Prozentpunkten viel kleiner als im Westen mit 37 Prozentpunkten.",
+          "text": "Trotz gleichem Rentenwert unterscheiden sich die tatsächlich ausgezahlten Renten weiter, weil sie von der individuellen Erwerbsbiografie abhängen. Frauen im Osten hatten in der DDR eine deutlich höhere Erwerbsquote und damit oft längere, durchgehendere Versicherungszeiten — deshalb ist die Rentenlücke zwischen den Geschlechtern laut der amtlichen Rentenstatistik der Deutschen Rentenversicherung (ausgewertet vom WSI) im Osten mit 13 Prozentpunkten viel kleiner als im Westen mit 37 Prozentpunkten.",
           "sourceRefs": ["wsi-gender-pension-gap-ost-west-2024"]
         }
       ]
@@ -171,7 +171,7 @@
         },
         {
           "type": "text",
-          "text": "Die Abwanderung traf vor allem junge Frauen: Von den 1,2 Millionen Menschen, die zwischen 1991 und 2024 netto aus dem Osten abwanderten, waren 57 % Frauen. Der Trend hat sich seit den 2010er Jahren aber regional gespalten — Prognosen zeigen für Leipzig bis 2040 ein Plus von fast 15 %, während viele ländliche Landkreise weiter deutlich schrumpfen.",
+          "text": "Die Abwanderung traf vor allem junge Frauen: Von den 1,2 Millionen Menschen, die zwischen 1991 und 2024 netto aus dem Osten abwanderten, waren 57 % Frauen. Der Trend hat sich seit den 2010er Jahren aber regional gespalten — eine Bevölkerungsprognose der Bertelsmann Stiftung zeigt für Leipzig bis 2040 ein Plus von fast 15 %, während viele ländliche Landkreise weiter deutlich schrumpfen.",
           "sourceRefs": ["destatis-abwanderung-frauen-jung-ost-west", "bertelsmann-leipzig-dresden-laendlicher-raum"]
         }
       ]
@@ -316,7 +316,7 @@
     {
       "id": "renten-jetzt-gleich",
       "claim": "Die Renten sind im Osten jetzt genauso hoch wie im Westen.",
-      "response": "Der Rentenwert — die Berechnungsgrundlage — ist seit dem 1. Juli 2023 tatsächlich bundeseinheitlich, das stimmt. Die ausgezahlten Renten unterscheiden sich aber weiter, weil sie von der individuellen Erwerbsbiografie abhängen: Bei Frauen liegt die Ost-Rente wegen der höheren DDR-Erwerbsquote sogar über der West-Rente (1.218 € vs. 861 €), bei Männern ist es leicht umgekehrt (1.416 € vs. 1.430 €). Gleiche Formel, aber unterschiedliche Ergebnisse je nach Lebenslauf.",
+      "response": "Der Rentenwert — die Berechnungsgrundlage — ist seit dem 1. Juli 2023 tatsächlich bundeseinheitlich, das stimmt. Die ausgezahlten Renten unterscheiden sich aber weiter, weil sie von der individuellen Erwerbsbiografie abhängen: Bei Frauen liegt die Ost-Rente wegen der höheren DDR-Erwerbsquote sogar über der West-Rente (1.218 € vs. 861 €, Berechnung von Prognos im Auftrag des Versicherungsverbands GDV), bei Männern ist es leicht umgekehrt (1.416 € vs. 1.430 €). Gleiche Formel, aber unterschiedliche Ergebnisse je nach Lebenslauf.",
       "keywords": ["Rente", "Rentenwert", "Ost", "West", "Angleichung", "DDR"],
       "relatedSections": ["renten"],
       "verdict": "misleading",
