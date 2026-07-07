@@ -226,15 +226,18 @@
           "sourceRefs": ["ostdeutschland-info-elitenmonitor-fuehrung", "evangelisch-de-elitenmonitor-justiz-militaer"]
         },
         {
-          "type": "fact",
-          "highlight": true,
-          "text": "In 26 von 30 DAX-Unternehmen saß kein einziger Ostdeutscher im Vorstand — insgesamt nur 5 von 196 Vorstandsposten.",
-          "description": "Datenstand 2018, die einzige verfügbare DAX-spezifische Erhebung — neuere Zahlen zu einzelnen Konzernen liegen nicht in vergleichbarer Systematik vor.",
+          "type": "pictograph",
+          "caption": "Ostdeutsche in DAX-Vorständen (2018)",
+          "filled": 4,
+          "total": 30,
+          "icon": "business",
+          "color": "#37474f",
+          "label": "DAX-Unternehmen hatten mindestens einen Ostdeutschen im Vorstand — in den übrigen 26 saß niemand (insgesamt nur 5 von 196 Vorstandsposten).",
           "sourceRefs": ["tagesspiegel-dax-vorstaende-ost"]
         },
         {
           "type": "text",
-          "text": "Der Bevölkerungsanteil ostdeutscher Herkunft liegt bei rund 20 % — der Anteil in Führungspositionen bleibt mit 12,1 % deutlich darunter. Die Entwicklung ist aber uneinheitlich: In Verwaltung und Politik wächst der Anteil, in der Wirtschaft ist er zwischen 2018 und 2024 sogar leicht gesunken.",
+          "text": "Der Bevölkerungsanteil ostdeutscher Herkunft liegt bei rund 20 % — der Anteil in Führungspositionen bleibt mit 12,1 % deutlich darunter. Die Entwicklung ist aber uneinheitlich: In Verwaltung und Politik wächst der Anteil, in der Wirtschaft ist er zwischen 2018 und 2024 sogar leicht gesunken. Die DAX-Zahlen stammen aus einer eigenen Tagesspiegel-Erhebung von 2018 — der einzigen verfügbaren Untersuchung in dieser Systematik; neuere konzernspezifische Zahlen liegen nicht in vergleichbarer Form vor.",
           "sourceRefs": ["ostdeutschland-info-elitenmonitor-fuehrung"]
         }
       ]
@@ -257,14 +260,12 @@
           "sourceRefs": ["bundeswahlleiterin-afd-zweitstimmen-2025", "bpb-waehlerstimmen-laender-wahlkreise"]
         },
         {
-          "type": "fact",
-          "text": "Im Schnitt erreicht die AfD in Ostdeutschland etwa doppelt so hohe Stimmenanteile wie in Westdeutschland.",
-          "sourceRefs": ["bpb-afd-ost-west-waehlerschaft"]
-        },
-        {
-          "type": "fact",
-          "text": "53 % der Ostdeutschen sind mit dem Funktionieren der Demokratie unzufrieden, im Westen sind es 36 %.",
-          "sourceRefs": ["ostdeutschland-info-deutschland-monitor-2024"]
+          "type": "stat_grid",
+          "items": [
+            { "value": "2×", "label": "AfD-Stimmenanteil Ost vs. West", "sublabel": "im Schnitt doppelt so hoch" },
+            { "value": "53 % / 36 %", "label": "Demokratie-Unzufriedenheit", "sublabel": "Ost / West, 2024" }
+          ],
+          "sourceRefs": ["bpb-afd-ost-west-waehlerschaft", "ostdeutschland-info-deutschland-monitor-2024"]
         }
       ]
     },
@@ -282,6 +283,16 @@
             { "label": "2021", "value": "Soli-Reform", "sublabel": "rund 90 % aller Steuerzahler vollständig befreit" }
           ],
           "sourceRefs": ["bpb-solidarpakt-i-ii", "bpb-soli-geschichte-reform"]
+        },
+        {
+          "type": "progress_stack",
+          "caption": "Solidarpakt II: Verteilung der Mittel (2005–2019)",
+          "segments": [
+            { "label": "Korb I – teilungsbedingte Sonderlasten", "value": 67, "sublabel": "105 Mrd. € – u. a. Altschulden, strukturelle Sonderlasten" },
+            { "label": "Korb II – wirtschaftlicher Aufholprozess", "value": 33, "sublabel": "51 Mrd. € – Investitions- und Aufholprogramme" }
+          ],
+          "total": "156 Mrd. €",
+          "sourceRefs": ["bpb-solidarpakt-i-ii"]
         },
         {
           "type": "stat_grid",
