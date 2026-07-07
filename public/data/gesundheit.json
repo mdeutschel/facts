@@ -395,22 +395,22 @@
           "segments": [
             {
               "label": "Pflege & Therapie",
-              "value": 155.1,
+              "value": 31,
               "sublabel": "155,1 Mrd. EUR"
             },
             {
               "label": "Ärztliche Leistungen",
-              "value": 118.3,
+              "value": 24,
               "sublabel": "118,3 Mrd. EUR"
             },
             {
               "label": "Arzneimittel",
-              "value": 77.9,
+              "value": 16,
               "sublabel": "77,9 Mrd. EUR"
             },
             {
               "label": "Prävention",
-              "value": 24.8,
+              "value": 5,
               "sublabel": "24,8 Mrd. EUR"
             }
           ],

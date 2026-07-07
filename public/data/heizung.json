@@ -604,26 +604,8 @@
       "title": "Förderung 2026 (KfW 458, BEG)",
       "content": [
         {
-          "type": "progress_stack",
-          "caption": "Förderbausteine — bis zu 70 % gedeckelt",
-          "segments": [
-            {
-              "label": "Grundförderung",
-              "value": 30,
-              "sublabel": "jede förderfähige WP"
-            },
-            {
-              "label": "Klimageschwindigkeitsbonus",
-              "value": 20,
-              "sublabel": "bis Ende 2028, danach sinkend"
-            },
-            {
-              "label": "Einkommensbonus",
-              "value": 30,
-              "sublabel": "Haushalt <40.000 EUR/a"
-            }
-          ],
-          "total": "Maximal 70 %, gedeckelt auf 21.000 EUR Zuschuss",
+          "type": "text",
+          "text": "Die Förderbausteine der KfW 458 lassen sich addieren, sind aber gemeinsam auf 70 % der förderfähigen Kosten und maximal 21.000 EUR Zuschuss pro Wohneinheit gedeckelt.",
           "sourceRefs": [
             "kfw-heizungsfoerderung-fuer-privatpersonen"
           ]

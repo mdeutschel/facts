@@ -249,21 +249,12 @@
           ]
         },
         {
-          "type": "progress_stack",
-          "caption": "Beschäftigungsquote der 2015 zugezogenen Geflüchteten",
-          "segments": [
-            {
-              "label": "Im 1. Jahr",
-              "value": 9,
-              "sublabel": "unter 10 %"
-            },
-            {
-              "label": "Nach 9 Jahren",
-              "value": 64,
-              "sublabel": "Männer: 76 %, Frauen: 35 %"
-            }
+          "type": "stat_grid",
+          "items": [
+            { "value": "9 %", "label": "Beschäftigungsquote im 1. Jahr", "sublabel": "der 2015 zugezogenen Geflüchteten" },
+            { "value": "64 %", "label": "Beschäftigungsquote nach 9 Jahren", "sublabel": "Männer: 76 %, Frauen: 35 %" },
+            { "value": "70 %", "label": "Bevölkerungsdurchschnitt", "sublabel": "Referenzwert" }
           ],
-          "total": "Bevölkerungsdurchschnitt: 70 %",
           "sourceRefs": [
             "iab-10-jahre-fluchtmigration-2025"
           ]
