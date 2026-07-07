@@ -1,0 +1,443 @@
+{
+  "id": "ostdeutschland",
+  "title": "Ostdeutschland — Ost-West-Unterschiede",
+  "subtitle": "Löhne, Vermögen, Renten, Demografie und Repräsentation zwischen Konvergenz und bleibenden Lücken",
+  "seoTitle": "Ostdeutschland: Fakten zu Löhnen, Vermögen, Renten und Repräsentation",
+  "seoDescription": "Verdienen Ostdeutsche immer noch viel weniger? Sind die Renten längst angeglichen? Wandern alle jungen Leute ab? Antworten mit Daten von Destatis, DIW, IAB und Elitenmonitor.",
+  "icon": "map",
+  "lastUpdated": "2026-07-07",
+  "keyStats": [
+    "Lohnlücke Ost-West: 53,5 % (1991) → 14–17 % (2024)",
+    "BIP pro Kopf Ost: 33 % (1990er) → 80 % des Westniveaus (2025)",
+    "Nettovermögen: West 121.500 € vs. Ost 54.900 € pro Kopf",
+    "9 Argumente"
+  ],
+  "sourceNote": "Basierend auf Daten des Statistischen Bundesamtes, der Deutschen Rentenversicherung, des IAB, DIW Berlin, IWH Halle, der Bundeswahlleiterin, der Bundeszentrale für politische Bildung, des Bundesfinanzministeriums, der Bertelsmann Stiftung sowie des Elitenmonitors der Universitäten Leipzig, Jena und Zittau/Görlitz (Stand Juli 2026).",
+  "relatedTopicIds": ["wohnen", "verteilung", "buergergeld"],
+  "sections": [
+    {
+      "id": "loehne-einkommen",
+      "title": "Löhne & Einkommen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Lohnlücke zwischen Ost- und Westdeutschland ist eines der langlebigsten Stammtischthemen — und gleichzeitig eines der Themen mit der klarsten Datenlage. Nach der Wiedervereinigung verdienten Beschäftigte im Osten nur einen Bruchteil des Westniveaus. Seither hat sich der Abstand deutlich verringert, ist aber nicht verschwunden.",
+          "sourceRefs": ["destatis-verdienstluecke-ost-west"]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "Bruttomonatsverdienst Vollzeitbeschäftigte",
+          "unit": "€",
+          "items": [
+            { "label": "Ost 1991", "value": 924 },
+            { "label": "West 1991", "value": 1987 },
+            { "label": "Ost 2024", "value": 3973 },
+            { "label": "West 2024", "value": 4810, "highlight": true }
+          ],
+          "sourceRefs": ["destatis-verdienstluecke-ost-west"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "17,4 %", "label": "Verdienstlücke 2024", "sublabel": "Destatis, alle Vollzeitbeschäftigten" },
+            { "value": "14 %", "label": "Lohnlücke 2024 (IAB)", "sublabel": "war noch 26 % im Jahr 2012" },
+            { "value": "12,87 € / 13,00 €", "label": "Stundenlohn 1. Dezil", "sublabel": "im Niedriglohnbereich fast angeglichen" }
+          ],
+          "sourceRefs": ["iab-lohnluecke-vollzeit-2024", "boeckler-wsi-lohngefaelle-angleichung"]
+        },
+        {
+          "type": "text",
+          "text": "Das Tempo der Angleichung hat sich seit Einführung des Mindestlohns 2015 verdreifacht: Zwischen 1999 und 2014 schrumpfte die Lücke nur um 1,6 Prozentpunkte, zwischen 2014 und 2024 um 7,0 Prozentpunkte. Im unteren Lohnbereich ist die Lücke praktisch geschlossen, bei mittleren und hohen Einkommen bleibt sie größer.",
+          "sourceRefs": ["boeckler-wsi-lohngefaelle-angleichung"]
+        }
+      ]
+    },
+    {
+      "id": "vermoegen",
+      "title": "Vermögen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Beim Vermögen ist die Ost-West-Lücke deutlich größer und hartnäckiger als beim Einkommen. Sie speist sich aus jahrzehntelanger Kapitalbildung, Immobilienwerten und Erbschaften — Faktoren, die sich nicht durch einzelne Lohnsteigerungen aufholen lassen."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "121.500 €", "label": "Nettovermögen West", "sublabel": "pro Kopf, SOEP-Daten 2017" },
+            { "value": "54.900 €", "label": "Nettovermögen Ost", "sublabel": "weniger als die Hälfte des Westniveaus" },
+            { "value": "92.000 €", "label": "Ø Erbschaft West", "sublabel": "2002–2017, Preise von 2015" },
+            { "value": "52.000 €", "label": "Ø Erbschaft Ost", "sublabel": "gut 40 % weniger" }
+          ],
+          "sourceRefs": ["diw-vermoegen-ost-west", "diw-erbschaften-ost-west-2021"]
+        },
+        {
+          "type": "fact",
+          "highlight": true,
+          "text": "Bei 21- bis 25-Jährigen beträgt die Vermögenslücke nur rund 5.000 Euro — bei 71- bis 75-Jährigen wächst sie auf über 130.000 Euro.",
+          "description": "Die Kluft entsteht also nicht am Anfang des Erwerbslebens, sondern baut sich über Jahrzehnte durch unterschiedliche Löhne, Immobilienwerte und Erbschaften auf.",
+          "sourceRefs": ["diw-vermoegen-ost-west"]
+        }
+      ]
+    },
+    {
+      "id": "renten",
+      "title": "Renten",
+      "content": [
+        {
+          "type": "fact",
+          "highlight": true,
+          "text": "Der Rentenwert ist seit dem 1. Juli 2023 bundeseinheitlich — ein Jahr früher als gesetzlich vorgesehen.",
+          "description": "Vorher gab es einen eigenen, niedrigeren Rentenwert Ost. Seit Juli 2024 liegt der einheitliche aktuelle Rentenwert bei 39,32 €.",
+          "sourceRefs": ["drv-rentenwert-angleichung-2023", "drv-rentenwert-anpassung-2024"]
+        },
+        {
+          "type": "comparison",
+          "caption": "Durchschnittlicher Rentenzahlbetrag 2023",
+          "items": [
+            { "title": "Frauen", "rows": [{ "label": "Ost", "value": "1.218 €" }, { "label": "West", "value": "861 €" }] },
+            { "title": "Männer", "rows": [{ "label": "Ost", "value": "1.416 €" }, { "label": "West", "value": "1.430 €" }] }
+          ],
+          "sourceRefs": ["t-online-rentenzahlbetrag-ost-west-2023"]
+        },
+        {
+          "type": "text",
+          "text": "Trotz gleichem Rentenwert unterscheiden sich die tatsächlich ausgezahlten Renten weiter, weil sie von der individuellen Erwerbsbiografie abhängen. Frauen im Osten hatten in der DDR eine deutlich höhere Erwerbsquote und damit oft längere, durchgehendere Versicherungszeiten — deshalb ist die Rentenlücke zwischen den Geschlechtern im Osten mit 13 Prozentpunkten viel kleiner als im Westen mit 37 Prozentpunkten.",
+          "sourceRefs": ["wsi-gender-pension-gap-ost-west-2024"]
+        }
+      ]
+    },
+    {
+      "id": "wirtschaftskraft-arbeitsmarkt",
+      "title": "Wirtschaftskraft & Arbeitsmarkt",
+      "content": [
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "33 % → 80 %", "label": "BIP pro Kopf Ost", "sublabel": "Anteil am Westniveau, 1990er bis 2025" },
+            { "value": "5,7 % / 7,5 %", "label": "Arbeitslosenquote 2024", "sublabel": "West / Ost" },
+            { "value": "75–80 %", "label": "Arbeitsproduktivität Ost", "sublabel": "im Verhältnis zum Westniveau" }
+          ],
+          "sourceRefs": ["bmf-bip-konvergenz-ost-west-prozent", "bpb-arbeitslosenquote-ost-west-2024", "iwh-halle-produktivitaetsluecke-ost-west"]
+        },
+        {
+          "type": "bar_chart",
+          "caption": "BIP pro Kopf 2024 nach Bundesland",
+          "unit": "€",
+          "items": [
+            { "label": "Hamburg", "value": 84486, "highlight": true },
+            { "label": "Bayern", "value": 58817 },
+            { "label": "Mecklenburg-Vorpommern", "value": 37656 },
+            { "label": "Thüringen", "value": 36942 },
+            { "label": "Sachsen-Anhalt", "value": 36517 }
+          ],
+          "sourceRefs": ["destatis-bip-pro-kopf-bundeslaender-2024"]
+        },
+        {
+          "type": "text",
+          "text": "Die Konvergenz war in den 1990er Jahren rasant, ist seit rund 2000 aber ins Stocken geraten: Der Abstand bei der Arbeitslosigkeit hatte sich bis 2019 auf 1,7 Prozentpunkte verringert (Ost 6,4 % / West 4,7 %), seither ist die Lücke wieder leicht auf 1,8 Prozentpunkte gewachsen.",
+          "sourceRefs": ["bpb-arbeitslosenquote-ost-west-2024", "iwh-halle-produktivitaetsluecke-ost-west"]
+        }
+      ]
+    },
+    {
+      "id": "demografie-abwanderung",
+      "title": "Demografie & Abwanderung",
+      "content": [
+        {
+          "type": "line_chart",
+          "caption": "Wanderungssaldo Ost → West je Jahrzehnt",
+          "unit": "Personen",
+          "items": [
+            { "label": "1991–2000", "value": -611000 },
+            { "label": "2001–2010", "value": -553000 },
+            { "label": "2011–2016", "value": -70000 },
+            { "label": "2017–2022", "value": 18000 },
+            { "label": "2023–2024", "value": -7000 }
+          ],
+          "sourceRefs": ["destatis-abwanderung-frauen-jung-ost-west"]
+        },
+        {
+          "type": "table",
+          "caption": "Bevölkerungsentwicklung 1990–2024",
+          "headers": ["Region", "Veränderung"],
+          "rows": [
+            ["Sachsen-Anhalt", "−26 %"],
+            ["Thüringen", "−20 %"],
+            ["Mecklenburg-Vorpommern", "−18 %"],
+            ["Ostdeutsche Flächenländer gesamt", "−16 %"],
+            ["Westdeutschland gesamt", "+10 %"]
+          ],
+          "sourceRefs": ["destatis-bevoelkerung-ost-west-1990-2024"]
+        },
+        {
+          "type": "text",
+          "text": "Die Abwanderung traf vor allem junge Frauen: Von den 1,2 Millionen Menschen, die zwischen 1991 und 2024 netto aus dem Osten abwanderten, waren 57 % Frauen. Der Trend hat sich seit den 2010er Jahren aber regional gespalten — Prognosen zeigen für Leipzig bis 2040 ein Plus von fast 15 %, während viele ländliche Landkreise weiter deutlich schrumpfen.",
+          "sourceRefs": ["destatis-abwanderung-frauen-jung-ost-west", "bertelsmann-leipzig-dresden-laendlicher-raum"]
+        }
+      ]
+    },
+    {
+      "id": "eigentum-wohnen",
+      "title": "Wohneigentum",
+      "content": [
+        {
+          "type": "bar_chart",
+          "caption": "Wohneigentumsquote nach Bundesland 2022",
+          "unit": "%",
+          "items": [
+            { "label": "Saarland", "value": 59.7, "highlight": true },
+            { "label": "Rheinland-Pfalz", "value": 50.9 },
+            { "label": "Brandenburg", "value": 44.3 },
+            { "label": "Sachsen-Anhalt", "value": 42.4 },
+            { "label": "Thüringen", "value": 42.1 },
+            { "label": "Mecklenburg-Vorpommern", "value": 38.0 },
+            { "label": "Sachsen", "value": 34.5 }
+          ],
+          "sourceRefs": ["destatis-wohneigentumsquote-bundeslaender-2022"]
+        },
+        {
+          "type": "fact",
+          "text": "Leipzig hat mit 13,5 % die niedrigste Wohneigentumsquote unter den großen deutschen Städten, Dresden liegt mit 16,8 % ebenfalls sehr niedrig.",
+          "sourceRefs": ["nationalatlas-wohneigentum-grossstaedte-ost"]
+        },
+        {
+          "type": "text",
+          "text": "Sachsen hat mit 34,5 % die niedrigste Wohneigentumsquote aller Flächenländer — niedriger als der Bundesdurchschnitt von 41,9 %. Das historische Bild vom flächendeckenden Eigenheim im Osten hält den Zahlen nicht stand, auch wenn die Quote dort seit 2011 leicht steigt, während sie im Westen leicht sinkt.",
+          "sourceRefs": ["destatis-wohneigentumsquote-bundeslaender-2022", "nationalatlas-wohneigentum-grossstaedte-ost"]
+        }
+      ]
+    },
+    {
+      "id": "eliten-repraesentation",
+      "title": "Eliten & Repräsentation",
+      "content": [
+        {
+          "type": "table",
+          "caption": "Anteil gebürtiger Ostdeutscher in Führungspositionen (2024)",
+          "headers": ["Bereich", "Anteil"],
+          "rows": [
+            ["Führungspositionen gesamt", "12,1 %"],
+            ["Wirtschaft", "4,0 %"],
+            ["Verwaltung", "12,7 %"],
+            ["Politik", "21,4 %"],
+            ["Justiz (Bundesgerichte)", "5,1–7,1 %"],
+            ["Bundeswehr-Generäle", "0"]
+          ],
+          "sourceRefs": ["ostdeutschland-info-elitenmonitor-fuehrung", "evangelisch-de-elitenmonitor-justiz-militaer"]
+        },
+        {
+          "type": "fact",
+          "highlight": true,
+          "text": "In 26 von 30 DAX-Unternehmen saß kein einziger Ostdeutscher im Vorstand — insgesamt nur 5 von 196 Vorstandsposten.",
+          "description": "Datenstand 2018, die einzige verfügbare DAX-spezifische Erhebung — neuere Zahlen zu einzelnen Konzernen liegen nicht in vergleichbarer Systematik vor.",
+          "sourceRefs": ["tagesspiegel-dax-vorstaende-ost"]
+        },
+        {
+          "type": "text",
+          "text": "Der Bevölkerungsanteil ostdeutscher Herkunft liegt bei rund 20 % — der Anteil in Führungspositionen bleibt mit 12,1 % deutlich darunter. Die Entwicklung ist aber uneinheitlich: In Verwaltung und Politik wächst der Anteil, in der Wirtschaft ist er zwischen 2018 und 2024 sogar leicht gesunken.",
+          "sourceRefs": ["ostdeutschland-info-elitenmonitor-fuehrung"]
+        }
+      ]
+    },
+    {
+      "id": "politische-einstellungen",
+      "title": "Politische Einstellungen",
+      "content": [
+        {
+          "type": "text",
+          "text": "Wahlverhalten und Demokratiezufriedenheit unterscheiden sich zwischen Ost und West messbar. Die folgenden Zahlen sind rein deskriptiv: Sie bilden Wahlergebnisse und Umfragewerte ab, ohne eine politische Position zu bewerten."
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "20,8 %", "label": "AfD bundesweit", "sublabel": "Zweitstimmen, Bundestagswahl 2025" },
+            { "value": "38,6 %", "label": "Höchstes Landesergebnis", "sublabel": "Thüringen" },
+            { "value": "10,9 %", "label": "Niedrigstes Landesergebnis", "sublabel": "Hamburg" }
+          ],
+          "sourceRefs": ["bundeswahlleiterin-afd-zweitstimmen-2025", "bpb-waehlerstimmen-laender-wahlkreise"]
+        },
+        {
+          "type": "fact",
+          "text": "Im Schnitt erreicht die AfD in Ostdeutschland etwa doppelt so hohe Stimmenanteile wie in Westdeutschland.",
+          "sourceRefs": ["bpb-afd-ost-west-waehlerschaft"]
+        },
+        {
+          "type": "fact",
+          "text": "53 % der Ostdeutschen sind mit dem Funktionieren der Demokratie unzufrieden, im Westen sind es 36 %.",
+          "sourceRefs": ["ostdeutschland-info-deutschland-monitor-2024"]
+        }
+      ]
+    },
+    {
+      "id": "foerderung-aufbau-ost",
+      "title": "Förderung & Aufbau Ost",
+      "content": [
+        {
+          "type": "timeline",
+          "caption": "Aufbau Ost: Förderung im Zeitverlauf",
+          "steps": [
+            { "label": "1995–2004", "value": "Solidarpakt I", "sublabel": "82 Mrd. € für Infrastruktur" },
+            { "label": "2005–2019", "value": "Solidarpakt II", "sublabel": "156 Mrd. €, zweckgebunden für den Aufbau Ost" },
+            { "label": "2019", "value": "Ende der zweckgebundenen Förderung", "sublabel": "Solidarpakt II ausgelaufen", "highlight": true },
+            { "label": "2021", "value": "Soli-Reform", "sublabel": "rund 90 % aller Steuerzahler vollständig befreit" }
+          ],
+          "sourceRefs": ["bpb-solidarpakt-i-ii", "bpb-soli-geschichte-reform"]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            { "value": "238 Mrd. €", "label": "Gesamtvolumen Solidarpakt I + II", "sublabel": "1995–2019" },
+            { "value": "~90 %", "label": "vom Soli befreite Steuerzahler", "sublabel": "seit der Reform 2021" }
+          ],
+          "sourceRefs": ["bpb-solidarpakt-i-ii", "bpb-soli-geschichte-reform"]
+        },
+        {
+          "type": "text",
+          "text": "Die verbleibenden Soli-Einnahmen sind seit der Reform nicht mehr zweckgebunden für den Osten — sie fließen in den allgemeinen Bundeshaushalt. Das Bundesfinanzministerium selbst kann keine Auskunft darüber geben, wofür die Mittel konkret verwendet werden.",
+          "sourceRefs": ["bpb-soli-geschichte-reform"]
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "loehne-luecke-real",
+      "claim": "Im Osten verdient man immer noch viel weniger als im Westen!",
+      "response": "Richtig ist: Eine Lücke besteht noch, sie ist aber auf einem historischen Tiefstand. 1991 lag der Ostlohn bei nur 46 % des Westniveaus, 2024 sind es je nach Methodik 83–86 %. Bei niedrigen Löhnen ist die Lücke durch den Mindestlohn fast geschlossen, bei mittleren und hohen Gehältern bleibt sie größer. Der pauschale Satz trifft im Schnitt zu, unterschätzt aber deutlich, wie stark sich der Abstand seit 2015 verkleinert hat.",
+      "keywords": ["Lohnlücke", "Ost", "West", "Gehalt", "Verdienst", "Mindestlohn"],
+      "relatedSections": ["loehne-einkommen"],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Momentaufnahme statt Trend: Die Aussage ignoriert, dass sich die Lücke gerade in den letzten zehn Jahren stark verkleinert hat, und erweckt so den Eindruck von Stillstand.",
+      "counterQuestions": [
+        "Meinst du den Unterschied bei niedrigen oder bei hohen Einkommen?",
+        "Hat sich der Abstand in den letzten 10 Jahren für dich verändert oder ist er gleich geblieben?"
+      ]
+    },
+    {
+      "id": "renten-jetzt-gleich",
+      "claim": "Die Renten sind im Osten jetzt genauso hoch wie im Westen.",
+      "response": "Der Rentenwert — die Berechnungsgrundlage — ist seit dem 1. Juli 2023 tatsächlich bundeseinheitlich, das stimmt. Die ausgezahlten Renten unterscheiden sich aber weiter, weil sie von der individuellen Erwerbsbiografie abhängen: Bei Frauen liegt die Ost-Rente wegen der höheren DDR-Erwerbsquote sogar über der West-Rente (1.218 € vs. 861 €), bei Männern ist es leicht umgekehrt (1.416 € vs. 1.430 €). Gleiche Formel, aber unterschiedliche Ergebnisse je nach Lebenslauf.",
+      "keywords": ["Rente", "Rentenwert", "Ost", "West", "Angleichung", "DDR"],
+      "relatedSections": ["renten"],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Verwechslung von Berechnungsgrundlage und Ergebnis: Die Angleichung der Rentenwert-Formel wird fälschlich mit gleichen Auszahlungsbeträgen gleichgesetzt.",
+      "counterQuestions": [
+        "Meinst du den Rentenwert oder den tatsächlichen Auszahlungsbetrag?",
+        "Wusstest du, dass Frauen im Osten im Schnitt sogar mehr Rente bekommen als im Westen?"
+      ]
+    },
+    {
+      "id": "osten-nie-aufgebaut",
+      "claim": "Der Osten wurde nie richtig aufgebaut.",
+      "response": "Die Konvergenz seit 1990 zählt zu den größten wirtschaftlichen Aufholprozessen der Nachkriegsgeschichte: Das BIP pro Kopf stieg von rund 33 % auf etwa 80 % des Westniveaus, unterstützt durch rund 238 Milliarden Euro aus den Solidarpakten I und II. Richtig bleibt aber: Vollständig geschlossen ist die Lücke nicht, seit den 2000er Jahren stagniert die Annäherung bei Produktivität und Arbeitslosigkeit. 'Nie aufgebaut' widerspricht den Daten deutlich, 'nicht vollständig angeglichen' trifft es besser.",
+      "keywords": ["Aufbau Ost", "Solidarpakt", "Konvergenz", "Wirtschaft", "BIP"],
+      "relatedSections": ["wirtschaftskraft-arbeitsmarkt", "foerderung-aufbau-ost"],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Übertreibung durch Extremformulierung ('nie'): Die tatsächlich stattgefundene, massive Konvergenz wird komplett ausgeblendet.",
+      "counterQuestions": [
+        "Welchen Zeitraum meinst du — die 90er oder heute?",
+        "Was genau müsste passiert sein, damit du von 'aufgebaut' sprichst?"
+      ]
+    },
+    {
+      "id": "ostdeutsche-fuehrung-fehlen",
+      "claim": "Ostdeutsche sind in Führungspositionen kaum vertreten.",
+      "response": "Das lässt sich klar belegen: Ostdeutsche stellen nur 12,1 % der Führungspositionen in Deutschland, obwohl ihr Bevölkerungsanteil bei rund 20 % liegt — in der Wirtschaft sind es sogar nur 4 %, unter den Bundeswehr-Generälen niemand. In Verwaltung und Politik ist der Anteil mit 12,7 % bzw. 21,4 % höher und wächst. Insgesamt bleibt die Unterrepräsentation aber ein reales, gut dokumentiertes Muster — keine gefühlte Wahrnehmung.",
+      "keywords": ["Elite", "Führungspositionen", "Repräsentation", "DAX", "Ostdeutsche"],
+      "relatedSections": ["eliten-repraesentation"],
+      "verdict": "mostly-true",
+      "counterQuestions": [
+        "In welchen Bereichen hat sich die Repräsentation seit 2018 verbessert und in welchen verschlechtert?",
+        "Was könnte die Unterrepräsentation gerade in der Wirtschaft erklären?"
+      ]
+    },
+    {
+      "id": "junge-wandern-alle-ab",
+      "claim": "Die Jungen wandern alle in den Westen ab, der Osten stirbt aus.",
+      "response": "Das war in den 1990er- und 2000er-Jahren tatsächlich dramatisch: Zwischen 1991 und 2010 verlor der Osten netto über 1,1 Millionen Menschen an den Westen, mehrheitlich junge Frauen. Seit den 2010er-Jahren hat sich der Trend gedreht: 2017–2022 gab es sogar eine leichte Netto-Zuwanderung. Die reale Spaltung verläuft heute zwischen Stadt und Land: Leipzig und Dresden wachsen, viele ländliche Kreise schrumpfen weiter deutlich. Die pauschale Weiter-Abwanderung ist also überholt, das Stadt-Land-Gefälle nicht.",
+      "keywords": ["Abwanderung", "Landflucht", "Demografie", "Bevölkerung", "ländlicher Raum"],
+      "relatedSections": ["demografie-abwanderung"],
+      "verdict": "outdated",
+      "rhetoricalPattern": "Fortschreibung einer vergangenen Entwicklung in die Gegenwart: Die reale Trendwende der letzten 10–15 Jahre wird ignoriert.",
+      "counterQuestions": [
+        "Sprichst du von den 90ern oder von heute?",
+        "Meinst du den Osten insgesamt oder bestimmte ländliche Regionen?"
+      ]
+    },
+    {
+      "id": "jeder-hat-haus-osten",
+      "claim": "Im Osten hat doch jeder ein eigenes Haus, denen geht's gut.",
+      "response": "Das Bild vom Eigenheim auf dem Land hat einen wahren Kern: In der DDR waren selbst gebaute oder ererbte Ein- und Zweifamilienhäuser in ländlichen Gebieten verbreitet, anders als in den Neubaublocksiedlungen der Städte. Für die Gegenwart hält das Klischee aber nicht: Sachsen hat mit 34,5 % die niedrigste Wohneigentumsquote aller Flächenländer, in Leipzig und Dresden liegt sie sogar nur bei 13,5 % bzw. 16,8 %. Nur ostdeutsche Flächenländer wie Brandenburg (44,3 %) kommen an den Bundesschnitt (41,9 %) heran. Zwar steigt die Quote im Osten seit 2011 leicht, während sie im Westen leicht sinkt — von einer verbreiteten Eigenheim-Realität kann aber gerade in ostdeutschen Großstädten keine Rede sein.",
+      "keywords": ["Wohneigentum", "Eigenheim", "Immobilien", "Osten", "Wohnen"],
+      "relatedSections": ["eigentum-wohnen"],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Verallgemeinerung eines ländlichen DDR-Klischees auf die Gegenwart: Blendet aus, dass gerade ostdeutsche Großstädte die niedrigsten Eigentumsquoten Deutschlands haben.",
+      "counterQuestions": [
+        "Meinst du ländliche Gegenden oder auch Städte wie Leipzig und Dresden?",
+        "Worauf stützt sich der Eindruck — eigene Beobachtung oder Statistik?"
+      ]
+    },
+    {
+      "id": "ostdeutsche-waehlen-afd",
+      "claim": "Ostdeutsche wählen doch eh alle AfD.",
+      "response": "Richtig ist, dass die AfD im Osten überdurchschnittlich stark abschneidet — bei der Bundestagswahl 2025 im Schnitt etwa doppelt so hoch wie im Westen, mit dem höchsten Landesergebnis in Thüringen (38,6 %). 'Alle' trifft aber nicht zu: Auch in Thüringen haben rund 61 % nicht die AfD gewählt. Das reale, deskriptive Muster ist eine deutlich höhere Zustimmung im Osten als im Westen — keine Einheitlichkeit einer ganzen Bevölkerungsgruppe.",
+      "keywords": ["AfD", "Wahlverhalten", "Wahlergebnis", "Ost", "Bundestagswahl"],
+      "relatedSections": ["politische-einstellungen"],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Pauschalisierung einer Gruppe ('alle') anhand eines überdurchschnittlichen, aber weit von 100 % entfernten Stimmenanteils.",
+      "counterQuestions": [
+        "Was genau meinst du mit 'alle' — die Mehrheit oder wirklich jeder?",
+        "Wie erklärst du dir, dass in Thüringen trotzdem über 60 % nicht AfD gewählt haben?"
+      ]
+    },
+    {
+      "id": "soli-finanziert-osten",
+      "claim": "Der Soli beweist, dass der Westen den Osten bis heute querfinanziert.",
+      "response": "Historisch stimmt der Zusammenhang: Der Solidaritätszuschlag finanzierte zusammen mit den Solidarpakten I und II (1995–2019, zusammen rund 238 Milliarden Euro) tatsächlich gezielt den Aufbau Ost. Seit 2019 ist diese zweckgebundene Förderung aber ausgelaufen, und seit der Reform 2021 sind rund 90 % aller Steuerzahler vollständig vom Soli befreit. Die verbleibenden Einnahmen fließen laut Bundesfinanzministerium nicht zweckgebunden in den allgemeinen Haushalt — eine gezielte Ost-Finanzierung 'bis heute' lässt sich daraus nicht mehr ableiten.",
+      "keywords": ["Solidaritätszuschlag", "Soli", "Aufbau Ost", "Solidarpakt", "Finanzierung"],
+      "relatedSections": ["foerderung-aufbau-ost"],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Verwechslung von historischer Zweckbindung mit aktueller Mittelverwendung: Was früher stimmte, wird unverändert auf die Gegenwart übertragen.",
+      "counterQuestions": [
+        "Beziehst du dich auf die Zeit vor oder nach 2019, als der Solidarpakt II auslief?",
+        "Weißt du, wofür der Soli seit der Reform 2021 konkret verwendet wird?"
+      ]
+    },
+    {
+      "id": "osten-braucht-keine-foerderung-mehr",
+      "claim": "Der Osten braucht keine Extra-Förderung mehr, das ist jetzt unfair gegenüber dem Westen.",
+      "response": "Das ist eine Wertefrage, die sich nicht allein aus Zahlen beantworten lässt. Faktenbasis: Die gezielte Aufbau-Ost-Förderung über die Solidarpakte ist bereits 2019 ausgelaufen, der Soli ist seit 2021 für die meisten Steuerzahler abgeschafft. Gleichzeitig bleibt eine reale Lücke bei BIP pro Kopf (rund 80 % des Westniveaus), Vermögen und Arbeitslosigkeit bestehen. Ob verbleibende regionale Strukturprogramme gerechtfertigt sind oder Förderung künftig bedürftigkeitsbasiert statt regional vergeben werden sollte, ist eine politische Abwägung zwischen Aufholbedarf und Gleichbehandlung, die diese Zahlen allein nicht entscheiden.",
+      "keywords": ["Förderung", "Fairness", "Aufbau Ost", "Strukturpolitik", "Solidarität"],
+      "relatedSections": ["foerderung-aufbau-ost", "wirtschaftskraft-arbeitsmarkt"]
+    }
+  ],
+  "sources": [
+    { "id": "destatis-verdienstluecke-ost-west", "label": "Statistisches Bundesamt – 35 Jahre Deutsche Einheit: Verdienstunterschiede", "url": "https://www.destatis.de/DE/Themen/Querschnitt/35-Jahre-Deutsche-Einheit/Vermoegen-Einkommen/Textbausteine/01_verdienstunterschiede.html" },
+    { "id": "iab-lohnluecke-vollzeit-2024", "label": "IAB – Lohnlücke zwischen Ost und West bei Vollzeitbeschäftigten", "url": "https://iab.de/presseinfo/trotz-schrumpfender-lohnluecke-beschaeftigte-im-osten-verdienen-immer-noch-14-prozent-weniger-als-im-westen/" },
+    { "id": "boeckler-wsi-lohngefaelle-angleichung", "label": "Hans-Böckler-Stiftung/WSI – Weiter Lohngefälle zwischen West und Ost", "url": "https://www.boeckler.de/de/pressemitteilungen-2675-weiter-lohngefalle-zwischen-west-und-ost-71794.htm" },
+    { "id": "diw-vermoegen-ost-west", "label": "bpb – Vermögen in West- und Ostdeutschland nach Alter (DIW/SOEP-Daten)", "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61778/vermoegen-in-west-und-ostdeutschland-nach-alter/" },
+    { "id": "diw-erbschaften-ost-west-2021", "label": "DIW Berlin – Erbschaften und Schenkungen (Wochenbericht 5/2021)", "url": "https://www.diw.de/de/diw_01.c.809832.de/publikationen/wochenberichte/2021_05_1/haelfte_aller_erbschaften_und_schenkungen_geht_an_die_reichsten_zehn_prozent_aller_beguenstigten.html" },
+    { "id": "drv-rentenwert-angleichung-2023", "label": "Bundesregierung – Rente: Ost-West-Angleichung 2023", "url": "https://www.bundesregierung.de/breg-de/aktuelles/rente-ost-west-angleichung-2172482" },
+    { "id": "drv-rentenwert-anpassung-2024", "label": "Deutsche Rentenversicherung – Rentenanpassung 2024", "url": "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2024/240701-rentenanpassung-2024.html" },
+    { "id": "t-online-rentenzahlbetrag-ost-west-2023", "label": "t-online – Rente in Deutschland: Ost-West-Unterschiede", "url": "https://www.t-online.de/nachrichten/deutschland/id_100824636/rente-in-deutschland-ost-west-unterschiede-detail-ueberrascht.html" },
+    { "id": "wsi-gender-pension-gap-ost-west-2024", "label": "WSI – Durchschnittlicher Rentenzahlbetrag von Frauen und Männern", "url": "https://www.wsi.de/de/einkommen-14619-durchschnittlicher-rentenzahlbetrag-von-frauen-und-maennern-14916.htm" },
+    { "id": "bmf-bip-konvergenz-ost-west-prozent", "label": "Bundesfinanzministerium – Monatsbericht: 35 Jahre Wiedervereinigung", "url": "https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2025/12/Inhalte/Kapitel-2-Analysen/2-1-35-jahre-wiedervereinigung.html" },
+    { "id": "bpb-arbeitslosenquote-ost-west-2024", "label": "bpb – Arbeitslose und Arbeitslosenquote", "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61718/arbeitslose-und-arbeitslosenquote/" },
+    { "id": "iwh-halle-produktivitaetsluecke-ost-west", "label": "IWH Halle – The Nasty Gap: 30 Years After Unification", "url": "https://www.iwh-halle.de/en/topics/east-germany" },
+    { "id": "destatis-bip-pro-kopf-bundeslaender-2024", "label": "Statistisches Bundesamt – 35 Jahre Deutsche Einheit", "url": "https://www.destatis.de/DE/Themen/Querschnitt/35-Jahre-Deutsche-Einheit/_inhalt.html" },
+    { "id": "destatis-abwanderung-frauen-jung-ost-west", "label": "Statistisches Bundesamt – Demografischer Wandel: Bevölkerungsentwicklung Ost-West", "url": "https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aspekte/demografie-bevoelkerungsentwicklung-ost-west.html" },
+    { "id": "destatis-bevoelkerung-ost-west-1990-2024", "label": "Statistisches Bundesamt – Bevölkerungsentwicklung seit der Wiedervereinigung", "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_N047_12.html" },
+    { "id": "bertelsmann-leipzig-dresden-laendlicher-raum", "label": "L-IZ / Bertelsmann Stiftung – Bevölkerungsprognose Sachsen 2020–2040", "url": "https://www.l-iz.de/politik/kassensturz/2024/04/bertelsmann-studie-sachsen-schrumpft-leipzig-dresden-wachsen-584365" },
+    { "id": "destatis-wohneigentumsquote-bundeslaender-2022", "label": "Statistisches Bundesamt – Eigentumsquote nach Bundesländern (Mikrozensus 2022)", "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Wohnen/Tabellen/tabelle-eigentumsquote.html" },
+    { "id": "nationalatlas-wohneigentum-grossstaedte-ost", "label": "Nationalatlas / Leibniz-Institut für Länderkunde – Selbstgenutztes Wohneigentum in Deutschland", "url": "https://nationalatlas.de/nadbeitrag/selbstgenutztes-wohneigentum-in-deutschland-ein-faktor-soziooekonomischer-ungleichheit/" },
+    { "id": "ostdeutschland-info-elitenmonitor-fuehrung", "label": "ostdeutschland.info – Elitenmonitor: Weiterhin zu wenige Ostdeutsche in Führungspositionen", "url": "https://ostdeutschland.info/aktueller-elitenmonitor-weiterhin-zu-wenige-ostdeutsche-in-fuehrungspositionen/" },
+    { "id": "evangelisch-de-elitenmonitor-justiz-militaer", "label": "evangelisch.de – Ostdeutsche sind selten Elite", "url": "https://www.evangelisch.de/inhalte/221022/20-09-2023/ostdeutsche-sind-selten-elite" },
+    { "id": "tagesspiegel-dax-vorstaende-ost", "label": "Tagesspiegel – Nur fünf Ostdeutsche sitzen in DAX-Vorständen", "url": "https://www.tagesspiegel.de/wirtschaft/nur-funf-ostdeutsche-sitzen-in-dax-vorstanden-8540971.html" },
+    { "id": "bundeswahlleiterin-afd-zweitstimmen-2025", "label": "Bundeswahlleiterin – Bundestagswahl 2025: Ergebnisse", "url": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse/bund-99.html" },
+    { "id": "bpb-waehlerstimmen-laender-wahlkreise", "label": "bpb – Wählerstimmen in Ländern und Wahlkreisen", "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/560707/waehlerstimmen-in-laendern-und-wahlkreisen/" },
+    { "id": "bpb-afd-ost-west-waehlerschaft", "label": "bpb – Wahlergebnisse und Wählerschaft der AfD", "url": "https://www.bpb.de/themen/parteien/parteien-in-deutschland/afd/273131/wahlergebnisse-und-waehlerschaft-der-afd/" },
+    { "id": "ostdeutschland-info-deutschland-monitor-2024", "label": "ostdeutschland.info – Deutschland-Monitor 2024: Wie tickt der Osten?", "url": "https://ostdeutschland.info/deutschland-monitor-2024-wie-tickt-der-osten/" },
+    { "id": "bpb-solidarpakt-i-ii", "label": "bpb – Solidarpakt I und II", "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/501239/solidarpakt-i-und-ii/" },
+    { "id": "bpb-soli-geschichte-reform", "label": "bpb – Vor 30 Jahren: Bundestag beschließt Solidaritätszuschlag", "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/333149/vor-30-jahren-bundestag-beschliesst-solidaritaetszuschlag/" }
+  ]
+}
