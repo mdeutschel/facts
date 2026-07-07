@@ -94,7 +94,7 @@
           "type": "comparison",
           "caption": "Durchschnittlicher Rentenzahlbetrag 2023",
           "items": [
-            { "title": "Frauen", "rows": [{ "label": "Ost", "value": "1.218 €" }, { "label": "West", "value": "unter 1.000 €" }] },
+            { "title": "Frauen", "rows": [{ "label": "Ost", "value": "1.218 €" }, { "label": "West", "value": "861 €" }] },
             { "title": "Männer", "rows": [{ "label": "Ost", "value": "1.416 €" }, { "label": "West", "value": "1.430 €" }] }
           ],
           "sourceRefs": ["t-online-rentenzahlbetrag-ost-west-2023"]
@@ -134,7 +134,7 @@
         },
         {
           "type": "text",
-          "text": "Die Konvergenz war in den 1990er Jahren rasant, ist seit rund 2000 aber ins Stocken geraten: Die Arbeitslosigkeit im Osten war 2019 fast auf Westniveau gesunken, seither hat sich die Lücke wieder leicht vergrößert.",
+          "text": "Die Konvergenz war in den 1990er Jahren rasant, ist seit rund 2000 aber ins Stocken geraten: Der Abstand bei der Arbeitslosigkeit hatte sich bis 2019 auf 1,7 Prozentpunkte verringert (Ost 6,4 % / West 4,7 %), seither ist die Lücke wieder leicht auf 1,8 Prozentpunkte gewachsen.",
           "sourceRefs": ["bpb-arbeitslosenquote-ost-west-2024", "iwh-halle-produktivitaetsluecke-ost-west"]
         }
       ]
@@ -197,7 +197,7 @@
         },
         {
           "type": "fact",
-          "text": "In Leipzig liegt die Wohneigentumsquote bei 13,5 %, in Dresden bei 16,8 % — die niedrigsten Werte unter den großen deutschen Städten.",
+          "text": "Leipzig hat mit 13,5 % die niedrigste Wohneigentumsquote unter den großen deutschen Städten, Dresden liegt mit 16,8 % ebenfalls sehr niedrig.",
           "sourceRefs": ["nationalatlas-wohneigentum-grossstaedte-ost"]
         },
         {
@@ -277,19 +277,19 @@
           "caption": "Aufbau Ost: Förderung im Zeitverlauf",
           "steps": [
             { "label": "1995–2004", "value": "Solidarpakt I", "sublabel": "82 Mrd. € für Infrastruktur" },
-            { "label": "2005–2019", "value": "Solidarpakt II", "sublabel": "156,5 Mrd. €, zweckgebunden für den Aufbau Ost" },
+            { "label": "2005–2019", "value": "Solidarpakt II", "sublabel": "156 Mrd. €, zweckgebunden für den Aufbau Ost" },
             { "label": "2019", "value": "Ende der zweckgebundenen Förderung", "sublabel": "Solidarpakt II ausgelaufen", "highlight": true },
             { "label": "2021", "value": "Soli-Reform", "sublabel": "rund 90 % aller Steuerzahler vollständig befreit" }
           ],
-          "sourceRefs": ["wikipedia-solidarpakt-zeitraeume-volumen", "bpb-soli-geschichte-reform"]
+          "sourceRefs": ["bpb-solidarpakt-i-ii", "bpb-soli-geschichte-reform"]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "238,5 Mrd. €", "label": "Gesamtvolumen Solidarpakt I + II", "sublabel": "1995–2019" },
+            { "value": "238 Mrd. €", "label": "Gesamtvolumen Solidarpakt I + II", "sublabel": "1995–2019" },
             { "value": "~90 %", "label": "vom Soli befreite Steuerzahler", "sublabel": "seit der Reform 2021" }
           ],
-          "sourceRefs": ["wikipedia-solidarpakt-zeitraeume-volumen", "bpb-soli-geschichte-reform"]
+          "sourceRefs": ["bpb-solidarpakt-i-ii", "bpb-soli-geschichte-reform"]
         },
         {
           "type": "text",
@@ -316,7 +316,7 @@
     {
       "id": "renten-jetzt-gleich",
       "claim": "Die Renten sind im Osten jetzt genauso hoch wie im Westen.",
-      "response": "Der Rentenwert — die Berechnungsgrundlage — ist seit dem 1. Juli 2023 tatsächlich bundeseinheitlich, das stimmt. Die ausgezahlten Renten unterscheiden sich aber weiter, weil sie von der individuellen Erwerbsbiografie abhängen: Bei Frauen liegt die Ost-Rente wegen der höheren DDR-Erwerbsquote sogar über der West-Rente (1.218 € vs. unter 1.000 €), bei Männern ist es leicht umgekehrt (1.416 € vs. 1.430 €). Gleiche Formel, aber unterschiedliche Ergebnisse je nach Lebenslauf.",
+      "response": "Der Rentenwert — die Berechnungsgrundlage — ist seit dem 1. Juli 2023 tatsächlich bundeseinheitlich, das stimmt. Die ausgezahlten Renten unterscheiden sich aber weiter, weil sie von der individuellen Erwerbsbiografie abhängen: Bei Frauen liegt die Ost-Rente wegen der höheren DDR-Erwerbsquote sogar über der West-Rente (1.218 € vs. 861 €), bei Männern ist es leicht umgekehrt (1.416 € vs. 1.430 €). Gleiche Formel, aber unterschiedliche Ergebnisse je nach Lebenslauf.",
       "keywords": ["Rente", "Rentenwert", "Ost", "West", "Angleichung", "DDR"],
       "relatedSections": ["renten"],
       "verdict": "misleading",
@@ -329,7 +329,7 @@
     {
       "id": "osten-nie-aufgebaut",
       "claim": "Der Osten wurde nie richtig aufgebaut.",
-      "response": "Die Konvergenz seit 1990 zählt zu den größten wirtschaftlichen Aufholprozessen der Nachkriegsgeschichte: Das BIP pro Kopf stieg von rund 33 % auf etwa 80 % des Westniveaus, unterstützt durch über 238 Milliarden Euro aus den Solidarpakten I und II. Richtig bleibt aber: Vollständig geschlossen ist die Lücke nicht, seit den 2000er Jahren stagniert die Annäherung bei Produktivität und Arbeitslosigkeit. 'Nie aufgebaut' widerspricht den Daten deutlich, 'nicht vollständig angeglichen' trifft es besser.",
+      "response": "Die Konvergenz seit 1990 zählt zu den größten wirtschaftlichen Aufholprozessen der Nachkriegsgeschichte: Das BIP pro Kopf stieg von rund 33 % auf etwa 80 % des Westniveaus, unterstützt durch rund 238 Milliarden Euro aus den Solidarpakten I und II. Richtig bleibt aber: Vollständig geschlossen ist die Lücke nicht, seit den 2000er Jahren stagniert die Annäherung bei Produktivität und Arbeitslosigkeit. 'Nie aufgebaut' widerspricht den Daten deutlich, 'nicht vollständig angeglichen' trifft es besser.",
       "keywords": ["Aufbau Ost", "Solidarpakt", "Konvergenz", "Wirtschaft", "BIP"],
       "relatedSections": ["wirtschaftskraft-arbeitsmarkt", "foerderung-aufbau-ost"],
       "verdict": "mostly-false",
@@ -393,7 +393,7 @@
     {
       "id": "soli-finanziert-osten",
       "claim": "Der Soli beweist, dass der Westen den Osten bis heute querfinanziert.",
-      "response": "Historisch stimmt der Zusammenhang: Der Solidaritätszuschlag finanzierte zusammen mit den Solidarpakten I und II (1995–2019, zusammen über 238 Milliarden Euro) tatsächlich gezielt den Aufbau Ost. Seit 2019 ist diese zweckgebundene Förderung aber ausgelaufen, und seit der Reform 2021 sind rund 90 % aller Steuerzahler vollständig vom Soli befreit. Die verbleibenden Einnahmen fließen laut Bundesfinanzministerium nicht zweckgebunden in den allgemeinen Haushalt — eine gezielte Ost-Finanzierung 'bis heute' lässt sich daraus nicht mehr ableiten.",
+      "response": "Historisch stimmt der Zusammenhang: Der Solidaritätszuschlag finanzierte zusammen mit den Solidarpakten I und II (1995–2019, zusammen rund 238 Milliarden Euro) tatsächlich gezielt den Aufbau Ost. Seit 2019 ist diese zweckgebundene Förderung aber ausgelaufen, und seit der Reform 2021 sind rund 90 % aller Steuerzahler vollständig vom Soli befreit. Die verbleibenden Einnahmen fließen laut Bundesfinanzministerium nicht zweckgebunden in den allgemeinen Haushalt — eine gezielte Ost-Finanzierung 'bis heute' lässt sich daraus nicht mehr ableiten.",
       "keywords": ["Solidaritätszuschlag", "Soli", "Aufbau Ost", "Solidarpakt", "Finanzierung"],
       "relatedSections": ["foerderung-aufbau-ost"],
       "verdict": "misleading",
@@ -437,7 +437,7 @@
     { "id": "bpb-waehlerstimmen-laender-wahlkreise", "label": "bpb – Wählerstimmen in Ländern und Wahlkreisen", "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/bundestagswahlen/560707/waehlerstimmen-in-laendern-und-wahlkreisen/" },
     { "id": "bpb-afd-ost-west-waehlerschaft", "label": "bpb – Wahlergebnisse und Wählerschaft der AfD", "url": "https://www.bpb.de/themen/parteien/parteien-in-deutschland/afd/273131/wahlergebnisse-und-waehlerschaft-der-afd/" },
     { "id": "ostdeutschland-info-deutschland-monitor-2024", "label": "ostdeutschland.info – Deutschland-Monitor 2024: Wie tickt der Osten?", "url": "https://ostdeutschland.info/deutschland-monitor-2024-wie-tickt-der-osten/" },
-    { "id": "wikipedia-solidarpakt-zeitraeume-volumen", "label": "Wikipedia – Solidarpakt", "url": "https://de.wikipedia.org/wiki/Solidarpakt" },
+    { "id": "bpb-solidarpakt-i-ii", "label": "bpb – Solidarpakt I und II", "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/501239/solidarpakt-i-und-ii/" },
     { "id": "bpb-soli-geschichte-reform", "label": "bpb – Vor 30 Jahren: Bundestag beschließt Solidaritätszuschlag", "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/333149/vor-30-jahren-bundestag-beschliesst-solidaritaetszuschlag/" }
   ]
 }
