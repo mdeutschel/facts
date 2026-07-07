@@ -74,7 +74,8 @@ input/                  # Quell-Markdown (Referenzmaterial, wird nicht deployed)
 - ContentBlock-Typen: `fact`, `text`, `table`, `stat_grid`, `comparison`, `range_bar`, `bar_chart`, `line_chart`, `timeline`, `progress_stack`, `myth_fact`, `pictograph`, `target_progress`
 - Client-seitiger Suchindex wird zur Laufzeit aus allen Topic-JSONs aufgebaut
 - `id`-Felder: kebab-case, `icon`: MUI-Icon-Name, `lastUpdated`: `YYYY-MM-DD`
-- Quellen: `label` Pflicht, `url` optional
+- Quellen: `label` und `url` Pflicht — jede Quelle muss online verifizierbar sein. Einzige Ausnahme: nicht online verfügbare Publikationen (Print), dann Ausgabe/Jahr im `label` vermerken
+- Zentrale Datenpunkte (highlight-Fakten, `keyStats`, Kernzahlen in Argumenten) nicht allein auf interessengebundene Quellen (Verbände, Stiftungen, Auftragsstudien) stützen — unabhängige Zweitquelle oder Herkunftsvermerk im Text (siehe Unabhängigkeitsregel in `.claude/skills/create-topic/SKILL.md`)
 - Argumente: `keywords` für Suchmatching, `relatedSections` verlinkt zu Section-IDs
 
 ## Auto-generierte Dateien
@@ -134,6 +135,10 @@ Detaillierte Konventionen sind in den Rule-Dateien unter `.claude/rules/` defini
 - Bei unklaren Type-Fehlern: zuerst `src/types/index.ts` prüfen
 - Bei unerwartetem MUI-Komponentenverhalten: MUI-v9-Docs prüfen (Breaking Changes gegenüber v7/v8)
 
+## Projekt-Skills: autonome Abarbeitung
+
+Alle Projekt-Skills (`create-topic`, `update-topic`, `review-content`, `verify-sources`, `audit-freshness`) laufen standardmäßig **vollständig autonom** durch: Zwischenberichte dokumentieren Entscheidungen, sind aber keine Freigabe-Gates. Angehalten wird nur bei echten Blockern (fehlende Datenbasis für ein ganzes Thema, mehrdeutiger Auftrag mit gegensätzlichen Ergebnissen, Build-Fehler nach 2 Versuchen) oder wenn der Nutzer ausdrücklich um Rücksprache gebeten hat.
+
 ## Thema erstellen
 
 Um ein komplett neues Thema von Grund auf zu erstellen, `/create-topic {topicId} {topicTitle}` verwenden. Der Skill orchestriert Recherche mit integrierter Quellenverifizierung, JSON-Erstellung und beide Quality Gates (`review-content`, `verify-sources`) in einem 6-Phasen-Workflow. Vollständige Anleitung in `.claude/skills/create-topic/SKILL.md`.
@@ -146,16 +151,15 @@ Topic-JSON-Quellen MÜSSEN online verifizierbar sein. `/verify-sources {topicId}
 
 Topic-Inhalte müssen argumentativ stichhaltig, ausgewogen und schwer angreifbar sein. `/review-content {topicId}` verwenden, um Framing, Nuancierung und intellektuelle Redlichkeit zu prüfen. Beim Erstellen oder Erweitern von Topic-Inhalten die Autor-Modus-Leitplanken aus `.claude/skills/review-content/SKILL.md` anwenden.
 
-Zentrale Qualitätsdimensionen: Nuance & Teilwahrheiten, Claim-Source-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung, Gesprächstauglichkeit (Truth-Sandwich-Einstieg, `rhetoricalPattern`, `counterQuestions` — siehe Leitfaden unter `/leitfaden/`), politische Neutralität (Verdict nur auf empirisch prüfbare Claims, kein Plädoyer, gleicher Maßstab und ausgewogene Claim-Auswahl über alle politischen Richtungen).
+Zentrale Qualitätsdimensionen: Nuance & Teilwahrheiten, Claim-Source-Fit & Quellen-Unabhängigkeit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung, Gesprächstauglichkeit (Truth-Sandwich-Einstieg, `rhetoricalPattern`, `counterQuestions` — siehe Leitfaden unter `/leitfaden/`), politische Neutralität (Verdict nur auf empirisch prüfbare Claims — zutreffende Claims bekommen `true` —, kein Plädoyer, gleicher Maßstab und ausgewogene Claim-Auswahl über alle politischen Richtungen).
 
 ## Thema bearbeiten
 
-Beim Aktualisieren oder Erweitern bestehender Topic-JSONs:
+Zum Aktualisieren oder Erweitern bestehender Topic-JSONs `/update-topic {topicId} {Änderungsauftrag}` verwenden. Der Skill orchestriert Recherche mit Inline-Verifizierung, Autor-Leitplanken, einen Darstellungs-Check (Blocktyp-Vielfalt, UX, Datenverständnis — bei Darstellungsaufträgen für das ganze Topic), beide Quality Gates und den Build. Vollständige Anleitung in `.claude/skills/update-topic/SKILL.md`.
 
-1. JSON bearbeiten — dabei Autor-Modus-Leitplanken aus `review-content` anwenden
-2. `/review-content {topicId}` — Framing und Argumentation prüfen
-3. `/verify-sources {topicId}` — bei geänderten Daten oder Quellen
-4. `npm run build` — Validierung und Index-Neugenerierung
+## Datenpflege
+
+Um systematisch zu finden, welche Themen veraltete Daten enthalten, `/audit-freshness` verwenden (read-only, priorisiert nach `lastUpdated` und zeitgebundenen Angaben). Die Umsetzung der Befunde erfolgt per `/update-topic`. Vollständige Anleitung in `.claude/skills/audit-freshness/SKILL.md`.
 
 ## Definition of Done
 

@@ -68,6 +68,32 @@ Konkrete Beispiele aus echtem Feedback mit Antipattern und verbesserten Versione
 
 **Warum besser**: Formuliert genau das, was die Quelle zeigt — nicht mehr.
 
+### Antipattern: Interessengebundene Einzelquelle als neutraler Fakt
+
+```json
+{
+  "type": "fact",
+  "text": "Extremwetter verursachte 2024 Schäden von 5,7 Mrd. €.",
+  "highlight": true,
+  "sourceRefs": ["gdv-naturgefahrenbilanz-2025"]
+}
+```
+
+**Problem**: Ein highlight-Fakt stützt sich allein auf den Versicherer-Verband GDV — eine interessengebundene Quelle (Verbände, Stiftungen mit Agenda, Auftragsstudien). Angreifbar mit „Die Zahl kommt doch von der Versicherungslobby."
+
+### Korrigierte Version
+
+```json
+{
+  "type": "fact",
+  "text": "Der Versicherer-Verband GDV beziffert die versicherten Extremwetter-Schäden 2024 auf 5,7 Mrd. € — unversicherte Schäden kommen hinzu.",
+  "highlight": true,
+  "sourceRefs": ["gdv-naturgefahrenbilanz-2025"]
+}
+```
+
+**Warum besser**: Die Herkunft ist ausgewiesen und die Abgrenzung (nur versicherte Schäden) benannt. Noch besser: eine unabhängige Zweitquelle (z. B. amtliche Statistik, Munich-Re-unabhängige Forschung) ergänzen, die die Größenordnung bestätigt.
+
 ---
 
 ## Dim 3: Einseitige Kalkulationen
@@ -358,10 +384,15 @@ Bei der Darstellung der Befunde im Review-Modus diese Struktur verwenden:
 | argument "claim-id" | ✗ | Verdict auf normativem Claim | Verdict entfernen, Wertkonflikt ausweisen |
 | Topic gesamt | ⚠ | Claims nur aus einer Richtung | Verbreitete Fehlannahmen der Gegenrichtung ergänzen |
 
-## Empfohlene Änderungen
-1. argument "claim-id": response umformulieren (Dim 1, 5)
-2. section "section-id", fact block: Bedingung ergänzen (Dim 6)
+## Angewendete Änderungen
+1. argument "claim-id": response umformuliert (Dim 1, 5) — {alt → neu in einem Satz}
+2. section "section-id", fact block: Bedingung ergänzt (Dim 6)
 ...
 
-Sollen die Änderungen angewendet werden?
+## Validierung
+- npm run lint: {Exit-Code}
+- npm run build: {Exit-Code}
+
+## Nicht umgesetzt (mit Begründung)
+- {Befund} — {warum offen gelassen, z. B. würde Kernaussage umkehren → Rücksprache empfohlen}
 ```

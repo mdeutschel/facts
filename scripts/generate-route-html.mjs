@@ -23,6 +23,7 @@ const VERDICT_META = {
   'lacks-context': { label: 'Ohne Kontext irreführend', ratingValue: 2 },
   'partially-true': { label: 'Teilweise wahr', ratingValue: 3 },
   'mostly-true': { label: 'Überwiegend wahr', ratingValue: 4 },
+  'true': { label: 'Wahr', ratingValue: 5 },
 }
 
 function truncate(text, max) {
@@ -594,7 +595,7 @@ const STATIC_ROUTES = [
 <p>Marcel Deutschel, Informatiker, beschäftigt sich seit Jahren intensiv mit großen Sprachmodellen — was sie können, was nicht, und wie man sie gegen ihre eigenen Schwächen absichert. Fakten-Stammtisch ist sein privates Projekt.</p>
 <p>Er ist ausdrücklich kein Experte für Klimaforschung, Sozialpolitik, Verkehrsplanung oder Sprachwissenschaft. Sein Beitrag liegt in der Arbeit am Prüfverfahren selbst — den Skills im <a href="https://github.com/mdeutschel/facts/tree/main/.claude/skills" rel="noopener">Open-Source-Repository</a>.</p>
 <h2>Wie die Inhalte entstehen</h2>
-<p>Jedes Topic durchläuft denselben Workflow: Recherche, strukturierte Aufbereitung, Quellenverifizierung gegen erreichbare Online-Belege, inhaltliche Prüfung gegen acht Qualitätsdimensionen (Nuance, Quellen-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente, sprachliche Präzision, Argument-Claim-Passung, Gesprächstauglichkeit). Details auf der <a href="${SITE_URL}/methodik/">Methodik-Seite</a>.</p>
+<p>Jedes Topic durchläuft denselben Workflow: Recherche, strukturierte Aufbereitung, Quellenverifizierung gegen erreichbare Online-Belege, inhaltliche Prüfung gegen neun Qualitätsdimensionen (Nuance, Quellen-Fit &amp; -Unabhängigkeit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente, sprachliche Präzision, Argument-Claim-Passung, Gesprächstauglichkeit, politische Neutralität). Details auf der <a href="${SITE_URL}/methodik/">Methodik-Seite</a>.</p>
 <h2>Was diese Seite nicht ist</h2>
 <ul>
 <li>Kein Faktencheck-Portal im journalistischen Sinn (dafür gibt es Correctiv, dpa-Faktencheck und andere).</li>
@@ -608,7 +609,7 @@ const STATIC_ROUTES = [
     path: '/methodik',
     title: 'Methodik',
     description:
-      'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität.',
+      'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, neun Qualitätsdimensionen und transparenter Aktualität.',
     jsonLd: {
       '@context': 'https://schema.org',
       '@type': 'WebPage',
@@ -616,7 +617,7 @@ const STATIC_ROUTES = [
       url: `${SITE_URL}/methodik/`,
       name: 'Methodik',
       description:
-        'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, acht Qualitätsdimensionen und transparenter Aktualität.',
+        'Wie Inhalte auf Fakten-Stammtisch entstehen: KI-gestützter Workflow mit Quellenverifizierung, neun Qualitätsdimensionen und transparenter Aktualität.',
       inLanguage: 'de',
       author: { '@id': PERSON_ID },
       publisher: { '@id': ORG_ID },
@@ -631,7 +632,7 @@ const STATIC_ROUTES = [
 <li><strong>Recherche &amp; Quellensammlung</strong> — Primärquellen (Studien, amtliche Statistiken, Fachinstitute) werden gezielt gesucht und dokumentiert.</li>
 <li><strong>Strukturierte Aufbereitung</strong> — Fakten und Argumente werden in einem festen JSON-Schema erfasst (Sections, Arguments mit Claim/Response, Sources).</li>
 <li><strong>Quellenverifizierung</strong> — jede Quelle wird gegen die tatsächlich erreichbare Online-Quelle geprüft (URL erreichbar, Daten stimmen mit dem Beleg überein).</li>
-<li><strong>Inhaltliche Qualitätsprüfung</strong> — entlang acht Dimensionen: Nuance &amp; Teilwahrheiten, Claim-Source-Fit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung, Gesprächstauglichkeit (Truth-Sandwich-Einstieg, Musterbenennung, Gegenfragen — siehe <a href="${SITE_URL}/leitfaden/">Gesprächsleitfaden</a>).</li>
+<li><strong>Inhaltliche Qualitätsprüfung</strong> — entlang neun Dimensionen: Nuance &amp; Teilwahrheiten, Claim-Source-Fit &amp; Quellen-Unabhängigkeit, Annahmen-Transparenz, Fakt vs. Bewertung, Gegenargumente einbeziehen, sprachliche Präzision, Argument-Claim-Passung, Gesprächstauglichkeit (Truth-Sandwich-Einstieg, Musterbenennung, Gegenfragen — siehe <a href="${SITE_URL}/leitfaden/">Gesprächsleitfaden</a>).</li>
 <li><strong>Veröffentlichung</strong> — mit Stand-Datum (lastUpdated), das transparent macht, wann zuletzt aktualisiert wurde.</li>
 </ol>
 <h2>Transparenz</h2>
