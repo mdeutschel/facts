@@ -87,14 +87,16 @@ export default function Methodik() {
             </Typography>
           </Box>
           <Typography variant="body2">
-            Nach Phase 3 und 4 entscheide ich über die Befunde, die das
-            System markiert hat — kein Automatismus erzwingt, dass jeder
-            Hinweis behoben wird, bevor ein Topic erscheint. Eine
-            systematische redaktionelle Vollprüfung jeder einzelnen Aussage
-            findet bewusst nicht statt; eigene Stichproben ergänzen die
-            automatisierten Prüfungen punktuell. Die Vollständigkeit und
-            Schärfe der Korrekturen liegt in meiner Verantwortung. Mehr
-            dazu unter „Grenzen dieser Methodik".
+            Die Prüfläufe in Phase 3 und 4 wenden ihre Befunde selbst an:
+            Falsche Zahlen werden korrigiert, nicht belegbare
+            Quellenverweise entfernt, und jede Änderung wird dokumentiert.
+            Ob ein Topic danach veröffentlicht wird, entscheide ich — ich
+            sichte die dokumentierten Änderungen und kann sie überstimmen.
+            Eine systematische redaktionelle Vollprüfung jeder einzelnen
+            Aussage findet bewusst nicht statt; eigene Stichproben ergänzen
+            die automatisierten Prüfungen punktuell. Die Verantwortung für
+            das Veröffentlichte liegt bei mir. Mehr dazu unter „Grenzen
+            dieser Methodik".
           </Typography>
         </Stack>
       </Paper>
@@ -134,6 +136,18 @@ export default function Methodik() {
             behauptete Information nicht enthält, wird nicht akzeptiert,
             auch nicht als „nahe genug".
           </Typography>
+          <Typography variant="body2">
+            Sonderfälle werden nicht vorschnell aussortiert: PDF-Belege
+            werden heruntergeladen und im Volltext geprüft. Inhalte hinter
+            Bezahlschranken gelten als nicht verifizierbar — nicht als
+            widerlegt — und werden möglichst durch frei zugängliche Belege
+            ersetzt. Nicht mehr erreichbare Links werden gegen archivierte
+            Schnappschüsse (Wayback Machine) geprüft und bei Bestätigung
+            durch die Archiv-Adresse ersetzt. Liefern zwei seriöse Quellen
+            unterschiedliche Zahlen, wird die Abweichung im Inhalt
+            transparent gemacht — als Spanne oder mit beiden Werten —
+            statt stillschweigend eine Zahl zu wählen.
+          </Typography>
         </Stack>
       </Paper>
 
@@ -155,9 +169,14 @@ export default function Methodik() {
               wird.
             </Typography>
             <Typography component="li" variant="body2">
-              <strong>Claim-Source-Fit</strong> — Eine Quelle muss genau
-              das stützen, wofür sie zitiert wird. Überinterpretation ist
-              der häufigste Fehler und wird konsequent korrigiert.
+              <strong>Claim-Source-Fit &amp; Quellen-Unabhängigkeit</strong>{' '}
+              — Eine Quelle muss genau das stützen, wofür sie zitiert
+              wird; Überinterpretation ist der häufigste Fehler und wird
+              konsequent korrigiert. Zentrale Kennzahlen stützen sich
+              zudem nicht allein auf interessengebundene Quellen
+              (Verbände, Stiftungen, Auftragsstudien) — es braucht eine
+              unabhängige Zweitquelle, oder die Herkunft wird im Text
+              ausgewiesen.
             </Typography>
             <Typography component="li" variant="body2">
               <strong>Annahmen-Transparenz</strong> — Kosten- und
@@ -242,7 +261,7 @@ export default function Methodik() {
             jeweiligen Stammtisch-Behauptung weist.
           </Typography>
           <Typography variant="body2">
-            Verwendet werden sieben Stufen mit klar abgegrenzter Bedeutung:
+            Verwendet werden acht Stufen mit klar abgegrenzter Bedeutung:
           </Typography>
           <Box component="ul" sx={{ m: 0, pl: 2.5 }}>
             <Typography component="li" variant="body2">
@@ -275,6 +294,13 @@ export default function Methodik() {
             <Typography component="li" variant="body2">
               <strong>Überwiegend wahr</strong> — die Behauptung trifft
               im Kern zu; nur einzelne Aspekte sind einzuordnen.
+            </Typography>
+            <Typography component="li" variant="body2">
+              <strong>Wahr</strong> — die Behauptung trifft nach der
+              belegbaren Datenlage zu. Auch zutreffende
+              Stammtisch-Behauptungen werden ausgewiesen — bestätigt statt
+              künstlich relativiert, unabhängig davon, aus welcher
+              politischen Richtung sie kommen.
             </Typography>
           </Box>
           <Typography variant="body2">
@@ -349,16 +375,15 @@ export default function Methodik() {
             </Typography>
             <Typography component="li" variant="body2">
               <strong>
-                Die finale Bewertung der Befunde ist menschlich und damit
-                fehlbar.
+                Die letzte Entscheidung ist menschlich und damit fehlbar.
               </strong>{' '}
-              Die automatisierten Prüfungen erzeugen Hinweise, aber ob ein
-              Hinweis blockierend, kosmetisch oder akzeptabel ist,
-              entscheide ich. In der Praxis heißt das: wo eine strengere
-              Bewertung noch hätte korrigieren lassen, winke ich
-              gelegentlich auch durch. Wer beim Lesen einen Punkt findet,
-              der schärfer hätte angefasst werden müssen — Korrekturhinweis
-              ist willkommen.
+              Die automatisierten Prüfungen wenden Korrekturen selbst an
+              und dokumentieren jede Änderung; vor der Veröffentlichung
+              sichte ich diese Änderungen und kann sie überstimmen. Diese
+              Sichtung ist keine Vollprüfung — wo eine strengere Bewertung
+              noch hätte korrigieren lassen, kann etwas durchrutschen. Wer
+              beim Lesen einen Punkt findet, der schärfer hätte angefasst
+              werden müssen — Korrekturhinweis ist willkommen.
             </Typography>
           </Box>
         </Stack>
