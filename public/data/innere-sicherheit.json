@@ -5,12 +5,12 @@
   "seoTitle": "Innere Sicherheit & Kriminalität: Zahlen, Argumente & Fakten 2026",
   "seoDescription": "Wird Deutschland immer unsicherer? Antworten zu Kriminalitätstrend, Messerangriffen, No-go-Areas, Polizei und Videoüberwachung — Quellen BKA, Destatis und DIW.",
   "icon": "security",
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "keyStats": [
     "5,51 Mio. Straftaten 2025 (−5,6 %, zweiter Rückgang in Folge)",
     "Aufklärungsquote stabil bei rund 58 %",
     "342.500 Vollzeitäquivalente bei der Polizei (2024)",
-    "9 Argumente"
+    "10 Argumente"
   ],
   "sourceNote": "Alle Angaben basieren auf öffentlich zugänglichen Primärquellen: BKA (Polizeiliche Kriminalstatistik 2025, Sicherheit und Kriminalität in Deutschland — SKiD 2024), Statistisches Bundesamt, DIW Berlin sowie kriminologische Forschung (Stand Sommer 2026). Wo Vergleiche methodisch heikel sind (z. B. Bevölkerungsbasis Zensus 2011 vs. 2022, deliktspezifische Erfassung), wird das transparent gemacht.",
   "relatedTopicIds": [
@@ -511,6 +511,46 @@
           ]
         }
       ]
+    },
+    {
+      "id": "statistik-methodik",
+      "title": "Was die Kriminalstatistik zeigt — und was nicht",
+      "content": [
+        {
+          "type": "text",
+          "text": "Die Polizeiliche Kriminalstatistik (PKS) misst nicht die tatsächliche Kriminalität (das sogenannte Dunkelfeld), sondern nur das polizeilich bekannt gewordene Hellfeld — und sie zählt Tatverdächtige, keine rechtskräftig verurteilten Täter. Wie viele Fälle ins Hellfeld gelangen, hängt auch vom Anzeigeverhalten der Bevölkerung und von der Kontrollintensität der Polizei ab: Wo mehr kontrolliert wird, wird auch mehr entdeckt.",
+          "sourceRefs": [
+            "soztheo-pks-methodik"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "8,3 %",
+              "label": "Kontrolliert — als ausländisch wahrgenommen",
+              "sublabel": "im öffentlichen Raum, SVR-Umfrage 2023"
+            },
+            {
+              "value": "4,4 %",
+              "label": "Kontrolliert — ‚weiße Norm‘",
+              "sublabel": "gleicher Zeitraum, gleiche Umfrage"
+            }
+          ],
+          "sourceRefs": [
+            "svr-polizeikontrollen-2023"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Die Studienautoren warnen selbst vor einer zu einfachen Erklärung: Neben Racial Profiling lässt sich auch die Lage vieler Kontrollen in sozial benachteiligten Vierteln mit hohem Zuwandereranteil statistisch nicht vollständig herausrechnen. Kontrollintensität ist zudem nur einer von mehreren Faktoren, die das Hellfeld prägen — sie verzerrt vor allem sogenannte Kontrolldelikte wie Drogendelikte, während die meisten anderen Straftaten über Anzeigen der Bevölkerung erfasst werden.",
+          "highlight": true,
+          "sourceRefs": [
+            "svr-polizeikontrollen-2023",
+            "soztheo-pks-methodik"
+          ]
+        }
+      ]
     }
   ],
   "arguments": [
@@ -724,6 +764,29 @@
         "Ist dir bewusst, dass ausländerrechtliche Verstöße mitgezählt werden, die nur Nichtdeutsche begehen können?",
         "Was sagt die Staatsangehörigkeit über das Verhalten aus, wenn Alter und Lebenslage die eigentlichen Treiber sind?"
       ]
+    },
+    {
+      "id": "kriminalstatistik-nur-kontrolle",
+      "claim": "Die Kriminalstatistik ist doch für die Tonne — Migranten werden einfach öfter kontrolliert, deshalb tauchen sie häufiger auf!",
+      "response": "Ein wahrer Kern: Laut einer repräsentativen SVR-Umfrage werden als ausländisch wahrgenommene Menschen etwa doppelt so häufig polizeilich kontrolliert wie andere (8,3 % vs. 4,4 %) — ein Indiz für Racial Profiling, das Tatverdächtigenzahlen bei bestimmten Deliktarten tatsächlich nach oben verzerren kann. Die Kriminalstatistik deshalb komplett als bedeutungslos abzutun, geht aber zu weit: Kontrollintensität wirkt vor allem bei sogenannten Kontrolldelikten wie Drogendelikten, die meisten anderen Straftaten werden über Anzeigen der Bevölkerung erfasst — und selbst die Studienautoren können Faktoren wie Wohnortverteilung nicht vollständig herausrechnen. Verzerrung durch Kontrollintensität und reales Kriminalitätsgeschehen schließen sich nicht aus — beides prägt das Bild.",
+      "keywords": [
+        "Kriminalstatistik",
+        "Racial Profiling",
+        "Kontrollen",
+        "verzerrt",
+        "Migranten",
+        "Polizei"
+      ],
+      "relatedSections": [
+        "statistik-methodik"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Parole nimmt einen gut belegten Befund (ungleiche Kontrollhäufigkeit) und generalisiert ihn zu einer kompletten Entwertung der Statistik. Das übersieht, dass ein Großteil der erfassten Fälle nicht aus Kontrollen, sondern aus Anzeigen von Betroffenen stammt — Kontrollintensität ist ein realer Verzerrungsfaktor, aber nicht der einzige.",
+      "counterQuestions": [
+        "Meinst du alle erfassten Straftaten oder speziell die, die durch proaktive Polizeikontrollen entdeckt werden?",
+        "Woher, schätzt du, stammt der Großteil der erfassten Fälle — aus Kontrollen oder aus Anzeigen der Betroffenen?",
+        "Wenn beides zutrifft — reale Kontrollunterschiede und reale Kriminalität — was folgt daraus für den Umgang mit der Statistik?"
+      ]
     }
   ],
   "sources": [
@@ -811,6 +874,16 @@
       "id": "heise-mannheim-videoueberwachung-2027",
       "label": "heise online – Evaluation von intelligenter Videoüberwachung in Mannheim erst 2027 (2023)",
       "url": "https://www.heise.de/news/Evaluation-von-intelligenter-Videoueberwachung-in-Mannheim-erst-2027-9580827.html"
+    },
+    {
+      "id": "soztheo-pks-methodik",
+      "label": "SozTheo (Prof. Christian Wickert) – Polizeiliche Kriminalstatistik: Hellfeld, Dunkelfeld und statistische Erfassung von Kriminalität",
+      "url": "https://soztheo.de/kriminologie/statistische-erfassung-von-kriminalitaet/"
+    },
+    {
+      "id": "svr-polizeikontrollen-2023",
+      "label": "Sachverständigenrat für Integration und Migration (SVR) – Policy Brief: Polizeikontrollen in Deutschland (November 2023)",
+      "url": "https://www.svr-migration.de/wp-content/uploads/2023/11/SVR-Presseinformation_Policy-Brief_Polizeikontrollen-in-Deutschland.pdf"
     }
   ]
 }
