@@ -5,12 +5,12 @@
   "seoTitle": "Verkehrswende: E-Auto, ÖPNV, Radverkehr — Argumente 2026",
   "seoDescription": "Reicht die Reichweite? Tötet Autofreiheit den Handel? Antworten zu E-Mobilität, Laden, ÖPNV, Radwegen und Tempo 30 — Quellen UBA, KBA, MiD und BNetzA.",
   "icon": "directions_car",
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-07-08",
   "keyStats": [
     "2,03 Mio. E-Autos (BEV) in Deutschland (Jan 2026)",
-    "200.000+ öffentliche Ladepunkte (April 2026)",
+    "204.000 öffentliche Ladepunkte (Mai 2026)",
     "143,1 Mio. t CO₂ im Verkehrssektor (2024)",
-    "16 Argumente"
+    "20 Argumente"
   ],
   "sourceNote": "Daten basieren auf offiziellen Statistiken und belastbaren Fachquellen, insbesondere KBA, UBA, VDV, Destatis, Bundesnetzagentur, BMV/MiD, EEA, WHO sowie ausgewählten Studien mit klarer Methodik. Wo Exaktwerte unsicher sind, werden Aussagen konservativ formuliert. Zitierte Einzelfallbilanzen (z. B. Städtevergleiche) sind als solche gekennzeichnet.",
   "sections": [
@@ -32,14 +32,50 @@
               "sublabel": "Benzin + Diesel, 1. Jan 2026"
             },
             {
-              "value": "19,1%",
+              "value": "28,4%",
               "label": "BEV-Anteil",
-              "sublabel": "an Neuzulassungen 2025"
+              "sublabel": "an Neuzulassungen, Juni 2026"
             }
           ],
           "sourceRefs": [
             "kba-fahrzeugbestand-2026",
-            "kba-alternative-antriebe-2025"
+            "kba-neuzulassungen-halbjahresbilanz-06-2026"
+          ]
+        },
+        {
+          "type": "line_chart",
+          "caption": "BEV-Anteil an Pkw-Neuzulassungen nach Auslaufen und Neuauflage der Kaufförderung",
+          "unit": "%",
+          "color": "#00897b",
+          "items": [
+            {
+              "label": "2023",
+              "value": 18.4
+            },
+            {
+              "label": "2024",
+              "value": 13.5
+            },
+            {
+              "label": "2025",
+              "value": 19.1
+            },
+            {
+              "label": "Juni 2026",
+              "value": 28.4
+            }
+          ],
+          "sourceRefs": [
+            "kba-alternative-antriebe-2025",
+            "kba-neuzulassungen-halbjahresbilanz-06-2026"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Der Einbruch 2024 fiel mit dem abrupten Förderstopp der alten Umweltbonus-Prämie Ende 2023 zusammen. Seit Mai 2026 läuft ein neues, sozial gestaffeltes Förderprogramm — im Juni 2026, dem ersten vollen Monat danach, kletterte der BEV-Anteil auf 28,4 % eines einzelnen Monats. Ob sich das über ein ganzes Jahr hält, zeigt sich erst mit mehr Daten.",
+          "sourceRefs": [
+            "kba-alternative-antriebe-2025",
+            "kba-neuzulassungen-halbjahresbilanz-06-2026"
           ]
         },
         {
@@ -104,9 +140,50 @@
         },
         {
           "type": "text",
-          "text": "Die EU-Flottengrenzwerte sehen ab 2035 faktisch ein Aus für neue reine Verbrenner-Pkw vor. Im Dezember 2025 schlug die EU-Kommission vor, das Ziel von 100 % auf 90 % CO₂-Minderung abzuschwächen und so begrenzt Plug-in-Hybride und mit E-Fuels betriebene Fahrzeuge weiter zuzulassen. Der Vorschlag ist bislang nicht beschlossen — Parlament und Rat müssen noch zustimmen.",
+          "text": "Die EU-Flottengrenzwerte sehen ab 2035 faktisch ein Aus für neue reine Verbrenner-Pkw vor. Im Dezember 2025 schlug die EU-Kommission vor, das Ziel von 100 % auf 90 % CO₂-Minderung abzuschwächen und so begrenzt Plug-in-Hybride und mit E-Fuels betriebene Fahrzeuge weiter zuzulassen. Der Vorschlag ist bislang nicht beschlossen — die entscheidenden Trilog-Verhandlungen zwischen Parlament und Rat laufen 2026, eine verbindliche Entscheidung wird erst für den Herbst erwartet.",
           "sourceRefs": [
             "adac-verbrenner-aus-2035"
+          ]
+        },
+        {
+          "type": "stat_grid",
+          "items": [
+            {
+              "value": "bis 6.000 €",
+              "label": "Neue E-Auto-Förderung",
+              "sublabel": "sozial gestaffelt, seit Mai 2026"
+            },
+            {
+              "value": "80.000 €",
+              "label": "Einkommensgrenze",
+              "sublabel": "Haushalt, +5.000 € je Kind"
+            },
+            {
+              "value": "800.000",
+              "label": "geförderte Fahrzeuge",
+              "sublabel": "geplant 2026-2029, 3 Mrd. € Budget"
+            }
+          ],
+          "sourceRefs": [
+            "bafa-e-auto-foerderung-2026",
+            "bundesregierung-e-auto-kaufpraemie-2026"
+          ]
+        },
+        {
+          "type": "myth_fact",
+          "caption": "Wer profitiert von der neuen E-Auto-Förderung?",
+          "items": [
+            {
+              "myth": "Kaufprämien für E-Autos nützen vor allem Besserverdienern, die sich ohnehin ein neues Auto leisten können.",
+              "fact": "Die 2026er-Förderung ist einkommensabhängig gedeckelt (max. 80.000-90.000 € Haushaltsjahreseinkommen) und steigt für niedrigere Einkommen um bis zu 2.000 € zusätzlich."
+            },
+            {
+              "myth": "Die Förderung gilt für jeden Neuwagen mit Stecker.",
+              "fact": "Nur reine Batterie-, Brennstoffzellen- und bestimmte Plug-in-Fahrzeuge mit Erstzulassung ab 1. Januar 2026 sind förderfähig, pro Person nur einmal."
+            }
+          ],
+          "sourceRefs": [
+            "bafa-e-auto-foerderung-2026"
           ]
         }
       ]
@@ -150,15 +227,26 @@
           ]
         },
         {
+          "type": "pictograph",
+          "caption": "Anteil der Autofahrten unter 10 km Länge",
+          "filled": 6,
+          "total": 10,
+          "label": "Autofahrten sind kürzer als 10 km",
+          "icon": "person",
+          "sourceRefs": [
+            "mid-2023-ergebnisbericht"
+          ]
+        },
+        {
           "type": "stat_grid",
           "items": [
             {
-              "value": "200.255",
+              "value": "203.951",
               "label": "öffentliche Ladepunkte",
-              "sublabel": "Stand 1. April 2026"
+              "sublabel": "Stand 1. Mai 2026"
             },
             {
-              "value": "51.253",
+              "value": "52.499",
               "label": "davon Schnelllader",
               "sublabel": "DC / HPC"
             },
@@ -175,7 +263,7 @@
         },
         {
           "type": "fact",
-          "text": "Anfang April 2026 waren bei der Bundesnetzagentur 200.255 öffentliche Ladepunkte gemeldet, davon 51.253 Schnelllader. Das öffentliche Netz wächst weiter stark, regionale Lücken zwischen Stadt und Land bleiben aber bestehen.",
+          "text": "Anfang Mai 2026 waren bei der Bundesnetzagentur 203.951 öffentliche Ladepunkte gemeldet, davon 52.499 Schnelllader — zusammen mit 8,75 GW gleichzeitig verfügbarer Ladeleistung. Das öffentliche Netz wächst weiter stark, regionale Lücken zwischen Stadt und Land bleiben aber bestehen.",
           "sourceRefs": [
             "bundesnetzagentur-ladesaeulenregister-2026"
           ]
@@ -267,12 +355,12 @@
       "content": [
         {
           "type": "fact",
-          "text": "Der Verkehr ist beim Klimaschutz der Sektor mit dem größten Nachholbedarf. 2024 lag er mit 143,1 Mio. t CO₂-Äquivalenten rund 18 Mio. t über seinem Sektorziel — weiter entfernt als jeder andere Bereich. Über den Zeitraum 2021–2030 summiert sich die projizierte Minderungslücke auf rund 169 Mio. t.",
+          "text": "Der Verkehr ist beim Klimaschutz der Sektor mit dem größten Nachholbedarf. 2024 lag er mit 143,1 Mio. t CO₂-Äquivalenten rund 18 Mio. t über seinem Sektorziel — weiter entfernt als jeder andere Bereich. Über den Zeitraum 2021–2030 summiert sich die projizierte Minderungslücke laut Projektionsbericht 2025 weiterhin auf rund 169 Mio. t — nahezu unverändert gegenüber der Vorjahresprojektion.",
           "description": "Das 2024 novellierte Klimaschutzgesetz bewertet die Sektoren nun gemeinsam und mehrjährig statt mit jährlich sanktionierten Einzelzielen. An der Größe der Lücke im Verkehr ändert das nichts.",
           "highlight": true,
           "sourceRefs": [
             "bmwe-klimaziele-2030-2025",
-            "uba-treibhausgas-projektionen-2024-kompakt"
+            "uba-projektionsbericht-2025-ergebnisse-kompakt"
           ]
         },
         {
@@ -330,6 +418,66 @@
           "sourceRefs": [
             "tu-dresden-induzierter-verkehr-2026"
           ]
+        },
+        {
+          "type": "text",
+          "text": "Deutschland ist das einzige Land Europas ohne generelles Tempolimit auf Autobahnen — die meisten anderen europäischen Länder begrenzen auf 120 bis 130 km/h. Das Umweltbundesamt hat 2024 erstmals im Detail modelliert, was ein Tempolimit fürs Klima brächte.",
+          "sourceRefs": [
+            "acv-tempolimits-europa"
+          ]
+        },
+        {
+          "type": "range_bar",
+          "caption": "Eingesparte CO₂-Emissionen im gesamten Straßenverkehr, 2025-2030 (UBA-Modellierung nach Szenario)",
+          "unit": "Mio. t CO₂-Äq.",
+          "items": [
+            {
+              "label": "Tempo 130 / 100",
+              "min": 0,
+              "max": 15
+            },
+            {
+              "label": "Tempo 130 / 80",
+              "min": 0,
+              "max": 19
+            },
+            {
+              "label": "Tempo 120 / 100",
+              "min": 0,
+              "max": 28
+            },
+            {
+              "label": "Tempo 120 / 80",
+              "min": 0,
+              "max": 33
+            },
+            {
+              "label": "Tempo 100 / 80",
+              "min": 0,
+              "max": 57
+            }
+          ],
+          "sourceRefs": [
+            "uba-modellierung-tempolimit-2024"
+          ]
+        },
+        {
+          "type": "myth_fact",
+          "caption": "Tempolimit auf der Autobahn: Mythos und Fakt",
+          "items": [
+            {
+              "myth": "Ein Tempolimit bringt sowieso nichts fürs Klima.",
+              "fact": "Je nach Szenario spart ein Tempolimit laut UBA-Modellierung 2025-2030 zwischen 15 und 57 Mio. t CO₂ im gesamten Straßenverkehr — beim strengsten Szenario (Tempo 100/80) rechnerisch rund ein Drittel der gesamten Minderungslücke des Sektors bis 2030."
+            },
+            {
+              "myth": "Tempolimits sind nur Symbolpolitik, das Rasen auf der Autobahn spielt für die Unfallstatistik keine Rolle.",
+              "fact": "2025 starben laut Destatis 42 % der Verkehrstoten auf Autobahnen bei Geschwindigkeitsunfällen — der höchste Anteil aller Straßentypen."
+            }
+          ],
+          "sourceRefs": [
+            "uba-modellierung-tempolimit-2024",
+            "destatis-unfallbilanz-2025-endgueltig"
+          ]
         }
       ]
     },
@@ -369,14 +517,12 @@
           ]
         },
         {
-          "type": "bar_chart",
+          "type": "progress_stack",
           "caption": "Modal Split in Deutschland: Anteil an allen Wegen (MiD 2023)",
-          "unit": "%",
-          "items": [
+          "segments": [
             {
               "label": "Pkw (Fahrer)",
-              "value": 40,
-              "highlight": true
+              "value": 40
             },
             {
               "label": "zu Fuß",
@@ -395,6 +541,7 @@
               "value": 11
             }
           ],
+          "total": "Alle zurückgelegten Wege in Deutschland",
           "sourceRefs": [
             "mid-2023-ergebnisbericht"
           ]
@@ -414,6 +561,52 @@
           "description": "Besonders Händler, die selbst Auto fahren, überschätzen den Autokundenanteil. Für die Masse des Handels gilt: Aufenthaltsqualität bringt Kundschaft, nicht Parkplätze direkt vor der Tür.",
           "sourceRefs": [
             "rifs-einzelhandel-mobilitaet-berlin"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Auch beim Anwohnerparken selbst zeigt sich diese Schieflage: Jahrzehntelang kostete der Parkausweis in den meisten Städten nur einen symbolischen Betrag — weit unter dem Wert der belegten Fläche.",
+          "sourceRefs": [
+            "bverwg-pm-bewohnerparken-freiburg-2023"
+          ]
+        },
+        {
+          "type": "table",
+          "caption": "Anwohnerparkgebühren im Städtevergleich (Jahresgebühr)",
+          "headers": [
+            "Stadt",
+            "Gebühr/Jahr"
+          ],
+          "rows": [
+            [
+              "Berlin",
+              "10,20 €"
+            ],
+            [
+              "München",
+              "30 €"
+            ],
+            [
+              "Köln",
+              "100–120 €"
+            ],
+            [
+              "Freiburg (nach Urteil)",
+              "360 €"
+            ]
+          ],
+          "sourceRefs": [
+            "leasingmarkt-parkplatz-index-2025",
+            "nd-aktuell-berlin-anwohnerparken-2026"
+          ]
+        },
+        {
+          "type": "fact",
+          "text": "Das Bundesverwaltungsgericht erklärte 2023 die gestaffelte Freiburger Gebührensatzung (240 bis 480 € nach Fahrzeuglänge) für unwirksam — nicht weil 360 € pro Jahr zu hoch wären, sondern weil die Staffelung nach Fahrzeuglänge und soziale Ermäßigungen der Gebührenordnung nicht standhielten. Eine Regelgebühr von 360 € bewertete das Gericht ausdrücklich als angemessen im Verhältnis zum Wert einer wohnungsnahen Parkfläche.",
+          "description": "Das Urteil ist damit kein Freibrief für beliebig hohe Gebühren, aber auch kein Argument gegen kostendeckendere Preise: Selbst 360 € im Jahr liegen weit unter den rund 4.700 bis 5.300 € externen Kosten, die ein durchschnittlicher Pkw jährlich verursacht.",
+          "sourceRefs": [
+            "bverwg-pm-bewohnerparken-freiburg-2023",
+            "goessling-lifetime-cost-car-2022"
           ]
         },
         {
@@ -496,10 +689,27 @@
           ]
         },
         {
-          "type": "text",
-          "text": "Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen.",
+          "type": "target_progress",
+          "caption": "Radverkehrsanteil: Ist-Stand vs. Fraunhofer-ISI-Potenzial",
+          "items": [
+            {
+              "label": "Radanteil auf Wegen bis 30 km",
+              "current": 11.2,
+              "target": 45,
+              "unit": "%"
+            }
+          ],
           "sourceRefs": [
+            "mid-2023-ergebnisbericht",
             "fraunhofer-isi-potenziale-des-radverkehrs-fuer"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Laut Fraunhofer ISI könnte der Radverkehrsanteil auf Wegen bis 30 km bei umfangreichen Maßnahmen auf durchschnittlich 45 % steigen — mehr als das Vierfache des heutigen Werts. Auch Lastenräder tragen dazu bei: 2025 wurden laut Branchenverband ZIV rund 220.300 Lastenräder verkauft, der Anteil mit elektrischer Unterstützung liegt inzwischen bei 84 %.",
+          "sourceRefs": [
+            "fraunhofer-isi-potenziale-des-radverkehrs-fuer",
+            "ziv-marktdaten-fahrradwirtschaft-2025"
           ]
         }
       ]
@@ -512,15 +722,15 @@
           "type": "stat_grid",
           "items": [
             {
-              "value": "2.814",
+              "value": "2.832",
               "label": "Verkehrstote (2025)",
-              "sublabel": "vorläufig, Destatis",
+              "sublabel": "endgültig, Destatis",
               "color": "#b71c1c"
             },
             {
-              "value": "366.000",
+              "value": "371.000",
               "label": "Verletzte (2025)",
-              "sublabel": "vorläufig, Destatis",
+              "sublabel": "endgültig, Destatis",
               "color": "#e53935"
             },
             {
@@ -531,7 +741,7 @@
             }
           ],
           "sourceRefs": [
-            "destatis-unfallbilanz-2025",
+            "destatis-unfallbilanz-2025-endgueltig",
             "uba-verkehrslaerm-indikator"
           ]
         },
@@ -562,10 +772,10 @@
         },
         {
           "type": "fact",
-          "text": "2024 war überhöhte oder nicht angepasste Geschwindigkeit die häufigste Ursache tödlicher Verkehrsunfälle: 30 % der Verkehrstoten starben bei solchen Unfällen.",
-          "description": "Tempo ist keine Nebensache: Es beeinflusst sowohl die Unfallwahrscheinlichkeit als auch die Unfallschwere.",
+          "text": "Auch 2025 war überhöhte oder nicht angepasste Geschwindigkeit die häufigste Ursache tödlicher Verkehrsunfälle: 29 % der Verkehrstoten starben bei solchen Unfällen. Auf Autobahnen war der Anteil mit 42 % am höchsten, innerorts lag er bei 16 %.",
+          "description": "Tempo ist keine Nebensache: Es beeinflusst sowohl die Unfallwahrscheinlichkeit als auch die Unfallschwere — und wirkt gerade dort am stärksten, wo am schnellsten gefahren wird.",
           "sourceRefs": [
-            "destatis-unfallursachen-2024",
+            "destatis-unfallbilanz-2025-endgueltig",
             "uba-tempo-30-empfehlung"
           ]
         },
@@ -762,6 +972,14 @@
             "bmv-mid-2023-ueberblick",
             "bbsr-oev-erreichbarkeit-2023"
           ]
+        },
+        {
+          "type": "fact",
+          "text": "Homeoffice verändert das Pendelverhalten, löst die Verkehrswende aber nicht von selbst: Laut IAB stiegen die durchschnittlichen Pendeldistanzen zwischen 2020 und 2023 spürbar (Männer von 28,7 auf 30,8 km, Frauen von 19,1 auf 20,9 km) — wer seltener ins Büro muss, nimmt dafür einen weiteren Arbeitsweg in Kauf.",
+          "description": "Nur rund 35 % der Beschäftigten arbeiten überhaupt zumindest teilweise von zu Hause. Für alle anderen — und für den Weg zu Supermarkt, Schule oder Arzt — ändert Homeoffice an der Autoabhängigkeit nichts.",
+          "sourceRefs": [
+            "iab-forum-pendeldistanzen-homeoffice-2025"
+          ]
         }
       ]
     }
@@ -899,7 +1117,7 @@
     {
       "id": "arg-ladeinfrastruktur",
       "claim": "Auf dem Land gibt es keine Ladesäulen, E-Autos funktionieren nur in der Stadt!",
-      "response": "Von einem flächendeckenden Lade-Notstand kann keine Rede mehr sein: Anfang April 2026 waren bei der Bundesnetzagentur über 200.000 öffentliche Ladepunkte gemeldet, darunter mehr als 51.000 Schnelllader. Der wahre Kern: Zwischen Stadt und Land und zwischen Regionen gibt es weiter Lücken, und an manchen Autobahn-Standorten wird es zu Stoßzeiten eng. Aber das Netz wächst schnell — und gerade auf dem Land mit eigenem Stellplatz lädt man ohnehin meist zu Hause.",
+      "response": "Von einem flächendeckenden Lade-Notstand kann keine Rede mehr sein: Anfang Mai 2026 waren bei der Bundesnetzagentur rund 204.000 öffentliche Ladepunkte gemeldet, darunter mehr als 52.000 Schnelllader. Der wahre Kern: Zwischen Stadt und Land und zwischen Regionen gibt es weiter Lücken, und an manchen Autobahn-Standorten wird es zu Stoßzeiten eng. Aber das Netz wächst schnell — und gerade auf dem Land mit eigenem Stellplatz lädt man ohnehin meist zu Hause.",
       "keywords": [
         "Ladesäulen",
         "Ladeinfrastruktur",
@@ -1119,6 +1337,94 @@
         "Wenn der Staat Radwege baut und den Nahverkehr ausbaut: Was genau wird dir dadurch verboten?",
         "Das heutige System verteilt Platz und Geld stark zugunsten des Autos — warum ist dessen Bevorzugung normal, eine Umverteilung aber ein Verbot?"
       ]
+    },
+    {
+      "id": "arg-tempolimit",
+      "claim": "Ein Tempolimit auf der Autobahn bringt sowieso nichts fürs Klima — das ist nur Symbolpolitik.",
+      "response": "Die Zahlen widersprechen dem: Laut UBA-Modellierung 2024 spart ein Tempolimit von 100 km/h auf Autobahnen und 80 km/h außerorts im gesamten Straßenverkehr zwischen 2025 und 2030 rund 57 Mio. t CO₂ — das entspricht etwa einem Drittel der gesamten Minderungslücke, die der Verkehrssektor bis 2030 aufholen muss. Auch ein moderateres Tempo 130/100 spart noch 15 Mio. t. Der wahre Kern: Ein Tempolimit allein reicht nicht, um die Lücke zu schließen — dafür braucht es weitere Maßnahmen. Aber ‚nichts' bringt es nicht: Deutschland ist zudem das einzige EU-Land ganz ohne generelles Autobahn-Tempolimit, und 2025 starben 42 % der Verkehrstoten auf Autobahnen bei Geschwindigkeitsunfällen — mehr als auf jedem anderen Straßentyp.",
+      "keywords": [
+        "Tempolimit",
+        "Autobahn",
+        "Geschwindigkeit",
+        "Klimaschutz",
+        "CO2"
+      ],
+      "relatedSections": [
+        "emissionen"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "‚Symbolpolitik' unterstellt Wirkungslosigkeit, ohne die tatsächlich berechneten Einsparungen zu prüfen — ein rhetorischer Kurzschluss, der eine reale, aber für sich allein nicht ausreichende Maßnahme mit einer wirkungslosen Geste gleichsetzt.",
+      "counterQuestions": [
+        "Wie viele Millionen Tonnen CO₂ müsste eine Einzelmaßnahme sparen, damit sie für dich keine ‚Symbolpolitik' mehr wäre?",
+        "Warum haben praktisch alle anderen EU-Länder ein Tempolimit, wenn es angeblich nichts bringt?",
+        "Was hältst du für die naheliegendere Erklärung, dass auf Autobahnen der höchste Anteil an Geschwindigkeitsunfällen auftritt — Zufall oder Tempo?"
+      ]
+    },
+    {
+      "id": "arg-anwohnerparken",
+      "claim": "Anwohnerparken wird immer teurer — das ist doch Abzocke der Autofahrer!",
+      "response": "Die Preise steigen tatsächlich, aber von einem sehr niedrigen Ausgangsniveau: In Berlin kostet der Jahresausweis noch rund 10 €, in München 30 € — kaum mehr als symbolische Beträge. Das Bundesverwaltungsgericht bestätigte 2023 sogar ausdrücklich, dass eine Gebühr von 360 € pro Jahr angemessen ist im Verhältnis zum Wert einer wohnungsnahen Parkfläche; gekippt wurde nur eine unfair gestaffelte Preisstruktur nach Fahrzeuglänge. Der wahre Kern: Für viele ist jede Erhöhung nach Jahrzehnten Quasi-Gratisparken ein spürbarer Einschnitt. Doch selbst 360 € im Jahr liegen weit unter den rund 4.700 bis 5.300 €, die ein durchschnittliches Auto jährlich an externen Kosten verursacht — bezahlt bislang von der Allgemeinheit.",
+      "keywords": [
+        "Anwohnerparken",
+        "Parkgebühren",
+        "Bewohnerparken",
+        "Abzocke",
+        "Parkraumbewirtschaftung"
+      ],
+      "relatedSections": [
+        "flaechenverbrauch"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "‚Abzocke' unterstellt, dass die Gebühr über ihren eigentlichen Wert hinausgeht, und blendet aus, dass öffentlicher Parkraum bisher weit unter Marktwert vergeben wurde — eine Preiserhöhung von einem künstlich niedrigen Niveau wird so als Übergriff gerahmt statt als Annäherung an die tatsächlichen Kosten.",
+      "counterQuestions": [
+        "Was wäre ein fairer Preis für einen 12 m² großen, wohnungsnahen Stellplatz im Vergleich zu einer Garage oder einem Tiefgaragenplatz?",
+        "Findest du 10 € im Jahr in Berlin eher zu niedrig oder 360 € in Freiburg eher zu hoch — und warum?",
+        "Wer sollte die externen Kosten des Parkens tragen, wenn nicht die Autobesitzer selbst?"
+      ]
+    },
+    {
+      "id": "arg-eauto-foerderung-reiche",
+      "claim": "Die E-Auto-Förderung nützt doch nur Besserverdienern, die sich sowieso ein neues Auto leisten können.",
+      "response": "Genau das soll die neue Förderung seit Mai 2026 verhindern: Sie ist einkommensabhängig gedeckelt auf maximal 80.000 € Haushaltsjahreseinkommen (plus 5.000 € je Kind) und steigt für niedrigere Einkommen um bis zu 2.000 € zusätzlich — wer weniger verdient, bekommt mehr, nicht weniger. Der wahre Kern: Auch mit bis zu 6.000 € Zuschuss bleiben viele E-Autos in der Anschaffung teurer als vergleichbare Verbrenner, und wer sich gar kein neues Auto leisten kann, profitiert von keiner Kaufprämie. Trotzdem ist die pauschale Behauptung falsch: Das Programm ist bewusst sozial gestaffelt und mit 3 Mrd. € für rund 800.000 Fahrzeuge bis 2029 auch kein Nischenprogramm für Besserverdiener.",
+      "keywords": [
+        "E-Auto-Förderung",
+        "Kaufprämie",
+        "Besserverdiener",
+        "soziale Staffelung",
+        "Subvention"
+      ],
+      "relatedSections": [
+        "emobilitaet"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Parole überträgt eine ältere Kritik an pauschalen, einkommensunabhängigen Kaufprämien unverändert auf ein neues, gezielt sozial gestaffeltes Programm — ein veraltetes Bild wird auf eine geänderte Wirklichkeit angewendet.",
+      "counterQuestions": [
+        "Kennst du die aktuellen Einkommensgrenzen der Förderung, oder beziehst du dich auf ein älteres Programm?",
+        "Was müsste ein Förderprogramm konkret anders machen, damit es für dich nicht mehr ‚nur Besserverdienern' nützt?",
+        "Hilft es einkommensschwachen Haushalten mehr, wenn Geringverdiener einen höheren Zuschuss bekommen — oder wenn es gar keine Förderung gibt?"
+      ]
+    },
+    {
+      "id": "arg-homeoffice-verkehrswende",
+      "claim": "Homeoffice macht die Verkehrswende doch überflüssig — es wird ja sowieso immer weniger gependelt.",
+      "response": "Homeoffice verändert das Pendelverhalten, macht Verkehrspolitik aber nicht überflüssig: Zwar sinkt die Zahl der täglichen Pendelwege, doch laut IAB stiegen die durchschnittlichen Pendeldistanzen zwischen 2020 und 2023 gleichzeitig deutlich — wer seltener ins Büro muss, zieht offenbar auch mal weiter weg und nimmt dafür einen längeren Arbeitsweg in Kauf. Der wahre Kern: Für die rund 35 % der Beschäftigten mit Homeoffice-Option sinkt die Pendelhäufigkeit tatsächlich. Für den Großteil der Erwerbstätigen — inklusive praktisch aller Berufe mit Publikumsverkehr, Produktion oder Pflege — sowie für Einkauf, Schule und Freizeit ändert sich dadurch nichts an der Autoabhängigkeit.",
+      "keywords": [
+        "Homeoffice",
+        "Pendeln",
+        "Pendelverkehr",
+        "Verkehrswende überflüssig",
+        "Distanzarbeit"
+      ],
+      "relatedSections": [
+        "soziale_teilhabe"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Parole verallgemeinert einen Teileffekt (weniger Fahrten für eine Minderheit mit Bürojobs) zu einer Aussage über den gesamten Verkehr und übersieht den Rebound-Effekt: Der scheinbare Fortschritt bei der Häufigkeit wird durch längere Distanzen teilweise wieder aufgezehrt.",
+      "counterQuestions": [
+        "Wie viele deiner Wege sind eigentlich Arbeitswege — und wie viele sind Einkauf, Kinder bringen, Arzt, Freizeit?",
+        "Wenn Homeoffice weitere Pendelstrecken erst attraktiv macht — sinkt dann wirklich die insgesamt gefahrene Distanz?",
+        "Was ändert Homeoffice für Berufe, die sich nicht von zu Hause erledigen lassen?"
+      ]
     }
   ],
   "sources": [
@@ -1193,9 +1499,9 @@
       "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Pressemitteilungen/2025/20250314-klimaziele-bis-2030-erreichbar.html"
     },
     {
-      "id": "uba-treibhausgas-projektionen-2024-kompakt",
-      "label": "UBA: Treibhausgas-Projektionen 2024 - Ergebnisse kompakt",
-      "url": "https://www.umweltbundesamt.de/publikationen/treibhausgas-projektionen-2024-ergebnisse-kompakt"
+      "id": "uba-projektionsbericht-2025-ergebnisse-kompakt",
+      "label": "UBA: Treibhausgas-Projektionen 2025 für Deutschland - Ergebnisse kompakt",
+      "url": "https://www.umweltbundesamt.de/publikationen/treibhausgas-projektionen-2025-fuer-deutschland"
     },
     {
       "id": "uba-verkehr-emissionen-personenkilometer-2024-pdf",
@@ -1248,14 +1554,9 @@
       "url": "https://www.isi.fraunhofer.de/de/blog/2024/adfc-radverkehrsanteil-potenzialabschaetzungen.html"
     },
     {
-      "id": "destatis-unfallbilanz-2025",
-      "label": "Statistisches Bundesamt (Destatis): Unfallbilanz 2025",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/02/PD26_062_46241.html"
-    },
-    {
-      "id": "destatis-unfallursachen-2024",
-      "label": "Destatis: Unfallursachen 2024",
-      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/07/PD25_248_46241.html"
+      "id": "destatis-unfallbilanz-2025-endgueltig",
+      "label": "Statistisches Bundesamt (Destatis): 8 Tote und mehr als 1.000 Verletzte pro Tag bei Verkehrsunfällen im Jahr 2025 (endgültige Ergebnisse)",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_238_46241.html"
     },
     {
       "id": "uba-verkehrslaerm-indikator",
@@ -1296,6 +1597,56 @@
       "id": "foes-dienstwagenprivileg-2024",
       "label": "FÖS: Dienstwagenprivileg",
       "url": "https://foes.de/de-de/publikationen/publikation?tx_foespublications_listpublications%5Bpublication%5D=340&tx_foespublications_listpublications%5Baction%5D=show&tx_foespublications_listpublications%5Bcontroller%5D=Publication&cHash=9f763bdd4ac1008645f0f4e8df2f1c40"
+    },
+    {
+      "id": "kba-neuzulassungen-halbjahresbilanz-06-2026",
+      "label": "KBA: Fahrzeugzulassungen im Juni 2026 - Halbjahresbilanz",
+      "url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/2026/pm25_2026_n_06_26_pm_komplett.html"
+    },
+    {
+      "id": "bafa-e-auto-foerderung-2026",
+      "label": "BAFA: E-Auto-Förderung 2026 - Fördervoraussetzungen",
+      "url": "https://www.bafa.de/DE/Energie/Energieeffizienz/E-Auto_Foerderung_2026/Foerdervoraussetzungen/Foerdervoraussetzungen_node.html"
+    },
+    {
+      "id": "bundesregierung-e-auto-kaufpraemie-2026",
+      "label": "Bundesregierung: Bis zu 6.000 Euro Prämie mit der E-Auto-Förderung",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/e-auto-kauffoerderung-2403088"
+    },
+    {
+      "id": "acv-tempolimits-europa",
+      "label": "ACV: Tempolimits in Europa - Das sollten Sie für Ihren Urlaub beachten",
+      "url": "https://www.acv.de/ratgeber/reisen/reisen-mit-dem-auto/tempolimits-in-europa-das-sollten-sie-fuer-ihren-urlaub-beachten"
+    },
+    {
+      "id": "uba-modellierung-tempolimit-2024",
+      "label": "UBA: Modellierung der Umweltwirkung von Tempolimit-Maßnahmen auf Autobahnen und außerorts (Texte 176/2024)",
+      "url": "https://www.umweltbundesamt.de/publikationen/modellierung-der-umweltwirkung-von-tempolimit"
+    },
+    {
+      "id": "bverwg-pm-bewohnerparken-freiburg-2023",
+      "label": "Bundesverwaltungsgericht: Bewohnerparkgebührensatzung der Stadt Freiburg im Breisgau unwirksam (PM 47/2023)",
+      "url": "https://www.bverwg.de/pm/2023/47"
+    },
+    {
+      "id": "leasingmarkt-parkplatz-index-2025",
+      "label": "leasingmarkt.de: Parkplatz-Index 2025 - Wer zahlt wie viel fürs Parken in Deutschland?",
+      "url": "https://www.leasingmarkt.de/parkplatz-preis-index"
+    },
+    {
+      "id": "ziv-marktdaten-fahrradwirtschaft-2025",
+      "label": "ZIV - Die Fahrradindustrie: Marktdaten der Fahrradwirtschaft 2025 (PDF)",
+      "url": "https://www.ziv-zweirad.de/wp-content/uploads/2026/03/Marktdaten-Fahrradwirtschaft-2025.pdf"
+    },
+    {
+      "id": "iab-forum-pendeldistanzen-homeoffice-2025",
+      "label": "IAB-Forum: Die Wege zwischen Arbeits- und Wohnort sind seit der Covid-19-Pandemie deutlich länger geworden",
+      "url": "https://iab-forum.de/die-wege-zwischen-arbeits-und-wohnort-sind-seit-der-covid-19-pandemie-deutlich-laenger-geworden/"
+    },
+    {
+      "id": "nd-aktuell-berlin-anwohnerparken-2026",
+      "label": "nd-aktuell: Anwohnerparken - Berlin lässt Millionen liegen",
+      "url": "https://www.nd-aktuell.de/artikel/1198782.verkehr-anwohnerparken-berlin-laesst-millionen-liegen.html"
     }
   ],
   "relatedTopicIds": [
