@@ -154,16 +154,24 @@
               "value": "29.243",
               "label": "Messerangriffe 2025",
               "sublabel": "+0,8 % — nahezu unverändert zu 2024"
-            },
-            {
-              "value": "~3,9 %",
-              "label": "Anteil an allen Straftaten",
-              "sublabel": "Gewaltkriminalität am Gesamtgeschehen 2025"
             }
           ],
           "sourceRefs": [
             "bka-pks-2024-gesamtzahl",
             "bka-pks-2024-zeitreihe",
+            "bka-pks-2025"
+          ]
+        },
+        {
+          "type": "pictograph",
+          "caption": "Anteil der Gewaltkriminalität an allen Straftaten (PKS 2025)",
+          "filled": 4,
+          "total": 100,
+          "icon": "public",
+          "color": "#b71c1c",
+          "label": "Straftaten 2025 waren Gewaltdelikte — der weit überwiegende Rest sind Eigentums- und Vermögensdelikte.",
+          "sourceRefs": [
+            "bka-pks-2024-gesamtzahl",
             "bka-pks-2025"
           ]
         },
@@ -352,16 +360,25 @@
       "content": [
         {
           "type": "text",
-          "text": "Der Begriff ‚No-go-Area‘ im Sinne rechtsfreier Räume wird von Polizei und Innenbehörden zurückgewiesen. Bereits 1998 stellte ein Brandenburger Polizeiführer klar, es gebe keine ‚rechtsfreien Räume, wo das staatliche Gewaltmonopol nicht greift‘; Berlins Innensenator betonte 2004, es gebe ‚nirgendwo in Berlin No-go-Areas‘. Anerkannt werden zugleich Problemlagen an einzelnen Orten — diese werden polizeilich als ‚Angsträume‘ oder ‚kriminalitätsbelastete Orte‘ bezeichnet.",
+          "text": "Der Begriff ‚No-go-Area‘ im Sinne rechtsfreier Räume ist in der deutschen Sicherheitsdebatte fest verankert — trifft aber nicht, was Polizei und Behörden tatsächlich beobachten. Anerkannt werden Problemlagen an einzelnen Orten; diese führt die Polizei als ‚Angsträume‘ oder ‚kriminalitätsbelastete Orte‘.",
           "sourceRefs": [
             "zdl-no-go-area"
           ]
         },
         {
-          "type": "fact",
-          "text": "An ‚kriminalitätsbelasteten Orten‘ (in Berlin etwa Alexanderplatz, Görlitzer Park oder Kottbusser Tor — aktuell sieben Orte) hat die Polizei erweiterte Befugnisse: verdachtsunabhängige Identitätskontrollen, Durchsuchungen und Videoüberwachung schon im Vorfeld einer konkreten Gefahr, auf Grundlage des Berliner ASOG. An diesen Orten gilt damit gerade nicht weniger, sondern mehr staatliche Präsenz.",
-          "highlight": true,
+          "type": "myth_fact",
+          "items": [
+            {
+              "myth": "‚No-go-Areas‘ sind rechtsfreie Räume, in die sich Polizei und Staat nicht mehr trauen.",
+              "fact": "Polizei und Innenbehörden weisen den Begriff seit Jahrzehnten zurück: Bereits 1998 stellte ein Brandenburger Polizeiführer klar, es gebe keine ‚rechtsfreien Räume, wo das staatliche Gewaltmonopol nicht greift‘; Berlins Innensenator betonte 2004, es gebe ‚nirgendwo in Berlin No-go-Areas‘."
+            },
+            {
+              "myth": "An Problemorten wie dem Kottbusser Tor hat sich der Staat zurückgezogen.",
+              "fact": "Das Gegenteil ist der Fall: An den polizeilich als ‚kriminalitätsbelastete Orte‘ geführten Plätzen (in Berlin aktuell sieben, u. a. Alexanderplatz, Görlitzer Park, Kottbusser Tor) gelten erweiterte Befugnisse — verdachtsunabhängige Identitätskontrollen, Durchsuchungen und Videoüberwachung schon im Vorfeld einer konkreten Gefahr, auf Grundlage des Berliner ASOG."
+            }
+          ],
           "sourceRefs": [
+            "zdl-no-go-area",
             "polizei-berlin-kbo"
           ]
         }
