@@ -15,8 +15,24 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.fakten-stammtisch\.de$ [NC]
 RewriteRule ^(.*)$ https://fakten-stammtisch.de/$1 [R=301,L]
 
-# Charset and caching headers
+# Charset and media types
 AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+  # Markdown twins of every content route. AddDefaultCharset only covers
+  # text/plain and text/html, so the charset has to be declared separately.
+  AddType text/markdown .md
+  AddCharset UTF-8 .md
+</IfModule>
+
+# /.well-known/api-catalog has no file extension, so the media type must be forced.
+<Files "api-catalog">
+  ForceType application/linkset+json
+  <IfModule mod_headers.c>
+    Header set Cache-Control "no-cache"
+    Header always set Access-Control-Allow-Origin "*"
+  </IfModule>
+</Files>
+
 <IfModule mod_headers.c>
   <FilesMatch "\.(js|css)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
@@ -26,16 +42,70 @@ AddDefaultCharset UTF-8
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
 
-  <FilesMatch "\.(html|json)$">
+  # Markdown is negotiated, so it must not be cached longer than the HTML twin.
+  <FilesMatch "\.(html|json|md)$">
     Header set Cache-Control "no-cache"
   </FilesMatch>
 
-  # HTTP Link header pointing AI tools to llms.txt
-  Header set Link "</llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLM-optimized content\"" "expr=%{REQUEST_URI} =~ m#^/$|^/thema/#"
+  # Mandatory once a URL can answer with two media types: without it a shared
+  # cache may hand the HTML variant to a Markdown client. `merge` instead of
+  # `append` because the upstream proxy already sets a Vary value.
+  <FilesMatch "\.(html|md)$">
+    Header merge Vary Accept
+  </FilesMatch>
+
+  # Public, read-only formats: CORS so browser-based agents can fetch them.
+  # No cookies, no credentials, no write access. `always` so 404 responses carry
+  # the header too — otherwise the browser reports a CORS error instead of a 404.
+  <FilesMatch "\.(json|md|txt|xml)$">
+    Header always set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+  <Files "404.html">
+    Header always set Access-Control-Allow-Origin "*"
+  </Files>
+
+  # HTTP Link headers for agent discovery (RFC 8288).
+  #
+  # Scoped via FilesMatch, not `expr=%{REQUEST_URI}`: mod_dir's DirectoryIndex
+  # performs an internal redirect that rewrites REQUEST_URI to `.../index.html`
+  # before mod_headers evaluates the condition, so the previous `^/$` branch
+  # never matched the homepage (topic pages worked only because `^/thema/`
+  # matches either form). FilesMatch tests the resolved filename instead, which
+  # is `index.html` for every route this site serves.
+  #
+  # 404.html is deliberately excluded: an error document is not a representation
+  # of the requested resource, so discovery hints do not belong on it.
+  #
+  # One combined field value rather than several `Header add` lines: RFC 8288
+  # allows a comma-separated list, and a single header cannot be dropped or
+  # collapsed by an intermediary. The per-route Markdown alternate cannot be
+  # expressed here (it differs per URL) and is emitted as a <link> in the head.
+  <FilesMatch "index\.html$">
+    Header set Link "</llms.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"LLM-optimized content\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\"; title=\"Full plaintext content\", </auth.md>; rel=\"describedby\"; type=\"text/markdown\"; title=\"Agent access notes\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </api/openapi.json>; rel=\"service-desc\"; type=\"application/json\", </api/README.md>; rel=\"service-doc\"; type=\"text/markdown\""
+  </FilesMatch>
 </IfModule>
 
 # .well-known/llms.txt redirect
 RewriteRule ^\.well-known/llms\.txt$ /llms.txt [L,R=301]
+
+# Markdown for Agents: serve the pre-rendered Markdown twin when the client
+# explicitly asks for it. HTML stays the default — browsers never send
+# `Accept: text/markdown`, and a generic `*/*` or `text/*` does not match here.
+#
+# Position matters: after the canonical HTTPS/apex 301s (never negotiate on a URL
+# that is about to redirect), before the og.php crawler rules (an AI crawler that
+# asks for Markdown should get Markdown, not the Open-Graph HTML shim), and
+# before the SPA fallback (which would otherwise answer with index.html).
+#
+# %{DOCUMENT_ROOT}%{REQUEST_URI} instead of %{REQUEST_FILENAME}, because
+# mod_rewrite runs before mod_dir here, so REQUEST_FILENAME is still a directory.
+# The -f test means routes without a twin keep serving HTML. Requests without a
+# trailing slash fail the test, fall through to mod_dir's DirectorySlash 301 and
+# negotiate on the follow-up request.
+RewriteCond %{REQUEST_METHOD} ^(GET|HEAD)$
+RewriteCond %{HTTP:Accept} (text/markdown|text/x-markdown) [NC]
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.md -f
+RewriteRule ^(.*)$ /$1index.md [L]
 
 # Social media and AI crawler handling for homepage
 # Skipped if a static file already exists (pre-rendered route HTML).

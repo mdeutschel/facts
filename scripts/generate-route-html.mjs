@@ -1,10 +1,13 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import path from 'node:path'
-import { absoluteUrl, flattenContentBlock, htmlEscape } from './generate-seo.mjs'
+import { VERDICT_META, absoluteUrl, flattenContentBlock, htmlEscape } from './lib/content.mjs'
+import { buildApiCatalog, buildOpenApiDocument } from './lib/openapi.mjs'
+import { buildArgumentMarkdown, buildHomeMarkdown, buildTopicMarkdown } from './lib/markdown.mjs'
 
 const ROOT_DIR = process.cwd()
 const DIST_DIR = path.join(ROOT_DIR, 'dist')
 const DATA_DIR = path.join(DIST_DIR, 'data')
+const HOME_TEXTS_PATH = path.join(ROOT_DIR, 'src/content/homeTexts.json')
 const SITE_URL = 'https://fakten-stammtisch.de'
 const SITE_NAME = 'Fakten-Stammtisch'
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.png`
@@ -15,16 +18,6 @@ const TITLE_MAX = 65
 
 const VERDICT_RATING_BEST = 5
 const VERDICT_RATING_WORST = 1
-const VERDICT_META = {
-  'false': { label: 'Falsch', ratingValue: 1 },
-  'mostly-false': { label: 'Überwiegend falsch', ratingValue: 2 },
-  'misleading': { label: 'Irreführend', ratingValue: 2 },
-  'outdated': { label: 'Überholt', ratingValue: 2 },
-  'lacks-context': { label: 'Ohne Kontext irreführend', ratingValue: 2 },
-  'partially-true': { label: 'Teilweise wahr', ratingValue: 3 },
-  'mostly-true': { label: 'Überwiegend wahr', ratingValue: 4 },
-  'true': { label: 'Wahr', ratingValue: 5 },
-}
 
 function truncate(text, max) {
   if (text.length <= max) return text
@@ -396,76 +389,6 @@ function buildArgumentNoscript(topic, argument, topicsById) {
   return lines.join('\n')
 }
 
-function buildArgumentTxt(topic, argument) {
-  const verdictMeta = argument.verdict ? VERDICT_META[argument.verdict] : null
-  const lines = []
-  lines.push(`# ${argument.claim}`)
-  lines.push('')
-  lines.push(`Thema: ${topic.title}`)
-  lines.push(`URL: ${absoluteUrl(`/thema/${topic.id}/${argument.id}/`)}`)
-  if (verdictMeta) lines.push(`Bewertung: ${verdictMeta.label}`)
-  lines.push(`Stand: ${topic.lastUpdated}`)
-  lines.push('')
-  lines.push('## Antwort')
-  lines.push('')
-  lines.push(argument.response)
-  lines.push('')
-
-  if (argument.rhetoricalPattern) {
-    lines.push('## Was hinter der Parole steckt')
-    lines.push('')
-    lines.push(argument.rhetoricalPattern)
-    lines.push('')
-  }
-
-  if (argument.counterQuestions && argument.counterQuestions.length > 0) {
-    lines.push('## Am Tisch nützlich – Gegenfragen')
-    lines.push('')
-    for (const q of argument.counterQuestions) {
-      lines.push(`- „${q}"`)
-    }
-    lines.push('')
-  }
-
-  const relatedSections = (argument.relatedSections ?? [])
-    .map((sid) => topic.sections.find((s) => s.id === sid))
-    .filter(Boolean)
-
-  if (relatedSections.length > 0) {
-    lines.push('## Fakten dazu')
-    lines.push('')
-    for (const section of relatedSections) {
-      lines.push(`### ${section.title}`)
-      lines.push('')
-      for (const block of section.content) {
-        const text = flattenContentBlock(block)
-        if (text) lines.push(text)
-      }
-      lines.push('')
-    }
-  }
-
-  const citedSourceIds = new Set()
-  for (const section of relatedSections) {
-    for (const block of section.content) {
-      if (block.sourceRefs) {
-        for (const ref of block.sourceRefs) citedSourceIds.add(ref)
-      }
-    }
-  }
-  const citedSources = topic.sources.filter((src) => citedSourceIds.has(src.id))
-  if (citedSources.length > 0) {
-    lines.push('## Quellen')
-    lines.push('')
-    for (const src of citedSources) {
-      lines.push(src.url ? `- ${src.label} (${src.url})` : `- ${src.label}`)
-    }
-    lines.push('')
-  }
-
-  return lines.join('\n')
-}
-
 const META_TAGS = [
   { selector: /<title>[\s\S]*?<\/title>/, build: (v) => `<title>${htmlEscape(v.fullTitle)}</title>` },
   { selector: /<meta name="description"[^>]*>/, build: (v) => `<meta name="description" content="${attrEscape(v.description)}" />` },
@@ -538,13 +461,32 @@ function buildRouteHtml(template, opts) {
     const tag = `<link rel="preload" as="fetch" href="${attrEscape(opts.preloadHref)}" crossorigin="anonymous" fetchpriority="high" />`
     updated = updated.replace('</head>', `    ${tag}\n  </head>`)
   }
+  if (opts.markdownHref) {
+    updated = injectMarkdownAlternate(updated, opts.markdownHref)
+  }
   return updated
+}
+
+// Per-route pointer to the Markdown twin. The Link response header in .htaccess
+// can only carry site-wide targets, so the exact per-route alternate is declared
+// here — and only for routes that actually have a twin.
+function injectMarkdownAlternate(html, markdownHref) {
+  const tag = `<link rel="alternate" type="text/markdown" href="${attrEscape(markdownHref)}" title="Markdown-Variante dieser Seite" />`
+  return html.replace('</head>', `    ${tag}\n  </head>`)
 }
 
 async function writeRouteHtml(routePath, html) {
   const dir = path.join(DIST_DIR, routePath)
   await mkdir(dir, { recursive: true })
   await writeFile(path.join(dir, 'index.html'), html, 'utf8')
+}
+
+// Markdown twin next to the route's index.html. The twin layout is what lets
+// .htaccess negotiate with a single `-f`-guarded rewrite rule.
+async function writeRouteMarkdown(routePath, markdown) {
+  const dir = path.join(DIST_DIR, routePath)
+  await mkdir(dir, { recursive: true })
+  await writeFile(path.join(dir, 'index.md'), markdown, 'utf8')
 }
 
 // --- Static routes (Über, Methodik, Impressum, Feedback, Suche) -----------
@@ -816,6 +758,28 @@ function buildAndWriteHomeJsonLd(template, topics) {
   return injectHomeJsonLd(template, payload)
 }
 
+// Machine-readable discovery artifacts. Written straight into dist/ rather than
+// kept in public/: the content is derived from the topic data, and it avoids
+// relying on Vite copying a dot-directory out of publicDir.
+async function generateAgentDiscoveryFiles(topics, topicDataById) {
+  const wellKnownDir = path.join(DIST_DIR, '.well-known')
+  await mkdir(wellKnownDir, { recursive: true })
+  // Extensionless on purpose (RFC 9727); .htaccess forces the media type.
+  await writeFile(
+    path.join(wellKnownDir, 'api-catalog'),
+    JSON.stringify(buildApiCatalog(), null, 2) + '\n',
+    'utf8',
+  )
+
+  const apiDir = path.join(DIST_DIR, 'api')
+  await mkdir(apiDir, { recursive: true })
+  await writeFile(
+    path.join(apiDir, 'openapi.json'),
+    JSON.stringify(buildOpenApiDocument(topics, topicDataById), null, 2) + '\n',
+    'utf8',
+  )
+}
+
 async function main() {
   const indexHtmlPath = path.join(DIST_DIR, 'index.html')
   const template = await readFile(indexHtmlPath, 'utf8')
@@ -826,15 +790,26 @@ async function main() {
   const topicsById = new Map(topics.map((topicMeta) => [topicMeta.id, topicMeta]))
 
   // Enrich the home page with a CollectionPage JSON-LD pointing at all topics.
-  const enrichedHome = buildAndWriteHomeJsonLd(template, topics)
+  // The markdown alternate is injected here rather than into the source
+  // index.html, because that file doubles as the template for every other
+  // route — a link there would give all routes the home page's Markdown URL.
+  const enrichedHome = injectMarkdownAlternate(
+    buildAndWriteHomeJsonLd(template, topics),
+    absoluteUrl('/index.md'),
+  )
   await writeFile(indexHtmlPath, enrichedHome, 'utf8')
+
+  const homeTexts = JSON.parse(await readFile(HOME_TEXTS_PATH, 'utf8'))
+  await writeFile(path.join(DIST_DIR, 'index.md'), buildHomeMarkdown(topics, homeTexts), 'utf8')
 
   let topicCount = 0
   let argumentCount = 0
+  const topicDataById = new Map()
 
   for (const topicMeta of topics) {
     const topicRaw = await readFile(path.join(DATA_DIR, `${topicMeta.id}.json`), 'utf8')
     const topic = JSON.parse(topicRaw)
+    topicDataById.set(topic.id, topic)
 
     const topicTitle = topic.seoTitle ?? topic.title
     const topicDescription = topic.seoDescription ?? topic.subtitle
@@ -847,8 +822,10 @@ async function main() {
       jsonLd: buildTopicJsonLd(topic, topicsById),
       noscript: buildTopicNoscript(topic, topicsById),
       preloadHref: `/data/${topic.id}.json`,
+      markdownHref: `${topicCanonical}index.md`,
     })
     await writeRouteHtml(`thema/${topic.id}`, topicHtml)
+    await writeRouteMarkdown(`thema/${topic.id}`, buildTopicMarkdown(topic))
     topicCount += 1
 
     // Per-argument plaintext lands directly in dist/ (build artifact, not source).
@@ -859,6 +836,7 @@ async function main() {
       const argTitle = truncate(argument.claim, TITLE_MAX)
       const argDescription = truncate(argument.response.replace(/\s+/g, ' ').trim(), DESCRIPTION_MAX)
       const argCanonical = absoluteUrl(`/thema/${topic.id}/${argument.id}/`)
+      const argumentMarkdown = buildArgumentMarkdown(topic, argument)
 
       const argHtml = buildRouteHtml(template, {
         title: argTitle,
@@ -867,20 +845,24 @@ async function main() {
         jsonLd: buildArgumentJsonLd(topic, argument),
         noscript: buildArgumentNoscript(topic, argument, topicsById),
         preloadHref: `/data/${topic.id}.json`,
+        markdownHref: `${argCanonical}index.md`,
       })
       await writeRouteHtml(`thema/${topic.id}/${argument.id}`, argHtml)
+      await writeRouteMarkdown(`thema/${topic.id}/${argument.id}`, argumentMarkdown)
       argumentCount += 1
 
-      const txt = buildArgumentTxt(topic, argument)
-      await writeFile(path.join(distLlmsDir, `${argument.id}.txt`), txt, 'utf8')
+      // Same content as the Markdown twin — the llms/** tree is the established
+      // plaintext entry point and stays where crawlers already look for it.
+      await writeFile(path.join(distLlmsDir, `${argument.id}.txt`), argumentMarkdown, 'utf8')
     }
   }
 
   const staticCount = await generateStaticRoutes(template)
   await generateNotFoundPage(template, topics)
+  await generateAgentDiscoveryFiles(topics, topicDataById)
 
   console.log(
-    `[generate-route-html] Wrote ${topicCount} topic + ${argumentCount} argument + ${staticCount} static HTML files + 1 404 page (and matching llms/*.txt).`,
+    `[generate-route-html] Wrote ${topicCount} topic + ${argumentCount} argument + ${staticCount} static HTML files + 1 404 page (plus llms/*.txt, Markdown twins, api-catalog and openapi.json).`,
   )
 }
 

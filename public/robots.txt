@@ -1,25 +1,29 @@
+# Content Signals — https://contentsignals.org/
+# Sie betreffen die NUTZUNG der Inhalte, nicht den ZUGRIFF.
+#   search=yes    Aufnahme in einen Suchindex und Verlinkung
+#   ai-input=yes  Abruf zur Laufzeit als Kontext für eine KI-Antwort
+#   ai-train=yes  Nutzung als Trainingsdaten
+# Dieses Projekt will, dass belegte Fakten weiterverbreitet werden — alle drei
+# Nutzungen sind erlaubt, solange Quelle und Stand mitgenannt werden.
+# Zitierhinweise: https://fakten-stammtisch.de/auth.md
+#
+# Content-Signal ist ein Gruppen-Record wie Allow: ein Crawler wertet nur die
+# EINE Gruppe aus, die auf ihn passt. Die KI-Crawler stehen deshalb in einer
+# gemeinsamen Gruppe mit eigener Content-Signal-Zeile — stünde das Signal nur in
+# der *-Gruppe, würden genau sie es nie sehen.
+
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 User-agent: GPTBot
-Allow: /
-
 User-agent: ChatGPT-User
-Allow: /
-
 User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
 User-agent: PerplexityBot
-Allow: /
-
 User-agent: Google-Extended
-Allow: /
-
 User-agent: Applebot-Extended
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 Sitemap: https://fakten-stammtisch.de/sitemap.xml
@@ -28,3 +32,9 @@ Sitemap: https://fakten-stammtisch.de/sitemap.xml
 # https://llmstxt.org/
 # Summary: https://fakten-stammtisch.de/llms.txt
 # Full content: https://fakten-stammtisch.de/llms-full.txt
+
+# Machine-readable discovery
+# Markdown per page: send `Accept: text/markdown`, or append `index.md` to a URL
+# Access notes (no authentication required): https://fakten-stammtisch.de/auth.md
+# API catalog (RFC 9727): https://fakten-stammtisch.de/.well-known/api-catalog
+# OpenAPI description: https://fakten-stammtisch.de/api/openapi.json
