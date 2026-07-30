@@ -1,19 +1,14 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import { absoluteUrl, htmlEscape } from './lib/content.mjs'
+import { buildTopicBodyMarkdown } from './lib/markdown.mjs'
 
 const ROOT_DIR = process.cwd()
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public')
 const DATA_DIR = path.join(PUBLIC_DIR, 'data')
-const SITE_URL = 'https://fakten-stammtisch.de'
 
 const HOME_TEXTS_PATH = path.join(ROOT_DIR, 'src/content/homeTexts.json')
 const homeTexts = JSON.parse(await readFile(HOME_TEXTS_PATH, 'utf8'))
-
-export const SITE_URL_EXPORT = SITE_URL
-
-export function absoluteUrl(routePath) {
-  return `${SITE_URL}${routePath}`
-}
 
 function xmlEscape(value) {
   return value
@@ -22,122 +17,6 @@ function xmlEscape(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&apos;')
-}
-
-export function flattenContentBlock(block) {
-  if (block.type === 'fact') {
-    return `- ${block.text}`
-  }
-
-  if (block.type === 'text') {
-    return block.text
-  }
-
-  if (block.type === 'table') {
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    lines.push(`Spalten: ${block.headers.join(' | ')}`)
-    for (const row of block.rows) {
-      lines.push(`- ${row.join(' | ')}`)
-    }
-    return lines.join('\n')
-  }
-
-  if (block.type === 'stat_grid') {
-    return block.items
-      .map((item) => `- ${item.label}: ${item.value}${item.sublabel ? ` (${item.sublabel})` : ''}`)
-      .join('\n')
-  }
-
-  if (block.type === 'comparison') {
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    for (const item of block.items) {
-      lines.push(`- ${item.title}`)
-      for (const row of item.rows) {
-        lines.push(`  - ${row.label}: ${row.value}`)
-      }
-      if (item.total) {
-        lines.push(`  - ${item.total.label}: ${item.total.value}`)
-      }
-    }
-    if (block.savings) {
-      lines.push(`- Ersparnis: ${block.savings}`)
-    }
-    return lines.join('\n')
-  }
-
-  if (block.type === 'range_bar') {
-    const unit = block.unit ?? ''
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    for (const item of block.items) {
-      lines.push(`- ${item.label}: ${item.min} bis ${item.max}${unit ? ` ${unit}` : ''}`)
-    }
-    return lines.join('\n')
-  }
-
-  if (block.type === 'bar_chart' || block.type === 'line_chart') {
-    const unit = block.unit ?? ''
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    for (const item of block.items) {
-      lines.push(`- ${item.label}: ${item.value}${unit ? ` ${unit}` : ''}`)
-    }
-    return lines.join('\n')
-  }
-
-  if (block.type === 'timeline') {
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    for (const step of block.steps) {
-      lines.push(`- ${step.label}: ${step.value}${step.sublabel ? ` (${step.sublabel})` : ''}`)
-    }
-    return lines.join('\n')
-  }
-
-  if (block.type === 'progress_stack') {
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    for (const segment of block.segments) {
-      lines.push(`- ${segment.label}: ${segment.value}%${segment.sublabel ? ` (${segment.sublabel})` : ''}`)
-    }
-    if (block.total) {
-      lines.push(`- Gesamt: ${block.total}`)
-    }
-    return lines.join('\n')
-  }
-
-  if (block.type === 'myth_fact') {
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    for (const item of block.items) {
-      lines.push(`- Behauptung: ${item.myth}`)
-      lines.push(`  Faktencheck: ${item.fact}`)
-    }
-    return lines.join('\n')
-  }
-
-  if (block.type === 'pictograph') {
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    lines.push(`- ${block.filled} von ${block.total}: ${block.label}`)
-    return lines.join('\n')
-  }
-
-  if (block.type === 'target_progress') {
-    const unit = block.unit ?? ''
-    const lines = []
-    if (block.caption) lines.push(`Hinweis: ${block.caption}`)
-    for (const item of block.items) {
-      const itemUnit = item.unit ?? unit
-      const suffix = itemUnit ? ` ${itemUnit}` : ''
-      lines.push(`- ${item.label}: aktuell ${item.current}${suffix}, Ziel ${item.target}${suffix}`)
-    }
-    return lines.join('\n')
-  }
-
-  return ''
 }
 
 function buildSitemap(topics, topicDataById) {
@@ -203,6 +82,15 @@ function buildLlmsTxt(topics) {
     '',
     `- [Alle Inhalte als Plaintext](${absoluteUrl('/llms-full.txt')}): Vollstaendiger Text aller Themen, Fakten und Argumente`,
     '',
+    '## Formate fuer Agenten',
+    '',
+    '- Markdown: jede Seite liefert eine Markdown-Variante, wenn der Request `Accept: text/markdown` sendet',
+    '- Markdown direkt: `index.md` an eine Seiten-URL anhaengen, z. B. /thema/{topicId}/index.md',
+    `- JSON-Daten: [topics.json](${absoluteUrl('/data/topics.json')}) und /data/{topicId}.json`,
+    `- [API-Katalog](${absoluteUrl('/.well-known/api-catalog')}): maschinenlesbarer Einstieg (RFC 9727)`,
+    `- [OpenAPI-Beschreibung](${absoluteUrl('/api/openapi.json')}) und [Doku](${absoluteUrl('/api/README.md')})`,
+    `- [auth.md](${absoluteUrl('/auth.md')}): Zugriff, faire Nutzung, Zitierhinweise (keine Anmeldung notwendig)`,
+    '',
     '## Contact',
     '',
     '- E-Mail: feedback@fakten-stammtisch.de',
@@ -219,48 +107,11 @@ function buildLlmsTxt(topics) {
   ].join('\n')
 }
 
-function buildTopicSection(topicData) {
-  const sectionTexts = topicData.sections
-    .map((section) => {
-      const blocks = section.content
-        .map((block) => flattenContentBlock(block))
-        .filter(Boolean)
-        .join('\n\n')
-      return [`### ${section.title}`, '', blocks].join('\n')
-    })
-    .join('\n\n')
-
-  const argumentTexts = topicData.arguments
-    .map((argument) => [`- Aussage: ${argument.claim}`, `  Antwort: ${argument.response}`].join('\n'))
-    .join('\n')
-
-  const sourceTexts = topicData.sources
-    .map((source) => (source.url ? `- ${source.label} (${source.url})` : `- ${source.label}`))
-    .join('\n')
-
-  const summary = topicData.seoDescription ?? topicData.subtitle
-  return [
-    `${summary} | Stand: ${topicData.lastUpdated}`,
-    '',
-    '### Fakten',
-    '',
-    sectionTexts,
-    '',
-    '### Argumente',
-    '',
-    argumentTexts,
-    '',
-    '### Quellen',
-    '',
-    sourceTexts,
-  ].join('\n')
-}
-
 function buildTopicTxt(topicData) {
   return [
     `# ${topicData.title}`,
     '',
-    buildTopicSection(topicData),
+    buildTopicBodyMarkdown(topicData),
     '',
   ].join('\n')
 }
@@ -270,7 +121,7 @@ function buildLlmsFull(topics, topicDataById) {
     const topicData = topicDataById.get(topic.id)
     if (!topicData) return ''
 
-    return [`## ${topicData.title}`, '', buildTopicSection(topicData)].join('\n')
+    return [`## ${topicData.title}`, '', buildTopicBodyMarkdown(topicData)].join('\n')
   })
 
   return [
@@ -281,14 +132,6 @@ function buildLlmsFull(topics, topicDataById) {
     sections.filter(Boolean).join('\n\n---\n\n'),
     '',
   ].join('\n')
-}
-
-export function htmlEscape(value) {
-  return value
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
 }
 
 function buildFallbackHtml(topics, topicDataById) {
