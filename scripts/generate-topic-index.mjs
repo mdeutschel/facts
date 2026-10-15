@@ -32,6 +32,7 @@ const TOPIC_ORDER = [
   'gleichberechtigung',
   'gendern',
   // Block 4 — Staat, Bildung, Wissen & Außenpolitik
+  'landesregierung',
   'bildung',
   'gesundheit',
   'wissenschaftsskepsis',
