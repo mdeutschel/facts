@@ -8,11 +8,11 @@
   "lastUpdated": "2026-10-15",
   "keyStats": [
     "AfD 43,8 % und 39 von 83 Sitzen (Landtagswahl Sachsen-Anhalt 2026)",
-    "Ministerpräsidentenwahl: 42 Stimmen nötig, erst im 3. Wahlgang relative Mehrheit",
+    "Ministerpräsidentenwahl: 42 Stimmen nötig, erst im 3. Wahlgang genügt die Mehrheit der abgegebenen Stimmen",
     "Sachsen-Anhalt: 4 von 69 Stimmen im Bundesrat",
-    "14 Argumente"
+    "17 Argumente"
   ],
-  "sourceNote": "Basierend auf Grundgesetz, Bundesgesetzen und Landesverfassung Sachsen-Anhalt (Fassung vom 4. Mai 2026), amtlichen Wahlergebnissen des Statistischen Landesamts, Daten von Bundesrat, Bundestag, Landesministerien und Bundesverfassungsgericht sowie begutachteten politikwissenschaftlichen Studien. Angaben zur Regierungsbildung in Sachsen-Anhalt: Stand 15. Oktober 2026.",
+  "sourceNote": "Basierend auf Grundgesetz, Bundesgesetzen und Landesverfassung Sachsen-Anhalt (Fassung vom 4. Mai 2026), amtlichen Wahlergebnissen des Statistischen Landesamts, Daten von Bundesrat, Bundestag, Landesministerien und Bundesverfassungsgericht sowie begutachteten politikwissenschaftlichen Studien und Medienberichten (u. a. ZDFheute, beck-aktuell, Legal Tribune Online, Tagesspiegel). Angaben zur Regierungsbildung in Sachsen-Anhalt: Stand 15. Oktober 2026.",
   "relatedTopicIds": [
     "migration",
     "ostdeutschland",
@@ -27,29 +27,74 @@
         {
           "type": "text",
           "text": "Das Grundgesetz verteilt die Macht zwischen Bund und Ländern nach einem einfachen Grundsatz mit vielen Ausnahmen: Staatliche Aufgaben sind Sache der Länder, soweit das Grundgesetz nichts anderes regelt (Art. 30 GG). In der Praxis hat der Bund allerdings die meisten Gesetze gemacht, während die Länder sie ausführen. Was eine Landesregierung bewegen kann, hängt deshalb stark davon ab, ob ein Bereich zur Gesetzgebung oder zum Vollzug gehört.",
-          "sourceRefs": ["gg-art-30", "bpb-gesetzgebungskompetenz"]
+          "sourceRefs": [
+            "gg-art-30",
+            "bpb-gesetzgebungskompetenz"
+          ]
         },
         {
           "type": "fact",
           "text": "Die Länder führen die Bundesgesetze als eigene Angelegenheit aus (Art. 83 GG) — Behörden, Personal und Verwaltungsverfahren liegen damit beim Land.",
           "description": "Die Bundesregierung führt die Aufsicht, ob die Länder Bundesgesetze rechtmäßig ausführen (Art. 84 Abs. 3 GG). Im äußersten Fall kann sie mit Zustimmung des Bundesrates Bundeszwang anwenden (Art. 37 GG).",
           "highlight": true,
-          "sourceRefs": ["gg-art-83", "gg-art-84", "gg-art-37"]
+          "sourceRefs": [
+            "gg-art-83",
+            "gg-art-84",
+            "gg-art-37"
+          ]
         },
         {
           "type": "table",
           "caption": "Wer regelt, wer führt aus? Ausgewählte Bereiche",
-          "headers": ["Bereich", "Gesetzgebung", "Ausführung"],
-          "rows": [
-            ["Schule, Lehrpläne", "Land", "Land"],
-            ["Polizei- und Ordnungsrecht", "Land", "Land"],
-            ["Rundfunk", "Länder gemeinsam per Staatsvertrag", "Rundfunkanstalten (staatsfern)"],
-            ["Aufenthalts- und Asylrecht", "Bund (und EU)", "BAMF entscheidet über Asyl; Ausländerbehörden der Länder vollziehen"],
-            ["Strafrecht", "Bund", "Polizei und Staatsanwaltschaften der Länder"],
-            ["Beamtenstatus", "Bund (Beamtenstatusgesetz)", "Land ernennt und führt das eigene Personal"],
-            ["Grenzschutz", "Bund", "Bundespolizei"]
+          "headers": [
+            "Bereich",
+            "Gesetzgebung",
+            "Ausführung"
           ],
-          "sourceRefs": ["bpb-gesetzgebungskompetenz", "bpb-bundeslaender", "aufenthg-71", "asylg-5", "beamtstg-1"]
+          "rows": [
+            [
+              "Schule, Lehrpläne",
+              "Land",
+              "Land"
+            ],
+            [
+              "Polizei- und Ordnungsrecht",
+              "Land",
+              "Land"
+            ],
+            [
+              "Rundfunk",
+              "Länder gemeinsam per Staatsvertrag",
+              "Rundfunkanstalten (staatsfern)"
+            ],
+            [
+              "Aufenthalts- und Asylrecht",
+              "Bund (und EU)",
+              "BAMF entscheidet über Asyl; Ausländerbehörden der Länder vollziehen"
+            ],
+            [
+              "Strafrecht",
+              "Bund",
+              "Polizei und Staatsanwaltschaften der Länder"
+            ],
+            [
+              "Beamtenstatus",
+              "Bund (Beamtenstatusgesetz)",
+              "Land ernennt und führt das eigene Personal"
+            ],
+            [
+              "Grenzschutz",
+              "Bund",
+              "Bundespolizei"
+            ]
+          ],
+          "sourceRefs": [
+            "bpb-gesetzgebungskompetenz",
+            "bpb-bundeslaender",
+            "aufenthg-71",
+            "asylg-5",
+            "beamtstg-1"
+          ]
         },
         {
           "type": "myth_fact",
@@ -60,10 +105,14 @@
             },
             {
               "myth": "Im Bundesstaat entscheidet ohnehin alles Berlin.",
-              "fact": "Die Länder haben die Gesetzgebung, soweit das Grundgesetz sie nicht dem Bund zuweist (Art. 70 GG), und sie betreiben den größten Teil der Verwaltung."
+              "fact": "Die meisten Gesetze macht zwar der Bund, doch die Länder haben die Gesetzgebung überall dort, wo das Grundgesetz sie nicht dem Bund zuweist (Art. 70 GG), und sie betreiben den größten Teil der Verwaltung."
             }
           ],
-          "sourceRefs": ["gg-art-31", "gg-art-70", "bpb-bundeslaender"]
+          "sourceRefs": [
+            "gg-art-31",
+            "gg-art-70",
+            "bpb-bundeslaender"
+          ]
         }
       ]
     },
@@ -74,66 +123,144 @@
         {
           "type": "text",
           "text": "Bei der Landtagswahl am 6. September 2026 wurde die AfD mit großem Abstand stärkste Kraft, verfehlte aber die absolute Mehrheit der Sitze. Die folgenden Angaben beschreiben das amtliche Endergebnis und den Stand der Regierungsbildung am 15. Oktober 2026; sie können sich bis zur geplanten Ministerpräsidentenwahl im Dezember ändern.",
-          "sourceRefs": ["lsa-wahlergebnis-2026"]
+          "sourceRefs": [
+            "lsa-wahlergebnis-2026"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "43,8 %", "label": "AfD (Zweitstimmen)", "sublabel": "2021: 20,8 %" },
-            { "value": "17,2 %", "label": "CDU (Zweitstimmen)", "sublabel": "2021: 37,1 %" },
-            { "value": "77,8 %", "label": "Wahlbeteiligung", "sublabel": "2021: 60,3 %" },
-            { "value": "39 / 83", "label": "Sitze der AfD", "sublabel": "absolute Mehrheit: 42" }
+            {
+              "value": "43,8 %",
+              "label": "AfD (Zweitstimmen)",
+              "sublabel": "2021: 20,8 %"
+            },
+            {
+              "value": "17,2 %",
+              "label": "CDU (Zweitstimmen)",
+              "sublabel": "2021: 37,1 %"
+            },
+            {
+              "value": "77,8 %",
+              "label": "Wahlbeteiligung",
+              "sublabel": "2021: 60,3 %"
+            },
+            {
+              "value": "39 / 83",
+              "label": "Sitze der AfD",
+              "sublabel": "absolute Mehrheit: 42"
+            }
           ],
-          "sourceRefs": ["lsa-wahlergebnis-2026", "lsa-sitzverteilung-2026"]
+          "sourceRefs": [
+            "lsa-wahlergebnis-2026",
+            "lsa-sitzverteilung-2026"
+          ]
         },
         {
           "type": "bar_chart",
           "caption": "Sitzverteilung im Landtag Sachsen-Anhalt 2026 (83 Sitze; FDP nicht mehr vertreten)",
           "items": [
-            { "label": "AfD", "value": 39, "highlight": true },
-            { "label": "CDU", "value": 15 },
-            { "label": "Linke", "value": 8 },
-            { "label": "SPD", "value": 8 },
-            { "label": "Grüne", "value": 8 },
-            { "label": "BSW", "value": 5 }
+            {
+              "label": "AfD",
+              "value": 39,
+              "highlight": true
+            },
+            {
+              "label": "CDU",
+              "value": 15
+            },
+            {
+              "label": "Linke",
+              "value": 8
+            },
+            {
+              "label": "SPD",
+              "value": 8
+            },
+            {
+              "label": "Grüne",
+              "value": 8
+            },
+            {
+              "label": "BSW",
+              "value": 5
+            }
           ],
           "unit": "Sitze",
-          "sourceRefs": ["lsa-sitzverteilung-2026"]
+          "sourceRefs": [
+            "lsa-sitzverteilung-2026"
+          ]
         },
         {
           "type": "fact",
           "text": "CDU, SPD, Grüne und Linke kommen zusammen auf 39 Sitze — genauso viele wie die AfD. Eine Mehrheit ohne AfD (44 Sitze) gibt es nur unter Einschluss des BSW.",
-          "description": "Das BSW hat angekündigt, sich bei der Ministerpräsidentenwahl zu enthalten; es schließt eine Koalition mit der AfD aus, spricht mit ihr aber über Inhalte. Die CDU sieht sich in der Opposition und hat beschlossen, den Saal bei der Wahl zu verlassen (Stand 13.10.2026).",
+          "description": "Das BSW hat angekündigt, sich bei der Ministerpräsidentenwahl zu enthalten; es schließt eine Koalition mit der AfD aus, spricht mit ihr aber über Inhalte. Die CDU sieht sich in der Opposition, lehnte eine Gesprächseinladung der SPD ab und hat beschlossen, den Saal bei der Wahl zu verlassen. SPD und BSW haben einen überparteilichen Ministerpräsidenten ins Gespräch gebracht; vereinbart ist nichts (Stand 13.10.2026).",
           "highlight": true,
-          "sourceRefs": ["lsa-sitzverteilung-2026", "zdf-siegmund-ministerpraesident", "zdf-cdu-auszug-mp-wahl"]
+          "sourceRefs": [
+            "lsa-sitzverteilung-2026",
+            "zdf-siegmund-ministerpraesident",
+            "zdf-cdu-auszug-mp-wahl",
+            "stuttgarter-zeitung-mp-wahl"
+          ]
         },
         {
           "type": "timeline",
           "caption": "So wird nach Art. 65 der Landesverfassung der Ministerpräsident gewählt (geheime Wahl)",
           "steps": [
-            { "label": "1. Wahlgang", "value": "42 Stimmen nötig", "sublabel": "Mehrheit der 83 Mitglieder" },
-            { "label": "2. Wahlgang", "value": "binnen 7 Tagen, wieder 42", "sublabel": "Mehrheit der Mitglieder" },
-            { "label": "Auflösungsbeschluss", "value": "binnen 14 Tagen", "sublabel": "Neuwahl nur, wenn 42 Abgeordnete zustimmen" },
-            { "label": "3. Wahlgang", "value": "relative Mehrheit genügt", "sublabel": "Mehrheit der abgegebenen Stimmen", "highlight": true }
+            {
+              "label": "1. Wahlgang",
+              "value": "42 Stimmen nötig",
+              "sublabel": "Mehrheit der 83 Mitglieder"
+            },
+            {
+              "label": "2. Wahlgang",
+              "value": "binnen 7 Tagen, wieder 42",
+              "sublabel": "Mehrheit der Mitglieder"
+            },
+            {
+              "label": "Auflösungsbeschluss",
+              "value": "binnen 14 Tagen",
+              "sublabel": "Neuwahl nur, wenn 42 Abgeordnete zustimmen"
+            },
+            {
+              "label": "3. Wahlgang",
+              "value": "Mehrheit der abgegebenen Stimmen genügt",
+              "sublabel": "nicht mehr Mehrheit der Mitglieder (Art. 65 Abs. 2 LV)",
+              "highlight": true
+            }
           ],
-          "sourceRefs": ["landtag-lsa-verfassung-2026"]
+          "sourceRefs": [
+            "landtag-lsa-verfassung-2026"
+          ]
         },
         {
           "type": "text",
           "text": "Der AfD-Spitzenkandidat Ulrich Siegmund will sich kurz vor Weihnachten zur Wahl stellen, nach eigener Aussage nur im ersten Wahlgang und nur, wenn er eine Mehrheit sicher sieht. Bis zur Wahl eines Nachfolgers führt Ministerpräsident Sven Schulze (CDU) die Geschäfte weiter. Der Politikwissenschaftler Marcel Lewandowsky weist darauf hin, dass ein Auszug der CDU in einem dritten Wahlgang die Wahl eines AfD-Kandidaten erleichtern würde, weil dort nur die abgegebenen Stimmen zählen.",
-          "sourceRefs": ["stuttgarter-zeitung-mp-wahl", "zdf-cdu-auszug-mp-wahl", "landtag-lsa-verfassung-2026"]
+          "sourceRefs": [
+            "stuttgarter-zeitung-mp-wahl",
+            "zdf-cdu-auszug-mp-wahl",
+            "landtag-lsa-verfassung-2026"
+          ]
         },
         {
           "type": "fact",
           "text": "Am 6. Oktober 2026 wählte der Landtag Tobias Rausch (AfD) mit 48 Ja-Stimmen zum Landtagspräsidenten — dem ersten der AfD in einem deutschen Landtag.",
           "description": "Da AfD und BSW zusammen 44 Sitze haben, kamen bei der geheimen Wahl auch Stimmen aus anderen Fraktionen. Eine Abberufung des Präsidenten braucht zwei Drittel der Mitglieder (56 Stimmen).",
-          "sourceRefs": ["zdf-landtagspraesident-rausch", "juedische-allgemeine-rausch", "landtag-lsa-verfassung-2026"]
+          "sourceRefs": [
+            "zdf-landtagspraesident-rausch",
+            "juedische-allgemeine-rausch",
+            "landtag-lsa-verfassung-2026"
+          ]
         },
         {
           "type": "fact",
-          "text": "Offene Wahlprüfung: Laut Medienberichten sollen Kosten für AfD-Bürgerdialoge vor der Wahl teilweise aus Fraktionsmitteln bezahlt worden sein; die Fraktion bestreitet das.",
-          "description": "Ob daraus ein Wahlfehler folgt, ist unter Staatsrechtlern umstritten. Über Einsprüche entscheidet zunächst der Landtag, danach kann das Landesverfassungsgericht angerufen werden (Art. 44 LV). Ein Experte rechnet mit insgesamt etwa zwei Jahren Verfahrensdauer.",
-          "sourceRefs": ["beck-aktuell-wahlpruefung-2026", "abgeordnetenwatch-afd-fraktionsmittel", "landtag-lsa-verfassung-2026"]
+          "text": "Mögliche Wahlprüfung: Laut Medienberichten sollen Kosten für AfD-Bürgerdialoge vor der Wahl teilweise aus Fraktionsmitteln bezahlt worden sein; die Fraktion bestreitet das.",
+          "description": "Ob daraus ein Wahlfehler folgt, ist unter Staatsrechtlern umstritten. Über Einsprüche entscheidet zunächst der Landtag, danach kann das Landesverfassungsgericht angerufen werden (Art. 44 LV). Der von beck-aktuell befragte Staatsrechtler Friehe rechnet mit insgesamt etwa zwei Jahren Verfahrensdauer.",
+          "sourceRefs": [
+            "beck-aktuell-wahlpruefung-2026",
+            "abgeordnetenwatch-afd-fraktionsmittel",
+            "landtag-lsa-verfassung-2026"
+          ]
         }
       ]
     },
@@ -144,42 +271,86 @@
         {
           "type": "text",
           "text": "Eine Landesregierung steuert vor allem über Geld und Personal. Der Doppelhaushalt 2025/2026 von Sachsen-Anhalt wurde im Februar 2025 beschlossen; eine neue Regierung müsste ab 2027 einen eigenen Haushalt durch den Landtag bringen — und braucht dafür eine Mehrheit.",
-          "sourceRefs": ["mf-lsa-finanzplanung-2025-2029"]
+          "sourceRefs": [
+            "mf-lsa-finanzplanung-2025-2029"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "15,6 Mrd. €", "label": "Ausgaben 2026", "sublabel": "Landeshaushalt Sachsen-Anhalt" },
-            { "value": "3,4 Mrd. €", "label": "Personalausgaben 2026", "sublabel": "22,3 % der Ausgaben" },
-            { "value": "2,1 Mrd. €", "label": "an die Kommunen", "sublabel": "Kommunaler Finanzausgleich 2026" },
-            { "value": "−1,5 Mrd. €", "label": "Deckungslücke ab 2027", "sublabel": "laut Finanzplanung" }
+            {
+              "value": "15,6 Mrd. €",
+              "label": "Ausgaben 2026",
+              "sublabel": "Landeshaushalt Sachsen-Anhalt"
+            },
+            {
+              "value": "3,4 Mrd. €",
+              "label": "Personalausgaben 2026",
+              "sublabel": "22,3 % der Ausgaben"
+            },
+            {
+              "value": "2,1 Mrd. €",
+              "label": "an die Kommunen",
+              "sublabel": "Kommunaler Finanzausgleich 2026"
+            },
+            {
+              "value": "−1,5 Mrd. €",
+              "label": "offener Handlungsbedarf ab 2027",
+              "sublabel": "laut Finanzplanung 2025–2029"
+            }
           ],
-          "sourceRefs": ["mf-lsa-finanzplanung-2025-2029"]
+          "sourceRefs": [
+            "mf-lsa-finanzplanung-2025-2029"
+          ]
         },
         {
           "type": "progress_stack",
           "caption": "Woher das Geld kommt: Einnahmen 2026 (Planung, Mio. €)",
           "segments": [
-            { "label": "Steuereinnahmen", "value": 9563 },
-            { "label": "Bundesergänzungszuweisungen", "value": 1268 },
-            { "label": "Neuverschuldung", "value": 1029 },
-            { "label": "EU-Mittel", "value": 678 },
-            { "label": "Investitionsmittel vom Bund", "value": 467 },
-            { "label": "Übrige Einnahmen", "value": 2627 }
+            {
+              "label": "Steuereinnahmen",
+              "value": 9563
+            },
+            {
+              "label": "Bundesergänzungszuweisungen",
+              "value": 1268
+            },
+            {
+              "label": "Neuverschuldung",
+              "value": 1029
+            },
+            {
+              "label": "EU-Mittel",
+              "value": 678
+            },
+            {
+              "label": "Investitionsmittel vom Bund",
+              "value": 467
+            },
+            {
+              "label": "Übrige Einnahmen",
+              "value": 2627
+            }
           ],
           "total": "15.632 Mio. €",
-          "sourceRefs": ["mf-lsa-finanzplanung-2025-2029"]
+          "sourceRefs": [
+            "mf-lsa-finanzplanung-2025-2029"
+          ]
         },
         {
           "type": "fact",
           "text": "Sachsen-Anhalt erhielt 2025 im Finanzkraftausgleich der Länder einen Zuschlag von 1,95 Mrd. €; die Steuereinnahmen je Einwohner lagen bei 60,3 % des Länderdurchschnitts.",
           "description": "Nach Finanzausgleich und Bundesergänzungszuweisungen erreicht das Land 100,4 % der durchschnittlichen Finanzkraft (vorläufige Jahresrechnung 2025).",
-          "sourceRefs": ["bmf-finanzausgleich-2025"]
+          "sourceRefs": [
+            "bmf-finanzausgleich-2025"
+          ]
         },
         {
           "type": "text",
           "text": "Personal, Zahlungen an die Kommunen, Investitionen und Zinsen machen laut Finanzministerium etwa 65 bis 70 Prozent der Ausgaben aus. Vieles davon ist durch Gesetze, Tarifverträge und Förderzusagen gebunden; Umschichtungen sind möglich, aber nur schrittweise und nur mit Haushaltsmehrheit im Landtag.",
-          "sourceRefs": ["mf-lsa-finanzplanung-2025-2029"]
+          "sourceRefs": [
+            "mf-lsa-finanzplanung-2025-2029"
+          ]
         }
       ]
     },
@@ -190,41 +361,73 @@
         {
           "type": "text",
           "text": "Innere Sicherheit ist der Bereich, in dem eine Landesregierung am unmittelbarsten wirkt: Die Polizei ist Landespolizei, die Staatsanwaltschaften unterstehen der Landesjustizverwaltung, und der Verfassungsschutz ist in Sachsen-Anhalt eine Abteilung des Innenministeriums.",
-          "sourceRefs": ["bpb-gesetzgebungskompetenz", "gvg-147", "mi-lsa-verfassungsschutz"]
+          "sourceRefs": [
+            "bpb-gesetzgebungskompetenz",
+            "gvg-147",
+            "mi-lsa-verfassungsschutz"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "rund 6.400", "label": "Polizeivollzugsbeamte", "sublabel": "Landespolizei, 1.4.2025" },
-            { "value": "7.000", "label": "Zielzahl", "sublabel": "laut Innenministerium" },
-            { "value": "1.060", "label": "Polizeianwärter in Ausbildung", "sublabel": "Stand 1.3.2026" }
+            {
+              "value": "rund 6.400",
+              "label": "Polizeivollzugsbeamte",
+              "sublabel": "Landespolizei, 1.4.2025"
+            },
+            {
+              "value": "7.000",
+              "label": "Zielzahl",
+              "sublabel": "laut Innenministerium"
+            },
+            {
+              "value": "1.060",
+              "label": "Polizeianwärter in Ausbildung",
+              "sublabel": "Stand 1.3.2026"
+            }
           ],
-          "sourceRefs": ["mi-lsa-polizei-2025", "mi-lsa-polizei-2026"]
+          "sourceRefs": [
+            "mi-lsa-polizei-2025",
+            "mi-lsa-polizei-2026"
+          ]
         },
         {
           "type": "fact",
           "text": "Staatsanwälte müssen dienstlichen Anweisungen ihrer Vorgesetzten folgen; Aufsicht und Leitung liegen bei der Landesjustizverwaltung (§§ 146, 147 GVG).",
           "description": "Das sogenannte externe Weisungsrecht gibt dem Justizministerium formal Einfluss auf die Strafverfolgung. Gebunden bleibt es an das Legalitätsprinzip und an Gesetz und Recht.",
-          "sourceRefs": ["gvg-146", "gvg-147"]
+          "sourceRefs": [
+            "gvg-146",
+            "gvg-147"
+          ]
         },
         {
           "type": "fact",
           "text": "Jedes Land muss eine Verfassungsschutzbehörde unterhalten (§ 2 Abs. 2 Bundesverfassungsschutzgesetz); mehrere Länder können eine gemeinsame betreiben.",
           "description": "Das Bundesamt für Verfassungsschutz darf in einem Land im Benehmen mit der Landesbehörde selbst Informationen sammeln, unter anderem wenn Bestrebungen über ein Land hinausreichen oder sich gegen den Bund richten (§ 5 Abs. 1 BVerfSchG).",
           "highlight": true,
-          "sourceRefs": ["bverfschg-2", "bverfschg-5"]
+          "sourceRefs": [
+            "bverfschg-2",
+            "bverfschg-5"
+          ]
         },
         {
           "type": "fact",
           "text": "Der Verfassungsschutz Sachsen-Anhalt stufte den AfD-Landesverband im November 2023 als gesichert rechtsextremistische Bestrebung ein; zuvor war er seit 2021 Verdachtsfall.",
           "description": "Ein Gerichtsverfahren dazu ist ausgesetzt, bis das Verwaltungsgericht Köln über die Einstufung der Bundespartei entschieden hat. Dort darf das Bundesamt die Gesamtpartei nach einem Eilbeschluss vom 26.2.2026 vorerst nicht als gesichert rechtsextremistisch einstufen; sie bleibt Verdachtsfall.",
-          "sourceRefs": ["beck-aktuell-lfv-lsa-2023", "correctiv-afd-einstufung-2026", "lto-vg-koeln-afd-2026", "beck-aktuell-bmi-keine-beschwerde"]
+          "sourceRefs": [
+            "beck-aktuell-lfv-lsa-2023",
+            "correctiv-afd-einstufung-2026",
+            "lto-vg-koeln-afd-2026",
+            "beck-aktuell-bmi-keine-beschwerde"
+          ]
         },
         {
           "type": "fact",
           "text": "Sogenannte politische Beamte — etwa Staatssekretäre — kann eine Regierung jederzeit in den einstweiligen Ruhestand versetzen; welche Ämter dazu zählen, bestimmt das Landesrecht (§ 30 BeamtStG).",
           "description": "Die übrigen Beamten auf Lebenszeit sind davor geschützt. Ein Regierungswechsel ändert also die Spitze der Verwaltung, nicht den Großteil des Personals.",
-          "sourceRefs": ["beamtstg-30"]
+          "sourceRefs": [
+            "beamtstg-30"
+          ]
         }
       ]
     },
@@ -235,36 +438,86 @@
         {
           "type": "text",
           "text": "Bei Abschiebungen sind die Rollen geteilt: Das Bundesamt für Migration und Flüchtlinge (BAMF) entscheidet über Asylanträge, das Aufenthaltsrecht ist Bundesrecht, und die Ausländerbehörden der Länder setzen es um. Jedes Land muss eine zentrale Stelle für den Vollzug von Abschiebungen bestimmen (§ 71 AufenthG).",
-          "sourceRefs": ["asylg-5", "aufenthg-71"]
+          "sourceRefs": [
+            "asylg-5",
+            "aufenthg-71"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "577", "label": "Abschiebungen durch Sachsen-Anhalt", "sublabel": "2025 (2024: 651)" },
-            { "value": "792", "label": "gescheiterte Abschiebungen", "sublabel": "Sachsen-Anhalt, 2025" },
-            { "value": "4.770", "label": "Ausreisepflichtige", "sublabel": "Sachsen-Anhalt, 31.12.2025" },
-            { "value": "4.097", "label": "davon mit Duldung", "sublabel": "rund 86 %" }
+            {
+              "value": "577",
+              "label": "Abschiebungen durch Sachsen-Anhalt",
+              "sublabel": "2025 (2024: 651)"
+            },
+            {
+              "value": "792",
+              "label": "gescheiterte Abschiebungsversuche",
+              "sublabel": "Sachsen-Anhalt, 2025"
+            },
+            {
+              "value": "4.770",
+              "label": "Ausreisepflichtige",
+              "sublabel": "Sachsen-Anhalt, 31.12.2025"
+            },
+            {
+              "value": "4.097",
+              "label": "davon mit Duldung",
+              "sublabel": "rund 86 %"
+            }
           ],
-          "sourceRefs": ["bt-drs-21-4103", "bt-drs-20-14946", "bt-drs-21-4403"]
+          "sourceRefs": [
+            "bt-drs-21-4103",
+            "bt-drs-20-14946",
+            "bt-drs-21-4403"
+          ]
         },
         {
           "type": "bar_chart",
           "caption": "Warum Ausreisepflichtige geduldet werden: häufigste Gründe bundesweit (31.7.2025, Anzahl Duldungen)",
           "items": [
-            { "label": "Sonstige Gründe", "value": 62543 },
-            { "label": "Fehlende Reisedokumente", "value": 44519, "highlight": true },
-            { "label": "Familiäre Bindung", "value": 25136 },
-            { "label": "Ungeklärte Identität", "value": 16578 },
-            { "label": "Maßnahmen stehen bevor", "value": 6358 },
-            { "label": "Ermessensduldung", "value": 6282 },
-            { "label": "Abschiebungshindernis", "value": 6192 }
+            {
+              "label": "Sonstige Gründe",
+              "value": 62543
+            },
+            {
+              "label": "Fehlende Reisedokumente",
+              "value": 44519,
+              "highlight": true
+            },
+            {
+              "label": "Familiäre Bindung",
+              "value": 25136
+            },
+            {
+              "label": "Ungeklärte Identität",
+              "value": 16578
+            },
+            {
+              "label": "Maßnahmen stehen bevor",
+              "value": 6358
+            },
+            {
+              "label": "Ermessensduldung",
+              "value": 6282
+            },
+            {
+              "label": "Abschiebungshindernis",
+              "value": 6192
+            }
           ],
-          "sourceRefs": ["bt-drs-21-1640"]
+          "sourceRefs": [
+            "bt-drs-21-1640"
+          ]
         },
         {
           "type": "text",
-          "text": "Eine Landesregierung kann den Vollzug priorisieren, Personal in den Ausländerbehörden aufstocken und Abläufe straffen. Die Gründe für Duldungen — fehlende Pässe, Abschiebungsverbote, Rücknahmebereitschaft der Herkunftsstaaten — ergeben sich dagegen überwiegend aus Bundesrecht, Völkerrecht und Verhandlungen des Bundes. Der Grenzschutz ist Aufgabe der Bundespolizei.",
-          "sourceRefs": ["bt-drs-21-1640", "aufenthg-71"]
+          "text": "Eine Landesregierung kann den Vollzug priorisieren, Personal in den Ausländerbehörden aufstocken und Abläufe straffen. Die häufigsten benannten Gründe für Duldungen — fehlende Reisedokumente, familiäre Bindungen, ungeklärte Identität — ergeben sich dagegen überwiegend aus Bundesrecht, Völkerrecht, dem Verhalten der Herkunftsstaaten und teils der Betroffenen selbst. Direkten Spielraum hat das Land vor allem bei Ermessensduldungen und bei der Durchsetzung im Einzelfall. Der Grenzschutz ist Aufgabe der Bundespolizei.",
+          "sourceRefs": [
+            "bt-drs-21-1640",
+            "aufenthg-71"
+          ]
         }
       ]
     },
@@ -275,23 +528,43 @@
         {
           "type": "stat_grid",
           "items": [
-            { "value": "850", "label": "allgemeinbildende Schulen", "sublabel": "Schuljahr 2025/26" },
-            { "value": "211.854", "label": "Schülerinnen und Schüler", "sublabel": "Sachsen-Anhalt" },
-            { "value": "13.974", "label": "Lehrkräfte im Landesdienst", "sublabel": "an öffentlichen Schulen" }
+            {
+              "value": "850",
+              "label": "allgemeinbildende Schulen",
+              "sublabel": "Schuljahr 2025/26"
+            },
+            {
+              "value": "211.854",
+              "label": "Schülerinnen und Schüler",
+              "sublabel": "Sachsen-Anhalt"
+            },
+            {
+              "value": "13.974",
+              "label": "Lehrkräfte im Landesdienst",
+              "sublabel": "an öffentlichen Schulen"
+            }
           ],
-          "sourceRefs": ["stala-lsa-schulen-2025-26"]
+          "sourceRefs": [
+            "stala-lsa-schulen-2025-26"
+          ]
         },
         {
           "type": "fact",
           "text": "Lehrpläne erlässt in Sachsen-Anhalt das Bildungsministerium; sie beschreiben verbindliche Ziele und Inhalte des Unterrichts.",
           "description": "Der aktuelle Grundschullehrplan (in Kraft ab 1.8.2026) beruft sich auf Beschlüsse der Kultusministerkonferenz. Deren Bildungsstandards sind Vereinbarungen der Länder, die jedes Land in eigene Vorgaben umsetzt.",
           "highlight": true,
-          "sourceRefs": ["lisa-lehrplan-grundschule-2026", "kmk-bildungsstandards"]
+          "sourceRefs": [
+            "lisa-lehrplan-grundschule-2026",
+            "kmk-bildungsstandards"
+          ]
         },
         {
           "type": "text",
           "text": "Schulpolitik ist damit einer der Bereiche, in denen eine neue Regierung tatsächlich viel ändern kann — über Lehrpläne, Personalauswahl und Schulorganisation. Grundlegende Änderungen am Schulgesetz brauchen allerdings eine Mehrheit im Landtag, und die gemeinsamen Bildungsstandards der Länder setzen einen Rahmen.",
-          "sourceRefs": ["bpb-gesetzgebungskompetenz", "kmk-bildungsstandards"]
+          "sourceRefs": [
+            "bpb-gesetzgebungskompetenz",
+            "kmk-bildungsstandards"
+          ]
         }
       ]
     },
@@ -302,46 +575,100 @@
         {
           "type": "text",
           "text": "Der öffentlich-rechtliche Rundfunk beruht auf Staatsverträgen aller 16 Länder. Die AfD Sachsen-Anhalt hat angekündigt, die Rundfunkstaatsverträge als erste Amtshandlung zu kündigen und den Rundfunk auf ein Grundangebot zu reduzieren. Was rechtlich möglich ist, ist enger und zeitlich später, als die Ankündigung nahelegt — und in Teilen unter Juristen umstritten.",
-          "sourceRefs": ["beck-aktuell-rundfunk-ausstieg-2026", "newsde-siegmund-rundfunk"]
+          "sourceRefs": [
+            "beck-aktuell-rundfunk-ausstieg-2026",
+            "newsde-siegmund-rundfunk"
+          ]
         },
         {
           "type": "timeline",
           "caption": "Rundfunkbeitrag und Sachsen-Anhalt: wichtige Daten",
           "steps": [
-            { "label": "Dez. 2020", "value": "Sachsen-Anhalt stimmt Erhöhung nicht zu", "sublabel": "als einziges Land; Beitrag bleibt bei 17,50 €" },
-            { "label": "20.7.2021", "value": "BVerfG: Erhöhung auf 18,36 € gilt", "sublabel": "Blockade verletzt die Rundfunkfreiheit" },
-            { "label": "30.11.2025", "value": "Reform der Beitragsfestsetzung scheitert", "sublabel": "nicht alle Länder ratifizieren; Einstimmigkeit bleibt" },
-            { "label": "6.9.2026", "value": "AfD kündigt Kündigung der Staatsverträge an", "sublabel": "nach der Landtagswahl" },
-            { "label": "31.12.2028", "value": "frühestmögliches Wirksamwerden", "sublabel": "bei Kündigung bis Ende 2027", "highlight": true }
+            {
+              "label": "Dez. 2020",
+              "value": "Sachsen-Anhalt stimmt Erhöhung nicht zu",
+              "sublabel": "als einziges Land; Beitrag bleibt bei 17,50 €"
+            },
+            {
+              "label": "20.7.2021",
+              "value": "BVerfG: Erhöhung auf 18,36 € gilt",
+              "sublabel": "unterlassene Zustimmung verletzt die Rundfunkfreiheit"
+            },
+            {
+              "label": "Nov. 2025",
+              "value": "Reform der Beitragsfestsetzung scheitert",
+              "sublabel": "Bayern, Sachsen und Sachsen-Anhalt unterzeichnen nicht; Einstimmigkeit bleibt"
+            },
+            {
+              "label": "6.9.2026",
+              "value": "AfD kündigt Kündigung der Staatsverträge an",
+              "sublabel": "nach der Landtagswahl"
+            },
+            {
+              "label": "31.12.2028",
+              "value": "frühestmögliches Wirksamwerden",
+              "sublabel": "bei Kündigung bis Ende 2027",
+              "highlight": true
+            }
           ],
-          "sourceRefs": ["bverfg-rundfunkbeitrag-2021", "telepolis-reformstaatsvertrag", "newsde-siegmund-rundfunk", "medienanstalten-mstv"]
+          "sourceRefs": [
+            "bverfg-rundfunkbeitrag-2021",
+            "telepolis-reformstaatsvertrag",
+            "newsde-siegmund-rundfunk",
+            "medienanstalten-mstv"
+          ]
         },
         {
           "type": "fact",
           "text": "Der Medienstaatsvertrag kann jeweils mit einjähriger Frist zum Jahresende gekündigt werden, nach 2022 nur noch alle zwei Jahre — der nächste erreichbare Termin ist der 31.12.2028. Zwischen den übrigen Ländern bleibt er in Kraft.",
           "description": "Mit dem Medienstaatsvertrag können auch Rundfunkbeitrags- und Rundfunkfinanzierungsstaatsvertrag gekündigt werden. Seit der Verfassungsreform 2026 braucht eine Kündigung in Sachsen-Anhalt die Zustimmung des Landtags (Art. 69 Abs. 2 LV).",
           "highlight": true,
-          "sourceRefs": ["medienanstalten-mstv", "landtag-lsa-verfassung-2026"]
+          "sourceRefs": [
+            "medienanstalten-mstv",
+            "landtag-lsa-verfassung-2026"
+          ]
         },
         {
           "type": "fact",
           "text": "Allein kann Sachsen-Anhalt den MDR nicht auflösen: Kündigt nur ein Land, bleibt der MDR-Staatsvertrag zwischen Sachsen und Thüringen in Kraft. Aufgelöst wird der MDR erst, wenn zwei Länder kündigen.",
           "description": "Die Kündigungsfrist beträgt zwei Jahre zum Ende eines Kalenderjahres (§ 42 MDR-Staatsvertrag).",
-          "sourceRefs": ["revosax-mdr-staatsvertrag"]
+          "sourceRefs": [
+            "revosax-mdr-staatsvertrag"
+          ]
         },
         {
           "type": "text",
           "text": "Ob nach einem Ausstieg in Sachsen-Anhalt kein Rundfunkbeitrag mehr erhoben würde, ist umstritten. Der Medienrechtler Dieter Dörr argumentiert, die Beitragspflicht beruhe auf der Vollstreckungsanordnung des Bundesverfassungsgerichts von 2021 und bestünde fort; ein Gutachten von Paulina Starski kommt zu dem Ergebnis, dass das Land dann keinen Beitrag mehr erhöbe, aber eine eigene angemessen finanzierte Landesrundfunkanstalt schaffen müsste. Einig sind sich beide Seiten, dass die Rundfunkfreiheit (Art. 5 GG) das Land weiter zu einer funktionsfähigen öffentlich-rechtlichen Versorgung verpflichtet.",
-          "sourceRefs": ["lto-doerr-rundfunk-2026", "beck-aktuell-rundfunk-ausstieg-2026", "bverfg-rundfunk-2007"]
+          "sourceRefs": [
+            "lto-doerr-rundfunk-2026",
+            "beck-aktuell-rundfunk-ausstieg-2026",
+            "bverfg-rundfunk-2007"
+          ]
         },
         {
           "type": "stat_grid",
           "items": [
-            { "value": "18,36 €", "label": "Rundfunkbeitrag pro Monat", "sublabel": "je Wohnung, Stand 2026" },
-            { "value": "1,26 Mio.", "label": "Beitragskonten in Sachsen-Anhalt", "sublabel": "31.12.2025" },
-            { "value": "18,64 €", "label": "KEF-Empfehlung ab 2027", "sublabel": "braucht Zustimmung aller Länder" }
+            {
+              "value": "18,36 €",
+              "label": "Rundfunkbeitrag pro Monat",
+              "sublabel": "je Wohnung, Stand 2026"
+            },
+            {
+              "value": "1,26 Mio.",
+              "label": "Beitragskonten in Sachsen-Anhalt",
+              "sublabel": "31.12.2025"
+            },
+            {
+              "value": "18,64 €",
+              "label": "KEF-Empfehlung ab 2027",
+              "sublabel": "braucht Zustimmung aller Länder"
+            }
           ],
-          "sourceRefs": ["rundfunkbeitrag-hoehe", "beitragsservice-konten-2025", "zdf-kef-empfehlung-2026"]
+          "sourceRefs": [
+            "rundfunkbeitrag-hoehe",
+            "beitragsservice-konten-2025",
+            "zdf-kef-empfehlung-2026"
+          ]
         }
       ]
     },
@@ -355,32 +682,63 @@
           "filled": 4,
           "total": 69,
           "label": "4 von 69 Stimmen — für eine Mehrheit braucht es 35",
-          "sourceRefs": ["bundesrat-stimmenverteilung", "bundesrat-sachsen-anhalt"]
+          "sourceRefs": [
+            "bundesrat-stimmenverteilung",
+            "bundesrat-sachsen-anhalt"
+          ]
         },
         {
           "type": "fact",
           "text": "Ein Land kann seine Stimmen nur einheitlich abgeben; eine Enthaltung wirkt im Bundesrat wie ein Nein, weil Beschlüsse mindestens 35 Ja-Stimmen brauchen.",
           "description": "Koalitionsregierungen, die sich nicht einigen, enthalten sich deshalb meist — mit derselben Wirkung wie eine Ablehnung. Eine Alleinregierung kann dagegen geschlossen abstimmen.",
-          "sourceRefs": ["bundesrat-stimmabgabe", "gg-art-51", "gg-art-52"]
+          "sourceRefs": [
+            "bundesrat-stimmabgabe",
+            "gg-art-51",
+            "gg-art-52"
+          ]
         },
         {
           "type": "line_chart",
           "caption": "Anteil zustimmungsbedürftiger Bundesgesetze je Wahlperiode des Bundestags",
           "items": [
-            { "label": "15. WP", "value": 50.8 },
-            { "label": "16. WP", "value": 41.8 },
-            { "label": "17. WP", "value": 38.3 },
-            { "label": "18. WP", "value": 35.8 },
-            { "label": "19. WP", "value": 37.8 },
-            { "label": "20. WP", "value": 34.7 }
+            {
+              "label": "15. WP",
+              "value": 50.8
+            },
+            {
+              "label": "16. WP",
+              "value": 41.8
+            },
+            {
+              "label": "17. WP",
+              "value": 38.3
+            },
+            {
+              "label": "18. WP",
+              "value": 35.8
+            },
+            {
+              "label": "19. WP",
+              "value": 37.8
+            },
+            {
+              "label": "20. WP",
+              "value": 34.7
+            }
           ],
           "unit": "%",
-          "sourceRefs": ["bundesrat-statistik-gesamt"]
+          "sourceRefs": [
+            "bundesrat-statistik-gesamt"
+          ]
         },
         {
           "type": "text",
-          "text": "Nur bei zustimmungsbedürftigen Gesetzen — zuletzt etwa jedes dritte — kann der Bundesrat ein Gesetz endgültig stoppen. Bei allen anderen kann er Einspruch einlegen, den der Bundestag mit der Mehrheit seiner Mitglieder zurückweisen kann. In der laufenden 21. Wahlperiode hat der Bundesrat bis September 2026 bei 2 von 178 beratenen Gesetzen die Zustimmung versagt.",
-          "sourceRefs": ["bundesrat-zustimmungsgesetze", "gg-art-77", "bundesrat-statistik-21wp"]
+          "text": "Nur bei zustimmungsbedürftigen Gesetzen — zuletzt etwa jedes dritte — kann der Bundesrat ein Gesetz endgültig stoppen. Bei allen anderen kann er Einspruch einlegen, den der Bundestag mit der Mehrheit seiner Mitglieder zurückweisen kann; hat der Bundesrat mit Zwei-Drittel-Mehrheit Einspruch eingelegt, braucht auch der Bundestag eine Zwei-Drittel-Mehrheit. In der laufenden 21. Wahlperiode hat der Bundesrat bis September 2026 bei 2 von 178 beratenen Gesetzen die Zustimmung versagt.",
+          "sourceRefs": [
+            "bundesrat-zustimmungsgesetze",
+            "gg-art-77",
+            "bundesrat-statistik-21wp"
+          ]
         }
       ]
     },
@@ -391,35 +749,87 @@
         {
           "type": "text",
           "text": "Eine Landesregierung handelt nicht ohne Kontrolle: Der Landtag beschließt Gesetze und Haushalt, das Landesverfassungsgericht prüft die Einhaltung der Landesverfassung, Verwaltungsgerichte prüfen einzelne Behördenentscheidungen, und der Bund überwacht die Ausführung von Bundesgesetzen. Gleichzeitig verteilt die Verfassung Sperrminoritäten: Wer mehr als ein Drittel der Sitze hat, kann Zwei-Drittel-Entscheidungen blockieren.",
-          "sourceRefs": ["landtag-lsa-verfassung-2026", "gg-art-84", "gg-art-28"]
+          "sourceRefs": [
+            "landtag-lsa-verfassung-2026",
+            "gg-art-84",
+            "gg-art-28"
+          ]
         },
         {
           "type": "table",
           "caption": "Mehrheitshürden im Landtag Sachsen-Anhalt (83 Sitze, AfD 39)",
-          "headers": ["Entscheidung", "Hürde", "Stimmen", "Rechtsgrundlage"],
-          "rows": [
-            ["Wahl des Ministerpräsidenten (1./2. Wahlgang)", "Mehrheit der Mitglieder", "42", "Art. 65 LV"],
-            ["Konstruktives Misstrauensvotum", "Mehrheit der Mitglieder", "42", "Art. 72 LV"],
-            ["Verfassungsänderung", "zwei Drittel der Mitglieder", "56", "Art. 78 LV"],
-            ["Selbstauflösung des Landtags", "zwei Drittel der Mitglieder", "56", "Art. 60 LV"],
-            ["Abberufung des Landtagspräsidenten", "zwei Drittel der Mitglieder", "56", "Art. 49 LV"],
-            ["Wahl der Landesverfassungsrichter", "zwei Drittel der Anwesenden; nach 6 Monaten Vorschlag des Gerichts mit Mehrheit der Mitglieder", "56 bzw. 42", "Art. 74 LV"],
-            ["Abschluss und Kündigung von Staatsverträgen", "Zustimmung des Landtags", "Mehrheit", "Art. 69 LV"]
+          "headers": [
+            "Entscheidung",
+            "Hürde",
+            "Stimmen",
+            "Rechtsgrundlage"
           ],
-          "sourceRefs": ["landtag-lsa-verfassung-2026"]
+          "rows": [
+            [
+              "Wahl des Ministerpräsidenten (1./2. Wahlgang)",
+              "Mehrheit der Mitglieder",
+              "42",
+              "Art. 65 LV"
+            ],
+            [
+              "Konstruktives Misstrauensvotum",
+              "Mehrheit der Mitglieder",
+              "42",
+              "Art. 72 LV"
+            ],
+            [
+              "Verfassungsänderung",
+              "zwei Drittel der Mitglieder",
+              "56",
+              "Art. 78 LV"
+            ],
+            [
+              "Selbstauflösung des Landtags",
+              "zwei Drittel der Mitglieder",
+              "56",
+              "Art. 60 LV"
+            ],
+            [
+              "Abberufung des Landtagspräsidenten",
+              "zwei Drittel der Mitglieder",
+              "56",
+              "Art. 49 LV"
+            ],
+            [
+              "Wahl der Landesverfassungsrichter",
+              "zwei Drittel der Anwesenden, mindestens Mehrheit der Mitglieder; nach 6 Monaten Vorschlag des Gerichts mit Mehrheit der Mitglieder",
+              "bei voller Besetzung 56; Gerichtsvorschlag 42",
+              "Art. 74 LV"
+            ],
+            [
+              "Abschluss und Kündigung von Staatsverträgen",
+              "Zustimmung des Landtags",
+              "Mehrheit",
+              "Art. 69 LV"
+            ]
+          ],
+          "sourceRefs": [
+            "landtag-lsa-verfassung-2026"
+          ]
         },
         {
           "type": "fact",
           "text": "Mit 39 von 83 Sitzen hält die AfD eine Sperrminorität: Ohne ihre Stimmen ist keine Änderung der Landesverfassung möglich.",
-          "description": "Umgekehrt hat keine andere Fraktionskombination ohne die AfD die Zwei-Drittel-Mehrheit von 56 Sitzen.",
+          "description": "Alle übrigen Fraktionen zusammen kommen auf 44 Sitze; nötig sind 56.",
           "highlight": true,
-          "sourceRefs": ["landtag-lsa-verfassung-2026", "lsa-sitzverteilung-2026"]
+          "sourceRefs": [
+            "landtag-lsa-verfassung-2026",
+            "lsa-sitzverteilung-2026"
+          ]
         },
         {
           "type": "fact",
-          "text": "Im April 2026 hat der alte Landtag die Landesverfassung mit 72 zu 22 Stimmen geändert, unter anderem um das Landesverfassungsgericht abzusichern; die AfD stimmte dagegen.",
+          "text": "Im April 2026 hat der alte Landtag die Landesverfassung mit 72 zu 22 Stimmen geändert, unter anderem bei der Wahl der Landesverfassungsrichter; die Befürworter begründeten das mit der Absicherung des Gerichts, die AfD stimmte dagegen.",
           "description": "Kommt eine Richterwahl binnen sechs Monaten nicht zustande, schlägt das Gericht selbst Kandidaten vor, die mit der Mehrheit der Mitglieder gewählt werden. Die Verbindlichkeit seiner Entscheidungen steht jetzt in der Verfassung (Art. 76 LV).",
-          "sourceRefs": ["abgeordnetenwatch-parlamentsreform-2026", "landtag-lsa-verfassung-2026"]
+          "sourceRefs": [
+            "abgeordnetenwatch-parlamentsreform-2026",
+            "landtag-lsa-verfassung-2026"
+          ]
         }
       ]
     },
@@ -430,43 +840,86 @@
         {
           "type": "text",
           "text": "Das Grundgesetz erlaubt es, verfassungswidrige Parteien zu verbieten oder von staatlicher Finanzierung auszuschließen (Art. 21 Abs. 2 und 3 GG). Entscheiden kann nur das Bundesverfassungsgericht. Nach der Wahl in Sachsen-Anhalt wird erneut über ein Verfahren gegen die AfD oder einzelne Landesverbände gestritten.",
-          "sourceRefs": ["gg-art-21"]
+          "sourceRefs": [
+            "gg-art-21"
+          ]
         },
         {
           "type": "timeline",
           "caption": "Parteiverbotsverfahren in der Bundesrepublik",
           "steps": [
-            { "label": "1952", "value": "SRP verboten", "sublabel": "Urteil 23.10.1952" },
-            { "label": "1956", "value": "KPD verboten", "sublabel": "Verfahren dauerte fast fünf Jahre" },
-            { "label": "2003", "value": "NPD-Verfahren eingestellt", "sublabel": "Anträge von 2001" },
-            { "label": "2017", "value": "NPD nicht verboten", "sublabel": "verfassungsfeindlich, aber ohne Aussicht auf Erfolg; Antrag Dez. 2013", "highlight": true },
-            { "label": "2024", "value": "‚Die Heimat' (ex-NPD) von Finanzierung ausgeschlossen", "sublabel": "für sechs Jahre, erster Fall nach Art. 21 Abs. 3 GG" }
+            {
+              "label": "1952",
+              "value": "SRP verboten",
+              "sublabel": "Urteil 23.10.1952"
+            },
+            {
+              "label": "1956",
+              "value": "KPD verboten",
+              "sublabel": "Verfahren dauerte fast fünf Jahre"
+            },
+            {
+              "label": "2003",
+              "value": "NPD-Verfahren eingestellt",
+              "sublabel": "Anträge von 2001"
+            },
+            {
+              "label": "2017",
+              "value": "NPD nicht verboten",
+              "sublabel": "verfassungsfeindlich, aber ohne Anhaltspunkte, dass sie ihre Ziele erreichen kann; Antrag Dez. 2013",
+              "highlight": true
+            },
+            {
+              "label": "2024",
+              "value": "‚Die Heimat‘ (ex-NPD) von Finanzierung ausgeschlossen",
+              "sublabel": "für sechs Jahre, erster Fall nach Art. 21 Abs. 3 GG"
+            }
           ],
-          "sourceRefs": ["bverfg-geschichte", "bpb-kpd-verbot", "bverfg-npd-2003", "bverfg-npd-2017", "bverfg-heimat-2024"]
+          "sourceRefs": [
+            "bverfg-geschichte",
+            "bpb-kpd-verbot",
+            "bverfg-npd-2003",
+            "bverfg-npd-2017",
+            "bverfg-heimat-2024"
+          ]
         },
         {
           "type": "fact",
           "text": "Einen Verbotsantrag können nur Bundestag, Bundesrat oder Bundesregierung stellen; eine Landesregierung nur gegen eine Partei, die allein in ihrem Land organisiert ist (§ 43 BVerfGG).",
           "description": "Ein Verbot kann auf einen selbständigen Teil einer Partei beschränkt werden (§ 46 Abs. 2 BVerfGG). Ob ein Antrag von vornherein nur gegen einen Landesverband gerichtet werden darf, ist umstritten; die überwiegende Meinung verneint das.",
           "highlight": true,
-          "sourceRefs": ["bverfgg-43", "bverfgg-46", "verfassungsblog-teilverbot"]
+          "sourceRefs": [
+            "bverfgg-43",
+            "bverfgg-46",
+            "verfassungsblog-teilverbot"
+          ]
         },
         {
           "type": "fact",
           "text": "Wird eine Partei verboten, verlieren ihre Bundestagsabgeordneten das Mandat; für Direktmandate wird neu gewählt, Listenplätze bleiben unbesetzt (§ 46 Bundeswahlgesetz).",
           "description": "Landeswahlgesetze enthalten vergleichbare Regeln, etwa Art. 59 des bayerischen Landeswahlgesetzes.",
-          "sourceRefs": ["bwahlg-46", "bay-lwg-59"]
+          "sourceRefs": [
+            "bwahlg-46",
+            "bay-lwg-59"
+          ]
         },
         {
           "type": "fact",
           "text": "Stand Oktober 2026 liegt dem Bundesverfassungsgericht kein Verbotsantrag gegen die AfD vor.",
-          "description": "Ein Gruppenantrag im Bundestag wurde Anfang 2025 beraten, aber vor der Neuwahl nicht mehr abgestimmt. Nach der Wahl in Sachsen-Anhalt forderten unter anderem Boris Pistorius und Cem Özdemir ein Verfahren gegen die Landesverbände Thüringen, Sachsen, Sachsen-Anhalt und Brandenburg; Teile der Union lehnen das ab, NRW-Ministerpräsident Hendrik Wüst schlug eine ergebnisoffene Bund-Länder-Arbeitsgruppe vor.",
-          "sourceRefs": ["correctiv-afd-verbot-ticker", "bundestag-afd-verbot-2025", "tagesspiegel-pistorius-oezdemir", "tagesspiegel-wuest-arbeitsgruppe"]
+          "description": "Ein Gruppenantrag im Bundestag wurde Anfang 2025 beraten, aber vor der Neuwahl nicht mehr abgestimmt. Vor der Wahl in Sachsen-Anhalt forderten unter anderem Boris Pistorius und Cem Özdemir ein Verfahren gegen die Landesverbände Thüringen, Sachsen, Sachsen-Anhalt und Brandenburg; Teile der Union lehnen das ab. Nach der Wahl schlug NRW-Ministerpräsident Hendrik Wüst eine ergebnisoffene Bund-Länder-Arbeitsgruppe vor.",
+          "sourceRefs": [
+            "correctiv-afd-verbot-ticker",
+            "bundestag-afd-verbot-2025",
+            "tagesspiegel-pistorius-oezdemir",
+            "tagesspiegel-wuest-arbeitsgruppe"
+          ]
         },
         {
           "type": "text",
           "text": "Auch der Europäische Gerichtshof für Menschenrechte hält Parteiverbote für zulässig, wenn ein dringendes gesellschaftliches Bedürfnis besteht und das Verbot verhältnismäßig ist; so bestätigte er 2003 das Verbot der türkischen Refah-Partei. Die Hürden sind hoch, und wie ein Verfahren gegen die AfD ausginge, lässt sich nicht verlässlich vorhersagen.",
-          "sourceRefs": ["verfassungsblog-egmr-parteiverbot"]
+          "sourceRefs": [
+            "verfassungsblog-egmr-parteiverbot"
+          ]
         }
       ]
     },
@@ -477,41 +930,114 @@
         {
           "type": "text",
           "text": "Wie etablierte Parteien mit radikal rechten Parteien umgehen sollen, ist eine politische Abwägung. Die Politikwissenschaft kann aber prüfen, welche Folgen Ausgrenzung, Übernahme von Positionen oder Regierungsbeteiligung bisher hatten. Das Bild ist uneinheitlich: Es gibt keine Strategie, die nachweislich immer wirkt.",
-          "sourceRefs": ["van-spanje-weber-2019"]
+          "sourceRefs": [
+            "van-spanje-weber-2019"
+          ]
         },
         {
           "type": "table",
           "caption": "Ausgewählte Studien und ihre Kernbefunde",
-          "headers": ["Studie", "Untersucht", "Befund"],
-          "rows": [
-            ["Schuster u. a. 2026", "Merz-Abstimmungen mit AfD-Stimmen, Januar 2025 (natürliches Experiment)", "Keine messbaren kurzfristigen Effekte — weder Bestrafung der Union noch Normalisierung der AfD"],
-            ["Fahey & Alarian 2025", "Experiment: Union als Brandmauer-Wahrerin oder -Brecherin", "Keine Wirkung auf Parteibewertung, Wahlabsicht oder Migrationseinstellungen"],
-            ["Daur 2025", "Experimente in Deutschland und Schweden", "Legitimierung durch etablierte Parteien erhöht Akzeptanz der Pariah-Partei; spätere Abgrenzung wirkt kaum"],
-            ["van Spanje & Weber 2019", "Ausgrenzung, Vergleich und Experiment (Niederlande)", "Zweischneidig: senkt Unterstützung bei Regierungsaussicht, kann sie als Protestsignal erhöhen"],
-            ["van Spanje & de Graaf 2018", "296 Wahlergebnisse in Westeuropa", "Übernahme von Positionen schwächt Herausforderer nur, wenn sie zugleich ausgegrenzt sind"],
-            ["Krause, Cohen & Abou-Chadi 2023", "Migrationspositionen etablierter Parteien in 12 Ländern", "Anpassung an radikal rechte Positionen schwächt diese Parteien nicht"],
-            ["van Spanje 2011", "Regierungsbeteiligung von Anti-Establishment-Parteien", "Sie verlieren nach dem Regieren im Schnitt stärker als andere Regierungsparteien"]
+          "headers": [
+            "Studie",
+            "Untersucht",
+            "Befund"
           ],
-          "sourceRefs": ["schuster-2026-firewall", "fahey-alarian-2025", "daur-2025", "van-spanje-weber-2019", "van-spanje-de-graaf-2018", "krause-cohen-abou-chadi-2023", "van-spanje-2011"]
+          "rows": [
+            [
+              "Schuster u. a. 2026",
+              "Merz-Abstimmungen mit AfD-Stimmen, Januar 2025 (natürliches Experiment)",
+              "Keine messbaren kurzfristigen Effekte — weder Bestrafung der Union noch Normalisierung der AfD"
+            ],
+            [
+              "Fahey & Alarian 2025",
+              "Experiment: Union als Brandmauer-Wahrerin oder -Brecherin",
+              "Keine Wirkung auf Parteibewertung, Wahlabsicht oder Migrationseinstellungen"
+            ],
+            [
+              "Daur 2025",
+              "Experimente in Deutschland und Schweden",
+              "Legitimierung durch etablierte Parteien erhöht Akzeptanz der ausgegrenzten Partei; spätere Abgrenzung wirkt kaum"
+            ],
+            [
+              "van Spanje & Weber 2019",
+              "Ausgrenzung, Vergleich und Experiment (Niederlande)",
+              "Zweischneidig: senkt Unterstützung bei Regierungsaussicht, kann sie als Protestsignal erhöhen"
+            ],
+            [
+              "van Spanje & de Graaf 2018",
+              "296 Wahlergebnisse in Westeuropa",
+              "Übernahme von Positionen schwächt Herausforderer nur, wenn sie zugleich ausgegrenzt sind"
+            ],
+            [
+              "Krause, Cohen & Abou-Chadi 2023",
+              "Migrationspositionen etablierter Parteien in 12 Ländern",
+              "Anpassung an radikal rechte Positionen schwächt diese Parteien nicht"
+            ],
+            [
+              "van Spanje 2011",
+              "Regierungsbeteiligung von Anti-Establishment-Parteien",
+              "Sie verlieren nach dem Regieren im Schnitt stärker als andere Regierungsparteien"
+            ]
+          ],
+          "sourceRefs": [
+            "schuster-2026-firewall",
+            "fahey-alarian-2025",
+            "daur-2025",
+            "van-spanje-weber-2019",
+            "van-spanje-de-graaf-2018",
+            "krause-cohen-abou-chadi-2023",
+            "van-spanje-2011"
+          ]
         },
         {
           "type": "bar_chart",
-          "caption": "FPÖ bei Nationalratswahlen in Österreich: Verluste nach Regierungsbeteiligung, später Erholung",
+          "caption": "FPÖ bei Nationalratswahlen in Österreich vor und nach ihren Regierungsbeteiligungen",
           "items": [
-            { "label": "1999", "value": 26.9 },
-            { "label": "2002", "value": 10.0, "highlight": true },
-            { "label": "2006", "value": 11.0 },
-            { "label": "2017", "value": 26.0 },
-            { "label": "2019", "value": 16.2, "highlight": true },
-            { "label": "2024", "value": 28.8 }
+            {
+              "label": "1999",
+              "value": 26.9
+            },
+            {
+              "label": "2002",
+              "value": 10.0,
+              "highlight": true
+            },
+            {
+              "label": "2006",
+              "value": 11.0
+            },
+            {
+              "label": "2017",
+              "value": 26.0
+            },
+            {
+              "label": "2019",
+              "value": 16.2,
+              "highlight": true
+            },
+            {
+              "label": "2024",
+              "value": 28.8
+            }
           ],
           "unit": "%",
-          "sourceRefs": ["bmi-at-nrw-1999", "bmi-at-nrw-2002", "bmi-at-nrw-2006", "bmi-at-nrw-2017", "bmi-at-nrw-2019", "bmi-at-nrw-2024"]
+          "sourceRefs": [
+            "bmi-at-nrw-1999",
+            "bmi-at-nrw-2002",
+            "bmi-at-nrw-2006",
+            "bmi-at-nrw-2017",
+            "bmi-at-nrw-2019",
+            "bmi-at-nrw-2024"
+          ]
         },
         {
           "type": "text",
-          "text": "Die Befunde zur Regierungsbeteiligung sind ebenfalls gemischt: Die FPÖ verlor nach beiden Regierungseintritten deutlich, wurde 2024 aber stärkste Kraft; die Fratelli d'Italia legten als Regierungspartei bei der Europawahl 2024 auf 28,75 % zu. Zudem mäßigen sich radikal rechte Parteien in Regierungsverantwortung inhaltlich kaum, während auch ausgegrenzte Parteien sich nicht mäßigen.",
-          "sourceRefs": ["ep-ergebnisse-italien-2024", "akkerman-de-lange-rooduijn-2016", "akkerman-rooduijn-2015"]
+          "text": "Die Befunde zur Regierungsbeteiligung sind ebenfalls gemischt: Die FPÖ verlor nach beiden Regierungseintritten deutlich, wurde 2024 aber stärkste Kraft. Die Wahlergebnisse allein zeigen nicht, ob die Verluste auf das Regieren selbst oder auf andere Ereignisse zurückgehen. Die Fratelli d'Italia legten als Regierungspartei bei der Europawahl 2024 auf 28,75 % zu. Zudem mäßigen sich radikal rechte Parteien in Regierungsverantwortung inhaltlich kaum, während auch ausgegrenzte Parteien sich nicht mäßigen.",
+          "sourceRefs": [
+            "ep-ergebnisse-italien-2024",
+            "akkerman-de-lange-rooduijn-2016",
+            "akkerman-rooduijn-2015"
+          ]
         }
       ]
     }
@@ -520,9 +1046,21 @@
     {
       "id": "nur-ein-bundesland",
       "claim": "Ist doch nur ein Bundesland — eine Landesregierung kann eh nichts ändern.",
-      "response": "Eine Landesregierung hat in mehreren Bereichen erheblichen Einfluss: Sie führt Polizei, Verfassungsschutz und Staatsanwaltschaften, erlässt Lehrpläne, besetzt die Spitzen der Verwaltung und stimmt im Bundesrat ab. Richtig ist, dass Bundesrecht vorgeht und der Haushalt weitgehend gebunden ist. Für Gesetze und den Haushalt ab 2027 braucht sie zudem eine Mehrheit im Landtag. Wenig Macht über Bundespolitik heißt deshalb nicht wenig Macht im Land.",
-      "keywords": ["Bundesland", "Landesregierung", "Einfluss", "Macht", "egal", "ändert nichts"],
-      "relatedSections": ["kompetenzordnung", "polizei-justiz-verfassungsschutz", "schule-bildung", "landeshaushalt"],
+      "response": "Eine Landesregierung hat in mehreren Bereichen erheblichen Einfluss: Sie führt Polizei, Verfassungsschutz und Staatsanwaltschaften, erlässt Lehrpläne, besetzt die Spitzen der Verwaltung und stimmt im Bundesrat ab. Richtig ist, dass Bundesrecht vorgeht und ein großer Teil des Haushalts gebunden ist. Für Gesetze und den Haushalt ab 2027 braucht sie zudem eine Mehrheit im Landtag. Wenig Macht über Bundespolitik heißt deshalb nicht wenig Macht im Land.",
+      "keywords": [
+        "Bundesland",
+        "Landesregierung",
+        "Einfluss",
+        "Macht",
+        "egal",
+        "ändert nichts"
+      ],
+      "relatedSections": [
+        "kompetenzordnung",
+        "polizei-justiz-verfassungsschutz",
+        "schule-bildung",
+        "landeshaushalt"
+      ],
       "verdict": "mostly-false",
       "rhetoricalPattern": "Die Aussage schließt von begrenzter Macht auf Bundesebene auf fehlende Macht insgesamt. Sie übersieht, dass im Föderalismus gerade Verwaltung, Schule und innere Sicherheit Landessache sind — also Bereiche, die den Alltag direkt betreffen.",
       "counterQuestions": [
@@ -534,10 +1072,22 @@
       "id": "regierung-kann-alles",
       "claim": "Eine AfD-Landesregierung kann dann machen, was sie will — niemand kann sie stoppen!",
       "response": "Eine Landesregierung bleibt an Grundgesetz, Bundesrecht und Landesverfassung gebunden und wird mehrfach kontrolliert: durch das Landesverfassungsgericht, die Verwaltungsgerichte, die Bundesaufsicht bei Bundesgesetzen und den Landtag. Ohne eigene Mehrheit — die AfD hat 39 von 83 Sitzen — kann sie weder Gesetze noch einen Haushalt allein beschließen. Richtig ist allerdings, dass eine Regierung über Verwaltung, Personal und Verordnungen viel bewegen kann, ohne den Landtag zu fragen. Gerichte greifen zudem erst nachträglich ein.",
-      "keywords": ["AfD-Regierung", "Kontrolle", "Verfassungsgericht", "Gewaltenteilung", "Diktatur", "stoppen"],
-      "relatedSections": ["kontrolle", "kompetenzordnung", "sachsen-anhalt-2026"],
+      "keywords": [
+        "AfD-Regierung",
+        "Kontrolle",
+        "Verfassungsgericht",
+        "Gewaltenteilung",
+        "Diktatur",
+        "stoppen"
+      ],
+      "relatedSections": [
+        "kontrolle",
+        "kompetenzordnung",
+        "sachsen-anhalt-2026",
+        "polizei-justiz-verfassungsschutz"
+      ],
       "verdict": "mostly-false",
-      "rhetoricalPattern": "Die Befürchtung setzt Regierungsmacht mit unbeschränkter Macht gleich. Sie übersieht die gestaffelten Kontrollen im Bundesstaat — unterschätzt dabei aber zu Recht nicht, dass Verwaltungshandeln oft schneller ist als gerichtliche Kontrolle.",
+      "rhetoricalPattern": "Die Aussage setzt Regierungsmacht mit unbeschränkter Macht gleich und übersieht die gestaffelten Kontrollen im Bundesstaat. Ihr berechtigter Kern: Verwaltungshandeln ist oft schneller als gerichtliche Kontrolle.",
       "counterQuestions": [
         "Welche konkrete Maßnahme meinst du — und welches Gesetz müsste dafür geändert werden?",
         "Wie würde eine Regierung ohne eigene Landtagsmehrheit einen Haushalt beschließen?"
@@ -546,11 +1096,21 @@
     {
       "id": "alle-abschieben",
       "claim": "Wenn die AfD in Magdeburg regiert, wird endlich konsequent abgeschoben — dann sind die alle weg!",
-      "response": "Ein Land kann beim Vollzug von Abschiebungen tatsächlich Druck machen, etwa durch mehr Personal in den Ausländerbehörden und klare Prioritäten. Die Regeln selbst sind aber Bundesrecht: Über Asyl entscheidet das BAMF, und warum jemand geduldet wird, folgt überwiegend aus Bundes- und Völkerrecht. In Sachsen-Anhalt waren Ende 2025 rund 4.770 Menschen ausreisepflichtig, 86 % davon mit Duldung, bundesweit häufig wegen fehlender Reisedokumente. 2025 schob das Land 577 Menschen ab, 792 Abschiebungen scheiterten. Ein Regierungswechsel kann diese Zahlen beeinflussen, aber nicht per Beschluss auflösen.",
-      "keywords": ["Abschiebung", "abschieben", "Ausreisepflicht", "Duldung", "Ausländerbehörde", "Remigration"],
-      "relatedSections": ["migration-vollzug", "kompetenzordnung"],
-      "verdict": "misleading",
-      "rhetoricalPattern": "Die Aussage verwechselt Vollzug mit Rechtsetzung. Das Land führt aus, was der Bund regelt — und viele Hindernisse wie fehlende Pässe oder Herkunftsstaaten, die nicht zurücknehmen, liegen außerhalb der Landeszuständigkeit. Zur Frage, ob ein Land das Asylrecht abschaffen kann, siehe auch das Thema Migration.",
+      "response": "Ein Land kann beim Vollzug von Abschiebungen tatsächlich Druck machen, etwa durch mehr Personal in den Ausländerbehörden und klare Prioritäten. Die Regeln selbst sind aber Bundesrecht: Über Asyl entscheidet das BAMF, und warum jemand geduldet wird, folgt überwiegend aus Bundes- und Völkerrecht. In Sachsen-Anhalt waren Ende 2025 rund 4.770 Menschen ausreisepflichtig, 86 % davon mit Duldung, bundesweit häufig wegen fehlender Reisedokumente. 2025 schob das Land 577 Menschen ab; 792 Abschiebungsversuche scheiterten. Ein Regierungswechsel kann diese Zahlen beeinflussen, aber nicht per Beschluss auflösen.",
+      "keywords": [
+        "Abschiebung",
+        "abschieben",
+        "Ausreisepflicht",
+        "Duldung",
+        "Ausländerbehörde",
+        "Remigration"
+      ],
+      "relatedSections": [
+        "migration-vollzug",
+        "kompetenzordnung"
+      ],
+      "verdict": "mostly-false",
+      "rhetoricalPattern": "Die Aussage verwechselt Vollzug mit Rechtsetzung. Das Land führt aus, was der Bund regelt — und viele Hindernisse wie fehlende Pässe oder Herkunftsstaaten, die nicht zurücknehmen, liegen außerhalb der Landeszuständigkeit.",
       "counterQuestions": [
         "Was soll eine Ausländerbehörde tun, wenn der Herkunftsstaat keinen Pass ausstellt?",
         "Welche der Duldungsgründe könnte ein Land deiner Meinung nach selbst abschaffen?"
@@ -559,23 +1119,41 @@
     {
       "id": "gez-ist-weg",
       "claim": "Wenn die AfD regiert, ist die GEZ weg — und der MDR gleich mit!",
-      "response": "Tatsächlich kann ein Land die Rundfunkstaatsverträge kündigen, allerdings frühestens mit Wirkung zum 31.12.2028 und in Sachsen-Anhalt nur mit Zustimmung des Landtags. Den MDR kann Sachsen-Anhalt allein nicht auflösen: Er besteht dann mit Sachsen und Thüringen weiter. Ob danach im Land kein Rundfunkbeitrag mehr erhoben würde, ist unter Juristen umstritten. Sicher ist, dass die Rundfunkfreiheit das Land weiter zu einer funktionsfähigen öffentlich-rechtlichen Versorgung verpflichtet. Eine schnelle Abschaffung des Beitrags ist rechtlich nicht möglich.",
-      "keywords": ["GEZ", "Rundfunkbeitrag", "MDR", "Staatsvertrag", "kündigen", "öffentlich-rechtlicher Rundfunk"],
-      "relatedSections": ["rundfunk"],
+      "response": "Tatsächlich kann ein Land die Rundfunkstaatsverträge kündigen, allerdings frühestens mit Wirkung zum 31.12.2028 und in Sachsen-Anhalt nur mit Zustimmung des Landtags. Den MDR kann Sachsen-Anhalt allein nicht auflösen: Er besteht dann mit Sachsen und Thüringen weiter. Ob danach im Land kein Rundfunkbeitrag mehr erhoben würde, ist unter Juristen umstritten. Einig sind sich die zitierten Juristen, dass die Rundfunkfreiheit das Land weiter zu einer funktionsfähigen öffentlich-rechtlichen Versorgung verpflichtet. Eine schnelle Abschaffung des Beitrags ist rechtlich nicht möglich.",
+      "keywords": [
+        "GEZ",
+        "Rundfunkbeitrag",
+        "MDR",
+        "Staatsvertrag",
+        "kündigen",
+        "öffentlich-rechtlicher Rundfunk"
+      ],
+      "relatedSections": [
+        "rundfunk"
+      ],
       "verdict": "mostly-false",
       "rhetoricalPattern": "Die Erwartung überträgt eine Ankündigung direkt auf das Ergebnis. Dabei übersieht sie Kündigungsfristen, die Zustimmung des Landtags und die verfassungsrechtliche Pflicht der Länder, den öffentlich-rechtlichen Rundfunk zu finanzieren.",
       "counterQuestions": [
-        "Ab wann könnte eine Kündigung frühestens wirken?",
+        "Bis wann rechnest du damit, dass kein Beitrag mehr fällig ist — und woran machst du das fest?",
         "Was passiert mit dem MDR, wenn Sachsen und Thüringen nicht mitziehen?"
       ]
     },
     {
       "id": "verfassungsschutz-abschaffen",
       "claim": "Eine AfD-Regierung schafft den Verfassungsschutz ab — dann beobachtet die keiner mehr!",
-      "response": "Ganz abschaffen darf ein Land seinen Verfassungsschutz nicht: Das Bundesverfassungsschutzgesetz verpflichtet jedes Land, eine solche Behörde zu unterhalten. Richtig ist aber, dass der Verfassungsschutz in Sachsen-Anhalt eine Abteilung des Innenministeriums ist; ein Innenminister bestimmt also über Leitung, Personal und Schwerpunkte. Beobachten kann zudem das Bundesamt, wenn Bestrebungen über ein Land hinausreichen — die Bundespartei ist dort derzeit Verdachtsfall. Die Sorge um politischen Einfluss auf die Landesbehörde hat damit einen realen Kern.",
-      "keywords": ["Verfassungsschutz", "Beobachtung", "abschaffen", "Innenministerium", "Landesamt", "gesichert rechtsextremistisch"],
-      "relatedSections": ["polizei-justiz-verfassungsschutz"],
-      "verdict": "partially-true",
+      "response": "Tatsächlich muss jedes Land einen Verfassungsschutz unterhalten — das schreibt das Bundesverfassungsschutzgesetz vor. Richtig ist aber, dass der Verfassungsschutz in Sachsen-Anhalt eine Abteilung des Innenministeriums ist; ein Innenminister bestimmt also über Leitung, Personal und Schwerpunkte. Beobachten kann zudem das Bundesamt, wenn Bestrebungen über ein Land hinausreichen — die Bundespartei ist dort derzeit Verdachtsfall. Die Sorge um politischen Einfluss auf die Landesbehörde hat damit einen realen Kern.",
+      "keywords": [
+        "Verfassungsschutz",
+        "Beobachtung",
+        "abschaffen",
+        "Innenministerium",
+        "Landesamt",
+        "gesichert rechtsextremistisch"
+      ],
+      "relatedSections": [
+        "polizei-justiz-verfassungsschutz"
+      ],
+      "verdict": "mostly-false",
       "rhetoricalPattern": "Die Aussage vermischt zwei Dinge: die Abschaffung der Behörde, die das Bundesrecht ausschließt, und die Steuerung ihrer Arbeit, die einer Landesregierung tatsächlich offensteht.",
       "counterQuestions": [
         "Welche Rolle spielt das Bundesamt für Verfassungsschutz, wenn eine Landesbehörde untätig bleibt?",
@@ -585,90 +1163,164 @@
     {
       "id": "wahlsieger-muss-regieren",
       "claim": "Die AfD hat die Wahl gewonnen, also muss sie auch regieren dürfen — alles andere ist undemokratisch!",
-      "response": "Im parlamentarischen System regiert, wer eine Mehrheit im Parlament hinter sich bringt, nicht automatisch die stärkste Partei. Die Landesverfassung verlangt für die Wahl des Ministerpräsidenten 42 von 83 Stimmen, die AfD hat 39. Erst im dritten Wahlgang genügt die Mehrheit der abgegebenen Stimmen, und dort hat die AfD als größte Fraktion gute Chancen. Ein Anspruch der stärksten Partei auf das Regierungsamt steht aber in keiner deutschen Verfassung. Ob es politisch klug ist, sie auszuschließen, ist eine Wertungsfrage, die die Verfassung nicht beantwortet.",
-      "keywords": ["Wahlsieger", "Wählerwille", "undemokratisch", "Regierungsauftrag", "stärkste Partei", "Ministerpräsident"],
-      "relatedSections": ["sachsen-anhalt-2026", "kontrolle"],
+      "response": "Der Kern stimmt: Mit 43,8 % ist die AfD mit großem Abstand stärkste Kraft. Im parlamentarischen System regiert aber, wer eine Mehrheit im Parlament hinter sich bringt, nicht automatisch die stärkste Partei. Die Landesverfassung verlangt für die Wahl des Ministerpräsidenten 42 von 83 Stimmen, die AfD hat 39. Erst im dritten Wahlgang genügt die Mehrheit der abgegebenen Stimmen, dort kann auch ein Kandidat ohne eigene Mehrheit gewählt werden, etwa wenn andere Abgeordnete den Saal verlassen. Einen Anspruch der stärksten Partei auf das Regierungsamt kennt die Landesverfassung aber nicht. Ob es politisch klug ist, sie auszuschließen, ist eine Wertungsfrage, die die Verfassung nicht beantwortet.",
+      "keywords": [
+        "Wahlsieger",
+        "Wählerwille",
+        "undemokratisch",
+        "Regierungsauftrag",
+        "stärkste Partei",
+        "Ministerpräsident"
+      ],
+      "relatedSections": [
+        "sachsen-anhalt-2026",
+        "kontrolle"
+      ],
       "verdict": "misleading",
-      "rhetoricalPattern": "Die Aussage setzt relative Mehrheit mit Regierungsauftrag gleich. Im Verhältniswahlrecht entscheidet aber die Mehrheit der Abgeordneten; das gilt für alle Parteien gleichermaßen.",
+      "rhetoricalPattern": "Die Aussage setzt relative Mehrheit mit Regierungsauftrag gleich. Im parlamentarischen Regierungssystem entscheidet aber die Mehrheit der Abgeordneten; das gilt für alle Parteien gleichermaßen.",
       "counterQuestions": [
-        "Wie viele Stimmen braucht ein Ministerpräsident nach der Landesverfassung?",
+        "Wer sollte deiner Meinung nach regieren, wenn die stärkste Partei keine Mehrheit im Landtag hinter sich hat?",
         "Würdest du das Prinzip auch anwenden, wenn eine andere Partei knapp stärkste Kraft ist, aber keine Mehrheit findet?"
       ]
     },
     {
       "id": "alle-gegen-afd",
       "claim": "Die anderen Parteien können doch einfach alle zusammen gegen die AfD regieren — rechnerisch reicht das locker!",
-      "response": "Die Sitzverteilung zeigt ein Patt: CDU, SPD, Grüne und Linke haben zusammen 39 Sitze, genauso viele wie die AfD. Eine Mehrheit ohne AfD kommt nur mit dem BSW zustande, das sich bei der Ministerpräsidentenwahl aber enthalten will. Hinzu kommen politische Hürden: Die CDU sieht sich in der Opposition und lehnte Gespräche über ein Bündnis ab. Ein überparteilicher Ministerpräsident wird diskutiert, ist bisher aber nicht vereinbart. Rechnerisch reicht es also nur knapp und nur mit einer Partei, die nicht mitmachen will.",
-      "keywords": ["Koalition", "Mehrheit", "alle gegen AfD", "Bündnis", "Brandmauer", "Sitzverteilung"],
-      "relatedSections": ["sachsen-anhalt-2026"],
-      "verdict": "mostly-false",
-      "rhetoricalPattern": "Die Aussage rechnet alle Nicht-AfD-Stimmen zusammen, als wären sie ein Block. Tatsächlich haben diese Parteien unterschiedliche Bedingungen und Ausschlüsse, und schon arithmetisch fehlt ohne das BSW die Mehrheit.",
+      "response": "Die Sitzverteilung zeigt ein Patt: CDU, SPD, Grüne und Linke haben zusammen 39 Sitze, genauso viele wie die AfD. Eine Mehrheit ohne AfD kommt nur mit dem BSW zustande, das sich bei der Ministerpräsidentenwahl aber enthalten will. Hinzu kommen politische Hürden: Die CDU sieht sich in der Opposition und lehnte Gespräche ab. Ein überparteilicher Ministerpräsident wird diskutiert, ist bisher aber nicht vereinbart. Rechnerisch reicht es also nur knapp und nur mit einer Partei, die nicht mitmachen will.",
+      "keywords": [
+        "Koalition",
+        "Mehrheit",
+        "alle gegen AfD",
+        "Bündnis",
+        "Brandmauer",
+        "Sitzverteilung"
+      ],
+      "relatedSections": [
+        "sachsen-anhalt-2026"
+      ],
+      "verdict": "misleading",
+      "rhetoricalPattern": "Die Aussage rechnet alle Nicht-AfD-Sitze zusammen, als wären sie ein Block. Rechnerisch ergibt das nur eine knappe Mehrheit von 44 Sitzen, und die hängt an einer Partei, die sich enthalten will; dazu kommen unterschiedliche Bedingungen und Ausschlüsse der einzelnen Parteien.",
       "counterQuestions": [
-        "Wie viele Sitze haben CDU, SPD, Grüne und Linke zusammen — und wie viele braucht man?",
+        "Welche Parteien genau sollen in dieser Regierung sitzen — und auf welches gemeinsame Programm könnten sie sich einigen?",
         "Was würde ein solches Bündnis tun, wenn das BSW sich enthält?"
       ]
     },
     {
       "id": "sperrminoritaet-verfassung",
       "claim": "Ohne die AfD kann in Sachsen-Anhalt keine Verfassungsänderung mehr beschlossen werden.",
-      "response": "Das stimmt. Verfassungsänderungen brauchen zwei Drittel der Mitglieder, also 56 von 83 Stimmen. Alle anderen Fraktionen zusammen kommen nur auf 44 Sitze. Mit 39 Sitzen hält die AfD damit eine Sperrminorität, die auch für die Selbstauflösung des Landtags und die Abberufung des Landtagspräsidenten gilt. Für die Wahl von Landesverfassungsrichtern hat der alte Landtag 2026 einen Ersatzweg geschaffen: Nach sechs Monaten genügt die Mehrheit der Mitglieder.",
-      "keywords": ["Sperrminorität", "Verfassungsänderung", "Zweidrittelmehrheit", "blockieren", "Landesverfassung", "Verfassungsgericht"],
-      "relatedSections": ["kontrolle", "sachsen-anhalt-2026"],
+      "response": "Das stimmt. Verfassungsänderungen brauchen zwei Drittel der Mitglieder, also 56 von 83 Stimmen. Alle anderen Fraktionen zusammen kommen nur auf 44 Sitze. Mit 39 Sitzen hält die AfD damit eine Sperrminorität, die auch für die Selbstauflösung des Landtags und die Abberufung des Landtagspräsidenten gilt. Für die Wahl von Landesverfassungsrichtern hat der alte Landtag 2026 einen Ersatzweg geschaffen: Nach sechs Monaten genügt für einen Vorschlag des Landesverfassungsgerichts die Mehrheit der Mitglieder.",
+      "keywords": [
+        "Sperrminorität",
+        "Verfassungsänderung",
+        "Zweidrittelmehrheit",
+        "blockieren",
+        "Landesverfassung",
+        "Verfassungsgericht"
+      ],
+      "relatedSections": [
+        "kontrolle",
+        "sachsen-anhalt-2026"
+      ],
       "verdict": "true"
     },
     {
       "id": "lehrplaene",
       "claim": "Eine neue Landesregierung kann bestimmen, was an den Schulen unterrichtet wird.",
       "response": "Im Wesentlichen ja. Schule ist Landessache, und in Sachsen-Anhalt erlässt das Bildungsministerium die verbindlichen Lehrpläne. Eine neue Regierung hat damit direkten Einfluss auf Inhalte, Schulorganisation und die Auswahl von Lehrkräften für rund 212.000 Schülerinnen und Schüler. Grenzen setzen die gemeinsamen KMK-Bildungsstandards, die Grundrechte und das Schulgesetz, dessen Änderung eine Landtagsmehrheit braucht.",
-      "keywords": ["Lehrplan", "Schule", "Bildung", "Unterricht", "Kultusministerium", "Bildungsministerium"],
-      "relatedSections": ["schule-bildung"],
+      "keywords": [
+        "Lehrplan",
+        "Schule",
+        "Bildung",
+        "Unterricht",
+        "Kultusministerium",
+        "Bildungsministerium"
+      ],
+      "relatedSections": [
+        "schule-bildung"
+      ],
       "verdict": "mostly-true"
     },
     {
       "id": "bundesrat-blockade",
       "claim": "Mit seinen Stimmen im Bundesrat kann Sachsen-Anhalt Bundesgesetze blockieren!",
       "response": "Allein kann Sachsen-Anhalt das nicht. Es hat 4 von 69 Bundesratsstimmen, und für eine Mehrheit braucht es 35. Endgültig stoppen kann der Bundesrat zudem nur zustimmungsbedürftige Gesetze, zuletzt etwa ein Drittel aller Bundesgesetze. Richtig ist, dass jede Enthaltung wie ein Nein wirkt. Bei knappen Mehrheiten können 4 Stimmen deshalb den Ausschlag geben, und eine Alleinregierung kann sie ohne Koalitionspartner einsetzen.",
-      "keywords": ["Bundesrat", "blockieren", "Zustimmungsgesetz", "Stimmen", "Länderkammer", "Veto"],
-      "relatedSections": ["bundesrat"],
+      "keywords": [
+        "Bundesrat",
+        "blockieren",
+        "Zustimmungsgesetz",
+        "Stimmen",
+        "Länderkammer",
+        "Veto"
+      ],
+      "relatedSections": [
+        "bundesrat"
+      ],
       "verdict": "mostly-false",
       "rhetoricalPattern": "Die Aussage überschätzt das Gewicht eines einzelnen Landes in einem Gremium, das eine absolute Mehrheit verlangt. Ihr wahrer Kern: Im Zusammenspiel mit anderen Ländern zählt jede Stimme.",
       "counterQuestions": [
-        "Wie viele Stimmen braucht der Bundesrat für einen Beschluss — und wie viele hat Sachsen-Anhalt?",
+        "Mit welchen anderen Ländern müsste Sachsen-Anhalt stimmen, damit eine Blockade zustande kommt?",
         "Welche Gesetze kann der Bundesrat überhaupt endgültig stoppen?"
       ]
     },
     {
       "id": "verbot-loest-problem",
       "claim": "Man muss die AfD einfach verbieten, dann ist das Problem sofort gelöst!",
-      "response": "Ein Parteiverbot ist im Grundgesetz vorgesehen, aber weder schnell noch sicher. Das letzte NPD-Verfahren dauerte gut drei Jahre und endete 2017 ohne Verbot, weil der Partei die Erfolgsaussicht fehlte. Stand Oktober 2026 hat noch kein antragsberechtigtes Organ einen Antrag gegen die AfD gestellt, und eine Landesregierung kann das gegen einen Landesverband nicht selbst. Würde ein Verbot ausgesprochen, verlören Bundestagsabgeordnete der Partei ihr Mandat, und Landeswahlgesetze sehen Vergleichbares vor. Die Einstellungen ihrer Wählerinnen und Wähler verschwinden damit aber nicht.",
-      "keywords": ["AfD-Verbot", "Parteiverbot", "Verbotsverfahren", "Bundesverfassungsgericht", "verbieten", "Art. 21"],
-      "relatedSections": ["parteiverbot"],
+      "response": "Ein Parteiverbot ist im Grundgesetz vorgesehen, aber weder schnell noch sicher. Das letzte NPD-Verfahren dauerte gut drei Jahre und endete 2017 ohne Verbot, weil es keine konkreten Anhaltspunkte gab, dass sie ihre verfassungsfeindlichen Ziele erreichen könnte. Stand Oktober 2026 hat noch kein antragsberechtigtes Organ einen Antrag gegen die AfD gestellt, und eine Landesregierung kann das gegen einen Landesverband nicht selbst. Würde ein Verbot ausgesprochen, verlören Bundestagsabgeordnete der Partei ihr Mandat, und Landeswahlgesetze sehen Vergleichbares vor. Die Einstellungen ihrer Wählerinnen und Wähler verschwinden damit aber nicht. Ob ein Verbotsantrag politisch richtig wäre, ist eine Wertungsfrage, die die Daten nicht entscheiden.",
+      "keywords": [
+        "AfD-Verbot",
+        "Parteiverbot",
+        "Verbotsverfahren",
+        "Bundesverfassungsgericht",
+        "verbieten",
+        "Art. 21"
+      ],
+      "relatedSections": [
+        "parteiverbot"
+      ],
       "verdict": "false",
       "rhetoricalPattern": "Die Aussage behandelt ein langwieriges Gerichtsverfahren mit offenem Ausgang wie einen Verwaltungsakt. Zudem verwechselt sie das Verbot einer Organisation mit der Lösung des politischen Konflikts, der ihr zugrunde liegt.",
       "counterQuestions": [
-        "Wer müsste den Antrag stellen — und wie lange dauerten frühere Verfahren?",
+        "Wie lange, glaubst du, dauert so ein Verfahren — und was passiert in der Zwischenzeit?",
         "Was passiert deiner Meinung nach mit den Wählerinnen und Wählern einer verbotenen Partei?"
       ]
     },
     {
       "id": "verbot-undemokratisch",
       "claim": "In einer Demokratie verbietet man keine Parteien — ein Verbot wäre undemokratisch!",
-      "response": "Das Grundgesetz sieht Parteiverbote ausdrücklich vor (Art. 21 GG), und es gab sie: 1952 gegen die SRP, 1956 gegen die KPD. Auch der Europäische Gerichtshof für Menschenrechte hält Verbote unter strengen Voraussetzungen für vereinbar mit der Menschenrechtskonvention. Berechtigt ist der Kern, dass die Hürden bewusst hoch sind: Nur das Bundesverfassungsgericht entscheidet, und eine verfassungsfeindliche Haltung allein reicht nicht. Ob ein Verbotsantrag gegen die AfD politisch klug wäre, ist dagegen eine Wertungsfrage.",
-      "keywords": ["Parteiverbot", "undemokratisch", "wehrhafte Demokratie", "Meinungsfreiheit", "Art. 21", "Verbot"],
-      "relatedSections": ["parteiverbot"],
+      "response": "Das Grundgesetz sieht Parteiverbote ausdrücklich vor (Art. 21 GG), und es gab sie: 1952 gegen die SRP, 1956 gegen die KPD. Auch der Europäische Gerichtshof für Menschenrechte hält Verbote unter strengen Voraussetzungen für vereinbar mit der Menschenrechtskonvention. Berechtigt ist der Kern, dass ein Verbot in die Wahlentscheidung vieler Bürger eingreift. Deshalb sind die Hürden bewusst hoch: Nur das Bundesverfassungsgericht entscheidet, und eine verfassungsfeindliche Haltung allein reicht nicht, wie das NPD-Urteil von 2017 zeigt. Ob ein Verbotsantrag gegen die AfD politisch klug wäre, ist dagegen eine Wertungsfrage.",
+      "keywords": [
+        "Parteiverbot",
+        "undemokratisch",
+        "wehrhafte Demokratie",
+        "Meinungsfreiheit",
+        "Art. 21",
+        "Verbot"
+      ],
+      "relatedSections": [
+        "parteiverbot"
+      ],
       "verdict": "mostly-false",
       "rhetoricalPattern": "Die Aussage stellt eine Grundsatzposition als Tatsache über Demokratien dar. Die deutsche Verfassung hat sich nach 1945 bewusst für eine wehrhafte Demokratie entschieden, die das Parteiverbot als letztes Mittel kennt.",
       "counterQuestions": [
-        "Kennst du Art. 21 Abs. 2 des Grundgesetzes — was regelt er?",
+        "Wer sollte deiner Meinung nach über ein Parteiverbot entscheiden — Regierung, Parlament oder ein Gericht?",
         "Wo würdest du die Grenze ziehen, ab der eine Partei nicht mehr geschützt sein sollte?"
       ]
     },
     {
       "id": "brandmauer-macht-staerker",
       "claim": "Die Brandmauer macht die AfD doch nur stärker!",
-      "response": "Die Forschung findet keinen einheitlichen Effekt in diese Richtung. Zwei Studien zur Bundestagswahl 2025 messen nach den Abstimmungen der Union mit AfD-Stimmen kurzfristig keine Wirkung, weder als Gewinn noch als Verlust für die AfD. Internationale Studien zeigen ein zweischneidiges Bild: Ausgrenzung kann einer Partei als Protestsignal nützen. Andererseits wirken andere Gegenstrategien nach einer Studie nur, wenn ausgegrenzt wird, und Legitimierung erhöht die Akzeptanz radikaler Parteien. Richtig ist, dass Ausgrenzung allein einen Aufstieg nicht verhindert.",
-      "keywords": ["Brandmauer", "Ausgrenzung", "cordon sanitaire", "stärker", "Zusammenarbeit", "Union"],
-      "relatedSections": ["ausgrenzung-forschung"],
+      "response": "Die Forschung findet keinen einheitlichen Effekt in diese Richtung. Eine Studie zu den Abstimmungen der Union mit AfD-Stimmen im Januar 2025 misst kurzfristig keine Wirkung, weder als Gewinn noch als Verlust für die AfD; ein Experiment zur Brandmauer findet ebenfalls keinen Effekt auf Parteibewertung oder Wahlabsicht. Internationale Studien zeigen ein zweischneidiges Bild: Ausgrenzung kann einer Partei als Protestsignal nützen. Andererseits schwächt die Übernahme von Positionen eine solche Partei nach einer Studie nur, wenn sie zugleich ausgegrenzt wird, und Legitimierung erhöht die Akzeptanz radikaler Parteien. Richtig ist, dass Ausgrenzung allein einen Aufstieg nicht verhindert.",
+      "keywords": [
+        "Brandmauer",
+        "Ausgrenzung",
+        "cordon sanitaire",
+        "stärker",
+        "Zusammenarbeit",
+        "Union"
+      ],
+      "relatedSections": [
+        "ausgrenzung-forschung"
+      ],
       "verdict": "lacks-context",
       "rhetoricalPattern": "Die Aussage behauptet einen eindeutigen Kausaleffekt, wo die Studienlage kontextabhängige und teils gegenläufige Effekte zeigt. Dass eine Partei trotz Ausgrenzung wächst, belegt nicht, dass sie wegen der Ausgrenzung wächst.",
       "counterQuestions": [
@@ -679,113 +1331,573 @@
     {
       "id": "entzaubern",
       "claim": "Lasst sie doch regieren — dann entzaubern sie sich von selbst!",
-      "response": "Dafür gibt es Belege, aber keine Gewissheit. Im Schnitt verlieren Anti-Establishment-Parteien nach einer Regierungsbeteiligung stärker als andere Regierungsparteien, und die FPÖ fiel nach ihrem Regierungseintritt von 26,9 % (1999) auf 10,0 % (2002). Sie erholte sich aber und wurde 2024 mit 28,8 % stärkste Kraft. Die Fratelli d'Italia legten als Regierungspartei bei der Europawahl 2024 sogar zu. Zudem mäßigen sich solche Parteien in der Regierung inhaltlich kaum. Stimmenverluste bedeuten also nicht automatisch weniger politischen Einfluss.",
-      "keywords": ["entzaubern", "regieren lassen", "Regierungsverantwortung", "FPÖ", "Österreich", "Meloni"],
-      "relatedSections": ["ausgrenzung-forschung"],
+      "response": "Dafür gibt es Belege, aber keine Gewissheit. Im Schnitt verlieren Anti-Establishment-Parteien nach einer Regierungsbeteiligung stärker als andere Regierungsparteien, und die FPÖ fiel nach ihrem Regierungseintritt von 26,9 % (1999) auf 10,0 % (2002). Sie erholte sich aber und wurde 2024 mit 28,8 % stärkste Kraft. Die Fratelli d'Italia legten als Regierungspartei bei der Europawahl 2024 sogar zu. Zudem mäßigen sich solche Parteien in der Regierung inhaltlich kaum. Ob ‚Entzauberung‘ Stimmenverlust oder inhaltliche Mäßigung meint, macht deshalb einen Unterschied.",
+      "keywords": [
+        "entzaubern",
+        "regieren lassen",
+        "Regierungsverantwortung",
+        "FPÖ",
+        "Österreich",
+        "Meloni"
+      ],
+      "relatedSections": [
+        "ausgrenzung-forschung"
+      ],
       "verdict": "partially-true",
-      "rhetoricalPattern": "Die Aussage macht aus einem durchschnittlichen Trend eine sichere Prognose. Sie blendet aus, dass Verluste oft vorübergehend sind und dass Regierungszeit auch genutzt werden kann, um Politik dauerhaft zu verändern.",
+      "rhetoricalPattern": "Die Aussage macht aus einem durchschnittlichen Trend eine sichere Prognose. Sie blendet aus, dass Verluste oft vorübergehend sind und dass sich solche Parteien in der Regierung inhaltlich kaum mäßigen.",
       "counterQuestions": [
         "Wie erklärst du dir, dass die FPÖ nach ihren Verlusten wieder stärkste Kraft wurde?",
-        "Was wäre in der Regierungszeit politisch schon umgesetzt, bevor eine Entzauberung bei der nächsten Wahl sichtbar wird?"
+        "Woran würdest du eine ‚Entzauberung‘ erkennen — am nächsten Wahlergebnis oder an der Politik, die in der Regierungszeit gemacht wird?"
+      ]
+    },
+    {
+      "id": "abstimmung-salonfaehig",
+      "claim": "Schon eine gemeinsame Abstimmung mit der AfD macht sie salonfähig und stärker!",
+      "response": "Die Studienlage ist gemischt. Eine Studie zu den Abstimmungen der Union mit AfD-Stimmen im Januar 2025 misst kurzfristig weder eine Normalisierung der AfD noch eine Bestrafung der Union. Experimente zeigen aber, dass Legitimierung durch etablierte Parteien die Akzeptanz einer ausgegrenzten Partei erhöhen kann, und eine spätere Abgrenzung macht das kaum rückgängig. Kurzfristige Folgen einzelner Abstimmungen und langfristige Wirkungen einer dauerhaften Zusammenarbeit sind also verschiedene Fragen.",
+      "keywords": [
+        "gemeinsame Abstimmung",
+        "salonfähig",
+        "Normalisierung",
+        "Zusammenarbeit",
+        "Brandmauer",
+        "Union"
+      ],
+      "relatedSections": [
+        "ausgrenzung-forschung"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Aussage schließt von einem plausiblen Mechanismus auf einen sicheren Effekt. Für einzelne Abstimmungen findet die bisherige Forschung keinen kurzfristigen Effekt; belegt ist eher, dass dauerhafte Legitimierung Einstellungen verschieben kann.",
+      "counterQuestions": [
+        "Woran würdest du messen, ob eine einzelne Abstimmung die AfD gestärkt hat?",
+        "Macht es für dich einen Unterschied, ob es um eine einzelne Abstimmung oder um eine dauerhafte Zusammenarbeit geht?"
+      ]
+    },
+    {
+      "id": "wahl-wird-annulliert",
+      "claim": "Die Wahl wird wegen der Fraktionsgelder sowieso für ungültig erklärt!",
+      "response": "Ob es überhaupt einen Wahlfehler gab, ist offen. Medien berichten, dass Kosten für AfD-Bürgerdialoge vor der Wahl teilweise aus Fraktionsmitteln bezahlt worden sein sollen; die Fraktion bestreitet das. Unter Staatsrechtlern ist umstritten, ob daraus ein Wahlfehler folgt, der eine Neuwahl rechtfertigt. Über Einsprüche entscheidet zuerst der Landtag, danach kann das Landesverfassungsgericht angerufen werden, und ein befragter Experte rechnet mit insgesamt etwa zwei Jahren. Eine schnelle Annullierung ist deshalb nicht zu erwarten.",
+      "keywords": [
+        "Wahlanfechtung",
+        "Wahlprüfung",
+        "ungültig",
+        "Neuwahl",
+        "Fraktionsgelder",
+        "Wahlkampffinanzierung"
+      ],
+      "relatedSections": [
+        "sachsen-anhalt-2026"
+      ],
+      "verdict": "lacks-context",
+      "rhetoricalPattern": "Die Aussage nimmt den Ausgang eines Verfahrens vorweg, das noch nicht entschieden ist. Ein bestrittener Vorwurf und eine umstrittene Rechtsfrage sind keine Grundlage für eine sichere Prognose.",
+      "counterQuestions": [
+        "Wer entscheidet in Sachsen-Anhalt über die Gültigkeit einer Wahl?",
+        "Was müsste nachgewiesen werden, damit ein Gericht eine Wahl für ungültig erklärt?"
+      ]
+    },
+    {
+      "id": "verfassung-ausgebremst",
+      "claim": "Die Altparteien haben kurz vor der Wahl schnell noch die Verfassung geändert, um eine AfD-Regierung auszubremsen!",
+      "response": "Der Kern stimmt: Im April 2026 änderte der alte Landtag die Landesverfassung mit 72 zu 22 Stimmen, gegen die Stimmen der AfD. Seitdem schlägt das Landesverfassungsgericht selbst Kandidaten vor, wenn eine Richterwahl sechs Monate lang scheitert, und Kündigungen von Staatsverträgen brauchen die Zustimmung des Landtags. Die Befürworter begründeten das mit der Absicherung des Gerichts. Welche Absicht dahinterstand, lässt sich nicht empirisch prüfen. Die neuen Regeln gelten zudem für jede künftige Regierung, nicht nur für eine der AfD.",
+      "keywords": [
+        "Verfassungsänderung",
+        "Parlamentsreform",
+        "Landesverfassung",
+        "ausbremsen",
+        "Verfassungsgericht",
+        "Altparteien"
+      ],
+      "relatedSections": [
+        "kontrolle",
+        "rundfunk"
+      ],
+      "verdict": "partially-true",
+      "rhetoricalPattern": "Die Aussage verbindet einen zutreffenden Vorgang mit einer unterstellten Absicht. Der Vorgang ist belegt; die Absicht ist eine Deutung, und die Regeln wirken unabhängig davon, wer regiert.",
+      "counterQuestions": [
+        "Welche der neuen Regeln würde eine AfD-Regierung konkret daran hindern, ihr Programm umzusetzen?",
+        "Würdest du dieselben Regeln anders bewerten, wenn eine andere Partei regieren würde?"
       ]
     }
   ],
   "sources": [
-    { "id": "gg-art-21", "label": "Grundgesetz – Art. 21 (Parteien)", "url": "https://www.gesetze-im-internet.de/gg/art_21.html" },
-    { "id": "gg-art-28", "label": "Grundgesetz – Art. 28 (Verfassungsordnung der Länder)", "url": "https://www.gesetze-im-internet.de/gg/art_28.html" },
-    { "id": "gg-art-30", "label": "Grundgesetz – Art. 30 (Kompetenzverteilung)", "url": "https://www.gesetze-im-internet.de/gg/art_30.html" },
-    { "id": "gg-art-31", "label": "Grundgesetz – Art. 31 (Bundesrecht bricht Landesrecht)", "url": "https://www.gesetze-im-internet.de/gg/art_31.html" },
-    { "id": "gg-art-37", "label": "Grundgesetz – Art. 37 (Bundeszwang)", "url": "https://www.gesetze-im-internet.de/gg/art_37.html" },
-    { "id": "gg-art-51", "label": "Grundgesetz – Art. 51 (Zusammensetzung des Bundesrates)", "url": "https://www.gesetze-im-internet.de/gg/art_51.html" },
-    { "id": "gg-art-52", "label": "Grundgesetz – Art. 52 (Beschlüsse des Bundesrates)", "url": "https://www.gesetze-im-internet.de/gg/art_52.html" },
-    { "id": "gg-art-70", "label": "Grundgesetz – Art. 70 (Gesetzgebung der Länder)", "url": "https://www.gesetze-im-internet.de/gg/art_70.html" },
-    { "id": "gg-art-77", "label": "Grundgesetz – Art. 77 (Gesetzgebungsverfahren, Einspruch)", "url": "https://www.gesetze-im-internet.de/gg/art_77.html" },
-    { "id": "gg-art-83", "label": "Grundgesetz – Art. 83 (Ausführung der Bundesgesetze)", "url": "https://www.gesetze-im-internet.de/gg/art_83.html" },
-    { "id": "gg-art-84", "label": "Grundgesetz – Art. 84 (Landeseigenverwaltung, Bundesaufsicht)", "url": "https://www.gesetze-im-internet.de/gg/art_84.html" },
-    { "id": "bpb-gesetzgebungskompetenz", "label": "Bundeszentrale für politische Bildung – Rechtslexikon: Gesetzgebungskompetenz (2023)", "url": "https://www.bpb.de/kurz-knapp/lexika/recht-a-z/323480/gesetzgebungskompetenz/" },
-    { "id": "bpb-bundeslaender", "label": "Bundeszentrale für politische Bildung – Handwörterbuch politisches System: Bundesländer (2021)", "url": "https://bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/201991/bundeslaender/?p=all" },
-    { "id": "lsa-wahlergebnis-2026", "label": "Statistisches Landesamt Sachsen-Anhalt – Landtagswahl 2026, endgültiges Ergebnis Land", "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html" },
-    { "id": "lsa-sitzverteilung-2026", "label": "Statistisches Landesamt Sachsen-Anhalt – Landtagswahl 2026, Sitzverteilung", "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html" },
-    { "id": "landtag-lsa-verfassung-2026", "label": "Landtag von Sachsen-Anhalt – Verfassung des Landes Sachsen-Anhalt, Fassung der Parlamentsreform 2026 (Handbuch, 1.6.2026)", "url": "https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Rechtsgrundlagen/Gesetze_8.WP/20260601_Landesverfassung_LV1.pdf" },
-    { "id": "zdf-siegmund-ministerpraesident", "label": "ZDFheute – AfD-Wahlsieger Siegmund will im Dezember Regierungschef werden (29.9.2026)", "url": "https://www.zdfheute.de/politik/deutschland/siegmund-will-ministerpraesident-magdeburg-100.html" },
-    { "id": "zdf-cdu-auszug-mp-wahl", "label": "ZDFheute – CDU Sachsen-Anhalt will bei Ministerpräsidentenwahl den Saal verlassen (13.10.2026)", "url": "https://www.zdfheute.de/politik/deutschland/cdu-sachsen-anhalt-wahl-ministerpraesident-afd-siegmund-100.html" },
-    { "id": "stuttgarter-zeitung-mp-wahl", "label": "Stuttgarter Zeitung – Regierungsbildung in Sachsen-Anhalt: Wann wird der Ministerpräsident gewählt? (6.10.2026)", "url": "https://www.stuttgarter-zeitung.de/politik/regierungsbildung-in-sachsen-anhalt-wann-wird-der-ministerpraesident-gewaehlt-79537532.html" },
-    { "id": "zdf-landtagspraesident-rausch", "label": "ZDFheute – Tobias Rausch erster AfD-Landtagspräsident (6.10.2026)", "url": "https://www.zdfheute.de/politik/deutschland/sachsen-anhalt-afd-landtag-praesident-tobias-rausch-100.html" },
-    { "id": "juedische-allgemeine-rausch", "label": "Jüdische Allgemeine (dpa) – Tobias Rausch zum ersten AfD-Landtagspräsidenten gewählt (6.10.2026)", "url": "https://www.juedische-allgemeine.de/politik/tobias-rausch-zum-ersten-afd-landtagspraesidenten-gewaehlt/" },
-    { "id": "beck-aktuell-wahlpruefung-2026", "label": "beck-aktuell – Ist die Wahl in Sachsen-Anhalt ungültig? (1.10.2026)", "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/wahl-sachsen-anhalt-ungueltig-afd-wahlkampf-finanzierung-2026-10-01" },
-    { "id": "abgeordnetenwatch-afd-fraktionsmittel", "label": "abgeordnetenwatch.de – Vorwürfe zur Finanzierung von AfD-Bürgerdialogen (1.10.2026)", "url": "https://www.abgeordnetenwatch.de/node/6701" },
-    { "id": "abgeordnetenwatch-parlamentsreform-2026", "label": "abgeordnetenwatch.de – Abstimmung Parlamentsreform im Landtag von Sachsen-Anhalt (23.4.2026)", "url": "https://www.abgeordnetenwatch.de/sachsen-anhalt/8/abstimmungen/parlamentsreform-im-landtag-von-sachsen-anhalt/tabelle" },
-    { "id": "mf-lsa-finanzplanung-2025-2029", "label": "Ministerium der Finanzen Sachsen-Anhalt – Mittelfristige Finanzplanung 2025–2029 (Oktober 2025)", "url": "https://mf.sachsen-anhalt.de/api/media/Mipla%202025-2029.pdf?collection=document" },
-    { "id": "bmf-finanzausgleich-2025", "label": "Bundesministerium der Finanzen – Monatsbericht April 2026: Bundesstaatlicher Finanzausgleich 2025", "url": "https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/04/Inhalte/Kapitel-2-Analysen/2-3-bundesstaatlicher-finanzausgleich-2025.html" },
-    { "id": "mi-lsa-polizei-2025", "label": "Ministerium für Inneres und Sport Sachsen-Anhalt – Pressemitteilung Ernennung Polizeianwärter (1.9.2025)", "url": "https://presse.sachsen-anhalt.de/wp-content/uploads/pdf/ministerium-fur-inneres-und-sport_01_09_2025_Pressemitteilung_innenstaatssekretaer-ernennt-polizeianwaerterinnen-und-polizeianwaerter.pdf" },
-    { "id": "mi-lsa-polizei-2026", "label": "Ministerium für Inneres und Sport Sachsen-Anhalt – Pressemitteilung 021/2026 Zeugnisübergabe Fachhochschule Polizei (27.2.2026)", "url": "https://presse.sachsen-anhalt.de/wp-content/uploads/pdf/ministerium-fur-inneres-und-sport_27_02_2026_Pressemitteilung_zeugnisuebergabe-an-der-fachhochschule-polizei-sachsen-anhalt.pdf" },
-    { "id": "gvg-146", "label": "Gerichtsverfassungsgesetz – § 146 (Weisungsgebundenheit der Staatsanwaltschaft)", "url": "https://www.gesetze-im-internet.de/gvg/__146.html" },
-    { "id": "gvg-147", "label": "Gerichtsverfassungsgesetz – § 147 (Aufsicht und Leitung)", "url": "https://www.gesetze-im-internet.de/gvg/__147.html" },
-    { "id": "bverfschg-2", "label": "Bundesverfassungsschutzgesetz – § 2 (Verfassungsschutzbehörden)", "url": "https://www.gesetze-im-internet.de/bverfschg/__2.html" },
-    { "id": "bverfschg-5", "label": "Bundesverfassungsschutzgesetz – § 5 (Abgrenzung der Zuständigkeiten)", "url": "https://www.gesetze-im-internet.de/bverfschg/__5.html" },
-    { "id": "mi-lsa-verfassungsschutz", "label": "Ministerium für Inneres und Sport Sachsen-Anhalt – Verfassungsschutz: Wir über uns", "url": "https://mi.sachsen-anhalt.de/verfassungsschutz/page/wir-ueber-uns" },
-    { "id": "beck-aktuell-lfv-lsa-2023", "label": "beck-aktuell – Verfassungsschutz stuft AfD Sachsen-Anhalt als gesichert rechtsextremistisch ein (8.11.2023)", "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/verfassungsschutz-afd-sachsen-anhalt-gesichert-rechtsextremistisch-2023-11-08" },
-    { "id": "correctiv-afd-einstufung-2026", "label": "Correctiv – Justiz: Ab wann ist die AfD gesichert rechtsextrem? (5.3.2026)", "url": "https://correctiv.org/aktuelles/afd/2026/03/05/justiz-ab-wann-ist-die-afd-gesichert-rechtsextrem/" },
-    { "id": "lto-vg-koeln-afd-2026", "label": "Legal Tribune Online – VG Köln stoppt Hochstufung der AfD als gesichert rechtsextrem (26.2.2026)", "url": "https://www.lto.de/recht/nachrichten/n/13l110925-vg-koeln-stoppt-hochstufung-afd-als-gesichert-rechtsextrem" },
-    { "id": "beck-aktuell-bmi-keine-beschwerde", "label": "beck-aktuell – AfD bleibt Verdachtsfall: keine Beschwerde gegen VG-Köln-Beschluss (3.3.2026)", "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/vg-koeln-afd-verdachtsfall-einstufung-beschwerde-eilverfahren-2026-03-03" },
-    { "id": "beamtstg-1", "label": "Beamtenstatusgesetz – § 1 (Geltungsbereich)", "url": "https://www.gesetze-im-internet.de/beamtstg/__1.html" },
-    { "id": "beamtstg-30", "label": "Beamtenstatusgesetz – § 30 (Einstweiliger Ruhestand)", "url": "https://www.gesetze-im-internet.de/beamtstg/__30.html" },
-    { "id": "aufenthg-71", "label": "Aufenthaltsgesetz – § 71 (Zuständigkeit)", "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__71.html" },
-    { "id": "asylg-5", "label": "Asylgesetz – § 5 (Bundesamt)", "url": "https://www.gesetze-im-internet.de/asylvfg_1992/__5.html" },
-    { "id": "bt-drs-20-14946", "label": "Deutscher Bundestag – Drucksache 20/14946: Abschiebungen und Ausreisen 2024 (11.2.2025)", "url": "https://dserver.bundestag.de/btd/20/149/2014946.pdf" },
-    { "id": "bt-drs-21-4103", "label": "Deutscher Bundestag – Drucksache 21/4103: Abschiebungen und Ausreisen 2025 (11.2.2026)", "url": "https://dserver.bundestag.de/btd/21/041/2104103.pdf" },
-    { "id": "bt-drs-21-4403", "label": "Deutscher Bundestag – Drucksache 21/4403: Gescheiterte Abschiebungen 2025", "url": "https://dserver.bundestag.de/btd/21/044/2104403.pdf" },
-    { "id": "bt-drs-21-1640", "label": "Deutscher Bundestag – Drucksache 21/1640: Zahl der in Deutschland lebenden Flüchtlinge (Stichtag 31.7.2025)", "url": "https://dserver.bundestag.de/btd/21/016/2101640.pdf" },
-    { "id": "stala-lsa-schulen-2025-26", "label": "Statistisches Landesamt Sachsen-Anhalt – Statistischer Bericht Allgemeinbildende Schulen, Schuljahr 2025/26 (Juli 2026)", "url": "https://statistik.sachsen-anhalt.de/fileadmin/Bibliothek/Landesaemter/StaLa/startseite/Themen/Bildung/Berichte/Allgemeinbildende_Schulen/6B101_2025_26_A.pdf" },
-    { "id": "lisa-lehrplan-grundschule-2026", "label": "Ministerium für Bildung Sachsen-Anhalt / LISA – Lehrplan Grundschule (in Kraft ab 1.8.2026)", "url": "https://www.bildung-lsa.de/files/7c5f6ff122fa27b7eb9822ab54ee6396/GSB_GS_LT_01082026.pdf" },
-    { "id": "kmk-bildungsstandards", "label": "Kultusministerkonferenz – Bildungsstandards", "url": "https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html" },
-    { "id": "bverfg-rundfunkbeitrag-2021", "label": "Bundesverfassungsgericht – Pressemitteilung 69/2021: Unterlassene Zustimmung Sachsen-Anhalts zur Beitragserhöhung verletzt Rundfunkfreiheit", "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2021/bvg21-069.html" },
-    { "id": "bverfg-rundfunk-2007", "label": "Bundesverfassungsgericht – Pressemitteilung 90/2007: Festsetzung der Rundfunkgebühr", "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2007/bvg07-090.html" },
-    { "id": "telepolis-reformstaatsvertrag", "label": "Telepolis – Reform der Beitragsfestsetzung gescheitert (20.11.2025)", "url": "https://www.telepolis.de/article/Reformstaatsvertrag-Oeffentlich-rechtlicher-Rundfunk-bleibt-teuer-strukturiert-11086287.html" },
-    { "id": "medienanstalten-mstv", "label": "Die Medienanstalten – Medienstaatsvertrag (Lesefassung, § 116 Kündigung)", "url": "https://www.die-medienanstalten.de/fileadmin/user_upload/Rechtsgrundlagen/Gesetze_Staatsvertraege/Medienstaatsvertrag_MStV.pdf" },
-    { "id": "revosax-mdr-staatsvertrag", "label": "REVOSax – Staatsvertrag über den Mitteldeutschen Rundfunk (MDR) vom 12.1.2021, § 42", "url": "https://revosax.sachsen.de/vorschrift/2509" },
-    { "id": "lto-doerr-rundfunk-2026", "label": "Legal Tribune Online – Dieter Dörr: Was eine AfD-Regierung in Sachsen-Anhalt beim Rundfunk kann (25.8.2026)", "url": "https://www.lto.de/recht/hintergruende/h/machtuebernahme-afd-sachsen-anhalt-rundfunk-kuerzungen" },
-    { "id": "beck-aktuell-rundfunk-ausstieg-2026", "label": "beck-aktuell – Ausstieg aus dem Rundfunkstaatsvertrag: Was eine AfD-Regierung darf (10.9.2026)", "url": "https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/rundfunk-staatsvertrag-ausstieg-afd-regierung-verfassung-2026-09-10" },
-    { "id": "newsde-siegmund-rundfunk", "label": "news.de (dpa) – Nach AfD-Wahlsieg: Siegmund bekräftigt Rundfunk-Pläne (6.9.2026)", "url": "https://www.news.de/politik/859964573/nach-afd-wahlsieg-siegmund-bekraeftigt-rundfunk-plaene-landtagswahl-news-der-dpa-aktuell-zu-wahl-landtag-und-medien/1/" },
-    { "id": "rundfunkbeitrag-hoehe", "label": "ARD ZDF Deutschlandradio Beitragsservice – Rundfunkbeitrag", "url": "https://www.rundfunkbeitrag.de/" },
-    { "id": "beitragsservice-konten-2025", "label": "Beitragsservice – Beitragskontensachverhalte 2025 nach Ländern", "url": "https://www.rundfunkbeitrag.de/pxy/assets/c185a0f657e0fab901d04f138711089fbadf9db5/BS%20Beitragskontensachverhalte%202025%20final.pdf" },
-    { "id": "zdf-kef-empfehlung-2026", "label": "ZDFheute – KEF empfiehlt Rundfunkbeitrag von 18,64 Euro ab 2027 (20.2.2026)", "url": "https://www.zdfheute.de/politik/deutschland/rundfunkbeitrag-kef-empfehlung-anhebung-ard-zdf-100.html" },
-    { "id": "bundesrat-stimmenverteilung", "label": "Bundesrat – Stimmenverteilung", "url": "https://www.bundesrat.de/DE/bundesrat/verteilung/verteilung-node.html" },
-    { "id": "bundesrat-sachsen-anhalt", "label": "Bundesrat – Sachsen-Anhalt", "url": "https://www.bundesrat.de/DE/bundesrat/laender/st/st-node.html" },
-    { "id": "bundesrat-stimmabgabe", "label": "Bundesrat – Stimmabgabe", "url": "https://www.bundesrat.de/DE/bundesrat/br-plenum/stimmabgabe/stimmabgabe-node.html" },
-    { "id": "bundesrat-zustimmungsgesetze", "label": "Bundesrat – Zustimmungs- und Einspruchsgesetze", "url": "https://www.bundesrat.de/DE/aufgaben/gesetzgebung/zust-einspr/zust-einspr.html" },
-    { "id": "bundesrat-statistik-gesamt", "label": "Bundesrat – Gesamtstatistik der Gesetzgebung (Stand 9.5.2025)", "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/gesamtstatistik.pdf" },
-    { "id": "bundesrat-statistik-21wp", "label": "Bundesrat – Statistik 21. Wahlperiode (Stand 25.9.2026)", "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/21wp.pdf" },
-    { "id": "bverfgg-43", "label": "Bundesverfassungsgerichtsgesetz – § 43 (Antragsberechtigung Parteiverbot)", "url": "https://www.gesetze-im-internet.de/bverfgg/__43.html" },
-    { "id": "bverfgg-46", "label": "Bundesverfassungsgerichtsgesetz – § 46 (Entscheidung im Parteiverbotsverfahren)", "url": "https://www.gesetze-im-internet.de/bverfgg/__46.html" },
-    { "id": "bwahlg-46", "label": "Bundeswahlgesetz – § 46 (Verlust der Mitgliedschaft im Bundestag)", "url": "https://www.gesetze-im-internet.de/bwahlg/__46.html" },
-    { "id": "bay-lwg-59", "label": "Bayerisches Landeswahlgesetz – Art. 59 (Verlust des Sitzes bei Parteiverbot)", "url": "https://www.gesetze-bayern.de/Content/Document/BayLWG-59" },
-    { "id": "bverfg-geschichte", "label": "Bundesverfassungsgericht – Geschichte (SRP-Verbot 1952)", "url": "https://www.bundesverfassungsgericht.de/DE/DasBundesverfassungsgericht/Geschichte/geschichte_node.html" },
-    { "id": "bpb-kpd-verbot", "label": "Bundeszentrale für politische Bildung – Verbot der KPD 1956", "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/580520/verbot-der-kpd-1956/" },
-    { "id": "bverfg-npd-2003", "label": "Bundesverfassungsgericht – Pressemitteilung 22/2003: Einstellung des NPD-Verbotsverfahrens", "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2003/bvg03-022.html" },
-    { "id": "bverfg-npd-2017", "label": "Bundesverfassungsgericht – Pressemitteilung 4/2017: Kein Verbot der NPD", "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2017/bvg17-004.html" },
-    { "id": "bverfg-heimat-2024", "label": "Bundesverfassungsgericht – Pressemitteilung 9/2024: ‚Die Heimat' von staatlicher Finanzierung ausgeschlossen", "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html" },
-    { "id": "bundestag-afd-verbot-2025", "label": "Deutscher Bundestag – Textarchiv: Erste Beratung der Anträge zu einem AfD-Verbotsverfahren (30.1.2025)", "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw05-de-afd-1042014" },
-    { "id": "tagesspiegel-pistorius-oezdemir", "label": "Tagesspiegel (dpa) – Özdemir und Pistorius fordern Verbotsverfahren gegen die AfD (2026)", "url": "https://www.tagesspiegel.de/politik/dpa-vor-der-landtagswahl-in-sachsen-anhalt-ozdemir-und-pistorius-fordern-verbotsverfahren-gegen-die-afd-15993610.html" },
-    { "id": "tagesspiegel-wuest-arbeitsgruppe", "label": "Tagesspiegel (dpa) – Nach Sachsen-Anhalt-Wahl: Wüst schlägt Bund-Länder-Arbeitsgruppe vor (8.9.2026)", "url": "https://www.tagesspiegel.de/politik/dpa-nach-sachsen-anhalt-wahl-16029779.html" },
-    { "id": "correctiv-afd-verbot-ticker", "label": "Correctiv – Debatte um AfD-Verbot (Ticker, Stand Oktober 2026)", "url": "https://correctiv.org/themen/afd-verbot/" },
-    { "id": "verfassungsblog-teilverbot", "label": "Verfassungsblog – Heußner/Pautsch: Paradoxien und Anpassungsbedarf im BVerfGG (28.3.2024)", "url": "https://verfassungsblog.de/paradoxien-und-anpassungsbedarf-im-bverfgg/" },
-    { "id": "verfassungsblog-egmr-parteiverbot", "label": "Verfassungsblog – Theo Rust: Was eine europäische Demokratie aushalten muss (9.5.2025)", "url": "https://verfassungsblog.de/was-eine-europaische-demokratie-aushalten-muss/" },
-    { "id": "schuster-2026-firewall", "label": "Schuster, Goedeking, Erhardt, Huber & Wuttke – Breaching the firewall, Electoral Studies 104 (2026)", "url": "https://doi.org/10.1016/j.electstud.2026.103133" },
-    { "id": "fahey-alarian-2025", "label": "Fahey & Alarian – Tear Down This (Fire)Wall?, German Politics and Society 43(4) (2025)", "url": "https://doi.org/10.3167/gps.2025.430404" },
-    { "id": "daur-2025", "label": "Daur – Legitimize or Delegitimize?, American Political Science Review 119(3) (2025)", "url": "https://doi.org/10.1017/S0003055424000996" },
-    { "id": "van-spanje-weber-2019", "label": "van Spanje & Weber – Does ostracism affect party support?, Party Politics 25 (2019)", "url": "https://doi.org/10.1177/1354068817730722" },
-    { "id": "van-spanje-de-graaf-2018", "label": "van Spanje & de Graaf – How established parties reduce other parties' electoral support, West European Politics 41(1) (2018)", "url": "https://doi.org/10.1080/01402382.2017.1332328" },
-    { "id": "krause-cohen-abou-chadi-2023", "label": "Krause, Cohen & Abou-Chadi – Does accommodation work?, Political Science Research and Methods 11(1) (2023)", "url": "https://doi.org/10.1017/psrm.2022.8" },
-    { "id": "van-spanje-2011", "label": "van Spanje – Keeping the rascals in, European Journal of Political Research 50(5) (2011)", "url": "https://doi.org/10.1111/j.1475-6765.2010.01984.x" },
-    { "id": "akkerman-rooduijn-2015", "label": "Akkerman & Rooduijn – Pariahs or partners?, Political Studies 63(5) (2015)", "url": "https://doi.org/10.1111/1467-9248.12146" },
-    { "id": "akkerman-de-lange-rooduijn-2016", "label": "Akkerman, de Lange & Rooduijn – Why radical right-wing populist parties remain radical in government, LSE EUROPP (23.8.2016)", "url": "https://blogs.lse.ac.uk/europpblog/2016/08/23/avoiding-the-mainstream-why-radical-right-wing-populist-parties-remain-radical-in-government" },
-    { "id": "bmi-at-nrw-1999", "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 1999", "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_1999/start.html" },
-    { "id": "bmi-at-nrw-2002", "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2002", "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_2002/start.html" },
-    { "id": "bmi-at-nrw-2006", "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2006", "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_2006/start.html" },
-    { "id": "bmi-at-nrw-2017", "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2017", "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2017/start.aspx" },
-    { "id": "bmi-at-nrw-2019", "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2019", "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2019/start.aspx" },
-    { "id": "bmi-at-nrw-2024", "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2024", "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.aspx" },
-    { "id": "ep-ergebnisse-italien-2024", "label": "Europäisches Parlament – Ergebnisse der Europawahl 2024: Italien", "url": "https://results.elections.europa.eu/en/national-results/italy/2024-2029/" }
+    {
+      "id": "gg-art-21",
+      "label": "Grundgesetz – Art. 21 (Parteien)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_21.html"
+    },
+    {
+      "id": "gg-art-28",
+      "label": "Grundgesetz – Art. 28 (Verfassungsordnung der Länder)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_28.html"
+    },
+    {
+      "id": "gg-art-30",
+      "label": "Grundgesetz – Art. 30 (Kompetenzverteilung)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_30.html"
+    },
+    {
+      "id": "gg-art-31",
+      "label": "Grundgesetz – Art. 31 (Bundesrecht bricht Landesrecht)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_31.html"
+    },
+    {
+      "id": "gg-art-37",
+      "label": "Grundgesetz – Art. 37 (Bundeszwang)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_37.html"
+    },
+    {
+      "id": "gg-art-51",
+      "label": "Grundgesetz – Art. 51 (Zusammensetzung des Bundesrates)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_51.html"
+    },
+    {
+      "id": "gg-art-52",
+      "label": "Grundgesetz – Art. 52 (Beschlüsse des Bundesrates)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_52.html"
+    },
+    {
+      "id": "gg-art-70",
+      "label": "Grundgesetz – Art. 70 (Gesetzgebung der Länder)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_70.html"
+    },
+    {
+      "id": "gg-art-77",
+      "label": "Grundgesetz – Art. 77 (Gesetzgebungsverfahren, Einspruch)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_77.html"
+    },
+    {
+      "id": "gg-art-83",
+      "label": "Grundgesetz – Art. 83 (Ausführung der Bundesgesetze)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_83.html"
+    },
+    {
+      "id": "gg-art-84",
+      "label": "Grundgesetz – Art. 84 (Landeseigenverwaltung, Bundesaufsicht)",
+      "url": "https://www.gesetze-im-internet.de/gg/art_84.html"
+    },
+    {
+      "id": "bpb-gesetzgebungskompetenz",
+      "label": "Bundeszentrale für politische Bildung – Rechtslexikon: Gesetzgebungskompetenz (2023)",
+      "url": "https://www.bpb.de/kurz-knapp/lexika/recht-a-z/323480/gesetzgebungskompetenz/"
+    },
+    {
+      "id": "bpb-bundeslaender",
+      "label": "Bundeszentrale für politische Bildung – Handwörterbuch politisches System: Bundesländer (2021)",
+      "url": "https://bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/201991/bundeslaender/?p=all"
+    },
+    {
+      "id": "lsa-wahlergebnis-2026",
+      "label": "Statistisches Landesamt Sachsen-Anhalt – Landtagswahl 2026, endgültiges Ergebnis Land",
+      "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/erg_land.html"
+    },
+    {
+      "id": "lsa-sitzverteilung-2026",
+      "label": "Statistisches Landesamt Sachsen-Anhalt – Landtagswahl 2026, Sitzverteilung",
+      "url": "https://wahlergebnisse.sachsen-anhalt.de/wahlen/lt26/sitze.html"
+    },
+    {
+      "id": "landtag-lsa-verfassung-2026",
+      "label": "Landtag von Sachsen-Anhalt – Verfassung des Landes Sachsen-Anhalt, Fassung der Parlamentsreform 2026 (Handbuch, 1.6.2026)",
+      "url": "https://www.landtag.sachsen-anhalt.de/fileadmin/Downloads/Rechtsgrundlagen/Gesetze_8.WP/20260601_Landesverfassung_LV1.pdf"
+    },
+    {
+      "id": "zdf-siegmund-ministerpraesident",
+      "label": "ZDFheute – AfD-Wahlsieger Siegmund will im Dezember Regierungschef werden (29.9.2026)",
+      "url": "https://www.zdfheute.de/politik/deutschland/siegmund-will-ministerpraesident-magdeburg-100.html"
+    },
+    {
+      "id": "zdf-cdu-auszug-mp-wahl",
+      "label": "ZDFheute – CDU Sachsen-Anhalt will bei Ministerpräsidentenwahl den Saal verlassen (13.10.2026)",
+      "url": "https://www.zdfheute.de/politik/deutschland/cdu-sachsen-anhalt-wahl-ministerpraesident-afd-siegmund-100.html"
+    },
+    {
+      "id": "stuttgarter-zeitung-mp-wahl",
+      "label": "Stuttgarter Zeitung – Regierungsbildung in Sachsen-Anhalt: Wann wird der Ministerpräsident gewählt? (6.10.2026)",
+      "url": "https://www.stuttgarter-zeitung.de/politik/regierungsbildung-in-sachsen-anhalt-wann-wird-der-ministerpraesident-gewaehlt-79537532.html"
+    },
+    {
+      "id": "zdf-landtagspraesident-rausch",
+      "label": "ZDFheute – Tobias Rausch erster AfD-Landtagspräsident (6.10.2026)",
+      "url": "https://www.zdfheute.de/politik/deutschland/sachsen-anhalt-afd-landtag-praesident-tobias-rausch-100.html"
+    },
+    {
+      "id": "juedische-allgemeine-rausch",
+      "label": "Jüdische Allgemeine (dpa) – Tobias Rausch zum ersten AfD-Landtagspräsidenten gewählt (6.10.2026)",
+      "url": "https://www.juedische-allgemeine.de/politik/tobias-rausch-zum-ersten-afd-landtagspraesidenten-gewaehlt/"
+    },
+    {
+      "id": "beck-aktuell-wahlpruefung-2026",
+      "label": "beck-aktuell – Ist die Wahl in Sachsen-Anhalt ungültig? (1.10.2026)",
+      "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/wahl-sachsen-anhalt-ungueltig-afd-wahlkampf-finanzierung-2026-10-01"
+    },
+    {
+      "id": "abgeordnetenwatch-afd-fraktionsmittel",
+      "label": "abgeordnetenwatch.de – Vorwürfe zur Finanzierung von AfD-Bürgerdialogen (1.10.2026)",
+      "url": "https://www.abgeordnetenwatch.de/node/6701"
+    },
+    {
+      "id": "abgeordnetenwatch-parlamentsreform-2026",
+      "label": "abgeordnetenwatch.de – Abstimmung Parlamentsreform im Landtag von Sachsen-Anhalt (23.4.2026)",
+      "url": "https://www.abgeordnetenwatch.de/sachsen-anhalt/8/abstimmungen/parlamentsreform-im-landtag-von-sachsen-anhalt/tabelle"
+    },
+    {
+      "id": "mf-lsa-finanzplanung-2025-2029",
+      "label": "Ministerium der Finanzen Sachsen-Anhalt – Mittelfristige Finanzplanung 2025–2029 (Oktober 2025)",
+      "url": "https://mf.sachsen-anhalt.de/api/media/Mipla%202025-2029.pdf?collection=document"
+    },
+    {
+      "id": "bmf-finanzausgleich-2025",
+      "label": "Bundesministerium der Finanzen – Monatsbericht April 2026: Bundesstaatlicher Finanzausgleich 2025",
+      "url": "https://www.bundesfinanzministerium.de/Monatsberichte/Ausgabe/2026/04/Inhalte/Kapitel-2-Analysen/2-3-bundesstaatlicher-finanzausgleich-2025.html"
+    },
+    {
+      "id": "mi-lsa-polizei-2025",
+      "label": "Ministerium für Inneres und Sport Sachsen-Anhalt – Pressemitteilung Ernennung Polizeianwärter (1.9.2025)",
+      "url": "https://presse.sachsen-anhalt.de/wp-content/uploads/pdf/ministerium-fur-inneres-und-sport_01_09_2025_Pressemitteilung_innenstaatssekretaer-ernennt-polizeianwaerterinnen-und-polizeianwaerter.pdf"
+    },
+    {
+      "id": "mi-lsa-polizei-2026",
+      "label": "Ministerium für Inneres und Sport Sachsen-Anhalt – Pressemitteilung 021/2026 Zeugnisübergabe Fachhochschule Polizei (27.2.2026)",
+      "url": "https://presse.sachsen-anhalt.de/wp-content/uploads/pdf/ministerium-fur-inneres-und-sport_27_02_2026_Pressemitteilung_zeugnisuebergabe-an-der-fachhochschule-polizei-sachsen-anhalt.pdf"
+    },
+    {
+      "id": "gvg-146",
+      "label": "Gerichtsverfassungsgesetz – § 146 (Weisungsgebundenheit der Staatsanwaltschaft)",
+      "url": "https://www.gesetze-im-internet.de/gvg/__146.html"
+    },
+    {
+      "id": "gvg-147",
+      "label": "Gerichtsverfassungsgesetz – § 147 (Aufsicht und Leitung)",
+      "url": "https://www.gesetze-im-internet.de/gvg/__147.html"
+    },
+    {
+      "id": "bverfschg-2",
+      "label": "Bundesverfassungsschutzgesetz – § 2 (Verfassungsschutzbehörden)",
+      "url": "https://www.gesetze-im-internet.de/bverfschg/__2.html"
+    },
+    {
+      "id": "bverfschg-5",
+      "label": "Bundesverfassungsschutzgesetz – § 5 (Abgrenzung der Zuständigkeiten)",
+      "url": "https://www.gesetze-im-internet.de/bverfschg/__5.html"
+    },
+    {
+      "id": "mi-lsa-verfassungsschutz",
+      "label": "Ministerium für Inneres und Sport Sachsen-Anhalt – Verfassungsschutz: Wir über uns",
+      "url": "https://mi.sachsen-anhalt.de/verfassungsschutz/page/wir-ueber-uns"
+    },
+    {
+      "id": "beck-aktuell-lfv-lsa-2023",
+      "label": "beck-aktuell – Verfassungsschutz stuft AfD Sachsen-Anhalt als gesichert rechtsextremistisch ein (8.11.2023)",
+      "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsgeschehen/verfassungsschutz-afd-sachsen-anhalt-gesichert-rechtsextremistisch-2023-11-08"
+    },
+    {
+      "id": "correctiv-afd-einstufung-2026",
+      "label": "Correctiv – Justiz: Ab wann ist die AfD gesichert rechtsextrem? (5.3.2026)",
+      "url": "https://correctiv.org/aktuelles/afd/2026/03/05/justiz-ab-wann-ist-die-afd-gesichert-rechtsextrem/"
+    },
+    {
+      "id": "lto-vg-koeln-afd-2026",
+      "label": "Legal Tribune Online – VG Köln stoppt Hochstufung der AfD als gesichert rechtsextrem (26.2.2026)",
+      "url": "https://www.lto.de/recht/nachrichten/n/13l110925-vg-koeln-stoppt-hochstufung-afd-als-gesichert-rechtsextrem"
+    },
+    {
+      "id": "beck-aktuell-bmi-keine-beschwerde",
+      "label": "beck-aktuell – AfD bleibt Verdachtsfall: keine Beschwerde gegen VG-Köln-Beschluss (3.3.2026)",
+      "url": "https://www.beck-aktuell.de/heute-im-recht/rechtsprechung/vg-koeln-afd-verdachtsfall-einstufung-beschwerde-eilverfahren-2026-03-03"
+    },
+    {
+      "id": "beamtstg-1",
+      "label": "Beamtenstatusgesetz – § 1 (Geltungsbereich)",
+      "url": "https://www.gesetze-im-internet.de/beamtstg/__1.html"
+    },
+    {
+      "id": "beamtstg-30",
+      "label": "Beamtenstatusgesetz – § 30 (Einstweiliger Ruhestand)",
+      "url": "https://www.gesetze-im-internet.de/beamtstg/__30.html"
+    },
+    {
+      "id": "aufenthg-71",
+      "label": "Aufenthaltsgesetz – § 71 (Zuständigkeit)",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__71.html"
+    },
+    {
+      "id": "asylg-5",
+      "label": "Asylgesetz – § 5 (Bundesamt)",
+      "url": "https://www.gesetze-im-internet.de/asylvfg_1992/__5.html"
+    },
+    {
+      "id": "bt-drs-20-14946",
+      "label": "Deutscher Bundestag – Drucksache 20/14946: Abschiebungen und Ausreisen 2024 (11.2.2025)",
+      "url": "https://dserver.bundestag.de/btd/20/149/2014946.pdf"
+    },
+    {
+      "id": "bt-drs-21-4103",
+      "label": "Deutscher Bundestag – Drucksache 21/4103: Abschiebungen und Ausreisen 2025 (11.2.2026)",
+      "url": "https://dserver.bundestag.de/btd/21/041/2104103.pdf"
+    },
+    {
+      "id": "bt-drs-21-4403",
+      "label": "Deutscher Bundestag – Drucksache 21/4403: Gescheiterte Abschiebungen 2025",
+      "url": "https://dserver.bundestag.de/btd/21/044/2104403.pdf"
+    },
+    {
+      "id": "bt-drs-21-1640",
+      "label": "Deutscher Bundestag – Drucksache 21/1640: Zahl der in Deutschland lebenden Flüchtlinge (Stichtag 31.7.2025)",
+      "url": "https://dserver.bundestag.de/btd/21/016/2101640.pdf"
+    },
+    {
+      "id": "stala-lsa-schulen-2025-26",
+      "label": "Statistisches Landesamt Sachsen-Anhalt – Statistischer Bericht Allgemeinbildende Schulen, Schuljahr 2025/26 (Juli 2026)",
+      "url": "https://statistik.sachsen-anhalt.de/fileadmin/Bibliothek/Landesaemter/StaLa/startseite/Themen/Bildung/Berichte/Allgemeinbildende_Schulen/6B101_2025_26_A.pdf"
+    },
+    {
+      "id": "lisa-lehrplan-grundschule-2026",
+      "label": "Ministerium für Bildung Sachsen-Anhalt / LISA – Lehrplan Grundschule (in Kraft ab 1.8.2026)",
+      "url": "https://www.bildung-lsa.de/files/7c5f6ff122fa27b7eb9822ab54ee6396/GSB_GS_LT_01082026.pdf"
+    },
+    {
+      "id": "kmk-bildungsstandards",
+      "label": "Kultusministerkonferenz – Bildungsstandards",
+      "url": "https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html"
+    },
+    {
+      "id": "bverfg-rundfunkbeitrag-2021",
+      "label": "Bundesverfassungsgericht – Pressemitteilung 69/2021: Unterlassene Zustimmung Sachsen-Anhalts zur Beitragserhöhung verletzt Rundfunkfreiheit",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2021/bvg21-069.html"
+    },
+    {
+      "id": "bverfg-rundfunk-2007",
+      "label": "Bundesverfassungsgericht – Pressemitteilung 90/2007: Festsetzung der Rundfunkgebühr",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2007/bvg07-090.html"
+    },
+    {
+      "id": "telepolis-reformstaatsvertrag",
+      "label": "Telepolis – Reform der Beitragsfestsetzung gescheitert (20.11.2025)",
+      "url": "https://www.telepolis.de/article/Reformstaatsvertrag-Oeffentlich-rechtlicher-Rundfunk-bleibt-teuer-strukturiert-11086287.html"
+    },
+    {
+      "id": "medienanstalten-mstv",
+      "label": "Die Medienanstalten – Medienstaatsvertrag (Lesefassung, § 116 Kündigung)",
+      "url": "https://www.die-medienanstalten.de/fileadmin/user_upload/Rechtsgrundlagen/Gesetze_Staatsvertraege/Medienstaatsvertrag_MStV.pdf"
+    },
+    {
+      "id": "revosax-mdr-staatsvertrag",
+      "label": "REVOSax – Staatsvertrag über den Mitteldeutschen Rundfunk (MDR) vom 12.1.2021, § 42",
+      "url": "https://revosax.sachsen.de/vorschrift/2509"
+    },
+    {
+      "id": "lto-doerr-rundfunk-2026",
+      "label": "Legal Tribune Online – Dieter Dörr: Was eine AfD-Regierung in Sachsen-Anhalt beim Rundfunk kann (25.8.2026)",
+      "url": "https://www.lto.de/recht/hintergruende/h/machtuebernahme-afd-sachsen-anhalt-rundfunk-kuerzungen"
+    },
+    {
+      "id": "beck-aktuell-rundfunk-ausstieg-2026",
+      "label": "beck-aktuell – Ausstieg aus dem Rundfunkstaatsvertrag: Was eine AfD-Regierung darf (10.9.2026)",
+      "url": "https://www.beck-aktuell.de/heute-im-recht/rechtspolitik-gesetzgebung/rundfunk-staatsvertrag-ausstieg-afd-regierung-verfassung-2026-09-10"
+    },
+    {
+      "id": "newsde-siegmund-rundfunk",
+      "label": "news.de (dpa) – Nach AfD-Wahlsieg: Siegmund bekräftigt Rundfunk-Pläne (6.9.2026)",
+      "url": "https://www.news.de/politik/859964573/nach-afd-wahlsieg-siegmund-bekraeftigt-rundfunk-plaene-landtagswahl-news-der-dpa-aktuell-zu-wahl-landtag-und-medien/1/"
+    },
+    {
+      "id": "rundfunkbeitrag-hoehe",
+      "label": "ARD ZDF Deutschlandradio Beitragsservice – Rundfunkbeitrag",
+      "url": "https://www.rundfunkbeitrag.de/"
+    },
+    {
+      "id": "beitragsservice-konten-2025",
+      "label": "Beitragsservice – Beitragskontensachverhalte 2025 nach Ländern",
+      "url": "https://www.rundfunkbeitrag.de/pxy/assets/c185a0f657e0fab901d04f138711089fbadf9db5/BS%20Beitragskontensachverhalte%202025%20final.pdf"
+    },
+    {
+      "id": "zdf-kef-empfehlung-2026",
+      "label": "ZDFheute – KEF empfiehlt Rundfunkbeitrag von 18,64 Euro ab 2027 (20.2.2026)",
+      "url": "https://www.zdfheute.de/politik/deutschland/rundfunkbeitrag-kef-empfehlung-anhebung-ard-zdf-100.html"
+    },
+    {
+      "id": "bundesrat-stimmenverteilung",
+      "label": "Bundesrat – Stimmenverteilung",
+      "url": "https://www.bundesrat.de/DE/bundesrat/verteilung/verteilung-node.html"
+    },
+    {
+      "id": "bundesrat-sachsen-anhalt",
+      "label": "Bundesrat – Sachsen-Anhalt",
+      "url": "https://www.bundesrat.de/DE/bundesrat/laender/st/st-node.html"
+    },
+    {
+      "id": "bundesrat-stimmabgabe",
+      "label": "Bundesrat – Stimmabgabe",
+      "url": "https://www.bundesrat.de/DE/bundesrat/br-plenum/stimmabgabe/stimmabgabe-node.html"
+    },
+    {
+      "id": "bundesrat-zustimmungsgesetze",
+      "label": "Bundesrat – Zustimmungs- und Einspruchsgesetze",
+      "url": "https://www.bundesrat.de/DE/aufgaben/gesetzgebung/zust-einspr/zust-einspr.html"
+    },
+    {
+      "id": "bundesrat-statistik-gesamt",
+      "label": "Bundesrat – Gesamtstatistik der Gesetzgebung (Stand 9.5.2025)",
+      "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/gesamtstatistik.pdf"
+    },
+    {
+      "id": "bundesrat-statistik-21wp",
+      "label": "Bundesrat – Statistik 21. Wahlperiode (Stand 25.9.2026)",
+      "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/21wp.pdf"
+    },
+    {
+      "id": "bverfgg-43",
+      "label": "Bundesverfassungsgerichtsgesetz – § 43 (Antragsberechtigung Parteiverbot)",
+      "url": "https://www.gesetze-im-internet.de/bverfgg/__43.html"
+    },
+    {
+      "id": "bverfgg-46",
+      "label": "Bundesverfassungsgerichtsgesetz – § 46 (Entscheidung im Parteiverbotsverfahren)",
+      "url": "https://www.gesetze-im-internet.de/bverfgg/__46.html"
+    },
+    {
+      "id": "bwahlg-46",
+      "label": "Bundeswahlgesetz – § 46 (Verlust der Mitgliedschaft im Bundestag)",
+      "url": "https://www.gesetze-im-internet.de/bwahlg/__46.html"
+    },
+    {
+      "id": "bay-lwg-59",
+      "label": "Bayerisches Landeswahlgesetz – Art. 59 (Verlust des Sitzes bei Parteiverbot)",
+      "url": "https://www.gesetze-bayern.de/Content/Document/BayLWG-59"
+    },
+    {
+      "id": "bverfg-geschichte",
+      "label": "Bundesverfassungsgericht – Geschichte (SRP-Verbot 1952)",
+      "url": "https://www.bundesverfassungsgericht.de/DE/DasBundesverfassungsgericht/Geschichte/geschichte_node.html"
+    },
+    {
+      "id": "bpb-kpd-verbot",
+      "label": "Bundeszentrale für politische Bildung – Verbot der KPD 1956",
+      "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/580520/verbot-der-kpd-1956/"
+    },
+    {
+      "id": "bverfg-npd-2003",
+      "label": "Bundesverfassungsgericht – Pressemitteilung 22/2003: Einstellung des NPD-Verbotsverfahrens",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2003/bvg03-022.html"
+    },
+    {
+      "id": "bverfg-npd-2017",
+      "label": "Bundesverfassungsgericht – Pressemitteilung 4/2017: Kein Verbot der NPD",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2017/bvg17-004.html"
+    },
+    {
+      "id": "bverfg-heimat-2024",
+      "label": "Bundesverfassungsgericht – Pressemitteilung 9/2024: ‚Die Heimat‘ von staatlicher Finanzierung ausgeschlossen",
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html"
+    },
+    {
+      "id": "bundestag-afd-verbot-2025",
+      "label": "Deutscher Bundestag – Textarchiv: Erste Beratung der Anträge zu einem AfD-Verbotsverfahren (30.1.2025)",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/2025/kw05-de-afd-1042014"
+    },
+    {
+      "id": "tagesspiegel-pistorius-oezdemir",
+      "label": "Tagesspiegel (dpa) – Özdemir und Pistorius fordern Verbotsverfahren gegen die AfD (2026)",
+      "url": "https://www.tagesspiegel.de/politik/dpa-vor-der-landtagswahl-in-sachsen-anhalt-ozdemir-und-pistorius-fordern-verbotsverfahren-gegen-die-afd-15993610.html"
+    },
+    {
+      "id": "tagesspiegel-wuest-arbeitsgruppe",
+      "label": "Tagesspiegel (dpa) – Nach Sachsen-Anhalt-Wahl: Wüst schlägt Bund-Länder-Arbeitsgruppe vor (8.9.2026)",
+      "url": "https://www.tagesspiegel.de/politik/dpa-nach-sachsen-anhalt-wahl-16029779.html"
+    },
+    {
+      "id": "correctiv-afd-verbot-ticker",
+      "label": "Correctiv – Debatte um AfD-Verbot (Ticker, Stand Oktober 2026)",
+      "url": "https://correctiv.org/themen/afd-verbot/"
+    },
+    {
+      "id": "verfassungsblog-teilverbot",
+      "label": "Verfassungsblog – Heußner/Pautsch: Paradoxien und Anpassungsbedarf im BVerfGG (28.3.2024)",
+      "url": "https://verfassungsblog.de/paradoxien-und-anpassungsbedarf-im-bverfgg/"
+    },
+    {
+      "id": "verfassungsblog-egmr-parteiverbot",
+      "label": "Verfassungsblog – Theo Rust: Was eine europäische Demokratie aushalten muss (9.5.2025)",
+      "url": "https://verfassungsblog.de/was-eine-europaische-demokratie-aushalten-muss/"
+    },
+    {
+      "id": "schuster-2026-firewall",
+      "label": "Schuster, Goedeking, Erhardt, Huber & Wuttke – Breaching the firewall, Electoral Studies 104 (2026)",
+      "url": "https://doi.org/10.1016/j.electstud.2026.103133"
+    },
+    {
+      "id": "fahey-alarian-2025",
+      "label": "Fahey & Alarian – Tear Down This (Fire)Wall?, German Politics and Society 43(4) (2025)",
+      "url": "https://doi.org/10.3167/gps.2025.430404"
+    },
+    {
+      "id": "daur-2025",
+      "label": "Daur – Legitimize or Delegitimize?, American Political Science Review 119(3) (2025)",
+      "url": "https://doi.org/10.1017/S0003055424000996"
+    },
+    {
+      "id": "van-spanje-weber-2019",
+      "label": "van Spanje & Weber – Does ostracism affect party support?, Party Politics 25 (2019)",
+      "url": "https://doi.org/10.1177/1354068817730722"
+    },
+    {
+      "id": "van-spanje-de-graaf-2018",
+      "label": "van Spanje & de Graaf – How established parties reduce other parties' electoral support, West European Politics 41(1) (2018)",
+      "url": "https://doi.org/10.1080/01402382.2017.1332328"
+    },
+    {
+      "id": "krause-cohen-abou-chadi-2023",
+      "label": "Krause, Cohen & Abou-Chadi – Does accommodation work?, Political Science Research and Methods 11(1) (2023)",
+      "url": "https://doi.org/10.1017/psrm.2022.8"
+    },
+    {
+      "id": "van-spanje-2011",
+      "label": "van Spanje – Keeping the rascals in, European Journal of Political Research 50(5) (2011)",
+      "url": "https://doi.org/10.1111/j.1475-6765.2010.01984.x"
+    },
+    {
+      "id": "akkerman-rooduijn-2015",
+      "label": "Akkerman & Rooduijn – Pariahs or partners?, Political Studies 63(5) (2015)",
+      "url": "https://doi.org/10.1111/1467-9248.12146"
+    },
+    {
+      "id": "akkerman-de-lange-rooduijn-2016",
+      "label": "Akkerman, de Lange & Rooduijn – Why radical right-wing populist parties remain radical in government, LSE EUROPP (23.8.2016)",
+      "url": "https://blogs.lse.ac.uk/europpblog/2016/08/23/avoiding-the-mainstream-why-radical-right-wing-populist-parties-remain-radical-in-government"
+    },
+    {
+      "id": "bmi-at-nrw-1999",
+      "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 1999",
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_1999/start.html"
+    },
+    {
+      "id": "bmi-at-nrw-2002",
+      "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2002",
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_2002/start.html"
+    },
+    {
+      "id": "bmi-at-nrw-2006",
+      "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2006",
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_2006/start.html"
+    },
+    {
+      "id": "bmi-at-nrw-2017",
+      "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2017",
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2017/start.aspx"
+    },
+    {
+      "id": "bmi-at-nrw-2019",
+      "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2019",
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2019/start.aspx"
+    },
+    {
+      "id": "bmi-at-nrw-2024",
+      "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2024",
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.aspx"
+    },
+    {
+      "id": "ep-ergebnisse-italien-2024",
+      "label": "Europäisches Parlament – Ergebnisse der Europawahl 2024: Italien",
+      "url": "https://results.elections.europa.eu/en/national-results/italy/2024-2029/"
+    }
   ]
 }
