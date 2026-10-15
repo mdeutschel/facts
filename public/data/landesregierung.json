@@ -880,7 +880,9 @@
             "bpb-kpd-verbot",
             "bverfg-npd-2003",
             "bverfg-npd-2017",
-            "bverfg-heimat-2024"
+            "bverfg-heimat-2024",
+            "bpb-npd-antrag-2013",
+            "lto-presseschau-heimat-2024"
           ]
         },
         {
@@ -1208,7 +1210,7 @@
     {
       "id": "sperrminoritaet-verfassung",
       "claim": "Ohne die AfD kann in Sachsen-Anhalt keine Verfassungsänderung mehr beschlossen werden.",
-      "response": "Das stimmt. Verfassungsänderungen brauchen zwei Drittel der Mitglieder, also 56 von 83 Stimmen. Alle anderen Fraktionen zusammen kommen nur auf 44 Sitze. Mit 39 Sitzen hält die AfD damit eine Sperrminorität, die auch für die Selbstauflösung des Landtags und die Abberufung des Landtagspräsidenten gilt. Für die Wahl von Landesverfassungsrichtern hat der alte Landtag 2026 einen Ersatzweg geschaffen: Nach sechs Monaten genügt für einen Vorschlag des Landesverfassungsgerichts die Mehrheit der Mitglieder.",
+      "response": "Das stimmt. Verfassungsänderungen brauchen zwei Drittel der Mitglieder, also 56 von 83 Stimmen. Alle anderen Fraktionen zusammen kommen nur auf 44 Sitze. Mit 39 Sitzen hält die AfD damit eine Sperrminorität, die auch für die reguläre Selbstauflösung des Landtags und die Abberufung des Landtagspräsidenten gilt. Eine Ausnahme: Scheitert die Wahl des Ministerpräsidenten in zwei Wahlgängen, genügt für die Auflösung die Mehrheit der Mitglieder. Für die Wahl von Landesverfassungsrichtern hat der alte Landtag 2026 einen Ersatzweg geschaffen: Nach sechs Monaten genügt für einen Vorschlag des Landesverfassungsgerichts die Mehrheit der Mitglieder.",
       "keywords": [
         "Sperrminorität",
         "Verfassungsänderung",
@@ -1482,7 +1484,7 @@
     {
       "id": "bpb-bundeslaender",
       "label": "Bundeszentrale für politische Bildung – Handwörterbuch politisches System: Bundesländer (2021)",
-      "url": "https://bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/201991/bundeslaender/?p=all"
+      "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/201991/bundeslaender-laender/?p=all"
     },
     {
       "id": "lsa-wahlergebnis-2026",
@@ -1531,8 +1533,8 @@
     },
     {
       "id": "abgeordnetenwatch-afd-fraktionsmittel",
-      "label": "abgeordnetenwatch.de – Vorwürfe zur Finanzierung von AfD-Bürgerdialogen (1.10.2026)",
-      "url": "https://www.abgeordnetenwatch.de/node/6701"
+      "label": "abgeordnetenwatch.de – Pressemitteilung: AfD Sachsen-Anhalt, Verdacht auf verdeckte Wahlkampffinanzierung (1.10.2026)",
+      "url": "https://www.abgeordnetenwatch.de/presse/pressemitteilungen/afd-sachsen-anhalt-verdacht-auf-verdeckte-wahlkampffinanzierung-zeigt-kontrollluecke"
     },
     {
       "id": "abgeordnetenwatch-parlamentsreform-2026",
@@ -1657,7 +1659,7 @@
     {
       "id": "kmk-bildungsstandards",
       "label": "Kultusministerkonferenz – Bildungsstandards",
-      "url": "https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html"
+      "url": "https://www.kmk.org/bildungsministerkonferenz/bildungsthemen/bildungsstandards.html"
     },
     {
       "id": "bverfg-rundfunkbeitrag-2021",
@@ -1671,7 +1673,7 @@
     },
     {
       "id": "telepolis-reformstaatsvertrag",
-      "label": "Telepolis – Reform der Beitragsfestsetzung gescheitert (20.11.2025)",
+      "label": "Telepolis – Reformstaatsvertrag: Öffentlich-rechtlicher Rundfunk bleibt teuer strukturiert (20.11.2025)",
       "url": "https://www.telepolis.de/article/Reformstaatsvertrag-Oeffentlich-rechtlicher-Rundfunk-bleibt-teuer-strukturiert-11086287.html"
     },
     {
@@ -1682,7 +1684,7 @@
     {
       "id": "revosax-mdr-staatsvertrag",
       "label": "REVOSax – Staatsvertrag über den Mitteldeutschen Rundfunk (MDR) vom 12.1.2021, § 42",
-      "url": "https://revosax.sachsen.de/vorschrift/2509"
+      "url": "https://revosax.sachsen.de/vorschrift/19075"
     },
     {
       "id": "lto-doerr-rundfunk-2026",
@@ -1737,12 +1739,12 @@
     {
       "id": "bundesrat-statistik-gesamt",
       "label": "Bundesrat – Gesamtstatistik der Gesetzgebung (Stand 9.5.2025)",
-      "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/gesamtstatistik.pdf"
+      "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/gesamtstatistik.pdf?__blob=publicationFile"
     },
     {
       "id": "bundesrat-statistik-21wp",
       "label": "Bundesrat – Statistik 21. Wahlperiode (Stand 25.9.2026)",
-      "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/21wp.pdf"
+      "url": "https://www.bundesrat.de/SharedDocs/downloads/DE/statistik/21wp.pdf?__blob=publicationFile"
     },
     {
       "id": "bverfgg-43",
@@ -1872,32 +1874,42 @@
     {
       "id": "bmi-at-nrw-2002",
       "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2002",
-      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_2002/start.html"
+      "url": "https://www.bmi.gv.at/412/nationalratswahlen/nationalratswahl_2002/start.html"
     },
     {
       "id": "bmi-at-nrw-2006",
       "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2006",
-      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/nationalratswahl_2006/start.html"
+      "url": "https://www.bmi.gv.at/412/nationalratswahlen/nationalratswahl_2006/start.html"
     },
     {
       "id": "bmi-at-nrw-2017",
       "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2017",
-      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2017/start.aspx"
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2017/start.html"
     },
     {
       "id": "bmi-at-nrw-2019",
       "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2019",
-      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2019/start.aspx"
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2019/start.html"
     },
     {
       "id": "bmi-at-nrw-2024",
       "label": "Bundesministerium für Inneres (Österreich) – Nationalratswahl 2024",
-      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.aspx"
+      "url": "https://www.bmi.gv.at/412/Nationalratswahlen/Nationalratswahl_2024/start.html"
     },
     {
       "id": "ep-ergebnisse-italien-2024",
       "label": "Europäisches Parlament – Ergebnisse der Europawahl 2024: Italien",
       "url": "https://results.elections.europa.eu/en/national-results/italy/2024-2029/"
+    },
+    {
+      "id": "bpb-npd-antrag-2013",
+      "label": "Bundeszentrale für politische Bildung – NPD-Verbotsverfahren: Bundesrat reicht Antrag beim Bundesverfassungsgericht ein (4.12.2013)",
+      "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/174659/npd-verbotsverfahren-bundesrat-reicht-antrag-beim-bundesverfassungsgericht-ein/"
+    },
+    {
+      "id": "lto-presseschau-heimat-2024",
+      "label": "Legal Tribune Online – Presseschau vom 24.1.2024: BVerfG schließt ‚Die Heimat‘ erstmals von Parteienfinanzierung aus",
+      "url": "https://www.lto.de/recht/presseschau/p/Presseschau-24-01-2024-bverfg-NPD-finanzierung-lindemann-anwalt-ja-verbot"
     }
   ]
 }
