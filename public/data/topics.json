@@ -163,6 +163,15 @@
       "argumentCount": 11
     },
     {
+      "id": "landesregierung",
+      "title": "Was kann eine Landesregierung?",
+      "subtitle": "Zuständigkeiten von Bund und Ländern, Grenzen der Macht und der Fall Sachsen-Anhalt 2026",
+      "icon": "account_balance",
+      "lastUpdated": "2026-10-15",
+      "factCount": 11,
+      "argumentCount": 17
+    },
+    {
       "id": "bildung",
       "title": "Deutsches Bildungssystem",
       "subtitle": "Fakten zu Ausgaben, Lehrkräftemangel, PISA & Digitalisierung",
